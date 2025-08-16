@@ -7,7 +7,7 @@ const socketIo = require('socket.io');
 const cron = require('node-cron');
 require('dotenv').config();
 
-const database = require('./database/database');
+const { db, initializeDatabase } = require('./database/database');
 const deviceRoutes = require('./routes/deviceRoutes');
 const taskRoutes = require('./routes/taskRoutes');
 const authRoutes = require('./routes/authRoutes');
@@ -32,7 +32,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // Database initialization
-database.initialize();
+initializeDatabase();
 
 // Socket.IO connection handling
 io.on('connection', (socket) => {

@@ -1,283 +1,182 @@
-const sqlite3 = require('sqlite3').verbose();
-const path = require('path');
-const fs = require('fs');
+const pool = require('./postgresql');
+const bcrypt = require('bcryptjs');
 
-class Database {
-  constructor() {
-    this.dbPath = path.join(__dirname, '../data/tselzap.db');
-    this.db = null;
-  }
+// Funções de banco de dados para PostgreSQL
+const db = {
+    // Executar query com retorno de múltiplas linhas
+    async query(text, params) {
+        try {
+            const result = await pool.query(text, params);
+            return result.rows;
+        } catch (error) {
+            console.error('Erro na query:', error);
+            throw error;
+        }
+    },
 
-  initialize() {
-    // Create data directory if it doesn't exist
-    const dataDir = path.dirname(this.dbPath);
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true });
+    // Executar query com retorno de uma linha
+    async get(text, params) {
+        try {
+            const result = await pool.query(text, params);
+            return result.rows[0];
+        } catch (error) {
+            console.error('Erro na query get:', error);
+            throw error;
+        }
+    },
+
+    // Executar query sem retorno (INSERT, UPDATE, DELETE)
+    async run(text, params) {
+        try {
+            const result = await pool.query(text, params);
+            return result;
+        } catch (error) {
+            console.error('Erro na query run:', error);
+            throw error;
+        }
     }
+};
 
-    this.db = new sqlite3.Database(this.dbPath, (err) => {
-      if (err) {
-        console.error('Erro ao conectar ao banco de dados:', err);
-      } else {
-        console.log('✅ Conectado ao banco de dados SQLite');
-        this.createTables();
-      }
-    });
-  }
+// Inicializar banco de dados
+async function initializeDatabase() {
+    try {
+        console.log('🔄 Inicializando banco de dados PostgreSQL...');
 
-  createTables() {
-    const tables = [
-      // Users table
-      `CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        username TEXT UNIQUE NOT NULL,
-        password TEXT NOT NULL,
-        email TEXT UNIQUE,
-        role TEXT DEFAULT 'admin',
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-      )`,
-
-      // Devices table
-      `CREATE TABLE IF NOT EXISTS devices (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        device_id TEXT UNIQUE NOT NULL,
-        device_name TEXT,
-        phone_number TEXT,
-        android_version TEXT,
-        app_version TEXT,
-        status TEXT DEFAULT 'offline',
-        last_seen DATETIME,
-        current_day INTEGER DEFAULT 1,
-        total_tasks_completed INTEGER DEFAULT 0,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-      )`,
-
-      // Tasks table
-      `CREATE TABLE IF NOT EXISTS tasks (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        day_number INTEGER NOT NULL,
-        task_type TEXT NOT NULL,
-        task_description TEXT NOT NULL,
-        task_data JSON,
-        priority INTEGER DEFAULT 1,
-        is_active BOOLEAN DEFAULT 1,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-      )`,
-
-      // Device Tasks table (relationship between devices and tasks)
-      `CREATE TABLE IF NOT EXISTS device_tasks (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        device_id INTEGER,
-        task_id INTEGER,
-        status TEXT DEFAULT 'pending',
-        started_at DATETIME,
-        completed_at DATETIME,
-        result_data JSON,
-        error_message TEXT,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (device_id) REFERENCES devices (id),
-        FOREIGN KEY (task_id) REFERENCES tasks (id)
-      )`,
-
-      // Task Logs table
-      `CREATE TABLE IF NOT EXISTS task_logs (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        device_id INTEGER,
-        task_id INTEGER,
-        action TEXT NOT NULL,
-        details JSON,
-        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (device_id) REFERENCES devices (id),
-        FOREIGN KEY (task_id) REFERENCES tasks (id)
-      )`,
-
-      // Daily Progress table
-      `CREATE TABLE IF NOT EXISTS daily_progress (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        device_id INTEGER,
-        day_number INTEGER,
-        tasks_completed INTEGER DEFAULT 0,
-        total_tasks INTEGER DEFAULT 0,
-        start_time DATETIME,
-        end_time DATETIME,
-        status TEXT DEFAULT 'in_progress',
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (device_id) REFERENCES devices (id)
-      )`
-    ];
-
-    tables.forEach((table) => {
-      this.db.run(table, (err) => {
-        if (err) {
-          console.error('Erro ao criar tabela:', err);
+        // Ler e executar schema SQL
+        const fs = require('fs');
+        const path = require('path');
+        const schemaPath = path.join(__dirname, 'schema.sql');
+        
+        if (fs.existsSync(schemaPath)) {
+            const schema = fs.readFileSync(schemaPath, 'utf8');
+            await pool.query(schema);
+            console.log('✅ Schema PostgreSQL criado com sucesso');
         }
-      });
-    });
 
-    // Insert default admin user
-    this.insertDefaultAdmin();
-    
-    // Insert default tasks for 21 days
-    this.insertDefaultTasks();
-  }
-
-  insertDefaultAdmin() {
-    const bcrypt = require('bcryptjs');
-    const hashedPassword = bcrypt.hashSync('admin123', 10);
-    
-    const query = `
-      INSERT OR IGNORE INTO users (username, password, email, role)
-      VALUES (?, ?, ?, ?)
-    `;
-    
-    this.db.run(query, ['admin', hashedPassword, 'admin@tselzap.com', 'admin'], (err) => {
-      if (err) {
-        console.error('Erro ao inserir admin padrão:', err);
-      } else {
-        console.log('✅ Usuário admin padrão criado');
-      }
-    });
-  }
-
-  insertDefaultTasks() {
-    const tasks = this.generateDefaultTasks();
-    
-    tasks.forEach((task) => {
-      const query = `
-        INSERT OR IGNORE INTO tasks (day_number, task_type, task_description, task_data, priority)
-        VALUES (?, ?, ?, ?, ?)
-      `;
-      
-      this.db.run(query, [
-        task.day_number,
-        task.task_type,
-        task.task_description,
-        JSON.stringify(task.task_data),
-        task.priority
-      ], (err) => {
-        if (err) {
-          console.error('Erro ao inserir tarefa:', err);
+        // Verificar se existe usuário admin
+        const adminExists = await db.get('SELECT id FROM users WHERE username = $1', ['admin']);
+        
+        if (!adminExists) {
+            // Criar usuário admin padrão
+            const hashedPassword = await bcrypt.hash('admin123', 10);
+            await db.run(
+                'INSERT INTO users (username, email, password_hash, role) VALUES ($1, $2, $3, $4)',
+                ['admin', 'admin@tselzap.com', hashedPassword, 'admin']
+            );
+            console.log('✅ Usuário admin criado');
         }
-      });
-    });
-    
-    console.log('✅ Tarefas padrão inseridas');
-  }
 
-  generateDefaultTasks() {
-    const tasks = [];
-    
-    // Day 1 tasks
-    tasks.push(
-      { day_number: 1, task_type: 'profile_setup', task_description: 'Inserir foto de perfil 70% feminina 30% masculina', task_data: { action: 'set_profile_photo', gender_ratio: { female: 70, male: 30 } }, priority: 1 },
-      { day_number: 1, task_type: 'profile_setup', task_description: 'Trocar metadados da imagem', task_data: { action: 'change_photo_metadata' }, priority: 1 },
-      { day_number: 1, task_type: 'profile_setup', task_description: 'Colocar nome e sobrenome comum', task_data: { action: 'set_common_name' }, priority: 1 },
-      { day_number: 1, task_type: 'profile_setup', task_description: 'Inserir mensagem na descrição', task_data: { action: 'set_description' }, priority: 1 },
-      { day_number: 1, task_type: 'security', task_description: 'Ativar verificação de duas etapas', task_data: { action: 'enable_2fa' }, priority: 1 },
-      { day_number: 1, task_type: 'profile_setup', task_description: 'Preencher todos os dados solicitados', task_data: { action: 'complete_profile' }, priority: 1 },
-      { day_number: 1, task_type: 'wait', task_description: 'Aguardar 24-48 horas sem uso', task_data: { action: 'wait_period', hours: 48 }, priority: 1 }
-    );
-
-    // Day 2 tasks
-    tasks.push(
-      { day_number: 2, task_type: 'group_activity', task_description: 'Entrar em 2 grupos de WhatsApp', task_data: { action: 'join_groups', count: 2 }, priority: 1 },
-      { day_number: 2, task_type: 'receive_messages', task_description: 'Receber 2 mensagens na manhã', task_data: { action: 'receive_messages', count: 2, period: 'morning' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_messages', task_description: 'Receber 3 mensagens na tarde', task_data: { action: 'receive_messages', count: 3, period: 'afternoon' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_audio', task_description: 'Receber 4 áudios na manhã', task_data: { action: 'receive_audio', count: 4, period: 'morning' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_audio', task_description: 'Receber 1 áudio na tarde', task_data: { action: 'receive_audio', count: 1, period: 'afternoon' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_images', task_description: 'Receber 3 imagens na manhã', task_data: { action: 'receive_images', count: 3, period: 'morning' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_images', task_description: 'Receber 2 imagens na tarde', task_data: { action: 'receive_images', count: 2, period: 'afternoon' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_videos', task_description: 'Receber 1 vídeo na manhã', task_data: { action: 'receive_videos', count: 1, period: 'morning' }, priority: 1 },
-      { day_number: 2, task_type: 'receive_videos', task_description: 'Receber 1 vídeo na tarde', task_data: { action: 'receive_videos', count: 1, period: 'afternoon' }, priority: 1 },
-      { day_number: 2, task_type: 'message_management', task_description: 'Apagar uma mensagem em 2 conversas diferentes', task_data: { action: 'delete_messages', conversations: 2 }, priority: 1 }
-    );
-
-    // Continue for all 21 days...
-    // For brevity, I'll add a few more key days
-    for (let day = 3; day <= 21; day++) {
-      const dayTasks = this.generateDayTasks(day);
-      tasks.push(...dayTasks);
+        // Inserir tarefas padrão (21 dias)
+        await insertDefaultTasks();
+        
+        console.log('✅ Banco de dados PostgreSQL inicializado com sucesso!');
+        
+    } catch (error) {
+        console.error('❌ Erro ao inicializar banco de dados:', error);
+        throw error;
     }
-
-    return tasks;
-  }
-
-  generateDayTasks(dayNumber) {
-    const tasks = [];
-    
-    // Generate tasks based on the day number
-    // This is a simplified version - you can expand based on your specific requirements
-    const baseTasks = [
-      { type: 'conversation', description: `Conversar com ${Math.min(dayNumber * 2, 86)} novos contatos`, data: { action: 'conversation', count: Math.min(dayNumber * 2, 86) } },
-      { type: 'receive_messages', description: `Receber ${Math.min(dayNumber * 3, 112)} mensagens na manhã`, data: { action: 'receive_messages', count: Math.min(dayNumber * 3, 112), period: 'morning' } },
-      { type: 'receive_messages', description: `Receber ${Math.min(dayNumber * 2, 98)} mensagens na tarde`, data: { action: 'receive_messages', count: Math.min(dayNumber * 2, 98), period: 'afternoon' } },
-      { type: 'send_messages', description: `Enviar ${Math.min(dayNumber * 2, 24)} mensagens`, data: { action: 'send_messages', count: Math.min(dayNumber * 2, 24) } },
-      { type: 'post_status', description: `Postar ${Math.min(dayNumber * 20, 600)} status`, data: { action: 'post_status', count: Math.min(dayNumber * 20, 600) } }
-    ];
-
-    baseTasks.forEach((task, index) => {
-      tasks.push({
-        day_number: dayNumber,
-        task_type: task.type,
-        task_description: task.description,
-        task_data: task.data,
-        priority: index + 1
-      });
-    });
-
-    return tasks;
-  }
-
-  // Database operations
-  query(sql, params = []) {
-    return new Promise((resolve, reject) => {
-      this.db.all(sql, params, (err, rows) => {
-        if (err) {
-          reject(err);
-        } else {
-          resolve(rows);
-        }
-      });
-    });
-  }
-
-  run(sql, params = []) {
-    return new Promise((resolve, reject) => {
-      this.db.run(sql, params, function(err) {
-        if (err) {
-          reject(err);
-        } else {
-          resolve({ id: this.lastID, changes: this.changes });
-        }
-      });
-    });
-  }
-
-  get(sql, params = []) {
-    return new Promise((resolve, reject) => {
-      this.db.get(sql, params, (err, row) => {
-        if (err) {
-          reject(err);
-        } else {
-          resolve(row);
-        }
-      });
-    });
-  }
-
-  close() {
-    if (this.db) {
-      this.db.close((err) => {
-        if (err) {
-          console.error('Erro ao fechar banco de dados:', err);
-        } else {
-          console.log('Banco de dados fechado');
-        }
-      });
-    }
-  }
 }
 
-module.exports = new Database();
+// Inserir tarefas padrão
+async function insertDefaultTasks() {
+    const tasks = [
+        // Dia 1
+        { day: 1, type: 'profile_setup', description: 'Configurar foto de perfil', count: 1, time: 30 },
+        { day: 1, type: 'status_update', description: 'Atualizar status com foto', count: 2, time: 45 },
+        
+        // Dia 2
+        { day: 2, type: 'contact_add', description: 'Adicionar 5 contatos', count: 5, time: 60 },
+        { day: 2, type: 'message_send', description: 'Enviar 3 mensagens', count: 3, time: 90 },
+        
+        // Dia 3
+        { day: 3, type: 'group_join', description: 'Entrar em 2 grupos', count: 2, time: 60 },
+        { day: 3, type: 'group_message', description: 'Enviar mensagem em grupo', count: 1, time: 30 },
+        
+        // Dia 4
+        { day: 4, type: 'call_make', description: 'Fazer 1 chamada de voz', count: 1, time: 120 },
+        { day: 4, type: 'status_view', description: 'Visualizar 10 status', count: 10, time: 45 },
+        
+        // Dia 5
+        { day: 5, type: 'contact_import', description: 'Importar contatos do SIM', count: 1, time: 30 },
+        { day: 5, type: 'message_reply', description: 'Responder 5 mensagens', count: 5, time: 90 },
+        
+        // Dia 6
+        { day: 6, type: 'group_create', description: 'Criar 1 grupo', count: 1, time: 60 },
+        { day: 6, type: 'status_reply', description: 'Responder 3 status', count: 3, time: 45 },
+        
+        // Dia 7
+        { day: 7, type: 'call_receive', description: 'Receber 1 chamada', count: 1, time: 180 },
+        { day: 7, type: 'contact_edit', description: 'Editar 3 contatos', count: 3, time: 60 },
+        
+        // Dia 8
+        { day: 8, type: 'message_forward', description: 'Encaminhar 2 mensagens', count: 2, time: 30 },
+        { day: 8, type: 'group_admin', description: 'Ser admin de grupo', count: 1, time: 60 },
+        
+        // Dia 9
+        { day: 9, type: 'status_upload', description: 'Fazer upload de vídeo', count: 1, time: 120 },
+        { day: 9, type: 'contact_block', description: 'Bloquear 1 contato', count: 1, time: 30 },
+        
+        // Dia 10
+        { day: 10, type: 'call_video', description: 'Fazer 1 videochamada', count: 1, time: 300 },
+        { day: 10, type: 'message_delete', description: 'Deletar 2 mensagens', count: 2, time: 30 },
+        
+        // Dia 11
+        { day: 11, type: 'group_leave', description: 'Sair de 1 grupo', count: 1, time: 30 },
+        { day: 11, type: 'status_delete', description: 'Deletar 1 status', count: 1, time: 30 },
+        
+        // Dia 12
+        { day: 12, type: 'contact_unblock', description: 'Desbloquear contato', count: 1, time: 30 },
+        { day: 12, type: 'message_search', description: 'Buscar mensagens', count: 3, time: 45 },
+        
+        // Dia 13
+        { day: 13, type: 'group_settings', description: 'Configurar grupo', count: 1, time: 60 },
+        { day: 13, type: 'status_archive', description: 'Arquivar status', count: 2, time: 30 },
+        
+        // Dia 14
+        { day: 14, type: 'call_history', description: 'Ver histórico de chamadas', count: 1, time: 30 },
+        { day: 14, type: 'contact_favorite', description: 'Favoritar 3 contatos', count: 3, time: 45 },
+        
+        // Dia 15
+        { day: 15, type: 'message_archive', description: 'Arquivar conversas', count: 2, time: 30 },
+        { day: 15, type: 'group_pin', description: 'Fixar mensagem em grupo', count: 1, time: 30 },
+        
+        // Dia 16
+        { day: 16, type: 'status_reaction', description: 'Reagir a status', count: 5, time: 45 },
+        { day: 16, type: 'contact_share', description: 'Compartilhar contato', count: 2, time: 30 },
+        
+        // Dia 17
+        { day: 17, type: 'call_mute', description: 'Silenciar chamada', count: 1, time: 30 },
+        { day: 17, type: 'message_star', description: 'Marcar mensagens', count: 3, time: 30 },
+        
+        // Dia 18
+        { day: 18, type: 'group_backup', description: 'Fazer backup de grupo', count: 1, time: 120 },
+        { day: 18, type: 'status_share', description: 'Compartilhar status', count: 2, time: 30 },
+        
+        // Dia 19
+        { day: 19, type: 'contact_merge', description: 'Mesclar contatos duplicados', count: 1, time: 60 },
+        { day: 19, type: 'message_export', description: 'Exportar conversa', count: 1, time: 90 },
+        
+        // Dia 20
+        { day: 20, type: 'call_record', description: 'Gravar chamada', count: 1, time: 180 },
+        { day: 20, type: 'group_restore', description: 'Restaurar grupo', count: 1, time: 60 },
+        
+        // Dia 21
+        { day: 21, type: 'final_verification', description: 'Verificação final do chip', count: 1, time: 300 },
+        { day: 21, type: 'system_cleanup', description: 'Limpeza do sistema', count: 1, time: 120 }
+    ];
+
+    for (const task of tasks) {
+        try {
+            await db.run(
+                'INSERT INTO tasks (day_number, task_type, description, target_count, time_spread_minutes) VALUES ($1, $2, $3, $4, $5) ON CONFLICT DO NOTHING',
+                [task.day, task.type, task.description, task.count, task.time]
+            );
+        } catch (error) {
+            console.log(`Tarefa dia ${task.day} já existe ou erro:`, error.message);
+        }
+    }
+    
+    console.log('✅ Tarefas padrão inseridas');
+}
+
+module.exports = { db, initializeDatabase };
