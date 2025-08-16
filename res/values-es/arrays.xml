@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="method_send_options">
+        <item>Envío normal</item>
+        <item>Envío por enlace</item>
+        <item>Envío por búsqueda</item>
+    </string-array>
+</resources>

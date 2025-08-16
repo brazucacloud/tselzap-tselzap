@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/sender" android:id="@id/nav_home" android:title="@string/auto_send" />
+        <item android:icon="@drawable/bot_icon" android:id="@id/chat_bot" android:title="@string/chat_bot" />
+        <item android:icon="@drawable/baseline_local_fire_department_24" android:id="@id/api_sender" android:title="@string/auto_send_api" />
+        <item android:icon="@drawable/baseline_hub_24" android:id="@id/api_custom" android:title="@string/auto_send_api_custom" />
+        <item android:icon="@drawable/ic_contacts" android:id="@id/api_contacts" android:title="@string/api_contacts" />
+        <item android:icon="@drawable/baseline_settings_24" android:id="@id/nav_config" android:title="@string/settings" />
+    </group>
+</menu>

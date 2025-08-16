@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/baseline_hub_24" app:tint="@color/colorPrimary" />
+                    <TextView android:textAppearance="?textAppearanceSubtitle1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Configuração da API" />
+                </LinearLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/apilayoutinput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:hint="URL da API customizada" app:endIconMode="clear_text" app:endIconTint="@color/colorPrimary" app:startIconTint="@color/colorPrimary" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText android:textSize="14.0sp" android:textColor="@color/text_primary" android:id="@id/textinputsite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" android:fontFamily="@font/opensans_regular" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="1.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rounded_background_light" android:padding="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/ic_phone" app:tint="@color/colorPrimary" />
+                            <TextView android:textAppearance="?textAppearanceBody2" android:id="@id/textPhoneUser" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="WhatsApp: Não informado\nBusiness: Não informado" />
+                        </LinearLayout>
+                        <ImageView android:id="@id/btnEditPhone" android:background="?selectableItemBackgroundBorderless" android:padding="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/ic_edit" app:tint="@color/colorPrimary" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/colorPrimary" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_info" app:tint="@android:color/white" />
+                        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Para um fluxo maior de mensagens, fora da rede TselZap." android:textAlignment="textStart" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout android:orientation="vertical" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginEnd="4.0dip">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="4.0dip" app:srcCompat="@drawable/ic_settings_time" app:tint="@color/colorPrimary" />
+                            <TextView android:textAppearance="?textAppearanceBody2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/request_delay_sec" />
+                        </LinearLayout>
+                        <com.shawnlin.numberpicker.NumberPicker android:id="@id/number_picker_api" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" app:np_dividerColor="@color/colorPrimary" app:np_height="60.0dip" app:np_max="300" app:np_min="10" app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_textColor="@color/colorPrimary" app:np_width="130.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="4.0dip">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="4.0dip" app:srcCompat="@drawable/ic_settings_time" app:tint="@color/colorPrimary" />
+                            <TextView android:textAppearance="?textAppearanceBody2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_delay_sec" />
+                        </LinearLayout>
+                        <com.shawnlin.numberpicker.NumberPicker android:id="@id/number_picker_send" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" app:np_dividerColor="@color/colorPrimary" app:np_height="60.0dip" app:np_max="120" app:np_min="5" app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_textColor="@color/colorPrimary" app:np_width="130.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_access_time" app:tint="@color/colorPrimary" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/colorPrimary" android:id="@id/textViewTimeElapsed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tempo decorrido: 0 segundos" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.material.button.MaterialButton android:id="@id/buttonStart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:minHeight="52.0dip" android:text="Iniciar Serviço" app:cornerRadius="8.0dip" app:icon="@drawable/ic_play" app:iconGravity="textStart" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="1.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/cinza_claro" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_history" app:tint="@color/colorPrimary" />
+                        <TextView android:textAppearance="?textAppearanceSubtitle1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Logs do Serviço" />
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/listViewLogs" android:background="@color/cinza" android:padding="9.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.button.MaterialButton android:id="@id/clearList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:text="Limpar Logs" app:cornerRadius="8.0dip" app:icon="@drawable/ic_delete" app:iconGravity="textStart" style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/csv_icon" android:id="@id/import_csv" android:title="@string/import_csv" />
+    <item android:icon="@drawable/edit_icon" android:id="@id/manual_entry" android:title="@string/insert" />
+</menu>

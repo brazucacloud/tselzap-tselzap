@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="?colorTextPrimary" android:id="@id/textViewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/shipping_api_settings" android:textAlignment="center" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="4.0dip">
+            <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="?colorTextPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/pause_settings" />
+                <com.google.android.material.switchmaterial.SwitchMaterial android:textSize="16.0sp" android:textColor="?colorTextPrimary" android:id="@id/activePauseBot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/activate_pause" />
+                <TextView android:textSize="16.0sp" android:textColor="?colorTextPrimary" android:id="@id/textViewApiTimeout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/select_inactive_time" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" app:cardBackgroundColor="@color/colorPrimary" app:cardCornerRadius="8.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pause_from" />
+                                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/textViewPauseStart1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                            </LinearLayout>
+                            <com.google.android.material.button.MaterialButton android:id="@id/btnEditInitialHour" android:layout_width="40.0dip" android:layout_height="40.0dip" app:icon="@drawable/ic_edit" app:iconGravity="textStart" app:iconPadding="0.0dip" app:iconSize="20.0dip" style="@style/Widget.MaterialComponents.Button.Icon" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" app:cardBackgroundColor="@color/colorPrimary" app:cardCornerRadius="8.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/at" />
+                                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/textViewPauseEnd1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                            </LinearLayout>
+                            <com.google.android.material.button.MaterialButton android:id="@id/btnEditEndHour" android:layout_width="40.0dip" android:layout_height="40.0dip" app:icon="@drawable/ic_edit" app:iconGravity="textStart" app:iconPadding="0.0dip" app:iconSize="20.0dip" style="@style/Widget.MaterialComponents.Button.Icon" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="8.0dip" app:cardElevation="4.0dip">
+            <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="?colorTextPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/extra_send_options" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+                    <com.google.android.material.card.MaterialCardView android:id="@id/allow_beta" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/colorPrimary" app:cardCornerRadius="8.0dip" app:cardElevation="2.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/options" app:tint="@color/white" />
+                            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Use Beta Version" android:layout_weight="1.0" />
+                            <LinearLayout android:orientation="vertical" android:id="@id/activeBetaAcc" android:background="@drawable/status_indicator" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="12.0dip" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/beta_feature_explanation" />
+                </LinearLayout>
+                <TextView android:textSize="16.0sp" android:textColor="?colorTextPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/select_send_method" />
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:cardBackgroundColor="?colorBackgroundPrimary" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:strokeColor="@color/divider" app:strokeWidth="1.0dip">
+                    <Spinner android:id="@id/spinnerMethodSend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:minHeight="48.0dip" />
+                </com.google.android.material.card.MaterialCardView>
+                <TextView android:textSize="16.0sp" android:textColor="?colorTextPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/select_send_action_optional" />
+                <com.google.android.material.checkbox.MaterialCheckBox android:textSize="16.0sp" android:textColor="?colorTextPrimary" android:id="@id/checkAddContato" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/add_to_contacts" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

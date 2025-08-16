@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:cardCornerRadius="20.0dip" app:cardElevation="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/logoImageView" android:layout_width="180.0dip" android:layout_height="50.0dip" android:src="@drawable/logo" android:contentDescription="Logo" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorPrimary" android:id="@id/textViewTimeElapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tempo decorrido: 0 segundos" android:layout_marginEnd="10.0dip" />
+            <ProgressBar android:id="@id/progressBar" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:max="100" android:progress="0" android:indeterminate="false" style="?android:progressBarStyleHorizontal" />
+            <Button android:textColor="@color/white" android:id="@id/status_btn_action" android:background="@color/colorPrimary" android:padding="10.0dip" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="START" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="end|center|top" android:id="@id/closeButton" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="4.0dip" android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
