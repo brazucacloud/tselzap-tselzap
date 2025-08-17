@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const helmet = require('helmet');
+// const helmet = require('helmet');
 const morgan = require('morgan');
 const http = require('http');
 const socketIo = require('socket.io');
@@ -24,8 +24,8 @@ const io = socketIo(server, {
   }
 });
 
-// Middleware
-app.use(helmet());
+// Middleware (CSP disabled for dashboard functionality)
+// app.use(helmet());
 app.use(cors());
 app.use(morgan('combined'));
 app.use(express.json({ limit: '10mb' }));
@@ -51,6 +51,39 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => {
     console.log('Dispositivo desconectado:', socket.id);
   });
+});
+
+// Serve static files
+app.use(express.static('public'));
+
+// Root route - redirect to dashboard
+app.get('/', (req, res) => {
+  res.redirect('/dashboard');
+});
+
+// Dashboard route
+app.get('/dashboard', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html');
+});
+
+// Test route
+app.get('/test', (req, res) => {
+  res.send(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Test</title>
+    </head>
+    <body>
+      <h1>Test Page</h1>
+      <p>Current time: ${new Date().toISOString()}</p>
+      <script>
+        console.log('Test script loaded');
+        alert('JavaScript is working!');
+      </script>
+    </body>
+    </html>
+  `);
 });
 
 // Routes
@@ -98,10 +131,10 @@ cron.schedule('0 6 * * *', () => {
 
 const PORT = process.env.PORT || 3000;
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Servidor TselZap Endpoint rodando na porta ${PORT}`);
-  console.log(`📱 Dashboard disponível em: http://localhost:${PORT}/dashboard`);
-  console.log(`🔌 WebSocket disponível em: ws://localhost:${PORT}`);
+  console.log(`📱 Dashboard disponível em: http://172.31.47.244:${PORT}/dashboard`);
+  console.log(`🔌 WebSocket disponível em: ws://172.31.47.244:${PORT}`);
 });
 
 module.exports = { app, server, io };

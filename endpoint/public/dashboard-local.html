@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TselZap Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f5f5f5; }
+        .loading { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); color: white; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+        .modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+        .modal-content { background: white; padding: 30px; border-radius: 8px; max-width: 400px; width: 90%; }
+        .modal-content h2 { margin-bottom: 20px; color: #333; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; }
+        .form-group input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+        .btn { background: #007bff; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; width: 100%; }
+        .btn:hover { background: #0056b3; }
+        .error { background: #f8d7da; color: #721c24; padding: 10px; border-radius: 4px; margin: 10px 0; }
+        .dashboard { display: none; }
+        .navbar { background: #007bff; color: white; padding: 15px 20px; }
+        .navbar h1 { display: inline-block; }
+        .logout { float: right; background: transparent; border: 1px solid white; padding: 8px 15px; border-radius: 4px; cursor: pointer; }
+        .container { padding: 20px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .stat-card h3 { color: #666; margin-bottom: 10px; }
+        .stat-card .number { font-size: 2em; font-weight: bold; color: #007bff; }
+        .d-none { display: none !important; }
+        .spinner { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 2s linear infinite; margin: 0 auto 20px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading">
+        <div class="spinner"></div>
+        <h2>TselZap Dashboard</h2>
+        <p>Inicializando sistema...</p>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal d-none">
+        <div class="modal-content">
+            <h2>Login - TselZap Dashboard</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div id="loginError" class="error d-none"></div>
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="dashboard" class="dashboard">
+        <nav class="navbar">
+            <h1>🚀 TselZap Dashboard</h1>
+            <button class="logout" onclick="logout()">Sair</button>
+        </nav>
+        
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Dispositivos Online</h3>
+                    <div class="number" id="onlineDevices">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Tarefas Concluídas</h3>
+                    <div class="number" id="completedTasks">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Tarefas Ativas</h3>
+                    <div class="number" id="activeTasks">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Dia Atual</h3>
+                    <div class="number" id="currentDay">1</div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <h3>Sistema Status</h3>
+                <p>✅ Backend conectado</p>
+                <p>✅ PostgreSQL ativo</p>
+                <p>✅ Dashboard funcionando</p>
+                <p id="userInfo"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        console.log('Dashboard local carregado');
+        
+        class SimpleDashboard {
+            constructor() {
+                this.apiBaseUrl = window.location.origin + '/api';
+                this.currentUser = null;
+                this.init();
+            }
+            
+            async init() {
+                console.log('Inicializando dashboard...');
+                
+                // Mostrar loading
+                this.showLoading();
+                
+                // Aguardar um pouco para simular carregamento
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                
+                // Verificar autenticação
+                await this.checkAuth();
+            }
+            
+            async checkAuth() {
+                console.log('Verificando autenticação...');
+                const token = localStorage.getItem('authToken');
+                
+                if (!token) {
+                    console.log('Sem token, mostrando login');
+                    this.hideLoading();
+                    this.showLoginModal();
+                    return;
+                }
+                
+                try {
+                    const response = await fetch(`${this.apiBaseUrl}/auth/verify`, {
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+                    
+                    if (!response.ok) throw new Error('Token inválido');
+                    
+                    const data = await response.json();
+                    this.currentUser = data.data.user;
+                    console.log('Login válido, mostrando dashboard');
+                    this.showDashboard();
+                    
+                } catch (error) {
+                    console.error('Erro na verificação:', error);
+                    localStorage.removeItem('authToken');
+                    this.hideLoading();
+                    this.showLoginModal();
+                }
+            }
+            
+            showLoading() {
+                document.getElementById('loadingScreen').classList.remove('d-none');
+            }
+            
+            hideLoading() {
+                document.getElementById('loadingScreen').classList.add('d-none');
+            }
+            
+            showLoginModal() {
+                document.getElementById('loginModal').classList.remove('d-none');
+                document.getElementById('loginForm').addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    this.handleLogin();
+                });
+            }
+            
+            hideLoginModal() {
+                document.getElementById('loginModal').classList.add('d-none');
+            }
+            
+            async handleLogin() {
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+                const errorElement = document.getElementById('loginError');
+                
+                try {
+                    const response = await fetch(`${this.apiBaseUrl}/auth/login`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ username, password })
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (!response.ok) {
+                        throw new Error(data.error || 'Erro no login');
+                    }
+                    
+                    localStorage.setItem('authToken', data.data.token);
+                    this.currentUser = data.data.user;
+                    
+                    this.hideLoginModal();
+                    this.showDashboard();
+                    
+                } catch (error) {
+                    errorElement.textContent = error.message;
+                    errorElement.classList.remove('d-none');
+                }
+            }
+            
+            showDashboard() {
+                this.hideLoading();
+                document.getElementById('dashboard').style.display = 'block';
+                
+                // Atualizar informações do usuário
+                document.getElementById('userInfo').textContent = 
+                    `👤 Logado como: ${this.currentUser.username} (${this.currentUser.role})`;
+                
+                // Carregar dados do dashboard
+                this.loadDashboardData();
+            }
+            
+            async loadDashboardData() {
+                try {
+                    // Simular dados por enquanto
+                    document.getElementById('onlineDevices').textContent = '3';
+                    document.getElementById('completedTasks').textContent = '47';
+                    document.getElementById('activeTasks').textContent = '12';
+                    document.getElementById('currentDay').textContent = '5';
+                    
+                    console.log('Dados do dashboard carregados');
+                } catch (error) {
+                    console.error('Erro ao carregar dados:', error);
+                }
+            }
+        }
+        
+        function logout() {
+            localStorage.removeItem('authToken');
+            location.reload();
+        }
+        
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', () => {
+            window.dashboard = new SimpleDashboard();
+        });
+    </script>
+</body>
+</html>

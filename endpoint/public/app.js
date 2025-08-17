@@ -13,23 +13,24 @@ class TselZapDashboard {
 
     async init() {
         try {
+            console.log('Starting dashboard initialization...');
+            
             // Show loading screen
             this.showLoading();
+            console.log('Loading screen shown');
             
             // Initialize Socket.IO connection
             this.initSocket();
+            console.log('Socket initialized');
             
             // Check authentication
+            console.log('Checking authentication...');
             await this.checkAuth();
-            
-            // Initialize dashboard
-            this.initDashboard();
-            
-            // Hide loading screen
-            this.hideLoading();
+            console.log('Authentication check complete');
             
         } catch (error) {
             console.error('Error initializing dashboard:', error);
+            this.hideLoading();
             this.showError('Erro ao inicializar o dashboard');
         }
     }
@@ -59,14 +60,19 @@ class TselZapDashboard {
     }
 
     async checkAuth() {
+        console.log('checkAuth started');
         const token = localStorage.getItem('authToken');
+        console.log('Token from localStorage:', token ? 'exists' : 'not found');
         
         if (!token) {
+            console.log('No token found, showing login modal');
+            this.hideLoading();
             this.showLoginModal();
             return;
         }
         
         try {
+            console.log('Verifying token with server...');
             const response = await fetch(`${this.apiBaseUrl}/auth/verify`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
@@ -79,23 +85,43 @@ class TselZapDashboard {
             
             const data = await response.json();
             this.currentUser = data.data.user;
+            console.log('Token valid, showing dashboard');
+            this.showDashboard();
             
         } catch (error) {
             console.error('Auth check failed:', error);
             localStorage.removeItem('authToken');
+            this.hideLoading();
             this.showLoginModal();
         }
     }
 
     showLoginModal() {
-        const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+        console.log('showLoginModal called');
+        const loginModalElement = document.getElementById('loginModal');
+        console.log('Login modal element:', loginModalElement);
+        
+        if (!loginModalElement) {
+            console.error('Login modal element not found!');
+            return;
+        }
+        
+        const loginModal = new bootstrap.Modal(loginModalElement);
+        console.log('Bootstrap modal created');
         loginModal.show();
+        console.log('Login modal shown');
         
         // Setup login form
-        document.getElementById('loginForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            this.handleLogin();
-        });
+        const loginForm = document.getElementById('loginForm');
+        if (loginForm) {
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                this.handleLogin();
+            });
+            console.log('Login form event listener added');
+        } else {
+            console.error('Login form not found!');
+        }
     }
 
     async handleLogin() {
@@ -132,6 +158,11 @@ class TselZapDashboard {
         }
     }
 
+    initDashboard() {
+        // Setup navigation
+        this.setupNavigation();
+    }
+
     showDashboard() {
         document.getElementById('loadingScreen').classList.add('d-none');
         document.getElementById('dashboard').classList.remove('d-none');
@@ -139,8 +170,8 @@ class TselZapDashboard {
         // Update user info
         document.getElementById('currentUser').textContent = this.currentUser.username;
         
-        // Setup navigation
-        this.setupNavigation();
+        // Initialize dashboard
+        this.initDashboard();
         
         // Load initial data
         this.loadOverviewData();

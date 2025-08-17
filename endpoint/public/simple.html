@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TselZap Dashboard - Simples</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .login-form { max-width: 400px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; }
+        input { width: 100%; padding: 10px; margin: 10px 0; }
+        button { width: 100%; padding: 10px; background: #007bff; color: white; border: none; }
+        .error { color: red; margin: 10px 0; }
+        .success { color: green; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h2>TselZap Dashboard - Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <div id="message"></div>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        console.log('Simple dashboard loaded');
+        
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const messageDiv = document.getElementById('message');
+            const resultDiv = document.getElementById('result');
+            
+            messageDiv.innerHTML = 'Fazendo login...';
+            
+            try {
+                const response = await fetch('/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ username, password })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    messageDiv.innerHTML = '<div class="success">Login realizado com sucesso!</div>';
+                    resultDiv.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+                    localStorage.setItem('authToken', data.data.token);
+                } else {
+                    messageDiv.innerHTML = '<div class="error">Erro: ' + data.error + '</div>';
+                }
+                
+            } catch (error) {
+                messageDiv.innerHTML = '<div class="error">Erro: ' + error.message + '</div>';
+                console.error('Login error:', error);
+            }
+        });
+    </script>
+</body>
+</html>

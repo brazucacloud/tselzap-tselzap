@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const database = require('../database/database');
+const { db } = require('../database/database');
 
 // Login
 router.post('/login', async (req, res) => {
@@ -17,8 +17,8 @@ router.post('/login', async (req, res) => {
     }
     
     // Get user from database
-    const user = await database.get(`
-      SELECT * FROM users WHERE username = ?
+    const user = await db.get(`
+      SELECT * FROM users WHERE username = $1
     `, [username]);
     
     if (!user) {
@@ -29,7 +29,7 @@ router.post('/login', async (req, res) => {
     }
     
     // Check password
-    const isValidPassword = await bcrypt.compare(password, user.password);
+    const isValidPassword = await bcrypt.compare(password, user.password_hash);
     
     if (!isValidPassword) {
       return res.status(401).json({
@@ -84,8 +84,8 @@ router.post('/register', async (req, res) => {
     }
     
     // Check if user already exists
-    const existingUser = await database.get(`
-      SELECT id FROM users WHERE username = ? OR email = ?
+    const existingUser = await db.get(`
+      SELECT id FROM users WHERE username = $1 OR email = $2
     `, [username, email]);
     
     if (existingUser) {
@@ -99,14 +99,14 @@ router.post('/register', async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 10);
     
     // Insert new user
-    const result = await database.run(`
-      INSERT INTO users (username, password, email, role)
-      VALUES (?, ?, ?, ?)
+    const result = await db.run(`
+      INSERT INTO users (username, password_hash, email, role)
+      VALUES ($1, $2, $3, $4) RETURNING id
     `, [username, hashedPassword, email, role]);
     
-    const newUser = await database.get(`
-      SELECT id, username, email, role, created_at FROM users WHERE id = ?
-    `, [result.id]);
+    const newUser = await db.get(`
+      SELECT id, username, email, role, created_at FROM users WHERE id = $1
+    `, [result[0].id]);
     
     res.status(201).json({
       success: true,
@@ -136,8 +136,8 @@ router.get('/profile', async (req, res) => {
     
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'tselzap-secret-key');
     
-    const user = await database.get(`
-      SELECT id, username, email, role, created_at, updated_at FROM users WHERE id = ?
+    const user = await db.get(`
+      SELECT id, username, email, role, created_at, updated_at FROM users WHERE id = $1
     `, [decoded.userId]);
     
     if (!user) {
@@ -176,8 +176,8 @@ router.put('/change-password', async (req, res) => {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'tselzap-secret-key');
     
     // Get current user
-    const user = await database.get(`
-      SELECT * FROM users WHERE id = ?
+    const user = await db.get(`
+      SELECT * FROM users WHERE id = $1
     `, [decoded.userId]);
     
     if (!user) {
@@ -201,8 +201,8 @@ router.put('/change-password', async (req, res) => {
     const hashedNewPassword = await bcrypt.hash(newPassword, 10);
     
     // Update password
-    await database.run(`
-      UPDATE users SET password = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?
+    await db.run(`
+      UPDATE users SET password_hash = $1, updated_at = CURRENT_TIMESTAMP WHERE id = $2
     `, [hashedNewPassword, decoded.userId]);
     
     res.json({
@@ -239,7 +239,7 @@ router.get('/users', async (req, res) => {
       });
     }
     
-    const users = await database.query(`
+    const users = await db.query(`
       SELECT id, username, email, role, created_at, updated_at FROM users ORDER BY created_at DESC
     `);
     
@@ -286,8 +286,8 @@ router.delete('/users/:userId', async (req, res) => {
       });
     }
     
-    const result = await database.run(`
-      DELETE FROM users WHERE id = ?
+    const result = await db.run(`
+      DELETE FROM users WHERE id = $1
     `, [userId]);
     
     if (result.changes === 0) {
