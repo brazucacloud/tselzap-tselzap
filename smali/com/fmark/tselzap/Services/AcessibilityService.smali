@@ -7804,6 +7804,7 @@
     return-object p1
 .end method
 
+.end class
 
 # Inner class for task completion
 .class Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;
