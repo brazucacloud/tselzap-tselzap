@@ -91,12 +91,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 27
-    .line 28
-    .line 29
-    return-void
+    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -137,11 +132,7 @@
     .line 17
     .line 18
     .line 19
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Chain;->references:Ljava/util/ArrayList;
-
-    .line 20
-    .line 21
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Chain;->references:Ljava/util/ArrayList;    return-void
 .end method
 
 
@@ -187,11 +178,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Chain;->mStyle:Landroidx/constraintlayout/core/dsl/Chain$Style;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Chain;->mStyle:Landroidx/constraintlayout/core/dsl/Chain$Style;    return-object v0
 .end method
 
 .method public referencesToString()Ljava/lang/String;
@@ -214,11 +201,7 @@
 
     .line 8
     .line 9
-    const-string v0, ""
-
-    .line 10
-    .line 11
-    return-object v0
+    const-string v0, ""    return-object v0
 
     .line 12
     :cond_0
@@ -340,12 +323,6 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

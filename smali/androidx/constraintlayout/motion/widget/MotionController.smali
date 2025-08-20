@@ -381,12 +381,7 @@
 
     .line 98
     .line 99
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionController;->setView(Landroid/view/View;)V
-
-    .line 100
-    .line 101
-    .line 102
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionController;->setView(Landroid/view/View;)V    return-void
 .end method
 
 .method private getAdjustedPosition(F[F)F
@@ -723,12 +718,7 @@
 
     .line 24
     .line 25
-    invoke-direct {p0}, Landroid/view/animation/OvershootInterpolator;-><init>()V
-
-    .line 26
-    .line 27
-    .line 28
-    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/OvershootInterpolator;-><init>()V    return-object p0
 
     .line 29
     :cond_1
@@ -736,12 +726,7 @@
 
     .line 30
     .line 31
-    invoke-direct {p0}, Landroid/view/animation/BounceInterpolator;-><init>()V
-
-    .line 32
-    .line 33
-    .line 34
-    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/BounceInterpolator;-><init>()V    return-object p0
 
     .line 35
     :cond_2
@@ -749,12 +734,7 @@
 
     .line 36
     .line 37
-    invoke-direct {p0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
-
-    .line 38
-    .line 39
-    .line 40
-    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V    return-object p0
 
     .line 41
     :cond_3
@@ -762,12 +742,7 @@
 
     .line 42
     .line 43
-    invoke-direct {p0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
-
-    .line 44
-    .line 45
-    .line 46
-    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V    return-object p0
 
     .line 47
     :cond_4
@@ -775,12 +750,7 @@
 
     .line 48
     .line 49
-    invoke-direct {p0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
-
-    .line 50
-    .line 51
-    .line 52
-    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V    return-object p0
 
     .line 53
     :cond_5
@@ -796,12 +766,7 @@
 
     .line 58
     .line 59
-    invoke-direct {p1, p0}, Landroidx/constraintlayout/motion/widget/MotionController$1;-><init>(Landroidx/constraintlayout/core/motion/utils/Easing;)V
-
-    .line 60
-    .line 61
-    .line 62
-    return-object p1
+    invoke-direct {p1, p0}, Landroidx/constraintlayout/motion/widget/MotionController$1;-><init>(Landroidx/constraintlayout/core/motion/utils/Easing;)V    return-object p1
 
     .line 63
     :cond_6
@@ -1262,12 +1227,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, v0, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-virtual {v1, v0, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V    return-void
 .end method
 
 .method private readView(Landroidx/constraintlayout/motion/widget/MotionPaths;)V
@@ -1340,12 +1300,7 @@
     int-to-float v3, v3
 
     .line 31
-    invoke-virtual {p1, v0, v1, v2, v3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setBounds(FFFF)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p1, v0, v1, v2, v3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setBounds(FFFF)V    return-void
 .end method
 
 
@@ -1358,12 +1313,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public addKeys(Ljava/util/ArrayList;)V
@@ -1382,12 +1332,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z    return-void
 .end method
 
 .method public buildBounds([FI)V
@@ -2004,11 +1949,7 @@
 
     .line 71
     :cond_1
-    div-int/lit8 v2, v2, 0x2
-
-    .line 72
-    .line 73
-    return v2
+    div-int/lit8 v2, v2, 0x2    return v2
 
     .line 74
     :cond_2
@@ -2176,11 +2117,7 @@
 
     .line 74
     :cond_1
-    div-int/lit8 v8, v8, 0x2
-
-    .line 75
-    .line 76
-    return v8
+    div-int/lit8 v8, v8, 0x2    return v8
 
     .line 77
     :cond_2
@@ -2870,12 +2807,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, v0, v1, p2, p3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getRect([I[D[FI)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p1, v0, v1, p2, p3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getRect([I[D[FI)V    return-void
 .end method
 
 .method public buildRectangles([FI)V
@@ -3081,11 +3013,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mAnimateRelativeTo:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mAnimateRelativeTo:I    return v0
 .end method
 
 .method public getAttributeValues(Ljava/lang/String;[FI)I
@@ -3237,34 +3165,21 @@
     move-object v8, p4
 
     .line 32
-    invoke-virtual/range {v1 .. v8}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getCenter(D[I[D[F[D[F)V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
+    invoke-virtual/range {v1 .. v8}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getCenter(D[I[D[F[D[F)V    return-void
 .end method
 
 .method public getCenterX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mCurrentCenterX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mCurrentCenterX:F    return v0
 .end method
 
 .method public getCenterY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mCurrentCenterY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mCurrentCenterY:F    return v0
 .end method
 
 .method public getDpDt(FFF[F)V
@@ -3463,12 +3378,7 @@
 
     .line 90
     .line 91
-    invoke-virtual/range {v4 .. v10}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setDpDt(FF[F[I[D[D)V
-
-    .line 92
-    .line 93
-    .line 94
-    return-void
+    invoke-virtual/range {v4 .. v10}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setDpDt(FF[F[I[D[D)V    return-void
 
     .line 95
     :cond_3
@@ -3579,11 +3489,7 @@
     const/4 p2, 0x1
 
     .line 142
-    aput p1, v7, p2
-
-    .line 143
-    .line 144
-    return-void
+    aput p1, v7, p2    return-void
 .end method
 
 .method public getDrawPath()I
@@ -3677,11 +3583,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mHeight:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mHeight:F    return v0
 .end method
 
 .method public getFinalWidth()F
@@ -3692,11 +3594,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mWidth:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mWidth:F    return v0
 .end method
 
 .method public getFinalX()F
@@ -3707,11 +3605,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mX:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mX:F    return v0
 .end method
 
 .method public getFinalY()F
@@ -3722,11 +3616,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mY:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mY:F    return v0
 .end method
 
 .method public getKeyFrame(I)Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -3745,11 +3635,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroidx/constraintlayout/motion/widget/MotionPaths;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroidx/constraintlayout/motion/widget/MotionPaths;    return-object p1
 .end method
 
 .method public getKeyFrameInfo(I[I)I
@@ -4134,11 +4020,7 @@
 
     .line 41
     .line 42
-    const/high16 p1, 0x7fc00000    # Float.NaN
-
-    .line 43
-    .line 44
-    return p1
+    const/high16 p1, 0x7fc00000    # Float.NaN    return p1
 
     .line 45
     :cond_0
@@ -4172,11 +4054,7 @@
 
     .line 56
     .line 57
-    if-nez v2, :cond_1
-
-    .line 58
-    .line 59
-    return v4
+    if-nez v2, :cond_1    return v4
 
     .line 60
     :cond_1
@@ -4226,11 +4104,7 @@
     const/4 p2, 0x5
 
     .line 80
-    if-eq p1, p2, :cond_2
-
-    .line 81
-    .line 82
-    return v4
+    if-eq p1, p2, :cond_2    return v4
 
     .line 83
     :cond_2
@@ -4477,11 +4351,7 @@
     .line 22
     .line 23
     :cond_0
-    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mInterpolateData:[D
-
-    .line 24
-    .line 25
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mInterpolateData:[D    return-object p1
 .end method
 
 .method public getPositionKeyframe(IIFF)Landroidx/constraintlayout/motion/widget/KeyPositionBase;
@@ -4659,11 +4529,7 @@
     move-result p1
 
     .line 83
-    if-eqz p1, :cond_1
-
-    .line 84
-    .line 85
-    return-object v0
+    if-eqz p1, :cond_1    return-object v0
 
     .line 86
     :cond_0
@@ -5163,12 +5029,7 @@
 
     .line 213
     .line 214
-    invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->applyTransform(FFII[F)V
-
-    .line 215
-    .line 216
-    .line 217
-    return-void
+    invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->applyTransform(FFII[F)V    return-void
 
     .line 218
     :cond_b
@@ -5334,12 +5195,7 @@
 
     .line 295
     .line 296
-    invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->applyTransform(FFII[F)V
-
-    .line 297
-    .line 298
-    .line 299
-    return-void
+    invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->applyTransform(FFII[F)V    return-void
 
     .line 300
     :cond_d
@@ -5521,12 +5377,7 @@
 
     .line 389
     .line 390
-    invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->applyTransform(FFII[F)V
-
-    .line 391
-    .line 392
-    .line 393
-    return-void
+    invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->applyTransform(FFII[F)V    return-void
 .end method
 
 .method public getStartHeight()F
@@ -5537,11 +5388,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mHeight:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mHeight:F    return v0
 .end method
 
 .method public getStartWidth()F
@@ -5552,11 +5399,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mWidth:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mWidth:F    return v0
 .end method
 
 .method public getStartX()F
@@ -5567,11 +5410,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mX:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mX:F    return v0
 .end method
 
 .method public getStartY()F
@@ -5582,33 +5421,21 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mY:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mY:F    return v0
 .end method
 
 .method public getTransformPivotTarget()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mTransformPivotTarget:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mTransformPivotTarget:I    return v0
 .end method
 
 .method public getView()Landroid/view/View;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mView:Landroid/view/View;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mView:Landroid/view/View;    return-object v0
 .end method
 
 .method public interpolate(Landroid/view/View;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
@@ -7145,12 +6972,7 @@
     move-object v7, p6
 
     .line 57
-    invoke-virtual/range {v0 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPositionBase;->positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
-
-    .line 58
-    .line 59
-    .line 60
-    return-void
+    invoke-virtual/range {v0 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPositionBase;->positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V    return-void
 .end method
 
 .method public remeasure()V
@@ -7160,11 +6982,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mForceMeasure:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mForceMeasure:Z    return-void
 .end method
 
 .method public rotate(Landroid/graphics/Rect;Landroid/graphics/Rect;III)V
@@ -7195,11 +7013,7 @@
     const/4 p5, 0x4
 
     .line 11
-    if-eq p3, p5, :cond_0
-
-    .line 12
-    .line 13
-    return-void
+    if-eq p3, p5, :cond_0    return-void
 
     .line 14
     :cond_0
@@ -7298,11 +7112,7 @@
     add-int/2addr p1, p3
 
     .line 57
-    iput p1, p2, Landroid/graphics/Rect;->bottom:I
-
-    .line 58
-    .line 59
-    return-void
+    iput p1, p2, Landroid/graphics/Rect;->bottom:I    return-void
 
     .line 60
     :cond_1
@@ -7401,11 +7211,7 @@
     add-int/2addr p1, p3
 
     .line 103
-    iput p1, p2, Landroid/graphics/Rect;->bottom:I
-
-    .line 104
-    .line 105
-    return-void
+    iput p1, p2, Landroid/graphics/Rect;->bottom:I    return-void
 
     .line 106
     :cond_2
@@ -7504,11 +7310,7 @@
     add-int/2addr p1, p3
 
     .line 149
-    iput p1, p2, Landroid/graphics/Rect;->bottom:I
-
-    .line 150
-    .line 151
-    return-void
+    iput p1, p2, Landroid/graphics/Rect;->bottom:I    return-void
 
     .line 152
     :cond_3
@@ -7607,11 +7409,7 @@
     add-int/2addr p1, p3
 
     .line 195
-    iput p1, p2, Landroid/graphics/Rect;->bottom:I
-
-    .line 196
-    .line 197
-    return-void
+    iput p1, p2, Landroid/graphics/Rect;->bottom:I    return-void
 .end method
 
 .method public setBothStates(Landroid/view/View;)V
@@ -7743,12 +7541,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/view/View;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/view/View;)V    return-void
 .end method
 
 .method public setDrawPath(I)V
@@ -7759,11 +7552,7 @@
 
     .line 2
     .line 3
-    iput p1, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mDrawPath:I
-
-    .line 4
-    .line 5
-    return-void
+    iput p1, v0, Landroidx/constraintlayout/motion/widget/MotionPaths;->mDrawPath:I    return-void
 .end method
 
 .method public setEndState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
@@ -7909,23 +7698,14 @@
 
     .line 65
     .line 66
-    invoke-virtual {p3, p1, p2, v3, p4}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
-
-    .line 67
-    .line 68
-    .line 69
-    return-void
+    invoke-virtual {p3, p1, p2, v3, p4}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V    return-void
 .end method
 
 .method public setPathMotionArc(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mPathMotionArc:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mPathMotionArc:I    return-void
 .end method
 
 .method public setStartCurrentState(Landroid/view/View;)V
@@ -7994,12 +7774,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/view/View;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/view/View;)V    return-void
 .end method
 
 .method public setStartState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
@@ -8337,11 +8112,7 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mTransformPivotView:Landroid/view/View;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mTransformPivotView:Landroid/view/View;    return-void
 .end method
 
 .method public setView(Landroid/view/View;)V
@@ -11071,12 +10842,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1, v1}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setupRelative(Landroidx/constraintlayout/motion/widget/MotionController;Landroidx/constraintlayout/motion/widget/MotionPaths;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setupRelative(Landroidx/constraintlayout/motion/widget/MotionController;Landroidx/constraintlayout/motion/widget/MotionPaths;)V    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -11180,5 +10946,4 @@
 
     return-object v0
 .end method
-
 .end class

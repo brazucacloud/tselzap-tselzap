@@ -33,12 +33,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/transition/Transition$EpicenterCallback;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Landroidx/transition/Transition$EpicenterCallback;-><init>()V    return-void
 .end method
 
 
@@ -51,11 +46,6 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$1;->val$epicenter:Landroid/graphics/Rect;
-
-    .line 2
-    .line 3
-    return-object p1
+    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$1;->val$epicenter:Landroid/graphics/Rect;    return-object p1
 .end method
-
 .end class

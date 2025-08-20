@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -139,11 +134,7 @@
 
     .line 40
     :goto_1
-    if-ne v2, v3, :cond_2
-
-    .line 41
-    .line 42
-    return-void
+    if-ne v2, v3, :cond_2    return-void
 
     .line 43
     :cond_2
@@ -227,12 +218,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {p2, v0, p1, v1, v2}, Landroid/os/Handler;->postAtTime(Ljava/lang/Runnable;Ljava/lang/Object;J)Z
-
-    .line 83
-    .line 84
-    .line 85
-    return-void
+    invoke-virtual {p2, v0, p1, v1, v2}, Landroid/os/Handler;->postAtTime(Ljava/lang/Runnable;Ljava/lang/Object;J)Z    return-void
 .end method
 
 .method public onItemHoverExit(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V
@@ -255,12 +241,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {p2, p1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p2, p1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V    return-void
 .end method
-
 .end class

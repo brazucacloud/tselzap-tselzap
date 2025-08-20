@@ -452,11 +452,7 @@
     move-result v3
 
     .line 27
-    if-nez v3, :cond_0
-
-    .line 28
-    .line 29
-    return v1
+    if-nez v3, :cond_0    return v1
 
     .line 30
     :cond_0
@@ -569,11 +565,7 @@
 
     .line 8
     .line 9
-    aget p1, v0, p1
-
-    .line 10
-    .line 11
-    return p1
+    aget p1, v0, p1    return p1
 
     .line 12
     :cond_0
@@ -623,56 +615,7 @@
     .line 34
     .line 35
     .line 36
-    throw v0
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 .method public final elementAtOrElse(ILp1/l;)F
     .locals 1
@@ -715,11 +658,7 @@
 
     .line 13
     .line 14
-    aget p1, p2, p1
-
-    .line 15
-    .line 16
-    return p1
+    aget p1, p2, p1    return p1
 
     .line 17
     :cond_0
@@ -1557,11 +1496,7 @@
 
     .line 8
     .line 9
-    aget p1, v0, p1
-
-    .line 10
-    .line 11
-    return p1
+    aget p1, v0, p1    return p1
 
     .line 12
     :cond_0
@@ -1611,56 +1546,7 @@
     .line 34
     .line 35
     .line 36
-    throw v0
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 .method public final getIndices()Lu1/g;
     .locals 2
@@ -1694,11 +1580,7 @@
 
     .line 2
     .line 3
-    add-int/lit8 v0, v0, -0x1
-
-    .line 4
-    .line 5
-    return v0
+    add-int/lit8 v0, v0, -0x1    return v0
 .end method
 
 .method public final getSize()I
@@ -1708,11 +1590,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatList;->_size:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I    return v0
 .end method
 
 .method public hashCode()I
@@ -1796,11 +1674,7 @@
 
     .line 11
     .line 12
-    if-nez v3, :cond_0
-
-    .line 13
-    .line 14
-    return v2
+    if-nez v3, :cond_0    return v2
 
     .line 15
     :cond_0
@@ -1885,11 +1759,7 @@
     move-result v3
 
     .line 29
-    if-eqz v3, :cond_0
-
-    .line 30
-    .line 31
-    return v2
+    if-eqz v3, :cond_0    return v2
 
     .line 32
     :cond_0
@@ -1978,11 +1848,7 @@
     move-result v2
 
     .line 31
-    if-eqz v2, :cond_0
-
-    .line 32
-    .line 33
-    return v1
+    if-eqz v2, :cond_0    return v1
 
     .line 34
     :cond_0
@@ -2985,11 +2851,7 @@
 
     .line 13
     .line 14
-    if-nez v2, :cond_0
-
-    .line 15
-    .line 16
-    return v1
+    if-nez v2, :cond_0    return v1
 
     .line 17
     :cond_0
@@ -3092,11 +2954,7 @@
     move-result v3
 
     .line 31
-    if-eqz v3, :cond_0
-
-    .line 32
-    .line 33
-    return v2
+    if-eqz v3, :cond_0    return v2
 
     .line 34
     :cond_0
@@ -3153,5 +3011,4 @@
 
     return-object v1
 .end method
-
 .end class

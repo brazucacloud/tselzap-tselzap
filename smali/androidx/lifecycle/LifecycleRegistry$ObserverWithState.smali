@@ -56,11 +56,7 @@
 
     .line 17
     .line 18
-    iput-object p2, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
-
-    .line 19
-    .line 20
-    return-void
+    iput-object p2, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;    return-void
 .end method
 
 
@@ -120,33 +116,21 @@
     .line 26
     .line 27
     .line 28
-    iput-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
-
-    .line 29
-    .line 30
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;    return-void
 .end method
 
 .method public final getLifecycleObserver()Landroidx/lifecycle/LifecycleEventObserver;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;    return-object v0
 .end method
 
 .method public final getState()Landroidx/lifecycle/Lifecycle$State;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;    return-object v0
 .end method
 
 .method public final setLifecycleObserver(Landroidx/lifecycle/LifecycleEventObserver;)V
@@ -162,11 +146,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;    return-void
 .end method
 
 .method public final setState(Landroidx/lifecycle/Lifecycle$State;)V
@@ -182,11 +162,6 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;    return-void
 .end method
-
 .end class

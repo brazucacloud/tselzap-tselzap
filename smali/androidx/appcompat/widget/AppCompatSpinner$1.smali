@@ -33,12 +33,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ForwardingListener;-><init>(Landroid/view/View;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ForwardingListener;-><init>(Landroid/view/View;)V    return-void
 .end method
 
 
@@ -47,11 +42,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->val$popup:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->val$popup:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;    return-object v0
 .end method
 
 .method public onForwardingStarted()Z
@@ -96,5 +87,4 @@
 
     return v0
 .end method
-
 .end class

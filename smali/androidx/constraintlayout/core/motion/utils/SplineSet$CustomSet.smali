@@ -55,11 +55,7 @@
 
     .line 14
     .line 15
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSet;->mConstraintAttributeList:Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSet;->mConstraintAttributeList:Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;    return-void
 .end method
 
 
@@ -127,12 +123,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomValue(Landroidx/constraintlayout/core/motion/CustomAttribute;[F)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomValue(Landroidx/constraintlayout/core/motion/CustomAttribute;[F)V    return-void
 .end method
 
 .method public setup(I)V
@@ -333,11 +324,6 @@
     move-result-object p1
 
     .line 93
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 94
-    .line 95
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
 .end method
-
 .end class

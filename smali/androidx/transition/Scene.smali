@@ -107,11 +107,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/transition/Scene;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/transition/Scene;    return-object p0
 .end method
 
 .method public static getSceneForLayout(Landroid/view/ViewGroup;ILandroid/content/Context;)Landroidx/transition/Scene;
@@ -179,11 +175,7 @@
 
     .line 24
     .line 25
-    if-eqz v0, :cond_1
-
-    .line 26
-    .line 27
-    return-object v0
+    if-eqz v0, :cond_1    return-object v0
 
     .line 28
     :cond_1
@@ -196,12 +188,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v1, p1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-object v0
+    invoke-virtual {v1, p1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return-object v0
 .end method
 
 .method public static setCurrentScene(Landroid/view/ViewGroup;Landroidx/transition/Scene;)V
@@ -220,12 +207,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
 
 
@@ -334,12 +316,7 @@
 
     .line 49
     .line 50
-    invoke-static {v0, p0}, Landroidx/transition/Scene;->setCurrentScene(Landroid/view/ViewGroup;Landroidx/transition/Scene;)V
-
-    .line 51
-    .line 52
-    .line 53
-    return-void
+    invoke-static {v0, p0}, Landroidx/transition/Scene;->setCurrentScene(Landroid/view/ViewGroup;Landroidx/transition/Scene;)V    return-void
 .end method
 
 .method public exit()V
@@ -385,11 +362,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Scene;->mSceneRoot:Landroid/view/ViewGroup;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/transition/Scene;->mSceneRoot:Landroid/view/ViewGroup;    return-object v0
 .end method
 
 .method public isCreatedFromLayoutResource()Z
@@ -423,11 +396,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/Scene;->mEnterAction:Ljava/lang/Runnable;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/transition/Scene;->mEnterAction:Ljava/lang/Runnable;    return-void
 .end method
 
 .method public setExitAction(Ljava/lang/Runnable;)V
@@ -438,11 +407,6 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/Scene;->mExitAction:Ljava/lang/Runnable;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/transition/Scene;->mExitAction:Ljava/lang/Runnable;    return-void
 .end method
-
 .end class

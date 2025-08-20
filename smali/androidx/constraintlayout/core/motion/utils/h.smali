@@ -369,108 +369,55 @@
 
     .line 156
     :goto_1
-    packed-switch p0, :pswitch_data_0
-
-    .line 157
-    .line 158
-    .line 159
-    return v0
+    packed-switch p0, :pswitch_data_0    return v0
 
     .line 160
     :pswitch_0
-    const/16 p0, 0x137
-
-    .line 161
-    .line 162
-    return p0
+    const/16 p0, 0x137    return p0
 
     .line 163
     :pswitch_1
-    const/16 p0, 0x130
-
-    .line 164
-    .line 165
-    return p0
+    const/16 p0, 0x130    return p0
 
     .line 166
     :pswitch_2
-    const/16 p0, 0x12d
-
-    .line 167
-    .line 168
-    return p0
+    const/16 p0, 0x12d    return p0
 
     .line 169
     :pswitch_3
-    const/16 p0, 0x131
-
-    .line 170
-    .line 171
-    return p0
+    const/16 p0, 0x131    return p0
 
     .line 172
     :pswitch_4
-    const/16 p0, 0x138
-
-    .line 173
-    .line 174
-    return p0
+    const/16 p0, 0x138    return p0
 
     .line 175
     :pswitch_5
-    const/16 p0, 0x12f
-
-    .line 176
-    .line 177
-    return p0
+    const/16 p0, 0x12f    return p0
 
     .line 178
     :pswitch_6
-    const/16 p0, 0x132
-
-    .line 179
-    .line 180
-    return p0
+    const/16 p0, 0x132    return p0
 
     .line 181
     :pswitch_7
-    const/16 p0, 0x136
-
-    .line 182
-    .line 183
-    return p0
+    const/16 p0, 0x136    return p0
 
     .line 184
     :pswitch_8
-    const/16 p0, 0x134
-
-    .line 185
-    .line 186
-    return p0
+    const/16 p0, 0x134    return p0
 
     .line 187
     :pswitch_9
-    const/16 p0, 0x133
-
-    .line 188
-    .line 189
-    return p0
+    const/16 p0, 0x133    return p0
 
     .line 190
     :pswitch_a
-    const/16 p0, 0x12e
-
-    .line 191
-    .line 192
-    return p0
+    const/16 p0, 0x12e    return p0
 
     .line 193
     :pswitch_b
-    const/16 p0, 0x135
-
-    .line 194
-    .line 195
-    return p0
+    const/16 p0, 0x135    return p0
 
     .line 196
     nop
@@ -554,5 +501,4 @@
         :pswitch_0
     .end packed-switch
 .end method
-
 .end class

@@ -80,11 +80,7 @@
 
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/lifecycle/MediatorLiveData$Source;->mObserver:Landroidx/lifecycle/Observer;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p2, p0, Landroidx/lifecycle/MediatorLiveData$Source;->mObserver:Landroidx/lifecycle/Observer;    return-void
 .end method
 
 
@@ -159,12 +155,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->observeForever(Landroidx/lifecycle/Observer;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->observeForever(Landroidx/lifecycle/Observer;)V    return-void
 .end method
 
 .method public unplug()V
@@ -175,12 +166,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V    return-void
 .end method
-
 .end class

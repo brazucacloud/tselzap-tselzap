@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -169,12 +164,6 @@
     move-result-object p1
 
     .line 59
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
-
-    .line 60
-    .line 61
-    .line 62
-    return-void
+    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V    return-void
 .end method
-
 .end class

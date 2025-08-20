@@ -35,12 +35,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->updateFrames(Landroid/graphics/drawable/AnimationDrawable;Z)I
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->updateFrames(Landroid/graphics/drawable/AnimationDrawable;Z)I    return-void
 .end method
 
 
@@ -148,11 +143,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I    return v0
 .end method
 
 .method public updateFrames(Landroid/graphics/drawable/AnimationDrawable;Z)I
@@ -254,11 +245,6 @@
 
     .line 42
     :cond_3
-    iput v3, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I
-
-    .line 43
-    .line 44
-    return v3
+    iput v3, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I    return v3
 .end method
-
 .end class

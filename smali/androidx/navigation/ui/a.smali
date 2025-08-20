@@ -69,12 +69,7 @@
     const/4 p1, 0x1
 
     .line 18
-    invoke-virtual {v0, p1}, Lw0/i;->a(I)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {v0, p1}, Lw0/i;->a(I)V    return-void
 
     .line 22
     :pswitch_0
@@ -94,12 +89,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->b(Lcom/fmark/tselzap/fragments/Api_coder;Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V
-
-    .line 31
-    .line 32
-    .line 33
-    return-void
+    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->b(Lcom/fmark/tselzap/fragments/Api_coder;Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V    return-void
 
     .line 34
     :pswitch_1
@@ -119,12 +109,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->b(Lcom/fmark/tselzap/fragments/ApiCustom_coder;Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V
-
-    .line 43
-    .line 44
-    .line 45
-    return-void
+    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->b(Lcom/fmark/tselzap/fragments/ApiCustom_coder;Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V    return-void
 
     .line 46
     :pswitch_2
@@ -144,12 +129,7 @@
 
     .line 53
     .line 54
-    invoke-static {v0, v1, p1}, Landroidx/navigation/ui/NavigationUI;->c(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;Landroid/view/View;)V
-
-    .line 55
-    .line 56
-    .line 57
-    return-void
+    invoke-static {v0, v1, p1}, Landroidx/navigation/ui/NavigationUI;->c(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;Landroid/view/View;)V    return-void
 
     .line 58
     nop
@@ -160,32 +140,5 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    .end packed-switch.end method
 .end class

@@ -97,11 +97,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mViewModelStores:Ljava/util/Map;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p3, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mViewModelStores:Ljava/util/Map;    return-void
 .end method
 
 
@@ -122,11 +118,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mChildNonConfigs:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mChildNonConfigs:Ljava/util/Map;    return-object v0
 .end method
 
 .method public getFragments()Ljava/util/Collection;
@@ -144,11 +136,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mFragments:Ljava/util/Collection;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mFragments:Ljava/util/Collection;    return-object v0
 .end method
 
 .method public getViewModelStores()Ljava/util/Map;
@@ -167,11 +155,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mViewModelStores:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManagerNonConfig;->mViewModelStores:Ljava/util/Map;    return-object v0
 .end method
 
 .method public isRetaining(Landroidx/fragment/app/Fragment;)Z
@@ -201,5 +185,4 @@
 
     return p1
 .end method
-
 .end class

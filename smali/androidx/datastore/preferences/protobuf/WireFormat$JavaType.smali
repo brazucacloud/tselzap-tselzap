@@ -352,11 +352,7 @@
 
     .line 149
     .line 150
-    sput-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->$VALUES:[Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-
-    .line 151
-    .line 152
-    return-void
+    sput-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->$VALUES:[Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;ILjava/lang/Object;)V
@@ -375,11 +371,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
@@ -398,11 +390,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;    return-object p0
 .end method
 
 .method public static values()[Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
@@ -421,11 +409,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;    return-object v0
 .end method
 
 
@@ -434,11 +418,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;    return-object v0
 .end method
-
 .end class

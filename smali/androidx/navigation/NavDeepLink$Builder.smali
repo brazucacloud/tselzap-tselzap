@@ -56,12 +56,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static final fromAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
@@ -169,12 +164,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public final setAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
@@ -202,11 +192,7 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->action:Ljava/lang/String;
-
-    .line 13
-    .line 14
-    return-object p0
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->action:Ljava/lang/String;    return-object p0
 
     .line 15
     :cond_0
@@ -223,13 +209,7 @@
     .line 20
     .line 21
     .line 22
-    throw p1
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public final setMimeType(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
     .locals 1
@@ -244,11 +224,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->mimeType:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->mimeType:Ljava/lang/String;    return-object p0
 .end method
 
 .method public final setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
@@ -345,5 +321,4 @@
 
     return-object p0
 .end method
-
 .end class

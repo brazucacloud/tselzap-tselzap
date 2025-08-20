@@ -31,11 +31,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/motion/utils/ViewTimeCycle$ProgressSet;->mNoMethod:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/motion/utils/ViewTimeCycle$ProgressSet;->mNoMethod:Z    return-void
 .end method
 
 
@@ -127,11 +123,7 @@
 
     .line 34
     .line 35
-    if-eqz p2, :cond_1
-
-    .line 36
-    .line 37
-    return v1
+    if-eqz p2, :cond_1    return v1
 
     .line 38
     :cond_1
@@ -268,11 +260,6 @@
     .line 92
     :cond_2
     :goto_3
-    iget-boolean p1, v4, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z
-
-    .line 93
-    .line 94
-    return p1
+    iget-boolean p1, v4, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return p1
 .end method
-
 .end class

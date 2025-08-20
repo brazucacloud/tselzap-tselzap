@@ -32,12 +32,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V    return-void
 .end method
 
 
@@ -57,5 +52,4 @@
 
     return p1
 .end method
-
 .end class

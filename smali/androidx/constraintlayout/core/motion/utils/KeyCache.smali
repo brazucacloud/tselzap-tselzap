@@ -36,11 +36,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyCache;->mMap:Ljava/util/HashMap;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyCache;->mMap:Ljava/util/HashMap;    return-void
 .end method
 
 
@@ -65,11 +61,7 @@
 
     .line 8
     .line 9
-    if-nez v0, :cond_0
-
-    .line 10
-    .line 11
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 12
     :cond_0
@@ -121,11 +113,7 @@
 
     .line 34
     .line 35
-    if-nez p1, :cond_2
-
-    .line 36
-    .line 37
-    return v1
+    if-nez p1, :cond_2    return v1
 
     .line 38
     :cond_2
@@ -136,11 +124,7 @@
 
     .line 40
     .line 41
-    aget p1, p1, p3
-
-    .line 42
-    .line 43
-    return p1
+    aget p1, p1, p3    return p1
 
     .line 44
     :cond_3
@@ -198,12 +182,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 
     .line 29
     :cond_0
@@ -270,12 +249,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 
     .line 65
     :cond_2
@@ -327,12 +301,6 @@
 
     .line 86
     .line 87
-    invoke-virtual {v0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 88
-    .line 89
-    .line 90
-    return-void
+    invoke-virtual {v0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

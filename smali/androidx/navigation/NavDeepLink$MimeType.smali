@@ -346,11 +346,7 @@
 
     .line 150
     .line 151
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$MimeType;->subType:Ljava/lang/String;
-
-    .line 152
-    .line 153
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$MimeType;->subType:Ljava/lang/String;    return-void
 .end method
 
 
@@ -415,22 +411,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLink$MimeType;->subType:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLink$MimeType;->subType:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getType()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLink$MimeType;->type:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLink$MimeType;->type:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final setSubType(Ljava/lang/String;)V
@@ -446,11 +434,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$MimeType;->subType:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$MimeType;->subType:Ljava/lang/String;    return-void
 .end method
 
 .method public final setType(Ljava/lang/String;)V
@@ -466,11 +450,6 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$MimeType;->type:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$MimeType;->type:Ljava/lang/String;    return-void
 .end method
-
 .end class

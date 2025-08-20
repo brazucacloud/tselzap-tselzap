@@ -41,12 +41,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;-><init>()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;-><init>()V    return-void
 .end method
 
 
@@ -55,22 +50,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$bytes:[B
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$bytes:[B    return-object v0
 .end method
 
 .method public arrayOffset()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$offset:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$offset:I    return v0
 .end method
 
 .method public hasArray()Z
@@ -93,11 +80,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$length:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$length:I    return v0
 .end method
 
 .method public nioBuffer()Ljava/nio/ByteBuffer;
@@ -113,24 +96,7 @@
     .line 4
     .line 5
     .line 6
-    throw v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public position()I
     .locals 1
@@ -189,5 +155,4 @@
 
     return v0
 .end method
-
 .end class

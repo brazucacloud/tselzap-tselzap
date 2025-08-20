@@ -118,22 +118,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->coroutineContext:Lg1/i;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->coroutineContext:Lg1/i;    return-object v0
 .end method
 
 .method public getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->lifecycle:Landroidx/lifecycle/Lifecycle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->lifecycle:Landroidx/lifecycle/Lifecycle;    return-object v0
 .end method
 
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -274,12 +266,6 @@
     const/4 v2, 0x2
 
     .line 14
-    invoke-static {p0, v0, v1, v2}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-static {p0, v0, v1, v2}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;    return-void
 .end method
-
 .end class

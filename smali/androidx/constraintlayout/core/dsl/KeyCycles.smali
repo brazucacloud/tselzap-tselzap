@@ -54,11 +54,7 @@
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttributes;->TYPE:Ljava/lang/String;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttributes;->TYPE:Ljava/lang/String;    return-void
 .end method
 
 
@@ -142,100 +138,62 @@
 
     .line 40
     .line 41
-    invoke-virtual {p0, p1, v0, v1}, Landroidx/constraintlayout/core/dsl/Keys;->append(Ljava/lang/StringBuilder;Ljava/lang/String;[F)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-virtual {p0, p1, v0, v1}, Landroidx/constraintlayout/core/dsl/Keys;->append(Ljava/lang/StringBuilder;Ljava/lang/String;[F)V    return-void
 .end method
 
 .method public getWaveOffset()[F
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveOffset:[F
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveOffset:[F    return-object v0
 .end method
 
 .method public getWavePeriod()[F
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePeriod:[F
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePeriod:[F    return-object v0
 .end method
 
 .method public getWavePhase()[F
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePhase:[F
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePhase:[F    return-object v0
 .end method
 
 .method public getWaveShape()Landroidx/constraintlayout/core/dsl/KeyCycles$Wave;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveShape:Landroidx/constraintlayout/core/dsl/KeyCycles$Wave;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveShape:Landroidx/constraintlayout/core/dsl/KeyCycles$Wave;    return-object v0
 .end method
 
 .method public varargs setWaveOffset([F)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveOffset:[F
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveOffset:[F    return-void
 .end method
 
 .method public varargs setWavePeriod([F)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePeriod:[F
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePeriod:[F    return-void
 .end method
 
 .method public varargs setWavePhase([F)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePhase:[F
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWavePhase:[F    return-void
 .end method
 
 .method public setWaveShape(Landroidx/constraintlayout/core/dsl/KeyCycles$Wave;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveShape:Landroidx/constraintlayout/core/dsl/KeyCycles$Wave;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyCycles;->mWaveShape:Landroidx/constraintlayout/core/dsl/KeyCycles$Wave;    return-void
 .end method
-
 .end class

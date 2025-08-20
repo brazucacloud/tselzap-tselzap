@@ -23,12 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -37,12 +32,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/o;->q(Landroid/view/View;Landroid/graphics/Matrix;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1}, Landroidx/core/view/o;->q(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
 .end method
 
 .method public static transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -51,12 +41,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/o;->z(Landroid/view/View;Landroid/graphics/Matrix;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1}, Landroidx/core/view/o;->z(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
 .end method
 
 .method public static transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -65,12 +50,6 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/o;->C(Landroid/view/View;Landroid/graphics/Matrix;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1}, Landroidx/core/view/o;->C(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
 .end method
-
 .end class

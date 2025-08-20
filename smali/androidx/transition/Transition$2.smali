@@ -33,12 +33,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -64,12 +59,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -84,12 +74,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
-
 .end class

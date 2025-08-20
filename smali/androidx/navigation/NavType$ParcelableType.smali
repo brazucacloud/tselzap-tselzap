@@ -153,11 +153,7 @@
     .line 54
     :cond_1
     :goto_0
-    iput-object p1, p0, Landroidx/navigation/NavType$ParcelableType;->type:Ljava/lang/Class;
-
-    .line 55
-    .line 56
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavType$ParcelableType;->type:Ljava/lang/Class;    return-void
 .end method
 
 
@@ -336,22 +332,7 @@
     .line 11
     .line 12
     .line 13
-    throw p1
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
@@ -435,12 +416,6 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V    return-void
 .end method
-
 .end class

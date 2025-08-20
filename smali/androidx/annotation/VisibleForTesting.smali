@@ -54,5 +54,4 @@
 # virtual methods
 .method public abstract otherwise()I
 .end method
-
 .end class

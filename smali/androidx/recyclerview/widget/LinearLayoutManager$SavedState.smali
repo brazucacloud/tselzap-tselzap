@@ -63,11 +63,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -188,11 +184,7 @@
     const/4 v0, -0x1
 
     .line 2
-    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->mAnchorPosition:I
-
-    .line 3
-    .line 4
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->mAnchorPosition:I    return-void
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -221,12 +213,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
 .end method
-
 .end class

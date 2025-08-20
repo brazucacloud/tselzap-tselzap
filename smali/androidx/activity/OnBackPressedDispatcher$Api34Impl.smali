@@ -39,12 +39,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -107,12 +102,6 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;-><init>(Lp1/l;Lp1/l;Lp1/a;Lp1/a;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-object v0
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;-><init>(Lp1/l;Lp1/l;Lp1/a;Lp1/a;)V    return-object v0
 .end method
-
 .end class

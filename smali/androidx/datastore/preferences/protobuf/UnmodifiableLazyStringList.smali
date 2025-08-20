@@ -33,22 +33,14 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;->list:Landroidx/datastore/preferences/protobuf/LazyStringList;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;->list:Landroidx/datastore/preferences/protobuf/LazyStringList;    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;)Landroidx/datastore/preferences/protobuf/LazyStringList;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;->list:Landroidx/datastore/preferences/protobuf/LazyStringList;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;->list:Landroidx/datastore/preferences/protobuf/LazyStringList;    return-object p0
 .end method
 
 
@@ -95,29 +87,7 @@
     .line 4
     .line 5
     .line 6
-    throw p1
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public addAllByteString(Ljava/util/Collection;)Z
     .locals 0
@@ -141,29 +111,7 @@
     .line 4
     .line 5
     .line 6
-    throw p1
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public asByteArrayList()Ljava/util/List;
     .locals 1
@@ -359,12 +307,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$2;-><init>(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$2;-><init>(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;)V    return-object v0
 .end method
 
 .method public listIterator(I)Ljava/util/ListIterator;
@@ -383,12 +326,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;-><init>(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;-><init>(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;I)V    return-object v0
 .end method
 
 .method public mergeFrom(Landroidx/datastore/preferences/protobuf/LazyStringList;)V
@@ -404,29 +342,7 @@
     .line 4
     .line 5
     .line 6
-    throw p1
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public set(ILandroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
@@ -467,5 +383,4 @@
 
     return v0
 .end method
-
 .end class

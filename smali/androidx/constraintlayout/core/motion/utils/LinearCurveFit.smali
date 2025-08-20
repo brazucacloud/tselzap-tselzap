@@ -167,11 +167,7 @@
 
     .line 10
     .line 11
-    if-eqz v1, :cond_0
-
-    .line 12
-    .line 13
-    return-wide v2
+    if-eqz v1, :cond_0    return-wide v2
 
     .line 14
     :cond_0
@@ -193,11 +189,7 @@
 
     .line 21
     .line 22
-    if-gtz v8, :cond_1
-
-    .line 23
-    .line 24
-    return-wide v2
+    if-gtz v8, :cond_1    return-wide v2
 
     .line 25
     :cond_1
@@ -219,11 +211,7 @@
 
     .line 32
     .line 33
-    iget-wide v1, v0, Landroidx/constraintlayout/core/motion/utils/LinearCurveFit;->mTotalLength:D
-
-    .line 34
-    .line 35
-    return-wide v1
+    iget-wide v1, v0, Landroidx/constraintlayout/core/motion/utils/LinearCurveFit;->mTotalLength:D    return-wide v1
 
     .line 36
     :cond_2
@@ -296,11 +284,7 @@
 
     .line 66
     .line 67
-    if-nez v12, :cond_4
-
-    .line 68
-    .line 69
-    return-wide v7
+    if-nez v12, :cond_4    return-wide v7
 
     .line 70
     :cond_4
@@ -1331,11 +1315,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/LinearCurveFit;->mT:[D
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/LinearCurveFit;->mT:[D    return-object v0
 .end method
-
 .end class

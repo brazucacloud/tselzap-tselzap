@@ -29,11 +29,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuDialogHelper;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuDialogHelper;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-void
 .end method
 
 
@@ -94,12 +90,7 @@
     const/4 v0, 0x0
 
     .line 16
-    invoke-virtual {p1, p2, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->performItemAction(Landroid/view/MenuItem;I)Z
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->performItemAction(Landroid/view/MenuItem;I)Z    return-void
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -161,12 +152,7 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {p1, v0, v1}, Landroidx/appcompat/view/menu/ListMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroidx/appcompat/view/menu/ListMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V    return-void
 .end method
 
 .method public onKey(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
@@ -256,12 +242,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1, p3, p0}, Landroid/view/KeyEvent$DispatcherState;->startTracking(Landroid/view/KeyEvent;Ljava/lang/Object;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return v1
+    invoke-virtual {p1, p3, p0}, Landroid/view/KeyEvent$DispatcherState;->startTracking(Landroid/view/KeyEvent;Ljava/lang/Object;)V    return v1
 
     .line 45
     :cond_1
@@ -350,12 +331,7 @@
     .line 86
     .line 87
     .line 88
-    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
-
-    .line 89
-    .line 90
-    .line 91
-    return v1
+    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V    return v1
 
     .line 92
     :cond_2
@@ -412,11 +388,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuDialogHelper;->mPresenterCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuDialogHelper;->mPresenterCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;    return-void
 .end method
 
 .method public show(Landroid/os/IBinder;)V
@@ -633,12 +605,6 @@
 
     .line 107
     .line 108
-    invoke-virtual {p1}, Landroid/app/Dialog;->show()V
-
-    .line 109
-    .line 110
-    .line 111
-    return-void
+    invoke-virtual {p1}, Landroid/app/Dialog;->show()V    return-void
 .end method
-
 .end class

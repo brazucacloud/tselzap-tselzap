@@ -26,11 +26,7 @@
 
     .line 6
     .line 7
-    sput v0, Landroidx/customview/poolingcontainer/PoolingContainer;->IsPoolingContainerTag:I
-
-    .line 8
-    .line 9
-    return-void
+    sput v0, Landroidx/customview/poolingcontainer/PoolingContainer;->IsPoolingContainerTag:I    return-void
 .end method
 
 .method public static final addPoolingContainerListener(Landroid/view/View;Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
@@ -68,12 +64,7 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->addListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->addListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V    return-void
 .end method
 
 .method public static final callPoolingContainerOnRelease(Landroid/view/View;)V
@@ -455,12 +446,7 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->removeListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->removeListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V    return-void
 .end method
 
 .method public static final setPoolingContainer(Landroid/view/View;Z)V
@@ -488,12 +474,6 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
-
 .end class

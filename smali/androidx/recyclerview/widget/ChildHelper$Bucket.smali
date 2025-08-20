@@ -40,11 +40,7 @@
 
     .line 5
     .line 6
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
-
-    .line 7
-    .line 8
-    return-void
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J    return-void
 .end method
 
 .method private ensureNext()V
@@ -128,11 +124,7 @@
     and-long/2addr v0, v2
 
     .line 21
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
-
-    .line 22
-    .line 23
-    return-void
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J    return-void
 .end method
 
 .method public countOnesBefore(I)I
@@ -352,12 +344,7 @@
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V    return-void
 
     .line 15
     :cond_0
@@ -481,12 +468,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {p1, v6, v2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V
-
-    .line 67
-    .line 68
-    .line 69
-    return-void
+    invoke-virtual {p1, v6, v2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V    return-void
 .end method
 
 .method public remove(I)Z
@@ -703,12 +685,7 @@
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V    return-void
 
     .line 15
     :cond_0
@@ -726,11 +703,7 @@
     or-long/2addr v0, v2
 
     .line 21
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
-
-    .line 22
-    .line 23
-    return-void
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -821,5 +794,4 @@
 
     return-object v0
 .end method
-
 .end class

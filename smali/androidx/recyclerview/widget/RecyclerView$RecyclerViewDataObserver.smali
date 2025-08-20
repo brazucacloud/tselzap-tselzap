@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V    return-void
 .end method
 
 
@@ -368,12 +363,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V    return-void
 
     .line 17
     :cond_0
@@ -384,12 +374,6 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V    return-void
 .end method
-
 .end class

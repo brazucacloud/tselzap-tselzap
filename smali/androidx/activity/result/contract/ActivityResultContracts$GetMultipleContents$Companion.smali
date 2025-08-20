@@ -113,11 +113,7 @@
 
     .line 31
     .line 32
-    sget-object p1, Ld1/t;->b:Ld1/t;
-
-    .line 33
-    .line 34
-    return-object p1
+    sget-object p1, Ld1/t;->b:Ld1/t;    return-object p1
 
     .line 35
     :cond_1
@@ -179,12 +175,6 @@
 
     .line 61
     .line 62
-    invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return-object p1
+    invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V    return-object p1
 .end method
-
 .end class

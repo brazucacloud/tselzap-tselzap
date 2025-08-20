@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V    return-void
 .end method
 
 
@@ -158,12 +153,6 @@
 
     .line 25
     .line 26
-    invoke-virtual {p3, p1}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->bindTab(Landroidx/appcompat/app/ActionBar$Tab;)V
-
-    .line 27
-    .line 28
-    .line 29
-    return-object p2
+    invoke-virtual {p3, p1}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->bindTab(Landroidx/appcompat/app/ActionBar$Tab;)V    return-object p2
 .end method
-
 .end class

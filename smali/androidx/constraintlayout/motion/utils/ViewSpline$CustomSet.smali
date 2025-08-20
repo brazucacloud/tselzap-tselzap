@@ -72,11 +72,7 @@
 
     .line 14
     .line 15
-    iput-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;    return-void
 .end method
 
 
@@ -148,12 +144,7 @@
 
     .line 19
     .line 20
-    invoke-static {p2, p1, v0}, Landroidx/constraintlayout/motion/utils/CustomSupport;->setInterpolatedValue(Landroidx/constraintlayout/widget/ConstraintAttribute;Landroid/view/View;[F)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-static {p2, p1, v0}, Landroidx/constraintlayout/motion/utils/CustomSupport;->setInterpolatedValue(Landroidx/constraintlayout/widget/ConstraintAttribute;Landroid/view/View;[F)V    return-void
 .end method
 
 .method public setup(I)V
@@ -362,11 +353,6 @@
     move-result-object p1
 
     .line 97
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 98
-    .line 99
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
 .end method
-
 .end class

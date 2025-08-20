@@ -75,11 +75,7 @@
 
     .line 20
     .line 21
-    iput-object p4, p0, Landroidx/transition/ChangeTransform$Listener;->mEndMatrix:Landroid/graphics/Matrix;
-
-    .line 22
-    .line 23
-    return-void
+    iput-object p4, p0, Landroidx/transition/ChangeTransform$Listener;->mEndMatrix:Landroid/graphics/Matrix;    return-void
 .end method
 
 .method private setCurrentMatrix(Landroid/graphics/Matrix;)V
@@ -120,12 +116,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, v0}, Landroidx/transition/ChangeTransform$Transforms;->restore(Landroid/view/View;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/transition/ChangeTransform$Transforms;->restore(Landroid/view/View;)V    return-void
 .end method
 
 
@@ -137,11 +128,7 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/ChangeTransform$Listener;->mIsCanceled:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeTransform$Listener;->mIsCanceled:Z    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -233,12 +220,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, v0}, Landroidx/transition/ChangeTransform$Transforms;->restore(Landroid/view/View;)V
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/transition/ChangeTransform$Transforms;->restore(Landroid/view/View;)V    return-void
 .end method
 
 .method public onAnimationPause(Landroid/animation/Animator;)V
@@ -257,12 +239,7 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform$Listener;->setCurrentMatrix(Landroid/graphics/Matrix;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform$Listener;->setCurrentMatrix(Landroid/graphics/Matrix;)V    return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V
@@ -273,12 +250,6 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Landroidx/transition/ChangeTransform;->setIdentityTransforms(Landroid/view/View;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {p1}, Landroidx/transition/ChangeTransform;->setIdentityTransforms(Landroid/view/View;)V    return-void
 .end method
-
 .end class

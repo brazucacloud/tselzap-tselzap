@@ -162,12 +162,7 @@
     move v1, p1
 
     .line 9
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V    return-object v0
 .end method
 
 .method public final light(II)Landroidx/activity/SystemBarStyle;
@@ -202,12 +197,6 @@
     move v2, p2
 
     .line 9
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V    return-object v0
 .end method
-
 .end class

@@ -753,11 +753,7 @@
     .line 315
     .line 316
     .line 317
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
-
-    .line 318
-    .line 319
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
@@ -774,11 +770,7 @@
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->value:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->value:I    return-void
 .end method
 
 .method public static forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Kind;
@@ -796,155 +788,79 @@
 
     .line 6
     :pswitch_0
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SINT64:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 7
-    .line 8
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SINT64:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 9
     :pswitch_1
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SINT32:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 10
-    .line 11
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SINT32:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 12
     :pswitch_2
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SFIXED64:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 13
-    .line 14
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SFIXED64:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 15
     :pswitch_3
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SFIXED32:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 16
-    .line 17
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_SFIXED32:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 18
     :pswitch_4
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_ENUM:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 19
-    .line 20
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_ENUM:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 21
     :pswitch_5
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_UINT32:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 22
-    .line 23
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_UINT32:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 24
     :pswitch_6
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_BYTES:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 25
-    .line 26
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_BYTES:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 27
     :pswitch_7
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_MESSAGE:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 28
-    .line 29
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_MESSAGE:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 30
     :pswitch_8
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_GROUP:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 31
-    .line 32
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_GROUP:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 33
     :pswitch_9
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_STRING:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 34
-    .line 35
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_STRING:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 36
     :pswitch_a
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_BOOL:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 37
-    .line 38
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_BOOL:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 39
     :pswitch_b
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_FIXED32:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 40
-    .line 41
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_FIXED32:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 42
     :pswitch_c
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_FIXED64:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 43
-    .line 44
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_FIXED64:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 45
     :pswitch_d
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_INT32:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 46
-    .line 47
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_INT32:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 48
     :pswitch_e
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_UINT64:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 49
-    .line 50
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_UINT64:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 51
     :pswitch_f
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_INT64:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 52
-    .line 53
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_INT64:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 54
     :pswitch_10
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_FLOAT:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 55
-    .line 56
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_FLOAT:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 57
     :pswitch_11
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_DOUBLE:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 58
-    .line 59
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_DOUBLE:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 60
     :pswitch_12
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_UNKNOWN:Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 61
-    .line 62
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->TYPE_UNKNOWN:Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object p0
 
     .line 63
     :pswitch_data_0
@@ -968,29 +884,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    .end packed-switch.end method
 
 .method public static internalGetValueMap()Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
     .locals 1
@@ -1004,22 +898,14 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
 .end method
 
 .method public static internalGetVerifier()Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind$KindVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind$KindVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-object v0
 .end method
 
 .method public static valueOf(I)Landroidx/datastore/preferences/protobuf/Field$Kind;
@@ -1066,11 +952,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/Field$Kind;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/Field$Kind;    return-object v0
 .end method
 
 
@@ -1087,11 +969,7 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->value:I
-
-    .line 6
-    .line 7
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field$Kind;->value:I    return v0
 
     .line 8
     :cond_0
@@ -1108,14 +986,5 @@
     .line 13
     .line 14
     .line 15
-    throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v0.end method
 .end class

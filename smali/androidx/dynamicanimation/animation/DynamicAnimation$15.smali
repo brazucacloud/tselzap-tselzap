@@ -33,12 +33,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p2}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0, p2}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V    return-void
 .end method
 
 
@@ -69,12 +64,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroidx/dynamicanimation/animation/FloatValueHolder;->setValue(F)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/dynamicanimation/animation/FloatValueHolder;->setValue(F)V    return-void
 .end method
-
 .end class

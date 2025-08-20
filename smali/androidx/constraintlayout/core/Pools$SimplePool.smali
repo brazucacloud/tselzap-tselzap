@@ -52,11 +52,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/constraintlayout/core/Pools$SimplePool;->mPool:[Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/Pools$SimplePool;->mPool:[Ljava/lang/Object;    return-void
 
     .line 11
     :cond_0
@@ -73,17 +69,7 @@
     .line 16
     .line 17
     .line 18
-    throw p1
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method private isInPool(Ljava/lang/Object;)Z
     .locals 3
@@ -180,11 +166,7 @@
 
     .line 15
     .line 16
-    iput v0, p0, Landroidx/constraintlayout/core/Pools$SimplePool;->mPoolSize:I
-
-    .line 17
-    .line 18
-    return-object v4
+    iput v0, p0, Landroidx/constraintlayout/core/Pools$SimplePool;->mPoolSize:I    return-object v4
 
     .line 19
     :cond_0
@@ -225,11 +207,7 @@
     add-int/2addr v0, p1
 
     .line 12
-    iput v0, p0, Landroidx/constraintlayout/core/Pools$SimplePool;->mPoolSize:I
-
-    .line 13
-    .line 14
-    return p1
+    iput v0, p0, Landroidx/constraintlayout/core/Pools$SimplePool;->mPoolSize:I    return p1
 
     .line 15
     :cond_0
@@ -308,5 +286,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

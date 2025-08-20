@@ -46,11 +46,7 @@
 
     .line 9
     .line 10
-    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mD:D
-
-    .line 11
-    .line 12
-    return-void
+    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mD:D    return-void
 .end method
 
 
@@ -145,5 +141,4 @@
 
     return-wide v2
 .end method
-
 .end class

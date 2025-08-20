@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -191,12 +186,6 @@
 
     .line 75
     .line 76
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V
-
-    .line 77
-    .line 78
-    .line 79
-    return-void
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V    return-void
 .end method
-
 .end class

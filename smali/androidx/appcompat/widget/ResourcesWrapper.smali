@@ -41,11 +41,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/appcompat/widget/ResourcesWrapper;->mResources:Landroid/content/res/Resources;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ResourcesWrapper;->mResources:Landroid/content/res/Resources;    return-void
 .end method
 
 
@@ -628,12 +624,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroid/content/res/Resources;->getValueForDensity(IILandroid/util/TypedValue;Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroid/content/res/Resources;->getValueForDensity(IILandroid/util/TypedValue;Z)V    return-void
 .end method
 
 .method public getXml(I)Landroid/content/res/XmlResourceParser;
@@ -742,12 +733,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroid/content/res/Resources;->parseBundleExtra(Ljava/lang/String;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroid/content/res/Resources;->parseBundleExtra(Ljava/lang/String;Landroid/util/AttributeSet;Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public parseBundleExtras(Landroid/content/res/XmlResourceParser;Landroid/os/Bundle;)V
@@ -758,12 +744,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/content/res/Resources;->parseBundleExtras(Landroid/content/res/XmlResourceParser;Landroid/os/Bundle;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroid/content/res/Resources;->parseBundleExtras(Landroid/content/res/XmlResourceParser;Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
@@ -791,5 +772,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

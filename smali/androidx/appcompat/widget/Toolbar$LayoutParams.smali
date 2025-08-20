@@ -192,11 +192,6 @@
 
     .line 14
     .line 15
-    iput p1, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
-
-    .line 16
-    .line 17
-    return-void
+    iput p1, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I    return-void
 .end method
-
 .end class

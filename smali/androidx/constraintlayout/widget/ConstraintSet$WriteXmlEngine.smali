@@ -167,11 +167,7 @@
 
     .line 53
     .line 54
-    iput p4, p0, Landroidx/constraintlayout/widget/ConstraintSet$WriteXmlEngine;->mFlags:I
-
-    .line 55
-    .line 56
-    return-void
+    iput p4, p0, Landroidx/constraintlayout/widget/ConstraintSet$WriteXmlEngine;->mFlags:I    return-void
 .end method
 
 .method private writeBaseDimension(Ljava/lang/String;II)V
@@ -228,12 +224,7 @@
     move-result-object p1
 
     .line 27
-    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
 
     .line 31
     :cond_0
@@ -279,12 +270,7 @@
     move-result-object p1
 
     .line 53
-    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
 
     .line 57
     :cond_1
@@ -635,11 +621,7 @@
 
     .line 40
     .line 41
-    const-string p1, "parent"
-
-    .line 42
-    .line 43
-    return-object p1
+    const-string p1, "parent"    return-object p1
 
     .line 44
     :cond_1
@@ -818,11 +800,7 @@
     const/4 v0, -0x1
 
     .line 2
-    if-ne p1, v0, :cond_0
-
-    .line 3
-    .line 4
-    return-void
+    if-ne p1, v0, :cond_0    return-void
 
     .line 5
     :cond_0
@@ -939,12 +917,7 @@
     move-result-object p2
 
     .line 66
-    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    .line 67
-    .line 68
-    .line 69
-    return-void
+    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
 .end method
 
 .method public writeConstraint(Ljava/lang/String;ILjava/lang/String;II)V
@@ -954,11 +927,7 @@
     const/4 p5, -0x1
 
     .line 2
-    if-ne p2, p5, :cond_0
-
-    .line 3
-    .line 4
-    return-void
+    if-ne p2, p5, :cond_0    return-void
 
     .line 5
     :cond_0
@@ -1093,12 +1062,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    .line 76
-    .line 77
-    .line 78
-    return-void
+    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
 .end method
 
 .method public writeLayout()V
@@ -2284,12 +2248,7 @@
 
     .line 618
     .line 619
-    invoke-virtual {v1, v2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    .line 620
-    .line 621
-    .line 622
-    return-void
+    invoke-virtual {v1, v2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
 .end method
 
 .method public writeVariable(Ljava/lang/String;FF)V
@@ -2581,11 +2540,7 @@
     const/4 v0, -0x1
 
     .line 2
-    if-ne p2, v0, :cond_0
-
-    .line 3
-    .line 4
-    return-void
+    if-ne p2, v0, :cond_0    return-void
 
     .line 5
     :cond_0
@@ -2671,12 +2626,6 @@
     move-result-object p2
 
     .line 49
-    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    .line 50
-    .line 51
-    .line 52
-    return-void
+    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
 .end method
-
 .end class

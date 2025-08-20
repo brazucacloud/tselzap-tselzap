@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -198,11 +193,7 @@
 
     .line 32
     .line 33
-    if-nez v0, :cond_2
-
-    .line 34
-    .line 35
-    return v1
+    if-nez v0, :cond_2    return v1
 
     .line 36
     :cond_2
@@ -237,12 +228,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V    return-void
 .end method
-
 .end class

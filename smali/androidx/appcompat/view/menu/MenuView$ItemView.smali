@@ -44,5 +44,4 @@
 
 .method public abstract showsIcon()Z
 .end method
-
 .end class

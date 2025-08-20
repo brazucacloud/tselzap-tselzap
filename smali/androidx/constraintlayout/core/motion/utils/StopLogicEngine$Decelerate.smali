@@ -46,11 +46,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mDone:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mDone:Z    return-void
 .end method
 
 
@@ -102,11 +98,7 @@
     div-float/2addr p1, p2
 
     .line 20
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mAcceleration:F
-
-    .line 21
-    .line 22
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mAcceleration:F    return-void
 .end method
 
 .method public debug(Ljava/lang/String;F)Ljava/lang/String;
@@ -182,11 +174,7 @@
 
     .line 9
     .line 10
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mDestination:F
-
-    .line 11
-    .line 12
-    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mDestination:F    return p1
 
     .line 13
     :cond_0
@@ -272,11 +260,6 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mDone:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->mDone:Z    return v0
 .end method
-
 .end class

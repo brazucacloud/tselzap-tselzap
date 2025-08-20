@@ -83,12 +83,7 @@
     const/4 p1, 0x2
 
     .line 8
-    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -129,11 +124,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object p1, v0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->L$0:Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
@@ -291,11 +282,7 @@
     move-result-object v1
 
     .line 53
-    if-ne v1, v0, :cond_2
-
-    .line 54
-    .line 55
-    return-object v0
+    if-ne v1, v0, :cond_2    return-object v0
 
     .line 56
     :cond_2
@@ -312,11 +299,6 @@
     .line 60
     .line 61
     .line 62
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 63
-    .line 64
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

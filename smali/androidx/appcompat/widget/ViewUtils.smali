@@ -65,23 +65,14 @@
 
     .line 10
     :goto_0
-    sput-boolean v0, Landroidx/appcompat/widget/ViewUtils;->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
-
-    .line 11
-    .line 12
-    return-void
+    sput-boolean v0, Landroidx/appcompat/widget/ViewUtils;->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
@@ -121,12 +112,7 @@
 
     .line 9
     .line 10
-    invoke-static {p0, p1, p2}, Landroidx/appcompat/widget/ViewUtils$Api29Impl;->computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-static {p0, p1, p2}, Landroidx/appcompat/widget/ViewUtils$Api29Impl;->computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V    return-void
 
     .line 14
     :cond_0
@@ -285,11 +271,7 @@
     const/4 v0, 0x1
 
     .line 6
-    if-ne p0, v0, :cond_0
-
-    .line 7
-    .line 8
-    return v0
+    if-ne p0, v0, :cond_0    return v0
 
     .line 9
     :cond_0
@@ -390,12 +372,7 @@
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 39
     :goto_1
@@ -429,5 +406,4 @@
     :goto_3
     return-void
 .end method
-
 .end class

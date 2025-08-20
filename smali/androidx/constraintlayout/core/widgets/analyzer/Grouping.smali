@@ -16,12 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static findDependents(Landroidx/constraintlayout/core/widgets/ConstraintWidget;ILjava/util/ArrayList;Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
@@ -155,11 +150,7 @@
 
     .line 52
     :cond_4
-    if-eq v0, v2, :cond_5
-
-    .line 53
-    .line 54
-    return-object p3
+    if-eq v0, v2, :cond_5    return-object p3
 
     .line 55
     :cond_5
@@ -468,11 +459,7 @@
     move-result v3
 
     .line 18
-    if-ne p1, v3, :cond_0
-
-    .line 19
-    .line 20
-    return-object v2
+    if-ne p1, v3, :cond_0    return-object v2
 
     .line 21
     :cond_0
@@ -576,11 +563,7 @@
     move-result v6
 
     .line 41
-    if-nez v6, :cond_0
-
-    .line 42
-    .line 43
-    return v3
+    if-nez v6, :cond_0    return v3
 
     .line 44
     :cond_0
@@ -588,11 +571,7 @@
 
     .line 45
     .line 46
-    if-eqz v5, :cond_1
-
-    .line 47
-    .line 48
-    return v3
+    if-eqz v5, :cond_1    return v3
 
     .line 49
     :cond_1
@@ -2144,11 +2123,7 @@
 
     .line 783
     .line 784
-    const/16 v16, 0x0
-
-    .line 785
-    .line 786
-    return v16
+    const/16 v16, 0x0    return v16
 
     .line 787
     :cond_24
@@ -2465,11 +2440,7 @@
 
     .line 928
     :cond_2e
-    const/16 v16, 0x0
-
-    .line 929
-    .line 930
-    return v16
+    const/16 v16, 0x0    return v16
 
     .line 931
     :cond_2f
@@ -2590,5 +2561,4 @@
     :goto_4
     return v1
 .end method
-
 .end class

@@ -153,12 +153,7 @@
     move-object v5, p0
 
     .line 65
-    invoke-virtual {v5}, Landroid/graphics/Path;->close()V
-
-    .line 66
-    .line 67
-    .line 68
-    return-void
+    invoke-virtual {v5}, Landroid/graphics/Path;->close()V    return-void
 .end method
 
 .method public static final toPath(Landroidx/graphics/shapes/Morph;FLandroid/graphics/Path;)Landroid/graphics/Path;
@@ -309,5 +304,4 @@
 
     return-object p0
 .end method
-
 .end class

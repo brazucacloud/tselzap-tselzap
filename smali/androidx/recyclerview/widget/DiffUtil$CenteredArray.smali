@@ -45,11 +45,7 @@
 
     .line 10
     .line 11
-    iput p1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mMid:I
-
-    .line 12
-    .line 13
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mMid:I    return-void
 .end method
 
 
@@ -58,11 +54,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I    return-object v0
 .end method
 
 .method public fill(I)V
@@ -73,12 +65,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Arrays;->fill([II)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1}, Ljava/util/Arrays;->fill([II)V    return-void
 .end method
 
 .method public get(I)I
@@ -96,11 +83,7 @@
     add-int/2addr p1, v1
 
     .line 6
-    aget p1, v0, p1
-
-    .line 7
-    .line 8
-    return p1
+    aget p1, v0, p1    return p1
 .end method
 
 .method public set(II)V
@@ -118,11 +101,6 @@
     add-int/2addr p1, v1
 
     .line 6
-    aput p2, v0, p1
-
-    .line 7
-    .line 8
-    return-void
+    aput p2, v0, p1    return-void
 .end method
-
 .end class

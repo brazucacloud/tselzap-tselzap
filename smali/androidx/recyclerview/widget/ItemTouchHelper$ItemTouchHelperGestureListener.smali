@@ -37,11 +37,7 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$ItemTouchHelperGestureListener;->mShouldReactToLongPress:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$ItemTouchHelperGestureListener;->mShouldReactToLongPress:Z    return-void
 .end method
 
 
@@ -53,11 +49,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$ItemTouchHelperGestureListener;->mShouldReactToLongPress:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$ItemTouchHelperGestureListener;->mShouldReactToLongPress:Z    return-void
 .end method
 
 .method public onDown(Landroid/view/MotionEvent;)Z
@@ -250,5 +242,4 @@
     :goto_0
     return-void
 .end method
-
 .end class

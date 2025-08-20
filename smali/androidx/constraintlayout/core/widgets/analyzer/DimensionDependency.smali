@@ -29,11 +29,7 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
-
-    .line 11
-    .line 12
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;    return-void
 
     .line 13
     :cond_0
@@ -41,11 +37,7 @@
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;    return-void
 .end method
 
 
@@ -126,5 +118,4 @@
     :goto_1
     return-void
 .end method
-
 .end class

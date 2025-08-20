@@ -100,11 +100,7 @@
     move-result p1
 
     .line 30
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mFillRule:I
-
-    .line 31
-    .line 32
-    return-void
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mFillRule:I    return-void
 .end method
 
 
@@ -125,11 +121,7 @@
     move-result v0
 
     .line 7
-    if-nez v0, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 10
     :cond_0
@@ -150,12 +142,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 .method public isClipPath()Z
@@ -165,5 +152,4 @@
 
     return v0
 .end method
-
 .end class

@@ -58,11 +58,7 @@
 
     .line 9
     .line 10
-    iput-object p4, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
-
-    .line 11
-    .line 12
-    return-void
+    iput-object p4, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;    return-void
 .end method
 
 
@@ -104,43 +100,23 @@
 
     .line 15
     .line 16
-    const-string v0, "??"
-
-    .line 17
-    .line 18
-    return-object v0
+    const-string v0, "??"    return-object v0
 
     .line 19
     :cond_0
-    const-string v0, "mv"
-
-    .line 20
-    .line 21
-    return-object v0
+    const-string v0, "mv"    return-object v0
 
     .line 22
     :cond_1
-    const-string v0, "up"
-
-    .line 23
-    .line 24
-    return-object v0
+    const-string v0, "up"    return-object v0
 
     .line 25
     :cond_2
-    const-string v0, "rm"
-
-    .line 26
-    .line 27
-    return-object v0
+    const-string v0, "rm"    return-object v0
 
     .line 28
     :cond_3
-    const-string v0, "add"
-
-    .line 29
-    .line 30
-    return-object v0
+    const-string v0, "add"    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -150,11 +126,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -165,11 +137,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -185,11 +153,7 @@
 
     .line 16
     .line 17
-    if-eq v1, v3, :cond_2
-
-    .line 18
-    .line 19
-    return v2
+    if-eq v1, v3, :cond_2    return v2
 
     .line 20
     :cond_2
@@ -244,11 +208,7 @@
 
     .line 44
     .line 45
-    if-ne v1, v3, :cond_3
-
-    .line 46
-    .line 47
-    return v0
+    if-ne v1, v3, :cond_3    return v0
 
     .line 48
     :cond_3
@@ -260,11 +220,7 @@
 
     .line 51
     .line 52
-    if-eq v1, v3, :cond_4
-
-    .line 53
-    .line 54
-    return v2
+    if-eq v1, v3, :cond_4    return v2
 
     .line 55
     :cond_4
@@ -276,11 +232,7 @@
 
     .line 58
     .line 59
-    if-eq v1, v3, :cond_5
-
-    .line 60
-    .line 61
-    return v2
+    if-eq v1, v3, :cond_5    return v2
 
     .line 62
     :cond_5
@@ -304,11 +256,7 @@
     move-result p1
 
     .line 72
-    if-nez p1, :cond_7
-
-    .line 73
-    .line 74
-    return v2
+    if-nez p1, :cond_7    return v2
 
     .line 75
     :cond_6
@@ -316,11 +264,7 @@
 
     .line 76
     .line 77
-    if-eqz p1, :cond_7
-
-    .line 78
-    .line 79
-    return v2
+    if-eqz p1, :cond_7    return v2
 
     .line 80
     :cond_7
@@ -487,5 +431,4 @@
 
     return-object v0
 .end method
-
 .end class

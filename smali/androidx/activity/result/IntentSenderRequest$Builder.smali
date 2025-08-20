@@ -93,23 +93,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/activity/result/IntentSenderRequest;-><init>(Landroid/content/IntentSender;Landroid/content/Intent;II)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object v0
+    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/activity/result/IntentSenderRequest;-><init>(Landroid/content/IntentSender;Landroid/content/Intent;II)V    return-object v0
 .end method
 
 .method public final setFillInIntent(Landroid/content/Intent;)Landroidx/activity/result/IntentSenderRequest$Builder;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->fillInIntent:Landroid/content/Intent;
-
-    .line 2
-    .line 3
-    return-object p0
+    iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->fillInIntent:Landroid/content/Intent;    return-object p0
 .end method
 
 .method public final setFlags(II)Landroidx/activity/result/IntentSenderRequest$Builder;
@@ -120,11 +111,6 @@
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsMask:I
-
-    .line 4
-    .line 5
-    return-object p0
+    iput p2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsMask:I    return-object p0
 .end method
-
 .end class

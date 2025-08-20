@@ -28,11 +28,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/documentfile/provider/DocumentFile;->mParent:Landroidx/documentfile/provider/DocumentFile;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/documentfile/provider/DocumentFile;->mParent:Landroidx/documentfile/provider/DocumentFile;    return-void
 .end method
 
 .method public static fromFile(Ljava/io/File;)Landroidx/documentfile/provider/DocumentFile;
@@ -52,12 +48,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1, p0}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-object v0
+    invoke-direct {v0, v1, p0}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V    return-object v0
 .end method
 
 .method public static fromSingleUri(Landroid/content/Context;Landroid/net/Uri;)Landroidx/documentfile/provider/DocumentFile;
@@ -81,12 +72,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1, p0, p1}, Landroidx/documentfile/provider/SingleDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Landroid/content/Context;Landroid/net/Uri;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-object v0
+    invoke-direct {v0, v1, p0, p1}, Landroidx/documentfile/provider/SingleDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Landroid/content/Context;Landroid/net/Uri;)V    return-object v0
 .end method
 
 .method public static fromTreeUri(Landroid/content/Context;Landroid/net/Uri;)Landroidx/documentfile/provider/DocumentFile;
@@ -126,12 +112,7 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-direct {v0, v1, p0, p1}, Landroidx/documentfile/provider/TreeDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Landroid/content/Context;Landroid/net/Uri;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-object v0
+    invoke-direct {v0, v1, p0, p1}, Landroidx/documentfile/provider/TreeDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Landroid/content/Context;Landroid/net/Uri;)V    return-object v0
 .end method
 
 .method public static isDocumentUri(Landroid/content/Context;Landroid/net/Uri;)Z
@@ -241,11 +222,7 @@
     move-result v4
 
     .line 19
-    if-eqz v4, :cond_0
-
-    .line 20
-    .line 21
-    return-object v3
+    if-eqz v4, :cond_0    return-object v3
 
     .line 22
     :cond_0
@@ -273,11 +250,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/DocumentFile;->mParent:Landroidx/documentfile/provider/DocumentFile;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/documentfile/provider/DocumentFile;->mParent:Landroidx/documentfile/provider/DocumentFile;    return-object v0
 .end method
 
 .method public abstract getType()Ljava/lang/String;
@@ -316,5 +289,4 @@
         .end annotation
     .end param
 .end method
-
 .end class

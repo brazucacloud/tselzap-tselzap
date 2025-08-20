@@ -120,12 +120,7 @@
 
     .line 39
     .line 40
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerApi33Ext5Impl;-><init>(Landroid/content/Context;)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerApi33Ext5Impl;-><init>(Landroid/content/Context;)V    return-object v0
 
     .line 44
     :cond_0
@@ -166,11 +161,7 @@
     move-result-object p1
 
     .line 63
-    check-cast p1, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManager;
-
-    .line 64
-    .line 65
-    return-object p1
+    check-cast p1, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManager;    return-object p1
 
     .line 66
     :cond_1
@@ -178,5 +169,4 @@
 
     return-object p1
 .end method
-
 .end class

@@ -59,11 +59,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/customview/view/AbsSavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/customview/view/AbsSavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method private constructor <init>()V
@@ -191,11 +187,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/customview/view/AbsSavedState;->mSuperState:Landroid/os/Parcelable;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/customview/view/AbsSavedState;->mSuperState:Landroid/os/Parcelable;    return-object v0
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -206,12 +198,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V    return-void
 .end method
-
 .end class

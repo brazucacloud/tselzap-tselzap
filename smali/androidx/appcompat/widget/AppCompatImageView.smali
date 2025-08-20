@@ -503,11 +503,7 @@
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatImageView;->mHasLevel:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatImageView;->mHasLevel:Z    return-void
 .end method
 
 .method public setImageResource(I)V
@@ -684,5 +680,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

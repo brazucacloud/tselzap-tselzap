@@ -92,12 +92,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
 .end method
 
 .method private constructor <init>()V
@@ -112,238 +107,140 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->valueCase_:I
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->valueCase_:I    return-void
 .end method
 
 .method public static synthetic access$1000(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearInteger()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearInteger()V    return-void
 .end method
 
 .method public static synthetic access$1100(Landroidx/datastore/preferences/PreferencesProto$Value;J)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->setLong(J)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->setLong(J)V    return-void
 .end method
 
 .method public static synthetic access$1200(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearLong()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearLong()V    return-void
 .end method
 
 .method public static synthetic access$1300(Landroidx/datastore/preferences/PreferencesProto$Value;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setString(Ljava/lang/String;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setString(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static synthetic access$1400(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearString()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearString()V    return-void
 .end method
 
 .method public static synthetic access$1500(Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setStringBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setStringBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
 .end method
 
 .method public static synthetic access$1600(Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V    return-void
 .end method
 
 .method public static synthetic access$1700(Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)V    return-void
 .end method
 
 .method public static synthetic access$1800(Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->mergeStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->mergeStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V    return-void
 .end method
 
 .method public static synthetic access$1900(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearStringSet()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearStringSet()V    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/datastore/preferences/PreferencesProto$Value;D)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->setDouble(D)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->setDouble(D)V    return-void
 .end method
 
 .method public static synthetic access$2100(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearDouble()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearDouble()V    return-void
 .end method
 
 .method public static synthetic access$300()Landroidx/datastore/preferences/PreferencesProto$Value;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$Value;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$Value;    return-object v0
 .end method
 
 .method public static synthetic access$400(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearValue()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearValue()V    return-void
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/PreferencesProto$Value;Z)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setBoolean(Z)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setBoolean(Z)V    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearBoolean()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearBoolean()V    return-void
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/PreferencesProto$Value;F)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setFloat(F)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setFloat(F)V    return-void
 .end method
 
 .method public static synthetic access$800(Landroidx/datastore/preferences/PreferencesProto$Value;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearFloat()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearFloat()V    return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/PreferencesProto$Value;I)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setInteger(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value;->setInteger(I)V    return-void
 .end method
 
 .method private clearBoolean()V
@@ -591,22 +488,14 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/PreferencesProto$Value;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$Value;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$Value;    return-object v0
 .end method
 
 .method private mergeStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
@@ -694,11 +583,7 @@
     .line 39
     .line 40
     :goto_0
-    iput v1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->valueCase_:I
-
-    .line 41
-    .line 42
-    return-void
+    iput v1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->valueCase_:I    return-void
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -956,11 +841,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setDouble(D)V
@@ -982,11 +863,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setFloat(F)V
@@ -1008,11 +885,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setInteger(I)V
@@ -1034,11 +907,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setLong(J)V
@@ -1060,11 +929,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setString(Ljava/lang/String;)V
@@ -1083,11 +948,7 @@
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setStringBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -1114,11 +975,7 @@
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferencesProto$Value;->value_:Ljava/lang/Object;    return-void
 .end method
 
 .method private setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)V
@@ -1289,11 +1146,7 @@
 
     .line 54
     :pswitch_3
-    sget-object p1, Landroidx/datastore/preferences/PreferencesProto$Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$Value;
-
-    .line 55
-    .line 56
-    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/PreferencesProto$Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$Value;    return-object p1
 
     .line 57
     :pswitch_4
@@ -1368,12 +1221,7 @@
 
     .line 89
     .line 90
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;-><init>(Landroidx/datastore/preferences/PreferencesProto$1;)V
-
-    .line 91
-    .line 92
-    .line 93
-    return-object p1
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;-><init>(Landroidx/datastore/preferences/PreferencesProto$1;)V    return-object p1
 
     .line 94
     :pswitch_6
@@ -1381,12 +1229,7 @@
 
     .line 95
     .line 96
-    invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$Value;-><init>()V
-
-    .line 97
-    .line 98
-    .line 99
-    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$Value;-><init>()V    return-object p1
 
     .line 100
     nop
@@ -1401,24 +1244,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    .end packed-switch.end method
 
 .method public getBoolean()Z
     .locals 2
@@ -1493,11 +1319,7 @@
 
     .line 15
     :cond_0
-    const-wide/16 v0, 0x0
-
-    .line 16
-    .line 17
-    return-wide v0
+    const-wide/16 v0, 0x0    return-wide v0
 .end method
 
 .method public getFloat()F
@@ -1612,11 +1434,7 @@
 
     .line 15
     :cond_0
-    const-wide/16 v0, 0x0
-
-    .line 16
-    .line 17
-    return-wide v0
+    const-wide/16 v0, 0x0    return-wide v0
 .end method
 
 .method public getString()Ljava/lang/String;
@@ -1638,19 +1456,11 @@
 
     .line 7
     .line 8
-    check-cast v0, Ljava/lang/String;
-
-    .line 9
-    .line 10
-    return-object v0
+    check-cast v0, Ljava/lang/String;    return-object v0
 
     .line 11
     :cond_0
-    const-string v0, ""
-
-    .line 12
-    .line 13
-    return-object v0
+    const-string v0, ""    return-object v0
 .end method
 
 .method public getStringBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1714,11 +1524,7 @@
 
     .line 7
     .line 8
-    check-cast v0, Landroidx/datastore/preferences/PreferencesProto$StringSet;
-
-    .line 9
-    .line 10
-    return-object v0
+    check-cast v0, Landroidx/datastore/preferences/PreferencesProto$StringSet;    return-object v0
 
     .line 11
     :cond_0
@@ -1761,11 +1567,7 @@
     const/4 v1, 0x1
 
     .line 4
-    if-ne v0, v1, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-ne v0, v1, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -1929,5 +1731,4 @@
 
     return v0
 .end method
-
 .end class

@@ -34,11 +34,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/transition/ChangeTransform$GhostListener;->mGhostView:Landroidx/transition/GhostView;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/transition/ChangeTransform$GhostListener;->mGhostView:Landroidx/transition/GhostView;    return-void
 .end method
 
 
@@ -89,12 +85,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -112,12 +103,7 @@
     const/4 v0, 0x4
 
     .line 4
-    invoke-interface {p1, v0}, Landroidx/transition/GhostView;->setVisibility(I)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-interface {p1, v0}, Landroidx/transition/GhostView;->setVisibility(I)V    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -135,12 +121,6 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-interface {p1, v0}, Landroidx/transition/GhostView;->setVisibility(I)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-interface {p1, v0}, Landroidx/transition/GhostView;->setVisibility(I)V    return-void
 .end method
-
 .end class

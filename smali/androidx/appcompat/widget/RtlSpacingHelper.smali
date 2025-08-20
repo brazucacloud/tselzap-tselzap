@@ -70,11 +70,7 @@
 
     .line 20
     .line 21
-    iput-boolean v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mIsRelative:Z
-
-    .line 22
-    .line 23
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mIsRelative:Z    return-void
 .end method
 
 
@@ -91,41 +87,25 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mLeft:I
-
-    .line 6
-    .line 7
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mLeft:I    return v0
 
     .line 8
     :cond_0
-    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 9
-    .line 10
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return v0
 .end method
 
 .method public getLeft()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mLeft:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mLeft:I    return v0
 .end method
 
 .method public getRight()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return v0
 .end method
 
 .method public getStart()I
@@ -140,19 +120,11 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 6
-    .line 7
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return v0
 
     .line 8
     :cond_0
-    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mLeft:I
-
-    .line 9
-    .line 10
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mLeft:I    return v0
 .end method
 
 .method public setAbsolute(II)V
@@ -207,11 +179,7 @@
 
     .line 2
     .line 3
-    if-ne p1, v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-ne p1, v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -273,11 +241,7 @@
     .line 31
     .line 32
     :goto_1
-    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 33
-    .line 34
-    return-void
+    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return-void
 
     .line 35
     :cond_3
@@ -319,11 +283,7 @@
     .line 50
     .line 51
     :goto_3
-    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 52
-    .line 53
-    return-void
+    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return-void
 
     .line 54
     :cond_6
@@ -339,11 +299,7 @@
 
     .line 59
     .line 60
-    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 61
-    .line 62
-    return-void
+    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return-void
 .end method
 
 .method public setRelative(II)V
@@ -390,11 +346,7 @@
 
     .line 19
     .line 20
-    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I
-
-    .line 21
-    .line 22
-    return-void
+    iput p1, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mRight:I    return-void
 
     .line 23
     :cond_1
@@ -418,5 +370,4 @@
     :cond_3
     return-void
 .end method
-
 .end class

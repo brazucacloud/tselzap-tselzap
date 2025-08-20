@@ -34,22 +34,14 @@
 
     .line 10
     .line 11
-    sput-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatArray:[F
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatArray:[F    return-void
 .end method
 
 .method public static final emptyFloatSet()Landroidx/collection/FloatSet;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatSet:Landroidx/collection/MutableFloatSet;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatSet:Landroidx/collection/MutableFloatSet;    return-object v0
 .end method
 
 .method public static final floatSetOf()Landroidx/collection/FloatSet;
@@ -117,11 +109,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatArray:[F
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatArray:[F    return-object v0
 .end method
 
 .method public static final hash(F)I
@@ -246,5 +234,4 @@
 
     return-object v0
 .end method
-
 .end class

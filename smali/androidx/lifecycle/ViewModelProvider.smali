@@ -58,11 +58,7 @@
 
     .line 10
     .line 11
-    sput-object v0, Landroidx/lifecycle/ViewModelProvider;->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/lifecycle/ViewModelProvider;->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/lifecycle/ViewModelStore;Landroidx/lifecycle/ViewModelProvider$Factory;)V
@@ -373,5 +369,4 @@
 
     return-object p1
 .end method
-
 .end class

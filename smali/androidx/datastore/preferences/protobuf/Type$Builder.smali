@@ -79,12 +79,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1000(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/Iterable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1000(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/Iterable;)V    return-object p0
 .end method
 
 .method public addAllOneofs(Ljava/lang/Iterable;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -113,12 +108,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1500(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/Iterable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1500(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/Iterable;)V    return-object p0
 .end method
 
 .method public addAllOptions(Ljava/lang/Iterable;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -148,12 +138,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$2400(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/Iterable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$2400(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/Iterable;)V    return-object p0
 .end method
 
 .method public addFields(ILandroidx/datastore/preferences/protobuf/Field$Builder;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -237,12 +222,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1400(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1400(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/String;)V    return-object p0
 .end method
 
 .method public addOneofsBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -262,12 +242,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1700(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1700(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
 .end method
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -351,12 +326,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$1100(Landroidx/datastore/preferences/protobuf/Type;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$1100(Landroidx/datastore/preferences/protobuf/Type;)V    return-object p0
 .end method
 
 .method public clearName()Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -376,12 +346,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$200(Landroidx/datastore/preferences/protobuf/Type;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$200(Landroidx/datastore/preferences/protobuf/Type;)V    return-object p0
 .end method
 
 .method public clearOneofs()Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -401,12 +366,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$1600(Landroidx/datastore/preferences/protobuf/Type;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$1600(Landroidx/datastore/preferences/protobuf/Type;)V    return-object p0
 .end method
 
 .method public clearOptions()Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -426,12 +386,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$2500(Landroidx/datastore/preferences/protobuf/Type;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$2500(Landroidx/datastore/preferences/protobuf/Type;)V    return-object p0
 .end method
 
 .method public clearSourceContext()Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -451,12 +406,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$3000(Landroidx/datastore/preferences/protobuf/Type;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$3000(Landroidx/datastore/preferences/protobuf/Type;)V    return-object p0
 .end method
 
 .method public clearSyntax()Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -476,12 +426,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$3300(Landroidx/datastore/preferences/protobuf/Type;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Type;->access$3300(Landroidx/datastore/preferences/protobuf/Type;)V    return-object p0
 .end method
 
 .method public getFields(I)Landroidx/datastore/preferences/protobuf/Field;
@@ -901,12 +846,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$2900(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/SourceContext;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$2900(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/SourceContext;)V    return-object p0
 .end method
 
 .method public removeFields(I)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -926,12 +866,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1200(Landroidx/datastore/preferences/protobuf/Type;I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$1200(Landroidx/datastore/preferences/protobuf/Type;I)V    return-object p0
 .end method
 
 .method public removeOptions(I)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -951,12 +886,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$2600(Landroidx/datastore/preferences/protobuf/Type;I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$2600(Landroidx/datastore/preferences/protobuf/Type;I)V    return-object p0
 .end method
 
 .method public setFields(ILandroidx/datastore/preferences/protobuf/Field$Builder;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -1008,12 +938,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$100(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$100(Landroidx/datastore/preferences/protobuf/Type;Ljava/lang/String;)V    return-object p0
 .end method
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -1033,12 +958,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$300(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$300(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
 .end method
 
 .method public setOneofs(ILjava/lang/String;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -1058,12 +978,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Type;->access$1300(Landroidx/datastore/preferences/protobuf/Type;ILjava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Type;->access$1300(Landroidx/datastore/preferences/protobuf/Type;ILjava/lang/String;)V    return-object p0
 .end method
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -1147,12 +1062,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$3200(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/Syntax;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$3200(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/Syntax;)V    return-object p0
 .end method
 
 .method public setSyntaxValue(I)Landroidx/datastore/preferences/protobuf/Type$Builder;
@@ -1172,12 +1082,6 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$3100(Landroidx/datastore/preferences/protobuf/Type;I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Type;->access$3100(Landroidx/datastore/preferences/protobuf/Type;I)V    return-object p0
 .end method
-
 .end class

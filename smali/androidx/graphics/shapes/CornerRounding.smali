@@ -59,11 +59,7 @@
     .line 14
     .line 15
     .line 16
-    sput-object v0, Landroidx/graphics/shapes/CornerRounding;->Unrounded:Landroidx/graphics/shapes/CornerRounding;
-
-    .line 17
-    .line 18
-    return-void
+    sput-object v0, Landroidx/graphics/shapes/CornerRounding;->Unrounded:Landroidx/graphics/shapes/CornerRounding;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -138,22 +134,13 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/CornerRounding;->radius:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/CornerRounding;->radius:F    return v0
 .end method
 
 .method public final getSmoothing()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/CornerRounding;->smoothing:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/CornerRounding;->smoothing:F    return v0
 .end method
-
 .end class

@@ -58,11 +58,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$SetAdapter;->realSet:Ljava/util/Set;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$SetAdapter;->realSet:Ljava/util/Set;    return-void
 .end method
 
 
@@ -99,12 +95,7 @@
     move-result-object v2
 
     .line 11
-    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$IteratorAdapter;-><init>(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;Ljava/util/Iterator;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object v0
+    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$IteratorAdapter;-><init>(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;Ljava/util/Iterator;)V    return-object v0
 .end method
 
 .method public size()I
@@ -124,5 +115,4 @@
 
     return v0
 .end method
-
 .end class

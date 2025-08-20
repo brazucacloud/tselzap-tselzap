@@ -44,11 +44,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;->initializers:[Landroidx/lifecycle/viewmodel/ViewModelInitializer;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;->initializers:[Landroidx/lifecycle/viewmodel/ViewModelInitializer;    return-void
 .end method
 
 
@@ -122,5 +118,4 @@
 
     return-object p1
 .end method
-
 .end class

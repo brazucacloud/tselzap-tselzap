@@ -118,12 +118,7 @@
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v1, p0, v0}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
-
-    .line 49
-    .line 50
-    .line 51
-    return-object v1
+    invoke-virtual {v1, p0, v0}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V    return-object v1
 .end method
 
 .method public static final synthetic map(Landroidx/lifecycle/LiveData;Landroidx/arch/core/util/Function;)Landroidx/lifecycle/LiveData;
@@ -371,5 +366,4 @@
 
     return-object v2
 .end method
-
 .end class

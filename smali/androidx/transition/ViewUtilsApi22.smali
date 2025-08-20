@@ -24,12 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi21;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi21;-><init>()V    return-void
 .end method
 
 
@@ -58,12 +53,7 @@
     :try_start_0
     invoke-static {p1, p2, p3, p4, p5}, Landroidx/transition/ViewUtilsApi22$Api29Impl;->setLeftTopRightBottom(Landroid/view/View;IIII)V
     :try_end_0
-    .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 9
     :catch_0
@@ -77,5 +67,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

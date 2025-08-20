@@ -86,11 +86,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/lifecycle/SavedStateHandle$SavingStateLiveData;->handle:Landroidx/lifecycle/SavedStateHandle;
-
-    .line 3
-    .line 4
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/SavedStateHandle$SavingStateLiveData;->handle:Landroidx/lifecycle/SavedStateHandle;    return-void
 .end method
 
 .method public setValue(Ljava/lang/Object;)V
@@ -170,12 +166,6 @@
     .line 34
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-super {p0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V    return-void
 .end method
-
 .end class

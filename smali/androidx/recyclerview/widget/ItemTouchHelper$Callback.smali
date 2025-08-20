@@ -61,11 +61,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->sDragViewScrollCapInterpolator:Landroid/view/animation/Interpolator;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->sDragViewScrollCapInterpolator:Landroid/view/animation/Interpolator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -80,11 +76,7 @@
     const/4 v0, -0x1
 
     .line 5
-    iput v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->mCachedMaxScrollSpeed:I
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->mCachedMaxScrollSpeed:I    return-void
 .end method
 
 .method public static convertToRelativeDirection(II)I
@@ -134,11 +126,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;->INSTANCE:Landroidx/recyclerview/widget/ItemTouchUIUtil;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;->INSTANCE:Landroidx/recyclerview/widget/ItemTouchUIUtil;    return-object v0
 .end method
 
 .method private getMaxDragScroll(Landroidx/recyclerview/widget/RecyclerView;)I
@@ -181,11 +169,7 @@
     .line 17
     .line 18
     :cond_0
-    iget p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->mCachedMaxScrollSpeed:I
-
-    .line 19
-    .line 20
-    return p1
+    iget p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->mCachedMaxScrollSpeed:I    return p1
 .end method
 
 .method public static makeFlag(II)I
@@ -707,12 +691,7 @@
 
     .line 4
     .line 5
-    invoke-interface {p1, p2}, Landroidx/recyclerview/widget/ItemTouchUIUtil;->clearView(Landroid/view/View;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {p1, p2}, Landroidx/recyclerview/widget/ItemTouchUIUtil;->clearView(Landroid/view/View;)V    return-void
 .end method
 
 .method public convertToAbsoluteDirection(II)I
@@ -814,19 +793,11 @@
 
     .line 10
     .line 11
-    const-wide/16 p1, 0xc8
-
-    .line 12
-    .line 13
-    return-wide p1
+    const-wide/16 p1, 0xc8    return-wide p1
 
     .line 14
     :cond_0
-    const-wide/16 p1, 0xfa
-
-    .line 15
-    .line 16
-    return-wide p1
+    const-wide/16 p1, 0xfa    return-wide p1
 
     .line 17
     :cond_1
@@ -1197,12 +1168,7 @@
     move v7, p7
 
     .line 11
-    invoke-interface/range {v0 .. v7}, Landroidx/recyclerview/widget/ItemTouchUIUtil;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface/range {v0 .. v7}, Landroidx/recyclerview/widget/ItemTouchUIUtil;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V    return-void
 .end method
 
 .method public onChildDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;FFIZ)V
@@ -1250,12 +1216,7 @@
     move v7, p7
 
     .line 11
-    invoke-interface/range {v0 .. v7}, Landroidx/recyclerview/widget/ItemTouchUIUtil;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface/range {v0 .. v7}, Landroidx/recyclerview/widget/ItemTouchUIUtil;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V    return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Ljava/util/List;IFF)V
@@ -1712,12 +1673,7 @@
 
     .line 14
     .line 15
-    invoke-interface {p3, p1, p2, p6, p7}, Landroidx/recyclerview/widget/ItemTouchHelper$ViewDropHandler;->prepareForDrop(Landroid/view/View;Landroid/view/View;II)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {p3, p1, p2, p6, p7}, Landroidx/recyclerview/widget/ItemTouchHelper$ViewDropHandler;->prepareForDrop(Landroid/view/View;Landroid/view/View;II)V    return-void
 
     .line 19
     :cond_0
@@ -1925,5 +1881,4 @@
         .end annotation
     .end param
 .end method
-
 .end class

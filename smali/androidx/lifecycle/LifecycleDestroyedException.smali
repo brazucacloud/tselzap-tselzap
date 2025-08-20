@@ -11,12 +11,6 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, v0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V    return-void
 .end method
-
 .end class

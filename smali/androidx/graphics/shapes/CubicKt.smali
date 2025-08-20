@@ -76,12 +76,6 @@
 
     .line 30
     .line 31
-    invoke-direct {v0, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V    return-object v0
 .end method
-
 .end class

@@ -25,12 +25,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V    return-void
 .end method
 
 .method private getEditTextPreference()Landroidx/preference/EditTextPreference;
@@ -45,11 +40,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Landroidx/preference/EditTextPreference;
-
-    .line 6
-    .line 7
-    return-object v0
+    check-cast v0, Landroidx/preference/EditTextPreference;    return-object v0
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/EditTextPreferenceDialogFragment;
@@ -91,12 +82,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-object v0
+    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 
@@ -190,12 +176,7 @@
     move-result v0
 
     .line 37
-    invoke-virtual {p1, v0}, Landroid/widget/EditText;->setSelection(I)V
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p1, v0}, Landroid/widget/EditText;->setSelection(I)V    return-void
 
     .line 41
     :cond_0
@@ -212,44 +193,7 @@
     .line 46
     .line 47
     .line 48
-    throw p1
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 1
@@ -284,11 +228,7 @@
     move-result-object p1
 
     .line 14
-    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragment;->mText:Ljava/lang/CharSequence;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragment;->mText:Ljava/lang/CharSequence;    return-void
 
     .line 17
     :cond_0
@@ -304,11 +244,7 @@
     move-result-object p1
 
     .line 23
-    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragment;->mText:Ljava/lang/CharSequence;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragment;->mText:Ljava/lang/CharSequence;    return-void
 .end method
 
 .method public onDialogClosed(Z)V
@@ -399,12 +335,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V    return-void
 .end method
-
 .end class

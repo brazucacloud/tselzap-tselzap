@@ -134,11 +134,7 @@
     move-result p1
 
     .line 50
-    iput p1, p0, Landroidx/transition/ChangeTransform$Transforms;->mRotationZ:F
-
-    .line 51
-    .line 52
-    return-void
+    iput p1, p0, Landroidx/transition/ChangeTransform$Transforms;->mRotationZ:F    return-void
 .end method
 
 
@@ -154,11 +150,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -620,12 +612,6 @@
     move-object v0, p1
 
     .line 18
-    invoke-static/range {v0 .. v8}, Landroidx/transition/ChangeTransform;->setTransforms(Landroid/view/View;FFFFFFFF)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-static/range {v0 .. v8}, Landroidx/transition/ChangeTransform;->setTransforms(Landroid/view/View;FFFFFFFF)V    return-void
 .end method
-
 .end class

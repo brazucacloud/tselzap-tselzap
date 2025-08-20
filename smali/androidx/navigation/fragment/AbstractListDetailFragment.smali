@@ -24,23 +24,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V    return-void
 .end method
 
 .method public static final synthetic access$getOnBackPressedCallback$p(Landroidx/navigation/fragment/AbstractListDetailFragment;)Landroidx/activity/OnBackPressedCallback;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;    return-object p0
 .end method
 
 
@@ -61,12 +52,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 
     .line 11
     :cond_0
@@ -122,55 +108,7 @@
     .line 37
     .line 38
     .line 39
-    throw v1
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v1.end method
 
 .method public final getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
     .locals 2
@@ -193,11 +131,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
-
-    .line 11
-    .line 12
-    return-object v0
+    check-cast v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;    return-object v0
 .end method
 
 .method public onCreateDetailPaneNavHostFragment()Landroidx/navigation/fragment/NavHostFragment;
@@ -237,12 +171,7 @@
 
     .line 15
     .line 16
-    invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V
-
-    .line 17
-    .line 18
-    .line 19
-    return-object v0
+    invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V    return-object v0
 .end method
 
 .method public abstract onCreateListPaneView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -685,12 +614,7 @@
     .line 218
     .line 219
     .line 220
-    invoke-virtual {p1, p3, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
-
-    .line 221
-    .line 222
-    .line 223
-    return-object p2
+    invoke-virtual {p1, p3, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V    return-object p2
 .end method
 
 .method public onInflate(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
@@ -767,12 +691,7 @@
     .line 35
     .line 36
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 37
-    .line 38
-    .line 39
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 .method public onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -874,12 +793,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment;->onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment;->onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public onViewStateRestored(Landroid/os/Bundle;)V
@@ -953,12 +867,6 @@
 
     .line 32
     :goto_0
-    invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
 .end method
-
 .end class

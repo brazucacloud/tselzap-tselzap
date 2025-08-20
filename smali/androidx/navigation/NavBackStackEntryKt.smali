@@ -175,11 +175,5 @@
     const/4 p0, 0x0
 
     .line 80
-    throw p0
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw p0.end method
 .end class

@@ -49,11 +49,7 @@
     move-result p1
 
     .line 18
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLParsingException;->mLineNumber:I
-
-    .line 19
-    .line 20
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLParsingException;->mLineNumber:I    return-void
 
     .line 21
     :cond_0
@@ -68,11 +64,7 @@
     const/4 p1, 0x0
 
     .line 26
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLParsingException;->mLineNumber:I
-
-    .line 27
-    .line 28
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLParsingException;->mLineNumber:I    return-void
 .end method
 
 
@@ -205,5 +197,4 @@
 
     return-object v0
 .end method
-
 .end class

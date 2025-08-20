@@ -62,11 +62,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/startup/AppInitializer;->sLock:Ljava/lang/Object;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/startup/AppInitializer;->sLock:Ljava/lang/Object;    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -116,11 +112,7 @@
     .line 20
     .line 21
     .line 22
-    iput-object p1, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;
-
-    .line 23
-    .line 24
-    return-void
+    iput-object p1, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;    return-void
 .end method
 
 .method private doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
@@ -427,11 +419,7 @@
     .line 26
     :cond_1
     :goto_2
-    sget-object p0, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;
-
-    .line 27
-    .line 28
-    return-object p0
+    sget-object p0, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;    return-object p0
 .end method
 
 .method public static setDelegate(Landroidx/startup/AppInitializer;)V
@@ -468,25 +456,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
-    throw p0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p0.end method
 
 
 # virtual methods
@@ -828,5 +798,4 @@
 
     return p1
 .end method
-
 .end class

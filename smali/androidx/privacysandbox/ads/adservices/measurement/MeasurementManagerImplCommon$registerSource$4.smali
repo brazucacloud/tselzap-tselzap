@@ -68,12 +68,7 @@
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -110,11 +105,7 @@
     .line 8
     .line 9
     .line 10
-    iput-object p1, v0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->L$0:Ljava/lang/Object;
-
-    .line 11
-    .line 12
-    return-object v0
+    iput-object p1, v0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -272,11 +263,7 @@
 
     .line 53
     :cond_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 54
-    .line 55
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 
     .line 56
     :cond_1
@@ -293,28 +280,5 @@
     .line 61
     .line 62
     .line 63
-    throw p1
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw p1.end method
 .end class

@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V    return-void
 .end method
 
 
@@ -61,12 +56,6 @@
     move-result p1
 
     .line 11
-    invoke-virtual {p2, p3, p1}, Landroidx/recyclerview/widget/FastScroller;->updateScrollPosition(II)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p2, p3, p1}, Landroidx/recyclerview/widget/FastScroller;->updateScrollPosition(II)V    return-void
 .end method
-
 .end class

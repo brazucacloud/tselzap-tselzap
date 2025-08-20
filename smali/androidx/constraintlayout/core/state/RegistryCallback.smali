@@ -27,5 +27,4 @@
 
 .method public abstract setLayoutInformationMode(I)V
 .end method
-
 .end class

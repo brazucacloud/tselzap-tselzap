@@ -18,5 +18,4 @@
 
 .method public abstract getRootBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 .end method
-
 .end class

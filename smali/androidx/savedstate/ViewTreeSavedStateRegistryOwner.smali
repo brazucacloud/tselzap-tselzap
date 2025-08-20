@@ -49,11 +49,7 @@
     move-result-object p0
 
     .line 22
-    check-cast p0, Landroidx/savedstate/SavedStateRegistryOwner;
-
-    .line 23
-    .line 24
-    return-object p0
+    check-cast p0, Landroidx/savedstate/SavedStateRegistryOwner;    return-object p0
 .end method
 
 .method public static final set(Landroid/view/View;Landroidx/savedstate/SavedStateRegistryOwner;)V
@@ -73,12 +69,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
-
 .end class

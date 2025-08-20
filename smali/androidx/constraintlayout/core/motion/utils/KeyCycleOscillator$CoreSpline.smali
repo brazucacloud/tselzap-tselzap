@@ -42,11 +42,7 @@
     move-result p1
 
     .line 10
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CoreSpline;->mTypeId:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CoreSpline;->mTypeId:I    return-void
 .end method
 
 
@@ -67,12 +63,6 @@
     move-result p2
 
     .line 7
-    invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setValue(IF)Z
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setValue(IF)Z    return-void
 .end method
-
 .end class

@@ -94,11 +94,7 @@
 
     .line 31
     .line 32
-    iput v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mWarmth:F
-
-    .line 33
-    .line 34
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mWarmth:F    return-void
 .end method
 
 .method private brightness(F)V
@@ -264,11 +260,7 @@
 
     .line 75
     .line 76
-    aput v2, v0, p1
-
-    .line 77
-    .line 78
-    return-void
+    aput v2, v0, p1    return-void
 .end method
 
 .method private saturation(F)V
@@ -476,11 +468,7 @@
 
     .line 97
     .line 98
-    aput v6, v4, p1
-
-    .line 99
-    .line 100
-    return-void
+    aput v6, v4, p1    return-void
 .end method
 
 .method private warmth(F)V
@@ -1025,11 +1013,7 @@
 
     .line 256
     .line 257
-    aput v0, p1, v1
-
-    .line 258
-    .line 259
-    return-void
+    aput v0, p1, v1    return-void
 .end method
 
 
@@ -1248,21 +1232,10 @@
     .line 103
     .line 104
     .line 105
-    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
-
-    .line 106
-    .line 107
-    .line 108
-    return-void
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V    return-void
 
     .line 109
     :cond_4
-    invoke-virtual {p1}, Landroid/widget/ImageView;->clearColorFilter()V
-
-    .line 110
-    .line 111
-    .line 112
-    return-void
+    invoke-virtual {p1}, Landroid/widget/ImageView;->clearColorFilter()V    return-void
 .end method
-
 .end class

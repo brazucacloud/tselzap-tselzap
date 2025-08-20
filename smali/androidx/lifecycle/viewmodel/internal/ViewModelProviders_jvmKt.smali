@@ -157,11 +157,7 @@
 
     .line 67
     .line 68
-    const-string p0, "kotlin.Array"
-
-    .line 69
-    .line 70
-    return-object p0
+    const-string p0, "kotlin.Array"    return-object p0
 
     .line 71
     :cond_3
@@ -206,5 +202,4 @@
     :cond_5
     return-object v0
 .end method
-
 .end class

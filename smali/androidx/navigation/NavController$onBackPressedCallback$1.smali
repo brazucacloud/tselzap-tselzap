@@ -30,12 +30,7 @@
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V    return-void
 .end method
 
 
@@ -48,12 +43,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/navigation/NavController;->popBackStack()Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/navigation/NavController;->popBackStack()Z    return-void
 .end method
-
 .end class

@@ -37,11 +37,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage$WrapperViewTypeLookup;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage$WrapperViewTypeLookup;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;    return-void
 .end method
 
 
@@ -58,12 +54,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->removeWrapper(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->removeWrapper(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    return-void
 .end method
 
 .method public globalToLocal(I)I
@@ -151,5 +142,4 @@
     :cond_1
     return p1
 .end method
-
 .end class

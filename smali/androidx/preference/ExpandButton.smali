@@ -48,11 +48,7 @@
     add-long/2addr p3, p1
 
     .line 14
-    iput-wide p3, p0, Landroidx/preference/ExpandButton;->mId:J
-
-    .line 15
-    .line 16
-    return-void
+    iput-wide p3, p0, Landroidx/preference/ExpandButton;->mId:J    return-void
 .end method
 
 .method private initLayout()V
@@ -90,12 +86,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setOrder(I)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setOrder(I)V    return-void
 .end method
 
 .method private setSummary(Ljava/util/List;)V
@@ -302,12 +293,7 @@
 
     .line 91
     :cond_4
-    invoke-virtual {p0, v1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
-
-    .line 92
-    .line 93
-    .line 94
-    return-void
+    invoke-virtual {p0, v1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 
@@ -316,11 +302,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/preference/ExpandButton;->mId:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/preference/ExpandButton;->mId:J    return-wide v0
 .end method
 
 .method public onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
@@ -339,12 +321,6 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->setDividerAllowedAbove(Z)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->setDividerAllowedAbove(Z)V    return-void
 .end method
-
 .end class

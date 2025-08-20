@@ -51,23 +51,14 @@
 
     .line 3
     .line 4
-    sput-object v0, Landroidx/constraintlayout/core/widgets/Optimizer;->sFlags:[Z
-
-    .line 5
-    .line 6
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/widgets/Optimizer;->sFlags:[Z    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static checkMatchParent(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Landroidx/constraintlayout/core/LinearSystem;Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -425,5 +416,4 @@
 
     return p0
 .end method
-
 .end class

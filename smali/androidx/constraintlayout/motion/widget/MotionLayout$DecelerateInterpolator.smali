@@ -45,11 +45,7 @@
 
     .line 8
     .line 9
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mCurrentP:F
-
-    .line 10
-    .line 11
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mCurrentP:F    return-void
 .end method
 
 
@@ -66,11 +62,7 @@
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mMaxA:F
-
-    .line 6
-    .line 7
-    return-void
+    iput p3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mMaxA:F    return-void
 .end method
 
 .method public getInterpolation(F)F
@@ -236,11 +228,6 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F    return v0
 .end method
-
 .end class

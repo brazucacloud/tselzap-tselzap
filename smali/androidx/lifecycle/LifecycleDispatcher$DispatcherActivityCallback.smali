@@ -22,12 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V    return-void
 .end method
 
 
@@ -49,12 +44,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;->injectIfNeededIn(Landroid/app/Activity;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;->injectIfNeededIn(Landroid/app/Activity;)V    return-void
 .end method
-
 .end class

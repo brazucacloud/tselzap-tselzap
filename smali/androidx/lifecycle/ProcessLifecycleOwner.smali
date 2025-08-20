@@ -71,11 +71,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;->newInstance:Landroidx/lifecycle/ProcessLifecycleOwner;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;->newInstance:Landroidx/lifecycle/ProcessLifecycleOwner;    return-void
 .end method
 
 .method private constructor <init>()V
@@ -136,11 +132,7 @@
     .line 27
     .line 28
     .line 29
-    iput-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->initializationListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
-
-    .line 30
-    .line 31
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->initializationListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;    return-void
 .end method
 
 .method public static synthetic a(Landroidx/lifecycle/ProcessLifecycleOwner;)V
@@ -156,22 +148,14 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->initializationListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->initializationListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;    return-object p0
 .end method
 
 .method public static final synthetic access$getNewInstance$cp()Landroidx/lifecycle/ProcessLifecycleOwner;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;->newInstance:Landroidx/lifecycle/ProcessLifecycleOwner;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;->newInstance:Landroidx/lifecycle/ProcessLifecycleOwner;    return-object v0
 .end method
 
 .method private static final delayedPauseRunnable$lambda$0(Landroidx/lifecycle/ProcessLifecycleOwner;)V
@@ -192,12 +176,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V    return-void
 .end method
 
 .method public static final get()Landroidx/lifecycle/LifecycleOwner;
@@ -316,11 +295,7 @@
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->pauseSent:Z
-
-    .line 22
-    .line 23
-    return-void
+    iput-boolean v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->pauseSent:Z    return-void
 
     .line 24
     :cond_0
@@ -416,12 +391,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V    return-void
 .end method
 
 .method public final attach$lifecycle_process_release(Landroid/content/Context;)V
@@ -493,12 +463,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p1, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
-
-    .line 37
-    .line 38
-    .line 39
-    return-void
+    invoke-virtual {p1, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V    return-void
 .end method
 
 .method public final dispatchPauseIfNeeded$lifecycle_process_release()V
@@ -585,11 +550,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->registry:Landroidx/lifecycle/LifecycleRegistry;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->registry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
 .end method
-
 .end class

@@ -32,11 +32,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/ScatterSetKt;->EmptyScatterSet:Landroidx/collection/MutableScatterSet;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/collection/ScatterSetKt;->EmptyScatterSet:Landroidx/collection/MutableScatterSet;    return-void
 .end method
 
 .method public static final emptyScatterSet()Landroidx/collection/ScatterSet;
@@ -60,12 +56,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public static final mutableScatterSetOf()Landroidx/collection/MutableScatterSet;
@@ -315,5 +306,4 @@
 
     return-object v0
 .end method
-
 .end class

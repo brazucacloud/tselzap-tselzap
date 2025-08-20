@@ -84,11 +84,7 @@
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure;->mConstraintWidgetContainer:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
-
-    .line 19
-    .line 20
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure;->mConstraintWidgetContainer:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;    return-void
 .end method
 
 .method private measure(Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Landroidx/constraintlayout/core/widgets/ConstraintWidget;I)Z
@@ -398,11 +394,7 @@
 
     .line 141
     .line 142
-    iget-boolean p1, p1, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredNeedsSolverPass:Z
-
-    .line 143
-    .line 144
-    return p1
+    iget-boolean p1, p1, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredNeedsSolverPass:Z    return p1
 .end method
 
 .method private measureChildren(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
@@ -789,12 +781,7 @@
     .line 176
     .line 177
     :cond_b
-    invoke-interface {v2}, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;->didMeasures()V
-
-    .line 178
-    .line 179
-    .line 180
-    return-void
+    invoke-interface {v2}, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;->didMeasures()V    return-void
 .end method
 
 .method private solveLinearSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Ljava/lang/String;III)V
@@ -2093,12 +2080,6 @@
 
     .line 45
     :cond_2
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->invalidateGraph()V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->invalidateGraph()V    return-void
 .end method
-
 .end class

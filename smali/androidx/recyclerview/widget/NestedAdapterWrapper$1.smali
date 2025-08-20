@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V    return-void
 .end method
 
 
@@ -69,12 +64,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    return-void
 .end method
 
 .method public onItemRangeChanged(II)V
@@ -222,12 +212,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, p3, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeMoved(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {v0, p3, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeMoved(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V    return-void
 .end method
 
 .method public onItemRangeRemoved(II)V
@@ -322,12 +307,6 @@
 
     .line 4
     .line 5
-    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    return-void
 .end method
-
 .end class

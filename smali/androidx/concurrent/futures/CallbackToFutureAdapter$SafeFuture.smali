@@ -87,11 +87,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->completerWeakReference:Ljava/lang/ref/WeakReference;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->completerWeakReference:Ljava/lang/ref/WeakReference;    return-void
 .end method
 
 
@@ -112,12 +108,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/concurrent/futures/AbstractResolvableFuture;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/concurrent/futures/AbstractResolvableFuture;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V    return-void
 .end method
 
 .method public cancel(Z)Z
@@ -323,5 +314,4 @@
 
     return-object v0
 .end method
-
 .end class

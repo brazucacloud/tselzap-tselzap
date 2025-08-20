@@ -137,11 +137,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/CoroutineLiveData;->blockRunner:Landroidx/lifecycle/BlockRunner;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/CoroutineLiveData;->blockRunner:Landroidx/lifecycle/BlockRunner;    return-void
 .end method
 
 
@@ -298,11 +294,7 @@
     move-result-object p1
 
     .line 67
-    if-ne p1, v1, :cond_3
-
-    .line 68
-    .line 69
-    return-object v1
+    if-ne p1, v1, :cond_3    return-object v1
 
     .line 70
     :cond_3
@@ -317,11 +309,7 @@
 
     .line 73
     .line 74
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 75
-    .line 76
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
 .method public final emitSource$lifecycle_livedata_release(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
@@ -564,11 +552,7 @@
 
     .line 102
     .line 103
-    iput-object p2, p1, Landroidx/lifecycle/CoroutineLiveData;->emittedSource:Landroidx/lifecycle/EmittedSource;
-
-    .line 104
-    .line 105
-    return-object p2
+    iput-object p2, p1, Landroidx/lifecycle/CoroutineLiveData;->emittedSource:Landroidx/lifecycle/EmittedSource;    return-object p2
 .end method
 
 .method public onActive()V
@@ -622,5 +606,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

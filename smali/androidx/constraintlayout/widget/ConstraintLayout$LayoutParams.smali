@@ -2391,22 +2391,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->constraintTag:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->constraintTag:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getConstraintWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object v0
 .end method
 
 .method public reset()V
@@ -2955,11 +2947,7 @@
 
     .line 241
     .line 242
-    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
-
-    .line 243
-    .line 244
-    return-void
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I    return-void
 
     .line 245
     :cond_13
@@ -3003,12 +2991,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setDebugName(Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setDebugName(Ljava/lang/String;)V    return-void
 .end method
 
 .method public validate()V
@@ -3264,12 +3247,6 @@
 
     .line 117
     .line 118
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Guideline;->setOrientation(I)V
-
-    .line 119
-    .line 120
-    .line 121
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Guideline;->setOrientation(I)V    return-void
 .end method
-
 .end class

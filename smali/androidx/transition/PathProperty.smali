@@ -125,11 +125,7 @@
     move-result p1
 
     .line 36
-    iput p1, p0, Landroidx/transition/PathProperty;->mPathLength:F
-
-    .line 37
-    .line 38
-    return-void
+    iput p1, p0, Landroidx/transition/PathProperty;->mPathLength:F    return-void
 .end method
 
 
@@ -234,5 +230,4 @@
 
     return-void
 .end method
-
 .end class

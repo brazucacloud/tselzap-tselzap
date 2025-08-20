@@ -56,12 +56,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V    return-void
 .end method
 
 .method public constructor <init>()V
@@ -192,11 +187,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/LongArrayList;->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/LongArrayList;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/LongArrayList;->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/LongArrayList;    return-object v0
 .end method
 
 .method private ensureIndexInRange(I)V
@@ -211,11 +202,7 @@
 
     .line 4
     .line 5
-    if-ge p1, v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-ge p1, v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -236,18 +223,7 @@
     .line 15
     .line 16
     .line 17
-    throw v0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw v0.end method
 
 .method private makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
     .locals 2
@@ -395,11 +371,7 @@
     const/4 v1, 0x0
 
     .line 21
-    if-nez v0, :cond_1
-
-    .line 22
-    .line 23
-    return v1
+    if-nez v0, :cond_1    return v1
 
     .line 24
     :cond_1
@@ -481,11 +453,7 @@
     add-int/2addr p1, v0
 
     .line 61
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
-
-    .line 62
-    .line 63
-    return v0
+    iput p1, p0, Ljava/util/AbstractList;->modCount:I    return v0
 
     .line 64
     :cond_3
@@ -498,23 +466,7 @@
     .line 67
     .line 68
     .line 69
-    throw p1
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public addLong(J)V
     .locals 4
@@ -571,11 +523,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -613,11 +561,7 @@
     const/4 v3, 0x0
 
     .line 21
-    if-eq v1, v2, :cond_2
-
-    .line 22
-    .line 23
-    return v3
+    if-eq v1, v2, :cond_2    return v3
 
     .line 24
     :cond_2
@@ -653,11 +597,7 @@
 
     .line 38
     .line 39
-    if-eqz v2, :cond_3
-
-    .line 40
-    .line 41
-    return v3
+    if-eqz v2, :cond_3    return v3
 
     .line 42
     :cond_3
@@ -711,11 +651,7 @@
 
     .line 5
     .line 6
-    aget-wide v1, v0, p1
-
-    .line 7
-    .line 8
-    return-wide v1
+    aget-wide v1, v0, p1    return-wide v1
 .end method
 
 .method public hashCode()I
@@ -1000,11 +936,7 @@
 
     .line 23
     .line 24
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
-
-    .line 25
-    .line 26
-    return-void
+    iput p1, p0, Ljava/util/AbstractList;->modCount:I    return-void
 
     .line 27
     :cond_0
@@ -1021,25 +953,7 @@
     .line 32
     .line 33
     .line 34
-    throw p1
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p1.end method
 
 .method public set(ILjava/lang/Long;)Ljava/lang/Long;
     .locals 2
@@ -1095,22 +1009,13 @@
 
     .line 10
     .line 11
-    aput-wide p2, v0, p1
-
-    .line 12
-    .line 13
-    return-wide v1
+    aput-wide p2, v0, p1    return-wide v1
 .end method
 
 .method public size()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/LongArrayList;->size:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/LongArrayList;->size:I    return v0
 .end method
-
 .end class

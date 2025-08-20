@@ -199,11 +199,7 @@
     .line 36
     .line 37
     .line 38
-    sput-object v0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->ZERO_INSETS:Landroid/graphics/Rect;
-
-    .line 39
-    .line 40
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->ZERO_INSETS:Landroid/graphics/Rect;    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -367,12 +363,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0}, Ljava/lang/Runnable;->run()V    return-void
 .end method
 
 .method private applyInsets(Landroid/view/View;Landroid/graphics/Rect;ZZZZ)Z
@@ -497,11 +488,7 @@
 
     .line 50
     .line 51
-    iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
-
-    .line 52
-    .line 53
-    return v0
+    iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I    return v0
 
     .line 54
     :cond_3
@@ -545,11 +532,7 @@
     move-result v0
 
     .line 18
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 19
-    .line 20
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method private getDecorToolbar(Landroid/view/View;)Landroidx/appcompat/widget/DecorToolbar;
@@ -564,11 +547,7 @@
 
     .line 4
     .line 5
-    check-cast p1, Landroidx/appcompat/widget/DecorToolbar;
-
-    .line 6
-    .line 7
-    return-object p1
+    check-cast p1, Landroidx/appcompat/widget/DecorToolbar;    return-object p1
 
     .line 8
     :cond_0
@@ -632,54 +611,7 @@
     .line 36
     .line 37
     .line 38
-    throw v0
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 .method private init(Landroid/content/Context;)V
     .locals 4
@@ -770,11 +702,7 @@
     .line 41
     .line 42
     .line 43
-    iput-object v0, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mFlingEstimator:Landroid/widget/OverScroller;
-
-    .line 44
-    .line 45
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mFlingEstimator:Landroid/widget/OverScroller;    return-void
 .end method
 
 .method private postAddActionBarHideOffset()V
@@ -794,12 +722,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0, v1, v2}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, v0, v1, v2}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 .end method
 
 .method private postRemoveActionBarHideOffset()V
@@ -819,12 +742,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0, v1, v2}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, v0, v1, v2}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 .end method
 
 .method private removeActionBarHideOffset()V
@@ -840,12 +758,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0}, Ljava/lang/Runnable;->run()V    return-void
 .end method
 
 .method private shouldHideActionBarOnFling(F)Z
@@ -956,11 +869,7 @@
     .locals 0
 
     .line 1
-    instance-of p1, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout$LayoutParams;
-
-    .line 2
-    .line 3
-    return p1
+    instance-of p1, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout$LayoutParams;    return p1
 .end method
 
 .method public dismissPopups()V
@@ -976,12 +885,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->dismissPopupMenus()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->dismissPopupMenus()V    return-void
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -1402,23 +1306,14 @@
 
     .line 11
     .line 12
-    if-eq p1, v0, :cond_0
-
-    .line 13
-    .line 14
-    return-void
+    if-eq p1, v0, :cond_0    return-void
 
     .line 15
     :cond_0
     const/4 p1, 0x1
 
     .line 16
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ActionBarOverlayLayout;->setOverlayMode(Z)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ActionBarOverlayLayout;->setOverlayMode(Z)V    return-void
 
     .line 20
     :cond_1
@@ -1426,12 +1321,7 @@
 
     .line 21
     .line 22
-    invoke-interface {p1}, Landroidx/appcompat/widget/DecorToolbar;->initIndeterminateProgress()V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-interface {p1}, Landroidx/appcompat/widget/DecorToolbar;->initIndeterminateProgress()V    return-void
 
     .line 26
     :cond_2
@@ -1439,34 +1329,21 @@
 
     .line 27
     .line 28
-    invoke-interface {p1}, Landroidx/appcompat/widget/DecorToolbar;->initProgress()V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-interface {p1}, Landroidx/appcompat/widget/DecorToolbar;->initProgress()V    return-void
 .end method
 
 .method public isHideOnContentScrollEnabled()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mHideOnContentScroll:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mHideOnContentScroll:Z    return v0
 .end method
 
 .method public isInOverlayMode()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mOverlayMode:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mOverlayMode:Z    return v0
 .end method
 
 .method public isOverflowMenuShowPending()Z
@@ -1786,12 +1663,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V    return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -1803,12 +1675,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/appcompat/widget/ActionBarOverlayLayout;->haltActionBarHideOffsetAnimations()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/ActionBarOverlayLayout;->haltActionBarHideOffsetAnimations()V    return-void
 .end method
 
 .method public onLayout(ZIIII)V
@@ -2655,12 +2522,7 @@
     move-result p1
 
     .line 339
-    invoke-virtual {p0, p2, p1}, Landroid/view/View;->setMeasuredDimension(II)V
-
-    .line 340
-    .line 341
-    .line 342
-    return-void
+    invoke-virtual {p0, p2, p1}, Landroid/view/View;->setMeasuredDimension(II)V    return-void
 .end method
 
 .method public onNestedFling(Landroid/view/View;FFZ)Z
@@ -2713,11 +2575,7 @@
     const/4 p1, 0x1
 
     .line 22
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mAnimatingForFling:Z
-
-    .line 23
-    .line 24
-    return p1
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mAnimatingForFling:Z    return p1
 
     .line 25
     :cond_2
@@ -3217,12 +3075,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->restoreHierarchyState(Landroid/util/SparseArray;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->restoreHierarchyState(Landroid/util/SparseArray;)V    return-void
 .end method
 
 .method public saveToolbarHierarchyState(Landroid/util/SparseArray;)V
@@ -3246,12 +3099,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->saveHierarchyState(Landroid/util/SparseArray;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->saveHierarchyState(Landroid/util/SparseArray;)V    return-void
 .end method
 
 .method public setActionBarHideOffset(I)V
@@ -3304,12 +3152,7 @@
     int-to-float p1, p1
 
     .line 23
-    invoke-virtual {v0, p1}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {v0, p1}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public setActionBarVisibilityCallback(Landroidx/appcompat/widget/ActionBarOverlayLayout$ActionBarVisibilityCallback;)V
@@ -3371,11 +3214,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mHasNonEmbeddedTabs:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mHasNonEmbeddedTabs:Z    return-void
 .end method
 
 .method public setHideOnContentScrollEnabled(Z)V
@@ -3456,12 +3295,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setLogo(I)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setLogo(I)V    return-void
 .end method
 
 .method public setMenu(Landroid/view/Menu;Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
@@ -3477,12 +3311,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1, p2}, Landroidx/appcompat/widget/DecorToolbar;->setMenu(Landroid/view/Menu;Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1, p2}, Landroidx/appcompat/widget/DecorToolbar;->setMenu(Landroid/view/Menu;Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V    return-void
 .end method
 
 .method public setMenuPrepared()V
@@ -3498,23 +3327,14 @@
 
     .line 5
     .line 6
-    invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->setMenuPrepared()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0}, Landroidx/appcompat/widget/DecorToolbar;->setMenuPrepared()V    return-void
 .end method
 
 .method public setOverlayMode(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mOverlayMode:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mOverlayMode:Z    return-void
 .end method
 
 .method public setShowingForActionMode(Z)V
@@ -3542,12 +3362,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowCallback(Landroid/view/Window$Callback;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowCallback(Landroid/view/Window$Callback;)V    return-void
 .end method
 
 .method public setWindowTitle(Ljava/lang/CharSequence;)V
@@ -3563,12 +3378,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public shouldDelayChildPressedState()Z
@@ -3601,5 +3411,4 @@
 
     return v0
 .end method
-
 .end class

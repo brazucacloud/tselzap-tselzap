@@ -91,12 +91,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->drawableStateChanged()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->drawableStateChanged()V    return-void
 .end method
 
 .method public jumpDrawablesToCurrentState()V
@@ -112,12 +107,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->jumpDrawablesToCurrentState()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->jumpDrawablesToCurrentState()V    return-void
 .end method
 
 .method public declared-synchronized onDraw(Landroid/graphics/Canvas;)V
@@ -159,20 +149,5 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 14
-    throw p1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
-
+    throw p1.end method
 .end class

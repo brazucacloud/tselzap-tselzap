@@ -69,11 +69,7 @@
     .line 26
     .line 27
     .line 28
-    iput-object p2, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;->toolbarWeakReference:Ljava/lang/ref/WeakReference;
-
-    .line 29
-    .line 30
-    return-void
+    iput-object p2, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;->toolbarWeakReference:Ljava/lang/ref/WeakReference;    return-void
 .end method
 
 
@@ -120,21 +116,11 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V    return-void
 
     .line 25
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->onDestinationChanged(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-super {p0, p1, p2, p3}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->onDestinationChanged(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public setNavigationIcon(Landroid/graphics/drawable/Drawable;I)V
@@ -247,5 +233,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

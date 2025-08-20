@@ -68,12 +68,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V    return-void
 .end method
 
 .method public constructor <init>()V
@@ -122,11 +117,7 @@
     .end annotation
 
     .line 1
-    new-array p0, p0, [Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object p0
+    new-array p0, p0, [Ljava/lang/Object;    return-object p0
 .end method
 
 .method public static emptyList()Landroidx/datastore/preferences/protobuf/ProtobufArrayList;
@@ -142,11 +133,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/ProtobufArrayList;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/ProtobufArrayList;    return-object v0
 .end method
 
 .method private ensureIndexInRange(I)V
@@ -161,11 +148,7 @@
 
     .line 4
     .line 5
-    if-ge p1, v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-ge p1, v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -186,18 +169,7 @@
     .line 15
     .line 16
     .line 17
-    throw v0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw v0.end method
 
 .method private makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
     .locals 2
@@ -420,11 +392,7 @@
 
     .line 5
     .line 6
-    aget-object p1, v0, p1
-
-    .line 7
-    .line 8
-    return-object p1
+    aget-object p1, v0, p1    return-object p1
 .end method
 
 .method public bridge synthetic mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
@@ -554,11 +522,7 @@
 
     .line 34
     .line 35
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
-
-    .line 36
-    .line 37
-    return-object v1
+    iput p1, p0, Ljava/util/AbstractList;->modCount:I    return-object v1
 .end method
 
 .method public set(ILjava/lang/Object;)Ljava/lang/Object;
@@ -600,22 +564,13 @@
 
     .line 16
     .line 17
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
-
-    .line 18
-    .line 19
-    return-object v1
+    iput p1, p0, Ljava/util/AbstractList;->modCount:I    return-object v1
 .end method
 
 .method public size()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->size:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->size:I    return v0
 .end method
-
 .end class

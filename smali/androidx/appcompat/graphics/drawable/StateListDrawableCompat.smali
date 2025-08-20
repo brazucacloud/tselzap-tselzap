@@ -473,11 +473,7 @@
     move-result p1
 
     .line 60
-    iput-boolean p1, v0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mDither:Z
-
-    .line 61
-    .line 62
-    return-void
+    iput-boolean p1, v0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mDither:Z    return-void
 .end method
 
 
@@ -540,12 +536,7 @@
     move-result-object p1
 
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->onStateChange([I)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->onStateChange([I)Z    return-void
 .end method
 
 .method public clearMutated()V
@@ -560,11 +551,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->mMutated:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->mMutated:Z    return-void
 .end method
 
 .method public bridge synthetic cloneConstantState()Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;
@@ -761,11 +748,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->mStateListState:Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->mStateListState:Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;    return-object v0
 .end method
 
 .method public getStateSet(I)[I
@@ -780,11 +763,7 @@
 
     .line 4
     .line 5
-    aget-object p1, v0, p1
-
-    .line 6
-    .line 7
-    return-object p1
+    aget-object p1, v0, p1    return-object p1
 .end method
 
 .method public inflate(Landroid/content/Context;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
@@ -874,12 +853,7 @@
     move-result-object p2
 
     .line 34
-    invoke-virtual {p0, p2}, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->onStateChange([I)Z
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;->onStateChange([I)Z    return-void
 .end method
 
 .method public isStateful()Z
@@ -1049,5 +1023,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -87,33 +87,21 @@
     move-result-object v0
 
     .line 24
-    sput-object v0, Landroidx/lifecycle/SavedStateViewModelFactoryKt;->VIEWMODEL_SIGNATURE:Ljava/util/List;
-
-    .line 25
-    .line 26
-    return-void
+    sput-object v0, Landroidx/lifecycle/SavedStateViewModelFactoryKt;->VIEWMODEL_SIGNATURE:Ljava/util/List;    return-void
 .end method
 
 .method public static final synthetic access$getANDROID_VIEWMODEL_SIGNATURE$p()Ljava/util/List;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/SavedStateViewModelFactoryKt;->ANDROID_VIEWMODEL_SIGNATURE:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/lifecycle/SavedStateViewModelFactoryKt;->ANDROID_VIEWMODEL_SIGNATURE:Ljava/util/List;    return-object v0
 .end method
 
 .method public static final synthetic access$getVIEWMODEL_SIGNATURE$p()Ljava/util/List;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/SavedStateViewModelFactoryKt;->VIEWMODEL_SIGNATURE:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/lifecycle/SavedStateViewModelFactoryKt;->VIEWMODEL_SIGNATURE:Ljava/util/List;    return-object v0
 .end method
 
 .method public static final findMatchingConstructor(Ljava/lang/Class;Ljava/util/List;)Ljava/lang/reflect/Constructor;
@@ -218,11 +206,7 @@
     move-result v5
 
     .line 43
-    if-eqz v5, :cond_0
-
-    .line 44
-    .line 45
-    return-object v3
+    if-eqz v5, :cond_0    return-object v3
 
     .line 46
     :cond_0
@@ -412,11 +396,7 @@
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 26
-    .line 27
-    return-object p1
+    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-object p1
 
     .line 28
     :catch_0
@@ -571,22 +551,5 @@
     .line 100
     .line 101
     .line 102
-    throw p2
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
-
+    throw p2.end method
 .end class

@@ -155,11 +155,7 @@
 
     .line 48
     .line 49
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CycleOscillator;->mScale:[F
-
-    .line 50
-    .line 51
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CycleOscillator;->mScale:[F    return-void
 .end method
 
 
@@ -175,11 +171,7 @@
     const/4 v1, 0x1
 
     .line 4
-    aget-wide v1, v0, v1
-
-    .line 5
-    .line 6
-    return-wide v1
+    aget-wide v1, v0, v1    return-wide v1
 .end method
 
 .method public getSlope(F)D
@@ -521,11 +513,7 @@
 
     .line 22
     .line 23
-    aput p6, p2, p1
-
-    .line 24
-    .line 25
-    return-void
+    aput p6, p2, p1    return-void
 .end method
 
 .method public setup(F)V
@@ -818,22 +806,13 @@
     move-result-object p1
 
     .line 135
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CycleOscillator;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 136
-    .line 137
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CycleOscillator;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
 
     .line 138
     :cond_3
     const/4 p1, 0x0
 
     .line 139
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CycleOscillator;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 140
-    .line 141
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$CycleOscillator;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
 .end method
-
 .end class

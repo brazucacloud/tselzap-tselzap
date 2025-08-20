@@ -48,11 +48,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/viewpager2/widget/ViewPager2$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/viewpager2/widget/ViewPager2$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -135,11 +131,7 @@
     move-result-object p1
 
     .line 17
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$SavedState;->mAdapterState:Landroid/os/Parcelable;
-
-    .line 18
-    .line 19
-    return-void
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$SavedState;->mAdapterState:Landroid/os/Parcelable;    return-void
 .end method
 
 
@@ -175,12 +167,6 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V    return-void
 .end method
-
 .end class

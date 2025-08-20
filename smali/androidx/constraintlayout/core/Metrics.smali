@@ -126,11 +126,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/Metrics;->problematicLayouts:Ljava/util/ArrayList;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/Metrics;->problematicLayouts:Ljava/util/ArrayList;    return-void
 .end method
 
 
@@ -431,11 +427,7 @@
 
     .line 146
     .line 147
-    iput-wide v0, p0, Landroidx/constraintlayout/core/Metrics;->nonresolvedWidgets:J
-
-    .line 148
-    .line 149
-    return-void
+    iput-wide v0, p0, Landroidx/constraintlayout/core/Metrics;->nonresolvedWidgets:J    return-void
 .end method
 
 .method public reset()V
@@ -606,11 +598,7 @@
 
     .line 82
     .line 83
-    iput-wide v0, p0, Landroidx/constraintlayout/core/Metrics;->mSimpleEquations:J
-
-    .line 84
-    .line 85
-    return-void
+    iput-wide v0, p0, Landroidx/constraintlayout/core/Metrics;->mSimpleEquations:J    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -791,5 +779,4 @@
 
     return-object v0
 .end method
-
 .end class

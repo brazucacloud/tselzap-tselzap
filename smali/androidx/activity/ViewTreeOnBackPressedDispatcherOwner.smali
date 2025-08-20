@@ -49,11 +49,7 @@
     move-result-object p0
 
     .line 22
-    check-cast p0, Landroidx/activity/OnBackPressedDispatcherOwner;
-
-    .line 23
-    .line 24
-    return-object p0
+    check-cast p0, Landroidx/activity/OnBackPressedDispatcherOwner;    return-object p0
 .end method
 
 .method public static final set(Landroid/view/View;Landroidx/activity/OnBackPressedDispatcherOwner;)V
@@ -82,12 +78,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
-
 .end class

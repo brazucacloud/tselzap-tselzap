@@ -32,12 +32,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;-><init>()V    return-void
 .end method
 
 .method public static makeCustomSpline(Ljava/lang/String;Landroid/util/SparseArray;)Landroidx/constraintlayout/motion/utils/ViewTimeCycle;
@@ -58,12 +53,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/motion/utils/ViewTimeCycle$CustomSet;-><init>(Ljava/lang/String;Landroid/util/SparseArray;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/motion/utils/ViewTimeCycle$CustomSet;-><init>(Ljava/lang/String;Landroid/util/SparseArray;)V    return-object v0
 .end method
 
 .method public static makeSpline(Ljava/lang/String;J)Landroidx/constraintlayout/motion/utils/ViewTimeCycle;
@@ -593,12 +583,7 @@
     .line 232
     .line 233
     :goto_1
-    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->setStartTime(J)V
-
-    .line 234
-    .line 235
-    .line 236
-    return-object p0
+    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->setStartTime(J)V    return-object p0
 
     .line 237
     :sswitch_data_0
@@ -709,11 +694,7 @@
 
     .line 32
     .line 33
-    aget v1, v5, v8
-
-    .line 34
-    .line 35
-    return v1
+    aget v1, v5, v8    return v1
 
     .line 36
     :cond_0
@@ -895,14 +876,9 @@
 
     .line 119
     :goto_1
-    iput-boolean v6, v0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z
-
-    .line 120
-    .line 121
-    return v2
+    iput-boolean v6, v0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return v2
 .end method
 
 .method public abstract setProperty(Landroid/view/View;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
 .end method
-
 .end class

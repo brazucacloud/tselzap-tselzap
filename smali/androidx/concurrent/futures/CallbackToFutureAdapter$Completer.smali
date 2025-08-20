@@ -66,11 +66,7 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->cancellationFuture:Landroidx/concurrent/futures/ResolvableFuture;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->cancellationFuture:Landroidx/concurrent/futures/ResolvableFuture;    return-void
 .end method
 
 .method private setCompletedNormally()V
@@ -88,11 +84,7 @@
 
     .line 5
     .line 6
-    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->cancellationFuture:Landroidx/concurrent/futures/ResolvableFuture;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->cancellationFuture:Landroidx/concurrent/futures/ResolvableFuture;    return-void
 .end method
 
 
@@ -242,12 +234,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Landroidx/concurrent/futures/ResolvableFuture;->set(Ljava/lang/Object;)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v1, v0}, Landroidx/concurrent/futures/ResolvableFuture;->set(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public set(Ljava/lang/Object;)Z
@@ -414,5 +401,4 @@
     :cond_1
     return v0
 .end method
-
 .end class

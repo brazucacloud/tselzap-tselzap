@@ -50,11 +50,7 @@
 
     .line 3
     .line 4
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->EMPTY_BYTE_ARRAY:[B
-
-    .line 5
-    .line 6
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->EMPTY_BYTE_ARRAY:[B    return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -91,11 +87,7 @@
 
     .line 16
     .line 17
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->buffer:[B
-
-    .line 18
-    .line 19
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->buffer:[B    return-void
 
     .line 20
     :cond_0
@@ -137,12 +129,7 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-static {p1, v1, v0, v1, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-static {p1, v1, v0, v1, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V    return-object v0
 .end method
 
 .method private flushFullBuffer(I)V
@@ -224,11 +211,7 @@
     const/4 p1, 0x0
 
     .line 38
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->bufferPos:I
-
-    .line 39
-    .line 40
-    return-void
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->bufferPos:I    return-void
 .end method
 
 .method private flushLastBuffer()V
@@ -334,11 +317,7 @@
     const/4 v0, 0x0
 
     .line 49
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->bufferPos:I
-
-    .line 50
-    .line 51
-    return-void
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->bufferPos:I    return-void
 .end method
 
 
@@ -388,14 +367,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 16
-    throw v0
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public declared-synchronized size()I
     .locals 2
@@ -433,19 +405,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 11
-    throw v0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public declared-synchronized toByteString()Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 1
@@ -489,15 +449,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 15
-    throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public toString()Ljava/lang/String;
     .locals 4
@@ -790,12 +742,7 @@
     move-result-object v0
 
     .line 37
-    invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V    return-void
 
     .line 41
     :catchall_0
@@ -808,48 +755,5 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 43
-    throw p1
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw p1.end method
 .end class

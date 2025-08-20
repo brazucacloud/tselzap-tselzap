@@ -55,5 +55,4 @@
 
 .method public abstract valueType()Landroidx/annotation/InspectableProperty$ValueType;
 .end method
-
 .end class

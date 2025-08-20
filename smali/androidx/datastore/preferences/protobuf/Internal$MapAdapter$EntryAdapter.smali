@@ -59,11 +59,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;    return-void
 .end method
 
 
@@ -75,11 +71,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p1, p0, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p1, p0, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -90,11 +82,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -154,11 +142,7 @@
     move-result p1
 
     .line 39
-    if-eqz p1, :cond_2
-
-    .line 40
-    .line 41
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 42
     :cond_2
@@ -321,5 +305,4 @@
 
     return-object p1
 .end method
-
 .end class

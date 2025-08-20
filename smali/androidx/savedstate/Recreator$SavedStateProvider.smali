@@ -65,12 +65,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v0, p0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p1, v0, p0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V    return-void
 .end method
 
 
@@ -92,12 +87,7 @@
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public saveState()Landroid/os/Bundle;
@@ -130,12 +120,6 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-object v0
+    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V    return-object v0
 .end method
-
 .end class

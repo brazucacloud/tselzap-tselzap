@@ -439,21 +439,11 @@
 
     .line 92
     :goto_4
-    invoke-static {p0, v1}, Landroidx/appcompat/widget/TooltipCompat;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V
-
-    .line 93
-    .line 94
-    .line 95
-    return-void
+    invoke-static {p0, v1}, Landroidx/appcompat/widget/TooltipCompat;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
 
     .line 96
     :cond_6
-    invoke-static {p0, v2}, Landroidx/appcompat/widget/TooltipCompat;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V
-
-    .line 97
-    .line 98
-    .line 99
-    return-void
+    invoke-static {p0, v2}, Landroidx/appcompat/widget/TooltipCompat;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
 .end method
 
 
@@ -480,11 +470,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mItemData:Landroidx/appcompat/view/menu/MenuItemImpl;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mItemData:Landroidx/appcompat/view/menu/MenuItemImpl;    return-object v0
 .end method
 
 .method public hasText()Z
@@ -507,11 +493,7 @@
     move-result v0
 
     .line 9
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 10
-    .line 11
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method public initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V
@@ -743,12 +725,7 @@
 
     .line 9
     .line 10
-    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V    return-void
 .end method
 
 .method public onMeasure(II)V
@@ -984,12 +961,7 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-super {p0, p1}, Landroid/widget/TextView;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/TextView;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1208,23 +1180,14 @@
     .line 42
     .line 43
     .line 44
-    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V    return-void
 .end method
 
 .method public setItemInvoker(Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mItemInvoker:Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mItemInvoker:Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;    return-void
 .end method
 
 .method public setPadding(IIII)V
@@ -1235,23 +1198,14 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->setPadding(IIII)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->setPadding(IIII)V    return-void
 .end method
 
 .method public setPopupCallback(Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mPopupCallback:Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mPopupCallback:Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;    return-void
 .end method
 
 .method public setShortcut(ZC)V
@@ -1268,12 +1222,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V    return-void
 .end method
 
 .method public showsIcon()Z
@@ -1283,5 +1232,4 @@
 
     return v0
 .end method
-
 .end class

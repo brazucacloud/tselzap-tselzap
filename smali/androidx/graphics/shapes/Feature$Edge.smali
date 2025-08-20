@@ -37,12 +37,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/graphics/shapes/Feature;-><init>(Ljava/util/List;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1}, Landroidx/graphics/shapes/Feature;-><init>(Ljava/util/List;)V    return-void
 .end method
 
 
@@ -51,11 +46,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "Edge"
-
-    .line 2
-    .line 3
-    return-object v0
+    const-string v0, "Edge"    return-object v0
 .end method
 
 .method public transformed$graphics_shapes_release(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/Feature$Edge;
@@ -129,5 +120,4 @@
 
     return-object p1
 .end method
-
 .end class

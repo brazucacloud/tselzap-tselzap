@@ -89,24 +89,14 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0, p2}, Landroidx/appcompat/widget/ListPopupWindow;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/appcompat/widget/ListPopupWindow;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V    return-void
 .end method
 
 .method public static synthetic access$001(Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;)V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/appcompat/widget/ListPopupWindow;->show()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0}, Landroidx/appcompat/widget/ListPopupWindow;->show()V    return-void
 .end method
 
 
@@ -468,34 +458,21 @@
     .line 164
     .line 165
     :goto_2
-    invoke-virtual {p0, v3}, Landroidx/appcompat/widget/ListPopupWindow;->setHorizontalOffset(I)V
-
-    .line 166
-    .line 167
-    .line 168
-    return-void
+    invoke-virtual {p0, v3}, Landroidx/appcompat/widget/ListPopupWindow;->setHorizontalOffset(I)V    return-void
 .end method
 
 .method public getHintText()Ljava/lang/CharSequence;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mHintText:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mHintText:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getHorizontalOriginalOffset()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mOriginalHorizontalOffset:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mOriginalHorizontalOffset:I    return v0
 .end method
 
 .method public isVisibleToUser(Landroid/view/View;)Z
@@ -550,33 +527,21 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mAdapter:Landroid/widget/ListAdapter;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mAdapter:Landroid/widget/ListAdapter;    return-void
 .end method
 
 .method public setHorizontalOriginalOffset(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mOriginalHorizontalOffset:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mOriginalHorizontalOffset:I    return-void
 .end method
 
 .method public setPromptText(Ljava/lang/CharSequence;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mHintText:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->mHintText:Ljava/lang/CharSequence;    return-void
 .end method
 
 .method public show(II)V
@@ -708,5 +673,4 @@
     :goto_0
     return-void
 .end method
-
 .end class

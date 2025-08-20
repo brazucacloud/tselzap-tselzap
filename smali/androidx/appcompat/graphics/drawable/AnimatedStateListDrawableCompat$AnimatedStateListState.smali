@@ -80,11 +80,7 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;->mStateIds:Landroidx/collection/SparseArrayCompat;
-
-    .line 13
-    .line 14
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;->mStateIds:Landroidx/collection/SparseArrayCompat;    return-void
 
     .line 15
     :cond_0
@@ -110,11 +106,7 @@
     .line 25
     .line 26
     .line 27
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;->mStateIds:Landroidx/collection/SparseArrayCompat;
-
-    .line 28
-    .line 29
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;->mStateIds:Landroidx/collection/SparseArrayCompat;    return-void
 .end method
 
 .method private static generateTransitionKey(II)J
@@ -167,12 +159,7 @@
     move-result-object p3
 
     .line 11
-    invoke-virtual {p2, p1, p3}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return p1
+    invoke-virtual {p2, p1, p3}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return p1
 .end method
 
 .method public addTransition(IILandroid/graphics/drawable/Drawable;Z)I
@@ -296,11 +283,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-gez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-gez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -354,11 +337,7 @@
     move-result p1
 
     .line 5
-    if-ltz p1, :cond_0
-
-    .line 6
-    .line 7
-    return p1
+    if-ltz p1, :cond_0    return p1
 
     .line 8
     :cond_0
@@ -542,11 +521,7 @@
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;->mStateIds:Landroidx/collection/SparseArrayCompat;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;->mStateIds:Landroidx/collection/SparseArrayCompat;    return-void
 .end method
 
 .method public newDrawable()Landroid/graphics/drawable/Drawable;
@@ -657,5 +632,4 @@
 
     return p1
 .end method
-
 .end class

@@ -34,33 +34,21 @@
 
     .line 10
     .line 11
-    sput-object v0, Landroidx/collection/LongSetKt;->EmptyLongArray:[J
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/collection/LongSetKt;->EmptyLongArray:[J    return-void
 .end method
 
 .method public static final emptyLongSet()Landroidx/collection/LongSet;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongSet:Landroidx/collection/MutableLongSet;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongSet:Landroidx/collection/MutableLongSet;    return-object v0
 .end method
 
 .method public static final getEmptyLongArray()[J
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongArray:[J
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongArray:[J    return-object v0
 .end method
 
 .method public static final hash(J)I
@@ -238,5 +226,4 @@
 
     return-object v0
 .end method
-
 .end class

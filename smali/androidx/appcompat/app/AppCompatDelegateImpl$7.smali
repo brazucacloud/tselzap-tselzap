@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -78,11 +73,7 @@
 
     .line 19
     .line 20
-    iput-object v0, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->mFadeAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object v0, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->mFadeAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;    return-void
 .end method
 
 .method public onAnimationStart(Landroid/view/View;)V
@@ -157,5 +148,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

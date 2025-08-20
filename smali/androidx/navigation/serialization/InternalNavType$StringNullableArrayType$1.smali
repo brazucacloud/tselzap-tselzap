@@ -31,12 +31,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;-><init>(Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;-><init>(Z)V    return-void
 .end method
 
 
@@ -96,11 +91,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "string_nullable[]"
-
-    .line 2
-    .line 3
-    return-object v0
+    const-string v0, "string_nullable[]"    return-object v0
 .end method
 
 .method public bridge synthetic parseValue(Ljava/lang/String;)Ljava/lang/Object;
@@ -321,5 +312,4 @@
 
     return p1
 .end method
-
 .end class

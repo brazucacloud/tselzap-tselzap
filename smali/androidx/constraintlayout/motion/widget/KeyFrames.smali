@@ -200,12 +200,7 @@
     .line 79
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 80
-    .line 81
-    .line 82
-    return-void
+    .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 83
     :catch_0
@@ -220,12 +215,7 @@
 
     .line 87
     .line 88
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    .line 89
-    .line 90
-    .line 91
-    return-void
+    invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I    return-void
 .end method
 
 .method public constructor <init>()V
@@ -927,11 +917,7 @@
     move-result-object p1
 
     .line 11
-    check-cast p1, Ljava/util/ArrayList;
-
-    .line 12
-    .line 13
-    return-object p1
+    check-cast p1, Ljava/util/ArrayList;    return-object p1
 .end method
 
 .method public getKeys()Ljava/util/Set;
@@ -959,5 +945,4 @@
 
     return-object v0
 .end method
-
 .end class

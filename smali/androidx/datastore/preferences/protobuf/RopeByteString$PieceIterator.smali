@@ -143,11 +143,7 @@
 
     .line 17
     :cond_0
-    check-cast p1, Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
-
-    .line 18
-    .line 19
-    return-object p1
+    check-cast p1, Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;    return-object p1
 .end method
 
 .method private getNextNonEmptyLeaf()Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
@@ -219,11 +215,7 @@
     move-result v1
 
     .line 32
-    if-nez v1, :cond_0
-
-    .line 33
-    .line 34
-    return-object v0
+    if-nez v1, :cond_0    return-object v0
 
     .line 35
     :cond_2
@@ -308,23 +300,5 @@
     .line 4
     .line 5
     .line 6
-    throw v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v0.end method
 .end class

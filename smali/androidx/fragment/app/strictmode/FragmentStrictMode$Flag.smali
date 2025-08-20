@@ -302,11 +302,7 @@
     move-result-object v0
 
     .line 96
-    sput-object v0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Flag;->$VALUES:[Landroidx/fragment/app/strictmode/FragmentStrictMode$Flag;
-
-    .line 97
-    .line 98
-    return-void
+    sput-object v0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Flag;->$VALUES:[Landroidx/fragment/app/strictmode/FragmentStrictMode$Flag;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -318,12 +314,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/fragment/app/strictmode/FragmentStrictMode$Flag;
@@ -353,5 +344,4 @@
 
     return-object v0
 .end method
-
 .end class

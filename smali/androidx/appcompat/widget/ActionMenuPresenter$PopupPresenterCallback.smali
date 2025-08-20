@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -121,11 +116,7 @@
     const/4 v1, 0x0
 
     .line 8
-    if-ne p1, v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-ne p1, v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -189,5 +180,4 @@
     :cond_1
     return v1
 .end method
-
 .end class

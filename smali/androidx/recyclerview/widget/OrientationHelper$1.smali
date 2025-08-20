@@ -22,12 +22,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/OrientationHelper;-><init>(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroidx/recyclerview/widget/OrientationHelper$1;)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/OrientationHelper;-><init>(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroidx/recyclerview/widget/OrientationHelper$1;)V    return-void
 .end method
 
 
@@ -389,11 +384,7 @@
 
     .line 10
     .line 11
-    iget p1, p1, Landroid/graphics/Rect;->right:I
-
-    .line 12
-    .line 13
-    return p1
+    iget p1, p1, Landroid/graphics/Rect;->right:I    return p1
 .end method
 
 .method public getTransformedStartWithDecoration(Landroid/view/View;)I
@@ -420,23 +411,14 @@
 
     .line 10
     .line 11
-    iget p1, p1, Landroid/graphics/Rect;->left:I
-
-    .line 12
-    .line 13
-    return p1
+    iget p1, p1, Landroid/graphics/Rect;->left:I    return p1
 .end method
 
 .method public offsetChild(Landroid/view/View;I)V
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p2}, Landroid/view/View;->offsetLeftAndRight(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->offsetLeftAndRight(I)V    return-void
 .end method
 
 .method public offsetChildren(I)V
@@ -447,12 +429,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->offsetChildrenHorizontal(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->offsetChildrenHorizontal(I)V    return-void
 .end method
-
 .end class

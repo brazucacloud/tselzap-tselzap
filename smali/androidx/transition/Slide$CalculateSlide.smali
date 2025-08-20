@@ -20,5 +20,4 @@
 
 .method public abstract getGoneY(Landroid/view/ViewGroup;Landroid/view/View;)F
 .end method
-
 .end class

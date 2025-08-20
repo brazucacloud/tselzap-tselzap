@@ -44,11 +44,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/navigation/NavActionBuilder;->defaultArguments:Ljava/util/Map;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/navigation/NavActionBuilder;->defaultArguments:Ljava/util/Map;    return-void
 .end method
 
 
@@ -372,12 +368,7 @@
 
     .line 155
     :goto_1
-    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;)V
-
-    .line 156
-    .line 157
-    .line 158
-    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;)V    return-object v0
 .end method
 
 .method public final getDefaultArguments()Ljava/util/Map;
@@ -393,22 +384,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavActionBuilder;->defaultArguments:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavActionBuilder;->defaultArguments:Ljava/util/Map;    return-object v0
 .end method
 
 .method public final getDestinationId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavActionBuilder;->destinationId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavActionBuilder;->destinationId:I    return v0
 .end method
 
 .method public final navOptions(Lp1/l;)V
@@ -453,22 +436,13 @@
     move-result-object p1
 
     .line 18
-    iput-object p1, p0, Landroidx/navigation/NavActionBuilder;->navOptions:Landroidx/navigation/NavOptions;
-
-    .line 19
-    .line 20
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavActionBuilder;->navOptions:Landroidx/navigation/NavOptions;    return-void
 .end method
 
 .method public final setDestinationId(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/navigation/NavActionBuilder;->destinationId:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/navigation/NavActionBuilder;->destinationId:I    return-void
 .end method
-
 .end class

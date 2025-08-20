@@ -79,11 +79,7 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/recyclerview/widget/TileList$Tile;->mItems:[Ljava/lang/Object;
-
-    .line 11
-    .line 12
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/TileList$Tile;->mItems:[Ljava/lang/Object;    return-void
 .end method
 
 
@@ -142,11 +138,6 @@
     sub-int/2addr p1, v1
 
     .line 6
-    aget-object p1, v0, p1
-
-    .line 7
-    .line 8
-    return-object p1
+    aget-object p1, v0, p1    return-object p1
 .end method
-
 .end class

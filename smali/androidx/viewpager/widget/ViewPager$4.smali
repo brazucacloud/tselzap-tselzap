@@ -46,11 +46,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/viewpager/widget/ViewPager$4;->mTempRect:Landroid/graphics/Rect;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/viewpager/widget/ViewPager$4;->mTempRect:Landroid/graphics/Rect;    return-void
 .end method
 
 
@@ -75,11 +71,7 @@
     move-result p2
 
     .line 9
-    if-eqz p2, :cond_0
-
-    .line 10
-    .line 11
-    return-object p1
+    if-eqz p2, :cond_0    return-object p1
 
     .line 12
     :cond_0
@@ -304,5 +296,4 @@
 
     return-object p1
 .end method
-
 .end class

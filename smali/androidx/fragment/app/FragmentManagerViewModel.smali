@@ -66,11 +66,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/fragment/app/FragmentManagerViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/fragment/app/FragmentManagerViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;    return-void
 .end method
 
 .method public constructor <init>(Z)V
@@ -136,11 +132,7 @@
 
     .line 31
     .line 32
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mStateAutomaticallySaved:Z
-
-    .line 33
-    .line 34
-    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mStateAutomaticallySaved:Z    return-void
 .end method
 
 .method private clearNonConfigStateInternal(Ljava/lang/String;Z)V
@@ -330,11 +322,7 @@
     move-result-object p0
 
     .line 14
-    check-cast p0, Landroidx/fragment/app/FragmentManagerViewModel;
-
-    .line 15
-    .line 16
-    return-object p0
+    check-cast p0, Landroidx/fragment/app/FragmentManagerViewModel;    return-object p0
 .end method
 
 
@@ -378,12 +366,7 @@
 
     .line 15
     .line 16
-    invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 20
     :cond_0
@@ -561,11 +544,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -656,11 +635,7 @@
     move-result p1
 
     .line 47
-    if-eqz p1, :cond_2
-
-    .line 48
-    .line 49
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 50
     :cond_2
@@ -686,11 +661,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroidx/fragment/app/Fragment;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroidx/fragment/app/Fragment;    return-object p1
 .end method
 
 .method public getChildNonConfig(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentManagerViewModel;
@@ -788,12 +759,7 @@
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V    return-object v0
 .end method
 
 .method public getSnapshot()Landroidx/fragment/app/FragmentManagerNonConfig;
@@ -852,11 +818,7 @@
     move-result v0
 
     .line 24
-    if-eqz v0, :cond_0
-
-    .line 25
-    .line 26
-    return-object v1
+    if-eqz v0, :cond_0    return-object v1
 
     .line 27
     :cond_0
@@ -1007,11 +969,7 @@
     move-result v2
 
     .line 99
-    if-eqz v2, :cond_3
-
-    .line 100
-    .line 101
-    return-object v1
+    if-eqz v2, :cond_3    return-object v1
 
     .line 102
     :cond_3
@@ -1053,12 +1011,7 @@
     .line 120
     .line 121
     .line 122
-    invoke-direct {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentManagerNonConfig;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;)V
-
-    .line 123
-    .line 124
-    .line 125
-    return-object v1
+    invoke-direct {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentManagerNonConfig;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;)V    return-object v1
 .end method
 
 .method public getViewModelStore(Landroidx/fragment/app/Fragment;)Landroidx/lifecycle/ViewModelStore;
@@ -1181,11 +1134,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z    return v0
 .end method
 
 .method public onCleared()V
@@ -1246,11 +1195,7 @@
     const/4 v0, 0x1
 
     .line 28
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z
-
-    .line 29
-    .line 30
-    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z    return-void
 .end method
 
 .method public removeRetainedFragment(Landroidx/fragment/app/Fragment;)V
@@ -1292,12 +1237,7 @@
 
     .line 15
     .line 16
-    invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 20
     :cond_0
@@ -1609,22 +1549,14 @@
     const/4 p1, 0x0
 
     .line 116
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasSavedSnapshot:Z
-
-    .line 117
-    .line 118
-    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasSavedSnapshot:Z    return-void
 .end method
 
 .method public setIsStateSaved(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mIsStateSaved:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mIsStateSaved:Z    return-void
 .end method
 
 .method public shouldDestroy(Landroidx/fragment/app/Fragment;)Z
@@ -1654,11 +1586,7 @@
     const/4 v0, 0x1
 
     .line 10
-    if-nez p1, :cond_0
-
-    .line 11
-    .line 12
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 13
     :cond_0
@@ -1670,11 +1598,7 @@
 
     .line 16
     .line 17
-    iget-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z
-
-    .line 18
-    .line 19
-    return p1
+    iget-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z    return p1
 
     .line 20
     :cond_1
@@ -1988,5 +1912,4 @@
 
     return-object v0
 .end method
-
 .end class

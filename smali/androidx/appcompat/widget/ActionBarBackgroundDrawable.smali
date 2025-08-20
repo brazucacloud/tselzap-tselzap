@@ -25,11 +25,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;->mContainer:Landroidx/appcompat/widget/ActionBarContainer;    return-void
 .end method
 
 
@@ -62,12 +58,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V    return-void
 
     .line 15
     :cond_0
@@ -157,12 +148,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/ActionBarBackgroundDrawable$Api21Impl;->getOutline(Landroid/graphics/drawable/Drawable;Landroid/graphics/Outline;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/ActionBarBackgroundDrawable$Api21Impl;->getOutline(Landroid/graphics/drawable/Drawable;Landroid/graphics/Outline;)V    return-void
 
     .line 17
     :cond_0
@@ -194,5 +180,4 @@
 
     return-void
 .end method
-
 .end class

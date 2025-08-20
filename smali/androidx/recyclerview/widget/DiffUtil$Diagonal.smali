@@ -40,11 +40,7 @@
 
     .line 7
     .line 8
-    iput p3, p0, Landroidx/recyclerview/widget/DiffUtil$Diagonal;->size:I
-
-    .line 9
-    .line 10
-    return-void
+    iput p3, p0, Landroidx/recyclerview/widget/DiffUtil$Diagonal;->size:I    return-void
 .end method
 
 
@@ -82,5 +78,4 @@
 
     return v0
 .end method
-
 .end class

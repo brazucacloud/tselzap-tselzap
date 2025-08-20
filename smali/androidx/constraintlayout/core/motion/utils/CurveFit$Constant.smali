@@ -34,11 +34,7 @@
 
     .line 5
     .line 6
-    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D    return-void
 .end method
 
 
@@ -150,11 +146,6 @@
     const/4 v3, 0x0
 
     .line 7
-    aput-wide v0, v2, v3
-
-    .line 8
-    .line 9
-    return-object v2
+    aput-wide v0, v2, v3    return-object v2
 .end method
-
 .end class

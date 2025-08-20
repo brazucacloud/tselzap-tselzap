@@ -15,5 +15,4 @@
 
 .method public abstract setY(F)V
 .end method
-
 .end class

@@ -18,5 +18,4 @@
 
 .method public abstract hasValue()Z
 .end method
-
 .end class

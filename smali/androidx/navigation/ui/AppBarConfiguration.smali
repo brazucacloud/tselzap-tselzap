@@ -85,11 +85,7 @@
 
     .line 6
     .line 7
-    check-cast v0, Landroidx/drawerlayout/widget/DrawerLayout;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/drawerlayout/widget/DrawerLayout;    return-object v0
 
     .line 10
     :cond_0
@@ -102,22 +98,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->fallbackOnNavigateUpListener:Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->fallbackOnNavigateUpListener:Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;    return-object v0
 .end method
 
 .method public final getOpenableLayout()Landroidx/customview/widget/Openable;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->openableLayout:Landroidx/customview/widget/Openable;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->openableLayout:Landroidx/customview/widget/Openable;    return-object v0
 .end method
 
 .method public final getTopLevelDestinations()Ljava/util/Set;
@@ -132,11 +120,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->topLevelDestinations:Ljava/util/Set;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->topLevelDestinations:Ljava/util/Set;    return-object v0
 .end method
 
 .method public final isTopLevelDestination(Landroidx/navigation/NavDestination;)Z
@@ -285,5 +269,4 @@
 
     return p1
 .end method
-
 .end class

@@ -46,11 +46,7 @@
 
     .line 12
     .line 13
-    iput-wide v0, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mShowRequestTime:J
-
-    .line 14
-    .line 15
-    return-void
+    iput-wide v0, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mShowRequestTime:J    return-void
 .end method
 
 .method private getEditTextPreference()Landroidx/preference/EditTextPreference;
@@ -65,11 +61,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Landroidx/preference/EditTextPreference;
-
-    .line 6
-    .line 7
-    return-object v0
+    check-cast v0, Landroidx/preference/EditTextPreference;    return-object v0
 .end method
 
 .method private hasPendingShowSoftInputRequest()Z
@@ -162,12 +154,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-object v0
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 .method private setPendingShowSoftInputRequest(Z)V
@@ -195,11 +182,7 @@
     .line 9
     .line 10
     :goto_0
-    iput-wide v0, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mShowRequestTime:J
-
-    .line 11
-    .line 12
-    return-void
+    iput-wide v0, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mShowRequestTime:J    return-void
 .end method
 
 
@@ -361,21 +344,7 @@
     .line 69
     .line 70
     .line 71
-    throw p1
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 1
@@ -410,11 +379,7 @@
     move-result-object p1
 
     .line 14
-    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mText:Ljava/lang/CharSequence;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mText:Ljava/lang/CharSequence;    return-void
 
     .line 17
     :cond_0
@@ -430,11 +395,7 @@
     move-result-object p1
 
     .line 23
-    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mText:Ljava/lang/CharSequence;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object p1, p0, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->mText:Ljava/lang/CharSequence;    return-void
 .end method
 
 .method public onDialogClosed(Z)V
@@ -515,12 +476,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public scheduleShowSoftInput()V
@@ -540,12 +496,7 @@
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->scheduleShowSoftInputInner()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->scheduleShowSoftInputInner()V    return-void
 .end method
 
 .method public scheduleShowSoftInputInner()V
@@ -640,12 +591,7 @@
 
     .line 40
     .line 41
-    invoke-direct {p0, v1}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->setPendingShowSoftInputRequest(Z)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-direct {p0, v1}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->setPendingShowSoftInputRequest(Z)V    return-void
 
     .line 45
     :cond_1
@@ -674,12 +620,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 59
-    .line 60
-    .line 61
-    return-void
+    invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 
     .line 62
     :cond_2
@@ -692,5 +633,4 @@
     :cond_3
     return-void
 .end method
-
 .end class

@@ -48,11 +48,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/preference/SeekBarPreference$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/preference/SeekBarPreference$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -127,12 +123,6 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
 .end method
-
 .end class

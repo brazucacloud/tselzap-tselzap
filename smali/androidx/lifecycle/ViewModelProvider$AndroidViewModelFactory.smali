@@ -70,11 +70,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->APPLICATION_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->APPLICATION_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -121,22 +117,14 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->_instance:Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->_instance:Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;    return-object v0
 .end method
 
 .method public static final synthetic access$set_instance$cp(Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;)V
     .locals 0
 
     .line 1
-    sput-object p0, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->_instance:Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
-
-    .line 2
-    .line 3
-    return-void
+    sput-object p0, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->_instance:Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;    return-void
 .end method
 
 .method private final create(Ljava/lang/Class;Landroid/app/Application;)Landroidx/lifecycle/ViewModel;
@@ -440,5 +428,4 @@
 
     throw p1
 .end method
-
 .end class

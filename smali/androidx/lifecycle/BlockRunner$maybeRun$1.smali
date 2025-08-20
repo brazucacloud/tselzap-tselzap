@@ -71,12 +71,7 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -109,11 +104,7 @@
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/lifecycle/BlockRunner$maybeRun$1;->L$0:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/BlockRunner$maybeRun$1;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -276,11 +267,7 @@
     move-result-object p1
 
     .line 56
-    if-ne p1, v0, :cond_2
-
-    .line 57
-    .line 58
-    return-object v0
+    if-ne p1, v0, :cond_2    return-object v0
 
     .line 59
     :cond_2
@@ -302,11 +289,6 @@
     .line 66
     .line 67
     .line 68
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 69
-    .line 70
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

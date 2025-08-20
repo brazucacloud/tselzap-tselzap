@@ -42,11 +42,7 @@
     move-result-object v0
 
     .line 8
-    sput-object v0, Landroidx/appcompat/widget/ActivityChooserView$InnerLayout;->TINT_ATTRS:[I
-
-    .line 9
-    .line 10
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/ActivityChooserView$InnerLayout;->TINT_ATTRS:[I    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -86,12 +82,6 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
 .end method
-
 .end class

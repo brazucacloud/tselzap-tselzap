@@ -56,12 +56,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;-><init>()V    return-void
 .end method
 
 .method private requestInputMethod(Landroid/app/Dialog;)V
@@ -92,21 +87,11 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/preference/PreferenceDialogFragmentCompat$Api30Impl;->showIme(Landroid/view/Window;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p1}, Landroidx/preference/PreferenceDialogFragmentCompat$Api30Impl;->showIme(Landroid/view/Window;)V    return-void
 
     .line 15
     :cond_0
-    invoke-virtual {p0}, Landroidx/preference/PreferenceDialogFragmentCompat;->scheduleShowSoftInput()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/PreferenceDialogFragmentCompat;->scheduleShowSoftInput()V    return-void
 .end method
 
 
@@ -172,11 +157,7 @@
     .line 28
     .line 29
     :cond_0
-    iget-object v0, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mPreference:Landroidx/preference/DialogPreference;
-
-    .line 30
-    .line 31
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mPreference:Landroidx/preference/DialogPreference;    return-object v0
 .end method
 
 .method public needInputMethod()Z
@@ -295,11 +276,7 @@
     .end param
 
     .line 1
-    iput p2, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mWhichButtonClicked:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p2, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mWhichButtonClicked:I    return-void
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -562,11 +539,7 @@
     .line 126
     .line 127
     .line 128
-    iput-object p1, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mDialogIcon:Landroid/graphics/drawable/BitmapDrawable;
-
-    .line 129
-    .line 130
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mDialogIcon:Landroid/graphics/drawable/BitmapDrawable;    return-void
 
     .line 131
     :cond_1
@@ -575,11 +548,7 @@
 
     .line 132
     .line 133
-    iput-object p1, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mDialogIcon:Landroid/graphics/drawable/BitmapDrawable;
-
-    .line 134
-    .line 135
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceDialogFragmentCompat;->mDialogIcon:Landroid/graphics/drawable/BitmapDrawable;    return-void
 
     .line 136
     :cond_2
@@ -722,46 +691,7 @@
     .line 203
     .line 204
     .line 205
-    throw p1
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    throw p1.end method
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 1
@@ -940,11 +870,7 @@
     const/4 v0, 0x0
 
     .line 4
-    if-nez p1, :cond_0
-
-    .line 5
-    .line 6
-    return-object v0
+    if-nez p1, :cond_0    return-object v0
 
     .line 7
     :cond_0
@@ -1004,12 +930,7 @@
 
     .line 12
     :goto_0
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceDialogFragmentCompat;->onDialogClosed(Z)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceDialogFragmentCompat;->onDialogClosed(Z)V    return-void
 .end method
 
 .method public onPrepareDialogBuilder(Landroidx/appcompat/app/AlertDialog$Builder;)V
@@ -1139,5 +1060,4 @@
 
     return-void
 .end method
-
 .end class

@@ -66,11 +66,7 @@
 
     .line 12
     .line 13
-    iput-object p2, p0, Landroidx/appcompat/app/TwilightManager;->mLocationManager:Landroid/location/LocationManager;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/app/TwilightManager;->mLocationManager:Landroid/location/LocationManager;    return-void
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Landroidx/appcompat/app/TwilightManager;
@@ -127,11 +123,7 @@
     .line 23
     .line 24
     :cond_0
-    sget-object p0, Landroidx/appcompat/app/TwilightManager;->sInstance:Landroidx/appcompat/app/TwilightManager;
-
-    .line 25
-    .line 26
-    return-object p0
+    sget-object p0, Landroidx/appcompat/app/TwilightManager;->sInstance:Landroidx/appcompat/app/TwilightManager;    return-object p0
 .end method
 
 .method private getLastKnownLocation()Landroid/location/Location;
@@ -247,11 +239,7 @@
 
     .line 49
     .line 50
-    if-lez v6, :cond_2
-
-    .line 51
-    .line 52
-    return-object v1
+    if-lez v6, :cond_2    return-object v1
 
     .line 53
     :cond_2
@@ -259,11 +247,7 @@
 
     .line 54
     :cond_3
-    if-eqz v1, :cond_4
-
-    .line 55
-    .line 56
-    return-object v1
+    if-eqz v1, :cond_4    return-object v1
 
     .line 57
     :cond_4
@@ -381,11 +365,7 @@
     .end annotation
 
     .line 1
-    sput-object p0, Landroidx/appcompat/app/TwilightManager;->sInstance:Landroidx/appcompat/app/TwilightManager;
-
-    .line 2
-    .line 3
-    return-void
+    sput-object p0, Landroidx/appcompat/app/TwilightManager;->sInstance:Landroidx/appcompat/app/TwilightManager;    return-void
 .end method
 
 .method private updateState(Landroid/location/Location;)V
@@ -638,11 +618,7 @@
 
     .line 111
     .line 112
-    iput-wide v14, v1, Landroidx/appcompat/app/TwilightManager$TwilightState;->nextUpdate:J
-
-    .line 113
-    .line 114
-    return-void
+    iput-wide v14, v1, Landroidx/appcompat/app/TwilightManager$TwilightState;->nextUpdate:J    return-void
 .end method
 
 
@@ -667,11 +643,7 @@
 
     .line 8
     .line 9
-    iget-boolean v0, v0, Landroidx/appcompat/app/TwilightManager$TwilightState;->isNight:Z
-
-    .line 10
-    .line 11
-    return v0
+    iget-boolean v0, v0, Landroidx/appcompat/app/TwilightManager$TwilightState;->isNight:Z    return v0
 
     .line 12
     :cond_0
@@ -692,11 +664,7 @@
     .line 19
     .line 20
     .line 21
-    iget-boolean v0, v0, Landroidx/appcompat/app/TwilightManager$TwilightState;->isNight:Z
-
-    .line 22
-    .line 23
-    return v0
+    iget-boolean v0, v0, Landroidx/appcompat/app/TwilightManager$TwilightState;->isNight:Z    return v0
 
     .line 24
     :cond_1
@@ -763,5 +731,4 @@
 
     return v0
 .end method
-
 .end class

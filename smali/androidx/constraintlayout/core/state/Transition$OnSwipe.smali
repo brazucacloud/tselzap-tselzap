@@ -516,11 +516,7 @@
 
     .line 193
     .line 194
-    sput-object v5, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_DIRECTION:[[F
-
-    .line 195
-    .line 196
-    return-void
+    sput-object v5, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_DIRECTION:[[F    return-void
 
     .line 197
     :array_0
@@ -695,56 +691,7 @@
     .array-data 4
         0x3f800000    # 1.0f
         0x0
-    .end array-data
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-.end method
+    .end array-data.end method
 
 .method public constructor <init>()V
     .locals 4
@@ -842,11 +789,7 @@
 
     .line 46
     .line 47
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I
-
-    .line 48
-    .line 49
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I    return-void
 .end method
 
 
@@ -918,11 +861,7 @@
     const/4 p1, 0x0
 
     .line 31
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
-
-    .line 32
-    .line 33
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;    return-void
 
     .line 34
     :cond_1
@@ -983,12 +922,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {p2, p1, p3, v3}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->config(FFF)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {p2, p1, p3, v3}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->config(FFF)V    return-void
 
     .line 65
     :cond_3
@@ -1059,12 +993,7 @@
     move v4, p5
 
     .line 95
-    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V
-
-    .line 96
-    .line 97
-    .line 98
-    return-void
+    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V    return-void
 
     .line 99
     :cond_5
@@ -1136,12 +1065,7 @@
 
     .line 129
     .line 130
-    invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V
-
-    .line 131
-    .line 132
-    .line 133
-    return-void
+    invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V    return-void
 .end method
 
 .method public getDestinationPosition(FFF)F
@@ -1205,11 +1129,7 @@
 
     .line 27
     .line 28
-    if-lez p3, :cond_0
-
-    .line 29
-    .line 30
-    return v2
+    if-lez p3, :cond_0    return v2
 
     .line 31
     :cond_0
@@ -1244,11 +1164,7 @@
 
     .line 44
     .line 45
-    if-gez p1, :cond_1
-
-    .line 46
-    .line 47
-    return p3
+    if-gez p1, :cond_1    return p3
 
     .line 48
     :cond_1
@@ -1256,11 +1172,7 @@
 
     .line 49
     .line 50
-    if-lez p1, :cond_2
-
-    .line 51
-    .line 52
-    return v2
+    if-lez p1, :cond_2    return v2
 
     .line 53
     :cond_2
@@ -1287,11 +1199,7 @@
 
     .line 63
     :pswitch_4
-    const/high16 p1, 0x7fc00000    # Float.NaN
-
-    .line 64
-    .line 65
-    return p1
+    const/high16 p1, 0x7fc00000    # Float.NaN    return p1
 
     .line 66
     :pswitch_5
@@ -1299,11 +1207,7 @@
 
     .line 67
     .line 68
-    if-gtz p1, :cond_3
-
-    .line 69
-    .line 70
-    return v1
+    if-gtz p1, :cond_3    return v1
 
     .line 71
     :cond_3
@@ -1315,11 +1219,7 @@
 
     .line 73
     .line 74
-    if-ltz p1, :cond_4
-
-    .line 75
-    .line 76
-    return v2
+    if-ltz p1, :cond_4    return v2
 
     .line 77
     :cond_4
@@ -1338,46 +1238,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    .end packed-switch.end method
 
 .method public getDirection()[F
     .locals 2
@@ -1391,22 +1252,14 @@
 
     .line 4
     .line 5
-    aget-object v0, v0, v1
-
-    .line 6
-    .line 7
-    return-object v0
+    aget-object v0, v0, v1    return-object v0
 .end method
 
 .method public getScale()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F    return v0
 .end method
 
 .method public getSide()[F
@@ -1421,11 +1274,7 @@
 
     .line 4
     .line 5
-    aget-object v0, v0, v1
-
-    .line 6
-    .line 7
-    return-object v0
+    aget-object v0, v0, v1    return-object v0
 .end method
 
 .method public getTouchUpProgress(J)F
@@ -1501,11 +1350,7 @@
     const/4 v1, 0x0
 
     .line 5
-    if-ne p1, v0, :cond_0
-
-    .line 6
-    .line 7
-    return v1
+    if-ne p1, v0, :cond_0    return v1
 
     .line 8
     :cond_0
@@ -1670,12 +1515,7 @@
     move-result-object v1
 
     .line 69
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 
     .line 73
     :cond_0
@@ -1869,45 +1709,28 @@
     move-result-object v1
 
     .line 175
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 176
-    .line 177
-    .line 178
-    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public setAnchorId(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorId:Ljava/lang/String;    return-void
 .end method
 
 .method public setAnchorSide(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorSide:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorSide:I    return-void
 .end method
 
 .method public setAutoCompleteMode(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I    return-void
 .end method
 
 .method public setDragDirection(I)V
@@ -1936,11 +1759,7 @@
 
     .line 9
     :goto_0
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragVertical:Z
-
-    .line 10
-    .line 11
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragVertical:Z    return-void
 .end method
 
 .method public setDragScale(F)V
@@ -1955,19 +1774,11 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F    return-void
 .end method
 
 .method public setDragThreshold(F)V
@@ -1982,30 +1793,18 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragThreshold:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragThreshold:F    return-void
 .end method
 
 .method public setLimitBoundsTo(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mLimitBoundsTo:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mLimitBoundsTo:Ljava/lang/String;    return-void
 .end method
 
 .method public setMaxAcceleration(F)V
@@ -2020,19 +1819,11 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F    return-void
 .end method
 
 .method public setMaxVelocity(F)V
@@ -2047,52 +1838,32 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F    return-void
 .end method
 
 .method public setOnTouchUp(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I    return-void
 .end method
 
 .method public setRotationCenterId(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mRotationCenterId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mRotationCenterId:Ljava/lang/String;    return-void
 .end method
 
 .method public setSpringBoundary(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I    return-void
 .end method
 
 .method public setSpringDamping(F)V
@@ -2107,19 +1878,11 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringDamping:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringDamping:F    return-void
 .end method
 
 .method public setSpringMass(F)V
@@ -2134,19 +1897,11 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringMass:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringMass:F    return-void
 .end method
 
 .method public setSpringStiffness(F)V
@@ -2161,19 +1916,11 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStiffness:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStiffness:F    return-void
 .end method
 
 .method public setSpringStopThreshold(F)V
@@ -2188,19 +1935,10 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F    return-void
 .end method
-
 .end class

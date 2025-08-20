@@ -104,11 +104,7 @@
     move-result-object p1
 
     .line 20
-    iput-object p1, p0, Landroidx/loader/content/Loader;->mContext:Landroid/content/Context;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/Loader;->mContext:Landroid/content/Context;    return-void
 .end method
 
 
@@ -126,12 +122,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onAbandon()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onAbandon()V    return-void
 .end method
 
 .method public cancelLoad()Z
@@ -157,11 +148,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z    return-void
 .end method
 
 .method public dataToString(Ljava/lang/Object;)Ljava/lang/String;
@@ -467,12 +454,7 @@
 
     .line 98
     .line 99
-    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
-
-    .line 100
-    .line 101
-    .line 102
-    return-void
+    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
 .end method
 
 .method public forceLoad()V
@@ -481,12 +463,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onForceLoad()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onForceLoad()V    return-void
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -495,55 +472,35 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/Loader;->mContext:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/Loader;->mContext:Landroid/content/Context;    return-object v0
 .end method
 
 .method public getId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/loader/content/Loader;->mId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/loader/content/Loader;->mId:I    return v0
 .end method
 
 .method public isAbandoned()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/loader/content/Loader;->mAbandoned:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/loader/content/Loader;->mAbandoned:Z    return v0
 .end method
 
 .method public isReset()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/loader/content/Loader;->mReset:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/loader/content/Loader;->mReset:Z    return v0
 .end method
 
 .method public isStarted()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/loader/content/Loader;->mStarted:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/loader/content/Loader;->mStarted:Z    return v0
 .end method
 
 .method public onAbandon()V
@@ -578,23 +535,14 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V    return-void
 
     .line 9
     :cond_0
     const/4 v0, 0x1
 
     .line 10
-    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mContentChanged:Z
-
-    .line 11
-    .line 12
-    return-void
+    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mContentChanged:Z    return-void
 .end method
 
 .method public onForceLoad()V
@@ -659,11 +607,7 @@
 
     .line 6
     .line 7
-    iput p1, p0, Landroidx/loader/content/Loader;->mId:I
-
-    .line 8
-    .line 9
-    return-void
+    iput p1, p0, Landroidx/loader/content/Loader;->mId:I    return-void
 
     .line 10
     :cond_0
@@ -680,42 +624,7 @@
     .line 15
     .line 16
     .line 17
-    throw p1
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p1.end method
 
 .method public registerOnLoadCanceledListener(Landroidx/loader/content/Loader$OnLoadCanceledListener;)V
     .locals 1
@@ -743,11 +652,7 @@
 
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/loader/content/Loader;->mOnLoadCanceledListener:Landroidx/loader/content/Loader$OnLoadCanceledListener;
-
-    .line 6
-    .line 7
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/Loader;->mOnLoadCanceledListener:Landroidx/loader/content/Loader$OnLoadCanceledListener;    return-void
 
     .line 8
     :cond_0
@@ -764,20 +669,7 @@
     .line 13
     .line 14
     .line 15
-    throw p1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public reset()V
     .locals 1
@@ -812,11 +704,7 @@
 
     .line 13
     .line 14
-    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z
-
-    .line 15
-    .line 16
-    return-void
+    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z    return-void
 .end method
 
 .method public rollbackContentChanged()V
@@ -864,12 +752,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStartLoading()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStartLoading()V    return-void
 .end method
 
 .method public stopLoading()V
@@ -885,12 +768,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStopLoading()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStopLoading()V    return-void
 .end method
 
 .method public takeContentChanged()Z
@@ -915,11 +793,7 @@
     or-int/2addr v1, v0
 
     .line 9
-    iput-boolean v1, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z
-
-    .line 10
-    .line 11
-    return v0
+    iput-boolean v1, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1004,11 +878,7 @@
     const/4 p1, 0x0
 
     .line 8
-    iput-object p1, p0, Landroidx/loader/content/Loader;->mListener:Landroidx/loader/content/Loader$OnLoadCompleteListener;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/Loader;->mListener:Landroidx/loader/content/Loader$OnLoadCompleteListener;    return-void
 
     .line 11
     :cond_0
@@ -1042,9 +912,7 @@
     .line 24
     .line 25
     .line 26
-    throw p1
-    .line 27
-.end method
+    throw p1.end method
 
 .method public unregisterOnLoadCanceledListener(Landroidx/loader/content/Loader$OnLoadCanceledListener;)V
     .locals 1
@@ -1079,11 +947,7 @@
     const/4 p1, 0x0
 
     .line 8
-    iput-object p1, p0, Landroidx/loader/content/Loader;->mOnLoadCanceledListener:Landroidx/loader/content/Loader$OnLoadCanceledListener;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/Loader;->mOnLoadCanceledListener:Landroidx/loader/content/Loader$OnLoadCanceledListener;    return-void
 
     .line 11
     :cond_0
@@ -1117,8 +981,5 @@
     .line 24
     .line 25
     .line 26
-    throw p1
-    .line 27
-.end method
-
+    throw p1.end method
 .end class

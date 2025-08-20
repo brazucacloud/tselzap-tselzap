@@ -28,11 +28,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/FloatPropertyCompat;->mPropertyName:Ljava/lang/String;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/FloatPropertyCompat;->mPropertyName:Ljava/lang/String;    return-void
 .end method
 
 .method public static createFloatPropertyCompat(Landroid/util/FloatProperty;)Landroidx/dynamicanimation/animation/FloatPropertyCompat;
@@ -66,12 +62,7 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1, p0}, Landroidx/dynamicanimation/animation/FloatPropertyCompat$1;-><init>(Ljava/lang/String;Landroid/util/FloatProperty;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-direct {v0, v1, p0}, Landroidx/dynamicanimation/animation/FloatPropertyCompat$1;-><init>(Ljava/lang/String;Landroid/util/FloatProperty;)V    return-object v0
 .end method
 
 
@@ -91,5 +82,4 @@
         }
     .end annotation
 .end method
-
 .end class

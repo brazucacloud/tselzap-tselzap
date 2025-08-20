@@ -42,23 +42,14 @@
 
     .line 10
     .line 11
-    sput v0, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->sVcount:I
-
-    .line 12
-    .line 13
-    return-void
+    sput v0, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->sVcount:I    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private static canMeasure(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
@@ -415,11 +406,7 @@
 
     .line 160
     .line 161
-    if-eqz v0, :cond_b
-
-    .line 162
-    .line 163
-    return v4
+    if-eqz v0, :cond_b    return v4
 
     .line 164
     :cond_b
@@ -450,11 +437,7 @@
     move-result v3
 
     .line 11
-    if-eqz v3, :cond_0
-
-    .line 12
-    .line 13
-    return-void
+    if-eqz v3, :cond_0    return-void
 
     .line 14
     :cond_0
@@ -1091,11 +1074,7 @@
 
     .line 318
     .line 319
-    if-eqz v3, :cond_e
-
-    .line 320
-    .line 321
-    return-void
+    if-eqz v3, :cond_e    return-void
 
     .line 322
     :cond_e
@@ -1588,12 +1567,7 @@
     .line 559
     .line 560
     :cond_1a
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->markHorizontalSolvingPassDone()V
-
-    .line 561
-    .line 562
-    .line 563
-    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->markHorizontalSolvingPassDone()V    return-void
 .end method
 
 .method public static ls(I)Ljava/lang/String;
@@ -1708,12 +1682,7 @@
 
     .line 10
     .line 11
-    invoke-static {p0, p1, p2, p4}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->horizontalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Z)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p0, p1, p2, p4}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->horizontalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Z)V    return-void
 
     .line 15
     :cond_0
@@ -1737,11 +1706,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-eqz p7, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-eqz p7, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -1757,11 +1722,7 @@
     move-result v1
 
     .line 11
-    if-nez v1, :cond_2
-
-    .line 12
-    .line 13
-    return v0
+    if-nez v1, :cond_2    return v0
 
     .line 14
     :cond_1
@@ -1773,11 +1734,7 @@
     move-result v1
 
     .line 18
-    if-nez v1, :cond_2
-
-    .line 19
-    .line 20
-    return v0
+    if-nez v1, :cond_2    return v0
 
     .line 21
     :cond_2
@@ -1997,11 +1954,7 @@
 
     .line 124
     .line 125
-    if-gtz v7, :cond_9
-
-    .line 126
-    .line 127
-    return v0
+    if-gtz v7, :cond_9    return v0
 
     .line 128
     :cond_9
@@ -2053,11 +2006,7 @@
     move-result v18
 
     .line 149
-    if-nez v18, :cond_a
-
-    .line 150
-    .line 151
-    return v16
+    if-nez v18, :cond_a    return v16
 
     .line 152
     :cond_a
@@ -2077,11 +2026,7 @@
 
     .line 159
     .line 160
-    if-ne v0, v2, :cond_b
-
-    .line 161
-    .line 162
-    return v16
+    if-ne v0, v2, :cond_b    return v16
 
     .line 163
     :cond_b
@@ -2316,27 +2261,15 @@
 
     .line 267
     .line 268
-    if-nez v12, :cond_13
-
-    .line 269
-    .line 270
-    return v16
+    if-nez v12, :cond_13    return v16
 
     .line 271
     :cond_13
-    if-eq v12, v14, :cond_14
-
-    .line 272
-    .line 273
-    return v16
+    if-eq v12, v14, :cond_14    return v16
 
     .line 274
     :cond_14
-    if-ge v7, v15, :cond_15
-
-    .line 275
-    .line 276
-    return v16
+    if-ge v7, v15, :cond_15    return v16
 
     .line 277
     :cond_15
@@ -2487,12 +2420,7 @@
     const/4 v6, 0x1
 
     .line 339
-    invoke-static {v6, v4, v0, v1}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->horizontalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Z)V
-
-    .line 340
-    .line 341
-    .line 342
-    return v6
+    invoke-static {v6, v4, v0, v1}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->horizontalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Z)V    return v6
 
     .line 343
     :cond_1a
@@ -2962,11 +2890,7 @@
 
     .line 563
     :cond_23
-    const/16 v16, 0x0
-
-    .line 564
-    .line 565
-    return v16
+    const/16 v16, 0x0    return v16
 
     .line 566
     :cond_24
@@ -3164,12 +3088,7 @@
 
     .line 80
     .line 81
-    invoke-static {p0, p2, p1, p3}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->horizontalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Z)V
-
-    .line 82
-    .line 83
-    .line 84
-    return-void
+    invoke-static {p0, p2, p1, p3}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->horizontalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Z)V    return-void
 .end method
 
 .method private static solveHorizontalMatchConstraint(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Z)V
@@ -3622,12 +3541,7 @@
 
     .line 83
     .line 84
-    invoke-static {p0, p2, p1}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->verticalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;)V
-
-    .line 85
-    .line 86
-    .line 87
-    return-void
+    invoke-static {p0, p2, p1}, Landroidx/constraintlayout/core/widgets/analyzer/Direct;->verticalSolvingPass(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;)V    return-void
 .end method
 
 .method private static solveVerticalMatchConstraint(ILandroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -4898,11 +4812,7 @@
     move-result v2
 
     .line 9
-    if-eqz v2, :cond_0
-
-    .line 10
-    .line 11
-    return-void
+    if-eqz v2, :cond_0    return-void
 
     .line 12
     :cond_0
@@ -5526,11 +5436,7 @@
 
     .line 310
     .line 311
-    if-eqz v2, :cond_e
-
-    .line 312
-    .line 313
-    return-void
+    if-eqz v2, :cond_e    return-void
 
     .line 314
     :cond_e
@@ -6240,12 +6146,6 @@
 
     .line 655
     :cond_1f
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->markVerticalSolvingPassDone()V
-
-    .line 656
-    .line 657
-    .line 658
-    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->markVerticalSolvingPassDone()V    return-void
 .end method
-
 .end class

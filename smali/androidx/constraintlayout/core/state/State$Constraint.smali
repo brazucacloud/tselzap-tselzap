@@ -307,11 +307,7 @@
 
     .line 114
     .line 115
-    aput-object v1, v0, v2
-
-    .line 116
-    .line 117
-    return-object v0
+    aput-object v1, v0, v2    return-object v0
 .end method
 
 .method static constructor <clinit>()V
@@ -738,11 +734,7 @@
     move-result-object v0
 
     .line 217
-    sput-object v0, Landroidx/constraintlayout/core/state/State$Constraint;->$VALUES:[Landroidx/constraintlayout/core/state/State$Constraint;
-
-    .line 218
-    .line 219
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/state/State$Constraint;->$VALUES:[Landroidx/constraintlayout/core/state/State$Constraint;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -754,12 +746,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/constraintlayout/core/state/State$Constraint;
@@ -778,11 +765,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/constraintlayout/core/state/State$Constraint;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/constraintlayout/core/state/State$Constraint;    return-object p0
 .end method
 
 .method public static values()[Landroidx/constraintlayout/core/state/State$Constraint;
@@ -801,11 +784,6 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/constraintlayout/core/state/State$Constraint;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/constraintlayout/core/state/State$Constraint;    return-object v0
 .end method
-
 .end class

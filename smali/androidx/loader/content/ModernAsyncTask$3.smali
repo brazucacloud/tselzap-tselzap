@@ -34,12 +34,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0, p2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V    return-void
 .end method
 
 
@@ -70,12 +65,7 @@
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/util/concurrent/CancellationException; {:try_start_0 .. :try_end_0} :catch_2
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0    return-void
 
     .line 13
     :catchall_0
@@ -162,5 +152,4 @@
     :goto_3
     return-void
 .end method
-
 .end class

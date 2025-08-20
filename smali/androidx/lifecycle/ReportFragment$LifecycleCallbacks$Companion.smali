@@ -57,12 +57,6 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p1, v0}, Landroidx/core/view/o;->m(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p1, v0}, Landroidx/core/view/o;->m(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;)V    return-void
 .end method
-
 .end class

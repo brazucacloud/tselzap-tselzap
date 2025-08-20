@@ -46,11 +46,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/appcompat/widget/TintContextWrapper;->CACHE_LOCK:Ljava/lang/Object;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/TintContextWrapper;->CACHE_LOCK:Ljava/lang/Object;    return-void
 .end method
 
 .method private constructor <init>(Landroid/content/Context;)V
@@ -119,12 +115,7 @@
     move-result-object p1
 
     .line 31
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources$Theme;->setTo(Landroid/content/res/Resources$Theme;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources$Theme;->setTo(Landroid/content/res/Resources$Theme;)V    return-void
 
     .line 35
     :cond_0
@@ -152,11 +143,7 @@
     const/4 p1, 0x0
 
     .line 47
-    iput-object p1, p0, Landroidx/appcompat/widget/TintContextWrapper;->mTheme:Landroid/content/res/Resources$Theme;
-
-    .line 48
-    .line 49
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/TintContextWrapper;->mTheme:Landroid/content/res/Resources$Theme;    return-void
 .end method
 
 .method private static shouldWrap(Landroid/content/Context;)Z
@@ -525,11 +512,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/TintContextWrapper;->mResources:Landroid/content/res/Resources;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/TintContextWrapper;->mResources:Landroid/content/res/Resources;    return-object v0
 .end method
 
 .method public getTheme()Landroid/content/res/Resources$Theme;
@@ -568,24 +551,13 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/content/ContextWrapper;->setTheme(I)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1}, Landroid/content/ContextWrapper;->setTheme(I)V    return-void
 
     .line 9
     :cond_0
     const/4 v1, 0x1
 
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V    return-void
 .end method
-
 .end class

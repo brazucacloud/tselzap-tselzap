@@ -191,11 +191,7 @@
     move-result-object p1
 
     .line 86
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/StepCurve;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-
-    .line 87
-    .line 88
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/StepCurve;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;    return-void
 .end method
 
 .method private static genSpline(Ljava/lang/String;)Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
@@ -451,5 +447,4 @@
 
     return-wide p1
 .end method
-
 .end class

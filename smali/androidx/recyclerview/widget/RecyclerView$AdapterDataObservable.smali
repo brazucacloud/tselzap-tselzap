@@ -27,12 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/database/Observable;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroid/database/Observable;-><init>()V    return-void
 .end method
 
 
@@ -53,11 +48,7 @@
     move-result v0
 
     .line 7
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 8
-    .line 9
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method public notifyChanged()V
@@ -395,5 +386,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

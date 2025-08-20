@@ -78,11 +78,7 @@
     const/4 v0, 0x0
 
     .line 11
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;    return-void
 .end method
 
 
@@ -145,11 +141,7 @@
 
     .line 14
     .line 15
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mType:I
-
-    .line 16
-    .line 17
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mType:I    return-object p0
 .end method
 
 .method public abstract getAttributeNames(Ljava/util/HashSet;)V
@@ -167,11 +159,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I    return v0
 .end method
 
 .method public matches(Ljava/lang/String;)Z
@@ -275,11 +263,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I    return-void
 .end method
 
 .method public setInterpolation(Ljava/util/HashMap;)V
@@ -359,11 +343,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetId:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetId:I    return-object p0
 .end method
 
 .method public toBoolean(Ljava/lang/Object;)Z
@@ -500,5 +480,4 @@
 
     return p1
 .end method
-
 .end class

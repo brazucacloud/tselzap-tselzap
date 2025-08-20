@@ -97,11 +97,7 @@
     move-result-object p1
 
     .line 19
-    iput-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->iterator:Ljava/util/Iterator;
-
-    .line 20
-    .line 21
-    return-void
+    iput-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->iterator:Ljava/util/Iterator;    return-void
 .end method
 
 
@@ -110,11 +106,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->current:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->current:I    return v0
 .end method
 
 .method public final getIterator()Ljava/util/Iterator;
@@ -128,11 +120,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->iterator:Ljava/util/Iterator;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->iterator:Ljava/util/Iterator;    return-object v0
 .end method
 
 .method public hasNext()Z
@@ -212,11 +200,6 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->current:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->current:I    return-void
 .end method
-
 .end class

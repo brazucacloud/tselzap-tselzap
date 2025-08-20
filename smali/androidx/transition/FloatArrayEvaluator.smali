@@ -30,11 +30,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/FloatArrayEvaluator;->mArray:[F
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/transition/FloatArrayEvaluator;->mArray:[F    return-void
 .end method
 
 
@@ -96,5 +92,4 @@
     :cond_1
     return-object v0
 .end method
-
 .end class

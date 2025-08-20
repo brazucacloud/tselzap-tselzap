@@ -46,11 +46,7 @@
     move-result-object v0
 
     .line 8
-    sput-object v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;->ATTRS:[I
-
-    .line 9
-    .line 10
-    return-void
+    sput-object v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;->ATTRS:[I    return-void
 .end method
 
 .method public constructor <init>()V
@@ -182,5 +178,4 @@
 
     return-void
 .end method
-
 .end class

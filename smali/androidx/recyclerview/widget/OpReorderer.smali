@@ -25,11 +25,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;    return-void
 .end method
 
 .method private getLastMoveOutOfOrder(Ljava/util/List;)I
@@ -90,11 +86,7 @@
 
     .line 21
     .line 22
-    if-eqz v2, :cond_1
-
-    .line 23
-    .line 24
-    return v0
+    if-eqz v2, :cond_1    return v0
 
     .line 25
     :cond_0
@@ -215,12 +207,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-interface {p1, p4, p3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-interface {p1, p4, p3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method private swapMoveOp(Ljava/util/List;II)V
@@ -286,11 +273,7 @@
     const/4 v1, 0x4
 
     .line 24
-    if-eq v0, v1, :cond_0
-
-    .line 25
-    .line 26
-    return-void
+    if-eq v0, v1, :cond_0    return-void
 
     .line 27
     :cond_0
@@ -306,12 +289,7 @@
     move v5, p3
 
     .line 31
-    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveUpdate(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveUpdate(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 
     .line 35
     :cond_1
@@ -327,12 +305,7 @@
     move v5, p3
 
     .line 39
-    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveRemove(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveRemove(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 
     .line 43
     :cond_2
@@ -348,12 +321,7 @@
     move v5, p3
 
     .line 47
-    invoke-direct/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveAdd(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 48
-    .line 49
-    .line 50
-    return-void
+    invoke-direct/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveAdd(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 .end method
 
 
@@ -573,12 +541,7 @@
 
     .line 67
     .line 68
-    invoke-interface {p1, p5}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 69
-    .line 70
-    .line 71
-    return-void
+    invoke-interface {p1, p5}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 
     .line 72
     :cond_4
@@ -677,12 +640,7 @@
 
     .line 114
     .line 115
-    invoke-interface {p1, p3}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 116
-    .line 117
-    .line 118
-    return-void
+    invoke-interface {p1, p3}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 
     .line 119
     :cond_7
@@ -1166,5 +1124,4 @@
     :cond_6
     return-void
 .end method
-
 .end class

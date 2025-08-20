@@ -183,11 +183,6 @@
     move-result-object v0
 
     .line 59
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->NESTED_SCROLL_FLAGS_ENUM:[Ljava/lang/String;
-
-    .line 60
-    .line 61
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->NESTED_SCROLL_FLAGS_ENUM:[Ljava/lang/String;    return-void
 .end method
-
 .end class

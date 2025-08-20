@@ -131,11 +131,7 @@
 
     .line 25
     .line 26
-    const/16 v0, 0x100
-
-    .line 27
-    .line 28
-    return v0
+    const/16 v0, 0x100    return v0
 
     .line 29
     :cond_0
@@ -167,20 +163,12 @@
 
     .line 42
     :cond_1
-    const/16 v0, 0xa0
-
-    .line 43
-    .line 44
-    return v0
+    const/16 v0, 0xa0    return v0
 
     .line 45
     :cond_2
     :goto_0
-    const/16 v0, 0xc0
-
-    .line 46
-    .line 47
-    return v0
+    const/16 v0, 0xc0    return v0
 .end method
 
 
@@ -275,12 +263,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, p0}, Landroidx/appcompat/widget/SearchView$PreQAutoCompleteTextViewReflector;->ensureImeVisible(Landroid/widget/AutoCompleteTextView;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/appcompat/widget/SearchView$PreQAutoCompleteTextViewReflector;->ensureImeVisible(Landroid/widget/AutoCompleteTextView;)V    return-void
 .end method
 
 .method public isEmpty()Z
@@ -410,12 +393,7 @@
     float-to-int v0, v0
 
     .line 23
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setMinWidth(I)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setMinWidth(I)V    return-void
 .end method
 
 .method public onFocusChanged(ZILandroid/graphics/Rect;)V
@@ -431,12 +409,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SearchView;->onTextFocusChanged()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SearchView;->onTextFocusChanged()V    return-void
 .end method
 
 .method public onKeyPreIme(ILandroid/view/KeyEvent;)Z
@@ -565,12 +538,7 @@
     const/4 p1, 0x0
 
     .line 60
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->setImeVisibility(Z)V
-
-    .line 61
-    .line 62
-    .line 63
-    return v1
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->setImeVisibility(Z)V    return v1
 
     .line 64
     :cond_3
@@ -729,12 +697,7 @@
     move-result-object p1
 
     .line 27
-    invoke-virtual {v0, p1, v1}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {v0, p1, v1}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z    return-void
 
     .line 31
     :cond_0
@@ -763,34 +726,21 @@
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v0, p0, v1}, Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View;I)Z
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-virtual {v0, p0, v1}, Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View;I)Z    return-void
 
     .line 48
     :cond_1
     const/4 p1, 0x1
 
     .line 49
-    iput-boolean p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mHasPendingShowSoftInputRequest:Z
-
-    .line 50
-    .line 51
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mHasPendingShowSoftInputRequest:Z    return-void
 .end method
 
 .method public setSearchView(Landroidx/appcompat/widget/SearchView;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mSearchView:Landroidx/appcompat/widget/SearchView;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mSearchView:Landroidx/appcompat/widget/SearchView;    return-void
 .end method
 
 .method public setThreshold(I)V
@@ -802,11 +752,7 @@
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mThreshold:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mThreshold:I    return-void
 .end method
 
 .method public showSoftInputIfNecessary()V
@@ -860,5 +806,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

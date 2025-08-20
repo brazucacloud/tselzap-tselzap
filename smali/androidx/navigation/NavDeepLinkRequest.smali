@@ -79,33 +79,21 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLinkRequest;->action:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLinkRequest;->action:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getMimeType()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLinkRequest;->mimeType:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLinkRequest;->mimeType:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLinkRequest;->uri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLinkRequest;->uri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -259,12 +247,6 @@
 
     .line 76
     .line 77
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 78
-    .line 79
-    .line 80
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

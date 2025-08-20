@@ -44,11 +44,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/appcompat/widget/SearchView$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/SearchView$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
@@ -182,12 +178,6 @@
     move-result-object p2
 
     .line 10
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeValue(Ljava/lang/Object;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeValue(Ljava/lang/Object;)V    return-void
 .end method
-
 .end class

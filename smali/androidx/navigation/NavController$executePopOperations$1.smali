@@ -81,12 +81,7 @@
     const/4 p1, 0x1
 
     .line 12
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V    return-void
 .end method
 
 
@@ -134,5 +129,4 @@
 
     return-void
 .end method
-
 .end class

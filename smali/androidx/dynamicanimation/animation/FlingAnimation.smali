@@ -202,12 +202,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->setFrictionScalar(F)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->setFrictionScalar(F)V    return-object p0
 
     .line 12
     :cond_0
@@ -224,16 +219,7 @@
     .line 17
     .line 18
     .line 19
-    throw p1
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public bridge synthetic setMaxValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
     .locals 0
@@ -303,12 +289,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->setValueThreshold(F)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->setValueThreshold(F)V    return-void
 .end method
 
 .method public updateValueAndVelocity(J)Z
@@ -366,11 +347,7 @@
 
     .line 25
     .line 26
-    iput v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
-
-    .line 27
-    .line 28
-    return v1
+    iput v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F    return v1
 
     .line 29
     :cond_0
@@ -386,11 +363,7 @@
 
     .line 34
     .line 35
-    iput v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
-
-    .line 36
-    .line 37
-    return v1
+    iput v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F    return v1
 
     .line 38
     :cond_1
@@ -402,11 +375,7 @@
     move-result p1
 
     .line 42
-    if-eqz p1, :cond_2
-
-    .line 43
-    .line 44
-    return v1
+    if-eqz p1, :cond_2    return v1
 
     .line 45
     :cond_2
@@ -414,5 +383,4 @@
 
     return p1
 .end method
-
 .end class

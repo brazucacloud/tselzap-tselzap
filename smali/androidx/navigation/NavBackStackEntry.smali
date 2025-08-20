@@ -310,22 +310,14 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/navigation/NavBackStackEntry;->context:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/navigation/NavBackStackEntry;->context:Landroid/content/Context;    return-object p0
 .end method
 
 .method public static final synthetic access$getSavedStateRegistryAttached$p(Landroidx/navigation/NavBackStackEntry;)Z
     .locals 0
 
     .line 1
-    iget-boolean p0, p0, Landroidx/navigation/NavBackStackEntry;->savedStateRegistryAttached:Z
-
-    .line 2
-    .line 3
-    return p0
+    iget-boolean p0, p0, Landroidx/navigation/NavBackStackEntry;->savedStateRegistryAttached:Z    return p0
 .end method
 
 .method private final getDefaultFactory()Landroidx/lifecycle/SavedStateViewModelFactory;
@@ -344,11 +336,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Landroidx/lifecycle/SavedStateViewModelFactory;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/lifecycle/SavedStateViewModelFactory;    return-object v0
 .end method
 
 
@@ -655,12 +643,7 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object v0
+    invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 .method public getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
@@ -783,44 +766,28 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->defaultViewModelProviderFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->defaultViewModelProviderFactory:Landroidx/lifecycle/ViewModelProvider$Factory;    return-object v0
 .end method
 
 .method public final getDestination()Landroidx/navigation/NavDestination;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->destination:Landroidx/navigation/NavDestination;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->destination:Landroidx/navigation/NavDestination;    return-object v0
 .end method
 
 .method public final getId()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->id:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->id:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->_lifecycle:Landroidx/lifecycle/LifecycleRegistry;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->_lifecycle:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
 .end method
 
 .method public final getMaxLifecycle()Landroidx/lifecycle/Lifecycle$State;
@@ -832,11 +799,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->maxLifecycle:Landroidx/lifecycle/Lifecycle$State;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntry;->maxLifecycle:Landroidx/lifecycle/Lifecycle$State;    return-object v0
 .end method
 
 .method public final getSavedStateHandle()Landroidx/lifecycle/SavedStateHandle;
@@ -857,11 +820,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Landroidx/lifecycle/SavedStateHandle;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/lifecycle/SavedStateHandle;    return-object v0
 .end method
 
 .method public getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
@@ -988,43 +947,7 @@
     .line 49
     .line 50
     .line 51
-    throw v0
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public final handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
@@ -1056,12 +979,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V    return-void
 .end method
 
 .method public hashCode()I
@@ -1265,12 +1183,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public final setDestination(Landroidx/navigation/NavDestination;)V
@@ -1291,11 +1204,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/NavBackStackEntry;->destination:Landroidx/navigation/NavDestination;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavBackStackEntry;->destination:Landroidx/navigation/NavDestination;    return-void
 .end method
 
 .method public final setMaxLifecycle(Landroidx/lifecycle/Lifecycle$State;)V
@@ -1320,12 +1229,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1419,12 +1323,7 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 49
-    .line 50
-    .line 51
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public final updateState()V
@@ -1524,12 +1423,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
 
     .line 49
     :cond_2
@@ -1541,12 +1435,6 @@
 
     .line 52
     .line 53
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
 .end method
-
 .end class

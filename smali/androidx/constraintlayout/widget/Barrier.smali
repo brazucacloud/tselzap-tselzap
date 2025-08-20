@@ -233,11 +233,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I    return v0
 .end method
 
 .method public init(Landroid/util/AttributeSet;)V
@@ -419,12 +415,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V
-
-    .line 86
-    .line 87
-    .line 88
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V    return-void
 .end method
 
 .method public loadParameters(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Landroidx/constraintlayout/core/widgets/HelperWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -533,12 +524,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0, p2}, Landroidx/constraintlayout/widget/Barrier;->updateType(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IZ)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0, p1, v0, p2}, Landroidx/constraintlayout/widget/Barrier;->updateType(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IZ)V    return-void
 .end method
 
 .method public setAllowsGoneWidget(Z)V
@@ -549,12 +535,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setAllowsGoneWidget(Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setAllowsGoneWidget(Z)V    return-void
 .end method
 
 .method public setDpMargin(I)V
@@ -602,12 +583,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V    return-void
 .end method
 
 .method public setMargin(I)V
@@ -618,23 +594,13 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V    return-void
 .end method
 
 .method public setType(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I    return-void
 .end method
-
 .end class

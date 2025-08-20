@@ -64,36 +64,20 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V    return-void
 .end method
 
 .method public final onItemRangeMoved(III)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V    return-void
 .end method
 
 .method public final onItemRangeRemoved(II)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V    return-void
 .end method
-
 .end class

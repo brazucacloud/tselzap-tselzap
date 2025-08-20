@@ -43,12 +43,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures(Landroidx/constraintlayout/widget/ConstraintLayout;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures(Landroidx/constraintlayout/widget/ConstraintLayout;)V    return-void
 .end method
 
 .method public init(Landroid/util/AttributeSet;)V
@@ -328,12 +323,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V    return-void
 .end method
 
 .method public setVisibility(I)V
@@ -345,12 +335,6 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V    return-void
 .end method
-
 .end class

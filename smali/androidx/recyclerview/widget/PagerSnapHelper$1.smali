@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V    return-void
 .end method
 
 
@@ -189,5 +184,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -35,12 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static flush(Landroid/content/res/Resources;)V
@@ -59,11 +54,7 @@
 
     .line 4
     .line 5
-    if-lt v0, v1, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-lt v0, v1, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -75,12 +66,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushNougats(Landroid/content/res/Resources;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushNougats(Landroid/content/res/Resources;)V    return-void
 
     .line 16
     :cond_1
@@ -92,21 +78,11 @@
 
     .line 19
     .line 20
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushMarshmallows(Landroid/content/res/Resources;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushMarshmallows(Landroid/content/res/Resources;)V    return-void
 
     .line 24
     :cond_2
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushLollipops(Landroid/content/res/Resources;)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushLollipops(Landroid/content/res/Resources;)V    return-void
 .end method
 
 .method private static flushLollipops(Landroid/content/res/Resources;)V
@@ -357,20 +333,11 @@
 
     .line 46
     :goto_1
-    if-nez p0, :cond_2
-
-    .line 47
-    .line 48
-    return-void
+    if-nez p0, :cond_2    return-void
 
     .line 49
     :cond_2
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushThemedResourcesCache(Ljava/lang/Object;)V
-
-    .line 50
-    .line 51
-    .line 52
-    return-void
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushThemedResourcesCache(Ljava/lang/Object;)V    return-void
 .end method
 
 .method private static flushNougats(Landroid/content/res/Resources;)V
@@ -806,5 +773,4 @@
     :goto_3
     return-void
 .end method
-
 .end class

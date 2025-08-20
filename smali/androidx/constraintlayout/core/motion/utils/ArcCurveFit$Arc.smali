@@ -73,11 +73,7 @@
 
     .line 4
     .line 5
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
-
-    .line 6
-    .line 7
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D    return-void
 .end method
 
 .method public constructor <init>(IDDDDDD)V
@@ -443,11 +439,7 @@
 
     .line 162
     .line 163
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcVelocity:D
-
-    .line 164
-    .line 165
-    return-void
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcVelocity:D    return-void
 
     .line 166
     :goto_5
@@ -520,11 +512,7 @@
     div-double/2addr v8, v1
 
     .line 199
-    iput-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D
-
-    .line 200
-    .line 201
-    return-void
+    iput-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D    return-void
 .end method
 
 .method private buildTable(DDDD)V
@@ -955,19 +943,11 @@
     neg-double v0, v0
 
     .line 26
-    mul-double v0, v0, v4
-
-    .line 27
-    .line 28
-    return-wide v0
+    mul-double v0, v0, v4    return-wide v0
 
     .line 29
     :cond_0
-    mul-double v0, v0, v4
-
-    .line 30
-    .line 31
-    return-wide v0
+    mul-double v0, v0, v4    return-wide v0
 .end method
 
 .method public getDY()D
@@ -1027,41 +1007,25 @@
     neg-double v0, v2
 
     .line 26
-    mul-double v0, v0, v4
-
-    .line 27
-    .line 28
-    return-wide v0
+    mul-double v0, v0, v4    return-wide v0
 
     .line 29
     :cond_0
-    mul-double v2, v2, v4
-
-    .line 30
-    .line 31
-    return-wide v2
+    mul-double v2, v2, v4    return-wide v2
 .end method
 
 .method public getLinearDX(D)D
     .locals 0
 
     .line 1
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterX:D
-
-    .line 2
-    .line 3
-    return-wide p1
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterX:D    return-wide p1
 .end method
 
 .method public getLinearDY(D)D
     .locals 0
 
     .line 1
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D
-
-    .line 2
-    .line 3
-    return-wide p1
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D    return-wide p1
 .end method
 
 .method public getLinearX(D)D
@@ -1204,11 +1168,7 @@
 
     .line 4
     .line 5
-    if-gtz v2, :cond_0
-
-    .line 6
-    .line 7
-    return-wide v0
+    if-gtz v2, :cond_0    return-wide v0
 
     .line 8
     :cond_0
@@ -1220,11 +1180,7 @@
 
     .line 11
     .line 12
-    if-ltz v2, :cond_1
-
-    .line 13
-    .line 14
-    return-wide v0
+    if-ltz v2, :cond_1    return-wide v0
 
     .line 15
     :cond_1
@@ -1358,11 +1314,6 @@
     move-result-wide p1
 
     .line 38
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D
-
-    .line 39
-    .line 40
-    return-void
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D    return-void
 .end method
-
 .end class

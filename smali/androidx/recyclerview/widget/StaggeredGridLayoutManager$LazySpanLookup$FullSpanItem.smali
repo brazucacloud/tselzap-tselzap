@@ -59,11 +59,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -159,11 +155,7 @@
 
     .line 7
     :cond_0
-    aget p1, v0, p1
-
-    .line 8
-    .line 9
-    return p1
+    aget p1, v0, p1    return p1
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -331,24 +323,13 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeIntArray([I)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeIntArray([I)V    return-void
 
     .line 33
     :cond_0
     const/4 p2, 0x0
 
     .line 34
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
 .end method
-
 .end class

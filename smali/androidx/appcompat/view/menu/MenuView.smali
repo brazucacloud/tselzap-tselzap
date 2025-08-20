@@ -23,5 +23,4 @@
 
 .method public abstract initialize(Landroidx/appcompat/view/menu/MenuBuilder;)V
 .end method
-
 .end class

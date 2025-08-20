@@ -102,12 +102,7 @@
     move-result-object p1
 
     .line 33
-    invoke-static {p1, p2}, Landroidx/appcompat/widget/AppCompatSpinner$Api23Impl;->setDropDownViewTheme(Landroid/widget/ThemedSpinnerAdapter;Landroid/content/res/Resources$Theme;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-static {p1, p2}, Landroidx/appcompat/widget/AppCompatSpinner$Api23Impl;->setDropDownViewTheme(Landroid/widget/ThemedSpinnerAdapter;Landroid/content/res/Resources$Theme;)V    return-void
 
     .line 37
     :cond_1
@@ -270,11 +265,7 @@
 
     .line 4
     .line 5
-    const-wide/16 v0, -0x1
-
-    .line 6
-    .line 7
-    return-wide v0
+    const-wide/16 v0, -0x1    return-wide v0
 
     .line 8
     :cond_0
@@ -449,5 +440,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

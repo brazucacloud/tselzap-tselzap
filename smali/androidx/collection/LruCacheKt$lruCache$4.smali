@@ -73,12 +73,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V    return-void
 .end method
 
 
@@ -154,12 +149,7 @@
     move-result-object p1
 
     .line 17
-    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -214,5 +204,4 @@
 
     return p1
 .end method
-
 .end class

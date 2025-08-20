@@ -8,12 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static findChildViewById(Landroid/view/View;I)Landroid/view/View;
@@ -43,11 +38,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return-object v1
+    if-nez v0, :cond_0    return-object v1
 
     .line 7
     :cond_0
@@ -87,11 +78,7 @@
     move-result-object v3
 
     .line 24
-    if-eqz v3, :cond_1
-
-    .line 25
-    .line 26
-    return-object v3
+    if-eqz v3, :cond_1    return-object v3
 
     .line 27
     :cond_1
@@ -105,5 +92,4 @@
     :cond_2
     return-object v1
 .end method
-
 .end class

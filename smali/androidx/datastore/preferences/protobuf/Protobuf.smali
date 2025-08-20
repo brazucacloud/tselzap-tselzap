@@ -37,11 +37,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;    return-void
 .end method
 
 .method private constructor <init>()V
@@ -75,22 +71,14 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFactory:Landroidx/datastore/preferences/protobuf/SchemaFactory;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFactory:Landroidx/datastore/preferences/protobuf/SchemaFactory;    return-void
 .end method
 
 .method public static getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;    return-object v0
 .end method
 
 
@@ -226,12 +214,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Schema;->makeImmutable(Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Schema;->makeImmutable(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;)V
@@ -324,11 +307,7 @@
     move-result-object p1
 
     .line 17
-    check-cast p1, Landroidx/datastore/preferences/protobuf/Schema;
-
-    .line 18
-    .line 19
-    return-object p1
+    check-cast p1, Landroidx/datastore/preferences/protobuf/Schema;    return-object p1
 .end method
 
 .method public registerSchemaOverride(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/Schema;)Landroidx/datastore/preferences/protobuf/Schema;
@@ -376,11 +355,7 @@
     move-result-object p1
 
     .line 17
-    check-cast p1, Landroidx/datastore/preferences/protobuf/Schema;
-
-    .line 18
-    .line 19
-    return-object p1
+    check-cast p1, Landroidx/datastore/preferences/protobuf/Schema;    return-object p1
 .end method
 
 .method public schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
@@ -478,12 +453,6 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Schema;->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Schema;->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V    return-void
 .end method
-
 .end class

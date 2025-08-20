@@ -130,11 +130,7 @@
     const/4 p1, -0x1
 
     .line 30
-    iput p1, p0, Landroidx/navigation/serialization/RouteEncoder;->elementIndex:I
-
-    .line 31
-    .line 32
-    return-void
+    iput p1, p0, Landroidx/navigation/serialization/RouteEncoder;->elementIndex:I    return-void
 .end method
 
 .method private final internalEncodeValue(Ljava/lang/Object;)V
@@ -230,12 +226,7 @@
 
     .line 43
     .line 44
-    invoke-interface {v1, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-interface {v1, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 
     .line 48
     :cond_1
@@ -272,27 +263,7 @@
     .line 63
     .line 64
     .line 65
-    throw v0
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 
 # virtual methods
@@ -361,12 +332,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/serialization/RouteEncoder;->internalEncodeValue(Ljava/lang/Object;)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/serialization/RouteEncoder;->internalEncodeValue(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public encodeSerializableValue(LJ1/h;Ljava/lang/Object;)V
@@ -391,12 +357,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p2}, Landroidx/navigation/serialization/RouteEncoder;->internalEncodeValue(Ljava/lang/Object;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p2}, Landroidx/navigation/serialization/RouteEncoder;->internalEncodeValue(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public final encodeToArgMap(Ljava/lang/Object;)Ljava/util/Map;
@@ -460,23 +421,13 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteEncoder;->internalEncodeValue(Ljava/lang/Object;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteEncoder;->internalEncodeValue(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public getSerializersModule()LO1/b;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/RouteEncoder;->serializersModule:LO1/b;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/serialization/RouteEncoder;->serializersModule:LO1/b;    return-object v0
 .end method
-
 .end class

@@ -168,12 +168,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/EditText;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/EditText;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V    return-void
 .end method
 
 .method private getSuperCaller()Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;
@@ -211,11 +206,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatEditText;->mSuperCaller:Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatEditText;->mSuperCaller:Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;    return-object v0
 .end method
 
 
@@ -1034,12 +1025,7 @@
     move-result-object p1
 
     .line 5
-    invoke-super {p0, p1}, Landroid/widget/EditText;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/EditText;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V    return-void
 .end method
 
 .method public setEmojiCompatEnabled(Z)V
@@ -1050,12 +1036,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiEditTextHelper;->setEnabled(Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiEditTextHelper;->setEnabled(Z)V    return-void
 .end method
 
 .method public setKeyListener(Landroid/text/method/KeyListener;)V
@@ -1078,12 +1059,7 @@
     move-result-object p1
 
     .line 7
-    invoke-super {p0, p1}, Landroid/widget/EditText;->setKeyListener(Landroid/text/method/KeyListener;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/EditText;->setKeyListener(Landroid/text/method/KeyListener;)V    return-void
 .end method
 
 .method public setSupportBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -1172,12 +1148,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V    return-void
 .end method
 
 .method public setSupportCompoundDrawablesTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -1206,12 +1177,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V    return-void
 .end method
 
 .method public setTextAppearance(Landroid/content/Context;I)V
@@ -1275,12 +1241,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V    return-void
 
     .line 16
     :cond_1
@@ -1293,12 +1254,6 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V    return-void
 .end method
-
 .end class

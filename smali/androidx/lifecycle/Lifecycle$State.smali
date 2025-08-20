@@ -189,11 +189,7 @@
     move-result-object v0
 
     .line 55
-    sput-object v0, Landroidx/lifecycle/Lifecycle$State;->$VALUES:[Landroidx/lifecycle/Lifecycle$State;
-
-    .line 56
-    .line 57
-    return-void
+    sput-object v0, Landroidx/lifecycle/Lifecycle$State;->$VALUES:[Landroidx/lifecycle/Lifecycle$State;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -205,12 +201,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/lifecycle/Lifecycle$State;
@@ -278,5 +269,4 @@
 
     return p1
 .end method
-
 .end class

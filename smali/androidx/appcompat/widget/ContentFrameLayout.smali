@@ -105,12 +105,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->fitSystemWindows(Landroid/graphics/Rect;)Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/View;->fitSystemWindows(Landroid/graphics/Rect;)Z    return-void
 .end method
 
 .method public getFixedHeightMajor()Landroid/util/TypedValue;
@@ -139,11 +134,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedHeightMajor:Landroid/util/TypedValue;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedHeightMajor:Landroid/util/TypedValue;    return-object v0
 .end method
 
 .method public getFixedHeightMinor()Landroid/util/TypedValue;
@@ -172,11 +163,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedHeightMinor:Landroid/util/TypedValue;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedHeightMinor:Landroid/util/TypedValue;    return-object v0
 .end method
 
 .method public getFixedWidthMajor()Landroid/util/TypedValue;
@@ -205,11 +192,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedWidthMajor:Landroid/util/TypedValue;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedWidthMajor:Landroid/util/TypedValue;    return-object v0
 .end method
 
 .method public getFixedWidthMinor()Landroid/util/TypedValue;
@@ -238,11 +221,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedWidthMinor:Landroid/util/TypedValue;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mFixedWidthMinor:Landroid/util/TypedValue;    return-object v0
 .end method
 
 .method public getMinWidthMajor()Landroid/util/TypedValue;
@@ -271,11 +250,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mMinWidthMajor:Landroid/util/TypedValue;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mMinWidthMajor:Landroid/util/TypedValue;    return-object v0
 .end method
 
 .method public getMinWidthMinor()Landroid/util/TypedValue;
@@ -304,11 +279,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mMinWidthMinor:Landroid/util/TypedValue;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mMinWidthMinor:Landroid/util/TypedValue;    return-object v0
 .end method
 
 .method public onAttachedToWindow()V
@@ -888,11 +859,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mAttachListener:Landroidx/appcompat/widget/ContentFrameLayout$OnAttachListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ContentFrameLayout;->mAttachListener:Landroidx/appcompat/widget/ContentFrameLayout$OnAttachListener;    return-void
 .end method
 
 .method public setDecorPadding(IIII)V
@@ -933,5 +900,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -32,11 +32,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableDelegateState;->mDelegateState:Landroid/graphics/drawable/Drawable$ConstantState;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableDelegateState;->mDelegateState:Landroid/graphics/drawable/Drawable$ConstantState;    return-void
 .end method
 
 
@@ -151,5 +147,4 @@
 
     return-object v0
 .end method
-
 .end class

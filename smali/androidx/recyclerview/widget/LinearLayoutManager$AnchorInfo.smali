@@ -36,12 +36,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->reset()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->reset()V    return-void
 .end method
 
 
@@ -87,11 +82,7 @@
 
     .line 18
     :goto_0
-    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mCoordinate:I
-
-    .line 19
-    .line 20
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mCoordinate:I    return-void
 .end method
 
 .method public assignFromView(Landroid/view/View;I)V
@@ -158,11 +149,7 @@
     .line 28
     .line 29
     :goto_0
-    iput p2, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mPosition:I
-
-    .line 30
-    .line 31
-    return-void
+    iput p2, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mPosition:I    return-void
 .end method
 
 .method public assignFromViewAndKeepVisibleRect(Landroid/view/View;I)V
@@ -185,12 +172,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->assignFromView(Landroid/view/View;I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->assignFromView(Landroid/view/View;I)V    return-void
 
     .line 13
     :cond_0
@@ -344,11 +326,7 @@
     add-int/2addr p2, p1
 
     .line 83
-    iput p2, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mCoordinate:I
-
-    .line 84
-    .line 85
-    return-void
+    iput p2, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mCoordinate:I    return-void
 
     .line 86
     :cond_1
@@ -586,11 +564,7 @@
 
     .line 10
     .line 11
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mValid:Z
-
-    .line 12
-    .line 13
-    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mValid:Z    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -691,5 +665,4 @@
 
     return-object v0
 .end method
-
 .end class

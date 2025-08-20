@@ -45,11 +45,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->mEmojiTextViewHelper:Landroidx/emoji2/viewsintegration/EmojiTextViewHelper;
-
-    .line 13
-    .line 14
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->mEmojiTextViewHelper:Landroidx/emoji2/viewsintegration/EmojiTextViewHelper;    return-void
 .end method
 
 
@@ -178,12 +174,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p0, v1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-virtual {p0, v1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V    return-void
 
     .line 37
     :goto_1
@@ -192,19 +183,7 @@
     .line 38
     .line 39
     .line 40
-    throw p2
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p2.end method
 
 .method public setAllCaps(Z)V
     .locals 1
@@ -214,12 +193,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper;->setAllCaps(Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper;->setAllCaps(Z)V    return-void
 .end method
 
 .method public setEnabled(Z)V
@@ -230,12 +204,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper;->setEnabled(Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper;->setEnabled(Z)V    return-void
 .end method
 
 .method public wrapTransformationMethod(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
@@ -261,5 +230,4 @@
 
     return-object p1
 .end method
-
 .end class

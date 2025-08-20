@@ -146,11 +146,7 @@
     .line 51
     .line 52
     .line 53
-    sput-object v0, Landroidx/constraintlayout/core/state/Dimension;->RATIO_DIMENSION:Ljava/lang/Object;
-
-    .line 54
-    .line 55
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/state/Dimension;->RATIO_DIMENSION:Ljava/lang/Object;    return-void
 .end method
 
 .method private constructor <init>()V
@@ -422,12 +418,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/state/Dimension;-><init>(Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/state/Dimension;-><init>(Ljava/lang/Object;)V    return-object v0
 .end method
 
 .method public static createPercent(Ljava/lang/Object;F)Landroidx/constraintlayout/core/state/Dimension;
@@ -447,12 +438,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, p0, p1}, Landroidx/constraintlayout/core/state/Dimension;->percent(Ljava/lang/Object;F)Landroidx/constraintlayout/core/state/Dimension;
-
-    .line 9
-    .line 10
-    .line 11
-    return-object v0
+    invoke-virtual {v0, p0, p1}, Landroidx/constraintlayout/core/state/Dimension;->percent(Ljava/lang/Object;F)Landroidx/constraintlayout/core/state/Dimension;    return-object v0
 .end method
 
 .method public static createRatio(Ljava/lang/String;)Landroidx/constraintlayout/core/state/Dimension;
@@ -472,12 +458,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/core/state/Dimension;->ratio(Ljava/lang/String;)Landroidx/constraintlayout/core/state/Dimension;
-
-    .line 9
-    .line 10
-    .line 11
-    return-object v0
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/core/state/Dimension;->ratio(Ljava/lang/String;)Landroidx/constraintlayout/core/state/Dimension;    return-object v0
 .end method
 
 .method public static createSpread()Landroidx/constraintlayout/core/state/Dimension;
@@ -492,12 +473,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/state/Dimension;-><init>(Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/state/Dimension;-><init>(Ljava/lang/Object;)V    return-object v0
 .end method
 
 .method public static createSuggested(I)Landroidx/constraintlayout/core/state/Dimension;
@@ -540,12 +516,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/state/Dimension;-><init>(Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/state/Dimension;-><init>(Ljava/lang/Object;)V    return-object v0
 .end method
 
 
@@ -650,12 +621,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p2, v0, p1, p3, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHorizontalMatchStyle(IIIF)V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-virtual {p2, v0, p1, p3, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHorizontalMatchStyle(IIIF)V    return-void
 
     .line 49
     :cond_3
@@ -703,12 +669,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHorizontalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-
-    .line 72
-    .line 73
-    .line 74
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHorizontalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return-void
 
     .line 75
     :cond_6
@@ -724,12 +685,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHorizontalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-
-    .line 82
-    .line 83
-    .line 84
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHorizontalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return-void
 
     .line 85
     :cond_7
@@ -750,12 +706,7 @@
 
     .line 93
     .line 94
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setWidth(I)V
-
-    .line 95
-    .line 96
-    .line 97
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setWidth(I)V    return-void
 
     .line 98
     :cond_8
@@ -823,12 +774,7 @@
 
     .line 126
     .line 127
-    invoke-virtual {p2, v0, p1, p3, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalMatchStyle(IIIF)V
-
-    .line 128
-    .line 129
-    .line 130
-    return-void
+    invoke-virtual {p2, v0, p1, p3, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalMatchStyle(IIIF)V    return-void
 
     .line 131
     :cond_b
@@ -876,12 +822,7 @@
 
     .line 152
     .line 153
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-
-    .line 154
-    .line 155
-    .line 156
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return-void
 
     .line 157
     :cond_e
@@ -897,12 +838,7 @@
 
     .line 162
     .line 163
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-
-    .line 164
-    .line 165
-    .line 166
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return-void
 
     .line 167
     :cond_f
@@ -1010,11 +946,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Dimension;->mValue:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/Dimension;->mValue:I    return v0
 .end method
 
 .method public max(I)Landroidx/constraintlayout/core/state/Dimension;
@@ -1089,22 +1021,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/constraintlayout/core/state/Dimension;->mPercent:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p2, p0, Landroidx/constraintlayout/core/state/Dimension;->mPercent:F    return-object p0
 .end method
 
 .method public ratio(Ljava/lang/String;)Landroidx/constraintlayout/core/state/Dimension;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Dimension;->mRatioString:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object p0
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Dimension;->mRatioString:Ljava/lang/String;    return-object p0
 .end method
 
 .method public setValue(I)V
@@ -1125,11 +1049,7 @@
 
     .line 6
     .line 7
-    iput p1, p0, Landroidx/constraintlayout/core/state/Dimension;->mValue:I
-
-    .line 8
-    .line 9
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Dimension;->mValue:I    return-void
 .end method
 
 .method public suggested(I)Landroidx/constraintlayout/core/state/Dimension;
@@ -1162,5 +1082,4 @@
 
     return-object p0
 .end method
-
 .end class

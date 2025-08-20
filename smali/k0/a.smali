@@ -70,11 +70,7 @@
     move-result p1
 
     .line 26
-    iput p1, p0, Lk0/a;->e:I
-
-    .line 27
-    .line 28
-    return-void
+    iput p1, p0, Lk0/a;->e:I    return-void
 .end method
 
 
@@ -196,11 +192,7 @@
     const/4 v1, 0x0
 
     .line 54
-    if-eqz v0, :cond_0
-
-    .line 55
-    .line 56
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 57
     :cond_0
@@ -299,5 +291,4 @@
 
     return p1
 .end method
-
 .end class

@@ -168,12 +168,6 @@
 
     .line 63
     .line 64
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 65
-    .line 66
-    .line 67
-    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
-
 .end class

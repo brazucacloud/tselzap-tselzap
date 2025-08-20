@@ -9,5 +9,4 @@
 
 .method public abstract setVisibility(I)V
 .end method
-
 .end class

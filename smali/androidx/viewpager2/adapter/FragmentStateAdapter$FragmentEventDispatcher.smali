@@ -45,11 +45,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;    return-void
 .end method
 
 
@@ -446,12 +442,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public unregisterCallback(Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;)V
@@ -462,12 +453,6 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z    return-void
 .end method
-
 .end class

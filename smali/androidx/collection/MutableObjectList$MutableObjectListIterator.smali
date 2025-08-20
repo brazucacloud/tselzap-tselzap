@@ -77,11 +77,7 @@
 
     .line 12
     .line 13
-    iput p2, p0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;->prevIndex:I
-
-    .line 14
-    .line 15
-    return-void
+    iput p2, p0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;->prevIndex:I    return-void
 .end method
 
 
@@ -111,12 +107,7 @@
 
     .line 8
     .line 9
-    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V    return-void
 .end method
 
 .method public hasNext()Z
@@ -145,11 +136,7 @@
     sub-int/2addr v1, v2
 
     .line 11
-    if-ge v0, v1, :cond_0
-
-    .line 12
-    .line 13
-    return v2
+    if-ge v0, v1, :cond_0    return v2
 
     .line 14
     :cond_0
@@ -224,11 +211,7 @@
 
     .line 2
     .line 3
-    add-int/lit8 v0, v0, 0x1
-
-    .line 4
-    .line 5
-    return v0
+    add-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method public previous()Ljava/lang/Object;
@@ -270,11 +253,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;->prevIndex:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;->prevIndex:I    return v0
 .end method
 
 .method public remove()V
@@ -302,11 +281,7 @@
 
     .line 11
     .line 12
-    iput v0, p0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;->prevIndex:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v0, p0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;->prevIndex:I    return-void
 .end method
 
 .method public set(Ljava/lang/Object;)V
@@ -326,12 +301,6 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1, p1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

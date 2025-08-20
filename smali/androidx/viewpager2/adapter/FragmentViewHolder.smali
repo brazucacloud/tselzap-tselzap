@@ -12,12 +12,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V    return-void
 .end method
 
 .method public static create(Landroid/view/ViewGroup;)Landroidx/viewpager2/adapter/FragmentViewHolder;
@@ -89,12 +84,7 @@
 
     .line 31
     .line 32
-    invoke-direct {p0, v0}, Landroidx/viewpager2/adapter/FragmentViewHolder;-><init>(Landroid/widget/FrameLayout;)V
-
-    .line 33
-    .line 34
-    .line 35
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/viewpager2/adapter/FragmentViewHolder;-><init>(Landroid/widget/FrameLayout;)V    return-object p0
 .end method
 
 
@@ -109,11 +99,6 @@
 
     .line 2
     .line 3
-    check-cast v0, Landroid/widget/FrameLayout;
-
-    .line 4
-    .line 5
-    return-object v0
+    check-cast v0, Landroid/widget/FrameLayout;    return-object v0
 .end method
-
 .end class

@@ -188,22 +188,14 @@
 
     .line 65
     .line 66
-    iput p7, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mMax:I
-
-    .line 67
-    .line 68
-    return-void
+    iput p7, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mMax:I    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;)Landroidx/constraintlayout/core/widgets/ConstraintWidget;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mBiggest:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mBiggest:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object p0
 .end method
 
 .method private recomputeDimensions()V
@@ -837,11 +829,7 @@
 
     .line 142
     .line 143
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mCount:I
-
-    .line 144
-    .line 145
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mCount:I    return-void
 .end method
 
 .method public clear()V
@@ -878,11 +866,7 @@
 
     .line 14
     .line 15
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mNbMatchConstraintsWidgets:I
-
-    .line 16
-    .line 17
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mNbMatchConstraintsWidgets:I    return-void
 .end method
 
 .method public createConstraints(ZIZ)V
@@ -2850,11 +2834,7 @@
 
     .line 16
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mHeight:I
-
-    .line 17
-    .line 18
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mHeight:I    return v0
 .end method
 
 .method public getWidth()I
@@ -2891,11 +2871,7 @@
 
     .line 15
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mWidth:I
-
-    .line 16
-    .line 17
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mWidth:I    return v0
 .end method
 
 .method public measureMatchConstraints(I)V
@@ -2906,11 +2882,7 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -3123,23 +3095,14 @@
     .line 104
     :cond_4
     :goto_2
-    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->recomputeDimensions()V
-
-    .line 105
-    .line 106
-    .line 107
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->recomputeDimensions()V    return-void
 .end method
 
 .method public setStartIndex(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mStartIndex:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mStartIndex:I    return-void
 .end method
 
 .method public setup(ILandroidx/constraintlayout/core/widgets/ConstraintAnchor;Landroidx/constraintlayout/core/widgets/ConstraintAnchor;Landroidx/constraintlayout/core/widgets/ConstraintAnchor;Landroidx/constraintlayout/core/widgets/ConstraintAnchor;IIIII)V
@@ -3182,11 +3145,6 @@
 
     .line 18
     .line 19
-    iput p10, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mMax:I
-
-    .line 20
-    .line 21
-    return-void
+    iput p10, p0, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->mMax:I    return-void
 .end method
-
 .end class

@@ -31,12 +31,7 @@
     const/4 v0, 0x0
 
     .line 7
-    invoke-direct {p0, p1, v0}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;-><init>(Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;-><init>(Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V    return-void
 .end method
 
 
@@ -88,12 +83,6 @@
 
     .line 17
     .line 18
-    invoke-direct {p1, p3}, Landroidx/navigation/NavBackStackEntry$SavedStateViewModel;-><init>(Landroidx/lifecycle/SavedStateHandle;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object p1
+    invoke-direct {p1, p3}, Landroidx/navigation/NavBackStackEntry$SavedStateViewModel;-><init>(Landroidx/lifecycle/SavedStateHandle;)V    return-object p1
 .end method
-
 .end class

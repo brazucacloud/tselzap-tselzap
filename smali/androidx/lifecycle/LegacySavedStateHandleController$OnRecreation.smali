@@ -22,12 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -194,12 +189,5 @@
     .line 77
     .line 78
     .line 79
-    throw p1
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw p1.end method
 .end class

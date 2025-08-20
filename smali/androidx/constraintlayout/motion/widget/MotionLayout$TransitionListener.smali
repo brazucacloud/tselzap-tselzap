@@ -26,5 +26,4 @@
 
 .method public abstract onTransitionTrigger(Landroidx/constraintlayout/motion/widget/MotionLayout;IZF)V
 .end method
-
 .end class

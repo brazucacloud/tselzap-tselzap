@@ -42,12 +42,7 @@
     move-object p1, p0
 
     .line 8
-    invoke-direct/range {p1 .. p8}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;-><init>(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;IIFFFF)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-direct/range {p1 .. p8}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;-><init>(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;IIFFFF)V    return-void
 .end method
 
 
@@ -182,5 +177,4 @@
     :goto_1
     return-void
 .end method
-
 .end class

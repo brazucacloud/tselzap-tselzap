@@ -81,11 +81,7 @@
 
     .line 27
     .line 28
-    sput-object v3, Landroidx/datastore/preferences/protobuf/ProtoSyntax;->$VALUES:[Landroidx/datastore/preferences/protobuf/ProtoSyntax;
-
-    .line 29
-    .line 30
-    return-void
+    sput-object v3, Landroidx/datastore/preferences/protobuf/ProtoSyntax;->$VALUES:[Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -97,12 +93,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ProtoSyntax;
@@ -121,11 +112,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/datastore/preferences/protobuf/ProtoSyntax;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object p0
 .end method
 
 .method public static values()[Landroidx/datastore/preferences/protobuf/ProtoSyntax;
@@ -144,11 +131,6 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/ProtoSyntax;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
 .end method
-
 .end class

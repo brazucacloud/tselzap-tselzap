@@ -61,12 +61,7 @@
 
     .line 10
     .line 11
-    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V    return-void
 .end method
 
 
@@ -346,12 +341,6 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroid/os/CancellationSignal;->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0, v1}, Landroid/os/CancellationSignal;->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V    return-void
 .end method
-
 .end class

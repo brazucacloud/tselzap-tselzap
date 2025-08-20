@@ -54,5 +54,4 @@
 
 .method public abstract toImmutable(Ljava/lang/Object;)Ljava/lang/Object;
 .end method
-
 .end class

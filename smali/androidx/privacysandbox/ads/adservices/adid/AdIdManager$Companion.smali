@@ -77,12 +77,7 @@
 
     .line 16
     .line 17
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V    return-object v0
 
     .line 21
     :cond_0
@@ -127,11 +122,7 @@
     move-result-object p1
 
     .line 42
-    check-cast p1, Landroidx/privacysandbox/ads/adservices/adid/AdIdManager;
-
-    .line 43
-    .line 44
-    return-object p1
+    check-cast p1, Landroidx/privacysandbox/ads/adservices/adid/AdIdManager;    return-object p1
 
     .line 45
     :cond_1
@@ -139,5 +130,4 @@
 
     return-object p1
 .end method
-
 .end class

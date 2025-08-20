@@ -86,11 +86,7 @@
 
     .line 21
     .line 22
-    iput p2, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mIndex:I
-
-    .line 23
-    .line 24
-    return-void
+    iput p2, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mIndex:I    return-void
 .end method
 
 
@@ -208,11 +204,7 @@
     add-int/2addr p1, v0
 
     .line 52
-    iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I
-
-    .line 53
-    .line 54
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I    return-void
 .end method
 
 .method public cacheReferenceLineAndClear(ZI)V
@@ -328,11 +320,7 @@
 
     .line 49
     .line 50
-    iput v1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedStart:I
-
-    .line 51
-    .line 52
-    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedStart:I    return-void
 .end method
 
 .method public calculateCachedEnd()V
@@ -614,11 +602,7 @@
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I
-
-    .line 11
-    .line 12
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I    return-void
 .end method
 
 .method public findFirstCompletelyVisibleItemPosition()I
@@ -1383,11 +1367,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I    return v0
 .end method
 
 .method public getEndLine()I
@@ -1706,11 +1686,7 @@
     move-result-object p1
 
     .line 5
-    check-cast p1, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
-
-    .line 6
-    .line 7
-    return-object p1
+    check-cast p1, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;    return-object p1
 .end method
 
 .method public getStartLine()I
@@ -1781,11 +1757,7 @@
 
     .line 4
     .line 5
-    iput v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I    return-void
 .end method
 
 .method public onOffset(I)V
@@ -1951,11 +1923,7 @@
     .line 55
     .line 56
     :cond_2
-    iput v1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I
-
-    .line 57
-    .line 58
-    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I    return-void
 .end method
 
 .method public popStart()V
@@ -2074,11 +2042,7 @@
     .line 53
     .line 54
     :cond_2
-    iput v3, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedStart:I
-
-    .line 55
-    .line 56
-    return-void
+    iput v3, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedStart:I    return-void
 .end method
 
 .method public prependToSpan(Landroid/view/View;)V
@@ -2197,11 +2161,7 @@
     add-int/2addr p1, v0
 
     .line 53
-    iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I
-
-    .line 54
-    .line 55
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mDeletedSize:I    return-void
 .end method
 
 .method public setLine(I)V
@@ -2212,11 +2172,6 @@
 
     .line 2
     .line 3
-    iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I
-
-    .line 4
-    .line 5
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I    return-void
 .end method
-
 .end class

@@ -50,21 +50,11 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, p1, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object v0
+    invoke-virtual {p0, p1, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V    return-object v0
 
     .line 22
     :cond_0
-    invoke-virtual {p0, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/activity/OnBackPressedCallback;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object v0
+    invoke-virtual {p0, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/activity/OnBackPressedCallback;)V    return-object v0
 .end method
 
 .method public static synthetic addCallback$default(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLp1/l;ILjava/lang/Object;)Landroidx/activity/OnBackPressedCallback;
@@ -104,5 +94,4 @@
 
     return-object p0
 .end method
-
 .end class

@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V    return-void
 .end method
 
 
@@ -112,12 +107,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityPaused$lifecycle_process_release()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityPaused$lifecycle_process_release()V    return-void
 .end method
 
 .method public onActivityPreCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -149,12 +139,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {p1, p2}, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;->registerActivityLifecycleCallbacks(Landroid/app/Activity;Landroid/app/Application$ActivityLifecycleCallbacks;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-static {p1, p2}, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;->registerActivityLifecycleCallbacks(Landroid/app/Activity;Landroid/app/Application$ActivityLifecycleCallbacks;)V    return-void
 .end method
 
 .method public onActivityStopped(Landroid/app/Activity;)V
@@ -174,12 +159,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStopped$lifecycle_process_release()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStopped$lifecycle_process_release()V    return-void
 .end method
-
 .end class

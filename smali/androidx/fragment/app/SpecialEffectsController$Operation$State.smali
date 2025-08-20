@@ -186,11 +186,7 @@
     .line 51
     .line 52
     .line 53
-    sput-object v0, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->Companion:Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;
-
-    .line 54
-    .line 55
-    return-void
+    sput-object v0, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->Companion:Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -202,12 +198,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static final from(I)Landroidx/fragment/app/SpecialEffectsController$Operation$State;
@@ -371,12 +362,7 @@
     .line 57
     .line 58
     :cond_1
-    invoke-virtual {p1, v4}, Landroid/view/View;->setVisibility(I)V
-
-    .line 59
-    .line 60
-    .line 61
-    return-void
+    invoke-virtual {p1, v4}, Landroid/view/View;->setVisibility(I)V    return-void
 
     .line 62
     :cond_2
@@ -433,12 +419,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    .line 91
-    .line 92
-    .line 93
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V    return-void
 
     .line 94
     :cond_4
@@ -494,12 +475,7 @@
     const/4 v0, 0x0
 
     .line 121
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    .line 122
-    .line 123
-    .line 124
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V    return-void
 
     .line 125
     :cond_6
@@ -602,5 +578,4 @@
     :goto_1
     return-void
 .end method
-
 .end class

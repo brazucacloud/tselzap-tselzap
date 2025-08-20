@@ -40,12 +40,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static getInstance()Landroidx/appcompat/app/TwilightCalculator;
@@ -74,11 +69,7 @@
     .line 11
     .line 12
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/TwilightCalculator;->sInstance:Landroidx/appcompat/app/TwilightCalculator;
-
-    .line 13
-    .line 14
-    return-object v0
+    sget-object v0, Landroidx/appcompat/app/TwilightCalculator;->sInstance:Landroidx/appcompat/app/TwilightCalculator;    return-object v0
 .end method
 
 
@@ -474,11 +465,7 @@
 
     .line 201
     .line 202
-    iput-wide v10, p0, Landroidx/appcompat/app/TwilightCalculator;->sunrise:J
-
-    .line 203
-    .line 204
-    return-void
+    iput-wide v10, p0, Landroidx/appcompat/app/TwilightCalculator;->sunrise:J    return-void
 
     .line 205
     :cond_0
@@ -505,11 +492,7 @@
 
     .line 215
     .line 216
-    iput-wide v10, p0, Landroidx/appcompat/app/TwilightCalculator;->sunrise:J
-
-    .line 217
-    .line 218
-    return-void
+    iput-wide v10, p0, Landroidx/appcompat/app/TwilightCalculator;->sunrise:J    return-void
 
     .line 219
     :cond_1
@@ -609,19 +592,10 @@
 
     .line 266
     .line 267
-    iput v7, p0, Landroidx/appcompat/app/TwilightCalculator;->state:I
-
-    .line 268
-    .line 269
-    return-void
+    iput v7, p0, Landroidx/appcompat/app/TwilightCalculator;->state:I    return-void
 
     .line 270
     :cond_2
-    iput v6, p0, Landroidx/appcompat/app/TwilightCalculator;->state:I
-
-    .line 271
-    .line 272
-    return-void
+    iput v6, p0, Landroidx/appcompat/app/TwilightCalculator;->state:I    return-void
 .end method
-
 .end class

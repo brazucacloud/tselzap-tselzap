@@ -251,76 +251,39 @@
 
     .line 102
     :goto_1
-    packed-switch p0, :pswitch_data_0
-
-    .line 103
-    .line 104
-    .line 105
-    return v0
+    packed-switch p0, :pswitch_data_0    return v0
 
     .line 106
     :pswitch_0
-    const/16 p0, 0x2c2
-
-    .line 107
-    .line 108
-    return p0
+    const/16 p0, 0x2c2    return p0
 
     .line 109
     :pswitch_1
-    const/16 p0, 0x1fd
-
-    .line 110
-    .line 111
-    return p0
+    const/16 p0, 0x1fd    return p0
 
     .line 112
     :pswitch_2
-    const/16 p0, 0x2bd
-
-    .line 113
-    .line 114
-    return p0
+    const/16 p0, 0x2bd    return p0
 
     .line 115
     :pswitch_3
-    const/16 p0, 0x2be
-
-    .line 116
-    .line 117
-    return p0
+    const/16 p0, 0x2be    return p0
 
     .line 118
     :pswitch_4
-    const/16 p0, 0x2c0
-
-    .line 119
-    .line 120
-    return p0
+    const/16 p0, 0x2c0    return p0
 
     .line 121
     :pswitch_5
-    const/16 p0, 0x2c1
-
-    .line 122
-    .line 123
-    return p0
+    const/16 p0, 0x2c1    return p0
 
     .line 124
     :pswitch_6
-    const/16 p0, 0x2bc
-
-    .line 125
-    .line 126
-    return p0
+    const/16 p0, 0x2bc    return p0
 
     .line 127
     :pswitch_7
-    const/16 p0, 0x2c3
-
-    .line 128
-    .line 129
-    return p0
+    const/16 p0, 0x2c3    return p0
 
     .line 130
     nop
@@ -382,86 +345,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    .end packed-switch.end method
 
 .method public static b(I)I
     .locals 1
@@ -497,11 +381,7 @@
 
     .line 15
     :pswitch_1
-    const/16 p0, 0x8
-
-    .line 16
-    .line 17
-    return p0
+    const/16 p0, 0x8    return p0
 
     .line 18
     :cond_0
@@ -534,5 +414,4 @@
         :pswitch_1
     .end packed-switch
 .end method
-
 .end class

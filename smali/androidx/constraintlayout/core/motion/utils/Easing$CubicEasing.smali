@@ -460,11 +460,7 @@
 
     .line 4
     .line 5
-    if-gtz v2, :cond_0
-
-    .line 6
-    .line 7
-    return-wide v0
+    if-gtz v2, :cond_0    return-wide v0
 
     .line 8
     :cond_0
@@ -476,11 +472,7 @@
 
     .line 11
     .line 12
-    if-ltz v2, :cond_1
-
-    .line 13
-    .line 14
-    return-wide v0
+    if-ltz v2, :cond_1    return-wide v0
 
     .line 15
     :cond_1
@@ -728,11 +720,6 @@
 
     .line 6
     .line 7
-    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY2:D
-
-    .line 8
-    .line 9
-    return-void
+    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY2:D    return-void
 .end method
-
 .end class

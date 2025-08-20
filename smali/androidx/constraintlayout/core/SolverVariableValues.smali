@@ -138,12 +138,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/SolverVariableValues;->clear()V
-
-    .line 47
-    .line 48
-    .line 49
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/SolverVariableValues;->clear()V    return-void
 .end method
 
 .method private addToHashMap(Landroidx/constraintlayout/core/SolverVariable;I)V
@@ -213,11 +208,7 @@
 
     .line 27
     .line 28
-    aput v2, p1, p2
-
-    .line 29
-    .line 30
-    return-void
+    aput v2, p1, p2    return-void
 .end method
 
 .method private addVariable(ILandroidx/constraintlayout/core/SolverVariable;F)V
@@ -292,11 +283,7 @@
 
     .line 34
     .line 35
-    iput p1, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mCount:I
-
-    .line 36
-    .line 37
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mCount:I    return-void
 .end method
 
 .method private displayHash()V
@@ -509,11 +496,7 @@
 
     .line 10
     .line 11
-    if-ne v1, v2, :cond_0
-
-    .line 12
-    .line 13
-    return v0
+    if-ne v1, v2, :cond_0    return v0
 
     .line 14
     :cond_0
@@ -656,11 +639,7 @@
 
     .line 61
     :cond_0
-    iput v0, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mSize:I
-
-    .line 62
-    .line 63
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mSize:I    return-void
 .end method
 
 .method private insertVariable(ILandroidx/constraintlayout/core/SolverVariable;F)V
@@ -781,12 +760,7 @@
     .line 54
     .line 55
     :cond_2
-    invoke-direct {p0, p2, v0}, Landroidx/constraintlayout/core/SolverVariableValues;->addToHashMap(Landroidx/constraintlayout/core/SolverVariable;I)V
-
-    .line 56
-    .line 57
-    .line 58
-    return-void
+    invoke-direct {p0, p2, v0}, Landroidx/constraintlayout/core/SolverVariableValues;->addToHashMap(Landroidx/constraintlayout/core/SolverVariable;I)V    return-void
 .end method
 
 .method private removeFromHashMap(Landroidx/constraintlayout/core/SolverVariable;)V
@@ -848,11 +822,7 @@
 
     .line 26
     .line 27
-    aput v3, p1, v2
-
-    .line 28
-    .line 29
-    return-void
+    aput v3, p1, v2    return-void
 
     .line 30
     :cond_1
@@ -969,12 +939,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/SolverVariableValues;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/SolverVariableValues;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-void
 
     .line 24
     :cond_1
@@ -1153,11 +1118,7 @@
 
     .line 51
     .line 52
-    iput v3, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mHead:I
-
-    .line 53
-    .line 54
-    return-void
+    iput v3, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mHead:I    return-void
 .end method
 
 .method public contains(Landroidx/constraintlayout/core/SolverVariable;)Z
@@ -1314,12 +1275,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public divideByAmount(F)V
@@ -1411,11 +1367,7 @@
 
     .line 9
     .line 10
-    aget p1, v0, p1
-
-    .line 11
-    .line 12
-    return p1
+    aget p1, v0, p1    return p1
 
     .line 13
     :cond_0
@@ -1428,11 +1380,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mCount:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mCount:I    return v0
 .end method
 
 .method public getVariable(I)Landroidx/constraintlayout/core/SolverVariable;
@@ -1446,11 +1394,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return-object v1
+    if-nez v0, :cond_0    return-object v1
 
     .line 7
     :cond_0
@@ -1493,11 +1437,7 @@
 
     .line 24
     .line 25
-    aget-object p1, p1, v0
-
-    .line 26
-    .line 27
-    return-object p1
+    aget-object p1, p1, v0    return-object p1
 
     .line 28
     :cond_1
@@ -1557,11 +1497,7 @@
 
     .line 11
     .line 12
-    aget p1, p1, v1
-
-    .line 13
-    .line 14
-    return p1
+    aget p1, p1, v1    return p1
 
     .line 15
     :cond_0
@@ -1641,11 +1577,7 @@
 
     .line 18
     .line 19
-    if-ne v0, v1, :cond_1
-
-    .line 20
-    .line 21
-    return v1
+    if-ne v0, v1, :cond_1    return v1
 
     .line 22
     :cond_1
@@ -1657,11 +1589,7 @@
 
     .line 25
     .line 26
-    if-ne v2, p1, :cond_2
-
-    .line 27
-    .line 28
-    return v0
+    if-ne v2, p1, :cond_2    return v0
 
     .line 29
     :cond_2
@@ -1694,11 +1622,7 @@
 
     .line 42
     :cond_3
-    if-ne v0, v1, :cond_4
-
-    .line 43
-    .line 44
-    return v1
+    if-ne v0, v1, :cond_4    return v1
 
     .line 45
     :cond_4
@@ -1710,11 +1634,7 @@
 
     .line 48
     .line 49
-    if-ne v2, p1, :cond_5
-
-    .line 50
-    .line 51
-    return v0
+    if-ne v2, p1, :cond_5    return v0
 
     .line 52
     :cond_5
@@ -1823,12 +1743,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, p1, v2}, Landroidx/constraintlayout/core/SolverVariableValues;->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p0, p1, v2}, Landroidx/constraintlayout/core/SolverVariableValues;->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F    return-void
 
     .line 17
     :cond_0
@@ -1853,11 +1768,7 @@
     .line 26
     .line 27
     .line 28
-    iput v1, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mHead:I
-
-    .line 29
-    .line 30
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/SolverVariableValues;->mHead:I    return-void
 
     .line 31
     :cond_1
@@ -1880,11 +1791,7 @@
 
     .line 39
     .line 40
-    aput p2, p1, v0
-
-    .line 41
-    .line 42
-    return-void
+    aput p2, p1, v0    return-void
 
     .line 43
     :cond_2
@@ -1945,11 +1852,7 @@
 
     .line 69
     .line 70
-    aput p2, p1, v2
-
-    .line 71
-    .line 72
-    return-void
+    aput p2, p1, v2    return-void
 
     .line 73
     :cond_4
@@ -1986,12 +1889,7 @@
     .line 86
     :cond_7
     :goto_1
-    invoke-direct {p0, v4, p1, p2}, Landroidx/constraintlayout/core/SolverVariableValues;->insertVariable(ILandroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 87
-    .line 88
-    .line 89
-    return-void
+    invoke-direct {p0, v4, p1, p2}, Landroidx/constraintlayout/core/SolverVariableValues;->insertVariable(ILandroidx/constraintlayout/core/SolverVariable;F)V    return-void
 .end method
 
 .method public remove(Landroidx/constraintlayout/core/SolverVariable;Z)F
@@ -2620,5 +2518,4 @@
     :cond_1
     return v0
 .end method
-
 .end class

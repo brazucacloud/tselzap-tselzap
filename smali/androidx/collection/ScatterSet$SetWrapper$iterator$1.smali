@@ -82,12 +82,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Li1/h;-><init>(Lg1/d;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0, p2}, Li1/h;-><init>(Lg1/d;)V    return-void
 .end method
 
 
@@ -120,11 +115,7 @@
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/collection/ScatterSet$SetWrapper$iterator$1;->L$0:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-object v0
+    iput-object p1, v0, Landroidx/collection/ScatterSet$SetWrapper$iterator$1;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -467,11 +458,7 @@
     .line 136
     .line 137
     .line 138
-    sget-object v1, Lh1/a;->b:Lh1/a;
-
-    .line 139
-    .line 140
-    return-object v2
+    sget-object v1, Lh1/a;->b:Lh1/a;    return-object v2
 
     .line 141
     :cond_2
@@ -514,11 +501,6 @@
 
     .line 154
     :cond_5
-    sget-object v1, Lc1/v;->a:Lc1/v;
-
-    .line 155
-    .line 156
-    return-object v1
+    sget-object v1, Lc1/v;->a:Lc1/v;    return-object v1
 .end method
-
 .end class

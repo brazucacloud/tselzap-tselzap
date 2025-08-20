@@ -72,11 +72,7 @@
     double-to-float v0, v0
 
     .line 11
-    sput v0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->ARROW_HEAD_ANGLE:F
-
-    .line 12
-    .line 13
-    return-void
+    sput v0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->ARROW_HEAD_ANGLE:F    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -362,12 +358,7 @@
 
     .line 141
     .line 142
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 143
-    .line 144
-    .line 145
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 .method private static lerp(FFF)F
@@ -985,45 +976,28 @@
     .line 275
     .line 276
     .line 277
-    invoke-virtual {v1}, Landroid/graphics/Canvas;->restore()V
-
-    .line 278
-    .line 279
-    .line 280
-    return-void
+    invoke-virtual {v1}, Landroid/graphics/Canvas;->restore()V    return-void
 .end method
 
 .method public getArrowHeadLength()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mArrowHeadLength:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mArrowHeadLength:F    return v0
 .end method
 
 .method public getArrowShaftLength()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mArrowShaftLength:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mArrowShaftLength:F    return v0
 .end method
 
 .method public getBarLength()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mBarLength:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mBarLength:F    return v0
 .end method
 
 .method public getBarThickness()F
@@ -1068,44 +1042,28 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mDirection:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mDirection:I    return v0
 .end method
 
 .method public getGapSize()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mBarGap:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mBarGap:F    return v0
 .end method
 
 .method public getIntrinsicHeight()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mSize:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mSize:I    return v0
 .end method
 
 .method public getIntrinsicWidth()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mSize:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mSize:I    return v0
 .end method
 
 .method public getOpacity()I
@@ -1120,11 +1078,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mPaint:Landroid/graphics/Paint;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mPaint:Landroid/graphics/Paint;    return-object v0
 .end method
 
 .method public getProgress()F
@@ -1135,22 +1089,14 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mProgress:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mProgress:F    return v0
 .end method
 
 .method public isSpinEnabled()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mSpin:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->mSpin:Z    return v0
 .end method
 
 .method public setAlpha(I)V
@@ -1411,12 +1357,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
 .end method
 
 .method public setDirection(I)V
@@ -1557,5 +1498,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -197,11 +197,7 @@
     const/4 v2, 0x0
 
     .line 14
-    if-nez v0, :cond_0
-
-    .line 15
-    .line 16
-    return v2
+    if-nez v0, :cond_0    return v2
 
     .line 17
     :cond_0
@@ -508,5 +504,4 @@
 
     return p3
 .end method
-
 .end class

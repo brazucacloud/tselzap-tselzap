@@ -119,22 +119,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/internal/PreferenceImageView;->mMaxHeight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/internal/PreferenceImageView;->mMaxHeight:I    return v0
 .end method
 
 .method public getMaxWidth()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/internal/PreferenceImageView;->mMaxWidth:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/internal/PreferenceImageView;->mMaxWidth:I    return v0
 .end method
 
 .method public onMeasure(II)V
@@ -260,12 +252,7 @@
 
     .line 58
     :cond_5
-    invoke-super {p0, p1, p2}, Landroid/widget/ImageView;->onMeasure(II)V
-
-    .line 59
-    .line 60
-    .line 61
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/ImageView;->onMeasure(II)V    return-void
 .end method
 
 .method public setMaxHeight(I)V
@@ -276,12 +263,7 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1}, Landroid/widget/ImageView;->setMaxHeight(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/ImageView;->setMaxHeight(I)V    return-void
 .end method
 
 .method public setMaxWidth(I)V
@@ -292,12 +274,6 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1}, Landroid/widget/ImageView;->setMaxWidth(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/ImageView;->setMaxWidth(I)V    return-void
 .end method
-
 .end class

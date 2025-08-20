@@ -9,5 +9,4 @@
 
 .method public abstract measureCubic(Landroidx/graphics/shapes/Cubic;)F
 .end method
-
 .end class

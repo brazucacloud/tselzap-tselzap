@@ -37,11 +37,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->mObject:Landroid/view/MenuItem$OnActionExpandListener;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->mObject:Landroid/view/MenuItem$OnActionExpandListener;    return-void
 .end method
 
 
@@ -105,5 +101,4 @@
 
     return p1
 .end method
-
 .end class

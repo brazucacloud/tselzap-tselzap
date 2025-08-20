@@ -77,11 +77,7 @@
 
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$Model;->mEnd:Landroidx/constraintlayout/widget/ConstraintSet;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$Model;->mEnd:Landroidx/constraintlayout/widget/ConstraintSet;    return-void
 .end method
 
 .method private computeStartEndSize(II)V
@@ -359,12 +355,7 @@
 
     .line 114
     :cond_e
-    invoke-static {v1, v2, v0, v4, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$1900(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
-
-    .line 115
-    .line 116
-    .line 117
-    return-void
+    invoke-static {v1, v2, v0, v4, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$1900(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V    return-void
 .end method
 
 .method private debugLayout(Ljava/lang/String;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
@@ -887,12 +878,7 @@
     move-result-object p1
 
     .line 262
-    invoke-static {v2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 263
-    .line 264
-    .line 265
-    return-void
+    invoke-static {v2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method private debugLayoutParam(Ljava/lang/String;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;)V
@@ -1419,12 +1405,7 @@
 
     .line 242
     .line 243
-    invoke-static {p2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 244
-    .line 245
-    .line 246
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method private debugWidget(Ljava/lang/String;Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -1781,12 +1762,7 @@
 
     .line 162
     .line 163
-    invoke-static {p2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 164
-    .line 165
-    .line 166
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method private setupConstraintWidget(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Landroidx/constraintlayout/widget/ConstraintSet;)V
@@ -3301,11 +3277,7 @@
     move-result-object v0
 
     .line 5
-    if-ne v0, p2, :cond_0
-
-    .line 6
-    .line 7
-    return-object p1
+    if-ne v0, p2, :cond_0    return-object p1
 
     .line 8
     :cond_0
@@ -3353,11 +3325,7 @@
     move-result-object v3
 
     .line 29
-    if-ne v3, p2, :cond_1
-
-    .line 30
-    .line 31
-    return-object v2
+    if-ne v3, p2, :cond_1    return-object v2
 
     .line 32
     :cond_1
@@ -4232,12 +4200,7 @@
 
     .line 194
     .line 195
-    invoke-static/range {v7 .. v13}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$1500(Landroidx/constraintlayout/motion/widget/MotionLayout;IIIIZZ)V
-
-    .line 196
-    .line 197
-    .line 198
-    return-void
+    invoke-static/range {v7 .. v13}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$1500(Landroidx/constraintlayout/motion/widget/MotionLayout;IIIIZZ)V    return-void
 .end method
 
 .method public reEvaluateState()V
@@ -4277,12 +4240,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$1400(Landroidx/constraintlayout/motion/widget/MotionLayout;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-static {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$1400(Landroidx/constraintlayout/motion/widget/MotionLayout;)V    return-void
 .end method
 
 .method public setMeasuredId(II)V
@@ -4293,11 +4251,6 @@
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$Model;->mEndId:I
-
-    .line 4
-    .line 5
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$Model;->mEndId:I    return-void
 .end method
-
 .end class

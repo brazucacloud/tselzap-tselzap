@@ -509,5 +509,4 @@
     :catch_10
     return-void
 .end method
-
 .end class

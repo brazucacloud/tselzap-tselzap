@@ -224,11 +224,7 @@
 
     .line 87
     .line 88
-    sput-object v14, Landroidx/datastore/preferences/protobuf/Value$KindCase;->$VALUES:[Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 89
-    .line 90
-    return-void
+    sput-object v14, Landroidx/datastore/preferences/protobuf/Value$KindCase;->$VALUES:[Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
@@ -245,11 +241,7 @@
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->value:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->value:I    return-void
 .end method
 
 .method public static forNumber(I)Landroidx/datastore/preferences/protobuf/Value$KindCase;
@@ -267,59 +259,31 @@
 
     .line 6
     :pswitch_0
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->LIST_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 7
-    .line 8
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->LIST_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 9
     :pswitch_1
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->STRUCT_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 10
-    .line 11
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->STRUCT_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 12
     :pswitch_2
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->BOOL_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 13
-    .line 14
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->BOOL_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 15
     :pswitch_3
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->STRING_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 16
-    .line 17
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->STRING_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 18
     :pswitch_4
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->NUMBER_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 19
-    .line 20
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->NUMBER_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 21
     :pswitch_5
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->NULL_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 22
-    .line 23
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->NULL_VALUE:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 24
     :pswitch_6
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->KIND_NOT_SET:Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 25
-    .line 26
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->KIND_NOT_SET:Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object p0
 
     .line 27
     :pswitch_data_0
@@ -378,11 +342,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/Value$KindCase;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/Value$KindCase;    return-object v0
 .end method
 
 
@@ -391,11 +351,6 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->value:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->value:I    return v0
 .end method
-
 .end class

@@ -54,11 +54,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;->mMeasurementManager:Landroid/adservices/measurement/MeasurementManager;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;->mMeasurementManager:Landroid/adservices/measurement/MeasurementManager;    return-void
 .end method
 
 .method public static deleteRegistrations$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;Lg1/d;)Ljava/lang/Object;
@@ -158,19 +154,11 @@
 
     .line 40
     .line 41
-    if-ne p0, p1, :cond_0
-
-    .line 42
-    .line 43
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 44
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 45
-    .line 46
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 .method public static getMeasurementApiStatus$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Lg1/d;)Ljava/lang/Object;
@@ -261,11 +249,7 @@
     move-result-object p0
 
     .line 35
-    sget-object p1, Lh1/a;->b:Lh1/a;
-
-    .line 36
-    .line 37
-    return-object p0
+    sget-object p1, Lh1/a;->b:Lh1/a;    return-object p0
 .end method
 
 .method public static registerSource$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroid/net/Uri;Landroid/view/InputEvent;Lg1/d;)Ljava/lang/Object;
@@ -485,19 +469,11 @@
 
     .line 36
     .line 37
-    if-ne p0, p1, :cond_0
-
-    .line 38
-    .line 39
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 40
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 41
-    .line 42
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 .method public static registerWebSource$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;Lg1/d;)Ljava/lang/Object;
@@ -601,19 +577,11 @@
 
     .line 40
     .line 41
-    if-ne p0, p1, :cond_0
-
-    .line 42
-    .line 43
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 44
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 45
-    .line 46
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 .method public static registerWebTrigger$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroidx/privacysandbox/ads/adservices/measurement/WebTriggerRegistrationRequest;Lg1/d;)Ljava/lang/Object;
@@ -717,19 +685,11 @@
 
     .line 40
     .line 41
-    if-ne p0, p1, :cond_0
-
-    .line 42
-    .line 43
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 44
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 45
-    .line 46
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 
@@ -766,11 +726,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;->mMeasurementManager:Landroid/adservices/measurement/MeasurementManager;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;->mMeasurementManager:Landroid/adservices/measurement/MeasurementManager;    return-object v0
 .end method
 
 .method public getMeasurementApiStatus(Lg1/d;)Ljava/lang/Object;
@@ -961,5 +917,4 @@
 
     return-object p1
 .end method
-
 .end class

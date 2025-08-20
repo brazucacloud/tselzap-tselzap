@@ -22,12 +22,6 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/customview/view/AbsSavedState;-><init>(Landroidx/customview/view/AbsSavedState$1;)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, v0}, Landroidx/customview/view/AbsSavedState;-><init>(Landroidx/customview/view/AbsSavedState$1;)V    return-void
 .end method
-
 .end class

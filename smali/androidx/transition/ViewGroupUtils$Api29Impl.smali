@@ -23,12 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static getChildDrawingOrder(Landroid/view/ViewGroup;I)I
@@ -53,12 +48,6 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->suppressLayout(Z)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->suppressLayout(Z)V    return-void
 .end method
-
 .end class

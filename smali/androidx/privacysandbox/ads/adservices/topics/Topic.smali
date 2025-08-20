@@ -29,11 +29,7 @@
 
     .line 7
     .line 8
-    iput p5, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->topicId:I
-
-    .line 9
-    .line 10
-    return-void
+    iput p5, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->topicId:I    return-void
 .end method
 
 
@@ -45,11 +41,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -60,11 +52,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -112,11 +100,7 @@
 
     .line 32
     .line 33
-    if-ne v1, p1, :cond_2
-
-    .line 34
-    .line 35
-    return v0
+    if-ne v1, p1, :cond_2    return v0
 
     .line 36
     :cond_2
@@ -127,33 +111,21 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->modelVersion:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->modelVersion:J    return-wide v0
 .end method
 
 .method public final getTaxonomyVersion()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->taxonomyVersion:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->taxonomyVersion:J    return-wide v0
 .end method
 
 .method public final getTopicId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->topicId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/topics/Topic;->topicId:I    return v0
 .end method
 
 .method public hashCode()I
@@ -294,5 +266,4 @@
 
     return-object v0
 .end method
-
 .end class

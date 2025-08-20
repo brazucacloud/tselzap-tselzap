@@ -12,5 +12,4 @@
     accessFlags = 0x609
     name = "Extras"
 .end annotation
-
 .end class

@@ -88,22 +88,14 @@
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRoundPercent:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRoundPercent:F    return p0
 .end method
 
 .method public static synthetic access$100(Landroidx/constraintlayout/utils/widget/MotionButton;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRound:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRound:F    return p0
 .end method
 
 .method private init(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -233,34 +225,21 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/Button;->draw(Landroid/graphics/Canvas;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/Button;->draw(Landroid/graphics/Canvas;)V    return-void
 .end method
 
 .method public getRound()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRound:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRound:F    return v0
 .end method
 
 .method public getRoundPercent()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRoundPercent:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/MotionButton;->mRoundPercent:F    return v0
 .end method
 
 .method public setRound(F)V
@@ -298,12 +277,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionButton;->setRoundPercent(F)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionButton;->setRoundPercent(F)V    return-void
 
     .line 19
     :cond_0
@@ -743,5 +717,4 @@
     :cond_5
     return-void
 .end method
-
 .end class

@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -116,12 +111,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;->show()V
-
-    .line 37
-    .line 38
-    .line 39
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;->show()V    return-void
 
     .line 40
     :cond_1
@@ -138,5 +128,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

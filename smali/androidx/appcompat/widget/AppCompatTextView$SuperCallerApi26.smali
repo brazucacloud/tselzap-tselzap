@@ -34,12 +34,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -160,12 +155,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextView;->access$601(Landroidx/appcompat/widget/AppCompatTextView;IIII)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextView;->access$601(Landroidx/appcompat/widget/AppCompatTextView;IIII)V    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithPresetSizes([II)V
@@ -176,12 +166,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->access$701(Landroidx/appcompat/widget/AppCompatTextView;[II)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->access$701(Landroidx/appcompat/widget/AppCompatTextView;[II)V    return-void
 .end method
 
 .method public setAutoSizeTextTypeWithDefaults(I)V
@@ -192,12 +177,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$801(Landroidx/appcompat/widget/AppCompatTextView;I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$801(Landroidx/appcompat/widget/AppCompatTextView;I)V    return-void
 .end method
 
 .method public setFirstBaselineToTopHeight(I)V
@@ -230,12 +210,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$901(Landroidx/appcompat/widget/AppCompatTextView;Landroid/view/textclassifier/TextClassifier;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$901(Landroidx/appcompat/widget/AppCompatTextView;Landroid/view/textclassifier/TextClassifier;)V    return-void
 .end method
-
 .end class

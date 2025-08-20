@@ -66,23 +66,14 @@
     .line 18
     .line 19
     :goto_0
-    sput-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;->sIsChildViewEnabled:Ljava/lang/reflect/Field;
-
-    .line 20
-    .line 21
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;->sIsChildViewEnabled:Ljava/lang/reflect/Field;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static isSelectedChildViewEnabled(Landroid/widget/AbsListView;)Z
@@ -148,12 +139,7 @@
     .line 9
     invoke-virtual {v0, p0, p1}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
-    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 13
     :catch_0
@@ -168,5 +154,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

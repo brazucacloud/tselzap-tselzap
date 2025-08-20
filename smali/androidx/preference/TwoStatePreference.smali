@@ -100,11 +100,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/TwoStatePreference;->mDisableDependentsState:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/TwoStatePreference;->mDisableDependentsState:Z    return v0
 .end method
 
 .method public getSummaryOff()Ljava/lang/CharSequence;
@@ -113,11 +109,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/TwoStatePreference;->mSummaryOff:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/TwoStatePreference;->mSummaryOff:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getSummaryOn()Ljava/lang/CharSequence;
@@ -126,22 +118,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/TwoStatePreference;->mSummaryOn:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/TwoStatePreference;->mSummaryOn:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public isChecked()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/TwoStatePreference;->mChecked:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/TwoStatePreference;->mChecked:Z    return v0
 .end method
 
 .method public onClick()V
@@ -286,22 +270,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V    return-void
 
     .line 31
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -326,11 +300,7 @@
     move-result v1
 
     .line 9
-    if-eqz v1, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v1, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -351,11 +321,7 @@
     move-result v0
 
     .line 21
-    iput-boolean v0, v1, Landroidx/preference/TwoStatePreference$SavedState;->mChecked:Z
-
-    .line 22
-    .line 23
-    return-object v1
+    iput-boolean v0, v1, Landroidx/preference/TwoStatePreference$SavedState;->mChecked:Z    return-object v1
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -391,12 +357,7 @@
     move-result p1
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V    return-void
 .end method
 
 .method public setChecked(Z)V
@@ -481,11 +442,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/TwoStatePreference;->mDisableDependentsState:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/TwoStatePreference;->mDisableDependentsState:Z    return-void
 .end method
 
 .method public setSummaryOff(I)V
@@ -774,5 +731,4 @@
 
     return-void
 .end method
-
 .end class

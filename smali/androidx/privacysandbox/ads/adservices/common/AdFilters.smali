@@ -22,11 +22,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/common/AdFilters;->frequencyCapFilters:Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/common/AdFilters;->frequencyCapFilters:Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;    return-void
 .end method
 
 
@@ -105,12 +101,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -167,11 +158,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdFilters;->frequencyCapFilters:Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdFilters;->frequencyCapFilters:Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -237,5 +224,4 @@
 
     return-object v0
 .end method
-
 .end class

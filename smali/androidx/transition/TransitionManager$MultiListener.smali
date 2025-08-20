@@ -38,11 +38,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/transition/TransitionManager$MultiListener;->mSceneRoot:Landroid/view/ViewGroup;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/transition/TransitionManager$MultiListener;->mSceneRoot:Landroid/view/ViewGroup;    return-void
 .end method
 
 .method private removeListeners()V
@@ -70,12 +66,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {v0, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V    return-void
 .end method
 
 
@@ -108,11 +99,7 @@
     const/4 v1, 0x1
 
     .line 13
-    if-nez v0, :cond_0
-
-    .line 14
-    .line 15
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 16
     :cond_0
@@ -293,12 +280,7 @@
 
     .line 103
     .line 104
-    invoke-virtual {v0, v2}, Landroidx/transition/Transition;->playTransition(Landroid/view/ViewGroup;)V
-
-    .line 105
-    .line 106
-    .line 107
-    return v1
+    invoke-virtual {v0, v2}, Landroidx/transition/Transition;->playTransition(Landroid/view/ViewGroup;)V    return v1
 .end method
 
 .method public onViewAttachedToWindow(Landroid/view/View;)V
@@ -422,12 +404,6 @@
     const/4 v0, 0x1
 
     .line 56
-    invoke-virtual {p1, v0}, Landroidx/transition/Transition;->clearValues(Z)V
-
-    .line 57
-    .line 58
-    .line 59
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/transition/Transition;->clearValues(Z)V    return-void
 .end method
-
 .end class

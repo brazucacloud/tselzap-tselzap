@@ -106,11 +106,7 @@
 
     .line 32
     .line 33
-    iput p2, p0, Landroidx/constraintlayout/core/widgets/analyzer/RunGroup;->mDirection:I
-
-    .line 34
-    .line 35
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/widgets/analyzer/RunGroup;->mDirection:I    return-void
 .end method
 
 .method private defineTerminalWidget(Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;I)Z
@@ -132,11 +128,7 @@
     const/4 v1, 0x0
 
     .line 8
-    if-nez v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -493,11 +485,7 @@
 
     .line 4
     .line 5
-    if-eqz v1, :cond_0
-
-    .line 6
-    .line 7
-    return-wide p2
+    if-eqz v1, :cond_0    return-wide p2
 
     .line 8
     :cond_0
@@ -679,11 +667,7 @@
 
     .line 4
     .line 5
-    if-eqz v1, :cond_0
-
-    .line 6
-    .line 7
-    return-wide p2
+    if-eqz v1, :cond_0    return-wide p2
 
     .line 8
     :cond_0
@@ -868,11 +852,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/RunGroup;->mLastRun:Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/RunGroup;->mLastRun:Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;    return-void
 .end method
 
 .method public computeWrapSize(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;I)J
@@ -906,11 +886,7 @@
 
     .line 13
     .line 14
-    if-eq v1, p2, :cond_2
-
-    .line 15
-    .line 16
-    return-wide v2
+    if-eq v1, p2, :cond_2    return-wide v2
 
     .line 17
     :cond_0
@@ -922,11 +898,7 @@
 
     .line 20
     .line 21
-    if-nez v1, :cond_2
-
-    .line 22
-    .line 23
-    return-wide v2
+    if-nez v1, :cond_2    return-wide v2
 
     .line 24
     :cond_1
@@ -934,11 +906,7 @@
 
     .line 25
     .line 26
-    if-nez v1, :cond_2
-
-    .line 27
-    .line 28
-    return-wide v2
+    if-nez v1, :cond_2    return-wide v2
 
     .line 29
     :cond_2
@@ -1493,5 +1461,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

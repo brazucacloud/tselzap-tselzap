@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -64,12 +59,6 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
 .end method
-
 .end class

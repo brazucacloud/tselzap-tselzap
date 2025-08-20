@@ -217,11 +217,7 @@
     move-result-object v0
 
     .line 65
-    sput-object v0, Landroidx/annotation/RestrictTo$Scope;->$VALUES:[Landroidx/annotation/RestrictTo$Scope;
-
-    .line 66
-    .line 67
-    return-void
+    sput-object v0, Landroidx/annotation/RestrictTo$Scope;->$VALUES:[Landroidx/annotation/RestrictTo$Scope;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -233,12 +229,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/annotation/RestrictTo$Scope;
@@ -268,5 +259,4 @@
 
     return-object v0
 .end method
-
 .end class

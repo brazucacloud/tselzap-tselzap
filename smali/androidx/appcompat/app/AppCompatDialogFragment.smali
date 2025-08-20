@@ -58,12 +58,7 @@
     move-result v1
 
     .line 11
-    invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object p1
+    invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V    return-object p1
 .end method
 
 .method public setupDialog(Landroid/app/Dialog;I)V
@@ -111,11 +106,7 @@
     const/4 v2, 0x3
 
     .line 15
-    if-eq p2, v2, :cond_0
-
-    .line 16
-    .line 17
-    return-void
+    if-eq p2, v2, :cond_0    return-void
 
     .line 18
     :cond_0
@@ -137,21 +128,10 @@
     .line 26
     .line 27
     :cond_1
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z    return-void
 
     .line 31
     :cond_2
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;->setupDialog(Landroid/app/Dialog;I)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;->setupDialog(Landroid/app/Dialog;I)V    return-void
 .end method
-
 .end class

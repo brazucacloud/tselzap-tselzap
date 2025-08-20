@@ -61,11 +61,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/loader/content/AsyncTaskLoader$LoadTask;->mDone:Ljava/util/concurrent/CountDownLatch;
-
-    .line 13
-    .line 14
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/AsyncTaskLoader$LoadTask;->mDone:Ljava/util/concurrent/CountDownLatch;    return-void
 .end method
 
 
@@ -149,12 +145,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V    return-void
 
     .line 12
     :catchall_0
@@ -170,17 +161,7 @@
     .line 16
     .line 17
     .line 18
-    throw p1
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public onPostExecute(Ljava/lang/Object;)V
     .locals 1
@@ -207,12 +188,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V    return-void
 
     .line 12
     :catchall_0
@@ -228,17 +204,7 @@
     .line 16
     .line 17
     .line 18
-    throw p1
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public run()V
     .locals 1
@@ -255,12 +221,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V    return-void
 .end method
 
 .method public waitForLoader()V
@@ -282,5 +243,4 @@
     :catch_0
     return-void
 .end method
-
 .end class

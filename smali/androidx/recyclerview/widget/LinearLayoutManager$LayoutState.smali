@@ -101,11 +101,7 @@
     const/4 v0, 0x0
 
     .line 15
-    iput-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;    return-void
 .end method
 
 .method private nextViewFromScrapList()Landroid/view/View;
@@ -196,12 +192,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->assignPositionFromScrapList(Landroid/view/View;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-object v2
+    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->assignPositionFromScrapList(Landroid/view/View;)V    return-object v2
 
     .line 45
     :cond_1
@@ -412,12 +403,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 60
-    .line 61
-    .line 62
-    return-void
+    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method public next(Landroidx/recyclerview/widget/RecyclerView$Recycler;)Landroid/view/View;
@@ -466,11 +452,7 @@
     add-int/2addr v0, v1
 
     .line 21
-    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
-
-    .line 22
-    .line 23
-    return-object p1
+    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I    return-object p1
 .end method
 
 .method public nextViewInLimitedList(Landroid/view/View;)Landroid/view/View;
@@ -592,11 +574,7 @@
 
     .line 54
     .line 55
-    if-nez v5, :cond_2
-
-    .line 56
-    .line 57
-    return-object v4
+    if-nez v5, :cond_2    return-object v4
 
     .line 58
     :cond_2
@@ -618,5 +596,4 @@
     :cond_4
     return-object v1
 .end method
-
 .end class

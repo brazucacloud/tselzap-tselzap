@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/Matrix;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroid/graphics/Matrix;-><init>()V    return-void
 .end method
 
 
@@ -46,22 +41,7 @@
     .line 6
     .line 7
     .line 8
-    throw v0
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public postConcat(Landroid/graphics/Matrix;)Z
     .locals 0
@@ -255,24 +235,14 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
 .end method
 
 .method public set(Landroid/graphics/Matrix;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
 .end method
 
 .method public setConcat(Landroid/graphics/Matrix;Landroid/graphics/Matrix;)Z
@@ -393,24 +363,13 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
 .end method
 
 .method public setValues([F)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
 .end method
-
 .end class

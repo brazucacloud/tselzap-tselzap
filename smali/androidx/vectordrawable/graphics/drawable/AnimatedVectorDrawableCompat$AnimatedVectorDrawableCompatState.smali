@@ -326,11 +326,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState;->mChangingConfigurations:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState;->mChangingConfigurations:I    return v0
 .end method
 
 .method public newDrawable()Landroid/graphics/drawable/Drawable;
@@ -393,12 +389,6 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V    return-void
 .end method
-
 .end class

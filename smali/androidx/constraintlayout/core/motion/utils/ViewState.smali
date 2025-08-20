@@ -20,12 +20,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -96,11 +91,7 @@
     int-to-float p1, p1
 
     .line 31
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->rotation:F
-
-    .line 32
-    .line 33
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->rotation:F    return-void
 .end method
 
 .method public height()I
@@ -136,5 +127,4 @@
 
     return v0
 .end method
-
 .end class

@@ -17,11 +17,7 @@
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Landroidx/collection/IntIntPair;->packedValue:J
-
-    .line 5
-    .line 6
-    return-void
+    iput-wide p1, p0, Landroidx/collection/IntIntPair;->packedValue:J    return-void
 .end method
 
 .method public static final synthetic box-impl(J)Landroidx/collection/IntIntPair;
@@ -302,5 +298,4 @@
 
     return-wide v0
 .end method
-
 .end class

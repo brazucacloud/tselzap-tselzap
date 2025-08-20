@@ -60,12 +60,7 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Landroidx/cardview/widget/CardViewImpl;->initStatic()V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-interface {v0}, Landroidx/cardview/widget/CardViewImpl;->initStatic()V    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -373,36 +368,21 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->setPadding(IIII)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->setPadding(IIII)V    return-void
 .end method
 
 .method public static synthetic access$101(Landroidx/cardview/widget/CardView;I)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V    return-void
 .end method
 
 .method public static synthetic access$201(Landroidx/cardview/widget/CardView;I)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V    return-void
 .end method
 
 
@@ -463,11 +443,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroid/graphics/Rect;->bottom:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroid/graphics/Rect;->bottom:I    return v0
 .end method
 
 .method public getContentPaddingLeft()I
@@ -480,11 +456,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroid/graphics/Rect;->left:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroid/graphics/Rect;->left:I    return v0
 .end method
 
 .method public getContentPaddingRight()I
@@ -497,11 +469,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroid/graphics/Rect;->right:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroid/graphics/Rect;->right:I    return v0
 .end method
 
 .method public getContentPaddingTop()I
@@ -514,11 +482,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroid/graphics/Rect;->top:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroid/graphics/Rect;->top:I    return v0
 .end method
 
 .method public getMaxCardElevation()F
@@ -547,11 +511,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/cardview/widget/CardView;->mPreventCornerOverlap:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/cardview/widget/CardView;->mPreventCornerOverlap:Z    return v0
 .end method
 
 .method public getRadius()F
@@ -580,11 +540,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/cardview/widget/CardView;->mCompatPadding:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/cardview/widget/CardView;->mCompatPadding:Z    return v0
 .end method
 
 .method public onMeasure(II)V
@@ -753,21 +709,11 @@
 
     .line 77
     :goto_1
-    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V
-
-    .line 78
-    .line 79
-    .line 80
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V    return-void
 
     .line 81
     :cond_2
-    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V
-
-    .line 82
-    .line 83
-    .line 84
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V    return-void
 .end method
 
 .method public setCardBackgroundColor(I)V
@@ -820,12 +766,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1, p1}, Landroidx/cardview/widget/CardViewImpl;->setElevation(Landroidx/cardview/widget/CardViewDelegate;F)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/cardview/widget/CardViewImpl;->setElevation(Landroidx/cardview/widget/CardViewDelegate;F)V    return-void
 .end method
 
 .method public setContentPadding(IIII)V
@@ -865,12 +806,7 @@
 
     .line 9
     .line 10
-    invoke-interface {p1, p2}, Landroidx/cardview/widget/CardViewImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-interface {p1, p2}, Landroidx/cardview/widget/CardViewImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V    return-void
 .end method
 
 .method public setMaxCardElevation(F)V
@@ -885,12 +821,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1, p1}, Landroidx/cardview/widget/CardViewImpl;->setMaxElevation(Landroidx/cardview/widget/CardViewDelegate;F)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/cardview/widget/CardViewImpl;->setMaxElevation(Landroidx/cardview/widget/CardViewDelegate;F)V    return-void
 .end method
 
 .method public setMinimumHeight(I)V
@@ -901,12 +832,7 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V    return-void
 .end method
 
 .method public setMinimumWidth(I)V
@@ -917,12 +843,7 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V    return-void
 .end method
 
 .method public setPadding(IIII)V
@@ -982,12 +903,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1, p1}, Landroidx/cardview/widget/CardViewImpl;->setRadius(Landroidx/cardview/widget/CardViewDelegate;F)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/cardview/widget/CardViewImpl;->setRadius(Landroidx/cardview/widget/CardViewDelegate;F)V    return-void
 .end method
 
 .method public setUseCompatPadding(Z)V
@@ -1022,5 +938,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

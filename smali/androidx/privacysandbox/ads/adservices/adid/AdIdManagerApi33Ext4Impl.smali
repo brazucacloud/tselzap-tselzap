@@ -70,12 +70,6 @@
     move-result-object p1
 
     .line 23
-    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;-><init>(Landroid/adservices/adid/AdIdManager;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;-><init>(Landroid/adservices/adid/AdIdManager;)V    return-void
 .end method
-
 .end class

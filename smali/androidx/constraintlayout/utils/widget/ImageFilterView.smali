@@ -242,22 +242,14 @@
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRoundPercent:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRoundPercent:F    return p0
 .end method
 
 .method public static synthetic access$100(Landroidx/constraintlayout/utils/widget/ImageFilterView;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRound:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRound:F    return p0
 .end method
 
 .method private init(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -829,12 +821,7 @@
 
     .line 275
     .line 276
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    .line 277
-    .line 278
-    .line 279
-    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
 
     .line 280
     :cond_e
@@ -942,11 +929,7 @@
     move-result v0
 
     .line 31
-    if-eqz v0, :cond_0
-
-    .line 32
-    .line 33
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 34
     :cond_0
@@ -1252,23 +1235,14 @@
 
     .line 173
     .line 174
-    invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
-
-    .line 175
-    .line 176
-    .line 177
-    return-void
+    invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V    return-void
 .end method
 
 .method private setOverlay(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mOverlay:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mOverlay:Z    return-void
 .end method
 
 .method private updateViewMatrix()V
@@ -1343,21 +1317,11 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V    return-void
 
     .line 39
     :cond_0
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V    return-void
 .end method
 
 
@@ -1370,12 +1334,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/ImageView;->draw(Landroid/graphics/Canvas;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/ImageView;->draw(Landroid/graphics/Canvas;)V    return-void
 .end method
 
 .method public getBrightness()F
@@ -1386,11 +1345,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mBrightness:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mBrightness:F    return v0
 .end method
 
 .method public getContrast()F
@@ -1401,88 +1356,56 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mContrast:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mContrast:F    return v0
 .end method
 
 .method public getCrossfade()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mCrossfade:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mCrossfade:F    return v0
 .end method
 
 .method public getImagePanX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mPanX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mPanX:F    return v0
 .end method
 
 .method public getImagePanY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mPanY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mPanY:F    return v0
 .end method
 
 .method public getImageRotate()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRotate:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRotate:F    return v0
 .end method
 
 .method public getImageZoom()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mZoom:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mZoom:F    return v0
 .end method
 
 .method public getRound()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRound:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRound:F    return v0
 .end method
 
 .method public getRoundPercent()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRoundPercent:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRoundPercent:F    return v0
 .end method
 
 .method public getSaturation()F
@@ -1493,11 +1416,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mSaturation:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mSaturation:F    return v0
 .end method
 
 .method public getWarmth()F
@@ -1508,11 +1427,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mWarmth:F
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->mWarmth:F    return v0
 .end method
 
 .method public layout(IIII)V
@@ -1524,12 +1439,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V    return-void
 .end method
 
 .method public setAltImageDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -1596,12 +1506,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setCrossfade(F)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setCrossfade(F)V    return-void
 .end method
 
 .method public setAltImageResource(I)V
@@ -1628,12 +1533,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setAltImageDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setAltImageDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method public setBrightness(F)V
@@ -1648,12 +1548,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V    return-void
 .end method
 
 .method public setContrast(F)V
@@ -1668,12 +1563,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V    return-void
 .end method
 
 .method public setCrossfade(F)V
@@ -1863,21 +1753,11 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setCrossfade(F)V
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setCrossfade(F)V    return-void
 
     .line 41
     :cond_0
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method public setImagePanX(F)V
@@ -1888,12 +1768,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
 .end method
 
 .method public setImagePanY(F)V
@@ -1904,12 +1779,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
 .end method
 
 .method public setImageResource(I)V
@@ -2000,21 +1870,11 @@
 
     .line 42
     .line 43
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setCrossfade(F)V
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setCrossfade(F)V    return-void
 
     .line 47
     :cond_0
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
-
-    .line 48
-    .line 49
-    .line 50
-    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V    return-void
 .end method
 
 .method public setImageRotate(F)V
@@ -2025,12 +1885,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
 .end method
 
 .method public setImageZoom(F)V
@@ -2041,12 +1896,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
 .end method
 
 .method public setRound(F)V
@@ -2084,12 +1934,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setRoundPercent(F)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setRoundPercent(F)V    return-void
 
     .line 19
     :cond_0
@@ -2542,12 +2387,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V    return-void
 .end method
 
 .method public setWarmth(F)V
@@ -2562,12 +2402,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V    return-void
 .end method
-
 .end class

@@ -85,12 +85,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
 .end method
 
 .method private constructor <init>()V
@@ -110,22 +105,14 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->preferences_:Landroidx/datastore/preferences/protobuf/MapFieldLite;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->preferences_:Landroidx/datastore/preferences/protobuf/MapFieldLite;    return-void
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;    return-object v0
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;)Ljava/util/Map;
@@ -146,11 +133,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;    return-object v0
 .end method
 
 .method private getMutablePreferencesMap()Ljava/util/Map;
@@ -222,11 +205,7 @@
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->preferences_:Landroidx/datastore/preferences/protobuf/MapFieldLite;
-
-    .line 18
-    .line 19
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->preferences_:Landroidx/datastore/preferences/protobuf/MapFieldLite;    return-object v0
 .end method
 
 .method private internalGetPreferences()Landroidx/datastore/preferences/protobuf/MapFieldLite;
@@ -242,11 +221,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->preferences_:Landroidx/datastore/preferences/protobuf/MapFieldLite;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->preferences_:Landroidx/datastore/preferences/protobuf/MapFieldLite;    return-object v0
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
@@ -645,11 +620,7 @@
 
     .line 54
     :pswitch_3
-    sget-object p1, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
-
-    .line 55
-    .line 56
-    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;    return-object p1
 
     .line 57
     :pswitch_4
@@ -702,12 +673,7 @@
 
     .line 79
     .line 80
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;-><init>(Landroidx/datastore/preferences/PreferencesProto$1;)V
-
-    .line 81
-    .line 82
-    .line 83
-    return-object p1
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;-><init>(Landroidx/datastore/preferences/PreferencesProto$1;)V    return-object p1
 
     .line 84
     :pswitch_6
@@ -715,12 +681,7 @@
 
     .line 85
     .line 86
-    invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;-><init>()V
-
-    .line 87
-    .line 88
-    .line 89
-    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;-><init>()V    return-object p1
 
     .line 90
     nop
@@ -735,34 +696,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    .end packed-switch.end method
 
 .method public getPreferences()Ljava/util/Map;
     .locals 1
@@ -880,11 +814,7 @@
     move-result-object p1
 
     .line 18
-    check-cast p1, Landroidx/datastore/preferences/PreferencesProto$Value;
-
-    .line 19
-    .line 20
-    return-object p1
+    check-cast p1, Landroidx/datastore/preferences/PreferencesProto$Value;    return-object p1
 
     .line 21
     :cond_0
@@ -928,11 +858,7 @@
     move-result-object p1
 
     .line 18
-    check-cast p1, Landroidx/datastore/preferences/PreferencesProto$Value;
-
-    .line 19
-    .line 20
-    return-object p1
+    check-cast p1, Landroidx/datastore/preferences/PreferencesProto$Value;    return-object p1
 
     .line 21
     :cond_0
@@ -945,8 +871,5 @@
     .line 24
     .line 25
     .line 26
-    throw p1
-    .line 27
-.end method
-
+    throw p1.end method
 .end class

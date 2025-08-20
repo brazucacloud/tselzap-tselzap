@@ -356,23 +356,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 69
-    throw p1
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 
 # virtual methods
@@ -384,12 +368,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceGroup;->addPreference(Landroidx/preference/Preference;)Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceGroup;->addPreference(Landroidx/preference/Preference;)Z    return-void
 .end method
 
 .method public addPreference(Landroidx/preference/Preference;)Z
@@ -415,11 +394,7 @@
     const/4 v1, 0x1
 
     .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -762,12 +737,7 @@
     .line 175
     .line 176
     :cond_8
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V
-
-    .line 177
-    .line 178
-    .line 179
-    return v1
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V    return v1
 
     .line 180
     :catchall_0
@@ -780,69 +750,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 182
-    throw p1
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    throw p1.end method
 
 .method public dispatchRestoreInstanceState(Landroid/os/Bundle;)V
     .locals 3
@@ -990,11 +898,7 @@
     move-result v0
 
     .line 11
-    if-eqz v0, :cond_0
-
-    .line 12
-    .line 13
-    return-object p0
+    if-eqz v0, :cond_0    return-object p0
 
     .line 14
     :cond_0
@@ -1038,11 +942,7 @@
     move-result v3
 
     .line 33
-    if-eqz v3, :cond_1
-
-    .line 34
-    .line 35
-    return-object v2
+    if-eqz v3, :cond_1    return-object v2
 
     .line 36
     :cond_1
@@ -1066,11 +966,7 @@
     move-result-object v2
 
     .line 46
-    if-eqz v2, :cond_2
-
-    .line 47
-    .line 48
-    return-object v2
+    if-eqz v2, :cond_2    return-object v2
 
     .line 49
     :cond_2
@@ -1101,41 +997,13 @@
     .line 59
     .line 60
     .line 61
-    throw p1
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public getInitialExpandedChildrenCount()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/PreferenceGroup;->mInitialExpandedChildrenCount:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/PreferenceGroup;->mInitialExpandedChildrenCount:I    return v0
 .end method
 
 .method public getOnExpandButtonClickListener()Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;
@@ -1150,11 +1018,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceGroup;->mOnExpandButtonClickListener:Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceGroup;->mOnExpandButtonClickListener:Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;    return-object v0
 .end method
 
 .method public getPreference(I)Landroidx/preference/Preference;
@@ -1175,11 +1039,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroidx/preference/Preference;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroidx/preference/Preference;    return-object p1
 .end method
 
 .method public getPreferenceCount()I
@@ -1209,11 +1069,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/PreferenceGroup;->mAttachedToHierarchy:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/PreferenceGroup;->mAttachedToHierarchy:Z    return v0
 .end method
 
 .method public isOnSameScreenAsChildren()Z
@@ -1228,11 +1084,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/PreferenceGroup;->mOrderingAsAdded:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/PreferenceGroup;->mOrderingAsAdded:Z    return v0
 .end method
 
 .method public notifyDependencyChange(Z)V
@@ -1479,22 +1331,12 @@
     move-result-object p1
 
     .line 26
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 27
-    .line 28
-    .line 29
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 
     .line 30
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 31
-    .line 32
-    .line 33
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1519,12 +1361,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, v0, v2}, Landroidx/preference/PreferenceGroup$SavedState;-><init>(Landroid/os/Parcelable;I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v1
+    invoke-direct {v1, v0, v2}, Landroidx/preference/PreferenceGroup$SavedState;-><init>(Landroid/os/Parcelable;I)V    return-object v1
 .end method
 
 .method public removeAll()V
@@ -1596,12 +1433,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 28
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V    return-void
 
     .line 32
     :goto_1
@@ -1611,61 +1443,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 33
-    throw v0
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public removePreference(Landroidx/preference/Preference;)Z
     .locals 0
@@ -1683,12 +1461,7 @@
     move-result p1
 
     .line 5
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V
-
-    .line 6
-    .line 7
-    .line 8
-    return p1
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V    return p1
 .end method
 
 .method public removePreferenceRecursively(Ljava/lang/CharSequence;)Z
@@ -1798,11 +1571,7 @@
     .line 30
     .line 31
     :cond_0
-    iput p1, p0, Landroidx/preference/PreferenceGroup;->mInitialExpandedChildrenCount:I
-
-    .line 32
-    .line 33
-    return-void
+    iput p1, p0, Landroidx/preference/PreferenceGroup;->mInitialExpandedChildrenCount:I    return-void
 .end method
 
 .method public setOnExpandButtonClickListener(Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;)V
@@ -1818,22 +1587,14 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceGroup;->mOnExpandButtonClickListener:Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceGroup;->mOnExpandButtonClickListener:Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;    return-void
 .end method
 
 .method public setOrderingAsAdded(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceGroup;->mOrderingAsAdded:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceGroup;->mOrderingAsAdded:Z    return-void
 .end method
 
 .method public sortPreferences()V
@@ -1867,18 +1628,5 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 11
-    throw v0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v0.end method
 .end class

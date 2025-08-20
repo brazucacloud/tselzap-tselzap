@@ -86,23 +86,14 @@
     .line 18
     .line 19
     .line 20
-    sput-object v0, Landroidx/lifecycle/Lifecycling;->classToAdapters:Ljava/util/Map;
-
-    .line 21
-    .line 22
-    return-void
+    sput-object v0, Landroidx/lifecycle/Lifecycling;->classToAdapters:Ljava/util/Map;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private final createGeneratedAdapter(Ljava/lang/reflect/Constructor;Ljava/lang/Object;)Landroidx/lifecycle/GeneratedAdapter;
@@ -157,11 +148,7 @@
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 17
-    .line 18
-    return-object p1
+    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-object p1
 
     .line 19
     :catch_0
@@ -221,17 +208,7 @@
     .line 40
     .line 41
     .line 42
-    throw p2
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p2.end method
 
 .method private final generatedConstructor(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
     .locals 4
@@ -600,12 +577,7 @@
     move-result-object v2
 
     .line 24
-    invoke-interface {v0, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 25
-    .line 26
-    .line 27
-    return v1
+    invoke-interface {v0, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return v1
 .end method
 
 .method private final isLifecycleParent(Ljava/lang/Class;)Z
@@ -694,12 +666,7 @@
 
     .line 20
     .line 21
-    invoke-direct {v0, v1, p0}, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;-><init>(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleEventObserver;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-object v0
+    invoke-direct {v0, v1, p0}, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;-><init>(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleEventObserver;)V    return-object v0
 
     .line 25
     :cond_0
@@ -718,12 +685,7 @@
     const/4 v1, 0x0
 
     .line 32
-    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;-><init>(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleEventObserver;)V
-
-    .line 33
-    .line 34
-    .line 35
-    return-object v0
+    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;-><init>(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleEventObserver;)V    return-object v0
 
     .line 36
     :cond_1
@@ -731,11 +693,7 @@
 
     .line 37
     .line 38
-    check-cast p0, Landroidx/lifecycle/LifecycleEventObserver;
-
-    .line 39
-    .line 40
-    return-object p0
+    check-cast p0, Landroidx/lifecycle/LifecycleEventObserver;    return-object p0
 
     .line 41
     :cond_2
@@ -829,12 +787,7 @@
 
     .line 84
     .line 85
-    invoke-direct {v0, p0}, Landroidx/lifecycle/SingleGeneratedAdapterObserver;-><init>(Landroidx/lifecycle/GeneratedAdapter;)V
-
-    .line 86
-    .line 87
-    .line 88
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/lifecycle/SingleGeneratedAdapterObserver;-><init>(Landroidx/lifecycle/GeneratedAdapter;)V    return-object v0
 
     .line 89
     :cond_3
@@ -895,12 +848,7 @@
 
     .line 115
     .line 116
-    invoke-direct {p0, v2}, Landroidx/lifecycle/CompositeGeneratedAdaptersObserver;-><init>([Landroidx/lifecycle/GeneratedAdapter;)V
-
-    .line 117
-    .line 118
-    .line 119
-    return-object p0
+    invoke-direct {p0, v2}, Landroidx/lifecycle/CompositeGeneratedAdaptersObserver;-><init>([Landroidx/lifecycle/GeneratedAdapter;)V    return-object p0
 
     .line 120
     :cond_5
@@ -908,12 +856,7 @@
 
     .line 121
     .line 122
-    invoke-direct {v0, p0}, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;-><init>(Ljava/lang/Object;)V
-
-    .line 123
-    .line 124
-    .line 125
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;-><init>(Ljava/lang/Object;)V    return-object v0
 .end method
 
 .method private final resolveObserverCallbackType(Ljava/lang/Class;)I
@@ -938,11 +881,7 @@
     const/4 v1, 0x1
 
     .line 6
-    if-nez v0, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -973,12 +912,7 @@
     move-result-object v0
 
     .line 22
-    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 23
-    .line 24
-    .line 25
-    return v2
+    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return v2
 
     .line 26
     :cond_1
@@ -994,11 +928,7 @@
     move-result v0
 
     .line 32
-    if-eqz v0, :cond_2
-
-    .line 33
-    .line 34
-    return v1
+    if-eqz v0, :cond_2    return v1
 
     .line 35
     :cond_2
@@ -1039,11 +969,7 @@
     move-result v3
 
     .line 54
-    if-ne v3, v1, :cond_3
-
-    .line 55
-    .line 56
-    return v1
+    if-ne v3, v1, :cond_3    return v1
 
     .line 57
     :cond_3
@@ -1150,11 +1076,7 @@
     move-result v7
 
     .line 106
-    if-ne v7, v1, :cond_6
-
-    .line 107
-    .line 108
-    return v1
+    if-ne v7, v1, :cond_6    return v1
 
     .line 109
     :cond_6
@@ -1215,16 +1137,10 @@
 
     .line 136
     .line 137
-    invoke-interface {v0, p1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 138
-    .line 139
-    .line 140
-    return v2
+    invoke-interface {v0, p1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return v2
 
     .line 141
     :cond_9
     return v1
 .end method
-
 .end class

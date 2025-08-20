@@ -74,11 +74,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/navigation/NavBackStackEntryState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/navigation/NavBackStackEntryState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -198,44 +194,28 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntryState;->args:Landroid/os/Bundle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntryState;->args:Landroid/os/Bundle;    return-object v0
 .end method
 
 .method public final getDestinationId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavBackStackEntryState;->destinationId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavBackStackEntryState;->destinationId:I    return v0
 .end method
 
 .method public final getId()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntryState;->id:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntryState;->id:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getSavedState()Landroid/os/Bundle;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavBackStackEntryState;->savedState:Landroid/os/Bundle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavBackStackEntryState;->savedState:Landroid/os/Bundle;    return-object v0
 .end method
 
 .method public final instantiate(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavControllerViewModel;)Landroidx/navigation/NavBackStackEntry;
@@ -383,12 +363,6 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V    return-void
 .end method
-
 .end class

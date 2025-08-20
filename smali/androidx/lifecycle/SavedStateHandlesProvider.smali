@@ -65,11 +65,7 @@
     move-result-object p1
 
     .line 25
-    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->viewModel$delegate:Lc1/d;
-
-    .line 26
-    .line 27
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->viewModel$delegate:Lc1/d;    return-void
 .end method
 
 .method private final getViewModel()Landroidx/lifecycle/SavedStateHandlesVM;
@@ -88,11 +84,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Landroidx/lifecycle/SavedStateHandlesVM;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/lifecycle/SavedStateHandlesVM;    return-object v0
 .end method
 
 
@@ -421,11 +413,6 @@
     const/4 v1, 0x0
 
     .line 74
-    iput-boolean v1, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->restored:Z
-
-    .line 75
-    .line 76
-    return-object v0
+    iput-boolean v1, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->restored:Z    return-object v0
 .end method
-
 .end class

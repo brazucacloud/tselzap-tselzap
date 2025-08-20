@@ -23,12 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl23;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl23;-><init>()V    return-void
 .end method
 
 
@@ -45,12 +40,7 @@
     move-result-object p2
 
     .line 5
-    invoke-static {p1, p2}, La0/c;->B(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-static {p1, p2}, La0/c;->B(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)V    return-void
 .end method
 
 .method public isHorizontallyScrollable(Landroid/widget/TextView;)Z
@@ -66,5 +56,4 @@
 
     return p1
 .end method
-
 .end class

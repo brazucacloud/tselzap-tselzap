@@ -92,11 +92,7 @@
 
     .line 19
     .line 20
-    iput-object p2, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object p2, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;    return-void
 .end method
 
 
@@ -147,22 +143,14 @@
     const/4 v2, -0x1
 
     .line 20
-    if-ge p1, p2, :cond_0
-
-    .line 21
-    .line 22
-    return v2
+    if-ge p1, p2, :cond_0    return v2
 
     .line 23
     :cond_0
     const/4 v3, 0x1
 
     .line 24
-    if-le p1, p2, :cond_1
-
-    .line 25
-    .line 26
-    return v3
+    if-le p1, p2, :cond_1    return v3
 
     .line 27
     :cond_1
@@ -182,11 +170,7 @@
 
     .line 34
     .line 35
-    if-eqz p1, :cond_2
-
-    .line 36
-    .line 37
-    return v3
+    if-eqz p1, :cond_2    return v3
 
     .line 38
     :cond_2
@@ -202,11 +186,7 @@
 
     .line 42
     .line 43
-    if-eqz p1, :cond_4
-
-    .line 44
-    .line 45
-    return v2
+    if-eqz p1, :cond_4    return v2
 
     .line 46
     :cond_4
@@ -222,19 +202,11 @@
 
     .line 50
     .line 51
-    if-ge p1, p2, :cond_6
-
-    .line 52
-    .line 53
-    return v2
+    if-ge p1, p2, :cond_6    return v2
 
     .line 54
     :cond_6
-    if-le p1, p2, :cond_7
-
-    .line 55
-    .line 56
-    return v3
+    if-le p1, p2, :cond_7    return v3
 
     .line 57
     :cond_7
@@ -254,11 +226,7 @@
 
     .line 64
     .line 65
-    if-eqz p1, :cond_8
-
-    .line 66
-    .line 67
-    return v3
+    if-eqz p1, :cond_8    return v3
 
     .line 68
     :cond_8
@@ -274,11 +242,7 @@
 
     .line 72
     .line 73
-    if-eqz p1, :cond_a
-
-    .line 74
-    .line 75
-    return v2
+    if-eqz p1, :cond_a    return v2
 
     .line 76
     :cond_a
@@ -290,5 +254,4 @@
 
     return p1
 .end method
-
 .end class

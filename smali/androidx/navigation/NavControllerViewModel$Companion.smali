@@ -89,11 +89,6 @@
     move-result-object p1
 
     .line 25
-    check-cast p1, Landroidx/navigation/NavControllerViewModel;
-
-    .line 26
-    .line 27
-    return-object p1
+    check-cast p1, Landroidx/navigation/NavControllerViewModel;    return-object p1
 .end method
-
 .end class

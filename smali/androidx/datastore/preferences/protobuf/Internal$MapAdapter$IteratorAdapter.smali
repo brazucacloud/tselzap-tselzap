@@ -62,11 +62,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$IteratorAdapter;->realIterator:Ljava/util/Iterator;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$IteratorAdapter;->realIterator:Ljava/util/Iterator;    return-void
 .end method
 
 
@@ -136,12 +132,6 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V    return-void
 .end method
-
 .end class

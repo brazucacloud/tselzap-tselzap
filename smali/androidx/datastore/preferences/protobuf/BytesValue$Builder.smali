@@ -69,12 +69,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/BytesValue;->access$200(Landroidx/datastore/preferences/protobuf/BytesValue;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/BytesValue;->access$200(Landroidx/datastore/preferences/protobuf/BytesValue;)V    return-object p0
 .end method
 
 .method public getValue()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -116,12 +111,6 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/BytesValue;->access$100(Landroidx/datastore/preferences/protobuf/BytesValue;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/BytesValue;->access$100(Landroidx/datastore/preferences/protobuf/BytesValue;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
 .end method
-
 .end class

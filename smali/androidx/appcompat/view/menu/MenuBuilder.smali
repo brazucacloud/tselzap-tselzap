@@ -153,11 +153,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/appcompat/view/menu/MenuBuilder;->sCategoryToOrder:[I
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/appcompat/view/menu/MenuBuilder;->sCategoryToOrder:[I    return-void
 
     .line 10
     nop
@@ -171,19 +167,7 @@
         0x3
         0x2
         0x0
-    .end array-data
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    .end array-data.end method
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
@@ -330,12 +314,7 @@
 
     .line 73
     .line 74
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setShortcutsVisibleInner(Z)V
-
-    .line 75
-    .line 76
-    .line 77
-    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setShortcutsVisibleInner(Z)V    return-void
 .end method
 
 .method private createNewMenuItem(IIIILjava/lang/CharSequence;I)Landroidx/appcompat/view/menu/MenuItemImpl;
@@ -367,12 +346,7 @@
     move v7, p6
 
     .line 10
-    invoke-direct/range {v0 .. v7}, Landroidx/appcompat/view/menu/MenuItemImpl;-><init>(Landroidx/appcompat/view/menu/MenuBuilder;IIIILjava/lang/CharSequence;I)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-object v0
+    invoke-direct/range {v0 .. v7}, Landroidx/appcompat/view/menu/MenuItemImpl;-><init>(Landroidx/appcompat/view/menu/MenuBuilder;IIIILjava/lang/CharSequence;I)V    return-object v0
 .end method
 
 .method private dispatchPresenterUpdate(Z)V
@@ -391,11 +365,7 @@
     move-result v0
 
     .line 7
-    if-eqz v0, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 10
     :cond_0
@@ -479,12 +449,7 @@
 
     .line 49
     :cond_2
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
-
-    .line 50
-    .line 51
-    .line 52
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V    return-void
 .end method
 
 .method private dispatchRestoreInstanceState(Landroid/os/Bundle;)V
@@ -651,11 +616,7 @@
     move-result v0
 
     .line 7
-    if-eqz v0, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 10
     :cond_0
@@ -772,12 +733,7 @@
 
     .line 64
     .line 65
-    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putSparseParcelableArray(Ljava/lang/String;Landroid/util/SparseArray;)V
-
-    .line 66
-    .line 67
-    .line 68
-    return-void
+    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putSparseParcelableArray(Ljava/lang/String;Landroid/util/SparseArray;)V    return-void
 .end method
 
 .method private dispatchSubMenuSelected(Landroidx/appcompat/view/menu/SubMenuBuilder;Landroidx/appcompat/view/menu/MenuPresenter;)Z
@@ -799,11 +755,7 @@
     const/4 v1, 0x0
 
     .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -962,11 +914,7 @@
 
     .line 20
     .line 21
-    add-int/lit8 v0, v0, 0x1
-
-    .line 22
-    .line 23
-    return v0
+    add-int/lit8 v0, v0, 0x1    return v0
 
     .line 24
     :cond_0
@@ -1048,62 +996,7 @@
     .line 28
     .line 29
     .line 30
-    throw p0
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p0.end method
 
 .method private removeItemAtInt(IZ)V
     .locals 1
@@ -1270,12 +1163,7 @@
     const/4 p1, 0x0
 
     .line 48
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 49
-    .line 50
-    .line 51
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method private setShortcutsVisibleInner(Z)V
@@ -1345,11 +1233,7 @@
 
     .line 30
     :goto_0
-    iput-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mShortcutsVisible:Z
-
-    .line 31
-    .line 32
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mShortcutsVisible:Z    return-void
 .end method
 
 
@@ -1692,12 +1576,7 @@
     const/4 p2, 0x1
 
     .line 33
-    invoke-virtual {p0, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-object p1
+    invoke-virtual {p0, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-object p1
 .end method
 
 .method public addMenuPresenter(Landroidx/appcompat/view/menu/MenuPresenter;)V
@@ -1857,12 +1736,7 @@
     const/4 v0, 0x1
 
     .line 14
-    invoke-virtual {p0, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public clearAll()V
@@ -1910,12 +1784,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public clearHeader()V
@@ -1940,12 +1809,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-virtual {p0, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public close()V
@@ -2229,11 +2093,7 @@
     const/4 v1, 0x0
 
     .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -2441,11 +2301,7 @@
     move-result v3
 
     .line 20
-    if-ne v3, p1, :cond_0
-
-    .line 21
-    .line 22
-    return-object v2
+    if-ne v3, p1, :cond_0    return-object v2
 
     .line 23
     :cond_0
@@ -2477,11 +2333,7 @@
     move-result-object v2
 
     .line 37
-    if-eqz v2, :cond_1
-
-    .line 38
-    .line 39
-    return-object v2
+    if-eqz v2, :cond_1    return-object v2
 
     .line 40
     :cond_1
@@ -2542,11 +2394,7 @@
     move-result v2
 
     .line 20
-    if-ne v2, p1, :cond_0
-
-    .line 21
-    .line 22
-    return v1
+    if-ne v2, p1, :cond_0    return v1
 
     .line 23
     :cond_0
@@ -2592,11 +2440,7 @@
     const/4 v2, 0x0
 
     .line 14
-    if-eqz v1, :cond_0
-
-    .line 15
-    .line 16
-    return-object v2
+    if-eqz v1, :cond_0    return-object v2
 
     .line 17
     :cond_0
@@ -2648,11 +2492,7 @@
     move-result-object p1
 
     .line 41
-    check-cast p1, Landroidx/appcompat/view/menu/MenuItemImpl;
-
-    .line 42
-    .line 43
-    return-object p1
+    check-cast p1, Landroidx/appcompat/view/menu/MenuItemImpl;    return-object p1
 
     .line 44
     :cond_1
@@ -3074,11 +2914,7 @@
 
     .line 6
     .line 7
-    if-nez v1, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-nez v1, :cond_0    return-void
 
     .line 10
     :cond_0
@@ -3298,11 +3134,7 @@
     .line 113
     .line 114
     :cond_5
-    iput-boolean v2, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mIsActionItemsStale:Z
-
-    .line 115
-    .line 116
-    return-void
+    iput-boolean v2, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mIsActionItemsStale:Z    return-void
 .end method
 
 .method public getActionItems()Ljava/util/ArrayList;
@@ -3322,77 +3154,49 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mActionItems:Ljava/util/ArrayList;
-
-    .line 5
-    .line 6
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mActionItems:Ljava/util/ArrayList;    return-object v0
 .end method
 
 .method public getActionViewStatesKey()Ljava/lang/String;
     .locals 1
 
     .line 1
-    const-string v0, "android:menu:actionviewstates"
-
-    .line 2
-    .line 3
-    return-object v0
+    const-string v0, "android:menu:actionviewstates"    return-object v0
 .end method
 
 .method public getContext()Landroid/content/Context;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mContext:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mContext:Landroid/content/Context;    return-object v0
 .end method
 
 .method public getExpandedItem()Landroidx/appcompat/view/menu/MenuItemImpl;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mExpandedItem:Landroidx/appcompat/view/menu/MenuItemImpl;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mExpandedItem:Landroidx/appcompat/view/menu/MenuItemImpl;    return-object v0
 .end method
 
 .method public getHeaderIcon()Landroid/graphics/drawable/Drawable;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mHeaderIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mHeaderIcon:Landroid/graphics/drawable/Drawable;    return-object v0
 .end method
 
 .method public getHeaderTitle()Ljava/lang/CharSequence;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mHeaderTitle:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mHeaderTitle:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getHeaderView()Landroid/view/View;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mHeaderView:Landroid/view/View;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mHeaderView:Landroid/view/View;    return-object v0
 .end method
 
 .method public getItem(I)Landroid/view/MenuItem;
@@ -3411,11 +3215,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroid/view/MenuItem;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroid/view/MenuItem;    return-object p1
 .end method
 
 .method public getNonActionItems()Ljava/util/ArrayList;
@@ -3435,33 +3235,21 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mNonActionItems:Ljava/util/ArrayList;
-
-    .line 5
-    .line 6
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mNonActionItems:Ljava/util/ArrayList;    return-object v0
 .end method
 
 .method public getOptionalIconsVisible()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mOptionalIconsVisible:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mOptionalIconsVisible:Z    return v0
 .end method
 
 .method public getResources()Landroid/content/res/Resources;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mResources:Landroid/content/res/Resources;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mResources:Landroid/content/res/Resources;    return-object v0
 .end method
 
 .method public getRootMenu()Landroidx/appcompat/view/menu/MenuBuilder;
@@ -3493,11 +3281,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mVisibleItems:Ljava/util/ArrayList;
-
-    .line 6
-    .line 7
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mVisibleItems:Ljava/util/ArrayList;    return-object v0
 
     .line 8
     :cond_0
@@ -3590,11 +3374,7 @@
 
     .line 49
     .line 50
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mVisibleItems:Ljava/util/ArrayList;
-
-    .line 51
-    .line 52
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mVisibleItems:Ljava/util/ArrayList;    return-object v0
 .end method
 
 .method public hasVisibleItems()Z
@@ -3608,11 +3388,7 @@
     const/4 v1, 0x1
 
     .line 4
-    if-eqz v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -3659,11 +3435,7 @@
     move-result v4
 
     .line 27
-    if-eqz v4, :cond_1
-
-    .line 28
-    .line 29
-    return v1
+    if-eqz v4, :cond_1    return v1
 
     .line 30
     :cond_1
@@ -3686,33 +3458,21 @@
 
     .line 2
     .line 3
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 4
-    .line 5
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method public isGroupDividerEnabled()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mGroupDividerEnabled:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mGroupDividerEnabled:Z    return v0
 .end method
 
 .method public isQwertyMode()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mQwertyMode:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mQwertyMode:Z    return v0
 .end method
 
 .method public isShortcutKey(ILandroid/view/KeyEvent;)Z
@@ -3746,11 +3506,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mShortcutsVisible:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mShortcutsVisible:Z    return v0
 .end method
 
 .method public onItemActionRequestChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V
@@ -3764,12 +3520,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public onItemVisibleChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V
@@ -3783,12 +3534,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public onItemsChanged(Z)V
@@ -3819,12 +3565,7 @@
     .line 11
     .line 12
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchPresenterUpdate(Z)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchPresenterUpdate(Z)V    return-void
 
     .line 16
     :cond_1
@@ -4200,12 +3941,7 @@
     const/4 v0, 0x1
 
     .line 6
-    invoke-direct {p0, p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->removeItemAtInt(IZ)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->removeItemAtInt(IZ)V    return-void
 .end method
 
 .method public removeItemAt(I)V
@@ -4215,12 +3951,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->removeItemAtInt(IZ)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->removeItemAtInt(IZ)V    return-void
 .end method
 
 .method public removeMenuPresenter(Landroidx/appcompat/view/menu/MenuPresenter;)V
@@ -4467,12 +4198,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchRestoreInstanceState(Landroid/os/Bundle;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchRestoreInstanceState(Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public saveActionViewStates(Landroid/os/Bundle;)V
@@ -4645,45 +4371,28 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchSaveInstanceState(Landroid/os/Bundle;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchSaveInstanceState(Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;    return-void
 .end method
 
 .method public setCurrentMenuInfo(Landroid/view/ContextMenu$ContextMenuInfo;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mCurrentMenuInfo:Landroid/view/ContextMenu$ContextMenuInfo;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mCurrentMenuInfo:Landroid/view/ContextMenu$ContextMenuInfo;    return-void
 .end method
 
 .method public setDefaultShowAsAction(I)Landroidx/appcompat/view/menu/MenuBuilder;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mDefaultShowAsAction:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mDefaultShowAsAction:I    return-object p0
 .end method
 
 .method public setExclusiveItemChecked(Landroid/view/MenuItem;)V
@@ -4816,12 +4525,7 @@
 
     .line 57
     :cond_4
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
-
-    .line 58
-    .line 59
-    .line 60
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V    return-void
 .end method
 
 .method public setGroupCheckable(IZZ)V
@@ -4902,11 +4606,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mGroupDividerEnabled:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mGroupDividerEnabled:Z    return-void
 .end method
 
 .method public setGroupEnabled(IZ)V
@@ -5179,34 +4879,21 @@
     move-object v5, p1
 
     .line 7
-    invoke-direct/range {v0 .. v5}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderInternal(ILjava/lang/CharSequence;ILandroid/graphics/drawable/Drawable;Landroid/view/View;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderInternal(ILjava/lang/CharSequence;ILandroid/graphics/drawable/Drawable;Landroid/view/View;)V    return-object v0
 .end method
 
 .method public setOptionalIconsVisible(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mOptionalIconsVisible:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mOptionalIconsVisible:Z    return-void
 .end method
 
 .method public setOverrideVisibleItems(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mOverrideVisibleItems:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuBuilder;->mOverrideVisibleItems:Z    return-void
 .end method
 
 .method public setQwertyMode(Z)V
@@ -5220,12 +4907,7 @@
     const/4 p1, 0x0
 
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public setShortcutsVisible(Z)V
@@ -5236,11 +4918,7 @@
 
     .line 2
     .line 3
-    if-ne v0, p1, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-ne v0, p1, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -5252,12 +4930,7 @@
     const/4 p1, 0x0
 
     .line 10
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
 .end method
 
 .method public size()I
@@ -5347,5 +5020,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

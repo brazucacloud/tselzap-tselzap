@@ -102,33 +102,21 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z    return v0
 .end method
 
 .method public final getRoundedCenter-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->roundedCenter:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->roundedCenter:J    return-wide v0
 .end method
 
 .method public final getVertex-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->vertex:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->vertex:J    return-wide v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -349,12 +337,6 @@
     const/4 v10, 0x0
 
     .line 63
-    invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
-
-    .line 64
-    .line 65
-    .line 66
-    return-object v3
+    invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V    return-object v3
 .end method
-
 .end class

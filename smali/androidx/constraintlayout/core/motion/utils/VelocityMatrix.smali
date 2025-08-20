@@ -26,12 +26,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -276,11 +271,7 @@
 
     .line 106
     .line 107
-    aput v9, p5, v4
-
-    .line 108
-    .line 109
-    return-void
+    aput v9, p5, v4    return-void
 .end method
 
 .method public clear()V
@@ -306,11 +297,7 @@
 
     .line 9
     .line 10
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->mDScaleX:F
-
-    .line 11
-    .line 12
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/VelocityMatrix;->mDScaleX:F    return-void
 .end method
 
 .method public setRotationVelocity(Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;F)V
@@ -455,5 +442,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

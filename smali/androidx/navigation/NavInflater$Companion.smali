@@ -165,15 +165,10 @@
     .line 59
     :cond_1
     :goto_0
-    if-nez p2, :cond_2
-
-    .line 60
-    .line 61
-    return-object p3
+    if-nez p2, :cond_2    return-object p3
 
     .line 62
     :cond_2
     return-object p2
 .end method
-
 .end class

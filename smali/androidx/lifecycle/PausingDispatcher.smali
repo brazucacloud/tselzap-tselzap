@@ -26,11 +26,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/lifecycle/PausingDispatcher;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/PausingDispatcher;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;    return-void
 .end method
 
 
@@ -61,12 +57,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue(Lg1/i;Ljava/lang/Runnable;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue(Lg1/i;Ljava/lang/Runnable;)V    return-void
 .end method
 
 .method public isDispatchNeeded(Lg1/i;)Z
@@ -105,11 +96,7 @@
     const/4 v0, 0x1
 
     .line 17
-    if-eqz p1, :cond_0
-
-    .line 18
-    .line 19
-    return v0
+    if-eqz p1, :cond_0    return v0
 
     .line 20
     :cond_0
@@ -129,5 +116,4 @@
 
     return p1
 .end method
-
 .end class

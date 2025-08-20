@@ -203,12 +203,7 @@
     .line 65
     .line 66
     :goto_0
-    invoke-virtual {p0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V
-
-    .line 67
-    .line 68
-    .line 69
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V    return-void
 .end method
 
 .method private createExpandButton(Landroidx/preference/PreferenceGroup;Ljava/util/List;)Landroidx/preference/ExpandButton;
@@ -259,12 +254,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v0, p2}, Landroidx/preference/Preference;->setOnPreferenceClickListener(Landroidx/preference/Preference$OnPreferenceClickListener;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-object v0
+    invoke-virtual {v0, p2}, Landroidx/preference/Preference;->setOnPreferenceClickListener(Landroidx/preference/Preference$OnPreferenceClickListener;)V    return-object v0
 .end method
 
 .method private createVisiblePreferencesList(Landroidx/preference/PreferenceGroup;)Ljava/util/List;
@@ -816,11 +806,7 @@
     move-result-object p1
 
     .line 16
-    check-cast p1, Landroidx/preference/Preference;
-
-    .line 17
-    .line 18
-    return-object p1
+    check-cast p1, Landroidx/preference/Preference;    return-object p1
 
     .line 19
     :cond_1
@@ -864,11 +850,7 @@
 
     .line 6
     .line 7
-    const-wide/16 v0, -0x1
-
-    .line 8
-    .line 9
-    return-wide v0
+    const-wide/16 v0, -0x1    return-wide v0
 
     .line 10
     :cond_0
@@ -926,11 +908,7 @@
     const/4 v1, -0x1
 
     .line 17
-    if-eq p1, v1, :cond_0
-
-    .line 18
-    .line 19
-    return p1
+    if-eq p1, v1, :cond_0    return p1
 
     .line 20
     :cond_0
@@ -950,12 +928,7 @@
 
     .line 27
     .line 28
-    invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 29
-    .line 30
-    .line 31
-    return p1
+    invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return p1
 .end method
 
 .method public getPreferenceAdapterPosition(Landroidx/preference/Preference;)I
@@ -1300,12 +1273,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z    return-void
 .end method
 
 .method public onPreferenceVisibilityChange(Landroidx/preference/Preference;)V
@@ -1316,12 +1284,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceGroupAdapter;->onPreferenceHierarchyChange(Landroidx/preference/Preference;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceGroupAdapter;->onPreferenceHierarchyChange(Landroidx/preference/Preference;)V    return-void
 .end method
 
 .method public updatePreferences()V
@@ -1547,5 +1510,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

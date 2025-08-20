@@ -54,11 +54,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage$WrapperStableIdLookup;->mLocalToGlobalLookup:Landroidx/collection/LongSparseArray;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage$WrapperStableIdLookup;->mLocalToGlobalLookup:Landroidx/collection/LongSparseArray;    return-void
 .end method
 
 
@@ -126,5 +122,4 @@
 
     return-wide p1
 .end method
-
 .end class

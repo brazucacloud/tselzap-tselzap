@@ -54,11 +54,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;->mAppSetIdManager:Landroid/adservices/appsetid/AppSetIdManager;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;->mAppSetIdManager:Landroid/adservices/appsetid/AppSetIdManager;    return-void
 .end method
 
 .method public static final synthetic access$getAppSetIdAsyncInternal(Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;Lg1/d;)Ljava/lang/Object;
@@ -79,11 +75,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;->mAppSetIdManager:Landroid/adservices/appsetid/AppSetIdManager;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;->mAppSetIdManager:Landroid/adservices/appsetid/AppSetIdManager;    return-object p0
 .end method
 
 .method private final convertResponse(Landroid/adservices/appsetid/AppSetId;)Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;
@@ -126,12 +118,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-direct {v0, p1, v2}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-object v0
+    invoke-direct {v0, p1, v2}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V    return-object v0
 
     .line 23
     :cond_0
@@ -155,12 +142,7 @@
     const/4 v1, 0x2
 
     .line 33
-    invoke-direct {v0, p1, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-object v0
+    invoke-direct {v0, p1, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V    return-object v0
 .end method
 
 .method public static getAppSetId$suspendImpl(Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;Lg1/d;)Ljava/lang/Object;
@@ -311,11 +293,7 @@
     move-result-object p1
 
     .line 63
-    if-ne p1, v1, :cond_3
-
-    .line 64
-    .line 65
-    return-object v1
+    if-ne p1, v1, :cond_3    return-object v1
 
     .line 66
     :cond_3
@@ -418,11 +396,7 @@
     move-result-object p1
 
     .line 35
-    sget-object v0, Lh1/a;->b:Lh1/a;
-
-    .line 36
-    .line 37
-    return-object p1
+    sget-object v0, Lh1/a;->b:Lh1/a;    return-object p1
 .end method
 
 
@@ -453,5 +427,4 @@
 
     return-object p1
 .end method
-
 .end class

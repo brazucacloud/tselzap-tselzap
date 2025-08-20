@@ -21,11 +21,7 @@
 
     .line 5
     .line 6
-    iput v0, p0, Landroidx/transition/CircularPropagation;->mPropagationSpeed:F
-
-    .line 7
-    .line 8
-    return-void
+    iput v0, p0, Landroidx/transition/CircularPropagation;->mPropagationSpeed:F    return-void
 .end method
 
 .method private static distance(FFFF)F
@@ -95,11 +91,7 @@
 
     .line 4
     .line 5
-    if-nez p4, :cond_0
-
-    .line 6
-    .line 7
-    return-wide v0
+    if-nez p4, :cond_0    return-wide v0
 
     .line 8
     :cond_0
@@ -414,11 +406,7 @@
 
     .line 5
     .line 6
-    iput p1, p0, Landroidx/transition/CircularPropagation;->mPropagationSpeed:F
-
-    .line 7
-    .line 8
-    return-void
+    iput p1, p0, Landroidx/transition/CircularPropagation;->mPropagationSpeed:F    return-void
 
     .line 9
     :cond_0
@@ -435,18 +423,5 @@
     .line 14
     .line 15
     .line 16
-    throw p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
-
+    throw p1.end method
 .end class

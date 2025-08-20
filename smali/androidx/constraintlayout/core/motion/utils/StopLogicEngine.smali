@@ -69,11 +69,7 @@
 
     .line 6
     .line 7
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z    return-void
 .end method
 
 .method private calcY(F)F
@@ -150,11 +146,7 @@
 
     .line 32
     .line 33
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
-
-    .line 34
-    .line 35
-    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F    return p1
 
     .line 36
     :cond_1
@@ -223,11 +215,7 @@
 
     .line 64
     .line 65
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
-
-    .line 66
-    .line 67
-    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F    return p1
 
     .line 68
     :cond_3
@@ -286,11 +274,7 @@
 
     .line 92
     .line 93
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
-
-    .line 94
-    .line 95
-    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F    return p1
 .end method
 
 .method private setup(FFFFF)V
@@ -458,11 +442,7 @@
 
     .line 74
     .line 75
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
-
-    .line 76
-    .line 77
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F    return-void
 
     .line 78
     :cond_1
@@ -552,11 +532,7 @@
 
     .line 117
     .line 118
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
-
-    .line 119
-    .line 120
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F    return-void
 
     .line 121
     :cond_2
@@ -602,11 +578,7 @@
 
     .line 140
     .line 141
-    iput v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
-
-    .line 142
-    .line 143
-    return-void
+    iput v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F    return-void
 
     .line 144
     :cond_3
@@ -666,11 +638,7 @@
 
     .line 171
     .line 172
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
-
-    .line 173
-    .line 174
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F    return-void
 
     .line 175
     :cond_4
@@ -775,11 +743,7 @@
 
     .line 221
     .line 222
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
-
-    .line 223
-    .line 224
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F    return-void
 
     .line 225
     :cond_5
@@ -869,11 +833,7 @@
 
     .line 264
     .line 265
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
-
-    .line 266
-    .line 267
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F    return-void
 .end method
 
 
@@ -938,12 +898,7 @@
     move-object p1, p0
 
     .line 24
-    invoke-direct/range {p1 .. p6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-direct/range {p1 .. p6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V    return-void
 
     .line 28
     :cond_1
@@ -981,12 +936,7 @@
     move v5, p6
 
     .line 40
-    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V    return-void
 .end method
 
 .method public debug(Ljava/lang/String;F)Ljava/lang/String;
@@ -1715,5 +1665,4 @@
 
     return v0
 .end method
-
 .end class

@@ -53,5 +53,4 @@
 
 .method public abstract getSyntaxValue()I
 .end method
-
 .end class

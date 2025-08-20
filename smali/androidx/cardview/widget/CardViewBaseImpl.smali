@@ -29,11 +29,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/cardview/widget/CardViewBaseImpl;->mCornerRect:Landroid/graphics/RectF;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/cardview/widget/CardViewBaseImpl;->mCornerRect:Landroid/graphics/RectF;    return-void
 .end method
 
 .method private createBackground(Landroid/content/Context;Landroid/content/res/ColorStateList;FFF)Landroidx/cardview/widget/RoundRectDrawableWithShadow;
@@ -64,12 +60,7 @@
     move v5, p5
 
     .line 11
-    invoke-direct/range {v0 .. v5}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;-><init>(Landroid/content/res/Resources;Landroid/content/res/ColorStateList;FFF)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;-><init>(Landroid/content/res/Resources;Landroid/content/res/ColorStateList;FFF)V    return-object v0
 .end method
 
 .method private getShadowBackground(Landroidx/cardview/widget/CardViewDelegate;)Landroidx/cardview/widget/RoundRectDrawableWithShadow;
@@ -84,11 +75,7 @@
     move-result-object p1
 
     .line 5
-    check-cast p1, Landroidx/cardview/widget/RoundRectDrawableWithShadow;
-
-    .line 6
-    .line 7
-    return-object p1
+    check-cast p1, Landroidx/cardview/widget/RoundRectDrawableWithShadow;    return-object p1
 .end method
 
 
@@ -238,11 +225,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->sRoundRectHelper:Landroidx/cardview/widget/RoundRectDrawableWithShadow$RoundRectHelper;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->sRoundRectHelper:Landroidx/cardview/widget/RoundRectDrawableWithShadow$RoundRectHelper;    return-void
 .end method
 
 .method public initialize(Landroidx/cardview/widget/CardViewDelegate;Landroid/content/Context;Landroid/content/res/ColorStateList;FFF)V
@@ -293,12 +276,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V    return-void
 .end method
 
 .method public onCompatPaddingChanged(Landroidx/cardview/widget/CardViewDelegate;)V
@@ -332,12 +310,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V    return-void
 .end method
 
 .method public setBackgroundColor(Landroidx/cardview/widget/CardViewDelegate;Landroid/content/res/ColorStateList;)V
@@ -356,12 +329,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setColor(Landroid/content/res/ColorStateList;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setColor(Landroid/content/res/ColorStateList;)V    return-void
 .end method
 
 .method public setElevation(Landroidx/cardview/widget/CardViewDelegate;F)V
@@ -376,12 +344,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(F)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(F)V    return-void
 .end method
 
 .method public setMaxElevation(Landroidx/cardview/widget/CardViewDelegate;F)V
@@ -401,12 +364,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V    return-void
 .end method
 
 .method public setRadius(Landroidx/cardview/widget/CardViewDelegate;F)V
@@ -426,12 +384,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/cardview/widget/CardViewBaseImpl;->updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V    return-void
 .end method
 
 .method public updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
@@ -525,12 +478,6 @@
 
     .line 43
     .line 44
-    invoke-interface {p1, v1, v2, v3, v0}, Landroidx/cardview/widget/CardViewDelegate;->setShadowPadding(IIII)V
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-interface {p1, v1, v2, v3, v0}, Landroidx/cardview/widget/CardViewDelegate;->setShadowPadding(IIII)V    return-void
 .end method
-
 .end class

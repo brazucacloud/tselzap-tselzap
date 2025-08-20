@@ -95,11 +95,7 @@
     const/4 v2, 0x2
 
     .line 17
-    aput-object v1, v0, v2
-
-    .line 18
-    .line 19
-    return-object v0
+    aput-object v1, v0, v2    return-object v0
 .end method
 
 .method static constructor <clinit>()V
@@ -289,12 +285,7 @@
     move-result-object v1
 
     .line 96
-    invoke-interface {v0, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 97
-    .line 98
-    .line 99
-    return-void
+    invoke-interface {v0, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -306,12 +297,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static getChainByString(Ljava/lang/String;)Landroidx/constraintlayout/core/state/State$Chain;
@@ -346,11 +332,7 @@
     move-result-object p0
 
     .line 15
-    check-cast p0, Landroidx/constraintlayout/core/state/State$Chain;
-
-    .line 16
-    .line 17
-    return-object p0
+    check-cast p0, Landroidx/constraintlayout/core/state/State$Chain;    return-object p0
 
     .line 18
     :cond_0
@@ -427,11 +409,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/constraintlayout/core/state/State$Chain;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/constraintlayout/core/state/State$Chain;    return-object p0
 .end method
 
 .method public static values()[Landroidx/constraintlayout/core/state/State$Chain;
@@ -450,11 +428,6 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/constraintlayout/core/state/State$Chain;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/constraintlayout/core/state/State$Chain;    return-object v0
 .end method
-
 .end class

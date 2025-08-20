@@ -6,5 +6,4 @@
 # virtual methods
 .method public abstract getFullyDrawnReporter()Landroidx/activity/FullyDrawnReporter;
 .end method
-
 .end class

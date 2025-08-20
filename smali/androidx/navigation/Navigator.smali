@@ -32,12 +32,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -58,11 +53,7 @@
 
     .line 2
     .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 6
     :cond_0
@@ -79,27 +70,13 @@
     .line 11
     .line 12
     .line 13
-    throw v0
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public final isAttached()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/Navigator;->isAttached:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/Navigator;->isAttached:Z    return v0
 .end method
 
 .method public navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;
@@ -221,11 +198,7 @@
     const/4 p1, 0x1
 
     .line 9
-    iput-boolean p1, p0, Landroidx/navigation/Navigator;->isAttached:Z
-
-    .line 10
-    .line 11
-    return-void
+    iput-boolean p1, p0, Landroidx/navigation/Navigator;->isAttached:Z    return-void
 .end method
 
 .method public onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
@@ -268,11 +241,7 @@
 
     .line 17
     :goto_0
-    if-nez v0, :cond_1
-
-    .line 18
-    .line 19
-    return-void
+    if-nez v0, :cond_1    return-void
 
     .line 20
     :cond_1
@@ -301,12 +270,7 @@
     move-result-object v0
 
     .line 33
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V    return-void
 .end method
 
 .method public onRestoreState(Landroid/os/Bundle;)V
@@ -445,5 +409,4 @@
 
     return v0
 .end method
-
 .end class

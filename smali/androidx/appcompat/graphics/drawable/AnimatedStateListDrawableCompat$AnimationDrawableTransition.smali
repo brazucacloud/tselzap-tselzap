@@ -135,11 +135,7 @@
 
     .line 52
     .line 53
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimationDrawableTransition;->mAnim:Landroid/animation/ObjectAnimator;
-
-    .line 54
-    .line 55
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimationDrawableTransition;->mAnim:Landroid/animation/ObjectAnimator;    return-void
 .end method
 
 
@@ -148,11 +144,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimationDrawableTransition;->mHasReversibleFlag:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimationDrawableTransition;->mHasReversibleFlag:Z    return v0
 .end method
 
 .method public reverse()V
@@ -163,12 +155,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->reverse()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->reverse()V    return-void
 .end method
 
 .method public start()V
@@ -179,12 +166,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->start()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->start()V    return-void
 .end method
 
 .method public stop()V
@@ -195,12 +177,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/Animator;->cancel()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/animation/Animator;->cancel()V    return-void
 .end method
-
 .end class

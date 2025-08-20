@@ -87,23 +87,14 @@
 
     .line 25
     .line 26
-    iput-object p1, p0, Landroidx/constraintlayout/core/PriorityGoalRow;->mCache:Landroidx/constraintlayout/core/Cache;
-
-    .line 27
-    .line 28
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/PriorityGoalRow;->mCache:Landroidx/constraintlayout/core/Cache;    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/core/PriorityGoalRow;Landroidx/constraintlayout/core/SolverVariable;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/PriorityGoalRow;->removeGoal(Landroidx/constraintlayout/core/SolverVariable;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/PriorityGoalRow;->removeGoal(Landroidx/constraintlayout/core/SolverVariable;)V    return-void
 .end method
 
 .method private addToGoal(Landroidx/constraintlayout/core/SolverVariable;)V
@@ -312,12 +303,7 @@
 
     .line 95
     .line 96
-    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/SolverVariable;->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
-
-    .line 97
-    .line 98
-    .line 99
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/SolverVariable;->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V    return-void
 .end method
 
 .method private removeGoal(Landroidx/constraintlayout/core/SolverVariable;)V
@@ -395,11 +381,7 @@
 
     .line 32
     .line 33
-    iput-boolean v0, p1, Landroidx/constraintlayout/core/SolverVariable;->inGoal:Z
-
-    .line 34
-    .line 35
-    return-void
+    iput-boolean v0, p1, Landroidx/constraintlayout/core/SolverVariable;->inGoal:Z    return-void
 
     .line 36
     :cond_1
@@ -454,12 +436,7 @@
 
     .line 18
     .line 19
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/PriorityGoalRow;->addToGoal(Landroidx/constraintlayout/core/SolverVariable;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/PriorityGoalRow;->addToGoal(Landroidx/constraintlayout/core/SolverVariable;)V    return-void
 .end method
 
 .method public clear()V
@@ -476,11 +453,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-void
 .end method
 
 .method public getPivotCandidate(Landroidx/constraintlayout/core/LinearSystem;[Z)Landroidx/constraintlayout/core/SolverVariable;
@@ -614,11 +587,7 @@
 
     .line 56
     .line 57
-    aget-object p1, p1, v1
-
-    .line 58
-    .line 59
-    return-object p1
+    aget-object p1, p1, v1    return-object p1
 .end method
 
 .method public isEmpty()Z
@@ -769,11 +738,7 @@
 
     .line 2
     .line 3
-    if-nez p1, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -871,12 +836,6 @@
 
     .line 51
     :cond_2
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/PriorityGoalRow;->removeGoal(Landroidx/constraintlayout/core/SolverVariable;)V
-
-    .line 52
-    .line 53
-    .line 54
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/PriorityGoalRow;->removeGoal(Landroidx/constraintlayout/core/SolverVariable;)V    return-void
 .end method
-
 .end class

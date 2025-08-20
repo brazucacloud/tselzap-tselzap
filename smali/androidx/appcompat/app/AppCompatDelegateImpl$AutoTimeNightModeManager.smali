@@ -38,11 +38,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoTimeNightModeManager;->mTwilightManager:Landroidx/appcompat/app/TwilightManager;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoTimeNightModeManager;->mTwilightManager:Landroidx/appcompat/app/TwilightManager;    return-void
 .end method
 
 
@@ -82,12 +78,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object v0
+    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public getApplyableNightMode()I
@@ -129,12 +120,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->applyDayNight()Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->applyDayNight()Z    return-void
 .end method
-
 .end class

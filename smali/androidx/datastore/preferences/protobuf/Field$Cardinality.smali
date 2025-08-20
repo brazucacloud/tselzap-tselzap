@@ -216,11 +216,7 @@
     .line 70
     .line 71
     .line 72
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
-
-    .line 73
-    .line 74
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
@@ -237,11 +233,7 @@
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->value:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->value:I    return-void
 .end method
 
 .method public static forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Cardinality;
@@ -279,35 +271,19 @@
 
     .line 14
     :cond_0
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_REPEATED:Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-
-    .line 15
-    .line 16
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_REPEATED:Landroidx/datastore/preferences/protobuf/Field$Cardinality;    return-object p0
 
     .line 17
     :cond_1
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_REQUIRED:Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-
-    .line 18
-    .line 19
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_REQUIRED:Landroidx/datastore/preferences/protobuf/Field$Cardinality;    return-object p0
 
     .line 20
     :cond_2
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_OPTIONAL:Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-
-    .line 21
-    .line 22
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_OPTIONAL:Landroidx/datastore/preferences/protobuf/Field$Cardinality;    return-object p0
 
     .line 23
     :cond_3
-    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_UNKNOWN:Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-
-    .line 24
-    .line 25
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->CARDINALITY_UNKNOWN:Landroidx/datastore/preferences/protobuf/Field$Cardinality;    return-object p0
 .end method
 
 .method public static internalGetValueMap()Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
@@ -322,22 +298,14 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
 .end method
 
 .method public static internalGetVerifier()Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality$CardinalityVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality$CardinalityVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-object v0
 .end method
 
 .method public static valueOf(I)Landroidx/datastore/preferences/protobuf/Field$Cardinality;
@@ -384,11 +352,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/Field$Cardinality;    return-object v0
 .end method
 
 
@@ -405,11 +369,7 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->value:I
-
-    .line 6
-    .line 7
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->value:I    return v0
 
     .line 8
     :cond_0
@@ -426,14 +386,5 @@
     .line 13
     .line 14
     .line 15
-    throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v0.end method
 .end class

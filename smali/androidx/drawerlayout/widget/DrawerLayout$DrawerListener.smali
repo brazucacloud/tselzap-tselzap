@@ -38,5 +38,4 @@
 
 .method public abstract onDrawerStateChanged(I)V
 .end method
-
 .end class

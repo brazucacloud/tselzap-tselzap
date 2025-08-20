@@ -48,11 +48,7 @@
 
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/viewpager/widget/PagerTitleStrip$SingleLineAllCapsTransform;->mLocale:Ljava/util/Locale;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p1, p0, Landroidx/viewpager/widget/PagerTitleStrip$SingleLineAllCapsTransform;->mLocale:Ljava/util/Locale;    return-void
 .end method
 
 
@@ -100,5 +96,4 @@
 
     return-object p1
 .end method
-
 .end class

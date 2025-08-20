@@ -47,23 +47,14 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/lifecycle/LifecycleDispatcher;->initialized:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/lifecycle/LifecycleDispatcher;->initialized:Ljava/util/concurrent/atomic/AtomicBoolean;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static final init(Landroid/content/Context;)V
@@ -94,11 +85,7 @@
     move-result v0
 
     .line 13
-    if-eqz v0, :cond_0
-
-    .line 14
-    .line 15
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 16
     :cond_0
@@ -132,12 +119,6 @@
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
+    invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V    return-void
 .end method
-
 .end class

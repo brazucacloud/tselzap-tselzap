@@ -399,116 +399,59 @@
 
     .line 170
     :goto_1
-    packed-switch p0, :pswitch_data_0
-
-    .line 171
-    .line 172
-    .line 173
-    return v0
+    packed-switch p0, :pswitch_data_0    return v0
 
     .line 174
     :pswitch_0
-    const/16 p0, 0x25f
-
-    .line 175
-    .line 176
-    return p0
+    const/16 p0, 0x25f    return p0
 
     .line 177
     :pswitch_1
-    const/16 p0, 0x25d
-
-    .line 178
-    .line 179
-    return p0
+    const/16 p0, 0x25d    return p0
 
     .line 180
     :pswitch_2
-    const/16 p0, 0x25b
-
-    .line 181
-    .line 182
-    return p0
+    const/16 p0, 0x25b    return p0
 
     .line 183
     :pswitch_3
-    const/16 p0, 0x264
-
-    .line 184
-    .line 185
-    return p0
+    const/16 p0, 0x264    return p0
 
     .line 186
     :pswitch_4
-    const/16 p0, 0x263
-
-    .line 187
-    .line 188
-    return p0
+    const/16 p0, 0x263    return p0
 
     .line 189
     :pswitch_5
-    const/16 p0, 0x261
-
-    .line 190
-    .line 191
-    return p0
+    const/16 p0, 0x261    return p0
 
     .line 192
     :pswitch_6
-    const/16 p0, 0x258
-
-    .line 193
-    .line 194
-    return p0
+    const/16 p0, 0x258    return p0
 
     .line 195
     :pswitch_7
-    const/16 p0, 0x260
-
-    .line 196
-    .line 197
-    return p0
+    const/16 p0, 0x260    return p0
 
     .line 198
     :pswitch_8
-    const/16 p0, 0x25c
-
-    .line 199
-    .line 200
-    return p0
+    const/16 p0, 0x25c    return p0
 
     .line 201
     :pswitch_9
-    const/16 p0, 0x259
-
-    .line 202
-    .line 203
-    return p0
+    const/16 p0, 0x259    return p0
 
     .line 204
     :pswitch_a
-    const/16 p0, 0x262
-
-    .line 205
-    .line 206
-    return p0
+    const/16 p0, 0x262    return p0
 
     .line 207
     :pswitch_b
-    const/16 p0, 0x25a
-
-    .line 208
-    .line 209
-    return p0
+    const/16 p0, 0x25a    return p0
 
     .line 210
     :pswitch_c
-    const/16 p0, 0x25e
-
-    .line 211
-    .line 212
-    return p0
+    const/16 p0, 0x25e    return p0
 
     .line 213
     :sswitch_data_0
@@ -575,5 +518,4 @@
         :pswitch_0
     .end packed-switch
 .end method
-
 .end class

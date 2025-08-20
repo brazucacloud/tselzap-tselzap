@@ -14,5 +14,4 @@
 
 .method public abstract onActionViewExpanded()V
 .end method
-
 .end class

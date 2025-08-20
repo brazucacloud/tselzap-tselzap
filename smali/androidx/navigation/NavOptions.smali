@@ -264,11 +264,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -459,11 +455,7 @@
 
     .line 96
     .line 97
-    if-ne v2, p1, :cond_2
-
-    .line 98
-    .line 99
-    return v0
+    if-ne v2, p1, :cond_2    return v0
 
     .line 100
     :cond_2
@@ -480,11 +472,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->enterAnim:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;->enterAnim:I    return v0
 .end method
 
 .method public final getExitAnim()I
@@ -496,11 +484,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->exitAnim:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;->exitAnim:I    return v0
 .end method
 
 .method public final getPopEnterAnim()I
@@ -512,11 +496,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I    return v0
 .end method
 
 .method public final getPopExitAnim()I
@@ -528,11 +508,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popExitAnim:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;->popExitAnim:I    return v0
 .end method
 
 .method public final getPopUpTo()I
@@ -541,11 +517,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I    return v0
 .end method
 
 .method public final getPopUpToId()I
@@ -554,22 +526,14 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I    return v0
 .end method
 
 .method public final getPopUpToRoute()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getPopUpToRouteClass()Lv1/c;
@@ -582,22 +546,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;    return-object v0
 .end method
 
 .method public final getPopUpToRouteObject()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -807,44 +763,28 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->popUpToInclusive:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->popUpToInclusive:Z    return v0
 .end method
 
 .method public final shouldLaunchSingleTop()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->singleTop:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->singleTop:Z    return v0
 .end method
 
 .method public final shouldPopUpToSaveState()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->popUpToSaveState:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->popUpToSaveState:Z    return v0
 .end method
 
 .method public final shouldRestoreState()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->restoreState:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->restoreState:Z    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1212,12 +1152,6 @@
 
     .line 183
     .line 184
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 185
-    .line 186
-    .line 187
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

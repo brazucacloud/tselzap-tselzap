@@ -30,12 +30,7 @@
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;-><init>(Landroidx/viewpager2/widget/ViewPager2$1;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;-><init>(Landroidx/viewpager2/widget/ViewPager2$1;)V    return-void
 .end method
 
 
@@ -59,12 +54,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->notifyDataSetChangeHappened()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->notifyDataSetChangeHappened()V    return-void
 .end method
-
 .end class

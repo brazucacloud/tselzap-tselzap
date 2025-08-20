@@ -222,143 +222,91 @@
 
     .line 60
     .line 61
-    iput v1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mDisplayedWidgetsCount:I
-
-    .line 62
-    .line 63
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mDisplayedWidgetsCount:I    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalGap:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalGap:I    return p0
 .end method
 
 .method public static synthetic access$100(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalGap:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalGap:I    return p0
 .end method
 
 .method public static synthetic access$1000(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalStyle:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalStyle:I    return p0
 .end method
 
 .method public static synthetic access$1100(Landroidx/constraintlayout/core/widgets/Flow;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalBias:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalBias:F    return p0
 .end method
 
 .method public static synthetic access$1200(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalStyle:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalStyle:I    return p0
 .end method
 
 .method public static synthetic access$1300(Landroidx/constraintlayout/core/widgets/Flow;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalBias:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalBias:F    return p0
 .end method
 
 .method public static synthetic access$1400(Landroidx/constraintlayout/core/widgets/Flow;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalBias:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalBias:F    return p0
 .end method
 
 .method public static synthetic access$1500(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalStyle:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalStyle:I    return p0
 .end method
 
 .method public static synthetic access$1600(Landroidx/constraintlayout/core/widgets/Flow;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalBias:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalBias:F    return p0
 .end method
 
 .method public static synthetic access$1700(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalStyle:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalStyle:I    return p0
 .end method
 
 .method public static synthetic access$1800(Landroidx/constraintlayout/core/widgets/Flow;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalBias:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalBias:F    return p0
 .end method
 
 .method public static synthetic access$1900(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalAlign:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalAlign:I    return p0
 .end method
 
 .method public static synthetic access$200(Landroidx/constraintlayout/core/widgets/Flow;Landroidx/constraintlayout/core/widgets/ConstraintWidget;I)I
@@ -393,66 +341,42 @@
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mDisplayedWidgetsCount:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mDisplayedWidgetsCount:I    return p0
 .end method
 
 .method public static synthetic access$500(Landroidx/constraintlayout/core/widgets/Flow;)[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mDisplayedWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mDisplayedWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object p0
 .end method
 
 .method public static synthetic access$600(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalStyle:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalStyle:I    return p0
 .end method
 
 .method public static synthetic access$700(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalAlign:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalAlign:I    return p0
 .end method
 
 .method public static synthetic access$800(Landroidx/constraintlayout/core/widgets/Flow;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalStyle:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalStyle:I    return p0
 .end method
 
 .method public static synthetic access$900(Landroidx/constraintlayout/core/widgets/Flow;)F
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalBias:F
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalBias:F    return p0
 .end method
 
 .method private createAlignedConstraints(Z)V
@@ -1090,11 +1014,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-nez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -1118,11 +1038,7 @@
 
     .line 14
     .line 15
-    if-nez v1, :cond_1
-
-    .line 16
-    .line 17
-    return v0
+    if-nez v1, :cond_1    return v0
 
     .line 18
     :cond_1
@@ -1281,11 +1197,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-nez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -1309,11 +1221,7 @@
 
     .line 14
     .line 15
-    if-nez v1, :cond_1
-
-    .line 16
-    .line 17
-    return v0
+    if-nez v1, :cond_1    return v0
 
     .line 18
     :cond_1
@@ -2161,11 +2069,7 @@
 
     .line 289
     .line 290
-    aput v1, p1, v3
-
-    .line 291
-    .line 292
-    return-void
+    aput v1, p1, v3    return-void
 .end method
 
 .method private measureChainWrap([Landroidx/constraintlayout/core/widgets/ConstraintWidget;III[I)V
@@ -2180,11 +2084,7 @@
 
     .line 4
     .line 5
-    if-nez v8, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez v8, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -3295,11 +3195,7 @@
 
     .line 505
     .line 506
-    aput v11, p5, v16
-
-    .line 507
-    .line 508
-    return-void
+    aput v11, p5, v16    return-void
 .end method
 
 .method private measureChainWrap_new([Landroidx/constraintlayout/core/widgets/ConstraintWidget;III[I)V
@@ -3314,11 +3210,7 @@
 
     .line 4
     .line 5
-    if-nez v8, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez v8, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -4457,11 +4349,7 @@
 
     .line 513
     .line 514
-    aput v11, p5, v17
-
-    .line 515
-    .line 516
-    return-void
+    aput v11, p5, v17    return-void
 .end method
 
 .method private measureNoWrap([Landroidx/constraintlayout/core/widgets/ConstraintWidget;III[I)V
@@ -4476,11 +4364,7 @@
 
     .line 4
     .line 5
-    if-nez v8, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez v8, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -4686,11 +4570,7 @@
     const/4 v2, 0x1
 
     .line 106
-    aput v0, p5, v2
-
-    .line 107
-    .line 108
-    return-void
+    aput v0, p5, v2    return-void
 .end method
 
 
@@ -4971,12 +4851,7 @@
     .line 123
     :cond_7
     :goto_5
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->needsCallbackFromSolver(Z)V
-
-    .line 124
-    .line 125
-    .line 126
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->needsCallbackFromSolver(Z)V    return-void
 .end method
 
 .method public copy(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashMap;)V
@@ -5150,11 +5025,7 @@
 
     .line 79
     .line 80
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mOrientation:I
-
-    .line 81
-    .line 82
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mOrientation:I    return-void
 .end method
 
 .method public getMaxElementsWrap()F
@@ -5222,12 +5093,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, v10}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->needsCallbackFromSolver(Z)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {v0, v10}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->needsCallbackFromSolver(Z)V    return-void
 
     .line 29
     :cond_0
@@ -5755,221 +5621,139 @@
 
     .line 259
     :goto_8
-    invoke-virtual {v0, v10}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->needsCallbackFromSolver(Z)V
-
-    .line 260
-    .line 261
-    .line 262
-    return-void
+    invoke-virtual {v0, v10}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->needsCallbackFromSolver(Z)V    return-void
 .end method
 
 .method public setFirstHorizontalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalBias:F    return-void
 .end method
 
 .method public setFirstHorizontalStyle(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalStyle:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstHorizontalStyle:I    return-void
 .end method
 
 .method public setFirstVerticalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalBias:F    return-void
 .end method
 
 .method public setFirstVerticalStyle(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalStyle:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mFirstVerticalStyle:I    return-void
 .end method
 
 .method public setHorizontalAlign(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalAlign:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalAlign:I    return-void
 .end method
 
 .method public setHorizontalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalBias:F    return-void
 .end method
 
 .method public setHorizontalGap(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalGap:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalGap:I    return-void
 .end method
 
 .method public setHorizontalStyle(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalStyle:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mHorizontalStyle:I    return-void
 .end method
 
 .method public setLastHorizontalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalBias:F    return-void
 .end method
 
 .method public setLastHorizontalStyle(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalStyle:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastHorizontalStyle:I    return-void
 .end method
 
 .method public setLastVerticalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalBias:F    return-void
 .end method
 
 .method public setLastVerticalStyle(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalStyle:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mLastVerticalStyle:I    return-void
 .end method
 
 .method public setMaxElementsWrap(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mMaxElementsWrap:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mMaxElementsWrap:I    return-void
 .end method
 
 .method public setOrientation(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mOrientation:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mOrientation:I    return-void
 .end method
 
 .method public setVerticalAlign(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalAlign:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalAlign:I    return-void
 .end method
 
 .method public setVerticalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalBias:F    return-void
 .end method
 
 .method public setVerticalGap(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalGap:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalGap:I    return-void
 .end method
 
 .method public setVerticalStyle(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalStyle:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mVerticalStyle:I    return-void
 .end method
 
 .method public setWrapMode(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mWrapMode:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Flow;->mWrapMode:I    return-void
 .end method
-
 .end class

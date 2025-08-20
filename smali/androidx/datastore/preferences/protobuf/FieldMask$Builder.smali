@@ -78,12 +78,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$300(Landroidx/datastore/preferences/protobuf/FieldMask;Ljava/lang/Iterable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$300(Landroidx/datastore/preferences/protobuf/FieldMask;Ljava/lang/Iterable;)V    return-object p0
 .end method
 
 .method public addPaths(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/FieldMask$Builder;
@@ -103,12 +98,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$200(Landroidx/datastore/preferences/protobuf/FieldMask;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$200(Landroidx/datastore/preferences/protobuf/FieldMask;Ljava/lang/String;)V    return-object p0
 .end method
 
 .method public addPathsBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/FieldMask$Builder;
@@ -128,12 +118,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$500(Landroidx/datastore/preferences/protobuf/FieldMask;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$500(Landroidx/datastore/preferences/protobuf/FieldMask;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
 .end method
 
 .method public clearPaths()Landroidx/datastore/preferences/protobuf/FieldMask$Builder;
@@ -153,12 +138,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$400(Landroidx/datastore/preferences/protobuf/FieldMask;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$400(Landroidx/datastore/preferences/protobuf/FieldMask;)V    return-object p0
 .end method
 
 .method public getPaths(I)Ljava/lang/String;
@@ -282,12 +262,6 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$100(Landroidx/datastore/preferences/protobuf/FieldMask;ILjava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/FieldMask;->access$100(Landroidx/datastore/preferences/protobuf/FieldMask;ILjava/lang/String;)V    return-object p0
 .end method
-
 .end class

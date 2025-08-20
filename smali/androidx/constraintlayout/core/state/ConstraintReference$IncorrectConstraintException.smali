@@ -44,11 +44,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/ConstraintReference$IncorrectConstraintException;->mErrors:Ljava/util/ArrayList;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/ConstraintReference$IncorrectConstraintException;->mErrors:Ljava/util/ArrayList;    return-void
 .end method
 
 
@@ -65,11 +61,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintReference$IncorrectConstraintException;->mErrors:Ljava/util/ArrayList;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintReference$IncorrectConstraintException;->mErrors:Ljava/util/ArrayList;    return-object v0
 .end method
 
 .method public getMessage()Ljava/lang/String;
@@ -129,5 +121,4 @@
 
     return-object v0
 .end method
-
 .end class

@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -55,11 +50,7 @@
     const/4 v2, 0x0
 
     .line 6
-    if-nez v1, :cond_0
-
-    .line 7
-    .line 8
-    return v2
+    if-nez v1, :cond_0    return v2
 
     .line 9
     :cond_0
@@ -204,16 +195,10 @@
     const/4 p3, 0x0
 
     .line 78
-    invoke-virtual {p1, v2, p3, p2}, Landroidx/appcompat/widget/SearchView;->launchQuerySearch(ILjava/lang/String;Ljava/lang/String;)V
-
-    .line 79
-    .line 80
-    .line 81
-    return v0
+    invoke-virtual {p1, v2, p3, p2}, Landroidx/appcompat/widget/SearchView;->launchQuerySearch(ILjava/lang/String;Ljava/lang/String;)V    return v0
 
     .line 82
     :cond_2
     return v2
 .end method
-
 .end class

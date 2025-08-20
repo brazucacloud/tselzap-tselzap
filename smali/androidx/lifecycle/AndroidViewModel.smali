@@ -26,11 +26,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/AndroidViewModel;->application:Landroid/app/Application;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/AndroidViewModel;->application:Landroid/app/Application;    return-void
 .end method
 
 
@@ -54,12 +50,6 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

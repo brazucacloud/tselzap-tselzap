@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -90,11 +85,7 @@
 
     .line 25
     .line 26
-    iput-object v0, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->mFadeAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;
-
-    .line 27
-    .line 28
-    return-void
+    iput-object v0, p1, Landroidx/appcompat/app/AppCompatDelegateImpl;->mFadeAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;    return-void
 .end method
 
 .method public onAnimationStart(Landroid/view/View;)V
@@ -116,12 +107,6 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-virtual {p1, v0}, Landroidx/appcompat/widget/ActionBarContextView;->setVisibility(I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/appcompat/widget/ActionBarContextView;->setVisibility(I)V    return-void
 .end method
-
 .end class

@@ -50,11 +50,7 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;    return-void
 .end method
 
 .method private constructor <init>()V
@@ -100,11 +96,7 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Ljava/util/List;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Ljava/util/List;    return-object p0
 .end method
 
 .method private static mutableListAt(Ljava/lang/Object;JI)Ljava/util/List;
@@ -401,12 +393,7 @@
 
     .line 55
     :goto_1
-    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    .line 56
-    .line 57
-    .line 58
-    return-void
+    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
 .end method
 
 .method public mergeListsAt(Ljava/lang/Object;Ljava/lang/Object;J)V
@@ -485,12 +472,7 @@
 
     .line 31
     :cond_1
-    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
 .end method
 
 .method public mutableListAt(Ljava/lang/Object;J)Ljava/util/List;
@@ -518,5 +500,4 @@
 
     return-object p1
 .end method
-
 .end class

@@ -198,12 +198,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 43
-    .line 44
-    .line 45
-    return-object v0
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 
     .line 46
     :cond_1
@@ -245,12 +240,6 @@
 
     .line 65
     .line 66
-    invoke-virtual {v0, p2, p1}, Landroidx/lifecycle/ViewModelStore;->put(Ljava/lang/String;Landroidx/lifecycle/ViewModel;)V
-
-    .line 67
-    .line 68
-    .line 69
-    return-object p1
+    invoke-virtual {v0, p2, p1}, Landroidx/lifecycle/ViewModelStore;->put(Ljava/lang/String;Landroidx/lifecycle/ViewModel;)V    return-object p1
 .end method
-
 .end class

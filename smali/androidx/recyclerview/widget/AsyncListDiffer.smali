@@ -90,11 +90,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/AsyncListDiffer;->sMainThreadExecutor:Ljava/util/concurrent/Executor;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/AsyncListDiffer;->sMainThreadExecutor:Ljava/util/concurrent/Executor;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/ListUpdateCallback;Landroidx/recyclerview/widget/AsyncDifferConfig;)V
@@ -306,12 +302,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public getCurrentList()Ljava/util/List;
@@ -328,11 +319,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;    return-object v0
 .end method
 
 .method public latchList(Ljava/util/List;Landroidx/recyclerview/widget/DiffUtil$DiffResult;Ljava/lang/Runnable;)V
@@ -390,12 +377,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-direct {p0, v0, p3}, Landroidx/recyclerview/widget/AsyncListDiffer;->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-direct {p0, v0, p3}, Landroidx/recyclerview/widget/AsyncListDiffer;->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V    return-void
 .end method
 
 .method public removeListListener(Landroidx/recyclerview/widget/AsyncListDiffer$ListListener;)V
@@ -417,12 +399,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public submitList(Ljava/util/List;)V
@@ -569,5 +546,4 @@
 
     return-void
 .end method
-
 .end class

@@ -260,12 +260,7 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 49
-    .line 50
-    .line 51
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -275,11 +270,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -290,11 +281,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -418,11 +405,7 @@
     move-result p1
 
     .line 71
-    if-eqz p1, :cond_2
-
-    .line 72
-    .line 73
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 74
     :cond_2
@@ -433,55 +416,35 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->appDestination:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->appDestination:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getInputEvent()Landroid/view/InputEvent;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->inputEvent:Landroid/view/InputEvent;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->inputEvent:Landroid/view/InputEvent;    return-object v0
 .end method
 
 .method public final getTopOriginUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->topOriginUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->topOriginUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getVerifiedDestination()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->verifiedDestination:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->verifiedDestination:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getWebDestination()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->webDestination:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->webDestination:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getWebSourceParams()Ljava/util/List;
@@ -496,11 +459,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->webSourceParams:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;->webSourceParams:Ljava/util/List;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -823,5 +782,4 @@
 
     return-object v0
 .end method
-
 .end class

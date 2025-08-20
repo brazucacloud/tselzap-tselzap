@@ -95,11 +95,7 @@
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$LayoutVariables;->mArrayIds:Ljava/util/HashMap;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$LayoutVariables;->mArrayIds:Ljava/util/HashMap;    return-void
 .end method
 
 
@@ -284,11 +280,7 @@
     move-result-object p1
 
     .line 15
-    check-cast p1, Ljava/util/ArrayList;
-
-    .line 16
-    .line 17
-    return-object p1
+    check-cast p1, Ljava/util/ArrayList;    return-object p1
 
     .line 18
     :cond_0
@@ -445,12 +437,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p2, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

@@ -70,12 +70,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
 .end method
 
 .method private constructor <init>()V
@@ -95,94 +90,56 @@
 
     .line 7
     .line 8
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;    return-void
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/Mixin;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Mixin;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Mixin;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Mixin;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Mixin;    return-object v0
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/protobuf/Mixin;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setName(Ljava/lang/String;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setName(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/datastore/preferences/protobuf/Mixin;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Mixin;->clearName()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Mixin;->clearName()V    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Mixin;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
 .end method
 
 .method public static synthetic access$400(Landroidx/datastore/preferences/protobuf/Mixin;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setRoot(Ljava/lang/String;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setRoot(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/protobuf/Mixin;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Mixin;->clearRoot()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Mixin;->clearRoot()V    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/protobuf/Mixin;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setRootBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Mixin;->setRootBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
 .end method
 
 .method private clearName()V
@@ -205,11 +162,7 @@
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;    return-void
 .end method
 
 .method private clearRoot()V
@@ -232,22 +185,14 @@
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;    return-void
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/protobuf/Mixin;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Mixin;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Mixin;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Mixin;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Mixin;    return-object v0
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/protobuf/Mixin$Builder;
@@ -495,11 +440,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;    return-void
 .end method
 
 .method private setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -524,11 +465,7 @@
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;    return-void
 .end method
 
 .method private setRoot(Ljava/lang/String;)V
@@ -540,11 +477,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;    return-void
 .end method
 
 .method private setRootBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -569,11 +502,7 @@
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;    return-void
 .end method
 
 
@@ -709,11 +638,7 @@
 
     .line 54
     :pswitch_3
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Mixin;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Mixin;
-
-    .line 55
-    .line 56
-    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Mixin;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Mixin;    return-object p1
 
     .line 57
     :pswitch_4
@@ -766,12 +691,7 @@
 
     .line 79
     .line 80
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/Mixin$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Mixin$1;)V
-
-    .line 81
-    .line 82
-    .line 83
-    return-object p1
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/Mixin$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Mixin$1;)V    return-object p1
 
     .line 84
     :pswitch_6
@@ -779,12 +699,7 @@
 
     .line 85
     .line 86
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Mixin;-><init>()V
-
-    .line 87
-    .line 88
-    .line 89
-    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Mixin;-><init>()V    return-object p1
 
     .line 90
     nop
@@ -799,44 +714,13 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    .end packed-switch.end method
 
 .method public getName()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->name_:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -861,11 +745,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Mixin;->root_:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getRootBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -885,5 +765,4 @@
 
     return-object v0
 .end method
-
 .end class

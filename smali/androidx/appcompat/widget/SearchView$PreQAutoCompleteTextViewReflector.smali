@@ -178,11 +178,7 @@
 
     .line 4
     .line 5
-    if-ge v0, v1, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-ge v0, v1, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -199,15 +195,7 @@
     .line 13
     .line 14
     .line 15
-    throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 
 # virtual methods
@@ -332,5 +320,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

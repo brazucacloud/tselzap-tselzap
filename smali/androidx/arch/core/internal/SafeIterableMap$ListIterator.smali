@@ -75,11 +75,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/arch/core/internal/SafeIterableMap$ListIterator;->mNext:Landroidx/arch/core/internal/SafeIterableMap$Entry;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/arch/core/internal/SafeIterableMap$ListIterator;->mNext:Landroidx/arch/core/internal/SafeIterableMap$Entry;    return-void
 .end method
 
 .method private nextNode()Landroidx/arch/core/internal/SafeIterableMap$Entry;
@@ -300,5 +296,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

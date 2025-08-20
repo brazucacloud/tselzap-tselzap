@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -56,12 +51,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onSearchClicked()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onSearchClicked()V    return-void
 
     .line 11
     :cond_0
@@ -73,12 +63,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onCloseClicked()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onCloseClicked()V    return-void
 
     .line 19
     :cond_1
@@ -90,12 +75,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onSubmitQuery()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onSubmitQuery()V    return-void
 
     .line 27
     :cond_2
@@ -107,12 +87,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onVoiceClicked()V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onVoiceClicked()V    return-void
 
     .line 35
     :cond_3
@@ -132,5 +107,4 @@
     :cond_4
     return-void
 .end method
-
 .end class

@@ -24,12 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
@@ -56,12 +51,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V    return-void
 
     .line 11
     :cond_0
@@ -159,12 +149,7 @@
 
     .line 55
     :cond_2
-    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils;->hiddenAnimateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
-
-    .line 56
-    .line 57
-    .line 58
-    return-void
+    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils;->hiddenAnimateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V    return-void
 .end method
 
 .method private static fetchDrawMatrixField()V
@@ -256,12 +241,7 @@
     :try_start_0
     invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
     :try_end_0
-    .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 9
     :catch_0
@@ -275,5 +255,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

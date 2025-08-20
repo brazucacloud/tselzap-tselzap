@@ -94,12 +94,6 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v1, v2}, Landroidx/transition/TransitionSet;->addTransition(Landroidx/transition/Transition;)Landroidx/transition/TransitionSet;
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {v1, v2}, Landroidx/transition/TransitionSet;->addTransition(Landroidx/transition/Transition;)Landroidx/transition/TransitionSet;    return-void
 .end method
-
 .end class

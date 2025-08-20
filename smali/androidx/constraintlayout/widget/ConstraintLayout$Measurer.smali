@@ -49,11 +49,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/constraintlayout/widget/ConstraintLayout$Measurer;->mLayout:Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/widget/ConstraintLayout$Measurer;->mLayout:Landroidx/constraintlayout/widget/ConstraintLayout;    return-void
 .end method
 
 .method private isSimilarSpec(III)Z
@@ -63,11 +59,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p1, p2, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p1, p2, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -116,11 +108,7 @@
     .line 26
     .line 27
     :cond_1
-    if-ne p3, p2, :cond_2
-
-    .line 28
-    .line 29
-    return v0
+    if-ne p3, p2, :cond_2    return v0
 
     .line 30
     :cond_2
@@ -155,11 +143,7 @@
 
     .line 10
     .line 11
-    iput p2, p0, Landroidx/constraintlayout/widget/ConstraintLayout$Measurer;->mLayoutHeightSpec:I
-
-    .line 12
-    .line 13
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/widget/ConstraintLayout$Measurer;->mLayoutHeightSpec:I    return-void
 .end method
 
 .method public final didMeasures()V
@@ -373,11 +357,7 @@
 
     .line 29
     .line 30
-    iput v5, v2, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredBaseline:I
-
-    .line 31
-    .line 32
-    return-void
+    iput v5, v2, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredBaseline:I    return-void
 
     .line 33
     :cond_1
@@ -1301,11 +1281,7 @@
     move-result v1
 
     .line 457
-    iput v1, v2, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredBaseline:I
-
-    .line 458
-    .line 459
-    return-void
+    iput v1, v2, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredBaseline:I    return-void
 
     .line 460
     :cond_18
@@ -2087,5 +2063,4 @@
     :goto_1f
     return-void
 .end method
-
 .end class

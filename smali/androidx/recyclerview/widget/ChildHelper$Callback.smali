@@ -47,5 +47,4 @@
 
 .method public abstract removeViewAt(I)V
 .end method
-
 .end class

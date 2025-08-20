@@ -51,19 +51,11 @@
 
     .line 22
     :cond_0
-    const/16 p0, 0x259
-
-    .line 23
-    .line 24
-    return p0
+    const/16 p0, 0x259    return p0
 
     .line 25
     :cond_1
-    const/16 p0, 0x258
-
-    .line 26
-    .line 27
-    return p0
+    const/16 p0, 0x258    return p0
 .end method
 
 .method public static b(I)I
@@ -102,5 +94,4 @@
 
     return p0
 .end method
-
 .end class

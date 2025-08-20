@@ -21,12 +21,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -247,12 +242,7 @@
     move-result p2
 
     .line 34
-    invoke-virtual {p0, p1, v1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addFixed32(Ljava/lang/Object;II)V
-
-    .line 35
-    .line 36
-    .line 37
-    return v2
+    invoke-virtual {p0, p1, v1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addFixed32(Ljava/lang/Object;II)V    return v2
 
     .line 38
     :cond_0
@@ -315,12 +305,7 @@
     move-result-object p2
 
     .line 66
-    invoke-virtual {p0, p1, v1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addGroup(Ljava/lang/Object;ILjava/lang/Object;)V
-
-    .line 67
-    .line 68
-    .line 69
-    return v2
+    invoke-virtual {p0, p1, v1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addGroup(Ljava/lang/Object;ILjava/lang/Object;)V    return v2
 
     .line 70
     :cond_3
@@ -344,12 +329,7 @@
     move-result-object p2
 
     .line 79
-    invoke-virtual {p0, p1, v1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addLengthDelimited(Ljava/lang/Object;ILandroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 80
-    .line 81
-    .line 82
-    return v2
+    invoke-virtual {p0, p1, v1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addLengthDelimited(Ljava/lang/Object;ILandroidx/datastore/preferences/protobuf/ByteString;)V    return v2
 
     .line 83
     :cond_5
@@ -361,12 +341,7 @@
     move-result-wide v3
 
     .line 87
-    invoke-virtual {p0, p1, v1, v3, v4}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addFixed64(Ljava/lang/Object;IJ)V
-
-    .line 88
-    .line 89
-    .line 90
-    return v2
+    invoke-virtual {p0, p1, v1, v3, v4}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addFixed64(Ljava/lang/Object;IJ)V    return v2
 
     .line 91
     :cond_6
@@ -378,12 +353,7 @@
     move-result-wide v3
 
     .line 95
-    invoke-virtual {p0, p1, v1, v3, v4}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addVarint(Ljava/lang/Object;IJ)V
-
-    .line 96
-    .line 97
-    .line 98
-    return v2
+    invoke-virtual {p0, p1, v1, v3, v4}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->addVarint(Ljava/lang/Object;IJ)V    return v2
 .end method
 
 .method public abstract newBuilder()Ljava/lang/Object;
@@ -444,5 +414,4 @@
         }
     .end annotation
 .end method
-
 .end class

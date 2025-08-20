@@ -22,12 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static beginAsyncSection(Ljava/lang/String;I)V
@@ -55,22 +50,12 @@
     invoke-static {p0, p1}, Landroidx/tracing/TraceApi29Impl;->beginAsyncSection(Ljava/lang/String;I)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 9
     :catch_0
     :cond_0
-    invoke-static {p0, p1}, Landroidx/tracing/Trace;->beginAsyncSectionFallback(Ljava/lang/String;I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-static {p0, p1}, Landroidx/tracing/Trace;->beginAsyncSectionFallback(Ljava/lang/String;I)V    return-void
 .end method
 
 .method private static beginAsyncSectionFallback(Ljava/lang/String;I)V
@@ -207,21 +192,11 @@
     .line 57
     invoke-virtual {v5, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 58
-    .line 59
-    .line 60
-    return-void
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 61
     :goto_1
-    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return-void
 .end method
 
 .method public static beginSection(Ljava/lang/String;)V
@@ -232,12 +207,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/tracing/TraceApi18Impl;->beginSection(Ljava/lang/String;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0}, Landroidx/tracing/TraceApi18Impl;->beginSection(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static endAsyncSection(Ljava/lang/String;I)V
@@ -265,22 +235,12 @@
     invoke-static {p0, p1}, Landroidx/tracing/TraceApi29Impl;->endAsyncSection(Ljava/lang/String;I)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 9
     :catch_0
     :cond_0
-    invoke-static {p0, p1}, Landroidx/tracing/Trace;->endAsyncSectionFallback(Ljava/lang/String;I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-static {p0, p1}, Landroidx/tracing/Trace;->endAsyncSectionFallback(Ljava/lang/String;I)V    return-void
 .end method
 
 .method private static endAsyncSectionFallback(Ljava/lang/String;I)V
@@ -417,33 +377,18 @@
     .line 57
     invoke-virtual {v5, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 58
-    .line 59
-    .line 60
-    return-void
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 61
     :goto_1
-    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return-void
 .end method
 
 .method public static endSection()V
     .locals 0
 
     .line 1
-    invoke-static {}, Landroidx/tracing/TraceApi18Impl;->endSection()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {}, Landroidx/tracing/TraceApi18Impl;->endSection()V    return-void
 .end method
 
 .method private static handleException(Ljava/lang/String;Ljava/lang/Exception;)V
@@ -542,12 +487,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, p0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-static {v0, p0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I    return-void
 .end method
 
 .method public static isEnabled()Z
@@ -732,12 +672,7 @@
 
     .line 62
     :goto_1
-    invoke-static {v2, v0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return v1
+    invoke-static {v2, v0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return v1
 .end method
 
 .method public static setCounter(Ljava/lang/String;I)V
@@ -765,22 +700,12 @@
     invoke-static {p0, p1}, Landroidx/tracing/TraceApi29Impl;->setCounter(Ljava/lang/String;I)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 9
     :catch_0
     :cond_0
-    invoke-static {p0, p1}, Landroidx/tracing/Trace;->setCounterFallback(Ljava/lang/String;I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-static {p0, p1}, Landroidx/tracing/Trace;->setCounterFallback(Ljava/lang/String;I)V    return-void
 .end method
 
 .method private static setCounterFallback(Ljava/lang/String;I)V
@@ -917,21 +842,10 @@
     .line 57
     invoke-virtual {v5, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 58
-    .line 59
-    .line 60
-    return-void
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 61
     :goto_1
-    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return-void
 .end method
-
 .end class

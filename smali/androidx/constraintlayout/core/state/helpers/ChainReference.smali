@@ -154,11 +154,7 @@
 
     .line 30
     .line 31
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/ChainReference;->mStyle:Landroidx/constraintlayout/core/state/State$Chain;
-
-    .line 32
-    .line 33
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/ChainReference;->mStyle:Landroidx/constraintlayout/core/state/State$Chain;    return-void
 .end method
 
 
@@ -360,11 +356,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/ChainReference;->mBias:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/ChainReference;->mBias:F    return v0
 .end method
 
 .method public getPostGoneMargin(Ljava/lang/String;)F
@@ -605,11 +597,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Chain;->SPREAD:Landroidx/constraintlayout/core/state/State$Chain;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Chain;->SPREAD:Landroidx/constraintlayout/core/state/State$Chain;    return-object v0
 .end method
 
 .method public getWeight(Ljava/lang/String;)F
@@ -663,11 +651,7 @@
 
     .line 22
     :cond_0
-    const/high16 p1, -0x40800000    # -1.0f
-
-    .line 23
-    .line 24
-    return p1
+    const/high16 p1, -0x40800000    # -1.0f    return p1
 .end method
 
 .method public style(Landroidx/constraintlayout/core/state/State$Chain;)Landroidx/constraintlayout/core/state/helpers/ChainReference;
@@ -680,11 +664,6 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/ChainReference;->mStyle:Landroidx/constraintlayout/core/state/State$Chain;
-
-    .line 2
-    .line 3
-    return-object p0
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/ChainReference;->mStyle:Landroidx/constraintlayout/core/state/State$Chain;    return-object p0
 .end method
-
 .end class

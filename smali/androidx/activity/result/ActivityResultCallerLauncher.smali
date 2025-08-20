@@ -96,11 +96,7 @@
     move-result-object p1
 
     .line 19
-    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->resultContract$delegate:Lc1/d;
-
-    .line 20
-    .line 21
-    return-void
+    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->resultContract$delegate:Lc1/d;    return-void
 .end method
 
 
@@ -116,11 +112,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->callerContract:Landroidx/activity/result/contract/ActivityResultContract;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->callerContract:Landroidx/activity/result/contract/ActivityResultContract;    return-object v0
 .end method
 
 .method public final getCallerInput()Ljava/lang/Object;
@@ -132,11 +124,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->callerInput:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->callerInput:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getContract()Landroidx/activity/result/contract/ActivityResultContract;
@@ -172,11 +160,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->launcher:Landroidx/activity/result/ActivityResultLauncher;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->launcher:Landroidx/activity/result/ActivityResultLauncher;    return-object v0
 .end method
 
 .method public final getResultContract()Landroidx/activity/result/contract/ActivityResultContract;
@@ -203,11 +187,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Landroidx/activity/result/contract/ActivityResultContract;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/activity/result/contract/ActivityResultContract;    return-object v0
 .end method
 
 .method public launch(Lc1/v;Landroidx/core/app/ActivityOptionsCompat;)V
@@ -242,12 +222,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;->unregister()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;->unregister()V    return-void
 .end method
-
 .end class

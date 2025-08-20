@@ -49,11 +49,7 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroidx/appcompat/view/menu/ExpandedMenuView;->TINT_ATTRS:[I
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/appcompat/view/menu/ExpandedMenuView;->TINT_ATTRS:[I    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -129,22 +125,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/view/menu/ExpandedMenuView;->mAnimations:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/view/menu/ExpandedMenuView;->mAnimations:I    return v0
 .end method
 
 .method public initialize(Landroidx/appcompat/view/menu/MenuBuilder;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/ExpandedMenuView;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/ExpandedMenuView;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-void
 .end method
 
 .method public invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
@@ -180,12 +168,7 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->setChildrenDrawingCacheEnabled(Z)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->setChildrenDrawingCacheEnabled(Z)V    return-void
 .end method
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
@@ -212,12 +195,6 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/ExpandedMenuView;->invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/ExpandedMenuView;->invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z    return-void
 .end method
-
 .end class

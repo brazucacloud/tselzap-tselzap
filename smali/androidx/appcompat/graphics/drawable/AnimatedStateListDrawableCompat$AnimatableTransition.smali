@@ -31,11 +31,7 @@
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatableTransition;->mA:Landroid/graphics/drawable/Animatable;
-
-    .line 6
-    .line 7
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatableTransition;->mA:Landroid/graphics/drawable/Animatable;    return-void
 .end method
 
 
@@ -48,12 +44,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->start()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->start()V    return-void
 .end method
 
 .method public stop()V
@@ -64,12 +55,6 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V    return-void
 .end method
-
 .end class

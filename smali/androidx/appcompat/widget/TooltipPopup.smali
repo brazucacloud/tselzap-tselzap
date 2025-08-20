@@ -212,11 +212,7 @@
 
     .line 86
     .line 87
-    iput p1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
-
-    .line 88
-    .line 89
-    return-void
+    iput p1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I    return-void
 .end method
 
 .method private computePosition(Landroid/view/View;IIZLandroid/view/WindowManager$LayoutParams;)V
@@ -415,12 +411,7 @@
 
     .line 90
     .line 91
-    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 92
-    .line 93
-    .line 94
-    return-void
+    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 95
     :cond_3
@@ -672,19 +663,11 @@
 
     .line 213
     .line 214
-    iput p3, p5, Landroid/view/WindowManager$LayoutParams;->y:I
-
-    .line 215
-    .line 216
-    return-void
+    iput p3, p5, Landroid/view/WindowManager$LayoutParams;->y:I    return-void
 
     .line 217
     :cond_6
-    iput p2, p5, Landroid/view/WindowManager$LayoutParams;->y:I
-
-    .line 218
-    .line 219
-    return-void
+    iput p2, p5, Landroid/view/WindowManager$LayoutParams;->y:I    return-void
 
     .line 220
     :cond_7
@@ -707,19 +690,11 @@
 
     .line 228
     .line 229
-    iput p2, p5, Landroid/view/WindowManager$LayoutParams;->y:I
-
-    .line 230
-    .line 231
-    return-void
+    iput p2, p5, Landroid/view/WindowManager$LayoutParams;->y:I    return-void
 
     .line 232
     :cond_8
-    iput p3, p5, Landroid/view/WindowManager$LayoutParams;->y:I
-
-    .line 233
-    .line 234
-    return-void
+    iput p3, p5, Landroid/view/WindowManager$LayoutParams;->y:I    return-void
 .end method
 
 .method private static getAppRootView(Landroid/view/View;)Landroid/view/View;
@@ -851,11 +826,7 @@
     move-result v0
 
     .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -883,12 +854,7 @@
 
     .line 19
     .line 20
-    invoke-interface {v0, v1}, Landroid/view/ViewManager;->removeView(Landroid/view/View;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-interface {v0, v1}, Landroid/view/ViewManager;->removeView(Landroid/view/View;)V    return-void
 .end method
 
 .method public isShowing()Z
@@ -1005,12 +971,6 @@
 
     .line 38
     .line 39
-    invoke-interface {p1, p2, p3}, Landroid/view/ViewManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-interface {p1, p2, p3}, Landroid/view/ViewManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
-
 .end class

@@ -44,11 +44,7 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->TINT_ATTRS:[I
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->TINT_ATTRS:[I    return-void
 .end method
 
 .method public constructor <init>(Landroid/widget/ProgressBar;)V
@@ -60,11 +56,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->mView:Landroid/widget/ProgressBar;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->mView:Landroid/widget/ProgressBar;    return-void
 .end method
 
 .method private getDrawableShape()Landroid/graphics/drawable/shapes/Shape;
@@ -91,12 +83,7 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-direct {v1, v0, v2, v2}, Landroid/graphics/drawable/shapes/RoundRectShape;-><init>([FLandroid/graphics/RectF;[F)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object v1
+    invoke-direct {v1, v0, v2, v2}, Landroid/graphics/drawable/shapes/RoundRectShape;-><init>([FLandroid/graphics/RectF;[F)V    return-object v1
 
     .line 15
     :array_0
@@ -109,15 +96,7 @@
         0x40a00000    # 5.0f
         0x40a00000    # 5.0f
         0x40a00000    # 5.0f
-    .end array-data
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    .end array-data.end method
 
 .method private tileifyIndeterminate(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
     .locals 6
@@ -222,12 +201,7 @@
 
     .line 50
     :cond_0
-    invoke-virtual {v1, v3}, Landroid/graphics/drawable/Drawable;->setLevel(I)Z
-
-    .line 51
-    .line 52
-    .line 53
-    return-object v1
+    invoke-virtual {v1, v3}, Landroid/graphics/drawable/Drawable;->setLevel(I)Z    return-object v1
 
     .line 54
     :cond_1
@@ -240,11 +214,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->mSampleTile:Landroid/graphics/Bitmap;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->mSampleTile:Landroid/graphics/Bitmap;    return-object v0
 .end method
 
 .method public loadFromAttributes(Landroid/util/AttributeSet;I)V
@@ -341,12 +311,7 @@
     .line 44
     .line 45
     :cond_1
-    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
 .end method
 
 .method public tileify(Landroid/graphics/drawable/Drawable;Z)Landroid/graphics/drawable/Drawable;
@@ -390,12 +355,7 @@
     move-result-object p2
 
     .line 18
-    invoke-interface {v0, p2}, Landroidx/core/graphics/drawable/WrappedDrawable;->setWrappedDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object p1
+    invoke-interface {v0, p2}, Landroidx/core/graphics/drawable/WrappedDrawable;->setWrappedDrawable(Landroid/graphics/drawable/Drawable;)V    return-object p1
 
     .line 22
     :cond_0
@@ -684,12 +644,7 @@
     const/4 p2, 0x3
 
     .line 158
-    invoke-direct {p1, v2, p2, v1}, Landroid/graphics/drawable/ClipDrawable;-><init>(Landroid/graphics/drawable/Drawable;II)V
-
-    .line 159
-    .line 160
-    .line 161
-    return-object p1
+    invoke-direct {p1, v2, p2, v1}, Landroid/graphics/drawable/ClipDrawable;-><init>(Landroid/graphics/drawable/Drawable;II)V    return-object p1
 
     .line 162
     :cond_8
@@ -699,5 +654,4 @@
     :cond_9
     return-object p1
 .end method
-
 .end class

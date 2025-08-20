@@ -175,11 +175,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I    return v0
 .end method
 
 .method public final getDetectDarkMode$activity_release()Lp1/l;
@@ -192,22 +188,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Lp1/l;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Lp1/l;    return-object v0
 .end method
 
 .method public final getNightMode$activity_release()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/SystemBarStyle;->nightMode:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/activity/SystemBarStyle;->nightMode:I    return v0
 .end method
 
 .method public final getScrim$activity_release(Z)I
@@ -218,19 +206,11 @@
 
     .line 2
     .line 3
-    iget p1, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I
-
-    .line 4
-    .line 5
-    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I    return p1
 
     .line 6
     :cond_0
-    iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I
-
-    .line 7
-    .line 8
-    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I    return p1
 .end method
 
 .method public final getScrimWithEnforcedContrast$activity_release(Z)I
@@ -255,19 +235,10 @@
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I
-
-    .line 10
-    .line 11
-    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I    return p1
 
     .line 12
     :cond_1
-    iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I
-
-    .line 13
-    .line 14
-    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I    return p1
 .end method
-
 .end class

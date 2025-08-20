@@ -84,11 +84,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/navigation/NavArgsLazy;->argumentProducer:Lp1/a;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/navigation/NavArgsLazy;->argumentProducer:Lp1/a;    return-void
 .end method
 
 
@@ -231,5 +227,4 @@
 
     return v0
 .end method
-
 .end class

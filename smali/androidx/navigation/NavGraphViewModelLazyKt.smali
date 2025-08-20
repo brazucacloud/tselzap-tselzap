@@ -402,11 +402,7 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/navigation/NavBackStackEntry;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/navigation/NavBackStackEntry;    return-object p0
 .end method
 
 .method private static final navGraphViewModels$lambda-1(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
@@ -429,11 +425,7 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/navigation/NavBackStackEntry;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/navigation/NavBackStackEntry;    return-object p0
 .end method
 
 .method private static final navGraphViewModels$lambda-2(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
@@ -456,11 +448,7 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/navigation/NavBackStackEntry;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/navigation/NavBackStackEntry;    return-object p0
 .end method
 
 .method private static final navGraphViewModels$lambda-3(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
@@ -483,11 +471,6 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/navigation/NavBackStackEntry;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/navigation/NavBackStackEntry;    return-object p0
 .end method
-
 .end class

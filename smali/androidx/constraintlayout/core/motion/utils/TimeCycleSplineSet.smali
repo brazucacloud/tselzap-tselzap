@@ -133,11 +133,7 @@
 
     .line 39
     .line 40
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mLastCycle:F
-
-    .line 41
-    .line 42
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mLastCycle:F    return-void
 .end method
 
 
@@ -318,29 +314,13 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    .end packed-switch.end method
 
 .method public getCurveFit()Landroidx/constraintlayout/core/motion/utils/CurveFit;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-object v0
 .end method
 
 .method public setPoint(IFFIF)V
@@ -411,33 +391,21 @@
     add-int/2addr p1, p2
 
     .line 31
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCount:I
-
-    .line 32
-    .line 33
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCount:I    return-void
 .end method
 
 .method public setStartTime(J)V
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mLastTime:J
-
-    .line 2
-    .line 3
-    return-void
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mLastTime:J    return-void
 .end method
 
 .method public setType(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mType:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mType:Ljava/lang/String;    return-void
 .end method
 
 .method public setup(I)V
@@ -486,12 +454,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {p1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 
     .line 27
     :cond_0
@@ -745,11 +708,7 @@
     move-result-object p1
 
     .line 141
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 142
-    .line 143
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -867,5 +826,4 @@
     :cond_0
     return-object v0
 .end method
-
 .end class

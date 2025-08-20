@@ -64,11 +64,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;    return-void
 .end method
 
 
@@ -141,12 +137,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public clearListeners()V
@@ -157,12 +148,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V    return-void
 .end method
 
 .method public fireNewValue(II)V
@@ -512,5 +498,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -50,11 +50,7 @@
     move-result-object p1
 
     .line 14
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;    return-void
 .end method
 
 
@@ -85,12 +81,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->mark()Ljava/nio/Buffer;
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->mark()Ljava/nio/Buffer;    return-void
 .end method
 
 .method public markSupported()Z
@@ -177,12 +168,7 @@
     .line 3
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->reset()Ljava/nio/Buffer;
     :try_end_0
-    .catch Ljava/nio/InvalidMarkException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    .catch Ljava/nio/InvalidMarkException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 7
     :catch_0
@@ -198,16 +184,5 @@
     .line 11
     .line 12
     .line 13
-    throw v1
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v1.end method
 .end class

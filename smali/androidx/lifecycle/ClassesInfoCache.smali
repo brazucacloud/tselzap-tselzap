@@ -65,11 +65,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/lifecycle/ClassesInfoCache;->sInstance:Landroidx/lifecycle/ClassesInfoCache;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/lifecycle/ClassesInfoCache;->sInstance:Landroidx/lifecycle/ClassesInfoCache;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -103,11 +99,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/lifecycle/ClassesInfoCache;->mHasLifecycleMethods:Ljava/util/Map;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/ClassesInfoCache;->mHasLifecycleMethods:Ljava/util/Map;    return-void
 .end method
 
 .method private createInfo(Ljava/lang/Class;[Ljava/lang/reflect/Method;)Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;
@@ -584,12 +576,7 @@
     move-result-object v1
 
     .line 212
-    invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 213
-    .line 214
-    .line 215
-    return-object p2
+    invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-object p2
 .end method
 
 .method private getDeclaredMethods(Ljava/lang/Class;)[Ljava/lang/reflect/Method;
@@ -634,21 +621,7 @@
     .line 12
     .line 13
     .line 14
-    throw v0
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw v0.end method
 
 .method private verifyAndPutHandler(Ljava/util/Map;Landroidx/lifecycle/ClassesInfoCache$MethodReference;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Class;)V
     .locals 3
@@ -836,11 +809,7 @@
 
     .line 8
     .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -972,12 +941,6 @@
 
     .line 48
     .line 49
-    invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 50
-    .line 51
-    .line 52
-    return v2
+    invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return v2
 .end method
-
 .end class

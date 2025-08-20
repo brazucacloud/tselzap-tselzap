@@ -34,11 +34,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->mByteOrder:Ljava/nio/ByteOrder;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->mByteOrder:Ljava/nio/ByteOrder;    return-void
 .end method
 
 
@@ -47,11 +43,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->mByteOrder:Ljava/nio/ByteOrder;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->mByteOrder:Ljava/nio/ByteOrder;    return-void
 .end method
 
 .method public write([B)V
@@ -84,12 +76,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V    return-void
 .end method
 
 .method public writeInt(I)V
@@ -167,12 +154,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V    return-void
 
     .line 42
     :cond_0
@@ -293,12 +275,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V    return-void
 
     .line 24
     :cond_0
@@ -351,12 +328,7 @@
     long-to-int p2, p1
 
     .line 2
-    invoke-virtual {p0, p2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeInt(I)V    return-void
 .end method
 
 .method public writeUnsignedShort(I)V
@@ -366,12 +338,6 @@
     int-to-short p1, p1
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeShort(S)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeShort(S)V    return-void
 .end method
-
 .end class

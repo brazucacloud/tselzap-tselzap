@@ -52,11 +52,7 @@
 
     .line 10
     .line 11
-    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$Generator;->mCurrent:F
-
-    .line 12
-    .line 13
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$Generator;->mCurrent:F    return-void
 .end method
 
 
@@ -89,11 +85,6 @@
     .line 11
     .line 12
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$Generator;->mCurrent:F
-
-    .line 13
-    .line 14
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$Generator;->mCurrent:F    return v0
 .end method
-
 .end class

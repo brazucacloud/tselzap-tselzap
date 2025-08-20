@@ -51,11 +51,7 @@
     .line 14
     .line 15
     .line 16
-    sput v0, Landroidx/graphics/shapes/Utils;->TwoPi:F
-
-    .line 17
-    .line 18
-    return-void
+    sput v0, Landroidx/graphics/shapes/Utils;->TwoPi:F    return-void
 .end method
 
 .method public static final angle(FF)F
@@ -357,33 +353,21 @@
     .locals 1
 
     .line 1
-    sget v0, Landroidx/graphics/shapes/Utils;->FloatPi:F
-
-    .line 2
-    .line 3
-    return v0
+    sget v0, Landroidx/graphics/shapes/Utils;->FloatPi:F    return v0
 .end method
 
 .method public static final getTwoPi()F
     .locals 1
 
     .line 1
-    sget v0, Landroidx/graphics/shapes/Utils;->TwoPi:F
-
-    .line 2
-    .line 3
-    return v0
+    sget v0, Landroidx/graphics/shapes/Utils;->TwoPi:F    return v0
 .end method
 
 .method public static final getZero()J
     .locals 2
 
     .line 1
-    sget-wide v0, Landroidx/graphics/shapes/Utils;->Zero:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    sget-wide v0, Landroidx/graphics/shapes/Utils;->Zero:J    return-wide v0
 .end method
 
 .method public static final interpolate(FFF)F
@@ -513,5 +497,4 @@
 
     return p0
 .end method
-
 .end class

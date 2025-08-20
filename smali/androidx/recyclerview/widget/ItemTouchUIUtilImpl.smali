@@ -24,23 +24,14 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;->INSTANCE:Landroidx/recyclerview/widget/ItemTouchUIUtil;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;->INSTANCE:Landroidx/recyclerview/widget/ItemTouchUIUtil;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private static findMaxElevation(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;)F
@@ -178,12 +169,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
@@ -269,12 +255,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p3, p5}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p3, p5}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
@@ -304,5 +285,4 @@
 
     return-void
 .end method
-
 .end class

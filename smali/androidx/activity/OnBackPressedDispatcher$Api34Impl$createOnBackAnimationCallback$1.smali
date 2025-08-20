@@ -82,12 +82,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -100,12 +95,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;    return-void
 .end method
 
 .method public onBackInvoked()V
@@ -116,12 +106,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;    return-void
 .end method
 
 .method public onBackProgressed(Landroid/window/BackEvent;)V
@@ -150,12 +135,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-interface {v0, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public onBackStarted(Landroid/window/BackEvent;)V
@@ -184,12 +164,6 @@
     .line 11
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-interface {v0, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

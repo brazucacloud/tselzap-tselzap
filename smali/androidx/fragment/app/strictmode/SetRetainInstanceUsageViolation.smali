@@ -43,12 +43,6 @@
     move-result-object v0
 
     .line 20
-    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/strictmode/RetainInstanceUsageViolation;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/strictmode/RetainInstanceUsageViolation;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V    return-void
 .end method
-
 .end class

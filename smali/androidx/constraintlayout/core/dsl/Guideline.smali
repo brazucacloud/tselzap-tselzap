@@ -50,11 +50,7 @@
 
     .line 18
     .line 19
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mPercent:F
-
-    .line 20
-    .line 21
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mPercent:F    return-void
 .end method
 
 
@@ -63,33 +59,21 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mEnd:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mEnd:I    return v0
 .end method
 
 .method public getPercent()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mPercent:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mPercent:F    return v0
 .end method
 
 .method public getStart()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mStart:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Guideline;->mStart:I    return v0
 .end method
 
 .method public setEnd(I)V
@@ -116,12 +100,7 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public setPercent(F)V
@@ -148,12 +127,7 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public setStart(I)V
@@ -180,12 +154,6 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

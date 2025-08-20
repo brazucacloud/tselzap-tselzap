@@ -127,12 +127,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->resetGroup()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->resetGroup()V    return-void
 .end method
 
 .method private getShortcut(Ljava/lang/String;)C
@@ -142,11 +137,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-nez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -729,12 +720,7 @@
     move-result-object v0
 
     .line 18
-    invoke-direct {p0, v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->setItem(Landroid/view/MenuItem;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-direct {p0, v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->setItem(Landroid/view/MenuItem;)V    return-void
 .end method
 
 .method public addSubMenuItem()Landroid/view/SubMenu;
@@ -784,23 +770,14 @@
     move-result-object v1
 
     .line 22
-    invoke-direct {p0, v1}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->setItem(Landroid/view/MenuItem;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object v0
+    invoke-direct {p0, v1}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->setItem(Landroid/view/MenuItem;)V    return-object v0
 .end method
 
 .method public hasAddedItem()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->itemAdded:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->itemAdded:Z    return v0
 .end method
 
 .method public readGroup(Landroid/util/AttributeSet;)V
@@ -929,12 +906,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 .method public readItem(Landroid/util/AttributeSet;)V
@@ -1562,11 +1534,7 @@
     .line 299
     .line 300
     .line 301
-    iput-boolean v1, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->itemAdded:Z
-
-    .line 302
-    .line 303
-    return-void
+    iput-boolean v1, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->itemAdded:Z    return-void
 .end method
 
 .method public resetGroup()V
@@ -1599,11 +1567,6 @@
 
     .line 12
     .line 13
-    iput-boolean v0, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->groupEnabled:Z
-
-    .line 14
-    .line 15
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->groupEnabled:Z    return-void
 .end method
-
 .end class

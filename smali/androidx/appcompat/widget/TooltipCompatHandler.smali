@@ -140,12 +140,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p1, p0}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-virtual {p1, p0}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V    return-void
 .end method
 
 .method public static synthetic a(Landroidx/appcompat/widget/TooltipCompatHandler;)V
@@ -169,12 +164,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z    return-void
 .end method
 
 .method private forceNextChangeSignificant()V
@@ -184,11 +174,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/appcompat/widget/TooltipCompatHandler;->mForceNextChangeSignificant:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/TooltipCompatHandler;->mForceNextChangeSignificant:Z    return-void
 .end method
 
 .method private synthetic lambda$new$0()V
@@ -198,12 +184,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->show(Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->show(Z)V    return-void
 .end method
 
 .method private scheduleShow()V
@@ -229,12 +210,7 @@
     int-to-long v2, v2
 
     .line 10
-    invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 .end method
 
 .method private static setPendingHandler(Landroidx/appcompat/widget/TooltipCompatHandler;)V
@@ -348,12 +324,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V    return-void
 
     .line 41
     :cond_2
@@ -361,12 +332,7 @@
 
     .line 42
     .line 43
-    invoke-direct {v0, p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;-><init>(Landroid/view/View;Ljava/lang/CharSequence;)V
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-direct {v0, p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;-><init>(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method private updateAnchorPos(Landroid/view/MotionEvent;)Z
@@ -573,12 +539,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z    return-void
 .end method
 
 .method public onHover(Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -600,11 +561,7 @@
 
     .line 7
     .line 8
-    if-eqz p1, :cond_0
-
-    .line 9
-    .line 10
-    return v0
+    if-eqz p1, :cond_0    return v0
 
     .line 11
     :cond_0
@@ -656,11 +613,7 @@
     move-result p1
 
     .line 35
-    if-eqz p1, :cond_1
-
-    .line 36
-    .line 37
-    return v0
+    if-eqz p1, :cond_1    return v0
 
     .line 38
     :cond_1
@@ -790,12 +743,7 @@
     const/4 p1, 0x1
 
     .line 18
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;->show(Z)V
-
-    .line 19
-    .line 20
-    .line 21
-    return p1
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;->show(Z)V    return p1
 .end method
 
 .method public onViewAttachedToWindow(Landroid/view/View;)V
@@ -808,12 +756,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V    return-void
 .end method
 
 .method public show(Z)V
@@ -832,11 +775,7 @@
     move-result v0
 
     .line 7
-    if-nez v0, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 10
     :cond_0
@@ -1031,12 +970,6 @@
 
     .line 101
     .line 102
-    invoke-virtual {p1, v2, v0, v1}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 103
-    .line 104
-    .line 105
-    return-void
+    invoke-virtual {p1, v2, v0, v1}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 .end method
-
 .end class

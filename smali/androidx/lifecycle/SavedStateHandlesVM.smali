@@ -35,11 +35,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/lifecycle/SavedStateHandlesVM;->handles:Ljava/util/Map;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/SavedStateHandlesVM;->handles:Ljava/util/Map;    return-void
 .end method
 
 
@@ -57,11 +53,6 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesVM;->handles:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesVM;->handles:Ljava/util/Map;    return-object v0
 .end method
-
 .end class

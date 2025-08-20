@@ -21,34 +21,21 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/collection/SparseArrayCompatKt;->DELETED:Ljava/lang/Object;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/collection/SparseArrayCompatKt;->DELETED:Ljava/lang/Object;    return-void
 .end method
 
 .method public static final synthetic access$gc(Landroidx/collection/SparseArrayCompat;)V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/collection/SparseArrayCompatKt;->gc(Landroidx/collection/SparseArrayCompat;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0}, Landroidx/collection/SparseArrayCompatKt;->gc(Landroidx/collection/SparseArrayCompat;)V    return-void
 .end method
 
 .method public static final synthetic access$getDELETED$p()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/SparseArrayCompatKt;->DELETED:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/SparseArrayCompatKt;->DELETED:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public static final commonAppend(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)V
@@ -97,12 +84,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
 
     .line 22
     :cond_0
@@ -225,11 +207,7 @@
 
     .line 80
     .line 81
-    iput v0, p0, Landroidx/collection/SparseArrayCompat;->size:I
-
-    .line 82
-    .line 83
-    return-void
+    iput v0, p0, Landroidx/collection/SparseArrayCompat;->size:I    return-void
 .end method
 
 .method public static final commonClear(Landroidx/collection/SparseArrayCompat;)V
@@ -292,11 +270,7 @@
 
     .line 21
     .line 22
-    iput-boolean v2, p0, Landroidx/collection/SparseArrayCompat;->garbage:Z
-
-    .line 23
-    .line 24
-    return-void
+    iput-boolean v2, p0, Landroidx/collection/SparseArrayCompat;->garbage:Z    return-void
 .end method
 
 .method public static final commonContainsKey(Landroidx/collection/SparseArrayCompat;I)Z
@@ -640,11 +614,7 @@
 
     .line 21
     .line 22
-    if-ne v2, p1, :cond_1
-
-    .line 23
-    .line 24
-    return v1
+    if-ne v2, p1, :cond_1    return v1
 
     .line 25
     :cond_1
@@ -746,11 +716,7 @@
 
     .line 14
     .line 15
-    aget p0, p0, p1
-
-    .line 16
-    .line 17
-    return p0
+    aget p0, p0, p1    return p0
 .end method
 
 .method public static final commonPut(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)V
@@ -799,11 +765,7 @@
 
     .line 17
     .line 18
-    aput-object p2, p0, v0
-
-    .line 19
-    .line 20
-    return-void
+    aput-object p2, p0, v0    return-void
 
     .line 21
     :cond_0
@@ -850,11 +812,7 @@
 
     .line 41
     .line 42
-    aput-object p2, p0, v0
-
-    .line 43
-    .line 44
-    return-void
+    aput-object p2, p0, v0    return-void
 
     .line 45
     :cond_1
@@ -1043,11 +1001,7 @@
 
     .line 136
     .line 137
-    iput p1, p0, Landroidx/collection/SparseArrayCompat;->size:I
-
-    .line 138
-    .line 139
-    return-void
+    iput p1, p0, Landroidx/collection/SparseArrayCompat;->size:I    return-void
 .end method
 
 .method public static final commonPutAll(Landroidx/collection/SparseArrayCompat;Landroidx/collection/SparseArrayCompat;)V
@@ -1459,11 +1413,7 @@
 
     .line 23
     .line 24
-    aput-object p2, p0, v1
-
-    .line 25
-    .line 26
-    return-object v0
+    aput-object p2, p0, v1    return-object v0
 
     .line 27
     :cond_0
@@ -1510,11 +1460,7 @@
 
     .line 47
     .line 48
-    aput-object p2, p0, v1
-
-    .line 49
-    .line 50
-    return-object v0
+    aput-object p2, p0, v1    return-object v0
 
     .line 51
     :cond_1
@@ -2062,11 +2008,7 @@
 
     .line 14
     .line 15
-    aput-object p2, p0, p1
-
-    .line 16
-    .line 17
-    return-void
+    aput-object p2, p0, p1    return-void
 .end method
 
 .method public static final commonSize(Landroidx/collection/SparseArrayCompat;)I
@@ -2105,11 +2047,7 @@
     .line 12
     .line 13
     :cond_0
-    iget p0, p0, Landroidx/collection/SparseArrayCompat;->size:I
-
-    .line 14
-    .line 15
-    return p0
+    iget p0, p0, Landroidx/collection/SparseArrayCompat;->size:I    return p0
 .end method
 
 .method public static final commonToString(Landroidx/collection/SparseArrayCompat;)Ljava/lang/String;
@@ -2147,11 +2085,7 @@
 
     .line 11
     .line 12
-    const-string p0, "{}"
-
-    .line 13
-    .line 14
-    return-object p0
+    const-string p0, "{}"    return-object p0
 
     .line 15
     :cond_0
@@ -2326,11 +2260,7 @@
 
     .line 14
     .line 15
-    aget-object p0, p0, p1
-
-    .line 16
-    .line 17
-    return-object p0
+    aget-object p0, p0, p1    return-object p0
 .end method
 
 .method private static final gc(Landroidx/collection/SparseArrayCompat;)V
@@ -2425,11 +2355,7 @@
 
     .line 35
     .line 36
-    iput v5, p0, Landroidx/collection/SparseArrayCompat;->size:I
-
-    .line 37
-    .line 38
-    return-void
+    iput v5, p0, Landroidx/collection/SparseArrayCompat;->size:I    return-void
 .end method
 
 .method private static final internalGet(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)Ljava/lang/Object;
@@ -2492,5 +2418,4 @@
     :goto_0
     return-object p2
 .end method
-
 .end class

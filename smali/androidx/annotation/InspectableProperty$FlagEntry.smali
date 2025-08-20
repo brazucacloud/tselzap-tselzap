@@ -43,5 +43,4 @@
 
 .method public abstract target()I
 .end method
-
 .end class

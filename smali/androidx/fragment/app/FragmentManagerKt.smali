@@ -61,21 +61,11 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I    return-void
 
     .line 29
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I    return-void
 .end method
 
 .method public static synthetic commit$default(Landroidx/fragment/app/FragmentManager;ZLp1/l;ILjava/lang/Object;)V
@@ -138,21 +128,11 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
-
-    .line 31
-    .line 32
-    .line 33
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I    return-void
 
     .line 34
     :cond_1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I    return-void
 .end method
 
 .method public static final commitNow(Landroidx/fragment/app/FragmentManager;ZLp1/l;)V
@@ -215,21 +195,11 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V    return-void
 
     .line 29
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V    return-void
 .end method
 
 .method public static synthetic commitNow$default(Landroidx/fragment/app/FragmentManager;ZLp1/l;ILjava/lang/Object;)V
@@ -292,21 +262,11 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
-
-    .line 31
-    .line 32
-    .line 33
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V    return-void
 
     .line 34
     :cond_1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V    return-void
 .end method
 
 .method public static final transaction(Landroidx/fragment/app/FragmentManager;ZZLp1/l;)V
@@ -370,21 +330,11 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V    return-void
 
     .line 31
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V    return-void
 
     .line 35
     :cond_1
@@ -392,21 +342,11 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I    return-void
 
     .line 41
     :cond_2
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I    return-void
 .end method
 
 .method public static synthetic transaction$default(Landroidx/fragment/app/FragmentManager;ZZLp1/l;ILjava/lang/Object;)V
@@ -488,21 +428,11 @@
 
     .line 37
     .line 38
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V    return-void
 
     .line 42
     :cond_2
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
-
-    .line 43
-    .line 44
-    .line 45
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V    return-void
 
     .line 46
     :cond_3
@@ -510,21 +440,10 @@
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
-
-    .line 49
-    .line 50
-    .line 51
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I    return-void
 
     .line 52
     :cond_4
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I
-
-    .line 53
-    .line 54
-    .line 55
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentTransaction;->commit()I    return-void
 .end method
-
 .end class

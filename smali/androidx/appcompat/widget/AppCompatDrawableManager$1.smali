@@ -213,11 +213,7 @@
     move-result-object v0
 
     .line 90
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatDrawableManager$1;->TINT_CHECKABLE_BUTTON_LIST:[I
-
-    .line 91
-    .line 92
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatDrawableManager$1;->TINT_CHECKABLE_BUTTON_LIST:[I    return-void
 .end method
 
 .method private arrayContains([II)Z
@@ -411,12 +407,7 @@
 
     .line 55
     .line 56
-    invoke-direct {p1, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
-
-    .line 57
-    .line 58
-    .line 59
-    return-object p1
+    invoke-direct {p1, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V    return-object p1
 .end method
 
 .method private createColoredButtonColorStateList(Landroid/content/Context;)Landroid/content/res/ColorStateList;
@@ -668,12 +659,7 @@
 
     .line 89
     .line 90
-    invoke-direct {p1, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
-
-    .line 91
-    .line 92
-    .line 93
-    return-object p1
+    invoke-direct {p1, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V    return-object p1
 .end method
 
 .method private getRatingBarLayerDrawable(Landroidx/appcompat/widget/ResourceManagerInternal;Landroid/content/Context;I)Landroid/graphics/drawable/LayerDrawable;
@@ -993,12 +979,7 @@
     .line 152
     .line 153
     .line 154
-    invoke-virtual {p3, v0, p1}, Landroid/graphics/drawable/LayerDrawable;->setId(II)V
-
-    .line 155
-    .line 156
-    .line 157
-    return-object p3
+    invoke-virtual {p3, v0, p1}, Landroid/graphics/drawable/LayerDrawable;->setId(II)V    return-object p3
 .end method
 
 .method private setPorterDuffColorFilter(Landroid/graphics/drawable/Drawable;ILandroid/graphics/PorterDuff$Mode;)V
@@ -1034,12 +1015,7 @@
     move-result-object p2
 
     .line 15
-    invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->setColorFilter(Landroid/graphics/ColorFilter;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->setColorFilter(Landroid/graphics/ColorFilter;)V    return-void
 .end method
 
 
@@ -1113,12 +1089,7 @@
 
     .line 27
     .line 28
-    invoke-direct {p3, p2}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-object p3
+    invoke-direct {p3, p2}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V    return-object p3
 
     .line 32
     :cond_0
@@ -1495,11 +1466,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
-
-    .line 6
-    .line 7
-    return-object p1
+    sget-object p1, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;    return-object p1
 
     .line 8
     :cond_0
@@ -1639,12 +1606,7 @@
     move-result-object p3
 
     .line 62
-    invoke-direct {p0, p2, p1, p3}, Landroidx/appcompat/widget/AppCompatDrawableManager$1;->setPorterDuffColorFilter(Landroid/graphics/drawable/Drawable;ILandroid/graphics/PorterDuff$Mode;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return v1
+    invoke-direct {p0, p2, p1, p3}, Landroidx/appcompat/widget/AppCompatDrawableManager$1;->setPorterDuffColorFilter(Landroid/graphics/drawable/Drawable;ILandroid/graphics/PorterDuff$Mode;)V    return v1
 
     .line 66
     :cond_0
@@ -1777,12 +1739,7 @@
     move-result-object p3
 
     .line 129
-    invoke-direct {p0, p2, p1, p3}, Landroidx/appcompat/widget/AppCompatDrawableManager$1;->setPorterDuffColorFilter(Landroid/graphics/drawable/Drawable;ILandroid/graphics/PorterDuff$Mode;)V
-
-    .line 130
-    .line 131
-    .line 132
-    return v1
+    invoke-direct {p0, p2, p1, p3}, Landroidx/appcompat/widget/AppCompatDrawableManager$1;->setPorterDuffColorFilter(Landroid/graphics/drawable/Drawable;ILandroid/graphics/PorterDuff$Mode;)V    return v1
 .end method
 
 .method public tintDrawableUsingColorFilter(Landroid/content/Context;ILandroid/graphics/drawable/Drawable;)Z
@@ -2029,5 +1986,4 @@
     :cond_6
     return v3
 .end method
-
 .end class

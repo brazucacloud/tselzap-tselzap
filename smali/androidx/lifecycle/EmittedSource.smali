@@ -69,23 +69,14 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/lifecycle/EmittedSource;->mediator:Landroidx/lifecycle/MediatorLiveData;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/lifecycle/EmittedSource;->mediator:Landroidx/lifecycle/MediatorLiveData;    return-void
 .end method
 
 .method public static final synthetic access$removeSource(Landroidx/lifecycle/EmittedSource;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;->removeSource()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;->removeSource()V    return-void
 .end method
 
 .method private final removeSource()V
@@ -167,12 +158,7 @@
     const/4 v3, 0x3
 
     .line 18
-    invoke-static {v0, v2, v1, v3}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-static {v0, v2, v1, v3}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;    return-void
 .end method
 
 .method public final disposeNow(Lg1/d;)Ljava/lang/Object;
@@ -225,19 +211,10 @@
 
     .line 18
     .line 19
-    if-ne p1, v0, :cond_0
-
-    .line 20
-    .line 21
-    return-object p1
+    if-ne p1, v0, :cond_0    return-object p1
 
     .line 22
     :cond_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 23
-    .line 24
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

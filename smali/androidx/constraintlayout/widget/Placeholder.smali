@@ -265,22 +265,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mContent:Landroid/view/View;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mContent:Landroid/view/View;    return-object v0
 .end method
 
 .method public getEmptyVisibility()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mEmptyVisibility:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mEmptyVisibility:I    return v0
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -622,11 +614,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/widget/Placeholder;->mEmptyVisibility:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/widget/Placeholder;->mEmptyVisibility:I    return-void
 .end method
 
 .method public updatePostMeasure(Landroidx/constraintlayout/widget/ConstraintLayout;)V
@@ -637,11 +625,7 @@
 
     .line 2
     .line 3
-    if-nez p1, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -773,12 +757,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVisibility(I)V
-
-    .line 71
-    .line 72
-    .line 73
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVisibility(I)V    return-void
 .end method
 
 .method public updatePreLayout(Landroidx/constraintlayout/widget/ConstraintLayout;)V
@@ -877,5 +856,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

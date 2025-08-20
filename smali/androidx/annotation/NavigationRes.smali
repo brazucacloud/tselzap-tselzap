@@ -22,5 +22,4 @@
         .enum Ljava/lang/annotation/ElementType;->LOCAL_VARIABLE:Ljava/lang/annotation/ElementType;
     }
 .end annotation
-
 .end class

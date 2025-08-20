@@ -49,11 +49,7 @@
 
     .line 7
     .line 8
-    sput-object v1, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->CAUSELESS_INTERRUPTED:Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;
-
-    .line 9
-    .line 10
-    return-void
+    sput-object v1, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->CAUSELESS_INTERRUPTED:Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;    return-void
 
     .line 11
     :cond_0
@@ -85,11 +81,7 @@
     .line 23
     .line 24
     .line 25
-    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->CAUSELESS_INTERRUPTED:Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;
-
-    .line 26
-    .line 27
-    return-void
+    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->CAUSELESS_INTERRUPTED:Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;    return-void
 .end method
 
 .method public constructor <init>(ZLjava/lang/Throwable;)V
@@ -109,11 +101,6 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->cause:Ljava/lang/Throwable;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->cause:Ljava/lang/Throwable;    return-void
 .end method
-
 .end class

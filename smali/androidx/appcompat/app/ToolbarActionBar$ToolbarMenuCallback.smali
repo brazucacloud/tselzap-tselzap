@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -68,12 +63,7 @@
     move-result-object v0
 
     .line 13
-    invoke-direct {p1, v0}, Landroid/view/View;-><init>(Landroid/content/Context;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-object p1
+    invoke-direct {p1, v0}, Landroid/view/View;-><init>(Landroid/content/Context;)V    return-object p1
 
     .line 17
     :cond_0
@@ -127,5 +117,4 @@
 
     return p1
 .end method
-
 .end class

@@ -34,11 +34,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/viewpager/widget/PagerAdapter;->mObservable:Landroid/database/DataSetObservable;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/viewpager/widget/PagerAdapter;->mObservable:Landroid/database/DataSetObservable;    return-void
 .end method
 
 
@@ -233,12 +229,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroid/database/DataSetObservable;->notifyChanged()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {v0}, Landroid/database/DataSetObservable;->notifyChanged()V    return-void
 
     .line 19
     :goto_1
@@ -248,10 +239,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 20
-    throw v0
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public registerDataSetObserver(Landroid/database/DataSetObserver;)V
     .locals 1
@@ -265,12 +253,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public restoreState(Landroid/os/Parcelable;Ljava/lang/ClassLoader;)V
@@ -356,27 +339,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 8
-    throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public startUpdate(Landroid/view/View;)V
     .locals 0
@@ -415,12 +378,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V    return-void
 .end method
-
 .end class

@@ -43,11 +43,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/lifecycle/MethodCallsLogger;->calledMethods:Ljava/util/Map;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/MethodCallsLogger;->calledMethods:Ljava/util/Map;    return-void
 .end method
 
 
@@ -144,11 +140,6 @@
     .line 37
     .line 38
     .line 39
-    xor-int/lit8 p1, v1, 0x1
-
-    .line 40
-    .line 41
-    return p1
+    xor-int/lit8 p1, v1, 0x1    return p1
 .end method
-
 .end class

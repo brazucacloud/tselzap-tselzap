@@ -51,11 +51,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/transition/ChangeClipBounds;->NULL_SENTINEL:Landroid/graphics/Rect;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/transition/ChangeClipBounds;->NULL_SENTINEL:Landroid/graphics/Rect;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -248,12 +244,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeClipBounds;->captureValues(Landroidx/transition/TransitionValues;Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeClipBounds;->captureValues(Landroidx/transition/TransitionValues;Z)V    return-void
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -267,12 +258,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeClipBounds;->captureValues(Landroidx/transition/TransitionValues;Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeClipBounds;->captureValues(Landroidx/transition/TransitionValues;Z)V    return-void
 .end method
 
 .method public createAnimator(Landroid/view/ViewGroup;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
@@ -380,11 +366,7 @@
 
     .line 42
     .line 43
-    if-nez v1, :cond_1
-
-    .line 44
-    .line 45
-    return-object p1
+    if-nez v1, :cond_1    return-object p1
 
     .line 46
     :cond_1
@@ -456,11 +438,7 @@
     move-result v3
 
     .line 76
-    if-eqz v3, :cond_4
-
-    .line 77
-    .line 78
-    return-object p1
+    if-eqz v3, :cond_4    return-object p1
 
     .line 79
     :cond_4
@@ -562,11 +540,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/ChangeClipBounds;->sTransitionProperties:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/transition/ChangeClipBounds;->sTransitionProperties:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public isSeekingSupported()Z
@@ -576,5 +550,4 @@
 
     return v0
 .end method
-
 .end class

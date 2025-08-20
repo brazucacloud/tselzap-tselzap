@@ -42,12 +42,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -80,11 +75,7 @@
 
     .line 12
     .line 13
-    if-nez v0, :cond_0
-
-    .line 14
-    .line 15
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 16
     :cond_0
@@ -167,12 +158,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
-
-    .line 53
-    .line 54
-    .line 55
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V    return-void
 
     .line 56
     :cond_3
@@ -201,12 +187,6 @@
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->registerAdapterDataObserver(Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->registerAdapterDataObserver(Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;)V    return-void
 .end method
-
 .end class

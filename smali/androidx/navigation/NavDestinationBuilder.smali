@@ -353,12 +353,7 @@
     move-result-object p2
 
     .line 24
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public final argument(Ljava/lang/String;Landroidx/navigation/NavArgument;)V
@@ -1023,46 +1018,20 @@
     const/4 p1, 0x0
 
     .line 10
-    throw p1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public final getId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavDestinationBuilder;->id:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavDestinationBuilder;->id:I    return v0
 .end method
 
 .method public final getLabel()Ljava/lang/CharSequence;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public final getNavigator()Landroidx/navigation/Navigator;
@@ -1076,22 +1045,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->navigator:Landroidx/navigation/Navigator;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->navigator:Landroidx/navigation/Navigator;    return-object v0
 .end method
 
 .method public final getRoute()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->route:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->route:Ljava/lang/String;    return-object v0
 .end method
 
 .method public instantiateDestination()Landroidx/navigation/NavDestination;
@@ -1121,11 +1082,6 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;    return-void
 .end method
-
 .end class

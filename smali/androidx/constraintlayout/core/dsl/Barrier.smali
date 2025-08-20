@@ -173,22 +173,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Barrier;->mDirection:Landroidx/constraintlayout/core/dsl/Constraint$Side;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Barrier;->mDirection:Landroidx/constraintlayout/core/dsl/Constraint$Side;    return-object v0
 .end method
 
 .method public getMargin()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Barrier;->mMargin:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Barrier;->mMargin:I    return v0
 .end method
 
 .method public referencesToString()Ljava/lang/String;
@@ -211,11 +203,7 @@
 
     .line 8
     .line 9
-    const-string v0, ""
-
-    .line 10
-    .line 11
-    return-object v0
+    const-string v0, ""    return-object v0
 
     .line 12
     :cond_0
@@ -337,12 +325,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public setMargin(I)V
@@ -369,12 +352,6 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

@@ -119,34 +119,21 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)Ljava/util/List;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;    return-object p0
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)Ljava/util/Map;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;    return-object p0
 .end method
 
 .method public static synthetic access$800(Landroidx/datastore/preferences/protobuf/SmallSortedMap;I)Ljava/lang/Object;
@@ -167,11 +154,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;    return-object p0
 .end method
 
 .method private binarySearchInArray(Ljava/lang/Comparable;)I
@@ -250,11 +233,7 @@
 
     .line 33
     :cond_0
-    if-nez v2, :cond_1
-
-    .line 34
-    .line 35
-    return v1
+    if-nez v2, :cond_1    return v1
 
     .line 36
     :cond_1
@@ -344,18 +323,7 @@
 
     .line 73
     .line 74
-    goto :goto_0
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    goto :goto_0.end method
 
 .method private checkMutable()V
     .locals 1
@@ -365,11 +333,7 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -382,19 +346,7 @@
     .line 9
     .line 10
     .line 11
-    throw v0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method private ensureEntryArrayMutable()V
     .locals 2
@@ -528,11 +480,7 @@
 
     .line 32
     .line 33
-    check-cast v0, Ljava/util/SortedMap;
-
-    .line 34
-    .line 35
-    return-object v0
+    check-cast v0, Ljava/util/SortedMap;    return-object v0
 .end method
 
 .method public static newFieldMap(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -554,12 +502,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;-><init>(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;-><init>(I)V    return-object v0
 .end method
 
 .method public static newInstanceForTest(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -581,12 +524,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(I)V    return-object v0
 .end method
 
 .method private removeArrayEntryAt(I)Ljava/lang/Object;
@@ -861,11 +799,7 @@
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
-
-    .line 14
-    .line 15
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;    return-object v0
 .end method
 
 .method public entrySet()Ljava/util/Set;
@@ -905,11 +839,7 @@
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
-
-    .line 14
-    .line 15
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -919,11 +849,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -969,11 +895,7 @@
     const/4 v3, 0x0
 
     .line 25
-    if-eq v1, v2, :cond_2
-
-    .line 26
-    .line 27
-    return v3
+    if-eq v1, v2, :cond_2    return v3
 
     .line 28
     :cond_2
@@ -1056,11 +978,7 @@
     move-result v5
 
     .line 66
-    if-nez v5, :cond_4
-
-    .line 67
-    .line 68
-    return v3
+    if-nez v5, :cond_4    return v3
 
     .line 69
     :cond_4
@@ -1189,11 +1107,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljava/util/Map$Entry;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Ljava/util/Map$Entry;    return-object p1
 .end method
 
 .method public getNumArrayEntries()I
@@ -1433,11 +1347,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable:Z    return v0
 .end method
 
 .method public makeImmutable()V
@@ -1779,5 +1689,4 @@
 
     return v1
 .end method
-
 .end class

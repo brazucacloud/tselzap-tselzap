@@ -24,12 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/SnapHelper;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/SnapHelper;-><init>()V    return-void
 .end method
 
 .method private computeDistancePerChild(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroidx/recyclerview/widget/OrientationHelper;)F
@@ -48,11 +43,7 @@
 
     .line 6
     .line 7
-    if-nez v0, :cond_0
-
-    .line 8
-    .line 9
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 10
     :cond_0
@@ -212,11 +203,7 @@
     sub-int/2addr p2, p1
 
     .line 79
-    if-nez p2, :cond_6
-
-    .line 80
-    .line 81
-    return v1
+    if-nez p2, :cond_6    return v1
 
     .line 82
     :cond_6
@@ -336,11 +323,7 @@
 
     .line 12
     .line 13
-    if-gtz p2, :cond_0
-
-    .line 14
-    .line 15
-    return p4
+    if-gtz p2, :cond_0    return p4
 
     .line 16
     :cond_0
@@ -421,11 +404,7 @@
     const/4 v1, 0x0
 
     .line 6
-    if-nez v0, :cond_0
-
-    .line 7
-    .line 8
-    return-object v1
+    if-nez v0, :cond_0    return-object v1
 
     .line 9
     :cond_0
@@ -569,11 +548,7 @@
     .line 14
     .line 15
     :cond_1
-    iget-object p1, p0, Landroidx/recyclerview/widget/LinearSnapHelper;->mHorizontalHelper:Landroidx/recyclerview/widget/OrientationHelper;
-
-    .line 16
-    .line 17
-    return-object p1
+    iget-object p1, p0, Landroidx/recyclerview/widget/LinearSnapHelper;->mHorizontalHelper:Landroidx/recyclerview/widget/OrientationHelper;    return-object p1
 .end method
 
 .method private getVerticalHelper(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroidx/recyclerview/widget/OrientationHelper;
@@ -616,11 +591,7 @@
     .line 14
     .line 15
     :cond_1
-    iget-object p1, p0, Landroidx/recyclerview/widget/LinearSnapHelper;->mVerticalHelper:Landroidx/recyclerview/widget/OrientationHelper;
-
-    .line 16
-    .line 17
-    return-object p1
+    iget-object p1, p0, Landroidx/recyclerview/widget/LinearSnapHelper;->mVerticalHelper:Landroidx/recyclerview/widget/OrientationHelper;    return-object p1
 .end method
 
 
@@ -719,19 +690,11 @@
     move-result p1
 
     .line 39
-    aput p1, v0, v3
-
-    .line 40
-    .line 41
-    return-object v0
+    aput p1, v0, v3    return-object v0
 
     .line 42
     :cond_1
-    aput v2, v0, v3
-
-    .line 43
-    .line 44
-    return-object v0
+    aput v2, v0, v3    return-object v0
 .end method
 
 .method public findSnapView(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroid/view/View;
@@ -1049,15 +1012,10 @@
 
     .line 103
     :goto_3
-    if-lt v7, v0, :cond_c
-
-    .line 104
-    .line 105
-    return v4
+    if-lt v7, v0, :cond_c    return v4
 
     .line 106
     :cond_c
     return v7
 .end method
-
 .end class

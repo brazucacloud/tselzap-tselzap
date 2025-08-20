@@ -47,12 +47,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->addPanelSlideListener(Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->addPanelSlideListener(Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;)V    return-void
 .end method
 
 
@@ -65,12 +60,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z    return-void
 .end method
 
 .method public onPanelClosed(Landroid/view/View;)V
@@ -89,12 +79,7 @@
     const/4 p1, 0x0
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
 .end method
 
 .method public onPanelOpened(Landroid/view/View;)V
@@ -113,12 +98,7 @@
     const/4 p1, 0x1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
 .end method
 
 .method public onPanelSlide(Landroid/view/View;F)V
@@ -130,5 +110,4 @@
 
     return-void
 .end method
-
 .end class

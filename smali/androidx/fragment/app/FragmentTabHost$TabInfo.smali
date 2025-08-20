@@ -80,11 +80,6 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/fragment/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p3, p0, Landroidx/fragment/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;    return-void
 .end method
-
 .end class

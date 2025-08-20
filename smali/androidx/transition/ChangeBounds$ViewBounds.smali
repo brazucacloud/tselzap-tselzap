@@ -40,11 +40,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/ChangeBounds$ViewBounds;->mView:Landroid/view/View;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/transition/ChangeBounds$ViewBounds;->mView:Landroid/view/View;    return-void
 .end method
 
 .method private setLeftTopRightBottom()V
@@ -83,11 +79,7 @@
 
     .line 16
     .line 17
-    iput v0, p0, Landroidx/transition/ChangeBounds$ViewBounds;->mBottomRightCalls:I
-
-    .line 18
-    .line 19
-    return-void
+    iput v0, p0, Landroidx/transition/ChangeBounds$ViewBounds;->mBottomRightCalls:I    return-void
 .end method
 
 
@@ -221,5 +213,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

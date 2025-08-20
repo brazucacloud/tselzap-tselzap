@@ -27,12 +27,7 @@
     const/4 p1, 0x1
 
     .line 5
-    invoke-virtual {p0, p1}, Landroid/view/View;->setWillNotDraw(Z)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/View;->setWillNotDraw(Z)V    return-void
 .end method
 
 
@@ -44,5 +39,4 @@
 
     return v0
 .end method
-
 .end class

@@ -24,5 +24,4 @@
 # virtual methods
 .method public abstract value()Landroidx/lifecycle/Lifecycle$Event;
 .end method
-
 .end class

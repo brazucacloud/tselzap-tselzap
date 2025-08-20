@@ -79,11 +79,7 @@
     .line 18
     .line 19
     .line 20
-    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
-
-    .line 21
-    .line 22
-    return-void
+    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;    return-void
 .end method
 
 .method public static final createSavedStateHandle(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/SavedStateHandle;
@@ -451,11 +447,7 @@
 
     .line 24
     :goto_0
-    if-eqz p0, :cond_1
-
-    .line 25
-    .line 26
-    return-object p0
+    if-eqz p0, :cond_1    return-object p0
 
     .line 27
     :cond_1
@@ -472,58 +464,7 @@
     .line 32
     .line 33
     .line 34
-    throw p0
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p0.end method
 
 .method public static final getSavedStateHandlesVM(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/SavedStateHandlesVM;
     .locals 2
@@ -572,11 +513,6 @@
     move-result-object p0
 
     .line 24
-    check-cast p0, Landroidx/lifecycle/SavedStateHandlesVM;
-
-    .line 25
-    .line 26
-    return-object p0
+    check-cast p0, Landroidx/lifecycle/SavedStateHandlesVM;    return-object p0
 .end method
-
 .end class

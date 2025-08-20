@@ -19,11 +19,7 @@
     const/4 v0, 0x0
 
     .line 2
-    sput-boolean v0, Landroidx/appcompat/widget/AppCompatPopupWindow;->COMPAT_OVERLAP_ANCHOR:Z
-
-    .line 3
-    .line 4
-    return-void
+    sput-boolean v0, Landroidx/appcompat/widget/AppCompatPopupWindow;->COMPAT_OVERLAP_ANCHOR:Z    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -146,12 +142,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
 .end method
 
 .method private setSupportOverlapAnchor(Z)V
@@ -166,20 +157,11 @@
 
     .line 4
     .line 5
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatPopupWindow;->mOverlapAnchor:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatPopupWindow;->mOverlapAnchor:Z    return-void
 
     .line 8
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/widget/PopupWindowCompat;->setOverlapAnchor(Landroid/widget/PopupWindow;Z)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-static {p0, p1}, Landroidx/core/widget/PopupWindowCompat;->setOverlapAnchor(Landroid/widget/PopupWindow;Z)V    return-void
 .end method
 
 
@@ -286,12 +268,6 @@
     move v5, p5
 
     .line 20
-    invoke-super/range {v0 .. v5}, Landroid/widget/PopupWindow;->update(Landroid/view/View;IIII)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-super/range {v0 .. v5}, Landroid/widget/PopupWindow;->update(Landroid/view/View;IIII)V    return-void
 .end method
-
 .end class

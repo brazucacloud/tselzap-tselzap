@@ -23,5 +23,4 @@
 
 .method public abstract show()V
 .end method
-
 .end class

@@ -12,5 +12,4 @@
     accessFlags = 0x1009
     name = null
 .end annotation
-
 .end class

@@ -23,12 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static setLeftTopRightBottom(Landroid/view/View;IIII)V
@@ -37,12 +32,6 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/o;->p(Landroid/view/View;IIII)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/o;->p(Landroid/view/View;IIII)V    return-void
 .end method
-
 .end class

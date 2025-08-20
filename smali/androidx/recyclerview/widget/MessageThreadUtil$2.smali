@@ -118,11 +118,7 @@
     .line 30
     .line 31
     .line 32
-    iput-object p1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$2;->mBackgroundRunnable:Ljava/lang/Runnable;
-
-    .line 33
-    .line 34
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$2;->mBackgroundRunnable:Ljava/lang/Runnable;    return-void
 .end method
 
 .method private maybeExecuteBackgroundRunnable()V
@@ -181,12 +177,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->maybeExecuteBackgroundRunnable()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->maybeExecuteBackgroundRunnable()V    return-void
 .end method
 
 .method private sendMessageAtFrontOfQueue(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
@@ -202,12 +193,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->maybeExecuteBackgroundRunnable()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->maybeExecuteBackgroundRunnable()V    return-void
 .end method
 
 
@@ -227,12 +213,7 @@
     move-result-object p1
 
     .line 6
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessage(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessage(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V    return-void
 .end method
 
 .method public recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V
@@ -260,12 +241,7 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessage(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessage(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V    return-void
 .end method
 
 .method public refresh(I)V
@@ -286,12 +262,7 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessageAtFrontOfQueue(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessageAtFrontOfQueue(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V    return-void
 .end method
 
 .method public updateRange(IIIII)V
@@ -327,12 +298,6 @@
     move-result-object p1
 
     .line 12
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessageAtFrontOfQueue(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->sendMessageAtFrontOfQueue(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V    return-void
 .end method
-
 .end class

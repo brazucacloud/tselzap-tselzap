@@ -36,11 +36,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I    return-void
 
     .line 11
     :cond_0
@@ -56,11 +52,7 @@
 
     .line 16
     .line 17
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I
-
-    .line 18
-    .line 19
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I    return-void
 .end method
 
 
@@ -81,11 +73,7 @@
 
     .line 6
     .line 7
-    aput-object p1, v0, p2
-
-    .line 8
-    .line 9
-    return p2
+    aput-object p1, v0, p2    return p2
 .end method
 
 .method public growArray(II)V
@@ -113,11 +101,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object p2, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I
-
-    .line 13
-    .line 14
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I    return-void
 .end method
 
 .method public indexOfStateSet([I)I
@@ -156,11 +140,7 @@
     move-result v3
 
     .line 16
-    if-eqz v3, :cond_0
-
-    .line 17
-    .line 18
-    return v2
+    if-eqz v3, :cond_0    return v2
 
     .line 19
     :cond_0
@@ -248,11 +228,7 @@
 
     .line 30
     :cond_1
-    iput-object v1, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I
-
-    .line 31
-    .line 32
-    return-void
+    iput-object v1, p0, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;->mStateSets:[[I    return-void
 .end method
 
 .method public newDrawable()Landroid/graphics/drawable/Drawable;
@@ -282,5 +258,4 @@
 
     return-object v0
 .end method
-
 .end class

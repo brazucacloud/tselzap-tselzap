@@ -35,12 +35,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/media/MediaDataSource;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Landroid/media/MediaDataSource;-><init>()V    return-void
 .end method
 
 
@@ -84,11 +79,7 @@
 
     .line 9
     .line 10
-    if-gez v3, :cond_1
-
-    .line 11
-    .line 12
-    return v2
+    if-gez v3, :cond_1    return v2
 
     .line 13
     :cond_1
@@ -135,11 +126,7 @@
 
     .line 32
     .line 33
-    if-ltz v0, :cond_2
-
-    .line 34
-    .line 35
-    return v2
+    if-ltz v0, :cond_2    return v2
 
     .line 36
     :cond_2
@@ -214,11 +201,7 @@
     .line 69
     iput-wide p2, p0, Landroidx/exifinterface/media/ExifInterface$1;->mPosition:J
     :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 70
-    .line 71
-    return p1
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0    return p1
 
     .line 72
     :catch_0
@@ -227,11 +210,6 @@
 
     .line 73
     .line 74
-    iput-wide p1, p0, Landroidx/exifinterface/media/ExifInterface$1;->mPosition:J
-
-    .line 75
-    .line 76
-    return v2
+    iput-wide p1, p0, Landroidx/exifinterface/media/ExifInterface$1;->mPosition:J    return v2
 .end method
-
 .end class

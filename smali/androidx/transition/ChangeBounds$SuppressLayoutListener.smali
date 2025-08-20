@@ -41,11 +41,7 @@
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;    return-void
 .end method
 
 
@@ -73,11 +69,7 @@
     const/4 p1, 0x1
 
     .line 8
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z
-
-    .line 9
-    .line 10
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z    return-void
 .end method
 
 .method public onTransitionEnd(Landroidx/transition/Transition;)V
@@ -109,12 +101,7 @@
     .line 10
     .line 11
     :cond_0
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -132,12 +119,7 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -155,12 +137,6 @@
     const/4 v0, 0x1
 
     .line 4
-    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V    return-void
 .end method
-
 .end class

@@ -44,12 +44,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$AnchorInfo;->reset()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$AnchorInfo;->reset()V    return-void
 .end method
 
 
@@ -264,5 +259,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

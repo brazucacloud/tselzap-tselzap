@@ -40,11 +40,6 @@
     .line 6
     .line 7
     .line 8
-    iput-object p2, p0, Landroidx/transition/ChangeBounds$6;->mViewBounds:Landroidx/transition/ChangeBounds$ViewBounds;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p2, p0, Landroidx/transition/ChangeBounds$6;->mViewBounds:Landroidx/transition/ChangeBounds$ViewBounds;    return-void
 .end method
-
 .end class

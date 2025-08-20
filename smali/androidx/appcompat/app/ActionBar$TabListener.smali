@@ -26,5 +26,4 @@
 
 .method public abstract onTabUnselected(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V
 .end method
-
 .end class

@@ -56,12 +56,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->clear()V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->clear()V    return-void
 .end method
 
 
@@ -116,12 +111,7 @@
 
     .line 23
     .line 24
-    invoke-static {p2}, Ljava/util/Arrays;->sort([I)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-static {p2}, Ljava/util/Arrays;->sort([I)V    return-void
 .end method
 
 .method public clear()V
@@ -156,11 +146,7 @@
     const/4 v0, 0x0
 
     .line 15
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->mCount:I
-
-    .line 16
-    .line 17
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->mCount:I    return-void
 .end method
 
 .method public dump()V
@@ -328,12 +314,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 83
-    .line 84
-    .line 85
-    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public keyAt(I)I
@@ -344,11 +325,7 @@
 
     .line 2
     .line 3
-    aget p1, v0, p1
-
-    .line 4
-    .line 5
-    return p1
+    aget p1, v0, p1    return p1
 .end method
 
 .method public remove(I)V
@@ -435,22 +412,14 @@
 
     .line 36
     .line 37
-    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->mCount:I
-
-    .line 38
-    .line 39
-    return-void
+    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->mCount:I    return-void
 .end method
 
 .method public size()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->mCount:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->mCount:I    return v0
 .end method
 
 .method public valueAt(I)Landroidx/constraintlayout/core/motion/CustomAttribute;
@@ -469,11 +438,6 @@
 
     .line 6
     .line 7
-    aget-object p1, v0, p1
-
-    .line 8
-    .line 9
-    return-object p1
+    aget-object p1, v0, p1    return-object p1
 .end method
-
 .end class

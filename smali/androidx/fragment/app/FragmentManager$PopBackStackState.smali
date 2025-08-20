@@ -53,11 +53,7 @@
 
     .line 9
     .line 10
-    iput p4, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mFlags:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p4, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mFlags:I    return-void
 .end method
 
 
@@ -170,5 +166,4 @@
 
     return p1
 .end method
-
 .end class

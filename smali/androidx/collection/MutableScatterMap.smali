@@ -157,12 +157,7 @@
 
     .line 30
     .line 31
-    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V    return-void
 
     .line 35
     :cond_0
@@ -178,12 +173,7 @@
     move-result v0
 
     .line 41
-    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V    return-void
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -324,32 +314,7 @@
     and-int/2addr p1, v0
 
     .line 60
-    goto :goto_0
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    goto :goto_0.end method
 
 .method private final initializeGrowth()V
     .locals 2
@@ -378,11 +343,7 @@
     sub-int/2addr v0, v1
 
     .line 12
-    iput v0, p0, Landroidx/collection/MutableScatterMap;->growthLimit:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v0, p0, Landroidx/collection/MutableScatterMap;->growthLimit:I    return-void
 .end method
 
 .method private final initializeMetadata(I)V
@@ -463,12 +424,7 @@
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V    return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -527,11 +483,7 @@
 
     .line 24
     .line 25
-    iput-object p1, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
-
-    .line 26
-    .line 27
-    return-void
+    iput-object p1, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;    return-void
 .end method
 
 .method private final removeDeletedMarkers()V
@@ -703,11 +655,7 @@
     add-int/2addr v0, v3
 
     .line 75
-    iput v0, p0, Landroidx/collection/MutableScatterMap;->growthLimit:I
-
-    .line 76
-    .line 77
-    return-void
+    iput v0, p0, Landroidx/collection/MutableScatterMap;->growthLimit:I    return-void
 .end method
 
 .method private final resizeStorage(I)V
@@ -1085,11 +1033,7 @@
     or-long/2addr p1, v2
 
     .line 45
-    aput-wide p1, v0, v1
-
-    .line 46
-    .line 47
-    return-void
+    aput-wide p1, v0, v1    return-void
 .end method
 
 
@@ -1109,12 +1053,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/MutableScatterMap$MutableMapWrapper;-><init>(Landroidx/collection/MutableScatterMap;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/MutableScatterMap$MutableMapWrapper;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
 .end method
 
 .method public final clear()V
@@ -1216,12 +1155,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V
-
-    .line 48
-    .line 49
-    .line 50
-    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V    return-void
 .end method
 
 .method public final compute(Ljava/lang/Object;Lp1/p;)Ljava/lang/Object;
@@ -1314,11 +1248,7 @@
 
     .line 35
     .line 36
-    aput-object p2, p1, v0
-
-    .line 37
-    .line 38
-    return-object p2
+    aput-object p2, p1, v0    return-object p2
 
     .line 39
     :cond_2
@@ -1326,11 +1256,7 @@
 
     .line 40
     .line 41
-    aput-object p2, p1, v0
-
-    .line 42
-    .line 43
-    return-object p2
+    aput-object p2, p1, v0    return-object p2
 .end method
 
 .method public final findInsertIndex(Ljava/lang/Object;)I
@@ -1557,11 +1483,7 @@
     move-result v12
 
     .line 102
-    if-eqz v12, :cond_1
-
-    .line 103
-    .line 104
-    return v16
+    if-eqz v12, :cond_1    return v16
 
     .line 105
     :cond_1
@@ -1852,17 +1774,7 @@
 
     .line 233
     .line 234
-    goto/16 :goto_1
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    goto/16 :goto_1.end method
 
 .method public final getOrPut(Ljava/lang/Object;Lp1/a;)Ljava/lang/Object;
     .locals 1
@@ -1904,12 +1816,7 @@
     move-result-object p2
 
     .line 16
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterMap;->set(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-object p2
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterMap;->set(Ljava/lang/Object;Ljava/lang/Object;)V    return-object p2
 
     .line 20
     :cond_0
@@ -2354,11 +2261,7 @@
 
     .line 15
     .line 16
-    aput-object p2, v1, v0
-
-    .line 17
-    .line 18
-    return-object v2
+    aput-object p2, v1, v0    return-object v2
 .end method
 
 .method public final putAll(Landroidx/collection/ScatterMap;)V
@@ -3396,11 +3299,7 @@
 
     .line 62
     .line 63
-    aput-object v1, v0, p1
-
-    .line 64
-    .line 65
-    return-object v2
+    aput-object v1, v0, p1    return-object v2
 .end method
 
 .method public final set(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -3440,11 +3339,7 @@
 
     .line 13
     .line 14
-    aput-object p2, p1, v0
-
-    .line 15
-    .line 16
-    return-void
+    aput-object p2, p1, v0    return-void
 .end method
 
 .method public final trim()I
@@ -3498,5 +3393,4 @@
 
     return v0
 .end method
-
 .end class

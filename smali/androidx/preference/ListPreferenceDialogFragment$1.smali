@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -60,12 +55,6 @@
     .line 7
     .line 8
     .line 9
-    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V    return-void
 .end method
-
 .end class

@@ -42,11 +42,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserModel$ActivityResolveInfo;->resolveInfo:Landroid/content/pm/ResolveInfo;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserModel$ActivityResolveInfo;->resolveInfo:Landroid/content/pm/ResolveInfo;    return-void
 .end method
 
 
@@ -92,22 +88,14 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
     const/4 v1, 0x0
 
     .line 6
-    if-nez p1, :cond_1
-
-    .line 7
-    .line 8
-    return v1
+    if-nez p1, :cond_1    return v1
 
     .line 9
     :cond_1
@@ -123,11 +111,7 @@
 
     .line 14
     .line 15
-    if-eq v3, v2, :cond_2
-
-    .line 16
-    .line 17
-    return v1
+    if-eq v3, v2, :cond_2    return v1
 
     .line 18
     :cond_2
@@ -159,11 +143,7 @@
     move-result p1
 
     .line 32
-    if-eq v2, p1, :cond_3
-
-    .line 33
-    .line 34
-    return v1
+    if-eq v2, p1, :cond_3    return v1
 
     .line 35
     :cond_3
@@ -186,11 +166,7 @@
     move-result v0
 
     .line 7
-    add-int/lit8 v0, v0, 0x1f
-
-    .line 8
-    .line 9
-    return v0
+    add-int/lit8 v0, v0, 0x1f    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -275,5 +251,4 @@
 
     return-object v0
 .end method
-
 .end class

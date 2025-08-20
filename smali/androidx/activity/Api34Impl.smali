@@ -30,12 +30,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -50,12 +45,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2, p3, p4}, Landroid/window/BackEvent;-><init>(FFFI)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p1, p2, p3, p4}, Landroid/window/BackEvent;-><init>(FFFI)V    return-object v0
 .end method
 
 .method public final progress(Landroid/window/BackEvent;)F
@@ -157,5 +147,4 @@
 
     return p1
 .end method
-
 .end class

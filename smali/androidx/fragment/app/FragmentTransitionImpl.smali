@@ -22,12 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static bfsAddViewChildren(Ljava/util/List;Landroid/view/View;)V
@@ -360,11 +355,7 @@
     move-result v0
 
     .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -646,12 +637,7 @@
     move-result v0
 
     .line 142
-    invoke-virtual {p2, p1, v1, v2, v0}, Landroid/graphics/Rect;->set(IIII)V
-
-    .line 143
-    .line 144
-    .line 145
-    return-void
+    invoke-virtual {p2, p1, v1, v2, v0}, Landroid/graphics/Rect;->set(IIII)V    return-void
 .end method
 
 .method public abstract mergeTransitionsInSequence(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -928,12 +914,7 @@
     .end param
 
     .line 1
-    invoke-interface {p4}, Ljava/lang/Runnable;->run()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-interface {p4}, Ljava/lang/Runnable;->run()V    return-void
 .end method
 
 .method public setNameOverridesReordered(Landroid/view/View;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/Map;)V
@@ -1127,12 +1108,7 @@
     .line 76
     .line 77
     .line 78
-    invoke-static {p1, v0}, Landroidx/core/view/OneShotPreDrawListener;->add(Landroid/view/View;Ljava/lang/Runnable;)Landroidx/core/view/OneShotPreDrawListener;
-
-    .line 79
-    .line 80
-    .line 81
-    return-void
+    invoke-static {p1, v0}, Landroidx/core/view/OneShotPreDrawListener;->add(Landroid/view/View;Ljava/lang/Runnable;)Landroidx/core/view/OneShotPreDrawListener;    return-void
 .end method
 
 .method public abstract setSharedElementTargets(Ljava/lang/Object;Landroid/view/View;Ljava/util/ArrayList;)V
@@ -1193,5 +1169,4 @@
         .end annotation
     .end param
 .end method
-
 .end class

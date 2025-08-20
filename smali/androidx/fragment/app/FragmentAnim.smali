@@ -17,12 +17,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private static getNextAnim(Landroidx/fragment/app/Fragment;ZZ)I
@@ -180,11 +175,7 @@
     move-result-object v1
 
     .line 39
-    if-eqz v1, :cond_1
-
-    .line 40
-    .line 41
-    return-object v2
+    if-eqz v1, :cond_1    return-object v2
 
     .line 42
     :cond_1
@@ -204,12 +195,7 @@
 
     .line 49
     .line 50
-    invoke-direct {p0, v1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V
-
-    .line 51
-    .line 52
-    .line 53
-    return-object p0
+    invoke-direct {p0, v1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V    return-object p0
 
     .line 54
     :cond_2
@@ -229,12 +215,7 @@
 
     .line 61
     .line 62
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/animation/Animator;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return-object p0
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/animation/Animator;)V    return-object p0
 
     .line 66
     :cond_3
@@ -311,12 +292,7 @@
     invoke-direct {v0, p2}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V
     :try_end_0
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
-
-    .line 101
-    .line 102
-    .line 103
-    return-object v0
+    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1    return-object v0
 
     .line 104
     :catch_0
@@ -347,12 +323,7 @@
     .line 114
     invoke-direct {v0, p2}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/animation/Animator;)V
     :try_end_1
-    .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_2
-
-    .line 115
-    .line 116
-    .line 117
-    return-object v0
+    .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_2    return-object v0
 
     .line 118
     :catch_2
@@ -379,12 +350,7 @@
 
     .line 128
     .line 129
-    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V
-
-    .line 130
-    .line 131
-    .line 132
-    return-object p1
+    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V    return-object p1
 
     .line 133
     :cond_6
@@ -440,12 +406,7 @@
     move-result p1
 
     .line 18
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 19
-    .line 20
-    .line 21
-    return p1
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V    return p1
 .end method
 
 .method private static transitToAnimResourceId(Landroid/content/Context;IZ)I
@@ -544,19 +505,11 @@
 
     .line 42
     .line 43
-    sget p0, Landroidx/fragment/R$animator;->fragment_fade_enter:I
-
-    .line 44
-    .line 45
-    return p0
+    sget p0, Landroidx/fragment/R$animator;->fragment_fade_enter:I    return p0
 
     .line 46
     :cond_3
-    sget p0, Landroidx/fragment/R$animator;->fragment_fade_exit:I
-
-    .line 47
-    .line 48
-    return p0
+    sget p0, Landroidx/fragment/R$animator;->fragment_fade_exit:I    return p0
 
     .line 49
     :cond_4
@@ -600,19 +553,11 @@
 
     .line 68
     .line 69
-    sget p0, Landroidx/fragment/R$animator;->fragment_close_enter:I
-
-    .line 70
-    .line 71
-    return p0
+    sget p0, Landroidx/fragment/R$animator;->fragment_close_enter:I    return p0
 
     .line 72
     :cond_7
-    sget p0, Landroidx/fragment/R$animator;->fragment_close_exit:I
-
-    .line 73
-    .line 74
-    return p0
+    sget p0, Landroidx/fragment/R$animator;->fragment_close_exit:I    return p0
 
     .line 75
     :cond_8
@@ -620,19 +565,10 @@
 
     .line 76
     .line 77
-    sget p0, Landroidx/fragment/R$animator;->fragment_open_enter:I
-
-    .line 78
-    .line 79
-    return p0
+    sget p0, Landroidx/fragment/R$animator;->fragment_open_enter:I    return p0
 
     .line 80
     :cond_9
-    sget p0, Landroidx/fragment/R$animator;->fragment_open_exit:I
-
-    .line 81
-    .line 82
-    return p0
+    sget p0, Landroidx/fragment/R$animator;->fragment_open_exit:I    return p0
 .end method
-
 .end class

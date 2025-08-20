@@ -59,11 +59,7 @@
 
     .line 9
     .line 10
-    iput v0, p0, Landroidx/recyclerview/widget/LayoutState;->mEndLine:I
-
-    .line 11
-    .line 12
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/LayoutState;->mEndLine:I    return-void
 .end method
 
 
@@ -130,11 +126,7 @@
     add-int/2addr v0, v1
 
     .line 12
-    iput v0, p0, Landroidx/recyclerview/widget/LayoutState;->mCurrentPosition:I
-
-    .line 13
-    .line 14
-    return-object p1
+    iput v0, p0, Landroidx/recyclerview/widget/LayoutState;->mCurrentPosition:I    return-object p1
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -271,5 +263,4 @@
 
     return-object v0
 .end method
-
 .end class

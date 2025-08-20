@@ -36,11 +36,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->listeners:Ljava/util/Set;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->listeners:Ljava/util/Set;    return-void
 .end method
 
 
@@ -76,12 +72,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final clearAvailableContext()V
@@ -91,11 +82,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;
-
-    .line 3
-    .line 4
-    return-void
+    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;    return-void
 .end method
 
 .method public final dispatchOnContextAvailable(Landroid/content/Context;)V
@@ -168,11 +155,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;    return-object v0
 .end method
 
 .method public final removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
@@ -192,12 +175,6 @@
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z    return-void
 .end method
-
 .end class

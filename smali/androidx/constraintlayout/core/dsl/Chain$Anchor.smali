@@ -55,11 +55,7 @@
 
     .line 12
     .line 13
-    iput-object p2, p0, Landroidx/constraintlayout/core/dsl/Chain$Anchor;->mSide:Landroidx/constraintlayout/core/dsl/Constraint$Side;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/dsl/Chain$Anchor;->mSide:Landroidx/constraintlayout/core/dsl/Constraint$Side;    return-void
 .end method
 
 
@@ -136,11 +132,7 @@
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/constraintlayout/core/dsl/Helper;->name:Ljava/lang/String;
-
-    .line 4
-    .line 5
-    return-object v0
+    iget-object v0, v0, Landroidx/constraintlayout/core/dsl/Helper;->name:Ljava/lang/String;    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -341,5 +333,4 @@
 
     return-object v0
 .end method
-
 .end class

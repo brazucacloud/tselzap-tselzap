@@ -636,33 +636,21 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMetrics:Landroidx/constraintlayout/core/Metrics;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMetrics:Landroidx/constraintlayout/core/Metrics;    return-object p0
 .end method
 
 .method public static synthetic access$100(Landroidx/constraintlayout/widget/ConstraintLayout;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mOptimizationLevel:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mOptimizationLevel:I    return p0
 .end method
 
 .method public static synthetic access$200(Landroidx/constraintlayout/widget/ConstraintLayout;)Ljava/util/ArrayList;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintHelpers:Ljava/util/ArrayList;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintHelpers:Ljava/util/ArrayList;    return-object p0
 .end method
 
 .method private getPaddingWidth()I
@@ -742,11 +730,7 @@
     add-int/2addr v1, v0
 
     .line 36
-    if-lez v1, :cond_0
-
-    .line 37
-    .line 38
-    return v1
+    if-lez v1, :cond_0    return v1
 
     .line 39
     :cond_0
@@ -779,11 +763,7 @@
     .line 11
     .line 12
     :cond_0
-    sget-object v0, Landroidx/constraintlayout/widget/ConstraintLayout;->sSharedValues:Landroidx/constraintlayout/widget/SharedValues;
-
-    .line 13
-    .line 14
-    return-object v0
+    sget-object v0, Landroidx/constraintlayout/widget/ConstraintLayout;->sSharedValues:Landroidx/constraintlayout/widget/SharedValues;    return-object v0
 .end method
 
 .method private getTargetWidget(I)Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -794,11 +774,7 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
-
-    .line 4
-    .line 5
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;    return-object p1
 
     .line 6
     :cond_0
@@ -860,11 +836,7 @@
 
     .line 34
     .line 35
-    iget-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
-
-    .line 36
-    .line 37
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;    return-object p1
 
     .line 38
     :cond_2
@@ -890,11 +862,7 @@
 
     .line 47
     .line 48
-    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 49
-    .line 50
-    return-object p1
+    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object p1
 .end method
 
 .method private init(Landroid/util/AttributeSet;II)V
@@ -1260,12 +1228,7 @@
 
     .line 167
     .line 168
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->setOptimizationLevel(I)V
-
-    .line 169
-    .line 170
-    .line 171
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->setOptimizationLevel(I)V    return-void
 .end method
 
 .method private markHierarchyDirty()V
@@ -1305,11 +1268,7 @@
 
     .line 15
     .line 16
-    iput v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLastMeasureHeightMode:I
-
-    .line 17
-    .line 18
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLastMeasureHeightMode:I    return-void
 .end method
 
 .method private setChildrenConstraints()V
@@ -2162,12 +2121,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public applyConstraintsFromLayoutParams(ZLandroid/view/View;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -2329,12 +2283,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p1, v2}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V
-
-    .line 74
-    .line 75
-    .line 76
-    return-void
+    invoke-virtual {p1, v2}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V    return-void
 
     .line 77
     :cond_2
@@ -2342,12 +2291,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V
-
-    .line 80
-    .line 81
-    .line 82
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V    return-void
 
     .line 83
     :cond_3
@@ -3412,23 +3356,14 @@
 
     .line 593
     .line 594
-    invoke-virtual {v0, p1, v1, v3, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalMatchStyle(IIIF)V
-
-    .line 595
-    .line 596
-    .line 597
-    return-void
+    invoke-virtual {v0, p1, v1, v3, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalMatchStyle(IIIF)V    return-void
 .end method
 
 .method public checkLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Z
     .locals 0
 
     .line 1
-    instance-of p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
-
-    .line 2
-    .line 3
-    return p1
+    instance-of p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;    return p1
 .end method
 
 .method public dispatchDraw(Landroid/graphics/Canvas;)V
@@ -3903,11 +3838,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -4080,12 +4011,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->fillMetrics(Landroidx/constraintlayout/core/Metrics;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->fillMetrics(Landroidx/constraintlayout/core/Metrics;)V    return-void
 .end method
 
 .method public forceLayout()V
@@ -4097,12 +4023,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/view/ViewGroup;->forceLayout()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-super {p0}, Landroid/view/ViewGroup;->forceLayout()V    return-void
 .end method
 
 .method public bridge synthetic generateDefaultLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -4230,44 +4151,28 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMaxHeight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMaxHeight:I    return v0
 .end method
 
 .method public getMaxWidth()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMaxWidth:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMaxWidth:I    return v0
 .end method
 
 .method public getMinHeight()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMinHeight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMinHeight:I    return v0
 .end method
 
 .method public getMinWidth()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMinWidth:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mMinWidth:I    return v0
 .end method
 
 .method public getOptimizationLevel()I
@@ -4661,11 +4566,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroid/view/View;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroid/view/View;    return-object p1
 .end method
 
 .method public final getViewWidget(Landroid/view/View;)Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -4676,11 +4577,7 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
-
-    .line 4
-    .line 5
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;    return-object p1
 
     .line 6
     :cond_0
@@ -4716,11 +4613,7 @@
 
     .line 21
     .line 22
-    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 23
-    .line 24
-    return-object p1
+    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object p1
 
     .line 25
     :cond_1
@@ -4773,11 +4666,7 @@
 
     .line 49
     .line 50
-    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 51
-    .line 52
-    return-object p1
+    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object p1
 
     .line 53
     :cond_2
@@ -4832,11 +4721,7 @@
     const/4 v1, 0x1
 
     .line 21
-    if-ne v1, v0, :cond_0
-
-    .line 22
-    .line 23
-    return v1
+    if-ne v1, v0, :cond_0    return v1
 
     .line 24
     :cond_0
@@ -4876,27 +4761,15 @@
     .line 13
     iput-object v1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;
     :try_end_0
-    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 14
-    .line 15
-    return-void
+    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 16
     :catch_0
-    iput-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;    return-void
 
     .line 19
     :cond_0
-    iput-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;
-
-    .line 20
-    .line 21
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;    return-void
 .end method
 
 .method public onLayout(ZIIII)V
@@ -5659,11 +5532,7 @@
     .line 75
     .line 76
     .line 77
-    iput-boolean v2, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mDirtyHierarchy:Z
-
-    .line 78
-    .line 79
-    return-void
+    iput-boolean v2, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mDirtyHierarchy:Z    return-void
 .end method
 
 .method public onViewRemoved(Landroid/view/View;)V
@@ -5721,11 +5590,7 @@
     const/4 p1, 0x1
 
     .line 28
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mDirtyHierarchy:Z
-
-    .line 29
-    .line 30
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mDirtyHierarchy:Z    return-void
 .end method
 
 .method public parseLayoutDescription(I)V
@@ -5749,22 +5614,14 @@
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;
-
-    .line 11
-    .line 12
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintLayoutSpec:Landroidx/constraintlayout/widget/ConstraintLayoutStates;    return-void
 .end method
 
 .method public removeValueModifier(Landroidx/constraintlayout/widget/ConstraintLayout$ValueModifier;)V
     .locals 1
 
     .line 1
-    if-nez p1, :cond_0
-
-    .line 2
-    .line 3
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 4
     :cond_0
@@ -5772,12 +5629,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public requestLayout()V
@@ -5789,12 +5641,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/view/ViewGroup;->requestLayout()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-super {p0}, Landroid/view/ViewGroup;->requestLayout()V    return-void
 .end method
 
 .method public resolveMeasuredDimension(IIIIZZ)V
@@ -5902,11 +5749,7 @@
 
     .line 47
     .line 48
-    iput p2, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLastMeasureHeight:I
-
-    .line 49
-    .line 50
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mLastMeasureHeight:I    return-void
 .end method
 
 .method public resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
@@ -6127,23 +5970,14 @@
     move v1, p2
 
     .line 102
-    invoke-virtual/range {v0 .. v9}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->measure(IIIIIIIII)J
-
-    .line 103
-    .line 104
-    .line 105
-    return-void
+    invoke-virtual/range {v0 .. v9}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->measure(IIIIIIIII)J    return-void
 .end method
 
 .method public setConstraintSet(Landroidx/constraintlayout/widget/ConstraintSet;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintSet:Landroidx/constraintlayout/widget/ConstraintSet;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout;->mConstraintSet:Landroidx/constraintlayout/widget/ConstraintSet;    return-void
 .end method
 
 .method public setDesignInformation(ILjava/lang/Object;Ljava/lang/Object;)V
@@ -6288,12 +6122,7 @@
     move-result v0
 
     .line 19
-    invoke-virtual {p1, v0, p0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p1, v0, p0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return-void
 .end method
 
 .method public setMaxHeight(I)V
@@ -6304,11 +6133,7 @@
 
     .line 2
     .line 3
-    if-ne p1, v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-ne p1, v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -6316,12 +6141,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V    return-void
 .end method
 
 .method public setMaxWidth(I)V
@@ -6332,11 +6152,7 @@
 
     .line 2
     .line 3
-    if-ne p1, v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-ne p1, v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -6344,12 +6160,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V    return-void
 .end method
 
 .method public setMinHeight(I)V
@@ -6360,11 +6171,7 @@
 
     .line 2
     .line 3
-    if-ne p1, v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-ne p1, v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -6372,12 +6179,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V    return-void
 .end method
 
 .method public setMinWidth(I)V
@@ -6388,11 +6190,7 @@
 
     .line 2
     .line 3
-    if-ne p1, v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-ne p1, v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -6400,12 +6198,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V    return-void
 .end method
 
 .method public setOnConstraintsChanged(Landroidx/constraintlayout/widget/ConstraintsChangedListener;)V
@@ -6441,12 +6234,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->setOptimizationLevel(I)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->setOptimizationLevel(I)V    return-void
 .end method
 
 .method public setSelfDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;IIII)V
@@ -6778,12 +6566,7 @@
     sub-int/2addr p2, v1
 
     .line 154
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setMinHeight(I)V
-
-    .line 155
-    .line 156
-    .line 157
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setMinHeight(I)V    return-void
 .end method
 
 .method public setState(III)V
@@ -6820,5 +6603,4 @@
 
     return v0
 .end method
-
 .end class

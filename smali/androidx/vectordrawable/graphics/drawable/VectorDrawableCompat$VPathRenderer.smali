@@ -75,11 +75,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->IDENTITY_MATRIX:Landroid/graphics/Matrix;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->IDENTITY_MATRIX:Landroid/graphics/Matrix;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -469,12 +465,7 @@
 
     .line 84
     :cond_2
-    invoke-virtual/range {p3 .. p3}, Landroid/graphics/Canvas;->restore()V
-
-    .line 85
-    .line 86
-    .line 87
-    return-void
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/Canvas;->restore()V    return-void
 .end method
 
 .method private drawPath(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VGroup;Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;Landroid/graphics/Canvas;IILandroid/graphics/ColorFilter;)V
@@ -636,12 +627,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {p3, p1}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z
-
-    .line 78
-    .line 79
-    .line 80
-    return-void
+    invoke-virtual {p3, p1}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z    return-void
 
     .line 81
     :cond_2
@@ -1404,27 +1390,7 @@
         0x3f800000    # 1.0f
         0x3f800000    # 1.0f
         0x0
-    .end array-data
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    .end array-data.end method
 
 
 # virtual methods
@@ -1455,12 +1421,7 @@
     move-object v6, p4
 
     .line 10
-    invoke-direct/range {v0 .. v6}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->drawGroupTree(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VGroup;Landroid/graphics/Matrix;Landroid/graphics/Canvas;IILandroid/graphics/ColorFilter;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-direct/range {v0 .. v6}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->drawGroupTree(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VGroup;Landroid/graphics/Matrix;Landroid/graphics/Canvas;IILandroid/graphics/ColorFilter;)V    return-void
 .end method
 
 .method public getAlpha()F
@@ -1491,11 +1452,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->mRootAlpha:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->mRootAlpha:I    return v0
 .end method
 
 .method public isStateful()Z
@@ -1582,23 +1539,13 @@
     float-to-int p1, p1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->setRootAlpha(I)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->setRootAlpha(I)V    return-void
 .end method
 
 .method public setRootAlpha(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->mRootAlpha:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->mRootAlpha:I    return-void
 .end method
-
 .end class

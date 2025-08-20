@@ -36,11 +36,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/constraintlayout/core/PriorityGoalRow$GoalVariableAccessor;->mRow:Landroidx/constraintlayout/core/PriorityGoalRow;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/PriorityGoalRow$GoalVariableAccessor;->mRow:Landroidx/constraintlayout/core/PriorityGoalRow;    return-void
 .end method
 
 
@@ -364,11 +360,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/PriorityGoalRow$GoalVariableAccessor;->mVariable:Landroidx/constraintlayout/core/SolverVariable;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/PriorityGoalRow$GoalVariableAccessor;->mVariable:Landroidx/constraintlayout/core/SolverVariable;    return-void
 .end method
 
 .method public final isNegative()Z
@@ -406,11 +398,7 @@
 
     .line 14
     .line 15
-    if-lez v4, :cond_0
-
-    .line 16
-    .line 17
-    return v1
+    if-lez v4, :cond_0    return v1
 
     .line 18
     :cond_0
@@ -477,11 +465,7 @@
 
     .line 15
     .line 16
-    if-eqz v2, :cond_0
-
-    .line 17
-    .line 18
-    return v0
+    if-eqz v2, :cond_0    return v0
 
     .line 19
     :cond_0
@@ -582,12 +566,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -698,5 +677,4 @@
 
     return-object v0
 .end method
-
 .end class

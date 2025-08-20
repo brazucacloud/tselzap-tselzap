@@ -191,12 +191,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, p1, p2}, Landroidx/loader/content/AsyncTaskLoader;->dispatchOnCancelled(Landroidx/loader/content/AsyncTaskLoader$LoadTask;Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/loader/content/AsyncTaskLoader;->dispatchOnCancelled(Landroidx/loader/content/AsyncTaskLoader$LoadTask;Ljava/lang/Object;)V    return-void
 
     .line 9
     :cond_0
@@ -212,12 +207,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p2}, Landroidx/loader/content/AsyncTaskLoader;->onCanceled(Ljava/lang/Object;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/loader/content/AsyncTaskLoader;->onCanceled(Ljava/lang/Object;)V    return-void
 
     .line 19
     :cond_1
@@ -245,12 +235,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0, p2}, Landroidx/loader/content/Loader;->deliverResult(Ljava/lang/Object;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/loader/content/Loader;->deliverResult(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -572,12 +557,7 @@
     add-long/2addr v2, v4
 
     .line 62
-    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postAtTime(Ljava/lang/Runnable;J)Z
-
-    .line 63
-    .line 64
-    .line 65
-    return-void
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postAtTime(Ljava/lang/Runnable;J)Z    return-void
 
     .line 66
     :cond_1
@@ -711,11 +691,7 @@
     .line 34
     .line 35
     :cond_1
-    iput-object v2, p0, Landroidx/loader/content/AsyncTaskLoader;->mTask:Landroidx/loader/content/AsyncTaskLoader$LoadTask;
-
-    .line 36
-    .line 37
-    return v1
+    iput-object v2, p0, Landroidx/loader/content/AsyncTaskLoader;->mTask:Landroidx/loader/content/AsyncTaskLoader$LoadTask;    return v1
 
     .line 38
     :cond_2
@@ -752,11 +728,7 @@
     .line 53
     .line 54
     .line 55
-    iput-object v2, p0, Landroidx/loader/content/AsyncTaskLoader;->mTask:Landroidx/loader/content/AsyncTaskLoader$LoadTask;
-
-    .line 56
-    .line 57
-    return v1
+    iput-object v2, p0, Landroidx/loader/content/AsyncTaskLoader;->mTask:Landroidx/loader/content/AsyncTaskLoader$LoadTask;    return v1
 
     .line 58
     :cond_3
@@ -790,11 +762,7 @@
     .line 72
     .line 73
     :cond_4
-    iput-object v2, p0, Landroidx/loader/content/AsyncTaskLoader;->mTask:Landroidx/loader/content/AsyncTaskLoader$LoadTask;
-
-    .line 74
-    .line 75
-    return v0
+    iput-object v2, p0, Landroidx/loader/content/AsyncTaskLoader;->mTask:Landroidx/loader/content/AsyncTaskLoader$LoadTask;    return v0
 
     .line 76
     :cond_5
@@ -843,12 +811,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V    return-void
 .end method
 
 .method public onLoadInBackground()Ljava/lang/Object;
@@ -935,5 +898,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

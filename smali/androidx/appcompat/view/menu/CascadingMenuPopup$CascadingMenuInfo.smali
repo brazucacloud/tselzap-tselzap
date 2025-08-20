@@ -48,11 +48,7 @@
 
     .line 7
     .line 8
-    iput p3, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$CascadingMenuInfo;->position:I
-
-    .line 9
-    .line 10
-    return-void
+    iput p3, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$CascadingMenuInfo;->position:I    return-void
 .end method
 
 
@@ -74,5 +70,4 @@
 
     return-object v0
 .end method
-
 .end class

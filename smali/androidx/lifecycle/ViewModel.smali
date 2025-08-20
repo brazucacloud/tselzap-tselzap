@@ -212,12 +212,7 @@
     .line 7
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/lifecycle/ViewModel;->onCleared()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/ViewModel;->onCleared()V    return-void
 .end method
 
 .method public final getCloseable(Ljava/lang/String;)Ljava/lang/AutoCloseable;
@@ -271,5 +266,4 @@
 
     return-void
 .end method
-
 .end class

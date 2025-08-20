@@ -56,11 +56,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->registrationUris:Ljava/util/List;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->registrationUris:Ljava/util/List;    return-void
 .end method
 
 
@@ -81,12 +77,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;-><init>(Ljava/util/List;Landroid/view/InputEvent;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;-><init>(Ljava/util/List;Landroid/view/InputEvent;)V    return-object v0
 .end method
 
 .method public final setInputEvent(Landroid/view/InputEvent;)Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;
@@ -102,11 +93,6 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->inputEvent:Landroid/view/InputEvent;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->inputEvent:Landroid/view/InputEvent;    return-object p0
 .end method
-
 .end class

@@ -93,11 +93,7 @@
     move-result-object p1
 
     .line 24
-    iput-object p1, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;
-
-    .line 25
-    .line 26
-    return-void
+    iput-object p1, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;    return-void
 .end method
 
 .method public static synthetic calculateBounds$default(Landroidx/graphics/shapes/Morph;[FZILjava/lang/Object;)[F
@@ -881,11 +877,7 @@
     move-result v0
 
     .line 58
-    aput v0, p1, v6
-
-    .line 59
-    .line 60
-    return-object p1
+    aput v0, p1, v6    return-object p1
 .end method
 
 .method public final forEachCubic(FLandroidx/graphics/shapes/MutableCubic;Lp1/l;)V
@@ -1058,11 +1050,6 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;    return-object v0
 .end method
-
 .end class

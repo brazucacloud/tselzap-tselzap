@@ -110,11 +110,7 @@
     .line 40
     .line 41
     .line 42
-    iput-object p3, p0, Landroidx/appcompat/widget/SearchView$UpdatableTouchDelegate;->mDelegateView:Landroid/view/View;
-
-    .line 43
-    .line 44
-    return-void
+    iput-object p3, p0, Landroidx/appcompat/widget/SearchView$UpdatableTouchDelegate;->mDelegateView:Landroid/view/View;    return-void
 .end method
 
 
@@ -433,12 +429,6 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, p2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual {p1, p2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V    return-void
 .end method
-
 .end class

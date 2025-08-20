@@ -71,12 +71,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -91,12 +86,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p0}, Landroid/transition/Transition;->removeListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p1, p0}, Landroid/transition/Transition;->removeListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;    return-void
 .end method
 
 .method public onTransitionPause(Landroid/transition/Transition;)V
@@ -186,5 +176,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

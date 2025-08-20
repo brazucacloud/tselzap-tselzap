@@ -40,11 +40,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/appcompat/view/WindowCallbackWrapper;->mWrapped:Landroid/view/Window$Callback;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/WindowCallbackWrapper;->mWrapped:Landroid/view/Window$Callback;    return-void
 
     .line 9
     :cond_0
@@ -61,19 +57,7 @@
     .line 14
     .line 15
     .line 16
-    throw p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 
 # virtual methods
@@ -189,11 +173,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/WindowCallbackWrapper;->mWrapped:Landroid/view/Window$Callback;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/WindowCallbackWrapper;->mWrapped:Landroid/view/Window$Callback;    return-object v0
 .end method
 
 .method public onActionModeFinished(Landroid/view/ActionMode;)V
@@ -204,12 +184,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onActionModeFinished(Landroid/view/ActionMode;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onActionModeFinished(Landroid/view/ActionMode;)V    return-void
 .end method
 
 .method public onActionModeStarted(Landroid/view/ActionMode;)V
@@ -220,12 +195,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onActionModeStarted(Landroid/view/ActionMode;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onActionModeStarted(Landroid/view/ActionMode;)V    return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -236,12 +206,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onAttachedToWindow()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/view/Window$Callback;->onAttachedToWindow()V    return-void
 .end method
 
 .method public onContentChanged()V
@@ -252,12 +217,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onContentChanged()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/view/Window$Callback;->onContentChanged()V    return-void
 .end method
 
 .method public onCreatePanelMenu(ILandroid/view/Menu;)Z
@@ -304,12 +264,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/Window$Callback;->onDetachedFromWindow()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/view/Window$Callback;->onDetachedFromWindow()V    return-void
 .end method
 
 .method public onMenuItemSelected(ILandroid/view/MenuItem;)Z
@@ -356,12 +311,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onPanelClosed(ILandroid/view/Menu;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onPanelClosed(ILandroid/view/Menu;)V    return-void
 .end method
 
 .method public onPointerCaptureChanged(Z)V
@@ -375,12 +325,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/view/WindowCallbackWrapper$Api26Impl;->onPointerCaptureChanged(Landroid/view/Window$Callback;Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1}, Landroidx/appcompat/view/WindowCallbackWrapper$Api26Impl;->onPointerCaptureChanged(Landroid/view/Window$Callback;Z)V    return-void
 .end method
 
 .method public onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
@@ -423,12 +368,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2, p3}, Landroidx/appcompat/view/WindowCallbackWrapper$Api24Impl;->onProvideKeyboardShortcuts(Landroid/view/Window$Callback;Ljava/util/List;Landroid/view/Menu;I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1, p2, p3}, Landroidx/appcompat/view/WindowCallbackWrapper$Api24Impl;->onProvideKeyboardShortcuts(Landroid/view/Window$Callback;Ljava/util/List;Landroid/view/Menu;I)V    return-void
 .end method
 
 .method public onSearchRequested()Z
@@ -468,12 +408,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V    return-void
 .end method
 
 .method public onWindowFocusChanged(Z)V
@@ -484,12 +419,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowFocusChanged(Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Landroid/view/Window$Callback;->onWindowFocusChanged(Z)V    return-void
 .end method
 
 .method public onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
@@ -520,5 +450,4 @@
 
     return-object p1
 .end method
-
 .end class

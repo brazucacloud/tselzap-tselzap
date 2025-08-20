@@ -196,11 +196,7 @@
 
     .line 43
     .line 44
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition;->mToPixel:Landroidx/constraintlayout/core/state/CorePixelDp;
-
-    .line 45
-    .line 46
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition;->mToPixel:Landroidx/constraintlayout/core/state/CorePixelDp;    return-void
 .end method
 
 .method public static synthetic a(F)F
@@ -308,11 +304,7 @@
     float-to-int p1, v0
 
     .line 29
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition;->mParentInterpolateHeight:I
-
-    .line 30
-    .line 31
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition;->mParentInterpolateHeight:I    return-void
 .end method
 
 .method public static synthetic d(Ljava/lang/String;F)F
@@ -764,12 +756,7 @@
     move-result-object p1
 
     .line 10
-    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomColor(Ljava/lang/String;I)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomColor(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public addCustomFloat(ILjava/lang/String;Ljava/lang/String;F)V
@@ -795,12 +782,7 @@
     move-result-object p1
 
     .line 10
-    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomFloat(Ljava/lang/String;F)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomFloat(Ljava/lang/String;F)V    return-void
 .end method
 
 .method public addKeyAttribute(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -855,12 +837,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/state/Transition$WidgetState;->setKeyCycle(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/state/Transition$WidgetState;->setKeyCycle(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V    return-void
 .end method
 
 .method public addKeyPosition(Ljava/lang/String;IIFF)V
@@ -1646,12 +1623,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V    return-void
 .end method
 
 .method public contains(Ljava/lang/String;)Z
@@ -1685,11 +1657,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition;->mOnSwipe:Landroidx/constraintlayout/core/state/Transition$OnSwipe;
-
-    .line 7
-    .line 8
-    return-object v0
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition;->mOnSwipe:Landroidx/constraintlayout/core/state/Transition$OnSwipe;    return-object v0
 .end method
 
 .method public dragToProgress(FIIFF)F
@@ -1863,11 +1831,7 @@
     move-result p2
 
     .line 77
-    mul-float p1, p1, p2
-
-    .line 78
-    .line 79
-    return p1
+    mul-float p1, p1, p2    return p1
 
     .line 80
     :cond_3
@@ -2012,11 +1976,7 @@
     move-result p2
 
     .line 148
-    mul-float p1, p1, p2
-
-    .line 149
-    .line 150
-    return p1
+    mul-float p1, p1, p2    return p1
 
     .line 151
     :cond_5
@@ -2041,11 +2001,7 @@
 
     .line 159
     :cond_6
-    const/high16 p1, 0x3f800000    # 1.0f
-
-    .line 160
-    .line 161
-    return p1
+    const/high16 p1, 0x3f800000    # 1.0f    return p1
 .end method
 
 .method public fillKeyPositions(Landroidx/constraintlayout/core/state/WidgetFrame;[F[F[F)V
@@ -2215,11 +2171,7 @@
 
     .line 24
     .line 25
-    if-eqz v0, :cond_0
-
-    .line 26
-    .line 27
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 28
     :cond_0
@@ -2285,11 +2237,7 @@
 
     .line 22
     .line 23
-    if-eqz v0, :cond_0
-
-    .line 24
-    .line 25
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 26
     :cond_0
@@ -2310,11 +2258,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Transition;->mAutoTransition:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/Transition;->mAutoTransition:I    return v0
 .end method
 
 .method public getEnd(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
@@ -2417,22 +2361,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Transition;->mParentInterpolateHeight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/Transition;->mParentInterpolateHeight:I    return v0
 .end method
 
 .method public getInterpolatedWidth()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Transition;->mParentInterpolatedWidth:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/Transition;->mParentInterpolatedWidth:I    return v0
 .end method
 
 .method public getInterpolator()Landroidx/constraintlayout/core/state/Interpolator;
@@ -2502,11 +2438,7 @@
     move-result-object p1
 
     .line 7
-    iget-object p1, p1, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
-
-    .line 8
-    .line 9
-    return-object p1
+    iget-object p1, p1, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;    return-object p1
 .end method
 
 .method public getNumberKeyPositions(Landroidx/constraintlayout/core/state/WidgetFrame;)I
@@ -2632,12 +2564,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->buildPath([FI)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-object v0
+    invoke-virtual {p1, v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->buildPath([FI)V    return-object v0
 .end method
 
 .method public getStart(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
@@ -2961,11 +2888,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -3008,12 +2931,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 27
-    .line 28
-    .line 29
-    return v1
+    invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return v1
 
     .line 30
     :cond_1
@@ -3084,11 +3002,7 @@
 
     .line 60
     .line 61
-    if-gez p1, :cond_2
-
-    .line 62
-    .line 63
-    return v2
+    if-gez p1, :cond_2    return v2
 
     .line 64
     :cond_2
@@ -3132,12 +3046,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->clear()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->clear()V    return-void
 .end method
 
 .method public setTouchUp(FJFF)V
@@ -3393,12 +3302,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V    return-void
 .end method
 
 .method public setValue(IF)Z
@@ -3682,12 +3586,6 @@
 
     .line 103
     :cond_4
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/Transition;->calcStagger()V
-
-    .line 104
-    .line 105
-    .line 106
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/Transition;->calcStagger()V    return-void
 .end method
-
 .end class

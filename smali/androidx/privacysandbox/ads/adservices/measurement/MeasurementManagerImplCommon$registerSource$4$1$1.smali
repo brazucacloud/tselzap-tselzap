@@ -81,12 +81,7 @@
     const/4 p1, 0x2
 
     .line 8
-    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -122,12 +117,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p1, v0, v1, v2, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4$1$1;-><init>(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroid/net/Uri;Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Lg1/d;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object p1
+    invoke-direct {p1, v0, v1, v2, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4$1$1;-><init>(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroid/net/Uri;Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Lg1/d;)V    return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -352,20 +342,11 @@
     move-result-object p1
 
     .line 88
-    if-ne p1, v0, :cond_2
-
-    .line 89
-    .line 90
-    return-object v0
+    if-ne p1, v0, :cond_2    return-object v0
 
     .line 91
     :cond_2
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 92
-    .line 93
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

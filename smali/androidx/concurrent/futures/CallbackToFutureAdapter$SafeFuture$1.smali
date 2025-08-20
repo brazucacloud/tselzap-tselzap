@@ -34,12 +34,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/concurrent/futures/AbstractResolvableFuture;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/concurrent/futures/AbstractResolvableFuture;-><init>()V    return-void
 .end method
 
 
@@ -72,11 +67,7 @@
 
     .line 12
     .line 13
-    const-string v0, "Completer object has been garbage collected, future will fail soon"
-
-    .line 14
-    .line 15
-    return-object v0
+    const-string v0, "Completer object has been garbage collected, future will fail soon"    return-object v0
 
     .line 16
     :cond_0
@@ -120,5 +111,4 @@
 
     return-object v0
 .end method
-
 .end class

@@ -92,11 +92,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Landroidx/datastore/preferences/protobuf/LazyField;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/datastore/preferences/protobuf/LazyField;    return-object v0
 .end method
 
 .method public getKey()Ljava/lang/Object;
@@ -220,5 +216,4 @@
     .line 27
     throw p1
 .end method
-
 .end class

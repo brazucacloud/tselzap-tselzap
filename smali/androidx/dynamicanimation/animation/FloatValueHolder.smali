@@ -45,22 +45,13 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F    return v0
 .end method
 
 .method public setValue(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F    return-void
 .end method
-
 .end class

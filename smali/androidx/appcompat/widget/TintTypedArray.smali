@@ -39,11 +39,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/widget/TintTypedArray;->mWrapped:Landroid/content/res/TypedArray;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/widget/TintTypedArray;->mWrapped:Landroid/content/res/TypedArray;    return-void
 .end method
 
 .method public static obtainStyledAttributes(Landroid/content/Context;I[I)Landroidx/appcompat/widget/TintTypedArray;
@@ -202,11 +198,7 @@
     move-result-object v0
 
     .line 24
-    if-eqz v0, :cond_0
-
-    .line 25
-    .line 26
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 27
     :cond_0
@@ -795,11 +787,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/TintTypedArray;->mWrapped:Landroid/content/res/TypedArray;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/TintTypedArray;->mWrapped:Landroid/content/res/TypedArray;    return-object v0
 .end method
 
 .method public hasValue(I)Z
@@ -864,12 +852,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
-
 .end class

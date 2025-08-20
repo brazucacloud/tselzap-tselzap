@@ -102,12 +102,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;    return-void
 .end method
 
 .method public static final set(Landroidx/navigation/NavigatorProvider;Ljava/lang/String;Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;
@@ -165,5 +160,4 @@
 
     return-object p0
 .end method
-
 .end class

@@ -42,12 +42,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private static createAnimatorFromXml(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Lorg/xmlpull/v1/XmlPullParser;F)Landroid/animation/Animator;
@@ -1664,12 +1659,7 @@
 
     .line 25
     :cond_0
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 26
-    .line 27
-    .line 28
-    return p2
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V    return p2
 .end method
 
 .method private static isColorType(I)Z
@@ -2154,12 +2144,7 @@
     .line 99
     .line 100
     :cond_7
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 101
-    .line 102
-    .line 103
-    return-object p2
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-object p2
 .end method
 
 .method private static loadObjectAnimator(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;FLorg/xmlpull/v1/XmlPullParser;)Landroid/animation/ObjectAnimator;
@@ -2193,12 +2178,7 @@
     move-object v6, p5
 
     .line 12
-    invoke-static/range {v0 .. v6}, Landroidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat;->loadAnimator(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Landroid/animation/ValueAnimator;FLorg/xmlpull/v1/XmlPullParser;)Landroid/animation/ValueAnimator;
-
-    .line 13
-    .line 14
-    .line 15
-    return-object v4
+    invoke-static/range {v0 .. v6}, Landroidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat;->loadAnimator(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Landroid/animation/ValueAnimator;FLorg/xmlpull/v1/XmlPullParser;)Landroid/animation/ValueAnimator;    return-object v4
 .end method
 
 .method private static loadPvh(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Landroid/animation/PropertyValuesHolder;
@@ -3347,12 +3327,7 @@
 
     .line 68
     .line 69
-    invoke-static {p1, p0, p3, v1, p4}, Landroidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat;->setupPathMotion(Landroid/graphics/Path;Landroid/animation/ObjectAnimator;FLjava/lang/String;Ljava/lang/String;)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-static {p1, p0, p3, v1, p4}, Landroidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat;->setupPathMotion(Landroid/graphics/Path;Landroid/animation/ObjectAnimator;FLjava/lang/String;Ljava/lang/String;)V    return-void
 
     .line 73
     :cond_3
@@ -3371,12 +3346,7 @@
     move-result-object p1
 
     .line 80
-    invoke-virtual {p0, p1}, Landroid/animation/ObjectAnimator;->setPropertyName(Ljava/lang/String;)V
-
-    .line 81
-    .line 82
-    .line 83
-    return-void
+    invoke-virtual {p0, p1}, Landroid/animation/ObjectAnimator;->setPropertyName(Ljava/lang/String;)V    return-void
 .end method
 
 .method private static setupPathMotion(Landroid/graphics/Path;Landroid/animation/ObjectAnimator;FLjava/lang/String;Ljava/lang/String;)V
@@ -3709,12 +3679,7 @@
 
     .line 153
     .line 154
-    invoke-virtual {v1, v0}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
-
-    .line 155
-    .line 156
-    .line 157
-    return-void
+    invoke-virtual {v1, v0}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V    return-void
 
     .line 158
     :cond_5
@@ -3730,12 +3695,7 @@
 
     .line 163
     .line 164
-    invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
-
-    .line 165
-    .line 166
-    .line 167
-    return-void
+    invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V    return-void
 
     .line 168
     :cond_6
@@ -3754,12 +3714,6 @@
 
     .line 174
     .line 175
-    invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
-
-    .line 176
-    .line 177
-    .line 178
-    return-void
+    invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V    return-void
 .end method
-
 .end class

@@ -66,11 +66,7 @@
     .line 29
     .line 30
     .line 31
-    iput-boolean p2, p0, Landroidx/fragment/app/strictmode/SetUserVisibleHintViolation;->isVisibleToUser:Z
-
-    .line 32
-    .line 33
-    return-void
+    iput-boolean p2, p0, Landroidx/fragment/app/strictmode/SetUserVisibleHintViolation;->isVisibleToUser:Z    return-void
 .end method
 
 
@@ -79,11 +75,6 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/strictmode/SetUserVisibleHintViolation;->isVisibleToUser:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/fragment/app/strictmode/SetUserVisibleHintViolation;->isVisibleToUser:Z    return v0
 .end method
-
 .end class

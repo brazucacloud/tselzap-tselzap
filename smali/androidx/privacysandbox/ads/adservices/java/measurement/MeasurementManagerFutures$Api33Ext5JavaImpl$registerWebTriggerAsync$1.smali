@@ -68,12 +68,7 @@
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -105,12 +100,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p1, v0, v1, p2}, Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures$Api33Ext5JavaImpl$registerWebTriggerAsync$1;-><init>(Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures$Api33Ext5JavaImpl;Landroidx/privacysandbox/ads/adservices/measurement/WebTriggerRegistrationRequest;Lg1/d;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object p1
+    invoke-direct {p1, v0, v1, p2}, Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures$Api33Ext5JavaImpl$registerWebTriggerAsync$1;-><init>(Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures$Api33Ext5JavaImpl;Landroidx/privacysandbox/ads/adservices/measurement/WebTriggerRegistrationRequest;Lg1/d;)V    return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -240,20 +230,11 @@
     move-result-object p1
 
     .line 39
-    if-ne p1, v0, :cond_2
-
-    .line 40
-    .line 41
-    return-object v0
+    if-ne p1, v0, :cond_2    return-object v0
 
     .line 42
     :cond_2
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 43
-    .line 44
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

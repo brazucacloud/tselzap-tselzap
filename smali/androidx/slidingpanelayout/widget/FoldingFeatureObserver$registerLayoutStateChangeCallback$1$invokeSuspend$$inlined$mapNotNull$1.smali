@@ -43,12 +43,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -86,19 +81,10 @@
 
     .line 15
     .line 16
-    if-ne p1, p2, :cond_0
-
-    .line 17
-    .line 18
-    return-object p1
+    if-ne p1, p2, :cond_0    return-object p1
 
     .line 19
     :cond_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 20
-    .line 21
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

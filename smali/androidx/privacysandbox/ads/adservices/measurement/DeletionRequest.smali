@@ -324,12 +324,7 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 48
-    .line 49
-    .line 50
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -339,11 +334,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -354,11 +345,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -518,11 +505,7 @@
 
     .line 90
     .line 91
-    if-ne v1, p1, :cond_2
-
-    .line 92
-    .line 93
-    return v0
+    if-ne v1, p1, :cond_2    return v0
 
     .line 94
     :cond_2
@@ -533,11 +516,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->deletionMode:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->deletionMode:I    return v0
 .end method
 
 .method public final getDomainUris()Ljava/util/List;
@@ -552,33 +531,21 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->domainUris:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->domainUris:Ljava/util/List;    return-object v0
 .end method
 
 .method public final getEnd()Ljava/time/Instant;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->end:Ljava/time/Instant;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->end:Ljava/time/Instant;    return-object v0
 .end method
 
 .method public final getMatchBehavior()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->matchBehavior:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->matchBehavior:I    return v0
 .end method
 
 .method public final getOriginUris()Ljava/util/List;
@@ -593,22 +560,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->originUris:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->originUris:Ljava/util/List;    return-object v0
 .end method
 
 .method public final getStart()Ljava/time/Instant;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->start:Ljava/time/Instant;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;->start:Ljava/time/Instant;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -876,5 +835,4 @@
 
     return-object v0
 .end method
-
 .end class

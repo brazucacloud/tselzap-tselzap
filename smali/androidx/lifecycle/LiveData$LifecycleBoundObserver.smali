@@ -60,11 +60,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/lifecycle/LiveData$LifecycleBoundObserver;->mOwner:Landroidx/lifecycle/LifecycleOwner;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/lifecycle/LiveData$LifecycleBoundObserver;->mOwner:Landroidx/lifecycle/LifecycleOwner;    return-void
 .end method
 
 
@@ -85,12 +81,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
 .end method
 
 .method public isAttachedTo(Landroidx/lifecycle/LifecycleOwner;)Z
@@ -164,12 +155,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V    return-void
 
     .line 23
     :cond_0
@@ -267,5 +253,4 @@
 
     return v0
 .end method
-
 .end class

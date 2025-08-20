@@ -68,5 +68,4 @@
 
 .method public abstract getTypeUrlBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 .end method
-
 .end class

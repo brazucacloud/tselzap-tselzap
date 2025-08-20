@@ -41,11 +41,7 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z    return-void
 .end method
 
 
@@ -137,12 +133,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Ljava/util/AbstractList;->clear()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-super {p0}, Ljava/util/AbstractList;->clear()V    return-void
 .end method
 
 .method public ensureIsMutable()V
@@ -153,11 +144,7 @@
 
     .line 2
     .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -170,19 +157,7 @@
     .line 9
     .line 10
     .line 11
-    throw v0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
@@ -191,11 +166,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p1, p0, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p1, p0, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -206,11 +177,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -253,11 +220,7 @@
     move-result v3
 
     .line 30
-    if-eq v1, v3, :cond_3
-
-    .line 31
-    .line 32
-    return v2
+    if-eq v1, v3, :cond_3    return v2
 
     .line 33
     :cond_3
@@ -293,11 +256,7 @@
     move-result v4
 
     .line 48
-    if-nez v4, :cond_4
-
-    .line 49
-    .line 50
-    return v2
+    if-nez v4, :cond_4    return v2
 
     .line 51
     :cond_4
@@ -373,11 +332,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z    return v0
 .end method
 
 .method public final makeImmutable()V
@@ -387,11 +342,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z    return-void
 .end method
 
 .method public remove(I)Ljava/lang/Object;
@@ -502,5 +453,4 @@
 
     return-object p1
 .end method
-
 .end class

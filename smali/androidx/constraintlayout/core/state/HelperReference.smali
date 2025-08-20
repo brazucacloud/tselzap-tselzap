@@ -51,11 +51,7 @@
 
     .line 12
     .line 13
-    iput-object p2, p0, Landroidx/constraintlayout/core/state/HelperReference;->mType:Landroidx/constraintlayout/core/state/State$Helper;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/state/HelperReference;->mType:Landroidx/constraintlayout/core/state/State$Helper;    return-void
 .end method
 
 
@@ -68,12 +64,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public apply()V
@@ -86,12 +77,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/constraintlayout/core/state/ConstraintReference;->apply()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0}, Landroidx/constraintlayout/core/state/ConstraintReference;->apply()V    return-void
 .end method
 
 .method public getConstraintWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -112,33 +98,20 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;    return-object v0
 .end method
 
 .method public getType()Landroidx/constraintlayout/core/state/State$Helper;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mType:Landroidx/constraintlayout/core/state/State$Helper;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mType:Landroidx/constraintlayout/core/state/State$Helper;    return-object v0
 .end method
 
 .method public setHelperWidget(Landroidx/constraintlayout/core/widgets/HelperWidget;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;    return-void
 .end method
-
 .end class

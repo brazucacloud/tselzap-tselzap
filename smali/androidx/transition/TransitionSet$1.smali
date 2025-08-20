@@ -33,12 +33,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -60,12 +55,6 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-void
 .end method
-
 .end class

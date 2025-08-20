@@ -32,11 +32,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/ObjectFloatMapKt;->EmptyObjectFloatMap:Landroidx/collection/MutableObjectFloatMap;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/collection/ObjectFloatMapKt;->EmptyObjectFloatMap:Landroidx/collection/MutableObjectFloatMap;    return-void
 .end method
 
 .method public static final emptyObjectFloatMap()Landroidx/collection/ObjectFloatMap;
@@ -60,12 +56,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf()Landroidx/collection/MutableObjectFloatMap;
@@ -290,12 +281,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public static final objectFloatMapOf(Ljava/lang/Object;F)Landroidx/collection/ObjectFloatMap;
@@ -472,5 +458,4 @@
 
     return-object v0
 .end method
-
 .end class

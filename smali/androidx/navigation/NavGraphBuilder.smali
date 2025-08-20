@@ -259,12 +259,7 @@
 
     .line 9
     .line 10
-    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public bridge synthetic build()Landroidx/navigation/NavDestination;
@@ -431,23 +426,14 @@
     move-result-object p1
 
     .line 14
-    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final getProvider()Landroidx/navigation/NavigatorProvider;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavGraphBuilder;->provider:Landroidx/navigation/NavigatorProvider;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavGraphBuilder;->provider:Landroidx/navigation/NavigatorProvider;    return-object v0
 .end method
 
 .method public final unaryPlus(Landroidx/navigation/NavDestination;)V
@@ -463,12 +449,6 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraphBuilder;->addDestination(Landroidx/navigation/NavDestination;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraphBuilder;->addDestination(Landroidx/navigation/NavDestination;)V    return-void
 .end method
-
 .end class

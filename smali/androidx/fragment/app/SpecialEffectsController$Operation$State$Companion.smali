@@ -79,11 +79,7 @@
 
     .line 20
     .line 21
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 22
-    .line 23
-    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 
     .line 24
     :cond_0
@@ -128,11 +124,7 @@
 
     .line 9
     .line 10
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 11
-    .line 12
-    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 
     .line 13
     :cond_0
@@ -161,19 +153,10 @@
 
     .line 25
     :cond_1
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 26
-    .line 27
-    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 
     .line 28
     :cond_2
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 29
-    .line 30
-    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 .end method
-
 .end class

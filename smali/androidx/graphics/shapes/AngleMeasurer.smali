@@ -26,11 +26,7 @@
 
     .line 5
     .line 6
-    iput p2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
-
-    .line 7
-    .line 8
-    return-void
+    iput p2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F    return-void
 .end method
 
 .method public static synthetic a(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/AngleMeasurer;FFF)F
@@ -232,22 +228,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F    return v0
 .end method
 
 .method public final getCenterY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F    return v0
 .end method
 
 .method public measureCubic(Landroidx/graphics/shapes/Cubic;)F
@@ -388,5 +376,4 @@
     :cond_0
     return p1
 .end method
-
 .end class

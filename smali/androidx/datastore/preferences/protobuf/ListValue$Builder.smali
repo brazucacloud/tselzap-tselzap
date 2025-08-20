@@ -79,12 +79,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/ListValue;->access$700(Landroidx/datastore/preferences/protobuf/ListValue;Ljava/lang/Iterable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/ListValue;->access$700(Landroidx/datastore/preferences/protobuf/ListValue;Ljava/lang/Iterable;)V    return-object p0
 .end method
 
 .method public addValues(ILandroidx/datastore/preferences/protobuf/Value$Builder;)Landroidx/datastore/preferences/protobuf/ListValue$Builder;
@@ -168,12 +163,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ListValue;->access$800(Landroidx/datastore/preferences/protobuf/ListValue;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ListValue;->access$800(Landroidx/datastore/preferences/protobuf/ListValue;)V    return-object p0
 .end method
 
 .method public getValues(I)Landroidx/datastore/preferences/protobuf/Value;
@@ -275,12 +265,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/ListValue;->access$900(Landroidx/datastore/preferences/protobuf/ListValue;I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/ListValue;->access$900(Landroidx/datastore/preferences/protobuf/ListValue;I)V    return-object p0
 .end method
 
 .method public setValues(ILandroidx/datastore/preferences/protobuf/Value$Builder;)Landroidx/datastore/preferences/protobuf/ListValue$Builder;
@@ -314,5 +299,4 @@
 
     return-object p0
 .end method
-
 .end class

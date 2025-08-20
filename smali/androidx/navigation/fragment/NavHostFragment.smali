@@ -89,33 +89,21 @@
     move-result-object v0
 
     .line 13
-    iput-object v0, p0, Landroidx/navigation/fragment/NavHostFragment;->navHostController$delegate:Lc1/d;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object v0, p0, Landroidx/navigation/fragment/NavHostFragment;->navHostController$delegate:Lc1/d;    return-void
 .end method
 
 .method public static final synthetic access$getGraphId$p(Landroidx/navigation/fragment/NavHostFragment;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Landroidx/navigation/fragment/NavHostFragment;->graphId:I
-
-    .line 2
-    .line 3
-    return p0
+    iget p0, p0, Landroidx/navigation/fragment/NavHostFragment;->graphId:I    return p0
 .end method
 
 .method public static final synthetic access$setGraphId$p(Landroidx/navigation/fragment/NavHostFragment;I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/navigation/fragment/NavHostFragment;->graphId:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/navigation/fragment/NavHostFragment;->graphId:I    return-void
 .end method
 
 .method public static final create(I)Landroidx/navigation/fragment/NavHostFragment;
@@ -183,19 +171,11 @@
     const/4 v1, -0x1
 
     .line 8
-    if-eq v0, v1, :cond_0
-
-    .line 9
-    .line 10
-    return v0
+    if-eq v0, v1, :cond_0    return v0
 
     .line 11
     :cond_0
-    sget v0, Landroidx/navigation/fragment/R$id;->nav_host_fragment_container:I
-
-    .line 12
-    .line 13
-    return v0
+    sget v0, Landroidx/navigation/fragment/R$id;->nav_host_fragment_container:I    return v0
 .end method
 
 
@@ -259,12 +239,7 @@
     move-result v3
 
     .line 25
-    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/fragment/FragmentNavigator;-><init>(Landroid/content/Context;Landroidx/fragment/app/FragmentManager;I)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/fragment/FragmentNavigator;-><init>(Landroid/content/Context;Landroidx/fragment/app/FragmentManager;I)V    return-object v0
 .end method
 
 .method public final getNavController()Landroidx/navigation/NavController;
@@ -297,11 +272,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Landroidx/navigation/NavHostController;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, Landroidx/navigation/NavHostController;    return-object v0
 .end method
 
 .method public onAttach(Landroid/content/Context;)V
@@ -436,12 +407,7 @@
     .line 32
     .line 33
     :cond_0
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public onCreateNavController(Landroidx/navigation/NavController;)V
@@ -531,12 +497,7 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {p1, v0}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;    return-void
 .end method
 
 .method public onCreateNavHostController(Landroidx/navigation/NavHostController;)V
@@ -554,12 +515,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/navigation/fragment/NavHostFragment;->onCreateNavController(Landroidx/navigation/NavController;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/fragment/NavHostFragment;->onCreateNavController(Landroidx/navigation/NavController;)V    return-void
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -609,12 +565,7 @@
     move-result p1
 
     .line 24
-    invoke-virtual {p2, p1}, Landroid/view/View;->setId(I)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-object p2
+    invoke-virtual {p2, p1}, Landroid/view/View;->setId(I)V    return-object p2
 .end method
 
 .method public onDestroyView()V
@@ -663,11 +614,7 @@
     .line 21
     .line 22
     :cond_0
-    iput-object v1, p0, Landroidx/navigation/fragment/NavHostFragment;->viewParent:Landroid/view/View;
-
-    .line 23
-    .line 24
-    return-void
+    iput-object v1, p0, Landroidx/navigation/fragment/NavHostFragment;->viewParent:Landroid/view/View;    return-void
 .end method
 
 .method public onInflate(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
@@ -794,12 +741,7 @@
     .line 60
     .line 61
     :cond_1
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -1021,155 +963,5 @@
     .line 88
     .line 89
     .line 90
-    throw p2
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-.end method
-
+    throw p2.end method
 .end class

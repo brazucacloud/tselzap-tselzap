@@ -63,22 +63,14 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
     const/4 v1, 0x0
 
     .line 6
-    if-nez p1, :cond_1
-
-    .line 7
-    .line 8
-    return v1
+    if-nez p1, :cond_1    return v1
 
     .line 9
     :cond_1
@@ -94,11 +86,7 @@
 
     .line 14
     .line 15
-    if-eq v3, v2, :cond_2
-
-    .line 16
-    .line 17
-    return v1
+    if-eq v3, v2, :cond_2    return v1
 
     .line 18
     :cond_2
@@ -118,11 +106,7 @@
 
     .line 25
     .line 26
-    if-eqz v2, :cond_4
-
-    .line 27
-    .line 28
-    return v1
+    if-eqz v2, :cond_4    return v1
 
     .line 29
     :cond_3
@@ -138,11 +122,7 @@
     move-result v2
 
     .line 35
-    if-nez v2, :cond_4
-
-    .line 36
-    .line 37
-    return v1
+    if-nez v2, :cond_4    return v1
 
     .line 38
     :cond_4
@@ -158,11 +138,7 @@
 
     .line 43
     .line 44
-    if-eqz v6, :cond_5
-
-    .line 45
-    .line 46
-    return v1
+    if-eqz v6, :cond_5    return v1
 
     .line 47
     :cond_5
@@ -190,11 +166,7 @@
     move-result p1
 
     .line 59
-    if-eq v2, p1, :cond_6
-
-    .line 60
-    .line 61
-    return v1
+    if-eq v2, p1, :cond_6    return v1
 
     .line 62
     :cond_6
@@ -374,5 +346,4 @@
 
     return-object v0
 .end method
-
 .end class

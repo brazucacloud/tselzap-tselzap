@@ -84,11 +84,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/widget/Toolbar$InspectionCompanion;->mPropertiesMapped:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/Toolbar$InspectionCompanion;->mPropertiesMapped:Z    return-void
 .end method
 
 
@@ -424,11 +420,7 @@
     const/4 p1, 0x1
 
     .line 162
-    iput-boolean p1, p0, Landroidx/appcompat/widget/Toolbar$InspectionCompanion;->mPropertiesMapped:Z
-
-    .line 163
-    .line 164
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/Toolbar$InspectionCompanion;->mPropertiesMapped:Z    return-void
 .end method
 
 .method public readProperties(Landroidx/appcompat/widget/Toolbar;Landroid/view/inspector/PropertyReader;)V
@@ -656,5 +648,4 @@
 
     return-void
 .end method
-
 .end class

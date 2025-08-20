@@ -20,5 +20,4 @@
 
 .method public abstract onDetachedFromWindow()V
 .end method
-
 .end class

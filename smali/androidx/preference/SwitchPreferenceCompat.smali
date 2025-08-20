@@ -292,11 +292,7 @@
     move-result v0
 
     .line 17
-    if-nez v0, :cond_0
-
-    .line 18
-    .line 19
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 20
     :cond_0
@@ -330,12 +326,7 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->syncSummaryView(Landroid/view/View;)V
-
-    .line 37
-    .line 38
-    .line 39
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->syncSummaryView(Landroid/view/View;)V    return-void
 .end method
 
 
@@ -346,11 +337,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/SwitchPreferenceCompat;->mSwitchOff:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/SwitchPreferenceCompat;->mSwitchOff:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getSwitchTextOn()Ljava/lang/CharSequence;
@@ -359,11 +346,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/SwitchPreferenceCompat;->mSwitchOn:Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/SwitchPreferenceCompat;->mSwitchOn:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
@@ -396,12 +379,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->syncSummaryView(Landroidx/preference/PreferenceViewHolder;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->syncSummaryView(Landroidx/preference/PreferenceViewHolder;)V    return-void
 .end method
 
 .method public performClick(Landroid/view/View;)V
@@ -422,12 +400,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/preference/SwitchPreferenceCompat;->syncViewIfAccessibilityEnabled(Landroid/view/View;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/preference/SwitchPreferenceCompat;->syncViewIfAccessibilityEnabled(Landroid/view/View;)V    return-void
 .end method
 
 .method public setSwitchTextOff(I)V
@@ -495,5 +468,4 @@
 
     return-void
 .end method
-
 .end class

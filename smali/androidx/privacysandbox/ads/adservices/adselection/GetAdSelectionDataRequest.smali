@@ -185,11 +185,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -200,11 +196,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -248,11 +240,7 @@
     move-result p1
 
     .line 31
-    if-eqz p1, :cond_2
-
-    .line 32
-    .line 33
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 34
     :cond_2
@@ -263,22 +251,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataRequest;->coordinatorOriginUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataRequest;->coordinatorOriginUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getSeller()Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataRequest;->seller:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataRequest;->seller:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -383,5 +363,4 @@
 
     return-object v0
 .end method
-
 .end class

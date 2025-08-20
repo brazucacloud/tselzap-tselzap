@@ -80,12 +80,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 
@@ -186,11 +181,7 @@
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Constraints;->mConstraintSet:Landroidx/constraintlayout/widget/ConstraintSet;
-
-    .line 18
-    .line 19
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Constraints;->mConstraintSet:Landroidx/constraintlayout/widget/ConstraintSet;    return-object v0
 .end method
 
 .method public onLayout(ZIIII)V
@@ -198,5 +189,4 @@
 
     return-void
 .end method
-
 .end class

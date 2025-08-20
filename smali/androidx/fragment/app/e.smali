@@ -64,5 +64,4 @@
         :pswitch_0
     .end packed-switch
 .end method
-
 .end class

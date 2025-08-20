@@ -133,12 +133,7 @@
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/collection/MutableIntIntMap;->removeDeletedMarkers()V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableIntIntMap;->removeDeletedMarkers()V    return-void
 
     .line 33
     :cond_0
@@ -154,12 +149,7 @@
     move-result v0
 
     .line 39
-    invoke-direct {p0, v0}, Landroidx/collection/MutableIntIntMap;->resizeStorage(I)V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableIntIntMap;->resizeStorage(I)V    return-void
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -300,32 +290,7 @@
     and-int/2addr p1, v0
 
     .line 60
-    goto :goto_0
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    goto :goto_0.end method
 
 .method private final findInsertIndex(I)I
     .locals 20
@@ -518,11 +483,7 @@
 
     .line 89
     .line 90
-    if-ne v12, v1, :cond_0
-
-    .line 91
-    .line 92
-    return v16
+    if-ne v12, v1, :cond_0    return v16
 
     .line 93
     :cond_0
@@ -808,32 +769,7 @@
     and-int/2addr v5, v4
 
     .line 219
-    goto/16 :goto_0
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    goto/16 :goto_0.end method
 
 .method private final initializeGrowth()V
     .locals 2
@@ -862,11 +798,7 @@
     sub-int/2addr v0, v1
 
     .line 12
-    iput v0, p0, Landroidx/collection/MutableIntIntMap;->growthLimit:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v0, p0, Landroidx/collection/MutableIntIntMap;->growthLimit:I    return-void
 .end method
 
 .method private final initializeMetadata(I)V
@@ -947,12 +879,7 @@
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableIntIntMap;->initializeGrowth()V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableIntIntMap;->initializeGrowth()V    return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1011,11 +938,7 @@
 
     .line 24
     .line 25
-    iput-object p1, p0, Landroidx/collection/IntIntMap;->values:[I
-
-    .line 26
-    .line 27
-    return-void
+    iput-object p1, p0, Landroidx/collection/IntIntMap;->values:[I    return-void
 .end method
 
 .method private final removeDeletedMarkers()V
@@ -1187,11 +1110,7 @@
     add-int/2addr v0, v3
 
     .line 75
-    iput v0, p0, Landroidx/collection/MutableIntIntMap;->growthLimit:I
-
-    .line 76
-    .line 77
-    return-void
+    iput v0, p0, Landroidx/collection/MutableIntIntMap;->growthLimit:I    return-void
 .end method
 
 .method private final resizeStorage(I)V
@@ -1561,11 +1480,7 @@
     or-long/2addr p1, v2
 
     .line 45
-    aput-wide p1, v0, v1
-
-    .line 46
-    .line 47
-    return-void
+    aput-wide p1, v0, v1    return-void
 .end method
 
 
@@ -1643,12 +1558,7 @@
     .line 32
     .line 33
     :cond_0
-    invoke-direct {p0}, Landroidx/collection/MutableIntIntMap;->initializeGrowth()V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableIntIntMap;->initializeGrowth()V    return-void
 .end method
 
 .method public final getOrPut(ILp1/a;)I
@@ -1703,12 +1613,7 @@
     move-result p2
 
     .line 22
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableIntIntMap;->put(II)V
-
-    .line 23
-    .line 24
-    .line 25
-    return p2
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableIntIntMap;->put(II)V    return p2
 
     .line 26
     :cond_0
@@ -1716,11 +1621,7 @@
 
     .line 27
     .line 28
-    aget p1, p1, v0
-
-    .line 29
-    .line 30
-    return p1
+    aget p1, p1, v0    return p1
 .end method
 
 .method public final minusAssign(I)V
@@ -1905,12 +1806,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntIntMap;->putAll(Landroidx/collection/IntIntMap;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntIntMap;->putAll(Landroidx/collection/IntIntMap;)V    return-void
 .end method
 
 .method public final put(III)I
@@ -2549,11 +2445,7 @@
     or-long/2addr v2, v4
 
     .line 53
-    aput-wide v2, v0, v1
-
-    .line 54
-    .line 55
-    return-void
+    aput-wide v2, v0, v1    return-void
 .end method
 
 .method public final set(II)V
@@ -2588,11 +2480,7 @@
 
     .line 13
     .line 14
-    aput p2, p1, v0
-
-    .line 15
-    .line 16
-    return-void
+    aput p2, p1, v0    return-void
 .end method
 
 .method public final trim()I
@@ -2646,5 +2534,4 @@
 
     return v0
 .end method
-
 .end class

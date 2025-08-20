@@ -76,11 +76,7 @@
     .line 23
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;->mNavItem:Landroidx/appcompat/view/menu/ActionMenuItem;
-
-    .line 26
-    .line 27
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;->mNavItem:Landroidx/appcompat/view/menu/ActionMenuItem;    return-void
 .end method
 
 
@@ -124,5 +120,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

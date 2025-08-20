@@ -83,11 +83,7 @@
 
     .line 24
     .line 25
-    iput v0, p0, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->mRetreatKey:I
-
-    .line 26
-    .line 27
-    return-void
+    iput v0, p0, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->mRetreatKey:I    return-void
 
     .line 28
     :cond_0
@@ -95,11 +91,7 @@
 
     .line 29
     .line 30
-    iput v1, p0, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->mRetreatKey:I
-
-    .line 31
-    .line 32
-    return-void
+    iput v1, p0, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->mRetreatKey:I    return-void
 .end method
 
 
@@ -111,12 +103,7 @@
     const/4 v0, -0x1
 
     .line 2
-    invoke-virtual {p0, v0}, Landroid/widget/AdapterView;->setSelection(I)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-virtual {p0, v0}, Landroid/widget/AdapterView;->setSelection(I)V    return-void
 .end method
 
 .method public bridge synthetic hasFocus()Z
@@ -588,12 +575,7 @@
     const/4 p2, 0x0
 
     .line 76
-    invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->close(Z)V
-
-    .line 77
-    .line 78
-    .line 79
-    return v1
+    invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->close(Z)V    return v1
 
     .line 80
     :cond_3
@@ -625,23 +607,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;    return-void
 .end method
 
 .method public bridge synthetic setSelector(Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/DropDownListView;->setSelector(Landroid/graphics/drawable/Drawable;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/DropDownListView;->setSelector(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
-
 .end class

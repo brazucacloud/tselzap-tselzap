@@ -63,11 +63,7 @@
     const/4 v0, 0x0
 
     .line 12
-    iput v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mNextViewType:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mNextViewType:I    return-void
 .end method
 
 
@@ -86,12 +82,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage$WrapperViewTypeLookup;-><init>(Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage$WrapperViewTypeLookup;-><init>(Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    return-object v0
 .end method
 
 .method public getWrapperForGlobalType(I)Landroidx/recyclerview/widget/NestedAdapterWrapper;
@@ -116,11 +107,7 @@
 
     .line 8
     .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -145,12 +132,7 @@
     .line 21
     .line 22
     .line 23
-    throw v0
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw v0.end method
 
 .method public obtainViewType(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
     .locals 2
@@ -172,12 +154,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v1, v0, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return v0
+    invoke-virtual {v1, v0, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return v0
 .end method
 
 .method public removeWrapper(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
@@ -249,5 +226,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

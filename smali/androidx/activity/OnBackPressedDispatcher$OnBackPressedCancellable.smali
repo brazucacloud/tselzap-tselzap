@@ -53,11 +53,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p2, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p2, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;    return-void
 .end method
 
 
@@ -172,12 +168,6 @@
 
     .line 54
     .line 55
-    invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lp1/a;)V
-
-    .line 56
-    .line 57
-    .line 58
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lp1/a;)V    return-void
 .end method
-
 .end class

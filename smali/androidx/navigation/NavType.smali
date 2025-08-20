@@ -422,11 +422,7 @@
     .line 117
     .line 118
     .line 119
-    sput-object v0, Landroidx/navigation/NavType;->StringListType:Landroidx/navigation/NavType;
-
-    .line 120
-    .line 121
-    return-void
+    sput-object v0, Landroidx/navigation/NavType;->StringListType:Landroidx/navigation/NavType;    return-void
 .end method
 
 .method public constructor <init>(Z)V
@@ -446,11 +442,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/navigation/NavType;->name:Ljava/lang/String;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavType;->name:Ljava/lang/String;    return-void
 .end method
 
 .method public static fromArgType(Ljava/lang/String;Ljava/lang/String;)Landroidx/navigation/NavType;
@@ -548,22 +540,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavType;->name:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavType;->name:Ljava/lang/String;    return-object v0
 .end method
 
 .method public isNullableAllowed()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavType;->isNullableAllowed:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavType;->isNullableAllowed:Z    return v0
 .end method
 
 .method public final parseAndPut(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
@@ -761,5 +745,4 @@
 
     return p1
 .end method
-
 .end class

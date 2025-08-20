@@ -262,11 +262,7 @@
 
     .line 104
     .line 105
-    iput-boolean p5, p0, Landroidx/navigation/NavArgument;->isDefaultValueUnknown:Z
-
-    .line 106
-    .line 107
-    return-void
+    iput-boolean p5, p0, Landroidx/navigation/NavArgument;->isDefaultValueUnknown:Z    return-void
 .end method
 
 
@@ -278,11 +274,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -333,11 +325,7 @@
 
     .line 26
     .line 27
-    if-eq v2, v3, :cond_2
-
-    .line 28
-    .line 29
-    return v1
+    if-eq v2, v3, :cond_2    return v1
 
     .line 30
     :cond_2
@@ -349,11 +337,7 @@
 
     .line 33
     .line 34
-    if-eq v2, v3, :cond_3
-
-    .line 35
-    .line 36
-    return v1
+    if-eq v2, v3, :cond_3    return v1
 
     .line 37
     :cond_3
@@ -373,11 +357,7 @@
     move-result v2
 
     .line 45
-    if-nez v2, :cond_4
-
-    .line 46
-    .line 47
-    return v1
+    if-nez v2, :cond_4    return v1
 
     .line 48
     :cond_4
@@ -408,11 +388,7 @@
 
     .line 60
     .line 61
-    if-nez p1, :cond_6
-
-    .line 62
-    .line 63
-    return v0
+    if-nez p1, :cond_6    return v0
 
     .line 64
     :cond_6
@@ -424,11 +400,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavArgument;->defaultValue:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavArgument;->defaultValue:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final getType()Landroidx/navigation/NavType;
@@ -443,11 +415,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavArgument;->type:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavArgument;->type:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -525,33 +493,21 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavArgument;->isDefaultValuePresent:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavArgument;->isDefaultValuePresent:Z    return v0
 .end method
 
 .method public final isDefaultValueUnknown$navigation_common_release()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavArgument;->isDefaultValueUnknown:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavArgument;->isDefaultValueUnknown:Z    return v0
 .end method
 
 .method public final isNullable()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavArgument;->isNullable:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavArgument;->isNullable:Z    return v0
 .end method
 
 .method public final putDefaultValue(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -753,12 +709,7 @@
 
     .line 74
     .line 75
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 76
-    .line 77
-    .line 78
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public final verify(Ljava/lang/String;Landroid/os/Bundle;)Z
@@ -819,11 +770,7 @@
     move-result-object v0
 
     .line 26
-    if-nez v0, :cond_0
-
-    .line 27
-    .line 28
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 29
     :cond_0
@@ -847,5 +794,4 @@
     :catch_0
     return v1
 .end method
-
 .end class

@@ -23,12 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -62,11 +57,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;    return-object v0
 .end method
 
 .method public onAnimationEnd(Landroid/graphics/drawable/Drawable;)V
@@ -80,5 +71,4 @@
 
     return-void
 .end method
-
 .end class

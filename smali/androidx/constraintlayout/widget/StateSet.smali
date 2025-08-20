@@ -83,12 +83,7 @@
 
     .line 20
     .line 21
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/widget/StateSet;->load(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/widget/StateSet;->load(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V    return-void
 .end method
 
 .method private load(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
@@ -488,77 +483,7 @@
         0x4d92b252 -> :sswitch_2
         0x526c4e31 -> :sswitch_1
         0x7155a865 -> :sswitch_0
-    .end sparse-switch
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-.end method
+    .end sparse-switch.end method
 
 
 # virtual methods
@@ -582,11 +507,7 @@
 
     .line 8
     .line 9
-    if-nez v0, :cond_0
-
-    .line 10
-    .line 11
-    return p2
+    if-nez v0, :cond_0    return p2
 
     .line 12
     :cond_0
@@ -690,19 +611,11 @@
 
     .line 56
     .line 57
-    iget p1, v1, Landroidx/constraintlayout/widget/StateSet$Variant;->mConstraintID:I
-
-    .line 58
-    .line 59
-    return p1
+    iget p1, v1, Landroidx/constraintlayout/widget/StateSet$Variant;->mConstraintID:I    return p1
 
     .line 60
     :cond_5
-    iget p1, v0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
-
-    .line 61
-    .line 62
-    return p1
+    iget p1, v0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I    return p1
 
     .line 63
     :cond_6
@@ -769,11 +682,7 @@
 
     .line 91
     :cond_9
-    iget p1, v0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
-
-    .line 92
-    .line 93
-    return p1
+    iget p1, v0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I    return p1
 .end method
 
 .method public needsToChange(IFF)Z
@@ -787,11 +696,7 @@
     const/4 v1, 0x1
 
     .line 4
-    if-eq v0, p1, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-eq v0, p1, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -874,11 +779,7 @@
     move-result v0
 
     .line 43
-    if-eqz v0, :cond_2
-
-    .line 44
-    .line 45
-    return v3
+    if-eqz v0, :cond_2    return v3
 
     .line 46
     :cond_2
@@ -894,11 +795,7 @@
     move-result p1
 
     .line 52
-    if-ne v0, p1, :cond_3
-
-    .line 53
-    .line 54
-    return v3
+    if-ne v0, p1, :cond_3    return v3
 
     .line 55
     :cond_3
@@ -909,11 +806,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/widget/StateSet;->mConstraintsChangedListener:Landroidx/constraintlayout/widget/ConstraintsChangedListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/widget/StateSet;->mConstraintsChangedListener:Landroidx/constraintlayout/widget/ConstraintsChangedListener;    return-void
 .end method
 
 .method public stateGetConstraintID(III)I
@@ -998,11 +891,7 @@
     .line 25
     .line 26
     :goto_0
-    if-nez p2, :cond_1
-
-    .line 27
-    .line 28
-    return v0
+    if-nez p2, :cond_1    return v0
 
     .line 29
     :cond_1
@@ -1067,11 +956,7 @@
 
     .line 56
     .line 57
-    iget p1, p2, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
-
-    .line 58
-    .line 59
-    return p1
+    iget p1, p2, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I    return p1
 
     .line 60
     :cond_4
@@ -1091,11 +976,7 @@
 
     .line 67
     .line 68
-    iget p1, p1, Landroidx/constraintlayout/widget/StateSet$Variant;->mConstraintID:I
-
-    .line 69
-    .line 70
-    return p1
+    iget p1, p1, Landroidx/constraintlayout/widget/StateSet$Variant;->mConstraintID:I    return p1
 
     .line 71
     :cond_5
@@ -1115,11 +996,7 @@
 
     .line 78
     .line 79
-    if-nez p1, :cond_6
-
-    .line 80
-    .line 81
-    return v0
+    if-nez p1, :cond_6    return v0
 
     .line 82
     :cond_6
@@ -1135,11 +1012,7 @@
 
     .line 87
     .line 88
-    iget p1, p1, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
-
-    .line 89
-    .line 90
-    return p1
+    iget p1, p1, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I    return p1
 
     .line 91
     :cond_7
@@ -1159,11 +1032,6 @@
 
     .line 98
     .line 99
-    iget p1, p1, Landroidx/constraintlayout/widget/StateSet$Variant;->mConstraintID:I
-
-    .line 100
-    .line 101
-    return p1
+    iget p1, p1, Landroidx/constraintlayout/widget/StateSet$Variant;->mConstraintID:I    return p1
 .end method
-
 .end class

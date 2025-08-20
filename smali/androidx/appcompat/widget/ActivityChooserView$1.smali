@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V    return-void
 .end method
 
 
@@ -54,12 +49,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V    return-void
 .end method
 
 .method public onInvalidated()V
@@ -79,12 +69,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V    return-void
 .end method
-
 .end class

@@ -34,11 +34,7 @@
 
     .line 5
     .line 6
-    iput-wide p2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet$CoreSpline;->mStart:J
-
-    .line 7
-    .line 8
-    return-void
+    iput-wide p2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet$CoreSpline;->mStart:J    return-void
 .end method
 
 
@@ -67,12 +63,6 @@
     move-result p2
 
     .line 11
-    invoke-interface {p1, v0, p2}, Landroidx/constraintlayout/core/motion/utils/TypedValues;->setValue(IF)Z
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {p1, v0, p2}, Landroidx/constraintlayout/core/motion/utils/TypedValues;->setValue(IF)Z    return-void
 .end method
-
 .end class

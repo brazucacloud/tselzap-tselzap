@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -75,11 +70,7 @@
 
     .line 13
     .line 14
-    if-ne p1, v1, :cond_0
-
-    .line 15
-    .line 16
-    return-void
+    if-ne p1, v1, :cond_0    return-void
 
     .line 17
     :cond_0
@@ -96,11 +87,7 @@
     .line 22
     .line 23
     .line 24
-    throw p1
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public onChildViewDetachedFromWindow(Landroid/view/View;)V
     .locals 0
@@ -111,5 +98,4 @@
 
     return-void
 .end method
-
 .end class

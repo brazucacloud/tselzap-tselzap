@@ -47,11 +47,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/lifecycle/SavedStateHandleController;->handle:Landroidx/lifecycle/SavedStateHandle;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/lifecycle/SavedStateHandleController;->handle:Landroidx/lifecycle/SavedStateHandle;    return-void
 .end method
 
 
@@ -114,12 +110,7 @@
     move-result-object v0
 
     .line 29
-    invoke-virtual {p1, p2, v0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V    return-void
 
     .line 33
     :cond_0
@@ -136,19 +127,7 @@
     .line 38
     .line 39
     .line 40
-    throw p1
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p1.end method
 
 .method public close()V
     .locals 0
@@ -160,22 +139,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandleController;->handle:Landroidx/lifecycle/SavedStateHandle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandleController;->handle:Landroidx/lifecycle/SavedStateHandle;    return-object v0
 .end method
 
 .method public final isAttached()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/lifecycle/SavedStateHandleController;->isAttached:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/lifecycle/SavedStateHandleController;->isAttached:Z    return v0
 .end method
 
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -231,5 +202,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

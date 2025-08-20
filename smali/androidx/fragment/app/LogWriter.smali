@@ -36,11 +36,7 @@
 
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/fragment/app/LogWriter;->mTag:Ljava/lang/String;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/LogWriter;->mTag:Ljava/lang/String;    return-void
 .end method
 
 .method private flushBuilder()V
@@ -114,24 +110,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V    return-void
 .end method
 
 .method public flush()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V    return-void
 .end method
 
 .method public write([CII)V
@@ -191,5 +177,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

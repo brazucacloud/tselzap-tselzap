@@ -81,11 +81,7 @@
     .line 31
     .line 32
     .line 33
-    iput-object p3, p0, Landroidx/fragment/app/SpecialEffectsController$FragmentStateManagerOperation;->fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
-
-    .line 34
-    .line 35
-    return-void
+    iput-object p3, p0, Landroidx/fragment/app/SpecialEffectsController$FragmentStateManagerOperation;->fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;    return-void
 .end method
 
 
@@ -103,12 +99,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V    return-void
 .end method
 
 .method public onStart()V
@@ -338,12 +329,7 @@
     move-result v0
 
     .line 115
-    invoke-virtual {v1, v0}, Landroid/view/View;->setAlpha(F)V
-
-    .line 116
-    .line 117
-    .line 118
-    return-void
+    invoke-virtual {v1, v0}, Landroid/view/View;->setAlpha(F)V    return-void
 
     .line 119
     :cond_3
@@ -481,5 +467,4 @@
     :cond_5
     return-void
 .end method
-
 .end class

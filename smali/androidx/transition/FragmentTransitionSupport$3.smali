@@ -63,12 +63,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -81,12 +76,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -168,5 +158,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

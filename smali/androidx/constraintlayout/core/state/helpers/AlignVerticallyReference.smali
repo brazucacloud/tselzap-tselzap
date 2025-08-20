@@ -25,11 +25,7 @@
 
     .line 7
     .line 8
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/AlignVerticallyReference;->mBias:F
-
-    .line 9
-    .line 10
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/AlignVerticallyReference;->mBias:F    return-void
 .end method
 
 
@@ -204,5 +200,4 @@
     :cond_5
     return-void
 .end method
-
 .end class

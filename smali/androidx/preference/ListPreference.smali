@@ -249,11 +249,7 @@
     move-result v1
 
     .line 24
-    if-eqz v1, :cond_0
-
-    .line 25
-    .line 26
-    return v0
+    if-eqz v1, :cond_0    return v0
 
     .line 27
     :cond_0
@@ -274,11 +270,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/ListPreference;->mEntries:[Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/ListPreference;->mEntries:[Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getEntry()Ljava/lang/CharSequence;
@@ -307,11 +299,7 @@
 
     .line 10
     .line 11
-    aget-object v0, v1, v0
-
-    .line 12
-    .line 13
-    return-object v0
+    aget-object v0, v1, v0    return-object v0
 
     .line 14
     :cond_0
@@ -324,11 +312,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/ListPreference;->mEntryValues:[Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/ListPreference;->mEntryValues:[Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getSummary()Ljava/lang/CharSequence;
@@ -452,23 +436,14 @@
 
     .line 53
     .line 54
-    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 55
-    .line 56
-    .line 57
-    return-object v0
+    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I    return-object v0
 .end method
 
 .method public getValue()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/ListPreference;->mValue:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/ListPreference;->mValue:Ljava/lang/String;    return-object v0
 .end method
 
 .method public onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
@@ -550,22 +525,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V    return-void
 
     .line 31
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -590,11 +555,7 @@
     move-result v1
 
     .line 9
-    if-eqz v1, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v1, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -615,11 +576,7 @@
     move-result-object v0
 
     .line 21
-    iput-object v0, v1, Landroidx/preference/ListPreference$SavedState;->mValue:Ljava/lang/String;
-
-    .line 22
-    .line 23
-    return-object v1
+    iput-object v0, v1, Landroidx/preference/ListPreference$SavedState;->mValue:Ljava/lang/String;    return-object v1
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -638,12 +595,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V    return-void
 .end method
 
 .method public setEntries(I)V
@@ -734,11 +686,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-object p1, p0, Landroidx/preference/ListPreference;->mSummary:Ljava/lang/String;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/preference/ListPreference;->mSummary:Ljava/lang/String;    return-void
 
     .line 10
     :cond_0
@@ -750,11 +698,7 @@
     move-result-object p1
 
     .line 14
-    iput-object p1, p0, Landroidx/preference/ListPreference;->mSummary:Ljava/lang/String;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p1, p0, Landroidx/preference/ListPreference;->mSummary:Ljava/lang/String;    return-void
 .end method
 
 .method public setValue(Ljava/lang/String;)V
@@ -847,5 +791,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

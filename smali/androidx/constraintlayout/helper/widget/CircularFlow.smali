@@ -792,12 +792,7 @@
     .line 216
     .line 217
     :cond_7
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
-
-    .line 218
-    .line 219
-    .line 220
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V    return-void
 .end method
 
 .method private removeAngle([FI)[F
@@ -964,11 +959,7 @@
     .locals 3
 
     .line 1
-    if-nez p1, :cond_0
-
-    .line 2
-    .line 3
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 4
     :cond_0
@@ -1015,12 +1006,7 @@
     move-result-object p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addAngle(Ljava/lang/String;)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addAngle(Ljava/lang/String;)V    return-void
 
     .line 28
     :cond_1
@@ -1049,61 +1035,13 @@
 
     .line 40
     .line 41
-    goto :goto_0
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    goto :goto_0.end method
 
 .method private setRadius(Ljava/lang/String;)V
     .locals 3
 
     .line 1
-    if-nez p1, :cond_0
-
-    .line 2
-    .line 3
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 4
     :cond_0
@@ -1150,12 +1088,7 @@
     move-result-object p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addRadius(Ljava/lang/String;)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addRadius(Ljava/lang/String;)V    return-void
 
     .line 28
     :cond_1
@@ -1184,51 +1117,7 @@
 
     .line 40
     .line 41
-    goto :goto_0
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    goto :goto_0.end method
 
 
 # virtual methods
@@ -1252,11 +1141,7 @@
     move-result v0
 
     .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 12
     :cond_0
@@ -1371,12 +1256,7 @@
 
     .line 66
     .line 67
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
-
-    .line 68
-    .line 69
-    .line 70
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
 .end method
 
 .method public getAngles()[F
@@ -1701,11 +1581,7 @@
     const/4 v1, 0x0
 
     .line 10
-    if-nez v0, :cond_0
-
-    .line 11
-    .line 12
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 13
     :cond_0
@@ -1841,12 +1717,7 @@
     .line 48
     .line 49
     :cond_3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
-
-    .line 50
-    .line 51
-    .line 52
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
 .end method
 
 .method public removeView(Landroid/view/View;)I
@@ -1864,11 +1735,7 @@
     const/4 v1, -0x1
 
     .line 6
-    if-ne v0, v1, :cond_0
-
-    .line 7
-    .line 8
-    return v0
+    if-ne v0, v1, :cond_0    return v0
 
     .line 9
     :cond_0
@@ -1988,34 +1855,21 @@
     .line 66
     .line 67
     :cond_2
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
-
-    .line 68
-    .line 69
-    .line 70
-    return v0
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return v0
 .end method
 
 .method public setDefaultAngle(F)V
     .locals 0
 
     .line 1
-    sput p1, Landroidx/constraintlayout/helper/widget/CircularFlow;->sDefaultAngle:F
-
-    .line 2
-    .line 3
-    return-void
+    sput p1, Landroidx/constraintlayout/helper/widget/CircularFlow;->sDefaultAngle:F    return-void
 .end method
 
 .method public setDefaultRadius(I)V
     .locals 0
 
     .line 1
-    sput p1, Landroidx/constraintlayout/helper/widget/CircularFlow;->sDefaultRadius:I
-
-    .line 2
-    .line 3
-    return-void
+    sput p1, Landroidx/constraintlayout/helper/widget/CircularFlow;->sDefaultRadius:I    return-void
 .end method
 
 .method public updateAngle(Landroid/view/View;F)V
@@ -2072,12 +1926,7 @@
 
     .line 26
     .line 27
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 31
     :cond_0
@@ -2104,11 +1953,7 @@
     array-length v0, v0
 
     .line 42
-    if-le p1, v0, :cond_1
-
-    .line 43
-    .line 44
-    return-void
+    if-le p1, v0, :cond_1    return-void
 
     .line 45
     :cond_1
@@ -2128,12 +1973,7 @@
 
     .line 52
     .line 53
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
 .end method
 
 .method public updateRadius(Landroid/view/View;I)V
@@ -2190,12 +2030,7 @@
 
     .line 26
     .line 27
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 31
     :cond_0
@@ -2222,11 +2057,7 @@
     array-length v0, v0
 
     .line 42
-    if-le p1, v0, :cond_1
-
-    .line 43
-    .line 44
-    return-void
+    if-le p1, v0, :cond_1    return-void
 
     .line 45
     :cond_1
@@ -2280,12 +2111,7 @@
 
     .line 68
     .line 69
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
 .end method
 
 .method public updateReference(Landroid/view/View;IF)V
@@ -2342,12 +2168,7 @@
 
     .line 26
     .line 27
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 31
     :cond_0
@@ -2465,12 +2286,6 @@
     .line 84
     .line 85
     :cond_2
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
-
-    .line 86
-    .line 87
-    .line 88
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
 .end method
-
 .end class

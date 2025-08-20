@@ -29,11 +29,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandleAttacher;->provider:Landroidx/lifecycle/SavedStateHandlesProvider;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandleAttacher;->provider:Landroidx/lifecycle/SavedStateHandlesProvider;    return-void
 .end method
 
 
@@ -85,12 +81,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesProvider;->performRestore()V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesProvider;->performRestore()V    return-void
 
     .line 28
     :cond_0
@@ -139,5 +130,4 @@
     .line 51
     throw p2
 .end method
-
 .end class

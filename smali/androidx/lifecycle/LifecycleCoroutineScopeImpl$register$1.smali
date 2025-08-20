@@ -61,12 +61,7 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -99,11 +94,7 @@
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->L$0:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -279,11 +270,7 @@
     .line 62
     :cond_1
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 63
-    .line 64
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 
     .line 65
     :cond_2
@@ -300,19 +287,5 @@
     .line 70
     .line 71
     .line 72
-    throw p1
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw p1.end method
 .end class

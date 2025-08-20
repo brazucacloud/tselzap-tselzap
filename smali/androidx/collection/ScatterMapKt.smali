@@ -62,11 +62,7 @@
     .line 13
     .line 14
     .line 15
-    sput-object v0, Landroidx/collection/ScatterMapKt;->EmptyScatterMap:Landroidx/collection/MutableScatterMap;
-
-    .line 16
-    .line 17
-    return-void
+    sput-object v0, Landroidx/collection/ScatterMapKt;->EmptyScatterMap:Landroidx/collection/MutableScatterMap;    return-void
 
     .line 18
     nop
@@ -76,11 +72,7 @@
     .array-data 8
         -0x7f7f7f7f7f7f7f01L    # -2.937446524423077E-306
         -0x1
-    .end array-data
-    .line 20
-    .line 21
-    .line 22
-.end method
+    .end array-data.end method
 
 .method public static final emptyScatterMap()Landroidx/collection/ScatterMap;
     .locals 2
@@ -105,12 +97,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public static final get(J)I
@@ -125,11 +112,7 @@
     move-result p0
 
     .line 5
-    shr-int/lit8 p0, p0, 0x3
-
-    .line 6
-    .line 7
-    return p0
+    shr-int/lit8 p0, p0, 0x3    return p0
 .end method
 
 .method public static synthetic getBitmaskLsb$annotations()V
@@ -517,11 +500,7 @@
     move-result p0
 
     .line 5
-    shr-int/lit8 p0, p0, 0x3
-
-    .line 6
-    .line 7
-    return p0
+    shr-int/lit8 p0, p0, 0x3    return p0
 .end method
 
 .method public static final maskEmpty(J)J
@@ -693,11 +672,7 @@
     move-result p0
 
     .line 8
-    ushr-int p0, v0, p0
-
-    .line 9
-    .line 10
-    return p0
+    ushr-int p0, v0, p0    return p0
 
     .line 11
     :cond_0
@@ -759,11 +734,7 @@
 
     .line 3
     .line 4
-    const/16 p0, 0x8
-
-    .line 5
-    .line 6
-    return p0
+    const/16 p0, 0x8    return p0
 
     .line 7
     :cond_0
@@ -828,11 +799,6 @@
     or-long/2addr p1, v1
 
     .line 22
-    aput-wide p1, p0, v0
-
-    .line 23
-    .line 24
-    return-void
+    aput-wide p1, p0, v0    return-void
 .end method
-
 .end class

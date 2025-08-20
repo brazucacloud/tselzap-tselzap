@@ -273,12 +273,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;I)V
-
-    .line 89
-    .line 90
-    .line 91
-    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;I)V    return-void
 
     .line 92
     :cond_4
@@ -312,12 +307,7 @@
 
     .line 106
     .line 107
-    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;I)V
-
-    .line 108
-    .line 109
-    .line 110
-    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;I)V    return-void
 
     .line 111
     :cond_5
@@ -923,12 +913,7 @@
 
     .line 380
     .line 381
-    invoke-virtual {p1, p2, v0, v1, v1}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)Landroidx/constraintlayout/core/ArrayRow;
-
-    .line 382
-    .line 383
-    .line 384
-    return-void
+    invoke-virtual {p1, p2, v0, v1, v1}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)Landroidx/constraintlayout/core/ArrayRow;    return-void
 
     .line 385
     :cond_1b
@@ -1002,12 +987,7 @@
 
     .line 420
     .line 421
-    invoke-virtual {p1, p2, v0, v1, v1}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)Landroidx/constraintlayout/core/ArrayRow;
-
-    .line 422
-    .line 423
-    .line 424
-    return-void
+    invoke-virtual {p1, p2, v0, v1, v1}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)Landroidx/constraintlayout/core/ArrayRow;    return-void
 
     .line 425
     :cond_1c
@@ -1081,12 +1061,7 @@
 
     .line 460
     .line 461
-    invoke-virtual {p1, p2, v0, v1, v1}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)Landroidx/constraintlayout/core/ArrayRow;
-
-    .line 462
-    .line 463
-    .line 464
-    return-void
+    invoke-virtual {p1, p2, v0, v1, v1}, Landroidx/constraintlayout/core/LinearSystem;->addEquality(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)Landroidx/constraintlayout/core/ArrayRow;    return-void
 
     .line 465
     :cond_1d
@@ -1675,11 +1650,7 @@
     .line 227
     .line 228
     :goto_7
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z
-
-    .line 229
-    .line 230
-    return v0
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z    return v0
 
     .line 231
     :cond_13
@@ -1700,11 +1671,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z    return v0
 .end method
 
 .method public copy(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashMap;)V
@@ -1750,44 +1717,28 @@
 
     .line 15
     .line 16
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mMargin:I
-
-    .line 17
-    .line 18
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mMargin:I    return-void
 .end method
 
 .method public getAllowsGoneWidget()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z    return v0
 .end method
 
 .method public getBarrierType()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mBarrierType:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mBarrierType:I    return v0
 .end method
 
 .method public getMargin()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mMargin:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mMargin:I    return v0
 .end method
 
 .method public getOrientation()I
@@ -1842,22 +1793,14 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z    return v0
 .end method
 
 .method public isResolvedVertically()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z    return v0
 .end method
 
 .method public markWidgets()V
@@ -1977,33 +1920,21 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z    return-void
 .end method
 
 .method public setBarrierType(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mBarrierType:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mBarrierType:I    return-void
 .end method
 
 .method public setMargin(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mMargin:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mMargin:I    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -2140,5 +2071,4 @@
 
     return-object v0
 .end method
-
 .end class

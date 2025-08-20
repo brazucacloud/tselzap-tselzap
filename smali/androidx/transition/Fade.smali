@@ -161,12 +161,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p1, p3}, Landroidx/transition/Transition;->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
-
-    .line 35
-    .line 36
-    .line 37
-    return-object p2
+    invoke-virtual {p1, p3}, Landroidx/transition/Transition;->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-object p2
 .end method
 
 .method private static getStartAlpha(Landroidx/transition/TransitionValues;F)F
@@ -315,12 +310,7 @@
 
     .line 43
     .line 44
-    invoke-interface {p1, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-interface {p1, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public isSeekingSupported()Z
@@ -453,5 +443,4 @@
     :cond_0
     return-object p3
 .end method
-
 .end class

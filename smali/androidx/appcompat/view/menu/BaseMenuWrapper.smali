@@ -39,11 +39,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mContext:Landroid/content/Context;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mContext:Landroid/content/Context;    return-void
 .end method
 
 
@@ -417,12 +413,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1, v0}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;    return-void
 
     .line 35
     :cond_1
@@ -437,5 +428,4 @@
     :goto_1
     return-void
 .end method
-
 .end class

@@ -31,12 +31,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(ILandroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(ILandroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V    return-void
 .end method
 
 
@@ -234,12 +229,7 @@
 
     .line 92
     :cond_3
-    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V
-
-    .line 93
-    .line 94
-    .line 95
-    return-void
+    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V    return-void
 .end method
 
 .method public bridge synthetic put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -259,5 +249,4 @@
 
     return-object p1
 .end method
-
 .end class

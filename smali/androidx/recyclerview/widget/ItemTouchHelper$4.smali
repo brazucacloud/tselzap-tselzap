@@ -47,12 +47,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -188,12 +183,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0, v1, v2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->onSwiped(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
-
-    .line 64
-    .line 65
-    .line 66
-    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->onSwiped(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V    return-void
 
     .line 67
     :cond_1
@@ -213,5 +203,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

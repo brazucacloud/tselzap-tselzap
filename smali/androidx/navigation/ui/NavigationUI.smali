@@ -26,12 +26,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static synthetic a(Landroidx/navigation/NavController;Lcom/google/android/material/navigation/NavigationView;Landroid/view/MenuItem;)Z
@@ -163,19 +158,11 @@
 
     .line 38
     .line 39
-    if-nez v0, :cond_2
-
-    .line 40
-    .line 41
-    return-object v2
+    if-nez v0, :cond_2    return-object v2
 
     .line 42
     :cond_2
-    check-cast p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-
-    .line 43
-    .line 44
-    return-object p0
+    check-cast p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;    return-object p0
 .end method
 
 .method public static final matchDestination$navigation_ui_release(Landroidx/navigation/NavDestination;I)Z
@@ -970,12 +957,7 @@
 
     .line 18
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/NavigationUI;->setupActionBarWithNavController(Landroidx/appcompat/app/AppCompatActivity;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/NavigationUI;->setupActionBarWithNavController(Landroidx/appcompat/app/AppCompatActivity;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V    return-void
 .end method
 
 .method public static final setupWithNavController(La0/e;Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;)V
@@ -1297,12 +1279,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/navigation/ui/NavigationUI;->navigateUp(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)Z
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p0, p1}, Landroidx/navigation/ui/NavigationUI;->navigateUp(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)Z    return-void
 .end method
 
 .method private static final setupWithNavController$lambda$2(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;Landroid/view/View;)V
@@ -1327,12 +1304,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/navigation/ui/NavigationUI;->navigateUp(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)Z
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p0, p1}, Landroidx/navigation/ui/NavigationUI;->navigateUp(Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)Z    return-void
 .end method
 
 .method private static final setupWithNavController$lambda$3(Landroidx/navigation/NavController;Lcom/google/android/material/navigation/NavigationView;Landroid/view/MenuItem;)Z
@@ -1398,12 +1370,7 @@
 
     .line 31
     .line 32
-    invoke-interface {p2}, Landroidx/customview/widget/Openable;->close()V
-
-    .line 33
-    .line 34
-    .line 35
-    return p0
+    invoke-interface {p2}, Landroidx/customview/widget/Openable;->close()V    return p0
 
     .line 36
     :cond_0
@@ -1494,12 +1461,7 @@
 
     .line 31
     .line 32
-    invoke-interface {p1}, Landroidx/customview/widget/Openable;->close()V
-
-    .line 33
-    .line 34
-    .line 35
-    return p0
+    invoke-interface {p1}, Landroidx/customview/widget/Openable;->close()V    return p0
 
     .line 36
     :cond_0
@@ -1590,5 +1552,4 @@
 
     return p0
 .end method
-
 .end class

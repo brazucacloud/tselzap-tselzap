@@ -508,11 +508,7 @@
 
     .line 214
     .line 215
-    sput-object v4, Landroidx/datastore/preferences/protobuf/JavaType;->$VALUES:[Landroidx/datastore/preferences/protobuf/JavaType;
-
-    .line 216
-    .line 217
-    return-void
+    sput-object v4, Landroidx/datastore/preferences/protobuf/JavaType;->$VALUES:[Landroidx/datastore/preferences/protobuf/JavaType;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;ILjava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)V
@@ -543,11 +539,7 @@
 
     .line 7
     .line 8
-    iput-object p5, p0, Landroidx/datastore/preferences/protobuf/JavaType;->defaultDefault:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p5, p0, Landroidx/datastore/preferences/protobuf/JavaType;->defaultDefault:Ljava/lang/Object;    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/JavaType;
@@ -566,11 +558,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/datastore/preferences/protobuf/JavaType;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/JavaType;    return-object p0
 .end method
 
 .method public static values()[Landroidx/datastore/preferences/protobuf/JavaType;
@@ -589,11 +577,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/JavaType;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/JavaType;    return-object v0
 .end method
 
 
@@ -609,22 +593,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/JavaType;->boxedType:Ljava/lang/Class;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/JavaType;->boxedType:Ljava/lang/Class;    return-object v0
 .end method
 
 .method public getDefaultDefault()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/JavaType;->defaultDefault:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/JavaType;->defaultDefault:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getType()Ljava/lang/Class;
@@ -638,11 +614,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/JavaType;->type:Ljava/lang/Class;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/JavaType;->type:Ljava/lang/Class;    return-object v0
 .end method
 
 .method public isValidType(Ljava/lang/Class;)Z
@@ -669,5 +641,4 @@
 
     return p1
 .end method
-
 .end class

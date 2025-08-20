@@ -39,5 +39,4 @@
 # virtual methods
 .method public abstract value()Landroidx/annotation/RequiresPermission;
 .end method
-
 .end class

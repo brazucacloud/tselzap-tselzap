@@ -74,11 +74,7 @@
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;    return-void
 .end method
 
 
@@ -568,5 +564,4 @@
 
     return p1
 .end method
-
 .end class

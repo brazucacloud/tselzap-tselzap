@@ -73,11 +73,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -132,11 +128,7 @@
     move-result p1
 
     .line 29
-    if-eqz p1, :cond_2
-
-    .line 30
-    .line 31
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 32
     :cond_2
@@ -160,12 +152,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 
     .line 11
     :cond_0
@@ -182,12 +169,7 @@
     .line 16
     .line 17
     .line 18
-    throw v0
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public hashCode()I
     .locals 2
@@ -314,12 +296,7 @@
     .line 39
     .line 40
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 .method public final setClassName(Ljava/lang/String;)Landroidx/navigation/fragment/FragmentNavigator$Destination;
@@ -335,11 +312,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$Destination;->_className:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$Destination;->_className:Ljava/lang/String;    return-object p0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -416,12 +389,6 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 38
-    .line 39
-    .line 40
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

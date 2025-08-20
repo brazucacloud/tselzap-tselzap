@@ -46,11 +46,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -78,11 +74,7 @@
     const/4 v0, 0x0
 
     .line 12
-    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
-
-    .line 13
-    .line 14
-    return-void
+    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return-void
 .end method
 
 .method public static getInstance(Landroidx/lifecycle/ViewModelStore;)Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;
@@ -116,11 +108,7 @@
     move-result-object p0
 
     .line 14
-    check-cast p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;
-
-    .line 15
-    .line 16
-    return-object p0
+    check-cast p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;    return-object p0
 .end method
 
 
@@ -302,11 +290,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return-void
 .end method
 
 .method public getLoader(I)Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;
@@ -334,11 +318,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;    return-object p1
 .end method
 
 .method public hasRunningLoaders()Z
@@ -417,11 +397,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return v0
 .end method
 
 .method public markForRedelivery()V
@@ -545,12 +521,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Landroidx/collection/SparseArrayCompat;->clear()V
-
-    .line 31
-    .line 32
-    .line 33
-    return-void
+    invoke-virtual {v0}, Landroidx/collection/SparseArrayCompat;->clear()V    return-void
 .end method
 
 .method public putLoader(ILandroidx/loader/app/LoaderManagerImpl$LoaderInfo;)V
@@ -565,12 +536,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
 .end method
 
 .method public removeLoader(I)V
@@ -581,12 +547,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V    return-void
 .end method
 
 .method public startCreatingLoader()V
@@ -596,11 +557,6 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return-void
 .end method
-
 .end class

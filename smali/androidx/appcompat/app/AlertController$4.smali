@@ -47,12 +47,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -69,12 +64,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, p2, p3}, Landroidx/appcompat/app/AlertController;->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-static {p1, p2, p3}, Landroidx/appcompat/app/AlertController;->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V    return-void
 .end method
 
 .method public onScrollStateChanged(Landroid/widget/AbsListView;I)V
@@ -82,5 +72,4 @@
 
     return-void
 .end method
-
 .end class

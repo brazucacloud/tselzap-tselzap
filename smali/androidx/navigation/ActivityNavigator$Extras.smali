@@ -43,11 +43,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/navigation/ActivityNavigator$Extras;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/navigation/ActivityNavigator$Extras;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;    return-void
 .end method
 
 
@@ -56,22 +52,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ActivityNavigator$Extras;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ActivityNavigator$Extras;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;    return-object v0
 .end method
 
 .method public final getFlags()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/ActivityNavigator$Extras;->flags:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/ActivityNavigator$Extras;->flags:I    return v0
 .end method
-
 .end class

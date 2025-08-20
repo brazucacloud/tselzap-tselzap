@@ -17,5 +17,4 @@
 # virtual methods
 .method public abstract onFoldingFeatureChange(Landroidx/window/layout/FoldingFeature;)V
 .end method
-
 .end class

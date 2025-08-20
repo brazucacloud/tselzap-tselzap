@@ -44,12 +44,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/analyzer/ChainRun;->build()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/analyzer/ChainRun;->build()V    return-void
 .end method
 
 .method private build()V
@@ -383,11 +378,7 @@
 
     .line 155
     :goto_3
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/ChainRun;->mChainStyle:I
-
-    .line 156
-    .line 157
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/ChainRun;->mChainStyle:I    return-void
 .end method
 
 .method private getFirstVisibleWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -450,11 +441,7 @@
 
     .line 27
     .line 28
-    iget-object v0, v1, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 29
-    .line 30
-    return-object v0
+    iget-object v0, v1, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object v0
 
     .line 31
     :cond_0
@@ -532,11 +519,7 @@
 
     .line 28
     .line 29
-    iget-object v0, v1, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 30
-    .line 31
-    return-object v0
+    iget-object v0, v1, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object v0
 
     .line 32
     :cond_0
@@ -620,11 +603,7 @@
     const/4 v1, 0x1
 
     .line 30
-    if-ge v0, v1, :cond_1
-
-    .line 31
-    .line 32
-    return-void
+    if-ge v0, v1, :cond_1    return-void
 
     .line 33
     :cond_1
@@ -940,11 +919,7 @@
 
     .line 183
     .line 184
-    iput-object p0, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->updateDelegate:Landroidx/constraintlayout/core/widgets/analyzer/Dependency;
-
-    .line 185
-    .line 186
-    return-void
+    iput-object p0, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->updateDelegate:Landroidx/constraintlayout/core/widgets/analyzer/Dependency;    return-void
 .end method
 
 .method public applyToWidget()V
@@ -1176,11 +1151,7 @@
 
     .line 7
     .line 8
-    iput-boolean v1, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
-
-    .line 9
-    .line 10
-    return-void
+    iput-boolean v1, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z    return-void
 .end method
 
 .method public supportsWrapComputation()Z
@@ -1234,11 +1205,7 @@
     move-result v3
 
     .line 23
-    if-nez v3, :cond_0
-
-    .line 24
-    .line 25
-    return v1
+    if-nez v3, :cond_0    return v1
 
     .line 26
     :cond_0
@@ -3768,5 +3735,4 @@
     :goto_34
     return-void
 .end method
-
 .end class

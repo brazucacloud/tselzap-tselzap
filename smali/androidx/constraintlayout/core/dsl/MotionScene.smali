@@ -57,11 +57,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/MotionScene;->mConstraintSets:Ljava/util/ArrayList;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/MotionScene;->mConstraintSets:Ljava/util/ArrayList;    return-void
 .end method
 
 
@@ -74,12 +70,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public addTransition(Landroidx/constraintlayout/core/dsl/Transition;)V
@@ -90,12 +81,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -307,5 +293,4 @@
 
     return-object v0
 .end method
-
 .end class

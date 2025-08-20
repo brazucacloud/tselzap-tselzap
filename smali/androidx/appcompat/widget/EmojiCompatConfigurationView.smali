@@ -9,5 +9,4 @@
 
 .method public abstract setEmojiCompatEnabled(Z)V
 .end method
-
 .end class

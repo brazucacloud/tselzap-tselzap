@@ -16,12 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -53,21 +48,11 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V    return-void
 
     .line 11
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/arch/core/executor/TaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/arch/core/executor/TaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V    return-void
 .end method
 
 .method public abstract isMainThread()Z
@@ -79,5 +64,4 @@
         .end annotation
     .end param
 .end method
-
 .end class

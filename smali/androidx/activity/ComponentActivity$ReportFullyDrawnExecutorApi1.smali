@@ -39,11 +39,7 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;->mHandler:Landroid/os/Handler;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;->mHandler:Landroid/os/Handler;    return-void
 .end method
 
 .method private createHandler()Landroid/os/Handler;
@@ -77,12 +73,7 @@
 
     .line 13
     :cond_0
-    invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-object v1
+    invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-object v1
 .end method
 
 
@@ -101,12 +92,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z    return-void
 .end method
 
 .method public viewCreated(Landroid/view/View;)V
@@ -118,5 +104,4 @@
 
     return-void
 .end method
-
 .end class

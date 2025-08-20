@@ -32,23 +32,14 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Landroidx/transition/VisibilityPropagation;->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;
-
-    .line 10
-    .line 11
-    return-void
+    sput-object v0, Landroidx/transition/VisibilityPropagation;->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/TransitionPropagation;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/transition/TransitionPropagation;-><init>()V    return-void
 .end method
 
 .method private static getViewCoordinate(Landroidx/transition/TransitionValues;I)I
@@ -62,11 +53,7 @@
     const/4 v0, -0x1
 
     .line 2
-    if-nez p0, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-nez p0, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -90,19 +77,11 @@
 
     .line 14
     .line 15
-    if-nez p0, :cond_1
-
-    .line 16
-    .line 17
-    return v0
+    if-nez p0, :cond_1    return v0
 
     .line 18
     :cond_1
-    aget p0, p0, p1
-
-    .line 19
-    .line 20
-    return p0
+    aget p0, p0, p1    return p0
 .end method
 
 
@@ -289,12 +268,7 @@
 
     .line 83
     .line 84
-    invoke-interface {p1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 85
-    .line 86
-    .line 87
-    return-void
+    invoke-interface {p1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public getPropagationProperties()[Ljava/lang/String;
@@ -303,11 +277,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/VisibilityPropagation;->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/transition/VisibilityPropagation;->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public getViewVisibility(Landroidx/transition/TransitionValues;)I
@@ -322,11 +292,7 @@
 
     .line 2
     .line 3
-    if-nez p1, :cond_0
-
-    .line 4
-    .line 5
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 6
     :cond_0
@@ -350,11 +316,7 @@
 
     .line 15
     .line 16
-    if-nez p1, :cond_1
-
-    .line 17
-    .line 18
-    return v0
+    if-nez p1, :cond_1    return v0
 
     .line 19
     :cond_1
@@ -409,5 +371,4 @@
 
     return p1
 .end method
-
 .end class

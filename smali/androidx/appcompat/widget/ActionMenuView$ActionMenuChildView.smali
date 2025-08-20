@@ -26,5 +26,4 @@
 
 .method public abstract needsDividerBefore()Z
 .end method
-
 .end class

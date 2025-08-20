@@ -27,5 +27,4 @@
 
 .method public abstract pause()V
 .end method
-
 .end class

@@ -83,12 +83,7 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
 
     .line 25
     :cond_0
@@ -175,11 +170,7 @@
     .line 19
     .line 20
     .line 21
-    check-cast p1, Landroidx/lifecycle/ReportFragment;
-
-    .line 22
-    .line 23
-    return-object p1
+    check-cast p1, Landroidx/lifecycle/ReportFragment;    return-object p1
 .end method
 
 .method public final injectIfNeededIn(Landroid/app/Activity;)V
@@ -279,5 +270,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

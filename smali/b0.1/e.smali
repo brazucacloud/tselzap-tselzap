@@ -32,11 +32,7 @@
 
     .line 7
     .line 8
-    iput-boolean p3, p0, Lb0/e;->c:Z
-
-    .line 9
-    .line 10
-    return-void
+    iput-boolean p3, p0, Lb0/e;->c:Z    return-void
 .end method
 
 
@@ -76,12 +72,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v2, p0}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {v2, p0}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V    return-void
 
     .line 20
     :cond_0
@@ -109,5 +100,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

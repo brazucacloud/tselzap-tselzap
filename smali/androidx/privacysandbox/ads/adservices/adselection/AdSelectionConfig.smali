@@ -146,11 +146,7 @@
     .line 44
     .line 45
     .line 46
-    sput-object v2, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->EMPTY:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;
-
-    .line 47
-    .line 48
-    return-void
+    sput-object v2, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->EMPTY:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;Landroid/net/Uri;Ljava/util/List;Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;Ljava/util/Map;Landroid/net/Uri;)V
@@ -267,22 +263,14 @@
 
     .line 50
     .line 51
-    iput-object p7, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->trustedScoringSignalsUri:Landroid/net/Uri;
-
-    .line 52
-    .line 53
-    return-void
+    iput-object p7, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->trustedScoringSignalsUri:Landroid/net/Uri;    return-void
 .end method
 
 .method public static final synthetic access$getEMPTY$cp()Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->EMPTY:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->EMPTY:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;    return-object v0
 .end method
 
 .method private final convertToAdServices(Ljava/util/List;)Ljava/util/List;
@@ -617,12 +605,7 @@
 
     .line 72
     .line 73
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 74
-    .line 75
-    .line 76
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -632,11 +615,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -647,11 +626,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -795,11 +770,7 @@
     move-result p1
 
     .line 81
-    if-eqz p1, :cond_2
-
-    .line 82
-    .line 83
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 84
     :cond_2
@@ -810,11 +781,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->adSelectionSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->adSelectionSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;    return-object v0
 .end method
 
 .method public final getCustomAudienceBuyers()Ljava/util/List;
@@ -829,22 +796,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->customAudienceBuyers:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->customAudienceBuyers:Ljava/util/List;    return-object v0
 .end method
 
 .method public final getDecisionLogicUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->decisionLogicUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->decisionLogicUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getPerBuyerSignals()Ljava/util/Map;
@@ -860,44 +819,28 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->perBuyerSignals:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->perBuyerSignals:Ljava/util/Map;    return-object v0
 .end method
 
 .method public final getSeller()Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->seller:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->seller:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;    return-object v0
 .end method
 
 .method public final getSellerSignals()Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->sellerSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->sellerSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;    return-object v0
 .end method
 
 .method public final getTrustedScoringSignalsUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->trustedScoringSignalsUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;->trustedScoringSignalsUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -1175,5 +1118,4 @@
 
     return-object v0
 .end method
-
 .end class

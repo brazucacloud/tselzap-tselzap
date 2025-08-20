@@ -21,11 +21,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p2, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;    return-void
 .end method
 
 .method private static deleteContents(Ljava/io/File;)Z
@@ -207,19 +203,11 @@
     move-result-object p0
 
     .line 27
-    if-eqz p0, :cond_0
-
-    .line 28
-    .line 29
-    return-object p0
+    if-eqz p0, :cond_0    return-object p0
 
     .line 30
     :cond_0
-    const-string p0, "application/octet-stream"
-
-    .line 31
-    .line 32
-    return-object p0
+    const-string p0, "application/octet-stream"    return-object p0
 .end method
 
 
@@ -318,12 +306,7 @@
 
     .line 24
     .line 25
-    invoke-direct {p1, p0, v0}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-object p1
+    invoke-direct {p1, p0, v0}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V    return-object p1
 .end method
 
 .method public createFile(Ljava/lang/String;Ljava/lang/String;)Landroidx/documentfile/provider/DocumentFile;
@@ -390,12 +373,7 @@
     .line 29
     invoke-direct {p2, p0, p1}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
     :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 30
-    .line 31
-    .line 32
-    return-object p2
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0    return-object p2
 
     .line 33
     :catch_0
@@ -739,11 +717,7 @@
     move-result-object v0
 
     .line 41
-    check-cast v0, [Landroidx/documentfile/provider/DocumentFile;
-
-    .line 42
-    .line 43
-    return-object v0
+    check-cast v0, [Landroidx/documentfile/provider/DocumentFile;    return-object v0
 .end method
 
 .method public renameTo(Ljava/lang/String;)Z
@@ -801,5 +775,4 @@
 
     return p1
 .end method
-
 .end class

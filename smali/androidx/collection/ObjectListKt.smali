@@ -42,46 +42,28 @@
     .line 9
     .line 10
     .line 11
-    sput-object v1, Landroidx/collection/ObjectListKt;->EmptyObjectList:Landroidx/collection/ObjectList;
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v1, Landroidx/collection/ObjectListKt;->EmptyObjectList:Landroidx/collection/ObjectList;    return-void
 .end method
 
 .method public static final synthetic access$checkIndex(Ljava/util/List;I)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/collection/ObjectListKt;->checkIndex(Ljava/util/List;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1}, Landroidx/collection/ObjectListKt;->checkIndex(Ljava/util/List;I)V    return-void
 .end method
 
 .method public static final synthetic access$checkSubIndex(Ljava/util/List;II)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/collection/ObjectListKt;->checkSubIndex(Ljava/util/List;II)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1, p2}, Landroidx/collection/ObjectListKt;->checkSubIndex(Ljava/util/List;II)V    return-void
 .end method
 
 .method public static final synthetic access$getEmptyArray$p()[Ljava/lang/Object;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/ObjectListKt;->EmptyArray:[Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/ObjectListKt;->EmptyArray:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method private static final checkIndex(Ljava/util/List;I)V
@@ -107,11 +89,7 @@
 
     .line 6
     .line 7
-    if-ge p1, p0, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-ge p1, p0, :cond_0    return-void
 
     .line 10
     :cond_0
@@ -173,17 +151,7 @@
     .line 40
     .line 41
     .line 42
-    throw v0
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw v0.end method
 
 .method private static final checkSubIndex(Ljava/util/List;II)V
     .locals 2
@@ -212,11 +180,7 @@
 
     .line 8
     .line 9
-    if-gt p2, p0, :cond_0
-
-    .line 10
-    .line 11
-    return-void
+    if-gt p2, p0, :cond_0    return-void
 
     .line 12
     :cond_0
@@ -369,34 +333,7 @@
     .line 89
     .line 90
     .line 91
-    throw p0
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    throw p0.end method
 
 .method public static final emptyObjectList()Landroidx/collection/ObjectList;
     .locals 2
@@ -419,12 +356,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public static final mutableObjectListOf()Landroidx/collection/MutableObjectList;
@@ -674,5 +606,4 @@
 
     return-object v0
 .end method
-
 .end class

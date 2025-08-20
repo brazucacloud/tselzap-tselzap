@@ -65,11 +65,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyIterator;->iterator:Ljava/util/Iterator;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyIterator;->iterator:Ljava/util/Iterator;    return-void
 .end method
 
 
@@ -154,12 +150,6 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V    return-void
 .end method
-
 .end class

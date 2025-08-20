@@ -105,11 +105,7 @@
 
     .line 29
     .line 30
-    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mInitial:F
-
-    .line 31
-    .line 32
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mInitial:F    return-void
 .end method
 
 
@@ -271,11 +267,6 @@
     .line 20
     .line 21
     :cond_1
-    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F
-
-    .line 22
-    .line 23
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F    return v0
 .end method
-
 .end class

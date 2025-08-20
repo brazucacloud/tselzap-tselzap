@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V    return-void
 .end method
 
 
@@ -61,5 +56,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

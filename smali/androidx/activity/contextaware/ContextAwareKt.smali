@@ -104,11 +104,7 @@
     move-result-object p0
 
     .line 45
-    sget-object p1, Lh1/a;->b:Lh1/a;
-
-    .line 46
-    .line 47
-    return-object p0
+    sget-object p1, Lh1/a;->b:Lh1/a;    return-object p0
 .end method
 
 .method private static final withContextAvailable$$forInline(Landroidx/activity/contextaware/ContextAware;Lp1/l;Lg1/d;)Ljava/lang/Object;
@@ -211,11 +207,6 @@
     move-result-object p0
 
     .line 45
-    sget-object p1, Lh1/a;->b:Lh1/a;
-
-    .line 46
-    .line 47
-    return-object p0
+    sget-object p1, Lh1/a;->b:Lh1/a;    return-object p0
 .end method
-
 .end class

@@ -135,11 +135,7 @@
 
     .line 40
     .line 41
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mFrame:I
-
-    .line 42
-    .line 43
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mFrame:I    return-void
 .end method
 
 
@@ -420,364 +416,231 @@
 
     .line 146
     .line 147
-    invoke-virtual {p0, p1, v0, v1}, Landroidx/constraintlayout/core/dsl/Keys;->append(Ljava/lang/StringBuilder;Ljava/lang/String;F)V
-
-    .line 148
-    .line 149
-    .line 150
-    return-void
+    invoke-virtual {p0, p1, v0, v1}, Landroidx/constraintlayout/core/dsl/Keys;->append(Ljava/lang/StringBuilder;Ljava/lang/String;F)V    return-void
 .end method
 
 .method public getAlpha()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mAlpha:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mAlpha:F    return v0
 .end method
 
 .method public getCurveFit()Landroidx/constraintlayout/core/dsl/KeyAttribute$Fit;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mCurveFit:Landroidx/constraintlayout/core/dsl/KeyAttribute$Fit;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mCurveFit:Landroidx/constraintlayout/core/dsl/KeyAttribute$Fit;    return-object v0
 .end method
 
 .method public getPivotX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotX:F    return v0
 .end method
 
 .method public getPivotY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotY:F    return v0
 .end method
 
 .method public getRotation()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotation:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotation:F    return v0
 .end method
 
 .method public getRotationX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationX:F    return v0
 .end method
 
 .method public getRotationY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationY:F    return v0
 .end method
 
 .method public getScaleX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleX:F    return v0
 .end method
 
 .method public getScaleY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleY:F    return v0
 .end method
 
 .method public getTarget()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTarget:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTarget:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getTransitionEasing()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionEasing:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionEasing:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getTransitionPathRotate()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionPathRotate:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionPathRotate:F    return v0
 .end method
 
 .method public getTranslationX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationX:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationX:F    return v0
 .end method
 
 .method public getTranslationY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationY:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationY:F    return v0
 .end method
 
 .method public getTranslationZ()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationZ:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationZ:F    return v0
 .end method
 
 .method public getVisibility()Landroidx/constraintlayout/core/dsl/KeyAttribute$Visibility;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mVisibility:Landroidx/constraintlayout/core/dsl/KeyAttribute$Visibility;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mVisibility:Landroidx/constraintlayout/core/dsl/KeyAttribute$Visibility;    return-object v0
 .end method
 
 .method public setAlpha(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mAlpha:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mAlpha:F    return-void
 .end method
 
 .method public setCurveFit(Landroidx/constraintlayout/core/dsl/KeyAttribute$Fit;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mCurveFit:Landroidx/constraintlayout/core/dsl/KeyAttribute$Fit;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mCurveFit:Landroidx/constraintlayout/core/dsl/KeyAttribute$Fit;    return-void
 .end method
 
 .method public setPivotX(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotX:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotX:F    return-void
 .end method
 
 .method public setPivotY(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotY:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mPivotY:F    return-void
 .end method
 
 .method public setRotation(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotation:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotation:F    return-void
 .end method
 
 .method public setRotationX(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationX:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationX:F    return-void
 .end method
 
 .method public setRotationY(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationY:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mRotationY:F    return-void
 .end method
 
 .method public setScaleX(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleX:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleX:F    return-void
 .end method
 
 .method public setScaleY(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleY:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mScaleY:F    return-void
 .end method
 
 .method public setTarget(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTarget:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTarget:Ljava/lang/String;    return-void
 .end method
 
 .method public setTransitionEasing(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionEasing:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionEasing:Ljava/lang/String;    return-void
 .end method
 
 .method public setTransitionPathRotate(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionPathRotate:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTransitionPathRotate:F    return-void
 .end method
 
 .method public setTranslationX(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationX:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationX:F    return-void
 .end method
 
 .method public setTranslationY(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationY:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationY:F    return-void
 .end method
 
 .method public setTranslationZ(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationZ:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mTranslationZ:F    return-void
 .end method
 
 .method public setVisibility(Landroidx/constraintlayout/core/dsl/KeyAttribute$Visibility;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mVisibility:Landroidx/constraintlayout/core/dsl/KeyAttribute$Visibility;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/KeyAttribute;->mVisibility:Landroidx/constraintlayout/core/dsl/KeyAttribute$Visibility;    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -834,5 +697,4 @@
 
     return-object v0
 .end method
-
 .end class

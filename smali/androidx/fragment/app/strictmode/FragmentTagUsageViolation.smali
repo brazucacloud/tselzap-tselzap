@@ -66,11 +66,7 @@
     .line 29
     .line 30
     .line 31
-    iput-object p2, p0, Landroidx/fragment/app/strictmode/FragmentTagUsageViolation;->parentContainer:Landroid/view/ViewGroup;
-
-    .line 32
-    .line 33
-    return-void
+    iput-object p2, p0, Landroidx/fragment/app/strictmode/FragmentTagUsageViolation;->parentContainer:Landroid/view/ViewGroup;    return-void
 .end method
 
 
@@ -79,11 +75,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentTagUsageViolation;->parentContainer:Landroid/view/ViewGroup;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentTagUsageViolation;->parentContainer:Landroid/view/ViewGroup;    return-object v0
 .end method
-
 .end class

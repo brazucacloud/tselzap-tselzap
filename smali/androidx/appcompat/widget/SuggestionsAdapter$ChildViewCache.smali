@@ -136,11 +136,6 @@
 
     .line 55
     .line 56
-    iput-object p1, p0, Landroidx/appcompat/widget/SuggestionsAdapter$ChildViewCache;->mIconRefine:Landroid/widget/ImageView;
-
-    .line 57
-    .line 58
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/SuggestionsAdapter$ChildViewCache;->mIconRefine:Landroid/widget/ImageView;    return-void
 .end method
-
 .end class

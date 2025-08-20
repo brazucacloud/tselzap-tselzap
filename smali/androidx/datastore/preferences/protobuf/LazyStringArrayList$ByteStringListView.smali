@@ -40,11 +40,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteStringListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteStringListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;    return-void
 .end method
 
 
@@ -193,5 +189,4 @@
 
     return v0
 .end method
-
 .end class

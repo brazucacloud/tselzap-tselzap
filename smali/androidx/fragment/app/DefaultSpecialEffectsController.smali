@@ -27,12 +27,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/fragment/app/SpecialEffectsController;-><init>(Landroid/view/ViewGroup;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1}, Landroidx/fragment/app/SpecialEffectsController;-><init>(Landroid/view/ViewGroup;)V    return-void
 .end method
 
 .method private final applyContainerChanges(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -68,12 +63,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->applyState(Landroid/view/View;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->applyState(Landroid/view/View;)V    return-void
 .end method
 
 .method public static synthetic c(Ljava/util/ArrayList;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController;)V
@@ -138,12 +128,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 
     .line 24
     :cond_0
@@ -472,12 +457,7 @@
     const/4 p2, 0x0
 
     .line 16
-    invoke-static {p1, v0, p2}, Ld1/q;->m0(Ljava/lang/Iterable;Lp1/l;Z)Z
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-static {p1, v0, p2}, Ld1/q;->m0(Ljava/lang/Iterable;Lp1/l;Z)Z    return-void
 .end method
 
 .method private final startAnimations(Ljava/util/List;Ljava/util/List;ZLjava/util/Map;)V
@@ -5006,12 +4986,7 @@
     .line 1688
     .line 1689
     .line 1690
-    invoke-virtual {v7, v4, v9, v10}, Landroidx/fragment/app/FragmentTransitionImpl;->swapSharedElementTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
-
-    .line 1691
-    .line 1692
-    .line 1693
-    return-object v0
+    invoke-virtual {v7, v4, v9, v10}, Landroidx/fragment/app/FragmentTransitionImpl;->swapSharedElementTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V    return-object v0
 .end method
 
 .method private static final startTransitions$lambda$10(Landroidx/fragment/app/FragmentTransitionImpl;Landroid/view/View;Landroid/graphics/Rect;)V
@@ -5036,12 +5011,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/FragmentTransitionImpl;->getBoundsOnScreen(Landroid/view/View;Landroid/graphics/Rect;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/FragmentTransitionImpl;->getBoundsOnScreen(Landroid/view/View;Landroid/graphics/Rect;)V    return-void
 .end method
 
 .method private static final startTransitions$lambda$11(Ljava/util/ArrayList;)V
@@ -5060,12 +5030,7 @@
     const/4 v0, 0x4
 
     .line 7
-    invoke-static {p0, v0}, Landroidx/fragment/app/FragmentTransition;->setViewVisibility(Ljava/util/List;I)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-static {p0, v0}, Landroidx/fragment/app/FragmentTransition;->setViewVisibility(Ljava/util/List;I)V    return-void
 .end method
 
 .method private static final startTransitions$lambda$14$lambda$13(Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -5190,12 +5155,7 @@
     const/4 v0, 0x0
 
     .line 15
-    invoke-static {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransition;->callSharedElementStartEnd(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/Fragment;ZLandroidx/collection/ArrayMap;Z)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-static {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransition;->callSharedElementStartEnd(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/Fragment;ZLandroidx/collection/ArrayMap;Z)V    return-void
 .end method
 
 .method private final syncAnimations(Ljava/util/List;)V
@@ -5984,5 +5944,4 @@
     :cond_9
     return-void
 .end method
-
 .end class

@@ -63,12 +63,7 @@
     .line 12
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
-    .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 13
-    .line 14
-    .line 15
-    return-object p1
+    .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0    return-object p1
 
     .line 16
     :catch_0
@@ -88,10 +83,5 @@
     .line 22
     .line 23
     .line 24
-    throw v0
-    .line 25
-    .line 26
-    .line 27
-.end method
-
+    throw v0.end method
 .end class

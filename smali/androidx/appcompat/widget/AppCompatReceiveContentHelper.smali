@@ -20,12 +20,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static maybeHandleDragEventViaPerformReceiveContent(Landroid/view/View;Landroid/view/DragEvent;)Z
@@ -133,12 +128,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 48
-    .line 49
-    .line 50
-    return v2
+    invoke-static {p1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I    return v2
 
     .line 51
     :cond_1
@@ -161,11 +151,7 @@
 
     .line 59
     .line 60
-    if-nez p0, :cond_2
-
-    .line 61
-    .line 62
-    return v3
+    if-nez p0, :cond_2    return v3
 
     .line 63
     :cond_2
@@ -432,11 +418,7 @@
 
     .line 12
     .line 13
-    check-cast p0, Landroid/app/Activity;
-
-    .line 14
-    .line 15
-    return-object p0
+    check-cast p0, Landroid/app/Activity;    return-object p0
 
     .line 16
     :cond_0
@@ -460,5 +442,4 @@
 
     return-object p0
 .end method
-
 .end class

@@ -503,11 +503,7 @@
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatImageButton;->mHasLevel:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatImageButton;->mHasLevel:Z    return-void
 .end method
 
 .method public setImageResource(I)V
@@ -522,12 +518,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatImageHelper;->setImageResource(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatImageHelper;->setImageResource(I)V    return-void
 .end method
 
 .method public setImageURI(Landroid/net/Uri;)V
@@ -679,5 +670,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

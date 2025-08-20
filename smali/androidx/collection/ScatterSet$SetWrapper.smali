@@ -52,12 +52,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -218,11 +213,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/collection/ScatterSet;->_size:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/collection/ScatterSet;->_size:I    return v0
 .end method
 
 .method public isEmpty()Z
@@ -380,5 +371,4 @@
 
     return-object p1
 .end method
-
 .end class

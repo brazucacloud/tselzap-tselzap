@@ -59,11 +59,7 @@
 
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/lifecycle/LiveData$ObserverWrapper;->mObserver:Landroidx/lifecycle/Observer;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p2, p0, Landroidx/lifecycle/LiveData$ObserverWrapper;->mObserver:Landroidx/lifecycle/Observer;    return-void
 .end method
 
 
@@ -150,5 +146,4 @@
 
 .method public abstract shouldBeActive()Z
 .end method
-
 .end class

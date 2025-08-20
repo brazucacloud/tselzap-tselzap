@@ -49,11 +49,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->FALLBACK_INSTANCE:Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->FALLBACK_INSTANCE:Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Throwable;)V
@@ -77,11 +73,6 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->exception:Ljava/lang/Throwable;
-
-    .line 11
-    .line 12
-    return-void
+    iput-object p1, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->exception:Ljava/lang/Throwable;    return-void
 .end method
-
 .end class

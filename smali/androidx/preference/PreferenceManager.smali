@@ -108,12 +108,7 @@
     move-result-object p1
 
     .line 17
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceManager;->setSharedPreferencesName(Ljava/lang/String;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceManager;->setSharedPreferencesName(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -314,11 +309,7 @@
     .line 9
     .line 10
     :cond_0
-    iput-boolean p1, p0, Landroidx/preference/PreferenceManager;->mNoCommit:Z
-
-    .line 11
-    .line 12
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceManager;->mNoCommit:Z    return-void
 .end method
 
 
@@ -345,12 +336,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {v0, p0}, Landroidx/preference/Preference;->onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-virtual {v0, p0}, Landroidx/preference/Preference;->onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V    return-object v0
 .end method
 
 .method public findPreference(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
@@ -403,11 +389,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mContext:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mContext:Landroid/content/Context;    return-object v0
 .end method
 
 .method public getEditor()Landroid/content/SharedPreferences$Editor;
@@ -467,11 +449,7 @@
     .line 24
     .line 25
     :cond_1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mEditor:Landroid/content/SharedPreferences$Editor;
-
-    .line 26
-    .line 27
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mEditor:Landroid/content/SharedPreferences$Editor;    return-object v0
 
     .line 28
     :cond_2
@@ -530,17 +508,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 13
-    throw v0
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public getOnDisplayPreferenceDialogListener()Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;
     .locals 1
@@ -548,11 +516,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mOnDisplayPreferenceDialogListener:Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mOnDisplayPreferenceDialogListener:Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;    return-object v0
 .end method
 
 .method public getOnNavigateToScreenListener()Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
@@ -561,11 +525,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mOnNavigateToScreenListener:Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mOnNavigateToScreenListener:Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;    return-object v0
 .end method
 
 .method public getOnPreferenceTreeClickListener()Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;
@@ -574,11 +534,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mOnPreferenceTreeClickListener:Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mOnPreferenceTreeClickListener:Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;    return-object v0
 .end method
 
 .method public getPreferenceComparisonCallback()Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;
@@ -587,11 +543,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mPreferenceComparisonCallback:Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mPreferenceComparisonCallback:Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;    return-object v0
 .end method
 
 .method public getPreferenceDataStore()Landroidx/preference/PreferenceDataStore;
@@ -600,22 +552,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mPreferenceDataStore:Landroidx/preference/PreferenceDataStore;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mPreferenceDataStore:Landroidx/preference/PreferenceDataStore;    return-object v0
 .end method
 
 .method public getPreferenceScreen()Landroidx/preference/PreferenceScreen;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mPreferenceScreen:Landroidx/preference/PreferenceScreen;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mPreferenceScreen:Landroidx/preference/PreferenceScreen;    return-object v0
 .end method
 
 .method public getSharedPreferences()Landroid/content/SharedPreferences;
@@ -703,33 +647,21 @@
     .line 36
     .line 37
     :cond_2
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mSharedPreferences:Landroid/content/SharedPreferences;
-
-    .line 38
-    .line 39
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mSharedPreferences:Landroid/content/SharedPreferences;    return-object v0
 .end method
 
 .method public getSharedPreferencesMode()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/PreferenceManager;->mSharedPreferencesMode:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/PreferenceManager;->mSharedPreferencesMode:I    return v0
 .end method
 
 .method public getSharedPreferencesName()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mSharedPreferencesName:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceManager;->mSharedPreferencesName:Ljava/lang/String;    return-object v0
 .end method
 
 .method public inflateFromResource(Landroid/content/Context;ILandroidx/preference/PreferenceScreen;)Landroidx/preference/PreferenceScreen;
@@ -789,12 +721,7 @@
     const/4 p2, 0x0
 
     .line 20
-    invoke-direct {p0, p2}, Landroidx/preference/PreferenceManager;->setNoCommit(Z)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-object p1
+    invoke-direct {p0, p2}, Landroidx/preference/PreferenceManager;->setNoCommit(Z)V    return-object p1
 .end method
 
 .method public isStorageDefault()Z
@@ -820,11 +747,7 @@
 
     .line 9
     .line 10
-    if-nez v0, :cond_0
-
-    .line 11
-    .line 12
-    return v2
+    if-nez v0, :cond_0    return v2
 
     .line 13
     :cond_0
@@ -863,11 +786,7 @@
     const/4 v1, 0x1
 
     .line 11
-    if-ne v0, v1, :cond_0
-
-    .line 12
-    .line 13
-    return v1
+    if-ne v0, v1, :cond_0    return v1
 
     .line 14
     :cond_0
@@ -882,11 +801,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mOnDisplayPreferenceDialogListener:Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mOnDisplayPreferenceDialogListener:Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;    return-void
 .end method
 
 .method public setOnNavigateToScreenListener(Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;)V
@@ -897,11 +812,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mOnNavigateToScreenListener:Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mOnNavigateToScreenListener:Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;    return-void
 .end method
 
 .method public setOnPreferenceTreeClickListener(Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;)V
@@ -912,11 +823,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mOnPreferenceTreeClickListener:Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mOnPreferenceTreeClickListener:Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;    return-void
 .end method
 
 .method public setPreferenceComparisonCallback(Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;)V
@@ -927,11 +834,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mPreferenceComparisonCallback:Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mPreferenceComparisonCallback:Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;    return-void
 .end method
 
 .method public setPreferenceDataStore(Landroidx/preference/PreferenceDataStore;)V
@@ -942,11 +845,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mPreferenceDataStore:Landroidx/preference/PreferenceDataStore;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mPreferenceDataStore:Landroidx/preference/PreferenceDataStore;    return-void
 .end method
 
 .method public setPreferences(Landroidx/preference/PreferenceScreen;)Z
@@ -997,11 +896,7 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mSharedPreferences:Landroid/content/SharedPreferences;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mSharedPreferences:Landroid/content/SharedPreferences;    return-void
 .end method
 
 .method public setSharedPreferencesName(Ljava/lang/String;)V
@@ -1015,11 +910,7 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mSharedPreferences:Landroid/content/SharedPreferences;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/preference/PreferenceManager;->mSharedPreferences:Landroid/content/SharedPreferences;    return-void
 .end method
 
 .method public setStorageDefault()V
@@ -1098,11 +989,7 @@
 
     .line 2
     .line 3
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 4
-    .line 5
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method public showDialog(Landroidx/preference/Preference;)V
@@ -1129,5 +1016,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -58,11 +58,7 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object p0
 .end method
 
 
@@ -79,12 +75,7 @@
     move-result-object p1
 
     .line 5
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->makeImmutable()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->makeImmutable()V    return-void
 .end method
 
 .method public mergeListsAt(Ljava/lang/Object;Ljava/lang/Object;J)V
@@ -179,12 +170,7 @@
 
     .line 38
     :cond_2
-    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
 .end method
 
 .method public mutableListAt(Ljava/lang/Object;J)Ljava/util/List;
@@ -265,5 +251,4 @@
     :cond_1
     return-object v0
 .end method
-
 .end class

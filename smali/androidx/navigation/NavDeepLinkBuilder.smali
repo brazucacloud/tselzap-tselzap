@@ -420,12 +420,7 @@
 
     .line 114
     .line 115
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putParcelableArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
-
-    .line 116
-    .line 117
-    .line 118
-    return-void
+    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putParcelableArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;    return-void
 .end method
 
 .method private final findDestination(I)Landroidx/navigation/NavDestination;
@@ -492,11 +487,7 @@
     move-result v2
 
     .line 30
-    if-ne v2, p1, :cond_1
-
-    .line 31
-    .line 32
-    return-object v1
+    if-ne v2, p1, :cond_1    return-object v1
 
     .line 33
     :cond_1
@@ -1097,12 +1088,7 @@
     move-result-object v0
 
     .line 121
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-
-    .line 122
-    .line 123
-    .line 124
-    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
 .end method
 
 .method public final createTaskStackBuilder()Landroidx/core/app/TaskStackBuilder;
@@ -1268,15 +1254,7 @@
     .line 77
     .line 78
     .line 79
-    throw v0
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public final setArguments(Landroid/os/Bundle;)Landroidx/navigation/NavDeepLinkBuilder;
     .locals 2
@@ -1294,12 +1272,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
-
-    .line 8
-    .line 9
-    .line 10
-    return-object p0
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;    return-object p0
 .end method
 
 .method public final setComponentName(Landroid/content/ComponentName;)Landroidx/navigation/NavDeepLinkBuilder;
@@ -1506,5 +1479,4 @@
 
     return-object p0
 .end method
-
 .end class

@@ -116,11 +116,7 @@
 
     .line 39
     .line 40
-    sput-object v5, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;->$VALUES:[Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;
-
-    .line 41
-    .line 42
-    return-void
+    sput-object v5, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;->$VALUES:[Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -162,11 +158,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;    return-object p0
 .end method
 
 .method public static values()[Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;
@@ -185,16 +177,11 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;    return-object v0
 .end method
 
 
 # virtual methods
 .method public abstract readString(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Ljava/lang/Object;
 .end method
-
 .end class

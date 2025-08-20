@@ -96,11 +96,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/fragment/app/BackStackRecordState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/fragment/app/BackStackRecordState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -807,11 +803,7 @@
 
     .line 179
     .line 180
-    iput-boolean v0, p1, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z
-
-    .line 181
-    .line 182
-    return-void
+    iput-boolean v0, p1, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z    return-void
 .end method
 
 
@@ -1146,12 +1138,6 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
 .end method
-
 .end class

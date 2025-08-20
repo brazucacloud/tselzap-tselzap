@@ -53,22 +53,14 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;->mTopicsManager:Landroid/adservices/topics/TopicsManager;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;->mTopicsManager:Landroid/adservices/topics/TopicsManager;    return-void
 .end method
 
 .method public static final synthetic access$getMTopicsManager$p(Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;)Landroid/adservices/topics/TopicsManager;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;->mTopicsManager:Landroid/adservices/topics/TopicsManager;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;->mTopicsManager:Landroid/adservices/topics/TopicsManager;    return-object p0
 .end method
 
 .method public static final synthetic access$getTopicsAsyncInternal(Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;Landroid/adservices/topics/GetTopicsRequest;Lg1/d;)Ljava/lang/Object;
@@ -246,11 +238,7 @@
     move-result-object p2
 
     .line 67
-    if-ne p2, v1, :cond_3
-
-    .line 68
-    .line 69
-    return-object v1
+    if-ne p2, v1, :cond_3    return-object v1
 
     .line 70
     :cond_3
@@ -358,11 +346,7 @@
     move-result-object p1
 
     .line 35
-    sget-object p2, Lh1/a;->b:Lh1/a;
-
-    .line 36
-    .line 37
-    return-object p1
+    sget-object p2, Lh1/a;->b:Lh1/a;    return-object p1
 .end method
 
 
@@ -452,5 +436,4 @@
 
     return-object p1
 .end method
-
 .end class

@@ -43,12 +43,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V    return-void
 .end method
 
 .method private constructor <init>()V
@@ -245,9 +240,7 @@
     .line 24
     .line 25
     .line 26
-    throw p0
-    .line 27
-.end method
+    throw p0.end method
 
 .method private static checkForNullKeysAndValues(Ljava/util/Map;)V
     .locals 2
@@ -423,11 +416,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->EMPTY_MAP_FIELD:Landroidx/datastore/preferences/protobuf/MapFieldLite;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->EMPTY_MAP_FIELD:Landroidx/datastore/preferences/protobuf/MapFieldLite;    return-object v0
 .end method
 
 .method private ensureMutable()V
@@ -442,11 +431,7 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -459,17 +444,7 @@
     .line 11
     .line 12
     .line 13
-    throw v0
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method private static equals(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
@@ -614,12 +589,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Ljava/util/LinkedHashMap;->clear()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-super {p0}, Ljava/util/LinkedHashMap;->clear()V    return-void
 .end method
 
 .method public entrySet()Ljava/util/Set;
@@ -646,11 +616,7 @@
 
     .line 6
     .line 7
-    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
-
-    .line 8
-    .line 9
-    return-object v0
+    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;    return-object v0
 
     .line 10
     :cond_0
@@ -708,11 +674,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z    return v0
 .end method
 
 .method public makeImmutable()V
@@ -722,11 +684,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z    return-void
 .end method
 
 .method public mergeFrom(Landroidx/datastore/preferences/protobuf/MapFieldLite;)V
@@ -793,12 +751,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V    return-object v0
 
     .line 13
     :cond_0
@@ -806,12 +759,7 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>(Ljava/util/Map;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>(Ljava/util/Map;)V    return-object v0
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -886,12 +834,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V    return-void
 .end method
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -919,5 +862,4 @@
 
     return-object p1
 .end method
-
 .end class

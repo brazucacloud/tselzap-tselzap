@@ -17,5 +17,4 @@
 # virtual methods
 .method public abstract setViewValue(Landroid/view/View;Landroid/database/Cursor;I)Z
 .end method
-
 .end class

@@ -41,12 +41,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->findExpandedIndex()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->findExpandedIndex()V    return-void
 .end method
 
 
@@ -123,11 +118,7 @@
 
     .line 33
     .line 34
-    iput v3, p0, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->mExpandedIndex:I
-
-    .line 35
-    .line 36
-    return-void
+    iput v3, p0, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->mExpandedIndex:I    return-void
 
     .line 37
     :cond_0
@@ -142,11 +133,7 @@
     const/4 v0, -0x1
 
     .line 41
-    iput v0, p0, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->mExpandedIndex:I
-
-    .line 42
-    .line 43
-    return-void
+    iput v0, p0, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->mExpandedIndex:I    return-void
 .end method
 
 .method public getCount()I
@@ -192,19 +179,11 @@
 
     .line 19
     .line 20
-    if-gez v1, :cond_0
-
-    .line 21
-    .line 22
-    return v0
+    if-gez v1, :cond_0    return v0
 
     .line 23
     :cond_0
-    add-int/lit8 v0, v0, -0x1
-
-    .line 24
-    .line 25
-    return v0
+    add-int/lit8 v0, v0, -0x1    return v0
 .end method
 
 .method public getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
@@ -312,12 +291,7 @@
     move-result-object p1
 
     .line 21
-    invoke-interface {p3, p1, v0}, Landroidx/appcompat/view/menu/MenuView$ItemView;->initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-object p2
+    invoke-interface {p3, p1, v0}, Landroidx/appcompat/view/menu/MenuView$ItemView;->initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V    return-object p2
 .end method
 
 .method public notifyDataSetChanged()V
@@ -329,12 +303,6 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V    return-void
 .end method
-
 .end class

@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -56,12 +51,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/app/ActionBarDrawerToggle;->toggle()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/ActionBarDrawerToggle;->toggle()V    return-void
 
     .line 11
     :cond_0
@@ -81,5 +71,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

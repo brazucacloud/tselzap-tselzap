@@ -61,12 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V    return-void
 .end method
 
 
@@ -415,5 +410,4 @@
     :goto_3
     return-object v0
 .end method
-
 .end class

@@ -53,11 +53,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->executor:Ljava/util/concurrent/Executor;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->executor:Ljava/util/concurrent/Executor;    return-void
 .end method
 
 .method public static final synthetic access$getFoldingFeature(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;Landroidx/window/layout/WindowLayoutInfo;)Landroidx/window/layout/FoldingFeature;
@@ -78,22 +74,14 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;    return-object p0
 .end method
 
 .method public static final synthetic access$getWindowInfoTracker$p(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;)Landroidx/window/layout/WindowInfoTracker;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->windowInfoTracker:Landroidx/window/layout/WindowInfoTracker;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->windowInfoTracker:Landroidx/window/layout/WindowInfoTracker;    return-object p0
 .end method
 
 .method private final getFoldingFeature(Landroidx/window/layout/WindowLayoutInfo;)Landroidx/window/layout/FoldingFeature;
@@ -175,11 +163,7 @@
 
     .line 34
     .line 35
-    check-cast v0, Landroidx/window/layout/FoldingFeature;
-
-    .line 36
-    .line 37
-    return-object v0
+    check-cast v0, Landroidx/window/layout/FoldingFeature;    return-object v0
 
     .line 38
     :cond_2
@@ -263,11 +247,7 @@
     move-result-object p1
 
     .line 36
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->job:Lz1/V;
-
-    .line 37
-    .line 38
-    return-void
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->job:Lz1/V;    return-void
 .end method
 
 .method public final setOnFoldingFeatureChangeListener(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;)V
@@ -283,11 +263,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;    return-void
 .end method
 
 .method public final unregisterLayoutStateChangeCallback()V
@@ -298,23 +274,13 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 6
     :cond_0
     const/4 v1, 0x0
 
     .line 7
-    invoke-interface {v0, v1}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-interface {v0, v1}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V    return-void
 .end method
-
 .end class

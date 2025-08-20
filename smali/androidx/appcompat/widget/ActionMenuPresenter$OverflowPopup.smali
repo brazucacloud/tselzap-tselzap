@@ -65,12 +65,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setPresenterCallback(Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setPresenterCallback(Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V    return-void
 .end method
 
 
@@ -124,12 +119,6 @@
 
     .line 22
     .line 23
-    invoke-super {p0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->onDismiss()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-super {p0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->onDismiss()V    return-void
 .end method
-
 .end class

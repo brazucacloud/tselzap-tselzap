@@ -95,11 +95,7 @@
     .line 25
     .line 26
     .line 27
-    sput-object v0, Landroidx/transition/ChangeImageTransform;->ANIMATED_TRANSFORM_PROPERTY:Landroid/util/Property;
-
-    .line 28
-    .line 29
-    return-void
+    sput-object v0, Landroidx/transition/ChangeImageTransform;->ANIMATED_TRANSFORM_PROPERTY:Landroid/util/Property;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -424,12 +420,7 @@
     int-to-float p0, p0
 
     .line 61
-    invoke-virtual {v0, v1, p0}, Landroid/graphics/Matrix;->postTranslate(FF)Z
-
-    .line 62
-    .line 63
-    .line 64
-    return-object v0
+    invoke-virtual {v0, v1, p0}, Landroid/graphics/Matrix;->postTranslate(FF)Z    return-object v0
 .end method
 
 .method private static copyImageMatrix(Landroid/widget/ImageView;)Landroid/graphics/Matrix;
@@ -524,12 +515,7 @@
     move-result-object p0
 
     .line 41
-    invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-object v0
+    invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V    return-object v0
 
     .line 45
     :cond_0
@@ -567,12 +553,7 @@
     move-result-object p0
 
     .line 61
-    invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-object v0
+    invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V    return-object v0
 .end method
 
 .method private createMatrixAnimator(Landroid/widget/ImageView;Landroid/graphics/Matrix;Landroid/graphics/Matrix;)Landroid/animation/ObjectAnimator;
@@ -747,12 +728,7 @@
     div-float/2addr p0, v0
 
     .line 32
-    invoke-virtual {v1, v2, p0}, Landroid/graphics/Matrix;->postScale(FF)Z
-
-    .line 33
-    .line 34
-    .line 35
-    return-object v1
+    invoke-virtual {v1, v2, p0}, Landroid/graphics/Matrix;->postScale(FF)Z    return-object v1
 .end method
 
 
@@ -768,12 +744,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeImageTransform;->captureValues(Landroidx/transition/TransitionValues;Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeImageTransform;->captureValues(Landroidx/transition/TransitionValues;Z)V    return-void
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -787,12 +758,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeImageTransform;->captureValues(Landroidx/transition/TransitionValues;Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/transition/ChangeImageTransform;->captureValues(Landroidx/transition/TransitionValues;Z)V    return-void
 .end method
 
 .method public createAnimator(Landroid/view/ViewGroup;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
@@ -962,11 +928,7 @@
 
     .line 69
     .line 70
-    if-eqz v3, :cond_5
-
-    .line 71
-    .line 72
-    return-object p1
+    if-eqz v3, :cond_5    return-object p1
 
     .line 73
     :cond_5
@@ -1068,12 +1030,7 @@
     .line 120
     .line 121
     .line 122
-    invoke-virtual {p0, v0}, Landroidx/transition/Transition;->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
-
-    .line 123
-    .line 124
-    .line 125
-    return-object p3
+    invoke-virtual {p0, v0}, Landroidx/transition/Transition;->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-object p3
 
     .line 126
     :cond_9
@@ -1097,11 +1054,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/ChangeImageTransform;->sTransitionProperties:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/transition/ChangeImageTransform;->sTransitionProperties:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public isSeekingSupported()Z
@@ -1111,5 +1064,4 @@
 
     return v0
 .end method
-
 .end class

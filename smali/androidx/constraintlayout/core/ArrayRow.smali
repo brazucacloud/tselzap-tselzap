@@ -129,11 +129,7 @@
     const/4 p2, 0x1
 
     .line 4
-    if-gt p1, p2, :cond_0
-
-    .line 5
-    .line 6
-    return p2
+    if-gt p1, p2, :cond_0    return p2
 
     .line 7
     :cond_0
@@ -378,12 +374,7 @@
     int-to-float p2, p2
 
     .line 4
-    invoke-interface {v0, p1, p2}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-object p0
+    invoke-interface {v0, p1, p2}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 .end method
 
 .method public chooseSubject(Landroidx/constraintlayout/core/LinearSystem;)Z
@@ -700,11 +691,7 @@
 
     .line 107
     :cond_6
-    if-eqz v1, :cond_7
-
-    .line 108
-    .line 109
-    return-object v1
+    if-eqz v1, :cond_7    return-object v1
 
     .line 110
     :cond_7
@@ -734,11 +721,7 @@
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 11
-    .line 12
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-void
 .end method
 
 .method public createRowCentering(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;IFLandroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;I)Landroidx/constraintlayout/core/ArrayRow;
@@ -779,12 +762,7 @@
 
     .line 18
     .line 19
-    invoke-interface {p1, p2, p3}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-object p0
+    invoke-interface {p1, p2, p3}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 
     .line 23
     :cond_0
@@ -858,11 +836,7 @@
     int-to-float p1, p1
 
     .line 58
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 59
-    .line 60
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-object p0
 
     .line 61
     :cond_2
@@ -898,11 +872,7 @@
     int-to-float p1, p3
 
     .line 77
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 78
-    .line 79
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-object p0
 
     .line 80
     :cond_3
@@ -938,11 +908,7 @@
     int-to-float p1, p1
 
     .line 96
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 97
-    .line 98
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-object p0
 
     .line 99
     :cond_4
@@ -1039,11 +1005,7 @@
     add-float/2addr p2, p1
 
     .line 143
-    iput p2, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 144
-    .line 145
-    return-object p0
+    iput p2, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-object p0
 .end method
 
 .method public createRowDefinition(Landroidx/constraintlayout/core/SolverVariable;I)Landroidx/constraintlayout/core/ArrayRow;
@@ -1068,11 +1030,7 @@
     const/4 p1, 0x1
 
     .line 9
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z
-
-    .line 10
-    .line 11
-    return-object p0
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z    return-object p0
 .end method
 
 .method public createRowDimensionPercent(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;F)Landroidx/constraintlayout/core/ArrayRow;
@@ -1096,12 +1054,7 @@
 
     .line 9
     .line 10
-    invoke-interface {p1, p2, p3}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-object p0
+    invoke-interface {p1, p2, p3}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 .end method
 
 .method public createRowDimensionRatio(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;F)Landroidx/constraintlayout/core/ArrayRow;
@@ -1150,12 +1103,7 @@
     neg-float p2, p5
 
     .line 23
-    invoke-interface {p1, p4, p2}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-object p0
+    invoke-interface {p1, p4, p2}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 .end method
 
 .method public createRowEqualDimension(FFFLandroidx/constraintlayout/core/SolverVariable;ILandroidx/constraintlayout/core/SolverVariable;ILandroidx/constraintlayout/core/SolverVariable;ILandroidx/constraintlayout/core/SolverVariable;I)Landroidx/constraintlayout/core/ArrayRow;
@@ -1269,12 +1217,7 @@
     neg-float p1, p1
 
     .line 49
-    invoke-interface {p2, p8, p1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 50
-    .line 51
-    .line 52
-    return-object p0
+    invoke-interface {p2, p8, p1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 
     .line 53
     :cond_1
@@ -1329,12 +1272,7 @@
 
     .line 76
     .line 77
-    invoke-interface {p1, p8, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 78
-    .line 79
-    .line 80
-    return-object p0
+    invoke-interface {p1, p8, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 .end method
 
 .method public createRowEqualMatchDimensions(FFFLandroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;)Landroidx/constraintlayout/core/ArrayRow;
@@ -1397,12 +1335,7 @@
 
     .line 27
     .line 28
-    invoke-interface {p1, p5, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-object p0
+    invoke-interface {p1, p5, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 
     .line 32
     :cond_1
@@ -1427,12 +1360,7 @@
 
     .line 42
     .line 43
-    invoke-interface {p1, p7, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 44
-    .line 45
-    .line 46
-    return-object p0
+    invoke-interface {p1, p7, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 
     .line 47
     :cond_2
@@ -1479,12 +1407,7 @@
     neg-float p1, p1
 
     .line 68
-    invoke-interface {p2, p6, p1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 69
-    .line 70
-    .line 71
-    return-object p0
+    invoke-interface {p2, p6, p1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 
     .line 72
     :cond_3
@@ -1520,12 +1443,7 @@
 
     .line 88
     .line 89
-    invoke-interface {p1, p6, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 90
-    .line 91
-    .line 92
-    return-object p0
+    invoke-interface {p1, p6, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 .end method
 
 .method public createRowEquals(Landroidx/constraintlayout/core/SolverVariable;I)Landroidx/constraintlayout/core/ArrayRow;
@@ -1762,12 +1680,7 @@
 
     .line 29
     .line 30
-    invoke-interface {p1, p3, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 31
-    .line 32
-    .line 33
-    return-object p0
+    invoke-interface {p1, p3, v1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 
     .line 34
     :cond_2
@@ -1793,12 +1706,7 @@
 
     .line 45
     .line 46
-    invoke-interface {p1, p3, p4}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V
-
-    .line 47
-    .line 48
-    .line 49
-    return-object p0
+    invoke-interface {p1, p3, p4}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->put(Landroidx/constraintlayout/core/SolverVariable;F)V    return-object p0
 .end method
 
 .method public createRowWithAngle(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;F)Landroidx/constraintlayout/core/ArrayRow;
@@ -1852,11 +1760,7 @@
     neg-float p1, p5
 
     .line 26
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F
-
-    .line 27
-    .line 28
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mConstantValue:F    return-object p0
 .end method
 
 .method public ensurePositiveConstant()V
@@ -1907,11 +1811,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mVariable:Landroidx/constraintlayout/core/SolverVariable;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mVariable:Landroidx/constraintlayout/core/SolverVariable;    return-object v0
 .end method
 
 .method public getPivotCandidate(Landroidx/constraintlayout/core/LinearSystem;[Z)Landroidx/constraintlayout/core/SolverVariable;
@@ -2245,11 +2145,7 @@
 
     .line 34
     .line 35
-    if-nez p1, :cond_1
-
-    .line 36
-    .line 37
-    return-void
+    if-nez p1, :cond_1    return-void
 
     .line 38
     :cond_1
@@ -2268,12 +2164,7 @@
 
     .line 44
     .line 45
-    invoke-interface {p1, v0}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->divideByAmount(F)V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-interface {p1, v0}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->divideByAmount(F)V    return-void
 .end method
 
 .method public reset()V
@@ -2306,11 +2197,7 @@
     const/4 v0, 0x0
 
     .line 13
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z
-
-    .line 14
-    .line 15
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z    return-void
 .end method
 
 .method public sizeInBytes()I
@@ -3349,5 +3236,4 @@
     :goto_4
     return-void
 .end method
-
 .end class

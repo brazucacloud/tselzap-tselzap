@@ -31,11 +31,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$ProgressSet;->mNoMethod:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$ProgressSet;->mNoMethod:Z    return-void
 .end method
 
 
@@ -78,12 +74,7 @@
     move-result p2
 
     .line 17
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
 
     .line 21
     :cond_0
@@ -219,5 +210,4 @@
     :goto_3
     return-void
 .end method
-
 .end class

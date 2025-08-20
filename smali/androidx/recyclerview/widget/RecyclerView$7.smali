@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -73,11 +68,7 @@
 
     .line 13
     .line 14
-    if-eq v0, v2, :cond_0
-
-    .line 15
-    .line 16
-    return-void
+    if-eq v0, v2, :cond_0    return-void
 
     .line 17
     :cond_0
@@ -97,12 +88,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v2, v0, v3, p1, v1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsMoved(Landroidx/recyclerview/widget/RecyclerView;III)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {v2, v0, v3, p1, v1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsMoved(Landroidx/recyclerview/widget/RecyclerView;III)V    return-void
 
     .line 29
     :cond_1
@@ -126,12 +112,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, v0, v2, v3, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsUpdated(Landroidx/recyclerview/widget/RecyclerView;IILjava/lang/Object;)V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-virtual {v1, v0, v2, v3, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsUpdated(Landroidx/recyclerview/widget/RecyclerView;IILjava/lang/Object;)V    return-void
 
     .line 43
     :cond_2
@@ -151,12 +132,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v1, v0, v2, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsRemoved(Landroidx/recyclerview/widget/RecyclerView;II)V
-
-    .line 52
-    .line 53
-    .line 54
-    return-void
+    invoke-virtual {v1, v0, v2, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsRemoved(Landroidx/recyclerview/widget/RecyclerView;II)V    return-void
 
     .line 55
     :cond_3
@@ -176,12 +152,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v1, v0, v2, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsAdded(Landroidx/recyclerview/widget/RecyclerView;II)V
-
-    .line 64
-    .line 65
-    .line 66
-    return-void
+    invoke-virtual {v1, v0, v2, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsAdded(Landroidx/recyclerview/widget/RecyclerView;II)V    return-void
 .end method
 
 .method public findViewHolder(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -206,11 +177,7 @@
     const/4 v0, 0x0
 
     .line 9
-    if-nez p1, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-nez p1, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -287,11 +254,7 @@
     const/4 p2, 0x1
 
     .line 9
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsChanged:Z
-
-    .line 10
-    .line 11
-    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsChanged:Z    return-void
 .end method
 
 .method public offsetPositionsForAdd(II)V
@@ -314,11 +277,7 @@
     const/4 p2, 0x1
 
     .line 9
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z
-
-    .line 10
-    .line 11
-    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z    return-void
 .end method
 
 .method public offsetPositionsForMove(II)V
@@ -341,11 +300,7 @@
     const/4 p2, 0x1
 
     .line 9
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z
-
-    .line 10
-    .line 11
-    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z    return-void
 .end method
 
 .method public offsetPositionsForRemovingInvisible(II)V
@@ -383,11 +338,7 @@
     add-int/2addr v0, p2
 
     .line 16
-    iput v0, p1, Landroidx/recyclerview/widget/RecyclerView$State;->mDeletedInvisibleItemCountSincePreviousLayout:I
-
-    .line 17
-    .line 18
-    return-void
+    iput v0, p1, Landroidx/recyclerview/widget/RecyclerView$State;->mDeletedInvisibleItemCountSincePreviousLayout:I    return-void
 .end method
 
 .method public offsetPositionsForRemovingLaidOutOrNewView(II)V
@@ -413,35 +364,20 @@
     const/4 p2, 0x1
 
     .line 10
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z
-
-    .line 11
-    .line 12
-    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z    return-void
 .end method
 
 .method public onDispatchFirstPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$7;->dispatchUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$7;->dispatchUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 .end method
 
 .method public onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$7;->dispatchUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$7;->dispatchUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 .end method
-
 .end class

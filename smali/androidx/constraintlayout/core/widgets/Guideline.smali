@@ -435,11 +435,7 @@
     .line 134
     :cond_5
     :goto_2
-    iput-boolean v4, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z
-
-    .line 135
-    .line 136
-    return-void
+    iput-boolean v4, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z    return-void
 
     .line 137
     :cond_6
@@ -496,12 +492,7 @@
     move-result-object v0
 
     .line 164
-    invoke-virtual {p1, v0, p2, v4, v5}, Landroidx/constraintlayout/core/LinearSystem;->addGreaterThan(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)V
-
-    .line 165
-    .line 166
-    .line 167
-    return-void
+    invoke-virtual {p1, v0, p2, v4, v5}, Landroidx/constraintlayout/core/LinearSystem;->addGreaterThan(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)V    return-void
 
     .line 168
     :cond_7
@@ -562,12 +553,7 @@
     .line 195
     .line 196
     .line 197
-    invoke-virtual {p1, v1, p2, v4, v5}, Landroidx/constraintlayout/core/LinearSystem;->addGreaterThan(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)V
-
-    .line 198
-    .line 199
-    .line 200
-    return-void
+    invoke-virtual {p1, v1, p2, v4, v5}, Landroidx/constraintlayout/core/LinearSystem;->addGreaterThan(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;II)V    return-void
 
     .line 201
     :cond_8
@@ -696,12 +682,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/widgets/Guideline;->setOrientation(I)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/widgets/Guideline;->setOrientation(I)V    return-void
 .end method
 
 .method public cyclePosition()V
@@ -719,12 +700,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/Guideline;->inferRelativePercentPosition()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/Guideline;->inferRelativePercentPosition()V    return-void
 
     .line 10
     :cond_0
@@ -744,12 +720,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/Guideline;->inferRelativeEndPosition()V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/Guideline;->inferRelativeEndPosition()V    return-void
 
     .line 22
     :cond_1
@@ -842,33 +813,21 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mMinimumPosition:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mMinimumPosition:I    return v0
 .end method
 
 .method public getOrientation()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mOrientation:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mOrientation:I    return v0
 .end method
 
 .method public getRelativeBegin()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mRelativeBegin:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mRelativeBegin:I    return v0
 .end method
 
 .method public getRelativeBehaviour()I
@@ -935,33 +894,21 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mRelativeEnd:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mRelativeEnd:I    return v0
 .end method
 
 .method public getRelativePercent()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mRelativePercent:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mRelativePercent:F    return v0
 .end method
 
 .method public getType()Ljava/lang/String;
     .locals 1
 
     .line 1
-    const-string v0, "Guideline"
-
-    .line 2
-    .line 3
-    return-object v0
+    const-string v0, "Guideline"    return-object v0
 .end method
 
 .method public inferRelativeBeginPosition()V
@@ -993,12 +940,7 @@
 
     .line 13
     :cond_0
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V    return-void
 .end method
 
 .method public inferRelativeEndPosition()V
@@ -1068,12 +1010,7 @@
 
     .line 31
     :cond_0
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideEnd(I)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideEnd(I)V    return-void
 .end method
 
 .method public inferRelativePercentPosition()V
@@ -1155,12 +1092,7 @@
 
     .line 35
     :cond_0
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V    return-void
 .end method
 
 .method public isPercent()Z
@@ -1217,22 +1149,14 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z    return v0
 .end method
 
 .method public isResolvedVertically()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z    return v0
 .end method
 
 .method public setFinalValue(I)V
@@ -1251,11 +1175,7 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mResolved:Z    return-void
 .end method
 
 .method public setGuideBegin(I)V
@@ -1363,11 +1283,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mMinimumPosition:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/Guideline;->mMinimumPosition:I    return-void
 .end method
 
 .method public setOrientation(I)V
@@ -1495,11 +1411,7 @@
     move-result-object p2
 
     .line 5
-    if-nez p2, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez p2, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -1560,12 +1472,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setWidth(I)V
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setWidth(I)V    return-void
 
     .line 41
     :cond_1
@@ -1600,12 +1507,6 @@
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHeight(I)V
-
-    .line 59
-    .line 60
-    .line 61
-    return-void
+    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHeight(I)V    return-void
 .end method
-
 .end class

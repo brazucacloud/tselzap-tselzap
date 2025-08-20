@@ -90,12 +90,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0, p2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p0, p2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V    return-void
 .end method
 
 
@@ -131,11 +126,7 @@
     const/4 v1, 0x1
 
     .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -151,12 +142,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionMenuPresenter;->showOverflowMenu()Z
-
-    .line 16
-    .line 17
-    .line 18
-    return v1
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionMenuPresenter;->showOverflowMenu()Z    return v1
 .end method
 
 .method public setFrame(IIII)Z
@@ -297,5 +283,4 @@
     :cond_0
     return p1
 .end method
-
 .end class

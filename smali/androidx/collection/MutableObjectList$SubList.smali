@@ -79,11 +79,7 @@
 
     .line 12
     .line 13
-    iput p3, p0, Landroidx/collection/MutableObjectList$SubList;->end:I
-
-    .line 14
-    .line 15
-    return-void
+    iput p3, p0, Landroidx/collection/MutableObjectList$SubList;->end:I    return-void
 .end method
 
 
@@ -285,11 +281,7 @@
 
     .line 20
     .line 21
-    iput v0, p0, Landroidx/collection/MutableObjectList$SubList;->end:I
-
-    .line 22
-    .line 23
-    return-void
+    iput v0, p0, Landroidx/collection/MutableObjectList$SubList;->end:I    return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -591,12 +583,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p0, v1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-object v0
+    invoke-direct {v0, p0, v1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V    return-object v0
 .end method
 
 .method public lastIndexOf(Ljava/lang/Object;)I
@@ -904,11 +891,7 @@
 
     .line 16
     .line 17
-    iput v0, p0, Landroidx/collection/MutableObjectList$SubList;->end:I
-
-    .line 18
-    .line 19
-    return-object p1
+    iput v0, p0, Landroidx/collection/MutableObjectList$SubList;->end:I    return-object p1
 .end method
 
 .method public retainAll(Ljava/util/Collection;)Z
@@ -1096,12 +1079,7 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0, p1, p2}, Landroidx/collection/MutableObjectList$SubList;-><init>(Ljava/util/List;II)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-object v0
+    invoke-direct {v0, p0, p1, p2}, Landroidx/collection/MutableObjectList$SubList;-><init>(Ljava/util/List;II)V    return-object v0
 .end method
 
 .method public toArray()[Ljava/lang/Object;
@@ -1136,5 +1114,4 @@
 
     return-object p1
 .end method
-
 .end class

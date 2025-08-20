@@ -95,11 +95,7 @@
     move-result-object v0
 
     .line 23
-    iput-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->mAttachedAdaptersForPoolingContainer:Ljava/util/Set;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->mAttachedAdaptersForPoolingContainer:Ljava/util/Set;    return-void
 .end method
 
 .method private getScrapDataForType(I)Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;
@@ -162,11 +158,7 @@
 
     .line 4
     .line 5
-    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->mAttachCountForClearing:I
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->mAttachCountForClearing:I    return-void
 .end method
 
 .method public attachForPoolingContainer(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -188,12 +180,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public clear()V
@@ -318,11 +305,7 @@
 
     .line 4
     .line 5
-    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->mAttachCountForClearing:I
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->mAttachCountForClearing:I    return-void
 .end method
 
 .method public detachForPoolingContainer(Landroidx/recyclerview/widget/RecyclerView$Adapter;Z)V
@@ -500,11 +483,7 @@
     move-result-wide p2
 
     .line 11
-    iput-wide p2, p1, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;->mBindRunningAverageNs:J
-
-    .line 12
-    .line 13
-    return-void
+    iput-wide p2, p1, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;->mBindRunningAverageNs:J    return-void
 .end method
 
 .method public factorInCreateTime(IJ)V
@@ -531,11 +510,7 @@
     move-result-wide p2
 
     .line 11
-    iput-wide p2, p1, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;->mCreateRunningAverageNs:J
-
-    .line 12
-    .line 13
-    return-void
+    iput-wide p2, p1, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;->mCreateRunningAverageNs:J    return-void
 .end method
 
 .method public getRecycledView(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -633,11 +608,7 @@
     move-result-object p1
 
     .line 45
-    check-cast p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-
-    .line 46
-    .line 47
-    return-object p1
+    check-cast p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;    return-object p1
 
     .line 48
     :cond_0
@@ -794,12 +765,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1}, Landroidx/customview/poolingcontainer/PoolingContainer;->callPoolingContainerOnRelease(Landroid/view/View;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-static {p1}, Landroidx/customview/poolingcontainer/PoolingContainer;->callPoolingContainerOnRelease(Landroid/view/View;)V    return-void
 
     .line 33
     :cond_0
@@ -850,12 +816,7 @@
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 56
-    .line 57
-    .line 58
-    return-void
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public runningAverage(JJ)J
@@ -870,11 +831,7 @@
 
     .line 4
     .line 5
-    if-nez v2, :cond_0
-
-    .line 6
-    .line 7
-    return-wide p3
+    if-nez v2, :cond_0    return-wide p3
 
     .line 8
     :cond_0
@@ -1144,5 +1101,4 @@
 
     return p1
 .end method
-
 .end class

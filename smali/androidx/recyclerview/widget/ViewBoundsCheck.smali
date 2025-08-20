@@ -84,11 +84,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck;->mBoundFlags:Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck;->mBoundFlags:Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;    return-void
 .end method
 
 
@@ -223,11 +219,7 @@
     move-result v5
 
     .line 62
-    if-eqz v5, :cond_1
-
-    .line 63
-    .line 64
-    return-object v4
+    if-eqz v5, :cond_1    return-object v4
 
     .line 65
     :cond_1
@@ -385,5 +377,4 @@
 
     return p1
 .end method
-
 .end class

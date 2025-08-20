@@ -18,12 +18,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -96,11 +91,7 @@
     add-int/2addr v0, v1
 
     .line 6
-    div-int/lit8 v0, v0, 0x2
-
-    .line 7
-    .line 8
-    return v0
+    div-int/lit8 v0, v0, 0x2    return v0
 .end method
 
 .method public getCenterY()I
@@ -118,11 +109,7 @@
     add-int/2addr v0, v1
 
     .line 6
-    div-int/lit8 v0, v0, 0x2
-
-    .line 7
-    .line 8
-    return v0
+    div-int/lit8 v0, v0, 0x2    return v0
 .end method
 
 .method public grow(II)V
@@ -177,11 +164,7 @@
     add-int/2addr p2, p1
 
     .line 23
-    iput p2, p0, Landroidx/constraintlayout/core/widgets/Rectangle;->height:I
-
-    .line 24
-    .line 25
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/widgets/Rectangle;->height:I    return-void
 .end method
 
 .method public intersects(Landroidx/constraintlayout/core/widgets/Rectangle;)Z
@@ -261,11 +244,6 @@
 
     .line 6
     .line 7
-    iput p4, p0, Landroidx/constraintlayout/core/widgets/Rectangle;->height:I
-
-    .line 8
-    .line 9
-    return-void
+    iput p4, p0, Landroidx/constraintlayout/core/widgets/Rectangle;->height:I    return-void
 .end method
-
 .end class

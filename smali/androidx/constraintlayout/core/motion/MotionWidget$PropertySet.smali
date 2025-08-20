@@ -60,11 +60,6 @@
 
     .line 15
     .line 16
-    iput v0, p0, Landroidx/constraintlayout/core/motion/MotionWidget$PropertySet;->mProgress:F
-
-    .line 17
-    .line 18
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/motion/MotionWidget$PropertySet;->mProgress:F    return-void
 .end method
-
 .end class

@@ -74,11 +74,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;->mAllowedViolations:Ljava/util/Map;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;->mAllowedViolations:Ljava/util/Map;    return-void
 .end method
 
 
@@ -237,12 +233,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v0, v1, v2, v3}, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;-><init>(Ljava/util/Set;Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;Ljava/util/Map;)V
-
-    .line 27
-    .line 28
-    .line 29
-    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;-><init>(Ljava/util/Set;Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;Ljava/util/Map;)V    return-object v0
 .end method
 
 .method public final detectFragmentReuse()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -262,12 +253,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final detectFragmentTagUsage()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -287,12 +273,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final detectRetainInstanceUsage()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -312,12 +293,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final detectSetUserVisibleHint()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -337,12 +313,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final detectTargetFragmentUsage()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -362,12 +333,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final detectWrongFragmentContainer()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -387,12 +353,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final detectWrongNestedHierarchy()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -412,12 +373,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final penaltyDeath()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -437,12 +393,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public final penaltyListener(Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;)Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -463,11 +414,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;->listener:Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;->listener:Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;    return-object p0
 .end method
 
 .method public final penaltyLog()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder;
@@ -487,12 +434,6 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
-
 .end class

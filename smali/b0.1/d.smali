@@ -20,11 +20,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lb0/d;->a:Lcom/google/android/material/behavior/SwipeDismissBehavior;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Lb0/d;->a:Lcom/google/android/material/behavior/SwipeDismissBehavior;    return-void
 .end method
 
 
@@ -150,5 +146,4 @@
     :cond_5
     return v1
 .end method
-
 .end class

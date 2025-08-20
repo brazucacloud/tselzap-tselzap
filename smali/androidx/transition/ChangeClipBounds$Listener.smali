@@ -43,11 +43,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/transition/ChangeClipBounds$Listener;->mEnd:Landroid/graphics/Rect;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p3, p0, Landroidx/transition/ChangeClipBounds$Listener;->mEnd:Landroid/graphics/Rect;    return-void
 .end method
 
 
@@ -167,12 +163,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -219,12 +210,7 @@
     const/4 v1, 0x0
 
     .line 19
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -245,5 +231,4 @@
 
     return-void
 .end method
-
 .end class

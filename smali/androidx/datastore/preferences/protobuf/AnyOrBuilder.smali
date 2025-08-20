@@ -15,5 +15,4 @@
 
 .method public abstract getValue()Landroidx/datastore/preferences/protobuf/ByteString;
 .end method
-
 .end class

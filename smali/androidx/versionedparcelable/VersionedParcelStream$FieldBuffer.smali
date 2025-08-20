@@ -64,11 +64,7 @@
 
     .line 19
     .line 20
-    iput-object p2, p0, Landroidx/versionedparcelable/VersionedParcelStream$FieldBuffer;->mTarget:Ljava/io/DataOutputStream;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object p2, p0, Landroidx/versionedparcelable/VersionedParcelStream$FieldBuffer;->mTarget:Ljava/io/DataOutputStream;    return-void
 .end method
 
 
@@ -162,12 +158,6 @@
 
     .line 42
     .line 43
-    invoke-virtual {v0, v1}, Ljava/io/ByteArrayOutputStream;->writeTo(Ljava/io/OutputStream;)V
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-virtual {v0, v1}, Ljava/io/ByteArrayOutputStream;->writeTo(Ljava/io/OutputStream;)V    return-void
 .end method
-
 .end class

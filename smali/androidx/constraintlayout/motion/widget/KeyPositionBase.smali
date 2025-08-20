@@ -25,11 +25,7 @@
 
     .line 5
     .line 6
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPositionBase;->mCurveFit:I
-
-    .line 7
-    .line 8
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPositionBase;->mCurveFit:I    return-void
 .end method
 
 
@@ -62,5 +58,4 @@
 
 .method public abstract positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
 .end method
-
 .end class

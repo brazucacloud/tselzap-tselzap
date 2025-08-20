@@ -25,11 +25,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;    return-void
 .end method
 
 .method public static get(Landroid/content/Context;)Landroidx/appcompat/view/ActionBarPolicy;
@@ -40,12 +36,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/appcompat/view/ActionBarPolicy;-><init>(Landroid/content/Context;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/appcompat/view/ActionBarPolicy;-><init>(Landroid/content/Context;)V    return-object v0
 .end method
 
 
@@ -117,11 +108,7 @@
 
     .line 12
     .line 13
-    div-int/lit8 v0, v0, 0x2
-
-    .line 14
-    .line 15
-    return v0
+    div-int/lit8 v0, v0, 0x2    return v0
 .end method
 
 .method public getMaxActionButtons()I
@@ -388,12 +375,7 @@
 
     .line 41
     :cond_0
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 42
-    .line 43
-    .line 44
-    return v1
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return v1
 .end method
 
 .method public hasEmbeddedTabs()Z
@@ -433,5 +415,4 @@
 
     return v0
 .end method
-
 .end class

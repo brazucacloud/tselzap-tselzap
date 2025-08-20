@@ -124,11 +124,7 @@
     const/4 v1, 0x1
 
     .line 6
-    if-lt v0, v1, :cond_0
-
-    .line 7
-    .line 8
-    return p1
+    if-lt v0, v1, :cond_0    return p1
 
     .line 9
     :cond_0
@@ -158,11 +154,7 @@
     .line 21
     .line 22
     .line 23
-    iget p0, p1, Landroid/util/TypedValue;->resourceId:I
-
-    .line 24
-    .line 25
-    return p0
+    iget p0, p1, Landroid/util/TypedValue;->resourceId:I    return p0
 .end method
 
 
@@ -216,12 +208,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/appcompat/app/AlertController;->installContent()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/app/AlertController;->installContent()V    return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -372,12 +359,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setButtonPanelLayoutHint(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setButtonPanelLayoutHint(I)V    return-void
 .end method
 
 .method public setCustomTitle(Landroid/view/View;)V
@@ -388,12 +370,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setCustomTitle(Landroid/view/View;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setCustomTitle(Landroid/view/View;)V    return-void
 .end method
 
 .method public setIcon(I)V
@@ -463,12 +440,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertController;->setIcon(I)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertController;->setIcon(I)V    return-void
 .end method
 
 .method public setMessage(Ljava/lang/CharSequence;)V
@@ -479,12 +451,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setMessage(Ljava/lang/CharSequence;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setMessage(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -500,12 +467,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setTitle(Ljava/lang/CharSequence;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setTitle(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public setView(Landroid/view/View;)V
@@ -539,5 +501,4 @@
 
     return-void
 .end method
-
 .end class

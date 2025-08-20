@@ -29,11 +29,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/CompositeGeneratedAdaptersObserver;->generatedAdapters:[Landroidx/lifecycle/GeneratedAdapter;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/CompositeGeneratedAdaptersObserver;->generatedAdapters:[Landroidx/lifecycle/GeneratedAdapter;    return-void
 .end method
 
 
@@ -138,5 +134,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

@@ -247,11 +247,7 @@
     const/4 v4, -0x1
 
     .line 43
-    if-ne v3, v4, :cond_1
-
-    .line 44
-    .line 45
-    return v1
+    if-ne v3, v4, :cond_1    return v1
 
     .line 46
     :cond_1
@@ -518,12 +514,7 @@
     .line 101
     .line 102
     .line 103
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Grid;->setBoxViewHorizontalChains()V
-
-    .line 104
-    .line 105
-    .line 106
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Grid;->setBoxViewHorizontalChains()V    return-void
 .end method
 
 .method private clearHParams(Landroid/view/View;)V
@@ -569,12 +560,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method private clearVParams(Landroid/view/View;)V
@@ -620,12 +606,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method private connectView(Landroid/view/View;IIII)V
@@ -690,12 +671,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method private generateGrid(Z)Z
@@ -1231,11 +1207,7 @@
     move-result v2
 
     .line 34
-    if-nez v2, :cond_0
-
-    .line 35
-    .line 36
-    return v0
+    if-nez v2, :cond_0    return v0
 
     .line 37
     :cond_0
@@ -1338,11 +1310,7 @@
     move-result v3
 
     .line 40
-    if-nez v3, :cond_0
-
-    .line 41
-    .line 42
-    return v1
+    if-nez v3, :cond_0    return v1
 
     .line 43
     :cond_0
@@ -1661,12 +1629,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v2, v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-object v0
+    invoke-virtual {v2, v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-object v0
 .end method
 
 .method private params(Landroid/view/View;)Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -1681,11 +1644,7 @@
     move-result-object p1
 
     .line 5
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
-
-    .line 6
-    .line 7
-    return-object p1
+    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;    return-object p1
 .end method
 
 .method private parseSpans(Ljava/lang/String;)[[I
@@ -1937,11 +1896,7 @@
     array-length v1, p2
 
     .line 22
-    if-eq v1, p1, :cond_1
-
-    .line 23
-    .line 24
-    return-object v0
+    if-eq v1, p1, :cond_1    return-object v0
 
     .line 25
     :cond_1
@@ -2096,12 +2051,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 51
-    .line 52
-    .line 53
-    return-void
+    invoke-virtual {v0, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 
     .line 54
     :cond_0
@@ -2427,12 +2377,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 51
-    .line 52
-    .line 53
-    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 
     .line 54
     :cond_0
@@ -2683,11 +2628,7 @@
 
     .line 11
     .line 12
-    iput v1, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumns:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumns:I    return-void
 
     .line 15
     :cond_1
@@ -2718,11 +2659,7 @@
     div-int/2addr v0, v1
 
     .line 27
-    iput v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mRows:I
-
-    .line 28
-    .line 29
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mRows:I    return-void
 
     .line 30
     :cond_2
@@ -2748,11 +2685,7 @@
     div-int/2addr v1, v0
 
     .line 40
-    iput v1, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumns:I
-
-    .line 41
-    .line 42
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumns:I    return-void
 
     .line 43
     :cond_3
@@ -2799,11 +2732,7 @@
     div-int/2addr v1, v0
 
     .line 62
-    iput v1, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumns:I
-
-    .line 63
-    .line 64
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumns:I    return-void
 .end method
 
 
@@ -2812,99 +2741,63 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrColumnWeights:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrColumnWeights:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getColumns()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumnsSet:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mColumnsSet:I    return v0
 .end method
 
 .method public getHorizontalGaps()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mHorizontalGaps:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mHorizontalGaps:F    return v0
 .end method
 
 .method public getOrientation()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mOrientation:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mOrientation:I    return v0
 .end method
 
 .method public getRowWeights()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrRowWeights:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrRowWeights:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getRows()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mRowsSet:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mRowsSet:I    return v0
 .end method
 
 .method public getSkips()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrSkips:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrSkips:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getSpans()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrSpans:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mStrSpans:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getVerticalGaps()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mVerticalGaps:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/helper/widget/Grid;->mVerticalGaps:F    return v0
 .end method
 
 .method public init(Landroid/util/AttributeSet;)V
@@ -3296,12 +3189,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/helper/widget/Grid;->generateGrid(Z)Z
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/helper/widget/Grid;->generateGrid(Z)Z    return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -3587,12 +3475,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setColumns(I)V
@@ -3646,12 +3529,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setHorizontalGaps(F)V
@@ -3702,12 +3580,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setOrientation(I)V
@@ -3751,12 +3624,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setRowWeights(Ljava/lang/String;)V
@@ -3816,12 +3684,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setRows(I)V
@@ -3875,12 +3738,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V
@@ -3940,12 +3798,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setSpans(Ljava/lang/CharSequence;)V
@@ -4013,12 +3866,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setVerticalGaps(F)V
@@ -4069,12 +3917,6 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
-
 .end class

@@ -662,11 +662,7 @@
 
     .line 297
     .line 298
-    sput-object v5, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->$VALUES:[Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-
-    .line 299
-    .line 300
-    return-void
+    sput-object v5, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->$VALUES:[Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;ILandroidx/datastore/preferences/protobuf/WireFormat$JavaType;I)V
@@ -716,11 +712,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;    return-object p0
 .end method
 
 .method public static values()[Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
@@ -739,11 +731,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;    return-object v0
 .end method
 
 
@@ -752,22 +740,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->javaType:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->javaType:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;    return-object v0
 .end method
 
 .method public getWireType()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->wireType:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->wireType:I    return v0
 .end method
 
 .method public isPackable()Z
@@ -777,5 +757,4 @@
 
     return v0
 .end method
-
 .end class

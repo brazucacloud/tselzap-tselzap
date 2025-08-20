@@ -61,12 +61,6 @@
     move-result-object p1
 
     .line 25
-    invoke-direct {v0, p0, p1}, Landroidx/navigation/NamedNavArgument;-><init>(Ljava/lang/String;Landroidx/navigation/NavArgument;)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/navigation/NamedNavArgument;-><init>(Ljava/lang/String;Landroidx/navigation/NavArgument;)V    return-object v0
 .end method
-
 .end class

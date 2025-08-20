@@ -63,11 +63,7 @@
     .line 14
     .line 15
     .line 16
-    sput-object v0, Landroidx/navigation/NavArgsLazyKt;->methodMap:Landroidx/collection/ArrayMap;
-
-    .line 17
-    .line 18
-    return-void
+    sput-object v0, Landroidx/navigation/NavArgsLazyKt;->methodMap:Landroidx/collection/ArrayMap;    return-void
 .end method
 
 .method public static final getMethodMap()Landroidx/collection/ArrayMap;
@@ -83,11 +79,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/NavArgsLazyKt;->methodMap:Landroidx/collection/ArrayMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/NavArgsLazyKt;->methodMap:Landroidx/collection/ArrayMap;    return-object v0
 .end method
 
 .method public static final getMethodSignature()[Ljava/lang/Class;
@@ -102,11 +94,6 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/NavArgsLazyKt;->methodSignature:[Ljava/lang/Class;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/NavArgsLazyKt;->methodSignature:[Ljava/lang/Class;    return-object v0
 .end method
-
 .end class

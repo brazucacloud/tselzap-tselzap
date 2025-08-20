@@ -61,12 +61,6 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p0, p1, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-object v0
+    invoke-virtual {p0, p1, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V    return-object v0
 .end method
-
 .end class

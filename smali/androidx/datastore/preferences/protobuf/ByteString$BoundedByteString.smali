@@ -50,11 +50,7 @@
 
     .line 11
     .line 12
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->bytesLength:I
-
-    .line 13
-    .line 14
-    return-void
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->bytesLength:I    return-void
 .end method
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
@@ -74,27 +70,7 @@
     .line 6
     .line 7
     .line 8
-    throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 
 # virtual methods
@@ -126,11 +102,7 @@
     add-int/2addr v1, p1
 
     .line 13
-    aget-byte p1, v0, v1
-
-    .line 14
-    .line 15
-    return p1
+    aget-byte p1, v0, v1    return p1
 .end method
 
 .method public copyToInternal([BIII)V
@@ -152,23 +124,14 @@
     add-int/2addr v1, p2
 
     .line 8
-    invoke-static {v0, v1, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-static {v0, v1, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V    return-void
 .end method
 
 .method public getOffsetIntoBytes()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->bytesOffset:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->bytesOffset:I    return v0
 .end method
 
 .method public internalByteAt(I)B
@@ -186,22 +149,14 @@
     add-int/2addr v1, p1
 
     .line 6
-    aget-byte p1, v0, v1
-
-    .line 7
-    .line 8
-    return p1
+    aget-byte p1, v0, v1    return p1
 .end method
 
 .method public size()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->bytesLength:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->bytesLength:I    return v0
 .end method
 
 .method public writeReplace()Ljava/lang/Object;
@@ -225,5 +180,4 @@
 
     return-object v0
 .end method
-
 .end class

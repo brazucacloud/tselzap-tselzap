@@ -17,5 +17,4 @@
 # virtual methods
 .method public abstract onRecreated(Landroidx/savedstate/SavedStateRegistryOwner;)V
 .end method
-
 .end class

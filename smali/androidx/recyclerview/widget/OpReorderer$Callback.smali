@@ -20,5 +20,4 @@
 
 .method public abstract recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 .end method
-
 .end class

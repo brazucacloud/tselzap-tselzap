@@ -252,11 +252,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -338,11 +334,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-object v0
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -394,5 +386,4 @@
 
     return-object v0
 .end method
-
 .end class

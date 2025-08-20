@@ -28,11 +28,7 @@
     const/4 p1, -0x1
 
     .line 7
-    iput p1, p0, Lb0/c;->b:I
-
-    .line 8
-    .line 9
-    return-void
+    iput p1, p0, Lb0/c;->b:I    return-void
 .end method
 
 
@@ -363,12 +359,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, LN0/d;->f(Lw0/d;)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-virtual {p1, v0}, LN0/d;->f(Lw0/d;)V    return-void
 
     .line 28
     :cond_1
@@ -470,12 +461,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, p4}, Landroid/view/View;->setAlpha(F)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p1, p4}, Landroid/view/View;->setAlpha(F)V    return-void
 
     .line 39
     :cond_0
@@ -490,12 +476,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, v0}, Landroid/view/View;->setAlpha(F)V
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setAlpha(F)V    return-void
 
     .line 48
     :cond_1
@@ -528,12 +509,7 @@
     move-result p2
 
     .line 61
-    invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V    return-void
 .end method
 
 .method public final onViewReleased(Landroid/view/View;FF)V
@@ -814,12 +790,7 @@
     .line 120
     .line 121
     .line 122
-    invoke-virtual {p1, p2}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
-
-    .line 123
-    .line 124
-    .line 125
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V    return-void
 
     .line 126
     :cond_9
@@ -890,5 +861,4 @@
 
     return p1
 .end method
-
 .end class

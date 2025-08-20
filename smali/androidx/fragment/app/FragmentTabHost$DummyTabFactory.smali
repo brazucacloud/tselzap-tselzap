@@ -31,11 +31,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost$DummyTabFactory;->mContext:Landroid/content/Context;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost$DummyTabFactory;->mContext:Landroid/content/Context;    return-void
 .end method
 
 
@@ -65,12 +61,6 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroid/view/View;->setMinimumHeight(I)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-object p1
+    invoke-virtual {p1, v0}, Landroid/view/View;->setMinimumHeight(I)V    return-object p1
 .end method
-
 .end class

@@ -54,11 +54,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;->mAdIdManager:Landroid/adservices/adid/AdIdManager;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;->mAdIdManager:Landroid/adservices/adid/AdIdManager;    return-void
 .end method
 
 .method public static final synthetic access$getAdIdAsyncInternal(Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;Lg1/d;)Ljava/lang/Object;
@@ -79,11 +75,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;->mAdIdManager:Landroid/adservices/adid/AdIdManager;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;->mAdIdManager:Landroid/adservices/adid/AdIdManager;    return-object p0
 .end method
 
 .method private final convertResponse(Landroid/adservices/adid/AdId;)Landroidx/privacysandbox/ads/adservices/adid/AdId;
@@ -119,12 +111,7 @@
     move-result p1
 
     .line 16
-    invoke-direct {v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adid/AdId;-><init>(Ljava/lang/String;Z)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-object v0
+    invoke-direct {v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adid/AdId;-><init>(Ljava/lang/String;Z)V    return-object v0
 .end method
 
 .method public static getAdId$suspendImpl(Landroidx/privacysandbox/ads/adservices/adid/AdIdManagerImplCommon;Lg1/d;)Ljava/lang/Object;
@@ -279,11 +266,7 @@
     move-result-object p1
 
     .line 63
-    if-ne p1, v1, :cond_3
-
-    .line 64
-    .line 65
-    return-object v1
+    if-ne p1, v1, :cond_3    return-object v1
 
     .line 66
     :cond_3
@@ -390,11 +373,7 @@
     move-result-object p1
 
     .line 35
-    sget-object v0, Lh1/a;->b:Lh1/a;
-
-    .line 36
-    .line 37
-    return-object p1
+    sget-object v0, Lh1/a;->b:Lh1/a;    return-object p1
 .end method
 
 
@@ -429,5 +408,4 @@
 
     return-object p1
 .end method
-
 .end class

@@ -99,11 +99,7 @@
 
     .line 30
     .line 31
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mKeyEndState:Ljava/lang/String;
-
-    .line 32
-    .line 33
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mKeyEndState:Ljava/lang/String;    return-void
 .end method
 
 
@@ -226,11 +222,7 @@
     move-result v0
 
     .line 56
-    if-eqz v0, :cond_4
-
-    .line 57
-    .line 58
-    return-void
+    if-eqz v0, :cond_4    return-void
 
     .line 59
     :cond_4
@@ -242,12 +234,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
-
-    .line 64
-    .line 65
-    .line 66
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
 
     .line 67
     :cond_5
@@ -284,11 +271,7 @@
 
     .line 83
     .line 84
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mEndState:I
-
-    .line 85
-    .line 86
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mEndState:I    return-void
 .end method
 
 .method public getTransitionState()Landroid/os/Bundle;
@@ -351,12 +334,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-object v0
+    invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V    return-object v0
 .end method
 
 .method public recordState()V
@@ -423,44 +401,28 @@
     move-result v0
 
     .line 31
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mProgress:F
-
-    .line 32
-    .line 33
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mProgress:F    return-void
 .end method
 
 .method public setEndState(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mEndState:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mEndState:I    return-void
 .end method
 
 .method public setProgress(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mProgress:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mProgress:F    return-void
 .end method
 
 .method public setStartState(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mStartState:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mStartState:I    return-void
 .end method
 
 .method public setTransitionState(Landroid/os/Bundle;)V
@@ -527,22 +489,13 @@
     move-result p1
 
     .line 31
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mEndState:I
-
-    .line 32
-    .line 33
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mEndState:I    return-void
 .end method
 
 .method public setVelocity(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mVelocity:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->mVelocity:F    return-void
 .end method
-
 .end class

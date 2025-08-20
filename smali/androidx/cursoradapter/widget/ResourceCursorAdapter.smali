@@ -147,22 +147,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I    return-void
 .end method
 
 .method public setViewResource(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I    return-void
 .end method
-
 .end class

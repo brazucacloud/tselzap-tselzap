@@ -420,12 +420,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {v2, v0}, Landroidx/appcompat/view/menu/MenuPopup;->setGravity(I)V
-
-    .line 107
-    .line 108
-    .line 109
-    return-object v2
+    invoke-virtual {v2, v0}, Landroidx/appcompat/view/menu/MenuPopup;->setGravity(I)V    return-object v2
 .end method
 
 .method private showPopup(IIZZ)V
@@ -581,12 +576,7 @@
     .line 73
     .line 74
     :cond_1
-    invoke-interface {v0}, Landroidx/appcompat/view/menu/ShowableListMenu;->show()V
-
-    .line 75
-    .line 76
-    .line 77
-    return-void
+    invoke-interface {v0}, Landroidx/appcompat/view/menu/ShowableListMenu;->show()V    return-void
 .end method
 
 
@@ -624,11 +614,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mDropDownGravity:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mDropDownGravity:I    return v0
 .end method
 
 .method public getListView()Landroid/widget/ListView;
@@ -686,11 +672,7 @@
     .line 10
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mPopup:Landroidx/appcompat/view/menu/MenuPopup;
-
-    .line 12
-    .line 13
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mPopup:Landroidx/appcompat/view/menu/MenuPopup;    return-object v0
 .end method
 
 .method public isShowing()Z
@@ -764,11 +746,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mAnchorView:Landroid/view/View;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mAnchorView:Landroid/view/View;    return-void
 .end method
 
 .method public setForceShowIcon(Z)V
@@ -800,11 +778,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mDropDownGravity:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mDropDownGravity:I    return-void
 .end method
 
 .method public setOnDismissListener(Landroid/widget/PopupWindow$OnDismissListener;)V
@@ -815,11 +789,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mOnDismissListener:Landroid/widget/PopupWindow$OnDismissListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuPopupHelper;->mOnDismissListener:Landroid/widget/PopupWindow$OnDismissListener;    return-void
 .end method
 
 .method public setPresenterCallback(Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
@@ -958,5 +928,4 @@
 
     return v1
 .end method
-
 .end class

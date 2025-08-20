@@ -189,12 +189,7 @@
     .line 68
     :cond_2
     :goto_1
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-
-    .line 69
-    .line 70
-    .line 71
-    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
 .end method
 
 .method public final validateName$navigation_common_release(Ljava/lang/String;)Z
@@ -227,5 +222,4 @@
 
     return p1
 .end method
-
 .end class

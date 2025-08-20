@@ -67,11 +67,7 @@
 
     .line 17
     .line 18
-    iput p3, p0, Landroidx/collection/MutableMapEntry;->index:I
-
-    .line 19
-    .line 20
-    return-void
+    iput p3, p0, Landroidx/collection/MutableMapEntry;->index:I    return-void
 .end method
 
 .method public static synthetic getKey$annotations()V
@@ -92,11 +88,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/MutableMapEntry;->index:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/MutableMapEntry;->index:I    return v0
 .end method
 
 .method public getKey()Ljava/lang/Object;
@@ -116,22 +108,14 @@
 
     .line 4
     .line 5
-    aget-object v0, v0, v1
-
-    .line 6
-    .line 7
-    return-object v0
+    aget-object v0, v0, v1    return-object v0
 .end method
 
 .method public final getKeys()[Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->keys:[Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->keys:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -151,22 +135,14 @@
 
     .line 4
     .line 5
-    aget-object v0, v0, v1
-
-    .line 6
-    .line 7
-    return-object v0
+    aget-object v0, v0, v1    return-object v0
 .end method
 
 .method public final getValues()[Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;
@@ -190,11 +166,6 @@
 
     .line 6
     .line 7
-    aput-object p1, v0, v1
-
-    .line 8
-    .line 9
-    return-object v2
+    aput-object p1, v0, v1    return-object v2
 .end method
-
 .end class

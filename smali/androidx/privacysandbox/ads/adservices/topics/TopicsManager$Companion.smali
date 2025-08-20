@@ -78,12 +78,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext11Impl;-><init>(Landroid/content/Context;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext11Impl;-><init>(Landroid/content/Context;)V    return-object v0
 
     .line 22
     :cond_0
@@ -106,12 +101,7 @@
 
     .line 30
     .line 31
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext5Impl;-><init>(Landroid/content/Context;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext5Impl;-><init>(Landroid/content/Context;)V    return-object v0
 
     .line 35
     :cond_1
@@ -134,12 +124,7 @@
 
     .line 43
     .line 44
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V
-
-    .line 45
-    .line 46
-    .line 47
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V    return-object v0
 
     .line 48
     :cond_2
@@ -180,11 +165,7 @@
     move-result-object p1
 
     .line 67
-    check-cast p1, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager;
-
-    .line 68
-    .line 69
-    return-object p1
+    check-cast p1, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager;    return-object p1
 
     .line 70
     :cond_3
@@ -225,11 +206,7 @@
     move-result-object p1
 
     .line 89
-    check-cast p1, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager;
-
-    .line 90
-    .line 91
-    return-object p1
+    check-cast p1, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager;    return-object p1
 
     .line 92
     :cond_4
@@ -237,5 +214,4 @@
 
     return-object p1
 .end method
-
 .end class

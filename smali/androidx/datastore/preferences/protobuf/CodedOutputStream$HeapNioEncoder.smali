@@ -77,11 +77,7 @@
     move-result p1
 
     .line 27
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;->initialPosition:I
-
-    .line 28
-    .line 29
-    return-void
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;->initialPosition:I    return-void
 .end method
 
 
@@ -109,12 +105,6 @@
     add-int/2addr v1, v2
 
     .line 10
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;    return-void
 .end method
-
 .end class

@@ -42,11 +42,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/appcompat/widget/TintResources;->mContextRef:Ljava/lang/ref/WeakReference;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/widget/TintResources;->mContextRef:Ljava/lang/ref/WeakReference;    return-void
 .end method
 
 
@@ -103,5 +99,4 @@
     :cond_0
     return-object v0
 .end method
-
 .end class

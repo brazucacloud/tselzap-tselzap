@@ -18,12 +18,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -47,11 +42,7 @@
 
     .line 7
     .line 8
-    mul-float v0, v0, v1
-
-    .line 9
-    .line 10
-    return v0
+    mul-float v0, v0, v1    return v0
 .end method
 
 .method public final centerY()F
@@ -73,11 +64,6 @@
 
     .line 7
     .line 8
-    mul-float v0, v0, v1
-
-    .line 9
-    .line 10
-    return v0
+    mul-float v0, v0, v1    return v0
 .end method
-
 .end class

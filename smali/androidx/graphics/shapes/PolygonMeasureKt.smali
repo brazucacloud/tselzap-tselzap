@@ -12,11 +12,6 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/graphics/shapes/PolygonMeasureKt;->LOG_TAG:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/graphics/shapes/PolygonMeasureKt;->LOG_TAG:Ljava/lang/String;    return-object v0
 .end method
-
 .end class

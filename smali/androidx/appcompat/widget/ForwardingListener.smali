@@ -137,11 +137,7 @@
     div-int/2addr v1, v0
 
     .line 45
-    iput v1, p0, Landroidx/appcompat/widget/ForwardingListener;->mLongPressTimeout:I
-
-    .line 46
-    .line 47
-    return-void
+    iput v1, p0, Landroidx/appcompat/widget/ForwardingListener;->mLongPressTimeout:I    return-void
 .end method
 
 .method private clearCallbacks()V
@@ -330,11 +326,7 @@
 
     .line 65
     .line 66
-    if-eqz p1, :cond_3
-
-    .line 67
-    .line 68
-    return v1
+    if-eqz p1, :cond_3    return v1
 
     .line 69
     :cond_3
@@ -361,11 +353,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_0
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_0    return v2
 
     .line 11
     :cond_0
@@ -467,12 +455,7 @@
     move-result-object p1
 
     .line 58
-    invoke-interface {p1, v3}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
-
-    .line 59
-    .line 60
-    .line 61
-    return v3
+    invoke-interface {p1, v3}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V    return v3
 
     .line 62
     :cond_2
@@ -711,12 +694,7 @@
     int-to-float v0, v0
 
     .line 14
-    invoke-virtual {p2, p1, v0}, Landroid/view/MotionEvent;->offsetLocation(FF)V
-
-    .line 15
-    .line 16
-    .line 17
-    return v1
+    invoke-virtual {p2, p1, v0}, Landroid/view/MotionEvent;->offsetLocation(FF)V    return v1
 .end method
 
 .method private toLocalMotionEvent(Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -758,12 +736,7 @@
     int-to-float v0, v0
 
     .line 16
-    invoke-virtual {p2, p1, v0}, Landroid/view/MotionEvent;->offsetLocation(FF)V
-
-    .line 17
-    .line 18
-    .line 19
-    return v1
+    invoke-virtual {p2, p1, v0}, Landroid/view/MotionEvent;->offsetLocation(FF)V    return v1
 .end method
 
 
@@ -1187,5 +1160,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

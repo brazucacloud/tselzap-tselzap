@@ -31,11 +31,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$FrameworkActionBarDelegate;->mActivity:Landroid/app/Activity;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$FrameworkActionBarDelegate;->mActivity:Landroid/app/Activity;    return-void
 .end method
 
 
@@ -71,11 +67,7 @@
 
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$FrameworkActionBarDelegate;->mActivity:Landroid/app/Activity;
-
-    .line 15
-    .line 16
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$FrameworkActionBarDelegate;->mActivity:Landroid/app/Activity;    return-object v0
 .end method
 
 .method public getThemeUpIndicator()Landroid/graphics/drawable/Drawable;
@@ -130,12 +122,7 @@
     move-result-object v1
 
     .line 25
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 26
-    .line 27
-    .line 28
-    return-object v1
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return-object v1
 .end method
 
 .method public isNavigationVisible()Z
@@ -247,5 +234,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

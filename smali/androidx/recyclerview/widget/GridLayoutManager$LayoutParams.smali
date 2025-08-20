@@ -126,22 +126,13 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$LayoutParams;->mSpanIndex:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$LayoutParams;->mSpanIndex:I    return v0
 .end method
 
 .method public getSpanSize()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$LayoutParams;->mSpanSize:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$LayoutParams;->mSpanSize:I    return v0
 .end method
-
 .end class

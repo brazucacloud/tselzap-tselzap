@@ -36,12 +36,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V    return-void
 .end method
 
 
@@ -62,12 +57,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/loader/content/Loader;->onContentChanged()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1}, Landroidx/loader/content/Loader;->onContentChanged()V    return-void
 .end method
-
 .end class

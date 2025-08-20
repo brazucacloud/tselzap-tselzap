@@ -287,11 +287,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/viewpager/widget/PagerTabStrip;->mDrawFullUnderline:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/viewpager/widget/PagerTabStrip;->mDrawFullUnderline:Z    return v0
 .end method
 
 .method public getMinHeight()I
@@ -326,11 +322,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/viewpager/widget/PagerTabStrip;->mIndicatorColor:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/viewpager/widget/PagerTabStrip;->mIndicatorColor:I    return v0
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -568,11 +560,7 @@
 
     .line 9
     .line 10
-    if-eqz v2, :cond_0
-
-    .line 11
-    .line 12
-    return v1
+    if-eqz v2, :cond_0    return v1
 
     .line 13
     :cond_0
@@ -958,12 +946,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setPadding(IIII)V
@@ -982,12 +965,7 @@
 
     .line 6
     :cond_0
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup;->setPadding(IIII)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup;->setPadding(IIII)V    return-void
 .end method
 
 .method public setTabIndicatorColor(I)V
@@ -1011,12 +989,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public setTabIndicatorColorResource(I)V
@@ -1043,12 +1016,7 @@
     move-result p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/viewpager/widget/PagerTabStrip;->setTabIndicatorColor(I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/viewpager/widget/PagerTabStrip;->setTabIndicatorColor(I)V    return-void
 .end method
 
 .method public setTextSpacing(I)V
@@ -1067,12 +1035,7 @@
 
     .line 6
     :cond_0
-    invoke-super {p0, p1}, Landroidx/viewpager/widget/PagerTitleStrip;->setTextSpacing(I)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-super {p0, p1}, Landroidx/viewpager/widget/PagerTitleStrip;->setTextSpacing(I)V    return-void
 .end method
 
 .method public updateTextPositions(IFZ)V
@@ -1228,12 +1191,6 @@
     .line 72
     .line 73
     .line 74
-    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
-
-    .line 75
-    .line 76
-    .line 77
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V    return-void
 .end method
-
 .end class

@@ -45,12 +45,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V    return-void
 .end method
 
 
@@ -150,12 +145,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->dispatchFinishedWhenDone()V
-
-    .line 49
-    .line 50
-    .line 51
-    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->dispatchFinishedWhenDone()V    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -177,12 +167,6 @@
     const/4 v1, 0x1
 
     .line 8
-    invoke-virtual {p1, v0, v1}, Landroidx/recyclerview/widget/SimpleItemAnimator;->dispatchChangeStarting(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Z)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroidx/recyclerview/widget/SimpleItemAnimator;->dispatchChangeStarting(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Z)V    return-void
 .end method
-
 .end class

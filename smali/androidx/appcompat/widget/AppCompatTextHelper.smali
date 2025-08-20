@@ -99,11 +99,7 @@
     .line 15
     .line 16
     .line 17
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
-
-    .line 18
-    .line 19
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;    return-void
 .end method
 
 .method private applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
@@ -171,11 +167,7 @@
 
     .line 14
     .line 15
-    iput-object p0, p1, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;
-
-    .line 16
-    .line 17
-    return-object p1
+    iput-object p0, p1, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;    return-object p1
 
     .line 18
     :cond_0
@@ -337,12 +329,7 @@
     .line 62
     .line 63
     :goto_4
-    invoke-virtual {p6, p1, p2, p3, p4}, Landroid/widget/TextView;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
-
-    .line 64
-    .line 65
-    .line 66
-    return-void
+    invoke-virtual {p6, p1, p2, p3, p4}, Landroid/widget/TextView;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    return-void
 
     .line 67
     :cond_8
@@ -381,12 +368,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {p1, p6, p2, p3, p4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
-
-    .line 82
-    .line 83
-    .line 84
-    return-void
+    invoke-virtual {p1, p6, p2, p3, p4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    return-void
 
     .line 85
     :cond_b
@@ -459,12 +441,7 @@
     .line 112
     .line 113
     :goto_c
-    invoke-virtual {p3, p5, p2, p6, p4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
-
-    .line 114
-    .line 115
-    .line 116
-    return-void
+    invoke-virtual {p3, p5, p2, p6, p4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method private setCompoundTints()V
@@ -495,11 +472,7 @@
 
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;    return-void
 .end method
 
 .method private setTextSizeInternal(IF)V
@@ -510,12 +483,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setTextSizeInternal(IF)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setTextSizeInternal(IF)V    return-void
 .end method
 
 .method private updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
@@ -686,11 +654,7 @@
 
     .line 77
     .line 78
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
-
-    .line 79
-    .line 80
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;    return-void
 
     .line 81
     :cond_3
@@ -698,11 +662,7 @@
 
     .line 82
     .line 83
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
-
-    .line 84
-    .line 85
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;    return-void
 
     .line 86
     :cond_4
@@ -710,11 +670,7 @@
 
     .line 87
     .line 88
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
-
-    .line 89
-    .line 90
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;    return-void
 
     .line 91
     :cond_5
@@ -1186,12 +1142,7 @@
 
     .line 81
     .line 82
-    invoke-direct {p0, v0, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
-
-    .line 83
-    .line 84
-    .line 85
-    return-void
+    invoke-direct {p0, v0, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V    return-void
 .end method
 
 .method public autoSizeText()V
@@ -1207,12 +1158,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V    return-void
 .end method
 
 .method public getAutoSizeMaxTextSize()I
@@ -1319,11 +1265,7 @@
 
     .line 4
     .line 5
-    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;
-
-    .line 6
-    .line 7
-    return-object v0
+    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;    return-object v0
 
     .line 8
     :cond_0
@@ -1346,11 +1288,7 @@
 
     .line 4
     .line 5
-    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;->mTintMode:Landroid/graphics/PorterDuff$Mode;
-
-    .line 6
-    .line 7
-    return-object v0
+    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;->mTintMode:Landroid/graphics/PorterDuff$Mode;    return-object v0
 
     .line 8
     :cond_0
@@ -3148,12 +3086,7 @@
     float-to-int v2, v5
 
     .line 817
-    invoke-static {v1, v2}, Landroidx/core/widget/TextViewCompat;->setLineHeight(Landroid/widget/TextView;I)V
-
-    .line 818
-    .line 819
-    .line 820
-    return-void
+    invoke-static {v1, v2}, Landroidx/core/widget/TextViewCompat;->setLineHeight(Landroid/widget/TextView;I)V    return-void
 
     .line 821
     :cond_2d
@@ -3237,12 +3170,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
 
     .line 32
     :cond_0
@@ -3289,12 +3217,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V    return-void
 .end method
 
 .method public onSetTextAppearance(Landroid/content/Context;I)V
@@ -3654,12 +3577,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setAllCaps(Z)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setAllCaps(Z)V    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithConfiguration(IIII)V
@@ -3670,12 +3588,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithPresetSizes([II)V
@@ -3690,12 +3603,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeUniformWithPresetSizes([II)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeUniformWithPresetSizes([II)V    return-void
 .end method
 
 .method public setAutoSizeTextTypeWithDefaults(I)V
@@ -3706,12 +3614,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeWithDefaults(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeWithDefaults(I)V    return-void
 .end method
 
 .method public setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
@@ -3771,12 +3674,7 @@
 
     .line 22
     .line 23
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V    return-void
 .end method
 
 .method public setCompoundDrawableTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -3836,12 +3734,7 @@
 
     .line 22
     .line 23
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V    return-void
 .end method
 
 .method public setTextSize(IF)V
@@ -3881,5 +3774,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -123,11 +123,7 @@
     .line 34
     .line 35
     .line 36
-    sput-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
-
-    .line 37
-    .line 38
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
@@ -144,11 +140,7 @@
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/NullValue;->value:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/NullValue;->value:I    return-void
 .end method
 
 .method public static forNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
@@ -165,11 +157,7 @@
 
     .line 5
     :cond_0
-    sget-object p0, Landroidx/datastore/preferences/protobuf/NullValue;->NULL_VALUE:Landroidx/datastore/preferences/protobuf/NullValue;
-
-    .line 6
-    .line 7
-    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/NullValue;->NULL_VALUE:Landroidx/datastore/preferences/protobuf/NullValue;    return-object p0
 .end method
 
 .method public static internalGetValueMap()Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
@@ -184,22 +172,14 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
 .end method
 
 .method public static internalGetVerifier()Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue$NullValueVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue$NullValueVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-object v0
 .end method
 
 .method public static valueOf(I)Landroidx/datastore/preferences/protobuf/NullValue;
@@ -246,11 +226,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/NullValue;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/NullValue;    return-object v0
 .end method
 
 
@@ -267,11 +243,7 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/NullValue;->value:I
-
-    .line 6
-    .line 7
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/NullValue;->value:I    return v0
 
     .line 8
     :cond_0
@@ -288,14 +260,5 @@
     .line 13
     .line 14
     .line 15
-    throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v0.end method
 .end class

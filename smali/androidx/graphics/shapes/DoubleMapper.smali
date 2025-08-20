@@ -123,11 +123,7 @@
     .line 46
     .line 47
     .line 48
-    sput-object v0, Landroidx/graphics/shapes/DoubleMapper;->Identity:Landroidx/graphics/shapes/DoubleMapper;
-
-    .line 49
-    .line 50
-    return-void
+    sput-object v0, Landroidx/graphics/shapes/DoubleMapper;->Identity:Landroidx/graphics/shapes/DoubleMapper;    return-void
 .end method
 
 .method public varargs constructor <init>([Lc1/f;)V
@@ -277,12 +273,7 @@
 
     .line 68
     .line 69
-    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;->validateProgress(Landroidx/collection/FloatList;)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;->validateProgress(Landroidx/collection/FloatList;)V    return-void
 .end method
 
 
@@ -330,5 +321,4 @@
 
     return p1
 .end method
-
 .end class

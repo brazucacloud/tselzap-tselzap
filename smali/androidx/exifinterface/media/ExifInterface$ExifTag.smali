@@ -128,11 +128,7 @@
     const/4 v3, 0x3
 
     .line 23
-    if-ne p1, v3, :cond_3
-
-    .line 24
-    .line 25
-    return v1
+    if-ne p1, v3, :cond_3    return v1
 
     .line 26
     :cond_3
@@ -153,11 +149,7 @@
 
     .line 33
     .line 34
-    if-ne p1, v3, :cond_5
-
-    .line 35
-    .line 36
-    return v1
+    if-ne p1, v3, :cond_5    return v1
 
     .line 37
     :cond_5
@@ -178,11 +170,7 @@
 
     .line 44
     .line 45
-    if-ne p1, v0, :cond_7
-
-    .line 46
-    .line 47
-    return v1
+    if-ne p1, v0, :cond_7    return v1
 
     .line 48
     :cond_7
@@ -195,5 +183,4 @@
     :goto_0
     return v1
 .end method
-
 .end class

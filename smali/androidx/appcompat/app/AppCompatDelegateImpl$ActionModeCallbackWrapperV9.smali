@@ -37,11 +37,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionModeCallbackWrapperV9;->mWrapped:Landroidx/appcompat/view/ActionMode$Callback;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionModeCallbackWrapperV9;->mWrapped:Landroidx/appcompat/view/ActionMode$Callback;    return-void
 .end method
 
 
@@ -250,12 +246,7 @@
 
     .line 83
     .line 84
-    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;->updateBackInvokedCallbackState()V
-
-    .line 85
-    .line 86
-    .line 87
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;->updateBackInvokedCallbackState()V    return-void
 .end method
 
 .method public onPrepareActionMode(Landroidx/appcompat/view/ActionMode;Landroid/view/Menu;)Z
@@ -288,5 +279,4 @@
 
     return p1
 .end method
-
 .end class

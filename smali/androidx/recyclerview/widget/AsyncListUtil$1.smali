@@ -38,12 +38,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private isRequestedGeneration(I)Z
@@ -142,12 +137,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/TileList;->clear()V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/TileList;->clear()V    return-void
 .end method
 
 
@@ -183,12 +173,7 @@
 
     .line 10
     .line 11
-    invoke-interface {p1, p2}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {p1, p2}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V    return-void
 
     .line 15
     :cond_0
@@ -381,11 +366,7 @@
     move-result p1
 
     .line 5
-    if-nez p1, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -439,12 +420,7 @@
 
     .line 33
     .line 34
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 38
     :cond_1
@@ -456,12 +432,7 @@
 
     .line 41
     .line 42
-    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V
-
-    .line 43
-    .line 44
-    .line 45
-    return-void
+    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V    return-void
 .end method
 
 .method public updateItemCount(II)V
@@ -476,11 +447,7 @@
     move-result p1
 
     .line 5
-    if-nez p1, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -529,12 +496,6 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncListUtil;->updateRange()V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncListUtil;->updateRange()V    return-void
 .end method
-
 .end class

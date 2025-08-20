@@ -85,11 +85,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -319,11 +315,7 @@
 
     .line 9
     .line 10
-    iput v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->mVisibleAnchorPosition:I
-
-    .line 11
-    .line 12
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->mVisibleAnchorPosition:I    return-void
 .end method
 
 .method public invalidateSpanInfo()V
@@ -352,11 +344,7 @@
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->mFullSpanItems:Ljava/util/List;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->mFullSpanItems:Ljava/util/List;    return-void
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -466,12 +454,6 @@
 
     .line 55
     .line 56
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
-
-    .line 57
-    .line 58
-    .line 59
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V    return-void
 .end method
-
 .end class

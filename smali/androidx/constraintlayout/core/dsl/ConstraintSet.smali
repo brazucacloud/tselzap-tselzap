@@ -63,11 +63,7 @@
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mName:Ljava/lang/String;
-
-    .line 19
-    .line 20
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mName:Ljava/lang/String;    return-void
 .end method
 
 
@@ -290,5 +286,4 @@
 
     return-object v0
 .end method
-
 .end class

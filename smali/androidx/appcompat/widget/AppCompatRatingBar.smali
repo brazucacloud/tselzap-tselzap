@@ -177,17 +177,5 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 41
-    throw p1
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
-
+    throw p1.end method
 .end class

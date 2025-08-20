@@ -135,24 +135,14 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/view/ViewGroup;->setVisibility(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;->setVisibility(I)V    return-void
 .end method
 
 .method public static synthetic access$101(Landroidx/appcompat/widget/AbsActionBarView;I)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/view/ViewGroup;->setVisibility(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;->setVisibility(I)V    return-void
 .end method
 
 .method public static next(IIZ)I
@@ -188,12 +178,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->start()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->start()V    return-void
 .end method
 
 .method public canShowOverflowMenu()Z
@@ -272,11 +257,7 @@
 
     .line 6
     .line 7
-    iget v0, v0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
-
-    .line 8
-    .line 9
-    return v0
+    iget v0, v0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I    return v0
 
     .line 10
     :cond_0
@@ -294,11 +275,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/widget/AbsActionBarView;->mContentHeight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/widget/AbsActionBarView;->mContentHeight:I    return v0
 .end method
 
 .method public hideOverflowMenu()Z
@@ -795,12 +772,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
 .end method
 
 .method public setContentHeight(I)V
@@ -811,12 +783,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
 .end method
 
 .method public setVisibility(I)V
@@ -938,12 +905,7 @@
     move-result-object p1
 
     .line 39
-    invoke-virtual {v0, p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->setListener(Landroidx/core/view/ViewPropertyAnimatorListener;)Landroidx/core/view/ViewPropertyAnimatorCompat;
-
-    .line 40
-    .line 41
-    .line 42
-    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->setListener(Landroidx/core/view/ViewPropertyAnimatorListener;)Landroidx/core/view/ViewPropertyAnimatorCompat;    return-object v0
 
     .line 43
     :cond_2
@@ -980,12 +942,7 @@
     move-result-object p1
 
     .line 60
-    invoke-virtual {v0, p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->setListener(Landroidx/core/view/ViewPropertyAnimatorListener;)Landroidx/core/view/ViewPropertyAnimatorCompat;
-
-    .line 61
-    .line 62
-    .line 63
-    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->setListener(Landroidx/core/view/ViewPropertyAnimatorListener;)Landroidx/core/view/ViewPropertyAnimatorCompat;    return-object v0
 .end method
 
 .method public showOverflowMenu()Z
@@ -1015,5 +972,4 @@
 
     return v0
 .end method
-
 .end class

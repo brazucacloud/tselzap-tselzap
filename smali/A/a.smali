@@ -122,12 +122,7 @@
     .line 40
     iput-object v1, p0, LA/a;->l:Ljava/lang/Class;
 
-    .line 41
-    .line 42
     iput-boolean v0, p0, LA/a;->o:Z
-
-    .line 43
-    .line 44
     return-void
 .end method
 
@@ -705,12 +700,7 @@
     .line 264
     .line 265
     .line 266
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 267
-    .line 268
-    .line 269
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public b()LA/a;
@@ -791,11 +781,7 @@
     .line 38
     iput-boolean v1, v0, LA/a;->n:Z
     :try_end_0
-    .catch Ljava/lang/CloneNotSupportedException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 39
-    .line 40
-    return-object v0
+    .catch Ljava/lang/CloneNotSupportedException; {:try_start_0 .. :try_end_0} :catch_0    return-object v0
 
     .line 41
     :catch_0
@@ -811,47 +797,7 @@
     .line 45
     .line 46
     .line 47
-    throw v1
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v1.end method
 
 .method public final c(Ljava/lang/Class;)LA/a;
     .locals 1
@@ -900,12 +846,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public bridge synthetic clone()Ljava/lang/Object;
@@ -969,12 +910,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -1293,12 +1229,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 25
-    .line 26
-    .line 27
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final h()LA/a;
@@ -1352,12 +1283,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 25
-    .line 26
-    .line 27
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final hashCode()I
@@ -1611,11 +1537,7 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -1632,17 +1554,7 @@
     .line 11
     .line 12
     .line 13
-    throw v0
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public final j(Li/h;Lr/o;)LA/a;
     .locals 1
@@ -1693,12 +1605,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 25
-    .line 26
-    .line 27
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final k(LD/b;)LA/a;
@@ -1748,12 +1655,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final l()LA/a;
@@ -1806,12 +1708,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final m(Li/m;Z)LA/a;
@@ -1899,12 +1796,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 45
-    .line 46
-    .line 47
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final n(Ljava/lang/Class;Li/m;Z)LA/a;
@@ -1999,12 +1891,7 @@
     .line 43
     .line 44
     :cond_1
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 45
-    .line 46
-    .line 47
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
 
 .method public final o(Lr/j;)LA/a;
@@ -2117,12 +2004,6 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, LA/a;->i()V
-
-    .line 25
-    .line 26
-    .line 27
-    return-object p0
+    invoke-virtual {p0}, LA/a;->i()V    return-object p0
 .end method
-
 .end class

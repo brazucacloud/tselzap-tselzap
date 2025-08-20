@@ -80,11 +80,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mProgress:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mProgress:F    return v0
 .end method
 
 .method public init(Landroid/util/AttributeSet;)V
@@ -227,22 +223,14 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mUseOnHide:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mUseOnHide:Z    return v0
 .end method
 
 .method public isUsedOnShow()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mUseOnShow:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mUseOnShow:Z    return v0
 .end method
 
 .method public onFinishedMotionScene(Landroidx/constraintlayout/motion/widget/MotionLayout;)V
@@ -393,5 +381,4 @@
 
     return-void
 .end method
-
 .end class

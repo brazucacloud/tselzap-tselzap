@@ -107,11 +107,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->clazz:Lv1/c;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->clazz:Lv1/c;    return-object v0
 .end method
 
 .method public final getInitializer$lifecycle_viewmodel_release()Lp1/l;
@@ -124,11 +120,6 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->initializer:Lp1/l;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->initializer:Lp1/l;    return-object v0
 .end method
-
 .end class

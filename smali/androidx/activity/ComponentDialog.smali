@@ -148,12 +148,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0}, Landroid/app/Dialog;->onBackPressed()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-super {p0}, Landroid/app/Dialog;->onBackPressed()V    return-void
 .end method
 
 
@@ -176,12 +171,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-super {p0, p1, p2}, Landroid/app/Dialog;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/app/Dialog;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -202,11 +192,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentDialog;->onBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentDialog;->onBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object v0
 .end method
 
 .method public getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
@@ -325,12 +311,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-static {v0, p0}, Landroidx/savedstate/ViewTreeSavedStateRegistryOwner;->set(Landroid/view/View;Landroidx/savedstate/SavedStateRegistryOwner;)V
-
-    .line 52
-    .line 53
-    .line 54
-    return-void
+    invoke-static {v0, p0}, Landroidx/savedstate/ViewTreeSavedStateRegistryOwner;->set(Landroid/view/View;Landroidx/savedstate/SavedStateRegistryOwner;)V    return-void
 .end method
 
 .method public onBackPressed()V
@@ -343,12 +324,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V    return-void
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -422,12 +398,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Bundle;
@@ -455,12 +426,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-object v0
+    invoke-virtual {v1, v0}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 .method public onStart()V
@@ -486,12 +452,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
 .end method
 
 .method public onStop()V
@@ -524,12 +485,7 @@
 
     .line 12
     .line 13
-    invoke-super {p0}, Landroid/app/Dialog;->onStop()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-super {p0}, Landroid/app/Dialog;->onStop()V    return-void
 .end method
 
 .method public setContentView(I)V
@@ -575,5 +531,4 @@
 
     return-void
 .end method
-
 .end class

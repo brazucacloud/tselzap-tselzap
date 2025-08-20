@@ -591,11 +591,7 @@
     move-result v3
 
     .line 24
-    if-eqz v3, :cond_0
-
-    .line 25
-    .line 26
-    return-object v2
+    if-eqz v3, :cond_0    return-object v2
 
     .line 27
     :cond_0
@@ -657,12 +653,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-super {p0, p0}, Landroid/widget/TabHost;->setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-super {p0, p0}, Landroid/widget/TabHost;->setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V    return-void
 .end method
 
 
@@ -807,12 +798,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V
-
-    .line 60
-    .line 61
-    .line 62
-    return-void
+    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V    return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -1020,11 +1006,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z
-
-    .line 6
-    .line 7
-    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z    return-void
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -1048,12 +1030,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/widget/TabHost;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/TabHost;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 
     .line 9
     :cond_0
@@ -1078,12 +1055,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->setCurrentTabByTag(Ljava/lang/String;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->setCurrentTabByTag(Ljava/lang/String;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1120,11 +1092,7 @@
     move-result-object v0
 
     .line 14
-    iput-object v0, v1, Landroidx/fragment/app/FragmentTabHost$SavedState;->curTab:Ljava/lang/String;
-
-    .line 15
-    .line 16
-    return-object v1
+    iput-object v0, v1, Landroidx/fragment/app/FragmentTabHost$SavedState;->curTab:Ljava/lang/String;    return-object v1
 .end method
 
 .method public onTabChanged(Ljava/lang/String;)V
@@ -1193,11 +1161,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;    return-void
 .end method
 
 .method public setup()V
@@ -1299,5 +1263,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

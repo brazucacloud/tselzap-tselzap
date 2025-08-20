@@ -35,12 +35,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V    return-void
 .end method
 
 
@@ -68,12 +63,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$MapIterator;-><init>(Landroidx/collection/ArrayMap;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$MapIterator;-><init>(Landroidx/collection/ArrayMap;)V    return-object v0
 .end method
 
 .method public size()I
@@ -93,5 +83,4 @@
 
     return v0
 .end method
-
 .end class

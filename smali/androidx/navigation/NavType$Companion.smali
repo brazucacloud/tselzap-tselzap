@@ -69,11 +69,7 @@
     move-result v1
 
     .line 11
-    if-eqz v1, :cond_0
-
-    .line 12
-    .line 13
-    return-object v0
+    if-eqz v1, :cond_0    return-object v0
 
     .line 14
     :cond_0
@@ -97,11 +93,7 @@
     move-result v1
 
     .line 24
-    if-eqz v1, :cond_1
-
-    .line 25
-    .line 26
-    return-object v0
+    if-eqz v1, :cond_1    return-object v0
 
     .line 27
     :cond_1
@@ -125,11 +117,7 @@
     move-result v1
 
     .line 37
-    if-eqz v1, :cond_2
-
-    .line 38
-    .line 39
-    return-object v0
+    if-eqz v1, :cond_2    return-object v0
 
     .line 40
     :cond_2
@@ -153,11 +141,7 @@
     move-result v1
 
     .line 50
-    if-eqz v1, :cond_3
-
-    .line 51
-    .line 52
-    return-object v0
+    if-eqz v1, :cond_3    return-object v0
 
     .line 53
     :cond_3
@@ -181,11 +165,7 @@
     move-result v1
 
     .line 63
-    if-eqz v1, :cond_4
-
-    .line 64
-    .line 65
-    return-object v0
+    if-eqz v1, :cond_4    return-object v0
 
     .line 66
     :cond_4
@@ -209,11 +189,7 @@
     move-result v1
 
     .line 76
-    if-eqz v1, :cond_5
-
-    .line 77
-    .line 78
-    return-object v0
+    if-eqz v1, :cond_5    return-object v0
 
     .line 79
     :cond_5
@@ -237,11 +213,7 @@
     move-result v1
 
     .line 89
-    if-eqz v1, :cond_6
-
-    .line 90
-    .line 91
-    return-object v0
+    if-eqz v1, :cond_6    return-object v0
 
     .line 92
     :cond_6
@@ -265,11 +237,7 @@
     move-result v1
 
     .line 102
-    if-eqz v1, :cond_7
-
-    .line 103
-    .line 104
-    return-object v0
+    if-eqz v1, :cond_7    return-object v0
 
     .line 105
     :cond_7
@@ -293,11 +261,7 @@
     move-result v1
 
     .line 115
-    if-eqz v1, :cond_8
-
-    .line 116
-    .line 117
-    return-object v0
+    if-eqz v1, :cond_8    return-object v0
 
     .line 118
     :cond_8
@@ -350,11 +314,7 @@
     move-result v2
 
     .line 142
-    if-eqz v2, :cond_a
-
-    .line 143
-    .line 144
-    return-object v1
+    if-eqz v2, :cond_a    return-object v1
 
     .line 145
     :cond_a
@@ -378,11 +338,7 @@
     move-result v2
 
     .line 155
-    if-eqz v2, :cond_b
-
-    .line 156
-    .line 157
-    return-object v1
+    if-eqz v2, :cond_b    return-object v1
 
     .line 158
     :cond_b
@@ -406,11 +362,7 @@
     move-result v2
 
     .line 168
-    if-eqz v2, :cond_c
-
-    .line 169
-    .line 170
-    return-object v1
+    if-eqz v2, :cond_c    return-object v1
 
     .line 171
     :cond_c
@@ -434,11 +386,7 @@
     move-result v2
 
     .line 181
-    if-eqz v2, :cond_d
-
-    .line 182
-    .line 183
-    return-object v1
+    if-eqz v2, :cond_d    return-object v1
 
     .line 184
     :cond_d
@@ -462,11 +410,7 @@
     move-result v2
 
     .line 194
-    if-eqz v2, :cond_e
-
-    .line 195
-    .line 196
-    return-object v1
+    if-eqz v2, :cond_e    return-object v1
 
     .line 197
     :cond_e
@@ -490,11 +434,7 @@
     move-result v2
 
     .line 207
-    if-eqz v2, :cond_f
-
-    .line 208
-    .line 209
-    return-object v1
+    if-eqz v2, :cond_f    return-object v1
 
     .line 210
     :cond_f
@@ -627,11 +567,7 @@
     move-result-object p1
 
     .line 269
-    if-eqz p1, :cond_13
-
-    .line 270
-    .line 271
-    return-object p1
+    if-eqz p1, :cond_13    return-object p1
 
     .line 272
     :cond_13
@@ -751,12 +687,7 @@
     .line 13
     invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 14
-    .line 15
-    .line 16
-    return-object v1
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0    return-object v1
 
     .line 17
     :catch_0
@@ -772,12 +703,7 @@
     .line 22
     invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_1
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
-
-    .line 23
-    .line 24
-    .line 25
-    return-object v1
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1    return-object v1
 
     .line 26
     :catch_1
@@ -793,12 +719,7 @@
     .line 31
     invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_2
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_2
-
-    .line 32
-    .line 33
-    .line 34
-    return-object v1
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_2    return-object v1
 
     .line 35
     :catch_2
@@ -814,12 +735,7 @@
     .line 40
     invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_3
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_3 .. :try_end_3} :catch_3
-
-    .line 41
-    .line 42
-    .line 43
-    return-object v1
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_3 .. :try_end_3} :catch_3    return-object v1
 
     .line 44
     :catch_3
@@ -827,12 +743,7 @@
 
     .line 45
     .line 46
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 47
-    .line 48
-    .line 49
-    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
 
 .method public final inferFromValueType(Ljava/lang/Object;)Landroidx/navigation/NavType;
@@ -871,12 +782,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 13
     :cond_0
@@ -892,12 +798,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 23
     :cond_1
@@ -913,12 +814,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 33
     :cond_2
@@ -934,12 +830,7 @@
 
     .line 38
     .line 39
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 40
-    .line 41
-    .line 42
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 43
     :cond_3
@@ -955,12 +846,7 @@
 
     .line 48
     .line 49
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 50
-    .line 51
-    .line 52
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 53
     :cond_4
@@ -976,12 +862,7 @@
 
     .line 58
     .line 59
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 60
-    .line 61
-    .line 62
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 63
     :cond_5
@@ -997,12 +878,7 @@
 
     .line 68
     .line 69
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 73
     :cond_6
@@ -1018,12 +894,7 @@
 
     .line 78
     .line 79
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 80
-    .line 81
-    .line 82
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 83
     :cond_7
@@ -1071,12 +942,7 @@
 
     .line 103
     .line 104
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 105
-    .line 106
-    .line 107
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 
     .line 108
     :cond_9
@@ -1166,12 +1032,7 @@
     .line 150
     .line 151
     .line 152
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V
-
-    .line 153
-    .line 154
-    .line 155
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V    return-object v0
 
     .line 156
     :cond_a
@@ -1261,12 +1122,7 @@
     .line 198
     .line 199
     .line 200
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V
-
-    .line 201
-    .line 202
-    .line 203
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V    return-object v0
 
     .line 204
     :cond_b
@@ -1290,12 +1146,7 @@
     move-result-object p1
 
     .line 214
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V
-
-    .line 215
-    .line 216
-    .line 217
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V    return-object v0
 
     .line 218
     :cond_c
@@ -1319,12 +1170,7 @@
     move-result-object p1
 
     .line 228
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
-
-    .line 229
-    .line 230
-    .line 231
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V    return-object v0
 
     .line 232
     :cond_d
@@ -1348,12 +1194,7 @@
     move-result-object p1
 
     .line 242
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V
-
-    .line 243
-    .line 244
-    .line 245
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V    return-object v0
 
     .line 246
     :cond_e
@@ -1426,12 +1267,7 @@
 
     .line 280
     .line 281
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 282
-    .line 283
-    .line 284
-    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
 
 .method public final parseSerializableOrParcelableType$navigation_common_release(Ljava/lang/Class;Z)Landroidx/navigation/NavType;
@@ -1480,12 +1316,7 @@
 
     .line 17
     .line 18
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V    return-object p2
 
     .line 22
     :cond_0
@@ -1493,12 +1324,7 @@
 
     .line 23
     .line 24
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V    return-object p2
 
     .line 28
     :cond_1
@@ -1526,12 +1352,7 @@
 
     .line 39
     .line 40
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V    return-object p2
 
     .line 44
     :cond_2
@@ -1559,12 +1380,7 @@
 
     .line 55
     .line 56
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V
-
-    .line 57
-    .line 58
-    .line 59
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V    return-object p2
 
     .line 60
     :cond_3
@@ -1572,12 +1388,7 @@
 
     .line 61
     .line 62
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V    return-object p2
 
     .line 66
     :cond_4
@@ -1585,5 +1396,4 @@
 
     return-object p1
 .end method
-
 .end class

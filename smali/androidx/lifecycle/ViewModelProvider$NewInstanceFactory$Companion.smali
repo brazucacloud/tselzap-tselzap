@@ -85,12 +85,6 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
 .end method
-
 .end class

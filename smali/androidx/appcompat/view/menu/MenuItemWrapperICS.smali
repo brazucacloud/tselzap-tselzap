@@ -47,11 +47,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS;->mWrappedObject:Landroidx/core/internal/view/SupportMenuItem;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS;->mWrappedObject:Landroidx/core/internal/view/SupportMenuItem;    return-void
 
     .line 9
     :cond_0
@@ -68,43 +64,7 @@
     .line 14
     .line 15
     .line 16
-    throw p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p1.end method
 
 
 # virtual methods
@@ -683,12 +643,7 @@
 
     .line 14
     :goto_0
-    invoke-interface {v1, v0}, Landroidx/core/internal/view/SupportMenuItem;->setSupportActionProvider(Landroidx/core/view/ActionProvider;)Landroidx/core/internal/view/SupportMenuItem;
-
-    .line 15
-    .line 16
-    .line 17
-    return-object p0
+    invoke-interface {v1, v0}, Landroidx/core/internal/view/SupportMenuItem;->setSupportActionProvider(Landroidx/core/view/ActionProvider;)Landroidx/core/internal/view/SupportMenuItem;    return-object p0
 .end method
 
 .method public setActionView(I)Landroid/view/MenuItem;
@@ -778,12 +733,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setCheckable(Z)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setCheckable(Z)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setChecked(Z)Landroid/view/MenuItem;
@@ -794,12 +744,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setChecked(Z)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setChecked(Z)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setContentDescription(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
@@ -810,12 +755,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setContentDescription(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setContentDescription(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;    return-object p0
 .end method
 
 .method public setEnabled(Z)Landroid/view/MenuItem;
@@ -826,12 +766,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setEnabled(Z)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setEnabled(Z)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setExclusiveCheckable(Z)V
@@ -931,12 +866,7 @@
     .line 42
     invoke-virtual {v2, v3, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 43
-    .line 44
-    .line 45
-    return-void
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 46
     :goto_1
@@ -948,12 +878,7 @@
 
     .line 49
     .line 50
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    .line 51
-    .line 52
-    .line 53
-    return-void
+    invoke-static {v0, v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I    return-void
 .end method
 
 .method public setIcon(I)Landroid/view/MenuItem;
@@ -986,12 +911,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
@@ -1002,12 +922,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
@@ -1018,12 +933,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setNumericShortcut(C)Landroid/view/MenuItem;
@@ -1077,12 +987,7 @@
 
     .line 12
     :goto_0
-    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setOnActionExpandListener(Landroid/view/MenuItem$OnActionExpandListener;)Landroid/view/MenuItem;
-
-    .line 13
-    .line 14
-    .line 15
-    return-object p0
+    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setOnActionExpandListener(Landroid/view/MenuItem$OnActionExpandListener;)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
@@ -1114,12 +1019,7 @@
 
     .line 12
     :goto_0
-    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
-
-    .line 13
-    .line 14
-    .line 15
-    return-object p0
+    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setShortcut(CC)Landroid/view/MenuItem;
@@ -1152,12 +1052,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setShowAsAction(I)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setShowAsAction(I)V    return-void
 .end method
 
 .method public setShowAsActionFlags(I)Landroid/view/MenuItem;
@@ -1168,12 +1063,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setShowAsActionFlags(I)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setShowAsActionFlags(I)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setTitle(I)Landroid/view/MenuItem;
@@ -1206,12 +1096,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setTitleCondensed(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroid/view/MenuItem;->setTitleCondensed(Ljava/lang/CharSequence;)Landroid/view/MenuItem;    return-object p0
 .end method
 
 .method public setTooltipText(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
@@ -1222,12 +1107,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setTooltipText(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setTooltipText(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;    return-object p0
 .end method
 
 .method public setVisible(Z)Landroid/view/MenuItem;
@@ -1247,5 +1127,4 @@
 
     return-object p1
 .end method
-
 .end class

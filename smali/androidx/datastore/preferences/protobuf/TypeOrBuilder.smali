@@ -78,5 +78,4 @@
 
 .method public abstract hasSourceContext()Z
 .end method
-
 .end class

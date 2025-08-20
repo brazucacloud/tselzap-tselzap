@@ -129,22 +129,14 @@
     .line 30
     .line 31
     .line 32
-    iput-object p1, p0, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;->lock:Ljava/lang/Object;
-
-    .line 33
-    .line 34
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;->lock:Ljava/lang/Object;    return-void
 .end method
 
 .method public static final synthetic access$getName$p(Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;)Ljava/lang/String;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;->name:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;->name:Ljava/lang/String;    return-object p0
 .end method
 
 
@@ -267,5 +259,4 @@
 
     return-object p1
 .end method
-
 .end class

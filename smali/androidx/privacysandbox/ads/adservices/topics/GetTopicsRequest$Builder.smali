@@ -41,11 +41,7 @@
     const/4 v0, 0x1
 
     .line 9
-    iput-boolean v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z
-
-    .line 10
-    .line 11
-    return-void
+    iput-boolean v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z    return-void
 .end method
 
 
@@ -66,12 +62,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;-><init>(Ljava/lang/String;Z)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;-><init>(Ljava/lang/String;Z)V    return-object v0
 .end method
 
 .method public final setAdsSdkName(Ljava/lang/String;)Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
@@ -99,11 +90,7 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->adsSdkName:Ljava/lang/String;
-
-    .line 13
-    .line 14
-    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->adsSdkName:Ljava/lang/String;    return-object p0
 
     .line 15
     :cond_0
@@ -120,23 +107,12 @@
     .line 20
     .line 21
     .line 22
-    throw p1
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public final setShouldRecordObservation(Z)Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z
-
-    .line 2
-    .line 3
-    return-object p0
+    iput-boolean p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z    return-object p0
 .end method
-
 .end class

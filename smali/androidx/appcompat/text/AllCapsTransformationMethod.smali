@@ -48,11 +48,7 @@
 
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/appcompat/text/AllCapsTransformationMethod;->mLocale:Ljava/util/Locale;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/text/AllCapsTransformationMethod;->mLocale:Ljava/util/Locale;    return-void
 .end method
 
 
@@ -98,5 +94,4 @@
 
     return-void
 .end method
-
 .end class

@@ -65,11 +65,7 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions;->mBeforeStart:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean p1, p0, Landroidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions;->mBeforeStart:Z    return-void
 .end method
 
 
@@ -100,11 +96,7 @@
 
     .line 10
     .line 11
-    if-eqz v0, :cond_0
-
-    .line 12
-    .line 13
-    return v2
+    if-eqz v0, :cond_0    return v2
 
     .line 14
     :cond_0
@@ -124,11 +116,7 @@
 
     .line 20
     .line 21
-    if-eqz v0, :cond_2
-
-    .line 22
-    .line 23
-    return v2
+    if-eqz v0, :cond_2    return v2
 
     .line 24
     :cond_2
@@ -251,5 +239,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

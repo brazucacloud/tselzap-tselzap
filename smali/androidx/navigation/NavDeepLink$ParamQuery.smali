@@ -47,11 +47,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->arguments:Ljava/util/List;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->arguments:Ljava/util/List;    return-void
 .end method
 
 
@@ -73,12 +69,7 @@
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final getArgumentName(I)Ljava/lang/String;
@@ -97,11 +88,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljava/lang/String;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Ljava/lang/String;    return-object p1
 .end method
 
 .method public final getArguments()Ljava/util/List;
@@ -116,33 +103,21 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->arguments:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->arguments:Ljava/util/List;    return-object v0
 .end method
 
 .method public final getParamRegex()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->paramRegex:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->paramRegex:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final setParamRegex(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->paramRegex:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$ParamQuery;->paramRegex:Ljava/lang/String;    return-void
 .end method
 
 .method public final size()I
@@ -162,5 +137,4 @@
 
     return v0
 .end method
-
 .end class

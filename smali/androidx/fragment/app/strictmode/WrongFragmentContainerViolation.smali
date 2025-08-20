@@ -84,11 +84,7 @@
     .line 39
     .line 40
     .line 41
-    iput-object p2, p0, Landroidx/fragment/app/strictmode/WrongFragmentContainerViolation;->container:Landroid/view/ViewGroup;
-
-    .line 42
-    .line 43
-    return-void
+    iput-object p2, p0, Landroidx/fragment/app/strictmode/WrongFragmentContainerViolation;->container:Landroid/view/ViewGroup;    return-void
 .end method
 
 
@@ -97,11 +93,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/strictmode/WrongFragmentContainerViolation;->container:Landroid/view/ViewGroup;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/strictmode/WrongFragmentContainerViolation;->container:Landroid/view/ViewGroup;    return-object v0
 .end method
-
 .end class

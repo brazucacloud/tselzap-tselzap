@@ -98,11 +98,6 @@
 
     .line 30
     .line 31
-    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
-
-    .line 32
-    .line 33
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;    return-void
 .end method
-
 .end class

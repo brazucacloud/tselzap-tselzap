@@ -37,11 +37,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;    return-void
 .end method
 
 
@@ -107,12 +103,6 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
-
 .end class

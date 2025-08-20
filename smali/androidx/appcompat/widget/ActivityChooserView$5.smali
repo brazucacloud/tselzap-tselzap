@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V    return-void
 .end method
 
 
@@ -50,12 +45,6 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;->updateAppearance()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;->updateAppearance()V    return-void
 .end method
-
 .end class

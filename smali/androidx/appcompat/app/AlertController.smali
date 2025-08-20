@@ -331,12 +331,7 @@
     .line 109
     .line 110
     .line 111
-    invoke-virtual {p2, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z
-
-    .line 112
-    .line 113
-    .line 114
-    return-void
+    invoke-virtual {p2, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z    return-void
 .end method
 
 .method public static canTextInput(Landroid/view/View;)Z
@@ -354,11 +349,7 @@
     const/4 v1, 0x1
 
     .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -369,11 +360,7 @@
     const/4 v2, 0x0
 
     .line 12
-    if-nez v0, :cond_1
-
-    .line 13
-    .line 14
-    return v2
+    if-nez v0, :cond_1    return v2
 
     .line 15
     :cond_1
@@ -414,11 +401,7 @@
     move-result v3
 
     .line 33
-    if-eqz v3, :cond_2
-
-    .line 34
-    .line 35
-    return v1
+    if-eqz v3, :cond_2    return v1
 
     .line 36
     :cond_3
@@ -456,12 +439,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public static manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V
@@ -581,11 +559,7 @@
 
     .line 13
     :cond_0
-    check-cast p2, Landroid/view/ViewGroup;
-
-    .line 14
-    .line 15
-    return-object p2
+    check-cast p2, Landroid/view/ViewGroup;    return-object p2
 
     .line 16
     :cond_1
@@ -640,11 +614,7 @@
 
     .line 41
     :cond_3
-    check-cast p1, Landroid/view/ViewGroup;
-
-    .line 42
-    .line 43
-    return-object p1
+    check-cast p1, Landroid/view/ViewGroup;    return-object p1
 .end method
 
 .method private selectContentView()I
@@ -659,11 +629,7 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/appcompat/app/AlertController;->mAlertDialogLayout:I
-
-    .line 6
-    .line 7
-    return v0
+    iget v0, p0, Landroidx/appcompat/app/AlertController;->mAlertDialogLayout:I    return v0
 
     .line 8
     :cond_0
@@ -674,19 +640,11 @@
     const/4 v2, 0x1
 
     .line 11
-    if-ne v1, v2, :cond_1
-
-    .line 12
-    .line 13
-    return v0
+    if-ne v1, v2, :cond_1    return v0
 
     .line 14
     :cond_1
-    iget v0, p0, Landroidx/appcompat/app/AlertController;->mAlertDialogLayout:I
-
-    .line 15
-    .line 16
-    return v0
+    iget v0, p0, Landroidx/appcompat/app/AlertController;->mAlertDialogLayout:I    return v0
 .end method
 
 .method private setScrollIndicators(Landroid/view/ViewGroup;Landroid/view/View;II)V
@@ -756,12 +714,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V    return-void
 
     .line 37
     :cond_1
@@ -858,12 +811,7 @@
     .line 81
     .line 82
     .line 83
-    invoke-virtual {p1, p2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 84
-    .line 85
-    .line 86
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
 
     .line 87
     :cond_5
@@ -902,12 +850,7 @@
     .line 104
     .line 105
     .line 106
-    invoke-virtual {p1, p2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 107
-    .line 108
-    .line 109
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
 
     .line 110
     :cond_6
@@ -1399,20 +1342,11 @@
     .line 231
     :cond_8
     :goto_3
-    if-eqz v0, :cond_9
-
-    .line 232
-    .line 233
-    return-void
+    if-eqz v0, :cond_9    return-void
 
     .line 234
     :cond_9
-    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
-
-    .line 235
-    .line 236
-    .line 237
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V    return-void
 .end method
 
 .method private setupContent(Landroid/view/ViewGroup;)V
@@ -1481,11 +1415,7 @@
 
     .line 32
     .line 33
-    if-nez v0, :cond_0
-
-    .line 34
-    .line 35
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 36
     :cond_0
@@ -1497,12 +1427,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V    return-void
 
     .line 44
     :cond_1
@@ -1585,21 +1510,11 @@
     .line 83
     .line 84
     .line 85
-    invoke-virtual {p1, v1, v0, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
-
-    .line 86
-    .line 87
-    .line 88
-    return-void
+    invoke-virtual {p1, v1, v0, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V    return-void
 
     .line 89
     :cond_2
-    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
-
-    .line 90
-    .line 91
-    .line 92
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V    return-void
 .end method
 
 .method private setupCustomContent(Landroid/view/ViewGroup;)V
@@ -1807,12 +1722,7 @@
 
     .line 94
     .line 95
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    .line 96
-    .line 97
-    .line 98
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V    return-void
 .end method
 
 .method private setupTitle(Landroid/view/ViewGroup;)V
@@ -1874,12 +1784,7 @@
     move-result-object p1
 
     .line 28
-    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V    return-void
 
     .line 32
     :cond_0
@@ -1977,12 +1882,7 @@
 
     .line 79
     .line 80
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
-
-    .line 81
-    .line 82
-    .line 83
-    return-void
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V    return-void
 
     .line 84
     :cond_1
@@ -1998,12 +1898,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    .line 91
-    .line 92
-    .line 93
-    return-void
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
 
     .line 94
     :cond_2
@@ -2068,12 +1963,7 @@
 
     .line 124
     .line 125
-    invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    .line 126
-    .line 127
-    .line 128
-    return-void
+    invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V    return-void
 
     .line 129
     :cond_3
@@ -2107,12 +1997,7 @@
     .line 143
     .line 144
     .line 145
-    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
-
-    .line 146
-    .line 147
-    .line 148
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V    return-void
 .end method
 
 .method private setupView()V
@@ -2622,11 +2507,7 @@
 
     .line 17
     .line 18
-    if-eqz p0, :cond_0
-
-    .line 19
-    .line 20
-    return v2
+    if-eqz p0, :cond_0    return v2
 
     .line 21
     :cond_0
@@ -2668,27 +2549,15 @@
 
     .line 12
     :cond_0
-    iget-object p1, p0, Landroidx/appcompat/app/AlertController;->mButtonPositive:Landroid/widget/Button;
-
-    .line 13
-    .line 14
-    return-object p1
+    iget-object p1, p0, Landroidx/appcompat/app/AlertController;->mButtonPositive:Landroid/widget/Button;    return-object p1
 
     .line 15
     :cond_1
-    iget-object p1, p0, Landroidx/appcompat/app/AlertController;->mButtonNegative:Landroid/widget/Button;
-
-    .line 16
-    .line 17
-    return-object p1
+    iget-object p1, p0, Landroidx/appcompat/app/AlertController;->mButtonNegative:Landroid/widget/Button;    return-object p1
 
     .line 18
     :cond_2
-    iget-object p1, p0, Landroidx/appcompat/app/AlertController;->mButtonNeutral:Landroid/widget/Button;
-
-    .line 19
-    .line 20
-    return-object p1
+    iget-object p1, p0, Landroidx/appcompat/app/AlertController;->mButtonNeutral:Landroid/widget/Button;    return-object p1
 .end method
 
 .method public getIconAttributeResId(I)I
@@ -2724,22 +2593,14 @@
     .line 14
     .line 15
     .line 16
-    iget p1, v0, Landroid/util/TypedValue;->resourceId:I
-
-    .line 17
-    .line 18
-    return p1
+    iget p1, v0, Landroid/util/TypedValue;->resourceId:I    return p1
 .end method
 
 .method public getListView()Landroid/widget/ListView;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AlertController;->mListView:Landroid/widget/ListView;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/app/AlertController;->mListView:Landroid/widget/ListView;    return-object v0
 .end method
 
 .method public installContent()V
@@ -2763,12 +2624,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-direct {p0}, Landroidx/appcompat/app/AlertController;->setupView()V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-direct {p0}, Landroidx/appcompat/app/AlertController;->setupView()V    return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -2895,11 +2751,7 @@
 
     .line 23
     .line 24
-    iput-object p5, p0, Landroidx/appcompat/app/AlertController;->mButtonPositiveIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 25
-    .line 26
-    return-void
+    iput-object p5, p0, Landroidx/appcompat/app/AlertController;->mButtonPositiveIcon:Landroid/graphics/drawable/Drawable;    return-void
 
     .line 27
     :cond_1
@@ -2928,11 +2780,7 @@
 
     .line 38
     .line 39
-    iput-object p5, p0, Landroidx/appcompat/app/AlertController;->mButtonNegativeIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 40
-    .line 41
-    return-void
+    iput-object p5, p0, Landroidx/appcompat/app/AlertController;->mButtonNegativeIcon:Landroid/graphics/drawable/Drawable;    return-void
 
     .line 42
     :cond_3
@@ -2944,33 +2792,21 @@
 
     .line 45
     .line 46
-    iput-object p5, p0, Landroidx/appcompat/app/AlertController;->mButtonNeutralIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 47
-    .line 48
-    return-void
+    iput-object p5, p0, Landroidx/appcompat/app/AlertController;->mButtonNeutralIcon:Landroid/graphics/drawable/Drawable;    return-void
 .end method
 
 .method public setButtonPanelLayoutHint(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/appcompat/app/AlertController;->mButtonPanelLayoutHint:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/appcompat/app/AlertController;->mButtonPanelLayoutHint:I    return-void
 .end method
 
 .method public setCustomTitle(Landroid/view/View;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AlertController;->mCustomTitleView:Landroid/view/View;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/app/AlertController;->mCustomTitleView:Landroid/view/View;    return-void
 .end method
 
 .method public setIcon(I)V
@@ -3169,5 +3005,4 @@
 
     return-void
 .end method
-
 .end class

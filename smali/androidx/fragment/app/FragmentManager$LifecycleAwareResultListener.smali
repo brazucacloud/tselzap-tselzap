@@ -55,11 +55,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/fragment/app/FragmentManager$LifecycleAwareResultListener;->mObserver:Landroidx/lifecycle/LifecycleEventObserver;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p3, p0, Landroidx/fragment/app/FragmentManager$LifecycleAwareResultListener;->mObserver:Landroidx/lifecycle/LifecycleEventObserver;    return-void
 .end method
 
 
@@ -106,12 +102,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroidx/fragment/app/FragmentResultListener;->onFragmentResult(Ljava/lang/String;Landroid/os/Bundle;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1, p2}, Landroidx/fragment/app/FragmentResultListener;->onFragmentResult(Ljava/lang/String;Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public removeObserver()V
@@ -126,12 +117,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
 .end method
-
 .end class

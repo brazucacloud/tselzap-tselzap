@@ -9,5 +9,4 @@
 # virtual methods
 .method public abstract getValue()Z
 .end method
-
 .end class

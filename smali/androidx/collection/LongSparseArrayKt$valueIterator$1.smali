@@ -56,12 +56,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -70,11 +65,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongSparseArrayKt$valueIterator$1;->index:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/LongSparseArrayKt$valueIterator$1;->index:I    return v0
 .end method
 
 .method public hasNext()Z
@@ -163,11 +154,6 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/collection/LongSparseArrayKt$valueIterator$1;->index:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/collection/LongSparseArrayKt$valueIterator$1;->index:I    return-void
 .end method
-
 .end class

@@ -133,11 +133,7 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Landroidx/constraintlayout/core/motion/MotionPaths;->sNames:[Ljava/lang/String;
-
-    .line 18
-    .line 19
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/MotionPaths;->sNames:[Ljava/lang/String;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -385,11 +381,7 @@
 
     .line 25
     .line 26
-    if-lez p1, :cond_1
-
-    .line 27
-    .line 28
-    return v2
+    if-lez p1, :cond_1    return v2
 
     .line 29
     :cond_1
@@ -414,11 +406,7 @@
     move-result p2
 
     .line 38
-    if-eq p1, p2, :cond_3
-
-    .line 39
-    .line 40
-    return v2
+    if-eq p1, p2, :cond_3    return v2
 
     .line 41
     :cond_3
@@ -689,12 +677,7 @@
     float-to-double v0, v0
 
     .line 4
-    invoke-virtual {p1, v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->getPos(D)[D
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->getPos(D)[D    return-void
 .end method
 
 .method public different(Landroidx/constraintlayout/core/motion/MotionPaths;[Z[Ljava/lang/String;Z)V
@@ -893,11 +876,7 @@
     or-int/2addr p1, p4
 
     .line 87
-    aput-boolean p1, p2, p3
-
-    .line 88
-    .line 89
-    return-void
+    aput-boolean p1, p2, p3    return-void
 .end method
 
 .method public fillStandard([D[I)V
@@ -1104,11 +1083,7 @@
 
     .line 30
     .line 31
-    aput v1, p3, p4
-
-    .line 32
-    .line 33
-    return-void
+    aput v1, p3, p4    return-void
 .end method
 
 .method public getCenter(D[I[D[FI)V
@@ -1815,11 +1790,7 @@
     add-float/2addr v4, v0
 
     .line 103
-    aput v4, p5, v1
-
-    .line 104
-    .line 105
-    return-void
+    aput v4, p5, v1    return-void
 .end method
 
 .method public getCustomData(Ljava/lang/String;[DI)I
@@ -1845,11 +1816,7 @@
     const/4 v0, 0x0
 
     .line 10
-    if-nez p1, :cond_0
-
-    .line 11
-    .line 12
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 13
     :cond_0
@@ -1879,11 +1846,7 @@
     float-to-double v0, p1
 
     .line 25
-    aput-wide v0, p2, p3
-
-    .line 26
-    .line 27
-    return v2
+    aput-wide v0, p2, p3    return v2
 
     .line 28
     :cond_1
@@ -2296,11 +2259,7 @@
 
     .line 136
     .line 137
-    aput v3, p3, p4
-
-    .line 138
-    .line 139
-    return-void
+    aput v3, p3, p4    return-void
 .end method
 
 .method public hasCustomData(Ljava/lang/String;)Z
@@ -2804,11 +2763,7 @@
 
     .line 213
     .line 214
-    iput v1, v0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I
-
-    .line 215
-    .line 216
-    return-void
+    iput v1, v0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I    return-void
 .end method
 
 .method public initPath(Landroidx/constraintlayout/core/motion/key/MotionKeyPosition;Landroidx/constraintlayout/core/motion/MotionPaths;Landroidx/constraintlayout/core/motion/MotionPaths;)V
@@ -3248,11 +3203,7 @@
 
     .line 191
     .line 192
-    iput v1, v0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I
-
-    .line 193
-    .line 194
-    return-void
+    iput v1, v0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I    return-void
 .end method
 
 .method public initPolar(IILandroidx/constraintlayout/core/motion/key/MotionKeyPosition;Landroidx/constraintlayout/core/motion/MotionPaths;Landroidx/constraintlayout/core/motion/MotionPaths;)V
@@ -3756,11 +3707,7 @@
 
     .line 226
     .line 227
-    iput p1, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I
-
-    .line 228
-    .line 229
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I    return-void
 .end method
 
 .method public initScreen(IILandroidx/constraintlayout/core/motion/key/MotionKeyPosition;Landroidx/constraintlayout/core/motion/MotionPaths;Landroidx/constraintlayout/core/motion/MotionPaths;)V
@@ -4172,11 +4119,7 @@
 
     .line 183
     .line 184
-    iput v1, v0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I
-
-    .line 185
-    .line 186
-    return-void
+    iput v1, v0, Landroidx/constraintlayout/core/motion/MotionPaths;->mPathMotionArc:I    return-void
 .end method
 
 .method public setBounds(FFFF)V
@@ -4195,11 +4138,7 @@
 
     .line 6
     .line 7
-    iput p4, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mHeight:F
-
-    .line 8
-    .line 9
-    return-void
+    iput p4, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mHeight:F    return-void
 .end method
 
 .method public setDpDt(FF[F[I[D[D)V
@@ -4396,11 +4335,7 @@
     add-float/2addr v7, v1
 
     .line 76
-    aput v7, p3, v9
-
-    .line 77
-    .line 78
-    return-void
+    aput v7, p3, v9    return-void
 .end method
 
 .method public setView(FLandroidx/constraintlayout/core/motion/MotionWidget;[I[D[D[D)V
@@ -5236,12 +5171,7 @@
     float-to-int v5, v5
 
     .line 360
-    invoke-virtual {v1, v3, v2, v4, v5}, Landroidx/constraintlayout/core/motion/MotionWidget;->layout(IIII)V
-
-    .line 361
-    .line 362
-    .line 363
-    return-void
+    invoke-virtual {v1, v3, v2, v4, v5}, Landroidx/constraintlayout/core/motion/MotionWidget;->layout(IIII)V    return-void
 .end method
 
 .method public setupRelative(Landroidx/constraintlayout/core/motion/Motion;Landroidx/constraintlayout/core/motion/MotionPaths;)V
@@ -5376,11 +5306,7 @@
     double-to-float p1, p1
 
     .line 59
-    iput p1, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mY:F
-
-    .line 60
-    .line 61
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mY:F    return-void
 
     .line 62
     :cond_0
@@ -5402,11 +5328,6 @@
     double-to-float p1, p1
 
     .line 70
-    iput p1, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mY:F
-
-    .line 71
-    .line 72
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/MotionPaths;->mY:F    return-void
 .end method
-
 .end class

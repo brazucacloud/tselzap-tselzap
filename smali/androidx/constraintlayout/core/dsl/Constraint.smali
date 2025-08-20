@@ -192,12 +192,7 @@
 
     .line 42
     .line 43
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -454,22 +449,14 @@
 
     .line 128
     .line 129
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mId:Ljava/lang/String;
-
-    .line 130
-    .line 131
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mId:Ljava/lang/String;    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/core/dsl/Constraint;)Ljava/lang/String;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mId:Ljava/lang/String;    return-object p0
 .end method
 
 
@@ -486,11 +473,7 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -517,12 +500,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    return-void
 .end method
 
 .method public convertStringArrayToString([Ljava/lang/String;)Ljava/lang/String;
@@ -623,352 +601,224 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mBaseline:Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mBaseline:Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;    return-object v0
 .end method
 
 .method public getBottom()Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mBottom:Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mBottom:Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;    return-object v0
 .end method
 
 .method public getCircleAngle()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleAngle:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleAngle:F    return v0
 .end method
 
 .method public getCircleConstraint()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleConstraint:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleConstraint:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getCircleRadius()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleRadius:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleRadius:I    return v0
 .end method
 
 .method public getDimensionRatio()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mDimensionRatio:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mDimensionRatio:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getEditorAbsoluteX()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteX:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteX:I    return v0
 .end method
 
 .method public getEditorAbsoluteY()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteY:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteY:I    return v0
 .end method
 
 .method public getEnd()Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEnd:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEnd:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;    return-object v0
 .end method
 
 .method public getHeight()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeight:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeight:I    return v0
 .end method
 
 .method public getHeightDefault()Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;    return-object v0
 .end method
 
 .method public getHeightMax()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMax:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMax:I    return v0
 .end method
 
 .method public getHeightMin()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMin:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMin:I    return v0
 .end method
 
 .method public getHeightPercent()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightPercent:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightPercent:F    return v0
 .end method
 
 .method public getHorizontalBias()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalBias:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalBias:F    return v0
 .end method
 
 .method public getHorizontalChainStyle()Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;    return-object v0
 .end method
 
 .method public getHorizontalWeight()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalWeight:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalWeight:F    return v0
 .end method
 
 .method public getLeft()Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mLeft:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mLeft:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;    return-object v0
 .end method
 
 .method public getReferenceIds()[Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mReferenceIds:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mReferenceIds:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public getRight()Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mRight:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mRight:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;    return-object v0
 .end method
 
 .method public getStart()Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mStart:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mStart:Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;    return-object v0
 .end method
 
 .method public getTop()Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mTop:Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mTop:Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;    return-object v0
 .end method
 
 .method public getVerticalBias()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalBias:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalBias:F    return v0
 .end method
 
 .method public getVerticalChainStyle()Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;    return-object v0
 .end method
 
 .method public getVerticalWeight()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalWeight:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalWeight:F    return v0
 .end method
 
 .method public getWidth()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidth:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidth:I    return v0
 .end method
 
 .method public getWidthDefault()Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;    return-object v0
 .end method
 
 .method public getWidthMax()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMax:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMax:I    return v0
 .end method
 
 .method public getWidthMin()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMin:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMin:I    return v0
 .end method
 
 .method public getWidthPercent()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthPercent:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthPercent:F    return v0
 .end method
 
 .method public isConstrainedHeight()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedHeight:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedHeight:Z    return v0
 .end method
 
 .method public isConstrainedWidth()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedWidth:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedWidth:Z    return v0
 .end method
 
 .method public linkToBaseline(Landroidx/constraintlayout/core/dsl/Constraint$VAnchor;)V
@@ -1248,275 +1098,175 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleAngle:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleAngle:F    return-void
 .end method
 
 .method public setCircleConstraint(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleConstraint:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleConstraint:Ljava/lang/String;    return-void
 .end method
 
 .method public setCircleRadius(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleRadius:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mCircleRadius:I    return-void
 .end method
 
 .method public setConstrainedHeight(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedHeight:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedHeight:Z    return-void
 .end method
 
 .method public setConstrainedWidth(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedWidth:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedWidth:Z    return-void
 .end method
 
 .method public setDimensionRatio(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mDimensionRatio:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mDimensionRatio:Ljava/lang/String;    return-void
 .end method
 
 .method public setEditorAbsoluteX(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteX:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteX:I    return-void
 .end method
 
 .method public setEditorAbsoluteY(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteY:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mEditorAbsoluteY:I    return-void
 .end method
 
 .method public setHeight(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeight:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeight:I    return-void
 .end method
 
 .method public setHeightDefault(Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;    return-void
 .end method
 
 .method public setHeightMax(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMax:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMax:I    return-void
 .end method
 
 .method public setHeightMin(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMin:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightMin:I    return-void
 .end method
 
 .method public setHeightPercent(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightPercent:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHeightPercent:F    return-void
 .end method
 
 .method public setHorizontalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalBias:F    return-void
 .end method
 
 .method public setHorizontalChainStyle(Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;    return-void
 .end method
 
 .method public setHorizontalWeight(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalWeight:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mHorizontalWeight:F    return-void
 .end method
 
 .method public setReferenceIds([Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mReferenceIds:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mReferenceIds:[Ljava/lang/String;    return-void
 .end method
 
 .method public setVerticalBias(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalBias:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalBias:F    return-void
 .end method
 
 .method public setVerticalChainStyle(Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalChainStyle:Landroidx/constraintlayout/core/dsl/Constraint$ChainMode;    return-void
 .end method
 
 .method public setVerticalWeight(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalWeight:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mVerticalWeight:F    return-void
 .end method
 
 .method public setWidth(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidth:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidth:I    return-void
 .end method
 
 .method public setWidthDefault(Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthDefault:Landroidx/constraintlayout/core/dsl/Constraint$Behaviour;    return-void
 .end method
 
 .method public setWidthMax(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMax:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMax:I    return-void
 .end method
 
 .method public setWidthMin(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMin:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthMin:I    return-void
 .end method
 
 .method public setWidthPercent(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthPercent:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mWidthPercent:F    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -2611,5 +2361,4 @@
 
     return-object v0
 .end method
-
 .end class

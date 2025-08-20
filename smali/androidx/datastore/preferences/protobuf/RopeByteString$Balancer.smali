@@ -167,12 +167,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->insert(Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->insert(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
 
     .line 11
     :cond_0
@@ -209,12 +204,7 @@
     move-result-object p1
 
     .line 28
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
 
     .line 32
     :cond_1
@@ -261,37 +251,7 @@
     .line 53
     .line 54
     .line 55
-    throw v0
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 .method private getDepthBinForLength(I)I
     .locals 1
@@ -626,12 +586,7 @@
 
     .line 143
     .line 144
-    invoke-virtual {p1, v0}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
-
-    .line 145
-    .line 146
-    .line 147
-    return-void
+    invoke-virtual {p1, v0}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V    return-void
 
     .line 148
     :cond_3
@@ -640,12 +595,6 @@
 
     .line 149
     .line 150
-    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
-
-    .line 151
-    .line 152
-    .line 153
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V    return-void
 .end method
-
 .end class

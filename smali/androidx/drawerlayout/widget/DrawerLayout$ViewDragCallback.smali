@@ -54,11 +54,7 @@
 
     .line 13
     .line 14
-    iput p2, p0, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->mAbsGravity:I
-
-    .line 15
-    .line 16
-    return-void
+    iput p2, p0, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->mAbsGravity:I    return-void
 .end method
 
 .method private closeOtherDrawer()V
@@ -373,12 +369,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p2, v0, v1}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p1, p2, v0, v1}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 .end method
 
 .method public onViewCaptured(Landroid/view/View;I)V
@@ -404,12 +395,7 @@
 
     .line 9
     .line 10
-    invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->closeOtherDrawer()V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->closeOtherDrawer()V    return-void
 .end method
 
 .method public onViewDragStateChanged(I)V
@@ -432,12 +418,7 @@
     move-result-object v1
 
     .line 9
-    invoke-virtual {v0, p1, v1}, Landroidx/drawerlayout/widget/DrawerLayout;->updateDrawerState(ILandroid/view/View;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/drawerlayout/widget/DrawerLayout;->updateDrawerState(ILandroid/view/View;)V    return-void
 .end method
 
 .method public onViewPositionChanged(Landroid/view/View;IIII)V
@@ -550,12 +531,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-
-    .line 47
-    .line 48
-    .line 49
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public onViewReleased(Landroid/view/View;FF)V
@@ -728,12 +704,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-
-    .line 73
-    .line 74
-    .line 75
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public peekDrawer()V
@@ -976,23 +947,14 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z    return-void
 .end method
 
 .method public setDragger(Landroidx/customview/widget/ViewDragHelper;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->mDragger:Landroidx/customview/widget/ViewDragHelper;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->mDragger:Landroidx/customview/widget/ViewDragHelper;    return-void
 .end method
 
 .method public tryCaptureView(Landroid/view/View;I)Z
@@ -1065,5 +1027,4 @@
 
     return p1
 .end method
-
 .end class

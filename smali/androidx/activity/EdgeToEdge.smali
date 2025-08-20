@@ -52,11 +52,7 @@
     move-result v0
 
     .line 19
-    sput v0, Landroidx/activity/EdgeToEdge;->DefaultDarkScrim:I
-
-    .line 20
-    .line 21
-    return-void
+    sput v0, Landroidx/activity/EdgeToEdge;->DefaultDarkScrim:I    return-void
 .end method
 
 .method public static final enable(Landroidx/activity/ComponentActivity;)V
@@ -324,23 +320,14 @@
 
     .line 33
     :cond_1
-    invoke-static {p0, p1, p2}, Landroidx/activity/EdgeToEdge;->enable(Landroidx/activity/ComponentActivity;Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-static {p0, p1, p2}, Landroidx/activity/EdgeToEdge;->enable(Landroidx/activity/ComponentActivity;Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;)V    return-void
 .end method
 
 .method public static final getDefaultDarkScrim()I
     .locals 1
 
     .line 1
-    sget v0, Landroidx/activity/EdgeToEdge;->DefaultDarkScrim:I
-
-    .line 2
-    .line 3
-    return v0
+    sget v0, Landroidx/activity/EdgeToEdge;->DefaultDarkScrim:I    return v0
 .end method
 
 .method public static synthetic getDefaultDarkScrim$annotations()V
@@ -355,11 +342,7 @@
     .locals 1
 
     .line 1
-    sget v0, Landroidx/activity/EdgeToEdge;->DefaultLightScrim:I
-
-    .line 2
-    .line 3
-    return v0
+    sget v0, Landroidx/activity/EdgeToEdge;->DefaultLightScrim:I    return v0
 .end method
 
 .method public static synthetic getDefaultLightScrim$annotations()V
@@ -369,5 +352,4 @@
 
     return-void
 .end method
-
 .end class

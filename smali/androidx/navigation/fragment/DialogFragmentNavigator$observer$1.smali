@@ -36,12 +36,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -262,12 +257,7 @@
     move-result-object p1
 
     .line 102
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
-
-    .line 103
-    .line 104
-    .line 105
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
 
     .line 106
     :cond_4
@@ -500,12 +490,7 @@
     const/4 p2, 0x0
 
     .line 219
-    invoke-static {p1, v0, v1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->access$popWithTransition(Landroidx/navigation/fragment/DialogFragmentNavigator;ILandroidx/navigation/NavBackStackEntry;Z)V
-
-    .line 220
-    .line 221
-    .line 222
-    return-void
+    invoke-static {p1, v0, v1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->access$popWithTransition(Landroidx/navigation/fragment/DialogFragmentNavigator;ILandroidx/navigation/NavBackStackEntry;Z)V    return-void
 
     .line 223
     :cond_8
@@ -772,21 +757,11 @@
     move-result v0
 
     .line 348
-    if-eqz v0, :cond_e
-
-    .line 349
-    .line 350
-    return-void
+    if-eqz v0, :cond_e    return-void
 
     .line 351
     :cond_f
     :goto_4
-    invoke-virtual {p1}, Landroidx/fragment/app/DialogFragment;->dismiss()V
-
-    .line 352
-    .line 353
-    .line 354
-    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/DialogFragment;->dismiss()V    return-void
 .end method
-
 .end class

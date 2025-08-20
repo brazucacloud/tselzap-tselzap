@@ -471,11 +471,7 @@
 
     .line 10
     :catch_0
-    const/high16 p0, 0x7fc00000    # Float.NaN
-
-    .line 11
-    .line 12
-    return p0
+    const/high16 p0, 0x7fc00000    # Float.NaN    return p0
 .end method
 
 .method public static parseStringToRef(Ljava/lang/String;)Landroidx/constraintlayout/core/dsl/Ref;
@@ -642,12 +638,7 @@
     move-result v2
 
     .line 73
-    invoke-direct {p0, v0, v1, v3, v2}, Landroidx/constraintlayout/core/dsl/Ref;-><init>(Ljava/lang/String;FFF)V
-
-    .line 74
-    .line 75
-    .line 76
-    return-object p0
+    invoke-direct {p0, v0, v1, v3, v2}, Landroidx/constraintlayout/core/dsl/Ref;-><init>(Ljava/lang/String;FFF)V    return-object p0
 .end method
 
 
@@ -656,88 +647,56 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mId:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getPostMargin()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPostMargin:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPostMargin:F    return v0
 .end method
 
 .method public getPreMargin()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPreMargin:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPreMargin:F    return v0
 .end method
 
 .method public getWeight()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mWeight:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/dsl/Ref;->mWeight:F    return v0
 .end method
 
 .method public setId(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mId:Ljava/lang/String;    return-void
 .end method
 
 .method public setPostMargin(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPostMargin:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPostMargin:F    return-void
 .end method
 
 .method public setPreMargin(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPreMargin:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mPreMargin:F    return-void
 .end method
 
 .method public setWeight(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mWeight:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Ref;->mWeight:F    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1117,11 +1076,6 @@
     .line 184
     :cond_b
     :goto_4
-    const-string v0, ""
-
-    .line 185
-    .line 186
-    return-object v0
+    const-string v0, ""    return-object v0
 .end method
-
 .end class

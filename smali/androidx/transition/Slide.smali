@@ -145,11 +145,7 @@
     .line 53
     .line 54
     .line 55
-    sput-object v0, Landroidx/transition/Slide;->sCalculateBottom:Landroidx/transition/Slide$CalculateSlide;
-
-    .line 56
-    .line 57
-    return-void
+    sput-object v0, Landroidx/transition/Slide;->sCalculateBottom:Landroidx/transition/Slide$CalculateSlide;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -275,12 +271,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 
@@ -298,12 +289,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/transition/Slide;->captureValues(Landroidx/transition/TransitionValues;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/Slide;->captureValues(Landroidx/transition/TransitionValues;)V    return-void
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -319,23 +305,14 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/transition/Slide;->captureValues(Landroidx/transition/TransitionValues;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/Slide;->captureValues(Landroidx/transition/TransitionValues;)V    return-void
 .end method
 
 .method public getSlideEdge()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/transition/Slide;->mSlideEdge:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/transition/Slide;->mSlideEdge:I    return v0
 .end method
 
 .method public isSeekingSupported()Z
@@ -760,12 +737,6 @@
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p0, v0}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V
-
-    .line 73
-    .line 74
-    .line 75
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V    return-void
 .end method
-
 .end class

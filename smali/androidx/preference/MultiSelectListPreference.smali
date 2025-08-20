@@ -197,11 +197,7 @@
     move-result v1
 
     .line 24
-    if-eqz v1, :cond_0
-
-    .line 25
-    .line 26
-    return v0
+    if-eqz v1, :cond_0    return v0
 
     .line 27
     :cond_0
@@ -222,22 +218,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/MultiSelectListPreference;->mEntries:[Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/MultiSelectListPreference;->mEntries:[Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getEntryValues()[Ljava/lang/CharSequence;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/MultiSelectListPreference;->mEntryValues:[Ljava/lang/CharSequence;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/MultiSelectListPreference;->mEntryValues:[Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public getSelectedItems()[Z
@@ -314,11 +302,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/MultiSelectListPreference;->mValues:Ljava/util/Set;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/MultiSelectListPreference;->mValues:Ljava/util/Set;    return-object v0
 .end method
 
 .method public onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
@@ -448,22 +432,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroidx/preference/MultiSelectListPreference;->setValues(Ljava/util/Set;)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/MultiSelectListPreference;->setValues(Ljava/util/Set;)V    return-void
 
     .line 31
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -488,11 +462,7 @@
     move-result v1
 
     .line 9
-    if-eqz v1, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v1, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -513,11 +483,7 @@
     move-result-object v0
 
     .line 21
-    iput-object v0, v1, Landroidx/preference/MultiSelectListPreference$SavedState;->mValues:Ljava/util/Set;
-
-    .line 22
-    .line 23
-    return-object v1
+    iput-object v0, v1, Landroidx/preference/MultiSelectListPreference$SavedState;->mValues:Ljava/util/Set;    return-object v1
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -536,12 +502,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/preference/MultiSelectListPreference;->setValues(Ljava/util/Set;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/MultiSelectListPreference;->setValues(Ljava/util/Set;)V    return-void
 .end method
 
 .method public setEntries(I)V
@@ -647,12 +608,6 @@
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V    return-void
 .end method
-
 .end class

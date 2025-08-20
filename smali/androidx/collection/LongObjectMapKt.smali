@@ -24,11 +24,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/LongObjectMapKt;->EmptyLongObjectMap:Landroidx/collection/MutableLongObjectMap;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/collection/LongObjectMapKt;->EmptyLongObjectMap:Landroidx/collection/MutableLongObjectMap;    return-void
 .end method
 
 .method public static final emptyLongObjectMap()Landroidx/collection/LongObjectMap;
@@ -52,12 +48,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public static final longObjectMapOf()Landroidx/collection/LongObjectMap;
@@ -465,5 +456,4 @@
 
     return-object v0
 .end method
-
 .end class

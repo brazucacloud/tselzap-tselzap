@@ -48,11 +48,7 @@
     .line 11
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$MainThreadExecutor;->mHandler:Landroid/os/Handler;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$MainThreadExecutor;->mHandler:Landroid/os/Handler;    return-void
 .end method
 
 
@@ -69,12 +65,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z    return-void
 .end method
-
 .end class

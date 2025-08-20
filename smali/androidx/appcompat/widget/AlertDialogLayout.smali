@@ -192,11 +192,7 @@
     move-result v0
 
     .line 5
-    if-lez v0, :cond_0
-
-    .line 6
-    .line 7
-    return v0
+    if-lez v0, :cond_0    return v0
 
     .line 8
     :cond_0
@@ -262,12 +258,7 @@
     add-int/2addr p5, p3
 
     .line 3
-    invoke-virtual {p1, p2, p3, p4, p5}, Landroid/view/View;->layout(IIII)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1, p2, p3, p4, p5}, Landroid/view/View;->layout(IIII)V    return-void
 .end method
 
 .method private tryOnMeasure(II)Z
@@ -405,11 +396,7 @@
     .line 57
     :cond_4
     :goto_1
-    if-eqz v7, :cond_5
-
-    .line 58
-    .line 59
-    return v5
+    if-eqz v7, :cond_5    return v5
 
     .line 60
     :cond_5
@@ -1322,5 +1309,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

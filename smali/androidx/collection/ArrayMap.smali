@@ -121,11 +121,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -176,11 +172,7 @@
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 26
-    if-eqz p0, :cond_1
-
-    .line 27
-    .line 28
-    return v0
+    if-eqz p0, :cond_1    return v0
 
     .line 29
     :catch_0
@@ -698,11 +690,7 @@
     move-result p1
 
     .line 33
-    if-eq v0, p1, :cond_2
-
-    .line 34
-    .line 35
-    return v2
+    if-eq v0, p1, :cond_2    return v2
 
     .line 36
     :cond_2
@@ -749,5 +737,4 @@
     :cond_0
     return-object v0
 .end method
-
 .end class

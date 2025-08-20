@@ -28,11 +28,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/appcompat/view/menu/SubMenuWrapperICS;->mSubMenu:Landroidx/core/internal/view/SupportSubMenu;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/view/menu/SubMenuWrapperICS;->mSubMenu:Landroidx/core/internal/view/SupportSubMenu;    return-void
 .end method
 
 
@@ -45,12 +41,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/SubMenu;->clearHeader()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/view/SubMenu;->clearHeader()V    return-void
 .end method
 
 .method public getItem()Landroid/view/MenuItem;
@@ -131,12 +122,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/SubMenu;->setHeaderView(Landroid/view/View;)Landroid/view/SubMenu;
-
-    .line 4
-    .line 5
-    .line 6
-    return-object p0
+    invoke-interface {v0, p1}, Landroid/view/SubMenu;->setHeaderView(Landroid/view/View;)Landroid/view/SubMenu;    return-object p0
 .end method
 
 .method public setIcon(I)Landroid/view/SubMenu;
@@ -160,5 +146,4 @@
 
     return-object p0
 .end method
-
 .end class

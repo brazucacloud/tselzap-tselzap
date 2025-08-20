@@ -58,11 +58,6 @@
 
     .line 13
     .line 14
-    iput-object p6, p0, Landroidx/transition/Transition$AnimationInfo;->mAnimator:Landroid/animation/Animator;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object p6, p0, Landroidx/transition/Transition$AnimationInfo;->mAnimator:Landroid/animation/Animator;    return-void
 .end method
-
 .end class

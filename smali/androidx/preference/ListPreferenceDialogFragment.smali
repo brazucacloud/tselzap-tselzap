@@ -31,12 +31,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V    return-void
 .end method
 
 .method private getListPreference()Landroidx/preference/ListPreference;
@@ -51,11 +46,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Landroidx/preference/ListPreference;
-
-    .line 6
-    .line 7
-    return-object v0
+    check-cast v0, Landroidx/preference/ListPreference;    return-object v0
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/ListPreferenceDialogFragment;
@@ -97,12 +88,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-object v0
+    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 
@@ -196,11 +182,7 @@
     move-result-object p1
 
     .line 42
-    iput-object p1, p0, Landroidx/preference/ListPreferenceDialogFragment;->mEntryValues:[Ljava/lang/CharSequence;
-
-    .line 43
-    .line 44
-    return-void
+    iput-object p1, p0, Landroidx/preference/ListPreferenceDialogFragment;->mEntryValues:[Ljava/lang/CharSequence;    return-void
 
     .line 45
     :cond_0
@@ -268,11 +250,7 @@
     move-result-object p1
 
     .line 76
-    iput-object p1, p0, Landroidx/preference/ListPreferenceDialogFragment;->mEntryValues:[Ljava/lang/CharSequence;
-
-    .line 77
-    .line 78
-    return-void
+    iput-object p1, p0, Landroidx/preference/ListPreferenceDialogFragment;->mEntryValues:[Ljava/lang/CharSequence;    return-void
 .end method
 
 .method public onDialogClosed(Z)V
@@ -376,12 +354,7 @@
     const/4 v0, 0x0
 
     .line 17
-    invoke-virtual {p1, v0, v0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p1, v0, v0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;    return-void
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -431,12 +404,6 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V    return-void
 .end method
-
 .end class

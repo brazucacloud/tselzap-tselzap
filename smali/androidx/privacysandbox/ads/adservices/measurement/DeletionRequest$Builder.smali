@@ -118,11 +118,7 @@
 
     .line 33
     .line 34
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->originUris:Ljava/util/List;
-
-    .line 35
-    .line 36
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->originUris:Ljava/util/List;    return-void
 .end method
 
 
@@ -159,12 +155,7 @@
 
     .line 14
     .line 15
-    invoke-direct/range {v0 .. v6}, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;-><init>(IILjava/time/Instant;Ljava/time/Instant;Ljava/util/List;Ljava/util/List;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-object v0
+    invoke-direct/range {v0 .. v6}, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest;-><init>(IILjava/time/Instant;Ljava/time/Instant;Ljava/util/List;Ljava/util/List;)V    return-object v0
 .end method
 
 .method public final setDomainUris(Ljava/util/List;)Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;
@@ -190,11 +181,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->domainUris:Ljava/util/List;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->domainUris:Ljava/util/List;    return-object p0
 .end method
 
 .method public final setEnd(Ljava/time/Instant;)Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;
@@ -210,11 +197,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->end:Ljava/time/Instant;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->end:Ljava/time/Instant;    return-object p0
 .end method
 
 .method public final setOriginUris(Ljava/util/List;)Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;
@@ -240,11 +223,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->originUris:Ljava/util/List;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->originUris:Ljava/util/List;    return-object p0
 .end method
 
 .method public final setStart(Ljava/time/Instant;)Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;
@@ -260,11 +239,6 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->start:Ljava/time/Instant;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/DeletionRequest$Builder;->start:Ljava/time/Instant;    return-object p0
 .end method
-
 .end class

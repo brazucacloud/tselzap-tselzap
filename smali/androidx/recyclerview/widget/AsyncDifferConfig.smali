@@ -83,11 +83,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p3, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;    return-void
 .end method
 
 
@@ -98,11 +94,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
 .end method
 
 .method public getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
@@ -119,11 +111,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;    return-object v0
 .end method
 
 .method public getMainThreadExecutor()Ljava/util/concurrent/Executor;
@@ -138,11 +126,6 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mMainThreadExecutor:Ljava/util/concurrent/Executor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mMainThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
 .end method
-
 .end class

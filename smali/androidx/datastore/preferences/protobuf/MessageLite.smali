@@ -50,5 +50,4 @@
 
 .method public abstract writeTo(Ljava/io/OutputStream;)V
 .end method
-
 .end class

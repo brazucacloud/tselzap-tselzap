@@ -46,11 +46,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;->_sharedElements:Ljava/util/LinkedHashMap;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;->_sharedElements:Ljava/util/LinkedHashMap;    return-void
 .end method
 
 
@@ -81,12 +77,7 @@
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 14
-    .line 15
-    .line 16
-    return-object p0
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-object p0
 .end method
 
 .method public final addSharedElements(Ljava/util/Map;)Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
@@ -201,12 +192,6 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/navigation/fragment/FragmentNavigator$Extras;-><init>(Ljava/util/Map;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/navigation/fragment/FragmentNavigator$Extras;-><init>(Ljava/util/Map;)V    return-object v0
 .end method
-
 .end class

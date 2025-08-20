@@ -265,77 +265,49 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/SeekBarPreference;->mMax:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/SeekBarPreference;->mMax:I    return v0
 .end method
 
 .method public getMin()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/SeekBarPreference;->mMin:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/SeekBarPreference;->mMin:I    return v0
 .end method
 
 .method public final getSeekBarIncrement()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/SeekBarPreference;->mSeekBarIncrement:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/SeekBarPreference;->mSeekBarIncrement:I    return v0
 .end method
 
 .method public getShowSeekBarValue()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/SeekBarPreference;->mShowSeekBarValue:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/SeekBarPreference;->mShowSeekBarValue:Z    return v0
 .end method
 
 .method public getUpdatesContinuously()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/SeekBarPreference;->mUpdatesContinuously:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/SeekBarPreference;->mUpdatesContinuously:Z    return v0
 .end method
 
 .method public getValue()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/preference/SeekBarPreference;->mSeekBarValue:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/preference/SeekBarPreference;->mSeekBarValue:I    return v0
 .end method
 
 .method public isAdjustable()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/SeekBarPreference;->mAdjustable:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/SeekBarPreference;->mAdjustable:Z    return v0
 .end method
 
 .method public onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
@@ -457,12 +429,7 @@
 
     .line 55
     .line 56
-    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 57
-    .line 58
-    .line 59
-    return-void
+    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 60
     :cond_1
@@ -574,12 +541,7 @@
     move-result v0
 
     .line 114
-    invoke-virtual {p1, v0}, Landroid/view/View;->setEnabled(Z)V
-
-    .line 115
-    .line 116
-    .line 117
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setEnabled(Z)V    return-void
 .end method
 
 .method public onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
@@ -694,22 +656,12 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-
-    .line 38
-    .line 39
-    .line 40
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V    return-void
 
     .line 41
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -734,11 +686,7 @@
     move-result v1
 
     .line 9
-    if-eqz v1, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v1, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -771,11 +719,7 @@
 
     .line 26
     .line 27
-    iput v0, v1, Landroidx/preference/SeekBarPreference$SavedState;->mMax:I
-
-    .line 28
-    .line 29
-    return-object v1
+    iput v0, v1, Landroidx/preference/SeekBarPreference$SavedState;->mMax:I    return-object v1
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -818,23 +762,14 @@
     move-result p1
 
     .line 18
-    invoke-virtual {p0, p1}, Landroidx/preference/SeekBarPreference;->setValue(I)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/SeekBarPreference;->setValue(I)V    return-void
 .end method
 
 .method public setAdjustable(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/SeekBarPreference;->mAdjustable:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/SeekBarPreference;->mAdjustable:Z    return-void
 .end method
 
 .method public final setMax(I)V
@@ -971,23 +906,14 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V    return-void
 .end method
 
 .method public setUpdatesContinuously(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/SeekBarPreference;->mUpdatesContinuously:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/SeekBarPreference;->mUpdatesContinuously:Z    return-void
 .end method
 
 .method public setValue(I)V
@@ -997,12 +923,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/preference/SeekBarPreference;->setValueInternal(IZ)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/preference/SeekBarPreference;->setValueInternal(IZ)V    return-void
 .end method
 
 .method public syncValueInternal(Landroid/widget/SeekBar;)V
@@ -1059,12 +980,7 @@
     const/4 p1, 0x0
 
     .line 23
-    invoke-direct {p0, v1, p1}, Landroidx/preference/SeekBarPreference;->setValueInternal(IZ)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-direct {p0, v1, p1}, Landroidx/preference/SeekBarPreference;->setValueInternal(IZ)V    return-void
 
     .line 27
     :cond_0
@@ -1125,5 +1041,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

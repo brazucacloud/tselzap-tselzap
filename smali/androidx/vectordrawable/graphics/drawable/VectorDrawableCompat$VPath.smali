@@ -106,22 +106,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mNodes:[Landroidx/core/graphics/PathParser$PathDataNode;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mNodes:[Landroidx/core/graphics/PathParser$PathDataNode;    return-object v0
 .end method
 
 .method public getPathName()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mPathName:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mPathName:Ljava/lang/String;    return-object v0
 .end method
 
 .method public isClipPath()Z
@@ -359,12 +351,7 @@
 
     .line 45
     .line 46
-    invoke-static {v0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 47
-    .line 48
-    .line 49
-    return-void
+    invoke-static {v0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method public setPathData([Landroidx/core/graphics/PathParser$PathDataNode;)V
@@ -395,11 +382,7 @@
     move-result-object p1
 
     .line 13
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mNodes:[Landroidx/core/graphics/PathParser$PathDataNode;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mNodes:[Landroidx/core/graphics/PathParser$PathDataNode;    return-void
 
     .line 16
     :cond_0
@@ -407,12 +390,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, p1}, Landroidx/core/graphics/PathParser;->updateNodes([Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/PathParser;->updateNodes([Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;)V    return-void
 .end method
 
 .method public toPath(Landroid/graphics/Path;)V
@@ -440,5 +418,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

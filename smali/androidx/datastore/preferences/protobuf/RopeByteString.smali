@@ -49,11 +49,7 @@
     .line 6
     .line 7
     .line 8
-    sput-object v0, Landroidx/datastore/preferences/protobuf/RopeByteString;->minLengthByDepth:[I
-
-    .line 9
-    .line 10
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/RopeByteString;->minLengthByDepth:[I    return-void
 
     .line 11
     :array_0
@@ -105,19 +101,7 @@
         0x43a53f82
         0x6d73e55f
         0x7fffffff
-    .end array-data
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    .end array-data.end method
 
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 2
@@ -180,22 +164,14 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->left:Landroidx/datastore/preferences/protobuf/ByteString;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->left:Landroidx/datastore/preferences/protobuf/ByteString;    return-object p0
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->right:Landroidx/datastore/preferences/protobuf/ByteString;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->right:Landroidx/datastore/preferences/protobuf/ByteString;    return-object p0
 .end method
 
 .method public static concatenate(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -210,11 +186,7 @@
     move-result v0
 
     .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    return-object p0
+    if-nez v0, :cond_0    return-object p0
 
     .line 8
     :cond_0
@@ -226,11 +198,7 @@
     move-result v0
 
     .line 12
-    if-nez v0, :cond_1
-
-    .line 13
-    .line 14
-    return-object p1
+    if-nez v0, :cond_1    return-object p1
 
     .line 15
     :cond_1
@@ -334,12 +302,7 @@
 
     .line 62
     .line 63
-    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 64
-    .line 65
-    .line 66
-    return-object p1
+    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p1
 
     .line 67
     :cond_3
@@ -412,12 +375,7 @@
 
     .line 101
     .line 102
-    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 103
-    .line 104
-    .line 105
-    return-object p1
+    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p1
 
     .line 106
     :cond_4
@@ -465,12 +423,7 @@
 
     .line 127
     .line 128
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 129
-    .line 130
-    .line 131
-    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object v0
 
     .line 132
     :cond_5
@@ -664,11 +617,7 @@
 
     .line 53
     :goto_1
-    if-nez v10, :cond_1
-
-    .line 54
-    .line 55
-    return v1
+    if-nez v10, :cond_1    return v1
 
     .line 56
     :cond_1
@@ -759,158 +708,7 @@
     add-int/2addr v5, v9
 
     .line 93
-    goto :goto_0
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    goto :goto_0.end method
 
 .method public static newInstanceForTest(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/RopeByteString;
     .locals 1
@@ -920,12 +718,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object v0
 .end method
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
@@ -945,27 +738,7 @@
     .line 6
     .line 7
     .line 8
-    throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 
 # virtual methods
@@ -1113,12 +886,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->copyTo(Ljava/nio/ByteBuffer;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->copyTo(Ljava/nio/ByteBuffer;)V    return-void
 .end method
 
 .method public copyToInternal([BIII)V
@@ -1141,12 +909,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V    return-void
 
     .line 13
     :cond_0
@@ -1161,12 +924,7 @@
     sub-int/2addr p2, v1
 
     .line 18
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V    return-void
 
     .line 22
     :cond_1
@@ -1195,12 +953,7 @@
     const/4 v0, 0x0
 
     .line 33
-    invoke-virtual {p2, p1, v0, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-virtual {p2, p1, v0, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V    return-void
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -1210,11 +963,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p1, p0, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p1, p0, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -1225,11 +974,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -1249,11 +994,7 @@
     move-result v3
 
     .line 19
-    if-eq v1, v3, :cond_2
-
-    .line 20
-    .line 21
-    return v2
+    if-eq v1, v3, :cond_2    return v2
 
     .line 22
     :cond_2
@@ -1261,11 +1002,7 @@
 
     .line 23
     .line 24
-    if-nez v1, :cond_3
-
-    .line 25
-    .line 26
-    return v0
+    if-nez v1, :cond_3    return v0
 
     .line 27
     :cond_3
@@ -1293,11 +1030,7 @@
 
     .line 38
     .line 39
-    if-eq v0, v1, :cond_4
-
-    .line 40
-    .line 41
-    return v2
+    if-eq v0, v1, :cond_4    return v2
 
     .line 42
     :cond_4
@@ -1315,11 +1048,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->treeDepth:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->treeDepth:I    return v0
 .end method
 
 .method public internalByteAt(I)B
@@ -1510,12 +1239,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;-><init>(Landroidx/datastore/preferences/protobuf/RopeByteString;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;-><init>(Landroidx/datastore/preferences/protobuf/RopeByteString;)V    return-object v0
 .end method
 
 .method public partialHash(III)I
@@ -1698,11 +1422,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->totalLength:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->totalLength:I    return v0
 .end method
 
 .method public substring(II)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1725,11 +1445,7 @@
 
     .line 8
     .line 9
-    sget-object p1, Landroidx/datastore/preferences/protobuf/ByteString;->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;
-
-    .line 10
-    .line 11
-    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/protobuf/ByteString;->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object p1
 
     .line 12
     :cond_0
@@ -1737,11 +1453,7 @@
 
     .line 13
     .line 14
-    if-ne v0, v1, :cond_1
-
-    .line 15
-    .line 16
-    return-object p0
+    if-ne v0, v1, :cond_1    return-object p0
 
     .line 17
     :cond_1
@@ -1831,12 +1543,7 @@
 
     .line 56
     .line 57
-    invoke-direct {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 58
-    .line 59
-    .line 60
-    return-object v0
+    invoke-direct {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object v0
 .end method
 
 .method public toStringInternal(Ljava/nio/charset/Charset;)Ljava/lang/String;
@@ -1855,12 +1562,7 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1, p1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-direct {v0, v1, p1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V    return-object v0
 .end method
 
 .method public writeReplace()Ljava/lang/Object;
@@ -1937,12 +1639,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V    return-void
 
     .line 13
     :cond_0
@@ -1957,12 +1654,7 @@
     sub-int/2addr p2, v1
 
     .line 18
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V    return-void
 
     .line 22
     :cond_1
@@ -1988,12 +1680,7 @@
     sub-int/2addr p3, v1
 
     .line 32
-    invoke-virtual {p2, p1, v0, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
+    invoke-virtual {p2, p1, v0, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V    return-void
 .end method
 
 .method public writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
@@ -2013,12 +1700,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V    return-void
 .end method
-
 .end class

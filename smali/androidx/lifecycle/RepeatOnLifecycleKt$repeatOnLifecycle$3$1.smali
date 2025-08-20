@@ -100,12 +100,7 @@
     const/4 p1, 0x2
 
     .line 10
-    invoke-direct {p0, p1, p5}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-direct {p0, p1, p5}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -148,12 +143,7 @@
     move-object v5, p2
 
     .line 12
-    invoke-direct/range {v0 .. v5}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lz1/v;Lp1/p;Lg1/d;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lz1/v;Lp1/p;Lg1/d;)V    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -499,11 +489,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     .line 143
-    if-ne p1, v0, :cond_3
-
-    .line 144
-    .line 145
-    return-object v0
+    if-ne p1, v0, :cond_3    return-object v0
 
     .line 146
     :cond_3
@@ -606,59 +592,5 @@
     .line 190
     .line 191
     :cond_7
-    throw p1
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
-
+    throw p1.end method
 .end class

@@ -67,11 +67,7 @@
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mWrapped:Landroidx/recyclerview/widget/ListUpdateCallback;
-
-    .line 16
-    .line 17
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mWrapped:Landroidx/recyclerview/widget/ListUpdateCallback;    return-void
 .end method
 
 
@@ -84,11 +80,7 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -191,11 +183,7 @@
     const/4 v0, 0x0
 
     .line 51
-    iput v0, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I
-
-    .line 52
-    .line 53
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I    return-void
 .end method
 
 .method public onChanged(IILjava/lang/Object;)V
@@ -280,11 +268,7 @@
     sub-int/2addr p1, p2
 
     .line 36
-    iput p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventCount:I
-
-    .line 37
-    .line 38
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventCount:I    return-void
 
     .line 39
     :cond_0
@@ -305,11 +289,7 @@
 
     .line 47
     .line 48
-    iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I
-
-    .line 49
-    .line 50
-    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I    return-void
 .end method
 
 .method public onInserted(II)V
@@ -362,11 +342,7 @@
     move-result p1
 
     .line 23
-    iput p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventPosition:I
-
-    .line 24
-    .line 25
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventPosition:I    return-void
 
     .line 26
     :cond_0
@@ -383,11 +359,7 @@
 
     .line 32
     .line 33
-    iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I
-
-    .line 34
-    .line 35
-    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I    return-void
 .end method
 
 .method public onMoved(II)V
@@ -403,12 +375,7 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1, p2}, Landroidx/recyclerview/widget/ListUpdateCallback;->onMoved(II)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-interface {v0, p1, p2}, Landroidx/recyclerview/widget/ListUpdateCallback;->onMoved(II)V    return-void
 .end method
 
 .method public onRemoved(II)V
@@ -453,11 +420,7 @@
 
     .line 18
     .line 19
-    iput p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventPosition:I
-
-    .line 20
-    .line 21
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventPosition:I    return-void
 
     .line 22
     :cond_0
@@ -474,11 +437,6 @@
 
     .line 28
     .line 29
-    iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I
-
-    .line 30
-    .line 31
-    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I    return-void
 .end method
-
 .end class

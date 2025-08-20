@@ -37,11 +37,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z    return-void
 .end method
 
 
@@ -111,11 +107,6 @@
     const/4 p1, 0x1
 
     .line 8
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
-
-    .line 9
-    .line 10
-    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z    return-void
 .end method
-
 .end class

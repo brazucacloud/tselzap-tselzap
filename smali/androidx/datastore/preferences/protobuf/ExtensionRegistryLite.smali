@@ -74,11 +74,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -229,11 +225,7 @@
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z
-
-    .line 2
-    .line 3
-    return v0
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z    return v0
 .end method
 
 .method public static newInstance()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -263,12 +255,7 @@
 
     .line 11
     .line 12
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>()V
-
-    .line 13
-    .line 14
-    .line 15
-    return-object v0
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>()V    return-object v0
 .end method
 
 .method public static resolveExtensionClass()Ljava/lang/Class;
@@ -309,11 +296,7 @@
     .locals 0
 
     .line 1
-    sput-boolean p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z
-
-    .line 2
-    .line 3
-    return-void
+    sput-boolean p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z    return-void
 .end method
 
 
@@ -483,11 +466,7 @@
     move-result-object p1
 
     .line 12
-    check-cast p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
-
-    .line 13
-    .line 14
-    return-object p1
+    check-cast p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;    return-object p1
 .end method
 
 .method public getUnmodifiable()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -498,12 +477,6 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V    return-object v0
 .end method
-
 .end class

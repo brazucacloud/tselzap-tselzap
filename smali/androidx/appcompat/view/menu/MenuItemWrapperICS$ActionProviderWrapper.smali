@@ -39,22 +39,14 @@
     .line 4
     .line 5
     .line 6
-    iput-object p3, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper;->mInner:Landroid/view/ActionProvider;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p3, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper;->mInner:Landroid/view/ActionProvider;    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper;)Landroid/view/ActionProvider;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper;->mInner:Landroid/view/ActionProvider;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper;->mInner:Landroid/view/ActionProvider;    return-object p0
 .end method
 
 
@@ -182,12 +174,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->onPrepareSubMenu(Landroid/view/SubMenu;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->onPrepareSubMenu(Landroid/view/SubMenu;)V    return-void
 .end method
 
 .method public overridesItemVisibility()Z
@@ -216,12 +203,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/ActionProvider;->refreshVisibility()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/view/ActionProvider;->refreshVisibility()V    return-void
 .end method
 
 .method public setVisibilityListener(Landroidx/core/view/ActionProvider$VisibilityListener;)V
@@ -251,12 +233,6 @@
 
     .line 10
     :goto_0
-    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->setVisibilityListener(Landroid/view/ActionProvider$VisibilityListener;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->setVisibilityListener(Landroid/view/ActionProvider$VisibilityListener;)V    return-void
 .end method
-
 .end class

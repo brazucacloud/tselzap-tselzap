@@ -38,11 +38,7 @@
 
     .line 15
     .line 16
-    if-eqz v0, :cond_0
-
-    .line 17
-    .line 18
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 19
     :cond_0
@@ -137,12 +133,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->register()V
-
-    .line 64
-    .line 65
-    .line 66
-    return-object v0
+    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->register()V    return-object v0
 
     .line 67
     :cond_3
@@ -158,19 +149,7 @@
 
     .line 72
     .line 73
-    goto :goto_0
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    goto :goto_0.end method
 
 .method public static final getEventFlow(Landroidx/lifecycle/Lifecycle;)LC1/g;
     .locals 3
@@ -253,11 +232,7 @@
     move-result v1
 
     .line 36
-    if-eqz v1, :cond_0
-
-    .line 37
-    .line 38
-    return-object p0
+    if-eqz v1, :cond_0    return-object p0
 
     .line 39
     :cond_0
@@ -321,22 +296,5 @@
     .line 67
     .line 68
     .line 69
-    throw v0
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw v0.end method
 .end class

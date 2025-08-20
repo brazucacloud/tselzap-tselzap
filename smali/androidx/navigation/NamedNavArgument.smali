@@ -41,11 +41,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/navigation/NamedNavArgument;->argument:Landroidx/navigation/NavArgument;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/navigation/NamedNavArgument;->argument:Landroidx/navigation/NavArgument;    return-void
 .end method
 
 
@@ -54,44 +50,27 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->name:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->name:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final component2()Landroidx/navigation/NavArgument;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->argument:Landroidx/navigation/NavArgument;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->argument:Landroidx/navigation/NavArgument;    return-object v0
 .end method
 
 .method public final getArgument()Landroidx/navigation/NavArgument;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->argument:Landroidx/navigation/NavArgument;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->argument:Landroidx/navigation/NavArgument;    return-object v0
 .end method
 
 .method public final getName()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->name:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->name:Ljava/lang/String;    return-object v0
 .end method
-
 .end class

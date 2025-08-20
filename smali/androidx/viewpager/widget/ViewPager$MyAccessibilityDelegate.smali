@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V    return-void
 .end method
 
 .method private canScroll()Z
@@ -62,11 +57,7 @@
     const/4 v1, 0x1
 
     .line 12
-    if-le v0, v1, :cond_0
-
-    .line 13
-    .line 14
-    return v1
+    if-le v0, v1, :cond_0    return v1
 
     .line 15
     :cond_0
@@ -302,11 +293,7 @@
     const/4 p3, 0x1
 
     .line 6
-    if-eqz p1, :cond_0
-
-    .line 7
-    .line 8
-    return p3
+    if-eqz p1, :cond_0    return p3
 
     .line 9
     :cond_0
@@ -325,11 +312,7 @@
 
     .line 15
     .line 16
-    if-eq p2, p1, :cond_1
-
-    .line 17
-    .line 18
-    return v0
+    if-eq p2, p1, :cond_1    return v0
 
     .line 19
     :cond_1
@@ -363,12 +346,7 @@
     sub-int/2addr p2, p3
 
     .line 33
-    invoke-virtual {p1, p2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
-
-    .line 34
-    .line 35
-    .line 36
-    return p3
+    invoke-virtual {p1, p2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V    return p3
 
     .line 37
     :cond_2
@@ -403,16 +381,10 @@
     add-int/2addr p2, p3
 
     .line 51
-    invoke-virtual {p1, p2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
-
-    .line 52
-    .line 53
-    .line 54
-    return p3
+    invoke-virtual {p1, p2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V    return p3
 
     .line 55
     :cond_4
     return v0
 .end method
-
 .end class

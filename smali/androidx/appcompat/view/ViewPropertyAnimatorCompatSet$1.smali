@@ -43,11 +43,7 @@
 
     .line 8
     .line 9
-    iput p1, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet$1;->mProxyEndCount:I
-
-    .line 10
-    .line 11
-    return-void
+    iput p1, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet$1;->mProxyEndCount:I    return-void
 .end method
 
 
@@ -185,12 +181,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->onAnimationsEnded()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->onAnimationsEnded()V    return-void
 .end method
-
 .end class

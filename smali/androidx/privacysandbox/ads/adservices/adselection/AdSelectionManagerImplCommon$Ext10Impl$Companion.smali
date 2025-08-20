@@ -256,11 +256,7 @@
     move-result-object p3
 
     .line 99
-    if-ne p3, v1, :cond_3
-
-    .line 100
-    .line 101
-    return-object v1
+    if-ne p3, v1, :cond_3    return-object v1
 
     .line 102
     :cond_3
@@ -277,12 +273,7 @@
 
     .line 107
     .line 108
-    invoke-direct {p2, p1}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)V
-
-    .line 109
-    .line 110
-    .line 111
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)V    return-object p2
 .end method
 
 .method public final persistAdSelectionResult(Landroid/adservices/adselection/AdSelectionManager;Landroidx/privacysandbox/ads/adservices/adselection/PersistAdSelectionResultRequest;Lg1/d;)Ljava/lang/Object;
@@ -506,11 +497,7 @@
     move-result-object p3
 
     .line 99
-    if-ne p3, v1, :cond_3
-
-    .line 100
-    .line 101
-    return-object v1
+    if-ne p3, v1, :cond_3    return-object v1
 
     .line 102
     :cond_3
@@ -527,12 +514,7 @@
 
     .line 107
     .line 108
-    invoke-direct {p2, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(Landroid/adservices/adselection/AdSelectionOutcome;)V
-
-    .line 109
-    .line 110
-    .line 111
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(Landroid/adservices/adselection/AdSelectionOutcome;)V    return-object p2
 .end method
 
 .method public final selectAds(Landroid/adservices/adselection/AdSelectionManager;Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionFromOutcomesConfig;Lg1/d;)Ljava/lang/Object;
@@ -756,11 +738,7 @@
     move-result-object p3
 
     .line 99
-    if-ne p3, v1, :cond_3
-
-    .line 100
-    .line 101
-    return-object v1
+    if-ne p3, v1, :cond_3    return-object v1
 
     .line 102
     :cond_3
@@ -777,12 +755,6 @@
 
     .line 107
     .line 108
-    invoke-direct {p2, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(Landroid/adservices/adselection/AdSelectionOutcome;)V
-
-    .line 109
-    .line 110
-    .line 111
-    return-object p2
+    invoke-direct {p2, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(Landroid/adservices/adselection/AdSelectionOutcome;)V    return-object p2
 .end method
-
 .end class

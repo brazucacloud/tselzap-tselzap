@@ -23,12 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static getTransitionAlpha(Landroid/view/View;)F
@@ -53,12 +48,6 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/o;->n(Landroid/view/View;F)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p0, p1}, Landroidx/core/view/o;->n(Landroid/view/View;F)V    return-void
 .end method
-
 .end class

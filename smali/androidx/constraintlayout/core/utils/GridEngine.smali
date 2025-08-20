@@ -309,11 +309,7 @@
     const/4 p3, 0x3
 
     .line 19
-    aput p2, p1, p3
-
-    .line 20
-    .line 21
-    return-void
+    aput p2, p1, p3    return-void
 .end method
 
 .method private fillConstraintMatrix(Z)V
@@ -553,12 +549,7 @@
     .line 105
     .line 106
     :cond_5
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->addAllConstraintPositions()V
-
-    .line 107
-    .line 108
-    .line 109
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->addAllConstraintPositions()V    return-void
 .end method
 
 .method private getColByIndex(I)I
@@ -1446,11 +1437,7 @@
 
     .line 11
     .line 12
-    iput v1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mColumns:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mColumns:I    return-void
 
     .line 15
     :cond_1
@@ -1481,11 +1468,7 @@
     div-int/2addr v0, v1
 
     .line 27
-    iput v0, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mRows:I
-
-    .line 28
-    .line 29
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mRows:I    return-void
 
     .line 30
     :cond_2
@@ -1511,11 +1494,7 @@
     div-int/2addr v1, v0
 
     .line 40
-    iput v1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mColumns:I
-
-    .line 41
-    .line 42
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mColumns:I    return-void
 
     .line 43
     :cond_3
@@ -1562,11 +1541,7 @@
     div-int/2addr v1, v0
 
     .line 62
-    iput v1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mColumns:I
-
-    .line 63
-    .line 64
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mColumns:I    return-void
 .end method
 
 
@@ -1601,11 +1576,7 @@
     const/4 v0, 0x3
 
     .line 12
-    aget p1, p1, v0
-
-    .line 13
-    .line 14
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 15
     :cond_1
@@ -1645,11 +1616,7 @@
 
     .line 11
     .line 12
-    aget p1, p1, v1
-
-    .line 13
-    .line 14
-    return p1
+    aget p1, p1, v1    return p1
 
     .line 15
     :cond_1
@@ -1687,11 +1654,7 @@
     const/4 v0, 0x2
 
     .line 12
-    aget p1, p1, v0
-
-    .line 13
-    .line 14
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 15
     :cond_1
@@ -1734,12 +1697,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V    return-void
 .end method
 
 .method public setNumWidgets(I)V
@@ -1758,19 +1716,11 @@
 
     .line 6
     .line 7
-    if-le p1, v0, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-le p1, v0, :cond_0    return-void
 
     .line 10
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mNumWidgets:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mNumWidgets:I    return-void
 .end method
 
 .method public setOrientation(I)V
@@ -1805,11 +1755,7 @@
 
     .line 12
     :cond_1
-    iput p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mOrientation:I
-
-    .line 13
-    .line 14
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mOrientation:I    return-void
 .end method
 
 .method public setRows(I)V
@@ -1845,12 +1791,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V    return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V
@@ -1873,19 +1814,11 @@
     move-result v0
 
     .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 12
     :cond_0
-    iput-object p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mStrSkips:Ljava/lang/String;
-
-    .line 13
-    .line 14
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mStrSkips:Ljava/lang/String;    return-void
 .end method
 
 .method public setSpans(Ljava/lang/CharSequence;)V
@@ -1916,11 +1849,7 @@
     move-result v0
 
     .line 13
-    if-eqz v0, :cond_0
-
-    .line 14
-    .line 15
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 16
     :cond_0
@@ -1932,11 +1861,7 @@
     move-result-object p1
 
     .line 20
-    iput-object p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mStrSpans:Ljava/lang/String;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/utils/GridEngine;->mStrSpans:Ljava/lang/String;    return-void
 .end method
 
 .method public setup()V
@@ -2018,12 +1943,7 @@
     .line 33
     .line 34
     :cond_2
-    invoke-direct {p0, v1}, Landroidx/constraintlayout/core/utils/GridEngine;->fillConstraintMatrix(Z)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-direct {p0, v1}, Landroidx/constraintlayout/core/utils/GridEngine;->fillConstraintMatrix(Z)V    return-void
 .end method
 
 .method public topOfWidget(I)I
@@ -2056,11 +1976,7 @@
     const/4 v0, 0x1
 
     .line 12
-    aget p1, p1, v0
-
-    .line 13
-    .line 14
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 15
     :cond_1
@@ -2069,5 +1985,4 @@
 
     return p1
 .end method
-
 .end class

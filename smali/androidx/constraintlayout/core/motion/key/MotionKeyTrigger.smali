@@ -238,11 +238,7 @@
     .line 67
     .line 68
     .line 69
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
-
-    .line 70
-    .line 71
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;    return-void
 .end method
 
 .method private fireCustom(Ljava/lang/String;Landroidx/constraintlayout/core/motion/MotionWidget;)V
@@ -907,100 +903,51 @@
 
     .line 141
     :goto_1
-    packed-switch p1, :pswitch_data_0
-
-    .line 142
-    .line 143
-    .line 144
-    return v0
+    packed-switch p1, :pswitch_data_0    return v0
 
     .line 145
     :pswitch_0
-    const/16 p1, 0x137
-
-    .line 146
-    .line 147
-    return p1
+    const/16 p1, 0x137    return p1
 
     .line 148
     :pswitch_1
-    const/16 p1, 0x130
-
-    .line 149
-    .line 150
-    return p1
+    const/16 p1, 0x130    return p1
 
     .line 151
     :pswitch_2
-    const/16 p1, 0x12d
-
-    .line 152
-    .line 153
-    return p1
+    const/16 p1, 0x12d    return p1
 
     .line 154
     :pswitch_3
-    const/16 p1, 0x131
-
-    .line 155
-    .line 156
-    return p1
+    const/16 p1, 0x131    return p1
 
     .line 157
     :pswitch_4
-    const/16 p1, 0x12f
-
-    .line 158
-    .line 159
-    return p1
+    const/16 p1, 0x12f    return p1
 
     .line 160
     :pswitch_5
-    const/16 p1, 0x132
-
-    .line 161
-    .line 162
-    return p1
+    const/16 p1, 0x132    return p1
 
     .line 163
     :pswitch_6
-    const/16 p1, 0x136
-
-    .line 164
-    .line 165
-    return p1
+    const/16 p1, 0x136    return p1
 
     .line 166
     :pswitch_7
-    const/16 p1, 0x134
-
-    .line 167
-    .line 168
-    return p1
+    const/16 p1, 0x134    return p1
 
     .line 169
     :pswitch_8
-    const/16 p1, 0x133
-
-    .line 170
-    .line 171
-    return p1
+    const/16 p1, 0x133    return p1
 
     .line 172
     :pswitch_9
-    const/16 p1, 0x12e
-
-    .line 173
-    .line 174
-    return p1
+    const/16 p1, 0x12e    return p1
 
     .line 175
     :pswitch_a
-    const/16 p1, 0x135
-
-    .line 176
-    .line 177
-    return p1
+    const/16 p1, 0x135    return p1
 
     .line 178
     nop
@@ -1080,26 +1027,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    .end packed-switch.end method
 
 .method public setValue(IF)Z
     .locals 1
@@ -1271,5 +1199,4 @@
 
     return p1
 .end method
-
 .end class

@@ -20,12 +20,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private static clamp(I)I
@@ -461,12 +456,7 @@
     move-result-object p0
 
     .line 23
-    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static rgbaTocColor(FFFF)I
@@ -564,11 +554,7 @@
     .locals 0
 
     .line 1
-    sput-object p0, Landroidx/constraintlayout/core/motion/utils/Utils;->sOurHandle:Landroidx/constraintlayout/core/motion/utils/Utils$DebugHandle;
-
-    .line 2
-    .line 3
-    return-void
+    sput-object p0, Landroidx/constraintlayout/core/motion/utils/Utils;->sOurHandle:Landroidx/constraintlayout/core/motion/utils/Utils$DebugHandle;    return-void
 .end method
 
 .method public static socketSend(Ljava/lang/String;)V
@@ -616,12 +602,7 @@
     .line 21
     invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
     :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 25
     :catch_0
@@ -740,12 +721,7 @@
     move-result-object p0
 
     .line 84
-    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 85
-    .line 86
-    .line 87
-    return-void
+    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 
@@ -917,5 +893,4 @@
 
     return p1
 .end method
-
 .end class

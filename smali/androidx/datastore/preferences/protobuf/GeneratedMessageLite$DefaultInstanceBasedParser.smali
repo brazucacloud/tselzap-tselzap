@@ -49,11 +49,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;->defaultInstance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;->defaultInstance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;    return-void
 .end method
 
 
@@ -131,5 +127,4 @@
 
     return-object p1
 .end method
-
 .end class

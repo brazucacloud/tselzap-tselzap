@@ -381,11 +381,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -396,11 +392,7 @@
     const/4 v2, 0x0
 
     .line 8
-    if-nez v1, :cond_1
-
-    .line 9
-    .line 10
-    return v2
+    if-nez v1, :cond_1    return v2
 
     .line 11
     :cond_1
@@ -504,11 +496,7 @@
     move-result p1
 
     .line 61
-    if-eqz p1, :cond_2
-
-    .line 62
-    .line 63
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 64
     :cond_2
@@ -527,55 +515,35 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->adCounterKeys:Ljava/util/Set;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->adCounterKeys:Ljava/util/Set;    return-object v0
 .end method
 
 .method public final getAdFilters()Landroidx/privacysandbox/ads/adservices/common/AdFilters;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->adFilters:Landroidx/privacysandbox/ads/adservices/common/AdFilters;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->adFilters:Landroidx/privacysandbox/ads/adservices/common/AdFilters;    return-object v0
 .end method
 
 .method public final getAdRenderId()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->adRenderId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->adRenderId:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getMetadata()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->metadata:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->metadata:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getRenderUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->renderUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdData;->renderUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -796,5 +764,4 @@
 
     return-object v0
 .end method
-
 .end class

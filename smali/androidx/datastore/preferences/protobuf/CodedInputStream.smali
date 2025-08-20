@@ -587,11 +587,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z    return-void
 .end method
 
 .method public abstract enableAliasing(Z)V
@@ -750,11 +746,7 @@
 
     .line 4
     .line 5
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionLimit:I
-
-    .line 6
-    .line 7
-    return v0
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionLimit:I    return v0
 
     .line 8
     :cond_0
@@ -779,16 +771,7 @@
     .line 17
     .line 18
     .line 19
-    throw v0
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw v0.end method
 
 .method public final setSizeLimit(I)I
     .locals 2
@@ -802,11 +785,7 @@
 
     .line 4
     .line 5
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->sizeLimit:I
-
-    .line 6
-    .line 7
-    return v0
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->sizeLimit:I    return v0
 
     .line 8
     :cond_0
@@ -831,26 +810,13 @@
     .line 17
     .line 18
     .line 19
-    throw v0
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw v0.end method
 
 .method public final shouldDiscardUnknownFields()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z    return v0
 .end method
 
 .method public abstract skipField(I)Z
@@ -877,11 +843,6 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z    return-void
 .end method
-
 .end class

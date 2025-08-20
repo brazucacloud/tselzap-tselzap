@@ -63,11 +63,7 @@
     const/4 v0, -0x1
 
     .line 12
-    iput v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToId:I
-
-    .line 13
-    .line 14
-    return-void
+    iput v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToId:I    return-void
 .end method
 
 .method public static synthetic getPopUpTo$annotations()V
@@ -175,11 +171,7 @@
     const/4 p1, 0x0
 
     .line 12
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z
-
-    .line 13
-    .line 14
-    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z    return-void
 
     .line 15
     :cond_0
@@ -352,12 +344,7 @@
     move-result v0
 
     .line 44
-    invoke-virtual {p1, v0}, Landroidx/navigation/NavOptions$Builder;->setPopExitAnim(I)Landroidx/navigation/NavOptions$Builder;
-
-    .line 45
-    .line 46
-    .line 47
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/navigation/NavOptions$Builder;->setPopExitAnim(I)Landroidx/navigation/NavOptions$Builder;    return-void
 .end method
 
 .method public final build$navigation_common_release()Landroidx/navigation/NavOptions;
@@ -503,44 +490,28 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptionsBuilder;->launchSingleTop:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptionsBuilder;->launchSingleTop:Z    return v0
 .end method
 
 .method public final getPopUpTo()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToId:I    return v0
 .end method
 
 .method public final getPopUpToId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToId:I    return v0
 .end method
 
 .method public final getPopUpToRoute()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToRoute:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToRoute:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getPopUpToRouteClass()Lv1/c;
@@ -553,33 +524,21 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToRouteClass:Lv1/c;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToRouteClass:Lv1/c;    return-object v0
 .end method
 
 .method public final getPopUpToRouteObject()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToRouteObject:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptionsBuilder;->popUpToRouteObject:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final getRestoreState()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z    return v0
 .end method
 
 .method public final popUpTo(ILp1/l;)V
@@ -832,11 +791,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->launchSingleTop:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->launchSingleTop:Z    return-void
 .end method
 
 .method public final setPopUpTo(I)V
@@ -849,12 +804,7 @@
     const/4 v1, 0x2
 
     .line 3
-    invoke-static {p0, p1, v0, v1, v0}, Landroidx/navigation/NavOptionsBuilder;->popUpTo$default(Landroidx/navigation/NavOptionsBuilder;ILp1/l;ILjava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {p0, p1, v0, v1, v0}, Landroidx/navigation/NavOptionsBuilder;->popUpTo$default(Landroidx/navigation/NavOptionsBuilder;ILp1/l;ILjava/lang/Object;)V    return-void
 .end method
 
 .method public final setPopUpToId$navigation_common_release(I)V
@@ -868,22 +818,13 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z
-
-    .line 5
-    .line 6
-    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z    return-void
 .end method
 
 .method public final setRestoreState(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z    return-void
 .end method
-
 .end class

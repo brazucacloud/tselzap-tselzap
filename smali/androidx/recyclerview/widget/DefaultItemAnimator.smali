@@ -282,11 +282,7 @@
     .line 77
     .line 78
     .line 79
-    iput-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator;->mChangeAnimations:Ljava/util/ArrayList;
-
-    .line 80
-    .line 81
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator;->mChangeAnimations:Ljava/util/ArrayList;    return-void
 .end method
 
 .method private animateRemoveImpl(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -358,12 +354,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V    return-void
 .end method
 
 .method private endChangeAnimation(Ljava/util/List;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -592,12 +583,7 @@
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->endAnimation(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->endAnimation(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V    return-void
 .end method
 
 
@@ -712,12 +698,7 @@
     move-result-object p1
 
     .line 35
-    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V    return-void
 .end method
 
 .method public animateChange(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;IIII)Z
@@ -1469,12 +1450,7 @@
     move-result-object p1
 
     .line 54
-    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
-
-    .line 55
-    .line 56
-    .line 57
-    return-void
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V    return-void
 .end method
 
 .method public animateRemove(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
@@ -2167,12 +2143,7 @@
     .line 248
     .line 249
     .line 250
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/DefaultItemAnimator;->dispatchFinishedWhenDone()V
-
-    .line 251
-    .line 252
-    .line 253
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/DefaultItemAnimator;->dispatchFinishedWhenDone()V    return-void
 .end method
 
 .method public endAnimations()V
@@ -2461,11 +2432,7 @@
     move-result v0
 
     .line 141
-    if-nez v0, :cond_4
-
-    .line 142
-    .line 143
-    return-void
+    if-nez v0, :cond_4    return-void
 
     .line 144
     :cond_4
@@ -2873,12 +2840,7 @@
     .line 341
     .line 342
     .line 343
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;->dispatchAnimationsFinished()V
-
-    .line 344
-    .line 345
-    .line 346
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;->dispatchAnimationsFinished()V    return-void
 .end method
 
 .method public isRunning()Z
@@ -3467,12 +3429,7 @@
 
     .line 197
     :cond_6
-    invoke-interface {v5}, Ljava/lang/Runnable;->run()V
-
-    .line 198
-    .line 199
-    .line 200
-    return-void
+    invoke-interface {v5}, Ljava/lang/Runnable;->run()V    return-void
 
     .line 201
     :cond_7
@@ -3570,5 +3527,4 @@
     :goto_6
     return-void
 .end method
-
 .end class

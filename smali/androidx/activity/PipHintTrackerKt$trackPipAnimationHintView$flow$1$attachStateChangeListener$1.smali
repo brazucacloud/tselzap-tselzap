@@ -64,12 +64,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -132,12 +127,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, v0}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V    return-void
 .end method
 
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
@@ -165,12 +155,6 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V    return-void
 .end method
-
 .end class

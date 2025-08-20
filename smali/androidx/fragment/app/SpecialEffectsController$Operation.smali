@@ -151,12 +151,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p4, p1}, Landroidx/core/os/CancellationSignal;->setOnCancelListener(Landroidx/core/os/CancellationSignal$OnCancelListener;)V
-
-    .line 52
-    .line 53
-    .line 54
-    return-void
+    invoke-virtual {p4, p1}, Landroidx/core/os/CancellationSignal;->setOnCancelListener(Landroidx/core/os/CancellationSignal$OnCancelListener;)V    return-void
 .end method
 
 .method private static final _init_$lambda$0(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -172,12 +167,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->cancel()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->cancel()V    return-void
 .end method
 
 .method public static synthetic a(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -208,12 +198,7 @@
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final cancel()V
@@ -255,12 +240,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete()V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete()V    return-void
 
     .line 21
     :cond_1
@@ -519,55 +499,35 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object v0
 .end method
 
 .method public final getFragment()Landroidx/fragment/app/Fragment;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;    return-object v0
 .end method
 
 .method public final getLifecycleImpact()Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;    return-object v0
 .end method
 
 .method public final isCanceled()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z    return v0
 .end method
 
 .method public final isComplete()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isComplete:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isComplete:Z    return v0
 .end method
 
 .method public final markStartedSpecialEffect(Landroidx/core/os/CancellationSignal;)V
@@ -592,12 +552,7 @@
 
     .line 10
     .line 11
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final mergeWith(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;)V
@@ -769,11 +724,7 @@
     .line 85
     .line 86
     :cond_1
-    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 87
-    .line 88
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-void
 
     .line 89
     :cond_2
@@ -874,11 +825,7 @@
 
     .line 140
     .line 141
-    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-
-    .line 142
-    .line 143
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;    return-void
 
     .line 144
     :cond_4
@@ -1005,11 +952,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-void
 .end method
 
 .method public final setLifecycleImpact(Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;)V
@@ -1025,11 +968,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1131,5 +1070,4 @@
 
     return-object v0
 .end method
-
 .end class

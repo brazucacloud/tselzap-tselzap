@@ -118,12 +118,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p3, p1, p0}, Landroidx/loader/content/Loader;->registerListener(ILandroidx/loader/content/Loader$OnLoadCompleteListener;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p3, p1, p0}, Landroidx/loader/content/Loader;->registerListener(ILandroidx/loader/content/Loader$OnLoadCompleteListener;)V    return-void
 .end method
 
 
@@ -267,19 +262,11 @@
     .line 64
     .line 65
     .line 66
-    iget-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mPriorLoader:Landroidx/loader/content/Loader;
-
-    .line 67
-    .line 68
-    return-object p1
+    iget-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mPriorLoader:Landroidx/loader/content/Loader;    return-object p1
 
     .line 69
     :cond_4
-    iget-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroidx/loader/content/Loader;
-
-    .line 70
-    .line 71
-    return-object p1
+    iget-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroidx/loader/content/Loader;    return-object p1
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -485,12 +472,7 @@
     move-result p1
 
     .line 109
-    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
-
-    .line 110
-    .line 111
-    .line 112
-    return-void
+    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
 .end method
 
 .method public getLoader()Landroidx/loader/content/Loader;
@@ -507,11 +489,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroidx/loader/content/Loader;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroidx/loader/content/Loader;    return-object v0
 .end method
 
 .method public isCallbackWaitingForData()Z
@@ -529,11 +507,7 @@
     const/4 v1, 0x0
 
     .line 6
-    if-nez v0, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -652,12 +626,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroidx/loader/content/Loader;->startLoading()V
-
-    .line 27
-    .line 28
-    .line 29
-    return-void
+    invoke-virtual {v0}, Landroidx/loader/content/Loader;->startLoading()V    return-void
 .end method
 
 .method public onInactive()V
@@ -712,12 +681,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroidx/loader/content/Loader;->stopLoading()V
-
-    .line 27
-    .line 28
-    .line 29
-    return-void
+    invoke-virtual {v0}, Landroidx/loader/content/Loader;->stopLoading()V    return-void
 .end method
 
 .method public onLoadComplete(Landroidx/loader/content/Loader;Ljava/lang/Object;)V
@@ -803,12 +767,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p0, p2}, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->setValue(Ljava/lang/Object;)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->setValue(Ljava/lang/Object;)V    return-void
 
     .line 38
     :cond_1
@@ -830,12 +789,7 @@
     .line 46
     .line 47
     :cond_2
-    invoke-virtual {p0, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
-
-    .line 48
-    .line 49
-    .line 50
-    return-void
+    invoke-virtual {p0, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V    return-void
 .end method
 
 .method public removeObserver(Landroidx/lifecycle/Observer;)V
@@ -865,11 +819,7 @@
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mObserver:Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mObserver:Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;    return-void
 .end method
 
 .method public setCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/loader/app/LoaderManager$LoaderCallbacks;)Landroidx/loader/content/Loader;
@@ -940,11 +890,7 @@
 
     .line 21
     .line 22
-    iget-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroidx/loader/content/Loader;
-
-    .line 23
-    .line 24
-    return-object p1
+    iget-object p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroidx/loader/content/Loader;    return-object p1
 .end method
 
 .method public setValue(Ljava/lang/Object;)V
@@ -1086,5 +1032,4 @@
 
     return-object v0
 .end method
-
 .end class

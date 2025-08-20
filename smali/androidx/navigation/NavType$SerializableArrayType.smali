@@ -134,11 +134,7 @@
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 45
-    iput-object p1, p0, Landroidx/navigation/NavType$SerializableArrayType;->arrayType:Ljava/lang/Class;
-
-    .line 46
-    .line 47
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavType$SerializableArrayType;->arrayType:Ljava/lang/Class;    return-void
 
     .line 48
     :catch_0
@@ -206,11 +202,7 @@
     .line 79
     .line 80
     .line 81
-    throw v0
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 
 # virtual methods
@@ -468,5 +460,4 @@
 
     return p1
 .end method
-
 .end class

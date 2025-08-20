@@ -42,11 +42,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/transition/Explode;->sAccelerate:Landroid/animation/TimeInterpolator;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/transition/Explode;->sAccelerate:Landroid/animation/TimeInterpolator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -482,11 +478,7 @@
     move-result p1
 
     .line 132
-    aput p1, p3, v3
-
-    .line 133
-    .line 134
-    return-void
+    aput p1, p3, v3    return-void
 .end method
 
 .method private captureValues(Landroidx/transition/TransitionValues;)V
@@ -563,12 +555,7 @@
 
     .line 34
     .line 35
-    invoke-interface {p1, v0, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-interface {p1, v0, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 
@@ -586,12 +573,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/transition/Explode;->captureValues(Landroidx/transition/TransitionValues;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/Explode;->captureValues(Landroidx/transition/TransitionValues;)V    return-void
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -607,12 +589,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/transition/Explode;->captureValues(Landroidx/transition/TransitionValues;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/Explode;->captureValues(Landroidx/transition/TransitionValues;)V    return-void
 .end method
 
 .method public isSeekingSupported()Z
@@ -978,5 +955,4 @@
 
     return-object p1
 .end method
-
 .end class

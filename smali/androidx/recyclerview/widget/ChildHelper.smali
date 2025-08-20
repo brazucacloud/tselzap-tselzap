@@ -87,11 +87,7 @@
     .line 19
     .line 20
     .line 21
-    iput-object p1, p0, Landroidx/recyclerview/widget/ChildHelper;->mHiddenViews:Ljava/util/List;
-
-    .line 22
-    .line 23
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/ChildHelper;->mHiddenViews:Ljava/util/List;    return-void
 .end method
 
 .method private getOffset(I)I
@@ -101,11 +97,7 @@
     const/4 v0, -0x1
 
     .line 2
-    if-gez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-gez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -209,12 +201,7 @@
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/recyclerview/widget/ChildHelper$Callback;->onEnteredHiddenState(Landroid/view/View;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-interface {v0, p1}, Landroidx/recyclerview/widget/ChildHelper$Callback;->onEnteredHiddenState(Landroid/view/View;)V    return-void
 .end method
 
 .method private unhideViewInternal(Landroid/view/View;)Z
@@ -366,12 +353,7 @@
 
     .line 25
     .line 26
-    invoke-interface {p4, p1, p2, p3}, Landroidx/recyclerview/widget/ChildHelper$Callback;->attachViewToParent(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
-
-    .line 27
-    .line 28
-    .line 29
-    return-void
+    invoke-interface {p4, p1, p2, p3}, Landroidx/recyclerview/widget/ChildHelper$Callback;->attachViewToParent(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public detachViewFromParent(I)V
@@ -399,12 +381,7 @@
 
     .line 11
     .line 12
-    invoke-interface {v0, p1}, Landroidx/recyclerview/widget/ChildHelper$Callback;->detachViewFromParent(I)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-interface {v0, p1}, Landroidx/recyclerview/widget/ChildHelper$Callback;->detachViewFromParent(I)V    return-void
 .end method
 
 .method public findHiddenNonRemovedView(I)Landroid/view/View;
@@ -491,11 +468,7 @@
     move-result v3
 
     .line 40
-    if-nez v3, :cond_0
-
-    .line 41
-    .line 42
-    return-object v2
+    if-nez v3, :cond_0    return-object v2
 
     .line 43
     :cond_0
@@ -636,12 +609,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ChildHelper;->hideViewInternal(Landroid/view/View;)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ChildHelper;->hideViewInternal(Landroid/view/View;)V    return-void
 
     .line 18
     :cond_0
@@ -680,55 +648,7 @@
     .line 35
     .line 36
     .line 37
-    throw v0
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 .method public indexOfChild(Landroid/view/View;)I
     .locals 2
@@ -749,11 +669,7 @@
     const/4 v0, -0x1
 
     .line 8
-    if-ne p1, v0, :cond_0
-
-    .line 9
-    .line 10
-    return v0
+    if-ne p1, v0, :cond_0    return v0
 
     .line 11
     :cond_0
@@ -769,11 +685,7 @@
     move-result v1
 
     .line 17
-    if-eqz v1, :cond_1
-
-    .line 18
-    .line 19
-    return v0
+    if-eqz v1, :cond_1    return v0
 
     .line 20
     :cond_1
@@ -892,12 +804,7 @@
 
     .line 38
     .line 39
-    invoke-interface {v0}, Landroidx/recyclerview/widget/ChildHelper$Callback;->removeAllViews()V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-interface {v0}, Landroidx/recyclerview/widget/ChildHelper$Callback;->removeAllViews()V    return-void
 .end method
 
 .method public removeView(Landroid/view/View;)V
@@ -960,11 +867,7 @@
 
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/recyclerview/widget/ChildHelper;->mViewInRemoveView:Landroid/view/View;
-
-    .line 26
-    .line 27
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/ChildHelper;->mViewInRemoveView:Landroid/view/View;    return-void
 
     .line 28
     :cond_0
@@ -1059,24 +962,7 @@
     .line 66
     .line 67
     .line 68
-    throw p1
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public removeViewAt(I)V
     .locals 4
@@ -1138,11 +1024,7 @@
 
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/recyclerview/widget/ChildHelper;->mViewInRemoveView:Landroid/view/View;
-
-    .line 26
-    .line 27
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/ChildHelper;->mViewInRemoveView:Landroid/view/View;    return-void
 
     .line 28
     :cond_0
@@ -1245,20 +1127,7 @@
     .line 70
     .line 71
     .line 72
-    throw p1
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public removeViewIfHidden(Landroid/view/View;)Z
     .locals 4
@@ -1282,11 +1151,7 @@
 
     .line 8
     .line 9
-    if-ne v0, p1, :cond_0
-
-    .line 10
-    .line 11
-    return v1
+    if-ne v0, p1, :cond_0    return v1
 
     .line 12
     :cond_0
@@ -1345,11 +1210,7 @@
     .line 35
     .line 36
     .line 37
-    iput v1, p0, Landroidx/recyclerview/widget/ChildHelper;->mRemoveStatus:I
-
-    .line 38
-    .line 39
-    return v2
+    iput v1, p0, Landroidx/recyclerview/widget/ChildHelper;->mRemoveStatus:I    return v2
 
     .line 40
     :catchall_0
@@ -1402,19 +1263,11 @@
     .line 61
     .line 62
     .line 63
-    iput v1, p0, Landroidx/recyclerview/widget/ChildHelper;->mRemoveStatus:I
-
-    .line 64
-    .line 65
-    return v2
+    iput v1, p0, Landroidx/recyclerview/widget/ChildHelper;->mRemoveStatus:I    return v2
 
     .line 66
     :cond_3
-    iput v1, p0, Landroidx/recyclerview/widget/ChildHelper;->mRemoveStatus:I
-
-    .line 67
-    .line 68
-    return v1
+    iput v1, p0, Landroidx/recyclerview/widget/ChildHelper;->mRemoveStatus:I    return v1
 
     .line 69
     :goto_0
@@ -1439,13 +1292,7 @@
     .line 77
     .line 78
     .line 79
-    throw p1
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
@@ -1558,12 +1405,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ChildHelper;->unhideViewInternal(Landroid/view/View;)Z
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ChildHelper;->unhideViewInternal(Landroid/view/View;)Z    return-void
 
     .line 26
     :cond_0
@@ -1641,26 +1483,5 @@
     .line 63
     .line 64
     .line 65
-    throw v0
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
+    throw v0.end method
 .end class

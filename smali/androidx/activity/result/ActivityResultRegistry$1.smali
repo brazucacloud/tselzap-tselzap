@@ -53,12 +53,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -273,12 +268,7 @@
     move-result-object p1
 
     .line 102
-    invoke-interface {p2, p1}, Landroidx/activity/result/ActivityResultCallback;->onActivityResult(Ljava/lang/Object;)V
-
-    .line 103
-    .line 104
-    .line 105
-    return-void
+    invoke-interface {p2, p1}, Landroidx/activity/result/ActivityResultCallback;->onActivityResult(Ljava/lang/Object;)V    return-void
 
     .line 106
     :cond_1
@@ -310,12 +300,7 @@
 
     .line 119
     .line 120
-    invoke-interface {p1, p2}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 121
-    .line 122
-    .line 123
-    return-void
+    invoke-interface {p1, p2}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 
     .line 124
     :cond_2
@@ -351,5 +336,4 @@
     :cond_3
     return-void
 .end method
-
 .end class

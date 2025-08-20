@@ -59,11 +59,7 @@
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-
-    .line 15
-    .line 16
-    return-void
+    iput-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;    return-void
 .end method
 
 
@@ -76,11 +72,7 @@
 
     .line 2
     .line 3
-    mul-float p2, p2, p1
-
-    .line 4
-    .line 5
-    return p2
+    mul-float p2, p2, p1    return p2
 .end method
 
 .method public getFrictionScalar()F
@@ -149,11 +141,7 @@
 
     .line 5
     .line 6
-    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
-
-    .line 7
-    .line 8
-    return-void
+    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F    return-void
 .end method
 
 .method public setValueThreshold(F)V
@@ -168,11 +156,7 @@
 
     .line 4
     .line 5
-    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mVelocityThreshold:F
-
-    .line 6
-    .line 7
-    return-void
+    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mVelocityThreshold:F    return-void
 .end method
 
 .method public updateValueAndVelocity(FFJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
@@ -319,11 +303,6 @@
     .line 63
     .line 64
     :cond_0
-    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-
-    .line 65
-    .line 66
-    return-object p1
+    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;    return-object p1
 .end method
-
 .end class

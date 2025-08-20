@@ -8,12 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static computeScrollExtent(Landroidx/recyclerview/widget/RecyclerView$State;Landroidx/recyclerview/widget/OrientationHelper;Landroid/view/View;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Z)I
@@ -87,11 +82,7 @@
     move-result p0
 
     .line 33
-    add-int/lit8 p0, p0, 0x1
-
-    .line 34
-    .line 35
-    return p0
+    add-int/lit8 p0, p0, 0x1    return p0
 
     .line 36
     :cond_1
@@ -270,11 +261,7 @@
 
     .line 61
     :goto_0
-    if-nez p5, :cond_2
-
-    .line 62
-    .line 63
-    return p0
+    if-nez p5, :cond_2    return p0
 
     .line 64
     :cond_2
@@ -532,5 +519,4 @@
 
     return p0
 .end method
-
 .end class

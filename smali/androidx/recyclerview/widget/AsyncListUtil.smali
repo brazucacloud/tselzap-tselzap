@@ -294,12 +294,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->refresh()V
-
-    .line 80
-    .line 81
-    .line 82
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->refresh()V    return-void
 .end method
 
 .method private isRefreshPending()Z
@@ -449,47 +444,13 @@
     .line 53
     .line 54
     .line 55
-    throw v0
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw v0.end method
 
 .method public getItemCount()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I    return v0
 .end method
 
 .method public varargs log(Ljava/lang/String;[Ljava/lang/Object;)V
@@ -520,12 +481,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method public onRangeChanged()V
@@ -540,11 +496,7 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -556,11 +508,7 @@
     const/4 v0, 0x1
 
     .line 12
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mAllowScrollHints:Z
-
-    .line 13
-    .line 14
-    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mAllowScrollHints:Z    return-void
 .end method
 
 .method public refresh()V
@@ -592,12 +540,7 @@
 
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->refresh(I)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-interface {v0, v1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->refresh(I)V    return-void
 .end method
 
 .method public updateRange()V
@@ -883,5 +826,4 @@
     :goto_2
     return-void
 .end method
-
 .end class

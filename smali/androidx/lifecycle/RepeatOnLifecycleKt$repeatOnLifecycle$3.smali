@@ -83,12 +83,7 @@
     const/4 p1, 0x2
 
     .line 8
-    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -129,11 +124,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object p1, v0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3;->L$0:Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -294,20 +285,11 @@
     move-result-object p1
 
     .line 54
-    if-ne p1, v0, :cond_2
-
-    .line 55
-    .line 56
-    return-object v0
+    if-ne p1, v0, :cond_2    return-object v0
 
     .line 57
     :cond_2
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 58
-    .line 59
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

@@ -50,12 +50,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V    return-void
 .end method
 
 
@@ -68,11 +63,7 @@
 
     .line 2
     .line 3
-    check-cast v0, Landroid/view/View;
-
-    .line 4
-    .line 5
-    return-object v0
+    check-cast v0, Landroid/view/View;    return-object v0
 .end method
 
 .method public onActionViewCollapsed()V
@@ -83,12 +74,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/CollapsibleActionView;->onActionViewCollapsed()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/view/CollapsibleActionView;->onActionViewCollapsed()V    return-void
 .end method
 
 .method public onActionViewExpanded()V
@@ -99,12 +85,6 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/CollapsibleActionView;->onActionViewExpanded()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0}, Landroid/view/CollapsibleActionView;->onActionViewExpanded()V    return-void
 .end method
-
 .end class

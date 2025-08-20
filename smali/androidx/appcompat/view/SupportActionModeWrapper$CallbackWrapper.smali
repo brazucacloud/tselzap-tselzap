@@ -90,11 +90,7 @@
     .line 18
     .line 19
     .line 20
-    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mMenus:Landroidx/collection/SimpleArrayMap;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mMenus:Landroidx/collection/SimpleArrayMap;    return-void
 .end method
 
 .method private getMenuWrapper(Landroid/view/Menu;)Landroid/view/Menu;
@@ -204,11 +200,7 @@
 
     .line 21
     .line 22
-    if-ne v3, p1, :cond_0
-
-    .line 23
-    .line 24
-    return-object v2
+    if-ne v3, p1, :cond_0    return-object v2
 
     .line 25
     :cond_0
@@ -237,12 +229,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 38
-    .line 39
-    .line 40
-    return-object v0
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-object v0
 .end method
 
 .method public onActionItemClicked(Landroidx/appcompat/view/ActionMode;Landroid/view/MenuItem;)Z
@@ -338,12 +325,7 @@
     move-result-object p1
 
     .line 7
-    invoke-interface {v0, p1}, Landroid/view/ActionMode$Callback;->onDestroyActionMode(Landroid/view/ActionMode;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-interface {v0, p1}, Landroid/view/ActionMode$Callback;->onDestroyActionMode(Landroid/view/ActionMode;)V    return-void
 .end method
 
 .method public onPrepareActionMode(Landroidx/appcompat/view/ActionMode;Landroid/view/Menu;)Z
@@ -379,5 +361,4 @@
 
     return p1
 .end method
-
 .end class

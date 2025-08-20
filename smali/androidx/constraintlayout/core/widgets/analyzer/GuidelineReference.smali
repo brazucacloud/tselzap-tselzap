@@ -43,11 +43,7 @@
     move-result p1
 
     .line 20
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->orientation:I
-
-    .line 21
-    .line 22
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->orientation:I    return-void
 .end method
 
 .method private addDependency(Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;)V
@@ -75,12 +71,7 @@
 
     .line 11
     .line 12
-    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 
@@ -379,12 +370,7 @@
 
     .line 145
     .line 146
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/widgets/analyzer/GuidelineReference;->addDependency(Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;)V
-
-    .line 147
-    .line 148
-    .line 149
-    return-void
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/widgets/analyzer/GuidelineReference;->addDependency(Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;)V    return-void
 
     .line 150
     :cond_2
@@ -631,12 +617,7 @@
 
     .line 271
     .line 272
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/widgets/analyzer/GuidelineReference;->addDependency(Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;)V
-
-    .line 273
-    .line 274
-    .line 275
-    return-void
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/widgets/analyzer/GuidelineReference;->addDependency(Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;)V    return-void
 .end method
 
 .method public applyToWidget()V
@@ -678,12 +659,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setX(I)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setX(I)V    return-void
 
     .line 22
     :cond_0
@@ -699,12 +675,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setY(I)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setY(I)V    return-void
 .end method
 
 .method public clear()V
@@ -715,12 +686,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->clear()V    return-void
 .end method
 
 .method public reset()V
@@ -742,11 +708,7 @@
 
     .line 7
     .line 8
-    iput-boolean v1, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
-
-    .line 9
-    .line 10
-    return-void
+    iput-boolean v1, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z    return-void
 .end method
 
 .method public supportsWrapComputation()Z
@@ -850,12 +812,6 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolve(I)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolve(I)V    return-void
 .end method
-
 .end class

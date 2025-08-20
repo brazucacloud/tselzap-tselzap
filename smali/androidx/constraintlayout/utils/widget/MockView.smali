@@ -656,11 +656,7 @@
     move-result p1
 
     .line 173
-    iput p1, p0, Landroidx/constraintlayout/utils/widget/MockView;->mMargin:I
-
-    .line 174
-    .line 175
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/utils/widget/MockView;->mMargin:I    return-void
 .end method
 
 
@@ -1021,5 +1017,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

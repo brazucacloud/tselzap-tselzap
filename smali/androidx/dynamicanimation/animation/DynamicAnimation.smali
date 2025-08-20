@@ -350,11 +350,7 @@
     .line 123
     .line 124
     .line 125
-    sput-object v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->SCROLL_Y:Landroidx/dynamicanimation/animation/DynamicAnimation$ViewProperty;
-
-    .line 126
-    .line 127
-    return-void
+    sput-object v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->SCROLL_Y:Landroidx/dynamicanimation/animation/DynamicAnimation$ViewProperty;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
@@ -672,12 +668,7 @@
 
     .line 52
     .line 53
-    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V    return-void
 .end method
 
 .method private getPropertyValue()F
@@ -878,12 +869,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v0, p0, v1, v2}, Landroidx/dynamicanimation/animation/AnimationHandler;->addAnimationFrameCallback(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;J)V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-virtual {v0, p0, v1, v2}, Landroidx/dynamicanimation/animation/AnimationHandler;->addAnimationFrameCallback(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;J)V    return-void
 
     .line 42
     :cond_1
@@ -1015,64 +1001,7 @@
     .line 26
     .line 27
     .line 28
-    throw p1
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public cancel()V
     .locals 2
@@ -1132,67 +1061,7 @@
     .line 25
     .line 26
     .line 27
-    throw v0
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public doAnimationFrame(J)Z
     .locals 6
@@ -1230,12 +1099,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setPropertyValue(F)V
-
-    .line 15
-    .line 16
-    .line 17
-    return v4
+    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setPropertyValue(F)V    return v4
 
     .line 18
     :cond_0
@@ -1316,11 +1180,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMinVisibleChange:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMinVisibleChange:F    return v0
 .end method
 
 .method public getValueThreshold()F
@@ -1335,11 +1195,7 @@
 
     .line 4
     .line 5
-    mul-float v0, v0, v1
-
-    .line 6
-    .line 7
-    return v0
+    mul-float v0, v0, v1    return v0
 .end method
 
 .method public abstract isAtEquilibrium(FF)Z
@@ -1349,11 +1205,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mRunning:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mRunning:Z    return v0
 .end method
 
 .method public removeEndListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationEndListener;)V
@@ -1364,12 +1216,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V    return-void
 .end method
 
 .method public removeUpdateListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationUpdateListener;)V
@@ -1380,12 +1227,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V    return-void
 .end method
 
 .method public setMaxValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1397,11 +1239,7 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMaxValue:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMaxValue:F    return-object p0
 .end method
 
 .method public setMinValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1413,11 +1251,7 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMinValue:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMinValue:F    return-object p0
 .end method
 
 .method public setMinimumVisibleChange(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1458,12 +1292,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setValueThreshold(F)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-object p0
+    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setValueThreshold(F)V    return-object p0
 
     .line 16
     :cond_0
@@ -1480,12 +1309,7 @@
     .line 21
     .line 22
     .line 23
-    throw p1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public setPropertyValue(F)V
     .locals 3
@@ -1582,12 +1406,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V    return-void
 .end method
 
 .method public setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1606,11 +1425,7 @@
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mStartValueIsSet:Z
-
-    .line 5
-    .line 6
-    return-object p0
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mStartValueIsSet:Z    return-object p0
 .end method
 
 .method public setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1622,11 +1437,7 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F    return-object p0
 .end method
 
 .method public abstract setValueThreshold(F)V
@@ -1687,70 +1498,8 @@
     .line 24
     .line 25
     .line 26
-    throw v0
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public abstract updateValueAndVelocity(J)Z
 .end method
-
 .end class

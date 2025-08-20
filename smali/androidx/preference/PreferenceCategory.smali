@@ -140,11 +140,6 @@
     move-result v0
 
     .line 5
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 6
-    .line 7
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
-
 .end class

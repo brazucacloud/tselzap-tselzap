@@ -46,23 +46,14 @@
 
     .line 10
     :goto_0
-    sput-boolean v0, Landroidx/transition/TransitionUtils;->HAS_PICTURE_BITMAP:Z
-
-    .line 11
-    .line 12
-    return-void
+    sput-boolean v0, Landroidx/transition/TransitionUtils;->HAS_PICTURE_BITMAP:Z    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static copyViewImage(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/View;)Landroid/view/View;
@@ -285,12 +276,7 @@
     .line 108
     .line 109
     .line 110
-    invoke-virtual {v5, v1, v2, v3, v4}, Landroid/view/View;->layout(IIII)V
-
-    .line 111
-    .line 112
-    .line 113
-    return-object v5
+    invoke-virtual {v5, v1, v2, v3, v4}, Landroid/view/View;->layout(IIII)V    return-object v5
 .end method
 
 .method private static createViewBitmap(Landroid/view/View;Landroid/graphics/Matrix;Landroid/graphics/RectF;Landroid/view/ViewGroup;)Landroid/graphics/Bitmap;
@@ -342,11 +328,7 @@
 
     .line 19
     .line 20
-    if-nez v2, :cond_1
-
-    .line 21
-    .line 22
-    return-object v3
+    if-nez v2, :cond_1    return-object v3
 
     .line 23
     :cond_1
@@ -629,19 +611,11 @@
     .locals 3
 
     .line 1
-    if-nez p0, :cond_0
-
-    .line 2
-    .line 3
-    return-object p1
+    if-nez p0, :cond_0    return-object p1
 
     .line 4
     :cond_0
-    if-nez p1, :cond_1
-
-    .line 5
-    .line 6
-    return-object p0
+    if-nez p1, :cond_1    return-object p0
 
     .line 7
     :cond_1
@@ -675,12 +649,6 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-object v0
+    invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V    return-object v0
 .end method
-
 .end class

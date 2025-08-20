@@ -136,12 +136,6 @@
 
     .line 41
     :goto_3
-    invoke-virtual {p1, v1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-virtual {p1, v1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V    return-void
 .end method
-
 .end class

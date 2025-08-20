@@ -219,11 +219,7 @@
 
     .line 53
     .line 54
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I
-
-    .line 55
-    .line 56
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I    return-void
 .end method
 
 
@@ -232,231 +228,147 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I    return v0
 .end method
 
 .method public getDragDirection()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragDirection:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragDirection:I    return v0
 .end method
 
 .method public getDragScale()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragScale:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragScale:F    return v0
 .end method
 
 .method public getDragThreshold()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragThreshold:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragThreshold:F    return v0
 .end method
 
 .method public getLimitBoundsTo()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mLimitBoundsTo:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mLimitBoundsTo:I    return v0
 .end method
 
 .method public getMaxAcceleration()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxAcceleration:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxAcceleration:F    return v0
 .end method
 
 .method public getMaxVelocity()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxVelocity:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxVelocity:F    return v0
 .end method
 
 .method public getMoveWhenScrollAtTop()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z    return v0
 .end method
 
 .method public getNestedScrollFlags()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mFlags:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mFlags:I    return v0
 .end method
 
 .method public getOnTouchUp()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mOnTouchUp:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mOnTouchUp:I    return v0
 .end method
 
 .method public getRotationCenterId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mRotationCenterId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mRotationCenterId:I    return v0
 .end method
 
 .method public getSpringBoundary()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringBoundary:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringBoundary:I    return v0
 .end method
 
 .method public getSpringDamping()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringDamping:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringDamping:F    return v0
 .end method
 
 .method public getSpringMass()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringMass:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringMass:F    return v0
 .end method
 
 .method public getSpringStiffness()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStiffness:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStiffness:F    return v0
 .end method
 
 .method public getSpringStopThreshold()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStopThreshold:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStopThreshold:F    return v0
 .end method
 
 .method public getTouchAnchorId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorId:I    return v0
 .end method
 
 .method public getTouchAnchorSide()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorSide:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorSide:I    return v0
 .end method
 
 .method public getTouchRegionId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchRegionId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchRegionId:I    return v0
 .end method
 
 .method public setAutoCompleteMode(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I    return-void
 .end method
 
 .method public setDragDirection(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragDirection:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragDirection:I    return-object p0
 .end method
 
 .method public setDragScale(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
@@ -466,11 +378,7 @@
     int-to-float p1, p1
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragScale:F
-
-    .line 3
-    .line 4
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragScale:F    return-object p0
 .end method
 
 .method public setDragThreshold(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
@@ -480,22 +388,14 @@
     int-to-float p1, p1
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragThreshold:F
-
-    .line 3
-    .line 4
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragThreshold:F    return-object p0
 .end method
 
 .method public setLimitBoundsTo(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mLimitBoundsTo:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mLimitBoundsTo:I    return-object p0
 .end method
 
 .method public setMaxAcceleration(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
@@ -505,11 +405,7 @@
     int-to-float p1, p1
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxAcceleration:F
-
-    .line 3
-    .line 4
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxAcceleration:F    return-object p0
 .end method
 
 .method public setMaxVelocity(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
@@ -519,143 +415,90 @@
     int-to-float p1, p1
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxVelocity:F
-
-    .line 3
-    .line 4
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMaxVelocity:F    return-object p0
 .end method
 
 .method public setMoveWhenScrollAtTop(Z)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z
-
-    .line 2
-    .line 3
-    return-object p0
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z    return-object p0
 .end method
 
 .method public setNestedScrollFlags(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mFlags:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mFlags:I    return-object p0
 .end method
 
 .method public setOnTouchUp(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mOnTouchUp:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mOnTouchUp:I    return-object p0
 .end method
 
 .method public setRotateCenter(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mRotationCenterId:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mRotationCenterId:I    return-object p0
 .end method
 
 .method public setSpringBoundary(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringBoundary:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringBoundary:I    return-object p0
 .end method
 
 .method public setSpringDamping(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringDamping:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringDamping:F    return-object p0
 .end method
 
 .method public setSpringMass(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringMass:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringMass:F    return-object p0
 .end method
 
 .method public setSpringStiffness(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStiffness:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStiffness:F    return-object p0
 .end method
 
 .method public setSpringStopThreshold(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStopThreshold:F
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStopThreshold:F    return-object p0
 .end method
 
 .method public setTouchAnchorId(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorId:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorId:I    return-object p0
 .end method
 
 .method public setTouchAnchorSide(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorSide:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorSide:I    return-object p0
 .end method
 
 .method public setTouchRegionId(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchRegionId:I
-
-    .line 2
-    .line 3
-    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchRegionId:I    return-object p0
 .end method
-
 .end class

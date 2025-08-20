@@ -149,12 +149,6 @@
     .line 32
     .line 33
     :goto_2
-    invoke-virtual {p0, v0, p1, v1, p2}, Landroid/view/View;->setPadding(IIII)V
-
-    .line 34
-    .line 35
-    .line 36
-    return-void
+    invoke-virtual {p0, v0, p1, v1, p2}, Landroid/view/View;->setPadding(IIII)V    return-void
 .end method
-
 .end class

@@ -39,11 +39,7 @@
 
     .line 11
     .line 12
-    sput-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    return-void
+    sput-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;    return-void
 .end method
 
 .method public static final binarySearch([III)I
@@ -193,11 +189,7 @@
     move-result p0
 
     .line 7
-    div-int/lit8 p0, p0, 0x4
-
-    .line 8
-    .line 9
-    return p0
+    div-int/lit8 p0, p0, 0x4    return p0
 .end method
 
 .method public static final idealLongArraySize(I)I
@@ -216,11 +208,6 @@
     move-result p0
 
     .line 7
-    div-int/lit8 p0, p0, 0x8
-
-    .line 8
-    .line 9
-    return p0
+    div-int/lit8 p0, p0, 0x8    return p0
 .end method
-
 .end class

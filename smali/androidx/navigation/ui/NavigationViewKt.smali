@@ -26,12 +26,6 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/navigation/ui/NavigationUI;->setupWithNavController(Lcom/google/android/material/navigation/NavigationView;Landroidx/navigation/NavController;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-static {p0, p1}, Landroidx/navigation/ui/NavigationUI;->setupWithNavController(Lcom/google/android/material/navigation/NavigationView;Landroidx/navigation/NavController;)V    return-void
 .end method
-
 .end class

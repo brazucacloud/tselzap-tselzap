@@ -20,5 +20,4 @@
 # virtual methods
 .method public abstract onNavigationItemSelected(IJ)Z
 .end method
-
 .end class

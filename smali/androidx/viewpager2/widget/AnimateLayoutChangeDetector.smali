@@ -35,12 +35,7 @@
     const/4 v1, 0x0
 
     .line 10
-    invoke-virtual {v0, v1, v1, v1, v1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {v0, v1, v1, v1, v1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V    return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/LinearLayoutManager;)V
@@ -56,11 +51,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/viewpager2/widget/AnimateLayoutChangeDetector;->mLayoutManager:Landroidx/recyclerview/widget/LinearLayoutManager;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/viewpager2/widget/AnimateLayoutChangeDetector;->mLayoutManager:Landroidx/recyclerview/widget/LinearLayoutManager;    return-void
 .end method
 
 .method private arePagesLaidOutContiguously()Z
@@ -82,11 +73,7 @@
     const/4 v1, 0x1
 
     .line 8
-    if-nez v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -367,11 +354,7 @@
 
     .line 135
     .line 136
-    if-eq v5, v6, :cond_7
-
-    .line 137
-    .line 138
-    return v3
+    if-eq v5, v6, :cond_7    return v3
 
     .line 139
     :cond_7
@@ -582,11 +565,7 @@
     move-result v0
 
     .line 20
-    if-eqz v0, :cond_1
-
-    .line 21
-    .line 22
-    return v1
+    if-eqz v0, :cond_1    return v1
 
     .line 23
     :cond_1
@@ -594,5 +573,4 @@
 
     return v0
 .end method
-
 .end class

@@ -171,11 +171,7 @@
 
     .line 28
     .line 29
-    iput-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams;->mInflater:Landroid/view/LayoutInflater;
-
-    .line 30
-    .line 31
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams;->mInflater:Landroid/view/LayoutInflater;    return-void
 .end method
 
 .method private createListView(Landroidx/appcompat/app/AlertController;)V
@@ -548,11 +544,7 @@
     .line 171
     :cond_a
     :goto_4
-    iput-object v6, v7, Landroidx/appcompat/app/AlertController;->mListView:Landroid/widget/ListView;
-
-    .line 172
-    .line 173
-    return-void
+    iput-object v6, v7, Landroidx/appcompat/app/AlertController;->mListView:Landroid/widget/ListView;    return-void
 .end method
 
 
@@ -848,21 +840,11 @@
 
     .line 134
     .line 135
-    invoke-virtual/range {v7 .. v12}, Landroidx/appcompat/app/AlertController;->setView(Landroid/view/View;IIII)V
-
-    .line 136
-    .line 137
-    .line 138
-    return-void
+    invoke-virtual/range {v7 .. v12}, Landroidx/appcompat/app/AlertController;->setView(Landroid/view/View;IIII)V    return-void
 
     .line 139
     :cond_e
-    invoke-virtual {v7, v8}, Landroidx/appcompat/app/AlertController;->setView(Landroid/view/View;)V
-
-    .line 140
-    .line 141
-    .line 142
-    return-void
+    invoke-virtual {v7, v8}, Landroidx/appcompat/app/AlertController;->setView(Landroid/view/View;)V    return-void
 
     .line 143
     :cond_f
@@ -882,5 +864,4 @@
     :cond_10
     return-void
 .end method
-
 .end class

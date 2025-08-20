@@ -93,22 +93,14 @@
 
     .line 21
     .line 22
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
-
-    .line 23
-    .line 24
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/motion/widget/ViewTransitionController;)Landroidx/constraintlayout/motion/widget/MotionLayout;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;    return-object p0
 .end method
 
 .method private listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V
@@ -165,12 +157,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v6, v7, v0}, Landroidx/constraintlayout/widget/SharedValues;->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {v6, v7, v0}, Landroidx/constraintlayout/widget/SharedValues;->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V    return-void
 .end method
 
 .method private varargs viewTransition(Landroidx/constraintlayout/motion/widget/ViewTransition;[Landroid/view/View;)V
@@ -304,12 +291,7 @@
     const/4 v0, 0x1
 
     .line 17
-    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V    return-void
 
     .line 21
     :cond_0
@@ -370,12 +352,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public animate()V
@@ -629,12 +606,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public isViewTransitionEnabled(I)Z
@@ -799,12 +771,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public touchEvent(Landroid/view/MotionEvent;)V
@@ -1347,5 +1314,4 @@
     :cond_5
     return-void
 .end method
-
 .end class

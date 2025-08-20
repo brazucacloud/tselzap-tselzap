@@ -35,11 +35,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;    return-void
 .end method
 
 
@@ -106,12 +102,7 @@
 
     .line 28
     .line 29
-    invoke-interface {v0}, Ljava/util/Map;->clear()V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-interface {v0}, Ljava/util/Map;->clear()V    return-void
 .end method
 
 .method public final get(Ljava/lang/String;)Landroidx/lifecycle/ViewModel;
@@ -144,11 +135,7 @@
     move-result-object p1
 
     .line 12
-    check-cast p1, Landroidx/lifecycle/ViewModel;
-
-    .line 13
-    .line 14
-    return-object p1
+    check-cast p1, Landroidx/lifecycle/ViewModel;    return-object p1
 .end method
 
 .method public final keys()Ljava/util/Set;
@@ -185,12 +172,7 @@
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V    return-object v0
 .end method
 
 .method public final put(Ljava/lang/String;Landroidx/lifecycle/ViewModel;)V
@@ -248,5 +230,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

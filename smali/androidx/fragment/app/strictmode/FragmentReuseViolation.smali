@@ -75,11 +75,7 @@
     .line 34
     .line 35
     .line 36
-    iput-object p2, p0, Landroidx/fragment/app/strictmode/FragmentReuseViolation;->previousFragmentId:Ljava/lang/String;
-
-    .line 37
-    .line 38
-    return-void
+    iput-object p2, p0, Landroidx/fragment/app/strictmode/FragmentReuseViolation;->previousFragmentId:Ljava/lang/String;    return-void
 .end method
 
 
@@ -88,11 +84,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentReuseViolation;->previousFragmentId:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentReuseViolation;->previousFragmentId:Ljava/lang/String;    return-object v0
 .end method
-
 .end class

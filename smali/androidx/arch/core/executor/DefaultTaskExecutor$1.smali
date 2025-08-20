@@ -53,11 +53,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/arch/core/executor/DefaultTaskExecutor$1;->mThreadId:Ljava/util/concurrent/atomic/AtomicInteger;
-
-    .line 13
-    .line 14
-    return-void
+    iput-object p1, p0, Landroidx/arch/core/executor/DefaultTaskExecutor$1;->mThreadId:Ljava/util/concurrent/atomic/AtomicInteger;    return-void
 .end method
 
 
@@ -113,12 +109,6 @@
     move-result-object p1
 
     .line 26
-    invoke-virtual {v0, p1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
-
-    .line 27
-    .line 28
-    .line 29
-    return-object v0
+    invoke-virtual {v0, p1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

@@ -25,12 +25,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -46,11 +41,7 @@
     or-int/2addr p1, v0
 
     .line 4
-    iput p1, p0, Landroidx/navigation/ActivityNavigator$Extras$Builder;->flags:I
-
-    .line 5
-    .line 6
-    return-object p0
+    iput p1, p0, Landroidx/navigation/ActivityNavigator$Extras$Builder;->flags:I    return-object p0
 .end method
 
 .method public final build()Landroidx/navigation/ActivityNavigator$Extras;
@@ -69,12 +60,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/ActivityNavigator$Extras;-><init>(ILandroidx/core/app/ActivityOptionsCompat;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/ActivityNavigator$Extras;-><init>(ILandroidx/core/app/ActivityOptionsCompat;)V    return-object v0
 .end method
 
 .method public final setActivityOptions(Landroidx/core/app/ActivityOptionsCompat;)Landroidx/navigation/ActivityNavigator$Extras$Builder;
@@ -90,11 +76,6 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/ActivityNavigator$Extras$Builder;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;
-
-    .line 7
-    .line 8
-    return-object p0
+    iput-object p1, p0, Landroidx/navigation/ActivityNavigator$Extras$Builder;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;    return-object p0
 .end method
-
 .end class

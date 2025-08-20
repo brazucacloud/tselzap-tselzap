@@ -87,11 +87,7 @@
     move-result-object v0
 
     .line 20
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/Easing;->NAMED_EASING:[Ljava/lang/String;
-
-    .line 21
-    .line 22
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/Easing;->NAMED_EASING:[Ljava/lang/String;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -107,11 +103,7 @@
 
     .line 5
     .line 6
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;    return-void
 .end method
 
 .method public static getInterpolator(Ljava/lang/String;)Landroidx/constraintlayout/core/motion/utils/Easing;
@@ -148,12 +140,7 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object v0
 
     .line 19
     :cond_1
@@ -177,12 +164,7 @@
 
     .line 28
     .line 29
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/motion/utils/StepCurve;-><init>(Ljava/lang/String;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/motion/utils/StepCurve;-><init>(Ljava/lang/String;)V    return-object v0
 
     .line 33
     :cond_2
@@ -206,12 +188,7 @@
 
     .line 42
     .line 43
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/motion/utils/Schlick;-><init>(Ljava/lang/String;)V
-
-    .line 44
-    .line 45
-    .line 46
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/motion/utils/Schlick;-><init>(Ljava/lang/String;)V    return-object v0
 
     .line 47
     :cond_3
@@ -446,11 +423,7 @@
     .line 147
     .line 148
     .line 149
-    sget-object p0, Landroidx/constraintlayout/core/motion/utils/Easing;->sDefault:Landroidx/constraintlayout/core/motion/utils/Easing;
-
-    .line 150
-    .line 151
-    return-object p0
+    sget-object p0, Landroidx/constraintlayout/core/motion/utils/Easing;->sDefault:Landroidx/constraintlayout/core/motion/utils/Easing;    return-object p0
 
     .line 152
     :pswitch_0
@@ -462,12 +435,7 @@
 
     .line 155
     .line 156
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 157
-    .line 158
-    .line 159
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object p0
 
     .line 160
     :pswitch_1
@@ -479,12 +447,7 @@
 
     .line 163
     .line 164
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 165
-    .line 166
-    .line 167
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object p0
 
     .line 168
     :pswitch_2
@@ -496,12 +459,7 @@
 
     .line 171
     .line 172
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 173
-    .line 174
-    .line 175
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object p0
 
     .line 176
     :pswitch_3
@@ -513,12 +471,7 @@
 
     .line 179
     .line 180
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 181
-    .line 182
-    .line 183
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object p0
 
     .line 184
     :pswitch_4
@@ -530,12 +483,7 @@
 
     .line 187
     .line 188
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 189
-    .line 190
-    .line 191
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object p0
 
     .line 192
     :pswitch_5
@@ -547,12 +495,7 @@
 
     .line 195
     .line 196
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V
-
-    .line 197
-    .line 198
-    .line 199
-    return-object p0
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;-><init>(Ljava/lang/String;)V    return-object p0
 
     .line 200
     nop
@@ -602,24 +545,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    .end packed-switch.end method
 
 
 # virtual methods
@@ -641,11 +567,6 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;    return-object v0
 .end method
-
 .end class

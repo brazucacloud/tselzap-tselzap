@@ -69,11 +69,7 @@
     const/4 p1, 0x0
 
     .line 16
-    iput-boolean p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;->mOnDrawScheduled:Z
-
-    .line 17
-    .line 18
-    return-void
+    iput-boolean p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;->mOnDrawScheduled:Z    return-void
 .end method
 
 .method public static synthetic a(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;)V
@@ -172,12 +168,7 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnDrawListener(Landroid/view/ViewTreeObserver$OnDrawListener;)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnDrawListener(Landroid/view/ViewTreeObserver$OnDrawListener;)V    return-void
 .end method
 
 .method public execute(Ljava/lang/Runnable;)V
@@ -236,21 +227,11 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
 
     .line 31
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V    return-void
 
     .line 35
     :cond_1
@@ -266,12 +247,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p1, v0}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V    return-void
 .end method
 
 .method public onDraw()V
@@ -345,12 +321,7 @@
     move-result-object v0
 
     .line 34
-    invoke-virtual {v0, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {v0, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
 
     .line 38
     :cond_0
@@ -439,12 +410,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnDrawListener(Landroid/view/ViewTreeObserver$OnDrawListener;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnDrawListener(Landroid/view/ViewTreeObserver$OnDrawListener;)V    return-void
 .end method
 
 .method public viewCreated(Landroid/view/View;)V
@@ -486,5 +452,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

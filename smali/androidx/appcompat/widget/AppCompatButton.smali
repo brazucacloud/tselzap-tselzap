@@ -142,11 +142,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatButton;->mAppCompatEmojiTextHelper:Landroidx/appcompat/widget/AppCompatEmojiTextHelper;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatButton;->mAppCompatEmojiTextHelper:Landroidx/appcompat/widget/AppCompatEmojiTextHelper;    return-object v0
 .end method
 
 
@@ -397,11 +393,7 @@
     const/4 v0, 0x0
 
     .line 20
-    new-array v0, v0, [I
-
-    .line 21
-    .line 22
-    return-object v0
+    new-array v0, v0, [I    return-object v0
 .end method
 
 .method public getAutoSizeTextType()I
@@ -441,11 +433,7 @@
     const/4 v2, 0x1
 
     .line 11
-    if-ne v0, v2, :cond_0
-
-    .line 12
-    .line 13
-    return v2
+    if-ne v0, v2, :cond_0    return v2
 
     .line 14
     :cond_0
@@ -666,12 +654,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -695,12 +678,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setClassName(Ljava/lang/CharSequence;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setClassName(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public onLayout(ZIIII)V
@@ -814,12 +792,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setAllCaps(Z)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setAllCaps(Z)V    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithConfiguration(IIII)V
@@ -839,12 +812,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/Button;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/Button;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V    return-void
 
     .line 9
     :cond_0
@@ -886,12 +854,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1, p2}, Landroid/widget/Button;->setAutoSizeTextTypeUniformWithPresetSizes([II)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/Button;->setAutoSizeTextTypeUniformWithPresetSizes([II)V    return-void
 
     .line 9
     :cond_0
@@ -929,12 +892,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/widget/Button;->setAutoSizeTextTypeWithDefaults(I)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/Button;->setAutoSizeTextTypeWithDefaults(I)V    return-void
 
     .line 9
     :cond_0
@@ -1031,12 +989,7 @@
     move-result-object p1
 
     .line 5
-    invoke-super {p0, p1}, Landroid/widget/Button;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/Button;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V    return-void
 .end method
 
 .method public setEmojiCompatEnabled(Z)V
@@ -1051,12 +1004,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V    return-void
 .end method
 
 .method public setFilters([Landroid/text/InputFilter;)V
@@ -1083,12 +1031,7 @@
     move-result-object p1
 
     .line 9
-    invoke-super {p0, p1}, Landroid/widget/Button;->setFilters([Landroid/text/InputFilter;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-super {p0, p1}, Landroid/widget/Button;->setFilters([Landroid/text/InputFilter;)V    return-void
 .end method
 
 .method public setSupportAllCaps(Z)V
@@ -1198,12 +1141,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V    return-void
 .end method
 
 .method public setSupportCompoundDrawablesTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -1232,12 +1170,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V    return-void
 .end method
 
 .method public setTextAppearance(Landroid/content/Context;I)V
@@ -1278,12 +1211,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1, p2}, Landroid/widget/Button;->setTextSize(IF)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/Button;->setTextSize(IF)V    return-void
 
     .line 9
     :cond_0
@@ -1303,5 +1231,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

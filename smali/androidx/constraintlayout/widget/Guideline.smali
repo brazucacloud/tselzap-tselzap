@@ -108,23 +108,14 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, p1}, Landroid/view/View;->setMeasuredDimension(II)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-virtual {p0, p1, p1}, Landroid/view/View;->setMeasuredDimension(II)V    return-void
 .end method
 
 .method public setFilterRedundantCalls(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/Guideline;->mFilterRedundantCalls:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/Guideline;->mFilterRedundantCalls:Z    return-void
 .end method
 
 .method public setGuidelineBegin(I)V
@@ -155,11 +146,7 @@
 
     .line 12
     .line 13
-    if-ne v1, p1, :cond_0
-
-    .line 14
-    .line 15
-    return-void
+    if-ne v1, p1, :cond_0    return-void
 
     .line 16
     :cond_0
@@ -167,12 +154,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public setGuidelineEnd(I)V
@@ -203,11 +185,7 @@
 
     .line 12
     .line 13
-    if-ne v1, p1, :cond_0
-
-    .line 14
-    .line 15
-    return-void
+    if-ne v1, p1, :cond_0    return-void
 
     .line 16
     :cond_0
@@ -215,12 +193,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public setGuidelinePercent(F)V
@@ -255,11 +228,7 @@
 
     .line 14
     .line 15
-    if-nez v1, :cond_0
-
-    .line 16
-    .line 17
-    return-void
+    if-nez v1, :cond_0    return-void
 
     .line 18
     :cond_0
@@ -267,12 +236,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public setVisibility(I)V
@@ -280,5 +244,4 @@
 
     return-void
 .end method
-
 .end class

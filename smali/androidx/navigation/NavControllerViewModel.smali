@@ -63,11 +63,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/navigation/NavControllerViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/navigation/NavControllerViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -88,22 +84,14 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/navigation/NavControllerViewModel;->viewModelStores:Ljava/util/Map;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/navigation/NavControllerViewModel;->viewModelStores:Ljava/util/Map;    return-void
 .end method
 
 .method public static final synthetic access$getFACTORY$cp()Landroidx/lifecycle/ViewModelProvider$Factory;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/navigation/NavControllerViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/NavControllerViewModel;->FACTORY:Landroidx/lifecycle/ViewModelProvider$Factory;    return-object v0
 .end method
 
 .method public static final getInstance(Landroidx/lifecycle/ViewModelStore;)Landroidx/navigation/NavControllerViewModel;
@@ -279,12 +267,7 @@
 
     .line 28
     .line 29
-    invoke-interface {v0}, Ljava/util/Map;->clear()V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-interface {v0}, Ljava/util/Map;->clear()V    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -427,5 +410,4 @@
 
     return-object v0
 .end method
-
 .end class

@@ -34,11 +34,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLContainer;->mElements:Ljava/util/ArrayList;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLContainer;->mElements:Ljava/util/ArrayList;    return-void
 .end method
 
 .method public static allocate([C)Landroidx/constraintlayout/core/parser/CLElement;
@@ -49,12 +45,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V    return-object v0
 .end method
 
 
@@ -141,12 +132,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
 .end method
 
 .method public clone()Landroidx/constraintlayout/core/parser/CLContainer;
@@ -493,11 +479,7 @@
     move-result-object v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 8
     :cond_0
@@ -517,12 +499,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/parser/CLContainer;->put(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-object v0
+    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/parser/CLContainer;->put(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)V    return-object v0
 .end method
 
 .method public getArrayOrNull(Ljava/lang/String;)Landroidx/constraintlayout/core/parser/CLArray;
@@ -545,11 +522,7 @@
 
     .line 8
     .line 9
-    check-cast p1, Landroidx/constraintlayout/core/parser/CLArray;
-
-    .line 10
-    .line 11
-    return-object p1
+    check-cast p1, Landroidx/constraintlayout/core/parser/CLArray;    return-object p1
 
     .line 12
     :cond_0
@@ -771,11 +744,7 @@
 
     .line 14
     :cond_0
-    const/high16 p1, 0x7fc00000    # Float.NaN
-
-    .line 15
-    .line 16
-    return p1
+    const/high16 p1, 0x7fc00000    # Float.NaN    return p1
 .end method
 
 .method public getInt(I)I
@@ -972,11 +941,7 @@
 
     .line 8
     .line 9
-    check-cast p1, Landroidx/constraintlayout/core/parser/CLObject;
-
-    .line 10
-    .line 11
-    return-object p1
+    check-cast p1, Landroidx/constraintlayout/core/parser/CLObject;    return-object p1
 
     .line 12
     :cond_0
@@ -1516,12 +1481,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v1, p2}, Landroidx/constraintlayout/core/parser/CLKey;->set(Landroidx/constraintlayout/core/parser/CLElement;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {v1, p2}, Landroidx/constraintlayout/core/parser/CLKey;->set(Landroidx/constraintlayout/core/parser/CLElement;)V    return-void
 
     .line 35
     :cond_1
@@ -1541,12 +1501,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 44
-    .line 45
-    .line 46
-    return-void
+    invoke-virtual {p2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public putNumber(Ljava/lang/String;F)V
@@ -1562,12 +1517,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/parser/CLContainer;->put(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/parser/CLContainer;->put(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)V    return-void
 .end method
 
 .method public putString(Ljava/lang/String;Ljava/lang/String;)V
@@ -1620,12 +1570,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/parser/CLContainer;->put(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/parser/CLContainer;->put(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)V    return-void
 .end method
 
 .method public remove(Ljava/lang/String;)V
@@ -1917,5 +1862,4 @@
 
     return-object v0
 .end method
-
 .end class

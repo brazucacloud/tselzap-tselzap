@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V    return-void
 .end method
 
 
@@ -45,12 +40,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->onChange()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->onChange()V    return-void
 .end method
-
 .end class

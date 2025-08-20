@@ -4,5 +4,4 @@
 
 # interfaces
 .implements Landroidx/datastore/preferences/protobuf/MessageLiteOrBuilder;
-
 .end class

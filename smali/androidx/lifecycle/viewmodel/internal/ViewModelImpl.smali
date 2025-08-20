@@ -195,34 +195,21 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;->closeWithRuntimeException(Ljava/lang/AutoCloseable;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;->closeWithRuntimeException(Ljava/lang/AutoCloseable;)V    return-void
 .end method
 
 .method public static final synthetic access$getCloseables$p(Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;)Ljava/util/Set;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;->closeables:Ljava/util/Set;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;->closeables:Ljava/util/Set;    return-object p0
 .end method
 
 .method public static final synthetic access$getKeyToCloseables$p(Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;)Ljava/util/Map;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;->keyToCloseables:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;->keyToCloseables:Ljava/util/Map;    return-object p0
 .end method
 
 .method private final closeWithRuntimeException(Ljava/lang/AutoCloseable;)V
@@ -236,12 +223,7 @@
     :try_start_0
     invoke-interface {p1}, Ljava/lang/AutoCloseable;->close()V
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
     .line 7
     :catch_0
@@ -382,11 +364,7 @@
 
     .line 2
     .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -544,18 +522,7 @@
     monitor-exit v0
 
     .line 76
-    throw v1
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v1.end method
 
 .method public final getCloseable(Ljava/lang/String;)Ljava/lang/AutoCloseable;
     .locals 2
@@ -621,11 +588,5 @@
     monitor-exit v0
 
     .line 23
-    throw p1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
-
+    throw p1.end method
 .end class

@@ -58,12 +58,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0, v0}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p0, v0}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;    return-void
 .end method
 
 
@@ -114,12 +109,6 @@
 
     .line 14
     .line 15
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
-
 .end class

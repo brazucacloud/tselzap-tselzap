@@ -133,11 +133,7 @@
 
     .line 36
     .line 37
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mRun:Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;
-
-    .line 38
-    .line 39
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mRun:Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;    return-void
 .end method
 
 
@@ -209,11 +205,7 @@
 
     .line 17
     .line 18
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->delegateToWidgetRun:Z
-
-    .line 19
-    .line 20
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->delegateToWidgetRun:Z    return-void
 .end method
 
 .method public name()Ljava/lang/String;
@@ -658,12 +650,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->update(Landroidx/constraintlayout/core/widgets/analyzer/Dependency;)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->update(Landroidx/constraintlayout/core/widgets/analyzer/Dependency;)V    return-void
 
     .line 44
     :cond_3
@@ -816,5 +803,4 @@
     :goto_1
     return-void
 .end method
-
 .end class

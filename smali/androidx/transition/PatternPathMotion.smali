@@ -290,12 +290,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {p2, p3, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
-
-    .line 43
-    .line 44
-    .line 45
-    return-object p1
+    invoke-virtual {p2, p3, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;Landroid/graphics/Path;)V    return-object p1
 .end method
 
 .method public getPatternPath()Landroid/graphics/Path;
@@ -304,11 +299,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/PatternPathMotion;->mOriginalPatternPath:Landroid/graphics/Path;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/transition/PatternPathMotion;->mOriginalPatternPath:Landroid/graphics/Path;    return-object v0
 .end method
 
 .method public setPatternPath(Landroid/graphics/Path;)V
@@ -514,11 +505,6 @@
     .line 91
     .line 92
     .line 93
-    iput-object p1, p0, Landroidx/transition/PatternPathMotion;->mOriginalPatternPath:Landroid/graphics/Path;
-
-    .line 94
-    .line 95
-    return-void
+    iput-object p1, p0, Landroidx/transition/PatternPathMotion;->mOriginalPatternPath:Landroid/graphics/Path;    return-void
 .end method
-
 .end class

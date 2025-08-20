@@ -68,12 +68,7 @@
 
     .line 15
     .line 16
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Api33Ext4JavaImpl;-><init>(Landroidx/privacysandbox/ads/adservices/adid/AdIdManager;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Api33Ext4JavaImpl;-><init>(Landroidx/privacysandbox/ads/adservices/adid/AdIdManager;)V    return-object v0
 
     .line 20
     :cond_0
@@ -81,5 +76,4 @@
 
     return-object p1
 .end method
-
 .end class

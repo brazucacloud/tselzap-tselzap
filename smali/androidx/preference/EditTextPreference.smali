@@ -136,11 +136,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/EditTextPreference;->mOnBindEditTextListener:Landroidx/preference/EditTextPreference$OnBindEditTextListener;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/EditTextPreference;->mOnBindEditTextListener:Landroidx/preference/EditTextPreference$OnBindEditTextListener;    return-object v0
 .end method
 
 .method public getText()Ljava/lang/String;
@@ -149,11 +145,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/EditTextPreference;->mText:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/preference/EditTextPreference;->mText:Ljava/lang/String;    return-object v0
 .end method
 
 .method public onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
@@ -235,22 +227,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroidx/preference/EditTextPreference;->setText(Ljava/lang/String;)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/EditTextPreference;->setText(Ljava/lang/String;)V    return-void
 
     .line 31
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -275,11 +257,7 @@
     move-result v1
 
     .line 9
-    if-eqz v1, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v1, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -300,11 +278,7 @@
     move-result-object v0
 
     .line 21
-    iput-object v0, v1, Landroidx/preference/EditTextPreference$SavedState;->mText:Ljava/lang/String;
-
-    .line 22
-    .line 23
-    return-object v1
+    iput-object v0, v1, Landroidx/preference/EditTextPreference$SavedState;->mText:Ljava/lang/String;    return-object v1
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -323,12 +297,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/preference/EditTextPreference;->setText(Ljava/lang/String;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/EditTextPreference;->setText(Ljava/lang/String;)V    return-void
 .end method
 
 .method public setOnBindEditTextListener(Landroidx/preference/EditTextPreference$OnBindEditTextListener;)V
@@ -339,11 +308,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/EditTextPreference;->mOnBindEditTextListener:Landroidx/preference/EditTextPreference$OnBindEditTextListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/preference/EditTextPreference;->mOnBindEditTextListener:Landroidx/preference/EditTextPreference$OnBindEditTextListener;    return-void
 .end method
 
 .method public setText(Ljava/lang/String;)V
@@ -389,12 +354,7 @@
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V    return-void
 .end method
 
 .method public shouldDisableDependents()Z
@@ -444,5 +404,4 @@
 
     return v0
 .end method
-
 .end class

@@ -41,12 +41,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -68,12 +63,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V    return-void
 .end method
 
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
@@ -81,5 +71,4 @@
 
     return-void
 .end method
-
 .end class

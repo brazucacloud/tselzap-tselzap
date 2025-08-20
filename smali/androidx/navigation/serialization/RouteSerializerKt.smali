@@ -217,11 +217,7 @@
     move-result p0
 
     .line 61
-    if-eqz p0, :cond_5
-
-    .line 62
-    .line 63
-    return-object v2
+    if-eqz p0, :cond_5    return-object v2
 
     .line 64
     :cond_5
@@ -229,12 +225,7 @@
 
     .line 65
     .line 66
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 67
-    .line 68
-    .line 69
-    return-object p1
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
 
 .method private static final forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
@@ -434,12 +425,7 @@
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V    return-void
 .end method
 
 .method private static final forEachIndexedName(LJ1/b;Ljava/util/Map;Lp1/q;)V
@@ -1201,11 +1187,7 @@
     const/4 v0, 0x1
 
     .line 29
-    if-ne p0, v0, :cond_0
-
-    .line 30
-    .line 31
-    return v0
+    if-ne p0, v0, :cond_0    return v0
 
     .line 32
     :cond_0
@@ -1287,5 +1269,4 @@
 
     return-object p0
 .end method
-
 .end class

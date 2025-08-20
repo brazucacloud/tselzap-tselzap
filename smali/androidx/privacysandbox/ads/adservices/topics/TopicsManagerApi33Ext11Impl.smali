@@ -70,12 +70,7 @@
     move-result-object p1
 
     .line 23
-    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;-><init>(Landroid/adservices/topics/TopicsManager;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;-><init>(Landroid/adservices/topics/TopicsManager;)V    return-void
 .end method
 
 
@@ -135,5 +130,4 @@
 
     return-object p1
 .end method
-
 .end class

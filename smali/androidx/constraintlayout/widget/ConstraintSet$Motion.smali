@@ -246,12 +246,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
-
-    .line 87
-    .line 88
-    .line 89
-    return-void
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V    return-void
 .end method
 
 .method public constructor <init>()V
@@ -331,11 +326,7 @@
 
     .line 35
     .line 36
-    iput v1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Motion;->mQuantizeInterpolatorID:I
-
-    .line 37
-    .line 38
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Motion;->mQuantizeInterpolatorID:I    return-void
 .end method
 
 
@@ -404,11 +395,7 @@
 
     .line 30
     .line 31
-    iput p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Motion;->mPolarRelativeTo:I
-
-    .line 32
-    .line 33
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Motion;->mPolarRelativeTo:I    return-void
 .end method
 
 .method public fillFromAttributeList(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -834,12 +821,7 @@
     .line 193
     .line 194
     :cond_5
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 195
-    .line 196
-    .line 197
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 
     .line 198
     nop
@@ -857,46 +839,5 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-.end method
-
+    .end packed-switch.end method
 .end class

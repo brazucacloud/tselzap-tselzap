@@ -50,11 +50,7 @@
     .line 12
     .line 13
     .line 14
-    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isPop:Z
-
-    .line 15
-    .line 16
-    return-void
+    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isPop:Z    return-void
 .end method
 
 
@@ -80,11 +76,7 @@
 
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
-
-    .line 11
-    .line 12
-    return-object p1
+    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;    return-object p1
 
     .line 13
     :cond_0
@@ -158,11 +150,6 @@
 
     .line 44
     .line 45
-    iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z
-
-    .line 46
-    .line 47
-    return-object p1
+    iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z    return-object p1
 .end method
-
 .end class

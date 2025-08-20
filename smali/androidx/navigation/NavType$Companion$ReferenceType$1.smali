@@ -30,12 +30,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V    return-void
 .end method
 
 
@@ -79,11 +74,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "reference"
-
-    .line 2
-    .line 3
-    return-object v0
+    const-string v0, "reference"    return-object v0
 .end method
 
 .method public parseValue(Ljava/lang/String;)Ljava/lang/Integer;
@@ -185,5 +176,4 @@
 
     return-void
 .end method
-
 .end class

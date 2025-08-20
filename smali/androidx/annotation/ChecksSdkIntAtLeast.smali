@@ -47,5 +47,4 @@
 
 .method public abstract parameter()I
 .end method
-
 .end class

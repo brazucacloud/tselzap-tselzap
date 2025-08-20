@@ -136,11 +136,7 @@
     .line 16
     .line 17
     .line 18
-    iget p0, p1, Landroid/util/TypedValue;->resourceId:I
-
-    .line 19
-    .line 20
-    return p0
+    iget p0, p1, Landroid/util/TypedValue;->resourceId:I    return p0
 
     .line 21
     :cond_0
@@ -209,12 +205,7 @@
     move-result-object v0
 
     .line 31
-    invoke-static {v0, p0}, Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner;->set(Landroid/view/View;Landroidx/activity/OnBackPressedDispatcherOwner;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-static {v0, p0}, Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner;->set(Landroid/view/View;Landroidx/activity/OnBackPressedDispatcherOwner;)V    return-void
 .end method
 
 
@@ -235,12 +226,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegate;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegate;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public dismiss()V
@@ -260,12 +246,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onDestroy()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onDestroy()V    return-void
 .end method
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -365,11 +346,7 @@
     .line 10
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDialog;->mDelegate:Landroidx/appcompat/app/AppCompatDelegate;
-
-    .line 12
-    .line 13
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDialog;->mDelegate:Landroidx/appcompat/app/AppCompatDelegate;    return-object v0
 .end method
 
 .method public getSupportActionBar()Landroidx/appcompat/app/ActionBar;
@@ -411,12 +388,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->invalidateOptionsMenu()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->invalidateOptionsMenu()V    return-void
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -449,12 +421,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->onCreate(Landroid/os/Bundle;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->onCreate(Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public onStop()V
@@ -474,12 +441,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onStop()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onStop()V    return-void
 .end method
 
 .method public onSupportActionModeFinished(Landroidx/appcompat/view/ActionMode;)V
@@ -639,5 +601,4 @@
 
     return p1
 .end method
-
 .end class

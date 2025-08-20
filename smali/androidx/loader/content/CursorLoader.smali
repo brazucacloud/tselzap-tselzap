@@ -167,12 +167,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 18
-    throw v0
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public deliverResult(Landroid/database/Cursor;)V
     .locals 2
@@ -421,12 +416,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
-
-    .line 101
-    .line 102
-    .line 103
-    return-void
+    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
 .end method
 
 .method public getProjection()[Ljava/lang/String;
@@ -435,11 +425,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mProjection:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mProjection:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public getSelection()Ljava/lang/String;
@@ -448,11 +434,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mSelection:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mSelection:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getSelectionArgs()[Ljava/lang/String;
@@ -461,11 +443,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mSelectionArgs:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mSelectionArgs:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public getSortOrder()Ljava/lang/String;
@@ -474,11 +452,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mSortOrder:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mSortOrder:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getUri()Landroid/net/Uri;
@@ -487,11 +461,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/CursorLoader;->mUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public loadInBackground()Landroid/database/Cursor;
@@ -742,11 +712,7 @@
     const/4 v0, 0x0
 
     .line 23
-    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->mCursor:Landroid/database/Cursor;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object v0, p0, Landroidx/loader/content/CursorLoader;->mCursor:Landroid/database/Cursor;    return-void
 .end method
 
 .method public onStartLoading()V
@@ -796,24 +762,14 @@
     .line 20
     :cond_2
     :goto_0
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V    return-void
 .end method
 
 .method public onStopLoading()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->cancelLoad()Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->cancelLoad()Z    return-void
 .end method
 
 .method public setProjection([Ljava/lang/String;)V
@@ -824,11 +780,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mProjection:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mProjection:[Ljava/lang/String;    return-void
 .end method
 
 .method public setSelection(Ljava/lang/String;)V
@@ -839,11 +791,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mSelection:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mSelection:Ljava/lang/String;    return-void
 .end method
 
 .method public setSelectionArgs([Ljava/lang/String;)V
@@ -854,11 +802,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mSelectionArgs:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mSelectionArgs:[Ljava/lang/String;    return-void
 .end method
 
 .method public setSortOrder(Ljava/lang/String;)V
@@ -869,11 +813,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mSortOrder:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mSortOrder:Ljava/lang/String;    return-void
 .end method
 
 .method public setUri(Landroid/net/Uri;)V
@@ -884,11 +824,6 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mUri:Landroid/net/Uri;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/loader/content/CursorLoader;->mUri:Landroid/net/Uri;    return-void
 .end method
-
 .end class

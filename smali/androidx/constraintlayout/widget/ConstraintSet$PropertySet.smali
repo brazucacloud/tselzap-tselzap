@@ -63,11 +63,7 @@
 
     .line 16
     .line 17
-    iput v0, p0, Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;->mProgress:F
-
-    .line 18
-    .line 19
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;->mProgress:F    return-void
 .end method
 
 
@@ -112,11 +108,7 @@
 
     .line 18
     .line 19
-    iput p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;->mVisibilityMode:I
-
-    .line 20
-    .line 21
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;->mVisibilityMode:I    return-void
 .end method
 
 .method public fillFromAttributeList(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -304,12 +296,6 @@
 
     .line 85
     :cond_4
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 86
-    .line 87
-    .line 88
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
-
 .end class

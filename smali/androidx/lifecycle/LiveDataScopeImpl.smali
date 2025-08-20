@@ -93,11 +93,7 @@
     move-result-object p1
 
     .line 26
-    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lg1/i;
-
-    .line 27
-    .line 28
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lg1/i;    return-void
 .end method
 
 
@@ -150,19 +146,11 @@
 
     .line 14
     .line 15
-    if-ne p1, p2, :cond_0
-
-    .line 16
-    .line 17
-    return-object p1
+    if-ne p1, p2, :cond_0    return-object p1
 
     .line 18
     :cond_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 19
-    .line 20
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
 .method public emitSource(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
@@ -241,11 +229,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->target:Landroidx/lifecycle/CoroutineLiveData;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->target:Landroidx/lifecycle/CoroutineLiveData;    return-object v0
 .end method
 
 .method public final setTarget$lifecycle_livedata_release(Landroidx/lifecycle/CoroutineLiveData;)V
@@ -268,11 +252,6 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->target:Landroidx/lifecycle/CoroutineLiveData;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->target:Landroidx/lifecycle/CoroutineLiveData;    return-void
 .end method
-
 .end class

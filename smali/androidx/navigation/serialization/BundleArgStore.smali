@@ -61,11 +61,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/navigation/serialization/BundleArgStore;->typeMap:Ljava/util/Map;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/navigation/serialization/BundleArgStore;->typeMap:Ljava/util/Map;    return-void
 .end method
 
 
@@ -149,5 +145,4 @@
 
     return-object p1
 .end method
-
 .end class

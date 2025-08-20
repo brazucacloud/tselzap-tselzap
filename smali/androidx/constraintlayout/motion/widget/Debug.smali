@@ -16,12 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static dumpLayoutParams(Landroid/view/ViewGroup$LayoutParams;Ljava/lang/String;)V
@@ -919,12 +914,7 @@
     move-result-object v0
 
     .line 235
-    invoke-virtual {p0, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 236
-    .line 237
-    .line 238
-    return-void
+    invoke-virtual {p0, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public static getActionType(Landroid/view/MotionEvent;)Ljava/lang/String;
@@ -1048,11 +1038,7 @@
 
     .line 54
     :cond_1
-    const-string p0, "---"
-
-    .line 55
-    .line 56
-    return-object p0
+    const-string p0, "---"    return-object p0
 .end method
 
 .method public static getCallFrom(I)Ljava/lang/String;
@@ -2209,5 +2195,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

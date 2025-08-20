@@ -146,12 +146,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {v0, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
 
 
@@ -188,12 +183,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -274,12 +264,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public onTransitionEnd(Landroidx/transition/Transition;)V
@@ -388,12 +373,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -425,12 +405,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -451,5 +426,4 @@
 
     return-void
 .end method
-
 .end class

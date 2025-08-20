@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)LD0/c;
@@ -97,11 +92,7 @@
     .line 25
     iput-object p0, v0, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->tag:Ljava/lang/Object;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 26
-    .line 27
-    return-object v1
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-object v1
 
     .line 28
     :catch_0
@@ -116,5 +107,4 @@
     :cond_0
     return-object v1
 .end method
-
 .end class

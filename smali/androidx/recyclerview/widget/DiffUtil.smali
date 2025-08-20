@@ -44,23 +44,14 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/DiffUtil;->DIAGONAL_COMPARATOR:Ljava/util/Comparator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/DiffUtil;->DIAGONAL_COMPARATOR:Ljava/util/Comparator;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method private static backward(Landroidx/recyclerview/widget/DiffUtil$Range;Landroidx/recyclerview/widget/DiffUtil$Callback;Landroidx/recyclerview/widget/DiffUtil$CenteredArray;Landroidx/recyclerview/widget/DiffUtil$CenteredArray;I)Landroidx/recyclerview/widget/DiffUtil$Snake;
@@ -365,11 +356,7 @@
 
     .line 134
     .line 135
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/DiffUtil$Snake;->reverse:Z
-
-    .line 136
-    .line 137
-    return-object p0
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/DiffUtil$Snake;->reverse:Z    return-object p0
 
     .line 138
     :cond_6
@@ -933,11 +920,7 @@
 
     .line 139
     .line 140
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/DiffUtil$Snake;->reverse:Z
-
-    .line 141
-    .line 142
-    return-object p0
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/DiffUtil$Snake;->reverse:Z    return-object p0
 
     .line 143
     :cond_6
@@ -1054,11 +1037,7 @@
     move-result-object v3
 
     .line 45
-    if-eqz v3, :cond_1
-
-    .line 46
-    .line 47
-    return-object v3
+    if-eqz v3, :cond_1    return-object v3
 
     .line 48
     :cond_1
@@ -1070,11 +1049,7 @@
     move-result-object v3
 
     .line 52
-    if-eqz v3, :cond_2
-
-    .line 53
-    .line 54
-    return-object v3
+    if-eqz v3, :cond_2    return-object v3
 
     .line 55
     :cond_2
@@ -1089,5 +1064,4 @@
     :goto_1
     return-object v1
 .end method
-
 .end class

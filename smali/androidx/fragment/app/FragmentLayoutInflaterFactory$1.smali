@@ -41,12 +41,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -108,12 +103,7 @@
     move-result-object p1
 
     .line 28
-    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController;->forceCompleteAllOperations()V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController;->forceCompleteAllOperations()V    return-void
 .end method
 
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
@@ -121,5 +111,4 @@
 
     return-void
 .end method
-
 .end class

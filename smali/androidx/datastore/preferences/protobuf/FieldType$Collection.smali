@@ -146,11 +146,7 @@
 
     .line 51
     .line 52
-    sput-object v7, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->$VALUES:[Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-
-    .line 53
-    .line 54
-    return-void
+    sput-object v7, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->$VALUES:[Landroidx/datastore/preferences/protobuf/FieldType$Collection;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;IZ)V
@@ -167,11 +163,7 @@
     .line 2
     .line 3
     .line 4
-    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z
-
-    .line 5
-    .line 6
-    return-void
+    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/FieldType$Collection;
@@ -190,11 +182,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;    return-object p0
 .end method
 
 .method public static values()[Landroidx/datastore/preferences/protobuf/FieldType$Collection;
@@ -213,11 +201,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/datastore/preferences/protobuf/FieldType$Collection;    return-object v0
 .end method
 
 
@@ -226,11 +210,6 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z    return v0
 .end method
-
 .end class

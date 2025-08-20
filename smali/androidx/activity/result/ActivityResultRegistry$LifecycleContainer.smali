@@ -55,11 +55,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/activity/result/ActivityResultRegistry$LifecycleContainer;->mObservers:Ljava/util/ArrayList;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/activity/result/ActivityResultRegistry$LifecycleContainer;->mObservers:Ljava/util/ArrayList;    return-void
 .end method
 
 
@@ -85,12 +81,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public clearObservers()V
@@ -151,12 +142,6 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
 .end method
-
 .end class

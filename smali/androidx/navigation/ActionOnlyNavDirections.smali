@@ -35,11 +35,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/navigation/ActionOnlyNavDirections;->arguments:Landroid/os/Bundle;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/navigation/ActionOnlyNavDirections;->arguments:Landroid/os/Bundle;    return-void
 .end method
 
 .method public static synthetic copy$default(Landroidx/navigation/ActionOnlyNavDirections;IILjava/lang/Object;)Landroidx/navigation/ActionOnlyNavDirections;
@@ -86,11 +82,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -149,11 +141,7 @@
     move-result p1
 
     .line 31
-    if-ne v2, p1, :cond_2
-
-    .line 32
-    .line 33
-    return v0
+    if-ne v2, p1, :cond_2    return v0
 
     .line 34
     :cond_2
@@ -165,22 +153,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/ActionOnlyNavDirections;->actionId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/ActionOnlyNavDirections;->actionId:I    return v0
 .end method
 
 .method public getArguments()Landroid/os/Bundle;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ActionOnlyNavDirections;->arguments:Landroid/os/Bundle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ActionOnlyNavDirections;->arguments:Landroid/os/Bundle;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -195,11 +175,7 @@
     move-result v0
 
     .line 5
-    add-int/lit8 v0, v0, 0x1f
-
-    .line 6
-    .line 7
-    return v0
+    add-int/lit8 v0, v0, 0x1f    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -250,5 +226,4 @@
 
     return-object v0
 .end method
-
 .end class

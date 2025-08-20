@@ -34,5 +34,4 @@
 # virtual methods
 .method public abstract value()[Landroidx/annotation/RequiresExtension;
 .end method
-
 .end class

@@ -70,83 +70,49 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V    return-void
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/Timestamp;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Timestamp;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Timestamp;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Timestamp;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Timestamp;    return-object v0
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/protobuf/Timestamp;J)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Timestamp;->setSeconds(J)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Timestamp;->setSeconds(J)V    return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/datastore/preferences/protobuf/Timestamp;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Timestamp;->clearSeconds()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Timestamp;->clearSeconds()V    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Timestamp;I)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Timestamp;->setNanos(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Timestamp;->setNanos(I)V    return-void
 .end method
 
 .method public static synthetic access$400(Landroidx/datastore/preferences/protobuf/Timestamp;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Timestamp;->clearNanos()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Timestamp;->clearNanos()V    return-void
 .end method
 
 .method private clearNanos()V
@@ -156,11 +122,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->nanos_:I
-
-    .line 3
-    .line 4
-    return-void
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->nanos_:I    return-void
 .end method
 
 .method private clearSeconds()V
@@ -171,22 +133,14 @@
 
     .line 2
     .line 3
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J
-
-    .line 4
-    .line 5
-    return-void
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J    return-void
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/protobuf/Timestamp;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Timestamp;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Timestamp;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Timestamp;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Timestamp;    return-object v0
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/protobuf/Timestamp$Builder;
@@ -429,22 +383,14 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->nanos_:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->nanos_:I    return-void
 .end method
 
 .method private setSeconds(J)V
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J
-
-    .line 2
-    .line 3
-    return-void
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J    return-void
 .end method
 
 
@@ -580,11 +526,7 @@
 
     .line 54
     :pswitch_3
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Timestamp;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Timestamp;
-
-    .line 55
-    .line 56
-    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Timestamp;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Timestamp;    return-object p1
 
     .line 57
     :pswitch_4
@@ -637,12 +579,7 @@
 
     .line 79
     .line 80
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/Timestamp$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Timestamp$1;)V
-
-    .line 81
-    .line 82
-    .line 83
-    return-object p1
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/Timestamp$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Timestamp$1;)V    return-object p1
 
     .line 84
     :pswitch_6
@@ -650,12 +587,7 @@
 
     .line 85
     .line 86
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Timestamp;-><init>()V
-
-    .line 87
-    .line 88
-    .line 89
-    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Timestamp;-><init>()V    return-object p1
 
     .line 90
     nop
@@ -670,55 +602,19 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    .end packed-switch.end method
 
 .method public getNanos()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->nanos_:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->nanos_:I    return v0
 .end method
 
 .method public getSeconds()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J    return-wide v0
 .end method
-
 .end class

@@ -42,11 +42,7 @@
     add-int/2addr p2, p0
 
     .line 6
-    mul-int p2, p2, p1
-
-    .line 7
-    .line 8
-    return p2
+    mul-int p2, p2, p1    return p2
 .end method
 
 .method public static c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
@@ -325,5 +321,4 @@
         :pswitch_0
     .end packed-switch
 .end method
-
 .end class

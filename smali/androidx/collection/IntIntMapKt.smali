@@ -24,22 +24,14 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/IntIntMapKt;->EmptyIntIntMap:Landroidx/collection/MutableIntIntMap;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/collection/IntIntMapKt;->EmptyIntIntMap:Landroidx/collection/MutableIntIntMap;    return-void
 .end method
 
 .method public static final emptyIntIntMap()Landroidx/collection/IntIntMap;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/IntIntMapKt;->EmptyIntIntMap:Landroidx/collection/MutableIntIntMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/IntIntMapKt;->EmptyIntIntMap:Landroidx/collection/MutableIntIntMap;    return-object v0
 .end method
 
 .method public static final intIntMapOf()Landroidx/collection/IntIntMap;
@@ -327,5 +319,4 @@
 
     return-object v0
 .end method
-
 .end class

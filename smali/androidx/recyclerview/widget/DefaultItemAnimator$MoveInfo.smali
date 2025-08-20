@@ -52,11 +52,6 @@
 
     .line 11
     .line 12
-    iput p5, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$MoveInfo;->toY:I
-
-    .line 13
-    .line 14
-    return-void
+    iput p5, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$MoveInfo;->toY:I    return-void
 .end method
-
 .end class

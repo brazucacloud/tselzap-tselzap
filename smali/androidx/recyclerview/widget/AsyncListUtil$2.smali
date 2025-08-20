@@ -71,11 +71,7 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil$2;->mLoadedTiles:Landroid/util/SparseBooleanArray;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil$2;->mLoadedTiles:Landroid/util/SparseBooleanArray;    return-void
 .end method
 
 .method private acquireTile()Landroidx/recyclerview/widget/TileList$Tile;
@@ -101,11 +97,7 @@
 
     .line 6
     .line 7
-    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil$2;->mRecycledRoot:Landroidx/recyclerview/widget/TileList$Tile;
-
-    .line 8
-    .line 9
-    return-object v0
+    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil$2;->mRecycledRoot:Landroidx/recyclerview/widget/TileList$Tile;    return-object v0
 
     .line 10
     :cond_0
@@ -125,12 +117,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, v2, v1}, Landroidx/recyclerview/widget/TileList$Tile;-><init>(Ljava/lang/Class;I)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object v0
+    invoke-direct {v0, v2, v1}, Landroidx/recyclerview/widget/TileList$Tile;-><init>(Ljava/lang/Class;I)V    return-object v0
 .end method
 
 .method private addTile(Landroidx/recyclerview/widget/TileList$Tile;)V
@@ -172,12 +159,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->addTile(ILandroidx/recyclerview/widget/TileList$Tile;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->addTile(ILandroidx/recyclerview/widget/TileList$Tile;)V    return-void
 .end method
 
 .method private flushTileCache(I)V
@@ -390,12 +372,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method private removeTile(I)V
@@ -423,12 +400,7 @@
 
     .line 11
     .line 12
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->removeTile(II)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->removeTile(II)V    return-void
 .end method
 
 .method private requestTiles(IIIZ)V
@@ -507,11 +479,7 @@
     move-result v0
 
     .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -580,12 +548,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/AsyncListUtil$2;->addTile(Landroidx/recyclerview/widget/TileList$Tile;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/AsyncListUtil$2;->addTile(Landroidx/recyclerview/widget/TileList$Tile;)V    return-void
 .end method
 
 .method public recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V
@@ -628,11 +591,7 @@
 
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil$2;->mRecycledRoot:Landroidx/recyclerview/widget/TileList$Tile;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil$2;->mRecycledRoot:Landroidx/recyclerview/widget/TileList$Tile;    return-void
 .end method
 
 .method public refresh(I)V
@@ -684,23 +643,14 @@
 
     .line 23
     .line 24
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->updateItemCount(II)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->updateItemCount(II)V    return-void
 .end method
 
 .method public updateRange(IIIII)V
     .locals 1
 
     .line 1
-    if-le p1, p2, :cond_0
-
-    .line 2
-    .line 3
-    return-void
+    if-le p1, p2, :cond_0    return-void
 
     .line 4
     :cond_0
@@ -778,12 +728,7 @@
 
     .line 39
     .line 40
-    invoke-direct {p0, p2, p1, p5, p4}, Landroidx/recyclerview/widget/AsyncListUtil$2;->requestTiles(IIIZ)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-direct {p0, p2, p1, p5, p4}, Landroidx/recyclerview/widget/AsyncListUtil$2;->requestTiles(IIIZ)V    return-void
 
     .line 44
     :cond_1
@@ -807,12 +752,6 @@
     sub-int/2addr p1, p3
 
     .line 54
-    invoke-direct {p0, p2, p1, p5, v0}, Landroidx/recyclerview/widget/AsyncListUtil$2;->requestTiles(IIIZ)V
-
-    .line 55
-    .line 56
-    .line 57
-    return-void
+    invoke-direct {p0, p2, p1, p5, v0}, Landroidx/recyclerview/widget/AsyncListUtil$2;->requestTiles(IIIZ)V    return-void
 .end method
-
 .end class

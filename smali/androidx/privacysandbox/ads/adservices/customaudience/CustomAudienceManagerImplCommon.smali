@@ -60,11 +60,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;->customAudienceManager:Landroid/adservices/customaudience/CustomAudienceManager;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;->customAudienceManager:Landroid/adservices/customaudience/CustomAudienceManager;    return-void
 .end method
 
 .method public static final synthetic access$convertJoinRequest(Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;Landroidx/privacysandbox/ads/adservices/customaudience/JoinCustomAudienceRequest;)Landroid/adservices/customaudience/JoinCustomAudienceRequest;
@@ -384,12 +380,7 @@
 
     .line 102
     .line 103
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 104
-    .line 105
-    .line 106
-    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
 
 .method private final convertJoinRequest(Landroidx/privacysandbox/ads/adservices/customaudience/JoinCustomAudienceRequest;)Landroid/adservices/customaudience/JoinCustomAudienceRequest;
@@ -440,12 +431,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
 
 .method private final convertLeaveRequest(Landroidx/privacysandbox/ads/adservices/customaudience/LeaveCustomAudienceRequest;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest;
@@ -512,12 +498,7 @@
 
     .line 30
     .line 31
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
 .end method
 
 .method private final convertTrustedSignals(Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;)Landroid/adservices/customaudience/TrustedBiddingData;
@@ -681,19 +662,11 @@
 
     .line 35
     .line 36
-    if-ne p0, p1, :cond_2
-
-    .line 37
-    .line 38
-    return-object p0
+    if-ne p0, p1, :cond_2    return-object p0
 
     .line 39
     :cond_2
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 40
-    .line 41
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 .method public static joinCustomAudience$suspendImpl(Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;Landroidx/privacysandbox/ads/adservices/customaudience/JoinCustomAudienceRequest;Lg1/d;)Ljava/lang/Object;
@@ -797,19 +770,11 @@
 
     .line 40
     .line 41
-    if-ne p0, p1, :cond_0
-
-    .line 42
-    .line 43
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 44
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 45
-    .line 46
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 .method public static leaveCustomAudience$suspendImpl(Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;Landroidx/privacysandbox/ads/adservices/customaudience/LeaveCustomAudienceRequest;Lg1/d;)Ljava/lang/Object;
@@ -913,19 +878,11 @@
 
     .line 40
     .line 41
-    if-ne p0, p1, :cond_0
-
-    .line 42
-    .line 43
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 44
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 45
-    .line 46
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 
@@ -966,11 +923,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;->customAudienceManager:Landroid/adservices/customaudience/CustomAudienceManager;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManagerImplCommon;->customAudienceManager:Landroid/adservices/customaudience/CustomAudienceManager;    return-object v0
 .end method
 
 .method public joinCustomAudience(Landroidx/privacysandbox/ads/adservices/customaudience/JoinCustomAudienceRequest;Lg1/d;)Ljava/lang/Object;
@@ -1036,5 +989,4 @@
 
     return-object p1
 .end method
-
 .end class

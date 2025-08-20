@@ -324,13 +324,7 @@
     .line 20
     .line 21
     .line 22
-    throw p0
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p0.end method
 
 .method public static final getDistance-DnnuFBc(J)F
     .locals 2
@@ -857,5 +851,4 @@
 
     return-wide p0
 .end method
-
 .end class

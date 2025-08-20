@@ -6,5 +6,4 @@
 # virtual methods
 .method public abstract getLifecycle()Landroidx/lifecycle/Lifecycle;
 .end method
-
 .end class

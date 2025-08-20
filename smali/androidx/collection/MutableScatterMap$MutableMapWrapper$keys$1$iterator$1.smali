@@ -98,11 +98,7 @@
     const/4 p1, -0x1
 
     .line 19
-    iput p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$keys$1$iterator$1;->current:I
-
-    .line 20
-    .line 21
-    return-void
+    iput p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$keys$1$iterator$1;->current:I    return-void
 .end method
 
 
@@ -170,11 +166,7 @@
 
     .line 18
     .line 19
-    aget-object v0, v1, v0
-
-    .line 20
-    .line 21
-    return-object v0
+    aget-object v0, v1, v0    return-object v0
 .end method
 
 .method public remove()V
@@ -208,5 +200,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

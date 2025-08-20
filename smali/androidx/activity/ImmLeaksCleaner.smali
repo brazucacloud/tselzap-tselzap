@@ -42,11 +42,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/activity/ImmLeaksCleaner;->mActivity:Landroid/app/Activity;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/activity/ImmLeaksCleaner;->mActivity:Landroid/app/Activity;    return-void
 .end method
 
 .method private static initializeReflectiveFields()V
@@ -327,12 +323,7 @@
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 67
-    invoke-virtual {p1}, Landroid/view/inputmethod/InputMethodManager;->isActive()Z
-
-    .line 68
-    .line 69
-    .line 70
-    return-void
+    invoke-virtual {p1}, Landroid/view/inputmethod/InputMethodManager;->isActive()Z    return-void
 
     .line 71
     :catch_0
@@ -371,5 +362,4 @@
     :goto_1
     return-void
 .end method
-
 .end class

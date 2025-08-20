@@ -44,12 +44,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLNumber;-><init>([C)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLNumber;-><init>([C)V    return-object v0
 .end method
 
 
@@ -61,11 +56,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -120,11 +111,7 @@
     move-result v3
 
     .line 30
-    if-eqz v3, :cond_1
-
-    .line 31
-    .line 32
-    return v0
+    if-eqz v3, :cond_1    return v0
 
     .line 33
     :cond_1
@@ -132,11 +119,7 @@
 
     .line 34
     .line 35
-    if-nez p1, :cond_2
-
-    .line 36
-    .line 37
-    return v0
+    if-nez p1, :cond_2    return v0
 
     .line 38
     :cond_2
@@ -196,11 +179,7 @@
     .line 24
     .line 25
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
-
-    .line 26
-    .line 27
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F    return v0
 .end method
 
 .method public getInt()I
@@ -361,11 +340,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F    return-void
 .end method
 
 .method public toFormattedJSON(II)Ljava/lang/String;
@@ -497,5 +472,4 @@
 
     return-object v0
 .end method
-
 .end class

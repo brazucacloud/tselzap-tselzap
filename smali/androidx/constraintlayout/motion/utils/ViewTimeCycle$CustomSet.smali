@@ -94,11 +94,7 @@
 
     .line 21
     .line 22
-    iput-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewTimeCycle$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
-
-    .line 23
-    .line 24
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewTimeCycle$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;    return-void
 .end method
 
 
@@ -462,11 +458,7 @@
     .line 141
     .line 142
     :cond_3
-    iget-boolean v1, v0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z
-
-    .line 143
-    .line 144
-    return v1
+    iget-boolean v1, v0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return v1
 .end method
 
 .method public setup(I)V
@@ -733,11 +725,6 @@
     move-result-object p1
 
     .line 125
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
-
-    .line 126
-    .line 127
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
 .end method
-
 .end class

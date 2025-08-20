@@ -19,11 +19,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mLayoutManager:Landroidx/recyclerview/widget/LinearLayoutManager;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mLayoutManager:Landroidx/recyclerview/widget/LinearLayoutManager;    return-void
 .end method
 
 
@@ -32,11 +28,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mPageTransformer:Landroidx/viewpager2/widget/ViewPager2$PageTransformer;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mPageTransformer:Landroidx/viewpager2/widget/ViewPager2$PageTransformer;    return-object v0
 .end method
 
 .method public onPageScrollStateChanged(I)V
@@ -234,11 +226,6 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mPageTransformer:Landroidx/viewpager2/widget/ViewPager2$PageTransformer;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mPageTransformer:Landroidx/viewpager2/widget/ViewPager2$PageTransformer;    return-void
 .end method
-
 .end class

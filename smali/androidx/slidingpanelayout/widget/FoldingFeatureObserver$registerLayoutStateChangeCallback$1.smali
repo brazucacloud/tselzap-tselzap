@@ -68,12 +68,7 @@
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 
@@ -105,12 +100,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p1, v0, v1, p2}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1;-><init>(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;Landroid/app/Activity;Lg1/d;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object p1
+    invoke-direct {p1, v0, v1, p2}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1;-><init>(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;Landroid/app/Activity;Lg1/d;)V    return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -299,20 +289,11 @@
     move-result-object p1
 
     .line 68
-    if-ne p1, v0, :cond_3
-
-    .line 69
-    .line 70
-    return-object v0
+    if-ne p1, v0, :cond_3    return-object v0
 
     .line 71
     :cond_3
     :goto_1
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 72
-    .line 73
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

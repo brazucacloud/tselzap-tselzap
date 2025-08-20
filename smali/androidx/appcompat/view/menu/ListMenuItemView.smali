@@ -227,11 +227,7 @@
     .line 14
     .line 15
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mInflater:Landroid/view/LayoutInflater;
-
-    .line 16
-    .line 17
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mInflater:Landroid/view/LayoutInflater;    return-object v0
 .end method
 
 .method private insertCheckBox()V
@@ -269,12 +265,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p0, v0}, Landroidx/appcompat/view/menu/ListMenuItemView;->addContentView(Landroid/view/View;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-direct {p0, v0}, Landroidx/appcompat/view/menu/ListMenuItemView;->addContentView(Landroid/view/View;)V    return-void
 .end method
 
 .method private insertIconView()V
@@ -312,12 +303,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p0, v0, v2}, Landroidx/appcompat/view/menu/ListMenuItemView;->addContentView(Landroid/view/View;I)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-direct {p0, v0, v2}, Landroidx/appcompat/view/menu/ListMenuItemView;->addContentView(Landroid/view/View;I)V    return-void
 .end method
 
 .method private insertRadioButton()V
@@ -355,12 +341,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p0, v0}, Landroidx/appcompat/view/menu/ListMenuItemView;->addContentView(Landroid/view/View;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-direct {p0, v0}, Landroidx/appcompat/view/menu/ListMenuItemView;->addContentView(Landroid/view/View;)V    return-void
 .end method
 
 .method private setSubMenuArrowVisible(Z)V
@@ -487,11 +468,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mItemData:Landroidx/appcompat/view/menu/MenuItemImpl;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mItemData:Landroidx/appcompat/view/menu/MenuItemImpl;    return-object v0
 .end method
 
 .method public initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V
@@ -625,12 +602,7 @@
     move-result-object p1
 
     .line 66
-    invoke-virtual {p0, p1}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
-
-    .line 67
-    .line 68
-    .line 69
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V    return-void
 .end method
 
 .method public onFinishInflate()V
@@ -782,11 +754,7 @@
 
     .line 73
     .line 74
-    iput-object v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mContent:Landroid/widget/LinearLayout;
-
-    .line 75
-    .line 76
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mContent:Landroid/widget/LinearLayout;    return-void
 .end method
 
 .method public onMeasure(II)V
@@ -854,12 +822,7 @@
     .line 30
     .line 31
     :cond_0
-    invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V    return-void
 .end method
 
 .method public prefersCondensedTitle()Z
@@ -1025,12 +988,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
-
-    .line 75
-    .line 76
-    .line 77
-    return-void
+    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V    return-void
 
     .line 78
     :cond_5
@@ -1127,12 +1085,7 @@
     .line 27
     .line 28
     :goto_0
-    invoke-virtual {v0, p1}, Landroid/widget/CompoundButton;->setChecked(Z)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {v0, p1}, Landroid/widget/CompoundButton;->setChecked(Z)V    return-void
 .end method
 
 .method public setForceShowIcon(Z)V
@@ -1143,11 +1096,7 @@
 
     .line 2
     .line 3
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mPreserveIconSpacing:Z
-
-    .line 4
-    .line 5
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mPreserveIconSpacing:Z    return-void
 .end method
 
 .method public setGroupDividerEnabled(Z)V
@@ -1316,12 +1265,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    .line 53
-    .line 54
-    .line 55
-    return-void
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setVisibility(I)V    return-void
 
     .line 56
     :cond_6
@@ -1508,12 +1452,7 @@
     const/4 v0, 0x0
 
     .line 19
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V    return-void
 
     .line 23
     :cond_0
@@ -1554,11 +1493,6 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mForceShowIcon:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mForceShowIcon:Z    return v0
 .end method
-
 .end class

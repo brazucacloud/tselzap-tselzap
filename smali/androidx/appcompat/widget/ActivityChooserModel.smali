@@ -129,11 +129,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/appcompat/widget/ActivityChooserModel;->sDataModelRegistry:Ljava/util/Map;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/ActivityChooserModel;->sDataModelRegistry:Ljava/util/Map;    return-void
 .end method
 
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
@@ -275,19 +271,11 @@
     move-result-object p1
 
     .line 70
-    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserModel;->mHistoryFileName:Ljava/lang/String;
-
-    .line 71
-    .line 72
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserModel;->mHistoryFileName:Ljava/lang/String;    return-void
 
     .line 73
     :cond_0
-    iput-object p2, p0, Landroidx/appcompat/widget/ActivityChooserModel;->mHistoryFileName:Ljava/lang/String;
-
-    .line 74
-    .line 75
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/widget/ActivityChooserModel;->mHistoryFileName:Ljava/lang/String;    return-void
 .end method
 
 .method private addHistoricalRecord(Landroidx/appcompat/widget/ActivityChooserModel$HistoricalRecord;)Z
@@ -456,31 +444,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 28
-    throw p0
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-.end method
+    throw p0.end method
 
 .method private loadActivitiesIfNeeded()Z
     .locals 6
@@ -721,38 +685,7 @@
     .line 54
     .line 55
     .line 56
-    throw v0
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method private pruneExcessiveHistoricalRecordsIfNeeded()V
     .locals 4
@@ -881,12 +814,7 @@
 
     .line 22
     .line 23
-    invoke-direct {p0}, Landroidx/appcompat/widget/ActivityChooserModel;->readHistoricalDataImpl()V
-
-    .line 24
-    .line 25
-    .line 26
-    return v0
+    invoke-direct {p0}, Landroidx/appcompat/widget/ActivityChooserModel;->readHistoricalDataImpl()V    return v0
 
     .line 27
     :cond_0
@@ -1049,12 +977,7 @@
     :try_start_2
     invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
     :try_end_2
-    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
-
-    .line 66
-    .line 67
-    .line 68
-    return-void
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3    return-void
 
     .line 69
     :cond_2
@@ -1616,9 +1539,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 83
-    throw p1
-    .line 84
-.end method
+    throw p1.end method
 
 .method public getActivity(I)Landroid/content/pm/ResolveInfo;
     .locals 2
@@ -1671,14 +1592,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 21
-    throw p1
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public getActivityCount()I
     .locals 2
@@ -1723,13 +1637,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
-    throw v1
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v1.end method
 
 .method public getActivityIndex(Landroid/content/pm/ResolveInfo;)I
     .locals 5
@@ -1823,55 +1731,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 37
-    throw p1
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public getDefaultActivity()Landroid/content/pm/ResolveInfo;
     .locals 3
@@ -1956,60 +1816,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 34
-    throw v1
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v1.end method
 
 .method public getHistoryMaxSize()I
     .locals 2
@@ -2041,20 +1848,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
-    throw v1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v1.end method
 
 .method public getHistorySize()I
     .locals 2
@@ -2099,13 +1893,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
-    throw v1
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v1.end method
 
 .method public getIntent()Landroid/content/Intent;
     .locals 2
@@ -2137,20 +1925,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
-    throw v1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
+    throw v1.end method
 
 .method public setActivitySorter(Landroidx/appcompat/widget/ActivityChooserModel$ActivitySorter;)V
     .locals 2
@@ -2218,9 +1993,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 26
-    throw p1
-    .line 27
-.end method
+    throw p1.end method
 
 .method public setDefaultActivity(I)V
     .locals 5
@@ -2370,25 +2143,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 67
-    throw p1
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public setHistoryMaxSize(I)V
     .locals 2
@@ -2461,63 +2216,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 29
-    throw p1
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public setIntent(Landroid/content/Intent;)V
     .locals 2
@@ -2579,12 +2278,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 23
-    throw p1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public setOnChooseActivityListener(Landroidx/appcompat/widget/ActivityChooserModel$OnChooseActivityListener;)V
     .locals 1
@@ -2616,24 +2310,5 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
-    throw p1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
-
+    throw p1.end method
 .end class

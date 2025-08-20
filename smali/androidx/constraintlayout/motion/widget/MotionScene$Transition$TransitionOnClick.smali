@@ -213,12 +213,7 @@
 
     .line 30
     .line 31
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 35
     :cond_1
@@ -242,12 +237,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 46
-    .line 47
-    .line 48
-    return-void
+    invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V    return-void
 
     .line 49
     :cond_2
@@ -406,11 +396,7 @@
     const/4 v1, 0x1
 
     .line 4
-    if-ne v0, p1, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-ne v0, p1, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -448,11 +434,7 @@
 
     .line 22
     .line 23
-    if-eq p2, p1, :cond_1
-
-    .line 24
-    .line 25
-    return v1
+    if-eq p2, p1, :cond_1    return v1
 
     .line 26
     :cond_1
@@ -568,12 +550,7 @@
     move-result v0
 
     .line 40
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(I)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(I)V    return-void
 
     .line 44
     :cond_1
@@ -629,12 +606,7 @@
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd()V
-
-    .line 73
-    .line 74
-    .line 75
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd()V    return-void
 
     .line 76
     :cond_2
@@ -861,12 +833,7 @@
     .line 172
     .line 173
     .line 174
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd()V
-
-    .line 175
-    .line 176
-    .line 177
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd()V    return-void
 
     .line 178
     :cond_b
@@ -895,12 +862,7 @@
     .line 189
     .line 190
     .line 191
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToStart()V
-
-    .line 192
-    .line 193
-    .line 194
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToStart()V    return-void
 
     .line 195
     :cond_c
@@ -933,12 +895,7 @@
 
     .line 209
     .line 210
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
-
-    .line 211
-    .line 212
-    .line 213
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
 
     .line 214
     :cond_d
@@ -991,11 +948,7 @@
     const/4 v1, -0x1
 
     .line 4
-    if-ne v0, v1, :cond_0
-
-    .line 5
-    .line 6
-    return-void
+    if-ne v0, v1, :cond_0    return-void
 
     .line 7
     :cond_0
@@ -1045,24 +998,13 @@
 
     .line 30
     .line 31
-    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return-void
 
     .line 35
     :cond_1
     const/4 v0, 0x0
 
     .line 36
-    invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 37
-    .line 38
-    .line 39
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V    return-void
 .end method
-
 .end class

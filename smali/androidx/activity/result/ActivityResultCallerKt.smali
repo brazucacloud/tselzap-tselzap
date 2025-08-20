@@ -105,24 +105,13 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-interface {p0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method private static final registerForActivityResult$lambda$1(Lp1/l;Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-interface {p0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
-
 .end class

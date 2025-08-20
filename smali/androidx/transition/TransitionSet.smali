@@ -151,11 +151,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p0, p1, Landroidx/transition/Transition;->mParent:Landroidx/transition/TransitionSet;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p0, p1, Landroidx/transition/Transition;->mParent:Landroidx/transition/TransitionSet;    return-void
 .end method
 
 .method private indexOfTransition(J)I
@@ -315,11 +311,7 @@
     move-result v0
 
     .line 34
-    iput v0, p0, Landroidx/transition/TransitionSet;->mCurrentListeners:I
-
-    .line 35
-    .line 36
-    return-void
+    iput v0, p0, Landroidx/transition/TransitionSet;->mCurrentListeners:I    return-void
 .end method
 
 
@@ -1608,11 +1600,7 @@
 
     .line 2
     .line 3
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 4
-    .line 5
-    return v0
+    xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
 .method public getTransitionAt(I)Landroidx/transition/Transition;
@@ -1657,11 +1645,7 @@
     move-result-object p1
 
     .line 18
-    check-cast p1, Landroidx/transition/Transition;
-
-    .line 19
-    .line 20
-    return-object p1
+    check-cast p1, Landroidx/transition/Transition;    return-object p1
 
     .line 21
     :cond_1
@@ -1812,11 +1796,7 @@
     move-result v3
 
     .line 23
-    if-nez v3, :cond_0
-
-    .line 24
-    .line 25
-    return v1
+    if-nez v3, :cond_0    return v1
 
     .line 26
     :cond_0
@@ -2359,11 +2339,7 @@
     const/4 v0, 0x0
 
     .line 7
-    iput-object v0, p1, Landroidx/transition/Transition;->mParent:Landroidx/transition/TransitionSet;
-
-    .line 8
-    .line 9
-    return-object p0
+    iput-object v0, p1, Landroidx/transition/Transition;->mParent:Landroidx/transition/TransitionSet;    return-object p0
 .end method
 
 .method public resume(Landroid/view/View;)V
@@ -2466,12 +2442,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V    return-void
 
     .line 16
     :cond_0
@@ -2589,12 +2560,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {v0}, Landroidx/transition/Transition;->runAnimators()V
-
-    .line 73
-    .line 74
-    .line 75
-    return-void
+    invoke-virtual {v0}, Landroidx/transition/Transition;->runAnimators()V    return-void
 
     .line 76
     :cond_2
@@ -3368,11 +3334,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z
-
-    .line 8
-    .line 9
-    return-object p0
+    iput-boolean p1, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z    return-object p0
 
     .line 10
     :cond_0
@@ -3401,11 +3363,7 @@
 
     .line 22
     :cond_1
-    iput-boolean v0, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z
-
-    .line 23
-    .line 24
-    return-object p0
+    iput-boolean v0, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z    return-object p0
 .end method
 
 .method public setPathMotion(Landroidx/transition/PathMotion;)V
@@ -3720,5 +3678,4 @@
     :cond_0
     return-object v0
 .end method
-
 .end class

@@ -137,11 +137,7 @@
 
     .line 41
     .line 42
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mContainer:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
-
-    .line 43
-    .line 44
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mContainer:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;    return-void
 .end method
 
 .method private applyGroup(Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;IILandroidx/constraintlayout/core/widgets/analyzer/DependencyNode;Ljava/util/ArrayList;Landroidx/constraintlayout/core/widgets/analyzer/RunGroup;)V
@@ -2476,11 +2472,7 @@
     .line 821
     .line 822
     :cond_29
-    const/16 v16, 0x0
-
-    .line 823
-    .line 824
-    return v16
+    const/16 v16, 0x0    return v16
 .end method
 
 .method private computeWrap(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;I)I
@@ -2664,12 +2656,7 @@
     move-result-object v0
 
     .line 53
-    invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method private findGroup(Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;ILjava/util/ArrayList;)V
@@ -3381,11 +3368,7 @@
     move-result v3
 
     .line 44
-    if-eqz v3, :cond_0
-
-    .line 45
-    .line 46
-    return-object p2
+    if-eqz v3, :cond_0    return-object p2
 
     .line 47
     :cond_0
@@ -4634,12 +4617,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setBaselineDistance(I)V
-
-    .line 42
-    .line 43
-    .line 44
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setBaselineDistance(I)V    return-void
 .end method
 
 .method private nodeDefinition(Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;)Ljava/lang/String;
@@ -5764,11 +5742,7 @@
     move-result v0
 
     .line 75
-    if-eqz v0, :cond_3
-
-    .line 76
-    .line 77
-    return v1
+    if-eqz v0, :cond_3    return v1
 
     .line 78
     :cond_3
@@ -6493,12 +6467,7 @@
 
     .line 428
     .line 429
-    invoke-virtual {p1, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-
-    .line 430
-    .line 431
-    .line 432
-    return v1
+    invoke-virtual {p1, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return v1
 .end method
 
 .method public directMeasureSetup(Z)Z
@@ -6693,11 +6662,7 @@
     move-result p1
 
     .line 96
-    if-eqz p1, :cond_2
-
-    .line 97
-    .line 98
-    return v0
+    if-eqz p1, :cond_2    return v0
 
     .line 99
     :cond_2
@@ -7449,12 +7414,7 @@
 
     .line 326
     .line 327
-    invoke-virtual {p1, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-
-    .line 328
-    .line 329
-    .line 330
-    return v1
+    invoke-virtual {p1, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setVerticalDimensionBehaviour(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return v1
 .end method
 
 .method public invalidateGraph()V
@@ -7464,11 +7424,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mNeedBuildGraph:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mNeedBuildGraph:Z    return-void
 .end method
 
 .method public invalidateMeasures()V
@@ -7478,11 +7434,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mNeedRedoMeasures:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mNeedRedoMeasures:Z    return-void
 .end method
 
 .method public measureWidgets()V
@@ -7916,11 +7868,6 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mMeasurer:Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->mMeasurer:Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;    return-void
 .end method
-
 .end class

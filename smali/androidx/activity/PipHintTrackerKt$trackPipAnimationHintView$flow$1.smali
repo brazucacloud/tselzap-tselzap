@@ -63,12 +63,7 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 .method public static synthetic a(LB1/r;Landroid/view/View;IIIIIIII)V
@@ -130,12 +125,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method private static final invokeSuspend$lambda$1(LB1/r;Landroid/view/View;)V
@@ -154,12 +144,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 
@@ -192,11 +177,7 @@
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->L$0:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-object v0
+    iput-object p1, v0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
@@ -442,20 +423,11 @@
     move-result-object p1
 
     .line 100
-    if-ne p1, v0, :cond_3
-
-    .line 101
-    .line 102
-    return-object v0
+    if-ne p1, v0, :cond_3    return-object v0
 
     .line 103
     :cond_3
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 104
-    .line 105
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

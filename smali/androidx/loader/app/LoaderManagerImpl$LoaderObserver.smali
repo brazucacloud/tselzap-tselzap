@@ -94,11 +94,7 @@
 
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mCallback:Landroidx/loader/app/LoaderManager$LoaderCallbacks;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p2, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mCallback:Landroidx/loader/app/LoaderManager$LoaderCallbacks;    return-void
 .end method
 
 
@@ -125,23 +121,14 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2, p1}, Ljava/io/PrintWriter;->println(Z)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p2, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
 .end method
 
 .method public hasDeliveredData()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mDeliveredData:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mDeliveredData:Z    return v0
 .end method
 
 .method public onChanged(Ljava/lang/Object;)V
@@ -247,11 +234,7 @@
     const/4 p1, 0x1
 
     .line 48
-    iput-boolean p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mDeliveredData:Z
-
-    .line 49
-    .line 50
-    return-void
+    iput-boolean p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mDeliveredData:Z    return-void
 .end method
 
 .method public reset()V
@@ -350,5 +333,4 @@
 
     return-object v0
 .end method
-
 .end class

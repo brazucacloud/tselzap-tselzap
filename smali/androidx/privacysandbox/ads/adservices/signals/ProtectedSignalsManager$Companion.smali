@@ -110,12 +110,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;-><init>(Landroid/adservices/signals/ProtectedSignalsManager;)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;-><init>(Landroid/adservices/signals/ProtectedSignalsManager;)V    return-object v0
 
     .line 38
     :cond_0
@@ -132,5 +127,4 @@
 
     return-object p1
 .end method
-
 .end class

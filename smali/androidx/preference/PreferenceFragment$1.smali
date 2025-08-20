@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/os/Handler;-><init>()V    return-void
 .end method
 
 
@@ -52,11 +47,7 @@
     const/4 v0, 0x1
 
     .line 4
-    if-eq p1, v0, :cond_0
-
-    .line 5
-    .line 6
-    return-void
+    if-eq p1, v0, :cond_0    return-void
 
     .line 7
     :cond_0
@@ -64,12 +55,6 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;->bindPreferences()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;->bindPreferences()V    return-void
 .end method
-
 .end class

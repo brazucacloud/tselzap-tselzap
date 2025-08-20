@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0, p2}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V    return-void
 .end method
 
 
@@ -216,5 +211,4 @@
     :cond_2
     return-wide p1
 .end method
-
 .end class

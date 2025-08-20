@@ -555,11 +555,7 @@
 
     .line 4
     .line 5
-    sput v0, Landroidx/constraintlayout/core/SolverVariable;->sUniqueErrorId:I
-
-    .line 6
-    .line 7
-    return-void
+    sput v0, Landroidx/constraintlayout/core/SolverVariable;->sUniqueErrorId:I    return-void
 .end method
 
 
@@ -588,11 +584,7 @@
 
     .line 9
     .line 10
-    if-ne v1, p1, :cond_0
-
-    .line 11
-    .line 12
-    return-void
+    if-ne v1, p1, :cond_0    return-void
 
     .line 13
     :cond_0
@@ -655,11 +647,7 @@
 
     .line 39
     .line 40
-    iput v1, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I
-
-    .line 41
-    .line 42
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I    return-void
 .end method
 
 .method public clearStrengths()V
@@ -730,11 +718,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/SolverVariable;->mName:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/SolverVariable;->mName:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
@@ -805,11 +789,7 @@
 
     .line 29
     .line 30
-    iput p1, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I
-
-    .line 31
-    .line 32
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I    return-void
 
     .line 33
     :cond_1
@@ -928,12 +908,7 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v3}, Ljava/util/Arrays;->fill([FF)V
-
-    .line 48
-    .line 49
-    .line 50
-    return-void
+    invoke-static {v0, v3}, Ljava/util/Arrays;->fill([FF)V    return-void
 .end method
 
 .method public setFinalValue(Landroidx/constraintlayout/core/LinearSystem;F)V
@@ -1009,22 +984,14 @@
 
     .line 32
     :cond_0
-    iput p2, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I
-
-    .line 33
-    .line 34
-    return-void
+    iput p2, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I    return-void
 .end method
 
 .method public setName(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/SolverVariable;->mName:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/SolverVariable;->mName:Ljava/lang/String;    return-void
 .end method
 
 .method public setSynonym(Landroidx/constraintlayout/core/LinearSystem;Landroidx/constraintlayout/core/SolverVariable;F)V
@@ -1097,23 +1064,14 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->displayReadableRows()V
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->displayReadableRows()V    return-void
 .end method
 
 .method public setType(Landroidx/constraintlayout/core/SolverVariable$Type;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/SolverVariable;->mType:Landroidx/constraintlayout/core/SolverVariable$Type;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/SolverVariable;->mType:Landroidx/constraintlayout/core/SolverVariable$Type;    return-void
 .end method
 
 .method public strengthsToString()Ljava/lang/String;
@@ -1455,11 +1413,6 @@
 
     .line 17
     :cond_0
-    iput v1, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I
-
-    .line 18
-    .line 19
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/SolverVariable;->mClientEquationsCount:I    return-void
 .end method
-
 .end class

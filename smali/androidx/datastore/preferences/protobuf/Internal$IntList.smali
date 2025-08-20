@@ -38,5 +38,4 @@
 
 .method public abstract setInt(II)I
 .end method
-
 .end class

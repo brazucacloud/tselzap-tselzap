@@ -60,11 +60,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/collection/MapEntry;->value:Ljava/lang/Object;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/collection/MapEntry;->value:Ljava/lang/Object;    return-void
 .end method
 
 
@@ -78,11 +74,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MapEntry;->key:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/MapEntry;->key:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -94,11 +86,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MapEntry;->value:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/MapEntry;->value:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;
@@ -117,5 +105,4 @@
 
     throw p1
 .end method
-
 .end class

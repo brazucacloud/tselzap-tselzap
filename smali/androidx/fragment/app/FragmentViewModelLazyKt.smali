@@ -435,11 +435,7 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/lifecycle/ViewModelStoreOwner;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/lifecycle/ViewModelStoreOwner;    return-object p0
 .end method
 
 .method private static final viewModels$lambda-1(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
@@ -462,11 +458,6 @@
     move-result-object p0
 
     .line 5
-    check-cast p0, Landroidx/lifecycle/ViewModelStoreOwner;
-
-    .line 6
-    .line 7
-    return-object p0
+    check-cast p0, Landroidx/lifecycle/ViewModelStoreOwner;    return-object p0
 .end method
-
 .end class

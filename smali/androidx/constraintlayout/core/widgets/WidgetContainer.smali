@@ -134,11 +134,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/WidgetContainer;->mChildren:Ljava/util/ArrayList;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/WidgetContainer;->mChildren:Ljava/util/ArrayList;    return-object v0
 .end method
 
 .method public getRootConstraintContainer()Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
@@ -305,12 +301,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V    return-void
 .end method
 
 .method public removeAllChildren()V
@@ -321,12 +312,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
 .end method
 
 .method public reset()V
@@ -342,12 +328,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-super {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V    return-void
 .end method
 
 .method public resetSolverVariables(Landroidx/constraintlayout/core/Cache;)V
@@ -487,5 +468,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

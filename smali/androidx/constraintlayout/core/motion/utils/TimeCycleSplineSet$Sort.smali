@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static doubleQuickSort([I[[FII)V
@@ -183,12 +178,7 @@
 
     .line 18
     :cond_1
-    invoke-static {p0, p1, v1, p3}, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet$Sort;->swap([I[[FII)V
-
-    .line 19
-    .line 20
-    .line 21
-    return v1
+    invoke-static {p0, p1, v1, p3}, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet$Sort;->swap([I[[FII)V    return v1
 .end method
 
 .method private static swap([I[[FII)V
@@ -223,11 +213,6 @@
 
     .line 14
     .line 15
-    aput-object p0, p1, p3
-
-    .line 16
-    .line 17
-    return-void
+    aput-object p0, p1, p3    return-void
 .end method
-
 .end class

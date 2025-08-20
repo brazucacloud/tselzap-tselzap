@@ -30,12 +30,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -55,11 +50,7 @@
     const/4 v0, 0x0
 
     .line 6
-    if-eqz p1, :cond_0
-
-    .line 7
-    .line 8
-    return v0
+    if-eqz p1, :cond_0    return v0
 
     .line 9
     :cond_0
@@ -132,12 +123,7 @@
 
     .line 40
     .line 41
-    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 42
-    .line 43
-    .line 44
-    return v0
+    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I    return v0
 
     .line 45
     :cond_4
@@ -155,5 +141,4 @@
     :goto_0
     return v0
 .end method
-
 .end class

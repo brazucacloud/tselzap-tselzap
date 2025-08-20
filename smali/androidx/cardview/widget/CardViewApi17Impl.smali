@@ -14,12 +14,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/cardview/widget/CardViewBaseImpl;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/cardview/widget/CardViewBaseImpl;-><init>()V    return-void
 .end method
 
 
@@ -37,11 +32,6 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->sRoundRectHelper:Landroidx/cardview/widget/RoundRectDrawableWithShadow$RoundRectHelper;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->sRoundRectHelper:Landroidx/cardview/widget/RoundRectDrawableWithShadow$RoundRectHelper;    return-void
 .end method
-
 .end class

@@ -53,11 +53,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/appcompat/widget/ActivityChooserModel$DefaultSorter;->mPackageNameToActivityMap:Ljava/util/Map;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/ActivityChooserModel$DefaultSorter;->mPackageNameToActivityMap:Ljava/util/Map;    return-void
 .end method
 
 
@@ -250,12 +246,6 @@
 
     .line 84
     :cond_2
-    invoke-static {p2}, Ljava/util/Collections;->sort(Ljava/util/List;)V
-
-    .line 85
-    .line 86
-    .line 87
-    return-void
+    invoke-static {p2}, Ljava/util/Collections;->sort(Ljava/util/List;)V    return-void
 .end method
-
 .end class

@@ -34,11 +34,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;->signals:Ljava/lang/String;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;->signals:Ljava/lang/String;    return-void
 .end method
 
 
@@ -81,12 +77,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -143,11 +134,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;->signals:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;->signals:Ljava/lang/String;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -203,5 +190,4 @@
 
     return-object v0
 .end method
-
 .end class

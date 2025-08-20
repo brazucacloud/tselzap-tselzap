@@ -79,12 +79,7 @@
     const/4 p1, 0x1
 
     .line 22
-    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V    return-void
 .end method
 
 .method private hideViewWhenNotCanceled()V
@@ -129,12 +124,7 @@
     const/4 v0, 0x0
 
     .line 20
-    invoke-direct {p0, v0}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-direct {p0, v0}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V    return-void
 .end method
 
 .method private suppressLayout(Z)V
@@ -187,11 +177,7 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -390,5 +376,4 @@
 
     return-void
 .end method
-
 .end class

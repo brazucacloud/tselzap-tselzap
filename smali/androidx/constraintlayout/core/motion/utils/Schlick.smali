@@ -121,11 +121,7 @@
     move-result-wide v0
 
     .line 52
-    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mT:D
-
-    .line 53
-    .line 54
-    return-void
+    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mT:D    return-void
 .end method
 
 .method private dfunc(D)D
@@ -360,5 +356,4 @@
 
     return-wide p1
 .end method
-
 .end class

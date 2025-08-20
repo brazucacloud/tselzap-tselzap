@@ -142,11 +142,7 @@
 
     .line 10
     :goto_0
-    sput-boolean v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->sEdgeSizeUsingSystemGestureInsets:Z
-
-    .line 11
-    .line 12
-    return-void
+    sput-boolean v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->sEdgeSizeUsingSystemGestureInsets:Z    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -370,11 +366,7 @@
 
     .line 8
     .line 9
-    check-cast p0, Landroid/app/Activity;
-
-    .line 10
-    .line 11
-    return-object p0
+    check-cast p0, Landroid/app/Activity;    return-object p0
 
     .line 12
     :cond_0
@@ -543,12 +535,7 @@
     neg-int v0, v0
 
     .line 65
-    invoke-virtual {p1, p0, v0}, Landroid/graphics/Rect;->offset(II)V
-
-    .line 66
-    .line 67
-    .line 68
-    return-object p1
+    invoke-virtual {p1, p0, v0}, Landroid/graphics/Rect;->offset(II)V    return-object p1
 .end method
 
 .method private static getMinimumWidth(Landroid/view/View;)I
@@ -892,12 +879,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->setOnFoldingFeatureChangeListener(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->setOnFoldingFeatureChangeListener(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;)V    return-void
 .end method
 
 .method private splitViewPositions()Ljava/util/ArrayList;
@@ -955,11 +937,7 @@
 
     .line 20
     .line 21
-    if-nez v0, :cond_1
-
-    .line 22
-    .line 23
-    return-object v1
+    if-nez v0, :cond_1    return-object v1
 
     .line 24
     :cond_1
@@ -995,11 +973,7 @@
     move-result-object v0
 
     .line 40
-    if-nez v0, :cond_2
-
-    .line 41
-    .line 42
-    return-object v1
+    if-nez v0, :cond_2    return-object v1
 
     .line 43
     :cond_2
@@ -1167,12 +1141,7 @@
     move-result-object v1
 
     .line 123
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    .line 124
-    .line 125
-    .line 126
-    return-object v0
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V    return-object v0
 
     .line 127
     :cond_3
@@ -1221,12 +1190,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
@@ -1265,21 +1229,11 @@
     .line 11
     .line 12
     .line 13
-    invoke-super {p0, v0, p2, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-super {p0, v0, p2, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V    return-void
 
     .line 17
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-super {p0, p1, p2, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public canScroll(Landroid/view/View;ZIII)Z
@@ -1441,11 +1395,7 @@
     move-result v6
 
     .line 75
-    if-eqz v6, :cond_0
-
-    .line 76
-    .line 77
-    return v1
+    if-eqz v6, :cond_0    return v1
 
     .line 78
     :cond_0
@@ -1489,11 +1439,7 @@
     move-result p1
 
     .line 95
-    if-eqz p1, :cond_3
-
-    .line 96
-    .line 97
-    return v1
+    if-eqz p1, :cond_3    return v1
 
     .line 98
     :cond_3
@@ -1508,11 +1454,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCanSlide:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCanSlide:Z    return v0
 .end method
 
 .method public checkLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Z
@@ -1554,12 +1496,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z    return-void
 .end method
 
 .method public closePane()Z
@@ -1610,12 +1547,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroidx/customview/widget/ViewDragHelper;->abort()V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {v0}, Landroidx/customview/widget/ViewDragHelper;->abort()V    return-void
 
     .line 20
     :cond_0
@@ -1686,12 +1618,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0, p1}, Landroid/view/View;->sendAccessibilityEvent(I)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/View;->sendAccessibilityEvent(I)V    return-void
 .end method
 
 .method public dispatchOnPanelOpened(Landroid/view/View;)V
@@ -1752,12 +1679,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0, p1}, Landroid/view/View;->sendAccessibilityEvent(I)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
+    invoke-virtual {p0, p1}, Landroid/view/View;->sendAccessibilityEvent(I)V    return-void
 .end method
 
 .method public dispatchOnPanelSlide(Landroid/view/View;)V
@@ -2277,12 +2199,7 @@
     move-result p2
 
     .line 142
-    invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
-
-    .line 143
-    .line 144
-    .line 145
-    return p2
+    invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V    return p2
 .end method
 
 .method public generateDefaultLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -2293,12 +2210,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;-><init>()V    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -2351,22 +2263,14 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCoveredFadeColor:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCoveredFadeColor:I    return v0
 .end method
 
 .method public final getLockMode()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mLockMode:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mLockMode:I    return v0
 .end method
 
 .method public getParallaxDistance()I
@@ -2375,11 +2279,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mParallaxBy:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mParallaxBy:I    return v0
 .end method
 
 .method public getSliderFadeColor()I
@@ -2391,11 +2291,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSliderFadeColor:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSliderFadeColor:I    return v0
 .end method
 
 .method public invalidateChildRegion(Landroid/view/View;)V
@@ -2418,12 +2314,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, v0}, Landroidx/core/view/ViewCompat;->setLayerPaint(Landroid/view/View;Landroid/graphics/Paint;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-static {p1, v0}, Landroidx/core/view/ViewCompat;->setLayerPaint(Landroid/view/View;Landroid/graphics/Paint;)V    return-void
 .end method
 
 .method public isDimmed(Landroid/view/View;)Z
@@ -2433,11 +2324,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-nez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -2508,11 +2395,7 @@
     const/4 v1, 0x1
 
     .line 6
-    if-ne v0, v1, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-ne v0, v1, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -2568,11 +2451,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCanSlide:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCanSlide:Z    return v0
 .end method
 
 .method public onAttachedToWindow()V
@@ -2715,12 +2594,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-
-    .line 40
-    .line 41
-    .line 42
-    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
@@ -2957,11 +2831,7 @@
     .line 107
     .line 108
     .line 109
-    iput-boolean v2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mIsUnableToDrag:Z
-
-    .line 110
-    .line 111
-    return v3
+    iput-boolean v2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mIsUnableToDrag:Z    return v3
 
     .line 112
     :cond_4
@@ -3085,12 +2955,7 @@
 
     .line 163
     .line 164
-    invoke-virtual {p1}, Landroidx/customview/widget/ViewDragHelper;->cancel()V
-
-    .line 165
-    .line 166
-    .line 167
-    return v3
+    invoke-virtual {p1}, Landroidx/customview/widget/ViewDragHelper;->cancel()V    return v3
 
     .line 168
     :cond_9
@@ -3694,11 +3559,7 @@
     const/4 v1, 0x0
 
     .line 260
-    iput-boolean v1, v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mFirstLayout:Z
-
-    .line 261
-    .line 262
-    return-void
+    iput-boolean v1, v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mFirstLayout:Z    return-void
 .end method
 
 .method public onMeasure(II)V
@@ -4925,11 +4786,7 @@
     const/4 p1, 0x0
 
     .line 6
-    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSlideOffset:F
-
-    .line 7
-    .line 8
-    return-void
+    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSlideOffset:F    return-void
 
     .line 9
     :cond_0
@@ -5072,12 +4929,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->dispatchOnPanelSlide(Landroid/view/View;)V
-
-    .line 73
-    .line 74
-    .line 75
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->dispatchOnPanelSlide(Landroid/view/View;)V    return-void
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -5092,12 +4944,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/view/ViewGroup;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
 
     .line 9
     :cond_0
@@ -5153,12 +5000,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setLockMode(I)V
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setLockMode(I)V    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -5219,11 +5061,7 @@
 
     .line 26
     .line 27
-    iput v0, v1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->mLockMode:I
-
-    .line 28
-    .line 29
-    return-object v1
+    iput v0, v1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->mLockMode:I    return-object v1
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -5451,23 +5289,14 @@
 
     .line 93
     .line 94
-    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mInitialMotionY:F
-
-    .line 95
-    .line 96
-    return v1
+    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mInitialMotionY:F    return v1
 .end method
 
 .method public open()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->openPane()Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->openPane()Z    return-void
 .end method
 
 .method public openPane()Z
@@ -5495,12 +5324,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public removeView(Landroid/view/View;)V
@@ -5539,21 +5363,11 @@
 
     .line 14
     .line 15
-    invoke-super {p0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V    return-void
 
     .line 19
     :cond_0
-    invoke-super {p0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V    return-void
 .end method
 
 .method public requestChildFocus(Landroid/view/View;Landroid/view/View;)V
@@ -5685,22 +5499,14 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCoveredFadeColor:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mCoveredFadeColor:I    return-void
 .end method
 
 .method public final setLockMode(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mLockMode:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mLockMode:I    return-void
 .end method
 
 .method public setPanelSlideListener(Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;)V
@@ -5737,11 +5543,7 @@
     .line 12
     .line 13
     :cond_1
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPanelSlideListener:Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPanelSlideListener:Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;    return-void
 .end method
 
 .method public setParallaxDistance(I)V
@@ -5756,12 +5558,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
 .end method
 
 .method public setShadowDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -5770,12 +5567,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method public setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V
@@ -5786,11 +5578,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mShadowDrawableLeft:Landroid/graphics/drawable/Drawable;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mShadowDrawableLeft:Landroid/graphics/drawable/Drawable;    return-void
 .end method
 
 .method public setShadowDrawableRight(Landroid/graphics/drawable/Drawable;)V
@@ -5801,11 +5589,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mShadowDrawableRight:Landroid/graphics/drawable/Drawable;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mShadowDrawableRight:Landroid/graphics/drawable/Drawable;    return-void
 .end method
 
 .method public setShadowResource(I)V
@@ -5834,12 +5618,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method public setShadowResourceLeft(I)V
@@ -5862,12 +5641,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method public setShadowResourceRight(I)V
@@ -5890,12 +5664,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableRight(Landroid/graphics/drawable/Drawable;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableRight(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
 
 .method public setSliderFadeColor(I)V
@@ -5908,11 +5677,7 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSliderFadeColor:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSliderFadeColor:I    return-void
 .end method
 
 .method public smoothSlideClosed()V
@@ -5921,12 +5686,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z    return-void
 .end method
 
 .method public smoothSlideOpen()V
@@ -5935,12 +5695,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->openPane()Z
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->openPane()Z    return-void
 .end method
 
 .method public smoothSlideTo(FI)Z
@@ -5954,11 +5709,7 @@
     const/4 v0, 0x0
 
     .line 4
-    if-nez p2, :cond_0
-
-    .line 5
-    .line 6
-    return v0
+    if-nez p2, :cond_0    return v0
 
     .line 7
     :cond_0
@@ -6538,5 +6289,4 @@
     :goto_9
     return-void
 .end method
-
 .end class

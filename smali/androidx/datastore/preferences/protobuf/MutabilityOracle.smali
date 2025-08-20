@@ -21,16 +21,11 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/MutabilityOracle;->IMMUTABLE:Landroidx/datastore/preferences/protobuf/MutabilityOracle;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/MutabilityOracle;->IMMUTABLE:Landroidx/datastore/preferences/protobuf/MutabilityOracle;    return-void
 .end method
 
 
 # virtual methods
 .method public abstract ensureMutable()V
 .end method
-
 .end class

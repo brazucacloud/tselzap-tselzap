@@ -97,12 +97,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -176,11 +171,7 @@
     move-result-object p2
 
     .line 34
-    iput-object p2, p1, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
-
-    .line 35
-    .line 36
-    return-void
+    iput-object p2, p1, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;    return-void
 
     .line 37
     :cond_0
@@ -247,5 +238,4 @@
     :cond_3
     return-void
 .end method
-
 .end class

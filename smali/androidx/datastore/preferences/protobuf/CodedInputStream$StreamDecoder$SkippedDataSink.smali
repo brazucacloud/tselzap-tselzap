@@ -47,11 +47,7 @@
     move-result p1
 
     .line 10
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink;->lastPos:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink;->lastPos:I    return-void
 .end method
 
 
@@ -242,11 +238,6 @@
     const/4 v0, 0x0
 
     .line 35
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink;->lastPos:I
-
-    .line 36
-    .line 37
-    return-void
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink;->lastPos:I    return-void
 .end method
-
 .end class

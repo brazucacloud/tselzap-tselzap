@@ -52,11 +52,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/graphics/shapes/Feature;->cubics:Ljava/util/List;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/graphics/shapes/Feature;->cubics:Ljava/util/List;    return-void
 .end method
 
 
@@ -73,14 +69,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Feature;->cubics:Ljava/util/List;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/graphics/shapes/Feature;->cubics:Ljava/util/List;    return-object v0
 .end method
 
 .method public abstract transformed$graphics_shapes_release(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/Feature;
 .end method
-
 .end class

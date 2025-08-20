@@ -135,11 +135,7 @@
     const/4 v0, 0x1
 
     .line 36
-    sput-boolean v0, Landroidx/transition/ChangeTransform;->SUPPORTS_VIEW_REMOVAL_SUPPRESSION:Z
-
-    .line 37
-    .line 38
-    return-void
+    sput-boolean v0, Landroidx/transition/ChangeTransform;->SUPPORTS_VIEW_REMOVAL_SUPPRESSION:Z    return-void
 .end method
 
 .method public constructor <init>()V
@@ -934,12 +930,7 @@
     .line 133
     .line 134
     .line 135
-    invoke-virtual {p1, v4}, Landroid/animation/Animator;->addPauseListener(Landroid/animation/Animator$AnimatorPauseListener;)V
-
-    .line 136
-    .line 137
-    .line 138
-    return-object p1
+    invoke-virtual {p1, v4}, Landroid/animation/Animator;->addPauseListener(Landroid/animation/Animator$AnimatorPauseListener;)V    return-object p1
 .end method
 
 .method private parentsMatch(Landroid/view/ViewGroup;Landroid/view/ViewGroup;)Z
@@ -996,11 +987,7 @@
 
     .line 23
     .line 24
-    if-ne p2, p1, :cond_1
-
-    .line 25
-    .line 26
-    return v1
+    if-ne p2, p1, :cond_1    return v1
 
     .line 27
     :cond_1
@@ -1009,11 +996,7 @@
     .line 28
     :cond_2
     :goto_0
-    if-ne p1, p2, :cond_3
-
-    .line 29
-    .line 30
-    return v1
+    if-ne p1, p2, :cond_3    return v1
 
     .line 31
     :cond_3
@@ -1053,12 +1036,7 @@
     move-object v0, p0
 
     .line 12
-    invoke-static/range {v0 .. v8}, Landroidx/transition/ChangeTransform;->setTransforms(Landroid/view/View;FFFFFFFF)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-static/range {v0 .. v8}, Landroidx/transition/ChangeTransform;->setTransforms(Landroid/view/View;FFFFFFFF)V    return-void
 .end method
 
 .method private setMatricesForParent(Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)V
@@ -1176,12 +1154,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v0, p2}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
-
-    .line 60
-    .line 61
-    .line 62
-    return-void
+    invoke-virtual {v0, p2}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z    return-void
 .end method
 
 .method public static setTransforms(Landroid/view/View;FFFFFFFF)V
@@ -1223,12 +1196,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, p8}, Landroid/view/View;->setRotation(F)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual {p0, p8}, Landroid/view/View;->setRotation(F)V    return-void
 .end method
 
 
@@ -1241,12 +1209,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform;->captureValues(Landroidx/transition/TransitionValues;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform;->captureValues(Landroidx/transition/TransitionValues;)V    return-void
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -1538,12 +1501,7 @@
 
     .line 107
     .line 108
-    invoke-direct {p0, p1, p2, p3}, Landroidx/transition/ChangeTransform;->createGhostView(Landroid/view/ViewGroup;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)V
-
-    .line 109
-    .line 110
-    .line 111
-    return-object v2
+    invoke-direct {p0, p1, p2, p3}, Landroidx/transition/ChangeTransform;->createGhostView(Landroid/view/ViewGroup;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)V    return-object v2
 
     .line 112
     :cond_5
@@ -1579,22 +1537,14 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/ChangeTransform;->mReparent:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/transition/ChangeTransform;->mReparent:Z    return v0
 .end method
 
 .method public getReparentWithOverlay()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/ChangeTransform;->mUseOverlay:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/transition/ChangeTransform;->mUseOverlay:Z    return v0
 .end method
 
 .method public getTransitionProperties()[Ljava/lang/String;
@@ -1603,33 +1553,20 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/ChangeTransform;->sTransitionProperties:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/transition/ChangeTransform;->sTransitionProperties:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public setReparent(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/transition/ChangeTransform;->mReparent:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeTransform;->mReparent:Z    return-void
 .end method
 
 .method public setReparentWithOverlay(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/transition/ChangeTransform;->mUseOverlay:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeTransform;->mUseOverlay:Z    return-void
 .end method
-
 .end class

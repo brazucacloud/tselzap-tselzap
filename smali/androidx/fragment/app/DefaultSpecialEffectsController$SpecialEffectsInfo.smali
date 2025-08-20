@@ -52,11 +52,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->signal:Landroidx/core/os/CancellationSignal;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->signal:Landroidx/core/os/CancellationSignal;    return-void
 .end method
 
 
@@ -73,34 +69,21 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->completeSpecialEffect(Landroidx/core/os/CancellationSignal;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->completeSpecialEffect(Landroidx/core/os/CancellationSignal;)V    return-void
 .end method
 
 .method public final getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->operation:Landroidx/fragment/app/SpecialEffectsController$Operation;    return-object v0
 .end method
 
 .method public final getSignal()Landroidx/core/os/CancellationSignal;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->signal:Landroidx/core/os/CancellationSignal;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->signal:Landroidx/core/os/CancellationSignal;    return-object v0
 .end method
 
 .method public final isVisibilityUnchanged()Z
@@ -187,5 +170,4 @@
 
     return v0
 .end method
-
 .end class

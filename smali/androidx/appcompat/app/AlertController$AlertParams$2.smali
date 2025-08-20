@@ -84,11 +84,7 @@
     move-result p1
 
     .line 28
-    iput p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->mIsCheckedIndex:I
-
-    .line 29
-    .line 30
-    return-void
+    iput p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->mIsCheckedIndex:I    return-void
 .end method
 
 
@@ -170,12 +166,7 @@
 
     .line 36
     :goto_0
-    invoke-virtual {p1, p2, v0}, Landroid/widget/AbsListView;->setItemChecked(IZ)V
-
-    .line 37
-    .line 38
-    .line 39
-    return-void
+    invoke-virtual {p1, p2, v0}, Landroid/widget/AbsListView;->setItemChecked(IZ)V    return-void
 .end method
 
 .method public newView(Landroid/content/Context;Landroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View;
@@ -210,5 +201,4 @@
 
     return-object p1
 .end method
-
 .end class

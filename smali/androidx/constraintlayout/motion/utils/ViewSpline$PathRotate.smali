@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;-><init>()V    return-void
 .end method
 
 
@@ -63,12 +58,7 @@
     add-float/2addr p2, p3
 
     .line 15
-    invoke-virtual {p1, p2}, Landroid/view/View;->setRotation(F)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->setRotation(F)V    return-void
 .end method
 
 .method public setProperty(Landroid/view/View;F)V
@@ -76,5 +66,4 @@
 
     return-void
 .end method
-
 .end class

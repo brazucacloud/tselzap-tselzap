@@ -70,11 +70,7 @@
 
     .line 12
     .line 13
-    iput p1, p0, Landroidx/recyclerview/widget/TileList;->mTileSize:I
-
-    .line 14
-    .line 15
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/TileList;->mTileSize:I    return-void
 .end method
 
 
@@ -180,12 +176,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V    return-void
 .end method
 
 .method public getAtIndex(I)Landroidx/recyclerview/widget/TileList$Tile;
@@ -235,11 +226,7 @@
     move-result-object p1
 
     .line 18
-    check-cast p1, Landroidx/recyclerview/widget/TileList$Tile;
-
-    .line 19
-    .line 20
-    return-object p1
+    check-cast p1, Landroidx/recyclerview/widget/TileList$Tile;    return-object p1
 
     .line 21
     :cond_1
@@ -395,12 +382,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v1, p1}, Landroid/util/SparseArray;->delete(I)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object v0
+    invoke-virtual {v1, p1}, Landroid/util/SparseArray;->delete(I)V    return-object v0
 .end method
 
 .method public size()I
@@ -420,5 +402,4 @@
 
     return v0
 .end method
-
 .end class

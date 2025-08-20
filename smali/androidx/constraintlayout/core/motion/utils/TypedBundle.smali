@@ -138,11 +138,7 @@
 
     .line 46
     .line 47
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->mCountBoolean:I
-
-    .line 48
-    .line 49
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->mCountBoolean:I    return-void
 .end method
 
 
@@ -613,11 +609,7 @@
 
     .line 7
     .line 8
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->mCountInt:I
-
-    .line 9
-    .line 10
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->mCountInt:I    return-void
 .end method
 
 .method public getInteger(I)I
@@ -652,11 +644,7 @@
 
     .line 13
     .line 14
-    aget p1, p1, v0
-
-    .line 15
-    .line 16
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 17
     :cond_0
@@ -771,5 +759,4 @@
 
     return-object v0
 .end method
-
 .end class

@@ -378,23 +378,14 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V    return-void
 .end method
 
 .method public static synthetic access$100(Landroidx/activity/ComponentActivity;)Landroidx/activity/OnBackPressedDispatcher;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object p0
 .end method
 
 .method public static synthetic b(Landroidx/activity/ComponentActivity;)Landroid/os/Bundle;
@@ -427,12 +418,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;-><init>(Landroidx/activity/ComponentActivity;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;-><init>(Landroidx/activity/ComponentActivity;)V    return-object v0
 .end method
 
 .method private synthetic lambda$new$0()Lc1/v;
@@ -466,12 +452,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Landroidx/activity/result/ActivityResultRegistry;->onSaveInstanceState(Landroid/os/Bundle;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object v0
+    invoke-virtual {v1, v0}, Landroidx/activity/result/ActivityResultRegistry;->onSaveInstanceState(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 .method private synthetic lambda$new$2(Landroid/content/Context;)V
@@ -567,12 +548,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;)V
@@ -657,12 +633,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
@@ -677,12 +648,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V    return-void
 .end method
 
 .method public final addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -705,12 +671,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final addOnNewIntentListener(Landroidx/core/util/Consumer;)V
@@ -733,12 +694,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -761,12 +717,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
@@ -789,12 +740,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public ensureViewModelStore()V
@@ -865,11 +811,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;    return-object v0
 .end method
 
 .method public getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
@@ -1071,11 +1013,7 @@
     .line 31
     .line 32
     :cond_1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
-
-    .line 33
-    .line 34
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;    return-object v0
 .end method
 
 .method public getFullyDrawnReporter()Landroidx/activity/FullyDrawnReporter;
@@ -1084,11 +1022,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;    return-object v0
 .end method
 
 .method public getLastCustomNonConfigurationInstance()Ljava/lang/Object;
@@ -1116,11 +1050,7 @@
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->custom:Ljava/lang/Object;
-
-    .line 10
-    .line 11
-    return-object v0
+    iget-object v0, v0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->custom:Ljava/lang/Object;    return-object v0
 
     .line 12
     :cond_0
@@ -1135,11 +1065,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
 .end method
 
 .method public final getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
@@ -1201,11 +1127,7 @@
     .line 28
     .line 29
     :cond_0
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
-
-    .line 30
-    .line 31
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object v0
 .end method
 
 .method public final getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
@@ -1251,11 +1173,7 @@
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
-
-    .line 11
-    .line 12
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;    return-object v0
 
     .line 13
     :cond_0
@@ -1272,10 +1190,7 @@
     .line 18
     .line 19
     .line 20
-    throw v0
-    .line 21
-    .line 22
-.end method
+    throw v0.end method
 
 .method public initializeViewTreeOwners()V
     .locals 1
@@ -1383,24 +1298,14 @@
     move-result-object v0
 
     .line 53
-    invoke-static {v0, p0}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner;->set(Landroid/view/View;Landroidx/activity/FullyDrawnReporterOwner;)V
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-static {v0, p0}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner;->set(Landroid/view/View;Landroidx/activity/FullyDrawnReporterOwner;)V    return-void
 .end method
 
 .method public invalidateMenu()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V    return-void
 .end method
 
 .method public onActivityResult(IILandroid/content/Intent;)V
@@ -1461,12 +1366,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V    return-void
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -1879,12 +1779,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onPanelClosed(ILandroid/view/Menu;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onPanelClosed(ILandroid/view/Menu;)V    return-void
 .end method
 
 .method public onPictureInPictureModeChanged(Z)V
@@ -2214,11 +2109,7 @@
 
     .line 31
     .line 32
-    iput-object v1, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;
-
-    .line 33
-    .line 34
-    return-object v2
+    iput-object v1, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;    return-object v2
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -2270,12 +2161,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V    return-void
 .end method
 
 .method public onTrimMemory(I)V
@@ -2479,12 +2365,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V    return-void
 .end method
 
 .method public final removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
@@ -2507,12 +2388,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
@@ -2527,12 +2403,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V    return-void
 .end method
 
 .method public final removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -2555,12 +2426,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final removeOnNewIntentListener(Landroidx/core/util/Consumer;)V
@@ -2583,12 +2449,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -2611,12 +2472,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public final removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
@@ -2639,12 +2495,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public reportFullyDrawn()V
@@ -2701,12 +2552,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-static {}, Landroidx/tracing/Trace;->endSection()V    return-void
 
     .line 27
     :goto_1
@@ -2715,64 +2561,7 @@
     .line 28
     .line 29
     .line 30
-    throw v0
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public setContentView(I)V
     .locals 2
@@ -2952,5 +2741,4 @@
 
     return-void
 .end method
-
 .end class

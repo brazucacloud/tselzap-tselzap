@@ -28,11 +28,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;->mTransitionSet:Landroidx/transition/TransitionSet;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;->mTransitionSet:Landroidx/transition/TransitionSet;    return-void
 .end method
 
 
@@ -78,12 +74,7 @@
     .line 16
     .line 17
     :cond_0
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -125,5 +116,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

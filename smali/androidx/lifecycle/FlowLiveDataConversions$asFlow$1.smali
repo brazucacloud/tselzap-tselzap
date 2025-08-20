@@ -74,12 +74,7 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V    return-void
 .end method
 
 .method public static synthetic a(LB1/r;Ljava/lang/Object;)V
@@ -99,12 +94,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 
@@ -137,11 +127,7 @@
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
@@ -477,12 +463,7 @@
     .line 132
     invoke-static {p0}, Lz1/w;->d(Li1/c;)V
     :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    .line 133
-    .line 134
-    .line 135
-    return-object v0
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0    return-object v0
 
     .line 136
     :goto_2
@@ -552,83 +533,5 @@
 
     .line 167
     :goto_4
-    throw v0
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
-
+    throw v0.end method
 .end class

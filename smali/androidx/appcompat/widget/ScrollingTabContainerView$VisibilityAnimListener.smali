@@ -39,11 +39,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;->mCanceled:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;->mCanceled:Z    return-void
 .end method
 
 
@@ -55,11 +51,7 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;->mCanceled:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;->mCanceled:Z    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -70,11 +62,7 @@
 
     .line 2
     .line 3
-    if-eqz p1, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-eqz p1, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -93,12 +81,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -117,11 +100,7 @@
     .line 5
     .line 6
     .line 7
-    iput-boolean v0, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;->mCanceled:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;->mCanceled:Z    return-void
 .end method
 
 .method public withFinalVisibility(Landroid/view/ViewPropertyAnimator;I)Landroidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener;
@@ -136,11 +115,6 @@
 
     .line 4
     .line 5
-    iput-object p1, p2, Landroidx/appcompat/widget/ScrollingTabContainerView;->mVisibilityAnim:Landroid/view/ViewPropertyAnimator;
-
-    .line 6
-    .line 7
-    return-object p0
+    iput-object p1, p2, Landroidx/appcompat/widget/ScrollingTabContainerView;->mVisibilityAnim:Landroid/view/ViewPropertyAnimator;    return-object p0
 .end method
-
 .end class

@@ -105,11 +105,6 @@
     .line 28
     .line 29
     .line 30
-    iput-object v0, p0, Landroidx/transition/TransitionValuesMaps;->mNameValues:Landroidx/collection/ArrayMap;
-
-    .line 31
-    .line 32
-    return-void
+    iput-object v0, p0, Landroidx/transition/TransitionValuesMaps;->mNameValues:Landroidx/collection/ArrayMap;    return-void
 .end method
-
 .end class

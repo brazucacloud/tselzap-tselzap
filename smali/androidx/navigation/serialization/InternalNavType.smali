@@ -286,23 +286,14 @@
     .line 81
     .line 82
     .line 83
-    sput-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleListType:Landroidx/navigation/NavType;
-
-    .line 84
-    .line 85
-    return-void
+    sput-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleListType:Landroidx/navigation/NavType;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -319,11 +310,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->BoolNullableType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->BoolNullableType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getDoubleArrayType()Landroidx/navigation/NavType;
@@ -337,11 +324,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleArrayType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleArrayType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getDoubleListType()Landroidx/navigation/NavType;
@@ -357,11 +340,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleListType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleListType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getDoubleNullableType()Landroidx/navigation/NavType;
@@ -376,11 +355,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleNullableType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleNullableType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getDoubleType()Landroidx/navigation/NavType;
@@ -395,11 +370,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->DoubleType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getFloatNullableType()Landroidx/navigation/NavType;
@@ -414,11 +385,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->FloatNullableType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->FloatNullableType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getIntNullableType()Landroidx/navigation/NavType;
@@ -433,11 +400,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->IntNullableType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->IntNullableType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getLongNullableType()Landroidx/navigation/NavType;
@@ -452,11 +415,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->LongNullableType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->LongNullableType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getStringNonNullableType()Landroidx/navigation/NavType;
@@ -471,11 +430,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNonNullableType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNonNullableType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getStringNullableArrayType()Landroidx/navigation/NavType;
@@ -491,11 +446,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNullableArrayType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNullableArrayType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
 .method public final getStringNullableListType()Landroidx/navigation/NavType;
@@ -511,11 +462,6 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNullableListType:Landroidx/navigation/NavType;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNullableListType:Landroidx/navigation/NavType;    return-object v0
 .end method
-
 .end class

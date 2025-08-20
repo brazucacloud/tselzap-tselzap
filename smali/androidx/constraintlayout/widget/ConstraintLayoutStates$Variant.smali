@@ -349,12 +349,7 @@
 
     .line 152
     :cond_6
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 153
-    .line 154
-    .line 155
-    return-void
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
 
 
@@ -390,11 +385,7 @@
 
     .line 13
     .line 14
-    if-gez v0, :cond_0
-
-    .line 15
-    .line 16
-    return v1
+    if-gez v0, :cond_0    return v1
 
     .line 17
     :cond_0
@@ -422,11 +413,7 @@
 
     .line 28
     .line 29
-    if-gez v0, :cond_1
-
-    .line 30
-    .line 31
-    return v1
+    if-gez v0, :cond_1    return v1
 
     .line 32
     :cond_1
@@ -454,11 +441,7 @@
 
     .line 43
     .line 44
-    if-lez p1, :cond_2
-
-    .line 45
-    .line 46
-    return v1
+    if-lez p1, :cond_2    return v1
 
     .line 47
     :cond_2
@@ -486,11 +469,7 @@
 
     .line 58
     .line 59
-    if-lez p1, :cond_3
-
-    .line 60
-    .line 61
-    return v1
+    if-lez p1, :cond_3    return v1
 
     .line 62
     :cond_3
@@ -498,5 +477,4 @@
 
     return p1
 .end method
-
 .end class

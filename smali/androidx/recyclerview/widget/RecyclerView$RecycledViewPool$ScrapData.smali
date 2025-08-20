@@ -70,11 +70,6 @@
 
     .line 17
     .line 18
-    iput-wide v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;->mBindRunningAverageNs:J
-
-    .line 19
-    .line 20
-    return-void
+    iput-wide v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool$ScrapData;->mBindRunningAverageNs:J    return-void
 .end method
-
 .end class

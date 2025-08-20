@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator;-><init>()V    return-void
 .end method
 
 
@@ -41,12 +36,6 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p1, p2}, Landroid/view/View;->setScaleX(F)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;->setScaleX(F)V    return-void
 .end method
-
 .end class

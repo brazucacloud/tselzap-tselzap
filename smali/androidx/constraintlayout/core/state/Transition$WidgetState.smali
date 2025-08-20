@@ -203,12 +203,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V
-
-    .line 86
-    .line 87
-    .line 88
-    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V    return-void
 .end method
 
 
@@ -221,11 +216,7 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
-
-    .line 4
-    .line 5
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
 
     .line 6
     :cond_0
@@ -236,19 +227,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
-
-    .line 10
-    .line 11
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
 
     .line 12
     :cond_1
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
-
-    .line 13
-    .line 14
-    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
 .end method
 
 .method public getPathRelativeId()Ljava/lang/String;
@@ -384,12 +367,7 @@
     move v7, p3
 
     .line 53
-    invoke-virtual/range {v5 .. v10}, Landroidx/constraintlayout/core/motion/Motion;->interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
-
-    .line 54
-    .line 55
-    .line 56
-    return-void
+    invoke-virtual/range {v5 .. v10}, Landroidx/constraintlayout/core/motion/Motion;->interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z    return-void
 .end method
 
 .method public setKeyAttribute(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -480,12 +458,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V    return-void
 .end method
 
 .method public setKeyPosition(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -510,12 +483,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V    return-void
 .end method
 
 .method public setPathRelative(Landroidx/constraintlayout/core/state/Transition$WidgetState;)V
@@ -530,12 +498,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/motion/Motion;->setupRelative(Landroidx/constraintlayout/core/motion/Motion;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/motion/Motion;->setupRelative(Landroidx/constraintlayout/core/motion/Motion;)V    return-void
 .end method
 
 .method public update(Landroidx/constraintlayout/core/widgets/ConstraintWidget;I)V
@@ -623,11 +586,6 @@
     const/4 p1, -0x1
 
     .line 41
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentWidth:I
-
-    .line 42
-    .line 43
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentWidth:I    return-void
 .end method
-
 .end class

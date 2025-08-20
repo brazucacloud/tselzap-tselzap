@@ -250,11 +250,7 @@
 
     .line 25
     :goto_0
-    if-ltz v2, :cond_1
-
-    .line 26
-    .line 27
-    return v1
+    if-ltz v2, :cond_1    return v1
 
     .line 28
     :cond_1
@@ -540,12 +536,7 @@
     add-int/2addr p1, v0
 
     .line 158
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-
-    .line 159
-    .line 160
-    .line 161
-    return v0
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->set_size$collection(I)V    return v0
 
     .line 162
     :cond_8
@@ -558,84 +549,7 @@
     .line 165
     .line 166
     .line 167
-    throw p1
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    throw p1.end method
 
 .method public final addAll(Landroidx/collection/ArraySet;)V
     .locals 7
@@ -854,11 +768,7 @@
     move-result v0
 
     .line 25
-    if-nez v0, :cond_1
-
-    .line 26
-    .line 27
-    return-void
+    if-nez v0, :cond_1    return-void
 
     .line 28
     :cond_1
@@ -871,61 +781,7 @@
     .line 31
     .line 32
     .line 33
-    throw v0
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    throw v0.end method
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 0
@@ -1151,11 +1007,7 @@
     move-result p1
 
     .line 59
-    if-ne p1, v0, :cond_1
-
-    .line 60
-    .line 61
-    return-void
+    if-ne p1, v0, :cond_1    return-void
 
     .line 62
     :cond_1
@@ -1168,25 +1020,7 @@
     .line 65
     .line 66
     .line 67
-    throw p1
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    throw p1.end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
@@ -1195,11 +1029,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -1237,11 +1067,7 @@
     move-result v3
 
     .line 21
-    if-eq v1, v3, :cond_1
-
-    .line 22
-    .line 23
-    return v2
+    if-eq v1, v3, :cond_1    return v2
 
     .line 24
     :cond_1
@@ -1288,11 +1114,7 @@
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 42
-    if-nez v4, :cond_2
-
-    .line 43
-    .line 44
-    return v2
+    if-nez v4, :cond_2    return v2
 
     .line 45
     :cond_2
@@ -1316,44 +1138,28 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final getHashes$collection()[I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet;->hashes:[I
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/collection/ArraySet;->hashes:[I    return-object v0
 .end method
 
 .method public getSize()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ArraySet;->_size:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/ArraySet;->_size:I    return v0
 .end method
 
 .method public final get_size$collection()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ArraySet;->_size:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/collection/ArraySet;->_size:I    return v0
 .end method
 
 .method public hashCode()I
@@ -1484,12 +1290,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;-><init>(Landroidx/collection/ArraySet;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;-><init>(Landroidx/collection/ArraySet;)V    return-object v0
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
@@ -1665,12 +1466,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V
-
-    .line 15
-    .line 16
-    .line 17
-    return-object v1
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V    return-object v1
 
     .line 18
     :cond_0
@@ -1959,12 +1755,7 @@
 
     .line 153
     .line 154
-    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-
-    .line 155
-    .line 156
-    .line 157
-    return-object v1
+    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V    return-object v1
 
     .line 158
     :cond_6
@@ -1977,88 +1768,7 @@
     .line 161
     .line 162
     .line 163
-    throw p1
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    throw p1.end method
 
 .method public retainAll(Ljava/util/Collection;)Z
     .locals 5
@@ -2171,11 +1881,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;    return-void
 .end method
 
 .method public final setHashes$collection([I)V
@@ -2191,22 +1897,14 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/collection/ArraySet;->hashes:[I
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/collection/ArraySet;->hashes:[I    return-void
 .end method
 
 .method public final set_size$collection(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/collection/ArraySet;->_size:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/collection/ArraySet;->_size:I    return-void
 .end method
 
 .method public final bridge size()I
@@ -2304,11 +2002,7 @@
 
     .line 6
     .line 7
-    const-string v0, "{}"
-
-    .line 8
-    .line 9
-    return-object v0
+    const-string v0, "{}"    return-object v0
 
     .line 10
     :cond_0
@@ -2446,11 +2140,6 @@
     move-result-object v0
 
     .line 5
-    aget-object p1, v0, p1
-
-    .line 6
-    .line 7
-    return-object p1
+    aget-object p1, v0, p1    return-object p1
 .end method
-
 .end class

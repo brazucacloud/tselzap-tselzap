@@ -19,12 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;-><init>()V    return-void
 .end method
 
 
@@ -60,11 +55,7 @@
     const/4 v2, 0x0
 
     .line 10
-    if-eq v0, v1, :cond_0
-
-    .line 11
-    .line 12
-    return v2
+    if-eq v0, v1, :cond_0    return v2
 
     .line 13
     :cond_0
@@ -80,11 +71,7 @@
     move-result v0
 
     .line 19
-    if-eqz v0, :cond_1
-
-    .line 20
-    .line 21
-    return v2
+    if-eqz v0, :cond_1    return v2
 
     .line 22
     :cond_1
@@ -112,11 +99,7 @@
     move-result v0
 
     .line 34
-    if-nez v0, :cond_2
-
-    .line 35
-    .line 36
-    return v2
+    if-nez v0, :cond_2    return v2
 
     .line 37
     :cond_2
@@ -144,11 +127,7 @@
     move-result v0
 
     .line 49
-    if-nez v0, :cond_3
-
-    .line 50
-    .line 51
-    return v2
+    if-nez v0, :cond_3    return v2
 
     .line 52
     :cond_3
@@ -209,11 +188,7 @@
     move-result v1
 
     .line 79
-    if-eq v0, v1, :cond_6
-
-    .line 80
-    .line 81
-    return v2
+    if-eq v0, v1, :cond_6    return v2
 
     .line 82
     :cond_6
@@ -233,11 +208,7 @@
     move-result v1
 
     .line 90
-    if-eq v0, v1, :cond_7
-
-    .line 91
-    .line 92
-    return v2
+    if-eq v0, v1, :cond_7    return v2
 
     .line 93
     :cond_7
@@ -279,11 +250,7 @@
     move-result v1
 
     .line 111
-    if-eq v0, v1, :cond_8
-
-    .line 112
-    .line 113
-    return v2
+    if-eq v0, v1, :cond_8    return v2
 
     .line 114
     :cond_8
@@ -295,11 +262,7 @@
 
     .line 117
     .line 118
-    if-eq p1, p2, :cond_9
-
-    .line 119
-    .line 120
-    return v2
+    if-eq p1, p2, :cond_9    return v2
 
     .line 121
     :cond_9
@@ -354,5 +317,4 @@
 
     return p1
 .end method
-
 .end class

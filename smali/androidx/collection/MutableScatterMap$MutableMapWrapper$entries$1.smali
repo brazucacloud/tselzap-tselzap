@@ -55,12 +55,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -131,24 +126,7 @@
     .line 9
     .line 10
     .line 11
-    throw p1
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public clear()V
     .locals 1
@@ -158,12 +136,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V    return-void
 .end method
 
 .method public final contains(Ljava/lang/Object;)Z
@@ -282,11 +255,7 @@
     const/4 v2, 0x1
 
     .line 18
-    if-eqz v1, :cond_0
-
-    .line 19
-    .line 20
-    return v2
+    if-eqz v1, :cond_0    return v2
 
     .line 21
     :cond_0
@@ -376,11 +345,7 @@
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/collection/ScatterMap;->_size:I
-
-    .line 4
-    .line 5
-    return v0
+    iget v0, v0, Landroidx/collection/ScatterMap;->_size:I    return v0
 .end method
 
 .method public isEmpty()Z
@@ -421,12 +386,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;-><init>(Landroidx/collection/MutableScatterMap;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
 .end method
 
 .method public final remove(Ljava/lang/Object;)Z
@@ -1006,11 +966,7 @@
 
     .line 144
     :cond_6
-    const/16 v16, 0x0
-
-    .line 145
-    .line 146
-    return v16
+    const/16 v16, 0x0    return v16
 .end method
 
 .method public retainAll(Ljava/util/Collection;)Z
@@ -1351,11 +1307,7 @@
 
     .line 149
     :cond_7
-    const/16 v16, 0x0
-
-    .line 150
-    .line 151
-    return v16
+    const/16 v16, 0x0    return v16
 .end method
 
 .method public final bridge size()I
@@ -1404,5 +1356,4 @@
 
     return-object p1
 .end method
-
 .end class

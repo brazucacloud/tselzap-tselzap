@@ -27,12 +27,7 @@
     move-result-object v0
 
     .line 5
-    invoke-direct {p0, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-void
 .end method
 
 
@@ -63,11 +58,7 @@
     const/4 v1, 0x2
 
     .line 11
-    if-eq p1, v1, :cond_0
-
-    .line 12
-    .line 13
-    return-void
+    if-eq p1, v1, :cond_0    return-void
 
     .line 14
     :cond_0
@@ -79,12 +70,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v0}, Landroidx/loader/content/ModernAsyncTask;->onProgressUpdate([Ljava/lang/Object;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/loader/content/ModernAsyncTask;->onProgressUpdate([Ljava/lang/Object;)V    return-void
 
     .line 22
     :cond_1
@@ -103,12 +89,6 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, v0}, Landroidx/loader/content/ModernAsyncTask;->finish(Ljava/lang/Object;)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
+    invoke-virtual {p1, v0}, Landroidx/loader/content/ModernAsyncTask;->finish(Ljava/lang/Object;)V    return-void
 .end method
-
 .end class

@@ -22,12 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -141,12 +136,7 @@
     .line 43
     invoke-static {v0, p1, p2, p3, p4}, Landroidx/appcompat/resources/Compatibility$Api21Impl;->inflate(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 44
-    .line 45
-    .line 46
-    return-object v0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-object v0
 
     .line 47
     :catch_0
@@ -169,5 +159,4 @@
     :cond_0
     return-object v1
 .end method
-
 .end class

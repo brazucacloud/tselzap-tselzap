@@ -25,11 +25,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/cursoradapter/widget/CursorFilter;->mClient:Landroidx/cursoradapter/widget/CursorFilter$CursorFilterClient;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/cursoradapter/widget/CursorFilter;->mClient:Landroidx/cursoradapter/widget/CursorFilter$CursorFilterClient;    return-void
 .end method
 
 
@@ -97,11 +93,7 @@
 
     .line 19
     .line 20
-    iput-object p1, v0, Landroid/widget/Filter$FilterResults;->values:Ljava/lang/Object;
-
-    .line 21
-    .line 22
-    return-object v0
+    iput-object p1, v0, Landroid/widget/Filter$FilterResults;->values:Ljava/lang/Object;    return-object v0
 
     .line 23
     :cond_0
@@ -115,11 +107,7 @@
     const/4 p1, 0x0
 
     .line 27
-    iput-object p1, v0, Landroid/widget/Filter$FilterResults;->values:Ljava/lang/Object;
-
-    .line 28
-    .line 29
-    return-object v0
+    iput-object p1, v0, Landroid/widget/Filter$FilterResults;->values:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public publishResults(Ljava/lang/CharSequence;Landroid/widget/Filter$FilterResults;)V
@@ -166,5 +154,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

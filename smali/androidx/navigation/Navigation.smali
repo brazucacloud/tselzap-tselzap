@@ -24,12 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static synthetic a(Landroidx/navigation/NavDirections;Landroid/view/View;)V
@@ -162,12 +157,7 @@
     move-result-object p2
 
     .line 10
-    invoke-virtual {p2, p0, p1}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
+    invoke-virtual {p2, p0, p1}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;)V    return-void
 .end method
 
 .method private static final createNavigateOnClickListener$lambda$1(Landroidx/navigation/NavDirections;Landroid/view/View;)V
@@ -200,12 +190,7 @@
     move-result-object p1
 
     .line 15
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDirections;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDirections;)V    return-void
 .end method
 
 .method public static final findNavController(Landroid/app/Activity;I)Landroidx/navigation/NavController;
@@ -347,11 +332,7 @@
     move-result-object p1
 
     .line 17
-    check-cast p1, Landroidx/navigation/NavController;
-
-    .line 18
-    .line 19
-    return-object p1
+    check-cast p1, Landroidx/navigation/NavController;    return-object p1
 .end method
 
 .method private final getViewNavController(Landroid/view/View;)Landroidx/navigation/NavController;
@@ -390,11 +371,7 @@
     move-result-object p1
 
     .line 17
-    check-cast p1, Landroidx/navigation/NavController;
-
-    .line 18
-    .line 19
-    return-object p1
+    check-cast p1, Landroidx/navigation/NavController;    return-object p1
 
     .line 20
     :cond_0
@@ -406,11 +383,7 @@
 
     .line 23
     .line 24
-    check-cast p1, Landroidx/navigation/NavController;
-
-    .line 25
-    .line 26
-    return-object p1
+    check-cast p1, Landroidx/navigation/NavController;    return-object p1
 
     .line 27
     :cond_1
@@ -436,12 +409,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
 .end method
-
 .end class

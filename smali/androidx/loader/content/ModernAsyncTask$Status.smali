@@ -116,11 +116,7 @@
 
     .line 39
     .line 40
-    sput-object v5, Landroidx/loader/content/ModernAsyncTask$Status;->$VALUES:[Landroidx/loader/content/ModernAsyncTask$Status;
-
-    .line 41
-    .line 42
-    return-void
+    sput-object v5, Landroidx/loader/content/ModernAsyncTask$Status;->$VALUES:[Landroidx/loader/content/ModernAsyncTask$Status;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -132,12 +128,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/loader/content/ModernAsyncTask$Status;
@@ -156,11 +147,7 @@
     move-result-object p0
 
     .line 7
-    check-cast p0, Landroidx/loader/content/ModernAsyncTask$Status;
-
-    .line 8
-    .line 9
-    return-object p0
+    check-cast p0, Landroidx/loader/content/ModernAsyncTask$Status;    return-object p0
 .end method
 
 .method public static values()[Landroidx/loader/content/ModernAsyncTask$Status;
@@ -179,11 +166,6 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, [Landroidx/loader/content/ModernAsyncTask$Status;
-
-    .line 8
-    .line 9
-    return-object v0
+    check-cast v0, [Landroidx/loader/content/ModernAsyncTask$Status;    return-object v0
 .end method
-
 .end class

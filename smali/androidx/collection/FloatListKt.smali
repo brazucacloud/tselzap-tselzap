@@ -24,22 +24,14 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/FloatListKt;->EmptyFloatList:Landroidx/collection/FloatList;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/collection/FloatListKt;->EmptyFloatList:Landroidx/collection/FloatList;    return-void
 .end method
 
 .method public static final emptyFloatList()Landroidx/collection/FloatList;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/FloatListKt;->EmptyFloatList:Landroidx/collection/FloatList;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/FloatListKt;->EmptyFloatList:Landroidx/collection/FloatList;    return-object v0
 .end method
 
 .method public static final floatListOf()Landroidx/collection/FloatList;
@@ -195,5 +187,4 @@
 
     return-object v0
 .end method
-
 .end class

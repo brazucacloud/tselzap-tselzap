@@ -6,5 +6,4 @@
 # virtual methods
 .method public abstract getNavController()Landroidx/navigation/NavController;
 .end method
-
 .end class

@@ -107,11 +107,7 @@
     .line 37
     .line 38
     .line 39
-    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_RESUME:Landroidx/transition/Transition$TransitionNotification;
-
-    .line 40
-    .line 41
-    return-void
+    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_RESUME:Landroidx/transition/Transition$TransitionNotification;    return-void
 .end method
 
 
@@ -126,5 +122,4 @@
         .end annotation
     .end param
 .end method
-
 .end class

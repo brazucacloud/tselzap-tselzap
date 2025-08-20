@@ -23,11 +23,7 @@
 
     .line 5
     .line 6
-    iput-wide p3, p0, Landroidx/collection/LongLongPair;->second:J
-
-    .line 7
-    .line 8
-    return-void
+    iput-wide p3, p0, Landroidx/collection/LongLongPair;->second:J    return-void
 .end method
 
 
@@ -71,11 +67,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -128,22 +120,14 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/collection/LongLongPair;->first:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/collection/LongLongPair;->first:J    return-wide v0
 .end method
 
 .method public final getSecond()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/collection/LongLongPair;->second:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/collection/LongLongPair;->second:J    return-wide v0
 .end method
 
 .method public hashCode()I
@@ -249,5 +233,4 @@
 
     return-object v0
 .end method
-
 .end class

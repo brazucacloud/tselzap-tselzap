@@ -176,12 +176,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p3, p4, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p3, p4, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V    return-void
 .end method
 
 .method private init(Landroid/util/AttributeSet;)V
@@ -413,33 +408,21 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I    return v0
 .end method
 
 .method public getAttributeId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I    return v0
 .end method
 
 .method public isAnimatingChange()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z    return v0
 .end method
 
 .method public onMeasure(II)V
@@ -449,12 +432,7 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, p1}, Landroid/view/View;->setMeasuredDimension(II)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
+    invoke-virtual {p0, p1, p1}, Landroid/view/View;->setMeasuredDimension(II)V    return-void
 .end method
 
 .method public onNewValue(III)V
@@ -604,12 +582,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {p3, v0, v1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V
-
-    .line 70
-    .line 71
-    .line 72
-    return-void
+    invoke-virtual {p3, v0, v1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V    return-void
 
     .line 73
     :cond_4
@@ -668,22 +641,14 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z    return-void
 .end method
 
 .method public setApplyToConstraintSetId(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I    return-void
 .end method
 
 .method public setAttributeId(I)V
@@ -752,12 +717,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public setGuidelineEnd(I)V
@@ -780,12 +740,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public setGuidelinePercent(F)V
@@ -808,12 +763,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
 
 .method public setVisibility(I)V
@@ -821,5 +771,4 @@
 
     return-void
 .end method
-
 .end class

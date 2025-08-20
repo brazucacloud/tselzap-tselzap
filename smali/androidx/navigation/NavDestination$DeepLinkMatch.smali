@@ -85,11 +85,7 @@
 
     .line 18
     .line 19
-    iput p6, p0, Landroidx/navigation/NavDestination$DeepLinkMatch;->mimeTypeMatchLevel:I
-
-    .line 20
-    .line 21
-    return-void
+    iput p6, p0, Landroidx/navigation/NavDestination$DeepLinkMatch;->mimeTypeMatchLevel:I    return-void
 .end method
 
 
@@ -242,22 +238,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestination$DeepLinkMatch;->destination:Landroidx/navigation/NavDestination;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestination$DeepLinkMatch;->destination:Landroidx/navigation/NavDestination;    return-object v0
 .end method
 
 .method public final getMatchingArgs()Landroid/os/Bundle;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestination$DeepLinkMatch;->matchingArgs:Landroid/os/Bundle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestination$DeepLinkMatch;->matchingArgs:Landroid/os/Bundle;    return-object v0
 .end method
 
 .method public final hasMatchingArgs(Landroid/os/Bundle;)Z
@@ -341,11 +329,7 @@
     move-result v3
 
     .line 38
-    if-nez v3, :cond_2
-
-    .line 39
-    .line 40
-    return v0
+    if-nez v3, :cond_2    return v0
 
     .line 41
     :cond_2
@@ -459,11 +443,7 @@
     move-result v2
 
     .line 92
-    if-nez v2, :cond_1
-
-    .line 93
-    .line 94
-    return v0
+    if-nez v2, :cond_1    return v0
 
     .line 95
     :cond_6
@@ -476,5 +456,4 @@
     :goto_2
     return v0
 .end method
-
 .end class

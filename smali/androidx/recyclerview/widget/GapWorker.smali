@@ -90,11 +90,7 @@
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/recyclerview/widget/GapWorker;->sTaskComparator:Ljava/util/Comparator;
-
-    .line 14
-    .line 15
-    return-void
+    sput-object v0, Landroidx/recyclerview/widget/GapWorker;->sTaskComparator:Ljava/util/Comparator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -128,11 +124,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/recyclerview/widget/GapWorker;->mTasks:Ljava/util/ArrayList;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/GapWorker;->mTasks:Ljava/util/ArrayList;    return-void
 .end method
 
 .method private buildTaskList()V
@@ -456,12 +448,7 @@
 
     .line 146
     .line 147
-    invoke-static {v0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
-
-    .line 148
-    .line 149
-    .line 150
-    return-void
+    invoke-static {v0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V    return-void
 .end method
 
 .method private flushTaskWithDeadline(Landroidx/recyclerview/widget/GapWorker$Task;J)V
@@ -885,12 +872,7 @@
 
     .line 72
     :cond_3
-    invoke-static {}, Landroid/os/Trace;->endSection()V
-
-    .line 73
-    .line 74
-    .line 75
-    return-void
+    invoke-static {}, Landroid/os/Trace;->endSection()V    return-void
 
     .line 76
     :goto_2
@@ -1053,12 +1035,7 @@
     .line 66
     .line 67
     .line 68
-    invoke-static {}, Landroid/os/Trace;->endSection()V
-
-    .line 69
-    .line 70
-    .line 71
-    return-object p2
+    invoke-static {}, Landroid/os/Trace;->endSection()V    return-object p2
 
     .line 72
     :goto_2
@@ -1072,47 +1049,7 @@
     .line 76
     .line 77
     .line 78
-    throw p2
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-.end method
+    throw p2.end method
 
 
 # virtual methods
@@ -1170,12 +1107,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public postFromTraversal(Landroidx/recyclerview/widget/RecyclerView;II)V
@@ -1278,12 +1210,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p1, p2, p3}, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->setPrefetchVector(II)V
-
-    .line 48
-    .line 49
-    .line 50
-    return-void
+    invoke-virtual {p1, p2, p3}, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->setPrefetchVector(II)V    return-void
 .end method
 
 .method public prefetch(J)V
@@ -1295,12 +1222,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/GapWorker;->flushTasksWithDeadline(J)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/GapWorker;->flushTasksWithDeadline(J)V    return-void
 .end method
 
 .method public remove(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -1397,12 +1319,7 @@
 
     .line 17
     .line 18
-    invoke-static {}, Landroid/os/Trace;->endSection()V
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-static {}, Landroid/os/Trace;->endSection()V    return-void
 
     .line 22
     :cond_0
@@ -1545,10 +1462,5 @@
     .line 81
     .line 82
     .line 83
-    throw v2
-    .line 84
-    .line 85
-    .line 86
-.end method
-
+    throw v2.end method
 .end class

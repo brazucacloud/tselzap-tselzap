@@ -209,11 +209,7 @@
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mContext:Landroid/content/Context;
-
-    .line 4
-    .line 5
-    return-object v0
+    iget-object v0, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mContext:Landroid/content/Context;    return-object v0
 .end method
 
 .method public setAdapter(Landroid/widget/ListAdapter;Landroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -228,11 +224,7 @@
 
     .line 4
     .line 5
-    iput-object p2, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnClickListener:Landroid/content/DialogInterface$OnClickListener;
-
-    .line 6
-    .line 7
-    return-object p0
+    iput-object p2, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnClickListener:Landroid/content/DialogInterface$OnClickListener;    return-object p0
 .end method
 
 .method public setCancelable(Z)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -243,11 +235,7 @@
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mCancelable:Z
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mCancelable:Z    return-object p0
 .end method
 
 .method public setCursor(Landroid/database/Cursor;Landroid/content/DialogInterface$OnClickListener;Ljava/lang/String;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -266,11 +254,7 @@
 
     .line 6
     .line 7
-    iput-object p2, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnClickListener:Landroid/content/DialogInterface$OnClickListener;
-
-    .line 8
-    .line 9
-    return-object p0
+    iput-object p2, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnClickListener:Landroid/content/DialogInterface$OnClickListener;    return-object p0
 .end method
 
 .method public setCustomTitle(Landroid/view/View;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -285,11 +269,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mCustomTitleView:Landroid/view/View;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mCustomTitleView:Landroid/view/View;    return-object p0
 .end method
 
 .method public setIcon(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -371,11 +351,7 @@
 
     .line 21
     .line 22
-    iput v0, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mIconId:I
-
-    .line 23
-    .line 24
-    return-object p0
+    iput v0, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mIconId:I    return-object p0
 .end method
 
 .method public setInverseBackgroundForced(Z)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -388,11 +364,7 @@
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mForceInverseBackground:Z
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mForceInverseBackground:Z    return-object p0
 .end method
 
 .method public setItems(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -608,11 +580,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mNegativeButtonIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mNegativeButtonIcon:Landroid/graphics/drawable/Drawable;    return-object p0
 .end method
 
 .method public setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -663,11 +631,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mNeutralButtonIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mNeutralButtonIcon:Landroid/graphics/drawable/Drawable;    return-object p0
 .end method
 
 .method public setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -678,11 +642,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnCancelListener:Landroid/content/DialogInterface$OnCancelListener;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnCancelListener:Landroid/content/DialogInterface$OnCancelListener;    return-object p0
 .end method
 
 .method public setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -693,11 +653,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnDismissListener:Landroid/content/DialogInterface$OnDismissListener;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnDismissListener:Landroid/content/DialogInterface$OnDismissListener;    return-object p0
 .end method
 
 .method public setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -708,11 +664,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;    return-object p0
 .end method
 
 .method public setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -723,11 +675,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnKeyListener:Landroid/content/DialogInterface$OnKeyListener;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mOnKeyListener:Landroid/content/DialogInterface$OnKeyListener;    return-object p0
 .end method
 
 .method public setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -778,11 +726,7 @@
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mPositiveButtonIcon:Landroid/graphics/drawable/Drawable;
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-object p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mPositiveButtonIcon:Landroid/graphics/drawable/Drawable;    return-object p0
 .end method
 
 .method public setRecycleOnMeasureEnabled(Z)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -798,11 +742,7 @@
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mRecycleOnMeasure:Z
-
-    .line 4
-    .line 5
-    return-object p0
+    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mRecycleOnMeasure:Z    return-object p0
 .end method
 
 .method public setSingleChoiceItems(IILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -1041,12 +981,6 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/app/Dialog;->show()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
+    invoke-virtual {v0}, Landroid/app/Dialog;->show()V    return-object v0
 .end method
-
 .end class

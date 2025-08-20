@@ -33,12 +33,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V    return-void
 .end method
 
 
@@ -51,12 +46,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2, p3}, Landroidx/viewpager/widget/PagerTitleStrip;->updateAdapter(Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1, p2, p3}, Landroidx/viewpager/widget/PagerTitleStrip;->updateAdapter(Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V    return-void
 .end method
 
 .method public onChanged()V
@@ -142,23 +132,14 @@
     const/4 v3, 0x1
 
     .line 38
-    invoke-virtual {v0, v2, v1, v3}, Landroidx/viewpager/widget/PagerTitleStrip;->updateTextPositions(IFZ)V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-virtual {v0, v2, v1, v3}, Landroidx/viewpager/widget/PagerTitleStrip;->updateTextPositions(IFZ)V    return-void
 .end method
 
 .method public onPageScrollStateChanged(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/viewpager/widget/PagerTitleStrip$PageListener;->mScrollState:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/viewpager/widget/PagerTitleStrip$PageListener;->mScrollState:I    return-void
 .end method
 
 .method public onPageScrolled(IFI)V
@@ -189,12 +170,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-virtual {p3, p1, p2, v0}, Landroidx/viewpager/widget/PagerTitleStrip;->updateTextPositions(IFZ)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {p3, p1, p2, v0}, Landroidx/viewpager/widget/PagerTitleStrip;->updateTextPositions(IFZ)V    return-void
 .end method
 
 .method public onPageSelected(I)V
@@ -296,5 +272,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

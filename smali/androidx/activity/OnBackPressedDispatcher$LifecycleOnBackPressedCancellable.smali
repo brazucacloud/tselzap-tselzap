@@ -76,12 +76,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p2, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-virtual {p2, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
 .end method
 
 
@@ -125,11 +120,7 @@
     const/4 v0, 0x0
 
     .line 19
-    iput-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;->currentCancellable:Landroidx/activity/Cancellable;
-
-    .line 20
-    .line 21
-    return-void
+    iput-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;->currentCancellable:Landroidx/activity/Cancellable;    return-void
 .end method
 
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -178,11 +169,7 @@
     move-result-object p1
 
     .line 23
-    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;->currentCancellable:Landroidx/activity/Cancellable;
-
-    .line 24
-    .line 25
-    return-void
+    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;->currentCancellable:Landroidx/activity/Cancellable;    return-void
 
     .line 26
     :cond_0
@@ -202,12 +189,7 @@
 
     .line 33
     .line 34
-    invoke-interface {p1}, Landroidx/activity/Cancellable;->cancel()V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-interface {p1}, Landroidx/activity/Cancellable;->cancel()V    return-void
 
     .line 38
     :cond_1
@@ -227,5 +209,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

@@ -83,11 +83,7 @@
     .line 22
     .line 23
     .line 24
-    iput-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->mOverScroller:Landroid/widget/OverScroller;
-
-    .line 25
-    .line 26
-    return-void
+    iput-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->mOverScroller:Landroid/widget/OverScroller;    return-void
 .end method
 
 .method private computeScrollDuration(II)I
@@ -224,12 +220,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p0}, Landroidx/core/view/ViewCompat;->postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-static {v0, p0}, Landroidx/core/view/ViewCompat;->postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V    return-void
 .end method
 
 
@@ -342,12 +333,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->postOnAnimation()V
-
-    .line 53
-    .line 54
-    .line 55
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->postOnAnimation()V    return-void
 .end method
 
 .method public postOnAnimation()V
@@ -365,20 +351,11 @@
     const/4 v0, 0x1
 
     .line 6
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->mReSchedulePostAnimationCallback:Z
-
-    .line 7
-    .line 8
-    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->mReSchedulePostAnimationCallback:Z    return-void
 
     .line 9
     :cond_0
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->internalPostOnAnimation()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->internalPostOnAnimation()V    return-void
 .end method
 
 .method public run()V
@@ -401,12 +378,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->stop()V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->stop()V    return-void
 
     .line 13
     :cond_0
@@ -1263,12 +1235,7 @@
 
     .line 407
     .line 408
-    invoke-direct {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->internalPostOnAnimation()V
-
-    .line 409
-    .line 410
-    .line 411
-    return-void
+    invoke-direct {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->internalPostOnAnimation()V    return-void
 
     .line 412
     :cond_1a
@@ -1285,12 +1252,7 @@
 
     .line 418
     .line 419
-    invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->stopNestedScroll(I)V
-
-    .line 420
-    .line 421
-    .line 422
-    return-void
+    invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->stopNestedScroll(I)V    return-void
 .end method
 
 .method public smoothScrollBy(IIILandroid/view/animation/Interpolator;)V
@@ -1434,12 +1396,7 @@
     .line 63
     .line 64
     :cond_3
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->postOnAnimation()V
-
-    .line 65
-    .line 66
-    .line 67
-    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->postOnAnimation()V    return-void
 .end method
 
 .method public stop()V
@@ -1459,12 +1416,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/widget/OverScroller;->abortAnimation()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroid/widget/OverScroller;->abortAnimation()V    return-void
 .end method
-
 .end class

@@ -34,11 +34,7 @@
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;    return-void
 .end method
 
 
@@ -73,12 +69,7 @@
     move v6, p6
 
     .line 11
-    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
+    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V    return-void
 .end method
 
 .method public debug(Ljava/lang/String;F)Ljava/lang/String;
@@ -222,12 +213,6 @@
 
     .line 26
     .line 27
-    invoke-virtual/range {v1 .. v9}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual/range {v1 .. v9}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V    return-void
 .end method
-
 .end class

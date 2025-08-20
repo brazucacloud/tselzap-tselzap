@@ -153,22 +153,14 @@
     .line 37
     .line 38
     .line 39
-    iput-object p1, p0, Landroidx/datastore/DataStoreSingletonDelegate;->lock:Ljava/lang/Object;
-
-    .line 40
-    .line 41
-    return-void
+    iput-object p1, p0, Landroidx/datastore/DataStoreSingletonDelegate;->lock:Ljava/lang/Object;    return-void
 .end method
 
 .method public static final synthetic access$getFileName$p(Landroidx/datastore/DataStoreSingletonDelegate;)Ljava/lang/String;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/DataStoreSingletonDelegate;->fileName:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object p0
+    iget-object p0, p0, Landroidx/datastore/DataStoreSingletonDelegate;->fileName:Ljava/lang/String;    return-object p0
 .end method
 
 
@@ -297,5 +289,4 @@
 
     return-object p1
 .end method
-
 .end class

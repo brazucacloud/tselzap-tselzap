@@ -81,11 +81,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mType:Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mType:Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;    return-void
 .end method
 
 .method private isConnectionToMe(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashSet;)Z
@@ -112,11 +108,7 @@
     const/4 v1, 0x0
 
     .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -136,11 +128,7 @@
     const/4 v2, 0x1
 
     .line 17
-    if-ne p1, v0, :cond_1
-
-    .line 18
-    .line 19
-    return v2
+    if-ne p1, v0, :cond_1    return v2
 
     .line 20
     :cond_1
@@ -228,11 +216,7 @@
     move-result v4
 
     .line 61
-    if-eqz v4, :cond_2
-
-    .line 62
-    .line 63
-    return v2
+    if-eqz v4, :cond_2    return v2
 
     .line 64
     :cond_2
@@ -479,11 +463,7 @@
 
     .line 67
     .line 68
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mGoneMargin:I
-
-    .line 69
-    .line 70
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mGoneMargin:I    return-void
 .end method
 
 .method public findDependents(ILjava/util/ArrayList;Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)V
@@ -569,11 +549,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mDependents:Ljava/util/HashSet;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mDependents:Ljava/util/HashSet;    return-object v0
 .end method
 
 .method public getFinalValue()I
@@ -594,11 +570,7 @@
 
     .line 7
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mFinalValue:I
-
-    .line 8
-    .line 9
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mFinalValue:I    return v0
 .end method
 
 .method public getMargin()I
@@ -667,19 +639,11 @@
 
     .line 30
     .line 31
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mGoneMargin:I
-
-    .line 32
-    .line 33
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mGoneMargin:I    return v0
 
     .line 34
     :cond_1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mMargin:I
-
-    .line 35
-    .line 36
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mMargin:I    return v0
 .end method
 
 .method public final getOpposite()Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
@@ -732,11 +696,7 @@
 
     .line 23
     .line 24
-    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mTop:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
-
-    .line 25
-    .line 26
-    return-object v0
+    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mTop:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;    return-object v0
 
     .line 27
     :pswitch_1
@@ -744,11 +704,7 @@
 
     .line 28
     .line 29
-    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mLeft:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
-
-    .line 30
-    .line 31
-    return-object v0
+    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mLeft:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;    return-object v0
 
     .line 32
     :pswitch_2
@@ -756,11 +712,7 @@
 
     .line 33
     .line 34
-    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mBottom:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
-
-    .line 35
-    .line 36
-    return-object v0
+    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mBottom:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;    return-object v0
 
     .line 37
     :pswitch_3
@@ -768,11 +720,7 @@
 
     .line 38
     .line 39
-    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mRight:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
-
-    .line 40
-    .line 41
-    return-object v0
+    iget-object v0, v0, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mRight:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;    return-object v0
 
     .line 42
     :pswitch_4
@@ -795,92 +743,34 @@
         :pswitch_4
         :pswitch_4
         :pswitch_4
-    .end packed-switch
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    .end packed-switch.end method
 
 .method public getOwner()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mOwner:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mOwner:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-object v0
 .end method
 
 .method public getSolverVariable()Landroidx/constraintlayout/core/SolverVariable;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mSolverVariable:Landroidx/constraintlayout/core/SolverVariable;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mSolverVariable:Landroidx/constraintlayout/core/SolverVariable;    return-object v0
 .end method
 
 .method public getTarget()Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mTarget:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mTarget:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;    return-object v0
 .end method
 
 .method public getType()Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mType:Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mType:Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;    return-object v0
 .end method
 
 .method public hasCenteredDependents()Z
@@ -894,11 +784,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -975,11 +861,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -1008,11 +890,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mHasFinalValue:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mHasFinalValue:Z    return v0
 .end method
 
 .method public isConnected()Z
@@ -1169,67 +1047,7 @@
         :pswitch_1
         :pswitch_1
         :pswitch_1
-    .end packed-switch
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    .end packed-switch.end method
 
 .method public isSimilarDimensionConnection(Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)Z
     .locals 3
@@ -1250,11 +1068,7 @@
     const/4 v1, 0x1
 
     .line 8
-    if-ne p1, v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-ne p1, v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -1303,11 +1117,7 @@
 
     .line 32
     .line 33
-    if-eq p1, v0, :cond_1
-
-    .line 34
-    .line 35
-    return v1
+    if-eq p1, v0, :cond_1    return v1
 
     .line 36
     :cond_1
@@ -1414,19 +1224,7 @@
         :pswitch_0
         :pswitch_2
         :pswitch_1
-    .end packed-switch
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    .end packed-switch.end method
 
 .method public isValidConnection(Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)Z
     .locals 4
@@ -1435,11 +1233,7 @@
     const/4 v0, 0x0
 
     .line 2
-    if-nez p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-nez p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -1577,11 +1371,7 @@
 
     .line 68
     .line 69
-    if-eq v1, p1, :cond_4
-
-    .line 70
-    .line 71
-    return v3
+    if-eq v1, p1, :cond_4    return v3
 
     .line 72
     :cond_4
@@ -1786,106 +1576,7 @@
         :pswitch_0
         :pswitch_4
         :pswitch_4
-    .end packed-switch
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-.end method
+    .end packed-switch.end method
 
 .method public isVerticalAnchor()Z
     .locals 2
@@ -1958,67 +1649,7 @@
         :pswitch_0
         :pswitch_0
         :pswitch_1
-    .end packed-switch
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-.end method
+    .end packed-switch.end method
 
 .method public reset()V
     .locals 2
@@ -2104,11 +1735,7 @@
 
     .line 39
     .line 40
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mFinalValue:I
-
-    .line 41
-    .line 42
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mFinalValue:I    return-void
 .end method
 
 .method public resetFinalResolution()V
@@ -2122,11 +1749,7 @@
 
     .line 3
     .line 4
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mFinalValue:I
-
-    .line 5
-    .line 6
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mFinalValue:I    return-void
 .end method
 
 .method public resetSolverVariable(Landroidx/constraintlayout/core/Cache;)V
@@ -2157,20 +1780,11 @@
     .line 11
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mSolverVariable:Landroidx/constraintlayout/core/SolverVariable;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mSolverVariable:Landroidx/constraintlayout/core/SolverVariable;    return-void
 
     .line 16
     :cond_0
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/SolverVariable;->reset()V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/SolverVariable;->reset()V    return-void
 .end method
 
 .method public setFinalValue(I)V
@@ -2184,11 +1798,7 @@
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mHasFinalValue:Z
-
-    .line 5
-    .line 6
-    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mHasFinalValue:Z    return-void
 .end method
 
 .method public setGoneMargin(I)V
@@ -2304,5 +1914,4 @@
 
     return-object v0
 .end method
-
 .end class

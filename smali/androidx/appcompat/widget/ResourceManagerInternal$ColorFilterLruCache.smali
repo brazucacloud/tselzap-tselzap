@@ -28,12 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V    return-void
 .end method
 
 .method private static generateCacheKey(ILandroid/graphics/PorterDuff$Mode;)I
@@ -94,11 +89,7 @@
     move-result-object p1
 
     .line 13
-    check-cast p1, Landroid/graphics/PorterDuffColorFilter;
-
-    .line 14
-    .line 15
-    return-object p1
+    check-cast p1, Landroid/graphics/PorterDuffColorFilter;    return-object p1
 .end method
 
 .method public put(ILandroid/graphics/PorterDuff$Mode;Landroid/graphics/PorterDuffColorFilter;)Landroid/graphics/PorterDuffColorFilter;
@@ -129,11 +120,6 @@
     move-result-object p1
 
     .line 13
-    check-cast p1, Landroid/graphics/PorterDuffColorFilter;
-
-    .line 14
-    .line 15
-    return-object p1
+    check-cast p1, Landroid/graphics/PorterDuffColorFilter;    return-object p1
 .end method
-
 .end class

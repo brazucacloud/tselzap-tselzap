@@ -28,16 +28,11 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;->mDispatcher:Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;->mDispatcher:Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;    return-void
 .end method
 
 
 # virtual methods
 .method public abstract postFrameCallback()V
 .end method
-
 .end class

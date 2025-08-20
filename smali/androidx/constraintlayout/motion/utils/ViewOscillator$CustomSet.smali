@@ -37,11 +37,7 @@
 
     .line 6
     .line 7
-    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$CustomSet;->mValue:[F
-
-    .line 8
-    .line 9
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$CustomSet;->mValue:[F    return-void
 .end method
 
 
@@ -54,11 +50,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$CustomSet;->mCustom:Landroidx/constraintlayout/widget/ConstraintAttribute;
-
-    .line 4
-    .line 5
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$CustomSet;->mCustom:Landroidx/constraintlayout/widget/ConstraintAttribute;    return-void
 .end method
 
 .method public setProperty(Landroid/view/View;F)V
@@ -92,12 +84,6 @@
 
     .line 13
     .line 14
-    invoke-static {p2, p1, v0}, Landroidx/constraintlayout/motion/utils/CustomSupport;->setInterpolatedValue(Landroidx/constraintlayout/widget/ConstraintAttribute;Landroid/view/View;[F)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-static {p2, p1, v0}, Landroidx/constraintlayout/motion/utils/CustomSupport;->setInterpolatedValue(Landroidx/constraintlayout/widget/ConstraintAttribute;Landroid/view/View;[F)V    return-void
 .end method
-
 .end class

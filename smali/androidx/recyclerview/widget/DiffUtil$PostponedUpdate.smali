@@ -40,11 +40,6 @@
 
     .line 7
     .line 8
-    iput-boolean p3, p0, Landroidx/recyclerview/widget/DiffUtil$PostponedUpdate;->removal:Z
-
-    .line 9
-    .line 10
-    return-void
+    iput-boolean p3, p0, Landroidx/recyclerview/widget/DiffUtil$PostponedUpdate;->removal:Z    return-void
 .end method
-
 .end class

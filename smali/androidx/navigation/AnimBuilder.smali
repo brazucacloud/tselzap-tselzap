@@ -67,11 +67,7 @@
 
     .line 10
     .line 11
-    iput v0, p0, Landroidx/navigation/AnimBuilder;->popExit:I
-
-    .line 12
-    .line 13
-    return-void
+    iput v0, p0, Landroidx/navigation/AnimBuilder;->popExit:I    return-void
 .end method
 
 
@@ -80,88 +76,55 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/AnimBuilder;->enter:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/AnimBuilder;->enter:I    return v0
 .end method
 
 .method public final getExit()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/AnimBuilder;->exit:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/AnimBuilder;->exit:I    return v0
 .end method
 
 .method public final getPopEnter()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/AnimBuilder;->popEnter:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/AnimBuilder;->popEnter:I    return v0
 .end method
 
 .method public final getPopExit()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/AnimBuilder;->popExit:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/AnimBuilder;->popExit:I    return v0
 .end method
 
 .method public final setEnter(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/navigation/AnimBuilder;->enter:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/navigation/AnimBuilder;->enter:I    return-void
 .end method
 
 .method public final setExit(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/navigation/AnimBuilder;->exit:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/navigation/AnimBuilder;->exit:I    return-void
 .end method
 
 .method public final setPopEnter(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/navigation/AnimBuilder;->popEnter:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/navigation/AnimBuilder;->popEnter:I    return-void
 .end method
 
 .method public final setPopExit(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/navigation/AnimBuilder;->popExit:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/navigation/AnimBuilder;->popExit:I    return-void
 .end method
-
 .end class

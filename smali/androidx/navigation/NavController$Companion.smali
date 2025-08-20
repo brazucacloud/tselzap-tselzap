@@ -47,12 +47,6 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/navigation/NavController;->access$setDeepLinkSaveState$cp(Z)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {p1}, Landroidx/navigation/NavController;->access$setDeepLinkSaveState$cp(Z)V    return-void
 .end method
-
 .end class

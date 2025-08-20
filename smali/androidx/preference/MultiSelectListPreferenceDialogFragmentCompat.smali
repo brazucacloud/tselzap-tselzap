@@ -50,11 +50,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mNewValues:Ljava/util/Set;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mNewValues:Ljava/util/Set;    return-void
 .end method
 
 .method private getListPreference()Landroidx/preference/MultiSelectListPreference;
@@ -69,11 +65,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Landroidx/preference/MultiSelectListPreference;
-
-    .line 6
-    .line 7
-    return-object v0
+    check-cast v0, Landroidx/preference/MultiSelectListPreference;    return-object v0
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
@@ -112,12 +104,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-object v0
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
 .end method
 
 
@@ -224,11 +211,7 @@
     move-result-object p1
 
     .line 49
-    iput-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mEntryValues:[Ljava/lang/CharSequence;
-
-    .line 50
-    .line 51
-    return-void
+    iput-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mEntryValues:[Ljava/lang/CharSequence;    return-void
 
     .line 52
     :cond_0
@@ -323,11 +306,7 @@
     move-result-object p1
 
     .line 98
-    iput-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mEntryValues:[Ljava/lang/CharSequence;
-
-    .line 99
-    .line 100
-    return-void
+    iput-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mEntryValues:[Ljava/lang/CharSequence;    return-void
 .end method
 
 .method public onDialogClosed(Z)V
@@ -383,11 +362,7 @@
     const/4 p1, 0x0
 
     .line 25
-    iput-boolean p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mPreferenceChanged:Z
-
-    .line 26
-    .line 27
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mPreferenceChanged:Z    return-void
 .end method
 
 .method public onPrepareDialogBuilder(Landroidx/appcompat/app/AlertDialog$Builder;)V
@@ -475,12 +450,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-virtual {p1, v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setMultiChoiceItems([Ljava/lang/CharSequence;[ZLandroid/content/DialogInterface$OnMultiChoiceClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-virtual {p1, v0, v1, v2}, Landroidx/appcompat/app/AlertDialog$Builder;->setMultiChoiceItems([Ljava/lang/CharSequence;[ZLandroid/content/DialogInterface$OnMultiChoiceClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;    return-void
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -552,12 +522,6 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V    return-void
 .end method
-
 .end class

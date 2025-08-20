@@ -8,12 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLElement;-><init>([C)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLElement;-><init>([C)V    return-void
 .end method
 
 .method public static allocate([C)Landroidx/constraintlayout/core/parser/CLElement;
@@ -24,12 +19,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLString;-><init>([C)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLString;-><init>([C)V    return-object v0
 .end method
 
 .method public static from(Ljava/lang/String;)Landroidx/constraintlayout/core/parser/CLString;
@@ -83,12 +73,7 @@
     int-to-long v1, p0
 
     .line 22
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/parser/CLElement;->setEnd(J)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object v0
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/parser/CLElement;->setEnd(J)V    return-object v0
 .end method
 
 
@@ -100,11 +85,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -147,11 +128,7 @@
     move-result v1
 
     .line 24
-    if-eqz v1, :cond_1
-
-    .line 25
-    .line 26
-    return v0
+    if-eqz v1, :cond_1    return v0
 
     .line 27
     :cond_1
@@ -278,5 +255,4 @@
 
     return-object v0
 .end method
-
 .end class

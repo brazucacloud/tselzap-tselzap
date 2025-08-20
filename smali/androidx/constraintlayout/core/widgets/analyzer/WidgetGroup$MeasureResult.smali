@@ -141,11 +141,7 @@
 
     .line 50
     .line 51
-    iput p3, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup$MeasureResult;->mOrientation:I
-
-    .line 52
-    .line 53
-    return-void
+    iput p3, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup$MeasureResult;->mOrientation:I    return-void
 .end method
 
 
@@ -209,5 +205,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

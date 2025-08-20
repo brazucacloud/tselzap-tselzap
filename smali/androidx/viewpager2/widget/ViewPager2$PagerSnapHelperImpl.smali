@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/PagerSnapHelper;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/PagerSnapHelper;-><init>()V    return-void
 .end method
 
 
@@ -74,5 +69,4 @@
 
     return-object p1
 .end method
-
 .end class

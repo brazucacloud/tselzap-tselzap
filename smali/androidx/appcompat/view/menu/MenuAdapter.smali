@@ -58,12 +58,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V    return-void
 .end method
 
 
@@ -132,11 +127,7 @@
 
     .line 29
     .line 30
-    iput v3, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
-
-    .line 31
-    .line 32
-    return-void
+    iput v3, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I    return-void
 
     .line 33
     :cond_0
@@ -151,22 +142,14 @@
     const/4 v0, -0x1
 
     .line 37
-    iput v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
-
-    .line 38
-    .line 39
-    return-void
+    iput v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I    return-void
 .end method
 
 .method public getAdapterMenu()Landroidx/appcompat/view/menu/MenuBuilder;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
 .end method
 
 .method public getCount()I
@@ -237,22 +220,14 @@
     move-result v0
 
     .line 31
-    add-int/lit8 v0, v0, -0x1
-
-    .line 32
-    .line 33
-    return v0
+    add-int/lit8 v0, v0, -0x1    return v0
 .end method
 
 .method public getForceShowIcon()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z    return v0
 .end method
 
 .method public getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
@@ -470,12 +445,7 @@
     move-result-object p1
 
     .line 68
-    invoke-interface {p3, p1, v0}, Landroidx/appcompat/view/menu/MenuView$ItemView;->initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V
-
-    .line 69
-    .line 70
-    .line 71
-    return-object p2
+    invoke-interface {p3, p1, v0}, Landroidx/appcompat/view/menu/MenuView$ItemView;->initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V    return-object p2
 .end method
 
 .method public notifyDataSetChanged()V
@@ -487,23 +457,13 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V    return-void
 .end method
 
 .method public setForceShowIcon(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z    return-void
 .end method
-
 .end class

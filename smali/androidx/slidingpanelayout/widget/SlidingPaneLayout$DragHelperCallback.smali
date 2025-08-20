@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V    return-void
 .end method
 
 .method private isDraggable()Z
@@ -50,11 +45,7 @@
     const/4 v2, 0x0
 
     .line 6
-    if-eqz v1, :cond_0
-
-    .line 7
-    .line 8
-    return v2
+    if-eqz v1, :cond_0    return v2
 
     .line 9
     :cond_0
@@ -69,11 +60,7 @@
     const/4 v1, 0x3
 
     .line 14
-    if-ne v0, v1, :cond_1
-
-    .line 15
-    .line 16
-    return v2
+    if-ne v0, v1, :cond_1    return v2
 
     .line 17
     :cond_1
@@ -108,11 +95,7 @@
     move-result v0
 
     .line 32
-    if-ne v0, v1, :cond_2
-
-    .line 33
-    .line 34
-    return v2
+    if-ne v0, v1, :cond_2    return v2
 
     .line 35
     :cond_2
@@ -147,11 +130,7 @@
     const/4 v3, 0x2
 
     .line 50
-    if-ne v0, v3, :cond_3
-
-    .line 51
-    .line 52
-    return v2
+    if-ne v0, v3, :cond_3    return v2
 
     .line 53
     :cond_3
@@ -354,11 +333,7 @@
 
     .line 2
     .line 3
-    iget p1, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSlideRange:I
-
-    .line 4
-    .line 5
-    return p1
+    iget p1, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mSlideRange:I    return p1
 .end method
 
 .method public onEdgeDragStarted(II)V
@@ -373,11 +348,7 @@
     move-result p1
 
     .line 5
-    if-nez p1, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -393,12 +364,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1, p2}, Landroidx/customview/widget/ViewDragHelper;->captureChildView(Landroid/view/View;I)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/customview/widget/ViewDragHelper;->captureChildView(Landroid/view/View;I)V    return-void
 .end method
 
 .method public onEdgeTouched(II)V
@@ -413,11 +379,7 @@
     move-result p1
 
     .line 5
-    if-nez p1, :cond_0
-
-    .line 6
-    .line 7
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 8
     :cond_0
@@ -433,12 +395,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1, p2}, Landroidx/customview/widget/ViewDragHelper;->captureChildView(Landroid/view/View;I)V
-
-    .line 15
-    .line 16
-    .line 17
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/customview/widget/ViewDragHelper;->captureChildView(Landroid/view/View;I)V    return-void
 .end method
 
 .method public onViewCaptured(Landroid/view/View;I)V
@@ -449,12 +406,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setAllChildrenVisible()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setAllChildrenVisible()V    return-void
 .end method
 
 .method public onViewDragStateChanged(I)V
@@ -530,11 +482,7 @@
     const/4 v0, 0x0
 
     .line 36
-    iput-boolean v0, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPreservedOpenState:Z
-
-    .line 37
-    .line 38
-    return-void
+    iput-boolean v0, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPreservedOpenState:Z    return-void
 
     .line 39
     :cond_0
@@ -579,12 +527,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public onViewReleased(Landroid/view/View;FF)V
@@ -814,12 +757,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-
-    .line 107
-    .line 108
-    .line 109
-    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
 .end method
 
 .method public tryCaptureView(Landroid/view/View;I)Z
@@ -856,11 +794,6 @@
 
     .line 14
     .line 15
-    iget-boolean p1, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;->slideable:Z
-
-    .line 16
-    .line 17
-    return p1
+    iget-boolean p1, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;->slideable:Z    return p1
 .end method
-
 .end class

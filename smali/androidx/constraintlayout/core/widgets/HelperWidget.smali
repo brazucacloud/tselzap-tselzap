@@ -36,11 +36,7 @@
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
-
-    .line 11
-    .line 12
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I    return-void
 .end method
 
 
@@ -322,11 +318,7 @@
 
     .line 14
     .line 15
-    if-eq v3, v2, :cond_0
-
-    .line 16
-    .line 17
-    return v3
+    if-eq v3, v2, :cond_0    return v3
 
     .line 18
     :cond_0
@@ -341,11 +333,7 @@
 
     .line 22
     .line 23
-    if-eq v1, v2, :cond_1
-
-    .line 24
-    .line 25
-    return v1
+    if-eq v1, v2, :cond_1    return v1
 
     .line 26
     :cond_1
@@ -378,12 +366,7 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V    return-void
 .end method
 
 .method public updateConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
@@ -391,5 +374,4 @@
 
     return-void
 .end method
-
 .end class

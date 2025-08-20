@@ -73,11 +73,7 @@
     .line 17
     .line 18
     .line 19
-    iput-object v0, p0, Landroidx/transition/TransitionUtils$MatrixEvaluator;->mTempMatrix:Landroid/graphics/Matrix;
-
-    .line 20
-    .line 21
-    return-void
+    iput-object v0, p0, Landroidx/transition/TransitionUtils$MatrixEvaluator;->mTempMatrix:Landroid/graphics/Matrix;    return-void
 .end method
 
 
@@ -150,5 +146,4 @@
 
     return-object p1
 .end method
-
 .end class

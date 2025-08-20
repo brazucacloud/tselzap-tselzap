@@ -34,33 +34,21 @@
 
     .line 10
     .line 11
-    sput-object v0, Landroidx/collection/IntSetKt;->EmptyIntArray:[I
-
-    .line 12
-    .line 13
-    return-void
+    sput-object v0, Landroidx/collection/IntSetKt;->EmptyIntArray:[I    return-void
 .end method
 
 .method public static final emptyIntSet()Landroidx/collection/IntSet;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/IntSetKt;->EmptyIntSet:Landroidx/collection/MutableIntSet;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/IntSetKt;->EmptyIntSet:Landroidx/collection/MutableIntSet;    return-object v0
 .end method
 
 .method public static final getEmptyIntArray()[I
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/IntSetKt;->EmptyIntArray:[I
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/IntSetKt;->EmptyIntArray:[I    return-object v0
 .end method
 
 .method public static final hash(I)I
@@ -230,5 +218,4 @@
 
     return-object v0
 .end method
-
 .end class

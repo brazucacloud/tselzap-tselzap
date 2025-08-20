@@ -30,12 +30,7 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-direct {p0, p1, v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;-><init>(Landroidx/viewpager2/widget/ViewPager2;Landroidx/viewpager2/widget/ViewPager2$1;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;-><init>(Landroidx/viewpager2/widget/ViewPager2;Landroidx/viewpager2/widget/ViewPager2$1;)V    return-void
 .end method
 
 
@@ -181,21 +176,7 @@
     .line 12
     .line 13
     .line 14
-    throw p1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-.end method
+    throw p1.end method
 
 .method public onRvGetAccessibilityClassName()Ljava/lang/CharSequence;
     .locals 1
@@ -213,11 +194,7 @@
 
     .line 6
     .line 7
-    const-string v0, "androidx.viewpager.widget.ViewPager"
-
-    .line 8
-    .line 9
-    return-object v0
+    const-string v0, "androidx.viewpager.widget.ViewPager"    return-object v0
 
     .line 10
     :cond_0
@@ -230,14 +207,5 @@
     .line 13
     .line 14
     .line 15
-    throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-.end method
-
+    throw v0.end method
 .end class

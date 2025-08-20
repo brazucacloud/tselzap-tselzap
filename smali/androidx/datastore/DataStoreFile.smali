@@ -58,12 +58,6 @@
     move-result-object p1
 
     .line 27
-    invoke-direct {v0, p0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-object v0
+    invoke-direct {v0, p0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

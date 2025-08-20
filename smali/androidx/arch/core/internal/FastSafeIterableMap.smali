@@ -55,11 +55,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/arch/core/internal/FastSafeIterableMap;->mHashMap:Ljava/util/HashMap;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/arch/core/internal/FastSafeIterableMap;->mHashMap:Ljava/util/HashMap;    return-void
 .end method
 
 
@@ -106,11 +102,7 @@
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/arch/core/internal/SafeIterableMap$Entry;->mPrevious:Landroidx/arch/core/internal/SafeIterableMap$Entry;
-
-    .line 16
-    .line 17
-    return-object p1
+    iget-object p1, p1, Landroidx/arch/core/internal/SafeIterableMap$Entry;->mPrevious:Landroidx/arch/core/internal/SafeIterableMap$Entry;    return-object p1
 
     .line 18
     :cond_0
@@ -168,11 +160,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroidx/arch/core/internal/SafeIterableMap$Entry;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroidx/arch/core/internal/SafeIterableMap$Entry;    return-object p1
 .end method
 
 .method public putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -204,11 +192,7 @@
 
     .line 6
     .line 7
-    iget-object p1, v0, Landroidx/arch/core/internal/SafeIterableMap$Entry;->mValue:Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    return-object p1
+    iget-object p1, v0, Landroidx/arch/core/internal/SafeIterableMap$Entry;->mValue:Ljava/lang/Object;    return-object p1
 
     .line 10
     :cond_0
@@ -259,12 +243,6 @@
 
     .line 6
     .line 7
-    invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
+    invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-object v0
 .end method
-
 .end class

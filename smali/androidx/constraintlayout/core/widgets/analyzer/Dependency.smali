@@ -6,5 +6,4 @@
 # virtual methods
 .method public abstract update(Landroidx/constraintlayout/core/widgets/analyzer/Dependency;)V
 .end method
-
 .end class

@@ -60,12 +60,7 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-direct {v0, p1, v1, v2}, Landroidx/lifecycle/LifecycleRegistry;-><init>(Landroidx/lifecycle/LifecycleOwner;ZLkotlin/jvm/internal/e;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-object v0
+    invoke-direct {v0, p1, v1, v2}, Landroidx/lifecycle/LifecycleRegistry;-><init>(Landroidx/lifecycle/LifecycleOwner;ZLkotlin/jvm/internal/e;)V    return-object v0
 .end method
 
 .method public final min$lifecycle_runtime_release(Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$State;
@@ -93,15 +88,10 @@
     move-result v0
 
     .line 12
-    if-gez v0, :cond_0
-
-    .line 13
-    .line 14
-    return-object p2
+    if-gez v0, :cond_0    return-object p2
 
     .line 15
     :cond_0
     return-object p1
 .end method
-
 .end class

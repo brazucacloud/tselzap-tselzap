@@ -128,19 +128,10 @@
 
     .line 36
     .line 37
-    if-ne p1, p2, :cond_0
-
-    .line 38
-    .line 39
-    return-object p1
+    if-ne p1, p2, :cond_0    return-object p1
 
     .line 40
     :cond_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
-
-    .line 41
-    .line 42
-    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
-
 .end class

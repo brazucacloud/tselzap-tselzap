@@ -81,11 +81,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->refreshDecorView:Z
-
-    .line 8
-    .line 9
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->refreshDecorView:Z    return-void
 .end method
 
 
@@ -151,11 +147,7 @@
     const/4 v0, 0x0
 
     .line 11
-    iput-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->listMenuPresenter:Landroidx/appcompat/view/menu/ListMenuPresenter;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->listMenuPresenter:Landroidx/appcompat/view/menu/ListMenuPresenter;    return-void
 .end method
 
 .method public getListMenuView(Landroidx/appcompat/view/menu/MenuPresenter$Callback;)Landroidx/appcompat/view/menu/MenuView;
@@ -253,11 +245,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -268,11 +256,7 @@
     const/4 v2, 0x1
 
     .line 10
-    if-eqz v0, :cond_1
-
-    .line 11
-    .line 12
-    return v2
+    if-eqz v0, :cond_1    return v2
 
     .line 13
     :cond_1
@@ -296,11 +280,7 @@
     move-result v0
 
     .line 23
-    if-lez v0, :cond_2
-
-    .line 24
-    .line 25
-    return v2
+    if-lez v0, :cond_2    return v2
 
     .line 26
     :cond_2
@@ -346,11 +326,7 @@
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->decorView:Landroid/view/ViewGroup;
-
-    .line 19
-    .line 20
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->decorView:Landroid/view/ViewGroup;    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -649,12 +625,6 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    .line 90
-    .line 91
-    .line 92
-    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
 .end method
-
 .end class

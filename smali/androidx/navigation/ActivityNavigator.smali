@@ -150,11 +150,7 @@
 
     .line 41
     .line 42
-    iput-object v0, p0, Landroidx/navigation/ActivityNavigator;->hostActivity:Landroid/app/Activity;
-
-    .line 43
-    .line 44
-    return-void
+    iput-object v0, p0, Landroidx/navigation/ActivityNavigator;->hostActivity:Landroid/app/Activity;    return-void
 .end method
 
 .method public static final applyPopAnimationsToPendingTransition(Landroid/app/Activity;)V
@@ -200,11 +196,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ActivityNavigator;->context:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ActivityNavigator;->context:Landroid/content/Context;    return-object v0
 .end method
 
 .method public navigate(Landroidx/navigation/ActivityNavigator$Destination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;
@@ -831,5 +823,4 @@
 
     return v0
 .end method
-
 .end class

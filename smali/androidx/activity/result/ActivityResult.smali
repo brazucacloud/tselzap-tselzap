@@ -52,11 +52,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/activity/result/ActivityResult;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/activity/result/ActivityResult;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(ILandroid/content/Intent;)V
@@ -145,19 +141,11 @@
 
     .line 11
     :cond_0
-    const-string p0, "RESULT_CANCELED"
-
-    .line 12
-    .line 13
-    return-object p0
+    const-string p0, "RESULT_CANCELED"    return-object p0
 
     .line 14
     :cond_1
-    const-string p0, "RESULT_OK"
-
-    .line 15
-    .line 16
-    return-object p0
+    const-string p0, "RESULT_OK"    return-object p0
 .end method
 
 
@@ -176,22 +164,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/ActivityResult;->mData:Landroid/content/Intent;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/ActivityResult;->mData:Landroid/content/Intent;    return-object v0
 .end method
 
 .method public getResultCode()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/result/ActivityResult;->mResultCode:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/activity/result/ActivityResult;->mResultCode:I    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -322,5 +302,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

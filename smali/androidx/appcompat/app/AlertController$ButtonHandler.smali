@@ -49,11 +49,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/appcompat/app/AlertController$ButtonHandler;->mDialog:Ljava/lang/ref/WeakReference;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/app/AlertController$ButtonHandler;->mDialog:Ljava/lang/ref/WeakReference;    return-void
 .end method
 
 
@@ -90,11 +86,7 @@
     const/4 v1, 0x1
 
     .line 13
-    if-eq v0, v1, :cond_0
-
-    .line 14
-    .line 15
-    return-void
+    if-eq v0, v1, :cond_0    return-void
 
     .line 16
     :cond_0
@@ -106,12 +98,7 @@
 
     .line 19
     .line 20
-    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
-
-    .line 21
-    .line 22
-    .line 23
-    return-void
+    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V    return-void
 
     .line 24
     :cond_1
@@ -143,12 +130,6 @@
 
     .line 37
     .line 38
-    invoke-interface {v0, v1, p1}, Landroid/content/DialogInterface$OnClickListener;->onClick(Landroid/content/DialogInterface;I)V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
+    invoke-interface {v0, v1, p1}, Landroid/content/DialogInterface$OnClickListener;->onClick(Landroid/content/DialogInterface;I)V    return-void
 .end method
-
 .end class

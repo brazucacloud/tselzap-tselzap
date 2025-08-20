@@ -70,11 +70,7 @@
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mHandler:Landroid/os/Handler;
-
-    .line 25
-    .line 26
-    return-void
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mHandler:Landroid/os/Handler;    return-void
 .end method
 
 
@@ -125,12 +121,6 @@
 
     .line 20
     .line 21
-    invoke-virtual {v2, v3, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
+    invoke-virtual {v2, v3, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z    return-void
 .end method
-
 .end class

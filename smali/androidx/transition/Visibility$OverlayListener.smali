@@ -58,11 +58,7 @@
 
     .line 12
     .line 13
-    iput-object p4, p0, Landroidx/transition/Visibility$OverlayListener;->mStartView:Landroid/view/View;
-
-    .line 14
-    .line 15
-    return-void
+    iput-object p4, p0, Landroidx/transition/Visibility$OverlayListener;->mStartView:Landroid/view/View;    return-void
 .end method
 
 .method private removeFromOverlay()V
@@ -109,11 +105,7 @@
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z
-
-    .line 22
-    .line 23
-    return-void
+    iput-boolean v0, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z    return-void
 .end method
 
 
@@ -163,12 +155,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;->remove(Landroid/view/View;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;->remove(Landroid/view/View;)V    return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V
@@ -207,12 +194,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;->add(Landroid/view/View;)V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;->add(Landroid/view/View;)V    return-void
 
     .line 21
     :cond_0
@@ -220,12 +202,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Landroidx/transition/Transition;->cancel()V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p1}, Landroidx/transition/Transition;->cancel()V    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;Z)V
@@ -374,5 +351,4 @@
 
     return-void
 .end method
-
 .end class

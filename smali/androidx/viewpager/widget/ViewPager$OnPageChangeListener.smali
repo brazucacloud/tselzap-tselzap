@@ -27,5 +27,4 @@
 
 .method public abstract onPageSelected(I)V
 .end method
-
 .end class

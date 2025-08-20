@@ -22,12 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static e(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -46,12 +41,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I    return-void
 .end method
 
 .method public static i(Ljava/lang/String;)V
@@ -66,12 +56,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
 
 .method public static w(Ljava/lang/String;)V
@@ -86,12 +71,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
-
 .end class

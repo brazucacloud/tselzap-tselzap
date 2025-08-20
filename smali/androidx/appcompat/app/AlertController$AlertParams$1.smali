@@ -41,12 +41,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p2, p3, p4, p5}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0, p2, p3, p4, p5}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;II[Ljava/lang/Object;)V    return-void
 .end method
 
 
@@ -98,5 +93,4 @@
     :cond_0
     return-object p2
 .end method
-
 .end class

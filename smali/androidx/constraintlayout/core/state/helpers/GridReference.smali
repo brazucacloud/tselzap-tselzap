@@ -89,11 +89,7 @@
 
     .line 17
     .line 18
-    iput v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowsSet:I
-
-    .line 19
-    .line 20
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowsSet:I    return-void
 
     .line 21
     :cond_0
@@ -421,12 +417,7 @@
     .line 153
     .line 154
     .line 155
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/HelperReference;->applyBase()V
-
-    .line 156
-    .line 157
-    .line 158
-    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/HelperReference;->applyBase()V    return-void
 .end method
 
 .method public getColumnWeights()Ljava/lang/String;
@@ -435,33 +426,21 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnWeights:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnWeights:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getColumnsSet()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnsSet:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnsSet:I    return v0
 .end method
 
 .method public getFlags()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mFlags:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mFlags:I    return v0
 .end method
 
 .method public getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;
@@ -492,77 +471,49 @@
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mGrid:Landroidx/constraintlayout/core/utils/GridCore;
-
-    .line 13
-    .line 14
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mGrid:Landroidx/constraintlayout/core/utils/GridCore;    return-object v0
 .end method
 
 .method public getHorizontalGaps()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mHorizontalGaps:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mHorizontalGaps:F    return v0
 .end method
 
 .method public getOrientation()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mOrientation:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mOrientation:I    return v0
 .end method
 
 .method public getPaddingBottom()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingBottom:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingBottom:I    return v0
 .end method
 
 .method public getPaddingEnd()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingEnd:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingEnd:I    return v0
 .end method
 
 .method public getPaddingStart()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingStart:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingStart:I    return v0
 .end method
 
 .method public getPaddingTop()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingTop:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingTop:I    return v0
 .end method
 
 .method public getRowWeights()Ljava/lang/String;
@@ -571,22 +522,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowWeights:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowWeights:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getRowsSet()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowsSet:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowsSet:I    return v0
 .end method
 
 .method public getSkips()Ljava/lang/String;
@@ -595,11 +538,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSkips:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSkips:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getSpans()Ljava/lang/String;
@@ -608,22 +547,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSpans:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSpans:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getVerticalGaps()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mVerticalGaps:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mVerticalGaps:F    return v0
 .end method
 
 .method public setColumnWeights(Ljava/lang/String;)V
@@ -634,11 +565,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnWeights:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnWeights:Ljava/lang/String;    return-void
 .end method
 
 .method public setColumnsSet(I)V
@@ -657,19 +584,11 @@
 
     .line 6
     .line 7
-    if-ne v0, v1, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-ne v0, v1, :cond_0    return-void
 
     .line 10
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnsSet:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mColumnsSet:I    return-void
 .end method
 
 .method public setFlags(I)V
@@ -791,88 +710,56 @@
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mGrid:Landroidx/constraintlayout/core/utils/GridCore;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mGrid:Landroidx/constraintlayout/core/utils/GridCore;    return-void
 
     .line 10
     :cond_0
     const/4 p1, 0x0
 
     .line 11
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mGrid:Landroidx/constraintlayout/core/utils/GridCore;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mGrid:Landroidx/constraintlayout/core/utils/GridCore;    return-void
 .end method
 
 .method public setHorizontalGaps(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mHorizontalGaps:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mHorizontalGaps:F    return-void
 .end method
 
 .method public setOrientation(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mOrientation:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mOrientation:I    return-void
 .end method
 
 .method public setPaddingBottom(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingBottom:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingBottom:I    return-void
 .end method
 
 .method public setPaddingEnd(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingEnd:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingEnd:I    return-void
 .end method
 
 .method public setPaddingStart(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingStart:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingStart:I    return-void
 .end method
 
 .method public setPaddingTop(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingTop:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mPaddingTop:I    return-void
 .end method
 
 .method public setRowWeights(Ljava/lang/String;)V
@@ -883,11 +770,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowWeights:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowWeights:Ljava/lang/String;    return-void
 .end method
 
 .method public setRowsSet(I)V
@@ -906,19 +789,11 @@
 
     .line 6
     .line 7
-    if-ne v0, v1, :cond_0
-
-    .line 8
-    .line 9
-    return-void
+    if-ne v0, v1, :cond_0    return-void
 
     .line 10
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowsSet:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mRowsSet:I    return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V
@@ -929,11 +804,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSkips:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSkips:Ljava/lang/String;    return-void
 .end method
 
 .method public setSpans(Ljava/lang/String;)V
@@ -944,22 +815,13 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSpans:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mSpans:Ljava/lang/String;    return-void
 .end method
 
 .method public setVerticalGaps(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mVerticalGaps:F
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/GridReference;->mVerticalGaps:F    return-void
 .end method
-
 .end class

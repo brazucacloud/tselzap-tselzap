@@ -77,11 +77,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/recyclerview/widget/ViewInfoStore;->mOldChangedHolders:Landroidx/collection/LongSparseArray;
-
-    .line 17
-    .line 18
-    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/ViewInfoStore;->mOldChangedHolders:Landroidx/collection/LongSparseArray;    return-void
 .end method
 
 .method private popFromLayoutStep(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
@@ -103,11 +99,7 @@
     const/4 v0, 0x0
 
     .line 8
-    if-gez p1, :cond_0
-
-    .line 9
-    .line 10
-    return-object v0
+    if-gez p1, :cond_0    return-object v0
 
     .line 11
     :cond_0
@@ -284,11 +276,7 @@
 
     .line 25
     .line 26
-    iput-object p2, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->preInfo:Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
-
-    .line 27
-    .line 28
-    return-void
+    iput-object p2, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->preInfo:Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;    return-void
 .end method
 
 .method public addToDisappearedInLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -341,11 +329,7 @@
 
     .line 23
     .line 24
-    iput p1, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I
-
-    .line 25
-    .line 26
-    return-void
+    iput p1, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I    return-void
 .end method
 
 .method public addToOldChangeHolders(JLandroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -356,12 +340,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V    return-void
 .end method
 
 .method public addToPostLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;)V
@@ -418,11 +397,7 @@
 
     .line 25
     .line 26
-    iput p1, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I
-
-    .line 27
-    .line 28
-    return-void
+    iput p1, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I    return-void
 .end method
 
 .method public addToPreLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;)V
@@ -479,11 +454,7 @@
 
     .line 25
     .line 26
-    iput p1, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I
-
-    .line 27
-    .line 28
-    return-void
+    iput p1, v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I    return-void
 .end method
 
 .method public clear()V
@@ -503,12 +474,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/collection/LongSparseArray;->clear()V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
+    invoke-virtual {v0}, Landroidx/collection/LongSparseArray;->clear()V    return-void
 .end method
 
 .method public getFromOldChangeHolders(J)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -527,11 +493,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-
-    .line 8
-    .line 9
-    return-object p1
+    check-cast p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;    return-object p1
 .end method
 
 .method public isDisappearing(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
@@ -568,11 +530,7 @@
     and-int/2addr p1, v0
 
     .line 15
-    if-eqz p1, :cond_0
-
-    .line 16
-    .line 17
-    return v0
+    if-eqz p1, :cond_0    return v0
 
     .line 18
     :cond_0
@@ -632,24 +590,14 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->drainCache()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-static {}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->drainCache()V    return-void
 .end method
 
 .method public onViewDetached(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ViewInfoStore;->removeFromDisappearedInLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ViewInfoStore;->removeFromDisappearedInLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V    return-void
 .end method
 
 .method public popFromPostLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
@@ -951,11 +899,7 @@
 
     .line 8
     .line 9
-    if-nez p1, :cond_0
-
-    .line 10
-    .line 11
-    return-void
+    if-nez p1, :cond_0    return-void
 
     .line 12
     :cond_0
@@ -967,11 +911,7 @@
 
     .line 15
     .line 16
-    iput v0, p1, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I
-
-    .line 17
-    .line 18
-    return-void
+    iput v0, p1, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I    return-void
 .end method
 
 .method public removeViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -1065,5 +1005,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

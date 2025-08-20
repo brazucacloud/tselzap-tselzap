@@ -52,11 +52,7 @@
 
     .line 10
     .line 11
-    iput-object p3, p0, Landroidx/transition/ChangeImageTransform$Listener;->mEndMatrix:Landroid/graphics/Matrix;
-
-    .line 12
-    .line 13
-    return-void
+    iput-object p3, p0, Landroidx/transition/ChangeImageTransform$Listener;->mEndMatrix:Landroid/graphics/Matrix;    return-void
 .end method
 
 .method private restoreMatrix()V
@@ -137,12 +133,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1, v0}, Landroidx/transition/ImageViewUtils;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-static {p1, v0}, Landroidx/transition/ImageViewUtils;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V    return-void
 .end method
 
 
@@ -191,24 +182,14 @@
 
     .line 8
     .line 9
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeImageTransform$Listener;->saveMatrix(Landroid/graphics/Matrix;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeImageTransform$Listener;->saveMatrix(Landroid/graphics/Matrix;)V    return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -303,12 +284,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -329,5 +305,4 @@
 
     return-void
 .end method
-
 .end class

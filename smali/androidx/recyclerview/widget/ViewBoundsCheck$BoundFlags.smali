@@ -39,11 +39,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
-
-    .line 6
-    .line 7
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I    return-void
 .end method
 
 
@@ -59,11 +55,7 @@
     or-int/2addr p1, v0
 
     .line 4
-    iput p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I    return-void
 .end method
 
 .method public boundsMatch()Z
@@ -104,11 +96,7 @@
     and-int/2addr v0, v1
 
     .line 17
-    if-nez v0, :cond_0
-
-    .line 18
-    .line 19
-    return v2
+    if-nez v0, :cond_0    return v2
 
     .line 20
     :cond_0
@@ -147,11 +135,7 @@
     and-int/2addr v0, v1
 
     .line 37
-    if-nez v0, :cond_1
-
-    .line 38
-    .line 39
-    return v2
+    if-nez v0, :cond_1    return v2
 
     .line 40
     :cond_1
@@ -190,11 +174,7 @@
     and-int/2addr v0, v1
 
     .line 57
-    if-nez v0, :cond_2
-
-    .line 58
-    .line 59
-    return v2
+    if-nez v0, :cond_2    return v2
 
     .line 60
     :cond_2
@@ -233,11 +213,7 @@
     and-int/2addr v0, v1
 
     .line 77
-    if-nez v0, :cond_3
-
-    .line 78
-    .line 79
-    return v2
+    if-nez v0, :cond_3    return v2
 
     .line 80
     :cond_3
@@ -275,11 +251,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
-
-    .line 3
-    .line 4
-    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I    return-void
 .end method
 
 .method public setBounds(IIII)V
@@ -298,11 +270,6 @@
 
     .line 6
     .line 7
-    iput p4, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildEnd:I
-
-    .line 8
-    .line 9
-    return-void
+    iput p4, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildEnd:I    return-void
 .end method
-
 .end class

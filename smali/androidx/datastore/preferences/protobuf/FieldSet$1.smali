@@ -770,5 +770,4 @@
     :catch_1a
     return-void
 .end method
-
 .end class

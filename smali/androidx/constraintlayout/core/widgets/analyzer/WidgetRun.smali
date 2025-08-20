@@ -104,11 +104,7 @@
 
     .line 33
     .line 34
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-
-    .line 35
-    .line 36
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidget;    return-void
 .end method
 
 .method private resolveDimension(II)V
@@ -288,12 +284,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DimensionDependency;->resolve(I)V
-
-    .line 80
-    .line 81
-    .line 82
-    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DimensionDependency;->resolve(I)V    return-void
 
     .line 83
     :cond_4
@@ -435,12 +426,7 @@
     move-result p1
 
     .line 146
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DimensionDependency;->resolve(I)V
-
-    .line 147
-    .line 148
-    .line 149
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DimensionDependency;->resolve(I)V    return-void
 
     .line 150
     :cond_9
@@ -456,12 +442,7 @@
     move-result p1
 
     .line 156
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DimensionDependency;->resolve(I)V
-
-    .line 157
-    .line 158
-    .line 159
-    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DimensionDependency;->resolve(I)V    return-void
 .end method
 
 
@@ -569,11 +550,7 @@
 
     .line 19
     :cond_0
-    if-eq p2, p1, :cond_3
-
-    .line 20
-    .line 21
-    return p2
+    if-eq p2, p1, :cond_3    return p2
 
     .line 22
     :cond_1
@@ -610,11 +587,7 @@
 
     .line 38
     :cond_2
-    if-eq p2, p1, :cond_3
-
-    .line 39
-    .line 40
-    return p2
+    if-eq p2, p1, :cond_3    return p2
 
     .line 41
     :cond_3
@@ -813,11 +786,7 @@
 
     .line 11
     :cond_0
-    const-wide/16 v0, 0x0
-
-    .line 12
-    .line 13
-    return-wide v0
+    const-wide/16 v0, 0x0    return-wide v0
 .end method
 
 .method public isCenterConnection()Z
@@ -984,22 +953,14 @@
 
     .line 2
     .line 3
-    iget-boolean v0, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
-
-    .line 4
-    .line 5
-    return v0
+    iget-boolean v0, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z    return v0
 .end method
 
 .method public isResolved()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mResolved:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;->mResolved:Z    return v0
 .end method
 
 .method public abstract reset()V
@@ -1155,12 +1116,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {p1, v1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolve(I)V
-
-    .line 68
-    .line 69
-    .line 70
-    return-void
+    invoke-virtual {p1, v1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolve(I)V    return-void
 
     .line 71
     :cond_3
@@ -1406,11 +1362,6 @@
 
     .line 44
     :cond_2
-    const-wide/16 v0, 0x0
-
-    .line 45
-    .line 46
-    return-wide v0
+    const-wide/16 v0, 0x0    return-wide v0
 .end method
-
 .end class

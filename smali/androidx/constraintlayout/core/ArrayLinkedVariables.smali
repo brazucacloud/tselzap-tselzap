@@ -113,11 +113,7 @@
 
     .line 34
     .line 35
-    iput-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;
-
-    .line 36
-    .line 37
-    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;    return-void
 .end method
 
 
@@ -274,11 +270,7 @@
     sub-int/2addr p1, v3
 
     .line 70
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
-
-    .line 71
-    .line 72
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I    return-void
 
     .line 73
     :cond_1
@@ -452,11 +444,7 @@
     sub-int/2addr p1, v3
 
     .line 151
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
-
-    .line 152
-    .line 153
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I    return-void
 
     .line 154
     :cond_6
@@ -921,11 +909,7 @@
 
     .line 41
     .line 42
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
-
-    .line 43
-    .line 44
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I    return-void
 .end method
 
 .method public contains(Landroidx/constraintlayout/core/SolverVariable;)Z
@@ -942,11 +926,7 @@
     const/4 v2, -0x1
 
     .line 5
-    if-ne v0, v2, :cond_0
-
-    .line 6
-    .line 7
-    return v1
+    if-ne v0, v2, :cond_0    return v1
 
     .line 8
     :cond_0
@@ -1131,12 +1111,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 62
-    .line 63
-    .line 64
-    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public divideByAmount(F)V
@@ -1247,11 +1222,7 @@
 
     .line 20
     .line 21
-    aget p1, p1, v0
-
-    .line 22
-    .line 23
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 24
     :cond_0
@@ -1280,22 +1251,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I    return v0
 .end method
 
 .method public getHead()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I    return v0
 .end method
 
 .method public final getId(I)I
@@ -1306,11 +1269,7 @@
 
     .line 2
     .line 3
-    aget p1, v0, p1
-
-    .line 4
-    .line 5
-    return p1
+    aget p1, v0, p1    return p1
 .end method
 
 .method public final getNextIndice(I)I
@@ -1321,11 +1280,7 @@
 
     .line 2
     .line 3
-    aget p1, v0, p1
-
-    .line 4
-    .line 5
-    return p1
+    aget p1, v0, p1    return p1
 .end method
 
 .method public getPivotCandidate()Landroidx/constraintlayout/core/SolverVariable;
@@ -1457,11 +1412,7 @@
 
     .line 2
     .line 3
-    aget p1, v0, p1
-
-    .line 4
-    .line 5
-    return p1
+    aget p1, v0, p1    return p1
 .end method
 
 .method public getVariable(I)Landroidx/constraintlayout/core/SolverVariable;
@@ -1511,11 +1462,7 @@
 
     .line 20
     .line 21
-    aget-object p1, p1, v0
-
-    .line 22
-    .line 23
-    return-object p1
+    aget-object p1, p1, v0    return-object p1
 
     .line 24
     :cond_0
@@ -1575,11 +1522,7 @@
 
     .line 14
     .line 15
-    aget p1, p1, v0
-
-    .line 16
-    .line 17
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 18
     :cond_0
@@ -1689,11 +1632,7 @@
     const/4 v1, -0x1
 
     .line 4
-    if-ne v0, v1, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-ne v0, v1, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -1725,11 +1664,7 @@
 
     .line 19
     .line 20
-    if-ne v3, v4, :cond_1
-
-    .line 21
-    .line 22
-    return v0
+    if-ne v3, v4, :cond_1    return v0
 
     .line 23
     :cond_1
@@ -1836,12 +1771,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p0, p1, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F    return-void
 
     .line 11
     :cond_0
@@ -1962,11 +1892,7 @@
     sub-int/2addr p1, v1
 
     .line 66
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
-
-    .line 67
-    .line 68
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I    return-void
 
     .line 69
     :cond_1
@@ -2009,11 +1935,7 @@
 
     .line 86
     .line 87
-    aput p2, p1, v0
-
-    .line 88
-    .line 89
-    return-void
+    aput p2, p1, v0    return-void
 
     .line 90
     :cond_2
@@ -2427,11 +2349,7 @@
     const/4 v2, -0x1
 
     .line 12
-    if-ne v0, v2, :cond_1
-
-    .line 13
-    .line 14
-    return v1
+    if-ne v0, v2, :cond_1    return v1
 
     .line 15
     :cond_1
@@ -2570,11 +2488,7 @@
 
     .line 78
     .line 79
-    aget p1, p1, v0
-
-    .line 80
-    .line 81
-    return p1
+    aget p1, p1, v0    return p1
 
     .line 82
     :cond_5
@@ -2621,11 +2535,7 @@
 
     .line 5
     .line 6
-    add-int/lit8 v0, v0, 0x24
-
-    .line 7
-    .line 8
-    return v0
+    add-int/lit8 v0, v0, 0x24    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -2849,5 +2759,4 @@
     :cond_0
     return v0
 .end method
-
 .end class

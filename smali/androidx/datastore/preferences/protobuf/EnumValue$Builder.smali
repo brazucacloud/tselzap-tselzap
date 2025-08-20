@@ -79,12 +79,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$1200(Landroidx/datastore/preferences/protobuf/EnumValue;Ljava/lang/Iterable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$1200(Landroidx/datastore/preferences/protobuf/EnumValue;Ljava/lang/Iterable;)V    return-object p0
 .end method
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -168,12 +163,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$200(Landroidx/datastore/preferences/protobuf/EnumValue;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$200(Landroidx/datastore/preferences/protobuf/EnumValue;)V    return-object p0
 .end method
 
 .method public clearNumber()Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -193,12 +183,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$500(Landroidx/datastore/preferences/protobuf/EnumValue;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$500(Landroidx/datastore/preferences/protobuf/EnumValue;)V    return-object p0
 .end method
 
 .method public clearOptions()Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -218,12 +203,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$1300(Landroidx/datastore/preferences/protobuf/EnumValue;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$1300(Landroidx/datastore/preferences/protobuf/EnumValue;)V    return-object p0
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -391,12 +371,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$1400(Landroidx/datastore/preferences/protobuf/EnumValue;I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$1400(Landroidx/datastore/preferences/protobuf/EnumValue;I)V    return-object p0
 .end method
 
 .method public setName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -416,12 +391,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$100(Landroidx/datastore/preferences/protobuf/EnumValue;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$100(Landroidx/datastore/preferences/protobuf/EnumValue;Ljava/lang/String;)V    return-object p0
 .end method
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -441,12 +411,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$300(Landroidx/datastore/preferences/protobuf/EnumValue;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$300(Landroidx/datastore/preferences/protobuf/EnumValue;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
 .end method
 
 .method public setNumber(I)Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -466,12 +431,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$400(Landroidx/datastore/preferences/protobuf/EnumValue;I)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/EnumValue;->access$400(Landroidx/datastore/preferences/protobuf/EnumValue;I)V    return-object p0
 .end method
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/EnumValue$Builder;
@@ -505,5 +465,4 @@
 
     return-object p0
 .end method
-
 .end class

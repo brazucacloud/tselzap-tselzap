@@ -49,11 +49,7 @@
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLObject$CLObjectIterator;->mObject:Landroidx/constraintlayout/core/parser/CLObject;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLObject$CLObjectIterator;->mObject:Landroidx/constraintlayout/core/parser/CLObject;    return-void
 .end method
 
 
@@ -129,5 +125,4 @@
 
     return-object v0
 .end method
-
 .end class

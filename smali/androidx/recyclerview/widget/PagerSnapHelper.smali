@@ -24,12 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/SnapHelper;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/SnapHelper;-><init>()V    return-void
 .end method
 
 .method private distanceToCenter(Landroid/view/View;Landroidx/recyclerview/widget/OrientationHelper;)I
@@ -108,11 +103,7 @@
     const/4 v1, 0x0
 
     .line 6
-    if-nez v0, :cond_0
-
-    .line 7
-    .line 8
-    return-object v1
+    if-nez v0, :cond_0    return-object v1
 
     .line 9
     :cond_0
@@ -256,11 +247,7 @@
     .line 14
     .line 15
     :cond_1
-    iget-object p1, p0, Landroidx/recyclerview/widget/PagerSnapHelper;->mHorizontalHelper:Landroidx/recyclerview/widget/OrientationHelper;
-
-    .line 16
-    .line 17
-    return-object p1
+    iget-object p1, p0, Landroidx/recyclerview/widget/PagerSnapHelper;->mHorizontalHelper:Landroidx/recyclerview/widget/OrientationHelper;    return-object p1
 .end method
 
 .method private getOrientationHelper(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroidx/recyclerview/widget/OrientationHelper;
@@ -360,11 +347,7 @@
     .line 14
     .line 15
     :cond_1
-    iget-object p1, p0, Landroidx/recyclerview/widget/PagerSnapHelper;->mVerticalHelper:Landroidx/recyclerview/widget/OrientationHelper;
-
-    .line 16
-    .line 17
-    return-object p1
+    iget-object p1, p0, Landroidx/recyclerview/widget/PagerSnapHelper;->mVerticalHelper:Landroidx/recyclerview/widget/OrientationHelper;    return-object p1
 .end method
 
 .method private isForwardFling(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;II)Z
@@ -389,11 +372,7 @@
 
     .line 8
     .line 9
-    if-lez p2, :cond_0
-
-    .line 10
-    .line 11
-    return v1
+    if-lez p2, :cond_0    return v1
 
     .line 12
     :cond_0
@@ -401,11 +380,7 @@
 
     .line 13
     :cond_1
-    if-lez p3, :cond_2
-
-    .line 14
-    .line 15
-    return v1
+    if-lez p3, :cond_2    return v1
 
     .line 16
     :cond_2
@@ -589,19 +564,11 @@
     move-result p1
 
     .line 39
-    aput p1, v0, v3
-
-    .line 40
-    .line 41
-    return-object v0
+    aput p1, v0, v3    return-object v0
 
     .line 42
     :cond_1
-    aput v2, v0, v3
-
-    .line 43
-    .line 44
-    return-object v0
+    aput v2, v0, v3    return-object v0
 .end method
 
 .method public createScroller(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
@@ -644,12 +611,7 @@
     move-result-object v0
 
     .line 15
-    invoke-direct {p1, p0, v0}, Landroidx/recyclerview/widget/PagerSnapHelper$1;-><init>(Landroidx/recyclerview/widget/PagerSnapHelper;Landroid/content/Context;)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-object p1
+    invoke-direct {p1, p0, v0}, Landroidx/recyclerview/widget/PagerSnapHelper$1;-><init>(Landroidx/recyclerview/widget/PagerSnapHelper;Landroid/content/Context;)V    return-object p1
 .end method
 
 .method public findSnapView(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroid/view/View;
@@ -751,11 +713,7 @@
     const/4 v1, -0x1
 
     .line 6
-    if-nez v0, :cond_0
-
-    .line 7
-    .line 8
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 9
     :cond_0
@@ -767,11 +725,7 @@
     move-result-object v2
 
     .line 13
-    if-nez v2, :cond_1
-
-    .line 14
-    .line 15
-    return v1
+    if-nez v2, :cond_1    return v1
 
     .line 16
     :cond_1
@@ -935,11 +889,7 @@
 
     .line 87
     :cond_8
-    if-nez v4, :cond_9
-
-    .line 88
-    .line 89
-    return v1
+    if-nez v4, :cond_9    return v1
 
     .line 90
     :cond_9
@@ -996,5 +946,4 @@
     :goto_3
     return v1
 .end method
-
 .end class

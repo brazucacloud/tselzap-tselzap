@@ -16,5 +16,4 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 .end method
-
 .end class

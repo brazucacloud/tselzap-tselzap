@@ -71,11 +71,7 @@
     move-result-object v0
 
     .line 21
-    iput-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mDiskIO:Ljava/util/concurrent/ExecutorService;
-
-    .line 22
-    .line 23
-    return-void
+    iput-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mDiskIO:Ljava/util/concurrent/ExecutorService;    return-void
 .end method
 
 .method private static createAsync(Landroid/os/Looper;)Landroid/os/Handler;
@@ -200,11 +196,7 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 52
-    .line 53
-    return-object v0
+    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-object v0
 
     .line 54
     :catch_0
@@ -212,12 +204,7 @@
 
     .line 55
     .line 56
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    .line 57
-    .line 58
-    .line 59
-    return-object v0
+    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-object v0
 
     .line 60
     :catch_1
@@ -225,12 +212,7 @@
 
     .line 61
     .line 62
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    .line 63
-    .line 64
-    .line 65
-    return-object v0
+    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-object v0
 .end method
 
 
@@ -247,12 +229,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V    return-void
 .end method
 
 .method public isMainThread()Z
@@ -383,12 +360,6 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z    return-void
 .end method
-
 .end class

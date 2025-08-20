@@ -34,12 +34,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 
@@ -412,12 +407,7 @@
 
     .line 130
     .line 131
-    invoke-virtual {p2}, Landroidx/appcompat/widget/Toolbar;->updateBackInvokedCallbackState()V
-
-    .line 132
-    .line 133
-    .line 134
-    return p1
+    invoke-virtual {p2}, Landroidx/appcompat/widget/Toolbar;->updateBackInvokedCallbackState()V    return p1
 .end method
 
 .method public flagActionItems()Z
@@ -470,11 +460,7 @@
     .line 11
     .line 12
     :cond_0
-    iput-object p2, p0, Landroidx/appcompat/widget/Toolbar$ExpandedActionViewMenuPresenter;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
-
-    .line 13
-    .line 14
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/widget/Toolbar$ExpandedActionViewMenuPresenter;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-void
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -563,11 +549,7 @@
 
     .line 23
     .line 24
-    if-ne v1, v2, :cond_0
-
-    .line 25
-    .line 26
-    return-void
+    if-ne v1, v2, :cond_0    return-void
 
     .line 27
     :cond_0
@@ -595,5 +577,4 @@
     :cond_2
     return-void
 .end method
-
 .end class

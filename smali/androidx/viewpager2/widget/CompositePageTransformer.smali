@@ -37,11 +37,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/viewpager2/widget/CompositePageTransformer;->mTransformers:Ljava/util/List;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/viewpager2/widget/CompositePageTransformer;->mTransformers:Ljava/util/List;    return-void
 .end method
 
 
@@ -58,12 +54,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public removeTransformer(Landroidx/viewpager2/widget/ViewPager2$PageTransformer;)V
@@ -78,12 +69,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public transformPage(Landroid/view/View;F)V
@@ -142,5 +128,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

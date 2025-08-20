@@ -36,11 +36,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;->EMPTY_FACTORY:Landroidx/datastore/preferences/protobuf/MessageInfoFactory;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;->EMPTY_FACTORY:Landroidx/datastore/preferences/protobuf/MessageInfoFactory;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -121,12 +117,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, v3}, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory;-><init>([Landroidx/datastore/preferences/protobuf/MessageInfoFactory;)V
-
-    .line 21
-    .line 22
-    .line 23
-    return-object v0
+    invoke-direct {v0, v3}, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory;-><init>([Landroidx/datastore/preferences/protobuf/MessageInfoFactory;)V    return-object v0
 .end method
 
 .method private static getDescriptorMessageInfoFactory()Landroidx/datastore/preferences/protobuf/MessageInfoFactory;
@@ -182,19 +173,11 @@
     .line 23
     check-cast v0, Landroidx/datastore/preferences/protobuf/MessageInfoFactory;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 24
-    .line 25
-    return-object v0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-object v0
 
     .line 26
     :catch_0
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;->EMPTY_FACTORY:Landroidx/datastore/preferences/protobuf/MessageInfoFactory;
-
-    .line 27
-    .line 28
-    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;->EMPTY_FACTORY:Landroidx/datastore/preferences/protobuf/MessageInfoFactory;    return-object v0
 .end method
 
 .method private static isProto2(Landroidx/datastore/preferences/protobuf/MessageInfo;)Z
@@ -637,5 +620,4 @@
 
     return-object p1
 .end method
-
 .end class

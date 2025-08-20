@@ -72,11 +72,7 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->WORD_PAD:Ljava/lang/String;
-
-    .line 18
-    .line 19
-    return-void
+    sput-object v0, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->WORD_PAD:Ljava/lang/String;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/widget/ConstraintLayout;)V
@@ -677,11 +673,7 @@
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->mConstraintLayout:Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->mConstraintLayout:Landroidx/constraintlayout/widget/ConstraintLayout;    return-void
 .end method
 
 .method public clone()Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;
@@ -739,91 +731,47 @@
     .line 2
     .line 3
     .line 4
-    const-string p1, ""
-
-    .line 5
-    .line 6
-    return-object p1
+    const-string p1, ""    return-object p1
 
     .line 7
     :pswitch_0
-    const-string p1, "SimpleEquations"
-
-    .line 8
-    .line 9
-    return-object p1
+    const-string p1, "SimpleEquations"    return-object p1
 
     .line 10
     :pswitch_1
-    const-string p1, "SolverEquations"
-
-    .line 11
-    .line 12
-    return-object p1
+    const-string p1, "SolverEquations"    return-object p1
 
     .line 13
     :pswitch_2
-    const-string p1, "SolverVariables"
-
-    .line 14
-    .line 15
-    return-object p1
+    const-string p1, "SolverVariables"    return-object p1
 
     .line 16
     :pswitch_3
-    const-string p1, "MeasuresLayoutDuration"
-
-    .line 17
-    .line 18
-    return-object p1
+    const-string p1, "MeasuresLayoutDuration"    return-object p1
 
     .line 19
     :pswitch_4
-    const-string p1, "MeasureDuration"
-
-    .line 20
-    .line 21
-    return-object p1
+    const-string p1, "MeasureDuration"    return-object p1
 
     .line 22
     :pswitch_5
-    const-string p1, "MeasuresWidgetsDuration "
-
-    .line 23
-    .line 24
-    return-object p1
+    const-string p1, "MeasuresWidgetsDuration "    return-object p1
 
     .line 25
     :pswitch_6
-    const-string p1, "ChildrenMeasures"
-
-    .line 26
-    .line 27
-    return-object p1
+    const-string p1, "ChildrenMeasures"    return-object p1
 
     .line 28
     :pswitch_7
-    const-string p1, "ChildCount"
-
-    .line 29
-    .line 30
-    return-object p1
+    const-string p1, "ChildCount"    return-object p1
 
     .line 31
     :pswitch_8
-    const-string p1, "MeasureCalls"
-
-    .line 32
-    .line 33
-    return-object p1
+    const-string p1, "MeasureCalls"    return-object p1
 
     .line 34
     :pswitch_9
-    const-string p1, "NumberOfLayouts"
-
-    .line 35
-    .line 36
-    return-object p1
+    const-string p1, "NumberOfLayouts"    return-object p1
 
     .line 37
     :pswitch_data_0
@@ -838,55 +786,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    .end packed-switch.end method
 
 .method public getValue(I)J
     .locals 2
@@ -897,11 +797,7 @@
     .line 2
     .line 3
     .line 4
-    const-wide/16 v0, 0x0
-
-    .line 5
-    .line 6
-    return-wide v0
+    const-wide/16 v0, 0x0    return-wide v0
 
     .line 7
     :pswitch_0
@@ -909,11 +805,7 @@
 
     .line 8
     .line 9
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mSimpleEquations:J
-
-    .line 10
-    .line 11
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mSimpleEquations:J    return-wide v0
 
     .line 12
     :pswitch_1
@@ -921,11 +813,7 @@
 
     .line 13
     .line 14
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mEquations:J
-
-    .line 15
-    .line 16
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mEquations:J    return-wide v0
 
     .line 17
     :pswitch_2
@@ -933,11 +821,7 @@
 
     .line 18
     .line 19
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mVariables:J
-
-    .line 20
-    .line 21
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mVariables:J    return-wide v0
 
     .line 22
     :pswitch_3
@@ -945,11 +829,7 @@
 
     .line 23
     .line 24
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->measuresLayoutDuration:J
-
-    .line 25
-    .line 26
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->measuresLayoutDuration:J    return-wide v0
 
     .line 27
     :pswitch_4
@@ -957,11 +837,7 @@
 
     .line 28
     .line 29
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mMeasureDuration:J
-
-    .line 30
-    .line 31
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mMeasureDuration:J    return-wide v0
 
     .line 32
     :pswitch_5
@@ -969,11 +845,7 @@
 
     .line 33
     .line 34
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->measuresWidgetsDuration:J
-
-    .line 35
-    .line 36
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->measuresWidgetsDuration:J    return-wide v0
 
     .line 37
     :pswitch_6
@@ -995,11 +867,7 @@
 
     .line 44
     .line 45
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mChildCount:J
-
-    .line 46
-    .line 47
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mChildCount:J    return-wide v0
 
     .line 48
     :pswitch_8
@@ -1007,11 +875,7 @@
 
     .line 49
     .line 50
-    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mMeasureCalls:J
-
-    .line 51
-    .line 52
-    return-wide v0
+    iget-wide v0, p1, Landroidx/constraintlayout/core/Metrics;->mMeasureCalls:J    return-wide v0
 
     .line 53
     :pswitch_9
@@ -1040,33 +904,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
+    .end packed-switch.end method
 
 .method public logSummary(Ljava/lang/String;)V
     .locals 0
@@ -1247,12 +1085,6 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/Metrics;->reset()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/Metrics;->reset()V    return-void
 .end method
-
 .end class

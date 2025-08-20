@@ -40,11 +40,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/navigation/NavGraphNavigator;->navigatorProvider:Landroidx/navigation/NavigatorProvider;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavGraphNavigator;->navigatorProvider:Landroidx/navigation/NavigatorProvider;    return-void
 .end method
 
 .method private final navigate(Landroidx/navigation/NavBackStackEntry;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -445,5 +441,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

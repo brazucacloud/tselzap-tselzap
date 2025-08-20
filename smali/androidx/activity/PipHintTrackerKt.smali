@@ -79,19 +79,11 @@
 
     .line 21
     .line 22
-    if-ne p0, p1, :cond_0
-
-    .line 23
-    .line 24
-    return-object p0
+    if-ne p0, p1, :cond_0    return-object p0
 
     .line 25
     :cond_0
-    sget-object p0, Lc1/v;->a:Lc1/v;
-
-    .line 26
-    .line 27
-    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 .method private static final trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
@@ -107,12 +99,6 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
-
-    .line 7
-    .line 8
-    .line 9
-    return-object v0
+    invoke-virtual {p0, v0}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z    return-object v0
 .end method
-
 .end class

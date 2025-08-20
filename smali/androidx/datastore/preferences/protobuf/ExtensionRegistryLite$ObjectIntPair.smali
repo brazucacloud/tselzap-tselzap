@@ -34,11 +34,7 @@
 
     .line 5
     .line 6
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;->number:I
-
-    .line 7
-    .line 8
-    return-void
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;->number:I    return-void
 .end method
 
 
@@ -54,11 +50,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -132,5 +124,4 @@
 
     return v0
 .end method
-
 .end class

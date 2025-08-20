@@ -58,11 +58,7 @@
 
     .line 6
     .line 7
-    iget-object p0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mBehaviorTag:Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    return-object p0
+    iget-object p0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mBehaviorTag:Ljava/lang/Object;    return-object p0
 .end method
 
 .method public static setTag(Landroid/view/View;Ljava/lang/Object;)V
@@ -81,11 +77,7 @@
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mBehaviorTag:Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    return-void
+    iput-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mBehaviorTag:Ljava/lang/Object;    return-void
 .end method
 
 
@@ -546,11 +538,7 @@
     .end annotation
 
     .line 1
-    sget-object p1, Landroid/view/View$BaseSavedState;->EMPTY_STATE:Landroid/view/AbsSavedState;
-
-    .line 2
-    .line 3
-    return-object p1
+    sget-object p1, Landroid/view/View$BaseSavedState;->EMPTY_STATE:Landroid/view/AbsSavedState;    return-object p1
 .end method
 
 .method public onStartNestedScroll(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;Landroid/view/View;I)Z
@@ -658,5 +646,4 @@
 
     return p1
 .end method
-
 .end class

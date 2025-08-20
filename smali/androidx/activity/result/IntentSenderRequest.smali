@@ -75,11 +75,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/activity/result/IntentSenderRequest;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 15
-    .line 16
-    return-void
+    sput-object v0, Landroidx/activity/result/IntentSenderRequest;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/IntentSender;Landroid/content/Intent;II)V
@@ -204,44 +200,28 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/IntentSenderRequest;->fillInIntent:Landroid/content/Intent;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/IntentSenderRequest;->fillInIntent:Landroid/content/Intent;    return-object v0
 .end method
 
 .method public final getFlagsMask()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/result/IntentSenderRequest;->flagsMask:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/activity/result/IntentSenderRequest;->flagsMask:I    return v0
 .end method
 
 .method public final getFlagsValues()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/result/IntentSenderRequest;->flagsValues:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/activity/result/IntentSenderRequest;->flagsValues:I    return v0
 .end method
 
 .method public final getIntentSender()Landroid/content/IntentSender;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/IntentSenderRequest;->intentSender:Landroid/content/IntentSender;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/IntentSenderRequest;->intentSender:Landroid/content/IntentSender;    return-object v0
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -288,12 +268,6 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
 .end method
-
 .end class

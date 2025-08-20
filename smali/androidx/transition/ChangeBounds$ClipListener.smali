@@ -105,11 +105,7 @@
 
     .line 27
     .line 28
-    iput p13, p0, Landroidx/transition/ChangeBounds$ClipListener;->mEndBottom:I
-
-    .line 29
-    .line 30
-    return-void
+    iput p13, p0, Landroidx/transition/ChangeBounds$ClipListener;->mEndBottom:I    return-void
 .end method
 
 
@@ -312,11 +308,7 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$ClipListener;->mIsCanceled:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$ClipListener;->mIsCanceled:Z    return-void
 .end method
 
 .method public onTransitionEnd(Landroidx/transition/Transition;)V
@@ -395,12 +387,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
+    invoke-virtual {v0, p1}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -447,12 +434,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
+    invoke-virtual {v0, p1}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -473,5 +455,4 @@
 
     return-void
 .end method
-
 .end class

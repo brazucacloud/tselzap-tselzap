@@ -39,11 +39,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/viewpager2/widget/FakeDrag;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
-
-    .line 9
-    .line 10
-    return-void
+    iput-object p3, p0, Landroidx/viewpager2/widget/FakeDrag;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;    return-void
 .end method
 
 .method private addFakeMotionEvent(JIFF)V
@@ -86,12 +82,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V    return-void
 .end method
 
 .method private beginFakeVelocityTracker()V
@@ -146,20 +137,11 @@
     move-result v0
 
     .line 25
-    iput v0, p0, Landroidx/viewpager2/widget/FakeDrag;->mMaximumVelocity:I
-
-    .line 26
-    .line 27
-    return-void
+    iput v0, p0, Landroidx/viewpager2/widget/FakeDrag;->mMaximumVelocity:I    return-void
 
     .line 28
     :cond_0
-    invoke-virtual {v0}, Landroid/view/VelocityTracker;->clear()V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
+    invoke-virtual {v0}, Landroid/view/VelocityTracker;->clear()V    return-void
 .end method
 
 
@@ -185,11 +167,7 @@
     const/4 v1, 0x0
 
     .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-eqz v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -413,11 +391,7 @@
     const/4 v1, 0x0
 
     .line 8
-    if-nez v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 11
     :cond_0
@@ -582,12 +556,7 @@
     move-object v2, p0
 
     .line 76
-    invoke-direct/range {v2 .. v7}, Landroidx/viewpager2/widget/FakeDrag;->addFakeMotionEvent(JIFF)V
-
-    .line 77
-    .line 78
-    .line 79
-    return v8
+    invoke-direct/range {v2 .. v7}, Landroidx/viewpager2/widget/FakeDrag;->addFakeMotionEvent(JIFF)V    return v8
 .end method
 
 .method public isFakeDragging()Z
@@ -607,5 +576,4 @@
 
     return v0
 .end method
-
 .end class

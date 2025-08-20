@@ -17,5 +17,4 @@
 # virtual methods
 .method public abstract onDestinationChanged(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V
 .end method
-
 .end class

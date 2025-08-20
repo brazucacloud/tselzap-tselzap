@@ -201,12 +201,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/preference/PreferenceViewHolder;-><init>(Landroid/view/View;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
+    invoke-direct {v0, p0}, Landroidx/preference/PreferenceViewHolder;-><init>(Landroid/view/View;)V    return-object v0
 .end method
 
 
@@ -235,11 +230,7 @@
 
     .line 8
     .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    return-object v0
+    if-eqz v0, :cond_0    return-object v0
 
     .line 12
     :cond_0
@@ -276,22 +267,14 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedAbove:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedAbove:Z    return v0
 .end method
 
 .method public isDividerAllowedBelow()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z    return v0
 .end method
 
 .method public resetState()V
@@ -398,22 +381,13 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedAbove:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedAbove:Z    return-void
 .end method
 
 .method public setDividerAllowedBelow(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z    return-void
 .end method
-
 .end class

@@ -162,11 +162,7 @@
     move-result v1
 
     .line 15
-    if-nez v1, :cond_0
-
-    .line 16
-    .line 17
-    return p1
+    if-nez v1, :cond_0    return p1
 
     .line 18
     :cond_0
@@ -187,11 +183,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/widget/ButtonBarLayout;->mStacked:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/widget/ButtonBarLayout;->mStacked:Z    return v0
 .end method
 
 .method private setStacked(Z)V
@@ -762,5 +754,4 @@
     :cond_1
     return-void
 .end method
-
 .end class

@@ -12,5 +12,4 @@
 
 .method public abstract removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
 .end method
-
 .end class

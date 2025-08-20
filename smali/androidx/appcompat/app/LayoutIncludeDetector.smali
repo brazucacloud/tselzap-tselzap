@@ -38,11 +38,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/appcompat/app/LayoutIncludeDetector;->mXmlParserStack:Ljava/util/Deque;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/app/LayoutIncludeDetector;->mXmlParserStack:Ljava/util/Deque;    return-void
 .end method
 
 .method private static isParserOutdated(Lorg/xmlpull/v1/XmlPullParser;)Z
@@ -335,11 +331,7 @@
     move-result p1
 
     .line 34
-    if-eqz p1, :cond_0
-
-    .line 35
-    .line 36
-    return v1
+    if-eqz p1, :cond_0    return v1
 
     .line 37
     :cond_0
@@ -347,5 +339,4 @@
 
     return p1
 .end method
-
 .end class

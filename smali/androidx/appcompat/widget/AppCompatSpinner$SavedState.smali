@@ -44,11 +44,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/appcompat/widget/AppCompatSpinner$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/appcompat/widget/AppCompatSpinner$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -104,12 +100,6 @@
     int-to-byte p2, p2
 
     .line 7
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V    return-void
 .end method
-
 .end class

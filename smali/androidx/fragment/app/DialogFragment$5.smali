@@ -33,12 +33,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentContainer;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentContainer;-><init>()V    return-void
 .end method
 
 
@@ -145,5 +140,4 @@
 
     return v0
 .end method
-
 .end class

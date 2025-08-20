@@ -225,11 +225,7 @@
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/graphics/shapes/RoundedCorner;->smoothing:F
-
-    .line 10
-    .line 11
-    return p1
+    iget p1, p0, Landroidx/graphics/shapes/RoundedCorner;->smoothing:F    return p1
 
     .line 12
     :cond_0
@@ -579,11 +575,7 @@
     .line 139
     .line 140
     .line 141
-    move-object/from16 v0, p1
-
-    .line 142
-    .line 143
-    return-object v0
+    move-object/from16 v0, p1    return-object v0
 .end method
 
 .method public static synthetic getCubics$default(Landroidx/graphics/shapes/RoundedCorner;FFILjava/lang/Object;)Ljava/util/List;
@@ -652,11 +644,7 @@
 
     .line 18
     .line 19
-    if-gez v1, :cond_0
-
-    .line 20
-    .line 21
-    return-object v2
+    if-gez v1, :cond_0    return-object v2
 
     .line 22
     :cond_0
@@ -700,11 +688,7 @@
 
     .line 41
     .line 42
-    if-gez p6, :cond_1
-
-    .line 43
-    .line 44
-    return-object v2
+    if-gez p6, :cond_1    return-object v2
 
     .line 45
     :cond_1
@@ -743,33 +727,21 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->center:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->center:J    return-wide v0
 .end method
 
 .method public final getCornerRadius()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->cornerRadius:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->cornerRadius:F    return v0
 .end method
 
 .method public final getCosAngle()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->cosAngle:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->cosAngle:F    return v0
 .end method
 
 .method public final getCubics(F)Ljava/util/List;
@@ -1094,22 +1066,14 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->d1:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->d1:J    return-wide v0
 .end method
 
 .method public final getD2-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->d2:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->d2:J    return-wide v0
 .end method
 
 .method public final getExpectedCut()F
@@ -1133,99 +1097,62 @@
 
     .line 7
     .line 8
-    mul-float v0, v0, v1
-
-    .line 9
-    .line 10
-    return v0
+    mul-float v0, v0, v1    return v0
 .end method
 
 .method public final getExpectedRoundCut()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->expectedRoundCut:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->expectedRoundCut:F    return v0
 .end method
 
 .method public final getP0-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->p0:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->p0:J    return-wide v0
 .end method
 
 .method public final getP1-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->p1:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->p1:J    return-wide v0
 .end method
 
 .method public final getP2-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->p2:J
-
-    .line 2
-    .line 3
-    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/RoundedCorner;->p2:J    return-wide v0
 .end method
 
 .method public final getRounding()Landroidx/graphics/shapes/CornerRounding;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/RoundedCorner;->rounding:Landroidx/graphics/shapes/CornerRounding;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/graphics/shapes/RoundedCorner;->rounding:Landroidx/graphics/shapes/CornerRounding;    return-object v0
 .end method
 
 .method public final getSinAngle()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->sinAngle:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->sinAngle:F    return v0
 .end method
 
 .method public final getSmoothing()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->smoothing:F
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/graphics/shapes/RoundedCorner;->smoothing:F    return v0
 .end method
 
 .method public final setCenter-DnnuFBc(J)V
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Landroidx/graphics/shapes/RoundedCorner;->center:J
-
-    .line 2
-    .line 3
-    return-void
+    iput-wide p1, p0, Landroidx/graphics/shapes/RoundedCorner;->center:J    return-void
 .end method
-
 .end class

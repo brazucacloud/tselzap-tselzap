@@ -34,11 +34,7 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/constraintlayout/core/state/Registry;->sRegistry:Landroidx/constraintlayout/core/state/Registry;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/constraintlayout/core/state/Registry;->sRegistry:Landroidx/constraintlayout/core/state/Registry;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -59,22 +55,14 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Registry;->mCallbacks:Ljava/util/HashMap;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Registry;->mCallbacks:Ljava/util/HashMap;    return-void
 .end method
 
 .method public static getInstance()Landroidx/constraintlayout/core/state/Registry;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/Registry;->sRegistry:Landroidx/constraintlayout/core/state/Registry;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/constraintlayout/core/state/Registry;->sRegistry:Landroidx/constraintlayout/core/state/Registry;    return-object v0
 .end method
 
 
@@ -194,14 +182,7 @@
 
     .line 16
     :cond_0
-    const-wide v0, 0x7fffffffffffffffL
-
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    return-wide v0
+    const-wide v0, 0x7fffffffffffffffL    return-wide v0
 .end method
 
 .method public getLayoutList()Ljava/util/Set;
@@ -238,12 +219,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public setDrawDebug(Ljava/lang/String;I)V
@@ -320,12 +296,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
 
 .method public updateContent(Ljava/lang/String;Ljava/lang/String;)V
@@ -426,5 +397,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

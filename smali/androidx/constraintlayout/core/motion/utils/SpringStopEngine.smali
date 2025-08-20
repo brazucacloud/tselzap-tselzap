@@ -59,11 +59,7 @@
 
     .line 10
     .line 11
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->mBoundaryMode:I
-
-    .line 12
-    .line 13
-    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->mBoundaryMode:I    return-void
 .end method
 
 .method private compute(D)V
@@ -542,11 +538,7 @@
     .line 21
     .line 22
     :cond_0
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->mPos:F
-
-    .line 23
-    .line 24
-    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->mPos:F    return p1
 .end method
 
 .method public getVelocity()F
@@ -805,12 +797,7 @@
     move-result-object p1
 
     .line 77
-    invoke-virtual {v1, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 78
-    .line 79
-    .line 80
-    return-void
+    invoke-virtual {v1, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
 .end method
 
 .method public springConfig(FFFFFFFI)V
@@ -871,11 +858,6 @@
     const/4 p1, 0x0
 
     .line 25
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->mLastTime:F
-
-    .line 26
-    .line 27
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->mLastTime:F    return-void
 .end method
-
 .end class

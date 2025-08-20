@@ -39,23 +39,14 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->sMe:Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;
-
-    .line 7
-    .line 8
-    return-void
+    sput-object v0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->sMe:Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static obtain()Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;
@@ -78,11 +69,7 @@
 
     .line 8
     .line 9
-    sget-object v0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->sMe:Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;
-
-    .line 10
-    .line 11
-    return-object v0
+    sget-object v0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->sMe:Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;    return-object v0
 .end method
 
 
@@ -270,5 +257,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

@@ -33,11 +33,7 @@
     .line 7
     .line 8
     .line 9
-    iput p1, p0, Landroidx/viewpager2/widget/MarginPageTransformer;->mMarginPx:I
-
-    .line 10
-    .line 11
-    return-void
+    iput p1, p0, Landroidx/viewpager2/widget/MarginPageTransformer;->mMarginPx:I    return-void
 .end method
 
 .method private requireViewPager(Landroid/view/View;)Landroidx/viewpager2/widget/ViewPager2;
@@ -80,11 +76,7 @@
 
     .line 16
     .line 17
-    check-cast v0, Landroidx/viewpager2/widget/ViewPager2;
-
-    .line 18
-    .line 19
-    return-object v0
+    check-cast v0, Landroidx/viewpager2/widget/ViewPager2;    return-object v0
 
     .line 20
     :cond_0
@@ -161,21 +153,10 @@
 
     .line 23
     :cond_0
-    invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationX(F)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationX(F)V    return-void
 
     .line 27
     :cond_1
-    invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationY(F)V
-
-    .line 28
-    .line 29
-    .line 30
-    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
-
 .end class

@@ -24,22 +24,14 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/LongIntMapKt;->EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/collection/LongIntMapKt;->EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;    return-void
 .end method
 
 .method public static final emptyLongIntMap()Landroidx/collection/LongIntMap;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/LongIntMapKt;->EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/collection/LongIntMapKt;->EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;    return-object v0
 .end method
 
 .method public static final longIntMapOf()Landroidx/collection/LongIntMap;
@@ -335,5 +327,4 @@
 
     return-object v0
 .end method
-
 .end class

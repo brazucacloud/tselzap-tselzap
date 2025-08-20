@@ -66,11 +66,7 @@
 
     .line 13
     .line 14
-    iput p3, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mItemLayoutRes:I
-
-    .line 15
-    .line 16
-    return-void
+    iput p3, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mItemLayoutRes:I    return-void
 .end method
 
 
@@ -109,12 +105,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;I)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
+    invoke-virtual {v0, p1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;I)V    return-void
 .end method
 
 .method public abstract bindItemView(Landroidx/appcompat/view/menu/MenuItemImpl;Landroidx/appcompat/view/menu/MenuView$ItemView;)V
@@ -151,11 +142,7 @@
     move-result-object p1
 
     .line 10
-    check-cast p1, Landroidx/appcompat/view/menu/MenuView$ItemView;
-
-    .line 11
-    .line 12
-    return-object p1
+    check-cast p1, Landroidx/appcompat/view/menu/MenuView$ItemView;    return-object p1
 .end method
 
 .method public expandItemActionView(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuItemImpl;)Z
@@ -192,22 +179,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;    return-object v0
 .end method
 
 .method public getId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mId:I    return v0
 .end method
 
 .method public getItemView(Landroidx/appcompat/view/menu/MenuItemImpl;Landroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
@@ -244,11 +223,7 @@
     .line 13
     .line 14
     .line 15
-    check-cast p2, Landroid/view/View;
-
-    .line 16
-    .line 17
-    return-object p2
+    check-cast p2, Landroid/view/View;    return-object p2
 .end method
 
 .method public getMenuView(Landroid/view/ViewGroup;)Landroidx/appcompat/view/menu/MenuView;
@@ -308,11 +283,7 @@
     .line 26
     .line 27
     :cond_0
-    iget-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mMenuView:Landroidx/appcompat/view/menu/MenuView;
-
-    .line 28
-    .line 29
-    return-object p1
+    iget-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mMenuView:Landroidx/appcompat/view/menu/MenuView;    return-object p1
 .end method
 
 .method public initForMenu(Landroid/content/Context;Landroidx/appcompat/view/menu/MenuBuilder;)V
@@ -335,11 +306,7 @@
 
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
-
-    .line 10
-    .line 11
-    return-void
+    iput-object p2, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-void
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -408,22 +375,14 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;    return-void
 .end method
 
 .method public setId(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mId:I
-
-    .line 2
-    .line 3
-    return-void
+    iput p1, p0, Landroidx/appcompat/view/menu/BaseMenuPresenter;->mId:I    return-void
 .end method
 
 .method public shouldIncludeItem(ILandroidx/appcompat/view/menu/MenuItemImpl;)Z
@@ -650,5 +609,4 @@
     :goto_3
     return-void
 .end method
-
 .end class

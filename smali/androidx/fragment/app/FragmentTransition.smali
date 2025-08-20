@@ -50,23 +50,14 @@
     move-result-object v0
 
     .line 19
-    sput-object v0, Landroidx/fragment/app/FragmentTransition;->SUPPORT_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
-
-    .line 20
-    .line 21
-    return-void
+    sput-object v0, Landroidx/fragment/app/FragmentTransition;->SUPPORT_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
 .end method
 
 .method public static final callSharedElementStartEnd(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/Fragment;ZLandroidx/collection/ArrayMap;Z)V
@@ -306,12 +297,7 @@
 
     .line 109
     .line 110
-    invoke-virtual {p0, p2, p1, p3}, Landroidx/core/app/SharedElementCallback;->onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
-
-    .line 111
-    .line 112
-    .line 113
-    return-void
+    invoke-virtual {p0, p2, p1, p3}, Landroidx/core/app/SharedElementCallback;->onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V    return-void
 
     .line 114
     :cond_3
@@ -541,11 +527,7 @@
     move-result-object p0
 
     .line 101
-    check-cast p0, Ljava/lang/String;
-
-    .line 102
-    .line 103
-    return-object p0
+    check-cast p0, Ljava/lang/String;    return-object p0
 .end method
 
 .method private final resolveSupportImpl()Landroidx/fragment/app/FragmentTransitionImpl;
@@ -586,11 +568,7 @@
     .line 16
     check-cast v0, Landroidx/fragment/app/FragmentTransitionImpl;
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 17
-    .line 18
-    return-object v0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-object v0
 
     .line 19
     :catch_0
@@ -801,5 +779,4 @@
 
     return v0
 .end method
-
 .end class

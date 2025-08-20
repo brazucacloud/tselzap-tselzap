@@ -36,11 +36,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/preference/Preference$OnPreferenceCopyListener;->mPreference:Landroidx/preference/Preference;
-
-    .line 5
-    .line 6
-    return-void
+    iput-object p1, p0, Landroidx/preference/Preference$OnPreferenceCopyListener;->mPreference:Landroidx/preference/Preference;    return-void
 .end method
 
 
@@ -242,12 +238,6 @@
     move-result-object p1
 
     .line 58
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
-
-    .line 59
-    .line 60
-    .line 61
-    return v3
+    invoke-virtual {p1}, Landroid/widget/Toast;->show()V    return v3
 .end method
-
 .end class

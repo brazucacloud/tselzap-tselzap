@@ -42,11 +42,7 @@
     move-result p1
 
     .line 10
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;->mTypeId:I
-
-    .line 11
-    .line 12
-    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;->mTypeId:I    return-void
 .end method
 
 
@@ -85,12 +81,7 @@
     add-float/2addr p2, p3
 
     .line 15
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setRotationZ(F)V
-
-    .line 16
-    .line 17
-    .line 18
-    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setRotationZ(F)V    return-void
 .end method
 
 .method public setProperty(Landroidx/constraintlayout/core/motion/MotionWidget;F)V
@@ -109,12 +100,6 @@
     move-result p2
 
     .line 7
-    invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setValue(IF)Z
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
+    invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setValue(IF)Z    return-void
 .end method
-
 .end class

@@ -121,11 +121,7 @@
     const/4 v0, 0x1
 
     .line 2
-    if-ne p0, p1, :cond_0
-
-    .line 3
-    .line 4
-    return v0
+    if-ne p0, p1, :cond_0    return v0
 
     .line 5
     :cond_0
@@ -346,33 +342,21 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavAction;->defaultArguments:Landroid/os/Bundle;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavAction;->defaultArguments:Landroid/os/Bundle;    return-object v0
 .end method
 
 .method public final getDestinationId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavAction;->destinationId:I
-
-    .line 2
-    .line 3
-    return v0
+    iget v0, p0, Landroidx/navigation/NavAction;->destinationId:I    return v0
 .end method
 
 .method public final getNavOptions()Landroidx/navigation/NavOptions;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavAction;->navOptions:Landroidx/navigation/NavOptions;
-
-    .line 2
-    .line 3
-    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavAction;->navOptions:Landroidx/navigation/NavOptions;    return-object v0
 .end method
 
 .method public hashCode()I
@@ -532,22 +516,14 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavAction;->defaultArguments:Landroid/os/Bundle;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavAction;->defaultArguments:Landroid/os/Bundle;    return-void
 .end method
 
 .method public final setNavOptions(Landroidx/navigation/NavOptions;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavAction;->navOptions:Landroidx/navigation/NavOptions;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/navigation/NavAction;->navOptions:Landroidx/navigation/NavOptions;    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -632,12 +608,6 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 43
-    .line 44
-    .line 45
-    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
 .end method
-
 .end class

@@ -27,12 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
+    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V    return-void
 .end method
 
 
@@ -86,12 +81,6 @@
     move-object v0, p2
 
     .line 22
-    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Outline;->setRoundRect(IIIIF)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
+    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Outline;->setRoundRect(IIIIF)V    return-void
 .end method
-
 .end class

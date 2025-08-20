@@ -149,11 +149,7 @@
 
     .line 46
     .line 47
-    iput v1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->mCountBoolean:I
-
-    .line 48
-    .line 49
-    return-void
+    iput v1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->mCountBoolean:I    return-void
 .end method
 
 
@@ -898,5 +894,4 @@
     :cond_3
     return-void
 .end method
-
 .end class

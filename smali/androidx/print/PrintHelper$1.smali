@@ -79,12 +79,7 @@
 
     .line 16
     .line 17
-    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
-
-    .line 18
-    .line 19
-    .line 20
-    return-void
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V    return-void
 .end method
 
 
@@ -487,5 +482,4 @@
 
     return-void
 .end method
-
 .end class

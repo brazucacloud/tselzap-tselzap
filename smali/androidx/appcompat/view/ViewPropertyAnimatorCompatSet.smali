@@ -73,11 +73,7 @@
     .line 18
     .line 19
     .line 20
-    iput-object v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mAnimators:Ljava/util/ArrayList;
-
-    .line 21
-    .line 22
-    return-void
+    iput-object v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mAnimators:Ljava/util/ArrayList;    return-void
 .end method
 
 
@@ -90,11 +86,7 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-nez v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -147,11 +139,7 @@
     const/4 v0, 0x0
 
     .line 29
-    iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z
-
-    .line 30
-    .line 31
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z    return-void
 .end method
 
 .method public onAnimationsEnded()V
@@ -161,11 +149,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z
-
-    .line 3
-    .line 4
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z    return-void
 .end method
 
 .method public play(Landroidx/core/view/ViewPropertyAnimatorCompat;)Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;
@@ -223,12 +207,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 16
-    .line 17
-    .line 18
-    return-object p0
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-object p0
 .end method
 
 .method public setDuration(J)Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;
@@ -299,11 +278,7 @@
 
     .line 2
     .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
+    if-eqz v0, :cond_0    return-void
 
     .line 6
     :cond_0
@@ -410,11 +385,6 @@
     const/4 v0, 0x1
 
     .line 56
-    iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z
-
-    .line 57
-    .line 58
-    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z    return-void
 .end method
-
 .end class

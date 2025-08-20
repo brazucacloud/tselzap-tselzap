@@ -215,11 +215,7 @@
     .line 63
     .line 64
     .line 65
-    sput-object v0, Landroidx/transition/ChangeBounds;->sRectEvaluator:Landroidx/transition/RectEvaluator;
-
-    .line 66
-    .line 67
-    return-void
+    sput-object v0, Landroidx/transition/ChangeBounds;->sRectEvaluator:Landroidx/transition/RectEvaluator;    return-void
 .end method
 
 .method public constructor <init>()V
@@ -447,12 +443,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeBounds;->captureValues(Landroidx/transition/TransitionValues;)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeBounds;->captureValues(Landroidx/transition/TransitionValues;)V    return-void
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -1562,11 +1553,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z
-
-    .line 2
-    .line 3
-    return v0
+    iget-boolean v0, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z    return v0
 .end method
 
 .method public getTransitionProperties()[Ljava/lang/String;
@@ -1575,11 +1562,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/ChangeBounds;->sTransitionProperties:[Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
+    sget-object v0, Landroidx/transition/ChangeBounds;->sTransitionProperties:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public isSeekingSupported()Z
@@ -1594,11 +1577,6 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z    return-void
 .end method
-
 .end class

@@ -46,11 +46,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;->TOMBSTONE:Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;
-
-    .line 8
-    .line 9
-    return-void
+    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;->TOMBSTONE:Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
@@ -66,11 +62,6 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;->executor:Ljava/util/concurrent/Executor;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;->executor:Ljava/util/concurrent/Executor;    return-void
 .end method
-
 .end class

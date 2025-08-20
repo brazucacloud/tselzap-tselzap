@@ -35,12 +35,6 @@
     move-result-object p1
 
     .line 9
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-void
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V    return-void
 .end method
-
 .end class

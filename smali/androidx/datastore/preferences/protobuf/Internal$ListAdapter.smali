@@ -75,11 +75,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->converter:Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;
-
-    .line 7
-    .line 8
-    return-void
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->converter:Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;    return-void
 .end method
 
 
@@ -136,5 +132,4 @@
 
     return v0
 .end method
-
 .end class

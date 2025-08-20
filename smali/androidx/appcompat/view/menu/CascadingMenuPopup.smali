@@ -106,11 +106,7 @@
 
     .line 2
     .line 3
-    sput v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->ITEM_LAYOUT:I
-
-    .line 4
-    .line 5
-    return-void
+    sput v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->ITEM_LAYOUT:I    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/view/View;IIZ)V
@@ -307,11 +303,7 @@
     .line 89
     .line 90
     .line 91
-    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mSubMenuHoverHandler:Landroid/os/Handler;
-
-    .line 92
-    .line 93
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mSubMenuHoverHandler:Landroid/os/Handler;    return-void
 .end method
 
 .method private createPopupWindow()Landroidx/appcompat/widget/MenuPopupWindow;
@@ -390,12 +382,7 @@
     const/4 v1, 0x2
 
     .line 39
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/ListPopupWindow;->setInputMethodMode(I)V
-
-    .line 40
-    .line 41
-    .line 42
-    return-object v0
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/ListPopupWindow;->setInputMethodMode(I)V    return-object v0
 .end method
 
 .method private findIndexOfAddedMenu(Landroidx/appcompat/view/menu/MenuBuilder;)I
@@ -446,11 +433,7 @@
 
     .line 19
     .line 20
-    if-ne p1, v2, :cond_0
-
-    .line 21
-    .line 22
-    return v1
+    if-ne p1, v2, :cond_0    return v1
 
     .line 23
     :cond_0
@@ -523,11 +506,7 @@
     move-result-object v3
 
     .line 22
-    if-ne p2, v3, :cond_0
-
-    .line 23
-    .line 24
-    return-object v2
+    if-ne p2, v3, :cond_0    return-object v2
 
     .line 25
     :cond_0
@@ -573,11 +552,7 @@
     const/4 v0, 0x0
 
     .line 8
-    if-nez p2, :cond_0
-
-    .line 9
-    .line 10
-    return-object v0
+    if-nez p2, :cond_0    return-object v0
 
     .line 11
     :cond_0
@@ -688,11 +663,7 @@
 
     .line 58
     :goto_2
-    if-ne v3, v5, :cond_4
-
-    .line 59
-    .line 60
-    return-object v0
+    if-ne v3, v5, :cond_4    return-object v0
 
     .line 61
     :cond_4
@@ -882,11 +853,7 @@
 
     .line 49
     .line 50
-    if-le v0, p1, :cond_0
-
-    .line 51
-    .line 52
-    return v5
+    if-le v0, p1, :cond_0    return v5
 
     .line 53
     :cond_0
@@ -901,11 +868,7 @@
     sub-int/2addr v0, p1
 
     .line 57
-    if-gez v0, :cond_2
-
-    .line 58
-    .line 59
-    return v2
+    if-gez v0, :cond_2    return v2
 
     .line 60
     :cond_2
@@ -1572,12 +1535,7 @@
 
     .line 11
     .line 12
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->showMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->showMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V    return-void
 
     .line 16
     :cond_0
@@ -1585,12 +1543,7 @@
 
     .line 17
     .line 18
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public closeMenuOnSubMenuOpened()Z
@@ -2104,12 +2057,7 @@
 
     .line 135
     .line 136
-    invoke-interface {p1}, Landroid/widget/PopupWindow$OnDismissListener;->onDismiss()V
-
-    .line 137
-    .line 138
-    .line 139
-    return-void
+    invoke-interface {p1}, Landroid/widget/PopupWindow$OnDismissListener;->onDismiss()V    return-void
 
     .line 140
     :cond_7
@@ -2266,12 +2214,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->dismiss()V
-
-    .line 13
-    .line 14
-    .line 15
-    return p3
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->dismiss()V    return p3
 
     .line 16
     :cond_0
@@ -2354,12 +2297,7 @@
     move-result-object p1
 
     .line 28
-    invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
-
-    .line 29
-    .line 30
-    .line 31
-    return v2
+    invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z    return v2
 
     .line 32
     :cond_1
@@ -2455,22 +2393,14 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mPresenterCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mPresenterCallback:Landroidx/appcompat/view/menu/MenuPresenter$Callback;    return-void
 .end method
 
 .method public setForceShowIcon(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mForceShowIcon:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mForceShowIcon:Z    return-void
 .end method
 
 .method public setGravity(I)V
@@ -2528,33 +2458,21 @@
 
     .line 3
     .line 4
-    iput p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mXOffset:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mXOffset:I    return-void
 .end method
 
 .method public setOnDismissListener(Landroid/widget/PopupWindow$OnDismissListener;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mOnDismissListener:Landroid/widget/PopupWindow$OnDismissListener;
-
-    .line 2
-    .line 3
-    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mOnDismissListener:Landroid/widget/PopupWindow$OnDismissListener;    return-void
 .end method
 
 .method public setShowTitle(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowTitle:Z
-
-    .line 2
-    .line 3
-    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowTitle:Z    return-void
 .end method
 
 .method public setVerticalOffset(I)V
@@ -2568,11 +2486,7 @@
 
     .line 3
     .line 4
-    iput p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mYOffset:I
-
-    .line 5
-    .line 6
-    return-void
+    iput p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mYOffset:I    return-void
 .end method
 
 .method public show()V
@@ -2801,5 +2715,4 @@
     :cond_0
     return-void
 .end method
-
 .end class

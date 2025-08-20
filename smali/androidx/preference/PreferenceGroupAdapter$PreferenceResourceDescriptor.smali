@@ -76,11 +76,7 @@
     move-result p1
 
     .line 24
-    iput p1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mWidgetLayoutResId:I
-
-    .line 25
-    .line 26
-    return-void
+    iput p1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mWidgetLayoutResId:I    return-void
 .end method
 
 
@@ -96,11 +92,7 @@
     const/4 v1, 0x0
 
     .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
+    if-nez v0, :cond_0    return v1
 
     .line 7
     :cond_0
@@ -207,5 +199,4 @@
 
     return v1
 .end method
-
 .end class

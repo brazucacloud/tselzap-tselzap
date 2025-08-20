@@ -128,24 +128,14 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 60
-    .line 61
-    .line 62
-    return-void
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public constructor <init>([C)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V    return-void
 .end method
 
 .method public static allocate(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)Landroidx/constraintlayout/core/parser/CLElement;
@@ -317,11 +307,7 @@
     move-result-object v0
 
     .line 16
-    check-cast v0, Landroidx/constraintlayout/core/parser/CLElement;
-
-    .line 17
-    .line 18
-    return-object v0
+    check-cast v0, Landroidx/constraintlayout/core/parser/CLElement;    return-object v0
 
     .line 19
     :cond_0
@@ -371,12 +357,7 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-virtual {v0, v1, p1}, Ljava/util/ArrayList;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
+    invoke-virtual {v0, v1, p1}, Ljava/util/ArrayList;->set(ILjava/lang/Object;)Ljava/lang/Object;    return-void
 
     .line 16
     :cond_0
@@ -384,12 +365,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
 
 .method public toFormattedJSON(II)Ljava/lang/String;
@@ -791,5 +767,4 @@
 
     return-object v0
 .end method
-
 .end class
