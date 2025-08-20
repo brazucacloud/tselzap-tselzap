@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lw1/h;
+    value = Landroidx/core/view/ViewGroupKt;
+    ->getChildren(Landroid/view/ViewGroup;)Lw1/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,11 +34,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewGroupKt$children$1;->$this_children:Landroid/view/ViewGroup;
+    iput-object p1, p0, Landroidx/core/view/ViewGroupKt$children$1;
+    ->$this_children:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -59,11 +62,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewGroupKt$children$1;->$this_children:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/core/view/ViewGroupKt$children$1;
+    ->$this_children:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/view/ViewGroupKt;->iterator(Landroid/view/ViewGroup;)Ljava/util/Iterator;
+    invoke-static {v0}, Landroidx/core/view/ViewGroupKt;
+    ->iterator(Landroid/view/ViewGroup;)Ljava/util/Iterator;
 
     .line 4
     .line 5

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/cardview/widget/CardViewApi17Impl;->initStatic()V
+    value = Landroidx/cardview/widget/CardViewApi17Impl;
+    ->initStatic()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/cardview/widget/CardViewApi17Impl$1;->this$0:Landroidx/cardview/widget/CardViewApi17Impl;
+    iput-object p1, p0, Landroidx/cardview/widget/CardViewApi17Impl$1;
+    ->this$0:Landroidx/cardview/widget/CardViewApi17Impl;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +43,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p2, p3, p3, p4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
+    invoke-virtual {p1, p2, p3, p3, p4}, Landroid/graphics/Canvas;
+    ->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 return-void
 .end method
 

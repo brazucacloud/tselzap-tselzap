@@ -66,7 +66,8 @@
 
     .line 3
     .line 4
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Wrap;->NONE:Landroidx/constraintlayout/core/state/State$Wrap;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->NONE:Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 5
     .line 6
@@ -77,7 +78,8 @@
 
     .line 8
     .line 9
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Wrap;->CHAIN:Landroidx/constraintlayout/core/state/State$Wrap;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->CHAIN:Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 10
     .line 11
@@ -88,7 +90,8 @@
 
     .line 13
     .line 14
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Wrap;->ALIGNED:Landroidx/constraintlayout/core/state/State$Wrap;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->ALIGNED:Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 15
     .line 16
@@ -113,12 +116,14 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Landroidx/constraintlayout/core/state/State$Wrap;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/constraintlayout/core/state/State$Wrap;
+    -><init>(Ljava/lang/String;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->NONE:Landroidx/constraintlayout/core/state/State$Wrap;
+    sput-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->NONE:Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 10
     .line 11
@@ -133,12 +138,14 @@
     const/4 v4, 0x1
 
     .line 16
-    invoke-direct {v1, v3, v4}, Landroidx/constraintlayout/core/state/State$Wrap;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v3, v4}, Landroidx/constraintlayout/core/state/State$Wrap;
+    -><init>(Ljava/lang/String;I)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v1, Landroidx/constraintlayout/core/state/State$Wrap;->CHAIN:Landroidx/constraintlayout/core/state/State$Wrap;
+    sput-object v1, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->CHAIN:Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 20
     .line 21
@@ -153,16 +160,19 @@
     const/4 v5, 0x2
 
     .line 26
-    invoke-direct {v3, v4, v5}, Landroidx/constraintlayout/core/state/State$Wrap;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v3, v4, v5}, Landroidx/constraintlayout/core/state/State$Wrap;
+    -><init>(Ljava/lang/String;I)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v3, Landroidx/constraintlayout/core/state/State$Wrap;->ALIGNED:Landroidx/constraintlayout/core/state/State$Wrap;
+    sput-object v3, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->ALIGNED:Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 30
     .line 31
-    invoke-static {}, Landroidx/constraintlayout/core/state/State$Wrap;->$values()[Landroidx/constraintlayout/core/state/State$Wrap;
+    invoke-static {}, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->$values()[Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 32
     .line 33
@@ -170,7 +180,8 @@
     move-result-object v4
 
     .line 35
-    sput-object v4, Landroidx/constraintlayout/core/state/State$Wrap;->$VALUES:[Landroidx/constraintlayout/core/state/State$Wrap;
+    sput-object v4, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->$VALUES:[Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 36
     .line 37
@@ -178,12 +189,14 @@
 
     .line 38
     .line 39
-    invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v4}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 40
     .line 41
     .line 42
-    sput-object v4, Landroidx/constraintlayout/core/state/State$Wrap;->wrapMap:Ljava/util/Map;
+    sput-object v4, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->wrapMap:Ljava/util/Map;
 
     .line 43
     .line 44
@@ -191,16 +204,19 @@
 
     .line 45
     .line 46
-    invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v4}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 47
     .line 48
     .line 49
-    sput-object v4, Landroidx/constraintlayout/core/state/State$Wrap;->valueMap:Ljava/util/Map;
+    sput-object v4, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->valueMap:Ljava/util/Map;
 
     .line 50
     .line 51
-    sget-object v4, Landroidx/constraintlayout/core/state/State$Wrap;->wrapMap:Ljava/util/Map;
+    sget-object v4, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->wrapMap:Ljava/util/Map;
 
     .line 52
     .line 53
@@ -208,12 +224,14 @@
 
     .line 54
     .line 55
-    invoke-interface {v4, v6, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v4, v6, v0}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 56
     .line 57
     .line 58
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->wrapMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->wrapMap:Ljava/util/Map;
 
     .line 59
     .line 60
@@ -221,12 +239,14 @@
 
     .line 61
     .line 62
-    invoke-interface {v0, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v4, v1}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 63
     .line 64
     .line 65
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->wrapMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->wrapMap:Ljava/util/Map;
 
     .line 66
     .line 67
@@ -234,16 +254,19 @@
 
     .line 68
     .line 69
-    invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, v3}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 70
     .line 71
     .line 72
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->valueMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->valueMap:Ljava/util/Map;
 
     .line 73
     .line 74
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 75
     .line 76
@@ -251,19 +274,22 @@
     move-result-object v2
 
     .line 78
-    invoke-interface {v0, v6, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v6, v2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 79
     .line 80
     .line 81
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->valueMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->valueMap:Ljava/util/Map;
 
     .line 82
     .line 83
     const/4 v2, 0x3
 
     .line 84
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 85
     .line 86
@@ -271,16 +297,19 @@
     move-result-object v2
 
     .line 88
-    invoke-interface {v0, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v4, v2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 89
     .line 90
     .line 91
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->valueMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->valueMap:Ljava/util/Map;
 
     .line 92
     .line 93
-    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v5}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 94
     .line 95
@@ -288,7 +317,9 @@
     move-result-object v2
 
     .line 97
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-interface {v0, v1, v2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -300,7 +331,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
+    -><init>(Ljava/lang/String;I)V
 return-void
 .end method
 
@@ -308,11 +340,13 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->wrapMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->wrapMap:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p0}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -324,11 +358,13 @@ return-void
 
     .line 8
     .line 9
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->wrapMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->wrapMap:Ljava/util/Map;
 
     .line 10
     .line 11
-    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -349,11 +385,13 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->valueMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->valueMap:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p0}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -365,11 +403,13 @@ return-void
 
     .line 8
     .line 9
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->valueMap:Ljava/util/Map;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->valueMap:Ljava/util/Map;
 
     .line 10
     .line 11
-    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -381,7 +421,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 18
     .line 19
@@ -405,7 +446,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;
+    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -420,11 +462,13 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;->$VALUES:[Landroidx/constraintlayout/core/state/State$Wrap;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Wrap;
+    ->$VALUES:[Landroidx/constraintlayout/core/state/State$Wrap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [Landroidx/constraintlayout/core/state/State$Wrap;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Landroidx/constraintlayout/core/state/State$Wrap;
+    ->clone()Ljava/lang/Object;
 
     .line 4
     .line 5

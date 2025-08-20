@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/activity/g;->a:Lp1/a;
+    iput-object p1, p0, Landroidx/activity/g;
+    ->a:Lp1/a;
 
     return-void
 .end method
@@ -28,9 +30,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/g;->a:Lp1/a;
+    iget-object v0, p0, Landroidx/activity/g;
+    ->a:Lp1/a;
 
-    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->a(Lp1/a;)V
+    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
+    ->a(Lp1/a;)V
 return-void
 .end method
 

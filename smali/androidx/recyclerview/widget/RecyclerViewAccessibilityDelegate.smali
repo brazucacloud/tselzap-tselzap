@@ -26,16 +26,19 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->getItemDelegate()Landroidx/core/view/AccessibilityDelegateCompat;
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->getItemDelegate()Landroidx/core/view/AccessibilityDelegateCompat;
 
     .line 7
     .line 8
@@ -59,7 +62,9 @@
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mItemDelegate:Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mItemDelegate:Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;    
+    return-void
 
     .line 21
     :cond_0
@@ -67,12 +72,15 @@
 
     .line 22
     .line 23
-    invoke-direct {p1, p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;-><init>(Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;)V
+    invoke-direct {p1, p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;
+    -><init>(Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;)V
 
     .line 24
     .line 25
     .line 26
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mItemDelegate:Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mItemDelegate:Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;    
+    return-void
 .end method
 
 
@@ -83,7 +91,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mItemDelegate:Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mItemDelegate:Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate;    return-object v0
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
@@ -110,7 +119,8 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 2
     .line 3
@@ -123,7 +133,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->shouldIgnore()Z
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->shouldIgnore()Z
 
     .line 9
     .line 10
@@ -139,7 +150,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 17
     .line 18
@@ -151,7 +163,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 23
     .line 24
@@ -159,7 +172,8 @@
     move-result-object p1
 
     .line 26
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 27
     .line 28
@@ -192,12 +206,14 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->shouldIgnore()Z
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->shouldIgnore()Z
 
     .line 5
     .line 6
@@ -209,11 +225,13 @@
 
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 13
     .line 14
@@ -225,11 +243,13 @@
 
     .line 17
     .line 18
-    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 21
     .line 22
@@ -237,7 +257,8 @@
     move-result-object p1
 
     .line 24
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onInitializeAccessibilityNodeInfo(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->onInitializeAccessibilityNodeInfo(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 25
     .line 26
@@ -270,7 +291,8 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/core/view/AccessibilityDelegateCompat;->performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
+    invoke-super {p0, p1, p2, p3}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
 
     .line 2
     .line 3
@@ -288,7 +310,8 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->shouldIgnore()Z
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->shouldIgnore()Z
 
     .line 10
     .line 11
@@ -300,11 +323,13 @@
 
     .line 14
     .line 15
-    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 18
     .line 19
@@ -316,11 +341,13 @@
 
     .line 22
     .line 23
-    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 26
     .line 27
@@ -328,7 +355,8 @@
     move-result-object p1
 
     .line 29
-    invoke-virtual {p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->performAccessibilityAction(ILandroid/os/Bundle;)Z
+    invoke-virtual {p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->performAccessibilityAction(ILandroid/os/Bundle;)Z
 
     .line 30
     .line 31
@@ -348,11 +376,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->hasPendingAdapterUpdates()Z
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
+    ->hasPendingAdapterUpdates()Z
 
     .line 4
     .line 5

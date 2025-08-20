@@ -28,16 +28,20 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;    return-void
+    iput-object p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->mChildView:Landroid/view/View;    
+    return-void
 .end method
 
 
@@ -46,11 +50,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->mChildView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 4
     .line 5
@@ -58,7 +64,8 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iget-object v1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 8
     .line 9
@@ -66,7 +73,8 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->mChildView:Landroid/view/View;
 
     .line 12
     .line 13
@@ -76,34 +84,41 @@
     const/4 v2, 0x0
 
     .line 15
-    invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {v0, v1, v2}, Landroid/view/View;
+    ->setLayerType(ILandroid/graphics/Paint;)V
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->mChildView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->mChildView:Landroid/view/View;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->invalidateChildRegion(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    ->invalidateChildRegion(Landroid/view/View;)V
 
     .line 23
     .line 24
     .line 25
     :cond_0
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$DisableLayerRunnable;
+    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 26
     .line 27
-    iget-object v0, v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPostedRunnables:Ljava/util/ArrayList;
+    iget-object v0, v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    ->mPostedRunnables:Ljava/util/ArrayList;
 
     .line 28
     .line 29
-    invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 return-void
 .end method
 

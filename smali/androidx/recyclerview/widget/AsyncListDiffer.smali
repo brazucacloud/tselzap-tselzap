@@ -85,12 +85,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/recyclerview/widget/AsyncListDiffer$MainThreadExecutor;-><init>()V
+    invoke-direct {v0}, Landroidx/recyclerview/widget/AsyncListDiffer$MainThreadExecutor;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/AsyncListDiffer;->sMainThreadExecutor:Ljava/util/concurrent/Executor;    return-void
+    sput-object v0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->sMainThreadExecutor:Ljava/util/concurrent/Executor;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/ListUpdateCallback;Landroidx/recyclerview/widget/AsyncDifferConfig;)V
@@ -113,47 +115,59 @@
     .end annotation
 
     .line 4
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 5
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mListeners:Ljava/util/List;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mListeners:Ljava/util/List;
 
     .line 6
-    sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+    sget-object v0, Ljava/util/Collections;
+    ->EMPTY_LIST:Ljava/util/List;
 
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     .line 7
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
 
     .line 8
-    iput-object p2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
+    iput-object p2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
 
     .line 9
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/AsyncDifferConfig;->getMainThreadExecutor()Ljava/util/concurrent/Executor;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/AsyncDifferConfig;
+    ->getMainThreadExecutor()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
     .line 10
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/AsyncDifferConfig;->getMainThreadExecutor()Ljava/util/concurrent/Executor;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/AsyncDifferConfig;
+    ->getMainThreadExecutor()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mMainThreadExecutor:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mMainThreadExecutor:Ljava/util/concurrent/Executor;
 
     return-void
 
     .line 11
     :cond_0
-    sget-object p1, Landroidx/recyclerview/widget/AsyncListDiffer;->sMainThreadExecutor:Ljava/util/concurrent/Executor;
+    sget-object p1, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->sMainThreadExecutor:Ljava/util/concurrent/Executor;
 
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mMainThreadExecutor:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mMainThreadExecutor:Ljava/util/concurrent/Executor;
 
     return-void
 .end method
@@ -180,19 +194,23 @@
     .line 1
     new-instance v0, Landroidx/recyclerview/widget/AdapterListUpdateCallback;
 
-    invoke-direct {v0, p1}, Landroidx/recyclerview/widget/AdapterListUpdateCallback;-><init>(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
+    invoke-direct {v0, p1}, Landroidx/recyclerview/widget/AdapterListUpdateCallback;
+    -><init>(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
     new-instance p1, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
 
-    invoke-direct {p1, p2}, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;-><init>(Landroidx/recyclerview/widget/DiffUtil$ItemCallback;)V
+    invoke-direct {p1, p2}, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
+    -><init>(Landroidx/recyclerview/widget/DiffUtil$ItemCallback;)V
 
     .line 2
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->build()Landroidx/recyclerview/widget/AsyncDifferConfig;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
+    ->build()Landroidx/recyclerview/widget/AsyncDifferConfig;
 
     move-result-object p1
 
     .line 3
-    invoke-direct {p0, v0, p1}, Landroidx/recyclerview/widget/AsyncListDiffer;-><init>(Landroidx/recyclerview/widget/ListUpdateCallback;Landroidx/recyclerview/widget/AsyncDifferConfig;)V
+    invoke-direct {p0, v0, p1}, Landroidx/recyclerview/widget/AsyncListDiffer;
+    -><init>(Landroidx/recyclerview/widget/ListUpdateCallback;Landroidx/recyclerview/widget/AsyncDifferConfig;)V
     return-void
 .end method
 
@@ -217,11 +235,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mListeners:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mListeners:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -230,7 +250,8 @@
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -242,7 +263,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -254,11 +276,13 @@
 
     .line 18
     .line 19
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     .line 20
     .line 21
-    invoke-interface {v1, p1, v2}, Landroidx/recyclerview/widget/AsyncListDiffer$ListListener;->onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V
+    invoke-interface {v1, p1, v2}, Landroidx/recyclerview/widget/AsyncListDiffer$ListListener;
+    ->onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V
 
     .line 22
     .line 23
@@ -271,7 +295,8 @@
 
     .line 26
     .line 27
-    invoke-interface {p2}, Ljava/lang/Runnable;->run()V
+    invoke-interface {p2}, Ljava/lang/Runnable;
+    ->run()V
 
     .line 28
     .line 29
@@ -297,11 +322,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mListeners:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mListeners:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public getCurrentList()Ljava/util/List;
@@ -318,7 +346,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;    return-object v0
 .end method
 
 .method public latchList(Ljava/util/List;Landroidx/recyclerview/widget/DiffUtil$DiffResult;Ljava/lang/Runnable;)V
@@ -347,15 +376,18 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     .line 2
     .line 3
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mList:Ljava/util/List;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p1}, Ljava/util/Collections;
+    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 6
     .line 7
@@ -363,20 +395,24 @@
     move-result-object p1
 
     .line 9
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
+    iget-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
 
     .line 12
     .line 13
-    invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;->dispatchUpdatesTo(Landroidx/recyclerview/widget/ListUpdateCallback;)V
+    invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;
+    ->dispatchUpdatesTo(Landroidx/recyclerview/widget/ListUpdateCallback;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-direct {p0, v0, p3}, Landroidx/recyclerview/widget/AsyncListDiffer;->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
+    invoke-direct {p0, v0, p3}, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -395,11 +431,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mListeners:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mListeners:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->remove(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -420,7 +458,8 @@ return-void
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/AsyncListDiffer;->submitList(Ljava/util/List;Ljava/lang/Runnable;)V
+    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->submitList(Ljava/util/List;Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -445,88 +484,109 @@ return-void
     .end annotation
 
     .line 2
-    iget v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mMaxScheduledGeneration:I
+    iget v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mMaxScheduledGeneration:I
 
     add-int/lit8 v5, v0, 0x1
 
-    iput v5, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mMaxScheduledGeneration:I
+    iput v5, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mMaxScheduledGeneration:I
 
     .line 3
-    iget-object v3, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mList:Ljava/util/List;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mList:Ljava/util/List;
 
     if-ne p1, v3, :cond_1
 
     if-eqz p2, :cond_0
 
     .line 4
-    invoke-interface {p2}, Ljava/lang/Runnable;->run()V
+    invoke-interface {p2}, Ljava/lang/Runnable;
+    ->run()V
 
     :cond_0
     return-void
 
     .line 5
     :cond_1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     const/4 v1, 0x0
 
     if-nez p1, :cond_2
 
     .line 6
-    invoke-interface {v3}, Ljava/util/List;->size()I
+    invoke-interface {v3}, Ljava/util/List;
+    ->size()I
 
     move-result p1
 
     const/4 v2, 0x0
 
     .line 7
-    iput-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mList:Ljava/util/List;
+    iput-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mList:Ljava/util/List;
 
     .line 8
-    sget-object v2, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+    sget-object v2, Ljava/util/Collections;
+    ->EMPTY_LIST:Ljava/util/List;
 
-    iput-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iput-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     .line 9
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
 
-    invoke-interface {v2, v1, p1}, Landroidx/recyclerview/widget/ListUpdateCallback;->onRemoved(II)V
+    invoke-interface {v2, v1, p1}, Landroidx/recyclerview/widget/ListUpdateCallback;
+    ->onRemoved(II)V
 
     .line 10
-    invoke-direct {p0, v0, p2}, Landroidx/recyclerview/widget/AsyncListDiffer;->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
+    invoke-direct {p0, v0, p2}, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
 return-void
 
     :cond_2
     if-nez v3, :cond_3
 
     .line 11
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mList:Ljava/util/List;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mList:Ljava/util/List;
 
     .line 12
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p1}, Ljava/util/Collections;
+    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
 
-    iput-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mReadOnlyList:Ljava/util/List;
+    iput-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mReadOnlyList:Ljava/util/List;
 
     .line 13
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mUpdateCallback:Landroidx/recyclerview/widget/ListUpdateCallback;
 
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     move-result p1
 
-    invoke-interface {v2, v1, p1}, Landroidx/recyclerview/widget/ListUpdateCallback;->onInserted(II)V
+    invoke-interface {v2, v1, p1}, Landroidx/recyclerview/widget/ListUpdateCallback;
+    ->onInserted(II)V
 
     .line 14
-    invoke-direct {p0, v0, p2}, Landroidx/recyclerview/widget/AsyncListDiffer;->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
+    invoke-direct {p0, v0, p2}, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V
 return-void
 
     .line 15
     :cond_3
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer;
+    ->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
 
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;->getBackgroundThreadExecutor()Ljava/util/concurrent/Executor;
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;
+    ->getBackgroundThreadExecutor()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
@@ -538,9 +598,11 @@ return-void
 
     move-object v6, p2
 
-    invoke-direct/range {v1 .. v6}, Landroidx/recyclerview/widget/AsyncListDiffer$1;-><init>(Landroidx/recyclerview/widget/AsyncListDiffer;Ljava/util/List;Ljava/util/List;ILjava/lang/Runnable;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    -><init>(Landroidx/recyclerview/widget/AsyncListDiffer;Ljava/util/List;Ljava/util/List;ILjava/lang/Runnable;)V
 
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 .end method
 

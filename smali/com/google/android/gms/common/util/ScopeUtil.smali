@@ -12,7 +12,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -43,12 +44,14 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Ljava/util/Set;->size()I
+    invoke-interface {p0}, Ljava/util/Set;
+    ->size()I
 
     .line 7
     .line 8
@@ -60,7 +63,8 @@
 
     .line 11
     .line 12
-    invoke-interface {p0, v1}, Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/Set;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -72,7 +76,8 @@
 
     .line 17
     .line 18
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -99,7 +104,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v2}, Lcom/google/android/gms/common/api/Scope;->getScopeUri()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/google/android/gms/common/api/Scope;
+    ->getScopeUri()Ljava/lang/String;
 
     .line 31
     .line 32

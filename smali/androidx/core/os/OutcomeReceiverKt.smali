@@ -35,12 +35,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/os/ContinuationOutcomeReceiver;-><init>(Lg1/d;)V
+    invoke-direct {v0, p0}, Landroidx/core/os/ContinuationOutcomeReceiver;
+    -><init>(Lg1/d;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/core/app/d;->h(Ljava/lang/Object;)Landroid/os/OutcomeReceiver;
+    invoke-static {v0}, Landroidx/core/app/d;
+    ->h(Ljava/lang/Object;)Landroid/os/OutcomeReceiver;
 
     .line 7
     .line 8

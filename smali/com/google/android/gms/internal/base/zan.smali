@@ -10,7 +10,8 @@
         api = 0x21
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x21
 

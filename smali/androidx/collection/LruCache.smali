@@ -54,12 +54,14 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/collection/LruCache;->maxSize:I
+    iput p1, p0, Landroidx/collection/LruCache;
+    ->maxSize:I
 
     .line 5
     .line 6
@@ -78,12 +80,14 @@
 
     .line 12
     .line 13
-    invoke-direct {p1, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IF)V
+    invoke-direct {p1, v0, v1}, Landroidx/collection/internal/LruHashMap;
+    -><init>(IF)V
 
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iput-object p1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 17
     .line 18
@@ -91,12 +95,15 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Landroidx/collection/internal/Lock;-><init>()V
+    invoke-direct {p1}, Landroidx/collection/internal/Lock;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;    return-void
+    iput-object p1, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;    
+    return-void
 
     .line 26
     :cond_0
@@ -108,7 +115,8 @@
 
     .line 29
     .line 30
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -124,7 +132,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/LruCache;->sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/LruCache;
+    ->sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -144,12 +153,14 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
@@ -158,17 +169,20 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -180,7 +194,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -188,7 +203,8 @@
     move-result-object p1
 
     .line 36
-    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -207,7 +223,8 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -218,7 +235,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -226,7 +244,8 @@
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->createCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->createCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -256,11 +275,13 @@
 
     const-string p1, "key"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "oldValue"
 
-    invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -271,7 +292,8 @@ return-void
     const/4 v0, -0x1
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/collection/LruCache;->trimToSize(I)V
+    invoke-virtual {p0, v0}, Landroidx/collection/LruCache;
+    ->trimToSize(I)V
 return-void
 .end method
 
@@ -279,7 +301,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -287,7 +310,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->evictionCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->evictionCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -320,12 +344,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 7
     .line 8
@@ -333,11 +359,13 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 10
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/collection/internal/LruHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/collection/internal/LruHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -349,7 +377,8 @@ return-void
 
     .line 16
     .line 17
-    iget p1, p0, Landroidx/collection/LruCache;->hitCount:I
+    iget p1, p0, Landroidx/collection/LruCache;
+    ->hitCount:I
 
     .line 18
     .line 19
@@ -357,7 +386,8 @@ return-void
 
     .line 20
     .line 21
-    iput p1, p0, Landroidx/collection/LruCache;->hitCount:I
+    iput p1, p0, Landroidx/collection/LruCache;
+    ->hitCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -377,7 +407,8 @@ return-void
     .line 27
     :cond_0
     :try_start_1
-    iget v1, p0, Landroidx/collection/LruCache;->missCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->missCount:I
 
     .line 28
     .line 29
@@ -385,7 +416,8 @@ return-void
 
     .line 30
     .line 31
-    iput v1, p0, Landroidx/collection/LruCache;->missCount:I
+    iput v1, p0, Landroidx/collection/LruCache;
+    ->missCount:I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -394,7 +426,8 @@ return-void
     monitor-exit v0
 
     .line 34
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->create(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;
+    ->create(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -412,7 +445,8 @@ return-void
 
     .line 42
     :cond_1
-    iget-object v1, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 43
     .line 44
@@ -420,7 +454,8 @@ return-void
 
     .line 45
     :try_start_2
-    iget v2, p0, Landroidx/collection/LruCache;->createCount:I
+    iget v2, p0, Landroidx/collection/LruCache;
+    ->createCount:I
 
     .line 46
     .line 47
@@ -428,15 +463,18 @@ return-void
 
     .line 48
     .line 49
-    iput v2, p0, Landroidx/collection/LruCache;->createCount:I
+    iput v2, p0, Landroidx/collection/LruCache;
+    ->createCount:I
 
     .line 50
     .line 51
-    iget-object v2, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v2, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 52
     .line 53
-    invoke-virtual {v2, p1, v0}, Landroidx/collection/internal/LruHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1, v0}, Landroidx/collection/internal/LruHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -448,11 +486,13 @@ return-void
 
     .line 58
     .line 59
-    iget-object v3, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v3, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 60
     .line 61
-    invoke-virtual {v3, p1, v2}, Landroidx/collection/internal/LruHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p1, v2}, Landroidx/collection/internal/LruHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -468,11 +508,13 @@ return-void
 
     .line 67
     :cond_2
-    iget v3, p0, Landroidx/collection/LruCache;->size:I
+    iget v3, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 68
     .line 69
-    invoke-direct {p0, p1, v0}, Landroidx/collection/LruCache;->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-direct {p0, p1, v0}, Landroidx/collection/LruCache;
+    ->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 70
     .line 71
@@ -483,7 +525,8 @@ return-void
     add-int/2addr v3, v4
 
     .line 74
-    iput v3, p0, Landroidx/collection/LruCache;->size:I
+    iput v3, p0, Landroidx/collection/LruCache;
+    ->size:I
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
@@ -500,16 +543,19 @@ return-void
     const/4 v1, 0x0
 
     .line 80
-    invoke-virtual {p0, v1, p1, v0, v2}, Landroidx/collection/LruCache;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, v1, p1, v0, v2}, Landroidx/collection/LruCache;
+    ->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 return-object v2
 
     .line 84
     :cond_3
-    iget p1, p0, Landroidx/collection/LruCache;->maxSize:I
+    iget p1, p0, Landroidx/collection/LruCache;
+    ->maxSize:I
 
     .line 85
     .line 86
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;
+    ->trimToSize(I)V
 return-object v0
 
     .line 90
@@ -530,7 +576,8 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -538,7 +585,8 @@ return-object v0
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->hitCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->hitCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -562,7 +610,8 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -570,7 +619,8 @@ return-object v0
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->maxSize:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->maxSize:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -594,7 +644,8 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -602,7 +653,8 @@ return-object v0
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->missCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->missCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -635,7 +687,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -644,12 +697,14 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 12
     .line 13
@@ -657,7 +712,8 @@ return-object v0
 
     .line 14
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->putCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->putCount:I
 
     .line 15
     .line 16
@@ -665,15 +721,18 @@ return-object v0
 
     .line 17
     .line 18
-    iput v1, p0, Landroidx/collection/LruCache;->putCount:I
+    iput v1, p0, Landroidx/collection/LruCache;
+    ->putCount:I
 
     .line 19
     .line 20
-    iget v1, p0, Landroidx/collection/LruCache;->size:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 21
     .line 22
-    invoke-direct {p0, p1, p2}, Landroidx/collection/LruCache;->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-direct {p0, p1, p2}, Landroidx/collection/LruCache;
+    ->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 23
     .line 24
@@ -684,15 +743,18 @@ return-object v0
     add-int/2addr v1, v2
 
     .line 27
-    iput v1, p0, Landroidx/collection/LruCache;->size:I
+    iput v1, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 28
     .line 29
-    iget-object v1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 30
     .line 31
-    invoke-virtual {v1, p1, p2}, Landroidx/collection/internal/LruHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, p2}, Landroidx/collection/internal/LruHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -704,11 +766,13 @@ return-object v0
 
     .line 36
     .line 37
-    iget v2, p0, Landroidx/collection/LruCache;->size:I
+    iget v2, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 38
     .line 39
-    invoke-direct {p0, p1, v1}, Landroidx/collection/LruCache;->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-direct {p0, p1, v1}, Landroidx/collection/LruCache;
+    ->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 40
     .line 41
@@ -719,7 +783,8 @@ return-object v0
     sub-int/2addr v2, v3
 
     .line 44
-    iput v2, p0, Landroidx/collection/LruCache;->size:I
+    iput v2, p0, Landroidx/collection/LruCache;
+    ->size:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -747,17 +812,20 @@ return-object v0
     const/4 v0, 0x0
 
     .line 53
-    invoke-virtual {p0, v0, p1, v1, p2}, Landroidx/collection/LruCache;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, v0, p1, v1, p2}, Landroidx/collection/LruCache;
+    ->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 54
     .line 55
     .line 56
     :cond_1
-    iget p1, p0, Landroidx/collection/LruCache;->maxSize:I
+    iget p1, p0, Landroidx/collection/LruCache;
+    ->maxSize:I
 
     .line 57
     .line 58
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;
+    ->trimToSize(I)V
 return-object v1
 
     .line 62
@@ -771,7 +839,8 @@ return-object v1
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -779,7 +848,8 @@ return-object v1
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->putCount:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->putCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -812,12 +882,14 @@ return-object v1
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 7
     .line 8
@@ -825,11 +897,13 @@ return-object v1
 
     .line 9
     :try_start_0
-    iget-object v1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 10
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/collection/internal/LruHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/collection/internal/LruHashMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -841,11 +915,13 @@ return-object v1
 
     .line 16
     .line 17
-    iget v2, p0, Landroidx/collection/LruCache;->size:I
+    iget v2, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 18
     .line 19
-    invoke-direct {p0, p1, v1}, Landroidx/collection/LruCache;->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-direct {p0, p1, v1}, Landroidx/collection/LruCache;
+    ->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 20
     .line 21
@@ -856,7 +932,8 @@ return-object v1
     sub-int/2addr v2, v3
 
     .line 24
-    iput v2, p0, Landroidx/collection/LruCache;->size:I
+    iput v2, p0, Landroidx/collection/LruCache;
+    ->size:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -887,7 +964,8 @@ return-object v1
     const/4 v2, 0x0
 
     .line 34
-    invoke-virtual {p0, v0, p1, v1, v2}, Landroidx/collection/LruCache;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, v0, p1, v1, v2}, Landroidx/collection/LruCache;
+    ->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 35
     .line 36
@@ -916,7 +994,8 @@ return-object v1
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 4
     .line 5
@@ -924,7 +1003,8 @@ return-object v1
 
     .line 6
     :try_start_0
-    iput p1, p0, Landroidx/collection/LruCache;->maxSize:I
+    iput p1, p0, Landroidx/collection/LruCache;
+    ->maxSize:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -933,7 +1013,8 @@ return-object v1
     monitor-exit v0
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;
+    ->trimToSize(I)V
 return-void
 
     .line 13
@@ -956,7 +1037,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -967,7 +1049,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -975,7 +1058,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->size:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->size:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1005,11 +1089,13 @@ return-void
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "value"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -1031,12 +1117,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 7
     .line 8
@@ -1044,11 +1132,13 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v2, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v2, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 10
     .line 11
-    invoke-virtual {v2}, Landroidx/collection/internal/LruHashMap;->getEntries()Ljava/util/Set;
+    invoke-virtual {v2}, Landroidx/collection/internal/LruHashMap;
+    ->getEntries()Ljava/util/Set;
 
     .line 12
     .line 13
@@ -1056,7 +1146,8 @@ return-void
     move-result-object v2
 
     .line 15
-    invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 16
     .line 17
@@ -1065,7 +1156,8 @@ return-void
 
     .line 19
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 20
     .line 21
@@ -1077,7 +1169,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -1089,7 +1182,8 @@ return-void
 
     .line 30
     .line 31
-    invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -1097,7 +1191,8 @@ return-void
     move-result-object v4
 
     .line 35
-    invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -1105,7 +1200,8 @@ return-void
     move-result-object v3
 
     .line 39
-    invoke-interface {v0, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v4, v3}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1142,7 +1238,8 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 4
     .line 5
@@ -1150,11 +1247,13 @@ return-void
 
     .line 6
     :try_start_0
-    iget v2, p0, Landroidx/collection/LruCache;->hitCount:I
+    iget v2, p0, Landroidx/collection/LruCache;
+    ->hitCount:I
 
     .line 7
     .line 8
-    iget v3, p0, Landroidx/collection/LruCache;->missCount:I
+    iget v3, p0, Landroidx/collection/LruCache;
+    ->missCount:I
 
     .line 9
     .line 10
@@ -1191,16 +1290,19 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    iget v0, p0, Landroidx/collection/LruCache;->maxSize:I
+    iget v0, p0, Landroidx/collection/LruCache;
+    ->maxSize:I
 
     .line 26
     .line 27
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -1209,16 +1311,19 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    iget v0, p0, Landroidx/collection/LruCache;->hitCount:I
+    iget v0, p0, Landroidx/collection/LruCache;
+    ->hitCount:I
 
     .line 36
     .line 37
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
@@ -1227,16 +1332,19 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    iget v0, p0, Landroidx/collection/LruCache;->missCount:I
+    iget v0, p0, Landroidx/collection/LruCache;
+    ->missCount:I
 
     .line 46
     .line 47
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
@@ -1245,12 +1353,14 @@ return-void
 
     .line 51
     .line 52
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
@@ -1259,12 +1369,14 @@ return-void
 
     .line 59
     .line 60
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62
     .line 63
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 64
     .line 65
@@ -1290,7 +1402,8 @@ return-void
 
     .line 1
     :goto_0
-    iget-object v0, p0, Landroidx/collection/LruCache;->lock:Landroidx/collection/internal/Lock;
+    iget-object v0, p0, Landroidx/collection/LruCache;
+    ->lock:Landroidx/collection/internal/Lock;
 
     .line 2
     .line 3
@@ -1298,7 +1411,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget v1, p0, Landroidx/collection/LruCache;->size:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 5
     .line 6
@@ -1306,11 +1420,13 @@ return-void
 
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Landroidx/collection/internal/LruHashMap;->isEmpty()Z
+    invoke-virtual {v1}, Landroidx/collection/internal/LruHashMap;
+    ->isEmpty()Z
 
     .line 11
     .line 12
@@ -1322,7 +1438,8 @@ return-void
 
     .line 15
     .line 16
-    iget v1, p0, Landroidx/collection/LruCache;->size:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 17
     .line 18
@@ -1343,7 +1460,8 @@ return-void
     .line 24
     :cond_0
     :goto_1
-    iget v1, p0, Landroidx/collection/LruCache;->size:I
+    iget v1, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 25
     .line 26
@@ -1351,11 +1469,13 @@ return-void
 
     .line 27
     .line 28
-    iget-object v1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 29
     .line 30
-    invoke-virtual {v1}, Landroidx/collection/internal/LruHashMap;->isEmpty()Z
+    invoke-virtual {v1}, Landroidx/collection/internal/LruHashMap;
+    ->isEmpty()Z
 
     .line 31
     .line 32
@@ -1371,11 +1491,13 @@ return-void
 
     .line 37
     :cond_1
-    iget-object v1, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v1, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 38
     .line 39
-    invoke-virtual {v1}, Landroidx/collection/internal/LruHashMap;->getEntries()Ljava/util/Set;
+    invoke-virtual {v1}, Landroidx/collection/internal/LruHashMap;
+    ->getEntries()Ljava/util/Set;
 
     .line 40
     .line 41
@@ -1387,7 +1509,8 @@ return-void
 
     .line 44
     .line 45
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -1407,7 +1530,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 56
     .line 57
@@ -1430,7 +1554,8 @@ return-void
     const/4 v2, 0x0
 
     .line 64
-    invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1442,7 +1567,8 @@ return-void
 
     .line 69
     :cond_3
-    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 70
     .line 71
@@ -1450,7 +1576,8 @@ return-void
     move-result-object v1
 
     .line 73
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 74
     .line 75
@@ -1466,7 +1593,8 @@ return-void
 
     .line 80
     :cond_4
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -1492,7 +1620,8 @@ return-void
     .line 90
     :cond_5
     :try_start_1
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -1500,7 +1629,8 @@ return-void
     move-result-object v2
 
     .line 94
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -1508,20 +1638,24 @@ return-void
     move-result-object v1
 
     .line 98
-    iget-object v4, p0, Landroidx/collection/LruCache;->map:Landroidx/collection/internal/LruHashMap;
+    iget-object v4, p0, Landroidx/collection/LruCache;
+    ->map:Landroidx/collection/internal/LruHashMap;
 
     .line 99
     .line 100
-    invoke-virtual {v4, v2}, Landroidx/collection/internal/LruHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v2}, Landroidx/collection/internal/LruHashMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 101
     .line 102
     .line 103
-    iget v4, p0, Landroidx/collection/LruCache;->size:I
+    iget v4, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 104
     .line 105
-    invoke-direct {p0, v2, v1}, Landroidx/collection/LruCache;->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-direct {p0, v2, v1}, Landroidx/collection/LruCache;
+    ->safeSizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 106
     .line 107
@@ -1532,11 +1666,13 @@ return-void
     sub-int/2addr v4, v5
 
     .line 110
-    iput v4, p0, Landroidx/collection/LruCache;->size:I
+    iput v4, p0, Landroidx/collection/LruCache;
+    ->size:I
 
     .line 111
     .line 112
-    iget v4, p0, Landroidx/collection/LruCache;->evictionCount:I
+    iget v4, p0, Landroidx/collection/LruCache;
+    ->evictionCount:I
 
     .line 113
     .line 114
@@ -1546,7 +1682,8 @@ return-void
     add-int/2addr v4, v5
 
     .line 116
-    iput v4, p0, Landroidx/collection/LruCache;->evictionCount:I
+    iput v4, p0, Landroidx/collection/LruCache;
+    ->evictionCount:I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1555,7 +1692,8 @@ return-void
     monitor-exit v0
 
     .line 119
-    invoke-virtual {p0, v5, v2, v1, v3}, Landroidx/collection/LruCache;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, v5, v2, v1, v3}, Landroidx/collection/LruCache;
+    ->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 120
     .line 121
@@ -1580,7 +1718,8 @@ return-void
 
     .line 128
     .line 129
-    invoke-direct {v1, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 130
     .line 131

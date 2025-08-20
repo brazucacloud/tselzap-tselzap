@@ -19,9 +19,11 @@
 
     new-instance v0, Landroidx/window/layout/ActivityCompatHelperApi24;
 
-    invoke-direct {v0}, Landroidx/window/layout/ActivityCompatHelperApi24;-><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/ActivityCompatHelperApi24;
+    -><init>()V
 
-    sput-object v0, Landroidx/window/layout/ActivityCompatHelperApi24;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
+    sput-object v0, Landroidx/window/layout/ActivityCompatHelperApi24;
+    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,12 +51,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/core/os/a;->A(Landroid/app/Activity;)Z
+    invoke-static {p1}, Landroidx/core/os/a;
+    ->A(Landroid/app/Activity;)Z
 
     .line 7
     .line 8

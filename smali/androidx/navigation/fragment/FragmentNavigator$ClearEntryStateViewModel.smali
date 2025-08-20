@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/ViewModel;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ViewModel;
+    -><init>()V
     return-void
 .end method
 
@@ -49,7 +50,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;->completeTransition:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
+    ->completeTransition:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
@@ -61,7 +63,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->l(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->l(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -75,12 +78,14 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/lifecycle/ViewModel;->onCleared()V
+    invoke-super {p0}, Landroidx/lifecycle/ViewModel;
+    ->onCleared()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;->getCompleteTransition()Ljava/lang/ref/WeakReference;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
+    ->getCompleteTransition()Ljava/lang/ref/WeakReference;
 
     .line 5
     .line 6
@@ -88,7 +93,8 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -104,7 +110,8 @@
 
     .line 15
     .line 16
-    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -129,12 +136,15 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;->completeTransition:Ljava/lang/ref/WeakReference;    return-void
+    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
+    ->completeTransition:Ljava/lang/ref/WeakReference;    
+    return-void
 .end method
 
 .end class

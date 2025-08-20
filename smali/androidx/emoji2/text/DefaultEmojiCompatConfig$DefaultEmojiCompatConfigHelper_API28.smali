@@ -10,7 +10,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -29,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API19;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API19;
+    -><init>()V
 
     .line 2
     .line 3
@@ -57,7 +59,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p1, p2, v0}, Landroid/content/pm/PackageManager;
+    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 4
     .line 5
@@ -65,7 +68,8 @@
     move-result-object p1
 
     .line 7
-    iget-object p1, p1, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
+    iget-object p1, p1, Landroid/content/pm/PackageInfo;
+    ->signatures:[Landroid/content/pm/Signature;
 
     .line 8
     .line 9

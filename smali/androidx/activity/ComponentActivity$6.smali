@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
+    value = Landroidx/activity/ComponentActivity;
+    ->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ComponentActivity$6;->this$0:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$6;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -48,7 +51,8 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
@@ -56,7 +60,8 @@
 
     .line 4
     .line 5
-    sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -68,11 +73,13 @@
 
     .line 10
     .line 11
-    iget-object p2, p0, Landroidx/activity/ComponentActivity$6;->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p2, p0, Landroidx/activity/ComponentActivity$6;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 12
     .line 13
-    invoke-static {p2}, Landroidx/activity/ComponentActivity;->access$100(Landroidx/activity/ComponentActivity;)Landroidx/activity/OnBackPressedDispatcher;
+    invoke-static {p2}, Landroidx/activity/ComponentActivity;
+    ->access$100(Landroidx/activity/ComponentActivity;)Landroidx/activity/OnBackPressedDispatcher;
 
     .line 14
     .line 15
@@ -84,7 +91,8 @@
 
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/activity/ComponentActivity$Api33Impl;->getOnBackInvokedDispatcher(Landroid/app/Activity;)Landroid/window/OnBackInvokedDispatcher;
+    invoke-static {p1}, Landroidx/activity/ComponentActivity$Api33Impl;
+    ->getOnBackInvokedDispatcher(Landroid/app/Activity;)Landroid/window/OnBackInvokedDispatcher;
 
     .line 20
     .line 21
@@ -92,7 +100,8 @@
     move-result-object p1
 
     .line 23
-    invoke-virtual {p2, p1}, Landroidx/activity/OnBackPressedDispatcher;->setOnBackInvokedDispatcher(Landroid/window/OnBackInvokedDispatcher;)V
+    invoke-virtual {p2, p1}, Landroidx/activity/OnBackPressedDispatcher;
+    ->setOnBackInvokedDispatcher(Landroid/window/OnBackInvokedDispatcher;)V
 
     .line 24
     .line 25

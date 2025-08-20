@@ -18,7 +18,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -30,7 +31,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
@@ -39,7 +41,8 @@
 
     .line 7
     :goto_0
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 8
     .line 9
@@ -51,7 +54,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 14
     .line 15
@@ -59,7 +63,8 @@
     move-result v2
 
     .line 17
-    invoke-static {v2}, Ljava/lang/Character;->isUpperCase(C)Z
+    invoke-static {v2}, Ljava/lang/Character;
+    ->isUpperCase(C)Z
 
     .line 18
     .line 19
@@ -75,13 +80,15 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
     :cond_0
-    invoke-static {v2}, Ljava/lang/Character;->toLowerCase(C)C
+    invoke-static {v2}, Ljava/lang/Character;
+    ->toLowerCase(C)C
 
     .line 29
     .line 30
@@ -89,7 +96,8 @@
     move-result v2
 
     .line 32
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -102,7 +110,8 @@
 
     .line 38
     :cond_1
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -131,7 +140,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 9
     .line 10
@@ -160,7 +170,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 22
     .line 23
@@ -188,7 +199,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p0}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 36
     .line 37
@@ -223,7 +235,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {p0}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {p0}, Ljava/lang/Double;
+    ->doubleValue()D
 
     .line 53
     .line 54
@@ -259,7 +272,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 71
     .line 72
@@ -278,11 +292,13 @@
 
     .line 78
     .line 79
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteString;->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteString;
+    ->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 80
     .line 81
-    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 82
     .line 83
@@ -308,7 +324,8 @@
 
     .line 92
     .line 93
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/MessageLiteOrBuilder;->getDefaultInstanceForType()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/MessageLiteOrBuilder;
+    ->getDefaultInstanceForType()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 94
     .line 95
@@ -336,7 +353,8 @@
 
     .line 106
     .line 107
-    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p0}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 108
     .line 109
@@ -367,7 +385,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -376,7 +395,8 @@
 
     .line 11
     :goto_0
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 12
     .line 13
@@ -388,7 +408,8 @@
 
     .line 16
     .line 17
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -396,7 +417,8 @@
     move-result-object v0
 
     .line 21
-    invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 22
     .line 23
@@ -417,7 +439,8 @@
 
     .line 30
     .line 31
-    invoke-interface {p3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 32
     .line 33
@@ -425,7 +448,8 @@
     move-result-object p3
 
     .line 35
-    invoke-interface {p3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 36
     .line 37
@@ -434,7 +458,8 @@
 
     .line 39
     :goto_1
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 40
     .line 41
@@ -446,7 +471,8 @@
 
     .line 44
     .line 45
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -458,7 +484,8 @@
 
     .line 50
     .line 51
-    invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 52
     .line 53
@@ -475,7 +502,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
@@ -495,7 +523,8 @@
 
     .line 66
     .line 67
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
@@ -508,7 +537,8 @@
 
     .line 73
     :cond_3
-    invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
@@ -529,7 +559,8 @@
 
     .line 83
     .line 84
-    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 85
     .line 86
@@ -538,7 +569,8 @@
 
     .line 88
     .line 89
-    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/TextFormatEscaper;->escapeText(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/TextFormatEscaper;
+    ->escapeText(Ljava/lang/String;)Ljava/lang/String;
 
     .line 90
     .line 91
@@ -546,12 +578,15 @@
     move-result-object p1
 
     .line 93
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 94
     .line 95
     .line 96
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;    return-void
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;    
+    return-void
 
     .line 100
     :cond_4
@@ -563,7 +598,8 @@
 
     .line 103
     .line 104
-    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
@@ -572,7 +608,8 @@
 
     .line 108
     .line 109
-    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/TextFormatEscaper;->escapeBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Ljava/lang/String;
+    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/TextFormatEscaper;
+    ->escapeBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Ljava/lang/String;
 
     .line 110
     .line 111
@@ -580,12 +617,15 @@
     move-result-object p1
 
     .line 113
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 114
     .line 115
     .line 116
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;    return-void
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;    
+    return-void
 
     .line 120
     :cond_5
@@ -609,7 +649,8 @@
 
     .line 129
     .line 130
-    invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 131
     .line 132
@@ -622,12 +663,14 @@
 
     .line 136
     .line 137
-    invoke-static {p3, p0, p2}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->reflectivePrintWithIndent(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/StringBuilder;I)V
+    invoke-static {p3, p0, p2}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->reflectivePrintWithIndent(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/StringBuilder;I)V
 
     .line 138
     .line 139
     .line 140
-    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 141
     .line 142
@@ -637,7 +680,8 @@
 
     .line 144
     .line 145
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 146
     .line 147
@@ -650,7 +694,9 @@
 
     .line 151
     :cond_6
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    return-void
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    
+    return-void
 
     .line 155
     :cond_7
@@ -662,7 +708,8 @@
 
     .line 158
     .line 159
-    invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 160
     .line 161
@@ -675,7 +722,8 @@
 
     .line 165
     .line 166
-    invoke-interface {p3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 167
     .line 168
@@ -687,7 +735,8 @@
 
     .line 171
     .line 172
-    invoke-static {p0, p2, v5, v4}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p2, v5, v4}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 173
     .line 174
@@ -696,7 +745,8 @@
 
     .line 176
     .line 177
-    invoke-interface {p3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 178
     .line 179
@@ -704,12 +754,14 @@
     move-result-object p3
 
     .line 181
-    invoke-static {p0, p2, v4, p3}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p2, v4, p3}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 182
     .line 183
     .line 184
-    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 185
     .line 186
@@ -719,7 +771,8 @@
 
     .line 188
     .line 189
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 190
     .line 191
@@ -732,7 +785,9 @@
 
     .line 195
     :cond_8
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    return-void
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    
+    return-void
 
     .line 199
     :cond_9
@@ -740,12 +795,14 @@
 
     .line 200
     .line 201
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 202
     .line 203
     .line 204
-    invoke-virtual {p3}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 205
     .line 206
@@ -753,7 +810,9 @@
     move-result-object p1
 
     .line 208
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    return-void
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;    
+    return-void
 .end method
 
 .method private static reflectivePrintWithIndent(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/StringBuilder;I)V
@@ -764,7 +823,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 4
     .line 5
@@ -773,7 +833,8 @@
 
     .line 7
     .line 8
-    invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v1}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 9
     .line 10
@@ -782,12 +843,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v2}, Ljava/util/TreeSet;-><init>()V
+    invoke-direct {v2}, Ljava/util/TreeSet;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -795,7 +858,8 @@
     move-result-object v3
 
     .line 20
-    invoke-virtual {v3}, Ljava/lang/Class;->getDeclaredMethods()[Ljava/lang/reflect/Method;
+    invoke-virtual {v3}, Ljava/lang/Class;
+    ->getDeclaredMethods()[Ljava/lang/reflect/Method;
 
     .line 21
     .line 22
@@ -825,7 +889,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v8}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -833,12 +898,14 @@
     move-result-object v9
 
     .line 37
-    invoke-virtual {v1, v9, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v9, v8}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v8}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
+    invoke-virtual {v8}, Ljava/lang/reflect/Method;
+    ->getParameterTypes()[Ljava/lang/Class;
 
     .line 41
     .line 42
@@ -853,7 +920,8 @@
 
     .line 46
     .line 47
-    invoke-virtual {v8}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 48
     .line 49
@@ -861,12 +929,14 @@
     move-result-object v9
 
     .line 51
-    invoke-virtual {v0, v9, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v9, v8}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v8}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -874,7 +944,8 @@
     move-result-object v9
 
     .line 58
-    invoke-virtual {v9, v7}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v9, v7}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     .line 59
     .line 60
@@ -886,7 +957,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {v8}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 65
     .line 66
@@ -894,7 +966,8 @@
     move-result-object v7
 
     .line 68
-    invoke-virtual {v2, v7}, Ljava/util/TreeSet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v7}, Ljava/util/TreeSet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 69
     .line 70
@@ -908,7 +981,8 @@
 
     .line 74
     :cond_1
-    invoke-virtual {v2}, Ljava/util/TreeSet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/TreeSet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 75
     .line 76
@@ -918,7 +992,8 @@
     .line 78
     :cond_2
     :goto_1
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 79
     .line 80
@@ -930,7 +1005,8 @@
 
     .line 83
     .line 84
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -946,7 +1022,8 @@
 
     .line 91
     .line 92
-    invoke-virtual {v3, v7, v4}, Ljava/lang/String;->replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v7, v4}, Ljava/lang/String;
+    ->replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 93
     .line 94
@@ -958,7 +1035,8 @@
 
     .line 97
     .line 98
-    invoke-virtual {v4, v6}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v4, v6}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     .line 99
     .line 100
@@ -977,7 +1055,8 @@
 
     .line 106
     .line 107
-    invoke-virtual {v4, v8}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v4, v8}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     .line 108
     .line 109
@@ -989,7 +1068,8 @@
 
     .line 112
     .line 113
-    invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v6}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 114
     .line 115
@@ -1005,12 +1085,14 @@
 
     .line 120
     .line 121
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v6}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v4, v5, v9}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v4, v5, v9}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 125
     .line 126
@@ -1018,7 +1100,8 @@
     move-result-object v8
 
     .line 128
-    invoke-virtual {v8}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/String;
+    ->toLowerCase()Ljava/lang/String;
 
     .line 129
     .line 130
@@ -1026,12 +1109,14 @@
     move-result-object v8
 
     .line 132
-    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 133
     .line 134
     .line 135
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
+    invoke-virtual {v4}, Ljava/lang/String;
+    ->length()I
 
     .line 136
     .line 137
@@ -1043,7 +1128,8 @@
 
     .line 140
     .line 141
-    invoke-virtual {v4, v9, v8}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v4, v9, v8}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 142
     .line 143
@@ -1051,12 +1137,14 @@
     move-result-object v8
 
     .line 145
-    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 146
     .line 147
     .line 148
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 149
     .line 150
@@ -1064,7 +1152,8 @@
     move-result-object v6
 
     .line 152
-    invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v3}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 153
     .line 154
@@ -1080,7 +1169,8 @@
 
     .line 159
     .line 160
-    invoke-virtual {v8}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v8}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     .line 161
     .line 162
@@ -1092,7 +1182,8 @@
 
     .line 165
     .line 166
-    invoke-virtual {v10, v11}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v10, v11}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 167
     .line 168
@@ -1104,7 +1195,8 @@
 
     .line 171
     .line 172
-    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->camelCaseToSnakeCase(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->camelCaseToSnakeCase(Ljava/lang/String;)Ljava/lang/String;
 
     .line 173
     .line 174
@@ -1116,7 +1208,8 @@
 
     .line 177
     .line 178
-    invoke-static {v8, p0, v4}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v8, p0, v4}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 179
     .line 180
@@ -1124,7 +1217,8 @@
     move-result-object v4
 
     .line 182
-    invoke-static {p1, p2, v3, v4}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p1, p2, v3, v4}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 183
     .line 184
@@ -1137,7 +1231,8 @@
 
     .line 187
     .line 188
-    invoke-virtual {v4, v6}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v4, v6}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     .line 189
     .line 190
@@ -1149,7 +1244,8 @@
 
     .line 193
     .line 194
-    invoke-virtual {v4, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v6}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 195
     .line 196
@@ -1165,12 +1261,14 @@
 
     .line 201
     .line 202
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v6}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 203
     .line 204
     .line 205
-    invoke-virtual {v4, v5, v9}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v4, v5, v9}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 206
     .line 207
@@ -1178,7 +1276,8 @@
     move-result-object v8
 
     .line 209
-    invoke-virtual {v8}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/String;
+    ->toLowerCase()Ljava/lang/String;
 
     .line 210
     .line 211
@@ -1186,12 +1285,14 @@
     move-result-object v8
 
     .line 213
-    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 214
     .line 215
     .line 216
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
+    invoke-virtual {v4}, Ljava/lang/String;
+    ->length()I
 
     .line 217
     .line 218
@@ -1203,7 +1304,8 @@
 
     .line 221
     .line 222
-    invoke-virtual {v4, v9, v8}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v4, v9, v8}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 223
     .line 224
@@ -1211,12 +1313,14 @@
     move-result-object v8
 
     .line 226
-    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 227
     .line 228
     .line 229
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 230
     .line 231
@@ -1224,7 +1328,8 @@
     move-result-object v6
 
     .line 233
-    invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v3}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 234
     .line 235
@@ -1240,7 +1345,8 @@
 
     .line 240
     .line 241
-    invoke-virtual {v3}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     .line 242
     .line 243
@@ -1252,7 +1358,8 @@
 
     .line 246
     .line 247
-    invoke-virtual {v8, v10}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v8, v10}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 248
     .line 249
@@ -1268,7 +1375,8 @@
 
     .line 254
     .line 255
-    invoke-virtual {v3, v8}, Ljava/lang/reflect/AccessibleObject;->isAnnotationPresent(Ljava/lang/Class;)Z
+    invoke-virtual {v3, v8}, Ljava/lang/reflect/AccessibleObject;
+    ->isAnnotationPresent(Ljava/lang/Class;)Z
 
     .line 256
     .line 257
@@ -1280,7 +1388,8 @@
 
     .line 260
     .line 261
-    invoke-virtual {v3}, Ljava/lang/reflect/Method;->getModifiers()I
+    invoke-virtual {v3}, Ljava/lang/reflect/Method;
+    ->getModifiers()I
 
     .line 262
     .line 263
@@ -1288,7 +1397,8 @@
     move-result v8
 
     .line 265
-    invoke-static {v8}, Ljava/lang/reflect/Modifier;->isPublic(I)Z
+    invoke-static {v8}, Ljava/lang/reflect/Modifier;
+    ->isPublic(I)Z
 
     .line 266
     .line 267
@@ -1300,7 +1410,8 @@
 
     .line 270
     .line 271
-    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->camelCaseToSnakeCase(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->camelCaseToSnakeCase(Ljava/lang/String;)Ljava/lang/String;
 
     .line 272
     .line 273
@@ -1312,7 +1423,8 @@
 
     .line 276
     .line 277
-    invoke-static {v3, p0, v6}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v3, p0, v6}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 278
     .line 279
@@ -1320,7 +1432,8 @@
     move-result-object v3
 
     .line 281
-    invoke-static {p1, p2, v4, v3}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p1, p2, v4, v3}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 282
     .line 283
@@ -1334,7 +1447,8 @@
 
     .line 287
     .line 288
-    invoke-virtual {v3, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 289
     .line 290
@@ -1342,7 +1456,8 @@
     move-result-object v3
 
     .line 292
-    invoke-virtual {v1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 293
     .line 294
@@ -1367,7 +1482,8 @@
 
     .line 303
     .line 304
-    invoke-virtual {v4, v3}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v4, v3}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     .line 305
     .line 306
@@ -1383,12 +1499,14 @@
 
     .line 311
     .line 312
-    invoke-direct {v3, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v7}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 313
     .line 314
     .line 315
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
+    invoke-virtual {v4}, Ljava/lang/String;
+    ->length()I
 
     .line 316
     .line 317
@@ -1400,7 +1518,8 @@
 
     .line 320
     .line 321
-    invoke-virtual {v4, v5, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v4, v5, v6}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 322
     .line 323
@@ -1408,12 +1527,14 @@
     move-result-object v6
 
     .line 325
-    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 326
     .line 327
     .line 328
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 329
     .line 330
@@ -1421,7 +1542,8 @@
     move-result-object v3
 
     .line 332
-    invoke-virtual {v0, v3}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/util/HashMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 333
     .line 334
@@ -1442,12 +1564,14 @@
 
     .line 341
     .line 342
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 343
     .line 344
     .line 345
-    invoke-virtual {v4, v5, v9}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v4, v5, v9}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 346
     .line 347
@@ -1455,7 +1579,8 @@
     move-result-object v6
 
     .line 349
-    invoke-virtual {v6}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/String;
+    ->toLowerCase()Ljava/lang/String;
 
     .line 350
     .line 351
@@ -1463,12 +1588,14 @@
     move-result-object v6
 
     .line 353
-    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 354
     .line 355
     .line 356
-    invoke-virtual {v4, v9}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v4, v9}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     .line 357
     .line 358
@@ -1476,12 +1603,14 @@
     move-result-object v6
 
     .line 360
-    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 361
     .line 362
     .line 363
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 364
     .line 365
@@ -1489,7 +1618,8 @@
     move-result-object v3
 
     .line 367
-    invoke-virtual {v7, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v7, v4}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 368
     .line 369
@@ -1497,7 +1627,8 @@
     move-result-object v6
 
     .line 371
-    invoke-virtual {v0, v6}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v6}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 372
     .line 373
@@ -1513,7 +1644,8 @@
 
     .line 378
     .line 379
-    invoke-virtual {v8, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v8, v4}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 380
     .line 381
@@ -1521,7 +1653,8 @@
     move-result-object v4
 
     .line 383
-    invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 384
     .line 385
@@ -1541,7 +1674,8 @@
 
     .line 392
     .line 393
-    invoke-static {v6, p0, v8}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v6, p0, v8}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 394
     .line 395
@@ -1553,7 +1687,8 @@
 
     .line 398
     .line 399
-    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->isDefaultValue(Ljava/lang/Object;)Z
+    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->isDefaultValue(Ljava/lang/Object;)Z
 
     .line 400
     .line 401
@@ -1580,7 +1715,8 @@
 
     .line 409
     .line 410
-    invoke-static {v4, p0, v8}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v4, p0, v8}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 411
     .line 412
@@ -1592,7 +1728,8 @@
 
     .line 415
     .line 416
-    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v4}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 417
     .line 418
@@ -1605,7 +1742,8 @@
 
     .line 421
     .line 422
-    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->camelCaseToSnakeCase(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->camelCaseToSnakeCase(Ljava/lang/String;)Ljava/lang/String;
 
     .line 423
     .line 424
@@ -1613,7 +1751,8 @@
     move-result-object v3
 
     .line 426
-    invoke-static {p1, p2, v3, v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p1, p2, v3, v6}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 427
     .line 428
@@ -1638,11 +1777,13 @@
 
     .line 437
     .line 438
-    iget-object v0, v0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage;->extensions:Landroidx/datastore/preferences/protobuf/FieldSet;
+    iget-object v0, v0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage;
+    ->extensions:Landroidx/datastore/preferences/protobuf/FieldSet;
 
     .line 439
     .line 440
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/FieldSet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 441
     .line 442
@@ -1651,7 +1792,8 @@
 
     .line 444
     :goto_3
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 445
     .line 446
@@ -1663,7 +1805,8 @@
 
     .line 449
     .line 450
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 451
     .line 452
@@ -1683,12 +1826,14 @@
 
     .line 459
     .line 460
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 461
     .line 462
     .line 463
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 464
     .line 465
@@ -1700,7 +1845,8 @@
 
     .line 468
     .line 469
-    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->getNumber()I
+    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->getNumber()I
 
     .line 470
     .line 471
@@ -1712,7 +1858,8 @@
 
     .line 474
     .line 475
-    invoke-static {v2, v4, v3}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v4, v3}, LA/d;
+    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 476
     .line 477
@@ -1720,7 +1867,8 @@
     move-result-object v2
 
     .line 479
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 480
     .line 481
@@ -1728,7 +1876,8 @@
     move-result-object v1
 
     .line 483
-    invoke-static {p1, p2, v2, v1}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p1, p2, v2, v1}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->printField(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 484
     .line 485
@@ -1741,7 +1890,8 @@
 
     .line 488
     .line 489
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->unknownFields:Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->unknownFields:Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     .line 490
     .line 491
@@ -1749,7 +1899,8 @@
 
     .line 492
     .line 493
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->printWithIndent(Ljava/lang/StringBuilder;I)V
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
+    ->printWithIndent(Ljava/lang/StringBuilder;I)V
 
     .line 494
     .line 495
@@ -1766,7 +1917,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1}, LA/d;
+    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
     .line 5
@@ -1777,12 +1929,14 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-static {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;->reflectivePrintWithIndent(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/StringBuilder;I)V
+    invoke-static {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/MessageLiteToString;
+    ->reflectivePrintWithIndent(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/StringBuilder;I)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 12
     .line 13

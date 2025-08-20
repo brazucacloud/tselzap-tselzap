@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewCompat;->paneTitleProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    value = Landroidx/core/view/ViewCompat;
+    ->paneTitleProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;-><init>(ILjava/lang/Class;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    -><init>(ILjava/lang/Class;II)V
 
     .line 2
     .line 3
@@ -44,7 +46,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p1}, Landroidx/core/view/ViewCompat$Api28Impl;->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Landroidx/core/view/ViewCompat$Api28Impl;
+    ->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -58,7 +61,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/core/view/ViewCompat$2;->frameworkGet(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Landroidx/core/view/ViewCompat$2;
+    ->frameworkGet(Landroid/view/View;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -72,7 +76,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat$Api28Impl;->setAccessibilityPaneTitle(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat$Api28Impl;
+    ->setAccessibilityPaneTitle(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -86,7 +91,8 @@
     .line 1
     check-cast p2, Ljava/lang/CharSequence;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$2;->frameworkSet(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$2;
+    ->frameworkSet(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -95,7 +101,8 @@
     .locals 0
 
     .line 2
-    invoke-static {p1, p2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {p1, p2}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result p1
 
@@ -112,7 +119,8 @@
 
     check-cast p2, Ljava/lang/CharSequence;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$2;->shouldUpdate(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$2;
+    ->shouldUpdate(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result p1
 

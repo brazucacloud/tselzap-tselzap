@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->getPlatformCallback()Landroid/graphics/drawable/Animatable2$AnimationCallback;
+    value = Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    ->getPlatformCallback()Landroid/graphics/drawable/Animatable2$AnimationCallback;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +24,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;->this$0:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/graphics/drawable/Animatable2$AnimationCallback;-><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Animatable2$AnimationCallback;
+    -><init>()V
     return-void
 .end method
 
@@ -37,11 +40,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;->this$0:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->onAnimationEnd(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    ->onAnimationEnd(Landroid/graphics/drawable/Drawable;)V
 return-void
 .end method
 
@@ -49,11 +54,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;->this$0:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->onAnimationStart(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    ->onAnimationStart(Landroid/graphics/drawable/Drawable;)V
 return-void
 .end method
 

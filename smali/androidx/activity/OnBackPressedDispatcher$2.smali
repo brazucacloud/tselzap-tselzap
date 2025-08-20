@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;Landroidx/core/util/Consumer;)V
+    value = Landroidx/activity/OnBackPressedDispatcher;
+    -><init>(Ljava/lang/Runnable;Landroidx/core/util/Consumer;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$2;->this$0:Landroidx/activity/OnBackPressedDispatcher;
+    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$2;
+    ->this$0:Landroidx/activity/OnBackPressedDispatcher;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -48,9 +51,11 @@ return-void
     .line 1
     check-cast p1, Landroidx/activity/BackEventCompat;
 
-    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedDispatcher$2;->invoke(Landroidx/activity/BackEventCompat;)V
+    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedDispatcher$2;
+    ->invoke(Landroidx/activity/BackEventCompat;)V
 
-    sget-object p1, Lc1/v;->a:Lc1/v;
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;
 
     return-object p1
 .end method
@@ -60,12 +65,15 @@ return-void
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$2;->this$0:Landroidx/activity/OnBackPressedDispatcher;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$2;
+    ->this$0:Landroidx/activity/OnBackPressedDispatcher;
 
-    invoke-static {v0, p1}, Landroidx/activity/OnBackPressedDispatcher;->access$onBackProgressed(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/BackEventCompat;)V
+    invoke-static {v0, p1}, Landroidx/activity/OnBackPressedDispatcher;
+    ->access$onBackProgressed(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/BackEventCompat;)V
 return-void
 .end method
 

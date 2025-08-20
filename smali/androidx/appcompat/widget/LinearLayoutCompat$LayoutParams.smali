@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+    invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(II)V
 return-void
 .end method
 
@@ -27,7 +28,8 @@ return-void
     .locals 0
 
     .line 3
-    invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(IIF)V
+    invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(IIF)V
 return-void
 .end method
 
@@ -35,7 +37,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -43,7 +46,8 @@ return-void
     .locals 0
 
     .line 4
-    invoke-direct {p0, p1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-direct {p0, p1}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 .end method
@@ -52,7 +56,8 @@ return-void
     .locals 0
 
     .line 5
-    invoke-direct {p0, p1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
+    invoke-direct {p0, p1}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
 
     return-void
 .end method

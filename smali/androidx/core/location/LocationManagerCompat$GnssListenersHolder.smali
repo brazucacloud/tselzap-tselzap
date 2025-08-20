@@ -55,12 +55,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
+    sput-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
 
     .line 7
     .line 8
@@ -68,12 +70,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
+    sput-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
 
     .line 14
     .line 15
@@ -84,7 +88,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3

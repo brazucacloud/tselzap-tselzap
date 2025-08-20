@@ -24,18 +24,22 @@
 
     const-string v0, "basePath"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "typeMap"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "deepLinkBuilder"
 
-    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -46,7 +50,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -69,28 +74,35 @@
 
     const-string v0, "basePath"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "route"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "deepLinkBuilder"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/navigation/NavDeepLinkDslBuilder;
 
-    invoke-direct {v0, p0, p1, p2}, Landroidx/navigation/NavDeepLinkDslBuilder;-><init>(Ljava/lang/String;Lv1/c;Ljava/util/Map;)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/navigation/NavDeepLinkDslBuilder;
+    -><init>(Ljava/lang/String;Lv1/c;Ljava/util/Map;)V
 
-    invoke-interface {p3, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavDeepLinkDslBuilder;->build$navigation_common_release()Landroidx/navigation/NavDeepLink;
+    invoke-virtual {v0}, Landroidx/navigation/NavDeepLinkDslBuilder;
+    ->build$navigation_common_release()Landroidx/navigation/NavDeepLink;
 
     move-result-object p0
 
@@ -110,16 +122,20 @@
 
     const-string v0, "deepLinkBuilder"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/navigation/NavDeepLinkDslBuilder;
 
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLinkDslBuilder;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLinkDslBuilder;
+    -><init>()V
 
-    invoke-interface {p0, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavDeepLinkDslBuilder;->build$navigation_common_release()Landroidx/navigation/NavDeepLink;
+    invoke-virtual {v0}, Landroidx/navigation/NavDeepLinkDslBuilder;
+    ->build$navigation_common_release()Landroidx/navigation/NavDeepLink;
 
     move-result-object p0
 
@@ -138,7 +154,8 @@
 
     .line 4
     .line 5
-    sget-object p1, Ld1/u;->b:Ld1/u;
+    sget-object p1, Ld1/u;
+    ->b:Ld1/u;
 
     .line 6
     .line 7
@@ -151,7 +168,8 @@
 
     .line 10
     .line 11
-    sget-object p2, Landroidx/navigation/NavDeepLinkDslBuilderKt$navDeepLink$1;->INSTANCE:Landroidx/navigation/NavDeepLinkDslBuilderKt$navDeepLink$1;
+    sget-object p2, Landroidx/navigation/NavDeepLinkDslBuilderKt$navDeepLink$1;
+    ->INSTANCE:Landroidx/navigation/NavDeepLinkDslBuilderKt$navDeepLink$1;
 
     .line 12
     .line 13
@@ -160,7 +178,8 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -169,7 +188,8 @@
 
     .line 19
     .line 20
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -178,12 +198,14 @@
 
     .line 24
     .line 25
-    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     .line 29
     .line 30

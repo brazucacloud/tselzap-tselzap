@@ -16,12 +16,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -29,12 +31,14 @@
     move-result-object v1
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -42,7 +46,8 @@
     move-result-object v0
 
     .line 19
-    invoke-direct {p0, v0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, v0, p1}, Ljava/lang/Exception;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 20
     .line 21

@@ -27,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;
+    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -39,7 +40,8 @@ return-void
     .line 2
     check-cast p1, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;
 
-    invoke-virtual {p0, p1}, Landroidx/transition/ChangeTransform$1;->get(Landroidx/transition/ChangeTransform$PathAnimatorMatrix;)[F
+    invoke-virtual {p0, p1}, Landroidx/transition/ChangeTransform$1;
+    ->get(Landroidx/transition/ChangeTransform$PathAnimatorMatrix;)[F
 
     move-result-object p1
 
@@ -59,7 +61,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p1, p2}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setValues([F)V
+    invoke-virtual {p1, p2}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;
+    ->setValues([F)V
 
     return-void
 .end method
@@ -72,7 +75,8 @@ return-void
 
     check-cast p2, [F
 
-    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeTransform$1;->set(Landroidx/transition/ChangeTransform$PathAnimatorMatrix;[F)V
+    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeTransform$1;
+    ->set(Landroidx/transition/ChangeTransform$PathAnimatorMatrix;[F)V
 return-void
 .end method
 

@@ -43,7 +43,8 @@
 
     .line 3
     .line 4
-    sput-object v1, Lt0/a;->i:[I
+    sput-object v1, Lt0/a;
+    ->i:[I
 
     .line 5
     .line 6
@@ -56,7 +57,8 @@
     .line 9
     .line 10
     .line 11
-    sput-object v0, Lt0/a;->j:[F
+    sput-object v0, Lt0/a;
+    ->j:[F
 
     .line 12
     .line 13
@@ -67,7 +69,8 @@
 
     .line 15
     .line 16
-    sput-object v1, Lt0/a;->k:[I
+    sput-object v1, Lt0/a;
+    ->k:[I
 
     .line 17
     .line 18
@@ -80,7 +83,8 @@
     .line 21
     .line 22
     .line 23
-    sput-object v0, Lt0/a;->l:[F
+    sput-object v0, Lt0/a;
+    ->l:[F
 
     .line 24
     .line 25
@@ -169,7 +173,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -178,12 +183,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lt0/a;->g:Landroid/graphics/Path;
+    iput-object v0, p0, Lt0/a;
+    ->g:Landroid/graphics/Path;
 
     .line 10
     .line 11
@@ -191,12 +198,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Paint;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lt0/a;->h:Landroid/graphics/Paint;
+    iput-object v0, p0, Lt0/a;
+    ->h:Landroid/graphics/Paint;
 
     .line 17
     .line 18
@@ -204,12 +213,14 @@
 
     .line 19
     .line 20
-    invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Paint;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v1, p0, Lt0/a;->a:Landroid/graphics/Paint;
+    iput-object v1, p0, Lt0/a;
+    ->a:Landroid/graphics/Paint;
 
     .line 24
     .line 25
@@ -217,7 +228,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, v1}, Lt0/a;->a(I)V
+    invoke-virtual {p0, v1}, Lt0/a;
+    ->a(I)V
 
     .line 28
     .line 29
@@ -225,7 +237,8 @@
     const/4 v1, 0x0
 
     .line 31
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 32
     .line 33
@@ -237,20 +250,24 @@
     const/4 v1, 0x4
 
     .line 37
-    invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v0, v1}, Landroid/graphics/Paint;
+    -><init>(I)V
 
     .line 38
     .line 39
     .line 40
-    iput-object v0, p0, Lt0/a;->b:Landroid/graphics/Paint;
+    iput-object v0, p0, Lt0/a;
+    ->b:Landroid/graphics/Paint;
 
     .line 41
     .line 42
-    sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
+    sget-object v1, Landroid/graphics/Paint$Style;
+    ->FILL:Landroid/graphics/Paint$Style;
 
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 45
     .line 46
@@ -259,12 +276,14 @@
 
     .line 48
     .line 49
-    invoke-direct {v1, v0}, Landroid/graphics/Paint;-><init>(Landroid/graphics/Paint;)V
+    invoke-direct {v1, v0}, Landroid/graphics/Paint;
+    -><init>(Landroid/graphics/Paint;)V
 
     .line 50
     .line 51
     .line 52
-    iput-object v1, p0, Lt0/a;->c:Landroid/graphics/Paint;
+    iput-object v1, p0, Lt0/a;
+    ->c:Landroid/graphics/Paint;
 
     .line 53
     .line 54
@@ -281,7 +300,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
+    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;
+    ->setAlphaComponent(II)I
 
     .line 4
     .line 5
@@ -289,7 +309,8 @@
     move-result v0
 
     .line 7
-    iput v0, p0, Lt0/a;->d:I
+    iput v0, p0, Lt0/a;
+    ->d:I
 
     .line 8
     .line 9
@@ -297,7 +318,8 @@
 
     .line 10
     .line 11
-    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
+    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;
+    ->setAlphaComponent(II)I
 
     .line 12
     .line 13
@@ -305,14 +327,16 @@
     move-result v0
 
     .line 15
-    iput v0, p0, Lt0/a;->e:I
+    iput v0, p0, Lt0/a;
+    ->e:I
 
     .line 16
     .line 17
     const/4 v0, 0x0
 
     .line 18
-    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
+    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;
+    ->setAlphaComponent(II)I
 
     .line 19
     .line 20
@@ -320,19 +344,23 @@
     move-result p1
 
     .line 22
-    iput p1, p0, Lt0/a;->f:I
+    iput p1, p0, Lt0/a;
+    ->f:I
 
     .line 23
     .line 24
-    iget-object p1, p0, Lt0/a;->a:Landroid/graphics/Paint;
+    iget-object p1, p0, Lt0/a;
+    ->a:Landroid/graphics/Paint;
 
     .line 25
     .line 26
-    iget v0, p0, Lt0/a;->d:I
+    iget v0, p0, Lt0/a;
+    ->d:I
 
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 29
     .line 30

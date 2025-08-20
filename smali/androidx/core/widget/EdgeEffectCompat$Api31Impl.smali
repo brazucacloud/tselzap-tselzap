@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -42,7 +43,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroid/widget/EdgeEffect;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p0, p1}, Landroid/widget/EdgeEffect;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -57,7 +59,8 @@
 
     .line 8
     .line 9
-    invoke-direct {p1, p0}, Landroid/widget/EdgeEffect;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p0}, Landroid/widget/EdgeEffect;
+    -><init>(Landroid/content/Context;)V
 
     .line 10
     .line 11
@@ -72,7 +75,8 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Landroid/widget/EdgeEffect;->getDistance()F
+    invoke-virtual {p0}, Landroid/widget/EdgeEffect;
+    ->getDistance()F
 
     .line 2
     .line 3
@@ -97,7 +101,8 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0, p1, p2}, Landroid/widget/EdgeEffect;->onPullDistance(FF)F
+    invoke-virtual {p0, p1, p2}, Landroid/widget/EdgeEffect;
+    ->onPullDistance(FF)F
 
     .line 2
     .line 3
@@ -110,7 +115,8 @@
 
     .line 6
     :catchall_0
-    invoke-virtual {p0, p1, p2}, Landroid/widget/EdgeEffect;->onPull(FF)V
+    invoke-virtual {p0, p1, p2}, Landroid/widget/EdgeEffect;
+    ->onPull(FF)V
 
     .line 7
     .line 8

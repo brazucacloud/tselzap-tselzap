@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/constraintlayout/motion/widget/MotionController;->getInterpolator(Landroid/content/Context;ILjava/lang/String;I)Landroid/view/animation/Interpolator;
+    value = Landroidx/constraintlayout/motion/widget/MotionController;
+    ->getInterpolator(Landroid/content/Context;ILjava/lang/String;I)Landroid/view/animation/Interpolator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,11 +32,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController$1;->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController$1;
+    ->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -45,14 +48,16 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController$1;->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController$1;
+    ->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
 
     .line 2
     .line 3
     float-to-double v1, p1
 
     .line 4
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/Easing;->get(D)D
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/Easing;
+    ->get(D)D
 
     .line 5
     .line 6

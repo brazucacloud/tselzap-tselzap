@@ -24,9 +24,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;->Companion:Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;
+    sput-object v0, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;
+    ->Companion:Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;
 
     return-void
 .end method
@@ -35,16 +37,19 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
 .method public static final from(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;
     .locals 1
 
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;->Companion:Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;
+    ->Companion:Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;->from(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;
+    invoke-virtual {v0, p0}, Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures$Companion;
+    ->from(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/java/adid/AdIdManagerFutures;
 
     move-result-object p0
 

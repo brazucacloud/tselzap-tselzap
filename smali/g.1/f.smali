@@ -12,11 +12,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lg/f;->b:Lg/g;
+    iput-object p1, p0, Lg/f;
+    ->b:Lg/g;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
+    invoke-direct {p0, p2}, Ljava/io/ByteArrayOutputStream;
+    -><init>(I)V
 
     .line 4
     .line 5
@@ -30,7 +32,8 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Ljava/io/ByteArrayOutputStream;->count:I
+    iget v0, p0, Ljava/io/ByteArrayOutputStream;
+    ->count:I
 
     .line 2
     .line 3
@@ -38,7 +41,8 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
+    iget-object v1, p0, Ljava/io/ByteArrayOutputStream;
+    ->buf:[B
 
     .line 6
     .line 7
@@ -68,19 +72,23 @@
 
     .line 18
     .line 19
-    iget-object v2, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
+    iget-object v2, p0, Ljava/io/ByteArrayOutputStream;
+    ->buf:[B
 
     .line 20
     .line 21
-    iget-object v3, p0, Lg/f;->b:Lg/g;
+    iget-object v3, p0, Lg/f;
+    ->b:Lg/g;
 
     .line 22
     .line 23
-    iget-object v3, v3, Lg/g;->c:Ljava/nio/charset/Charset;
+    iget-object v3, v3, Lg/g;
+    ->c:Ljava/nio/charset/Charset;
 
     .line 24
     .line 25
-    invoke-virtual {v3}, Ljava/nio/charset/Charset;->name()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/nio/charset/Charset;
+    ->name()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -91,7 +99,8 @@
     const/4 v4, 0x0
 
     .line 30
-    invoke-direct {v1, v2, v4, v0, v3}, Ljava/lang/String;-><init>([BIILjava/lang/String;)V
+    invoke-direct {v1, v2, v4, v0, v3}, Ljava/lang/String;
+    -><init>([BIILjava/lang/String;)V
     :try_end_0
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -109,7 +118,8 @@
 
     .line 36
     .line 37
-    invoke-direct {v1, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, v0}, Ljava/lang/AssertionError;
+    -><init>(Ljava/lang/Object;)V
 
     .line 38
     .line 39

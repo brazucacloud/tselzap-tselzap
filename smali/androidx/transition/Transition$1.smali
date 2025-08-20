@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/PathMotion;-><init>()V
+    invoke-direct {p0}, Landroidx/transition/PathMotion;
+    -><init>()V
     return-void
 .end method
 
@@ -35,17 +36,20 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p1, p2}, Landroid/graphics/Path;->moveTo(FF)V
+    invoke-virtual {v0, p1, p2}, Landroid/graphics/Path;
+    ->moveTo(FF)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0, p3, p4}, Landroid/graphics/Path;->lineTo(FF)V
+    invoke-virtual {v0, p3, p4}, Landroid/graphics/Path;
+    ->lineTo(FF)V
 return-object v0
 .end method
 

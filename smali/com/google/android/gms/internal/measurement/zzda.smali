@@ -19,12 +19,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/zzcz;-><init>(Lcom/google/android/gms/internal/measurement/zzdc;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/zzcz;
+    -><init>(Lcom/google/android/gms/internal/measurement/zzdc;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzda;->zza:Lcom/google/android/gms/internal/measurement/zzda;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzda;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzda;
 
     .line 8
     .line 9
@@ -34,7 +36,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +50,8 @@
 
     .line 1
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzda;->zza:Lcom/google/android/gms/internal/measurement/zzda;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzda;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzda;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

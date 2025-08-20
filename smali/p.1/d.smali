@@ -21,12 +21,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -34,19 +36,23 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Lp/d;->a:Landroid/content/Context;
+    iput-object p1, p0, Lp/d;
+    ->a:Landroid/content/Context;
 
     .line 9
     .line 10
-    iput-object p2, p0, Lp/d;->b:Lo/o;
+    iput-object p2, p0, Lp/d;
+    ->b:Lo/o;
 
     .line 11
     .line 12
-    iput-object p3, p0, Lp/d;->c:Lo/o;
+    iput-object p3, p0, Lp/d;
+    ->c:Lo/o;
 
     .line 13
     .line 14
-    iput-object p4, p0, Lp/d;->d:Ljava/lang/Class;
+    iput-object p4, p0, Lp/d;
+    ->d:Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -63,7 +69,8 @@
 
     .line 2
     .line 3
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 4
     .line 5
@@ -75,7 +82,8 @@
 
     .line 8
     .line 9
-    invoke-static {p1}, Lcom/bumptech/glide/b;->N(Landroid/net/Uri;)Z
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->N(Landroid/net/Uri;)Z
 
     .line 10
     .line 11
@@ -117,7 +125,8 @@
 
     .line 7
     .line 8
-    invoke-direct {v9, v4}, LD/b;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v9, v4}, LD/b;
+    -><init>(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -126,19 +135,23 @@
 
     .line 12
     .line 13
-    iget-object v3, p0, Lp/d;->c:Lo/o;
+    iget-object v3, p0, Lp/d;
+    ->c:Lo/o;
 
     .line 14
     .line 15
-    iget-object v8, p0, Lp/d;->d:Ljava/lang/Class;
+    iget-object v8, p0, Lp/d;
+    ->d:Ljava/lang/Class;
 
     .line 16
     .line 17
-    iget-object v1, p0, Lp/d;->a:Landroid/content/Context;
+    iget-object v1, p0, Lp/d;
+    ->a:Landroid/content/Context;
 
     .line 18
     .line 19
-    iget-object v2, p0, Lp/d;->b:Lo/o;
+    iget-object v2, p0, Lp/d;
+    ->b:Lo/o;
 
     .line 20
     .line 21
@@ -151,12 +164,14 @@
     move-object v7, p4
 
     .line 24
-    invoke-direct/range {v0 .. v8}, Lp/c;-><init>(Landroid/content/Context;Lo/o;Lo/o;Landroid/net/Uri;IILi/i;Ljava/lang/Class;)V
+    invoke-direct/range {v0 .. v8}, Lp/c;
+    -><init>(Landroid/content/Context;Lo/o;Lo/o;Landroid/net/Uri;IILi/i;Ljava/lang/Class;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-direct {p1, v9, v0}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p1, v9, v0}, Lo/n;
+    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 28
     .line 29

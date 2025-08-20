@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/ReportFragment$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ReportFragment$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +49,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -56,7 +59,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -73,7 +77,8 @@
 
     .line 16
     .line 17
-    invoke-interface {p1}, Landroidx/lifecycle/LifecycleRegistryOwner;->getLifecycle()Landroidx/lifecycle/LifecycleRegistry;
+    invoke-interface {p1}, Landroidx/lifecycle/LifecycleRegistryOwner;
+    ->getLifecycle()Landroidx/lifecycle/LifecycleRegistry;
 
     .line 18
     .line 19
@@ -81,7 +86,8 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;
+    ->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
 return-void
 
     .line 25
@@ -98,7 +104,8 @@ return-void
 
     .line 30
     .line 31
-    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 32
     .line 33
@@ -118,7 +125,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;
+    ->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
 
     .line 42
     .line 43
@@ -135,12 +143,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getFragmentManager()Landroid/app/FragmentManager;
 
     .line 7
     .line 8
@@ -152,7 +162,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroid/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroid/app/Fragment;
+    invoke-virtual {p1, v0}, Landroid/app/FragmentManager;
+    ->findFragmentByTag(Ljava/lang/String;)Landroid/app/Fragment;
 
     .line 13
     .line 14
@@ -164,7 +175,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -180,12 +192,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 7
     .line 8
@@ -197,17 +211,20 @@ return-void
 
     .line 11
     .line 12
-    sget-object v0, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;->Companion:Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;
+    sget-object v0, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;
+    ->Companion:Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;->registerIn(Landroid/app/Activity;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;
+    ->registerIn(Landroid/app/Activity;)V
 
     .line 15
     .line 16
     .line 17
     :cond_0
-    invoke-virtual {p1}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getFragmentManager()Landroid/app/FragmentManager;
 
     .line 18
     .line 19
@@ -219,7 +236,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {p1, v0}, Landroid/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroid/app/Fragment;
+    invoke-virtual {p1, v0}, Landroid/app/FragmentManager;
+    ->findFragmentByTag(Ljava/lang/String;)Landroid/app/Fragment;
 
     .line 24
     .line 25
@@ -231,7 +249,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p1}, Landroid/app/FragmentManager;->beginTransaction()Landroid/app/FragmentTransaction;
+    invoke-virtual {p1}, Landroid/app/FragmentManager;
+    ->beginTransaction()Landroid/app/FragmentTransaction;
 
     .line 30
     .line 31
@@ -243,12 +262,14 @@ return-void
 
     .line 34
     .line 35
-    invoke-direct {v2}, Landroidx/lifecycle/ReportFragment;-><init>()V
+    invoke-direct {v2}, Landroidx/lifecycle/ReportFragment;
+    -><init>()V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v1, v2, v0}, Landroid/app/FragmentTransaction;->add(Landroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;
+    invoke-virtual {v1, v2, v0}, Landroid/app/FragmentTransaction;
+    ->add(Landroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;
 
     .line 39
     .line 40
@@ -256,12 +277,14 @@ return-void
     move-result-object v0
 
     .line 42
-    invoke-virtual {v0}, Landroid/app/FragmentTransaction;->commit()I
+    invoke-virtual {v0}, Landroid/app/FragmentTransaction;
+    ->commit()I
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p1}, Landroid/app/FragmentManager;->executePendingTransactions()Z
+    invoke-virtual {p1}, Landroid/app/FragmentManager;
+    ->executePendingTransactions()Z
 
     .line 46
     .line 47

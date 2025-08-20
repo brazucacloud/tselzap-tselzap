@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/Activity/License$7;->run()V
+    value = Lcom/fmark/tselzap/Activity/License$7;
+    ->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Activity/License$7$1;->this$1:Lcom/fmark/tselzap/Activity/License$7;
+    iput-object p1, p0, Lcom/fmark/tselzap/Activity/License$7$1;
+    ->this$1:Lcom/fmark/tselzap/Activity/License$7;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -44,7 +47,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDialog;->dismiss()V
+    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDialog;
+    ->dismiss()V
 
     .line 2
     .line 3

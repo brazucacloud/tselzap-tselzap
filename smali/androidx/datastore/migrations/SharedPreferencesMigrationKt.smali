@@ -24,12 +24,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/migrations/SharedPreferencesMigrationKt;->MIGRATE_ALL_KEYS:Ljava/util/Set;
+    sput-object v0, Landroidx/datastore/migrations/SharedPreferencesMigrationKt;
+    ->MIGRATE_ALL_KEYS:Ljava/util/Set;
 
     .line 7
     .line 8
@@ -48,7 +50,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/migrations/SharedPreferencesMigrationKt;->MIGRATE_ALL_KEYS:Ljava/util/Set;
+    sget-object v0, Landroidx/datastore/migrations/SharedPreferencesMigrationKt;
+    ->MIGRATE_ALL_KEYS:Ljava/util/Set;
 
     .line 2
     .line 3

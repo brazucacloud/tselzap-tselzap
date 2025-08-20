@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->addPerson(Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->addPerson(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setCategory(Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->setCategory(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3

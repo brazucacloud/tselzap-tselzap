@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -36,7 +37,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    ->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;
 
     .line 2
     .line 3
@@ -48,17 +50,20 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, p0}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;-><init>(Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)V
+    invoke-direct {v0, p0}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1;
+    -><init>(Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    ->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;    return-object v0
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;
+    ->mPlatformCallback:Landroid/graphics/drawable/Animatable2$AnimationCallback;    return-object v0
 .end method
 
 .method public onAnimationEnd(Landroid/graphics/drawable/Drawable;)V

@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -31,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-static/range {p0 .. p5}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->handleFourBytes(BBBB[CI)V
+    invoke-static/range {p0 .. p5}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->handleFourBytes(BBBB[CI)V
 
     .line 2
     .line 3
@@ -43,7 +45,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isOneByte(B)Z
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isOneByte(B)Z
 
     .line 2
     .line 3
@@ -57,7 +60,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->handleOneByte(B[CI)V
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->handleOneByte(B[CI)V
 
     .line 2
     .line 3
@@ -69,7 +73,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isTwoBytes(B)Z
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isTwoBytes(B)Z
 
     .line 2
     .line 3
@@ -83,7 +88,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->handleTwoBytes(BB[CI)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->handleTwoBytes(BB[CI)V
 
     .line 2
     .line 3
@@ -95,7 +101,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isThreeBytes(B)Z
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isThreeBytes(B)Z
 
     .line 2
     .line 3
@@ -109,7 +116,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->handleThreeBytes(BBB[CI)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->handleThreeBytes(BBB[CI)V
 
     .line 2
     .line 3
@@ -121,7 +129,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isNotTrailingByte(B)Z
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isNotTrailingByte(B)Z
 
     .line 2
     .line 3
@@ -152,7 +161,8 @@
 
     .line 15
     .line 16
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isNotTrailingByte(B)Z
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isNotTrailingByte(B)Z
 
     .line 17
     .line 18
@@ -164,7 +174,8 @@
 
     .line 21
     .line 22
-    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isNotTrailingByte(B)Z
+    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isNotTrailingByte(B)Z
 
     .line 23
     .line 24
@@ -184,7 +195,8 @@
 
     .line 31
     .line 32
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->trailingByteValue(B)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->trailingByteValue(B)I
 
     .line 33
     .line 34
@@ -199,7 +211,8 @@
     or-int/2addr p0, p1
 
     .line 39
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->trailingByteValue(B)I
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->trailingByteValue(B)I
 
     .line 40
     .line 41
@@ -214,7 +227,8 @@
     or-int/2addr p0, p1
 
     .line 46
-    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->trailingByteValue(B)I
+    invoke-static {p3}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->trailingByteValue(B)I
 
     .line 47
     .line 48
@@ -225,7 +239,8 @@
     or-int/2addr p0, p1
 
     .line 51
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->highSurrogate(I)C
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->highSurrogate(I)C
 
     .line 52
     .line 53
@@ -241,7 +256,8 @@
 
     .line 58
     .line 59
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->lowSurrogate(I)C
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->lowSurrogate(I)C
 
     .line 60
     .line 61
@@ -257,7 +273,8 @@
 
     .line 66
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 67
     .line 68
@@ -1248,7 +1265,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isNotTrailingByte(B)Z
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isNotTrailingByte(B)Z
 
     .line 2
     .line 3
@@ -1290,7 +1308,8 @@
     .line 20
     .line 21
     :cond_1
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isNotTrailingByte(B)Z
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isNotTrailingByte(B)Z
 
     .line 22
     .line 23
@@ -1310,7 +1329,8 @@
 
     .line 30
     .line 31
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->trailingByteValue(B)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->trailingByteValue(B)I
 
     .line 32
     .line 33
@@ -1325,7 +1345,8 @@
     or-int/2addr p0, p1
 
     .line 38
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->trailingByteValue(B)I
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->trailingByteValue(B)I
 
     .line 39
     .line 40
@@ -1347,7 +1368,8 @@
 
     .line 47
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 48
     .line 49
@@ -1827,7 +1849,8 @@
 
     .line 4
     .line 5
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->isNotTrailingByte(B)Z
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->isNotTrailingByte(B)Z
 
     .line 6
     .line 7
@@ -1847,7 +1870,8 @@
 
     .line 14
     .line 15
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->trailingByteValue(B)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->trailingByteValue(B)I
 
     .line 16
     .line 17
@@ -1869,7 +1893,8 @@
 
     .line 24
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 25
     .line 26

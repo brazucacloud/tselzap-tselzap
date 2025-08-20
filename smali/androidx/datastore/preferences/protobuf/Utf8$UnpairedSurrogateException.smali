@@ -27,7 +27,8 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0, v1, p2}, Landroidx/constraintlayout/core/parser/a;->d(ILjava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, v0, v1, p2}, Landroidx/constraintlayout/core/parser/a;
+    ->d(ILjava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -35,7 +36,8 @@
     move-result-object p1
 
     .line 9
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 return-void
 .end method
 

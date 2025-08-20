@@ -46,7 +46,8 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
+    sput-object v0, Landroidx/collection/ScatterMapKt;
+    ->EmptyGroup:[J
 
     .line 8
     .line 9
@@ -57,12 +58,14 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v0, Landroidx/collection/ScatterMapKt;->EmptyScatterMap:Landroidx/collection/MutableScatterMap;    return-void
+    sput-object v0, Landroidx/collection/ScatterMapKt;
+    ->EmptyScatterMap:Landroidx/collection/MutableScatterMap;    return-void
 
     .line 18
     nop
@@ -89,7 +92,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/collection/ScatterMapKt;->EmptyScatterMap:Landroidx/collection/MutableScatterMap;
+    sget-object v0, Landroidx/collection/ScatterMapKt;
+    ->EmptyScatterMap:Landroidx/collection/MutableScatterMap;
 
     .line 2
     .line 3
@@ -97,7 +101,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -105,7 +110,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {p0, p1}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 2
     .line 3
@@ -142,7 +148,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -245,7 +252,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -287,7 +295,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -350,7 +359,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -430,7 +440,8 @@ return-object v0
 
     const-string v0, "metadata"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     shr-int/lit8 v0, p1, 0x3
 
@@ -493,7 +504,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {p0, p1}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 2
     .line 3
@@ -587,7 +599,8 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableScatterMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableScatterMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 
@@ -609,17 +622,20 @@ return-object v0
 
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/collection/MutableScatterMap;
 
     array-length v1, p0
 
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap;
+    -><init>(I)V
 
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/collection/MutableScatterMap;->putAll([Lc1/f;)V
+    invoke-virtual {v0, p0}, Landroidx/collection/MutableScatterMap;
+    ->putAll([Lc1/f;)V
 return-object v0
 .end method
 
@@ -663,7 +679,8 @@ return-object v0
     const/4 v0, -0x1
 
     .line 4
-    invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
+    invoke-static {p0}, Ljava/lang/Integer;
+    ->numberOfLeadingZeros(I)I
 
     .line 5
     .line 6
@@ -688,7 +705,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -757,7 +775,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

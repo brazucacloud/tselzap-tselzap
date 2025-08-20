@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/fragment/FragmentNavArgsLazyKt;->navArgs(Landroidx/fragment/app/Fragment;)Landroidx/navigation/NavArgsLazy;
+    value = Landroidx/navigation/fragment/FragmentNavArgsLazyKt;
+    ->navArgs(Landroidx/fragment/app/Fragment;)Landroidx/navigation/NavArgsLazy;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Landroidx/fragment/app/Fragment;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;
+    ->$this_navArgs:Landroidx/fragment/app/Fragment;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -46,9 +49,11 @@ return-void
     .locals 3
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroidx/fragment/app/Fragment;
+    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;
+    ->$this_navArgs:Landroidx/fragment/app/Fragment;
 
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;
+    ->getArguments()Landroid/os/Bundle;
 
     move-result-object v0
 
@@ -63,21 +68,27 @@ return-void
 
     const-string v2, "Fragment "
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroidx/fragment/app/Fragment;
+    iget-object v2, p0, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;
+    ->$this_navArgs:Landroidx/fragment/app/Fragment;
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v2, " has null arguments"
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -86,7 +97,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;->invoke()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/FragmentNavArgsLazyKt$navArgs$1;
+    ->invoke()Landroid/os/Bundle;
 
     move-result-object v0
 

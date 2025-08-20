@@ -26,12 +26,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lo/A;-><init>(I)V
+    invoke-direct {v0, v1}, Lo/A;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lo/A;->b:Lo/A;
+    sput-object v0, Lo/A;
+    ->b:Lo/A;
 
     .line 8
     .line 9
@@ -42,9 +44,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lo/A;->a:I
+    iput p1, p0, Lo/A;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -54,7 +58,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lo/A;->a:I
+    iget v0, p0, Lo/A;
+    ->a:I
 
     .line 2
     .line 3
@@ -110,7 +115,8 @@
     .locals 1
 
     .line 1
-    iget p2, p0, Lo/A;->a:I
+    iget p2, p0, Lo/A;
+    ->a:I
 
     .line 2
     .line 3
@@ -137,7 +143,8 @@
 
     .line 13
     .line 14
-    invoke-direct {p3, p1}, LD/b;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, LD/b;
+    -><init>(Ljava/lang/Object;)V
 
     .line 15
     .line 16
@@ -149,12 +156,14 @@
     const/4 v0, 0x0
 
     .line 20
-    invoke-direct {p4, p1, v0}, Lo/c;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p4, p1, v0}, Lo/c;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 21
     .line 22
     .line 23
-    invoke-direct {p2, p3, p4}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p2, p3, p4}, Lo/n;
+    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 24
     .line 25
@@ -171,7 +180,8 @@
 
     .line 30
     .line 31
-    invoke-direct {p3, p1}, LD/b;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, LD/b;
+    -><init>(Ljava/lang/Object;)V
 
     .line 32
     .line 33
@@ -183,12 +193,14 @@
     const/4 v0, 0x1
 
     .line 37
-    invoke-direct {p4, p1, v0}, Lo/c;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p4, p1, v0}, Lo/c;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 38
     .line 39
     .line 40
-    invoke-direct {p2, p3, p4}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p2, p3, p4}, Lo/n;
+    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 41
     .line 42

@@ -53,12 +53,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/UInt32Value;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 7
     .line 8
@@ -66,7 +68,8 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
 
     .line 11
     .line 12
@@ -78,7 +81,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    -><init>()V
 
     .line 2
     .line 3
@@ -90,7 +94,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 2
     .line 3
@@ -101,7 +106,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UInt32Value;->setValue(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->setValue(I)V
 
     .line 2
     .line 3
@@ -113,7 +119,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/UInt32Value;->clearValue()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->clearValue()V
 
     .line 2
     .line 3
@@ -128,7 +135,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/UInt32Value;->value_:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->value_:I
 
     .line 3
     .line 4
@@ -139,7 +147,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 2
     .line 3
@@ -150,9 +159,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->createBuilder()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->createBuilder()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
 
     move-result-object v0
 
@@ -165,9 +176,11 @@
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->createBuilder(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->createBuilder(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
 
     move-result-object p0
 
@@ -180,7 +193,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UInt32Value;->newBuilder()Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->newBuilder()Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;
 
     .line 2
     .line 3
@@ -188,7 +202,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;->setValue(I)Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;
+    ->setValue(I)Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;
 
     .line 6
     .line 7
@@ -196,7 +211,8 @@
     move-result-object p0
 
     .line 9
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 10
     .line 11
@@ -215,9 +231,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -230,9 +248,11 @@
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -245,9 +265,11 @@
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -260,9 +282,11 @@
     .locals 1
 
     .line 4
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -275,9 +299,11 @@
     .locals 1
 
     .line 9
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -290,9 +316,11 @@
     .locals 1
 
     .line 10
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -305,9 +333,11 @@
     .locals 1
 
     .line 7
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -320,9 +350,11 @@
     .locals 1
 
     .line 8
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -335,9 +367,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -350,9 +384,11 @@
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -365,9 +401,11 @@
     .locals 1
 
     .line 5
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[B)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[B)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -380,9 +418,11 @@
     .locals 1
 
     .line 6
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -403,11 +443,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->getParserForType()Landroidx/datastore/preferences/protobuf/Parser;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->getParserForType()Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 4
     .line 5
@@ -421,7 +463,8 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/UInt32Value;->value_:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->value_:I
 
     .line 2
     .line 3
@@ -437,11 +480,13 @@
     const/4 p2, 0x1
 
     .line 2
-    sget-object p3, Landroidx/datastore/preferences/protobuf/UInt32Value$1;->$SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke:[I
+    sget-object p3, Landroidx/datastore/preferences/protobuf/UInt32Value$1;
+    ->$SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke:[I
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 5
     .line 6
@@ -465,7 +510,8 @@
 
     .line 15
     .line 16
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 17
     .line 18
@@ -478,7 +524,8 @@
 
     .line 21
     :pswitch_1
-    invoke-static {p2}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+    invoke-static {p2}, Ljava/lang/Byte;
+    ->valueOf(B)Ljava/lang/Byte;
 
     .line 22
     .line 23
@@ -489,7 +536,8 @@
 
     .line 26
     :pswitch_2
-    sget-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
+    sget-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 27
     .line 28
@@ -505,7 +553,8 @@
 
     .line 33
     :try_start_0
-    sget-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
+    sget-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 34
     .line 35
@@ -517,16 +566,19 @@
 
     .line 38
     .line 39
-    sget-object p3, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object p3, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 40
     .line 41
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;
+    -><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
 
     .line 42
     .line 43
     .line 44
-    sput-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
+    sput-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 45
     .line 46
@@ -561,7 +613,8 @@
 
     .line 54
     :pswitch_3
-    sget-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object p1, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 55
     .line 56
@@ -588,11 +641,13 @@
 
     .line 65
     .line 66
-    sget-object p3, Landroidx/datastore/preferences/protobuf/UInt32Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
+    sget-object p3, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/UInt32Value;
 
     .line 67
     .line 68
-    invoke-static {p3, p2, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->newMessageInfo(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, p2, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    ->newMessageInfo(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 69
     .line 70
@@ -607,7 +662,8 @@
 
     .line 74
     .line 75
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;-><init>(Landroidx/datastore/preferences/protobuf/UInt32Value$1;)V
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/UInt32Value$Builder;
+    -><init>(Landroidx/datastore/preferences/protobuf/UInt32Value$1;)V
 
     .line 76
     .line 77
@@ -620,7 +676,8 @@
 
     .line 80
     .line 81
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/UInt32Value;-><init>()V
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    -><init>()V
 
     .line 82
     .line 83
@@ -676,7 +733,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/UInt32Value;->value_:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/UInt32Value;
+    ->value_:I
 
     .line 2
     .line 3

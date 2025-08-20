@@ -12,7 +12,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -56,7 +57,8 @@
 
     .line 5
     :cond_0
-    invoke-interface {p3, p0, p1}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p3, p0, p1}, Landroid/util/AttributeSet;
+    ->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -73,7 +75,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, p3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p0, p3}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     .line 14
     .line 15
@@ -93,7 +96,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0, p3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {p0, p3}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -101,7 +105,8 @@
     move-result-object p3
 
     .line 27
-    invoke-virtual {p2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -113,13 +118,15 @@
 
     .line 32
     .line 33
-    invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
+    invoke-direct {v0}, Landroid/util/TypedValue;
+    -><init>()V
 
     .line 34
     .line 35
     .line 36
     :try_start_0
-    invoke-virtual {p2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p2}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 37
     .line 38
@@ -131,12 +138,14 @@
 
     .line 41
     .line 42
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -145,17 +154,20 @@
 
     .line 49
     .line 50
-    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -166,7 +178,8 @@
     const/4 p4, 0x1
 
     .line 61
-    invoke-virtual {p2, p3, v0, p4}, Landroid/content/res/Resources;->getValue(Ljava/lang/String;Landroid/util/TypedValue;Z)V
+    invoke-virtual {p2, p3, v0, p4}, Landroid/content/res/Resources;
+    ->getValue(Ljava/lang/String;Landroid/util/TypedValue;Z)V
     :try_end_0
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -185,12 +198,14 @@
 
     .line 68
     .line 69
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
@@ -199,17 +214,20 @@
 
     .line 76
     .line 77
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 84
     .line 85
@@ -217,13 +235,15 @@
     move-result-object p2
 
     .line 87
-    invoke-static {p6, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p6, p2}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 88
     .line 89
     .line 90
     :goto_1
-    iget-object p2, v0, Landroid/util/TypedValue;->string:Ljava/lang/CharSequence;
+    iget-object p2, v0, Landroid/util/TypedValue;
+    ->string:Ljava/lang/CharSequence;
 
     .line 91
     .line 92
@@ -231,7 +251,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 95
     .line 96
@@ -243,7 +264,8 @@
 
     .line 99
     :cond_1
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -259,12 +281,14 @@
 
     .line 106
     .line 107
-    invoke-direct {p3, p4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p3, p4}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 108
     .line 109
     .line 110
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 111
     .line 112
@@ -273,17 +297,20 @@
 
     .line 114
     .line 115
-    invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 116
     .line 117
     .line 118
-    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 122
     .line 123
@@ -291,7 +318,8 @@
     move-result-object p2
 
     .line 125
-    invoke-static {p6, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p6, p2}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 126
     .line 127
@@ -314,12 +342,14 @@
 
     .line 135
     .line 136
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 137
     .line 138
     .line 139
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 140
     .line 141
@@ -328,12 +358,14 @@
 
     .line 143
     .line 144
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 145
     .line 146
     .line 147
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 148
     .line 149
@@ -341,7 +373,8 @@
     move-result-object p1
 
     .line 151
-    invoke-static {p6, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p6, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 152
     .line 153

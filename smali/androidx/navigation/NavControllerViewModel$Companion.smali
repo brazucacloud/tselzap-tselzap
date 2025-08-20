@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavControllerViewModel$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavControllerViewModel$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -41,7 +43,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -50,7 +53,8 @@
 
     .line 7
     .line 8
-    invoke-static {}, Landroidx/navigation/NavControllerViewModel;->access$getFACTORY$cp()Landroidx/lifecycle/ViewModelProvider$Factory;
+    invoke-static {}, Landroidx/navigation/NavControllerViewModel;
+    ->access$getFACTORY$cp()Landroidx/lifecycle/ViewModelProvider$Factory;
 
     .line 9
     .line 10
@@ -70,7 +74,8 @@
     move-object v2, p1
 
     .line 16
-    invoke-direct/range {v1 .. v6}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStore;Landroidx/lifecycle/ViewModelProvider$Factory;Landroidx/lifecycle/viewmodel/CreationExtras;ILkotlin/jvm/internal/e;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/lifecycle/ViewModelProvider;
+    -><init>(Landroidx/lifecycle/ViewModelStore;Landroidx/lifecycle/ViewModelProvider$Factory;Landroidx/lifecycle/viewmodel/CreationExtras;ILkotlin/jvm/internal/e;)V
 
     .line 17
     .line 18
@@ -79,7 +84,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-virtual {v1, p1}, Landroidx/lifecycle/ViewModelProvider;
+    ->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     .line 22
     .line 23

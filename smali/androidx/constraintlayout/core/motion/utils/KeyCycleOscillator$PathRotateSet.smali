@@ -25,16 +25,19 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;->mType:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;
+    ->mType:Ljava/lang/String;
 
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/constraintlayout/core/motion/utils/c;->a(Ljava/lang/String;)I
+    invoke-static {p1}, Landroidx/constraintlayout/core/motion/utils/c;
+    ->a(Ljava/lang/String;)I
 
     .line 7
     .line 8
@@ -42,7 +45,9 @@
     move-result p1
 
     .line 10
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;->mTypeId:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;
+    ->mTypeId:I    
+    return-void
 .end method
 
 
@@ -51,7 +56,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;
+    ->get(F)F
 
     .line 2
     .line 3
@@ -59,7 +65,8 @@
     move-result p2
 
     .line 5
-    invoke-static {p5, p6, p3, p4}, Ljava/lang/Math;->atan2(DD)D
+    invoke-static {p5, p6, p3, p4}, Ljava/lang/Math;
+    ->atan2(DD)D
 
     .line 6
     .line 7
@@ -67,7 +74,8 @@
     move-result-wide p3
 
     .line 9
-    invoke-static {p3, p4}, Ljava/lang/Math;->toDegrees(D)D
+    invoke-static {p3, p4}, Ljava/lang/Math;
+    ->toDegrees(D)D
 
     .line 10
     .line 11
@@ -81,7 +89,8 @@
     add-float/2addr p2, p3
 
     .line 15
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setRotationZ(F)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->setRotationZ(F)V
 return-void
 .end method
 
@@ -89,11 +98,13 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;->mTypeId:I
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator$PathRotateSet;
+    ->mTypeId:I
 
     .line 2
     .line 3
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;
+    ->get(F)F
 
     .line 4
     .line 5
@@ -101,7 +112,9 @@ return-void
     move-result p2
 
     .line 7
-    invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setValue(IF)Z    return-void
+    invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->setValue(IF)Z    
+    return-void
 .end method
 
 .end class

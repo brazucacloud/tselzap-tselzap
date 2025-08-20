@@ -43,12 +43,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->INSTANCE:Ljava/util/concurrent/atomic/AtomicReference;
+    sput-object v0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->INSTANCE:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 7
     .line 8
@@ -59,12 +61,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->applicationContext:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->applicationContext:Landroid/content/Context;
 
     .line 5
     .line 6
@@ -75,7 +79,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->ensureReceiverRegistered(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->ensureReceiverRegistered(Landroid/content/Context;)V
 
     .line 2
     .line 3
@@ -87,11 +92,13 @@
     .locals 3
 
     .line 1
-    sget-object v0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->INSTANCE:Ljava/util/concurrent/atomic/AtomicReference;
+    sget-object v0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->INSTANCE:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -107,12 +114,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    -><init>(Landroid/content/Context;)V
 
     .line 12
     .line 13
     .line 14
-    sget-object v1, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->INSTANCE:Ljava/util/concurrent/atomic/AtomicReference;
+    sget-object v1, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->INSTANCE:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 15
     .line 16
@@ -120,7 +129,8 @@
     const/4 v2, 0x0
 
     .line 17
-    invoke-virtual {v1, v2, v0}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2, v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -140,12 +150,14 @@
 
     .line 26
     .line 27
-    invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Landroid/content/IntentFilter;
+    -><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0, v0, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    invoke-virtual {p0, v0, v1}, Landroid/content/Context;
+    ->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     .line 31
     .line 32
@@ -154,7 +166,8 @@
 
     .line 34
     :cond_1
-    invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -176,7 +189,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/firebase/FirebaseApp;->access$200()Ljava/lang/Object;
+    invoke-static {}, Lcom/google/firebase/FirebaseApp;
+    ->access$200()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -188,11 +202,13 @@
 
     .line 6
     :try_start_0
-    sget-object p2, Lcom/google/firebase/FirebaseApp;->INSTANCES:Ljava/util/Map;
+    sget-object p2, Lcom/google/firebase/FirebaseApp;
+    ->INSTANCES:Ljava/util/Map;
 
     .line 7
     .line 8
-    invoke-interface {p2}, Ljava/util/Map;->values()Ljava/util/Collection;
+    invoke-interface {p2}, Ljava/util/Map;
+    ->values()Ljava/util/Collection;
 
     .line 9
     .line 10
@@ -200,7 +216,8 @@
     move-result-object p2
 
     .line 12
-    invoke-interface {p2}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     .line 13
     .line 14
@@ -209,7 +226,8 @@
 
     .line 16
     :goto_0
-    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 17
     .line 18
@@ -221,7 +239,8 @@
 
     .line 21
     .line 22
-    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -233,7 +252,8 @@
 
     .line 27
     .line 28
-    invoke-static {v0}, Lcom/google/firebase/FirebaseApp;->access$300(Lcom/google/firebase/FirebaseApp;)V
+    invoke-static {v0}, Lcom/google/firebase/FirebaseApp;
+    ->access$300(Lcom/google/firebase/FirebaseApp;)V
 
     .line 29
     .line 30
@@ -254,7 +274,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 35
-    invoke-virtual {p0}, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->unregister()V
+    invoke-virtual {p0}, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->unregister()V
 
     .line 36
     .line 37
@@ -287,11 +308,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->applicationContext:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;
+    ->applicationContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, p0}, Landroid/content/Context;
+    ->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     .line 4
     .line 5

@@ -33,12 +33,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationConsumer;-><init>(Lg1/d;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationConsumer;
+    -><init>(Lg1/d;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/core/os/a;->p(Ljava/lang/Object;)Ljava/util/function/Consumer;
+    invoke-static {v0}, Landroidx/core/os/a;
+    ->p(Ljava/lang/Object;)Ljava/util/function/Consumer;
 
     .line 7
     .line 8

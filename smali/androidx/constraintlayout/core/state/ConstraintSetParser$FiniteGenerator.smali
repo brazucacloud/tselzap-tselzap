@@ -42,7 +42,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -50,26 +51,31 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mStop:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mStop:Z
 
     .line 6
     .line 7
     const/4 v0, 0x0
 
     .line 8
-    iput v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F
+    iput v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mCurrent:F
 
     .line 9
     .line 10
-    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mFrom:F
+    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mFrom:F
 
     .line 11
     .line 12
-    iput p2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mTo:F
+    iput p2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mTo:F
 
     .line 13
     .line 14
-    iput p3, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mStep:F
+    iput p3, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mStep:F
 
     .line 15
     .line 16
@@ -85,7 +91,8 @@
 
     .line 21
     :cond_0
-    iput-object p4, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mPrefix:Ljava/lang/String;
+    iput-object p4, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mPrefix:Ljava/lang/String;
 
     .line 22
     .line 23
@@ -97,15 +104,19 @@
 
     .line 26
     :cond_1
-    iput-object p5, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mPostfix:Ljava/lang/String;
+    iput-object p5, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mPostfix:Ljava/lang/String;
 
     .line 27
     .line 28
-    iput p2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mMax:F
+    iput p2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mMax:F
 
     .line 29
     .line 30
-    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mInitial:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mInitial:F    
+    return-void
 .end method
 
 
@@ -126,19 +137,22 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mInitial:F
+    iget v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mInitial:F
 
     .line 7
     .line 8
     float-to-int v1, v1
 
     .line 9
-    iget v2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mMax:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mMax:F
 
     .line 10
     .line 11
@@ -157,35 +171,42 @@
 
     .line 16
     .line 17
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    iget-object v5, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mPrefix:Ljava/lang/String;
+    iget-object v5, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mPrefix:Ljava/lang/String;
 
     .line 21
     .line 22
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    iget-object v5, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mPostfix:Ljava/lang/String;
+    iget-object v5, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mPostfix:Ljava/lang/String;
 
     .line 29
     .line 30
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -193,12 +214,14 @@
     move-result-object v4
 
     .line 37
-    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
     .line 40
-    iget v4, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mStep:F
+    iget v4, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mStep:F
 
     .line 41
     .line 42
@@ -223,11 +246,13 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F
+    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mCurrent:F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mMax:F
+    iget v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mMax:F
 
     .line 4
     .line 5
@@ -242,12 +267,14 @@
     const/4 v1, 0x1
 
     .line 10
-    iput-boolean v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mStop:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mStop:Z
 
     .line 11
     .line 12
     :cond_0
-    iget-boolean v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mStop:Z
+    iget-boolean v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mStop:Z
 
     .line 13
     .line 14
@@ -255,19 +282,22 @@
 
     .line 15
     .line 16
-    iget v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mStep:F
+    iget v1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mStep:F
 
     .line 17
     .line 18
     add-float/2addr v0, v1
 
     .line 19
-    iput v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F
+    iput v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mCurrent:F
 
     .line 20
     .line 21
     :cond_1
-    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;
+    ->mCurrent:F    return v0
 .end method
 
 .end class

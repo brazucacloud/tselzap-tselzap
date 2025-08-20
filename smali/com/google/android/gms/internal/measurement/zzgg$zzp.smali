@@ -72,12 +72,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzgg$zzp;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
     .line 7
     .line 8
@@ -85,7 +87,8 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Lcom/google/android/gms/internal/measurement/zzki;->zza(Ljava/lang/Class;Lcom/google/android/gms/internal/measurement/zzki;)V
+    invoke-static {v1, v0}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zza(Ljava/lang/Class;Lcom/google/android/gms/internal/measurement/zzki;)V
 
     .line 11
     .line 12
@@ -97,7 +100,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzki;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzki;
+    -><init>()V
 
     .line 2
     .line 3
@@ -106,11 +110,13 @@
 
     .line 5
     .line 6
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzg:Ljava/lang/String;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzg:Ljava/lang/String;
 
     .line 7
     .line 8
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzh:Ljava/lang/String;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzh:Ljava/lang/String;
 
     .line 9
     .line 10
@@ -121,16 +127,19 @@
     .locals 2
 
     .line 17
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     and-int/lit8 v0, v0, -0x21
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     const-wide/16 v0, 0x0
 
     .line 18
-    iput-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzk:D
+    iput-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzk:D
 
     return-void
 .end method
@@ -139,14 +148,17 @@
     .locals 1
 
     .line 19
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     or-int/lit8 v0, v0, 0x20
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 20
-    iput-wide p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzk:D
+    iput-wide p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzk:D
 
     return-void
 .end method
@@ -155,14 +167,17 @@
     .locals 1
 
     .line 21
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     or-int/lit8 v0, v0, 0x8
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 22
-    iput-wide p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzi:J
+    iput-wide p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzi:J
 
     return-void
 .end method
@@ -171,17 +186,21 @@
     .locals 1
 
     .line 23
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 24
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     or-int/lit8 v0, v0, 0x2
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 25
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzg:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzg:Ljava/lang/String;
 
     return-void
 .end method
@@ -190,16 +209,19 @@
     .locals 2
 
     .line 2
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     and-int/lit8 v0, v0, -0x9
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     const-wide/16 v0, 0x0
 
     .line 3
-    iput-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzi:J
+    iput-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzi:J
 
     return-void
 .end method
@@ -208,14 +230,17 @@
     .locals 1
 
     .line 4
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     or-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 5
-    iput-wide p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzf:J
+    iput-wide p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzf:J
 
     return-void
 .end method
@@ -224,17 +249,21 @@
     .locals 1
 
     .line 6
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 7
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     or-int/lit8 v0, v0, 0x4
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 8
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzh:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzh:Ljava/lang/String;
 
     return-void
 .end method
@@ -243,20 +272,25 @@
     .locals 1
 
     .line 2
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     and-int/lit8 v0, v0, -0x5
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 3
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
     .line 4
-    iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzh:Ljava/lang/String;
+    iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzh:Ljava/lang/String;
 
     .line 5
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzh:Ljava/lang/String;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzh:Ljava/lang/String;
 
     return-void
 .end method
@@ -265,11 +299,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzki;->zzcg()Lcom/google/android/gms/internal/measurement/zzki$zzb;
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zzcg()Lcom/google/android/gms/internal/measurement/zzki$zzb;
 
     .line 4
     .line 5
@@ -287,7 +323,8 @@
 .method public static bridge synthetic zzf()Lcom/google/android/gms/internal/measurement/zzgg$zzp;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
     return-object v0
 .end method
@@ -298,7 +335,8 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzk:D
+    iget-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzk:D
 
     return-wide v0
 .end method
@@ -307,7 +345,8 @@
     .locals 1
 
     .line 2
-    sget-object p2, Lcom/google/android/gms/internal/measurement/zzgf;->zza:[I
+    sget-object p2, Lcom/google/android/gms/internal/measurement/zzgf;
+    ->zza:[I
 
     const/4 p3, 0x1
 
@@ -324,7 +363,8 @@
 
     .line 4
     :pswitch_0
-    invoke-static {p3}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+    invoke-static {p3}, Ljava/lang/Byte;
+    ->valueOf(B)Ljava/lang/Byte;
 
     move-result-object p1
 
@@ -332,7 +372,8 @@
 
     .line 5
     :pswitch_1
-    sget-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzd:Lcom/google/android/gms/internal/measurement/zzma;
+    sget-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzd:Lcom/google/android/gms/internal/measurement/zzma;
 
     if-nez p1, :cond_1
 
@@ -343,19 +384,23 @@
 
     .line 7
     :try_start_0
-    sget-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzd:Lcom/google/android/gms/internal/measurement/zzma;
+    sget-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzd:Lcom/google/android/gms/internal/measurement/zzma;
 
     if-nez p1, :cond_0
 
     .line 8
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzki$zza;
 
-    sget-object p3, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sget-object p3, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
-    invoke-direct {p1, p3}, Lcom/google/android/gms/internal/measurement/zzki$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
+    invoke-direct {p1, p3}, Lcom/google/android/gms/internal/measurement/zzki$zza;
+    -><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
 
     .line 9
-    sput-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzd:Lcom/google/android/gms/internal/measurement/zzma;
+    sput-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzd:Lcom/google/android/gms/internal/measurement/zzma;
 
     goto :goto_0
 
@@ -383,7 +428,8 @@
 
     .line 11
     :pswitch_2
-    sget-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sget-object p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
     return-object p1
 
@@ -437,9 +483,11 @@
     const-string p2, "\u0004\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001\u1002\u0000\u0002\u1008\u0001\u0003\u1008\u0002\u0004\u1002\u0003\u0005\u1001\u0004\u0006\u1000\u0005"
 
     .line 14
-    sget-object p3, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    sget-object p3, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
-    invoke-static {p3, p2, p1}, Lcom/google/android/gms/internal/measurement/zzki;->zza(Lcom/google/android/gms/internal/measurement/zzlr;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, p2, p1}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzlr;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -449,14 +497,16 @@
     :pswitch_4
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp$zza;
 
-    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzp$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
+    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzp$zza;
+    -><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
 return-object p1
 
     .line 16
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
 
-    invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzp;-><init>()V
+    invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    -><init>()V
     return-object p1
 
     nop
@@ -476,7 +526,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzj:F
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzj:F
 
     return v0
 .end method
@@ -485,7 +536,8 @@ return-object p1
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzi:J
+    iget-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzi:J
 
     return-wide v0
 .end method
@@ -494,7 +546,8 @@ return-object p1
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzf:J
+    iget-wide v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzf:J
 
     .line 2
     .line 3
@@ -505,7 +558,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzg:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzg:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -516,7 +570,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zzh:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zzh:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -527,7 +582,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 2
     .line 3
@@ -554,7 +610,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 2
     .line 3
@@ -581,7 +638,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 2
     .line 3
@@ -608,7 +666,8 @@ return-object p1
     .locals 2
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 2
     .line 3
@@ -635,7 +694,8 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;->zze:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzp;
+    ->zze:I
 
     .line 2
     .line 3

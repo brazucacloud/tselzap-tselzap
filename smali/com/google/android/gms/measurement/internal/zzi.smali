@@ -16,11 +16,14 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;Lcom/google/android/gms/internal/measurement/zzdr;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzi;->zza:Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzi;
+    ->zza:Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
 
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzi;->zzb:Lcom/google/android/gms/internal/measurement/zzdr;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzi;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzdr;
 
     return-void
 .end method
@@ -30,11 +33,14 @@
 .method public final run()V
     .locals 2
 
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzi;->zza:Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzi;
+    ->zza:Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
 
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzi;->zzb:Lcom/google/android/gms/internal/measurement/zzdr;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzi;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzdr;
 
-    invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;->$r8$lambda$W3cgi1t5N0SU6fYxM9Fsh5qQfPc(Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;Lcom/google/android/gms/internal/measurement/zzdr;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
+    ->$r8$lambda$W3cgi1t5N0SU6fYxM9Fsh5qQfPc(Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;Lcom/google/android/gms/internal/measurement/zzdr;)V
 return-void
 .end method
 

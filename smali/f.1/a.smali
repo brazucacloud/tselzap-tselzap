@@ -10,7 +10,8 @@
     .line 1
     new-instance v0, Landroid/adservices/signals/UpdateSignalsRequest$Builder;
 
-    invoke-direct {v0, p0}, Landroid/adservices/signals/UpdateSignalsRequest$Builder;-><init>(Landroid/net/Uri;)V
+    invoke-direct {v0, p0}, Landroid/adservices/signals/UpdateSignalsRequest$Builder;
+    -><init>(Landroid/net/Uri;)V
 return-object v0
 .end method
 
@@ -18,7 +19,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/signals/UpdateSignalsRequest$Builder;->build()Landroid/adservices/signals/UpdateSignalsRequest;
+    invoke-virtual {p0}, Landroid/adservices/signals/UpdateSignalsRequest$Builder;
+    ->build()Landroid/adservices/signals/UpdateSignalsRequest;
 
     move-result-object p0
 
@@ -38,7 +40,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/signals/ProtectedSignalsManager;->updateSignals(Landroid/adservices/signals/UpdateSignalsRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/signals/ProtectedSignalsManager;
+    ->updateSignals(Landroid/adservices/signals/UpdateSignalsRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 

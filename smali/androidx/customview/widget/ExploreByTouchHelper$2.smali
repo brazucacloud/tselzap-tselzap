@@ -34,7 +34,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -53,7 +54,8 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p1, p2}, Landroidx/collection/SparseArrayCompat;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/collection/SparseArrayCompat;
+    ->valueAt(I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -68,7 +70,8 @@
     .line 1
     check-cast p1, Landroidx/collection/SparseArrayCompat;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/customview/widget/ExploreByTouchHelper$2;->get(Landroidx/collection/SparseArrayCompat;I)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-virtual {p0, p1, p2}, Landroidx/customview/widget/ExploreByTouchHelper$2;
+    ->get(Landroidx/collection/SparseArrayCompat;I)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     move-result-object p1
 
@@ -87,7 +90,8 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p1}, Landroidx/collection/SparseArrayCompat;->size()I
+    invoke-virtual {p1}, Landroidx/collection/SparseArrayCompat;
+    ->size()I
 
     move-result p1
 
@@ -100,7 +104,8 @@
     .line 1
     check-cast p1, Landroidx/collection/SparseArrayCompat;
 
-    invoke-virtual {p0, p1}, Landroidx/customview/widget/ExploreByTouchHelper$2;->size(Landroidx/collection/SparseArrayCompat;)I
+    invoke-virtual {p0, p1}, Landroidx/customview/widget/ExploreByTouchHelper$2;
+    ->size(Landroidx/collection/SparseArrayCompat;)I
 
     move-result p1
 

@@ -31,7 +31,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -39,7 +40,9 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I    
+    return-void
 .end method
 
 
@@ -48,21 +51,25 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
+    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I
 
     .line 2
     .line 3
     or-int/2addr p1, v0
 
     .line 4
-    iput p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I    
+    return-void
 .end method
 
 .method public boundsMatch()Z
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
+    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I
 
     .line 2
     .line 3
@@ -77,15 +84,18 @@
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mChildStart:I
 
     .line 9
     .line 10
-    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mRvStart:I
+    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mRvStart:I
 
     .line 11
     .line 12
-    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->compare(II)I
+    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->compare(II)I
 
     .line 13
     .line 14
@@ -100,7 +110,8 @@
 
     .line 20
     :cond_0
-    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
+    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I
 
     .line 21
     .line 22
@@ -112,15 +123,18 @@
 
     .line 25
     .line 26
-    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mChildStart:I
 
     .line 27
     .line 28
-    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mRvEnd:I
+    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mRvEnd:I
 
     .line 29
     .line 30
-    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->compare(II)I
+    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->compare(II)I
 
     .line 31
     .line 32
@@ -139,7 +153,8 @@
 
     .line 40
     :cond_1
-    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
+    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I
 
     .line 41
     .line 42
@@ -151,15 +166,18 @@
 
     .line 45
     .line 46
-    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildEnd:I
+    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mChildEnd:I
 
     .line 47
     .line 48
-    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mRvStart:I
+    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mRvStart:I
 
     .line 49
     .line 50
-    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->compare(II)I
+    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->compare(II)I
 
     .line 51
     .line 52
@@ -178,7 +196,8 @@
 
     .line 60
     :cond_2
-    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I
+    iget v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I
 
     .line 61
     .line 62
@@ -190,15 +209,18 @@
 
     .line 65
     .line 66
-    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildEnd:I
+    iget v1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mChildEnd:I
 
     .line 67
     .line 68
-    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mRvEnd:I
+    iget v3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mRvEnd:I
 
     .line 69
     .line 70
-    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->compare(II)I
+    invoke-virtual {p0, v1, v3}, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->compare(II)I
 
     .line 71
     .line 72
@@ -251,26 +273,33 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mBoundFlags:I    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mBoundFlags:I    
+    return-void
 .end method
 
 .method public setBounds(IIII)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mRvStart:I
+    iput p1, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mRvStart:I
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mRvEnd:I
+    iput p2, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mRvEnd:I
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildStart:I
+    iput p3, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mChildStart:I
 
     .line 6
     .line 7
-    iput p4, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildEnd:I    return-void
+    iput p4, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;
+    ->mChildEnd:I    
+    return-void
 .end method
 
 .end class

@@ -85,12 +85,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/profileinstaller/ProfileInstaller$1;-><init>()V
+    invoke-direct {v0}, Landroidx/profileinstaller/ProfileInstaller$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/profileinstaller/ProfileInstaller;->EMPTY_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    sput-object v0, Landroidx/profileinstaller/ProfileInstaller;
+    ->EMPTY_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
     .line 7
     .line 8
@@ -98,12 +100,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Landroidx/profileinstaller/ProfileInstaller$2;-><init>()V
+    invoke-direct {v0}, Landroidx/profileinstaller/ProfileInstaller$2;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/profileinstaller/ProfileInstaller;->LOG_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    sput-object v0, Landroidx/profileinstaller/ProfileInstaller;
+    ->LOG_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
     .line 14
     .line 15
@@ -114,7 +118,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -126,7 +131,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller;->lambda$result$0(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller;
+    ->lambda$result$0(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -134,7 +140,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller;->lambda$diagnostic$1(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller;
+    ->lambda$diagnostic$1(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -146,7 +153,8 @@ return-void
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -159,12 +167,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, p0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Ljava/io/File;
+    -><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/io/File;->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;
+    ->delete()Z
 
     .line 9
     .line 10
@@ -192,7 +202,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getFilesDir()Ljava/io/File;
 
     .line 2
     .line 3
@@ -200,7 +211,8 @@ return-void
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Landroidx/profileinstaller/ProfileInstaller;->deleteProfileWrittenFor(Ljava/io/File;)Z
+    invoke-static {p0}, Landroidx/profileinstaller/ProfileInstaller;
+    ->deleteProfileWrittenFor(Ljava/io/File;)Z
 
     .line 6
     .line 7
@@ -212,7 +224,8 @@ return-void
     const/4 v0, 0x0
 
     .line 11
-    invoke-static {p1, p2, p0, v0}, Landroidx/profileinstaller/ProfileInstaller;->result(Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {p1, p2, p0, v0}, Landroidx/profileinstaller/ProfileInstaller;
+    ->result(Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 
     .line 12
     .line 13
@@ -243,12 +256,14 @@ return-void
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, p1, p2, p3, v1}, Landroidx/profileinstaller/b;-><init>(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;I)V
+    invoke-direct {v0, p1, p2, p3, v1}, Landroidx/profileinstaller/b;
+    -><init>(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p0, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p0, v0}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 8
     .line 9
@@ -260,7 +275,8 @@ return-void
     .locals 4
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -276,12 +292,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, p1, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Ljava/io/File;
+    -><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;
+    ->exists()Z
 
     .line 9
     .line 10
@@ -309,12 +327,14 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v2, v0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+    invoke-direct {v2, v0}, Ljava/io/FileInputStream;
+    -><init>(Ljava/io/File;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-direct {p1, v2}, Ljava/io/DataInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p1, v2}, Ljava/io/DataInputStream;
+    -><init>(Ljava/io/InputStream;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -322,7 +342,8 @@ return-void
     .line 25
     .line 26
     :try_start_1
-    invoke-virtual {p1}, Ljava/io/DataInputStream;->readLong()J
+    invoke-virtual {p1}, Ljava/io/DataInputStream;
+    ->readLong()J
 
     .line 27
     .line 28
@@ -333,14 +354,16 @@ return-void
 
     .line 30
     :try_start_2
-    invoke-virtual {p1}, Ljava/io/InputStream;->close()V
+    invoke-virtual {p1}, Ljava/io/InputStream;
+    ->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
     .line 31
     .line 32
     .line 33
-    iget-wide p0, p0, Landroid/content/pm/PackageInfo;->lastUpdateTime:J
+    iget-wide p0, p0, Landroid/content/pm/PackageInfo;
+    ->lastUpdateTime:J
 
     .line 34
     .line 35
@@ -366,7 +389,8 @@ return-void
     const/4 p1, 0x0
 
     .line 44
-    invoke-interface {p2, p0, p1}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;->onResultReceived(ILjava/lang/Object;)V
+    invoke-interface {p2, p0, p1}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    ->onResultReceived(ILjava/lang/Object;)V
 
     .line 45
     .line 46
@@ -380,7 +404,8 @@ return-void
 
     .line 49
     :try_start_3
-    invoke-virtual {p1}, Ljava/io/InputStream;->close()V
+    invoke-virtual {p1}, Ljava/io/InputStream;
+    ->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -395,7 +420,8 @@ return-void
 
     .line 54
     :try_start_4
-    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;
+    ->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 55
     .line 56
@@ -414,7 +440,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;->onDiagnosticReceived(ILjava/lang/Object;)V
+    invoke-interface {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    ->onDiagnosticReceived(ILjava/lang/Object;)V
 
     .line 2
     .line 3
@@ -426,7 +453,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;->onResultReceived(ILjava/lang/Object;)V
+    invoke-interface {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    ->onResultReceived(ILjava/lang/Object;)V
 
     .line 2
     .line 3
@@ -446,7 +474,8 @@ return-void
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -459,7 +488,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, p1, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Ljava/io/File;
+    -><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -473,12 +503,14 @@ return-void
 
     .line 11
     .line 12
-    invoke-direct {v1, v0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+    invoke-direct {v1, v0}, Ljava/io/FileOutputStream;
+    -><init>(Ljava/io/File;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-direct {p1, v1}, Ljava/io/DataOutputStream;-><init>(Ljava/io/OutputStream;)V
+    invoke-direct {p1, v1}, Ljava/io/DataOutputStream;
+    -><init>(Ljava/io/OutputStream;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -486,11 +518,13 @@ return-void
     .line 17
     .line 18
     :try_start_1
-    iget-wide v0, p0, Landroid/content/pm/PackageInfo;->lastUpdateTime:J
+    iget-wide v0, p0, Landroid/content/pm/PackageInfo;
+    ->lastUpdateTime:J
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0, v1}, Ljava/io/DataOutputStream;->writeLong(J)V
+    invoke-virtual {p1, v0, v1}, Ljava/io/DataOutputStream;
+    ->writeLong(J)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -498,7 +532,8 @@ return-void
     .line 22
     .line 23
     :try_start_2
-    invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
+    invoke-virtual {p1}, Ljava/io/OutputStream;
+    ->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -513,7 +548,8 @@ return-void
 
     .line 28
     :try_start_3
-    invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
+    invoke-virtual {p1}, Ljava/io/OutputStream;
+    ->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -528,7 +564,8 @@ return-void
 
     .line 33
     :try_start_4
-    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;
+    ->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 34
     .line 35
@@ -566,12 +603,14 @@ return-void
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, p2, p3, v1}, Landroidx/profileinstaller/b;-><init>(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;I)V
+    invoke-direct {v0, p1, p2, p3, v1}, Landroidx/profileinstaller/b;
+    -><init>(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p0, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p0, v0}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 8
     .line 9
@@ -623,7 +662,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, p1}, Ljava/io/File;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -632,7 +672,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-direct {v7, v0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v7, v0, p1}, Ljava/io/File;
+    -><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -661,12 +702,14 @@ return-void
     move-object v3, p6
 
     .line 25
-    invoke-direct/range {v0 .. v7}, Landroidx/profileinstaller/DeviceProfileWriter;-><init>(Landroid/content/res/AssetManager;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/profileinstaller/DeviceProfileWriter;
+    -><init>(Landroid/content/res/AssetManager;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0}, Landroidx/profileinstaller/DeviceProfileWriter;->deviceAllowsProfileInstallerAotWrites()Z
+    invoke-virtual {v0}, Landroidx/profileinstaller/DeviceProfileWriter;
+    ->deviceAllowsProfileInstallerAotWrites()Z
 
     .line 29
     .line 30
@@ -684,7 +727,8 @@ return-void
 
     .line 36
     :cond_0
-    invoke-virtual {v0}, Landroidx/profileinstaller/DeviceProfileWriter;->read()Landroidx/profileinstaller/DeviceProfileWriter;
+    invoke-virtual {v0}, Landroidx/profileinstaller/DeviceProfileWriter;
+    ->read()Landroidx/profileinstaller/DeviceProfileWriter;
 
     .line 37
     .line 38
@@ -692,7 +736,8 @@ return-void
     move-result-object p0
 
     .line 40
-    invoke-virtual {p0}, Landroidx/profileinstaller/DeviceProfileWriter;->transcodeIfNeeded()Landroidx/profileinstaller/DeviceProfileWriter;
+    invoke-virtual {p0}, Landroidx/profileinstaller/DeviceProfileWriter;
+    ->transcodeIfNeeded()Landroidx/profileinstaller/DeviceProfileWriter;
 
     .line 41
     .line 42
@@ -700,7 +745,8 @@ return-void
     move-result-object p0
 
     .line 44
-    invoke-virtual {p0}, Landroidx/profileinstaller/DeviceProfileWriter;->write()Z
+    invoke-virtual {p0}, Landroidx/profileinstaller/DeviceProfileWriter;
+    ->write()Z
 
     .line 45
     .line 46
@@ -712,7 +758,8 @@ return-void
 
     .line 49
     .line 50
-    invoke-static {p2, p3}, Landroidx/profileinstaller/ProfileInstaller;->noteProfileWrittenFor(Landroid/content/pm/PackageInfo;Ljava/io/File;)V
+    invoke-static {p2, p3}, Landroidx/profileinstaller/ProfileInstaller;
+    ->noteProfileWrittenFor(Landroid/content/pm/PackageInfo;Ljava/io/File;)V
 
     .line 51
     .line 52
@@ -735,11 +782,14 @@ return-void
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Landroidx/arch/core/executor/a;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/arch/core/executor/a;
+    -><init>(I)V
 
-    sget-object v1, Landroidx/profileinstaller/ProfileInstaller;->EMPTY_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    sget-object v1, Landroidx/profileinstaller/ProfileInstaller;
+    ->EMPTY_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
-    invoke-static {p0, v0, v1}, Landroidx/profileinstaller/ProfileInstaller;->writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)V
+    invoke-static {p0, v0, v1}, Landroidx/profileinstaller/ProfileInstaller;
+    ->writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)V
 return-void
 .end method
 
@@ -763,7 +813,8 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p0, p1, p2, v0}, Landroidx/profileinstaller/ProfileInstaller;->writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Z)V
+    invoke-static {p0, p1, p2, v0}, Landroidx/profileinstaller/ProfileInstaller;
+    ->writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Z)V
 return-void
 .end method
 
@@ -785,38 +836,46 @@ return-void
     .end annotation
 
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
     .line 4
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     move-result-object v2
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v1
 
     .line 6
-    invoke-virtual {v0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object v0
 
     .line 7
     new-instance v3, Ljava/io/File;
 
-    iget-object v1, v1, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
+    iget-object v1, v1, Landroid/content/pm/ApplicationInfo;
+    ->sourceDir:Ljava/lang/String;
 
-    invoke-direct {v3, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v1}, Ljava/io/File;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v3}, Ljava/io/File;->getName()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/io/File;
+    ->getName()Ljava/lang/String;
 
     move-result-object v5
 
     .line 8
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
@@ -824,14 +883,16 @@ return-void
 
     .line 9
     :try_start_0
-    invoke-virtual {v1, v2, v8}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {v1, v2, v8}, Landroid/content/pm/PackageManager;
+    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object v3
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 10
-    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getFilesDir()Ljava/io/File;
 
     move-result-object v4
 
@@ -841,7 +902,8 @@ return-void
     if-nez p3, :cond_1
 
     .line 12
-    invoke-static {v3, v4, p2}, Landroidx/profileinstaller/ProfileInstaller;->hasAlreadyWrittenProfileForThisInstall(Landroid/content/pm/PackageInfo;Ljava/io/File;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)Z
+    invoke-static {v3, v4, p2}, Landroidx/profileinstaller/ProfileInstaller;
+    ->hasAlreadyWrittenProfileForThisInstall(Landroid/content/pm/PackageInfo;Ljava/io/File;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)Z
 
     move-result v6
 
@@ -855,22 +917,28 @@ return-void
 
     const-string p2, "Skipping profile installation for "
 
-    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 14
-    invoke-static {p0, v8}, Landroidx/profileinstaller/ProfileVerifier;->writeProfileVerification(Landroid/content/Context;Z)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
+    invoke-static {p0, v8}, Landroidx/profileinstaller/ProfileVerifier;
+    ->writeProfileVerification(Landroid/content/Context;Z)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
 
     return-void
 
@@ -881,19 +949,24 @@ return-void
 
     const-string v7, "Installing profile for "
 
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-static {v1, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v6}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     move-object v6, p1
 
@@ -902,7 +975,8 @@ return-void
     move-object v1, v0
 
     .line 16
-    invoke-static/range {v1 .. v7}, Landroidx/profileinstaller/ProfileInstaller;->transcodeAndWrite(Landroid/content/res/AssetManager;Ljava/lang/String;Landroid/content/pm/PackageInfo;Ljava/io/File;Ljava/lang/String;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)Z
+    invoke-static/range {v1 .. v7}, Landroidx/profileinstaller/ProfileInstaller;
+    ->transcodeAndWrite(Landroid/content/res/AssetManager;Ljava/lang/String;Landroid/content/pm/PackageInfo;Ljava/io/File;Ljava/lang/String;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)Z
 
     move-result p1
 
@@ -914,7 +988,8 @@ return-void
 
     .line 17
     :cond_2
-    invoke-static {p0, v8}, Landroidx/profileinstaller/ProfileVerifier;->writeProfileVerification(Landroid/content/Context;Z)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
+    invoke-static {p0, v8}, Landroidx/profileinstaller/ProfileVerifier;
+    ->writeProfileVerification(Landroid/content/Context;Z)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
 
     return-void
 
@@ -928,10 +1003,12 @@ return-void
     const/4 p2, 0x7
 
     .line 18
-    invoke-interface {v7, p2, p1}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;->onResultReceived(ILjava/lang/Object;)V
+    invoke-interface {v7, p2, p1}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    ->onResultReceived(ILjava/lang/Object;)V
 
     .line 19
-    invoke-static {p0, v8}, Landroidx/profileinstaller/ProfileVerifier;->writeProfileVerification(Landroid/content/Context;Z)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
+    invoke-static {p0, v8}, Landroidx/profileinstaller/ProfileVerifier;
+    ->writeProfileVerification(Landroid/content/Context;Z)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
 
     return-void
 .end method
@@ -954,7 +1031,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -962,7 +1040,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -970,7 +1049,8 @@ return-void
     move-result-object v0
 
     .line 9
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 10
     .line 11
@@ -982,7 +1062,8 @@ return-void
 
     .line 14
     :try_start_0
-    invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;
+    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 15
     .line 16
@@ -992,7 +1073,8 @@ return-void
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 18
-    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getFilesDir()Ljava/io/File;
 
     .line 19
     .line 20
@@ -1000,7 +1082,8 @@ return-void
     move-result-object p0
 
     .line 22
-    invoke-static {v0, p0}, Landroidx/profileinstaller/ProfileInstaller;->noteProfileWrittenFor(Landroid/content/pm/PackageInfo;Ljava/io/File;)V
+    invoke-static {v0, p0}, Landroidx/profileinstaller/ProfileInstaller;
+    ->noteProfileWrittenFor(Landroid/content/pm/PackageInfo;Ljava/io/File;)V
 
     .line 23
     .line 24
@@ -1012,7 +1095,8 @@ return-void
     const/4 v0, 0x0
 
     .line 28
-    invoke-static {p1, p2, p0, v0}, Landroidx/profileinstaller/ProfileInstaller;->result(Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {p1, p2, p0, v0}, Landroidx/profileinstaller/ProfileInstaller;
+    ->result(Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 
     .line 29
     .line 30
@@ -1027,7 +1111,8 @@ return-void
     const/4 v0, 0x7
 
     .line 34
-    invoke-static {p1, p2, v0, p0}, Landroidx/profileinstaller/ProfileInstaller;->result(Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {p1, p2, v0, p0}, Landroidx/profileinstaller/ProfileInstaller;
+    ->result(Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 
     .line 35
     .line 36

@@ -46,17 +46,21 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->registrationUris:Ljava/util/List;    return-void
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;
+    ->registrationUris:Ljava/util/List;    
+    return-void
 .end method
 
 
@@ -69,15 +73,18 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->registrationUris:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;
+    ->registrationUris:Ljava/util/List;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->inputEvent:Landroid/view/InputEvent;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;
+    ->inputEvent:Landroid/view/InputEvent;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;-><init>(Ljava/util/List;Landroid/view/InputEvent;)V
+    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
+    -><init>(Ljava/util/List;Landroid/view/InputEvent;)V
 return-object v0
 .end method
 
@@ -89,12 +96,15 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;->inputEvent:Landroid/view/InputEvent;    return-object p0
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest$Builder;
+    ->inputEvent:Landroid/view/InputEvent;    
+    return-object p0
 .end method
 
 .end class

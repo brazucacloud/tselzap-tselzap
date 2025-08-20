@@ -17,7 +17,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     .line 2
     .line 3
@@ -67,13 +68,16 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
+    ->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
     move-result-object p0
 
-    invoke-interface {p3, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;
+    ->recycle()V
     return-void
 .end method
 
@@ -99,13 +103,16 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object p0
 
-    invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;
+    ->recycle()V
     return-void
 .end method
 
@@ -152,7 +159,8 @@
 
     .line 17
     :cond_2
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 18
     .line 19
@@ -160,12 +168,14 @@
     move-result-object p0
 
     .line 21
-    invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;
+    ->recycle()V
 
     .line 25
     .line 26

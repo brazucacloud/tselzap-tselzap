@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->addAction(Landroid/app/Notification$Action;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->addAction(Landroid/app/Notification$Action;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;->addExtras(Landroid/os/Bundle;)Landroid/app/Notification$Action$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;
+    ->addExtras(Landroid/os/Bundle;)Landroid/app/Notification$Action$Builder;
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;->addRemoteInput(Landroid/app/RemoteInput;)Landroid/app/Notification$Action$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;
+    ->addRemoteInput(Landroid/app/RemoteInput;)Landroid/app/Notification$Action$Builder;
 
     .line 2
     .line 3
@@ -85,7 +89,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Action$Builder;->build()Landroid/app/Notification$Action;
+    invoke-virtual {p0}, Landroid/app/Notification$Action$Builder;
+    ->build()Landroid/app/Notification$Action;
 
     .line 2
     .line 3
@@ -105,7 +110,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Landroid/app/Notification$Action$Builder;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V
+    invoke-direct {v0, p0, p1, p2}, Landroid/app/Notification$Action$Builder;
+    -><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
     .line 4
     .line 5
@@ -119,7 +125,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;->getGroup()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/Notification;
+    ->getGroup()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -135,7 +142,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setGroup(Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->setGroup(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -151,7 +159,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setGroupSummary(Z)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->setGroupSummary(Z)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -167,7 +176,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setLocalOnly(Z)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->setLocalOnly(Z)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -183,7 +193,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setSortKey(Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
+    ->setSortKey(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3

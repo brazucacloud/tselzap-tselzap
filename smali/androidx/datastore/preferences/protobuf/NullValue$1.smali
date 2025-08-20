@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -41,7 +42,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/NullValue$1;->findValueByNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/NullValue$1;
+    ->findValueByNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
 
     move-result-object p1
 
@@ -52,7 +54,8 @@
     .locals 0
 
     .line 2
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/NullValue;->forNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/NullValue;
+    ->forNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
 
     move-result-object p1
 

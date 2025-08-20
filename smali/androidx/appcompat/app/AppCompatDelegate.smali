@@ -89,17 +89,20 @@
 
     .line 4
     .line 5
-    invoke-direct {v1}, Landroidx/appcompat/app/AppCompatDelegate$ThreadPerTaskExecutor;-><init>()V
+    invoke-direct {v1}, Landroidx/appcompat/app/AppCompatDelegate$ThreadPerTaskExecutor;
+    -><init>()V
 
     .line 6
     .line 7
     .line 8
-    invoke-direct {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;-><init>(Ljava/util/concurrent/Executor;)V
+    invoke-direct {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
+    -><init>(Ljava/util/concurrent/Executor;)V
 
     .line 9
     .line 10
     .line 11
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sSerialExecutorForLocalesStorage:Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sSerialExecutorForLocalesStorage:Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
 
     .line 12
     .line 13
@@ -107,29 +110,34 @@
 
     .line 14
     .line 15
-    sput v0, Landroidx/appcompat/app/AppCompatDelegate;->sDefaultNightMode:I
+    sput v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sDefaultNightMode:I
 
     .line 16
     .line 17
     const/4 v0, 0x0
 
     .line 18
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 19
     .line 20
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 21
     .line 22
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
 
     .line 23
     .line 24
     const/4 v0, 0x0
 
     .line 25
-    sput-boolean v0, Landroidx/appcompat/app/AppCompatDelegate;->sIsFrameworkSyncChecked:Z
+    sput-boolean v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsFrameworkSyncChecked:Z
 
     .line 26
     .line 27
@@ -137,12 +145,14 @@
 
     .line 28
     .line 29
-    invoke-direct {v0}, Landroidx/collection/ArraySet;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArraySet;
+    -><init>()V
 
     .line 30
     .line 31
     .line 32
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegates:Landroidx/collection/ArraySet;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegates:Landroidx/collection/ArraySet;
 
     .line 33
     .line 34
@@ -150,12 +160,14 @@
 
     .line 35
     .line 36
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 37
     .line 38
     .line 39
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegatesLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegatesLock:Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -163,19 +175,22 @@
 
     .line 42
     .line 43
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 44
     .line 45
     .line 46
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sAppLocalesStorageSyncLock:Ljava/lang/Object;    return-void
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sAppLocalesStorageSyncLock:Ljava/lang/Object;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -183,7 +198,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->lambda$syncRequestedAndStoredLocales$1(Landroid/content/Context;)V
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->lambda$syncRequestedAndStoredLocales$1(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -195,7 +211,8 @@ return-void
     .end param
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegatesLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegatesLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -203,12 +220,14 @@ return-void
 
     .line 4
     :try_start_0
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->removeDelegateFromActives(Landroidx/appcompat/app/AppCompatDelegate;)V
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->removeDelegateFromActives(Landroidx/appcompat/app/AppCompatDelegate;)V
 
     .line 5
     .line 6
     .line 7
-    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegates:Landroidx/collection/ArraySet;
+    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegates:Landroidx/collection/ArraySet;
 
     .line 8
     .line 9
@@ -216,12 +235,14 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v2, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v2, p0}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {v1, v2}, Landroidx/collection/ArraySet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Landroidx/collection/ArraySet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -246,7 +267,8 @@ return-void
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegatesLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegatesLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -254,11 +276,13 @@ return-void
 
     .line 4
     :try_start_0
-    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegates:Landroidx/collection/ArraySet;
+    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegates:Landroidx/collection/ArraySet;
 
     .line 5
     .line 6
-    invoke-virtual {v1}, Landroidx/collection/ArraySet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Landroidx/collection/ArraySet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -268,7 +292,8 @@ return-void
     .line 10
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -280,7 +305,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -292,7 +318,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -308,7 +335,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {v2}, Landroidx/appcompat/app/AppCompatDelegate;->applyDayNight()Z
+    invoke-virtual {v2}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->applyDayNight()Z
 
     .line 31
     .line 32
@@ -341,11 +369,13 @@ return-void
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegates:Landroidx/collection/ArraySet;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegates:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/ArraySet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Landroidx/collection/ArraySet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -355,7 +385,8 @@ return-void
     .line 7
     :cond_0
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -367,7 +398,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -379,7 +411,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -395,7 +428,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Landroidx/appcompat/app/AppCompatDelegate;->applyAppLocales()Z
+    invoke-virtual {v1}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->applyAppLocales()Z
 
     .line 28
     .line 29
@@ -411,7 +445,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->lambda$asyncExecuteSyncRequestedAndStoredLocales$0(Landroid/content/Context;)V
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->lambda$asyncExecuteSyncRequestedAndStoredLocales$0(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -431,7 +466,8 @@ return-void
     .line 1
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
-    invoke-direct {v0, p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
+    invoke-direct {v0, p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    -><init>(Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
 return-object v0
 .end method
 
@@ -451,7 +487,8 @@ return-object v0
     .line 2
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
-    invoke-direct {v0, p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatCallback;)V
+    invoke-direct {v0, p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    -><init>(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatCallback;)V
 return-object v0
 .end method
 
@@ -475,7 +512,8 @@ return-object v0
     .line 4
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
-    invoke-direct {v0, p0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/content/Context;Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    -><init>(Landroid/content/Context;Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
 return-object v0
 .end method
 
@@ -499,7 +537,8 @@ return-object v0
     .line 3
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
-    invoke-direct {v0, p0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/content/Context;Landroid/view/Window;Landroidx/appcompat/app/AppCompatCallback;)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    -><init>(Landroid/content/Context;Landroid/view/Window;Landroidx/appcompat/app/AppCompatCallback;)V
 return-object v0
 .end method
 
@@ -512,7 +551,8 @@ return-object v0
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -524,7 +564,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;->getLocaleManagerForApplication()Ljava/lang/Object;
+    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->getLocaleManagerForApplication()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -536,7 +577,8 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-static {v0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;->localeManagerGetApplicationLocales(Ljava/lang/Object;)Landroid/os/LocaleList;
+    invoke-static {v0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;
+    ->localeManagerGetApplicationLocales(Ljava/lang/Object;)Landroid/os/LocaleList;
 
     .line 14
     .line 15
@@ -544,7 +586,8 @@ return-object v0
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Landroidx/core/os/LocaleListCompat;->wrap(Landroid/os/LocaleList;)Landroidx/core/os/LocaleListCompat;
+    invoke-static {v0}, Landroidx/core/os/LocaleListCompat;
+    ->wrap(Landroid/os/LocaleList;)Landroidx/core/os/LocaleListCompat;
 
     .line 18
     .line 19
@@ -555,7 +598,8 @@ return-object v0
 
     .line 22
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 23
     .line 24
@@ -563,7 +607,8 @@ return-object v0
 
     .line 27
     :cond_1
-    invoke-static {}, Landroidx/core/os/LocaleListCompat;->getEmptyLocaleList()Landroidx/core/os/LocaleListCompat;
+    invoke-static {}, Landroidx/core/os/LocaleListCompat;
+    ->getEmptyLocaleList()Landroidx/core/os/LocaleListCompat;
 
     .line 28
     .line 29
@@ -577,7 +622,8 @@ return-object v0
     .locals 1
 
     .line 1
-    sget v0, Landroidx/appcompat/app/AppCompatDelegate;->sDefaultNightMode:I    return v0
+    sget v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sDefaultNightMode:I    return v0
 .end method
 
 .method public static getLocaleManagerForApplication()Ljava/lang/Object;
@@ -587,11 +633,13 @@ return-object v0
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegates:Landroidx/collection/ArraySet;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegates:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/ArraySet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Landroidx/collection/ArraySet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -600,7 +648,8 @@ return-object v0
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -612,7 +661,8 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -624,7 +674,8 @@ return-object v0
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -640,7 +691,8 @@ return-object v0
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Landroidx/appcompat/app/AppCompatDelegate;->getContextForDelegate()Landroid/content/Context;
+    invoke-virtual {v1}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->getContextForDelegate()Landroid/content/Context;
 
     .line 28
     .line 29
@@ -656,7 +708,8 @@ return-object v0
 
     .line 34
     .line 35
-    invoke-virtual {v1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -678,7 +731,8 @@ return-object v0
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;    return-object v0
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;    return-object v0
 .end method
 
 .method public static getStoredAppLocales()Landroidx/core/os/LocaleListCompat;
@@ -687,14 +741,16 @@ return-object v0
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;    return-object v0
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;    return-object v0
 .end method
 
 .method public static isAutoStorageOptedIn(Landroid/content/Context;)Z
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -703,7 +759,8 @@ return-object v0
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p0}, Landroidx/appcompat/app/AppLocalesMetadataHolderService;->getServiceInfo(Landroid/content/Context;)Landroid/content/pm/ServiceInfo;
+    invoke-static {p0}, Landroidx/appcompat/app/AppLocalesMetadataHolderService;
+    ->getServiceInfo(Landroid/content/Context;)Landroid/content/pm/ServiceInfo;
 
     .line 6
     .line 7
@@ -711,7 +768,8 @@ return-object v0
     move-result-object p0
 
     .line 9
-    iget-object p0, p0, Landroid/content/pm/ServiceInfo;->metaData:Landroid/os/Bundle;
+    iget-object p0, p0, Landroid/content/pm/ServiceInfo;
+    ->metaData:Landroid/os/Bundle;
 
     .line 10
     .line 11
@@ -723,7 +781,8 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;
+    ->getBoolean(Ljava/lang/String;)Z
 
     .line 16
     .line 17
@@ -731,7 +790,8 @@ return-object v0
     move-result p0
 
     .line 19
-    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 20
     .line 21
@@ -739,7 +799,8 @@ return-object v0
     move-result-object p0
 
     .line 23
-    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
+    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -757,26 +818,31 @@ return-object v0
 
     .line 29
     .line 30
-    invoke-static {p0, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 31
     .line 32
     .line 33
-    sget-object p0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    sget-object p0, Ljava/lang/Boolean;
+    ->FALSE:Ljava/lang/Boolean;
 
     .line 34
     .line 35
-    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
+    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
 
     .line 36
     .line 37
     :cond_0
     :goto_0
-    sget-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
+    sget-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;
 
     .line 38
     .line 39
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 40
     .line 41
@@ -790,7 +856,8 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/appcompat/widget/VectorEnabledTintResources;->isCompatVectorFromResourcesEnabled()Z
+    invoke-static {}, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->isCompatVectorFromResourcesEnabled()Z
 
     .line 2
     .line 3
@@ -804,7 +871,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->syncRequestedAndStoredLocales(Landroid/content/Context;)V
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->syncRequestedAndStoredLocales(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -812,7 +880,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->syncLocalesToFramework(Landroid/content/Context;)V
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->syncLocalesToFramework(Landroid/content/Context;)V
 
     .line 2
     .line 3
@@ -820,7 +889,8 @@ return-void
     const/4 p0, 0x1
 
     .line 5
-    sput-boolean p0, Landroidx/appcompat/app/AppCompatDelegate;->sIsFrameworkSyncChecked:Z    return-void
+    sput-boolean p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsFrameworkSyncChecked:Z    return-void
 .end method
 
 .method public static removeActivityDelegate(Landroidx/appcompat/app/AppCompatDelegate;)V
@@ -831,7 +901,8 @@ return-void
     .end param
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegatesLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegatesLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -839,7 +910,8 @@ return-void
 
     .line 4
     :try_start_0
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->removeDelegateFromActives(Landroidx/appcompat/app/AppCompatDelegate;)V
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->removeDelegateFromActives(Landroidx/appcompat/app/AppCompatDelegate;)V
 
     .line 5
     .line 6
@@ -868,7 +940,8 @@ return-void
     .end param
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegatesLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegatesLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -876,11 +949,13 @@ return-void
 
     .line 4
     :try_start_0
-    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegates:Landroidx/collection/ArraySet;
+    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegates:Landroidx/collection/ArraySet;
 
     .line 5
     .line 6
-    invoke-virtual {v1}, Landroidx/collection/ArraySet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Landroidx/collection/ArraySet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -890,7 +965,8 @@ return-void
     .line 10
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -902,7 +978,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -914,7 +991,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -935,7 +1013,8 @@ return-void
     .line 31
     .line 32
     :cond_1
-    invoke-interface {v1}, Ljava/util/Iterator;->remove()V
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->remove()V
 
     .line 33
     .line 34
@@ -973,11 +1052,13 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 3
     .line 4
-    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;    return-void
+    sput-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;    return-void
 .end method
 
 .method public static setApplicationLocales(Landroidx/core/os/LocaleListCompat;)V
@@ -988,12 +1069,14 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 5
     .line 6
@@ -1005,7 +1088,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;->getLocaleManagerForApplication()Ljava/lang/Object;
+    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->getLocaleManagerForApplication()Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -1017,7 +1101,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroidx/core/os/LocaleListCompat;->toLanguageTags()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/core/os/LocaleListCompat;
+    ->toLanguageTags()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -1025,7 +1110,8 @@ return-void
     move-result-object p0
 
     .line 20
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate$Api24Impl;->localeListForLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate$Api24Impl;
+    ->localeListForLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
 
     .line 21
     .line 22
@@ -1033,16 +1119,19 @@ return-void
     move-result-object p0
 
     .line 24
-    invoke-static {v0, p0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V
+    invoke-static {v0, p0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;
+    ->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V
     return-void
 
     .line 28
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 29
     .line 30
-    invoke-virtual {p0, v0}, Landroidx/core/os/LocaleListCompat;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Landroidx/core/os/LocaleListCompat;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -1054,7 +1143,8 @@ return-void
 
     .line 35
     .line 36
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sActivityDelegatesLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sActivityDelegatesLock:Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -1062,11 +1152,13 @@ return-void
 
     .line 39
     :try_start_0
-    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 40
     .line 41
-    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;->applyLocalesToActiveDelegates()V
+    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->applyLocalesToActiveDelegates()V
 
     .line 42
     .line 43
@@ -1096,7 +1188,9 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/widget/VectorEnabledTintResources;->setCompatVectorFromResourcesEnabled(Z)V    return-void
+    invoke-static {p0}, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->setCompatVectorFromResourcesEnabled(Z)V    
+    return-void
 .end method
 
 .method public static setDefaultNightMode(I)V
@@ -1143,11 +1237,14 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {p0, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I    return-void
+    invoke-static {p0, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I    
+    return-void
 
     .line 23
     :cond_0
-    sget v0, Landroidx/appcompat/app/AppCompatDelegate;->sDefaultNightMode:I
+    sget v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sDefaultNightMode:I
 
     .line 24
     .line 25
@@ -1155,11 +1252,13 @@ return-void
 
     .line 26
     .line 27
-    sput p0, Landroidx/appcompat/app/AppCompatDelegate;->sDefaultNightMode:I
+    sput p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sDefaultNightMode:I
 
     .line 28
     .line 29
-    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;->applyDayNightToActiveDelegates()V
+    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->applyDayNightToActiveDelegates()V
 
     .line 30
     .line 31
@@ -1174,7 +1273,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -1182,14 +1282,16 @@ return-void
     move-result-object p0
 
     .line 5
-    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;    return-void
+    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsAutoStoreLocalesOptedIn:Ljava/lang/Boolean;    return-void
 .end method
 
 .method public static syncLocalesToFramework(Landroid/content/Context;)V
     .locals 4
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1209,12 +1311,14 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, p0, v1}, Landroid/content/ComponentName;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Landroid/content/ComponentName;
+    -><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 15
     .line 16
@@ -1222,7 +1326,8 @@ return-void
     move-result-object v1
 
     .line 18
-    invoke-virtual {v1, v0}, Landroid/content/pm/PackageManager;->getComponentEnabledSetting(Landroid/content/ComponentName;)I
+    invoke-virtual {v1, v0}, Landroid/content/pm/PackageManager;
+    ->getComponentEnabledSetting(Landroid/content/ComponentName;)I
 
     .line 19
     .line 20
@@ -1237,7 +1342,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;->getApplicationLocales()Landroidx/core/os/LocaleListCompat;
+    invoke-static {}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->getApplicationLocales()Landroidx/core/os/LocaleListCompat;
 
     .line 26
     .line 27
@@ -1245,7 +1351,8 @@ return-void
     move-result-object v1
 
     .line 29
-    invoke-virtual {v1}, Landroidx/core/os/LocaleListCompat;->isEmpty()Z
+    invoke-virtual {v1}, Landroidx/core/os/LocaleListCompat;
+    ->isEmpty()Z
 
     .line 30
     .line 31
@@ -1257,7 +1364,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-static {p0}, Landroidx/core/app/AppLocalesStorageHelper;->readLocales(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/app/AppLocalesStorageHelper;
+    ->readLocales(Landroid/content/Context;)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -1269,7 +1377,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -1281,7 +1390,8 @@ return-void
 
     .line 46
     .line 47
-    invoke-static {v1}, Landroidx/appcompat/app/AppCompatDelegate$Api24Impl;->localeListForLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
+    invoke-static {v1}, Landroidx/appcompat/app/AppCompatDelegate$Api24Impl;
+    ->localeListForLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
 
     .line 48
     .line 49
@@ -1289,13 +1399,15 @@ return-void
     move-result-object v1
 
     .line 51
-    invoke-static {v3, v1}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V
+    invoke-static {v3, v1}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;
+    ->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V
 
     .line 52
     .line 53
     .line 54
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 55
     .line 56
@@ -1303,7 +1415,8 @@ return-void
     move-result-object p0
 
     .line 58
-    invoke-virtual {p0, v0, v2, v2}, Landroid/content/pm/PackageManager;->setComponentEnabledSetting(Landroid/content/ComponentName;II)V
+    invoke-virtual {p0, v0, v2, v2}, Landroid/content/pm/PackageManager;
+    ->setComponentEnabledSetting(Landroid/content/ComponentName;II)V
 
     .line 59
     .line 60
@@ -1316,7 +1429,8 @@ return-void
     .locals 3
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->isAutoStorageOptedIn(Landroid/content/Context;)Z
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->isAutoStorageOptedIn(Landroid/content/Context;)Z
 
     .line 2
     .line 3
@@ -1332,7 +1446,8 @@ return-void
 
     .line 8
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 9
     .line 10
@@ -1344,7 +1459,8 @@ return-void
 
     .line 13
     .line 14
-    sget-boolean v0, Landroidx/appcompat/app/AppCompatDelegate;->sIsFrameworkSyncChecked:Z
+    sget-boolean v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sIsFrameworkSyncChecked:Z
 
     .line 15
     .line 16
@@ -1352,7 +1468,8 @@ return-void
 
     .line 17
     .line 18
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sSerialExecutorForLocalesStorage:Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sSerialExecutorForLocalesStorage:Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
 
     .line 19
     .line 20
@@ -1363,12 +1480,14 @@ return-void
     const/4 v2, 0x0
 
     .line 23
-    invoke-direct {v1, p0, v2}, Landroidx/appcompat/app/a;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v1, p0, v2}, Landroidx/appcompat/app/a;
+    -><init>(Landroid/content/Context;I)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->execute(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 27
     .line 28
@@ -1379,7 +1498,8 @@ return-void
 
     .line 30
     :cond_2
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sAppLocalesStorageSyncLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sAppLocalesStorageSyncLock:Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1387,7 +1507,8 @@ return-void
 
     .line 33
     :try_start_0
-    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 34
     .line 35
@@ -1395,7 +1516,8 @@ return-void
 
     .line 36
     .line 37
-    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 38
     .line 39
@@ -1403,7 +1525,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-static {p0}, Landroidx/core/app/AppLocalesStorageHelper;->readLocales(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/app/AppLocalesStorageHelper;
+    ->readLocales(Landroid/content/Context;)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -1411,7 +1534,8 @@ return-void
     move-result-object p0
 
     .line 45
-    invoke-static {p0}, Landroidx/core/os/LocaleListCompat;->forLanguageTags(Ljava/lang/String;)Landroidx/core/os/LocaleListCompat;
+    invoke-static {p0}, Landroidx/core/os/LocaleListCompat;
+    ->forLanguageTags(Ljava/lang/String;)Landroidx/core/os/LocaleListCompat;
 
     .line 46
     .line 47
@@ -1419,7 +1543,8 @@ return-void
     move-result-object p0
 
     .line 49
-    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 50
     .line 51
@@ -1435,11 +1560,13 @@ return-void
     .line 54
     :cond_3
     :goto_1
-    sget-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 55
     .line 56
-    invoke-virtual {p0}, Landroidx/core/os/LocaleListCompat;->isEmpty()Z
+    invoke-virtual {p0}, Landroidx/core/os/LocaleListCompat;
+    ->isEmpty()Z
 
     .line 57
     .line 58
@@ -1457,11 +1584,13 @@ return-void
 
     .line 64
     :cond_4
-    sget-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 65
     .line 66
-    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object p0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 67
     .line 68
@@ -1469,11 +1598,13 @@ return-void
 
     .line 69
     :cond_5
-    sget-object v2, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object v2, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 70
     .line 71
-    invoke-virtual {v1, v2}, Landroidx/core/os/LocaleListCompat;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Landroidx/core/os/LocaleListCompat;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 72
     .line 73
@@ -1485,15 +1616,18 @@ return-void
 
     .line 76
     .line 77
-    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
+    sget-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sRequestedAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 78
     .line 79
-    sput-object v1, Landroidx/appcompat/app/AppCompatDelegate;->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
+    sput-object v1, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sStoredAppLocales:Landroidx/core/os/LocaleListCompat;
 
     .line 80
     .line 81
-    invoke-virtual {v1}, Landroidx/core/os/LocaleListCompat;->toLanguageTags()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/core/os/LocaleListCompat;
+    ->toLanguageTags()Ljava/lang/String;
 
     .line 82
     .line 83
@@ -1501,7 +1635,8 @@ return-void
     move-result-object v1
 
     .line 85
-    invoke-static {p0, v1}, Landroidx/core/app/AppLocalesStorageHelper;->persistLocales(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Landroidx/core/app/AppLocalesStorageHelper;
+    ->persistLocales(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -1541,7 +1676,8 @@ return-void
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;->sSerialExecutorForLocalesStorage:Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
+    sget-object v0, Landroidx/appcompat/app/AppCompatDelegate;
+    ->sSerialExecutorForLocalesStorage:Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
 
     .line 2
     .line 3
@@ -1552,12 +1688,14 @@ return-void
     const/4 v2, 0x1
 
     .line 6
-    invoke-direct {v1, p1, v2}, Landroidx/appcompat/app/a;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v1, p1, v2}, Landroidx/appcompat/app/a;
+    -><init>(Landroid/content/Context;I)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->execute(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -1582,7 +1720,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->attachBaseContext(Landroid/content/Context;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatDelegate;
+    ->attachBaseContext(Landroid/content/Context;)V
 return-object p1
 .end method
 

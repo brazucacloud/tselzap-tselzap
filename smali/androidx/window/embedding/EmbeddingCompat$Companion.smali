@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/embedding/EmbeddingCompat$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/window/embedding/EmbeddingCompat$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +39,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/window/embedding/EmbeddingCompat$Companion;->isEmbeddingAvailable()Z
+    invoke-virtual {p0}, Landroidx/window/embedding/EmbeddingCompat$Companion;
+    ->isEmbeddingAvailable()Z
 
     .line 2
     .line 3
@@ -49,7 +52,8 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/window/extensions/WindowExtensionsProvider;->getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
+    invoke-static {}, Landroidx/window/extensions/WindowExtensionsProvider;
+    ->getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
 
     .line 8
     .line 9
@@ -57,7 +61,8 @@
     move-result-object v0
 
     .line 11
-    invoke-interface {v0}, Landroidx/window/extensions/WindowExtensions;->getActivityEmbeddingComponent()Landroidx/window/extensions/embedding/ActivityEmbeddingComponent;
+    invoke-interface {v0}, Landroidx/window/extensions/WindowExtensions;
+    ->getActivityEmbeddingComponent()Landroidx/window/extensions/embedding/ActivityEmbeddingComponent;
 
     .line 12
     .line 13
@@ -73,7 +78,8 @@
 
     .line 18
     .line 19
-    invoke-direct {v0}, Landroidx/window/embedding/EmptyEmbeddingComponent;-><init>()V
+    invoke-direct {v0}, Landroidx/window/embedding/EmptyEmbeddingComponent;
+    -><init>()V
 
     .line 20
     .line 21
@@ -91,7 +97,8 @@
 
     .line 26
     .line 27
-    invoke-direct {v0}, Landroidx/window/embedding/EmptyEmbeddingComponent;-><init>()V
+    invoke-direct {v0}, Landroidx/window/embedding/EmptyEmbeddingComponent;
+    -><init>()V
 
     .line 28
     .line 29
@@ -112,7 +119,8 @@
     .line 2
     .line 3
     :try_start_0
-    invoke-static {}, Landroidx/window/extensions/WindowExtensionsProvider;->getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
+    invoke-static {}, Landroidx/window/extensions/WindowExtensionsProvider;
+    ->getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
 
     .line 4
     .line 5
@@ -120,7 +128,8 @@
     move-result-object v1
 
     .line 7
-    invoke-interface {v1}, Landroidx/window/extensions/WindowExtensions;->getVendorApiLevel()I
+    invoke-interface {v1}, Landroidx/window/extensions/WindowExtensions;
+    ->getVendorApiLevel()I
 
     .line 8
     .line 9
@@ -128,7 +137,8 @@
     move-result v1
 
     .line 11
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 12
     .line 13
@@ -146,7 +156,8 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 19
     .line 20
@@ -159,7 +170,8 @@
 
     .line 23
     .line 24
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 25
     .line 26
@@ -182,7 +194,8 @@
 
     .line 4
     :try_start_0
-    invoke-static {}, Landroidx/window/extensions/WindowExtensionsProvider;->getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
+    invoke-static {}, Landroidx/window/extensions/WindowExtensionsProvider;
+    ->getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
 
     .line 5
     .line 6
@@ -190,7 +203,8 @@
     move-result-object v2
 
     .line 8
-    invoke-interface {v2}, Landroidx/window/extensions/WindowExtensions;->getActivityEmbeddingComponent()Landroidx/window/extensions/embedding/ActivityEmbeddingComponent;
+    invoke-interface {v2}, Landroidx/window/extensions/WindowExtensions;
+    ->getActivityEmbeddingComponent()Landroidx/window/extensions/embedding/ActivityEmbeddingComponent;
 
     .line 9
     .line 10
@@ -219,7 +233,8 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 20
     .line 21
@@ -232,7 +247,8 @@
 
     .line 24
     .line 25
-    invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 26
     .line 27

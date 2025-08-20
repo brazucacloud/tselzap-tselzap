@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/window/layout/SafeWindowLayoutComponentProvider;->isWindowExtensionsValid(Ljava/lang/ClassLoader;)Z
+    value = Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    ->isWindowExtensionsValid(Ljava/lang/ClassLoader;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Ljava/lang/ClassLoader;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;->$classLoader:Ljava/lang/ClassLoader;
+    iput-object p1, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;
+    ->$classLoader:Ljava/lang/ClassLoader;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -46,11 +49,14 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    sget-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    ->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider;
 
-    iget-object v1, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;->$classLoader:Ljava/lang/ClassLoader;
+    iget-object v1, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;
+    ->$classLoader:Ljava/lang/ClassLoader;
 
-    invoke-static {v0, v1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->access$windowExtensionsClass(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {v0, v1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    ->access$windowExtensionsClass(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object v1
 
@@ -61,23 +67,28 @@ return-void
 
     const-string v4, "getWindowLayoutComponent"
 
-    invoke-virtual {v1, v4, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v1, v4, v3}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
     .line 4
-    iget-object v3, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;->$classLoader:Ljava/lang/ClassLoader;
+    iget-object v3, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;
+    ->$classLoader:Ljava/lang/ClassLoader;
 
-    invoke-static {v0, v3}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->access$windowLayoutComponentClass(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {v0, v3}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    ->access$windowLayoutComponentClass(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object v3
 
     .line 5
     const-string v4, "getWindowLayoutComponentMethod"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0, v1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->access$isPublic(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/reflect/Method;)Z
+    invoke-static {v0, v1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    ->access$isPublic(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/reflect/Method;)Z
 
     move-result v4
 
@@ -86,9 +97,11 @@ return-void
     .line 6
     const-string v4, "windowLayoutComponentClass"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0, v1, v3}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->access$doesReturn(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
+    invoke-static {v0, v1, v3}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    ->access$doesReturn(Landroidx/window/layout/SafeWindowLayoutComponentProvider;Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
 
     move-result v0
 
@@ -97,7 +110,8 @@ return-void
     const/4 v2, 0x1
 
     :cond_0
-    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -108,7 +122,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;->invoke()Ljava/lang/Boolean;
+    invoke-virtual {p0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;
+    ->invoke()Ljava/lang/Boolean;
 
     move-result-object v0
 

@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -36,7 +37,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -45,7 +47,8 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -54,25 +57,30 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleController;->lifecycle:Landroidx/lifecycle/Lifecycle;
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleController;
+    ->lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 25
     .line 26
-    iput-object p2, p0, Landroidx/lifecycle/LifecycleController;->minState:Landroidx/lifecycle/Lifecycle$State;
+    iput-object p2, p0, Landroidx/lifecycle/LifecycleController;
+    ->minState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 27
     .line 28
-    iput-object p3, p0, Landroidx/lifecycle/LifecycleController;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
+    iput-object p3, p0, Landroidx/lifecycle/LifecycleController;
+    ->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
 
     .line 29
     .line 30
@@ -80,16 +88,19 @@
 
     .line 31
     .line 32
-    invoke-direct {p2, p0, p4}, Landroidx/lifecycle/e;-><init>(Landroidx/lifecycle/LifecycleController;Lz1/V;)V
+    invoke-direct {p2, p0, p4}, Landroidx/lifecycle/e;
+    -><init>(Landroidx/lifecycle/LifecycleController;Lz1/V;)V
 
     .line 33
     .line 34
     .line 35
-    iput-object p2, p0, Landroidx/lifecycle/LifecycleController;->observer:Landroidx/lifecycle/LifecycleEventObserver;
+    iput-object p2, p0, Landroidx/lifecycle/LifecycleController;
+    ->observer:Landroidx/lifecycle/LifecycleEventObserver;
 
     .line 36
     .line 37
-    invoke-virtual {p1}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p1}, Landroidx/lifecycle/Lifecycle;
+    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 38
     .line 39
@@ -97,7 +108,8 @@
     move-result-object p3
 
     .line 41
-    sget-object v0, Landroidx/lifecycle/Lifecycle$State;->DESTROYED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v0, Landroidx/lifecycle/Lifecycle$State;
+    ->DESTROYED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 42
     .line 43
@@ -108,17 +120,20 @@
     const/4 p1, 0x0
 
     .line 46
-    invoke-interface {p4, p1}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p4, p1}, Lz1/V;
+    ->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;
+    ->finish()V
     return-void
 
     .line 53
     :cond_0
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 return-void
 .end method
 
@@ -126,7 +141,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/lifecycle/LifecycleController;->observer$lambda$0(Landroidx/lifecycle/LifecycleController;Lz1/V;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/lifecycle/LifecycleController;
+    ->observer$lambda$0(Landroidx/lifecycle/LifecycleController;Lz1/V;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
     return-void
 .end method
@@ -138,12 +154,14 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-interface {p1, v0}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, v0}, Lz1/V;
+    ->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;
+    ->finish()V
     return-void
 .end method
 
@@ -155,7 +173,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -164,7 +183,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -173,7 +193,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -182,12 +203,14 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {p2}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p2}, Landroidx/lifecycle/LifecycleOwner;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 22
     .line 23
@@ -195,7 +218,8 @@ return-void
     move-result-object p3
 
     .line 25
-    invoke-virtual {p3}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p3}, Landroidx/lifecycle/Lifecycle;
+    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 26
     .line 27
@@ -203,7 +227,8 @@ return-void
     move-result-object p3
 
     .line 29
-    sget-object v0, Landroidx/lifecycle/Lifecycle$State;->DESTROYED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v0, Landroidx/lifecycle/Lifecycle$State;
+    ->DESTROYED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 30
     .line 31
@@ -214,17 +239,20 @@ return-void
     const/4 p2, 0x0
 
     .line 34
-    invoke-interface {p1, p2}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, p2}, Lz1/V;
+    ->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;
+    ->finish()V
     return-void
 
     .line 41
     :cond_0
-    invoke-interface {p2}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p2}, Landroidx/lifecycle/LifecycleOwner;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 42
     .line 43
@@ -232,7 +260,8 @@ return-void
     move-result-object p1
 
     .line 45
-    invoke-virtual {p1}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p1}, Landroidx/lifecycle/Lifecycle;
+    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 46
     .line 47
@@ -240,11 +269,13 @@ return-void
     move-result-object p1
 
     .line 49
-    iget-object p2, p0, Landroidx/lifecycle/LifecycleController;->minState:Landroidx/lifecycle/Lifecycle$State;
+    iget-object p2, p0, Landroidx/lifecycle/LifecycleController;
+    ->minState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 50
     .line 51
-    invoke-virtual {p1, p2}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
+    invoke-virtual {p1, p2}, Ljava/lang/Enum;
+    ->compareTo(Ljava/lang/Enum;)I
 
     .line 52
     .line 53
@@ -256,20 +287,24 @@ return-void
 
     .line 56
     .line 57
-    iget-object p0, p0, Landroidx/lifecycle/LifecycleController;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
+    iget-object p0, p0, Landroidx/lifecycle/LifecycleController;
+    ->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
 
     .line 58
     .line 59
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->pause()V
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;
+    ->pause()V
     return-void
 
     .line 63
     :cond_1
-    iget-object p0, p0, Landroidx/lifecycle/LifecycleController;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
+    iget-object p0, p0, Landroidx/lifecycle/LifecycleController;
+    ->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
 
     .line 64
     .line 65
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->resume()V
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;
+    ->resume()V
     return-void
 .end method
 
@@ -281,24 +316,29 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleController;->lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleController;
+    ->lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/LifecycleController;->observer:Landroidx/lifecycle/LifecycleEventObserver;
+    iget-object v1, p0, Landroidx/lifecycle/LifecycleController;
+    ->observer:Landroidx/lifecycle/LifecycleEventObserver;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;
+    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleController;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleController;
+    ->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroidx/lifecycle/DispatchQueue;->finish()V
+    invoke-virtual {v0}, Landroidx/lifecycle/DispatchQueue;
+    ->finish()V
     return-void
 .end method
 

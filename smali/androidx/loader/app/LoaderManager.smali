@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -24,7 +25,8 @@
     .locals 0
 
     .line 1
-    sput-boolean p0, Landroidx/loader/app/LoaderManagerImpl;->DEBUG:Z    return-void
+    sput-boolean p0, Landroidx/loader/app/LoaderManagerImpl;
+    ->DEBUG:Z    return-void
 .end method
 
 .method public static getInstance(Landroidx/lifecycle/LifecycleOwner;)Landroidx/loader/app/LoaderManager;
@@ -59,7 +61,8 @@
 
     .line 5
     .line 6
-    invoke-interface {v1}, Landroidx/lifecycle/ViewModelStoreOwner;->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
+    invoke-interface {v1}, Landroidx/lifecycle/ViewModelStoreOwner;
+    ->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
 
     .line 7
     .line 8
@@ -67,7 +70,9 @@
     move-result-object v1
 
     .line 10
-    invoke-direct {v0, p0, v1}, Landroidx/loader/app/LoaderManagerImpl;-><init>(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/ViewModelStore;)V    return-object v0
+    invoke-direct {v0, p0, v1}, Landroidx/loader/app/LoaderManagerImpl;
+    -><init>(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/ViewModelStore;)V    
+    return-object v0
 .end method
 
 

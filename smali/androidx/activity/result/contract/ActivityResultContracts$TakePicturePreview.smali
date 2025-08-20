@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +41,8 @@
     .line 1
     check-cast p2, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview;->createIntent(Landroid/content/Context;Ljava/lang/Void;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview;
+    ->createIntent(Landroid/content/Context;Ljava/lang/Void;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -54,14 +56,16 @@
 
     const-string p2, "context"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "android.media.action.IMAGE_CAPTURE"
 
-    invoke-direct {p1, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 .end method
 
@@ -71,7 +75,8 @@ return-object p1
     .line 2
     check-cast p2, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview;->getSynchronousResult(Landroid/content/Context;Ljava/lang/Void;)Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview;
+    ->getSynchronousResult(Landroid/content/Context;Ljava/lang/Void;)Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
 
     move-result-object p1
 
@@ -95,7 +100,8 @@ return-object p1
     .line 1
     const-string p2, "context"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -122,7 +128,8 @@ return-object p1
     .line 2
     const-string p1, "data"
 
-    invoke-virtual {p2, p1}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p2, p1}, Landroid/content/Intent;
+    ->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p1
 
@@ -138,7 +145,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview;->parseResult(ILandroid/content/Intent;)Landroid/graphics/Bitmap;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview;
+    ->parseResult(ILandroid/content/Intent;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 

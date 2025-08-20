@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -35,7 +36,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 2
     .line 3
@@ -43,7 +45,8 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Landroid/view/View;->getSystemUiVisibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getSystemUiVisibility()I
 
     .line 6
     .line 7
@@ -68,7 +71,8 @@
     .line 15
     .line 16
     :goto_0
-    invoke-virtual {p0, p1}, Landroid/view/View;->setSystemUiVisibility(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setSystemUiVisibility(I)V
 
     .line 17
     .line 18

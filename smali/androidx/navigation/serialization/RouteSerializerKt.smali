@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/navigation/serialization/RouteSerializerKt;->computeNavType(LL1/f;Ljava/util/Map;)Landroidx/navigation/NavType;
+    invoke-static {p0, p1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->computeNavType(LL1/f;Ljava/util/Map;)Landroidx/navigation/NavType;
 
     .line 2
     .line 3
@@ -22,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/navigation/serialization/RouteSerializerKt;->unknownNavTypeErrorMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, p2, p3}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->unknownNavTypeErrorMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -54,7 +56,8 @@
 
     .line 4
     .line 5
-    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -81,7 +84,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {p1}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -89,7 +93,8 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 6
     .line 7
@@ -98,7 +103,8 @@
 
     .line 9
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 10
     .line 11
@@ -113,7 +119,8 @@
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -128,7 +135,8 @@
 
     .line 22
     .line 23
-    invoke-static {p0, v3}, Landroidx/navigation/serialization/NavTypeConverterKt;->matchKType(LL1/f;Lv1/k;)Z
+    invoke-static {p0, v3}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->matchKType(LL1/f;Lv1/k;)Z
 
     .line 24
     .line 25
@@ -156,7 +164,8 @@
 
     .line 34
     .line 35
-    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -196,7 +205,8 @@
 
     .line 50
     .line 51
-    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;->getNavType(LL1/f;)Landroidx/navigation/NavType;
+    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->getNavType(LL1/f;)Landroidx/navigation/NavType;
 
     .line 52
     .line 53
@@ -205,11 +215,13 @@
 
     .line 55
     :cond_4
-    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;
+    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;
+    ->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;
 
     .line 56
     .line 57
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -225,7 +237,8 @@
 
     .line 65
     .line 66
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 
@@ -248,7 +261,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 2
     .line 3
@@ -256,7 +270,8 @@ return-object p1
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, LL1/f;->b()I
+    invoke-interface {v0}, LL1/f;
+    ->b()I
 
     .line 6
     .line 7
@@ -272,7 +287,8 @@ return-object p1
 
     .line 11
     .line 12
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 13
     .line 14
@@ -280,7 +296,8 @@ return-object p1
     move-result-object v2
 
     .line 16
-    invoke-interface {v2, v1}, LL1/f;->c(I)Ljava/lang/String;
+    invoke-interface {v2, v1}, LL1/f;
+    ->c(I)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -288,7 +305,8 @@ return-object p1
     move-result-object v2
 
     .line 20
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 21
     .line 22
@@ -296,7 +314,8 @@ return-object p1
     move-result-object v3
 
     .line 24
-    invoke-interface {v3, v1}, LL1/f;->f(I)LL1/f;
+    invoke-interface {v3, v1}, LL1/f;
+    ->f(I)LL1/f;
 
     .line 25
     .line 26
@@ -304,7 +323,8 @@ return-object p1
     move-result-object v3
 
     .line 28
-    invoke-static {v3, p1}, Landroidx/navigation/serialization/RouteSerializerKt;->computeNavType(LL1/f;Ljava/util/Map;)Landroidx/navigation/NavType;
+    invoke-static {v3, p1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->computeNavType(LL1/f;Ljava/util/Map;)Landroidx/navigation/NavType;
 
     .line 29
     .line 30
@@ -316,7 +336,8 @@ return-object p1
 
     .line 33
     .line 34
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 35
     .line 36
@@ -324,7 +345,8 @@ return-object p1
     move-result-object v4
 
     .line 38
-    invoke-interface {p2, v4, v2, v3}, Lp1/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v4, v2, v3}, Lp1/q;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -341,7 +363,8 @@ return-object p1
 
     .line 45
     .line 46
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 47
     .line 48
@@ -349,7 +372,8 @@ return-object p1
     move-result-object v0
 
     .line 50
-    invoke-interface {v0, v1}, LL1/f;->f(I)LL1/f;
+    invoke-interface {v0, v1}, LL1/f;
+    ->f(I)LL1/f;
 
     .line 51
     .line 52
@@ -357,7 +381,8 @@ return-object p1
     move-result-object v0
 
     .line 54
-    invoke-interface {v0}, LL1/f;->a()Ljava/lang/String;
+    invoke-interface {v0}, LL1/f;
+    ->a()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -365,7 +390,8 @@ return-object p1
     move-result-object v0
 
     .line 58
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 59
     .line 60
@@ -373,7 +399,8 @@ return-object p1
     move-result-object p0
 
     .line 62
-    invoke-interface {p0}, LL1/f;->a()Ljava/lang/String;
+    invoke-interface {p0}, LL1/f;
+    ->a()Ljava/lang/String;
 
     .line 63
     .line 64
@@ -381,7 +408,8 @@ return-object p1
     move-result-object p0
 
     .line 66
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -389,7 +417,8 @@ return-object p1
     move-result-object p1
 
     .line 70
-    invoke-static {v2, v0, p0, p1}, Landroidx/navigation/serialization/RouteSerializerKt;->unknownNavTypeErrorMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v0, p0, p1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->unknownNavTypeErrorMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 71
     .line 72
@@ -397,7 +426,8 @@ return-object p1
     move-result-object p0
 
     .line 74
-    invoke-direct {p2, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -421,12 +451,14 @@ return-object p1
 
     .line 4
     .line 5
-    sget-object p1, Ld1/u;->b:Ld1/u;
+    sget-object p1, Ld1/u;
+    ->b:Ld1/u;
 
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
+    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
 return-void
 .end method
 
@@ -450,7 +482,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 2
     .line 3
@@ -458,7 +491,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, LL1/f;->b()I
+    invoke-interface {v0}, LL1/f;
+    ->b()I
 
     .line 6
     .line 7
@@ -474,7 +508,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 13
     .line 14
@@ -482,7 +517,8 @@ return-void
     move-result-object v2
 
     .line 16
-    invoke-interface {v2, v1}, LL1/f;->c(I)Ljava/lang/String;
+    invoke-interface {v2, v1}, LL1/f;
+    ->c(I)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -490,7 +526,8 @@ return-void
     move-result-object v2
 
     .line 20
-    invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -506,7 +543,8 @@ return-void
 
     .line 27
     .line 28
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 29
     .line 30
@@ -514,7 +552,8 @@ return-void
     move-result-object v4
 
     .line 32
-    invoke-interface {p2, v4, v2, v3}, Lp1/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v4, v2, v3}, Lp1/q;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -535,12 +574,14 @@ return-void
 
     .line 41
     .line 42
-    invoke-direct {p0, p1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -549,12 +590,14 @@ return-void
 
     .line 49
     .line 50
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 54
     .line 55
@@ -566,7 +609,8 @@ return-void
 
     .line 58
     .line 59
-    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 60
     .line 61
@@ -574,7 +618,8 @@ return-void
     move-result-object p0
 
     .line 63
-    invoke-direct {p1, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -590,7 +635,8 @@ return-void
     .locals 4
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -609,12 +655,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 7
     .line 8
@@ -622,7 +670,8 @@ return-void
     move-result-object v0
 
     .line 10
-    invoke-interface {v0}, LL1/f;->a()Ljava/lang/String;
+    invoke-interface {v0}, LL1/f;
+    ->a()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -630,7 +679,8 @@ return-void
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 15
     .line 16
@@ -638,7 +688,8 @@ return-void
     move-result v0
 
     .line 18
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 19
     .line 20
@@ -646,7 +697,8 @@ return-void
     move-result-object v1
 
     .line 22
-    invoke-interface {v1}, LL1/f;->b()I
+    invoke-interface {v1}, LL1/f;
+    ->b()I
 
     .line 23
     .line 24
@@ -666,7 +718,8 @@ return-void
 
     .line 30
     .line 31
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 32
     .line 33
@@ -674,7 +727,8 @@ return-void
     move-result-object v3
 
     .line 35
-    invoke-interface {v3, v2}, LL1/f;->c(I)Ljava/lang/String;
+    invoke-interface {v3, v2}, LL1/f;
+    ->c(I)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -682,7 +736,8 @@ return-void
     move-result-object v3
 
     .line 39
-    invoke-virtual {v3}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v3}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 40
     .line 41
@@ -708,7 +763,8 @@ return-void
     .locals 5
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -734,7 +790,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -743,7 +800,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -752,17 +810,20 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/RouteSerializerKt$generateNavArguments$1;-><init>(LJ1/b;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/RouteSerializerKt$generateNavArguments$1;
+    -><init>(LJ1/b;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {p0, v0}, Landroidx/navigation/serialization/RouteSerializerKt;->assertNotAbstractClass(LJ1/b;Lp1/a;)V
+    invoke-static {p0, v0}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->assertNotAbstractClass(LJ1/b;Lp1/a;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 20
     .line 21
@@ -770,7 +831,8 @@ return-void
     move-result-object v0
 
     .line 23
-    invoke-interface {v0}, LL1/f;->b()I
+    invoke-interface {v0}, LL1/f;
+    ->b()I
 
     .line 24
     .line 25
@@ -782,7 +844,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {v1, v0}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 30
     .line 31
@@ -795,7 +858,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-interface {p0}, LJ1/h;->a()LL1/f;
+    invoke-interface {p0}, LJ1/h;
+    ->a()LL1/f;
 
     .line 36
     .line 37
@@ -803,7 +867,8 @@ return-void
     move-result-object v3
 
     .line 39
-    invoke-interface {v3, v2}, LL1/f;->c(I)Ljava/lang/String;
+    invoke-interface {v3, v2}, LL1/f;
+    ->c(I)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -815,12 +880,14 @@ return-void
 
     .line 44
     .line 45
-    invoke-direct {v4, p0, v2, p1, v3}, Landroidx/navigation/serialization/RouteSerializerKt$generateNavArguments$2$1;-><init>(LJ1/b;ILjava/util/Map;Ljava/lang/String;)V
+    invoke-direct {v4, p0, v2, p1, v3}, Landroidx/navigation/serialization/RouteSerializerKt$generateNavArguments$2$1;
+    -><init>(LJ1/b;ILjava/util/Map;Ljava/lang/String;)V
 
     .line 46
     .line 47
     .line 48
-    invoke-static {v3, v4}, Landroidx/navigation/NamedNavArgumentKt;->navArgument(Ljava/lang/String;Lp1/l;)Landroidx/navigation/NamedNavArgument;
+    invoke-static {v3, v4}, Landroidx/navigation/NamedNavArgumentKt;
+    ->navArgument(Ljava/lang/String;Lp1/l;)Landroidx/navigation/NamedNavArgument;
 
     .line 49
     .line 50
@@ -828,7 +895,8 @@ return-void
     move-result-object v3
 
     .line 52
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 53
     .line 54
@@ -856,12 +924,14 @@ return-void
 
     .line 4
     .line 5
-    sget-object p1, Ld1/u;->b:Ld1/u;
+    sget-object p1, Ld1/u;
+    ->b:Ld1/u;
 
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1}, Landroidx/navigation/serialization/RouteSerializerKt;->generateNavArguments(LJ1/b;Ljava/util/Map;)Ljava/util/List;
+    invoke-static {p0, p1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateNavArguments(LJ1/b;Ljava/util/Map;)Ljava/util/List;
 
     .line 8
     .line 9
@@ -895,7 +965,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -904,7 +975,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -913,12 +985,14 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/RouteSerializerKt$generateRoutePattern$1;-><init>(LJ1/b;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/RouteSerializerKt$generateRoutePattern$1;
+    -><init>(LJ1/b;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {p0, v0}, Landroidx/navigation/serialization/RouteSerializerKt;->assertNotAbstractClass(LJ1/b;Lp1/a;)V
+    invoke-static {p0, v0}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->assertNotAbstractClass(LJ1/b;Lp1/a;)V
 
     .line 17
     .line 18
@@ -931,7 +1005,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v0, p2, p0}, Landroidx/navigation/serialization/RouteBuilder;-><init>(Ljava/lang/String;LJ1/b;)V
+    invoke-direct {v0, p2, p0}, Landroidx/navigation/serialization/RouteBuilder;
+    -><init>(Ljava/lang/String;LJ1/b;)V
 
     .line 24
     .line 25
@@ -944,7 +1019,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/RouteBuilder;-><init>(LJ1/b;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/RouteBuilder;
+    -><init>(LJ1/b;)V
 
     .line 30
     .line 31
@@ -954,17 +1030,20 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {p2, v0}, Landroidx/navigation/serialization/RouteSerializerKt$generateRoutePattern$2;-><init>(Landroidx/navigation/serialization/RouteBuilder;)V
+    invoke-direct {p2, v0}, Landroidx/navigation/serialization/RouteSerializerKt$generateRoutePattern$2;
+    -><init>(Landroidx/navigation/serialization/RouteBuilder;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
+    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v0}, Landroidx/navigation/serialization/RouteBuilder;->build()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/serialization/RouteBuilder;
+    ->build()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -986,7 +1065,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object p1, Ld1/u;->b:Ld1/u;
+    sget-object p1, Ld1/u;
+    ->b:Ld1/u;
 
     .line 6
     .line 7
@@ -1003,7 +1083,8 @@ return-void
 
     .line 12
     :cond_1
-    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->generateRoutePattern(LJ1/b;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateRoutePattern(LJ1/b;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -1017,7 +1098,8 @@ return-void
     .locals 3
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -1041,7 +1123,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1050,12 +1133,14 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -1063,7 +1148,8 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lkotlin/jvm/internal/t;->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/t;
+    ->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
 
     .line 16
     .line 17
@@ -1071,7 +1157,8 @@ return-void
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {v0}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     .line 20
     .line 21
@@ -1083,12 +1170,14 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {v1, v0, p1}, Landroidx/navigation/serialization/RouteEncoder;-><init>(LJ1/b;Ljava/util/Map;)V
+    invoke-direct {v1, v0, p1}, Landroidx/navigation/serialization/RouteEncoder;
+    -><init>(LJ1/b;Ljava/util/Map;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v1, p0}, Landroidx/navigation/serialization/RouteEncoder;->encodeToArgMap(Ljava/lang/Object;)Ljava/util/Map;
+    invoke-virtual {v1, p0}, Landroidx/navigation/serialization/RouteEncoder;
+    ->encodeToArgMap(Ljava/lang/Object;)Ljava/util/Map;
 
     .line 29
     .line 30
@@ -1100,7 +1189,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {v1, v0}, Landroidx/navigation/serialization/RouteBuilder;-><init>(LJ1/b;)V
+    invoke-direct {v1, v0}, Landroidx/navigation/serialization/RouteBuilder;
+    -><init>(LJ1/b;)V
 
     .line 35
     .line 36
@@ -1109,17 +1199,20 @@ return-void
 
     .line 38
     .line 39
-    invoke-direct {v2, p0, v1}, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;-><init>(Ljava/util/Map;Landroidx/navigation/serialization/RouteBuilder;)V
+    invoke-direct {v2, p0, v1}, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;
+    -><init>(Ljava/util/Map;Landroidx/navigation/serialization/RouteBuilder;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {v0, p1, v2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedName(LJ1/b;Ljava/util/Map;Lp1/q;)V
+    invoke-static {v0, p1, v2}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->forEachIndexedName(LJ1/b;Ljava/util/Map;Lp1/q;)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v1}, Landroidx/navigation/serialization/RouteBuilder;->build()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/serialization/RouteBuilder;
+    ->build()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -1137,12 +1230,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, LL1/f;->getKind()Lcom/bumptech/glide/b;
+    invoke-interface {p0}, LL1/f;
+    ->getKind()Lcom/bumptech/glide/b;
 
     .line 7
     .line 8
@@ -1150,11 +1245,13 @@ return-void
     move-result-object v0
 
     .line 10
-    sget-object v1, LL1/j;->c:LL1/j;
+    sget-object v1, LL1/j;
+    ->c:LL1/j;
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -1166,7 +1263,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p0}, LL1/f;->isInline()Z
+    invoke-interface {p0}, LL1/f;
+    ->isInline()Z
 
     .line 19
     .line 20
@@ -1178,7 +1276,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-interface {p0}, LL1/f;->b()I
+    invoke-interface {p0}, LL1/f;
+    ->b()I
 
     .line 25
     .line 26
@@ -1210,12 +1309,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
@@ -1224,12 +1325,14 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -1238,12 +1341,14 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
@@ -1252,17 +1357,20 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 36
     .line 37

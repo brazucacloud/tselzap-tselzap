@@ -15,7 +15,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzbu;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzbu;
+    -><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzbu;->b_()Landroid/os/Parcel;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzbu;
+    ->b_()Landroid/os/Parcel;
 
     .line 2
     .line 3
@@ -45,7 +47,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeTypedList(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;
+    ->writeTypedList(Ljava/util/List;)V
 
     .line 6
     .line 7
@@ -53,7 +56,8 @@
     const/4 p1, 0x2
 
     .line 9
-    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzbu;->zzc(ILandroid/os/Parcel;)V
+    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzbu;
+    ->zzc(ILandroid/os/Parcel;)V
 
     .line 10
     .line 11

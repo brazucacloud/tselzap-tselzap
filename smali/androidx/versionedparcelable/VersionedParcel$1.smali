@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/versionedparcelable/VersionedParcel;->readSerializable()Ljava/io/Serializable;
+    value = Landroidx/versionedparcelable/VersionedParcel;
+    ->readSerializable()Ljava/io/Serializable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +24,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/versionedparcelable/VersionedParcel$1;->this$0:Landroidx/versionedparcelable/VersionedParcel;
+    iput-object p1, p0, Landroidx/versionedparcelable/VersionedParcel$1;
+    ->this$0:Landroidx/versionedparcelable/VersionedParcel;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, p2}, Ljava/io/ObjectInputStream;
+    -><init>(Ljava/io/InputStream;)V
 return-void
 .end method
 
@@ -46,7 +49,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Ljava/io/ObjectStreamClass;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/io/ObjectStreamClass;
+    ->getName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -54,7 +58,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -62,7 +67,8 @@ return-void
     move-result-object v1
 
     .line 9
-    invoke-virtual {v1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v1}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 10
     .line 11
@@ -73,7 +79,8 @@ return-void
     const/4 v2, 0x0
 
     .line 14
-    invoke-static {v0, v2, v1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {v0, v2, v1}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -85,7 +92,8 @@ return-void
 
     .line 21
     :cond_0
-    invoke-super {p0, p1}, Ljava/io/ObjectInputStream;->resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
+    invoke-super {p0, p1}, Ljava/io/ObjectInputStream;
+    ->resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
 
     .line 22
     .line 23

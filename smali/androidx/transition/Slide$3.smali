@@ -22,7 +22,9 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/transition/Slide$CalculateSlideVertical;-><init>(Landroidx/transition/Slide$1;)V    return-void
+    invoke-direct {p0, v0}, Landroidx/transition/Slide$CalculateSlideVertical;
+    -><init>(Landroidx/transition/Slide$1;)V    
+    return-void
 .end method
 
 
@@ -31,7 +33,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p2}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p2}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 2
     .line 3
@@ -39,7 +42,8 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getHeight()I
 
     .line 6
     .line 7

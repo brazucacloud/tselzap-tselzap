@@ -132,7 +132,8 @@
 
     .line 4
     .line 5
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->CLEAR:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->CLEAR:Landroidx/core/graphics/BlendModeCompat;
 
     .line 6
     .line 7
@@ -143,7 +144,8 @@
 
     .line 9
     .line 10
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SRC:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC:Landroidx/core/graphics/BlendModeCompat;
 
     .line 11
     .line 12
@@ -154,7 +156,8 @@
 
     .line 14
     .line 15
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DST:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DST:Landroidx/core/graphics/BlendModeCompat;
 
     .line 16
     .line 17
@@ -165,7 +168,8 @@
 
     .line 19
     .line 20
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SRC_OVER:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_OVER:Landroidx/core/graphics/BlendModeCompat;
 
     .line 21
     .line 22
@@ -176,7 +180,8 @@
 
     .line 24
     .line 25
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DST_OVER:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_OVER:Landroidx/core/graphics/BlendModeCompat;
 
     .line 26
     .line 27
@@ -187,7 +192,8 @@
 
     .line 29
     .line 30
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SRC_IN:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_IN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 31
     .line 32
@@ -198,7 +204,8 @@
 
     .line 34
     .line 35
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DST_IN:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_IN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 36
     .line 37
@@ -209,7 +216,8 @@
 
     .line 39
     .line 40
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SRC_OUT:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_OUT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 41
     .line 42
@@ -220,7 +228,8 @@
 
     .line 44
     .line 45
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DST_OUT:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_OUT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 46
     .line 47
@@ -232,7 +241,8 @@
 
     .line 50
     .line 51
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SRC_ATOP:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_ATOP:Landroidx/core/graphics/BlendModeCompat;
 
     .line 52
     .line 53
@@ -244,7 +254,8 @@
 
     .line 56
     .line 57
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DST_ATOP:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_ATOP:Landroidx/core/graphics/BlendModeCompat;
 
     .line 58
     .line 59
@@ -256,7 +267,8 @@
 
     .line 62
     .line 63
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->XOR:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->XOR:Landroidx/core/graphics/BlendModeCompat;
 
     .line 64
     .line 65
@@ -268,7 +280,8 @@
 
     .line 68
     .line 69
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->PLUS:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->PLUS:Landroidx/core/graphics/BlendModeCompat;
 
     .line 70
     .line 71
@@ -280,7 +293,8 @@
 
     .line 74
     .line 75
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->MODULATE:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->MODULATE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 76
     .line 77
@@ -292,7 +306,8 @@
 
     .line 80
     .line 81
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SCREEN:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SCREEN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 82
     .line 83
@@ -304,7 +319,8 @@
 
     .line 86
     .line 87
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->OVERLAY:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->OVERLAY:Landroidx/core/graphics/BlendModeCompat;
 
     .line 88
     .line 89
@@ -316,7 +332,8 @@
 
     .line 92
     .line 93
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DARKEN:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DARKEN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 94
     .line 95
@@ -328,7 +345,8 @@
 
     .line 98
     .line 99
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->LIGHTEN:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->LIGHTEN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 100
     .line 101
@@ -340,7 +358,8 @@
 
     .line 104
     .line 105
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->COLOR_DODGE:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->COLOR_DODGE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 106
     .line 107
@@ -352,7 +371,8 @@
 
     .line 110
     .line 111
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->COLOR_BURN:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->COLOR_BURN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 112
     .line 113
@@ -364,7 +384,8 @@
 
     .line 116
     .line 117
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->HARD_LIGHT:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->HARD_LIGHT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 118
     .line 119
@@ -376,7 +397,8 @@
 
     .line 122
     .line 123
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SOFT_LIGHT:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SOFT_LIGHT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 124
     .line 125
@@ -388,7 +410,8 @@
 
     .line 128
     .line 129
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->DIFFERENCE:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->DIFFERENCE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 130
     .line 131
@@ -400,7 +423,8 @@
 
     .line 134
     .line 135
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->EXCLUSION:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->EXCLUSION:Landroidx/core/graphics/BlendModeCompat;
 
     .line 136
     .line 137
@@ -412,7 +436,8 @@
 
     .line 140
     .line 141
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->MULTIPLY:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->MULTIPLY:Landroidx/core/graphics/BlendModeCompat;
 
     .line 142
     .line 143
@@ -424,7 +449,8 @@
 
     .line 146
     .line 147
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->HUE:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->HUE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 148
     .line 149
@@ -436,7 +462,8 @@
 
     .line 152
     .line 153
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->SATURATION:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->SATURATION:Landroidx/core/graphics/BlendModeCompat;
 
     .line 154
     .line 155
@@ -448,7 +475,8 @@
 
     .line 158
     .line 159
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->COLOR:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->COLOR:Landroidx/core/graphics/BlendModeCompat;
 
     .line 160
     .line 161
@@ -460,7 +488,8 @@
 
     .line 164
     .line 165
-    sget-object v1, Landroidx/core/graphics/BlendModeCompat;->LUMINOSITY:Landroidx/core/graphics/BlendModeCompat;
+    sget-object v1, Landroidx/core/graphics/BlendModeCompat;
+    ->LUMINOSITY:Landroidx/core/graphics/BlendModeCompat;
 
     .line 166
     .line 167
@@ -490,12 +519,14 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->CLEAR:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->CLEAR:Landroidx/core/graphics/BlendModeCompat;
 
     .line 10
     .line 11
@@ -510,12 +541,14 @@
     const/4 v2, 0x1
 
     .line 16
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SRC:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC:Landroidx/core/graphics/BlendModeCompat;
 
     .line 20
     .line 21
@@ -530,12 +563,14 @@
     const/4 v2, 0x2
 
     .line 26
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DST:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DST:Landroidx/core/graphics/BlendModeCompat;
 
     .line 30
     .line 31
@@ -550,12 +585,14 @@
     const/4 v2, 0x3
 
     .line 36
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 37
     .line 38
     .line 39
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SRC_OVER:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_OVER:Landroidx/core/graphics/BlendModeCompat;
 
     .line 40
     .line 41
@@ -570,12 +607,14 @@
     const/4 v2, 0x4
 
     .line 46
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 47
     .line 48
     .line 49
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DST_OVER:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_OVER:Landroidx/core/graphics/BlendModeCompat;
 
     .line 50
     .line 51
@@ -590,12 +629,14 @@
     const/4 v2, 0x5
 
     .line 56
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 57
     .line 58
     .line 59
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SRC_IN:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_IN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 60
     .line 61
@@ -610,12 +651,14 @@
     const/4 v2, 0x6
 
     .line 66
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 67
     .line 68
     .line 69
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DST_IN:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_IN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 70
     .line 71
@@ -630,12 +673,14 @@
     const/4 v2, 0x7
 
     .line 76
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 77
     .line 78
     .line 79
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SRC_OUT:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_OUT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 80
     .line 81
@@ -651,12 +696,14 @@
 
     .line 86
     .line 87
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 88
     .line 89
     .line 90
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DST_OUT:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_OUT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 91
     .line 92
@@ -672,12 +719,14 @@
 
     .line 97
     .line 98
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 99
     .line 100
     .line 101
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SRC_ATOP:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SRC_ATOP:Landroidx/core/graphics/BlendModeCompat;
 
     .line 102
     .line 103
@@ -693,12 +742,14 @@
 
     .line 108
     .line 109
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 110
     .line 111
     .line 112
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DST_ATOP:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DST_ATOP:Landroidx/core/graphics/BlendModeCompat;
 
     .line 113
     .line 114
@@ -714,12 +765,14 @@
 
     .line 119
     .line 120
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 121
     .line 122
     .line 123
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->XOR:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->XOR:Landroidx/core/graphics/BlendModeCompat;
 
     .line 124
     .line 125
@@ -735,12 +788,14 @@
 
     .line 130
     .line 131
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 132
     .line 133
     .line 134
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->PLUS:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->PLUS:Landroidx/core/graphics/BlendModeCompat;
 
     .line 135
     .line 136
@@ -756,12 +811,14 @@
 
     .line 141
     .line 142
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 143
     .line 144
     .line 145
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->MODULATE:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->MODULATE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 146
     .line 147
@@ -777,12 +834,14 @@
 
     .line 152
     .line 153
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 154
     .line 155
     .line 156
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SCREEN:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SCREEN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 157
     .line 158
@@ -798,12 +857,14 @@
 
     .line 163
     .line 164
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 165
     .line 166
     .line 167
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->OVERLAY:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->OVERLAY:Landroidx/core/graphics/BlendModeCompat;
 
     .line 168
     .line 169
@@ -819,12 +880,14 @@
 
     .line 174
     .line 175
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 176
     .line 177
     .line 178
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DARKEN:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DARKEN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 179
     .line 180
@@ -840,12 +903,14 @@
 
     .line 185
     .line 186
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 187
     .line 188
     .line 189
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->LIGHTEN:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->LIGHTEN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 190
     .line 191
@@ -861,12 +926,14 @@
 
     .line 196
     .line 197
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 198
     .line 199
     .line 200
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->COLOR_DODGE:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->COLOR_DODGE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 201
     .line 202
@@ -882,12 +949,14 @@
 
     .line 207
     .line 208
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 209
     .line 210
     .line 211
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->COLOR_BURN:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->COLOR_BURN:Landroidx/core/graphics/BlendModeCompat;
 
     .line 212
     .line 213
@@ -903,12 +972,14 @@
 
     .line 218
     .line 219
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 220
     .line 221
     .line 222
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->HARD_LIGHT:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->HARD_LIGHT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 223
     .line 224
@@ -924,12 +995,14 @@
 
     .line 229
     .line 230
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 231
     .line 232
     .line 233
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SOFT_LIGHT:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SOFT_LIGHT:Landroidx/core/graphics/BlendModeCompat;
 
     .line 234
     .line 235
@@ -945,12 +1018,14 @@
 
     .line 240
     .line 241
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 242
     .line 243
     .line 244
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->DIFFERENCE:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->DIFFERENCE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 245
     .line 246
@@ -966,12 +1041,14 @@
 
     .line 251
     .line 252
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 253
     .line 254
     .line 255
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->EXCLUSION:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->EXCLUSION:Landroidx/core/graphics/BlendModeCompat;
 
     .line 256
     .line 257
@@ -987,12 +1064,14 @@
 
     .line 262
     .line 263
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 264
     .line 265
     .line 266
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->MULTIPLY:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->MULTIPLY:Landroidx/core/graphics/BlendModeCompat;
 
     .line 267
     .line 268
@@ -1008,12 +1087,14 @@
 
     .line 273
     .line 274
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 275
     .line 276
     .line 277
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->HUE:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->HUE:Landroidx/core/graphics/BlendModeCompat;
 
     .line 278
     .line 279
@@ -1029,12 +1110,14 @@
 
     .line 284
     .line 285
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 286
     .line 287
     .line 288
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->SATURATION:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->SATURATION:Landroidx/core/graphics/BlendModeCompat;
 
     .line 289
     .line 290
@@ -1050,12 +1133,14 @@
 
     .line 295
     .line 296
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 297
     .line 298
     .line 299
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->COLOR:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->COLOR:Landroidx/core/graphics/BlendModeCompat;
 
     .line 300
     .line 301
@@ -1071,16 +1156,19 @@
 
     .line 306
     .line 307
-    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/graphics/BlendModeCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 308
     .line 309
     .line 310
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->LUMINOSITY:Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->LUMINOSITY:Landroidx/core/graphics/BlendModeCompat;
 
     .line 311
     .line 312
-    invoke-static {}, Landroidx/core/graphics/BlendModeCompat;->$values()[Landroidx/core/graphics/BlendModeCompat;
+    invoke-static {}, Landroidx/core/graphics/BlendModeCompat;
+    ->$values()[Landroidx/core/graphics/BlendModeCompat;
 
     .line 313
     .line 314
@@ -1088,7 +1176,8 @@
     move-result-object v0
 
     .line 316
-    sput-object v0, Landroidx/core/graphics/BlendModeCompat;->$VALUES:[Landroidx/core/graphics/BlendModeCompat;
+    sput-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->$VALUES:[Landroidx/core/graphics/BlendModeCompat;
 
     .line 317
     .line 318
@@ -1104,7 +1193,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
+    -><init>(Ljava/lang/String;I)V
 
     .line 2
     .line 3
@@ -1120,7 +1210,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;
+    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -1139,11 +1230,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/BlendModeCompat;->$VALUES:[Landroidx/core/graphics/BlendModeCompat;
+    sget-object v0, Landroidx/core/graphics/BlendModeCompat;
+    ->$VALUES:[Landroidx/core/graphics/BlendModeCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [Landroidx/core/graphics/BlendModeCompat;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Landroidx/core/graphics/BlendModeCompat;
+    ->clone()Ljava/lang/Object;
 
     .line 4
     .line 5

@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -33,36 +34,44 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {p1}, Landroidx/startup/AppInitializer;->getInstance(Landroid/content/Context;)Landroidx/startup/AppInitializer;
+    invoke-static {p1}, Landroidx/startup/AppInitializer;
+    ->getInstance(Landroid/content/Context;)Landroidx/startup/AppInitializer;
 
     move-result-object v0
 
     const-string v1, "getInstance(context)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     const-class v1, Landroidx/lifecycle/ProcessLifecycleInitializer;
 
-    invoke-virtual {v0, v1}, Landroidx/startup/AppInitializer;->isEagerlyInitialized(Ljava/lang/Class;)Z
+    invoke-virtual {v0, v1}, Landroidx/startup/AppInitializer;
+    ->isEagerlyInitialized(Ljava/lang/Class;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-static {p1}, Landroidx/lifecycle/LifecycleDispatcher;->init(Landroid/content/Context;)V
+    invoke-static {p1}, Landroidx/lifecycle/LifecycleDispatcher;
+    ->init(Landroid/content/Context;)V
 
     .line 5
-    sget-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;->Companion:Landroidx/lifecycle/ProcessLifecycleOwner$Companion;
+    sget-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;
+    ->Companion:Landroidx/lifecycle/ProcessLifecycleOwner$Companion;
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/ProcessLifecycleOwner$Companion;->init$lifecycle_process_release(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/ProcessLifecycleOwner$Companion;
+    ->init$lifecycle_process_release(Landroid/content/Context;)V
 
     .line 6
-    invoke-virtual {v0}, Landroidx/lifecycle/ProcessLifecycleOwner$Companion;->get()Landroidx/lifecycle/LifecycleOwner;
+    invoke-virtual {v0}, Landroidx/lifecycle/ProcessLifecycleOwner$Companion;
+    ->get()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object p1
 
@@ -74,7 +83,8 @@
 
     const-string v0, "ProcessLifecycleInitializer cannot be initialized lazily.\n               Please ensure that you have:\n               <meta-data\n                   android:name=\'androidx.lifecycle.ProcessLifecycleInitializer\'\n                   android:value=\'androidx.startup\' />\n               under InitializationProvider in your AndroidManifest.xml"
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -83,7 +93,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/ProcessLifecycleInitializer;->create(Landroid/content/Context;)Landroidx/lifecycle/LifecycleOwner;
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/ProcessLifecycleInitializer;
+    ->create(Landroid/content/Context;)Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object p1
 
@@ -104,7 +115,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Ld1/t;->b:Ld1/t;    return-object v0
+    sget-object v0, Ld1/t;
+    ->b:Ld1/t;    return-object v0
 .end method
 
 .end class

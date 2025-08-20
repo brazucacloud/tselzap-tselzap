@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/transition/TransitionKt;->addListener$default(Landroid/transition/Transition;Lp1/l;Lp1/l;Lp1/l;Lp1/l;Lp1/l;ILjava/lang/Object;)Landroid/transition/Transition$TransitionListener;
+    value = Landroidx/core/transition/TransitionKt;
+    ->addListener$default(Landroid/transition/Transition;Lp1/l;Lp1/l;Lp1/l;Lp1/l;Lp1/l;ILjava/lang/Object;)Landroid/transition/Transition$TransitionListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/core/transition/TransitionKt$addListener$4;
 
-    invoke-direct {v0}, Landroidx/core/transition/TransitionKt$addListener$4;-><init>()V
+    invoke-direct {v0}, Landroidx/core/transition/TransitionKt$addListener$4;
+    -><init>()V
 
-    sput-object v0, Landroidx/core/transition/TransitionKt$addListener$4;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$4;
+    sput-object v0, Landroidx/core/transition/TransitionKt$addListener$4;
+    ->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$4;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -58,9 +62,11 @@ return-void
     .line 2
     check-cast p1, Landroid/transition/Transition;
 
-    invoke-virtual {p0, p1}, Landroidx/core/transition/TransitionKt$addListener$4;->invoke(Landroid/transition/Transition;)V
+    invoke-virtual {p0, p1}, Landroidx/core/transition/TransitionKt$addListener$4;
+    ->invoke(Landroid/transition/Transition;)V
 
-    sget-object p1, Lc1/v;->a:Lc1/v;
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;
 
     return-object p1
 .end method

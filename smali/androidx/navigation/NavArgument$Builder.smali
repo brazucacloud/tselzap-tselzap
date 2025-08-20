@@ -39,7 +39,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -49,7 +50,8 @@
     .locals 8
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavArgument$Builder;->type:Landroidx/navigation/NavType;
+    iget-object v0, p0, Landroidx/navigation/NavArgument$Builder;
+    ->type:Landroidx/navigation/NavType;
 
     .line 2
     .line 3
@@ -57,15 +59,18 @@
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/navigation/NavType;->Companion:Landroidx/navigation/NavType$Companion;
+    sget-object v0, Landroidx/navigation/NavType;
+    ->Companion:Landroidx/navigation/NavType$Companion;
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/navigation/NavArgument$Builder;->defaultValue:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/navigation/NavArgument$Builder;
+    ->defaultValue:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroidx/navigation/NavType$Companion;->inferFromValueType(Ljava/lang/Object;)Landroidx/navigation/NavType;
+    invoke-virtual {v0, v1}, Landroidx/navigation/NavType$Companion;
+    ->inferFromValueType(Ljava/lang/Object;)Landroidx/navigation/NavType;
 
     .line 10
     .line 11
@@ -77,7 +82,8 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -90,23 +96,28 @@
 
     .line 20
     .line 21
-    iget-boolean v4, p0, Landroidx/navigation/NavArgument$Builder;->isNullable:Z
+    iget-boolean v4, p0, Landroidx/navigation/NavArgument$Builder;
+    ->isNullable:Z
 
     .line 22
     .line 23
-    iget-object v5, p0, Landroidx/navigation/NavArgument$Builder;->defaultValue:Ljava/lang/Object;
+    iget-object v5, p0, Landroidx/navigation/NavArgument$Builder;
+    ->defaultValue:Ljava/lang/Object;
 
     .line 24
     .line 25
-    iget-boolean v6, p0, Landroidx/navigation/NavArgument$Builder;->defaultValuePresent:Z
+    iget-boolean v6, p0, Landroidx/navigation/NavArgument$Builder;
+    ->defaultValuePresent:Z
 
     .line 26
     .line 27
-    iget-boolean v7, p0, Landroidx/navigation/NavArgument$Builder;->unknownDefaultValuePresent:Z
+    iget-boolean v7, p0, Landroidx/navigation/NavArgument$Builder;
+    ->unknownDefaultValuePresent:Z
 
     .line 28
     .line 29
-    invoke-direct/range {v2 .. v7}, Landroidx/navigation/NavArgument;-><init>(Landroidx/navigation/NavType;ZLjava/lang/Object;ZZ)V
+    invoke-direct/range {v2 .. v7}, Landroidx/navigation/NavArgument;
+    -><init>(Landroidx/navigation/NavType;ZLjava/lang/Object;ZZ)V
 return-object v2
 .end method
 
@@ -114,14 +125,16 @@ return-object v2
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavArgument$Builder;->defaultValue:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/navigation/NavArgument$Builder;
+    ->defaultValue:Ljava/lang/Object;
 
     .line 2
     .line 3
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;->defaultValuePresent:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;
+    ->defaultValuePresent:Z
 return-object p0
 .end method
 
@@ -129,7 +142,8 @@ return-object p0
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;->isNullable:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;
+    ->isNullable:Z
 return-object p0
 .end method
 
@@ -151,19 +165,23 @@ return-object p0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/NavArgument$Builder;->type:Landroidx/navigation/NavType;    return-object p0
+    iput-object p1, p0, Landroidx/navigation/NavArgument$Builder;
+    ->type:Landroidx/navigation/NavType;    
+    return-object p0
 .end method
 
 .method public final setUnknownDefaultValuePresent$navigation_common_release(Z)Landroidx/navigation/NavArgument$Builder;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;->unknownDefaultValuePresent:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;
+    ->unknownDefaultValuePresent:Z
 return-object p0
 .end method
 

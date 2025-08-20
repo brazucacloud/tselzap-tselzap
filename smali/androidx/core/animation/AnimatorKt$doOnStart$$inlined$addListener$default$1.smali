@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/animation/AnimatorKt;->doOnStart(Landroid/animation/Animator;Lp1/l;)Landroid/animation/Animator$AnimatorListener;
+    value = Landroidx/core/animation/AnimatorKt;
+    ->doOnStart(Landroid/animation/Animator;Lp1/l;)Landroid/animation/Animator$AnimatorListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;->$onStart:Lp1/l;
+    iput-object p1, p0, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;
+    ->$onStart:Lp1/l;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -62,11 +65,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;->$onStart:Lp1/l;
+    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;
+    ->$onStart:Lp1/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

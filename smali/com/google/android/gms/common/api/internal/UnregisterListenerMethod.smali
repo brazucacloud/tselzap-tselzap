@@ -42,9 +42,11 @@
         }
     .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;
+    ->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
 
     return-void
 .end method
@@ -69,7 +71,8 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;
+    ->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
 
     return-object v0
 .end method

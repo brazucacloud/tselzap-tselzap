@@ -12,7 +12,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/google/firebase/FirebaseException;
+    -><init>(Ljava/lang/String;)V
 
     .line 2
     .line 3

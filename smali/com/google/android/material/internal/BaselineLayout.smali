@@ -17,7 +17,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, p2, v0}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Landroid/view/ViewGroup;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 3
     .line 4
@@ -25,7 +26,8 @@
     const/4 p1, -0x1
 
     .line 6
-    iput p1, p0, Lcom/google/android/material/internal/BaselineLayout;->b:I
+    iput p1, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->b:I
 
     .line 7
     .line 8
@@ -38,7 +40,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/internal/BaselineLayout;->b:I
+    iget v0, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->b:I
 
     .line 2
     .line 3
@@ -49,7 +52,8 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 2
     .line 3
@@ -57,7 +61,8 @@
     move-result p1
 
     .line 5
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingLeft()I
 
     .line 6
     .line 7
@@ -68,7 +73,8 @@
     sub-int/2addr p4, p2
 
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingRight()I
 
     .line 11
     .line 12
@@ -82,7 +88,8 @@
     sub-int/2addr p4, p3
 
     .line 16
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 17
     .line 18
@@ -98,7 +105,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0, p5}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, p5}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 24
     .line 25
@@ -106,7 +114,8 @@
     move-result-object v0
 
     .line 27
-    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 28
     .line 29
@@ -126,7 +135,8 @@
 
     .line 36
     :cond_0
-    invoke-virtual {v0}, Landroid/view/View;->getMeasuredWidth()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getMeasuredWidth()I
 
     .line 37
     .line 38
@@ -134,7 +144,8 @@
     move-result v1
 
     .line 40
-    invoke-virtual {v0}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 41
     .line 42
@@ -153,7 +164,8 @@
     add-int/2addr v3, p3
 
     .line 49
-    iget v4, p0, Lcom/google/android/material/internal/BaselineLayout;->b:I
+    iget v4, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->b:I
 
     .line 50
     .line 51
@@ -164,7 +176,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0}, Landroid/view/View;->getBaseline()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getBaseline()I
 
     .line 55
     .line 56
@@ -176,14 +189,16 @@
 
     .line 59
     .line 60
-    iget v4, p0, Lcom/google/android/material/internal/BaselineLayout;->b:I
+    iget v4, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->b:I
 
     .line 61
     .line 62
     add-int/2addr v4, p2
 
     .line 63
-    invoke-virtual {v0}, Landroid/view/View;->getBaseline()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getBaseline()I
 
     .line 64
     .line 65
@@ -208,7 +223,8 @@
     add-int/2addr v2, v4
 
     .line 72
-    invoke-virtual {v0, v3, v4, v1, v2}, Landroid/view/View;->layout(IIII)V
+    invoke-virtual {v0, v3, v4, v1, v2}, Landroid/view/View;
+    ->layout(IIII)V
 
     .line 73
     .line 74
@@ -229,7 +245,8 @@
     .locals 12
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 2
     .line 3
@@ -266,7 +283,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 16
     .line 17
@@ -274,7 +292,8 @@
     move-result-object v9
 
     .line 19
-    invoke-virtual {v9}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 20
     .line 21
@@ -294,12 +313,14 @@
 
     .line 28
     :cond_0
-    invoke-virtual {p0, v9, p1, p2}, Landroid/view/ViewGroup;->measureChild(Landroid/view/View;II)V
+    invoke-virtual {p0, v9, p1, p2}, Landroid/view/ViewGroup;
+    ->measureChild(Landroid/view/View;II)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v9}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 32
     .line 33
@@ -307,7 +328,8 @@
     move-result v10
 
     .line 35
-    invoke-static {v3, v10}, Ljava/lang/Math;->max(II)I
+    invoke-static {v3, v10}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 36
     .line 37
@@ -315,7 +337,8 @@
     move-result v3
 
     .line 39
-    invoke-virtual {v9}, Landroid/view/View;->getBaseline()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getBaseline()I
 
     .line 40
     .line 41
@@ -327,7 +350,8 @@
 
     .line 44
     .line 45
-    invoke-static {v7, v10}, Ljava/lang/Math;->max(II)I
+    invoke-static {v7, v10}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 46
     .line 47
@@ -335,7 +359,8 @@
     move-result v7
 
     .line 49
-    invoke-virtual {v9}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 50
     .line 51
@@ -346,7 +371,8 @@
     sub-int/2addr v11, v10
 
     .line 54
-    invoke-static {v8, v11}, Ljava/lang/Math;->max(II)I
+    invoke-static {v8, v11}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 55
     .line 56
@@ -355,7 +381,8 @@
 
     .line 58
     :cond_1
-    invoke-virtual {v9}, Landroid/view/View;->getMeasuredWidth()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getMeasuredWidth()I
 
     .line 59
     .line 60
@@ -363,7 +390,8 @@
     move-result v10
 
     .line 62
-    invoke-static {v5, v10}, Ljava/lang/Math;->max(II)I
+    invoke-static {v5, v10}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 63
     .line 64
@@ -371,7 +399,8 @@
     move-result v5
 
     .line 66
-    invoke-virtual {v9}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 67
     .line 68
@@ -379,7 +408,8 @@
     move-result v10
 
     .line 70
-    invoke-static {v4, v10}, Ljava/lang/Math;->max(II)I
+    invoke-static {v4, v10}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 71
     .line 72
@@ -387,7 +417,8 @@
     move-result v4
 
     .line 74
-    invoke-virtual {v9}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {v9}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 75
     .line 76
@@ -395,7 +426,8 @@
     move-result v9
 
     .line 78
-    invoke-static {v6, v9}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {v6, v9}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 79
     .line 80
@@ -416,7 +448,8 @@
 
     .line 86
     .line 87
-    iget-boolean v0, p0, Lcom/google/android/material/internal/BaselineLayout;->c:Z
+    iget-boolean v0, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->c:Z
 
     .line 88
     .line 89
@@ -424,7 +457,8 @@
 
     .line 90
     .line 91
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 92
     .line 93
@@ -432,7 +466,8 @@
     move-result v0
 
     .line 95
-    invoke-static {v8, v0}, Ljava/lang/Math;->max(II)I
+    invoke-static {v8, v0}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 96
     .line 97
@@ -443,7 +478,8 @@
     add-int/2addr v0, v7
 
     .line 100
-    invoke-static {v4, v0}, Ljava/lang/Math;->max(II)I
+    invoke-static {v4, v0}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 101
     .line 102
@@ -452,12 +488,14 @@
 
     .line 104
     :cond_3
-    iput v7, p0, Lcom/google/android/material/internal/BaselineLayout;->b:I
+    iput v7, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->b:I
 
     .line 105
     .line 106
     :cond_4
-    iget-boolean v0, p0, Lcom/google/android/material/internal/BaselineLayout;->c:Z
+    iget-boolean v0, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->c:Z
 
     .line 107
     .line 108
@@ -469,7 +507,8 @@
 
     .line 111
     :cond_5
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 112
     .line 113
@@ -482,7 +521,8 @@
     .line 116
     .line 117
     :goto_2
-    invoke-virtual {p0}, Landroid/view/View;->getSuggestedMinimumHeight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getSuggestedMinimumHeight()I
 
     .line 118
     .line 119
@@ -490,7 +530,8 @@
     move-result v0
 
     .line 121
-    invoke-static {v4, v0}, Ljava/lang/Math;->max(II)I
+    invoke-static {v4, v0}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 122
     .line 123
@@ -498,7 +539,8 @@
     move-result v0
 
     .line 125
-    invoke-virtual {p0}, Landroid/view/View;->getSuggestedMinimumWidth()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getSuggestedMinimumWidth()I
 
     .line 126
     .line 127
@@ -506,7 +548,8 @@
     move-result v1
 
     .line 129
-    invoke-static {v5, v1}, Ljava/lang/Math;->max(II)I
+    invoke-static {v5, v1}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 130
     .line 131
@@ -514,7 +557,8 @@
     move-result v1
 
     .line 133
-    invoke-static {v1, p1, v6}, Landroid/view/View;->resolveSizeAndState(III)I
+    invoke-static {v1, p1, v6}, Landroid/view/View;
+    ->resolveSizeAndState(III)I
 
     .line 134
     .line 135
@@ -526,7 +570,8 @@
 
     .line 138
     .line 139
-    invoke-static {v0, p2, v1}, Landroid/view/View;->resolveSizeAndState(III)I
+    invoke-static {v0, p2, v1}, Landroid/view/View;
+    ->resolveSizeAndState(III)I
 
     .line 140
     .line 141
@@ -534,7 +579,8 @@
     move-result p2
 
     .line 143
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->setMeasuredDimension(II)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->setMeasuredDimension(II)V
 
     .line 144
     .line 145
@@ -546,7 +592,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/google/android/material/internal/BaselineLayout;->c:Z
+    iput-boolean p1, p0, Lcom/google/android/material/internal/BaselineLayout;
+    ->c:Z
 
     .line 2
     .line 3

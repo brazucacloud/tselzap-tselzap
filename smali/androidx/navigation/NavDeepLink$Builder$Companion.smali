@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -43,7 +45,8 @@
 
     .line 4
     .line 5
-    sget-object p2, Ld1/u;->b:Ld1/u;
+    sget-object p2, Ld1/u;
+    ->b:Ld1/u;
 
     .line 6
     .line 7
@@ -52,7 +55,8 @@
 
     .line 8
     .line 9
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -61,7 +65,8 @@
 
     .line 13
     .line 14
-    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -70,12 +75,14 @@
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/navigation/NavDeepLink$Builder;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavDeepLink$Builder;
+    -><init>()V
 
     .line 20
     .line 21
     .line 22
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     .line 23
     .line 24
@@ -95,12 +102,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 7
     .line 8
@@ -116,12 +125,15 @@
 
     .line 13
     .line 14
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;
+    -><init>()V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLink$Builder;->setAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLink$Builder;
+    ->setAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;    
+    return-object v0
 
     .line 21
     :cond_0
@@ -133,7 +145,8 @@
 
     .line 24
     .line 25
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -148,7 +161,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -157,12 +171,15 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLink$Builder;->setMimeType(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLink$Builder;
+    ->setMimeType(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;    
+    return-object v0
 .end method
 
 .method public final fromUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
@@ -170,15 +187,18 @@
 
     const-string v0, "uriPattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/navigation/NavDeepLink$Builder;
 
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;
+    -><init>()V
 
     .line 2
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLink$Builder;->setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLink$Builder;
+    ->setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
 
     return-object v0
 .end method
@@ -201,19 +221,23 @@
 
     const-string v0, "basePath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "typeMap"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     new-instance p1, Landroidx/navigation/NavDeepLink$Builder;
 
-    invoke-direct {p1}, Landroidx/navigation/NavDeepLink$Builder;-><init>()V
+    invoke-direct {p1}, Landroidx/navigation/NavDeepLink$Builder;
+    -><init>()V
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p1, 0x0
 

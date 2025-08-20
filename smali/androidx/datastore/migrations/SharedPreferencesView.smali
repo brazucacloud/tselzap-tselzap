@@ -35,21 +35,25 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iput-object p1, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 10
     .line 11
-    iput-object p2, p0, Landroidx/datastore/migrations/SharedPreferencesView;->keySet:Ljava/util/Set;
+    iput-object p2, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->keySet:Ljava/util/Set;
 
     .line 12
     .line 13
@@ -60,7 +64,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->keySet:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->keySet:Ljava/util/Set;
 
     .line 2
     .line 3
@@ -72,7 +77,8 @@
 
     .line 6
     :cond_0
-    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -93,7 +99,8 @@
 
     .line 14
     .line 15
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -105,7 +112,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -113,7 +121,8 @@
     move-result-object p1
 
     .line 25
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -193,7 +202,8 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/migrations/SharedPreferencesView;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -219,7 +229,8 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/migrations/SharedPreferencesView;->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
 
     .line 7
     .line 8
@@ -239,16 +250,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -256,7 +270,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1}, Landroid/content/SharedPreferences;->contains(Ljava/lang/String;)Z
+    invoke-interface {v0, p1}, Landroid/content/SharedPreferences;
+    ->contains(Ljava/lang/String;)Z
 
     .line 13
     .line 14
@@ -279,11 +294,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->getAll()Ljava/util/Map;
 
     .line 4
     .line 5
@@ -295,7 +312,8 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -304,12 +322,14 @@
 
     .line 13
     .line 14
-    invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {v1}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
     .line 15
     .line 16
     .line 17
-    invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 18
     .line 19
@@ -317,7 +337,8 @@
     move-result-object v0
 
     .line 21
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 22
     .line 23
@@ -327,7 +348,8 @@
     .line 25
     :cond_0
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 26
     .line 27
@@ -339,7 +361,8 @@
 
     .line 30
     .line 31
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -351,7 +374,8 @@
 
     .line 36
     .line 37
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -363,7 +387,8 @@
 
     .line 42
     .line 43
-    iget-object v4, p0, Landroidx/datastore/migrations/SharedPreferencesView;->keySet:Ljava/util/Set;
+    iget-object v4, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->keySet:Ljava/util/Set;
 
     .line 44
     .line 45
@@ -378,7 +403,8 @@
 
     .line 49
     :cond_1
-    invoke-interface {v4, v3}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v4, v3}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 50
     .line 51
@@ -391,7 +417,8 @@
 
     .line 54
     .line 55
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -399,7 +426,8 @@
     move-result-object v3
 
     .line 59
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -407,7 +435,8 @@
     move-result-object v2
 
     .line 63
-    invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v3, v2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -420,7 +449,8 @@
 
     .line 68
     .line 69
-    invoke-interface {v1}, Ljava/util/Map;->size()I
+    invoke-interface {v1}, Ljava/util/Map;
+    ->size()I
 
     .line 70
     .line 71
@@ -428,7 +458,8 @@
     move-result v2
 
     .line 73
-    invoke-static {v2}, Ld1/B;->U(I)I
+    invoke-static {v2}, Ld1/B;
+    ->U(I)I
 
     .line 74
     .line 75
@@ -436,12 +467,14 @@
     move-result v2
 
     .line 77
-    invoke-direct {v0, v2}, Ljava/util/LinkedHashMap;-><init>(I)V
+    invoke-direct {v0, v2}, Ljava/util/LinkedHashMap;
+    -><init>(I)V
 
     .line 78
     .line 79
     .line 80
-    invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {v1}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 81
     .line 82
@@ -449,7 +482,8 @@
     move-result-object v1
 
     .line 84
-    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 85
     .line 86
@@ -458,7 +492,8 @@
 
     .line 88
     :goto_2
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 89
     .line 90
@@ -470,7 +505,8 @@
 
     .line 93
     .line 94
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -482,7 +518,8 @@
 
     .line 99
     .line 100
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 101
     .line 102
@@ -490,7 +527,8 @@
     move-result-object v3
 
     .line 104
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 105
     .line 106
@@ -510,7 +548,8 @@
 
     .line 113
     .line 114
-    invoke-static {v2}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v2}, Ld1/k;
+    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 115
     .line 116
@@ -519,7 +558,8 @@
 
     .line 118
     :cond_3
-    invoke-interface {v0, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v3, v2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 119
     .line 120
@@ -539,16 +579,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -556,7 +599,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;
+    ->getBoolean(Ljava/lang/String;Z)Z
 
     .line 13
     .line 14
@@ -574,16 +618,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -591,7 +638,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;->getFloat(Ljava/lang/String;F)F
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;
+    ->getFloat(Ljava/lang/String;F)F
 
     .line 13
     .line 14
@@ -609,16 +657,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -626,7 +677,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 13
     .line 14
@@ -644,16 +696,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -661,7 +716,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1, p2, p3}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
+    invoke-interface {v0, p1, p2, p3}, Landroid/content/SharedPreferences;
+    ->getLong(Ljava/lang/String;J)J
 
     .line 13
     .line 14
@@ -679,16 +735,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -696,7 +755,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -726,16 +786,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;->checkKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/migrations/SharedPreferencesView;
+    ->checkKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -743,7 +806,8 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;
+    ->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
 
     .line 13
     .line 14
@@ -761,7 +825,8 @@
 
     .line 20
     :cond_0
-    invoke-static {p1}, Ld1/k;->I0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p1}, Ld1/k;
+    ->I0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 21
     .line 22

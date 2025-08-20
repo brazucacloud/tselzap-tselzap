@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->addMessage(Landroid/app/Notification$MessagingStyle$Message;)Landroid/app/Notification$MessagingStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;
+    ->addMessage(Landroid/app/Notification$MessagingStyle$Message;)Landroid/app/Notification$MessagingStyle;
 
     .line 2
     .line 3
@@ -57,7 +59,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/app/Notification$MessagingStyle;-><init>(Ljava/lang/CharSequence;)V
+    invoke-direct {v0, p0}, Landroid/app/Notification$MessagingStyle;
+    -><init>(Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -71,7 +74,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->setConversationTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;
+    ->setConversationTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$MessagingStyle;
 
     .line 2
     .line 3

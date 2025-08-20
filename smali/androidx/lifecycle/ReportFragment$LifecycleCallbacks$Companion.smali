@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -41,7 +43,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -50,12 +53,14 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p1, v0}, Landroidx/core/view/o;->m(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;)V
+    invoke-static {p1, v0}, Landroidx/core/view/o;
+    ->m(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;)V
 return-void
 .end method
 

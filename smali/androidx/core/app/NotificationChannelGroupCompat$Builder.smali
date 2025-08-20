@@ -27,7 +27,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -36,12 +37,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Landroidx/core/app/NotificationChannelGroupCompat;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Landroidx/core/app/NotificationChannelGroupCompat;
+    -><init>(Ljava/lang/String;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
+    iput-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;
+    ->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
 
     .line 10
     .line 11
@@ -56,7 +59,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;
+    ->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
 
     .line 2
     .line 3
@@ -73,11 +77,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;
+    ->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelGroupCompat;->mDescription:Ljava/lang/String;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelGroupCompat;
+    ->mDescription:Ljava/lang/String;
 
     .line 4
     .line 5
@@ -94,11 +100,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelGroupCompat$Builder;
+    ->mGroup:Landroidx/core/app/NotificationChannelGroupCompat;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelGroupCompat;->mName:Ljava/lang/CharSequence;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelGroupCompat;
+    ->mName:Ljava/lang/CharSequence;
 
     .line 4
     .line 5

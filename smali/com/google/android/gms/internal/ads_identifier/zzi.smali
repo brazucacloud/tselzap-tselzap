@@ -13,9 +13,11 @@
 
     new-instance v0, Lcom/google/android/gms/internal/ads_identifier/zzg;
 
-    invoke-direct {v0}, Lcom/google/android/gms/internal/ads_identifier/zzg;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/ads_identifier/zzg;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/internal/ads_identifier/zzi;->zza:Lcom/google/android/gms/internal/ads_identifier/zzh;
+    sput-object v0, Lcom/google/android/gms/internal/ads_identifier/zzi;
+    ->zza:Lcom/google/android/gms/internal/ads_identifier/zzh;
 
     return-void
 .end method

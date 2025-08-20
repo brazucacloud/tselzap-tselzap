@@ -19,9 +19,11 @@
 
     new-instance v0, Landroidx/core/content/res/TypedArrayApi26ImplKt;
 
-    invoke-direct {v0}, Landroidx/core/content/res/TypedArrayApi26ImplKt;-><init>()V
+    invoke-direct {v0}, Landroidx/core/content/res/TypedArrayApi26ImplKt;
+    -><init>()V
 
-    sput-object v0, Landroidx/core/content/res/TypedArrayApi26ImplKt;->INSTANCE:Landroidx/core/content/res/TypedArrayApi26ImplKt;
+    sput-object v0, Landroidx/core/content/res/TypedArrayApi26ImplKt;
+    ->INSTANCE:Landroidx/core/content/res/TypedArrayApi26ImplKt;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,7 +51,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getFont(I)Landroid/graphics/Typeface;
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getFont(I)Landroid/graphics/Typeface;
 
     .line 2
     .line 3
@@ -56,7 +60,8 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 6
     .line 7

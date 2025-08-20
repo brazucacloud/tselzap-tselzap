@@ -14,7 +14,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -26,7 +27,8 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
+    invoke-static {p0}, Landroid/os/Trace;
+    ->beginSection(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -34,7 +36,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {}, Landroid/os/Trace;->endSection()V
+    invoke-static {}, Landroid/os/Trace;
+    ->endSection()V
     return-void
 .end method
 

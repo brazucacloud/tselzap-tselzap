@@ -36,16 +36,19 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzbh;->zzb:Lcom/google/android/gms/measurement/internal/zzbi;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzbh;
+    ->zzb:Lcom/google/android/gms/measurement/internal/zzbi;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/google/android/gms/measurement/internal/zzbi;->zza(Lcom/google/android/gms/measurement/internal/zzbi;)Landroid/os/Bundle;
+    invoke-static {p1}, Lcom/google/android/gms/measurement/internal/zzbi;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzbi;)Landroid/os/Bundle;
 
     .line 7
     .line 8
@@ -53,7 +56,8 @@
     move-result-object p1
 
     .line 10
-    invoke-virtual {p1}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
+    invoke-virtual {p1}, Landroid/os/BaseBundle;
+    ->keySet()Ljava/util/Set;
 
     .line 11
     .line 12
@@ -61,7 +65,8 @@
     move-result-object p1
 
     .line 14
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 15
     .line 16
@@ -69,7 +74,8 @@
     move-result-object p1
 
     .line 18
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzbh;->zza:Ljava/util/Iterator;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzbh;
+    ->zza:Ljava/util/Iterator;
 
     .line 19
     .line 20
@@ -82,11 +88,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzbh;->zza:Ljava/util/Iterator;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzbh;
+    ->zza:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 4
     .line 5
@@ -100,11 +108,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzbh;->zza:Ljava/util/Iterator;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzbh;
+    ->zza:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -131,7 +141,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lcom/fmark/tselzap/fragments/i;->b:I
+    iput p2, p0, Lcom/fmark/tselzap/fragments/i;
+    ->b:I
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/i;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/i;
+    ->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,34 +34,43 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/fmark/tselzap/fragments/i;->b:I
+    iget v0, p0, Lcom/fmark/tselzap/fragments/i;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;
+    ->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->k(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;
+    ->k(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
 
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;
+    ->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->b(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;
+    ->b(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
 
     return-void
 
     :pswitch_1
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;
+    ->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->c(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;
+    ->c(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
 
     return-void
 
     :pswitch_2
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/i;
+    ->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->f(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;
+    ->f(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
 
     return-void
 

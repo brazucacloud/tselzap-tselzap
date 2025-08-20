@@ -37,14 +37,17 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    invoke-static {p1, p2}, Landroidx/core/app/d;->j(Landroid/content/ClipData;I)Landroid/view/ContentInfo$Builder;
+    invoke-static {p1, p2}, Landroidx/core/app/d;
+    ->j(Landroid/content/ClipData;I)Landroid/view/ContentInfo$Builder;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method
@@ -57,20 +60,25 @@
     .end param
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
-    invoke-static {}, Landroidx/core/app/d;->p()V
+    invoke-static {}, Landroidx/core/app/d;
+    ->p()V
 
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->toContentInfo()Landroid/view/ContentInfo;
-
-    move-result-object p1
-
-    invoke-static {p1}, Landroidx/core/app/d;->k(Landroid/view/ContentInfo;)Landroid/view/ContentInfo$Builder;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->toContentInfo()Landroid/view/ContentInfo;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    invoke-static {p1}, Landroidx/core/app/d;
+    ->k(Landroid/view/ContentInfo;)Landroid/view/ContentInfo$Builder;
+
+    move-result-object p1
+
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method
@@ -91,11 +99,13 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iget-object v2, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     .line 6
     .line 7
-    invoke-static {v2}, Landroidx/core/app/d;->l(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
+    invoke-static {v2}, Landroidx/core/app/d;
+    ->l(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
 
     .line 8
     .line 9
@@ -103,12 +113,14 @@
     move-result-object v2
 
     .line 11
-    invoke-direct {v1, v2}, Landroidx/core/view/ContentInfoCompat$Compat31Impl;-><init>(Landroid/view/ContentInfo;)V
+    invoke-direct {v1, v2}, Landroidx/core/view/ContentInfoCompat$Compat31Impl;
+    -><init>(Landroid/view/ContentInfo;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-direct {v0, v1}, Landroidx/core/view/ContentInfoCompat;-><init>(Landroidx/core/view/ContentInfoCompat$Compat;)V
+    invoke-direct {v0, v1}, Landroidx/core/view/ContentInfoCompat;
+    -><init>(Landroidx/core/view/ContentInfoCompat$Compat;)V
 
     .line 15
     .line 16
@@ -124,11 +136,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/core/app/d;->s(Landroid/view/ContentInfo$Builder;Landroid/content/ClipData;)V
+    invoke-static {v0, p1}, Landroidx/core/app/d;
+    ->s(Landroid/view/ContentInfo$Builder;Landroid/content/ClipData;)V
 
     .line 4
     .line 5
@@ -144,11 +158,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/core/app/d;->u(Landroid/view/ContentInfo$Builder;Landroid/os/Bundle;)V
+    invoke-static {v0, p1}, Landroidx/core/app/d;
+    ->u(Landroid/view/ContentInfo$Builder;Landroid/os/Bundle;)V
 
     .line 4
     .line 5
@@ -160,11 +176,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/core/app/d;->x(Landroid/view/ContentInfo$Builder;I)V
+    invoke-static {v0, p1}, Landroidx/core/app/d;
+    ->x(Landroid/view/ContentInfo$Builder;I)V
 
     .line 4
     .line 5
@@ -180,11 +198,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/core/app/d;->t(Landroid/view/ContentInfo$Builder;Landroid/net/Uri;)V
+    invoke-static {v0, p1}, Landroidx/core/app/d;
+    ->t(Landroid/view/ContentInfo$Builder;Landroid/net/Uri;)V
 
     .line 4
     .line 5
@@ -196,11 +216,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    ->mPlatformBuilder:Landroid/view/ContentInfo$Builder;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/core/app/d;->r(Landroid/view/ContentInfo$Builder;I)V
+    invoke-static {v0, p1}, Landroidx/core/app/d;
+    ->r(Landroid/view/ContentInfo$Builder;I)V
 
     .line 4
     .line 5

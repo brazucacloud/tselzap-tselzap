@@ -36,18 +36,22 @@
 
     const-string v0, "pendingIntent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroid/app/PendingIntent;->getIntentSender()Landroid/content/IntentSender;
+    invoke-virtual {p1}, Landroid/app/PendingIntent;
+    ->getIntentSender()Landroid/content/IntentSender;
 
     move-result-object p1
 
     const-string v0, "pendingIntent.intentSender"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1}, Landroidx/activity/result/IntentSenderRequest$Builder;-><init>(Landroid/content/IntentSender;)V
+    invoke-direct {p0, p1}, Landroidx/activity/result/IntentSenderRequest$Builder;
+    -><init>(Landroid/content/IntentSender;)V
 return-void
 .end method
 
@@ -56,12 +60,15 @@ return-void
 
     const-string v0, "intentSender"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->intentSender:Landroid/content/IntentSender;
+    iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->intentSender:Landroid/content/IntentSender;
 
     return-void
 .end method
@@ -76,23 +83,28 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->intentSender:Landroid/content/IntentSender;
+    iget-object v1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->intentSender:Landroid/content/IntentSender;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->fillInIntent:Landroid/content/Intent;
+    iget-object v2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->fillInIntent:Landroid/content/Intent;
 
     .line 6
     .line 7
-    iget v3, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsMask:I
+    iget v3, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->flagsMask:I
 
     .line 8
     .line 9
-    iget v4, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsValues:I
+    iget v4, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->flagsValues:I
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/activity/result/IntentSenderRequest;-><init>(Landroid/content/IntentSender;Landroid/content/Intent;II)V
+    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/activity/result/IntentSenderRequest;
+    -><init>(Landroid/content/IntentSender;Landroid/content/Intent;II)V
 return-object v0
 .end method
 
@@ -100,18 +112,23 @@ return-object v0
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->fillInIntent:Landroid/content/Intent;    return-object p0
+    iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->fillInIntent:Landroid/content/Intent;    
+    return-object p0
 .end method
 
 .method public final setFlags(II)Landroidx/activity/result/IntentSenderRequest$Builder;
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsValues:I
+    iput p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->flagsValues:I
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsMask:I    return-object p0
+    iput p2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;
+    ->flagsMask:I    
+    return-object p0
 .end method
 
 .end class

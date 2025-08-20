@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lx0/A;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iput-object p1, p0, Lx0/A;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 5
     .line 6
@@ -30,16 +32,19 @@
     .locals 13
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Lx0/A;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object p1, p0, Lx0/A;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getEditText()Landroid/widget/EditText;
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getEditText()Landroid/widget/EditText;
 
     .line 7
     .line 8
@@ -51,7 +56,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
+    invoke-virtual {v0}, Landroid/widget/EditText;
+    ->getText()Landroid/text/Editable;
 
     .line 13
     .line 14
@@ -67,7 +73,8 @@
 
     .line 18
     :goto_0
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getHint()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getHint()Ljava/lang/CharSequence;
 
     .line 19
     .line 20
@@ -75,7 +82,8 @@
     move-result-object v1
 
     .line 22
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getError()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getError()Ljava/lang/CharSequence;
 
     .line 23
     .line 24
@@ -83,7 +91,8 @@
     move-result-object v2
 
     .line 26
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getPlaceholderText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getPlaceholderText()Ljava/lang/CharSequence;
 
     .line 27
     .line 28
@@ -91,7 +100,8 @@
     move-result-object v3
 
     .line 30
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getCounterMaxLength()I
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getCounterMaxLength()I
 
     .line 31
     .line 32
@@ -99,7 +109,8 @@
     move-result v4
 
     .line 34
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getCounterOverflowDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getCounterOverflowDescription()Ljava/lang/CharSequence;
 
     .line 35
     .line 36
@@ -107,7 +118,8 @@
     move-result-object v5
 
     .line 38
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 39
     .line 40
@@ -115,7 +127,8 @@
     move-result v6
 
     .line 42
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 43
     .line 44
@@ -123,11 +136,13 @@
     move-result v7
 
     .line 46
-    iget-boolean v8, p1, Lcom/google/android/material/textfield/TextInputLayout;->w0:Z
+    iget-boolean v8, p1, Lcom/google/android/material/textfield/TextInputLayout;
+    ->w0:Z
 
     .line 47
     .line 48
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v2}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 49
     .line 50
@@ -139,7 +154,8 @@
 
     .line 53
     .line 54
-    invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v5}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 55
     .line 56
@@ -171,7 +187,8 @@
 
     .line 65
     .line 66
-    invoke-interface {v1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v1}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -188,15 +205,18 @@
     .line 72
     .line 73
     :goto_3
-    iget-object v7, p1, Lcom/google/android/material/textfield/TextInputLayout;->c:Lx0/y;
+    iget-object v7, p1, Lcom/google/android/material/textfield/TextInputLayout;
+    ->c:Lx0/y;
 
     .line 74
     .line 75
-    iget-object v11, v7, Lx0/y;->c:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v11, v7, Lx0/y;
+    ->c:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 76
     .line 77
-    invoke-virtual {v11}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v11}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 78
     .line 79
@@ -208,12 +228,14 @@
 
     .line 82
     .line 83
-    invoke-virtual {p2, v11}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setLabelFor(Landroid/view/View;)V
+    invoke-virtual {p2, v11}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setLabelFor(Landroid/view/View;)V
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {p2, v11}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setTraversalAfter(Landroid/view/View;)V
+    invoke-virtual {p2, v11}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setTraversalAfter(Landroid/view/View;)V
 
     .line 87
     .line 88
@@ -222,11 +244,13 @@
 
     .line 90
     :cond_4
-    iget-object v7, v7, Lx0/y;->e:Lcom/google/android/material/internal/CheckableImageButton;
+    iget-object v7, v7, Lx0/y;
+    ->e:Lcom/google/android/material/internal/CheckableImageButton;
 
     .line 91
     .line 92
-    invoke-virtual {p2, v7}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setTraversalAfter(Landroid/view/View;)V
+    invoke-virtual {p2, v7}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setTraversalAfter(Landroid/view/View;)V
 
     .line 93
     .line 94
@@ -240,7 +264,8 @@
 
     .line 98
     .line 99
-    invoke-virtual {p2, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 100
     .line 101
@@ -249,7 +274,8 @@
 
     .line 103
     :cond_5
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 104
     .line 105
@@ -261,7 +287,8 @@
 
     .line 108
     .line 109
-    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 110
     .line 111
@@ -278,27 +305,32 @@
 
     .line 117
     .line 118
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v8}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v8, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v7}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 125
     .line 126
     .line 127
-    invoke-virtual {v8, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 128
     .line 129
     .line 130
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 131
     .line 132
@@ -306,7 +338,8 @@
     move-result-object v3
 
     .line 134
-    invoke-virtual {p2, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 135
     .line 136
@@ -319,14 +352,16 @@
 
     .line 139
     .line 140
-    invoke-virtual {p2, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 141
     .line 142
     .line 143
     :cond_7
     :goto_5
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 144
     .line 145
@@ -338,7 +373,8 @@
 
     .line 148
     .line 149
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 150
     .line 151
@@ -350,7 +386,8 @@
 
     .line 154
     .line 155
-    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setHintText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setHintText(Ljava/lang/CharSequence;)V
 
     .line 156
     .line 157
@@ -367,27 +404,32 @@
 
     .line 162
     .line 163
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 164
     .line 165
     .line 166
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 167
     .line 168
     .line 169
-    invoke-virtual {v3, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v7}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 170
     .line 171
     .line 172
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 173
     .line 174
     .line 175
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 176
     .line 177
@@ -396,13 +438,15 @@
 
     .line 179
     :cond_9
-    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 180
     .line 181
     .line 182
     :goto_6
-    invoke-virtual {p2, v6}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setShowingHintText(Z)V
+    invoke-virtual {p2, v6}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setShowingHintText(Z)V
 
     .line 183
     .line 184
@@ -412,7 +456,8 @@
 
     .line 186
     .line 187
-    invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 188
     .line 189
@@ -432,7 +477,8 @@
 
     .line 195
     :goto_7
-    invoke-virtual {p2, v4}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setMaxTextLength(I)V
+    invoke-virtual {p2, v4}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setMaxTextLength(I)V
 
     .line 196
     .line 197
@@ -453,17 +499,20 @@
 
     .line 204
     :goto_8
-    invoke-virtual {p2, v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setError(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setError(Ljava/lang/CharSequence;)V
 
     .line 205
     .line 206
     .line 207
     :cond_d
-    iget-object v0, p1, Lcom/google/android/material/textfield/TextInputLayout;->l:Lx0/t;
+    iget-object v0, p1, Lcom/google/android/material/textfield/TextInputLayout;
+    ->l:Lx0/t;
 
     .line 208
     .line 209
-    iget-object v0, v0, Lx0/t;->y:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, v0, Lx0/t;
+    ->y:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 210
     .line 211
@@ -471,17 +520,20 @@
 
     .line 212
     .line 213
-    invoke-virtual {p2, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setLabelFor(Landroid/view/View;)V
+    invoke-virtual {p2, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setLabelFor(Landroid/view/View;)V
 
     .line 214
     .line 215
     .line 216
     :cond_e
-    iget-object p1, p1, Lcom/google/android/material/textfield/TextInputLayout;->d:Lx0/p;
+    iget-object p1, p1, Lcom/google/android/material/textfield/TextInputLayout;
+    ->d:Lx0/p;
 
     .line 217
     .line 218
-    invoke-virtual {p1}, Lx0/p;->b()Lx0/q;
+    invoke-virtual {p1}, Lx0/p;
+    ->b()Lx0/q;
 
     .line 219
     .line 220
@@ -489,7 +541,8 @@
     move-result-object p1
 
     .line 222
-    invoke-virtual {p1, p2}, Lx0/q;->n(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-virtual {p1, p2}, Lx0/q;
+    ->n(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 223
     .line 224
@@ -501,20 +554,24 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Lx0/A;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object p1, p0, Lx0/A;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 5
     .line 6
-    iget-object p1, p1, Lcom/google/android/material/textfield/TextInputLayout;->d:Lx0/p;
+    iget-object p1, p1, Lcom/google/android/material/textfield/TextInputLayout;
+    ->d:Lx0/p;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lx0/p;->b()Lx0/q;
+    invoke-virtual {p1}, Lx0/p;
+    ->b()Lx0/q;
 
     .line 9
     .line 10
@@ -522,7 +579,8 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {p1, p2}, Lx0/q;->o(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p1, p2}, Lx0/q;
+    ->o(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 13
     .line 14

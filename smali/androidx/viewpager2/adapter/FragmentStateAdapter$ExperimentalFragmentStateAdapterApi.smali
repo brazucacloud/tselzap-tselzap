@@ -8,7 +8,8 @@
 
 # annotations
 .annotation build Landroidx/annotation/RequiresOptIn;
-    level = .enum Landroidx/annotation/RequiresOptIn$Level;->WARNING:Landroidx/annotation/RequiresOptIn$Level;
+    level = .enum Landroidx/annotation/RequiresOptIn$Level;
+    ->WARNING:Landroidx/annotation/RequiresOptIn$Level;
 .end annotation
 
 .annotation system Ldalvik/annotation/EnclosingClass;

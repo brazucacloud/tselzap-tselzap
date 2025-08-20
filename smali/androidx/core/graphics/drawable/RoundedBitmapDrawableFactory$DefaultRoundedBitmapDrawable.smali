@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
+    invoke-direct {p0, p1, p2}, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;
+    -><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     move-object v4, p5
 
     .line 7
-    invoke-static/range {v0 .. v5}, Landroidx/core/view/GravityCompat;->apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;I)V
+    invoke-static/range {v0 .. v5}, Landroidx/core/view/GravityCompat;
+    ->apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;I)V
 
     .line 8
     .line 9
@@ -63,7 +65,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;->mBitmap:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;
+    ->mBitmap:Landroid/graphics/Bitmap;
 
     .line 2
     .line 3
@@ -71,7 +74,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Landroidx/core/graphics/BitmapCompat;->hasMipMap(Landroid/graphics/Bitmap;)Z
+    invoke-static {v0}, Landroidx/core/graphics/BitmapCompat;
+    ->hasMipMap(Landroid/graphics/Bitmap;)Z
 
     .line 6
     .line 7
@@ -98,7 +102,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;->mBitmap:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;
+    ->mBitmap:Landroid/graphics/Bitmap;
 
     .line 2
     .line 3
@@ -106,12 +111,14 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/BitmapCompat;->setHasMipMap(Landroid/graphics/Bitmap;Z)V
+    invoke-static {v0, p1}, Landroidx/core/graphics/BitmapCompat;
+    ->setHasMipMap(Landroid/graphics/Bitmap;Z)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->invalidateSelf()V
 
     .line 9
     .line 10

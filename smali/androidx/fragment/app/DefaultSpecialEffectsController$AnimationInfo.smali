@@ -31,7 +31,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -40,17 +41,20 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/core/os/CancellationSignal;)V
+    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;
+    -><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/core/os/CancellationSignal;)V
 
     .line 12
     .line 13
     .line 14
-    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isPop:Z
+    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    ->isPop:Z
 return-void
 .end method
 
@@ -64,12 +68,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-boolean v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z
+    iget-boolean v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    ->isAnimLoaded:Z
 
     .line 7
     .line 8
@@ -77,11 +83,13 @@ return-void
 
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;    return-object p1
+    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    ->animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;    return-object p1
 
     .line 13
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;
+    invoke-virtual {p0}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;
+    ->getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     .line 14
     .line 15
@@ -89,7 +97,8 @@ return-void
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->getFragment()Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0}, Landroidx/fragment/app/SpecialEffectsController$Operation;
+    ->getFragment()Landroidx/fragment/app/Fragment;
 
     .line 18
     .line 19
@@ -97,7 +106,8 @@ return-void
     move-result-object v0
 
     .line 21
-    invoke-virtual {p0}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;
+    invoke-virtual {p0}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;
+    ->getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     .line 22
     .line 23
@@ -105,7 +115,8 @@ return-void
     move-result-object v1
 
     .line 25
-    invoke-virtual {v1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->getFinalState()Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    invoke-virtual {v1}, Landroidx/fragment/app/SpecialEffectsController$Operation;
+    ->getFinalState()Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
     .line 26
     .line 27
@@ -113,7 +124,8 @@ return-void
     move-result-object v1
 
     .line 29
-    sget-object v2, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    sget-object v2, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
     .line 30
     .line 31
@@ -135,11 +147,13 @@ return-void
 
     .line 37
     :goto_0
-    iget-boolean v2, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isPop:Z
+    iget-boolean v2, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    ->isPop:Z
 
     .line 38
     .line 39
-    invoke-static {p1, v0, v1, v2}, Landroidx/fragment/app/FragmentAnim;->loadAnimation(Landroid/content/Context;Landroidx/fragment/app/Fragment;ZZ)Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
+    invoke-static {p1, v0, v1, v2}, Landroidx/fragment/app/FragmentAnim;
+    ->loadAnimation(Landroid/content/Context;Landroidx/fragment/app/Fragment;ZZ)Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
 
     .line 40
     .line 41
@@ -147,11 +161,13 @@ return-void
     move-result-object p1
 
     .line 43
-    iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
+    iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    ->animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
 
     .line 44
     .line 45
-    iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z
+    iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    ->isAnimLoaded:Z
 return-object p1
 .end method
 

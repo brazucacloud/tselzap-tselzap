@@ -13,7 +13,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -44,7 +45,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -52,7 +54,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mPropertiesMapped:Z
+    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mPropertiesMapped:Z
 return-void
 .end method
 
@@ -66,11 +69,13 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroidx/appcompat/R$attr;->backgroundTint:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->backgroundTint:I
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/activity/f;->c(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->c(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 4
     .line 5
@@ -78,15 +83,18 @@ return-void
     move-result v0
 
     .line 7
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mBackgroundTintId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mBackgroundTintId:I
 
     .line 8
     .line 9
-    sget v0, Landroidx/appcompat/R$attr;->backgroundTintMode:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->backgroundTintMode:I
 
     .line 10
     .line 11
-    invoke-static {p1, v0}, Landroidx/activity/f;->o(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->o(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 12
     .line 13
@@ -94,15 +102,18 @@ return-void
     move-result v0
 
     .line 15
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mBackgroundTintModeId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mBackgroundTintModeId:I
 
     .line 16
     .line 17
-    sget v0, Landroidx/appcompat/R$attr;->drawableTint:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->drawableTint:I
 
     .line 18
     .line 19
-    invoke-static {p1, v0}, Landroidx/activity/f;->u(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->u(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 20
     .line 21
@@ -110,15 +121,18 @@ return-void
     move-result v0
 
     .line 23
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mDrawableTintId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mDrawableTintId:I
 
     .line 24
     .line 25
-    sget v0, Landroidx/appcompat/R$attr;->drawableTintMode:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->drawableTintMode:I
 
     .line 26
     .line 27
-    invoke-static {p1, v0}, Landroidx/activity/f;->x(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->x(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 28
     .line 29
@@ -126,14 +140,16 @@ return-void
     move-result p1
 
     .line 31
-    iput p1, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mDrawableTintModeId:I
+    iput p1, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mDrawableTintModeId:I
 
     .line 32
     .line 33
     const/4 p1, 0x1
 
     .line 34
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mPropertiesMapped:Z
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mPropertiesMapped:Z
 return-void
 .end method
 
@@ -149,50 +165,64 @@ return-void
     .end param
 
     .line 2
-    iget-boolean v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mPropertiesMapped:Z
+    iget-boolean v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mPropertiesMapped:Z
 
     if-eqz v0, :cond_0
 
     .line 3
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mBackgroundTintId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mBackgroundTintId:I
 
-    invoke-virtual {p1}, Landroid/view/View;->getBackgroundTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getBackgroundTintList()Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
 
     .line 4
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mBackgroundTintModeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mBackgroundTintModeId:I
 
-    invoke-virtual {p1}, Landroid/view/View;->getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 5
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mDrawableTintId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mDrawableTintId:I
 
-    invoke-static {p1}, La0/c;->j(Landroidx/appcompat/widget/AppCompatToggleButton;)Landroid/content/res/ColorStateList;
+    invoke-static {p1}, La0/c;
+    ->j(Landroidx/appcompat/widget/AppCompatToggleButton;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
 
     .line 6
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->mDrawableTintModeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->mDrawableTintModeId:I
 
-    invoke-static {p1}, La0/c;->s(Landroidx/appcompat/widget/AppCompatToggleButton;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p1}, La0/c;
+    ->s(Landroidx/appcompat/widget/AppCompatToggleButton;)Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p1
 
-    invoke-static {p2, v0, p1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p2, v0, p1}, Landroidx/activity/f;
+    ->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
 return-void
 
     .line 7
     :cond_0
-    invoke-static {}, Landroidx/activity/f;->f()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
+    invoke-static {}, Landroidx/activity/f;
+    ->f()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
     move-result-object p1
 
@@ -213,7 +243,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/appcompat/widget/AppCompatToggleButton;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;->readProperties(Landroidx/appcompat/widget/AppCompatToggleButton;Landroid/view/inspector/PropertyReader;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatToggleButton$InspectionCompanion;
+    ->readProperties(Landroidx/appcompat/widget/AppCompatToggleButton;Landroid/view/inspector/PropertyReader;)V
 return-void
 .end method
 

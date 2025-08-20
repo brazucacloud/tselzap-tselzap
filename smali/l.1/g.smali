@@ -8,7 +8,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Ljava/time/Instant;->toEpochMilli()J
+    invoke-virtual {p0}, Ljava/time/Instant;
+    ->toEpochMilli()J
 
     move-result-wide v0
 
@@ -19,7 +20,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/graphics/Bitmap$Config;->HARDWARE:Landroid/graphics/Bitmap$Config;
+    sget-object v0, Landroid/graphics/Bitmap$Config;
+    ->HARDWARE:Landroid/graphics/Bitmap$Config;
 
     return-object v0
 .end method
@@ -28,7 +30,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroid/graphics/BitmapFactory$Options;->outConfig:Landroid/graphics/Bitmap$Config;
+    iget-object p0, p0, Landroid/graphics/BitmapFactory$Options;
+    ->outConfig:Landroid/graphics/Bitmap$Config;
 
     return-object p0
 .end method
@@ -37,7 +40,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/graphics/ColorSpace$Named;->DISPLAY_P3:Landroid/graphics/ColorSpace$Named;
+    sget-object v0, Landroid/graphics/ColorSpace$Named;
+    ->DISPLAY_P3:Landroid/graphics/ColorSpace$Named;
 
     return-object v0
 .end method
@@ -46,7 +50,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroid/graphics/BitmapFactory$Options;->outColorSpace:Landroid/graphics/ColorSpace;
+    iget-object p0, p0, Landroid/graphics/BitmapFactory$Options;
+    ->outColorSpace:Landroid/graphics/ColorSpace;
 
     return-object p0
 .end method
@@ -64,7 +69,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/lang/invoke/MethodHandle;->invokeWithArguments([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Ljava/lang/invoke/MethodHandle;
+    ->invokeWithArguments([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -75,7 +81,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/reflect/Parameter;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/reflect/Parameter;
+    ->getName()Ljava/lang/String;
 
     move-result-object p0
 
@@ -86,7 +93,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/lang/invoke/MethodHandle;->bindTo(Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+    invoke-virtual {p0, p1}, Ljava/lang/invoke/MethodHandle;
+    ->bindTo(Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
 
     move-result-object p0
 
@@ -97,7 +105,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Ljava/lang/invoke/MethodHandles$Lookup;->unreflectSpecial(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;
+    invoke-virtual {p0, p1, p2}, Ljava/lang/invoke/MethodHandles$Lookup;
+    ->unreflectSpecial(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;
 
     move-result-object p0
 
@@ -117,7 +126,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/FragmentManager;->getFragments()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/app/FragmentManager;
+    ->getFragments()Ljava/util/List;
 
     move-result-object p0
 
@@ -130,7 +140,8 @@
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->inPreferredColorSpace:Landroid/graphics/ColorSpace;
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
+    ->inPreferredColorSpace:Landroid/graphics/ColorSpace;
 
     return-void
 .end method
@@ -139,7 +150,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroid/graphics/BitmapFactory$Options;->inPreferredColorSpace:Landroid/graphics/ColorSpace;
+    iput-object p1, p0, Landroid/graphics/BitmapFactory$Options;
+    ->inPreferredColorSpace:Landroid/graphics/ColorSpace;
 
     return-void
 .end method
@@ -148,7 +160,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->clipOutRect(Landroid/graphics/RectF;)Z
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;
+    ->clipOutRect(Landroid/graphics/RectF;)Z
 return-void
 .end method
 
@@ -156,7 +169,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/TextPaint;->setFontVariationSettings(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/text/TextPaint;
+    ->setFontVariationSettings(Ljava/lang/String;)Z
 
     return-void
 .end method
@@ -167,7 +181,8 @@ return-void
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setImportantForAutofill(I)V
+    invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;
+    ->setImportantForAutofill(I)V
 return-void
 .end method
 
@@ -175,7 +190,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/ColorSpace;->isWideGamut()Z
+    invoke-virtual {p0}, Landroid/graphics/ColorSpace;
+    ->isWideGamut()Z
 
     move-result p0
 
@@ -186,7 +202,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/reflect/Parameter;->isNamePresent()Z
+    invoke-virtual {p0}, Ljava/lang/reflect/Parameter;
+    ->isNamePresent()Z
 
     move-result p0
 
@@ -197,7 +214,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/reflect/Method;->getParameters()[Ljava/lang/reflect/Parameter;
+    invoke-virtual {p0}, Ljava/lang/reflect/Method;
+    ->getParameters()[Ljava/lang/reflect/Parameter;
 
     move-result-object p0
 
@@ -208,7 +226,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/graphics/Bitmap$Config;->RGBA_F16:Landroid/graphics/Bitmap$Config;
+    sget-object v0, Landroid/graphics/Bitmap$Config;
+    ->RGBA_F16:Landroid/graphics/Bitmap$Config;
 
     return-object v0
 .end method
@@ -219,7 +238,8 @@ return-void
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->outColorSpace:Landroid/graphics/ColorSpace;
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
+    ->outColorSpace:Landroid/graphics/ColorSpace;
 
     return-void
 .end method
@@ -230,7 +250,8 @@ return-void
     .line 1
     const/4 v0, 0x0
 
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->outConfig:Landroid/graphics/Bitmap$Config;
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
+    ->outConfig:Landroid/graphics/Bitmap$Config;
 
     return-void
 .end method

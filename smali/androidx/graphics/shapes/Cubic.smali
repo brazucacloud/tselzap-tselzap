@@ -27,9 +27,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/graphics/shapes/Cubic$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/graphics/shapes/Cubic$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/graphics/shapes/Cubic;->Companion:Landroidx/graphics/shapes/Cubic$Companion;
+    sput-object v0, Landroidx/graphics/shapes/Cubic;
+    ->Companion:Landroidx/graphics/shapes/Cubic$Companion;
 
     return-void
 .end method
@@ -42,7 +44,8 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;-><init>([FILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;
+    -><init>([FILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -50,42 +53,50 @@ return-void
     .locals 2
 
     .line 6
-    invoke-static {p1, p2}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p1, p2}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     move-result v0
 
     .line 7
-    invoke-static {p1, p2}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p1, p2}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     move-result p1
 
     .line 8
-    invoke-static {p3, p4}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p3, p4}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     move-result p2
 
     .line 9
-    invoke-static {p3, p4}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p3, p4}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     move-result p3
 
     .line 10
-    invoke-static {p5, p6}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p5, p6}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     move-result p4
 
     .line 11
-    invoke-static {p5, p6}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p5, p6}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     move-result p5
 
     .line 12
-    invoke-static {p7, p8}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p7, p8}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     move-result p6
 
     .line 13
-    invoke-static {p7, p8}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p7, p8}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     move-result p7
 
@@ -126,7 +137,8 @@ return-void
     aput p7, p8, p1
 
     .line 14
-    invoke-direct {p0, p8}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
+    invoke-direct {p0, p8}, Landroidx/graphics/shapes/Cubic;
+    -><init>([F)V
 return-void
 .end method
 
@@ -134,7 +146,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct/range {p0 .. p8}, Landroidx/graphics/shapes/Cubic;-><init>(JJJJ)V
+    invoke-direct/range {p0 .. p8}, Landroidx/graphics/shapes/Cubic;
+    -><init>(JJJJ)V
 return-void
 .end method
 
@@ -143,12 +156,15 @@ return-void
 
     const-string v0, "points"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iput-object p1, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 4
     array-length p1, p1
@@ -164,7 +180,8 @@ return-void
 
     const-string v0, "Points array size should be 8"
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -182,7 +199,8 @@ return-void
     new-array p1, p1, [F
 
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
+    invoke-direct {p0, p1}, Landroidx/graphics/shapes/Cubic;
+    -><init>([F)V
 return-void
 .end method
 
@@ -222,7 +240,8 @@ return-void
 
     .line 15
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/Cubic;->calculateBounds$graphics_shapes_release([FZ)V
+    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/Cubic;
+    ->calculateBounds$graphics_shapes_release([FZ)V
 return-void
 
     .line 19
@@ -235,7 +254,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -245,7 +265,8 @@ return-void
 .method public static final circularArc(FFFFFF)Landroidx/graphics/shapes/Cubic;
     .locals 7
 
-    sget-object v0, Landroidx/graphics/shapes/Cubic;->Companion:Landroidx/graphics/shapes/Cubic$Companion;
+    sget-object v0, Landroidx/graphics/shapes/Cubic;
+    ->Companion:Landroidx/graphics/shapes/Cubic$Companion;
 
     move v1, p0
 
@@ -259,7 +280,8 @@ return-void
 
     move v6, p5
 
-    invoke-virtual/range {v0 .. v6}, Landroidx/graphics/shapes/Cubic$Companion;->circularArc(FFFFFF)Landroidx/graphics/shapes/Cubic;
+    invoke-virtual/range {v0 .. v6}, Landroidx/graphics/shapes/Cubic$Companion;
+    ->circularArc(FFFFFF)Landroidx/graphics/shapes/Cubic;
 
     move-result-object p0
 
@@ -269,9 +291,11 @@ return-void
 .method public static final straightLine(FFFF)Landroidx/graphics/shapes/Cubic;
     .locals 1
 
-    sget-object v0, Landroidx/graphics/shapes/Cubic;->Companion:Landroidx/graphics/shapes/Cubic$Companion;
+    sget-object v0, Landroidx/graphics/shapes/Cubic;
+    ->Companion:Landroidx/graphics/shapes/Cubic$Companion;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/graphics/shapes/Cubic$Companion;->straightLine(FFFF)Landroidx/graphics/shapes/Cubic;
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/graphics/shapes/Cubic$Companion;
+    ->straightLine(FFFF)Landroidx/graphics/shapes/Cubic;
 
     move-result-object p0
 
@@ -282,7 +306,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 2
     .line 3
@@ -332,12 +357,14 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->zeroLength$graphics_shapes_release()Z
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->zeroLength$graphics_shapes_release()Z
 
     .line 11
     .line 12
@@ -361,7 +388,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 21
     .line 22
@@ -373,7 +401,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 27
     .line 28
@@ -385,7 +414,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 33
     .line 34
@@ -397,7 +427,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 39
     .line 40
@@ -409,7 +440,8 @@ return-void
 
     .line 45
     :cond_0
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 46
     .line 47
@@ -417,7 +449,8 @@ return-void
     move-result v2
 
     .line 49
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 50
     .line 51
@@ -425,7 +458,8 @@ return-void
     move-result v7
 
     .line 53
-    invoke-static {v2, v7}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v2, v7}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 54
     .line 55
@@ -433,7 +467,8 @@ return-void
     move-result v2
 
     .line 57
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 58
     .line 59
@@ -441,7 +476,8 @@ return-void
     move-result v7
 
     .line 61
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 62
     .line 63
@@ -449,7 +485,8 @@ return-void
     move-result v8
 
     .line 65
-    invoke-static {v7, v8}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v7, v8}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 66
     .line 67
@@ -457,7 +494,8 @@ return-void
     move-result v7
 
     .line 69
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 70
     .line 71
@@ -465,7 +503,8 @@ return-void
     move-result v8
 
     .line 73
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 74
     .line 75
@@ -473,7 +512,8 @@ return-void
     move-result v9
 
     .line 77
-    invoke-static {v8, v9}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v8, v9}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 78
     .line 79
@@ -481,7 +521,8 @@ return-void
     move-result v8
 
     .line 81
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 82
     .line 83
@@ -489,7 +530,8 @@ return-void
     move-result v9
 
     .line 85
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 86
     .line 87
@@ -497,7 +539,8 @@ return-void
     move-result v10
 
     .line 89
-    invoke-static {v9, v10}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v9, v10}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 90
     .line 91
@@ -509,7 +552,8 @@ return-void
 
     .line 94
     .line 95
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 96
     .line 97
@@ -517,7 +561,8 @@ return-void
     move-result v10
 
     .line 99
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 100
     .line 101
@@ -525,7 +570,8 @@ return-void
     move-result v11
 
     .line 103
-    invoke-static {v10, v11}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v10, v11}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 104
     .line 105
@@ -533,7 +579,8 @@ return-void
     move-result v10
 
     .line 107
-    invoke-static {v2, v10}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v2, v10}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 108
     .line 109
@@ -545,7 +592,8 @@ return-void
 
     .line 112
     .line 113
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 114
     .line 115
@@ -553,7 +601,8 @@ return-void
     move-result v2
 
     .line 117
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 118
     .line 119
@@ -561,7 +610,8 @@ return-void
     move-result v4
 
     .line 121
-    invoke-static {v2, v4}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v2, v4}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 122
     .line 123
@@ -569,7 +619,8 @@ return-void
     move-result v2
 
     .line 125
-    invoke-static {v7, v2}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v7, v2}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 126
     .line 127
@@ -581,7 +632,8 @@ return-void
 
     .line 130
     .line 131
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 132
     .line 133
@@ -589,7 +641,8 @@ return-void
     move-result v2
 
     .line 135
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 136
     .line 137
@@ -597,7 +650,8 @@ return-void
     move-result v3
 
     .line 139
-    invoke-static {v2, v3}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v2, v3}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 140
     .line 141
@@ -605,7 +659,8 @@ return-void
     move-result v2
 
     .line 143
-    invoke-static {v8, v2}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v8, v2}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 144
     .line 145
@@ -617,7 +672,8 @@ return-void
 
     .line 148
     .line 149
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 150
     .line 151
@@ -625,7 +681,8 @@ return-void
     move-result v2
 
     .line 153
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 154
     .line 155
@@ -633,7 +690,8 @@ return-void
     move-result v3
 
     .line 157
-    invoke-static {v2, v3}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v2, v3}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 158
     .line 159
@@ -641,7 +699,8 @@ return-void
     move-result v2
 
     .line 161
-    invoke-static {v9, v2}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v9, v2}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 162
     .line 163
@@ -653,7 +712,8 @@ return-void
 
     .line 168
     :cond_1
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 169
     .line 170
@@ -667,7 +727,8 @@ return-void
     int-to-float v11, v5
 
     .line 174
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 175
     .line 176
@@ -682,7 +743,8 @@ return-void
     add-float/2addr v12, v10
 
     .line 181
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 182
     .line 183
@@ -697,7 +759,8 @@ return-void
     sub-float/2addr v12, v10
 
     .line 188
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 189
     .line 190
@@ -711,7 +774,8 @@ return-void
     int-to-float v12, v6
 
     .line 194
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 195
     .line 196
@@ -729,7 +793,8 @@ return-void
     int-to-float v14, v14
 
     .line 202
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 203
     .line 204
@@ -744,7 +809,8 @@ return-void
     sub-float/2addr v13, v15
 
     .line 209
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 210
     .line 211
@@ -759,7 +825,8 @@ return-void
     add-float/2addr v15, v13
 
     .line 216
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 217
     .line 218
@@ -770,7 +837,8 @@ return-void
     neg-float v13, v13
 
     .line 221
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 222
     .line 223
@@ -782,7 +850,8 @@ return-void
 
     .line 226
     .line 227
-    invoke-direct {v0, v10}, Landroidx/graphics/shapes/Cubic;->zeroIsh(F)Z
+    invoke-direct {v0, v10}, Landroidx/graphics/shapes/Cubic;
+    ->zeroIsh(F)Z
 
     .line 228
     .line 229
@@ -852,7 +921,8 @@ return-void
 
     .line 259
     .line 260
-    invoke-virtual {v0, v10}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {v0, v10}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 261
     .line 262
@@ -860,7 +930,8 @@ return-void
     move-result-wide v15
 
     .line 264
-    invoke-static/range {v15 .. v16}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static/range {v15 .. v16}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 265
     .line 266
@@ -957,7 +1028,8 @@ return-void
 
     .line 306
     .line 307
-    invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {v4, v5}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 308
     .line 309
@@ -994,7 +1066,8 @@ return-void
 
     .line 323
     .line 324
-    invoke-virtual {v0, v6}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {v0, v6}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 325
     .line 326
@@ -1002,7 +1075,8 @@ return-void
     move-result-wide v6
 
     .line 328
-    invoke-static {v6, v7}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {v6, v7}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 329
     .line 330
@@ -1034,7 +1108,8 @@ return-void
 
     .line 342
     :cond_7
-    invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {v4, v5}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 343
     .line 344
@@ -1067,7 +1142,8 @@ return-void
 
     .line 356
     .line 357
-    invoke-virtual {v0, v15}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {v0, v15}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 358
     .line 359
@@ -1075,7 +1151,8 @@ return-void
     move-result-wide v4
 
     .line 361
-    invoke-static {v4, v5}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {v4, v5}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 362
     .line 363
@@ -1108,7 +1185,8 @@ return-void
     .line 375
     :cond_9
     :goto_1
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 376
     .line 377
@@ -1119,7 +1197,8 @@ return-void
     neg-float v4, v4
 
     .line 380
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 381
     .line 382
@@ -1134,7 +1213,8 @@ return-void
     add-float/2addr v5, v4
 
     .line 387
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 388
     .line 389
@@ -1149,7 +1229,8 @@ return-void
     sub-float/2addr v5, v4
 
     .line 394
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 395
     .line 396
@@ -1160,7 +1241,8 @@ return-void
     add-float/2addr v4, v5
 
     .line 399
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 400
     .line 401
@@ -1172,7 +1254,8 @@ return-void
 
     .line 404
     .line 405
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 406
     .line 407
@@ -1187,7 +1270,8 @@ return-void
     sub-float/2addr v5, v6
 
     .line 412
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 413
     .line 414
@@ -1202,7 +1286,8 @@ return-void
     add-float/2addr v6, v5
 
     .line 419
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 420
     .line 421
@@ -1213,7 +1298,8 @@ return-void
     neg-float v5, v5
 
     .line 424
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 425
     .line 426
@@ -1224,7 +1310,8 @@ return-void
     add-float/2addr v7, v5
 
     .line 429
-    invoke-direct {v0, v4}, Landroidx/graphics/shapes/Cubic;->zeroIsh(F)Z
+    invoke-direct {v0, v4}, Landroidx/graphics/shapes/Cubic;
+    ->zeroIsh(F)Z
 
     .line 430
     .line 431
@@ -1279,7 +1366,8 @@ return-void
 
     .line 454
     .line 455
-    invoke-virtual {v0, v12}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {v0, v12}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 456
     .line 457
@@ -1287,7 +1375,8 @@ return-void
     move-result-wide v3
 
     .line 459
-    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 460
     .line 461
@@ -1359,7 +1448,8 @@ return-void
     float-to-double v6, v3
 
     .line 489
-    invoke-static {v6, v7}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {v6, v7}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 490
     .line 491
@@ -1396,7 +1486,8 @@ return-void
 
     .line 505
     .line 506
-    invoke-virtual {v0, v3}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {v0, v3}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 507
     .line 508
@@ -1404,7 +1495,8 @@ return-void
     move-result-wide v3
 
     .line 510
-    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 511
     .line 512
@@ -1436,7 +1528,8 @@ return-void
 
     .line 524
     :cond_e
-    invoke-static {v6, v7}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {v6, v7}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 525
     .line 526
@@ -1469,7 +1562,8 @@ return-void
 
     .line 538
     .line 539
-    invoke-virtual {v0, v5}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {v0, v5}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 540
     .line 541
@@ -1477,7 +1571,8 @@ return-void
     move-result-wide v3
 
     .line 543
-    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 544
     .line 545
@@ -1545,7 +1640,8 @@ return-void
     div-float/2addr v0, p1
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/graphics/shapes/Cubic;->times(F)Landroidx/graphics/shapes/Cubic;
+    invoke-virtual {p0, v0}, Landroidx/graphics/shapes/Cubic;
+    ->times(F)Landroidx/graphics/shapes/Cubic;
 
     move-result-object p1
 
@@ -1558,7 +1654,8 @@ return-void
     int-to-float p1, p1
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Cubic;->div(F)Landroidx/graphics/shapes/Cubic;
+    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Cubic;
+    ->div(F)Landroidx/graphics/shapes/Cubic;
 
     move-result-object p1
 
@@ -1593,7 +1690,8 @@ return-void
 
     .line 11
     :cond_1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 12
     .line 13
@@ -1601,11 +1699,13 @@ return-void
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object p1, p1, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Ljava/util/Arrays;->equals([F[F)Z
+    invoke-static {v0, p1}, Ljava/util/Arrays;
+    ->equals([F[F)Z
 
     .line 18
     .line 19
@@ -1619,7 +1719,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1633,7 +1734,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1647,7 +1749,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1661,7 +1764,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1675,7 +1779,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1689,7 +1794,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1703,7 +1809,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1717,7 +1824,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
@@ -1731,18 +1839,21 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F    return-object v0
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Arrays;->hashCode([F)I
+    invoke-static {v0}, Ljava/util/Arrays;
+    ->hashCode([F)I
 
     .line 4
     .line 5
@@ -1760,7 +1871,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1781,7 +1893,8 @@ return-void
 
     .line 12
     .line 13
-    iget-object v3, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v3, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 14
     .line 15
@@ -1789,7 +1902,8 @@ return-void
 
     .line 16
     .line 17
-    iget-object v4, p1, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v4, p1, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 18
     .line 19
@@ -1816,7 +1930,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
+    invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;
+    -><init>([F)V
 return-object p1
 .end method
 
@@ -1833,7 +1948,8 @@ return-object p1
     sub-float/2addr v0, p1
 
     .line 4
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 5
     .line 6
@@ -1853,7 +1969,8 @@ return-object p1
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 15
     .line 16
@@ -1886,7 +2003,8 @@ return-object p1
     add-float/2addr v3, v1
 
     .line 29
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 30
     .line 31
@@ -1909,7 +2027,8 @@ return-object p1
     add-float/2addr v1, v3
 
     .line 40
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 41
     .line 42
@@ -1932,7 +2051,8 @@ return-object p1
     add-float/2addr v0, v1
 
     .line 51
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 52
     .line 53
@@ -1944,7 +2064,8 @@ return-object p1
 
     .line 56
     .line 57
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 58
     .line 59
@@ -1959,7 +2080,8 @@ return-object p1
     add-float/2addr v1, p1
 
     .line 64
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 65
     .line 66
@@ -1974,7 +2096,8 @@ return-object p1
     add-float/2addr p1, v1
 
     .line 71
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 72
     .line 73
@@ -1989,7 +2112,8 @@ return-object p1
     add-float/2addr v1, p1
 
     .line 78
-    invoke-static {v0, v1}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, v1}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 79
     .line 80
@@ -2003,7 +2127,8 @@ return-object p1
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 2
     .line 3
@@ -2011,7 +2136,8 @@ return-object p1
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 6
     .line 7
@@ -2019,7 +2145,8 @@ return-object p1
     move-result v1
 
     .line 9
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 10
     .line 11
@@ -2027,7 +2154,8 @@ return-object p1
     move-result v2
 
     .line 13
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 14
     .line 15
@@ -2035,7 +2163,8 @@ return-object p1
     move-result v3
 
     .line 17
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 18
     .line 19
@@ -2043,7 +2172,8 @@ return-object p1
     move-result v4
 
     .line 21
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 22
     .line 23
@@ -2051,7 +2181,8 @@ return-object p1
     move-result v5
 
     .line 25
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 26
     .line 27
@@ -2059,7 +2190,8 @@ return-object p1
     move-result v6
 
     .line 29
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 30
     .line 31
@@ -2067,7 +2199,8 @@ return-object p1
     move-result v7
 
     .line 33
-    invoke-static/range {v0 .. v7}, Landroidx/graphics/shapes/CubicKt;->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
+    invoke-static/range {v0 .. v7}, Landroidx/graphics/shapes/CubicKt;
+    ->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
 
     .line 34
     .line 35
@@ -2097,7 +2230,8 @@ return-object p1
 
     .line 4
     .line 5
-    invoke-virtual/range {p0 .. p1}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual/range {p0 .. p1}, Landroidx/graphics/shapes/Cubic;
+    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 6
     .line 7
@@ -2105,7 +2239,8 @@ return-object p1
     move-result-wide v1
 
     .line 9
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 10
     .line 11
@@ -2113,7 +2248,8 @@ return-object p1
     move-result v3
 
     .line 13
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 14
     .line 15
@@ -2121,7 +2257,8 @@ return-object p1
     move-result v4
 
     .line 17
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 18
     .line 19
@@ -2133,7 +2270,8 @@ return-object p1
 
     .line 22
     .line 23
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 24
     .line 25
@@ -2148,7 +2286,8 @@ return-object p1
     add-float/2addr v5, v6
 
     .line 30
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 31
     .line 32
@@ -2160,7 +2299,8 @@ return-object p1
 
     .line 35
     .line 36
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 37
     .line 38
@@ -2175,7 +2315,8 @@ return-object p1
     add-float/2addr v6, v7
 
     .line 43
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 44
     .line 45
@@ -2191,7 +2332,8 @@ return-object p1
 
     .line 50
     .line 51
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 52
     .line 53
@@ -2220,7 +2362,8 @@ return-object p1
     add-float/2addr v8, v7
 
     .line 64
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 65
     .line 66
@@ -2239,7 +2382,8 @@ return-object p1
     add-float/2addr v7, v8
 
     .line 73
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 74
     .line 75
@@ -2251,7 +2395,8 @@ return-object p1
 
     .line 78
     .line 79
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 80
     .line 81
@@ -2266,7 +2411,8 @@ return-object p1
     add-float/2addr v9, v8
 
     .line 86
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 87
     .line 88
@@ -2281,7 +2427,8 @@ return-object p1
     add-float/2addr v8, v9
 
     .line 93
-    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 94
     .line 95
@@ -2289,7 +2436,8 @@ return-object p1
     move-result v9
 
     .line 97
-    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 98
     .line 99
@@ -2297,7 +2445,8 @@ return-object p1
     move-result v10
 
     .line 101
-    invoke-static/range {v3 .. v10}, Landroidx/graphics/shapes/CubicKt;->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
+    invoke-static/range {v3 .. v10}, Landroidx/graphics/shapes/CubicKt;
+    ->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
 
     .line 102
     .line 103
@@ -2305,7 +2454,8 @@ return-object p1
     move-result-object v3
 
     .line 105
-    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 106
     .line 107
@@ -2313,7 +2463,8 @@ return-object p1
     move-result v14
 
     .line 109
-    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {v1, v2}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 110
     .line 111
@@ -2321,7 +2472,8 @@ return-object p1
     move-result v15
 
     .line 113
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 114
     .line 115
@@ -2333,7 +2485,8 @@ return-object p1
 
     .line 118
     .line 119
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 120
     .line 121
@@ -2348,7 +2501,8 @@ return-object p1
     add-float/2addr v2, v1
 
     .line 126
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 127
     .line 128
@@ -2364,7 +2518,8 @@ return-object p1
 
     .line 133
     .line 134
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 135
     .line 136
@@ -2376,7 +2531,8 @@ return-object p1
 
     .line 139
     .line 140
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 141
     .line 142
@@ -2391,7 +2547,8 @@ return-object p1
     add-float/2addr v2, v1
 
     .line 147
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 148
     .line 149
@@ -2407,7 +2564,8 @@ return-object p1
 
     .line 154
     .line 155
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 156
     .line 157
@@ -2419,7 +2577,8 @@ return-object p1
 
     .line 160
     .line 161
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 162
     .line 163
@@ -2435,7 +2594,8 @@ return-object p1
 
     .line 168
     .line 169
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 170
     .line 171
@@ -2447,7 +2607,8 @@ return-object p1
 
     .line 174
     .line 175
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 176
     .line 177
@@ -2463,7 +2624,8 @@ return-object p1
 
     .line 182
     .line 183
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 184
     .line 185
@@ -2471,7 +2633,8 @@ return-object p1
     move-result v20
 
     .line 187
-    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual/range {p0 .. p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 188
     .line 189
@@ -2479,7 +2642,8 @@ return-object p1
     move-result v21
 
     .line 191
-    invoke-static/range {v14 .. v21}, Landroidx/graphics/shapes/CubicKt;->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
+    invoke-static/range {v14 .. v21}, Landroidx/graphics/shapes/CubicKt;
+    ->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
 
     .line 192
     .line 193
@@ -2491,7 +2655,8 @@ return-object p1
 
     .line 196
     .line 197
-    invoke-direct {v1, v3, v0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v3, v0}, Lc1/f;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 return-object v1
 .end method
 
@@ -2508,7 +2673,8 @@ return-object v1
     :goto_0
     if-ge v2, v0, :cond_0
 
-    iget-object v3, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v3, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     aget v3, v3, v2
 
@@ -2523,7 +2689,8 @@ return-object v1
     :cond_0
     new-instance p1, Landroidx/graphics/shapes/Cubic;
 
-    invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
+    invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;
+    -><init>([F)V
 return-object p1
 .end method
 
@@ -2533,7 +2700,8 @@ return-object p1
     int-to-float p1, p1
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Cubic;->times(F)Landroidx/graphics/shapes/Cubic;
+    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Cubic;
+    ->times(F)Landroidx/graphics/shapes/Cubic;
 
     move-result-object p1
 
@@ -2552,12 +2720,14 @@ return-object p1
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 9
     .line 10
@@ -2565,7 +2735,8 @@ return-object p1
     move-result v1
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -2574,12 +2745,14 @@ return-object p1
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 21
     .line 22
@@ -2587,7 +2760,8 @@ return-object p1
     move-result v2
 
     .line 24
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
@@ -2596,12 +2770,14 @@ return-object p1
 
     .line 28
     .line 29
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0X()F
 
     .line 33
     .line 34
@@ -2609,17 +2785,20 @@ return-object p1
     move-result v2
 
     .line 36
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl0Y()F
 
     .line 43
     .line 44
@@ -2627,7 +2806,8 @@ return-object p1
     move-result v2
 
     .line 46
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
@@ -2636,12 +2816,14 @@ return-object p1
 
     .line 50
     .line 51
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1X()F
 
     .line 55
     .line 56
@@ -2649,17 +2831,20 @@ return-object p1
     move-result v2
 
     .line 58
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getControl1Y()F
 
     .line 65
     .line 66
@@ -2667,7 +2852,8 @@ return-object p1
     move-result v2
 
     .line 68
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 69
     .line 70
@@ -2676,12 +2862,14 @@ return-object p1
 
     .line 72
     .line 73
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 77
     .line 78
@@ -2689,17 +2877,20 @@ return-object p1
     move-result v2
 
     .line 80
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 87
     .line 88
@@ -2707,7 +2898,8 @@ return-object p1
     move-result v1
 
     .line 90
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 91
     .line 92
@@ -2716,12 +2908,14 @@ return-object p1
 
     .line 94
     .line 95
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 96
     .line 97
     .line 98
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 99
     .line 100
@@ -2739,7 +2933,8 @@ return-object p1
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2748,16 +2943,19 @@ return-object p1
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroidx/graphics/shapes/MutableCubic;-><init>()V
+    invoke-direct {v0}, Landroidx/graphics/shapes/MutableCubic;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/graphics/shapes/Cubic;->points:[F
+    iget-object v1, p0, Landroidx/graphics/shapes/Cubic;
+    ->points:[F
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getPoints$graphics_shapes_release()[F
 
     .line 14
     .line 15
@@ -2771,12 +2969,14 @@ return-object p1
     const/4 v4, 0x0
 
     .line 19
-    invoke-static {v1, v4, v2, v4, v3}, Ld1/i;->Z([FI[FII)V
+    invoke-static {v1, v4, v2, v4, v3}, Ld1/i;
+    ->Z([FI[FII)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Landroidx/graphics/shapes/MutableCubic;->transform(Landroidx/graphics/shapes/PointTransformer;)V
+    invoke-virtual {v0, p1}, Landroidx/graphics/shapes/MutableCubic;
+    ->transform(Landroidx/graphics/shapes/PointTransformer;)V
 return-object v0
 .end method
 
@@ -2784,7 +2984,8 @@ return-object v0
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 2
     .line 3
@@ -2792,7 +2993,8 @@ return-object v0
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 6
     .line 7
@@ -2803,7 +3005,8 @@ return-object v0
     sub-float/2addr v0, v1
 
     .line 10
-    invoke-static {v0}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v0}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 11
     .line 12
@@ -2824,7 +3027,8 @@ return-object v0
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 22
     .line 23
@@ -2832,7 +3036,8 @@ return-object v0
     move-result v0
 
     .line 25
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 26
     .line 27
@@ -2843,7 +3048,8 @@ return-object v0
     sub-float/2addr v0, v2
 
     .line 30
-    invoke-static {v0}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v0}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 31
     .line 32

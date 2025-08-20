@@ -12,7 +12,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -27,9 +28,11 @@
 
     new-instance v0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;
 
-    invoke-direct {v0}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;-><init>()V
+    invoke-direct {v0}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;
+    -><init>()V
 
-    sput-object v0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;->INSTANCE:Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;
+    sput-object v0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;
+    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequestHelper;
 
     return-void
 .end method
@@ -38,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -64,12 +68,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Landroidx/privacysandbox/ads/adservices/measurement/a;->l()Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-static {}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->l()Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     .line 7
     .line 8
@@ -77,7 +83,8 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;->getAdsSdkName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;
+    ->getAdsSdkName()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -85,7 +92,8 @@
     move-result-object v1
 
     .line 14
-    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/measurement/a;->m(Landroid/adservices/topics/GetTopicsRequest$Builder;Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->m(Landroid/adservices/topics/GetTopicsRequest$Builder;Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     .line 15
     .line 16
@@ -93,7 +101,8 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;->shouldRecordObservation()Z
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;
+    ->shouldRecordObservation()Z
 
     .line 19
     .line 20
@@ -101,7 +110,8 @@
     move-result p1
 
     .line 22
-    invoke-static {v0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;->n(Landroid/adservices/topics/GetTopicsRequest$Builder;Z)Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-static {v0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->n(Landroid/adservices/topics/GetTopicsRequest$Builder;Z)Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     .line 23
     .line 24
@@ -109,7 +119,8 @@
     move-result-object p1
 
     .line 26
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;->o(Landroid/adservices/topics/GetTopicsRequest$Builder;)Landroid/adservices/topics/GetTopicsRequest;
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->o(Landroid/adservices/topics/GetTopicsRequest$Builder;)Landroid/adservices/topics/GetTopicsRequest;
 
     .line 27
     .line 28
@@ -121,7 +132,8 @@
 
     .line 31
     .line 32
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -145,12 +157,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Landroidx/privacysandbox/ads/adservices/measurement/a;->l()Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-static {}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->l()Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     .line 7
     .line 8
@@ -158,7 +172,8 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;->getAdsSdkName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;
+    ->getAdsSdkName()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -166,7 +181,8 @@
     move-result-object p1
 
     .line 14
-    invoke-static {v0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;->m(Landroid/adservices/topics/GetTopicsRequest$Builder;Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-static {v0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->m(Landroid/adservices/topics/GetTopicsRequest$Builder;Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     .line 15
     .line 16
@@ -174,7 +190,8 @@
     move-result-object p1
 
     .line 18
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;->o(Landroid/adservices/topics/GetTopicsRequest$Builder;)Landroid/adservices/topics/GetTopicsRequest;
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/measurement/a;
+    ->o(Landroid/adservices/topics/GetTopicsRequest$Builder;)Landroid/adservices/topics/GetTopicsRequest;
 
     .line 19
     .line 20
@@ -186,7 +203,8 @@
 
     .line 23
     .line 24
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 

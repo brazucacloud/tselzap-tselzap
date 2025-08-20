@@ -15,7 +15,8 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lcom/google/android/material/appbar/d;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Lcom/google/android/material/appbar/d;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 .end method
 
@@ -25,7 +26,8 @@ return-object v0
     .line 1
     new-instance v0, Lcom/google/android/material/appbar/d;
 
-    invoke-direct {v0, p1, p2}, Lcom/google/android/material/appbar/d;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/material/appbar/d;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 .end method
 

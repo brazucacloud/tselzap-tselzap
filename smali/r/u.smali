@@ -11,7 +11,8 @@
     .locals 0
 
     .line 1
-    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    ->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 2
     .line 3
@@ -26,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p2, p1}, Landroidx/exifinterface/media/ExifInterface;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p2, p1}, Landroidx/exifinterface/media/ExifInterface;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 4
     .line 5
@@ -38,7 +40,8 @@
     const/4 v0, 0x1
 
     .line 9
-    invoke-virtual {p2, p1, v0}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
+    invoke-virtual {p2, p1, v0}, Landroidx/exifinterface/media/ExifInterface;
+    ->getAttributeInt(Ljava/lang/String;I)I
 
     .line 10
     .line 11
@@ -61,7 +64,8 @@
     .locals 0
 
     .line 1
-    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    ->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 2
     .line 3

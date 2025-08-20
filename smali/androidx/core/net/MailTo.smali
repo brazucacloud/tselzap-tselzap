@@ -37,7 +37,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -46,12 +47,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iput-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 10
     .line 11
@@ -70,11 +73,13 @@
     .line 2
     const-string v0, "mailto"
 
-    invoke-virtual {p0}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/net/Uri;
+    ->getScheme()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -102,7 +107,8 @@
     .line 1
     const-string v0, "mailto:"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -128,11 +134,13 @@
     .end annotation
 
     .line 29
-    invoke-virtual {p0}, Landroid/net/Uri;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/net/Uri;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {p0}, Landroidx/core/net/MailTo;->parse(Ljava/lang/String;)Landroidx/core/net/MailTo;
+    invoke-static {p0}, Landroidx/core/net/MailTo;
+    ->parse(Ljava/lang/String;)Landroidx/core/net/MailTo;
 
     move-result-object p0
 
@@ -149,10 +157,12 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    invoke-static {p0}, Landroidx/core/net/MailTo;->isMailTo(Ljava/lang/String;)Z
+    invoke-static {p0}, Landroidx/core/net/MailTo;
+    ->isMailTo(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -161,7 +171,8 @@
     const/16 v0, 0x23
 
     .line 3
-    invoke-virtual {p0, v0}, Ljava/lang/String;->indexOf(I)I
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->indexOf(I)I
 
     move-result v0
 
@@ -172,7 +183,8 @@
     if-eq v0, v1, :cond_0
 
     .line 4
-    invoke-virtual {p0, v2, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v2, v0}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     move-result-object p0
 
@@ -180,7 +192,8 @@
     const/16 v0, 0x3f
 
     .line 5
-    invoke-virtual {p0, v0}, Ljava/lang/String;->indexOf(I)I
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->indexOf(I)I
 
     move-result v0
 
@@ -193,11 +206,13 @@
     if-ne v0, v1, :cond_1
 
     .line 6
-    invoke-virtual {p0, v4}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {p0}, Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/net/Uri;
+    ->decode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -209,18 +224,21 @@
 
     .line 7
     :cond_1
-    invoke-virtual {p0, v4, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v4, v0}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1}, Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Landroid/net/Uri;
+    ->decode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     add-int/2addr v0, v5
 
     .line 8
-    invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     move-result-object p0
 
@@ -228,14 +246,16 @@
     :goto_0
     new-instance v0, Landroidx/core/net/MailTo;
 
-    invoke-direct {v0}, Landroidx/core/net/MailTo;-><init>()V
+    invoke-direct {v0}, Landroidx/core/net/MailTo;
+    -><init>()V
 
     if-eqz p0, :cond_4
 
     .line 10
     const-string v4, "&"
 
-    invoke-virtual {p0, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {p0, v4}, Ljava/lang/String;
+    ->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
@@ -254,7 +274,8 @@
 
     const/4 v9, 0x2
 
-    invoke-virtual {v7, v8, v9}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
+    invoke-virtual {v7, v8, v9}, Ljava/lang/String;
+    ->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v7
 
@@ -269,13 +290,16 @@
     :cond_2
     aget-object v8, v7, v2
 
-    invoke-static {v8}, Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8}, Landroid/net/Uri;
+    ->decode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
-    sget-object v9, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+    sget-object v9, Ljava/util/Locale;
+    ->ROOT:Ljava/util/Locale;
 
-    invoke-virtual {v8, v9}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-virtual {v8, v9}, Ljava/lang/String;
+    ->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -287,7 +311,8 @@
     .line 16
     aget-object v7, v7, v5
 
-    invoke-static {v7}, Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Landroid/net/Uri;
+    ->decode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -298,9 +323,11 @@
 
     .line 17
     :goto_2
-    iget-object v9, v0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v9, v0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
-    invoke-virtual {v9, v8, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v9, v8, v7}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_3
     add-int/lit8 v6, v6, 0x1
@@ -309,7 +336,8 @@
 
     .line 18
     :cond_4
-    invoke-virtual {v0}, Landroidx/core/net/MailTo;->getTo()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/core/net/MailTo;
+    ->getTo()Ljava/lang/String;
 
     move-result-object p0
 
@@ -319,17 +347,20 @@
     const-string v2, ", "
 
     .line 20
-    invoke-static {v1, v2, p0}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, p0}, LA/d;
+    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 21
     :cond_5
-    iget-object p0, v0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object p0, v0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     const-string v2, "to"
 
-    invoke-virtual {p0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v2, v1}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object v0
 
@@ -339,7 +370,8 @@
 
     const-string v0, "Not a mailto scheme"
 
-    invoke-direct {p0, v0}, Landroidx/core/net/ParseException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Landroidx/core/net/ParseException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -352,7 +384,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -360,7 +393,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -381,7 +415,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -389,7 +424,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -410,7 +446,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -418,7 +455,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -449,7 +487,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -462,7 +501,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -470,7 +510,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -491,7 +532,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -499,7 +541,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -528,16 +571,19 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/core/net/MailTo;->mHeaders:Ljava/util/HashMap;
+    iget-object v1, p0, Landroidx/core/net/MailTo;
+    ->mHeaders:Ljava/util/HashMap;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+    invoke-virtual {v1}, Ljava/util/HashMap;
+    ->entrySet()Ljava/util/Set;
 
     .line 11
     .line 12
@@ -545,7 +591,8 @@
     move-result-object v1
 
     .line 14
-    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 15
     .line 16
@@ -554,7 +601,8 @@
 
     .line 18
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 19
     .line 20
@@ -566,7 +614,8 @@
 
     .line 23
     .line 24
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -578,7 +627,8 @@
 
     .line 29
     .line 30
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -590,7 +640,8 @@
 
     .line 35
     .line 36
-    invoke-static {v3}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Landroid/net/Uri;
+    ->encode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -598,7 +649,8 @@
     move-result-object v3
 
     .line 40
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -607,12 +659,14 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -624,7 +678,8 @@
 
     .line 53
     .line 54
-    invoke-static {v2}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Landroid/net/Uri;
+    ->encode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 55
     .line 56
@@ -632,7 +687,8 @@
     move-result-object v2
 
     .line 58
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
@@ -641,7 +697,8 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
@@ -650,7 +707,8 @@
 
     .line 67
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 68
     .line 69

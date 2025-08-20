@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -20,12 +21,15 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;    
+    return-void
 .end method
 
 .method public static get(Landroid/content/Context;)Landroidx/appcompat/view/ActionBarPolicy;
@@ -36,7 +40,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/appcompat/view/ActionBarPolicy;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Landroidx/appcompat/view/ActionBarPolicy;
+    -><init>(Landroid/content/Context;)V
 return-object v0
 .end method
 
@@ -46,11 +51,13 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     .line 4
     .line 5
@@ -58,7 +65,8 @@ return-object v0
     move-result-object v0
 
     .line 7
-    iget v0, v0, Landroid/content/pm/ApplicationInfo;->targetSdkVersion:I
+    iget v0, v0, Landroid/content/pm/ApplicationInfo;
+    ->targetSdkVersion:I
 
     .line 8
     .line 9
@@ -85,11 +93,13 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -97,7 +107,8 @@ return-object v0
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {v0}, Landroid/content/res/Resources;
+    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 8
     .line 9
@@ -105,7 +116,8 @@ return-object v0
     move-result-object v0
 
     .line 11
-    iget v0, v0, Landroid/util/DisplayMetrics;->widthPixels:I
+    iget v0, v0, Landroid/util/DisplayMetrics;
+    ->widthPixels:I
 
     .line 12
     .line 13
@@ -116,11 +128,13 @@ return-object v0
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -128,7 +142,8 @@ return-object v0
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v0}, Landroid/content/res/Resources;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 8
     .line 9
@@ -136,15 +151,18 @@ return-object v0
     move-result-object v0
 
     .line 11
-    iget v1, v0, Landroid/content/res/Configuration;->screenWidthDp:I
+    iget v1, v0, Landroid/content/res/Configuration;
+    ->screenWidthDp:I
 
     .line 12
     .line 13
-    iget v2, v0, Landroid/content/res/Configuration;->screenHeightDp:I
+    iget v2, v0, Landroid/content/res/Configuration;
+    ->screenHeightDp:I
 
     .line 14
     .line 15
-    iget v0, v0, Landroid/content/res/Configuration;->smallestScreenWidthDp:I
+    iget v0, v0, Landroid/content/res/Configuration;
+    ->smallestScreenWidthDp:I
 
     .line 16
     .line 17
@@ -263,11 +281,13 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -275,11 +295,13 @@ return-object v0
     move-result-object v0
 
     .line 7
-    sget v1, Landroidx/appcompat/R$dimen;->abc_action_bar_stacked_tab_max_width:I
+    sget v1, Landroidx/appcompat/R$dimen;
+    ->abc_action_bar_stacked_tab_max_width:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 10
     .line 11
@@ -293,15 +315,18 @@ return-object v0
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/appcompat/R$styleable;->ActionBar:[I
+    sget-object v1, Landroidx/appcompat/R$styleable;
+    ->ActionBar:[I
 
     .line 4
     .line 5
-    sget v2, Landroidx/appcompat/R$attr;->actionBarStyle:I
+    sget v2, Landroidx/appcompat/R$attr;
+    ->actionBarStyle:I
 
     .line 6
     .line 7
@@ -311,7 +336,8 @@ return-object v0
     const/4 v4, 0x0
 
     .line 9
-    invoke-virtual {v0, v3, v1, v2, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {v0, v3, v1, v2, v4}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 10
     .line 11
@@ -319,11 +345,13 @@ return-object v0
     move-result-object v0
 
     .line 13
-    sget v1, Landroidx/appcompat/R$styleable;->ActionBar_height:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->ActionBar_height:I
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;->getLayoutDimension(II)I
+    invoke-virtual {v0, v1, v4}, Landroid/content/res/TypedArray;
+    ->getLayoutDimension(II)I
 
     .line 16
     .line 17
@@ -331,11 +359,13 @@ return-object v0
     move-result v1
 
     .line 19
-    iget-object v2, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v2, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 20
     .line 21
-    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v2}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 22
     .line 23
@@ -343,7 +373,8 @@ return-object v0
     move-result-object v2
 
     .line 25
-    invoke-virtual {p0}, Landroidx/appcompat/view/ActionBarPolicy;->hasEmbeddedTabs()Z
+    invoke-virtual {p0}, Landroidx/appcompat/view/ActionBarPolicy;
+    ->hasEmbeddedTabs()Z
 
     .line 26
     .line 27
@@ -355,11 +386,13 @@ return-object v0
 
     .line 30
     .line 31
-    sget v3, Landroidx/appcompat/R$dimen;->abc_action_bar_stacked_max_height:I
+    sget v3, Landroidx/appcompat/R$dimen;
+    ->abc_action_bar_stacked_max_height:I
 
     .line 32
     .line 33
-    invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v2, v3}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 34
     .line 35
@@ -367,7 +400,8 @@ return-object v0
     move-result v2
 
     .line 37
-    invoke-static {v1, v2}, Ljava/lang/Math;->min(II)I
+    invoke-static {v1, v2}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 38
     .line 39
@@ -376,18 +410,22 @@ return-object v0
 
     .line 41
     :cond_0
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return v1
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;
+    ->recycle()V    
+    return v1
 .end method
 
 .method public hasEmbeddedTabs()Z
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/ActionBarPolicy;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -395,11 +433,13 @@ return-object v0
     move-result-object v0
 
     .line 7
-    sget v1, Landroidx/appcompat/R$bool;->abc_action_bar_embed_tabs:I
+    sget v1, Landroidx/appcompat/R$bool;
+    ->abc_action_bar_embed_tabs:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;
+    ->getBoolean(I)Z
 
     .line 10
     .line 11

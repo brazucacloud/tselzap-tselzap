@@ -22,7 +22,8 @@
 
     .line 3
     .line 4
-    sput-object v0, LB0/h;->b:[Ljava/lang/Object;
+    sput-object v0, LB0/h;
+    ->b:[Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -42,7 +43,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -79,7 +81,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -125,7 +128,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -157,7 +161,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -192,7 +197,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -227,7 +233,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -264,7 +271,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -301,7 +309,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -334,9 +343,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, LB0/h;->b:[Ljava/lang/Object;
+    sget-object v0, LB0/h;
+    ->b:[Ljava/lang/Object;
 
-    invoke-virtual {p0, v0}, LB0/h;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {p0, v0}, LB0/h;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -347,10 +358,12 @@
     .locals 3
 
     .line 2
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 3
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;->size()I
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;
+    ->size()I
 
     move-result v0
 
@@ -360,27 +373,32 @@
     if-ge v1, v0, :cond_1
 
     .line 5
-    invoke-virtual {p0}, LB0/h;->b()[Ljava/lang/Object;
+    invoke-virtual {p0}, LB0/h;
+    ->b()[Ljava/lang/Object;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
     .line 6
-    invoke-virtual {p0}, LB0/h;->d()I
+    invoke-virtual {p0}, LB0/h;
+    ->d()I
 
     move-result v0
 
-    invoke-virtual {p0}, LB0/h;->c()I
+    invoke-virtual {p0}, LB0/h;
+    ->c()I
 
     move-result v2
 
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-static {v1, v0, v2, p1}, Ljava/util/Arrays;->copyOfRange([Ljava/lang/Object;IILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-static {v1, v0, v2, p1}, Ljava/util/Arrays;
+    ->copyOfRange([Ljava/lang/Object;IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -388,16 +406,19 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getComponentType()Ljava/lang/Class;
 
     move-result-object p1
 
     .line 9
-    invoke-static {p1, v0}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {p1, v0}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -419,7 +440,8 @@
     .line 12
     :cond_2
     :goto_0
-    invoke-virtual {p0, p1}, LB0/h;->a([Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, LB0/h;
+    ->a([Ljava/lang/Object;)I
 
     return-object p1
 .end method

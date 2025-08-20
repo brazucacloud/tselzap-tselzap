@@ -8,7 +8,8 @@
     .locals 3
 
     .line 1
-    invoke-static {p0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p0}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 2
     .line 3
@@ -30,7 +31,8 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v1, v0}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -42,7 +44,8 @@
 
     .line 16
     .line 17
-    invoke-static {v0, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p0}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 18
     .line 19

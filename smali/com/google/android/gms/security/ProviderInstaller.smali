@@ -42,7 +42,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;->getInstance()Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    invoke-static {}, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    ->getInstance()Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
 
     .line 2
     .line 3
@@ -50,7 +51,8 @@
     move-result-object v0
 
     .line 5
-    sput-object v0, Lcom/google/android/gms/security/ProviderInstaller;->zza:Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    sput-object v0, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zza:Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
 
     .line 6
     .line 7
@@ -58,26 +60,30 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 10
     .line 11
     .line 12
-    sput-object v0, Lcom/google/android/gms/security/ProviderInstaller;->zzb:Ljava/lang/Object;
+    sput-object v0, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzb:Ljava/lang/Object;
 
     .line 13
     .line 14
     const/4 v0, 0x0
 
     .line 15
-    sput-object v0, Lcom/google/android/gms/security/ProviderInstaller;->zzc:Ljava/lang/reflect/Method;
+    sput-object v0, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzc:Ljava/lang/reflect/Method;
 
     .line 16
     .line 17
     const/4 v0, 0x0
 
     .line 18
-    sput-boolean v0, Lcom/google/android/gms/security/ProviderInstaller;->zzd:Z
+    sput-boolean v0, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzd:Z
 
     .line 19
     .line 20
@@ -87,7 +93,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -106,12 +113,14 @@
 
     .line 3
     .line 4
-    invoke-static {p0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
     .line 7
-    sget-object v1, Lcom/google/android/gms/security/ProviderInstaller;->zza:Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    sget-object v1, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zza:Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
 
     .line 8
     .line 9
@@ -120,12 +129,14 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v1, p0, v2}, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;->verifyGooglePlayServicesIsAvailable(Landroid/content/Context;I)V
+    invoke-virtual {v1, p0, v2}, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    ->verifyGooglePlayServicesIsAvailable(Landroid/content/Context;I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 16
     .line 17
@@ -133,7 +144,8 @@
     move-result-wide v1
 
     .line 19
-    sget-object v3, Lcom/google/android/gms/security/ProviderInstaller;->zzb:Ljava/lang/Object;
+    sget-object v3, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzb:Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -141,7 +153,8 @@
 
     .line 22
     :try_start_0
-    sget-boolean v4, Lcom/google/android/gms/security/ProviderInstaller;->zzd:Z
+    sget-boolean v4, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzd:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -155,7 +168,8 @@
     .line 26
     .line 27
     :try_start_1
-    sget-object v4, Lcom/google/android/gms/dynamite/DynamiteModule;->PREFER_HIGHEST_OR_LOCAL_VERSION_NO_FORCE_STAGING:Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy;
+    sget-object v4, Lcom/google/android/gms/dynamite/DynamiteModule;
+    ->PREFER_HIGHEST_OR_LOCAL_VERSION_NO_FORCE_STAGING:Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy;
 
     .line 28
     .line 29
@@ -163,7 +177,8 @@
 
     .line 30
     .line 31
-    invoke-static {p0, v4, v6}, Lcom/google/android/gms/dynamite/DynamiteModule;->load(Landroid/content/Context;Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
+    invoke-static {p0, v4, v6}, Lcom/google/android/gms/dynamite/DynamiteModule;
+    ->load(Landroid/content/Context;Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     .line 32
     .line 33
@@ -171,7 +186,8 @@
     move-result-object v4
 
     .line 35
-    invoke-virtual {v4}, Lcom/google/android/gms/dynamite/DynamiteModule;->getModuleContext()Landroid/content/Context;
+    invoke-virtual {v4}, Lcom/google/android/gms/dynamite/DynamiteModule;
+    ->getModuleContext()Landroid/content/Context;
 
     .line 36
     .line 37
@@ -202,7 +218,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 47
     .line 48
@@ -214,7 +231,8 @@
 
     .line 51
     .line 52
-    invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v4}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -222,7 +240,8 @@
     move-result-object v4
 
     .line 56
-    invoke-virtual {v7, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v7, v4}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 57
     .line 58
@@ -230,7 +249,8 @@
     move-result-object v4
 
     .line 60
-    invoke-static {v6, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v4}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 61
     .line 62
@@ -247,7 +267,8 @@
 
     .line 67
     .line 68
-    invoke-static {v4, p0, v0}, Lcom/google/android/gms/security/ProviderInstaller;->zzb(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v4, p0, v0}, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzb(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -259,11 +280,13 @@
 
     .line 73
     :cond_0
-    sget-boolean v4, Lcom/google/android/gms/security/ProviderInstaller;->zzd:Z
+    sget-boolean v4, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzd:Z
 
     .line 74
     .line 75
-    invoke-static {p0}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;->getRemoteContext(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
+    ->getRemoteContext(Landroid/content/Context;)Landroid/content/Context;
 
     .line 76
     .line 77
@@ -279,7 +302,8 @@
 
     .line 82
     :cond_1
-    sput-boolean v0, Lcom/google/android/gms/security/ProviderInstaller;->zzd:Z
+    sput-boolean v0, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzd:Z
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -290,7 +314,8 @@
     .line 85
     .line 86
     :try_start_3
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 87
     .line 88
@@ -306,7 +331,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {v6}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v6}, Landroid/content/Context;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 95
     .line 96
@@ -318,7 +344,8 @@
 
     .line 99
     .line 100
-    invoke-static {v10, p0}, Lcom/google/android/gms/internal/common/zzj;->zzb(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/android/gms/internal/common/zzj;
+    invoke-static {v10, p0}, Lcom/google/android/gms/internal/common/zzj;
+    ->zzb(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/android/gms/internal/common/zzj;
 
     .line 101
     .line 102
@@ -326,7 +353,8 @@
     move-result-object v10
 
     .line 104
-    invoke-static {v1, v2}, Lcom/google/android/gms/internal/common/zzi;->zza(J)Lcom/google/android/gms/internal/common/zzi;
+    invoke-static {v1, v2}, Lcom/google/android/gms/internal/common/zzi;
+    ->zza(J)Lcom/google/android/gms/internal/common/zzi;
 
     .line 105
     .line 106
@@ -334,7 +362,8 @@
     move-result-object v1
 
     .line 108
-    invoke-static {v4, v5}, Lcom/google/android/gms/internal/common/zzi;->zza(J)Lcom/google/android/gms/internal/common/zzi;
+    invoke-static {v4, v5}, Lcom/google/android/gms/internal/common/zzi;
+    ->zza(J)Lcom/google/android/gms/internal/common/zzi;
 
     .line 109
     .line 110
@@ -367,7 +396,8 @@
 
     .line 122
     .line 123
-    invoke-static {v7, v8, v9, v4}, Lcom/google/android/gms/internal/common/zzl;->zzb(Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;[Lcom/google/android/gms/internal/common/zzj;)Ljava/lang/Object;
+    invoke-static {v7, v8, v9, v4}, Lcom/google/android/gms/internal/common/zzl;
+    ->zzb(Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;[Lcom/google/android/gms/internal/common/zzj;)Ljava/lang/Object;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -387,7 +417,8 @@
 
     .line 129
     .line 130
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 131
     .line 132
@@ -399,7 +430,8 @@
 
     .line 135
     .line 136
-    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 137
     .line 138
@@ -407,7 +439,8 @@
     move-result-object v0
 
     .line 140
-    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 141
     .line 142
@@ -426,7 +459,8 @@
 
     .line 147
     .line 148
-    invoke-static {v5, p0, v0}, Lcom/google/android/gms/security/ProviderInstaller;->zzb(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v5, p0, v0}, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzb(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)V
 
     .line 149
     .line 150
@@ -447,7 +481,8 @@
 
     .line 156
     .line 157
-    invoke-static {p0, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 158
     .line 159
@@ -460,7 +495,8 @@
 
     .line 163
     .line 164
-    invoke-direct {p0, v0}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;
+    -><init>(I)V
 
     .line 165
     .line 166
@@ -567,7 +603,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -576,7 +613,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -585,7 +623,8 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkMainThread(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkMainThread(Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -594,7 +633,8 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/security/zza;-><init>(Landroid/content/Context;Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/security/zza;
+    -><init>(Landroid/content/Context;Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;)V
 
     .line 19
     .line 20
@@ -606,7 +646,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, p0}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, p0}, Landroid/os/AsyncTask;
+    ->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 25
     .line 26
@@ -617,7 +658,8 @@
 .method public static bridge synthetic zza()Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/security/ProviderInstaller;->zza:Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    sget-object v0, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zza:Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
 
     return-object v0
 .end method
@@ -636,7 +678,8 @@
 
     .line 3
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/security/ProviderInstaller;->zzc:Ljava/lang/reflect/Method;
+    sget-object v1, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzc:Ljava/lang/reflect/Method;
 
     .line 4
     .line 5
@@ -660,7 +703,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 16
     .line 17
@@ -668,7 +712,8 @@
     move-result-object v3
 
     .line 19
-    invoke-virtual {v3, p2}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-virtual {v3, p2}, Ljava/lang/ClassLoader;
+    ->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 20
     .line 21
@@ -676,7 +721,8 @@
     move-result-object p2
 
     .line 23
-    invoke-virtual {p2, v2, v1}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {p2, v2, v1}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 24
     .line 25
@@ -684,12 +730,14 @@
     move-result-object p2
 
     .line 27
-    sput-object p2, Lcom/google/android/gms/security/ProviderInstaller;->zzc:Ljava/lang/reflect/Method;
+    sput-object p2, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzc:Ljava/lang/reflect/Method;
 
     .line 28
     .line 29
     :cond_0
-    sget-object p2, Lcom/google/android/gms/security/ProviderInstaller;->zzc:Ljava/lang/reflect/Method;
+    sget-object p2, Lcom/google/android/gms/security/ProviderInstaller;
+    ->zzc:Ljava/lang/reflect/Method;
 
     .line 30
     .line 31
@@ -704,7 +752,8 @@
     const/4 p0, 0x0
 
     .line 36
-    invoke-virtual {p2, p0, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, p0, v0}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -718,7 +767,8 @@
     move-exception p0
 
     .line 41
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 42
     .line 43
@@ -733,7 +783,8 @@
 
     .line 47
     .line 48
-    invoke-static {v0, p2}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, p2}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 49
     .line 50
@@ -749,7 +800,8 @@
 
     .line 55
     .line 56
-    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -761,7 +813,8 @@
 
     .line 61
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->toString()Ljava/lang/String;
 
     .line 62
     .line 63
@@ -770,7 +823,8 @@
 
     .line 65
     :goto_0
-    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 66
     .line 67
@@ -782,7 +836,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {p1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -790,7 +845,8 @@
     move-result-object p0
 
     .line 75
-    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 76
     .line 77
@@ -804,7 +860,8 @@
 
     .line 81
     .line 82
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;
+    -><init>(I)V
 
     .line 83
     .line 84

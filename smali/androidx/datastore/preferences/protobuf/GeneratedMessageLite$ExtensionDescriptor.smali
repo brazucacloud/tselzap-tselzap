@@ -59,28 +59,34 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->enumTypeMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->enumTypeMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
 
     .line 5
     .line 6
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->number:I
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->number:I
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->type:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->type:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 9
     .line 10
-    iput-boolean p4, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isRepeated:Z
+    iput-boolean p4, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->isRepeated:Z
 
     .line 11
     .line 12
-    iput-boolean p5, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isPacked:Z
+    iput-boolean p5, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->isPacked:Z
 return-void
 .end method
 
@@ -90,9 +96,11 @@ return-void
     .locals 1
 
     .line 2
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->number:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->number:I
 
-    iget p1, p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->number:I
+    iget p1, p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->number:I
 
     sub-int/2addr v0, p1
 
@@ -105,7 +113,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->compareTo(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;)I
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->compareTo(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;)I
 
     move-result p1
 
@@ -123,18 +132,21 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->enumTypeMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->enumTypeMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
 .end method
 
 .method public getLiteJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->type:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->type:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->getJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    ->getJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 4
     .line 5
@@ -148,14 +160,16 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->type:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->type:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;    return-object v0
 .end method
 
 .method public getNumber()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->number:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->number:I    return v0
 .end method
 
 .method public internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
@@ -170,7 +184,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->mergeFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
 
     .line 6
     .line 7
@@ -184,14 +199,16 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isPacked:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->isPacked:Z    return v0
 .end method
 
 .method public isRepeated()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->isRepeated:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
+    ->isRepeated:Z    return v0
 .end method
 
 .end class

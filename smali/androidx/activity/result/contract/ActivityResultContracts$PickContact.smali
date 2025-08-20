@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +41,8 @@
     .line 1
     check-cast p2, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$PickContact;->createIntent(Landroid/content/Context;Ljava/lang/Void;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$PickContact;
+    ->createIntent(Landroid/content/Context;Ljava/lang/Void;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -52,24 +54,28 @@
 
     const-string p2, "context"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance p1, Landroid/content/Intent;
 
     const-string p2, "android.intent.action.PICK"
 
-    invoke-direct {p1, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     const-string p2, "vnd.android.cursor.dir/contact"
 
-    invoke-virtual {p1, p2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {p1, p2}, Landroid/content/Intent;
+    ->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p1
 
     const-string p2, "Intent(Intent.ACTION_PIC\u2026ct.Contacts.CONTENT_TYPE)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 
@@ -91,7 +97,8 @@ return-object p1
     if-eqz p2, :cond_1
 
     .line 2
-    invoke-virtual {p2}, Landroid/content/Intent;->getData()Landroid/net/Uri;
+    invoke-virtual {p2}, Landroid/content/Intent;
+    ->getData()Landroid/net/Uri;
 
     move-result-object p1
 
@@ -105,7 +112,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$PickContact;->parseResult(ILandroid/content/Intent;)Landroid/net/Uri;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContracts$PickContact;
+    ->parseResult(ILandroid/content/Intent;)Landroid/net/Uri;
 
     move-result-object p1
 

@@ -30,12 +30,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/view/View$AccessibilityDelegate;-><init>()V
+    invoke-direct {v0}, Landroid/view/View$AccessibilityDelegate;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/view/AccessibilityDelegateCompat;->DEFAULT_DELEGATE:Landroid/view/View$AccessibilityDelegate;
+    sput-object v0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->DEFAULT_DELEGATE:Landroid/view/View$AccessibilityDelegate;
 
     .line 7
     .line 8
@@ -46,9 +48,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/core/view/AccessibilityDelegateCompat;->DEFAULT_DELEGATE:Landroid/view/View$AccessibilityDelegate;
+    sget-object v0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->DEFAULT_DELEGATE:Landroid/view/View$AccessibilityDelegate;
 
-    invoke-direct {p0, v0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>(Landroid/view/View$AccessibilityDelegate;)V
+    invoke-direct {p0, v0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>(Landroid/view/View$AccessibilityDelegate;)V
 
     return-void
 .end method
@@ -61,22 +65,27 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iput-object p1, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 4
     new-instance p1, Landroidx/core/view/AccessibilityDelegateCompat$AccessibilityDelegateAdapter;
 
-    invoke-direct {p1, p0}, Landroidx/core/view/AccessibilityDelegateCompat$AccessibilityDelegateAdapter;-><init>(Landroidx/core/view/AccessibilityDelegateCompat;)V
+    invoke-direct {p1, p0}, Landroidx/core/view/AccessibilityDelegateCompat$AccessibilityDelegateAdapter;
+    -><init>(Landroidx/core/view/AccessibilityDelegateCompat;)V
 
-    iput-object p1, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mBridge:Landroid/view/View$AccessibilityDelegate;
+    iput-object p1, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mBridge:Landroid/view/View$AccessibilityDelegate;
 
     return-void
 .end method
@@ -95,11 +104,13 @@
     .end annotation
 
     .line 1
-    sget v0, Landroidx/core/R$id;->tag_accessibility_actions:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_accessibility_actions:I
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -115,7 +126,8 @@
 
     .line 10
     .line 11
-    sget-object p0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+    sget-object p0, Ljava/util/Collections;
+    ->EMPTY_LIST:Ljava/util/List;
 
     .line 12
     .line 13
@@ -134,7 +146,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {p2}, Landroid/view/View;->createAccessibilityNodeInfo()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p2}, Landroid/view/View;
+    ->createAccessibilityNodeInfo()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 5
     .line 6
@@ -142,7 +155,8 @@
     move-result-object p2
 
     .line 8
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 9
     .line 10
@@ -150,7 +164,8 @@
     move-result-object p2
 
     .line 12
-    invoke-static {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->getClickableSpans(Ljava/lang/CharSequence;)[Landroid/text/style/ClickableSpan;
+    invoke-static {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->getClickableSpans(Ljava/lang/CharSequence;)[Landroid/text/style/ClickableSpan;
 
     .line 13
     .line 14
@@ -177,7 +192,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -210,11 +226,13 @@
     .locals 1
 
     .line 1
-    sget v0, Landroidx/core/R$id;->tag_accessibility_clickable_spans:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_accessibility_clickable_spans:I
 
     .line 2
     .line 3
-    invoke-virtual {p2, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -230,7 +248,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroid/util/SparseArray;
+    ->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -246,7 +265,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -258,7 +278,8 @@
 
     .line 24
     .line 25
-    invoke-direct {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->isSpanStillValid(Landroid/text/style/ClickableSpan;Landroid/view/View;)Z
+    invoke-direct {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->isSpanStillValid(Landroid/text/style/ClickableSpan;Landroid/view/View;)Z
 
     .line 26
     .line 27
@@ -270,7 +291,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1, p2}, Landroid/text/style/ClickableSpan;->onClick(Landroid/view/View;)V
+    invoke-virtual {p1, p2}, Landroid/text/style/ClickableSpan;
+    ->onClick(Landroid/view/View;)V
 
     .line 32
     .line 33
@@ -300,11 +322,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->dispatchPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
+    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->dispatchPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
 
     .line 4
     .line 5
@@ -324,11 +348,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/View$AccessibilityDelegate;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider;
+    invoke-virtual {v0, p1}, Landroid/view/View$AccessibilityDelegate;
+    ->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider;
 
     .line 4
     .line 5
@@ -344,7 +370,8 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p1}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    -><init>(Ljava/lang/Object;)V
 
     .line 12
     .line 13
@@ -362,7 +389,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mBridge:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mBridge:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
@@ -381,11 +409,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 4
     .line 5
@@ -405,11 +435,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 4
     .line 5
@@ -417,7 +449,8 @@
     move-result-object p2
 
     .line 7
-    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 8
     .line 9
@@ -437,11 +470,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 4
     .line 5
@@ -465,11 +500,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroid/view/View$AccessibilityDelegate;->onRequestSendAccessibilityEvent(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
+    invoke-virtual {v0, p1, p2, p3}, Landroid/view/View$AccessibilityDelegate;
+    ->onRequestSendAccessibilityEvent(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
 
     .line 4
     .line 5
@@ -491,7 +528,8 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Landroidx/core/view/AccessibilityDelegateCompat;->getActionList(Landroid/view/View;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->getActionList(Landroid/view/View;)Ljava/util/List;
 
     .line 2
     .line 3
@@ -506,7 +544,8 @@
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/List;->size()I
+    invoke-interface {v0}, Ljava/util/List;
+    ->size()I
 
     .line 8
     .line 9
@@ -518,7 +557,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -530,7 +570,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getId()I
+    invoke-virtual {v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getId()I
 
     .line 20
     .line 21
@@ -542,7 +583,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v3, p1, p3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->perform(Landroid/view/View;Landroid/os/Bundle;)Z
+    invoke-virtual {v3, p1, p3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->perform(Landroid/view/View;Landroid/os/Bundle;)Z
 
     .line 26
     .line 27
@@ -567,11 +609,13 @@
 
     .line 34
     .line 35
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 36
     .line 37
-    invoke-virtual {v0, p1, p2, p3}, Landroid/view/View$AccessibilityDelegate;->performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
+    invoke-virtual {v0, p1, p2, p3}, Landroid/view/View$AccessibilityDelegate;
+    ->performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
 
     .line 38
     .line 39
@@ -584,7 +628,8 @@
 
     .line 42
     .line 43
-    sget v0, Landroidx/core/R$id;->accessibility_action_clickable_span:I
+    sget v0, Landroidx/core/R$id;
+    ->accessibility_action_clickable_span:I
 
     .line 44
     .line 45
@@ -603,7 +648,8 @@
     const/4 v0, -0x1
 
     .line 52
-    invoke-virtual {p3, p2, v0}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {p3, p2, v0}, Landroid/os/BaseBundle;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 53
     .line 54
@@ -611,7 +657,8 @@
     move-result p2
 
     .line 56
-    invoke-direct {p0, p2, p1}, Landroidx/core/view/AccessibilityDelegateCompat;->performClickableSpanAction(ILandroid/view/View;)Z
+    invoke-direct {p0, p2, p1}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->performClickableSpanAction(ILandroid/view/View;)Z
 
     .line 57
     .line 58
@@ -633,11 +680,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->sendAccessibilityEvent(Landroid/view/View;I)V
+    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->sendAccessibilityEvent(Landroid/view/View;I)V
 
     .line 4
     .line 5
@@ -657,11 +706,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
+    iget-object v0, p0, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->mOriginalDelegate:Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {v0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 4
     .line 5

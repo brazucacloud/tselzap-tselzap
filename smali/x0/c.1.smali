@@ -14,11 +14,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lx0/c;->a:I
+    iput p2, p0, Lx0/c;
+    ->a:I
 
-    iput-object p1, p0, Lx0/c;->b:Lx0/d;
+    iput-object p1, p0, Lx0/c;
+    ->b:Lx0/d;
 
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
+    -><init>()V
     return-void
 .end method
 
@@ -28,7 +31,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lx0/c;->a:I
+    iget v0, p0, Lx0/c;
+    ->a:I
 
     .line 2
     .line 3
@@ -37,7 +41,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
+    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;
+    ->onAnimationEnd(Landroid/animation/Animator;)V
 
     .line 7
     .line 8
@@ -46,18 +51,21 @@
 
     .line 10
     :pswitch_0
-    iget-object p1, p0, Lx0/c;->b:Lx0/d;
+    iget-object p1, p0, Lx0/c;
+    ->b:Lx0/d;
 
     .line 11
     .line 12
-    iget-object p1, p1, Lx0/q;->b:Lx0/p;
+    iget-object p1, p1, Lx0/q;
+    ->b:Lx0/p;
 
     .line 13
     .line 14
     const/4 v0, 0x0
 
     .line 15
-    invoke-virtual {p1, v0}, Lx0/p;->h(Z)V
+    invoke-virtual {p1, v0}, Lx0/p;
+    ->h(Z)V
 
     .line 16
     .line 17
@@ -83,7 +91,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lx0/c;->a:I
+    iget v0, p0, Lx0/c;
+    ->a:I
 
     .line 2
     .line 3
@@ -92,7 +101,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
+    invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;
+    ->onAnimationStart(Landroid/animation/Animator;)V
 
     .line 7
     .line 8
@@ -101,18 +111,21 @@
 
     .line 10
     :pswitch_0
-    iget-object p1, p0, Lx0/c;->b:Lx0/d;
+    iget-object p1, p0, Lx0/c;
+    ->b:Lx0/d;
 
     .line 11
     .line 12
-    iget-object p1, p1, Lx0/q;->b:Lx0/p;
+    iget-object p1, p1, Lx0/q;
+    ->b:Lx0/p;
 
     .line 13
     .line 14
     const/4 v0, 0x1
 
     .line 15
-    invoke-virtual {p1, v0}, Lx0/p;->h(Z)V
+    invoke-virtual {p1, v0}, Lx0/p;
+    ->h(Z)V
 
     .line 16
     .line 17

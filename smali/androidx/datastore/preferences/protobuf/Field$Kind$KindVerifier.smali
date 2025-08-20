@@ -30,19 +30,22 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/Field$Kind$KindVerifier;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/Field$Kind$KindVerifier;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind$KindVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind$KindVerifier;
+    ->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -52,7 +55,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Field$Kind;->forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Kind;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Field$Kind;
+    ->forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Kind;
 
     .line 2
     .line 3

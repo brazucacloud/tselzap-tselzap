@@ -74,7 +74,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/window/R$styleable;->ActivityFilter:[I
+    sput-object v0, Landroidx/window/R$styleable;
+    ->ActivityFilter:[I
 
     const v0, 0x7f04003d
 
@@ -82,7 +83,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/window/R$styleable;->ActivityRule:[I
+    sput-object v0, Landroidx/window/R$styleable;
+    ->ActivityRule:[I
 
     const v0, 0x7f0404b9
 
@@ -94,7 +96,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/window/R$styleable;->SplitPairFilter:[I
+    sput-object v0, Landroidx/window/R$styleable;
+    ->SplitPairFilter:[I
 
     const v0, 0x7f040511
 
@@ -110,7 +113,8 @@
 
     fill-array-data v4, :array_0
 
-    sput-object v4, Landroidx/window/R$styleable;->SplitPairRule:[I
+    sput-object v4, Landroidx/window/R$styleable;
+    ->SplitPairRule:[I
 
     const v4, 0x7f04046f
 
@@ -118,7 +122,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/window/R$styleable;->SplitPlaceholderRule:[I
+    sput-object v0, Landroidx/window/R$styleable;
+    ->SplitPlaceholderRule:[I
 
     return-void
 
@@ -137,7 +142,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

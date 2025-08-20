@@ -12,9 +12,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/google/android/material/datepicker/i;->a:I
+    iput p1, p0, Lcom/google/android/material/datepicker/i;
+    ->a:I
 
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>()V
     return-void
 .end method
 
@@ -24,7 +26,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/datepicker/i;->a:I
+    iget v0, p0, Lcom/google/android/material/datepicker/i;
+    ->a:I
 
     .line 2
     .line 3
@@ -33,7 +36,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 7
     .line 8
@@ -41,7 +45,8 @@
     const/4 p1, 0x0
 
     .line 10
-    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionInfo(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setCollectionInfo(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -50,7 +55,8 @@
 
     .line 14
     :pswitch_0
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 15
     .line 16
@@ -58,7 +64,8 @@
     const/4 p1, 0x0
 
     .line 18
-    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setScrollable(Z)V
+    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setScrollable(Z)V
 
     .line 19
     .line 20
@@ -67,7 +74,8 @@
 
     .line 22
     :pswitch_1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 23
     .line 24
@@ -75,7 +83,8 @@
     const/4 p1, 0x0
 
     .line 26
-    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionInfo(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setCollectionInfo(Ljava/lang/Object;)V
 
     .line 27
     .line 28

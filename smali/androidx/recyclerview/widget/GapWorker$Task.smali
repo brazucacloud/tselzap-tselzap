@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -44,26 +45,32 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;->neededNextFrame:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->neededNextFrame:Z
 
     .line 3
     .line 4
-    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;->viewVelocity:I
+    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->viewVelocity:I
 
     .line 5
     .line 6
-    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;->distanceToItem:I
+    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->distanceToItem:I
 
     .line 7
     .line 8
     const/4 v1, 0x0
 
     .line 9
-    iput-object v1, p0, Landroidx/recyclerview/widget/GapWorker$Task;->view:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object v1, p0, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->view:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 10
     .line 11
-    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;->position:I    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->position:I    
+    return-void
 .end method
 
 .end class

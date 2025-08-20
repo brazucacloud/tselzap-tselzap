@@ -13,7 +13,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -62,7 +63,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -70,7 +72,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z
+    iput-boolean v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mPropertiesMapped:Z
 return-void
 .end method
 
@@ -84,7 +87,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p1}, Landroidx/appcompat/widget/a;->w(Landroid/view/inspector/PropertyMapper;)I
+    invoke-static {p1}, Landroidx/appcompat/widget/a;
+    ->w(Landroid/view/inspector/PropertyMapper;)I
 
     .line 2
     .line 3
@@ -92,11 +96,13 @@ return-void
     move-result v0
 
     .line 5
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTextOffId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTextOffId:I
 
     .line 6
     .line 7
-    invoke-static {p1}, Landroidx/appcompat/widget/a;->y(Landroid/view/inspector/PropertyMapper;)I
+    invoke-static {p1}, Landroidx/appcompat/widget/a;
+    ->y(Landroid/view/inspector/PropertyMapper;)I
 
     .line 8
     .line 9
@@ -104,11 +110,13 @@ return-void
     move-result v0
 
     .line 11
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTextOnId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTextOnId:I
 
     .line 12
     .line 13
-    invoke-static {p1}, Landroidx/appcompat/widget/a;->A(Landroid/view/inspector/PropertyMapper;)I
+    invoke-static {p1}, Landroidx/appcompat/widget/a;
+    ->A(Landroid/view/inspector/PropertyMapper;)I
 
     .line 14
     .line 15
@@ -116,15 +124,18 @@ return-void
     move-result v0
 
     .line 17
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbId:I
 
     .line 18
     .line 19
-    sget v0, Landroidx/appcompat/R$attr;->showText:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->showText:I
 
     .line 20
     .line 21
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->m(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->m(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 22
     .line 23
@@ -132,15 +143,18 @@ return-void
     move-result v0
 
     .line 25
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mShowTextId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mShowTextId:I
 
     .line 26
     .line 27
-    sget v0, Landroidx/appcompat/R$attr;->splitTrack:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->splitTrack:I
 
     .line 28
     .line 29
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->n(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->n(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 30
     .line 31
@@ -148,15 +162,18 @@ return-void
     move-result v0
 
     .line 33
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mSplitTrackId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mSplitTrackId:I
 
     .line 34
     .line 35
-    sget v0, Landroidx/appcompat/R$attr;->switchMinWidth:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->switchMinWidth:I
 
     .line 36
     .line 37
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->o(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->o(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 38
     .line 39
@@ -164,15 +181,18 @@ return-void
     move-result v0
 
     .line 41
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mSwitchMinWidthId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mSwitchMinWidthId:I
 
     .line 42
     .line 43
-    sget v0, Landroidx/appcompat/R$attr;->switchPadding:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->switchPadding:I
 
     .line 44
     .line 45
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->p(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->p(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 46
     .line 47
@@ -180,15 +200,18 @@ return-void
     move-result v0
 
     .line 49
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mSwitchPaddingId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mSwitchPaddingId:I
 
     .line 50
     .line 51
-    sget v0, Landroidx/appcompat/R$attr;->thumbTextPadding:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->thumbTextPadding:I
 
     .line 52
     .line 53
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->x(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->x(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 54
     .line 55
@@ -196,15 +219,18 @@ return-void
     move-result v0
 
     .line 57
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbTextPaddingId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbTextPaddingId:I
 
     .line 58
     .line 59
-    sget v0, Landroidx/appcompat/R$attr;->thumbTint:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->thumbTint:I
 
     .line 60
     .line 61
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->z(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->z(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 62
     .line 63
@@ -212,15 +238,18 @@ return-void
     move-result v0
 
     .line 65
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbTintId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbTintId:I
 
     .line 66
     .line 67
-    sget v0, Landroidx/appcompat/R$attr;->thumbTintMode:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->thumbTintMode:I
 
     .line 68
     .line 69
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->B(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->B(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 70
     .line 71
@@ -228,15 +257,18 @@ return-void
     move-result v0
 
     .line 73
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbTintModeId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbTintModeId:I
 
     .line 74
     .line 75
-    sget v0, Landroidx/appcompat/R$attr;->track:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->track:I
 
     .line 76
     .line 77
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->C(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->C(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 78
     .line 79
@@ -244,15 +276,18 @@ return-void
     move-result v0
 
     .line 81
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTrackId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTrackId:I
 
     .line 82
     .line 83
-    sget v0, Landroidx/appcompat/R$attr;->trackTint:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->trackTint:I
 
     .line 84
     .line 85
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->D(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->D(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 86
     .line 87
@@ -260,15 +295,18 @@ return-void
     move-result v0
 
     .line 89
-    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTrackTintId:I
+    iput v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTrackTintId:I
 
     .line 90
     .line 91
-    sget v0, Landroidx/appcompat/R$attr;->trackTintMode:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->trackTintMode:I
 
     .line 92
     .line 93
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;->l(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/a;
+    ->l(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 94
     .line 95
@@ -276,14 +314,16 @@ return-void
     move-result p1
 
     .line 97
-    iput p1, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTrackTintModeId:I
+    iput p1, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTrackTintModeId:I
 
     .line 98
     .line 99
     const/4 p1, 0x1
 
     .line 100
-    iput-boolean p1, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z
+    iput-boolean p1, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mPropertiesMapped:Z
 return-void
 .end method
 
@@ -299,131 +339,172 @@ return-void
     .end param
 
     .line 2
-    iget-boolean v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z
+    iget-boolean v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mPropertiesMapped:Z
 
     if-eqz v0, :cond_0
 
     .line 3
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTextOffId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTextOffId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getTextOff()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getTextOff()Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;->h(Landroid/view/inspector/PropertyReader;ILjava/lang/CharSequence;)V
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;
+    ->h(Landroid/view/inspector/PropertyReader;ILjava/lang/CharSequence;)V
 
     .line 4
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTextOnId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTextOnId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getTextOn()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getTextOn()Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;->h(Landroid/view/inspector/PropertyReader;ILjava/lang/CharSequence;)V
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;
+    ->h(Landroid/view/inspector/PropertyReader;ILjava/lang/CharSequence;)V
 
     .line 5
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getThumbDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getThumbDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;->f(Landroid/view/inspector/PropertyReader;ILandroid/graphics/drawable/Drawable;)V
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;
+    ->f(Landroid/view/inspector/PropertyReader;ILandroid/graphics/drawable/Drawable;)V
 
     .line 6
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mShowTextId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mShowTextId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getShowText()Z
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getShowText()Z
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;->i(Landroid/view/inspector/PropertyReader;IZ)V
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;
+    ->i(Landroid/view/inspector/PropertyReader;IZ)V
 
     .line 7
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mSplitTrackId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mSplitTrackId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getSplitTrack()Z
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getSplitTrack()Z
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;->i(Landroid/view/inspector/PropertyReader;IZ)V
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;
+    ->i(Landroid/view/inspector/PropertyReader;IZ)V
 
     .line 8
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mSwitchMinWidthId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mSwitchMinWidthId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getSwitchMinWidth()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getSwitchMinWidth()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->j(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->j(Landroid/view/inspector/PropertyReader;II)V
 
     .line 9
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mSwitchPaddingId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mSwitchPaddingId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getSwitchPadding()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getSwitchPadding()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->j(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->j(Landroid/view/inspector/PropertyReader;II)V
 
     .line 10
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbTextPaddingId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbTextPaddingId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getThumbTextPadding()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getThumbTextPadding()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->j(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->j(Landroid/view/inspector/PropertyReader;II)V
 
     .line 11
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbTintId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbTintId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getThumbTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getThumbTintList()Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
 
     .line 12
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mThumbTintModeId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mThumbTintModeId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getThumbTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getThumbTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 13
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTrackId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTrackId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getTrackDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getTrackDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;->f(Landroid/view/inspector/PropertyReader;ILandroid/graphics/drawable/Drawable;)V
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/a;
+    ->f(Landroid/view/inspector/PropertyReader;ILandroid/graphics/drawable/Drawable;)V
 
     .line 14
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTrackTintId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTrackTintId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getTrackTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getTrackTintList()Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
 
     .line 15
-    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mTrackTintModeId:I
+    iget v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->mTrackTintModeId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->getTrackTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getTrackTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p1
 
-    invoke-static {p2, v0, p1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p2, v0, p1}, Landroidx/activity/f;
+    ->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
     return-void
 
     .line 16
     :cond_0
-    invoke-static {}, Landroidx/activity/f;->f()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
+    invoke-static {}, Landroidx/activity/f;
+    ->f()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
     move-result-object p1
 
@@ -444,7 +525,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/appcompat/widget/SwitchCompat;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->readProperties(Landroidx/appcompat/widget/SwitchCompat;Landroid/view/inspector/PropertyReader;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;
+    ->readProperties(Landroidx/appcompat/widget/SwitchCompat;Landroid/view/inspector/PropertyReader;)V
 return-void
 .end method
 

@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/material/timepicker/a;->b:Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    iput-object p1, p0, Lcom/google/android/material/timepicker/a;
+    ->b:Lcom/google/android/material/timepicker/ChipTextInputComboView;
 
     .line 5
     .line 6
@@ -30,7 +32,8 @@
     .locals 4
 
     .line 1
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 2
     .line 3
@@ -42,7 +45,8 @@
 
     .line 6
     .line 7
-    iget-object v2, p0, Lcom/google/android/material/timepicker/a;->b:Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    iget-object v2, p0, Lcom/google/android/material/timepicker/a;
+    ->b:Lcom/google/android/material/timepicker/ChipTextInputComboView;
 
     .line 8
     .line 9
@@ -50,11 +54,13 @@
 
     .line 10
     .line 11
-    iget-object p1, v2, Lcom/google/android/material/timepicker/ChipTextInputComboView;->b:Lcom/google/android/material/chip/Chip;
+    iget-object p1, v2, Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    ->b:Lcom/google/android/material/chip/Chip;
 
     .line 12
     .line 13
-    invoke-static {v2, v1}, Lcom/google/android/material/timepicker/ChipTextInputComboView;->a(Lcom/google/android/material/timepicker/ChipTextInputComboView;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    ->a(Lcom/google/android/material/timepicker/ChipTextInputComboView;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -62,7 +68,8 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 18
     .line 19
@@ -71,7 +78,8 @@
 
     .line 21
     :cond_0
-    invoke-static {v2, p1}, Lcom/google/android/material/timepicker/ChipTextInputComboView;->a(Lcom/google/android/material/timepicker/ChipTextInputComboView;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-static {v2, p1}, Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    ->a(Lcom/google/android/material/timepicker/ChipTextInputComboView;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -79,11 +87,13 @@
     move-result-object p1
 
     .line 25
-    iget-object v0, v2, Lcom/google/android/material/timepicker/ChipTextInputComboView;->b:Lcom/google/android/material/chip/Chip;
+    iget-object v0, v2, Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    ->b:Lcom/google/android/material/chip/Chip;
 
     .line 26
     .line 27
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 28
     .line 29
@@ -95,7 +105,8 @@
 
     .line 32
     .line 33
-    invoke-static {v2, v1}, Lcom/google/android/material/timepicker/ChipTextInputComboView;->a(Lcom/google/android/material/timepicker/ChipTextInputComboView;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/google/android/material/timepicker/ChipTextInputComboView;
+    ->a(Lcom/google/android/material/timepicker/ChipTextInputComboView;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -104,7 +115,8 @@
 
     .line 37
     :cond_1
-    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 38
     .line 39

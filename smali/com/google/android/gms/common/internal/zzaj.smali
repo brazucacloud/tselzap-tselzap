@@ -12,12 +12,14 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Exception;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;->hasResolution()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;
+    ->hasResolution()Z
 
     .line 5
     .line 6
@@ -29,12 +31,14 @@
 
     .line 9
     .line 10
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkArgument(ZLjava/lang/Object;)V
 
     .line 11
     .line 12
     .line 13
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/zzaj;->zza:Lcom/google/android/gms/common/ConnectionResult;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/zzaj;
+    ->zza:Lcom/google/android/gms/common/ConnectionResult;
 
     .line 14
     .line 15

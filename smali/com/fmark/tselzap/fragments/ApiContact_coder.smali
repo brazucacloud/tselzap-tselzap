@@ -34,7 +34,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;
+    -><init>()V
 
     .line 2
     .line 3
@@ -42,7 +43,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->isSocketConnected:Z
+    iput-boolean v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->isSocketConnected:Z
 
     .line 6
     .line 7
@@ -50,12 +52,14 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroid/os/Handler;-><init>()V
+    invoke-direct {v0}, Landroid/os/Handler;
+    -><init>()V
 
     .line 10
     .line 11
     .line 12
-    iput-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->reconnectHandler:Landroid/os/Handler;
+    iput-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->reconnectHandler:Landroid/os/Handler;
 
     .line 13
     .line 14
@@ -66,7 +70,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->lambda$onViewCreated$0(Landroid/widget/CompoundButton;Z)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->lambda$onViewCreated$0(Landroid/widget/CompoundButton;Z)V
 
     return-void
 .end method
@@ -77,7 +82,8 @@
     .line 1
     const-string v0, "https://api-controle.dablioweb.com/webhook/api-contatos"
 
-    invoke-direct {p0, v0, p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->lambda$validateTokenAndConnect$3(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->lambda$validateTokenAndConnect$3(Ljava/lang/String;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -89,12 +95,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 7
     .line 8
@@ -106,7 +114,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-static {v1, v2}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroidx/core/content/ContextCompat;
+    ->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 13
     .line 14
@@ -118,13 +127,15 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
     .line 21
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 22
     .line 23
@@ -136,7 +147,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-static {v1, v2}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroidx/core/content/ContextCompat;
+    ->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -148,13 +160,15 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 34
     .line 35
     .line 36
     :cond_1
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 37
     .line 38
@@ -173,7 +187,8 @@ return-void
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -188,7 +203,8 @@ return-void
     const/4 v1, 0x1
 
     .line 52
-    invoke-virtual {p0, v0, v1}, Landroidx/fragment/app/Fragment;->requestPermissions([Ljava/lang/String;I)V
+    invoke-virtual {p0, v0, v1}, Landroidx/fragment/app/Fragment;
+    ->requestPermissions([Ljava/lang/String;I)V
 
     .line 53
     .line 54
@@ -209,12 +225,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 9
     .line 10
@@ -226,7 +244,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-static {v0, v2}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Landroidx/core/content/ContextCompat;
+    ->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 15
     .line 16
@@ -238,7 +257,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 21
     .line 22
@@ -246,7 +266,8 @@ return-void
     move-result-object v0
 
     .line 24
-    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 25
     .line 26
@@ -254,7 +275,8 @@ return-void
     move-result-object v1
 
     .line 28
-    sget-object v2, Landroid/provider/ContactsContract$Contacts;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v2, Landroid/provider/ContactsContract$Contacts;
+    ->CONTENT_URI:Landroid/net/Uri;
 
     .line 29
     .line 30
@@ -270,7 +292,8 @@ return-void
     const/4 v4, 0x0
 
     .line 34
-    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 35
     .line 36
@@ -283,7 +306,8 @@ return-void
     .line 39
     .line 40
     :goto_0
-    invoke-interface {v0}, Landroid/database/Cursor;->moveToNext()Z
+    invoke-interface {v0}, Landroid/database/Cursor;
+    ->moveToNext()Z
 
     .line 41
     .line 42
@@ -299,7 +323,8 @@ return-void
 
     .line 47
     .line 48
-    invoke-interface {v0, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Landroid/database/Cursor;
+    ->getColumnIndex(Ljava/lang/String;)I
 
     .line 49
     .line 50
@@ -307,7 +332,8 @@ return-void
     move-result v1
 
     .line 52
-    invoke-interface {v0, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, v1}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -315,11 +341,13 @@ return-void
     move-result-object v1
 
     .line 56
-    sget-object v2, Landroid/provider/ContactsContract$Contacts;->CONTENT_LOOKUP_URI:Landroid/net/Uri;
+    sget-object v2, Landroid/provider/ContactsContract$Contacts;
+    ->CONTENT_LOOKUP_URI:Landroid/net/Uri;
 
     .line 57
     .line 58
-    invoke-static {v2, v1}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v2, v1}, Landroid/net/Uri;
+    ->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 59
     .line 60
@@ -327,7 +355,8 @@ return-void
     move-result-object v1
 
     .line 62
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 63
     .line 64
@@ -335,7 +364,8 @@ return-void
     move-result-object v2
 
     .line 66
-    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v2}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 67
     .line 68
@@ -346,7 +376,8 @@ return-void
     const/4 v3, 0x0
 
     .line 71
-    invoke-virtual {v2, v1, v3, v3}, Landroid/content/ContentResolver;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v2, v1, v3, v3}, Landroid/content/ContentResolver;
+    ->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 72
     .line 73
@@ -355,7 +386,8 @@ return-void
 
     .line 75
     :cond_0
-    invoke-interface {v0}, Landroid/database/Cursor;->close()V
+    invoke-interface {v0}, Landroid/database/Cursor;
+    ->close()V
 
     .line 76
     .line 77
@@ -369,7 +401,8 @@ return-void
 
     .line 80
     .line 81
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 82
     .line 83
@@ -385,7 +418,8 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     .line 3
     .line 4
@@ -393,7 +427,8 @@ return-void
 
     .line 5
     .line 6
-    invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {v1}, Ljava/lang/String;
+    ->isEmpty()Z
 
     .line 7
     .line 8
@@ -405,7 +440,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-static {}, LQ0/b;->a()LQ0/t;
+    invoke-static {}, LQ0/b;
+    ->a()LQ0/t;
 
     .line 13
     .line 14
@@ -413,7 +449,8 @@ return-void
     move-result-object v1
 
     .line 16
-    iput-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iput-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 17
     .line 18
@@ -421,17 +458,20 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v2, v1, v0}, LQ0/p;-><init>(LQ0/t;I)V
+    invoke-direct {v2, v1, v0}, LQ0/p;
+    -><init>(LQ0/t;I)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {v2}, LZ0/b;->a(Ljava/lang/Runnable;)V
+    invoke-static {v2}, LZ0/b;
+    ->a(Ljava/lang/Runnable;)V
 
     .line 24
     .line 25
     .line 26
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 27
     .line 28
@@ -439,7 +479,8 @@ return-void
 
     .line 29
     .line 30
-    iget-object v3, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iget-object v3, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     .line 31
     .line 32
@@ -454,12 +495,14 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {v1, v2, v4}, LQ0/t;->a(Ljava/lang/String;[Ljava/lang/Object;)LR0/c;
+    invoke-virtual {v1, v2, v4}, LQ0/t;
+    ->a(Ljava/lang/String;[Ljava/lang/Object;)LR0/c;
 
     .line 38
     .line 39
     .line 40
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 41
     .line 42
@@ -471,17 +514,20 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$2;-><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$2;
+    -><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v0, v1, v2}, LR0/c;->d(Ljava/lang/String;LR0/a;)V
+    invoke-virtual {v0, v1, v2}, LR0/c;
+    ->d(Ljava/lang/String;LR0/a;)V
 
     .line 50
     .line 51
     .line 52
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 53
     .line 54
@@ -493,17 +539,20 @@ return-void
 
     .line 57
     .line 58
-    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$3;-><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$3;
+    -><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v0, v1, v2}, LR0/c;->d(Ljava/lang/String;LR0/a;)V
+    invoke-virtual {v0, v1, v2}, LR0/c;
+    ->d(Ljava/lang/String;LR0/a;)V
 
     .line 62
     .line 63
     .line 64
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 65
     .line 66
@@ -515,17 +564,20 @@ return-void
 
     .line 69
     .line 70
-    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$4;-><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$4;
+    -><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v0, v1, v2}, LR0/c;->d(Ljava/lang/String;LR0/a;)V
+    invoke-virtual {v0, v1, v2}, LR0/c;
+    ->d(Ljava/lang/String;LR0/a;)V
 
     .line 74
     .line 75
     .line 76
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 77
     .line 78
@@ -537,17 +589,20 @@ return-void
 
     .line 81
     .line 82
-    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$5;-><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$5;
+    -><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {v0, v1, v2}, LR0/c;->d(Ljava/lang/String;LR0/a;)V
+    invoke-virtual {v0, v1, v2}, LR0/c;
+    ->d(Ljava/lang/String;LR0/a;)V
 
     .line 86
     .line 87
     .line 88
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 89
     .line 90
@@ -559,12 +614,14 @@ return-void
 
     .line 93
     .line 94
-    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$6;-><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-direct {v2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$6;
+    -><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 95
     .line 96
     .line 97
-    invoke-virtual {v0, v1, v2}, LR0/c;->d(Ljava/lang/String;LR0/a;)V
+    invoke-virtual {v0, v1, v2}, LR0/c;
+    ->d(Ljava/lang/String;LR0/a;)V
     :try_end_0
     .catch Ljava/net/URISyntaxException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -578,7 +635,8 @@ return-void
     move-exception v0
 
     .line 102
-    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 103
     .line 104
@@ -591,7 +649,8 @@ return-void
     .locals 7
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -599,7 +658,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 6
     .line 7
@@ -607,7 +667,8 @@ return-void
     move-result-object v1
 
     .line 9
-    sget-object v2, Landroid/provider/ContactsContract$CommonDataKinds$Phone;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v2, Landroid/provider/ContactsContract$CommonDataKinds$Phone;
+    ->CONTENT_URI:Landroid/net/Uri;
 
     .line 10
     .line 11
@@ -629,7 +690,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 20
     .line 21
@@ -644,7 +706,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-interface {p1}, Landroid/database/Cursor;->getCount()I
+    invoke-interface {p1}, Landroid/database/Cursor;
+    ->getCount()I
 
     .line 27
     .line 28
@@ -660,7 +723,8 @@ return-void
 
     .line 33
     :cond_0
-    invoke-interface {p1}, Landroid/database/Cursor;->close()V
+    invoke-interface {p1}, Landroid/database/Cursor;
+    ->close()V
 
     .line 34
     .line 35
@@ -673,7 +737,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->lambda$updateSocketStatus$4()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->lambda$updateSocketStatus$4()V
     return-void
 .end method
 
@@ -681,7 +746,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->lambda$validateTokenAndConnect$1(ILjava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->lambda$validateTokenAndConnect$1(ILjava/lang/String;)V
 return-void
 .end method
 
@@ -689,7 +755,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->lambda$validateTokenAndConnect$2(Ljava/lang/Exception;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->lambda$validateTokenAndConnect$2(Ljava/lang/Exception;)V
 return-void
 .end method
 
@@ -697,7 +764,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iget-object p0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     return-object p0
 .end method
@@ -722,12 +790,14 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v3}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 12
     .line 13
@@ -735,7 +805,8 @@ return-void
     move-result-object v4
 
     .line 15
-    invoke-virtual {v4}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v4}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 16
     .line 17
@@ -743,7 +814,8 @@ return-void
     move-result-object v5
 
     .line 19
-    sget-object v6, Landroid/provider/ContactsContract$CommonDataKinds$Phone;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v6, Landroid/provider/ContactsContract$CommonDataKinds$Phone;
+    ->CONTENT_URI:Landroid/net/Uri;
 
     .line 20
     .line 21
@@ -764,7 +836,8 @@ return-void
     const/4 v8, 0x0
 
     .line 28
-    invoke-virtual/range {v5 .. v10}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v5 .. v10}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 29
     .line 30
@@ -777,7 +850,8 @@ return-void
     .line 33
     .line 34
     :goto_0
-    invoke-interface {v4}, Landroid/database/Cursor;->moveToNext()Z
+    invoke-interface {v4}, Landroid/database/Cursor;
+    ->moveToNext()Z
 
     .line 35
     .line 36
@@ -789,7 +863,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-interface {v4, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    invoke-interface {v4, v2}, Landroid/database/Cursor;
+    ->getColumnIndex(Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -797,7 +872,8 @@ return-void
     move-result v5
 
     .line 44
-    invoke-interface {v4, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    invoke-interface {v4, v0}, Landroid/database/Cursor;
+    ->getColumnIndex(Ljava/lang/String;)I
 
     .line 45
     .line 46
@@ -805,7 +881,8 @@ return-void
     move-result v6
 
     .line 48
-    invoke-interface {v4, v5}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {v4, v5}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -813,7 +890,8 @@ return-void
     move-result-object v5
 
     .line 52
-    invoke-interface {v4, v6}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {v4, v6}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -825,7 +903,8 @@ return-void
 
     .line 57
     .line 58
-    invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v7}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 59
     .line 60
@@ -834,7 +913,8 @@ return-void
 
     .line 62
     .line 63
-    invoke-virtual {v7, v8, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v7, v8, v5}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -843,12 +923,14 @@ return-void
 
     .line 67
     .line 68
-    invoke-virtual {v7, v5, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v7, v5, v6}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 69
     .line 70
     .line 71
-    invoke-virtual {v3, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v7}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 72
     .line 73
@@ -864,13 +946,15 @@ return-void
 
     .line 77
     :cond_0
-    invoke-interface {v4}, Landroid/database/Cursor;->close()V
+    invoke-interface {v4}, Landroid/database/Cursor;
+    ->close()V
 
     .line 78
     .line 79
     .line 80
     :cond_1
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 81
     .line 82
@@ -893,7 +977,8 @@ return-void
 
     .line 90
     .line 91
-    invoke-virtual {v0, v2, v4}, LQ0/t;->a(Ljava/lang/String;[Ljava/lang/Object;)LR0/c;
+    invoke-virtual {v0, v2, v4}, LQ0/t;
+    ->a(Ljava/lang/String;[Ljava/lang/Object;)LR0/c;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -904,7 +989,8 @@ return-void
 
     .line 95
     :goto_1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 96
     .line 97
@@ -920,12 +1006,14 @@ return-void
 
     .line 102
     .line 103
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 107
     .line 108
@@ -933,12 +1021,14 @@ return-void
     move-result-object v0
 
     .line 110
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 111
     .line 112
     .line 113
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -946,7 +1036,8 @@ return-void
     move-result-object v0
 
     .line 117
-    invoke-static {v2, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v2, v0, v1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 118
     .line 119
@@ -954,7 +1045,8 @@ return-void
     move-result-object v0
 
     .line 121
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v0}, Landroid/widget/Toast;
+    ->show()V
 
     .line 122
     .line 123
@@ -967,7 +1059,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->sharedPreferences:Landroid/content/SharedPreferences;
+    iget-object p0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->sharedPreferences:Landroid/content/SharedPreferences;
 
     return-object p0
 .end method
@@ -976,7 +1069,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->tvToken:Landroid/widget/TextView;
+    iget-object p0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->tvToken:Landroid/widget/TextView;
 
     return-object p0
 .end method
@@ -985,7 +1079,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     return-void
 .end method
@@ -994,7 +1089,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->isSocketConnected:Z
+    iput-boolean p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->isSocketConnected:Z
 return-void
 .end method
 
@@ -1002,7 +1098,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->clearContacts()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->clearContacts()V
     return-void
 .end method
 
@@ -1017,7 +1114,8 @@ return-void
 
     .line 3
     .line 4
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -1025,7 +1123,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p2}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->isEmpty()Z
 
     .line 9
     .line 10
@@ -1037,7 +1136,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->validateTokenAndConnect()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->validateTokenAndConnect()V
 
     .line 15
     .line 16
@@ -1046,7 +1146,8 @@ return-void
 
     .line 18
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 19
     .line 20
@@ -1058,7 +1159,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-static {p2, v0, p1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p2, v0, p1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 25
     .line 26
@@ -1066,16 +1168,19 @@ return-void
     move-result-object p2
 
     .line 28
-    invoke-virtual {p2}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p2}, Landroid/widget/Toast;
+    ->show()V
 
     .line 29
     .line 30
     .line 31
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
 
     .line 32
     .line 33
-    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setChecked(Z)V
 
     .line 34
     .line 35
@@ -1084,7 +1189,8 @@ return-void
 
     .line 37
     :cond_1
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 38
     .line 39
@@ -1099,12 +1205,14 @@ return-void
     const/4 v1, 0x1
 
     .line 44
-    invoke-direct {v0, p2, v1}, LQ0/p;-><init>(LQ0/t;I)V
+    invoke-direct {v0, p2, v1}, LQ0/p;
+    -><init>(LQ0/t;I)V
 
     .line 45
     .line 46
     .line 47
-    invoke-static {v0}, LZ0/b;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, LZ0/b;
+    ->a(Ljava/lang/Runnable;)V
 
     .line 48
     .line 49
@@ -1112,16 +1220,19 @@ return-void
     const/4 p2, 0x0
 
     .line 51
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 52
     .line 53
     :cond_2
-    iput-boolean p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->isSocketConnected:Z
+    iput-boolean p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->isSocketConnected:Z
 
     .line 54
     .line 55
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->updateSocketStatus()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->updateSocketStatus()V
 
     .line 56
     .line 57
@@ -1134,7 +1245,8 @@ return-void
 
     .line 61
     .line 62
-    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 63
     .line 64
@@ -1146,7 +1258,8 @@ return-void
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getView()Landroid/view/View;
 
     .line 2
     .line 3
@@ -1159,7 +1272,8 @@ return-void
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 9
     .line 10
@@ -1171,7 +1285,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getView()Landroid/view/View;
 
     .line 15
     .line 16
@@ -1184,7 +1299,8 @@ return-void
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 22
     .line 23
@@ -1204,7 +1320,8 @@ return-void
 
     .line 30
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 31
     .line 32
@@ -1217,7 +1334,8 @@ return-void
     .line 35
     .line 36
     .line 37
-    invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 38
     .line 39
@@ -1225,7 +1343,8 @@ return-void
     move-result v2
 
     .line 41
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 42
     .line 43
@@ -1238,7 +1357,8 @@ return-void
     .line 46
     .line 47
     .line 48
-    invoke-static {v3, v4}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 49
     .line 50
@@ -1246,7 +1366,8 @@ return-void
     move-result v3
 
     .line 52
-    iget-boolean v4, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->isSocketConnected:Z
+    iget-boolean v4, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->isSocketConnected:Z
 
     .line 53
     .line 54
@@ -1259,17 +1380,20 @@ return-void
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;
+    ->setText(I)V
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;
+    ->setTextColor(I)V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundColor(I)V
+    invoke-virtual {v1, v2}, Landroid/view/View;
+    ->setBackgroundColor(I)V
 
     .line 66
     .line 67
@@ -1283,23 +1407,27 @@ return-void
     .line 70
     .line 71
     .line 72
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;
+    ->setText(I)V
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {v0, v3}, Landroid/widget/TextView;
+    ->setTextColor(I)V
 
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v1, v3}, Landroid/view/View;->setBackgroundColor(I)V
+    invoke-virtual {v1, v3}, Landroid/view/View;
+    ->setBackgroundColor(I)V
 
     .line 79
     .line 80
     .line 81
     :goto_0
-    invoke-virtual {v1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1}, Landroid/view/View;
+    ->getBackground()Landroid/graphics/drawable/Drawable;
 
     .line 82
     .line 83
@@ -1318,7 +1446,8 @@ return-void
 
     .line 89
     .line 90
-    invoke-virtual {v1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1}, Landroid/view/View;
+    ->getBackground()Landroid/graphics/drawable/Drawable;
 
     .line 91
     .line 92
@@ -1330,7 +1459,8 @@ return-void
 
     .line 95
     .line 96
-    invoke-virtual {v0, v4}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
+    invoke-virtual {v0, v4}, Landroid/graphics/drawable/GradientDrawable;
+    ->setShape(I)V
 
     .line 97
     .line 98
@@ -1343,17 +1473,20 @@ return-void
 
     .line 101
     .line 102
-    invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;
+    -><init>()V
 
     .line 103
     .line 104
     .line 105
-    invoke-virtual {v0, v4}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
+    invoke-virtual {v0, v4}, Landroid/graphics/drawable/GradientDrawable;
+    ->setShape(I)V
 
     .line 106
     .line 107
     .line 108
-    iget-boolean v4, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->isSocketConnected:Z
+    iget-boolean v4, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->isSocketConnected:Z
 
     .line 109
     .line 110
@@ -1369,12 +1502,14 @@ return-void
 
     .line 114
     :goto_1
-    invoke-virtual {v0, v2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
+    invoke-virtual {v0, v2}, Landroid/graphics/drawable/GradientDrawable;
+    ->setColor(I)V
 
     .line 115
     .line 116
     .line 117
-    invoke-virtual {v1, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;
+    ->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 118
     .line 119
@@ -1403,7 +1538,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -1415,7 +1551,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 15
     .line 16
@@ -1427,7 +1564,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {p1, p2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p1, p2, v1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 21
     .line 22
@@ -1435,12 +1573,14 @@ return-void
     move-result-object p1
 
     .line 24
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 25
     .line 26
     .line 27
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->connectToSocket()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->connectToSocket()V
 
     .line 28
     .line 29
@@ -1449,7 +1589,8 @@ return-void
 
     .line 31
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 32
     .line 33
@@ -1461,7 +1602,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-static {p1, p2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p1, p2, v1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 38
     .line 39
@@ -1469,16 +1611,19 @@ return-void
     move-result-object p1
 
     .line 41
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 42
     .line 43
     .line 44
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
 
     .line 45
     .line 46
-    invoke-virtual {p1, v1}, Landroidx/appcompat/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {p1, v1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setChecked(Z)V
 
     .line 47
     .line 48
@@ -1490,7 +1635,8 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -1506,12 +1652,14 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -1519,12 +1667,14 @@ return-void
     move-result-object p1
 
     .line 16
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1535,7 +1685,8 @@ return-void
     const/4 v1, 0x0
 
     .line 24
-    invoke-static {v0, p1, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v0, p1, v1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 25
     .line 26
@@ -1543,16 +1694,19 @@ return-void
     move-result-object p1
 
     .line 28
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 29
     .line 30
     .line 31
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
 
     .line 32
     .line 33
-    invoke-virtual {p1, v1}, Landroidx/appcompat/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {p1, v1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setChecked(Z)V
 
     .line 34
     .line 35
@@ -1576,12 +1730,14 @@ return-void
 
     .line 5
     .line 6
-    invoke-direct {v2, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, p1}, Ljava/net/URL;
+    -><init>(Ljava/lang/String;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+    invoke-virtual {v2}, Ljava/net/URL;
+    ->openConnection()Ljava/net/URLConnection;
 
     .line 10
     .line 11
@@ -1601,7 +1757,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;
+    ->setRequestMethod(Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -1614,7 +1771,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {p1, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v2}, Ljava/net/URLConnection;
+    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -1622,7 +1780,8 @@ return-void
     const/4 v1, 0x1
 
     .line 28
-    invoke-virtual {p1, v1}, Ljava/net/URLConnection;->setDoOutput(Z)V
+    invoke-virtual {p1, v1}, Ljava/net/URLConnection;
+    ->setDoOutput(Z)V
 
     .line 29
     .line 30
@@ -1631,12 +1790,14 @@ return-void
 
     .line 32
     .line 33
-    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
@@ -1645,12 +1806,14 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -1658,7 +1821,8 @@ return-void
     move-result-object p2
 
     .line 48
-    invoke-virtual {p1}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual {p1}, Ljava/net/URLConnection;
+    ->getOutputStream()Ljava/io/OutputStream;
 
     .line 49
     .line 50
@@ -1666,7 +1830,8 @@ return-void
     move-result-object v0
 
     .line 52
-    invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->getBytes()[B
 
     .line 53
     .line 54
@@ -1674,12 +1839,14 @@ return-void
     move-result-object p2
 
     .line 56
-    invoke-virtual {v0, p2}, Ljava/io/OutputStream;->write([B)V
+    invoke-virtual {v0, p2}, Ljava/io/OutputStream;
+    ->write([B)V
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseCode()I
+    invoke-virtual {p1}, Ljava/net/HttpURLConnection;
+    ->getResponseCode()I
 
     .line 60
     .line 61
@@ -1703,7 +1870,8 @@ return-void
 
     .line 70
     .line 71
-    invoke-virtual {p1}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {p1}, Ljava/net/URLConnection;
+    ->getInputStream()Ljava/io/InputStream;
 
     .line 72
     .line 73
@@ -1735,7 +1903,8 @@ return-void
 
     .line 82
     :cond_0
-    invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getErrorStream()Ljava/io/InputStream;
+    invoke-virtual {p1}, Ljava/net/HttpURLConnection;
+    ->getErrorStream()Ljava/io/InputStream;
 
     .line 83
     .line 84
@@ -1752,12 +1921,14 @@ return-void
 
     .line 89
     .line 90
-    invoke-direct {v2, v0}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {v2, v0}, Ljava/io/InputStreamReader;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 91
     .line 92
     .line 93
-    invoke-direct {v1, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    invoke-direct {v1, v2}, Ljava/io/BufferedReader;
+    -><init>(Ljava/io/Reader;)V
 
     .line 94
     .line 95
@@ -1766,13 +1937,15 @@ return-void
 
     .line 97
     .line 98
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 99
     .line 100
     .line 101
     :goto_1
-    invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/io/BufferedReader;
+    ->readLine()Ljava/lang/String;
 
     .line 102
     .line 103
@@ -1784,7 +1957,8 @@ return-void
 
     .line 106
     .line 107
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 108
     .line 109
@@ -1793,7 +1967,8 @@ return-void
 
     .line 111
     :cond_1
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 112
     .line 113
@@ -1805,7 +1980,8 @@ return-void
 
     .line 116
     .line 117
-    invoke-direct {v1, v0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lorg/json/JSONObject;
+    -><init>(Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -1818,7 +1994,8 @@ return-void
 
     .line 123
     .line 124
-    invoke-virtual {v1, v0, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0, v2}, Lorg/json/JSONObject;
+    ->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 125
     .line 126
@@ -1826,7 +2003,8 @@ return-void
     move-result-object v0
 
     .line 128
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 129
     .line 130
@@ -1838,7 +2016,8 @@ return-void
 
     .line 133
     .line 134
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 135
     .line 136
@@ -1853,12 +2032,14 @@ return-void
     const/4 v3, 0x1
 
     .line 141
-    invoke-direct {v2, p0, p2, v0, v3}, Landroidx/profileinstaller/a;-><init>(Ljava/lang/Object;ILjava/lang/Object;I)V
+    invoke-direct {v2, p0, p2, v0, v3}, Landroidx/profileinstaller/a;
+    -><init>(Ljava/lang/Object;ILjava/lang/Object;I)V
 
     .line 142
     .line 143
     .line 144
-    invoke-virtual {v1, v2}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v2}, Landroid/app/Activity;
+    ->runOnUiThread(Ljava/lang/Runnable;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1867,7 +2048,8 @@ return-void
     .line 146
     .line 147
     :cond_2
-    invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
+    invoke-virtual {p1}, Ljava/net/HttpURLConnection;
+    ->disconnect()V
 
     .line 148
     .line 149
@@ -1888,7 +2070,8 @@ return-void
     .line 154
     :goto_2
     :try_start_2
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 155
     .line 156
@@ -1900,7 +2083,8 @@ return-void
 
     .line 159
     .line 160
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 161
     .line 162
@@ -1916,18 +2100,21 @@ return-void
 
     .line 167
     .line 168
-    invoke-direct {v0, v2, p0, p2}, LT/e;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v2, p0, p2}, LT/e;
+    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 169
     .line 170
     .line 171
-    invoke-virtual {p1, v0}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {p1, v0}, Landroid/app/Activity;
+    ->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 172
     .line 173
     .line 174
     :cond_3
-    invoke-virtual {p2}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p2}, Ljava/lang/Throwable;
+    ->printStackTrace()V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
@@ -1938,7 +2125,8 @@ return-void
 
     .line 178
     .line 179
-    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+    invoke-virtual {v1}, Ljava/net/HttpURLConnection;
+    ->disconnect()V
 
     .line 180
     .line 181
@@ -1952,7 +2140,8 @@ return-void
 
     .line 184
     .line 185
-    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+    invoke-virtual {v1}, Ljava/net/HttpURLConnection;
+    ->disconnect()V
 
     .line 186
     .line 187
@@ -2015,7 +2204,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->getAllContacts()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->getAllContacts()V
     return-void
 .end method
 
@@ -2023,7 +2213,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->reconnectSocketIfNeeded()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->reconnectSocketIfNeeded()V
     return-void
 .end method
 
@@ -2031,7 +2222,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->saveContact(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->saveContact(Ljava/lang/String;Ljava/lang/String;)Z
 
     return-void
 .end method
@@ -2048,7 +2240,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v1}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 6
     .line 7
@@ -2060,12 +2253,14 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, v2, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+    invoke-direct {v0, v2, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;
+    ->startActivity(Landroid/content/Intent;)V
 
     .line 15
     .line 16
@@ -2077,7 +2272,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->updateSocketStatus()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->updateSocketStatus()V
     return-void
 .end method
 
@@ -2085,7 +2281,8 @@ return-void
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->isSocketConnected:Z
+    iget-boolean v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->isSocketConnected:Z
 
     .line 2
     .line 3
@@ -2093,7 +2290,8 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 6
     .line 7
@@ -2109,16 +2307,19 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 14
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 19
     .line 20
@@ -2130,12 +2331,14 @@ return-void
     const/4 v2, 0x0
 
     .line 24
-    invoke-direct {v1, v0, v2}, LQ0/p;-><init>(LQ0/t;I)V
+    invoke-direct {v1, v0, v2}, LQ0/p;
+    -><init>(LQ0/t;I)V
 
     .line 25
     .line 26
     .line 27
-    invoke-static {v1}, LZ0/b;->a(Ljava/lang/Runnable;)V
+    invoke-static {v1}, LZ0/b;
+    ->a(Ljava/lang/Runnable;)V
 
     .line 28
     .line 29
@@ -2148,7 +2351,8 @@ return-void
     .locals 7
 
     .line 1
-    invoke-direct {p0, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->contactExists(Ljava/lang/String;)Z
+    invoke-direct {p0, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->contactExists(Ljava/lang/String;)Z
 
     .line 2
     .line 3
@@ -2171,7 +2375,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
+    invoke-direct {v0}, Landroid/content/ContentValues;
+    -><init>()V
 
     .line 12
     .line 13
@@ -2180,7 +2385,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {v0, v2}, Landroid/content/ContentValues;->putNull(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Landroid/content/ContentValues;
+    ->putNull(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -2189,12 +2395,14 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v0, v2}, Landroid/content/ContentValues;->putNull(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Landroid/content/ContentValues;
+    ->putNull(Ljava/lang/String;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 25
     .line 26
@@ -2202,7 +2410,8 @@ return-void
     move-result-object v2
 
     .line 28
-    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v2}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 29
     .line 30
@@ -2210,11 +2419,13 @@ return-void
     move-result-object v2
 
     .line 32
-    sget-object v3, Landroid/provider/ContactsContract$RawContacts;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v3, Landroid/provider/ContactsContract$RawContacts;
+    ->CONTENT_URI:Landroid/net/Uri;
 
     .line 33
     .line 34
-    invoke-virtual {v2, v3, v0}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    invoke-virtual {v2, v3, v0}, Landroid/content/ContentResolver;
+    ->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
     .line 35
     .line 36
@@ -2231,7 +2442,8 @@ return-void
     .line 41
     :cond_1
     :try_start_0
-    invoke-virtual {v2}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
+    invoke-virtual {v2}, Landroid/net/Uri;
+    ->getLastPathSegment()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -2239,7 +2451,8 @@ return-void
     move-result-object v2
 
     .line 45
-    invoke-static {v2}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    invoke-static {v2}, Ljava/lang/Long;
+    ->parseLong(Ljava/lang/String;)J
 
     .line 46
     .line 47
@@ -2249,12 +2462,14 @@ return-void
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 49
-    invoke-virtual {v0}, Landroid/content/ContentValues;->clear()V
+    invoke-virtual {v0}, Landroid/content/ContentValues;
+    ->clear()V
 
     .line 50
     .line 51
     .line 52
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 53
     .line 54
@@ -2266,7 +2481,8 @@ return-void
 
     .line 57
     .line 58
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 59
     .line 60
@@ -2279,7 +2495,8 @@ return-void
 
     .line 64
     .line 65
-    invoke-virtual {v0, v5, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -2288,12 +2505,14 @@ return-void
 
     .line 69
     .line 70
-    invoke-virtual {v0, v3, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, p1}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 74
     .line 75
@@ -2301,7 +2520,8 @@ return-void
     move-result-object p1
 
     .line 77
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 78
     .line 79
@@ -2309,21 +2529,25 @@ return-void
     move-result-object p1
 
     .line 81
-    sget-object v6, Landroid/provider/ContactsContract$Data;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v6, Landroid/provider/ContactsContract$Data;
+    ->CONTENT_URI:Landroid/net/Uri;
 
     .line 82
     .line 83
-    invoke-virtual {p1, v6, v0}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    invoke-virtual {p1, v6, v0}, Landroid/content/ContentResolver;
+    ->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {v0}, Landroid/content/ContentValues;->clear()V
+    invoke-virtual {v0}, Landroid/content/ContentValues;
+    ->clear()V
 
     .line 87
     .line 88
     .line 89
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 90
     .line 91
@@ -2331,7 +2555,8 @@ return-void
     move-result-object p1
 
     .line 93
-    invoke-virtual {v0, v4, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    invoke-virtual {v0, v4, p1}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 94
     .line 95
@@ -2340,12 +2565,14 @@ return-void
 
     .line 97
     .line 98
-    invoke-virtual {v0, v5, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, p1}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 99
     .line 100
     .line 101
-    invoke-virtual {v0, v3, p2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v3, p2}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 102
     .line 103
@@ -2353,7 +2580,8 @@ return-void
     const/4 p1, 0x2
 
     .line 105
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 106
     .line 107
@@ -2365,12 +2593,14 @@ return-void
 
     .line 110
     .line 111
-    invoke-virtual {v0, p2, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    invoke-virtual {v0, p2, p1}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 112
     .line 113
     .line 114
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 115
     .line 116
@@ -2378,7 +2608,8 @@ return-void
     move-result-object p1
 
     .line 118
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 119
     .line 120
@@ -2386,7 +2617,8 @@ return-void
     move-result-object p1
 
     .line 122
-    invoke-virtual {p1, v6, v0}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    invoke-virtual {p1, v6, v0}, Landroid/content/ContentResolver;
+    ->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
     .line 123
     .line 124
@@ -2404,7 +2636,8 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
@@ -2416,7 +2649,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getView()Landroid/view/View;
 
     .line 8
     .line 9
@@ -2432,7 +2666,8 @@ return-void
 
     .line 14
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 15
     .line 16
@@ -2447,12 +2682,14 @@ return-void
     const/4 v2, 0x5
 
     .line 21
-    invoke-direct {v1, p0, v2}, LT/o;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, LT/o;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Landroid/app/Activity;
+    ->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 25
     .line 26
@@ -2467,7 +2704,8 @@ return-void
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -2483,17 +2721,20 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v2, v3, p0, v0}, LT/e;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, p0, v0}, LT/e;
+    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-direct {v1, v2}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v1, v2}, Ljava/lang/Thread;
+    -><init>(Ljava/lang/Runnable;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v1}, Ljava/lang/Thread;->start()V
+    invoke-virtual {v1}, Ljava/lang/Thread;
+    ->start()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2507,7 +2748,8 @@ return-void
     move-exception v0
 
     .line 20
-    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 21
     .line 22
@@ -2543,7 +2785,8 @@ return-void
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 6
     .line 7
@@ -2557,12 +2800,14 @@ return-void
     .locals 3
 
     .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroyView()V
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;
+    ->onDestroyView()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 5
     .line 6
@@ -2577,12 +2822,14 @@ return-void
     const/4 v2, 0x1
 
     .line 11
-    invoke-direct {v1, v0, v2}, LQ0/p;-><init>(LQ0/t;I)V
+    invoke-direct {v1, v0, v2}, LQ0/p;
+    -><init>(LQ0/t;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {v1}, LZ0/b;->a(Ljava/lang/Runnable;)V
+    invoke-static {v1}, LZ0/b;
+    ->a(Ljava/lang/Runnable;)V
 
     .line 15
     .line 16
@@ -2590,7 +2837,8 @@ return-void
     const/4 v0, 0x0
 
     .line 18
-    iput-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->mSocket:LQ0/t;
+    iput-object v0, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->mSocket:LQ0/t;
 
     .line 19
     .line 20
@@ -2610,7 +2858,8 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;
+    ->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
     .line 2
     .line 3
@@ -2641,7 +2890,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 16
     .line 17
@@ -2653,7 +2903,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-static {p1, p3, p2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p1, p3, p2}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 22
     .line 23
@@ -2661,7 +2912,8 @@ return-void
     move-result-object p1
 
     .line 25
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 26
     .line 27
@@ -2693,7 +2945,8 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;
+    ->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
     .line 3
@@ -2703,7 +2956,8 @@ return-void
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 8
     .line 9
@@ -2715,7 +2969,8 @@ return-void
 
     .line 12
     .line 13
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->editToken:Landroid/widget/EditText;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->editToken:Landroid/widget/EditText;
 
     .line 14
     .line 15
@@ -2724,7 +2979,8 @@ return-void
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 19
     .line 20
@@ -2736,7 +2992,8 @@ return-void
 
     .line 23
     .line 24
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->tvToken:Landroid/widget/TextView;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->tvToken:Landroid/widget/TextView;
 
     .line 25
     .line 26
@@ -2745,7 +3002,8 @@ return-void
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 30
     .line 31
@@ -2757,7 +3015,8 @@ return-void
 
     .line 34
     .line 35
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
 
     .line 36
     .line 37
@@ -2766,7 +3025,8 @@ return-void
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 41
     .line 42
@@ -2774,11 +3034,13 @@ return-void
     move-result-object p1
 
     .line 44
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->statusIndicator:Landroid/view/View;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->statusIndicator:Landroid/view/View;
 
     .line 45
     .line 46
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 47
     .line 48
@@ -2793,7 +3055,8 @@ return-void
     const/4 v0, 0x0
 
     .line 53
-    invoke-virtual {p1, p2, v0}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p1, p2, v0}, Landroid/content/Context;
+    ->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 54
     .line 55
@@ -2801,7 +3064,8 @@ return-void
     move-result-object p1
 
     .line 57
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->sharedPreferences:Landroid/content/SharedPreferences;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->sharedPreferences:Landroid/content/SharedPreferences;
 
     .line 58
     .line 59
@@ -2812,7 +3076,8 @@ return-void
     const/4 v0, 0x0
 
     .line 62
-    invoke-interface {p1, p2, v0}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2, v0}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 63
     .line 64
@@ -2824,11 +3089,13 @@ return-void
 
     .line 67
     .line 68
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     .line 69
     .line 70
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->tvToken:Landroid/widget/TextView;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->tvToken:Landroid/widget/TextView;
 
     .line 71
     .line 72
@@ -2840,21 +3107,25 @@ return-void
 
     .line 75
     .line 76
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 77
     .line 78
     .line 79
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->deviceId:Ljava/lang/String;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->deviceId:Ljava/lang/String;
 
     .line 80
     .line 81
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 85
     .line 86
@@ -2862,27 +3133,32 @@ return-void
     move-result-object v0
 
     .line 88
-    invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 89
     .line 90
     .line 91
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->editToken:Landroid/widget/EditText;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->editToken:Landroid/widget/EditText;
 
     .line 92
     .line 93
-    invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, p1}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 94
     .line 95
     .line 96
     :cond_0
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->checkAndRequestPermissions()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->checkAndRequestPermissions()V
 
     .line 97
     .line 98
     .line 99
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->editToken:Landroid/widget/EditText;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->editToken:Landroid/widget/EditText;
 
     .line 100
     .line 101
@@ -2890,17 +3166,20 @@ return-void
 
     .line 102
     .line 103
-    invoke-direct {p2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$1;-><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-direct {p2, p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder$1;
+    -><init>(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;
+    ->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 107
     .line 108
     .line 109
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
 
     .line 110
     .line 111
@@ -2911,12 +3190,14 @@ return-void
     const/4 v0, 0x0
 
     .line 114
-    invoke-direct {p2, p0, v0}, Lcom/fmark/tselzap/fragments/a;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, p0, v0}, Lcom/fmark/tselzap/fragments/a;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 115
     .line 116
     .line 117
-    invoke-virtual {p1, p2}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {p1, p2}, Landroid/widget/CompoundButton;
+    ->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 118
     .line 119

@@ -18,23 +18,28 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p3}, Landroidx/cursoradapter/widget/CursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;)V
+    invoke-direct {p0, p1, p3}, Landroidx/cursoradapter/widget/CursorAdapter;
+    -><init>(Landroid/content/Context;Landroid/database/Cursor;)V
 
     .line 2
-    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I
+    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mDropDownLayout:I
 
-    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I
+    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mLayout:I
 
     .line 3
     const-string p2, "layout_inflater"
 
-    invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    iput-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mInflater:Landroid/view/LayoutInflater;
+    iput-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mInflater:Landroid/view/LayoutInflater;
 
     return-void
 .end method
@@ -43,23 +48,28 @@
     .locals 0
 
     .line 7
-    invoke-direct {p0, p1, p3, p4}, Landroidx/cursoradapter/widget/CursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;I)V
+    invoke-direct {p0, p1, p3, p4}, Landroidx/cursoradapter/widget/CursorAdapter;
+    -><init>(Landroid/content/Context;Landroid/database/Cursor;I)V
 
     .line 8
-    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I
+    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mDropDownLayout:I
 
-    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I
+    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mLayout:I
 
     .line 9
     const-string p2, "layout_inflater"
 
-    invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    iput-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mInflater:Landroid/view/LayoutInflater;
+    iput-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mInflater:Landroid/view/LayoutInflater;
 
     return-void
 .end method
@@ -70,23 +80,28 @@
     .end annotation
 
     .line 4
-    invoke-direct {p0, p1, p3, p4}, Landroidx/cursoradapter/widget/CursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;Z)V
+    invoke-direct {p0, p1, p3, p4}, Landroidx/cursoradapter/widget/CursorAdapter;
+    -><init>(Landroid/content/Context;Landroid/database/Cursor;Z)V
 
     .line 5
-    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I
+    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mDropDownLayout:I
 
-    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I
+    iput p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mLayout:I
 
     .line 6
     const-string p2, "layout_inflater"
 
-    invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    iput-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mInflater:Landroid/view/LayoutInflater;
+    iput-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mInflater:Landroid/view/LayoutInflater;
 
     return-void
 .end method
@@ -97,18 +112,21 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mInflater:Landroid/view/LayoutInflater;
+    iget-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mInflater:Landroid/view/LayoutInflater;
 
     .line 2
     .line 3
-    iget p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I
+    iget p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mDropDownLayout:I
 
     .line 4
     .line 5
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p1, p2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p1, p2, p3, v0}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 7
     .line 8
@@ -122,18 +140,21 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mInflater:Landroid/view/LayoutInflater;
+    iget-object p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mInflater:Landroid/view/LayoutInflater;
 
     .line 2
     .line 3
-    iget p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I
+    iget p2, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mLayout:I
 
     .line 4
     .line 5
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p1, p2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p1, p2, p3, v0}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 7
     .line 8
@@ -147,14 +168,18 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mDropDownLayout:I    return-void
+    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mDropDownLayout:I    
+    return-void
 .end method
 
 .method public setViewResource(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;->mLayout:I    return-void
+    iput p1, p0, Landroidx/cursoradapter/widget/ResourceCursorAdapter;
+    ->mLayout:I    
+    return-void
 .end method
 
 .end class

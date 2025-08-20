@@ -40,7 +40,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;-><init>()V
+    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,7 +49,8 @@
     const/4 v0, 0x2
 
     .line 5
-    iput v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->f:I
+    iput v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->f:I
 
     .line 6
     .line 7
@@ -56,18 +58,21 @@
 
     .line 8
     .line 9
-    iput v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->g:F
+    iput v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->g:F
 
     .line 10
     .line 11
     const/4 v1, 0x0
 
     .line 12
-    iput v1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->h:F
+    iput v1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->h:F
 
     .line 13
     .line 14
-    iput v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->i:F
+    iput v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->i:F
 
     .line 15
     .line 16
@@ -75,12 +80,14 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p0}, Lb0/c;-><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;)V
+    invoke-direct {v0, p0}, Lb0/c;
+    -><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;)V
 
     .line 19
     .line 20
     .line 21
-    iput-object v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->j:Lb0/c;
+    iput-object v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->j:Lb0/c;
 
     .line 22
     .line 23
@@ -102,11 +109,13 @@
     .locals 4
 
     .line 1
-    iget-boolean v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->d:Z
+    iget-boolean v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->d:Z
 
     .line 2
     .line 3
-    invoke-virtual {p3}, Landroid/view/MotionEvent;->getActionMasked()I
+    invoke-virtual {p3}, Landroid/view/MotionEvent;
+    ->getActionMasked()I
 
     .line 4
     .line 5
@@ -139,7 +148,8 @@
 
     .line 17
     :cond_0
-    iput-boolean v3, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->d:Z
+    iput-boolean v3, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->d:Z
 
     .line 18
     .line 19
@@ -147,7 +157,8 @@
 
     .line 20
     :cond_1
-    invoke-virtual {p3}, Landroid/view/MotionEvent;->getX()F
+    invoke-virtual {p3}, Landroid/view/MotionEvent;
+    ->getX()F
 
     .line 21
     .line 22
@@ -158,7 +169,8 @@
     float-to-int v0, v0
 
     .line 25
-    invoke-virtual {p3}, Landroid/view/MotionEvent;->getY()F
+    invoke-virtual {p3}, Landroid/view/MotionEvent;
+    ->getY()F
 
     .line 26
     .line 27
@@ -169,7 +181,8 @@
     float-to-int v1, v1
 
     .line 30
-    invoke-virtual {p1, p2, v0, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->isPointInChildBounds(Landroid/view/View;II)Z
+    invoke-virtual {p1, p2, v0, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    ->isPointInChildBounds(Landroid/view/View;II)Z
 
     .line 31
     .line 32
@@ -177,7 +190,8 @@
     move-result v0
 
     .line 34
-    iput-boolean v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->d:Z
+    iput-boolean v0, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->d:Z
 
     .line 35
     .line 36
@@ -186,7 +200,8 @@
 
     .line 37
     .line 38
-    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->b:Landroidx/customview/widget/ViewDragHelper;
+    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->b:Landroidx/customview/widget/ViewDragHelper;
 
     .line 39
     .line 40
@@ -194,11 +209,13 @@
 
     .line 41
     .line 42
-    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->j:Lb0/c;
+    iget-object p2, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->j:Lb0/c;
 
     .line 43
     .line 44
-    invoke-static {p1, p2}, Landroidx/customview/widget/ViewDragHelper;->create(Landroid/view/ViewGroup;Landroidx/customview/widget/ViewDragHelper$Callback;)Landroidx/customview/widget/ViewDragHelper;
+    invoke-static {p1, p2}, Landroidx/customview/widget/ViewDragHelper;
+    ->create(Landroid/view/ViewGroup;Landroidx/customview/widget/ViewDragHelper$Callback;)Landroidx/customview/widget/ViewDragHelper;
 
     .line 45
     .line 46
@@ -206,12 +223,14 @@
     move-result-object p1
 
     .line 48
-    iput-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->b:Landroidx/customview/widget/ViewDragHelper;
+    iput-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->b:Landroidx/customview/widget/ViewDragHelper;
 
     .line 49
     .line 50
     :cond_2
-    iget-boolean p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e:Z
+    iget-boolean p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->e:Z
 
     .line 51
     .line 52
@@ -219,11 +238,13 @@
 
     .line 53
     .line 54
-    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->b:Landroidx/customview/widget/ViewDragHelper;
+    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->b:Landroidx/customview/widget/ViewDragHelper;
 
     .line 55
     .line 56
-    invoke-virtual {p1, p3}, Landroidx/customview/widget/ViewDragHelper;->shouldInterceptTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {p1, p3}, Landroidx/customview/widget/ViewDragHelper;
+    ->shouldInterceptTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 57
     .line 58
@@ -246,7 +267,8 @@
     .locals 2
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;->onLayoutChild(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
+    invoke-super {p0, p1, p2, p3}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
+    ->onLayoutChild(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
 
     .line 2
     .line 3
@@ -254,7 +276,8 @@
     move-result p1
 
     .line 5
-    invoke-virtual {p2}, Landroid/view/View;->getImportantForAccessibility()I
+    invoke-virtual {p2}, Landroid/view/View;
+    ->getImportantForAccessibility()I
 
     .line 6
     .line 7
@@ -269,7 +292,8 @@
     const/4 p3, 0x1
 
     .line 12
-    invoke-virtual {p2, p3}, Landroid/view/View;->setImportantForAccessibility(I)V
+    invoke-virtual {p2, p3}, Landroid/view/View;
+    ->setImportantForAccessibility(I)V
 
     .line 13
     .line 14
@@ -278,12 +302,14 @@
 
     .line 16
     .line 17
-    invoke-static {p2, p3}, Landroidx/core/view/ViewCompat;->removeAccessibilityAction(Landroid/view/View;I)V
+    invoke-static {p2, p3}, Landroidx/core/view/ViewCompat;
+    ->removeAccessibilityAction(Landroid/view/View;I)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0, p2}, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e(Landroid/view/View;)Z
+    invoke-virtual {p0, p2}, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->e(Landroid/view/View;)Z
 
     .line 21
     .line 22
@@ -295,7 +321,8 @@
 
     .line 25
     .line 26
-    sget-object p3, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->ACTION_DISMISS:Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    sget-object p3, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->ACTION_DISMISS:Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
 
     .line 27
     .line 28
@@ -303,7 +330,8 @@
 
     .line 29
     .line 30
-    invoke-direct {v0, p0}, Lb0/d;-><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;)V
+    invoke-direct {v0, p0}, Lb0/d;
+    -><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;)V
 
     .line 31
     .line 32
@@ -311,7 +339,8 @@
     const/4 v1, 0x0
 
     .line 34
-    invoke-static {p2, p3, v1, v0}, Landroidx/core/view/ViewCompat;->replaceAccessibilityAction(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;Ljava/lang/CharSequence;Landroidx/core/view/accessibility/AccessibilityViewCommand;)V
+    invoke-static {p2, p3, v1, v0}, Landroidx/core/view/ViewCompat;
+    ->replaceAccessibilityAction(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;Ljava/lang/CharSequence;Landroidx/core/view/accessibility/AccessibilityViewCommand;)V
 
     .line 35
     .line 36
@@ -324,7 +353,8 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->b:Landroidx/customview/widget/ViewDragHelper;
+    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->b:Landroidx/customview/widget/ViewDragHelper;
 
     .line 2
     .line 3
@@ -332,7 +362,8 @@
 
     .line 4
     .line 5
-    iget-boolean p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e:Z
+    iget-boolean p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->e:Z
 
     .line 6
     .line 7
@@ -340,7 +371,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p3}, Landroid/view/MotionEvent;->getActionMasked()I
+    invoke-virtual {p3}, Landroid/view/MotionEvent;
+    ->getActionMasked()I
 
     .line 10
     .line 11
@@ -356,11 +388,13 @@
     .line 15
     .line 16
     :cond_0
-    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->b:Landroidx/customview/widget/ViewDragHelper;
+    iget-object p1, p0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->b:Landroidx/customview/widget/ViewDragHelper;
 
     .line 17
     .line 18
-    invoke-virtual {p1, p3}, Landroidx/customview/widget/ViewDragHelper;->processTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-virtual {p1, p3}, Landroidx/customview/widget/ViewDragHelper;
+    ->processTouchEvent(Landroid/view/MotionEvent;)V
 
     .line 19
     .line 20

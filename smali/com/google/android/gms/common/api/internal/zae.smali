@@ -12,7 +12,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zai;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zai;
+    -><init>(I)V
 
     .line 2
     .line 3
@@ -21,7 +22,8 @@
 
     .line 5
     .line 6
-    invoke-static {p2, p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -33,7 +35,8 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zae;->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zae;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 13
     .line 14
@@ -51,11 +54,13 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zae;->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zae;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;->setFailedResult(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    ->setFailedResult(Lcom/google/android/gms/common/api/Status;)V
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -77,7 +82,8 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 13
     .line 14
@@ -97,7 +103,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -105,7 +112,8 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -113,7 +121,8 @@
     move-result-object v1
 
     .line 11
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getLocalizedMessage()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -125,7 +134,8 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v2, p1}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, p1}, LA/d;
+    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -137,17 +147,20 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, v1, p1}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
+    invoke-direct {v0, v1, p1}, Lcom/google/android/gms/common/api/Status;
+    -><init>(ILjava/lang/String;)V
 
     .line 24
     .line 25
     .line 26
     :try_start_0
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zae;->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zae;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;->setFailedResult(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    ->setFailedResult(Lcom/google/android/gms/common/api/Status;)V
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -169,7 +182,8 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 38
     .line 39
@@ -182,11 +196,13 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zae;->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zae;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;
+    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 4
     .line 5
@@ -194,7 +210,8 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;->run(Lcom/google/android/gms/common/api/Api$AnyClient;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    ->run(Lcom/google/android/gms/common/api/Api$AnyClient;)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -208,7 +225,8 @@
     move-exception p1
 
     .line 12
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/zae;->zae(Ljava/lang/Exception;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/zae;
+    ->zae(Ljava/lang/Exception;)V
 
     .line 13
     .line 14
@@ -224,11 +242,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zae;->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zae;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/api/internal/zaad;->zac(Lcom/google/android/gms/common/api/internal/BasePendingResult;Z)V
+    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/api/internal/zaad;
+    ->zac(Lcom/google/android/gms/common/api/internal/BasePendingResult;Z)V
 
     .line 4
     .line 5

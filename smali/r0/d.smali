@@ -14,15 +14,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lr0/d;->b:Lr0/f;
+    iput-object p1, p0, Lr0/d;
+    ->b:Lr0/f;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lr0/d;->a:Lr0/g;
+    iput-object p2, p0, Lr0/d;
+    ->a:Lr0/g;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/core/content/res/ResourcesCompat$FontCallback;-><init>()V
+    invoke-direct {p0}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
+    -><init>()V
 
     .line 6
     .line 7
@@ -36,22 +39,26 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lr0/d;->b:Lr0/f;
+    iget-object v0, p0, Lr0/d;
+    ->b:Lr0/f;
 
     .line 2
     .line 3
     const/4 v1, 0x1
 
     .line 4
-    iput-boolean v1, v0, Lr0/f;->n:Z
+    iput-boolean v1, v0, Lr0/f;
+    ->n:Z
 
     .line 5
     .line 6
-    iget-object v0, p0, Lr0/d;->a:Lr0/g;
+    iget-object v0, p0, Lr0/d;
+    ->a:Lr0/g;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Lr0/g;->a(I)V
+    invoke-virtual {v0, p1}, Lr0/g;
+    ->a(I)V
 
     .line 9
     .line 10
@@ -63,15 +70,18 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lr0/d;->b:Lr0/f;
+    iget-object v0, p0, Lr0/d;
+    ->b:Lr0/f;
 
     .line 2
     .line 3
-    iget v1, v0, Lr0/f;->d:I
+    iget v1, v0, Lr0/f;
+    ->d:I
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+    invoke-static {p1, v1}, Landroid/graphics/Typeface;
+    ->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
 
     .line 6
     .line 7
@@ -79,29 +89,34 @@
     move-result-object p1
 
     .line 9
-    iput-object p1, v0, Lr0/f;->p:Landroid/graphics/Typeface;
+    iput-object p1, v0, Lr0/f;
+    ->p:Landroid/graphics/Typeface;
 
     .line 10
     .line 11
     const/4 p1, 0x1
 
     .line 12
-    iput-boolean p1, v0, Lr0/f;->n:Z
+    iput-boolean p1, v0, Lr0/f;
+    ->n:Z
 
     .line 13
     .line 14
-    iget-object p1, v0, Lr0/f;->p:Landroid/graphics/Typeface;
+    iget-object p1, v0, Lr0/f;
+    ->p:Landroid/graphics/Typeface;
 
     .line 15
     .line 16
     const/4 v0, 0x0
 
     .line 17
-    iget-object v1, p0, Lr0/d;->a:Lr0/g;
+    iget-object v1, p0, Lr0/d;
+    ->a:Lr0/g;
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1, v0}, Lr0/g;->b(Landroid/graphics/Typeface;Z)V
+    invoke-virtual {v1, p1, v0}, Lr0/g;
+    ->b(Landroid/graphics/Typeface;Z)V
 
     .line 20
     .line 21

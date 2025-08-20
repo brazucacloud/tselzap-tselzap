@@ -14,9 +14,11 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabl;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabl;
+    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -26,11 +28,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabl;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabl;
+    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zad(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zad(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)Landroid/os/Handler;
 
     .line 4
     .line 5
@@ -38,7 +42,8 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zad(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zad(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)Landroid/os/Handler;
 
     .line 8
     .line 9
@@ -46,7 +51,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 12
     .line 13
@@ -57,7 +63,8 @@
     const/4 v2, 0x1
 
     .line 16
-    invoke-virtual {v0, v2, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {v0, v2, p1}, Landroid/os/Handler;
+    ->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     .line 17
     .line 18
@@ -65,7 +72,8 @@
     move-result-object p1
 
     .line 20
-    invoke-virtual {v1, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
+    invoke-virtual {v1, p1}, Landroid/os/Handler;
+    ->sendMessage(Landroid/os/Message;)Z
 
     .line 21
     .line 22

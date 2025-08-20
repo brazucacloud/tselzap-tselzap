@@ -34,11 +34,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iput-object p1, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -57,7 +59,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -83,7 +86,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -94,11 +98,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->clear()V
     return-void
 .end method
 
@@ -106,11 +112,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->__restricted$indexOfValue(Ljava/lang/Object;)I
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->__restricted$indexOfValue(Ljava/lang/Object;)I
 
     .line 4
     .line 5
@@ -144,7 +152,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     .line 2
     .line 3
@@ -153,7 +162,8 @@
 
     .line 5
     :cond_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 6
     .line 7
@@ -165,7 +175,8 @@
 
     .line 10
     .line 11
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -173,7 +184,8 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {p0, v0}, Landroidx/collection/ArrayMap$ValueCollection;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Landroidx/collection/ArrayMap$ValueCollection;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -200,11 +212,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->isEmpty()Z
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -232,22 +246,27 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$ValueIterator;-><init>(Landroidx/collection/ArrayMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$ValueIterator;
+    -><init>(Landroidx/collection/ArrayMap;)V    
+    return-object v0
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->__restricted$indexOfValue(Ljava/lang/Object;)I
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->__restricted$indexOfValue(Ljava/lang/Object;)I
 
     .line 4
     .line 5
@@ -259,11 +278,13 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->removeAt(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -294,11 +315,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     .line 4
     .line 5
@@ -317,11 +340,13 @@
 
     .line 10
     .line 11
-    iget-object v3, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v3, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 12
     .line 13
-    invoke-virtual {v3, v1}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v3, v1}, Landroidx/collection/SimpleArrayMap;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -329,7 +354,8 @@
     move-result-object v3
 
     .line 17
-    invoke-interface {p1, v3}, Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
+    invoke-interface {p1, v3}, Ljava/util/Collection;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -344,11 +370,13 @@
 
     .line 23
     .line 24
-    iget-object v2, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v2, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 25
     .line 26
-    invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;
+    ->removeAt(I)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -390,11 +418,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     .line 4
     .line 5
@@ -413,11 +443,13 @@
 
     .line 10
     .line 11
-    iget-object v3, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v3, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 12
     .line 13
-    invoke-virtual {v3, v1}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v3, v1}, Landroidx/collection/SimpleArrayMap;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -425,7 +457,8 @@
     move-result-object v3
 
     .line 17
-    invoke-interface {p1, v3}, Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
+    invoke-interface {p1, v3}, Ljava/util/Collection;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -440,11 +473,13 @@
 
     .line 23
     .line 24
-    iget-object v2, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v2, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 25
     .line 26
-    invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;
+    ->removeAt(I)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -475,11 +510,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     .line 4
     .line 5
@@ -495,9 +532,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     move-result v0
 
@@ -510,9 +549,11 @@
     if-ge v2, v0, :cond_0
 
     .line 3
-    iget-object v3, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v3, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
-    invoke-virtual {v3, v2}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Landroidx/collection/SimpleArrayMap;
+    ->valueAt(I)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -544,7 +585,8 @@
     .end annotation
 
     .line 4
-    invoke-virtual {p0}, Landroidx/collection/ArrayMap$ValueCollection;->size()I
+    invoke-virtual {p0}, Landroidx/collection/ArrayMap$ValueCollection;
+    ->size()I
 
     move-result v0
 
@@ -554,15 +596,18 @@
     if-ge v1, v0, :cond_0
 
     .line 6
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getComponentType()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-static {p1, v0}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {p1, v0}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -575,9 +620,11 @@
     if-ge v1, v0, :cond_1
 
     .line 7
-    iget-object v2, p0, Landroidx/collection/ArrayMap$ValueCollection;->this$0:Landroidx/collection/ArrayMap;
+    iget-object v2, p0, Landroidx/collection/ArrayMap$ValueCollection;
+    ->this$0:Landroidx/collection/ArrayMap;
 
-    invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;
+    ->valueAt(I)Ljava/lang/Object;
 
     move-result-object v2
 

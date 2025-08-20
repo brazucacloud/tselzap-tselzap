@@ -65,106 +65,131 @@
     .locals 4
 
     .line 24
-    invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroid/view/View;
+    -><init>(Landroid/content/Context;)V
 
     const/16 p1, 0x10
 
     .line 25
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->barLength:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barLength:I
 
     const/16 p1, 0x1c
 
     .line 26
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     const/4 p1, 0x4
 
     .line 27
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 28
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     const/4 p1, 0x0
 
     .line 29
-    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->fillRadius:Z
+    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->fillRadius:Z
 
     const-wide/16 v0, 0x0
 
     .line 30
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->timeStartGrowing:D
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->timeStartGrowing:D
 
     const-wide v0, 0x407cc00000000000L    # 460.0
 
     .line 31
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->barSpinCycleTime:D
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barSpinCycleTime:D
 
     const/4 v0, 0x0
 
     .line 32
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barExtraLength:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barExtraLength:F
 
     const/4 v1, 0x1
 
     .line 33
-    iput-boolean v1, p0, Lcom/developer/progressx/ProgressWheel;->barGrowingFromFront:Z
+    iput-boolean v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barGrowingFromFront:Z
 
     const-wide/16 v1, 0x0
 
     .line 34
-    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;->pausedTimeWithoutGrowing:J
+    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->pausedTimeWithoutGrowing:J
 
     const/high16 v3, -0x56000000
 
     .line 35
-    iput v3, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iput v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     const v3, 0xffffff
 
     .line 36
-    iput v3, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iput v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 37
     new-instance v3, Landroid/graphics/Paint;
 
-    invoke-direct {v3}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Paint;
+    -><init>()V
 
-    iput-object v3, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iput-object v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 38
     new-instance v3, Landroid/graphics/Paint;
 
-    invoke-direct {v3}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Paint;
+    -><init>()V
 
-    iput-object v3, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iput-object v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 39
     new-instance v3, Landroid/graphics/RectF;
 
-    invoke-direct {v3}, Landroid/graphics/RectF;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/RectF;
+    -><init>()V
 
-    iput-object v3, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iput-object v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     const/high16 v3, 0x43660000    # 230.0f
 
     .line 40
-    iput v3, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iput v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 41
-    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 42
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 43
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 44
-    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 45
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setAnimationEnabled()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->setAnimationEnabled()V
     return-void
 .end method
 
@@ -172,115 +197,143 @@
     .locals 5
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroid/view/View;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/16 v0, 0x10
 
     .line 2
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barLength:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barLength:I
 
     const/16 v0, 0x1c
 
     .line 3
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     const/4 v0, 0x4
 
     .line 4
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 5
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     const/4 v0, 0x0
 
     .line 6
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->fillRadius:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->fillRadius:Z
 
     const-wide/16 v1, 0x0
 
     .line 7
-    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;->timeStartGrowing:D
+    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->timeStartGrowing:D
 
     const-wide v1, 0x407cc00000000000L    # 460.0
 
     .line 8
-    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;->barSpinCycleTime:D
+    iput-wide v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barSpinCycleTime:D
 
     const/4 v1, 0x0
 
     .line 9
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->barExtraLength:F
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barExtraLength:F
 
     const/4 v2, 0x1
 
     .line 10
-    iput-boolean v2, p0, Lcom/developer/progressx/ProgressWheel;->barGrowingFromFront:Z
+    iput-boolean v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barGrowingFromFront:Z
 
     const-wide/16 v2, 0x0
 
     .line 11
-    iput-wide v2, p0, Lcom/developer/progressx/ProgressWheel;->pausedTimeWithoutGrowing:J
+    iput-wide v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->pausedTimeWithoutGrowing:J
 
     const/high16 v4, -0x56000000
 
     .line 12
-    iput v4, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iput v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     const v4, 0xffffff
 
     .line 13
-    iput v4, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iput v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 14
     new-instance v4, Landroid/graphics/Paint;
 
-    invoke-direct {v4}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v4}, Landroid/graphics/Paint;
+    -><init>()V
 
-    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 15
     new-instance v4, Landroid/graphics/Paint;
 
-    invoke-direct {v4}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v4}, Landroid/graphics/Paint;
+    -><init>()V
 
-    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 16
     new-instance v4, Landroid/graphics/RectF;
 
-    invoke-direct {v4}, Landroid/graphics/RectF;-><init>()V
+    invoke-direct {v4}, Landroid/graphics/RectF;
+    -><init>()V
 
-    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     const/high16 v4, 0x43660000    # 230.0f
 
     .line 17
-    iput v4, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iput v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 18
-    iput-wide v2, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 19
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 20
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 21
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 22
-    sget-object v0, Lcom/developer/progressx/R$styleable;->ProgressWheel:[I
+    sget-object v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel:[I
 
-    invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, v0}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/developer/progressx/ProgressWheel;->parseAttributes(Landroid/content/res/TypedArray;)V
+    invoke-direct {p0, p1}, Lcom/developer/progressx/ProgressWheel;
+    ->parseAttributes(Landroid/content/res/TypedArray;)V
 
     .line 23
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setAnimationEnabled()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->setAnimationEnabled()V
     return-void
 .end method
 
@@ -288,7 +341,8 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -296,7 +350,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 6
     .line 7
@@ -304,7 +359,8 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {v0}, Landroid/content/res/Resources;
+    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 10
     .line 11
@@ -312,7 +368,8 @@
     move-result-object v0
 
     .line 13
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 14
     .line 15
@@ -322,7 +379,8 @@
     const/4 v2, 0x1
 
     .line 17
-    invoke-static {v2, v1, v0}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v2, v1, v0}, Landroid/util/TypedValue;
+    ->applyDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 18
     .line 19
@@ -333,18 +391,21 @@
     float-to-int v1, v1
 
     .line 22
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 23
     .line 24
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 25
     .line 26
     int-to-float v1, v1
 
     .line 27
-    invoke-static {v2, v1, v0}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v2, v1, v0}, Landroid/util/TypedValue;
+    ->applyDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 28
     .line 29
@@ -355,18 +416,21 @@
     float-to-int v1, v1
 
     .line 32
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 33
     .line 34
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 35
     .line 36
     int-to-float v1, v1
 
     .line 37
-    invoke-static {v2, v1, v0}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v2, v1, v0}, Landroid/util/TypedValue;
+    ->applyDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 38
     .line 39
@@ -377,18 +441,21 @@
     float-to-int v0, v0
 
     .line 42
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 43
     .line 44
-    sget v1, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_circleRadius:I
+    sget v1, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_circleRadius:I
 
     .line 45
     .line 46
     int-to-float v0, v0
 
     .line 47
-    invoke-virtual {p1, v1, v0}, Landroid/content/res/TypedArray;->getDimension(IF)F
+    invoke-virtual {p1, v1, v0}, Landroid/content/res/TypedArray;
+    ->getDimension(IF)F
 
     .line 48
     .line 49
@@ -399,18 +466,21 @@
     float-to-int v0, v0
 
     .line 52
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 53
     .line 54
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_fillRadius:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_fillRadius:I
 
     .line 55
     .line 56
     const/4 v1, 0x0
 
     .line 57
-    invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 58
     .line 59
@@ -418,22 +488,26 @@
     move-result v0
 
     .line 61
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->fillRadius:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->fillRadius:Z
 
     .line 62
     .line 63
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_barWidth:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_barWidth:I
 
     .line 64
     .line 65
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 66
     .line 67
     int-to-float v2, v2
 
     .line 68
-    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;->getDimension(IF)F
+    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;
+    ->getDimension(IF)F
 
     .line 69
     .line 70
@@ -444,22 +518,26 @@
     float-to-int v0, v0
 
     .line 73
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 74
     .line 75
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_rimWidth:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_rimWidth:I
 
     .line 76
     .line 77
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 78
     .line 79
     int-to-float v2, v2
 
     .line 80
-    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;->getDimension(IF)F
+    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;
+    ->getDimension(IF)F
 
     .line 81
     .line 82
@@ -470,15 +548,18 @@
     float-to-int v0, v0
 
     .line 85
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 86
     .line 87
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_spinSpeed:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_spinSpeed:I
 
     .line 88
     .line 89
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 90
     .line 91
@@ -489,7 +570,8 @@
     div-float/2addr v2, v3
 
     .line 94
-    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
+    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;
+    ->getFloat(IF)F
 
     .line 95
     .line 96
@@ -501,22 +583,26 @@
 
     .line 99
     .line 100
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 101
     .line 102
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_barSpinCycleTime:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_barSpinCycleTime:I
 
     .line 103
     .line 104
-    iget-wide v2, p0, Lcom/developer/progressx/ProgressWheel;->barSpinCycleTime:D
+    iget-wide v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barSpinCycleTime:D
 
     .line 105
     .line 106
     double-to-int v2, v2
 
     .line 107
-    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;->getInt(II)I
+    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;
+    ->getInt(II)I
 
     .line 108
     .line 109
@@ -527,19 +613,23 @@
     int-to-double v2, v0
 
     .line 112
-    iput-wide v2, p0, Lcom/developer/progressx/ProgressWheel;->barSpinCycleTime:D
+    iput-wide v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barSpinCycleTime:D
 
     .line 113
     .line 114
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_barColor:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_barColor:I
 
     .line 115
     .line 116
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 117
     .line 118
-    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;->getColor(II)I
+    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;
+    ->getColor(II)I
 
     .line 119
     .line 120
@@ -547,19 +637,23 @@
     move-result v0
 
     .line 122
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 123
     .line 124
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_rimColor:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_rimColor:I
 
     .line 125
     .line 126
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 127
     .line 128
-    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;->getColor(II)I
+    invoke-virtual {p1, v0, v2}, Landroid/content/res/TypedArray;
+    ->getColor(II)I
 
     .line 129
     .line 130
@@ -567,15 +661,18 @@
     move-result v0
 
     .line 132
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 133
     .line 134
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_linearProgress:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_linearProgress:I
 
     .line 135
     .line 136
-    invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 137
     .line 138
@@ -583,15 +680,18 @@
     move-result v0
 
     .line 140
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->linearProgress:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->linearProgress:Z
 
     .line 141
     .line 142
-    sget v0, Lcom/developer/progressx/R$styleable;->ProgressWheel_matProg_progressIndeterminate:I
+    sget v0, Lcom/developer/progressx/R$styleable;
+    ->ProgressWheel_matProg_progressIndeterminate:I
 
     .line 143
     .line 144
-    invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 145
     .line 146
@@ -603,13 +703,15 @@
 
     .line 149
     .line 150
-    invoke-virtual {p0}, Lcom/developer/progressx/ProgressWheel;->spin()V
+    invoke-virtual {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->spin()V
 
     .line 151
     .line 152
     .line 153
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;
+    ->recycle()V
 
     .line 154
     .line 155
@@ -621,12 +723,14 @@
     .locals 3
 
     .line 3
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
 
     if-eqz v0, :cond_0
 
     .line 4
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     const/high16 v1, 0x42c80000    # 100.0f
 
@@ -636,7 +740,8 @@
 
     div-float/2addr v0, v2
 
-    invoke-static {v0}, Ljava/lang/Math;->round(F)I
+    invoke-static {v0}, Ljava/lang/Math;
+    ->round(F)I
 
     move-result v0
 
@@ -645,9 +750,11 @@
     div-float/2addr v0, v1
 
     .line 5
-    iget-object v1, p0, Lcom/developer/progressx/ProgressWheel;->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
+    iget-object v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
 
-    invoke-interface {v1, v0}, Lcom/developer/progressx/ProgressWheel$ProgressCallback;->onProgressUpdate(F)V
+    invoke-interface {v1, v0}, Lcom/developer/progressx/ProgressWheel$ProgressCallback;
+    ->onProgressUpdate(F)V
 
     :cond_0
     return-void
@@ -657,12 +764,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
 
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-interface {v0, p1}, Lcom/developer/progressx/ProgressWheel$ProgressCallback;->onProgressUpdate(F)V
+    invoke-interface {v0, p1}, Lcom/developer/progressx/ProgressWheel$ProgressCallback;
+    ->onProgressUpdate(F)V
 
     :cond_0
     return-void
@@ -675,7 +784,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -683,7 +793,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 6
     .line 7
@@ -699,7 +810,8 @@
 
     .line 12
     .line 13
-    invoke-static {v0, v1, v2}, Landroid/provider/Settings$Global;->getFloat(Landroid/content/ContentResolver;Ljava/lang/String;F)F
+    invoke-static {v0, v1, v2}, Landroid/provider/Settings$Global;
+    ->getFloat(Landroid/content/ContentResolver;Ljava/lang/String;F)F
 
     .line 14
     .line 15
@@ -729,7 +841,8 @@
 
     .line 25
     :goto_0
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->shouldAnimate:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->shouldAnimate:Z
 
     .line 26
     .line 27
@@ -740,7 +853,8 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 2
     .line 3
@@ -748,7 +862,8 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 6
     .line 7
@@ -756,7 +871,8 @@
     move-result v1
 
     .line 9
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingLeft()I
 
     .line 10
     .line 11
@@ -764,7 +880,8 @@
     move-result v2
 
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingRight()I
 
     .line 14
     .line 15
@@ -772,7 +889,8 @@
     move-result v3
 
     .line 17
-    iget-boolean v4, p0, Lcom/developer/progressx/ProgressWheel;->fillRadius:Z
+    iget-boolean v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->fillRadius:Z
 
     .line 18
     .line 19
@@ -793,7 +911,8 @@
     sub-int/2addr v3, v0
 
     .line 26
-    invoke-static {p1, v3}, Ljava/lang/Math;->min(II)I
+    invoke-static {p1, v3}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 27
     .line 28
@@ -801,7 +920,8 @@
     move-result v3
 
     .line 30
-    iget v4, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iget v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 31
     .line 32
@@ -809,7 +929,8 @@
 
     .line 33
     .line 34
-    iget v5, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v5, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 35
     .line 36
@@ -820,7 +941,8 @@
     sub-int/2addr v4, v5
 
     .line 39
-    invoke-static {v3, v4}, Ljava/lang/Math;->min(II)I
+    invoke-static {v3, v4}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 40
     .line 41
@@ -858,7 +980,8 @@
 
     .line 54
     .line 55
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 56
     .line 57
@@ -894,12 +1017,14 @@
     int-to-float p2, p2
 
     .line 69
-    invoke-direct {v0, v2, v4, p1, p2}, Landroid/graphics/RectF;-><init>(FFFF)V
+    invoke-direct {v0, v2, v4, p1, p2}, Landroid/graphics/RectF;
+    -><init>(FFFF)V
 
     .line 70
     .line 71
     .line 72
-    iput-object v0, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iput-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     .line 73
     .line 74
@@ -911,7 +1036,8 @@
 
     .line 76
     .line 77
-    iget v5, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v5, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 78
     .line 79
@@ -945,12 +1071,14 @@
     int-to-float p2, p2
 
     .line 89
-    invoke-direct {v4, v2, v0, p1, p2}, Landroid/graphics/RectF;-><init>(FFFF)V
+    invoke-direct {v4, v2, v0, p1, p2}, Landroid/graphics/RectF;
+    -><init>(FFFF)V
 
     .line 90
     .line 91
     .line 92
-    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iput-object v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     .line 93
     .line 94
@@ -961,103 +1089,124 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 9
     .line 10
     const/4 v1, 0x1
 
     .line 11
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setAntiAlias(Z)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 15
     .line 16
-    sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
+    sget-object v2, Landroid/graphics/Paint$Style;
+    ->STROKE:Landroid/graphics/Paint$Style;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {v0, v2}, Landroid/graphics/Paint;
+    ->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 22
     .line 23
-    iget v3, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 24
     .line 25
     int-to-float v3, v3
 
     .line 26
-    invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    invoke-virtual {v0, v3}, Landroid/graphics/Paint;
+    ->setStrokeWidth(F)V
 
     .line 27
     .line 28
     .line 29
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 30
     .line 31
-    iget v3, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iget v3, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 32
     .line 33
-    invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v0, v3}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 34
     .line 35
     .line 36
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 37
     .line 38
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setAntiAlias(Z)V
 
     .line 39
     .line 40
     .line 41
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 42
     .line 43
-    invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {v0, v2}, Landroid/graphics/Paint;
+    ->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 44
     .line 45
     .line 46
-    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 47
     .line 48
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 49
     .line 50
     int-to-float v1, v1
 
     .line 51
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setStrokeWidth(F)V
 
     .line 52
     .line 53
@@ -1069,7 +1218,8 @@
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->pausedTimeWithoutGrowing:J
+    iget-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->pausedTimeWithoutGrowing:J
 
     .line 2
     .line 3
@@ -1085,7 +1235,8 @@
 
     .line 8
     .line 9
-    iget-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->timeStartGrowing:D
+    iget-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->timeStartGrowing:D
 
     .line 10
     .line 11
@@ -1095,11 +1246,13 @@
     add-double/2addr v0, p1
 
     .line 13
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->timeStartGrowing:D
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->timeStartGrowing:D
 
     .line 14
     .line 15
-    iget-wide p1, p0, Lcom/developer/progressx/ProgressWheel;->barSpinCycleTime:D
+    iget-wide p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barSpinCycleTime:D
 
     .line 16
     .line 17
@@ -1114,7 +1267,8 @@
     sub-double/2addr v0, p1
 
     .line 22
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->timeStartGrowing:D
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->timeStartGrowing:D
 
     .line 23
     .line 24
@@ -1122,11 +1276,13 @@
 
     .line 25
     .line 26
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->pausedTimeWithoutGrowing:J
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->pausedTimeWithoutGrowing:J
 
     .line 27
     .line 28
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->barGrowingFromFront:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barGrowingFromFront:Z
 
     .line 29
     .line 30
@@ -1134,12 +1290,14 @@
 
     .line 31
     .line 32
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->barGrowingFromFront:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barGrowingFromFront:Z
 
     .line 33
     .line 34
     :cond_0
-    iget-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->timeStartGrowing:D
+    iget-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->timeStartGrowing:D
 
     .line 35
     .line 36
@@ -1164,7 +1322,8 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->cos(D)D
 
     .line 48
     .line 49
@@ -1196,7 +1355,8 @@
     int-to-float p2, p2
 
     .line 61
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->barGrowingFromFront:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barGrowingFromFront:Z
 
     .line 62
     .line 63
@@ -1208,7 +1368,8 @@
 
     .line 66
     .line 67
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->barExtraLength:F
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barExtraLength:F
 
     .line 68
     .line 69
@@ -1227,11 +1388,13 @@
 
     .line 74
     .line 75
-    iget p1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 76
     .line 77
-    iget p2, p0, Lcom/developer/progressx/ProgressWheel;->barExtraLength:F
+    iget p2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barExtraLength:F
 
     .line 78
     .line 79
@@ -1241,11 +1404,13 @@
     add-float/2addr p2, p1
 
     .line 81
-    iput p2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput p2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 82
     .line 83
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barExtraLength:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barExtraLength:F
 
     .line 84
     .line 85
@@ -1256,7 +1421,8 @@
     add-long/2addr v0, p1
 
     .line 87
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->pausedTimeWithoutGrowing:J
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->pausedTimeWithoutGrowing:J
 
     .line 88
     .line 89
@@ -1269,7 +1435,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 2
     .line 3
@@ -1280,7 +1447,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 2
     .line 3
@@ -1291,7 +1459,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 2
     .line 3
@@ -1302,7 +1471,8 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 2
     .line 3
@@ -1318,7 +1488,8 @@
 
     .line 8
     :cond_0
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 9
     .line 10
@@ -1335,7 +1506,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 2
     .line 3
@@ -1346,7 +1518,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 2
     .line 3
@@ -1357,7 +1530,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 2
     .line 3
@@ -1374,7 +1548,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 2
     .line 3
@@ -1385,19 +1560,22 @@
     .locals 14
 
     .line 1
-    invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/view/View;
+    ->onDraw(Landroid/graphics/Canvas;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v1, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iget-object v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     .line 5
     .line 6
     const/4 v4, 0x0
 
     .line 7
-    iget-object v5, p0, Lcom/developer/progressx/ProgressWheel;->rimPaint:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimPaint:Landroid/graphics/Paint;
 
     .line 8
     .line 9
@@ -1412,7 +1590,8 @@
     move-object v0, p1
 
     .line 14
-    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
+    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;
+    ->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
     .line 15
     .line 16
@@ -1420,7 +1599,8 @@
     move-object v6, v0
 
     .line 18
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->shouldAnimate:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->shouldAnimate:Z
 
     .line 19
     .line 20
@@ -1433,7 +1613,8 @@
     .line 23
     .line 24
     :cond_0
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 25
     .line 26
@@ -1459,7 +1640,8 @@
 
     .line 35
     .line 36
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 37
     .line 38
@@ -1467,7 +1649,8 @@
     move-result-wide v7
 
     .line 40
-    iget-wide v9, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iget-wide v9, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 41
     .line 42
@@ -1477,7 +1660,8 @@
     long-to-float p1, v7
 
     .line 44
-    iget v5, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iget v5, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 45
     .line 46
@@ -1488,19 +1672,22 @@
     div-float/2addr p1, v2
 
     .line 49
-    invoke-direct {p0, v7, v8}, Lcom/developer/progressx/ProgressWheel;->updateBarLength(J)V
+    invoke-direct {p0, v7, v8}, Lcom/developer/progressx/ProgressWheel;
+    ->updateBarLength(J)V
 
     .line 50
     .line 51
     .line 52
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 53
     .line 54
     add-float/2addr v2, p1
 
     .line 55
-    iput v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 56
     .line 57
@@ -1515,7 +1702,8 @@
     sub-float/2addr v2, v4
 
     .line 62
-    iput v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 63
     .line 64
@@ -1523,13 +1711,15 @@
 
     .line 65
     .line 66
-    invoke-direct {p0, p1}, Lcom/developer/progressx/ProgressWheel;->runCallback(F)V
+    invoke-direct {p0, p1}, Lcom/developer/progressx/ProgressWheel;
+    ->runCallback(F)V
 
     .line 67
     .line 68
     .line 69
     :cond_1
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 70
     .line 71
@@ -1537,11 +1727,13 @@
     move-result-wide v4
 
     .line 73
-    iput-wide v4, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v4, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 74
     .line 75
-    iget p1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 76
     .line 77
@@ -1552,14 +1744,16 @@
 
     .line 79
     .line 80
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->barExtraLength:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barExtraLength:F
 
     .line 81
     .line 82
     add-float/2addr v2, v1
 
     .line 83
-    invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isInEditMode()Z
 
     .line 84
     .line 85
@@ -1593,18 +1787,21 @@
 
     .line 97
     :goto_0
-    iget-object v7, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iget-object v7, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     .line 98
     .line 99
     const/4 v10, 0x0
 
     .line 100
-    iget-object v11, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iget-object v11, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 101
     .line 102
-    invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
+    invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;
+    ->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
     .line 103
     .line 104
@@ -1614,11 +1811,13 @@
     .line 106
     .line 107
     :cond_3
-    iget p1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 108
     .line 109
-    iget v5, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iget v5, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 110
     .line 111
@@ -1630,7 +1829,8 @@
 
     .line 114
     .line 115
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 116
     .line 117
@@ -1638,7 +1838,8 @@
     move-result-wide v7
 
     .line 119
-    iget-wide v9, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iget-wide v9, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 120
     .line 121
@@ -1651,7 +1852,8 @@
     div-float/2addr v5, v2
 
     .line 124
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 125
     .line 126
@@ -1659,18 +1861,21 @@
 
     .line 127
     .line 128
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 129
     .line 130
     add-float/2addr v2, v5
 
     .line 131
-    iget v5, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iget v5, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 132
     .line 133
-    invoke-static {v2, v5}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v2, v5}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 134
     .line 135
@@ -1678,11 +1883,13 @@
     move-result v2
 
     .line 137
-    iput v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 138
     .line 139
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 140
     .line 141
@@ -1690,7 +1897,8 @@
     move-result-wide v7
 
     .line 143
-    iput-wide v7, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v7, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 144
     .line 145
@@ -1702,7 +1910,8 @@
 
     .line 147
     :goto_1
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 148
     .line 149
@@ -1714,17 +1923,20 @@
 
     .line 152
     .line 153
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->runCallback()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->runCallback()V
 
     .line 154
     .line 155
     .line 156
     :cond_5
-    iget p1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 157
     .line 158
-    iget-boolean v2, p0, Lcom/developer/progressx/ProgressWheel;->linearProgress:Z
+    iget-boolean v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->linearProgress:Z
 
     .line 159
     .line 160
@@ -1753,7 +1965,8 @@
     float-to-double v9, p1
 
     .line 171
-    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
+    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;
+    ->pow(DD)D
 
     .line 172
     .line 173
@@ -1776,7 +1989,8 @@
 
     .line 181
     .line 182
-    iget v2, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v2, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 183
     .line 184
@@ -1796,7 +2010,8 @@
     float-to-double v11, v0
 
     .line 190
-    invoke-static {v7, v8, v11, v12}, Ljava/lang/Math;->pow(DD)D
+    invoke-static {v7, v8, v11, v12}, Ljava/lang/Math;
+    ->pow(DD)D
 
     .line 191
     .line 192
@@ -1824,7 +2039,8 @@
 
     .line 201
     :cond_6
-    invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isInEditMode()Z
 
     .line 202
     .line 203
@@ -1848,7 +2064,8 @@
 
     .line 211
     :goto_2
-    iget-object v7, p0, Lcom/developer/progressx/ProgressWheel;->circleBounds:Landroid/graphics/RectF;
+    iget-object v7, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleBounds:Landroid/graphics/RectF;
 
     .line 212
     .line 213
@@ -1859,11 +2076,13 @@
     const/4 v10, 0x0
 
     .line 216
-    iget-object v11, p0, Lcom/developer/progressx/ProgressWheel;->barPaint:Landroid/graphics/Paint;
+    iget-object v11, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barPaint:Landroid/graphics/Paint;
 
     .line 217
     .line 218
-    invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
+    invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;
+    ->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
     .line 219
     .line 220
@@ -1873,7 +2092,8 @@
 
     .line 222
     .line 223
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 224
     .line 225
@@ -1887,16 +2107,19 @@
     .locals 6
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View;->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroid/view/View;
+    ->onMeasure(II)V
 
     .line 2
     .line 3
     .line 4
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingLeft()I
 
     .line 7
     .line 8
@@ -1907,7 +2130,8 @@
     add-int/2addr v1, v0
 
     .line 11
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingRight()I
 
     .line 12
     .line 13
@@ -1918,11 +2142,13 @@
     add-int/2addr v0, v1
 
     .line 16
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 19
     .line 20
@@ -1933,7 +2159,8 @@
     add-int/2addr v2, v1
 
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 24
     .line 25
@@ -1944,7 +2171,8 @@
     add-int/2addr v1, v2
 
     .line 28
-    invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
+    invoke-static {p1}, Landroid/view/View$MeasureSpec;
+    ->getMode(I)I
 
     .line 29
     .line 30
@@ -1952,7 +2180,8 @@
     move-result v2
 
     .line 32
-    invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
+    invoke-static {p1}, Landroid/view/View$MeasureSpec;
+    ->getSize(I)I
 
     .line 33
     .line 34
@@ -1960,7 +2189,8 @@
     move-result p1
 
     .line 36
-    invoke-static {p2}, Landroid/view/View$MeasureSpec;->getMode(I)I
+    invoke-static {p2}, Landroid/view/View$MeasureSpec;
+    ->getMode(I)I
 
     .line 37
     .line 38
@@ -1968,7 +2198,8 @@
     move-result v3
 
     .line 40
-    invoke-static {p2}, Landroid/view/View$MeasureSpec;->getSize(I)I
+    invoke-static {p2}, Landroid/view/View$MeasureSpec;
+    ->getSize(I)I
 
     .line 41
     .line 42
@@ -1999,7 +2230,8 @@
 
     .line 53
     .line 54
-    invoke-static {v0, p1}, Ljava/lang/Math;->min(II)I
+    invoke-static {v0, p1}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 55
     .line 56
@@ -2025,7 +2257,8 @@
 
     .line 64
     .line 65
-    invoke-static {v1, p2}, Ljava/lang/Math;->min(II)I
+    invoke-static {v1, p2}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 66
     .line 67
@@ -2043,7 +2276,8 @@
     .line 71
     :cond_4
     :goto_2
-    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;
+    ->setMeasuredDimension(II)V
 
     .line 72
     .line 73
@@ -2063,7 +2297,8 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/view/View;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+    invoke-super {p0, p1}, Landroid/view/View;
+    ->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
     .line 6
     .line 7
@@ -2076,7 +2311,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/AbsSavedState;->getSuperState()Landroid/os/Parcelable;
+    invoke-virtual {p1}, Landroid/view/AbsSavedState;
+    ->getSuperState()Landroid/os/Parcelable;
 
     .line 12
     .line 13
@@ -2084,100 +2320,124 @@
     move-result-object v0
 
     .line 15
-    invoke-super {p0, v0}, Landroid/view/View;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+    invoke-super {p0, v0}, Landroid/view/View;
+    ->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
     .line 16
     .line 17
     .line 18
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->mProgress:F
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->mProgress:F
 
     .line 19
     .line 20
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 21
     .line 22
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->mTargetProgress:F
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->mTargetProgress:F
 
     .line 23
     .line 24
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 25
     .line 26
-    iget-boolean v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->isSpinning:Z
+    iget-boolean v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->isSpinning:Z
 
     .line 27
     .line 28
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 29
     .line 30
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->spinSpeed:F
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->spinSpeed:F
 
     .line 31
     .line 32
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 33
     .line 34
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->barWidth:I
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->barWidth:I
 
     .line 35
     .line 36
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 37
     .line 38
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->barColor:I
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->barColor:I
 
     .line 39
     .line 40
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 41
     .line 42
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->rimWidth:I
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->rimWidth:I
 
     .line 43
     .line 44
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 45
     .line 46
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->rimColor:I
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->rimColor:I
 
     .line 47
     .line 48
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 49
     .line 50
-    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->circleRadius:I
+    iget v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->circleRadius:I
 
     .line 51
     .line 52
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 53
     .line 54
-    iget-boolean v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->linearProgress:Z
+    iget-boolean v0, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->linearProgress:Z
 
     .line 55
     .line 56
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->linearProgress:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->linearProgress:Z
 
     .line 57
     .line 58
-    iget-boolean p1, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->fillRadius:Z
+    iget-boolean p1, p1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->fillRadius:Z
 
     .line 59
     .line 60
-    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->fillRadius:Z
+    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->fillRadius:Z
 
     .line 61
     .line 62
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 63
     .line 64
@@ -2185,7 +2445,8 @@
     move-result-wide v0
 
     .line 66
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 67
     .line 68
@@ -2196,7 +2457,8 @@
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroid/view/View;->onSaveInstanceState()Landroid/os/Parcelable;
+    invoke-super {p0}, Landroid/view/View;
+    ->onSaveInstanceState()Landroid/os/Parcelable;
 
     .line 2
     .line 3
@@ -2208,96 +2470,119 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v0}, Lcom/developer/progressx/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {v1, v0}, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 
     .line 8
     .line 9
     .line 10
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 11
     .line 12
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->mProgress:F
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->mProgress:F
 
     .line 13
     .line 14
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 15
     .line 16
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->mTargetProgress:F
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->mTargetProgress:F
 
     .line 17
     .line 18
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 19
     .line 20
-    iput-boolean v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->isSpinning:Z
+    iput-boolean v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->isSpinning:Z
 
     .line 21
     .line 22
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 23
     .line 24
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->spinSpeed:F
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->spinSpeed:F
 
     .line 25
     .line 26
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 27
     .line 28
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->barWidth:I
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->barWidth:I
 
     .line 29
     .line 30
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 31
     .line 32
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->barColor:I
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->barColor:I
 
     .line 33
     .line 34
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 35
     .line 36
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->rimWidth:I
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->rimWidth:I
 
     .line 37
     .line 38
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 39
     .line 40
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->rimColor:I
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->rimColor:I
 
     .line 41
     .line 42
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 43
     .line 44
-    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->circleRadius:I
+    iput v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->circleRadius:I
 
     .line 45
     .line 46
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->linearProgress:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->linearProgress:Z
 
     .line 47
     .line 48
-    iput-boolean v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->linearProgress:Z
+    iput-boolean v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->linearProgress:Z
 
     .line 49
     .line 50
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->fillRadius:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->fillRadius:Z
 
     .line 51
     .line 52
-    iput-boolean v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->fillRadius:Z
+    iput-boolean v0, v1, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    ->fillRadius:Z
 
     .line 53
     .line 54
@@ -2308,22 +2593,26 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;
+    ->onSizeChanged(IIII)V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1, p2}, Lcom/developer/progressx/ProgressWheel;->setupBounds(II)V
+    invoke-direct {p0, p1, p2}, Lcom/developer/progressx/ProgressWheel;
+    ->setupBounds(II)V
 
     .line 5
     .line 6
     .line 7
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setupPaints()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->setupPaints()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 11
     .line 12
@@ -2335,7 +2624,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View;->onVisibilityChanged(Landroid/view/View;I)V
+    invoke-super {p0, p1, p2}, Landroid/view/View;
+    ->onVisibilityChanged(Landroid/view/View;I)V
 
     .line 2
     .line 3
@@ -2344,7 +2634,8 @@
 
     .line 5
     .line 6
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 7
     .line 8
@@ -2352,7 +2643,8 @@
     move-result-wide p1
 
     .line 10
-    iput-wide p1, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 11
     .line 12
@@ -2367,15 +2659,18 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 3
     .line 4
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 7
     .line 8
@@ -2387,16 +2682,19 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->barColor:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barColor:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setupPaints()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->setupPaints()V
 
     .line 4
     .line 5
     .line 6
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 7
     .line 8
@@ -2404,7 +2702,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 11
     .line 12
@@ -2417,11 +2716,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->barWidth:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->barWidth:I
 
     .line 2
     .line 3
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 4
     .line 5
@@ -2429,7 +2730,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 8
     .line 9
@@ -2442,11 +2744,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/developer/progressx/ProgressWheel;->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
+    iput-object p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->callback:Lcom/developer/progressx/ProgressWheel$ProgressCallback;
 
     .line 2
     .line 3
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 4
     .line 5
@@ -2454,7 +2758,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->runCallback()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->runCallback()V
 
     .line 8
     .line 9
@@ -2467,11 +2772,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->circleRadius:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->circleRadius:I
 
     .line 2
     .line 3
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 4
     .line 5
@@ -2479,7 +2786,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 8
     .line 9
@@ -2492,7 +2800,8 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 2
     .line 3
@@ -2503,14 +2812,16 @@
 
     .line 5
     .line 6
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 7
     .line 8
     const/4 v0, 0x0
 
     .line 9
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 10
     .line 11
@@ -2547,7 +2858,8 @@
     .line 24
     :cond_2
     :goto_0
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 25
     .line 26
@@ -2571,7 +2883,8 @@
 
     .line 34
     .line 35
-    invoke-static {p1, v0}, Ljava/lang/Math;->min(FF)F
+    invoke-static {p1, v0}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 36
     .line 37
@@ -2579,15 +2892,18 @@
     move-result p1
 
     .line 39
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 40
     .line 41
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 42
     .line 43
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 44
     .line 45
@@ -2595,11 +2911,13 @@
     move-result-wide v0
 
     .line 47
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 48
     .line 49
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 50
     .line 51
@@ -2611,11 +2929,13 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->linearProgress:Z
+    iput-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->linearProgress:Z
 
     .line 2
     .line 3
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 4
     .line 5
@@ -2623,7 +2943,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 8
     .line 9
@@ -2636,7 +2957,8 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 2
     .line 3
@@ -2647,18 +2969,21 @@
 
     .line 5
     .line 6
-    iput v1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 7
     .line 8
     const/4 v0, 0x0
 
     .line 9
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 10
     .line 11
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->runCallback()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->runCallback()V
 
     .line 12
     .line 13
@@ -2696,7 +3021,8 @@
     .line 27
     :cond_2
     :goto_0
-    iget v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iget v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 28
     .line 29
@@ -2712,7 +3038,8 @@
 
     .line 34
     :cond_3
-    iget v1, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iget v1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 35
     .line 36
@@ -2724,7 +3051,8 @@
 
     .line 39
     .line 40
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 41
     .line 42
@@ -2732,7 +3060,8 @@
     move-result-wide v0
 
     .line 44
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 45
     .line 46
@@ -2745,7 +3074,8 @@
 
     .line 49
     .line 50
-    invoke-static {p1, v0}, Ljava/lang/Math;->min(FF)F
+    invoke-static {p1, v0}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 51
     .line 52
@@ -2753,11 +3083,13 @@
     move-result p1
 
     .line 54
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 55
     .line 56
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 57
     .line 58
@@ -2769,16 +3101,19 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->rimColor:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimColor:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setupPaints()V
+    invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;
+    ->setupPaints()V
 
     .line 4
     .line 5
     .line 6
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 7
     .line 8
@@ -2786,7 +3121,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 11
     .line 12
@@ -2799,11 +3135,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->rimWidth:I
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->rimWidth:I
 
     .line 2
     .line 3
-    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iget-boolean p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 4
     .line 5
@@ -2811,7 +3149,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 8
     .line 9
@@ -2832,7 +3171,8 @@
 
     .line 4
     .line 5
-    iput p1, p0, Lcom/developer/progressx/ProgressWheel;->spinSpeed:F
+    iput p1, p0, Lcom/developer/progressx/ProgressWheel;
+    ->spinSpeed:F
 
     .line 6
     .line 7
@@ -2843,7 +3183,8 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 2
     .line 3
@@ -2851,18 +3192,21 @@
     move-result-wide v0
 
     .line 5
-    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;->lastTimeAnimated:J
+    iput-wide v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->lastTimeAnimated:J
 
     .line 6
     .line 7
     const/4 v0, 0x1
 
     .line 8
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 11
     .line 12
@@ -2877,22 +3221,26 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;->isSpinning:Z
+    iput-boolean v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning:Z
 
     .line 3
     .line 4
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mProgress:F
 
     .line 6
     .line 7
-    iput v0, p0, Lcom/developer/progressx/ProgressWheel;->mTargetProgress:F
+    iput v0, p0, Lcom/developer/progressx/ProgressWheel;
+    ->mTargetProgress:F
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 10
     .line 11

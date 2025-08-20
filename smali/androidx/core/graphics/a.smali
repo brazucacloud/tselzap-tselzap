@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/Color;->isWideGamut(J)Z
+    invoke-static {p0, p1}, Landroid/graphics/Color;
+    ->isWideGamut(J)Z
 
     move-result p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->isShowingHintText()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isShowingHintText()Z
 
     move-result p0
 
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/Color;->green(J)F
+    invoke-static {p0, p1}, Landroid/graphics/Color;
+    ->green(J)F
 
     move-result p0
 
@@ -41,7 +44,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Ljava/time/Instant;->MAX:Ljava/time/Instant;
+    sget-object v0, Ljava/time/Instant;
+    ->MAX:Ljava/time/Instant;
 
     return-object v0
 .end method
@@ -50,7 +54,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/Color;->luminance(J)F
+    invoke-static {p0, p1}, Landroid/graphics/Color;
+    ->luminance(J)F
 
     move-result p0
 
@@ -63,7 +68,8 @@
     .line 1
     const/4 v0, 0x3
 
-    invoke-virtual {p0, v0}, Landroid/graphics/Color;->getComponent(I)F
+    invoke-virtual {p0, v0}, Landroid/graphics/Color;
+    ->getComponent(I)F
 
     move-result p0
 
@@ -74,7 +80,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Color;->toArgb()I
+    invoke-virtual {p0}, Landroid/graphics/Color;
+    ->toArgb()I
 
     move-result p0
 
@@ -85,7 +92,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/time/Duration;->hashCode()I
+    invoke-virtual {p0}, Ljava/time/Duration;
+    ->hashCode()I
 
     move-result p0
 
@@ -96,7 +104,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/time/Instant;->hashCode()I
+    invoke-virtual {p0}, Ljava/time/Instant;
+    ->hashCode()I
 
     move-result p0
 
@@ -107,7 +116,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/Color;->convert(ILandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1}, Landroid/graphics/Color;
+    ->convert(ILandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -118,7 +128,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;->valueOf(I)Landroid/graphics/Color;
+    invoke-static {p0}, Landroid/graphics/Color;
+    ->valueOf(I)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -129,7 +140,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/Color;->valueOf(J)Landroid/graphics/Color;
+    invoke-static {p0, p1}, Landroid/graphics/Color;
+    ->valueOf(J)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -140,7 +152,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/Color;->colorSpace(J)Landroid/graphics/ColorSpace;
+    invoke-static {p0, p1}, Landroid/graphics/Color;
+    ->colorSpace(J)Landroid/graphics/ColorSpace;
 
     move-result-object p0
 
@@ -151,7 +164,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/ColorSpace;->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p0}, Landroid/graphics/ColorSpace;
+    ->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p0
 
@@ -162,7 +176,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/drawable/Icon;->createWithAdaptiveBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, Landroid/graphics/drawable/Icon;
+    ->createWithAdaptiveBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 
@@ -173,7 +188,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/util/Half;->valueOf(F)Landroid/util/Half;
+    invoke-static {p0}, Landroid/util/Half;
+    ->valueOf(F)Landroid/util/Half;
 
     move-result-object p0
 
@@ -184,7 +200,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/util/Half;->valueOf(Ljava/lang/String;)Landroid/util/Half;
+    invoke-static {p0}, Landroid/util/Half;
+    ->valueOf(Ljava/lang/String;)Landroid/util/Half;
 
     move-result-object p0
 
@@ -195,7 +212,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/util/Half;->valueOf(S)Landroid/util/Half;
+    invoke-static {p0}, Landroid/util/Half;
+    ->valueOf(S)Landroid/util/Half;
 
     move-result-object p0
 
@@ -206,7 +224,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_MOVE_WINDOW:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    ->ACTION_MOVE_WINDOW:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -215,7 +234,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getHintText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getHintText()Ljava/lang/CharSequence;
 
     move-result-object p0
 
@@ -226,7 +246,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/TextPaint;->getFontVariationSettings()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/text/TextPaint;
+    ->getFontVariationSettings()Ljava/lang/String;
 
     move-result-object p0
 
@@ -237,7 +258,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Ljava/lang/ThreadLocal;->withInitial(Ljava/util/function/Supplier;)Ljava/lang/ThreadLocal;
+    invoke-static {p0}, Ljava/lang/ThreadLocal;
+    ->withInitial(Ljava/util/function/Supplier;)Ljava/lang/ThreadLocal;
 
     move-result-object p0
 
@@ -248,7 +270,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Ljava/time/Instant;->MIN:Ljava/time/Instant;
+    sget-object v0, Ljava/time/Instant;
+    ->MIN:Ljava/time/Instant;
 
     return-object v0
 .end method
@@ -257,7 +280,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getAvailableExtraData()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getAvailableExtraData()Ljava/util/List;
 
     move-result-object p0
 
@@ -268,7 +292,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/animation/AnimatorSet;->setCurrentPlayTime(J)V
+    invoke-virtual {p0, p1, p2}, Landroid/animation/AnimatorSet;
+    ->setCurrentPlayTime(J)V
 return-void
 .end method
 
@@ -276,7 +301,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setDescription(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
+    ->setDescription(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -284,7 +310,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setHintText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setHintText(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -292,7 +319,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setAvailableExtraData(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setAvailableExtraData(Ljava/util/List;)V
 return-void
 .end method
 
@@ -300,7 +328,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setShowingHintText(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setShowingHintText(Z)V
 return-void
 .end method
 
@@ -310,7 +339,8 @@ return-void
     .line 1
     const/4 v0, 0x4
 
-    invoke-virtual {p0, p1, p2, v0}, Landroid/app/Activity;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-virtual {p0, p1, p2, v0}, Landroid/app/Activity;
+    ->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     return-void
 .end method

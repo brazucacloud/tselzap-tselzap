@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lx0/l;->b:Lx0/p;
+    iput-object p1, p0, Lx0/l;
+    ->b:Lx0/p;
 
     .line 5
     .line 6
@@ -30,11 +32,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lx0/l;->b:Lx0/p;
+    iget-object p1, p0, Lx0/l;
+    ->b:Lx0/p;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lx0/p;->b()Lx0/q;
+    invoke-virtual {p1}, Lx0/p;
+    ->b()Lx0/q;
 
     .line 4
     .line 5
@@ -42,7 +46,8 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1}, Lx0/q;->a()V
+    invoke-virtual {p1}, Lx0/q;
+    ->a()V
 
     .line 8
     .line 9
@@ -54,11 +59,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lx0/l;->b:Lx0/p;
+    iget-object p1, p0, Lx0/l;
+    ->b:Lx0/p;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lx0/p;->b()Lx0/q;
+    invoke-virtual {p1}, Lx0/p;
+    ->b()Lx0/q;
 
     .line 4
     .line 5
@@ -66,7 +73,8 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1}, Lx0/q;->b()V
+    invoke-virtual {p1}, Lx0/q;
+    ->b()V
 
     .line 8
     .line 9

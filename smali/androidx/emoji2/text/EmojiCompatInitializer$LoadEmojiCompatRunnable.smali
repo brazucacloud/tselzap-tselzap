@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,12 +42,14 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/os/TraceCompat;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/core/os/TraceCompat;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->isConfigured()Z
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
+    ->isConfigured()Z
 
     .line 7
     .line 8
@@ -58,7 +61,8 @@
 
     .line 11
     .line 12
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
+    ->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 13
     .line 14
@@ -66,7 +70,8 @@
     move-result-object v0
 
     .line 16
-    invoke-virtual {v0}, Landroidx/emoji2/text/EmojiCompat;->load()V
+    invoke-virtual {v0}, Landroidx/emoji2/text/EmojiCompat;
+    ->load()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -85,7 +90,8 @@
     .line 22
     :cond_0
     :goto_0
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
 
     .line 23
     .line 24
@@ -94,7 +100,8 @@
 
     .line 26
     :goto_1
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
 
     .line 27
     .line 28

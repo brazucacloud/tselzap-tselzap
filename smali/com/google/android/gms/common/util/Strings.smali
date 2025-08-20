@@ -18,11 +18,13 @@
 
     const-string v0, "\\$\\{(.*?)\\}"
 
-    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v0}, Ljava/util/regex/Pattern;
+    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/common/util/Strings;->zza:Ljava/util/regex/Pattern;
+    sput-object v0, Lcom/google/android/gms/common/util/Strings;
+    ->zza:Ljava/util/regex/Pattern;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +50,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 2
     .line 3
@@ -80,7 +84,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->trim()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -88,7 +93,8 @@
     move-result-object p0
 
     .line 7
-    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->isEmpty()Z
 
     .line 8
     .line 9

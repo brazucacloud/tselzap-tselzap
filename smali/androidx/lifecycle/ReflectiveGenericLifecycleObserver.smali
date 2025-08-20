@@ -22,20 +22,24 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->mWrapped:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;
+    ->mWrapped:Ljava/lang/Object;
 
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/ClassesInfoCache;->sInstance:Landroidx/lifecycle/ClassesInfoCache;
+    sget-object v0, Landroidx/lifecycle/ClassesInfoCache;
+    ->sInstance:Landroidx/lifecycle/ClassesInfoCache;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -43,7 +47,8 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/ClassesInfoCache;->getInfo(Ljava/lang/Class;)Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/ClassesInfoCache;
+    ->getInfo(Ljava/lang/Class;)Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;
 
     .line 13
     .line 14
@@ -51,7 +56,9 @@
     move-result-object p1
 
     .line 16
-    iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->mInfo:Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;    return-void
+    iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;
+    ->mInfo:Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;    
+    return-void
 .end method
 
 
@@ -68,15 +75,18 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->mInfo:Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;
+    iget-object v0, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;
+    ->mInfo:Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->mWrapped:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;
+    ->mWrapped:Ljava/lang/Object;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;->invokeCallbacks(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/lifecycle/ClassesInfoCache$CallbackInfo;
+    ->invokeCallbacks(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V
 return-void
 .end method
 

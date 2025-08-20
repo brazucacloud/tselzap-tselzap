@@ -59,16 +59,19 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/text/MetadataRepo;->mTypeface:Landroid/graphics/Typeface;
+    iput-object p1, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mTypeface:Landroid/graphics/Typeface;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/emoji2/text/MetadataRepo;->mMetadataList:Landroidx/emoji2/text/flatbuffer/MetadataList;
+    iput-object p2, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mMetadataList:Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     .line 7
     .line 8
@@ -80,16 +83,19 @@
 
     .line 11
     .line 12
-    invoke-direct {p1, v0}, Landroidx/emoji2/text/MetadataRepo$Node;-><init>(I)V
+    invoke-direct {p1, v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/emoji2/text/MetadataRepo;->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object p1, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Landroidx/emoji2/text/flatbuffer/MetadataList;->listLength()I
+    invoke-virtual {p2}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->listLength()I
 
     .line 18
     .line 19
@@ -105,11 +111,13 @@
 
     .line 24
     .line 25
-    iput-object p1, p0, Landroidx/emoji2/text/MetadataRepo;->mEmojiCharArray:[C
+    iput-object p1, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mEmojiCharArray:[C
 
     .line 26
     .line 27
-    invoke-direct {p0, p2}, Landroidx/emoji2/text/MetadataRepo;->constructIndex(Landroidx/emoji2/text/flatbuffer/MetadataList;)V
+    invoke-direct {p0, p2}, Landroidx/emoji2/text/MetadataRepo;
+    ->constructIndex(Landroidx/emoji2/text/flatbuffer/MetadataList;)V
 
     .line 28
     .line 29
@@ -121,7 +129,8 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Landroidx/emoji2/text/flatbuffer/MetadataList;->listLength()I
+    invoke-virtual {p1}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->listLength()I
 
     .line 2
     .line 3
@@ -141,12 +150,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v1, p0, v0}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;-><init>(Landroidx/emoji2/text/MetadataRepo;I)V
+    invoke-direct {v1, p0, v0}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    -><init>(Landroidx/emoji2/text/MetadataRepo;I)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v1}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->getId()I
+    invoke-virtual {v1}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    ->getId()I
 
     .line 14
     .line 15
@@ -154,7 +165,8 @@
     move-result v2
 
     .line 17
-    iget-object v3, p0, Landroidx/emoji2/text/MetadataRepo;->mEmojiCharArray:[C
+    iget-object v3, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mEmojiCharArray:[C
 
     .line 18
     .line 19
@@ -162,12 +174,14 @@
 
     .line 20
     .line 21
-    invoke-static {v2, v3, v4}, Ljava/lang/Character;->toChars(I[CI)I
+    invoke-static {v2, v3, v4}, Ljava/lang/Character;
+    ->toChars(I[CI)I
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0, v1}, Landroidx/emoji2/text/MetadataRepo;->put(Landroidx/emoji2/text/TypefaceEmojiRasterizer;)V
+    invoke-virtual {p0, v1}, Landroidx/emoji2/text/MetadataRepo;
+    ->put(Landroidx/emoji2/text/TypefaceEmojiRasterizer;)V
 
     .line 25
     .line 26
@@ -200,10 +214,12 @@
     :try_start_0
     const-string v0, "EmojiCompat.MetadataRepo.create"
 
-    invoke-static {v0}, Landroidx/core/os/TraceCompat;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/core/os/TraceCompat;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 14
-    invoke-static {p0, p1}, Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;
+    invoke-static {p0, p1}, Landroid/graphics/Typeface;
+    ->createFromAsset(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;
 
     move-result-object v0
 
@@ -211,22 +227,26 @@
     new-instance v1, Landroidx/emoji2/text/MetadataRepo;
 
     .line 16
-    invoke-static {p0, p1}, Landroidx/emoji2/text/MetadataListReader;->read(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroidx/emoji2/text/flatbuffer/MetadataList;
+    invoke-static {p0, p1}, Landroidx/emoji2/text/MetadataListReader;
+    ->read(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     move-result-object p0
 
-    invoke-direct {v1, v0, p0}, Landroidx/emoji2/text/MetadataRepo;-><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
+    invoke-direct {v1, v0, p0}, Landroidx/emoji2/text/MetadataRepo;
+    -><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
     return-object v1
 
     :catchall_0
     move-exception p0
 
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
 
     .line 18
     throw p0
@@ -243,7 +263,8 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->TESTS:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->TESTS:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -251,27 +272,32 @@
     :try_start_0
     const-string v0, "EmojiCompat.MetadataRepo.create"
 
-    invoke-static {v0}, Landroidx/core/os/TraceCompat;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/core/os/TraceCompat;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/emoji2/text/MetadataRepo;
 
     new-instance v1, Landroidx/emoji2/text/flatbuffer/MetadataList;
 
-    invoke-direct {v1}, Landroidx/emoji2/text/flatbuffer/MetadataList;-><init>()V
+    invoke-direct {v1}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    -><init>()V
 
-    invoke-direct {v0, p0, v1}, Landroidx/emoji2/text/MetadataRepo;-><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
+    invoke-direct {v0, p0, v1}, Landroidx/emoji2/text/MetadataRepo;
+    -><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 3
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
     return-object v0
 
     :catchall_0
     move-exception p0
 
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
 
     .line 4
     throw p0
@@ -294,27 +320,32 @@
     :try_start_0
     const-string v0, "EmojiCompat.MetadataRepo.create"
 
-    invoke-static {v0}, Landroidx/core/os/TraceCompat;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/core/os/TraceCompat;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 6
     new-instance v0, Landroidx/emoji2/text/MetadataRepo;
 
-    invoke-static {p1}, Landroidx/emoji2/text/MetadataListReader;->read(Ljava/io/InputStream;)Landroidx/emoji2/text/flatbuffer/MetadataList;
+    invoke-static {p1}, Landroidx/emoji2/text/MetadataListReader;
+    ->read(Ljava/io/InputStream;)Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     move-result-object p1
 
-    invoke-direct {v0, p0, p1}, Landroidx/emoji2/text/MetadataRepo;-><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
+    invoke-direct {v0, p0, p1}, Landroidx/emoji2/text/MetadataRepo;
+    -><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 7
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
     return-object v0
 
     :catchall_0
     move-exception p0
 
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
 
     .line 8
     throw p0
@@ -337,27 +368,32 @@
     :try_start_0
     const-string v0, "EmojiCompat.MetadataRepo.create"
 
-    invoke-static {v0}, Landroidx/core/os/TraceCompat;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/core/os/TraceCompat;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 10
     new-instance v0, Landroidx/emoji2/text/MetadataRepo;
 
-    invoke-static {p1}, Landroidx/emoji2/text/MetadataListReader;->read(Ljava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataList;
+    invoke-static {p1}, Landroidx/emoji2/text/MetadataListReader;
+    ->read(Ljava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     move-result-object p1
 
-    invoke-direct {v0, p0, p1}, Landroidx/emoji2/text/MetadataRepo;-><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
+    invoke-direct {v0, p0, p1}, Landroidx/emoji2/text/MetadataRepo;
+    -><init>(Landroid/graphics/Typeface;Landroidx/emoji2/text/flatbuffer/MetadataList;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 11
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
     return-object v0
 
     :catchall_0
     move-exception p0
 
-    invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
+    invoke-static {}, Landroidx/core/os/TraceCompat;
+    ->endSection()V
 
     .line 12
     throw p0
@@ -372,12 +408,14 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;->mEmojiCharArray:[C
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mEmojiCharArray:[C
 
     .line 2
     .line 3
@@ -391,12 +429,14 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;->mMetadataList:Landroidx/emoji2/text/flatbuffer/MetadataList;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mMetadataList:Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     .line 2
     .line 3
@@ -407,16 +447,19 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;->mMetadataList:Landroidx/emoji2/text/flatbuffer/MetadataList;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mMetadataList:Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;->version()I
+    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->version()I
 
     .line 4
     .line 5
@@ -433,12 +476,14 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 2
     .line 3
@@ -452,12 +497,14 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;->mTypeface:Landroid/graphics/Typeface;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mTypeface:Landroid/graphics/Typeface;
 
     .line 2
     .line 3
@@ -472,7 +519,8 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -484,12 +532,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->getCodepointsLength()I
+    invoke-virtual {p1}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    ->getCodepointsLength()I
 
     .line 7
     .line 8
@@ -522,16 +572,19 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v3}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v3}, Landroidx/core/util/Preconditions;
+    ->checkArgument(ZLjava/lang/Object;)V
 
     .line 20
     .line 21
     .line 22
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo;
+    ->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->getCodepointsLength()I
+    invoke-virtual {p1}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    ->getCodepointsLength()I
 
     .line 25
     .line 26
@@ -542,7 +595,8 @@
     sub-int/2addr v3, v2
 
     .line 29
-    invoke-virtual {v0, p1, v1, v3}, Landroidx/emoji2/text/MetadataRepo$Node;->put(Landroidx/emoji2/text/TypefaceEmojiRasterizer;II)V
+    invoke-virtual {v0, p1, v1, v3}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->put(Landroidx/emoji2/text/TypefaceEmojiRasterizer;II)V
 
     .line 30
     .line 31

@@ -24,9 +24,11 @@
 
     new-instance v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
 
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    -><init>()V
 
-    sput-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    sput-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
 
     return-void
 .end method
@@ -35,7 +37,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    -><init>()V
     return-void
 .end method
 
@@ -55,7 +58,8 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

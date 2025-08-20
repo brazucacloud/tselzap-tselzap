@@ -16,7 +16,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p3}, Lcom/google/android/gms/common/api/internal/zap;-><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;Lcom/google/android/gms/common/GoogleApiAvailability;)V
+    invoke-direct {p0, p1, p3}, Lcom/google/android/gms/common/api/internal/zap;
+    -><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;Lcom/google/android/gms/common/GoogleApiAvailability;)V
 
     .line 2
     .line 3
@@ -25,20 +26,24 @@
 
     .line 5
     .line 6
-    invoke-direct {p1}, Landroidx/collection/ArraySet;-><init>()V
+    invoke-direct {p1}, Landroidx/collection/ArraySet;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaae;->zad:Landroidx/collection/ArraySet;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zad:Landroidx/collection/ArraySet;
 
     .line 10
     .line 11
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaae;->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 12
     .line 13
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->mLifecycleFragment:Lcom/google/android/gms/common/api/internal/LifecycleFragment;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->mLifecycleFragment:Lcom/google/android/gms/common/api/internal/LifecycleFragment;
 
     .line 14
     .line 15
@@ -46,7 +51,8 @@
 
     .line 16
     .line 17
-    invoke-interface {p1, p2, p0}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;->addCallback(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
+    invoke-interface {p1, p2, p0}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;
+    ->addCallback(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
 
     .line 18
     .line 19
@@ -60,7 +66,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->getFragment(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/LifecycleFragment;
+    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->getFragment(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/LifecycleFragment;
 
     .line 2
     .line 3
@@ -76,7 +83,8 @@
 
     .line 8
     .line 9
-    invoke-interface {p0, v0, v1}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;->getCallbackOrNull(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    invoke-interface {p0, v0, v1}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;
+    ->getCallbackOrNull(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     .line 10
     .line 11
@@ -96,7 +104,8 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/google/android/gms/common/GoogleApiAvailability;->getInstance()Lcom/google/android/gms/common/GoogleApiAvailability;
+    invoke-static {}, Lcom/google/android/gms/common/GoogleApiAvailability;
+    ->getInstance()Lcom/google/android/gms/common/GoogleApiAvailability;
 
     .line 20
     .line 21
@@ -104,7 +113,8 @@
     move-result-object v1
 
     .line 23
-    invoke-direct {v0, p0, p1, v1}, Lcom/google/android/gms/common/api/internal/zaae;-><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;Lcom/google/android/gms/common/api/internal/GoogleApiManager;Lcom/google/android/gms/common/GoogleApiAvailability;)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/google/android/gms/common/api/internal/zaae;
+    -><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;Lcom/google/android/gms/common/api/internal/GoogleApiManager;Lcom/google/android/gms/common/GoogleApiAvailability;)V
 
     .line 24
     .line 25
@@ -114,21 +124,25 @@
 
     .line 27
     .line 28
-    invoke-static {p2, p0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, p0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 29
     .line 30
     .line 31
-    iget-object p0, v0, Lcom/google/android/gms/common/api/internal/zaae;->zad:Landroidx/collection/ArraySet;
+    iget-object p0, v0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zad:Landroidx/collection/ArraySet;
 
     .line 32
     .line 33
-    invoke-virtual {p0, p2}, Landroidx/collection/ArraySet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p2}, Landroidx/collection/ArraySet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaA(Lcom/google/android/gms/common/api/internal/zaae;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zaA(Lcom/google/android/gms/common/api/internal/zaae;)V
 
     .line 37
     .line 38
@@ -140,11 +154,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;->zad:Landroidx/collection/ArraySet;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zad:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/ArraySet;->isEmpty()Z
+    invoke-virtual {v0}, Landroidx/collection/ArraySet;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -156,11 +172,13 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaA(Lcom/google/android/gms/common/api/internal/zaae;)V
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zaA(Lcom/google/android/gms/common/api/internal/zaae;)V
 
     .line 12
     .line 13
@@ -175,12 +193,14 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->onResume()V
+    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->onResume()V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zaae;->zae()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae()V
 
     .line 5
     .line 6
@@ -192,12 +212,14 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/zap;->onStart()V
+    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->onStart()V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zaae;->zae()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae()V
 
     .line 5
     .line 6
@@ -209,16 +231,19 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/zap;->onStop()V
+    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->onStop()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaB(Lcom/google/android/gms/common/api/internal/zaae;)V
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zaB(Lcom/google/android/gms/common/api/internal/zaae;)V
 
     .line 7
     .line 8
@@ -229,7 +254,8 @@
 .method public final zaa()Landroidx/collection/ArraySet;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;->zad:Landroidx/collection/ArraySet;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zad:Landroidx/collection/ArraySet;
 
     return-object v0
 .end method
@@ -238,11 +264,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zax(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zax(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 4
     .line 5
@@ -254,11 +282,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaae;
+    ->zae:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zay()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    ->zay()V
 
     .line 4
     .line 5

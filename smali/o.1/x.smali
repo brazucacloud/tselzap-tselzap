@@ -18,11 +18,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lo/x;->b:I
+    iput p2, p0, Lo/x;
+    ->b:I
 
-    iput-object p1, p0, Lo/x;->c:Landroid/content/res/Resources;
+    iput-object p1, p0, Lo/x;
+    ->c:Landroid/content/res/Resources;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -46,11 +49,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lo/x;->c:Landroid/content/res/Resources;
+    iget-object v0, p0, Lo/x;
+    ->c:Landroid/content/res/Resources;
 
     .line 8
     .line 9
-    invoke-direct {p2, v0, p1}, Lr/c;-><init>(Landroid/content/res/Resources;Lk/C;)V
+    invoke-direct {p2, v0, p1}, Lr/c;
+    -><init>(Landroid/content/res/Resources;Lk/C;)V
 
     .line 10
     .line 11
@@ -62,7 +67,8 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lo/x;->b:I
+    iget v0, p0, Lo/x;
+    ->b:I
 
     .line 2
     .line 3
@@ -75,15 +81,18 @@
 
     .line 7
     .line 8
-    sget-object v0, Lo/A;->b:Lo/A;
+    sget-object v0, Lo/A;
+    ->b:Lo/A;
 
     .line 9
     .line 10
-    iget-object v1, p0, Lo/x;->c:Landroid/content/res/Resources;
+    iget-object v1, p0, Lo/x;
+    ->c:Landroid/content/res/Resources;
 
     .line 11
     .line 12
-    invoke-direct {p1, v1, v0}, Lo/a;-><init>(Landroid/content/res/Resources;Lo/o;)V
+    invoke-direct {p1, v1, v0}, Lo/a;
+    -><init>(Landroid/content/res/Resources;Lo/o;)V
 
     .line 13
     .line 14
@@ -104,7 +113,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v1, v2}, Lo/w;->c(Ljava/lang/Class;Ljava/lang/Class;)Lo/o;
+    invoke-virtual {p1, v1, v2}, Lo/w;
+    ->c(Ljava/lang/Class;Ljava/lang/Class;)Lo/o;
 
     .line 23
     .line 24
@@ -112,11 +122,13 @@
     move-result-object p1
 
     .line 26
-    iget-object v1, p0, Lo/x;->c:Landroid/content/res/Resources;
+    iget-object v1, p0, Lo/x;
+    ->c:Landroid/content/res/Resources;
 
     .line 27
     .line 28
-    invoke-direct {v0, v1, p1}, Lo/a;-><init>(Landroid/content/res/Resources;Lo/o;)V
+    invoke-direct {v0, v1, p1}, Lo/a;
+    -><init>(Landroid/content/res/Resources;Lo/o;)V
 
     .line 29
     .line 30
@@ -137,7 +149,8 @@
 
     .line 37
     .line 38
-    invoke-virtual {p1, v1, v2}, Lo/w;->c(Ljava/lang/Class;Ljava/lang/Class;)Lo/o;
+    invoke-virtual {p1, v1, v2}, Lo/w;
+    ->c(Ljava/lang/Class;Ljava/lang/Class;)Lo/o;
 
     .line 39
     .line 40
@@ -145,11 +158,13 @@
     move-result-object p1
 
     .line 42
-    iget-object v1, p0, Lo/x;->c:Landroid/content/res/Resources;
+    iget-object v1, p0, Lo/x;
+    ->c:Landroid/content/res/Resources;
 
     .line 43
     .line 44
-    invoke-direct {v0, v1, p1}, Lo/a;-><init>(Landroid/content/res/Resources;Lo/o;)V
+    invoke-direct {v0, v1, p1}, Lo/a;
+    -><init>(Landroid/content/res/Resources;Lo/o;)V
 
     .line 45
     .line 46
@@ -170,7 +185,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {p1, v1, v2}, Lo/w;->c(Ljava/lang/Class;Ljava/lang/Class;)Lo/o;
+    invoke-virtual {p1, v1, v2}, Lo/w;
+    ->c(Ljava/lang/Class;Ljava/lang/Class;)Lo/o;
 
     .line 55
     .line 56
@@ -178,11 +194,13 @@
     move-result-object p1
 
     .line 58
-    iget-object v1, p0, Lo/x;->c:Landroid/content/res/Resources;
+    iget-object v1, p0, Lo/x;
+    ->c:Landroid/content/res/Resources;
 
     .line 59
     .line 60
-    invoke-direct {v0, v1, p1}, Lo/a;-><init>(Landroid/content/res/Resources;Lo/o;)V
+    invoke-direct {v0, v1, p1}, Lo/a;
+    -><init>(Landroid/content/res/Resources;Lo/o;)V
 
     .line 61
     .line 62

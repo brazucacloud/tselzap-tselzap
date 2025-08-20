@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewTimeCycle;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewTimeCycle;
+    -><init>()V
     return-void
 .end method
 
@@ -44,7 +45,8 @@
     move-wide v2, p4
 
     .line 6
-    invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/motion/utils/ViewTimeCycle;->get(FJLandroid/view/View;Landroidx/constraintlayout/core/motion/utils/KeyCache;)F
+    invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/motion/utils/ViewTimeCycle;
+    ->get(FJLandroid/view/View;Landroidx/constraintlayout/core/motion/utils/KeyCache;)F
 
     .line 7
     .line 8
@@ -52,7 +54,8 @@
     move-result p1
 
     .line 10
-    invoke-static {p8, p9, p6, p7}, Ljava/lang/Math;->atan2(DD)D
+    invoke-static {p8, p9, p6, p7}, Ljava/lang/Math;
+    ->atan2(DD)D
 
     .line 11
     .line 12
@@ -60,7 +63,8 @@
     move-result-wide p2
 
     .line 14
-    invoke-static {p2, p3}, Ljava/lang/Math;->toDegrees(D)D
+    invoke-static {p2, p3}, Ljava/lang/Math;
+    ->toDegrees(D)D
 
     .line 15
     .line 16
@@ -74,19 +78,22 @@
     add-float/2addr p1, p2
 
     .line 20
-    invoke-virtual {v4, p1}, Landroid/view/View;->setRotation(F)V
+    invoke-virtual {v4, p1}, Landroid/view/View;
+    ->setRotation(F)V
 
     .line 21
     .line 22
     .line 23
-    iget-boolean p1, v0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return p1
+    iget-boolean p1, v0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;
+    ->mContinue:Z    return p1
 .end method
 
 .method public setProperty(Landroid/view/View;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
     .locals 0
 
     .line 1
-    iget-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return p1
+    iget-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;
+    ->mContinue:Z    return p1
 .end method
 
 .end class

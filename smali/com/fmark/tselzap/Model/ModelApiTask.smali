@@ -14,7 +14,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -28,7 +29,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Model/ModelApiTask;->data:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/fmark/tselzap/Model/ModelApiTask;
+    ->data:Lorg/json/JSONObject;
 
     .line 2
     .line 3
@@ -39,7 +41,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lcom/fmark/tselzap/Model/ModelApiTask;->isTaskCompleted:Z
+    iget-boolean v0, p0, Lcom/fmark/tselzap/Model/ModelApiTask;
+    ->isTaskCompleted:Z
 
     .line 2
     .line 3
@@ -50,7 +53,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Model/ModelApiTask;->data:Lorg/json/JSONObject;
+    iput-object p1, p0, Lcom/fmark/tselzap/Model/ModelApiTask;
+    ->data:Lorg/json/JSONObject;
 
     .line 2
     .line 3
@@ -61,7 +65,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/fmark/tselzap/Model/ModelApiTask;->isTaskCompleted:Z
+    iput-boolean p1, p0, Lcom/fmark/tselzap/Model/ModelApiTask;
+    ->isTaskCompleted:Z
 
     .line 2
     .line 3

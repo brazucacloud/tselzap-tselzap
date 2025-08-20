@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, LG/a;->a:Lcom/fmark/tselzap/MyApplication;
+    iput-object p1, p0, LG/a;
+    ->a:Lcom/fmark/tselzap/MyApplication;
 
     return-void
 .end method
@@ -28,9 +30,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LG/a;->a:Lcom/fmark/tselzap/MyApplication;
+    iget-object v0, p0, LG/a;
+    ->a:Lcom/fmark/tselzap/MyApplication;
 
-    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/MyApplication;->a(Lcom/fmark/tselzap/MyApplication;Ljava/lang/Thread;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/MyApplication;
+    ->a(Lcom/fmark/tselzap/MyApplication;Ljava/lang/Thread;Ljava/lang/Throwable;)V
 return-void
 .end method
 

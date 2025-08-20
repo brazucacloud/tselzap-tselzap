@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;->getAppSetIdAsync()LD0/c;
+    value = Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
+    ->getAppSetIdAsync()LD0/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -54,14 +55,16 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->this$0:Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->this$0:Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;
+    -><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -86,11 +89,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->this$0:Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->this$0:Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
 
     .line 4
     .line 5
-    invoke-direct {p1, v0, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;-><init>(Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;Lg1/d;)V
+    invoke-direct {p1, v0, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    -><init>(Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;Lg1/d;)V
 return-object p1
 .end method
 
@@ -102,7 +107,8 @@ return-object p1
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -124,15 +130,18 @@ return-object p1
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
 
-    sget-object p2, Lc1/v;->a:Lc1/v;
+    sget-object p2, Lc1/v;
+    ->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -143,11 +152,13 @@ return-object p1
     .locals 3
 
     .line 1
-    sget-object v0, Lh1/a;->b:Lh1/a;
+    sget-object v0, Lh1/a;
+    ->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->label:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->label:I
 
     .line 4
     .line 5
@@ -162,7 +173,8 @@ return-object p1
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 return-object p1
 
     .line 14
@@ -175,7 +187,8 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -184,16 +197,19 @@ return-object p1
 
     .line 22
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->this$0:Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
+    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->this$0:Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
 
     .line 26
     .line 27
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;->access$getMAppSetIdManager$p(Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;)Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;
+    ->access$getMAppSetIdManager$p(Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl;)Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
 
     .line 28
     .line 29
@@ -201,11 +217,13 @@ return-object p1
     move-result-object p1
 
     .line 31
-    iput v2, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;->label:I
+    iput v2, p0, Landroidx/privacysandbox/ads/adservices/java/appsetid/AppSetIdManagerFutures$Api33Ext4JavaImpl$getAppSetIdAsync$1;
+    ->label:I
 
     .line 32
     .line 33
-    invoke-virtual {p1, p0}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;->getAppSetId(Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p1, p0}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
+    ->getAppSetId(Lg1/d;)Ljava/lang/Object;
 
     .line 34
     .line 35

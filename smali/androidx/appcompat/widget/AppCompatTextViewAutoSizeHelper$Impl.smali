@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -35,7 +36,8 @@
     .locals 2
 
     .line 1
-    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;
+    ->FALSE:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -43,7 +45,8 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v1, v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->invokeAndReturnWithDefault(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v1, v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->invokeAndReturnWithDefault(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -55,7 +58,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p1}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 12
     .line 13

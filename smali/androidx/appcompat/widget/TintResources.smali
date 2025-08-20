@@ -28,7 +28,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ResourcesWrapper;-><init>(Landroid/content/res/Resources;)V
+    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    -><init>(Landroid/content/res/Resources;)V
 
     .line 2
     .line 3
@@ -37,12 +38,15 @@
 
     .line 5
     .line 6
-    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/appcompat/widget/TintResources;->mContextRef:Ljava/lang/ref/WeakReference;    return-void
+    iput-object p2, p0, Landroidx/appcompat/widget/TintResources;
+    ->mContextRef:Ljava/lang/ref/WeakReference;    
+    return-void
 .end method
 
 
@@ -51,7 +55,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getDrawableCanonical(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDrawableCanonical(I)Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -59,11 +64,13 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Landroidx/appcompat/widget/TintResources;->mContextRef:Ljava/lang/ref/WeakReference;
+    iget-object v1, p0, Landroidx/appcompat/widget/TintResources;
+    ->mContextRef:Ljava/lang/ref/WeakReference;
 
     .line 6
     .line 7
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -83,7 +90,8 @@
 
     .line 16
     .line 17
-    invoke-static {}, Landroidx/appcompat/widget/ResourceManagerInternal;->get()Landroidx/appcompat/widget/ResourceManagerInternal;
+    invoke-static {}, Landroidx/appcompat/widget/ResourceManagerInternal;
+    ->get()Landroidx/appcompat/widget/ResourceManagerInternal;
 
     .line 18
     .line 19
@@ -91,7 +99,8 @@
     move-result-object v2
 
     .line 21
-    invoke-virtual {v2, v1, p1, v0}, Landroidx/appcompat/widget/ResourceManagerInternal;->tintDrawableUsingColorFilter(Landroid/content/Context;ILandroid/graphics/drawable/Drawable;)Z
+    invoke-virtual {v2, v1, p1, v0}, Landroidx/appcompat/widget/ResourceManagerInternal;
+    ->tintDrawableUsingColorFilter(Landroid/content/Context;ILandroid/graphics/drawable/Drawable;)Z
 
     .line 22
     .line 23

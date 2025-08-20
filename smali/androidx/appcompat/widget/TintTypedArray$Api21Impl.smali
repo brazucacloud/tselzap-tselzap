@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->getChangingConfigurations()I
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;
+    ->getChangingConfigurations()I
 
     .line 2
     .line 3
@@ -49,7 +51,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getType(I)I
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getType(I)I
 
     .line 2
     .line 3

@@ -16,12 +16,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LA0/a;->b:LA0/a;
+    sput-object v0, LA0/a;
+    ->b:LA0/a;
 
     .line 7
     .line 8
@@ -42,7 +44,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

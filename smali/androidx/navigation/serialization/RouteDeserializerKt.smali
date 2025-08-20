@@ -8,7 +8,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -29,22 +30,27 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/navigation/serialization/RouteDecoder;
 
-    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/RouteDecoder;-><init>(Landroid/os/Bundle;Ljava/util/Map;)V
+    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/RouteDecoder;
+    -><init>(Landroid/os/Bundle;Ljava/util/Map;)V
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/serialization/RouteDecoder;->decodeRouteWithArgs$navigation_common_release(LJ1/a;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/navigation/serialization/RouteDecoder;
+    ->decodeRouteWithArgs$navigation_common_release(LJ1/a;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -55,7 +61,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -76,22 +83,27 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "handle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/navigation/serialization/RouteDecoder;
 
-    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/RouteDecoder;-><init>(Landroidx/lifecycle/SavedStateHandle;Ljava/util/Map;)V
+    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/RouteDecoder;
+    -><init>(Landroidx/lifecycle/SavedStateHandle;Ljava/util/Map;)V
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/serialization/RouteDecoder;->decodeRouteWithArgs$navigation_common_release(LJ1/a;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/navigation/serialization/RouteDecoder;
+    ->decodeRouteWithArgs$navigation_common_release(LJ1/a;)Ljava/lang/Object;
 
     move-result-object p0
 

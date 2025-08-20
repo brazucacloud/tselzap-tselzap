@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->getMslAltitudeAccuracyMeters()F
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getMslAltitudeAccuracyMeters()F
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->getMslAltitudeMeters()D
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getMslAltitudeMeters()D
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->hasMslAltitude()Z
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->hasMslAltitude()Z
 
     .line 2
     .line 3
@@ -85,7 +89,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->hasMslAltitudeAccuracy()Z
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->hasMslAltitudeAccuracy()Z
 
     .line 2
     .line 3
@@ -101,7 +106,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->removeMslAltitude()V
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->removeMslAltitude()V
 
     .line 2
     .line 3
@@ -115,7 +121,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->removeMslAltitudeAccuracy()V
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->removeMslAltitudeAccuracy()V
 
     .line 2
     .line 3
@@ -129,7 +136,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/Location;->setMslAltitudeAccuracyMeters(F)V
+    invoke-virtual {p0, p1}, Landroid/location/Location;
+    ->setMslAltitudeAccuracyMeters(F)V
 
     .line 2
     .line 3
@@ -143,7 +151,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/location/Location;->setMslAltitudeMeters(D)V
+    invoke-virtual {p0, p1, p2}, Landroid/location/Location;
+    ->setMslAltitudeMeters(D)V
 
     .line 2
     .line 3

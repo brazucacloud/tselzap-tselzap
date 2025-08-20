@@ -44,16 +44,20 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Landroidx/navigation/ui/AppBarConfiguration;->topLevelDestinations:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->topLevelDestinations:Ljava/util/Set;
 
     .line 4
-    iput-object p2, p0, Landroidx/navigation/ui/AppBarConfiguration;->openableLayout:Landroidx/customview/widget/Openable;
+    iput-object p2, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->openableLayout:Landroidx/customview/widget/Openable;
 
     .line 5
-    iput-object p3, p0, Landroidx/navigation/ui/AppBarConfiguration;->fallbackOnNavigateUpListener:Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;
+    iput-object p3, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->fallbackOnNavigateUpListener:Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;
 
     return-void
 .end method
@@ -62,7 +66,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/ui/AppBarConfiguration;-><init>(Ljava/util/Set;Landroidx/customview/widget/Openable;Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/ui/AppBarConfiguration;
+    -><init>(Ljava/util/Set;Landroidx/customview/widget/Openable;Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)V
 return-void
 .end method
 
@@ -72,7 +77,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->openableLayout:Landroidx/customview/widget/Openable;
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->openableLayout:Landroidx/customview/widget/Openable;
 
     .line 2
     .line 3
@@ -97,14 +103,16 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->fallbackOnNavigateUpListener:Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->fallbackOnNavigateUpListener:Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;    return-object v0
 .end method
 
 .method public final getOpenableLayout()Landroidx/customview/widget/Openable;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->openableLayout:Landroidx/customview/widget/Openable;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->openableLayout:Landroidx/customview/widget/Openable;    return-object v0
 .end method
 
 .method public final getTopLevelDestinations()Ljava/util/Set;
@@ -119,7 +127,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;->topLevelDestinations:Ljava/util/Set;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->topLevelDestinations:Ljava/util/Set;    return-object v0
 .end method
 
 .method public final isTopLevelDestination(Landroidx/navigation/NavDestination;)Z
@@ -130,16 +139,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/navigation/NavDestination;->Companion:Landroidx/navigation/NavDestination$Companion;
+    sget-object v0, Landroidx/navigation/NavDestination;
+    ->Companion:Landroidx/navigation/NavDestination$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavDestination$Companion;->getHierarchy(Landroidx/navigation/NavDestination;)Lw1/h;
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavDestination$Companion;
+    ->getHierarchy(Landroidx/navigation/NavDestination;)Lw1/h;
 
     .line 9
     .line 10
@@ -147,7 +159,8 @@ return-void
     move-result-object v0
 
     .line 12
-    invoke-interface {v0}, Lw1/h;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lw1/h;
+    ->iterator()Ljava/util/Iterator;
 
     .line 13
     .line 14
@@ -156,7 +169,8 @@ return-void
 
     .line 16
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 17
     .line 18
@@ -168,7 +182,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -180,11 +195,13 @@ return-void
 
     .line 27
     .line 28
-    iget-object v2, p0, Landroidx/navigation/ui/AppBarConfiguration;->topLevelDestinations:Ljava/util/Set;
+    iget-object v2, p0, Landroidx/navigation/ui/AppBarConfiguration;
+    ->topLevelDestinations:Ljava/util/Set;
 
     .line 29
     .line 30
-    invoke-virtual {v1}, Landroidx/navigation/NavDestination;->getId()I
+    invoke-virtual {v1}, Landroidx/navigation/NavDestination;
+    ->getId()I
 
     .line 31
     .line 32
@@ -192,7 +209,8 @@ return-void
     move-result v3
 
     .line 34
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 35
     .line 36
@@ -200,7 +218,8 @@ return-void
     move-result-object v3
 
     .line 38
-    invoke-interface {v2, v3}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v2, v3}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -223,7 +242,8 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getId()I
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
+    ->getId()I
 
     .line 50
     .line 51
@@ -231,7 +251,8 @@ return-void
     move-result v2
 
     .line 53
-    sget-object v4, Landroidx/navigation/NavGraph;->Companion:Landroidx/navigation/NavGraph$Companion;
+    sget-object v4, Landroidx/navigation/NavGraph;
+    ->Companion:Landroidx/navigation/NavGraph$Companion;
 
     .line 54
     .line 55
@@ -239,7 +260,8 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {v4, v1}, Landroidx/navigation/NavGraph$Companion;->findStartDestination(Landroidx/navigation/NavGraph;)Landroidx/navigation/NavDestination;
+    invoke-virtual {v4, v1}, Landroidx/navigation/NavGraph$Companion;
+    ->findStartDestination(Landroidx/navigation/NavGraph;)Landroidx/navigation/NavDestination;
 
     .line 58
     .line 59
@@ -247,7 +269,8 @@ return-void
     move-result-object v1
 
     .line 61
-    invoke-virtual {v1}, Landroidx/navigation/NavDestination;->getId()I
+    invoke-virtual {v1}, Landroidx/navigation/NavDestination;
+    ->getId()I
 
     .line 62
     .line 63

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/Activity/Sender;->dialog2()V
+    value = Lcom/fmark/tselzap/Activity/Sender;
+    ->dialog2()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,15 +34,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$11;->this$0:Lcom/fmark/tselzap/Activity/Sender;
+    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$11;
+    ->this$0:Lcom/fmark/tselzap/Activity/Sender;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$11;->val$dialog:Landroid/app/AlertDialog;
+    iput-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$11;
+    ->val$dialog:Landroid/app/AlertDialog;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 6
     .line 7
@@ -55,11 +59,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$11;->val$dialog:Landroid/app/AlertDialog;
+    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$11;
+    ->val$dialog:Landroid/app/AlertDialog;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
+    invoke-virtual {p1}, Landroid/app/Dialog;
+    ->dismiss()V
 
     .line 4
     .line 5

@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$2;->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$2;
+    ->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
+    -><init>()V
     return-void
 .end method
 
@@ -37,11 +39,13 @@
     .locals 0
 
     .line 1
-    iget-object p2, p0, Landroidx/recyclerview/widget/FastScroller$2;->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object p2, p0, Landroidx/recyclerview/widget/FastScroller$2;
+    ->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->computeHorizontalScrollOffset()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->computeHorizontalScrollOffset()I
 
     .line 4
     .line 5
@@ -49,7 +53,8 @@
     move-result p3
 
     .line 7
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->computeVerticalScrollOffset()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->computeVerticalScrollOffset()I
 
     .line 8
     .line 9
@@ -57,7 +62,8 @@
     move-result p1
 
     .line 11
-    invoke-virtual {p2, p3, p1}, Landroidx/recyclerview/widget/FastScroller;->updateScrollPosition(II)V
+    invoke-virtual {p2, p3, p1}, Landroidx/recyclerview/widget/FastScroller;
+    ->updateScrollPosition(II)V
     return-void
 .end method
 

@@ -57,10 +57,12 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;->entry:Ljava/util/Map$Entry;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;
+    ->entry:Ljava/util/Map$Entry;
 
     return-void
 .end method
@@ -69,7 +71,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;-><init>(Ljava/util/Map$Entry;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;
+    -><init>(Ljava/util/Map$Entry;)V
 return-void
 .end method
 
@@ -79,11 +82,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;->entry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;
+    ->entry:Ljava/util/Map$Entry;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -103,11 +108,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;->entry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;
+    ->entry:Ljava/util/Map$Entry;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -121,11 +128,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;->entry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;
+    ->entry:Ljava/util/Map$Entry;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -147,7 +156,8 @@ return-void
 
     .line 13
     :cond_0
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 14
     .line 15
@@ -169,11 +179,13 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;->entry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;
+    ->entry:Ljava/util/Map$Entry;
 
     .line 6
     .line 7
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -189,7 +201,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->setValue(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;
+    ->setValue(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 16
     .line 17
@@ -208,7 +221,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26

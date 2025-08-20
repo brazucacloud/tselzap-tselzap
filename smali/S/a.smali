@@ -23,17 +23,23 @@
     .locals 0
 
     .line 1
-    iput p5, p0, LS/a;->b:I
+    iput p5, p0, LS/a;
+    ->b:I
 
-    iput-object p1, p0, LS/a;->c:Ljava/lang/Object;
+    iput-object p1, p0, LS/a;
+    ->c:Ljava/lang/Object;
 
-    iput-object p2, p0, LS/a;->d:Ljava/lang/Object;
+    iput-object p2, p0, LS/a;
+    ->d:Ljava/lang/Object;
 
-    iput-object p3, p0, LS/a;->e:Ljava/lang/Object;
+    iput-object p3, p0, LS/a;
+    ->e:Ljava/lang/Object;
 
-    iput-object p4, p0, LS/a;->f:Ljava/lang/Object;
+    iput-object p4, p0, LS/a;
+    ->f:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -43,7 +49,8 @@
     .locals 8
 
     .line 1
-    iget v0, p0, LS/a;->b:I
+    iget v0, p0, LS/a;
+    ->b:I
 
     .line 2
     .line 3
@@ -52,7 +59,8 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, LS/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, LS/a;
+    ->c:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -60,7 +68,8 @@
 
     .line 9
     .line 10
-    iget-object v1, p0, LS/a;->d:Ljava/lang/Object;
+    iget-object v1, p0, LS/a;
+    ->d:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -68,7 +77,8 @@
 
     .line 13
     .line 14
-    iget-object v2, p0, LS/a;->e:Ljava/lang/Object;
+    iget-object v2, p0, LS/a;
+    ->e:Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -76,7 +86,8 @@
 
     .line 17
     .line 18
-    iget-object v3, p0, LS/a;->f:Ljava/lang/Object;
+    iget-object v3, p0, LS/a;
+    ->f:Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -84,7 +95,8 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v1, v2, v3}, Lcom/google/firebase/crashlytics/internal/metadata/UserMetadata;->c(Lcom/google/firebase/crashlytics/internal/metadata/UserMetadata;Ljava/lang/String;Ljava/util/Map;Ljava/util/List;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/google/firebase/crashlytics/internal/metadata/UserMetadata;
+    ->c(Lcom/google/firebase/crashlytics/internal/metadata/UserMetadata;Ljava/lang/String;Ljava/util/Map;Ljava/util/List;)V
 
     .line 23
     .line 24
@@ -93,7 +105,8 @@
 
     .line 26
     :pswitch_0
-    iget-object v0, p0, LS/a;->d:Ljava/lang/Object;
+    iget-object v0, p0, LS/a;
+    ->d:Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -101,11 +114,13 @@
 
     .line 29
     .line 30
-    iget-object v1, v0, LN/k;->a:Ljava/lang/String;
+    iget-object v1, v0, LN/k;
+    ->a:Ljava/lang/String;
 
     .line 31
     .line 32
-    iget-object v2, p0, LS/a;->e:Ljava/lang/Object;
+    iget-object v2, p0, LS/a;
+    ->e:Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -113,7 +128,8 @@
 
     .line 35
     .line 36
-    iget-object v3, p0, LS/a;->f:Ljava/lang/Object;
+    iget-object v3, p0, LS/a;
+    ->f:Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -121,7 +137,8 @@
 
     .line 39
     .line 40
-    iget-object v4, p0, LS/a;->c:Ljava/lang/Object;
+    iget-object v4, p0, LS/a;
+    ->c:Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -129,12 +146,14 @@
 
     .line 43
     .line 44
-    invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v4}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 45
     .line 46
     .line 47
-    sget-object v5, LS/c;->f:Ljava/util/logging/Logger;
+    sget-object v5, LS/c;
+    ->f:Ljava/util/logging/Logger;
 
     .line 48
     .line 49
@@ -143,11 +162,13 @@
     .line 50
     .line 51
     :try_start_0
-    iget-object v7, v4, LS/c;->c:LO/f;
+    iget-object v7, v4, LS/c;
+    ->c:LO/f;
 
     .line 52
     .line 53
-    invoke-virtual {v7, v1}, LO/f;->a(Ljava/lang/String;)LO/g;
+    invoke-virtual {v7, v1}, LO/f;
+    ->a(Ljava/lang/String;)LO/g;
 
     .line 54
     .line 55
@@ -163,12 +184,14 @@
 
     .line 60
     .line 61
-    invoke-direct {v0, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v6}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
@@ -177,12 +200,14 @@
 
     .line 68
     .line 69
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -190,7 +215,8 @@
     move-result-object v0
 
     .line 76
-    invoke-virtual {v5, v0}, Ljava/util/logging/Logger;->warning(Ljava/lang/String;)V
+    invoke-virtual {v5, v0}, Ljava/util/logging/Logger;
+    ->warning(Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -199,12 +225,14 @@
 
     .line 80
     .line 81
-    invoke-direct {v1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 82
     .line 83
     .line 84
-    invoke-interface {v2, v1}, LK/g;->a(Ljava/lang/Exception;)V
+    invoke-interface {v2, v1}, LK/g;
+    ->a(Ljava/lang/Exception;)V
 
     .line 85
     .line 86
@@ -224,7 +252,8 @@
 
     .line 91
     .line 92
-    invoke-virtual {v7, v3}, LL/d;->a(LN/j;)LN/j;
+    invoke-virtual {v7, v3}, LL/d;
+    ->a(LN/j;)LN/j;
 
     .line 93
     .line 94
@@ -232,7 +261,8 @@
     move-result-object v1
 
     .line 96
-    iget-object v3, v4, LS/c;->e:LV/c;
+    iget-object v3, v4, LS/c;
+    ->e:LV/c;
 
     .line 97
     .line 98
@@ -243,7 +273,8 @@
     const/4 v7, 0x0
 
     .line 101
-    invoke-direct {v6, v4, v0, v1, v7}, LS/b;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
+    invoke-direct {v6, v4, v0, v1, v7}, LS/b;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
     .line 102
     .line 103
@@ -252,7 +283,8 @@
 
     .line 105
     .line 106
-    invoke-virtual {v3, v6}, LU/h;->r(LV/b;)Ljava/lang/Object;
+    invoke-virtual {v3, v6}, LU/h;
+    ->r(LV/b;)Ljava/lang/Object;
 
     .line 107
     .line 108
@@ -260,7 +292,8 @@
     const/4 v0, 0x0
 
     .line 110
-    invoke-interface {v2, v0}, LK/g;->a(Ljava/lang/Exception;)V
+    invoke-interface {v2, v0}, LK/g;
+    ->a(Ljava/lang/Exception;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -279,12 +312,14 @@
 
     .line 117
     .line 118
-    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 122
     .line 123
@@ -292,12 +327,14 @@
     move-result-object v3
 
     .line 125
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 126
     .line 127
     .line 128
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 129
     .line 130
@@ -305,12 +342,14 @@
     move-result-object v1
 
     .line 132
-    invoke-virtual {v5, v1}, Ljava/util/logging/Logger;->warning(Ljava/lang/String;)V
+    invoke-virtual {v5, v1}, Ljava/util/logging/Logger;
+    ->warning(Ljava/lang/String;)V
 
     .line 133
     .line 134
     .line 135
-    invoke-interface {v2, v0}, LK/g;->a(Ljava/lang/Exception;)V
+    invoke-interface {v2, v0}, LK/g;
+    ->a(Ljava/lang/Exception;)V
 
     .line 136
     .line 137

@@ -55,7 +55,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -64,21 +65,25 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->callbackInterface:Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+    iput-object p2, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->callbackInterface:Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
 
     .line 17
     .line 18
@@ -86,12 +91,14 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->lock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 24
     .line 25
@@ -99,12 +106,14 @@
 
     .line 26
     .line 27
-    invoke-direct {p1}, Ljava/util/WeakHashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/WeakHashMap;
+    -><init>()V
 
     .line 28
     .line 29
     .line 30
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->mActivityWindowLayoutInfo:Ljava/util/WeakHashMap;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->mActivityWindowLayoutInfo:Ljava/util/WeakHashMap;
 
     .line 31
     .line 32
@@ -121,30 +130,36 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->lock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 9
     .line 10
     .line 11
     :try_start_0
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 12
     .line 13
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->lastDeviceState:Landroidx/window/sidecar/SidecarDeviceState;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->lastDeviceState:Landroidx/window/sidecar/SidecarDeviceState;
 
     .line 14
     .line 15
-    invoke-virtual {v1, v2, p1}, Landroidx/window/layout/SidecarAdapter;->isEqualSidecarDeviceState(Landroidx/window/sidecar/SidecarDeviceState;Landroidx/window/sidecar/SidecarDeviceState;)Z
+    invoke-virtual {v1, v2, p1}, Landroidx/window/layout/SidecarAdapter;
+    ->isEqualSidecarDeviceState(Landroidx/window/sidecar/SidecarDeviceState;Landroidx/window/sidecar/SidecarDeviceState;)Z
 
     .line 16
     .line 17
@@ -158,7 +173,8 @@
 
     .line 20
     .line 21
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 22
     .line 23
@@ -168,22 +184,26 @@
     .line 25
     :cond_0
     :try_start_1
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->lastDeviceState:Landroidx/window/sidecar/SidecarDeviceState;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->lastDeviceState:Landroidx/window/sidecar/SidecarDeviceState;
 
     .line 26
     .line 27
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->callbackInterface:Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->callbackInterface:Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
 
     .line 28
     .line 29
-    invoke-interface {v1, p1}, Landroidx/window/sidecar/SidecarInterface$SidecarCallback;->onDeviceStateChanged(Landroidx/window/sidecar/SidecarDeviceState;)V
+    invoke-interface {v1, p1}, Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+    ->onDeviceStateChanged(Landroidx/window/sidecar/SidecarDeviceState;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 30
     .line 31
     .line 32
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 33
     .line 34
@@ -195,7 +215,8 @@
     move-exception p1
 
     .line 37
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 38
     .line 39
@@ -255,7 +276,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -264,12 +286,14 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->lock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 12
     .line 13
@@ -277,11 +301,13 @@
 
     .line 14
     :try_start_0
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->mActivityWindowLayoutInfo:Ljava/util/WeakHashMap;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->mActivityWindowLayoutInfo:Ljava/util/WeakHashMap;
 
     .line 15
     .line 16
-    invoke-virtual {v1, p1}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/util/WeakHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -293,11 +319,13 @@
 
     .line 21
     .line 22
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 23
     .line 24
-    invoke-virtual {v2, v1, p2}, Landroidx/window/layout/SidecarAdapter;->isEqualSidecarWindowLayoutInfo(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarWindowLayoutInfo;)Z
+    invoke-virtual {v2, v1, p2}, Landroidx/window/layout/SidecarAdapter;
+    ->isEqualSidecarWindowLayoutInfo(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarWindowLayoutInfo;)Z
 
     .line 25
     .line 26
@@ -318,11 +346,13 @@
     .line 32
     :cond_0
     :try_start_1
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->mActivityWindowLayoutInfo:Ljava/util/WeakHashMap;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->mActivityWindowLayoutInfo:Ljava/util/WeakHashMap;
 
     .line 33
     .line 34
-    invoke-virtual {v1, p1, p2}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, p2}, Ljava/util/WeakHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -339,11 +369,13 @@
     monitor-exit v0
 
     .line 41
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;->callbackInterface:Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    ->callbackInterface:Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
 
     .line 42
     .line 43
-    invoke-interface {v0, p1, p2}, Landroidx/window/sidecar/SidecarInterface$SidecarCallback;->onWindowLayoutChanged(Landroid/os/IBinder;Landroidx/window/sidecar/SidecarWindowLayoutInfo;)V
+    invoke-interface {v0, p1, p2}, Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+    ->onWindowLayoutChanged(Landroid/os/IBinder;Landroidx/window/sidecar/SidecarWindowLayoutInfo;)V
 
     .line 44
     .line 45

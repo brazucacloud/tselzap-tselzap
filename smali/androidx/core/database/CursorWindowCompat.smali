@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -34,7 +35,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -46,7 +48,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/database/CursorWindowCompat$Api28Impl;->createCursorWindow(Ljava/lang/String;J)Landroid/database/CursorWindow;
+    invoke-static {p0, p1, p2}, Landroidx/core/database/CursorWindowCompat$Api28Impl;
+    ->createCursorWindow(Ljava/lang/String;J)Landroid/database/CursorWindow;
 
     .line 8
     .line 9
@@ -61,7 +64,8 @@
 
     .line 13
     .line 14
-    invoke-direct {p1, p0}, Landroid/database/CursorWindow;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Landroid/database/CursorWindow;
+    -><init>(Ljava/lang/String;)V
 
     .line 15
     .line 16

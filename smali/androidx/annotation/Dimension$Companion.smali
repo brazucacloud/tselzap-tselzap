@@ -30,9 +30,11 @@
 
     new-instance v0, Landroidx/annotation/Dimension$Companion;
 
-    invoke-direct {v0}, Landroidx/annotation/Dimension$Companion;-><init>()V
+    invoke-direct {v0}, Landroidx/annotation/Dimension$Companion;
+    -><init>()V
 
-    sput-object v0, Landroidx/annotation/Dimension$Companion;->$$INSTANCE:Landroidx/annotation/Dimension$Companion;
+    sput-object v0, Landroidx/annotation/Dimension$Companion;
+    ->$$INSTANCE:Landroidx/annotation/Dimension$Companion;
 
     return-void
 .end method
@@ -41,7 +43,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

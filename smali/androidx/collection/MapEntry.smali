@@ -51,16 +51,20 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/collection/MapEntry;->key:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/collection/MapEntry;
+    ->key:Ljava/lang/Object;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/collection/MapEntry;->value:Ljava/lang/Object;    return-void
+    iput-object p2, p0, Landroidx/collection/MapEntry;
+    ->value:Ljava/lang/Object;    
+    return-void
 .end method
 
 
@@ -74,7 +78,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MapEntry;->key:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/collection/MapEntry;
+    ->key:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -86,7 +91,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MapEntry;->value:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/collection/MapEntry;
+    ->value:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;
@@ -101,7 +107,8 @@
 
     const-string v0, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method

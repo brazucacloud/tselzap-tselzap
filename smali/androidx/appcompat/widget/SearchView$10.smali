@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/SearchView$10;->this$0:Landroidx/appcompat/widget/SearchView;
+    iput-object p1, p0, Landroidx/appcompat/widget/SearchView$10;
+    ->this$0:Landroidx/appcompat/widget/SearchView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -52,11 +54,14 @@
     .locals 0
 
     .line 1
-    iget-object p2, p0, Landroidx/appcompat/widget/SearchView$10;->this$0:Landroidx/appcompat/widget/SearchView;
+    iget-object p2, p0, Landroidx/appcompat/widget/SearchView$10;
+    ->this$0:Landroidx/appcompat/widget/SearchView;
 
     .line 2
     .line 3
-    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/SearchView;->onTextChanged(Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/SearchView;
+    ->onTextChanged(Ljava/lang/CharSequence;)V    
+    return-void
 .end method
 
 .end class

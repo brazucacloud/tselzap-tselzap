@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/recyclerview/widget/ItemTouchHelper;->addChildDrawingOrderCallback()V
+    value = Landroidx/recyclerview/widget/ItemTouchHelper;
+    ->addChildDrawingOrderCallback()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$5;->this$0:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iput-object p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$5;
+    ->this$0:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +43,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$5;->this$0:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$5;
+    ->this$0:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/recyclerview/widget/ItemTouchHelper;->mOverdrawChild:Landroid/view/View;
+    iget-object v1, v0, Landroidx/recyclerview/widget/ItemTouchHelper;
+    ->mOverdrawChild:Landroid/view/View;
 
     .line 4
     .line 5
@@ -56,7 +61,8 @@
 
     .line 8
     :cond_0
-    iget v2, v0, Landroidx/recyclerview/widget/ItemTouchHelper;->mOverdrawChildPosition:I
+    iget v2, v0, Landroidx/recyclerview/widget/ItemTouchHelper;
+    ->mOverdrawChildPosition:I
 
     .line 9
     .line 10
@@ -67,11 +73,13 @@
 
     .line 12
     .line 13
-    iget-object v0, v0, Landroidx/recyclerview/widget/ItemTouchHelper;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, v0, Landroidx/recyclerview/widget/ItemTouchHelper;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->indexOfChild(Landroid/view/View;)I
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;
+    ->indexOfChild(Landroid/view/View;)I
 
     .line 16
     .line 17
@@ -79,11 +87,13 @@
     move-result v2
 
     .line 19
-    iget-object v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$5;->this$0:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$5;
+    ->this$0:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 20
     .line 21
-    iput v2, v0, Landroidx/recyclerview/widget/ItemTouchHelper;->mOverdrawChildPosition:I
+    iput v2, v0, Landroidx/recyclerview/widget/ItemTouchHelper;
+    ->mOverdrawChildPosition:I
 
     .line 22
     .line 23

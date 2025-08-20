@@ -74,12 +74,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    sput-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
 
     .line 8
     .line 9
@@ -87,12 +89,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sput-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 15
     .line 16
@@ -105,12 +109,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 5
     .line 6
@@ -118,12 +124,14 @@
 
     .line 7
     .line 8
-    invoke-direct {p1, p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;-><init>(Landroidx/window/embedding/ExtensionEmbeddingBackend;)V
+    invoke-direct {p1, p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
+    -><init>(Landroidx/window/embedding/ExtensionEmbeddingBackend;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
+    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
 
     .line 12
     .line 13
@@ -131,16 +139,19 @@
 
     .line 14
     .line 15
-    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
     .line 16
     .line 17
     .line 18
-    iput-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 19
     .line 20
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 21
     .line 22
@@ -152,7 +163,8 @@
 
     .line 25
     :cond_0
-    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat;->setEmbeddingCallback(Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;)V
+    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    ->setEmbeddingCallback(Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;)V
 
     .line 26
     .line 27
@@ -162,12 +174,14 @@
 
     .line 29
     .line 30
-    invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    -><init>()V
 
     .line 31
     .line 32
     .line 33
-    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 34
     .line 35
@@ -178,7 +192,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->globalInstance:Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->globalInstance:Landroidx/window/embedding/ExtensionEmbeddingBackend;
 
     .line 2
     .line 3
@@ -189,7 +204,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 2
     .line 3
@@ -200,7 +216,8 @@
     .locals 0
 
     .line 1
-    sput-object p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->globalInstance:Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    sput-object p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->globalInstance:Landroidx/window/embedding/ExtensionEmbeddingBackend;
 
     .line 2
     .line 3
@@ -221,7 +238,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 2
     .line 3
@@ -240,7 +258,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
@@ -259,7 +278,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 2
     .line 3
@@ -270,7 +290,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 2
     .line 3
@@ -297,16 +318,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -318,16 +342,19 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 20
     .line 21
@@ -339,11 +366,13 @@
 
     .line 24
     :cond_0
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 25
     .line 26
-    invoke-interface {p1, v0}, Landroidx/window/embedding/EmbeddingInterfaceCompat;->setSplitRules(Ljava/util/Set;)V
+    invoke-interface {p1, v0}, Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    ->setSplitRules(Ljava/util/Set;)V
 
     .line 27
     .line 28
@@ -372,7 +401,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -381,7 +411,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -390,22 +421,26 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 19
     .line 20
     .line 21
     :try_start_0
-    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->getEmbeddingExtension()Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->getEmbeddingExtension()Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 22
     .line 23
@@ -415,7 +450,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 25
-    sget-object v2, Ld1/t;->b:Ld1/t;
+    sget-object v2, Ld1/t;
+    ->b:Ld1/t;
 
     .line 26
     .line 27
@@ -432,19 +468,22 @@
 
     .line 32
     .line 33
-    invoke-static {p1, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 34
     .line 35
     .line 36
-    invoke-interface {p3, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p3, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 37
     .line 38
     .line 39
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 40
     .line 41
@@ -465,12 +504,14 @@
 
     .line 46
     .line 47
-    invoke-direct {v1, p1, p2, p3}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;-><init>(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
+    invoke-direct {v1, p1, p2, p3}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;
+    -><init>(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
 
     .line 48
     .line 49
     .line 50
-    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 51
     .line 52
@@ -478,16 +519,19 @@
     move-result-object p1
 
     .line 54
-    invoke-virtual {p1, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 55
     .line 56
     .line 57
-    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
+    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
 
     .line 58
     .line 59
-    invoke-virtual {p1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;->getLastInfo()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
+    ->getLastInfo()Ljava/util/List;
 
     .line 60
     .line 61
@@ -499,11 +543,13 @@
 
     .line 64
     .line 65
-    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
+    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
 
     .line 66
     .line 67
-    invoke-virtual {p1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;->getLastInfo()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
+    ->getLastInfo()Ljava/util/List;
 
     .line 68
     .line 69
@@ -511,12 +557,14 @@
     move-result-object p1
 
     .line 71
-    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 72
     .line 73
     .line 74
-    invoke-virtual {v1, p1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;->accept(Ljava/util/List;)V
+    invoke-virtual {v1, p1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;
+    ->accept(Ljava/util/List;)V
 
     .line 75
     .line 76
@@ -525,7 +573,8 @@
 
     .line 78
     :cond_1
-    invoke-virtual {v1, v2}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;->accept(Ljava/util/List;)V
+    invoke-virtual {v1, v2}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;
+    ->accept(Ljava/util/List;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -533,7 +582,8 @@
     .line 80
     .line 81
     :goto_0
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 82
     .line 83
@@ -542,7 +592,8 @@
 
     .line 85
     :goto_1
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 86
     .line 87
@@ -583,7 +634,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 2
     .line 3
@@ -607,30 +659,36 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;->clear()V
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    ->clear()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 14
     .line 15
     .line 16
-    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 17
     .line 18
@@ -642,11 +700,13 @@
 
     .line 21
     :cond_0
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 22
     .line 23
-    invoke-interface {p1, v0}, Landroidx/window/embedding/EmbeddingInterfaceCompat;->setSplitRules(Ljava/util/Set;)V
+    invoke-interface {p1, v0}, Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    ->setSplitRules(Ljava/util/Set;)V
 
     .line 24
     .line 25
@@ -662,16 +722,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -683,16 +746,19 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArraySet;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    iget-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 20
     .line 21
@@ -704,11 +770,13 @@
 
     .line 24
     :cond_0
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->splitRules:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     .line 25
     .line 26
-    invoke-interface {p1, v0}, Landroidx/window/embedding/EmbeddingInterfaceCompat;->setSplitRules(Ljava/util/Set;)V
+    invoke-interface {p1, v0}, Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    ->setSplitRules(Ljava/util/Set;)V
 
     .line 27
     .line 28
@@ -735,22 +803,26 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 9
     .line 10
     .line 11
     :try_start_0
-    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 12
     .line 13
@@ -758,7 +830,8 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 16
     .line 17
@@ -767,7 +840,8 @@
 
     .line 19
     :cond_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 20
     .line 21
@@ -779,7 +853,8 @@
 
     .line 24
     .line 25
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -791,7 +866,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v2}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;->getCallback()Landroidx/core/util/Consumer;
+    invoke-virtual {v2}, Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;
+    ->getCallback()Landroidx/core/util/Consumer;
 
     .line 32
     .line 33
@@ -799,7 +875,8 @@
     move-result-object v3
 
     .line 35
-    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -811,7 +888,8 @@
 
     .line 40
     .line 41
-    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 42
     .line 43
@@ -819,7 +897,8 @@
     move-result-object p1
 
     .line 45
-    invoke-virtual {p1, v2}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->remove(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -838,7 +917,8 @@
     .line 51
     :cond_1
     :goto_0
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 52
     .line 53
@@ -847,7 +927,8 @@
 
     .line 55
     :goto_1
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 56
     .line 57

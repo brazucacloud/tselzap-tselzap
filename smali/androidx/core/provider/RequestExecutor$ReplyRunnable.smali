@@ -85,20 +85,24 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;->mCallable:Ljava/util/concurrent/Callable;
+    iput-object p2, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    ->mCallable:Ljava/util/concurrent/Callable;
 
     .line 5
     .line 6
-    iput-object p3, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;->mConsumer:Landroidx/core/util/Consumer;
+    iput-object p3, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    ->mConsumer:Landroidx/core/util/Consumer;
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;->mHandler:Landroid/os/Handler;
+    iput-object p1, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    ->mHandler:Landroid/os/Handler;
 
     .line 9
     .line 10
@@ -112,11 +116,13 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;->mCallable:Ljava/util/concurrent/Callable;
+    iget-object v0, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    ->mCallable:Ljava/util/concurrent/Callable;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/concurrent/Callable;
+    ->call()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -134,11 +140,13 @@
 
     .line 9
     :goto_0
-    iget-object v1, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;->mConsumer:Landroidx/core/util/Consumer;
+    iget-object v1, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    ->mConsumer:Landroidx/core/util/Consumer;
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;->mHandler:Landroid/os/Handler;
+    iget-object v2, p0, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    ->mHandler:Landroid/os/Handler;
 
     .line 12
     .line 13
@@ -146,12 +154,14 @@
 
     .line 14
     .line 15
-    invoke-direct {v3, p0, v1, v0}, Landroidx/core/provider/RequestExecutor$ReplyRunnable$1;-><init>(Landroidx/core/provider/RequestExecutor$ReplyRunnable;Landroidx/core/util/Consumer;Ljava/lang/Object;)V
+    invoke-direct {v3, p0, v1, v0}, Landroidx/core/provider/RequestExecutor$ReplyRunnable$1;
+    -><init>(Landroidx/core/provider/RequestExecutor$ReplyRunnable;Landroidx/core/util/Consumer;Ljava/lang/Object;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v3}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 19
     .line 20

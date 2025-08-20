@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/SavedStateHandle$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/SavedStateHandle$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +39,8 @@
     .locals 5
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -54,7 +57,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p1}, Landroidx/lifecycle/SavedStateHandle;-><init>()V
+    invoke-direct {p1}, Landroidx/lifecycle/SavedStateHandle;
+    -><init>()V
     return-object p1
 
     .line 11
@@ -63,12 +67,14 @@
 
     .line 12
     .line 13
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p2}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
+    invoke-virtual {p2}, Landroid/os/BaseBundle;
+    ->keySet()Ljava/util/Set;
 
     .line 17
     .line 18
@@ -76,7 +82,8 @@
     move-result-object v0
 
     .line 20
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 21
     .line 22
@@ -85,7 +92,8 @@
 
     .line 24
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 25
     .line 26
@@ -97,7 +105,8 @@
 
     .line 29
     .line 30
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -113,12 +122,14 @@
 
     .line 37
     .line 38
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p2, v1}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p2, v1}, Landroid/os/BaseBundle;
+    ->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -126,7 +137,8 @@
     move-result-object v2
 
     .line 45
-    invoke-interface {p1, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -139,7 +151,8 @@
 
     .line 50
     .line 51
-    invoke-direct {p2, p1}, Landroidx/lifecycle/SavedStateHandle;-><init>(Ljava/util/Map;)V
+    invoke-direct {p2, p1}, Landroidx/lifecycle/SavedStateHandle;
+    -><init>(Ljava/util/Map;)V
 return-object p2
 
     .line 55
@@ -148,7 +161,8 @@ return-object p2
 
     .line 56
     .line 57
-    invoke-virtual {p2}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {p2}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 58
     .line 59
@@ -156,12 +170,14 @@ return-object p2
     move-result-object p2
 
     .line 61
-    invoke-static {p2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {p1, p2}, Landroid/os/Bundle;->setClassLoader(Ljava/lang/ClassLoader;)V
+    invoke-virtual {p1, p2}, Landroid/os/Bundle;
+    ->setClassLoader(Ljava/lang/ClassLoader;)V
 
     .line 65
     .line 66
@@ -170,7 +186,8 @@ return-object p2
 
     .line 68
     .line 69
-    invoke-virtual {p1, p2}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p1, p2}, Landroid/os/Bundle;
+    ->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 70
     .line 71
@@ -182,7 +199,8 @@ return-object p2
 
     .line 74
     .line 75
-    invoke-virtual {p1, v0}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p1, v0}, Landroid/os/Bundle;
+    ->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 76
     .line 77
@@ -198,7 +216,8 @@ return-object p2
 
     .line 82
     .line 83
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 84
     .line 85
@@ -206,7 +225,8 @@ return-object p2
     move-result v0
 
     .line 87
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 88
     .line 89
@@ -222,12 +242,14 @@ return-object p2
 
     .line 94
     .line 95
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
     .line 96
     .line 97
     .line 98
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 99
     .line 100
@@ -243,7 +265,8 @@ return-object p2
 
     .line 104
     .line 105
-    invoke-virtual {p2, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 106
     .line 107
@@ -255,7 +278,8 @@ return-object p2
 
     .line 110
     .line 111
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 112
     .line 113
@@ -264,7 +288,8 @@ return-object p2
 
     .line 115
     .line 116
-    invoke-virtual {p1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 117
     .line 118
@@ -272,7 +297,8 @@ return-object p2
     move-result-object v4
 
     .line 120
-    invoke-interface {v0, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v3, v4}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 121
     .line 122
@@ -289,7 +315,8 @@ return-object p2
 
     .line 127
     .line 128
-    invoke-direct {p1, v0}, Landroidx/lifecycle/SavedStateHandle;-><init>(Ljava/util/Map;)V
+    invoke-direct {p1, v0}, Landroidx/lifecycle/SavedStateHandle;
+    -><init>(Ljava/util/Map;)V
 return-object p1
 
     .line 132
@@ -302,7 +329,8 @@ return-object p1
 
     .line 135
     .line 136
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 137
     .line 138
@@ -313,7 +341,8 @@ return-object p1
     .locals 6
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -325,7 +354,8 @@ return-object p1
 
     .line 5
     :cond_0
-    invoke-static {}, Landroidx/lifecycle/SavedStateHandle;->access$getACCEPTABLE_CLASSES$cp()[Ljava/lang/Class;
+    invoke-static {}, Landroidx/lifecycle/SavedStateHandle;
+    ->access$getACCEPTABLE_CLASSES$cp()[Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -351,12 +381,14 @@ return-object p1
 
     .line 15
     .line 16
-    invoke-static {v5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v5}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v5, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v5, p1}, Ljava/lang/Class;
+    ->isInstance(Ljava/lang/Object;)Z
 
     .line 20
     .line 21

@@ -88,9 +88,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/moduleinstall/zae;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/zae;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/zae;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -138,28 +140,34 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zaa:I
+    iput p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zaa:I
 
     .line 5
     .line 6
-    iput p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zab:I
+    iput p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zab:I
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zac:Ljava/lang/Long;
+    iput-object p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zac:Ljava/lang/Long;
 
     .line 9
     .line 10
-    iput-object p4, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zad:Ljava/lang/Long;
+    iput-object p4, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zad:Ljava/lang/Long;
 
     .line 11
     .line 12
-    iput p5, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zae:I
+    iput p5, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zae:I
 
     .line 13
     .line 14
@@ -171,7 +179,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p4}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p4}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 19
     .line 20
@@ -195,7 +204,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p3}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 31
     .line 32
@@ -203,7 +213,8 @@
     move-result-wide p2
 
     .line 34
-    invoke-virtual {p4}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p4}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 35
     .line 36
@@ -211,13 +222,15 @@
     move-result-wide p4
 
     .line 38
-    invoke-direct {p1, p2, p3, p4, p5}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;-><init>(JJ)V
+    invoke-direct {p1, p2, p3, p4, p5}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
+    -><init>(JJ)V
 
     .line 39
     .line 40
     .line 41
     :goto_0
-    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zaf:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
+    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zaf:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
 
     .line 42
     .line 43
@@ -699,7 +712,8 @@
 .method public getErrorCode()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zae:I
+    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zae:I
 
     return v0
 .end method
@@ -709,7 +723,8 @@
     .annotation build Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$InstallState;
     .end annotation
 
-    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zab:I
+    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zab:I
 
     return v0
 .end method
@@ -719,7 +734,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zaf:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zaf:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
 
     return-object v0
 .end method
@@ -727,7 +743,8 @@
 .method public getSessionId()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zaa:I
 
     return v0
 .end method
@@ -740,7 +757,8 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -751,7 +769,8 @@
     const/4 v0, 0x1
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->getSessionId()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->getSessionId()I
 
     .line 7
     .line 8
@@ -759,7 +778,8 @@
     move-result v1
 
     .line 10
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 11
     .line 12
@@ -767,7 +787,8 @@
     const/4 v0, 0x2
 
     .line 14
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->getInstallState()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->getInstallState()I
 
     .line 15
     .line 16
@@ -775,12 +796,14 @@
     move-result v1
 
     .line 18
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zac:Ljava/lang/Long;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zac:Ljava/lang/Long;
 
     .line 22
     .line 23
@@ -790,7 +813,8 @@
     const/4 v2, 0x0
 
     .line 25
-    invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeLongObject(Landroid/os/Parcel;ILjava/lang/Long;Z)V
+    invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeLongObject(Landroid/os/Parcel;ILjava/lang/Long;Z)V
 
     .line 26
     .line 27
@@ -798,11 +822,13 @@
     const/4 v0, 0x4
 
     .line 29
-    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->zad:Ljava/lang/Long;
+    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->zad:Ljava/lang/Long;
 
     .line 30
     .line 31
-    invoke-static {p1, v0, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeLongObject(Landroid/os/Parcel;ILjava/lang/Long;Z)V
+    invoke-static {p1, v0, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeLongObject(Landroid/os/Parcel;ILjava/lang/Long;Z)V
 
     .line 32
     .line 33
@@ -810,7 +836,8 @@
     const/4 v0, 0x5
 
     .line 35
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->getErrorCode()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    ->getErrorCode()I
 
     .line 36
     .line 37
@@ -818,12 +845,14 @@
     move-result v1
 
     .line 39
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 43
     .line 44

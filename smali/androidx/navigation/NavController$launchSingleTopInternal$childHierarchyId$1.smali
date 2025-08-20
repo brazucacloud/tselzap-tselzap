@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavController;->launchSingleTopInternal(Landroidx/navigation/NavDestination;Landroid/os/Bundle;)Z
+    value = Landroidx/navigation/NavController;
+    ->launchSingleTopInternal(Landroidx/navigation/NavDestination;Landroid/os/Bundle;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;
 
-    invoke-direct {v0}, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;
+    -><init>()V
 
-    sput-object v0, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;->INSTANCE:Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;
+    sput-object v0, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;
+    ->INSTANCE:Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -57,14 +61,17 @@ return-void
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getId()I
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
+    ->getId()I
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -77,7 +84,8 @@ return-void
     .line 2
     check-cast p1, Landroidx/navigation/NavDestination;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;->invoke(Landroidx/navigation/NavDestination;)Ljava/lang/Integer;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$launchSingleTopInternal$childHierarchyId$1;
+    ->invoke(Landroidx/navigation/NavDestination;)Ljava/lang/Integer;
 
     move-result-object p1
 

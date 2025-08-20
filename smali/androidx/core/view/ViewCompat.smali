@@ -223,131 +223,163 @@
     .locals 33
 
     .line 1
-    sget v1, Landroidx/core/R$id;->accessibility_custom_action_0:I
+    sget v1, Landroidx/core/R$id;
+    ->accessibility_custom_action_0:I
 
     .line 2
     .line 3
-    sget v2, Landroidx/core/R$id;->accessibility_custom_action_1:I
+    sget v2, Landroidx/core/R$id;
+    ->accessibility_custom_action_1:I
 
     .line 4
     .line 5
-    sget v3, Landroidx/core/R$id;->accessibility_custom_action_2:I
+    sget v3, Landroidx/core/R$id;
+    ->accessibility_custom_action_2:I
 
     .line 6
     .line 7
-    sget v4, Landroidx/core/R$id;->accessibility_custom_action_3:I
+    sget v4, Landroidx/core/R$id;
+    ->accessibility_custom_action_3:I
 
     .line 8
     .line 9
-    sget v5, Landroidx/core/R$id;->accessibility_custom_action_4:I
+    sget v5, Landroidx/core/R$id;
+    ->accessibility_custom_action_4:I
 
     .line 10
     .line 11
-    sget v6, Landroidx/core/R$id;->accessibility_custom_action_5:I
+    sget v6, Landroidx/core/R$id;
+    ->accessibility_custom_action_5:I
 
     .line 12
     .line 13
-    sget v7, Landroidx/core/R$id;->accessibility_custom_action_6:I
+    sget v7, Landroidx/core/R$id;
+    ->accessibility_custom_action_6:I
 
     .line 14
     .line 15
-    sget v8, Landroidx/core/R$id;->accessibility_custom_action_7:I
+    sget v8, Landroidx/core/R$id;
+    ->accessibility_custom_action_7:I
 
     .line 16
     .line 17
-    sget v9, Landroidx/core/R$id;->accessibility_custom_action_8:I
+    sget v9, Landroidx/core/R$id;
+    ->accessibility_custom_action_8:I
 
     .line 18
     .line 19
-    sget v10, Landroidx/core/R$id;->accessibility_custom_action_9:I
+    sget v10, Landroidx/core/R$id;
+    ->accessibility_custom_action_9:I
 
     .line 20
     .line 21
-    sget v11, Landroidx/core/R$id;->accessibility_custom_action_10:I
+    sget v11, Landroidx/core/R$id;
+    ->accessibility_custom_action_10:I
 
     .line 22
     .line 23
-    sget v12, Landroidx/core/R$id;->accessibility_custom_action_11:I
+    sget v12, Landroidx/core/R$id;
+    ->accessibility_custom_action_11:I
 
     .line 24
     .line 25
-    sget v13, Landroidx/core/R$id;->accessibility_custom_action_12:I
+    sget v13, Landroidx/core/R$id;
+    ->accessibility_custom_action_12:I
 
     .line 26
     .line 27
-    sget v14, Landroidx/core/R$id;->accessibility_custom_action_13:I
+    sget v14, Landroidx/core/R$id;
+    ->accessibility_custom_action_13:I
 
     .line 28
     .line 29
-    sget v15, Landroidx/core/R$id;->accessibility_custom_action_14:I
+    sget v15, Landroidx/core/R$id;
+    ->accessibility_custom_action_14:I
 
     .line 30
     .line 31
-    sget v16, Landroidx/core/R$id;->accessibility_custom_action_15:I
+    sget v16, Landroidx/core/R$id;
+    ->accessibility_custom_action_15:I
 
     .line 32
     .line 33
-    sget v17, Landroidx/core/R$id;->accessibility_custom_action_16:I
+    sget v17, Landroidx/core/R$id;
+    ->accessibility_custom_action_16:I
 
     .line 34
     .line 35
-    sget v18, Landroidx/core/R$id;->accessibility_custom_action_17:I
+    sget v18, Landroidx/core/R$id;
+    ->accessibility_custom_action_17:I
 
     .line 36
     .line 37
-    sget v19, Landroidx/core/R$id;->accessibility_custom_action_18:I
+    sget v19, Landroidx/core/R$id;
+    ->accessibility_custom_action_18:I
 
     .line 38
     .line 39
-    sget v20, Landroidx/core/R$id;->accessibility_custom_action_19:I
+    sget v20, Landroidx/core/R$id;
+    ->accessibility_custom_action_19:I
 
     .line 40
     .line 41
-    sget v21, Landroidx/core/R$id;->accessibility_custom_action_20:I
+    sget v21, Landroidx/core/R$id;
+    ->accessibility_custom_action_20:I
 
     .line 42
     .line 43
-    sget v22, Landroidx/core/R$id;->accessibility_custom_action_21:I
+    sget v22, Landroidx/core/R$id;
+    ->accessibility_custom_action_21:I
 
     .line 44
     .line 45
-    sget v23, Landroidx/core/R$id;->accessibility_custom_action_22:I
+    sget v23, Landroidx/core/R$id;
+    ->accessibility_custom_action_22:I
 
     .line 46
     .line 47
-    sget v24, Landroidx/core/R$id;->accessibility_custom_action_23:I
+    sget v24, Landroidx/core/R$id;
+    ->accessibility_custom_action_23:I
 
     .line 48
     .line 49
-    sget v25, Landroidx/core/R$id;->accessibility_custom_action_24:I
+    sget v25, Landroidx/core/R$id;
+    ->accessibility_custom_action_24:I
 
     .line 50
     .line 51
-    sget v26, Landroidx/core/R$id;->accessibility_custom_action_25:I
+    sget v26, Landroidx/core/R$id;
+    ->accessibility_custom_action_25:I
 
     .line 52
     .line 53
-    sget v27, Landroidx/core/R$id;->accessibility_custom_action_26:I
+    sget v27, Landroidx/core/R$id;
+    ->accessibility_custom_action_26:I
 
     .line 54
     .line 55
-    sget v28, Landroidx/core/R$id;->accessibility_custom_action_27:I
+    sget v28, Landroidx/core/R$id;
+    ->accessibility_custom_action_27:I
 
     .line 56
     .line 57
-    sget v29, Landroidx/core/R$id;->accessibility_custom_action_28:I
+    sget v29, Landroidx/core/R$id;
+    ->accessibility_custom_action_28:I
 
     .line 58
     .line 59
-    sget v30, Landroidx/core/R$id;->accessibility_custom_action_29:I
+    sget v30, Landroidx/core/R$id;
+    ->accessibility_custom_action_29:I
 
     .line 60
     .line 61
-    sget v31, Landroidx/core/R$id;->accessibility_custom_action_30:I
+    sget v31, Landroidx/core/R$id;
+    ->accessibility_custom_action_30:I
 
     .line 62
     .line 63
-    sget v32, Landroidx/core/R$id;->accessibility_custom_action_31:I
+    sget v32, Landroidx/core/R$id;
+    ->accessibility_custom_action_31:I
 
     .line 64
     .line 65
@@ -359,7 +391,8 @@
     move-result-object v0
 
     .line 69
-    sput-object v0, Landroidx/core/view/ViewCompat;->ACCESSIBILITY_ACTIONS_RESOURCE_IDS:[I
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->ACCESSIBILITY_ACTIONS_RESOURCE_IDS:[I
 
     .line 70
     .line 71
@@ -367,12 +400,14 @@
 
     .line 72
     .line 73
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 74
     .line 75
     .line 76
-    sput-object v0, Landroidx/core/view/ViewCompat;->NO_OP_ON_RECEIVE_CONTENT_VIEW_BEHAVIOR:Landroidx/core/view/OnReceiveContentViewBehavior;
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->NO_OP_ON_RECEIVE_CONTENT_VIEW_BEHAVIOR:Landroidx/core/view/OnReceiveContentViewBehavior;
 
     .line 77
     .line 78
@@ -380,12 +415,14 @@
 
     .line 79
     .line 80
-    invoke-direct {v0}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;-><init>()V
+    invoke-direct {v0}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
+    -><init>()V
 
     .line 81
     .line 82
     .line 83
-    sput-object v0, Landroidx/core/view/ViewCompat;->sAccessibilityPaneVisibilityManager:Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityPaneVisibilityManager:Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
 
     .line 84
     .line 85
@@ -398,7 +435,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -410,7 +448,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->lambda$static$0(Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->lambda$static$0(Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     move-result-object p0
 
@@ -433,7 +472,8 @@
 
     .line 2
     .line 3
-    sget v1, Landroidx/core/R$id;->tag_accessibility_heading:I
+    sget v1, Landroidx/core/R$id;
+    ->tag_accessibility_heading:I
 
     .line 4
     .line 5
@@ -445,7 +485,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3}, Landroidx/core/view/ViewCompat$4;-><init>(ILjava/lang/Class;I)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/core/view/ViewCompat$4;
+    -><init>(ILjava/lang/Class;I)V
 
     .line 10
     .line 11
@@ -469,7 +510,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->getAvailableActionIdFromResources(Landroid/view/View;Ljava/lang/CharSequence;)I
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->getAvailableActionIdFromResources(Landroid/view/View;Ljava/lang/CharSequence;)I
 
     move-result v0
 
@@ -480,10 +522,12 @@
     .line 2
     new-instance v1, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
 
-    invoke-direct {v1, v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;-><init>(ILjava/lang/CharSequence;Landroidx/core/view/accessibility/AccessibilityViewCommand;)V
+    invoke-direct {v1, v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    -><init>(ILjava/lang/CharSequence;Landroidx/core/view/accessibility/AccessibilityViewCommand;)V
 
     .line 3
-    invoke-static {p0, v1}, Landroidx/core/view/ViewCompat;->addAccessibilityAction(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;)V
+    invoke-static {p0, v1}, Landroidx/core/view/ViewCompat;
+    ->addAccessibilityAction(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;)V
 
     :cond_0
     return v0
@@ -501,26 +545,32 @@
     .end param
 
     .line 4
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->ensureAccessibilityDelegateCompat(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->ensureAccessibilityDelegateCompat(Landroid/view/View;)V
 
     .line 5
-    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getId()I
+    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getId()I
 
     move-result v0
 
-    invoke-static {v0, p0}, Landroidx/core/view/ViewCompat;->removeActionWithId(ILandroid/view/View;)V
+    invoke-static {v0, p0}, Landroidx/core/view/ViewCompat;
+    ->removeActionWithId(ILandroid/view/View;)V
 
     .line 6
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getActionList(Landroid/view/View;)Ljava/util/List;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getActionList(Landroid/view/View;)Ljava/util/List;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     const/4 p1, 0x0
 
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->notifyViewAccessibilityStateChangedIfNeeded(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->notifyViewAccessibilityStateChangedIfNeeded(Landroid/view/View;I)V
 
     return-void
 .end method
@@ -546,7 +596,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -558,7 +609,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api26Impl;->addKeyboardNavigationClusters(Landroid/view/View;Ljava/util/Collection;I)V
+    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->addKeyboardNavigationClusters(Landroid/view/View;Ljava/util/Collection;I)V
 
     .line 8
     .line 9
@@ -579,7 +631,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -591,7 +644,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;->addOnUnhandledKeyEventListener(Landroid/view/View;Landroidx/core/view/ViewCompat$OnUnhandledKeyEventListenerCompat;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;
+    ->addOnUnhandledKeyEventListener(Landroid/view/View;Landroidx/core/view/ViewCompat$OnUnhandledKeyEventListenerCompat;)V
 
     .line 8
     .line 9
@@ -600,11 +654,13 @@
 
     .line 11
     :cond_0
-    sget v0, Landroidx/core/R$id;->tag_unhandled_key_listeners:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_unhandled_key_listeners:I
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -624,23 +680,27 @@
 
     .line 22
     .line 23
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 27
     .line 28
     .line 29
     :cond_1
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 33
     .line 34
@@ -655,7 +715,8 @@
 
     .line 38
     .line 39
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;->registerListeningView(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    ->registerListeningView(Landroid/view/View;)V
 
     .line 40
     .line 41
@@ -677,7 +738,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/view/ViewCompat;->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
 
     .line 2
     .line 3
@@ -689,21 +751,25 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Landroidx/core/view/ViewCompat;->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
 
     .line 11
     .line 12
     :cond_0
-    sget-object v0, Landroidx/core/view/ViewCompat;->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p0}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/util/WeakHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -723,16 +789,19 @@
 
     .line 23
     .line 24
-    invoke-direct {v0, p0}, Landroidx/core/view/ViewPropertyAnimatorCompat;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/ViewPropertyAnimatorCompat;
+    -><init>(Landroid/view/View;)V
 
     .line 25
     .line 26
     .line 27
-    sget-object v1, Landroidx/core/view/ViewCompat;->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
+    sget-object v1, Landroidx/core/view/ViewCompat;
+    ->sViewPropertyAnimatorMap:Ljava/util/WeakHashMap;
 
     .line 28
     .line 29
-    invoke-virtual {v1, p0, v0}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0, v0}, Ljava/util/WeakHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -761,7 +830,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, v3}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 9
     .line 10
@@ -769,7 +839,8 @@
     move-result-object v1
 
     .line 12
-    sput-object v1, Landroidx/core/view/ViewCompat;->sDispatchStartTemporaryDetach:Ljava/lang/reflect/Method;
+    sput-object v1, Landroidx/core/view/ViewCompat;
+    ->sDispatchStartTemporaryDetach:Ljava/lang/reflect/Method;
 
     .line 13
     .line 14
@@ -781,7 +852,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 19
     .line 20
@@ -789,7 +861,8 @@
     move-result-object v0
 
     .line 22
-    sput-object v0, Landroidx/core/view/ViewCompat;->sDispatchFinishTemporaryDetach:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->sDispatchFinishTemporaryDetach:Ljava/lang/reflect/Method;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -810,7 +883,8 @@
 
     .line 29
     .line 30
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 31
     .line 32
@@ -819,7 +893,8 @@
     const/4 v0, 0x1
 
     .line 34
-    sput-boolean v0, Landroidx/core/view/ViewCompat;->sTempDetachBound:Z
+    sput-boolean v0, Landroidx/core/view/ViewCompat;
+    ->sTempDetachBound:Z
 
     .line 35
     .line 36
@@ -832,7 +907,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->canScrollHorizontally(I)Z
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->canScrollHorizontally(I)Z
 
     .line 2
     .line 3
@@ -848,7 +924,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->canScrollVertically(I)Z
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->canScrollVertically(I)Z
 
     .line 2
     .line 3
@@ -866,7 +943,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -878,7 +956,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api24Impl;->cancelDragAndDrop(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api24Impl;
+    ->cancelDragAndDrop(Landroid/view/View;)V
 
     .line 8
     .line 9
@@ -893,7 +972,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {p0, p1}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 2
     .line 3
@@ -907,12 +987,14 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->offsetLeftAndRight(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->offsetLeftAndRight(I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 5
     .line 6
@@ -924,12 +1006,14 @@
 
     .line 9
     .line 10
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->tickleInvalidationFlag(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->tickleInvalidationFlag(Landroid/view/View;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 14
     .line 15
@@ -949,7 +1033,8 @@
 
     .line 22
     .line 23
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->tickleInvalidationFlag(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->tickleInvalidationFlag(Landroid/view/View;)V
 
     .line 24
     .line 25
@@ -962,12 +1047,14 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->offsetTopAndBottom(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->offsetTopAndBottom(I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 5
     .line 6
@@ -979,12 +1066,14 @@
 
     .line 9
     .line 10
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->tickleInvalidationFlag(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->tickleInvalidationFlag(Landroid/view/View;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 14
     .line 15
@@ -1004,7 +1093,8 @@
 
     .line 22
     .line 23
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->tickleInvalidationFlag(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->tickleInvalidationFlag(Landroid/view/View;)V
 
     .line 24
     .line 25
@@ -1031,7 +1121,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api21Impl;->computeSystemWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;Landroid/graphics/Rect;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->computeSystemWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;Landroid/graphics/Rect;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 2
     .line 3
@@ -1055,7 +1146,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 2
     .line 3
@@ -1067,7 +1159,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat$Api20Impl;->dispatchApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat$Api20Impl;
+    ->dispatchApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
 
     .line 8
     .line 9
@@ -1075,7 +1168,8 @@
     move-result-object v1
 
     .line 11
-    invoke-virtual {v1, v0}, Landroid/view/WindowInsets;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Landroid/view/WindowInsets;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -1087,7 +1181,8 @@
 
     .line 16
     .line 17
-    invoke-static {v1, p0}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {v1, p0}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 18
     .line 19
@@ -1109,7 +1204,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1121,7 +1217,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api24Impl;->dispatchFinishTemporaryDetach(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api24Impl;
+    ->dispatchFinishTemporaryDetach(Landroid/view/View;)V
 
     .line 8
     .line 9
@@ -1130,7 +1227,8 @@
 
     .line 11
     :cond_0
-    sget-boolean v0, Landroidx/core/view/ViewCompat;->sTempDetachBound:Z
+    sget-boolean v0, Landroidx/core/view/ViewCompat;
+    ->sTempDetachBound:Z
 
     .line 12
     .line 13
@@ -1138,13 +1236,15 @@
 
     .line 14
     .line 15
-    invoke-static {}, Landroidx/core/view/ViewCompat;->bindTempDetach()V
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->bindTempDetach()V
 
     .line 16
     .line 17
     .line 18
     :cond_1
-    sget-object v0, Landroidx/core/view/ViewCompat;->sDispatchFinishTemporaryDetach:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sDispatchFinishTemporaryDetach:Ljava/lang/reflect/Method;
 
     .line 19
     .line 20
@@ -1160,7 +1260,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1182,7 +1283,8 @@
 
     .line 33
     .line 34
-    invoke-static {v0, v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 35
     .line 36
@@ -1191,7 +1293,8 @@
 
     .line 38
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;->onFinishTemporaryDetach()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->onFinishTemporaryDetach()V
 
     .line 39
     .line 40
@@ -1207,7 +1310,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewCompat$Api21Impl;->dispatchNestedFling(Landroid/view/View;FFZ)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->dispatchNestedFling(Landroid/view/View;FFZ)Z
 
     .line 2
     .line 3
@@ -1225,7 +1329,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api21Impl;->dispatchNestedPreFling(Landroid/view/View;FF)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->dispatchNestedPreFling(Landroid/view/View;FF)Z
 
     .line 2
     .line 3
@@ -1251,7 +1356,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat$Api21Impl;->dispatchNestedPreScroll(Landroid/view/View;II[I[I)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->dispatchNestedPreScroll(Landroid/view/View;II[I[I)Z
 
     move-result p0
 
@@ -1281,7 +1387,8 @@
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingChild2;
 
-    invoke-interface/range {p0 .. p5}, Landroidx/core/view/NestedScrollingChild2;->dispatchNestedPreScroll(II[I[II)Z
+    invoke-interface/range {p0 .. p5}, Landroidx/core/view/NestedScrollingChild2;
+    ->dispatchNestedPreScroll(II[I[II)Z
 
     move-result p0
 
@@ -1291,7 +1398,8 @@
     if-nez p5, :cond_1
 
     .line 4
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat;->dispatchNestedPreScroll(Landroid/view/View;II[I[I)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat;
+    ->dispatchNestedPreScroll(Landroid/view/View;II[I[I)Z
 
     move-result p0
 
@@ -1326,7 +1434,8 @@
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingChild3;
 
-    invoke-interface/range {p0 .. p7}, Landroidx/core/view/NestedScrollingChild3;->dispatchNestedScroll(IIII[II[I)V
+    invoke-interface/range {p0 .. p7}, Landroidx/core/view/NestedScrollingChild3;
+    ->dispatchNestedScroll(IIII[II[I)V
 return-void
 
     :cond_0
@@ -1345,7 +1454,8 @@ return-void
     move-object p1, p0
 
     .line 4
-    invoke-static/range {p1 .. p7}, Landroidx/core/view/ViewCompat;->dispatchNestedScroll(Landroid/view/View;IIII[II)Z
+    invoke-static/range {p1 .. p7}, Landroidx/core/view/ViewCompat;
+    ->dispatchNestedScroll(Landroid/view/View;IIII[II)Z
 
     return-void
 .end method
@@ -1362,7 +1472,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static/range {p0 .. p5}, Landroidx/core/view/ViewCompat$Api21Impl;->dispatchNestedScroll(Landroid/view/View;IIII[I)Z
+    invoke-static/range {p0 .. p5}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->dispatchNestedScroll(Landroid/view/View;IIII[I)Z
 
     move-result p0
 
@@ -1388,7 +1499,8 @@ return-void
     .line 6
     check-cast p0, Landroidx/core/view/NestedScrollingChild2;
 
-    invoke-interface/range {p0 .. p6}, Landroidx/core/view/NestedScrollingChild2;->dispatchNestedScroll(IIII[II)Z
+    invoke-interface/range {p0 .. p6}, Landroidx/core/view/NestedScrollingChild2;
+    ->dispatchNestedScroll(IIII[II)Z
 
     move-result p0
 
@@ -1410,7 +1522,8 @@ return-void
     move-object p1, p0
 
     .line 7
-    invoke-static/range {p1 .. p6}, Landroidx/core/view/ViewCompat;->dispatchNestedScroll(Landroid/view/View;IIII[I)Z
+    invoke-static/range {p1 .. p6}, Landroidx/core/view/ViewCompat;
+    ->dispatchNestedScroll(Landroid/view/View;IIII[I)Z
 
     move-result p0
 
@@ -1430,7 +1543,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1442,7 +1556,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api24Impl;->dispatchStartTemporaryDetach(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api24Impl;
+    ->dispatchStartTemporaryDetach(Landroid/view/View;)V
 
     .line 8
     .line 9
@@ -1451,7 +1566,8 @@ return-void
 
     .line 11
     :cond_0
-    sget-boolean v0, Landroidx/core/view/ViewCompat;->sTempDetachBound:Z
+    sget-boolean v0, Landroidx/core/view/ViewCompat;
+    ->sTempDetachBound:Z
 
     .line 12
     .line 13
@@ -1459,13 +1575,15 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {}, Landroidx/core/view/ViewCompat;->bindTempDetach()V
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->bindTempDetach()V
 
     .line 16
     .line 17
     .line 18
     :cond_1
-    sget-object v0, Landroidx/core/view/ViewCompat;->sDispatchStartTemporaryDetach:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sDispatchStartTemporaryDetach:Ljava/lang/reflect/Method;
 
     .line 19
     .line 20
@@ -1481,7 +1599,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1503,7 +1622,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-static {v0, v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 35
     .line 36
@@ -1512,7 +1632,8 @@ return-void
 
     .line 38
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;->onStartTemporaryDetach()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->onStartTemporaryDetach()V
 
     .line 39
     .line 40
@@ -1526,7 +1647,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1544,7 +1666,8 @@ return-void
 
     .line 9
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;->at(Landroid/view/View;)Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    ->at(Landroid/view/View;)Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
 
     .line 10
     .line 11
@@ -1552,7 +1675,8 @@ return-void
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;->dispatch(Landroid/view/View;Landroid/view/KeyEvent;)Z
+    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    ->dispatch(Landroid/view/View;Landroid/view/KeyEvent;)Z
 
     .line 14
     .line 15
@@ -1568,7 +1692,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1586,7 +1711,8 @@ return-void
 
     .line 9
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;->at(Landroid/view/View;)Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    ->at(Landroid/view/View;)Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
 
     .line 10
     .line 11
@@ -1594,7 +1720,8 @@ return-void
     move-result-object p0
 
     .line 13
-    invoke-virtual {p0, p1}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;->preDispatch(Landroid/view/KeyEvent;)Z
+    invoke-virtual {p0, p1}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    ->preDispatch(Landroid/view/KeyEvent;)Z
 
     .line 14
     .line 15
@@ -1612,7 +1739,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->ensureAccessibilityDelegateCompat(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->ensureAccessibilityDelegateCompat(Landroid/view/View;)V
 
     .line 2
     .line 3
@@ -1628,7 +1756,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityDelegate(Landroid/view/View;)Landroidx/core/view/AccessibilityDelegateCompat;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityDelegate(Landroid/view/View;)Landroidx/core/view/AccessibilityDelegateCompat;
 
     .line 2
     .line 3
@@ -1644,13 +1773,15 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
+    invoke-direct {v0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>()V
 
     .line 10
     .line 11
     .line 12
     :cond_0
-    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat;->setAccessibilityDelegate(Landroid/view/View;Landroidx/core/view/AccessibilityDelegateCompat;)V
+    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat;
+    ->setAccessibilityDelegate(Landroid/view/View;Landroidx/core/view/AccessibilityDelegateCompat;)V
 
     .line 13
     .line 14
@@ -1664,7 +1795,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/view/View;->generateViewId()I
+    invoke-static {}, Landroid/view/View;
+    ->generateViewId()I
 
     .line 2
     .line 3
@@ -1684,7 +1816,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityDelegateInternal(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityDelegateInternal(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
@@ -1714,7 +1847,8 @@ return-void
 
     .line 14
     .line 15
-    iget-object p0, p0, Landroidx/core/view/AccessibilityDelegateCompat$AccessibilityDelegateAdapter;->mCompat:Landroidx/core/view/AccessibilityDelegateCompat;
+    iget-object p0, p0, Landroidx/core/view/AccessibilityDelegateCompat$AccessibilityDelegateAdapter;
+    ->mCompat:Landroidx/core/view/AccessibilityDelegateCompat;
 
     .line 16
     .line 17
@@ -1726,7 +1860,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>(Landroid/view/View$AccessibilityDelegate;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>(Landroid/view/View$AccessibilityDelegate;)V
 
     .line 21
     .line 22
@@ -1744,7 +1879,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1756,7 +1892,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api29Impl;->getAccessibilityDelegate(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api29Impl;
+    ->getAccessibilityDelegate(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 8
     .line 9
@@ -1767,7 +1904,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityDelegateThroughReflection(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityDelegateThroughReflection(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 13
     .line 14
@@ -1787,7 +1925,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/core/view/ViewCompat;->sAccessibilityDelegateCheckFailed:Z
+    sget-boolean v0, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityDelegateCheckFailed:Z
 
     .line 2
     .line 3
@@ -1802,7 +1941,8 @@ return-void
 
     .line 7
     :cond_0
-    sget-object v0, Landroidx/core/view/ViewCompat;->sAccessibilityDelegateField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityDelegateField:Ljava/lang/reflect/Field;
 
     .line 8
     .line 9
@@ -1822,7 +1962,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {v0, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v3}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 17
     .line 18
@@ -1830,11 +1971,13 @@ return-void
     move-result-object v0
 
     .line 20
-    sput-object v0, Landroidx/core/view/ViewCompat;->sAccessibilityDelegateField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityDelegateField:Ljava/lang/reflect/Field;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1845,7 +1988,8 @@ return-void
 
     .line 26
     :catchall_0
-    sput-boolean v2, Landroidx/core/view/ViewCompat;->sAccessibilityDelegateCheckFailed:Z
+    sput-boolean v2, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityDelegateCheckFailed:Z
 
     .line 27
     .line 28
@@ -1855,11 +1999,13 @@ return-void
     :cond_1
     :goto_0
     :try_start_1
-    sget-object v0, Landroidx/core/view/ViewCompat;->sAccessibilityDelegateField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityDelegateField:Ljava/lang/reflect/Field;
 
     .line 30
     .line 31
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -1889,7 +2035,8 @@ return-void
 
     .line 43
     :catchall_1
-    sput-boolean v2, Landroidx/core/view/ViewCompat;->sAccessibilityDelegateCheckFailed:Z
+    sput-boolean v2, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityDelegateCheckFailed:Z
 
     .line 44
     .line 45
@@ -1906,7 +2053,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getAccessibilityLiveRegion()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getAccessibilityLiveRegion()I
 
     .line 2
     .line 3
@@ -1926,7 +2074,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getAccessibilityNodeProvider()Landroid/view/accessibility/AccessibilityNodeProvider;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getAccessibilityNodeProvider()Landroid/view/accessibility/AccessibilityNodeProvider;
 
     .line 2
     .line 3
@@ -1942,7 +2091,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    -><init>(Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -1969,7 +2119,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->paneTitleProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->paneTitleProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -1977,7 +2128,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->get(Landroid/view/View;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->get(Landroid/view/View;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -2006,11 +2158,13 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroidx/core/R$id;->tag_accessibility_actions:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_accessibility_actions:I
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2030,12 +2184,14 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 17
     .line 18
@@ -2050,7 +2206,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getAlpha()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getAlpha()F
 
     .line 2
     .line 3
@@ -2070,7 +2227,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2082,7 +2240,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->getAutofillId(Landroid/view/View;)Landroid/view/autofill/AutofillId;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->getAutofillId(Landroid/view/View;)Landroid/view/autofill/AutofillId;
 
     .line 8
     .line 9
@@ -2090,7 +2249,8 @@ return-void
     move-result-object p0
 
     .line 11
-    invoke-static {p0}, Landroidx/core/view/autofill/AutofillIdCompat;->toAutofillIdCompat(Landroid/view/autofill/AutofillId;)Landroidx/core/view/autofill/AutofillIdCompat;
+    invoke-static {p0}, Landroidx/core/view/autofill/AutofillIdCompat;
+    ->toAutofillIdCompat(Landroid/view/autofill/AutofillId;)Landroidx/core/view/autofill/AutofillIdCompat;
 
     .line 12
     .line 13
@@ -2114,7 +2274,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getActionList(Landroid/view/View;)Ljava/util/List;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getActionList(Landroid/view/View;)Ljava/util/List;
 
     .line 2
     .line 3
@@ -2129,7 +2290,8 @@ return-void
 
     .line 7
     :goto_0
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 8
     .line 9
@@ -2141,7 +2303,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -2153,7 +2316,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getLabel()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getLabel()Ljava/lang/CharSequence;
 
     .line 20
     .line 21
@@ -2161,7 +2325,8 @@ return-void
     move-result-object v2
 
     .line 23
-    invoke-static {p1, v2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {p1, v2}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 24
     .line 25
@@ -2173,7 +2338,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -2185,7 +2351,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getId()I
+    invoke-virtual {p0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getId()I
 
     .line 36
     .line 37
@@ -2214,7 +2381,8 @@ return-void
 
     .line 46
     :goto_1
-    sget-object v3, Landroidx/core/view/ViewCompat;->ACCESSIBILITY_ACTIONS_RESOURCE_IDS:[I
+    sget-object v3, Landroidx/core/view/ViewCompat;
+    ->ACCESSIBILITY_ACTIONS_RESOURCE_IDS:[I
 
     .line 47
     .line 48
@@ -2243,7 +2411,8 @@ return-void
 
     .line 58
     :goto_2
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 59
     .line 60
@@ -2255,7 +2424,8 @@ return-void
 
     .line 63
     .line 64
-    invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v5}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -2267,7 +2437,8 @@ return-void
 
     .line 69
     .line 70
-    invoke-virtual {v7}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getId()I
+    invoke-virtual {v7}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getId()I
 
     .line 71
     .line 72
@@ -2330,7 +2501,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getBackgroundTintList(Landroid/view/View;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getBackgroundTintList(Landroid/view/View;)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -2350,7 +2522,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getBackgroundTintMode(Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getBackgroundTintMode(Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -2373,7 +2546,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getClipBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getClipBounds()Landroid/graphics/Rect;
 
     .line 2
     .line 3
@@ -2393,7 +2567,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2408,7 +2583,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api29Impl;->getContentCaptureSession(Landroid/view/View;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api29Impl;
+    ->getContentCaptureSession(Landroid/view/View;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 9
     .line 10
@@ -2424,7 +2600,8 @@ return-void
 
     .line 15
     :cond_0
-    invoke-static {v0, p0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->toContentCaptureSessionCompat(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    invoke-static {v0, p0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->toContentCaptureSessionCompat(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
 
     .line 16
     .line 17
@@ -2451,7 +2628,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getDisplay()Landroid/view/Display;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getDisplay()Landroid/view/Display;
 
     .line 2
     .line 3
@@ -2469,7 +2647,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getElevation(Landroid/view/View;)F
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getElevation(Landroid/view/View;)F
 
     .line 2
     .line 3
@@ -2483,7 +2662,8 @@ return-void
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/core/view/ViewCompat;->sThreadLocalRect:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sThreadLocalRect:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
@@ -2495,21 +2675,25 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Landroidx/core/view/ViewCompat;->sThreadLocalRect:Ljava/lang/ThreadLocal;
+    sput-object v0, Landroidx/core/view/ViewCompat;
+    ->sThreadLocalRect:Ljava/lang/ThreadLocal;
 
     .line 11
     .line 12
     :cond_0
-    sget-object v0, Landroidx/core/view/ViewCompat;->sThreadLocalRect:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/core/view/ViewCompat;
+    ->sThreadLocalRect:Ljava/lang/ThreadLocal;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ThreadLocal;
+    ->get()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -2529,22 +2713,26 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 25
     .line 26
     .line 27
-    sget-object v1, Landroidx/core/view/ViewCompat;->sThreadLocalRect:Ljava/lang/ThreadLocal;
+    sget-object v1, Landroidx/core/view/ViewCompat;
+    ->sThreadLocalRect:Ljava/lang/ThreadLocal;
 
     .line 28
     .line 29
-    invoke-virtual {v1, v0}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+    invoke-virtual {v1, v0}, Ljava/lang/ThreadLocal;
+    ->set(Ljava/lang/Object;)V
 
     .line 30
     .line 31
     .line 32
     :cond_1
-    invoke-virtual {v0}, Landroid/graphics/Rect;->setEmpty()V
+    invoke-virtual {v0}, Landroid/graphics/Rect;
+    ->setEmpty()V
 
     .line 33
     .line 34
@@ -2576,7 +2764,8 @@ return-void
 
     .line 8
     :cond_0
-    sget-object p0, Landroidx/core/view/ViewCompat;->NO_OP_ON_RECEIVE_CONTENT_VIEW_BEHAVIOR:Landroidx/core/view/OnReceiveContentViewBehavior;
+    sget-object p0, Landroidx/core/view/ViewCompat;
+    ->NO_OP_ON_RECEIVE_CONTENT_VIEW_BEHAVIOR:Landroidx/core/view/OnReceiveContentViewBehavior;
 
     .line 9
     .line 10
@@ -2593,7 +2782,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getFitsSystemWindows()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getFitsSystemWindows()Z
 
     .line 2
     .line 3
@@ -2613,7 +2803,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getImportantForAccessibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getImportantForAccessibility()I
 
     .line 2
     .line 3
@@ -2636,7 +2827,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2648,7 +2840,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->getImportantForAutofill(Landroid/view/View;)I
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->getImportantForAutofill(Landroid/view/View;)I
 
     .line 8
     .line 9
@@ -2672,7 +2865,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2684,7 +2878,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api30Impl;->getImportantForContentCapture(Landroid/view/View;)I
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api30Impl;
+    ->getImportantForContentCapture(Landroid/view/View;)I
 
     .line 8
     .line 9
@@ -2710,7 +2905,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getLabelFor()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLabelFor()I
 
     .line 2
     .line 3
@@ -2726,7 +2922,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getLayerType()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayerType()I
 
     .line 2
     .line 3
@@ -2746,7 +2943,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutDirection()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutDirection()I
 
     .line 2
     .line 3
@@ -2765,7 +2963,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMatrix()Landroid/graphics/Matrix;
 
     .line 2
     .line 3
@@ -2781,7 +2980,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMeasuredHeightAndState()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMeasuredHeightAndState()I
 
     .line 2
     .line 3
@@ -2797,7 +2997,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 2
     .line 3
@@ -2813,7 +3014,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMeasuredWidthAndState()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMeasuredWidthAndState()I
 
     .line 2
     .line 3
@@ -2833,7 +3035,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMinimumHeight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMinimumHeight()I
 
     .line 2
     .line 3
@@ -2853,7 +3056,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMinimumWidth()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMinimumWidth()I
 
     .line 2
     .line 3
@@ -2871,7 +3075,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2883,7 +3088,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->getNextClusterForwardId(Landroid/view/View;)I
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->getNextClusterForwardId(Landroid/view/View;)I
 
     .line 8
     .line 9
@@ -2909,7 +3115,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2921,7 +3128,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api31Impl;->getReceiveContentMimeTypes(Landroid/view/View;)[Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api31Impl;
+    ->getReceiveContentMimeTypes(Landroid/view/View;)[Ljava/lang/String;
 
     .line 8
     .line 9
@@ -2932,11 +3140,13 @@ return-void
 
     .line 12
     :cond_0
-    sget v0, Landroidx/core/R$id;->tag_on_receive_content_mime_types:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_on_receive_content_mime_types:I
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -2957,7 +3167,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getOverScrollMode()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getOverScrollMode()I
 
     .line 2
     .line 3
@@ -2980,7 +3191,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingEnd()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingEnd()I
 
     .line 2
     .line 3
@@ -3003,7 +3215,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingStart()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingStart()I
 
     .line 2
     .line 3
@@ -3026,7 +3239,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getParentForAccessibility()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParentForAccessibility()Landroid/view/ViewParent;
 
     .line 2
     .line 3
@@ -3042,7 +3256,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getPivotX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPivotX()F
 
     .line 2
     .line 3
@@ -3058,7 +3273,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getPivotY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPivotY()F
 
     .line 2
     .line 3
@@ -3078,7 +3294,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3090,7 +3307,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api23Impl;->getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api23Impl;
+    ->getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 8
     .line 9
@@ -3101,7 +3319,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 13
     .line 14
@@ -3117,7 +3336,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getRotation()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRotation()F
 
     .line 2
     .line 3
@@ -3133,7 +3353,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getRotationX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRotationX()F
 
     .line 2
     .line 3
@@ -3149,7 +3370,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getRotationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRotationY()F
 
     .line 2
     .line 3
@@ -3165,7 +3387,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getScaleX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getScaleX()F
 
     .line 2
     .line 3
@@ -3181,7 +3404,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getScaleY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getScaleY()F
 
     .line 2
     .line 3
@@ -3199,7 +3423,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3211,7 +3436,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api23Impl;->getScrollIndicators(Landroid/view/View;)I
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api23Impl;
+    ->getScrollIndicators(Landroid/view/View;)I
 
     .line 8
     .line 9
@@ -3240,7 +3466,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->stateDescriptionProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->stateDescriptionProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -3248,7 +3475,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->get(Landroid/view/View;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->get(Landroid/view/View;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -3284,7 +3512,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3296,7 +3525,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api29Impl;->getSystemGestureExclusionRects(Landroid/view/View;)Ljava/util/List;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api29Impl;
+    ->getSystemGestureExclusionRects(Landroid/view/View;)Ljava/util/List;
 
     .line 8
     .line 9
@@ -3307,7 +3537,8 @@ return-void
 
     .line 12
     :cond_0
-    sget-object p0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+    sget-object p0, Ljava/util/Collections;
+    ->EMPTY_LIST:Ljava/util/List;
 
     .line 13
     .line 14
@@ -3324,7 +3555,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getTransitionName(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getTransitionName(Landroid/view/View;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -3340,7 +3572,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 2
     .line 3
@@ -3356,7 +3589,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 2
     .line 3
@@ -3374,7 +3608,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getTranslationZ(Landroid/view/View;)F
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getTranslationZ(Landroid/view/View;)F
 
     .line 2
     .line 3
@@ -3397,7 +3632,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3409,7 +3645,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api30Impl;->getWindowInsetsController(Landroid/view/View;)Landroidx/core/view/WindowInsetsControllerCompat;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api30Impl;
+    ->getWindowInsetsController(Landroid/view/View;)Landroidx/core/view/WindowInsetsControllerCompat;
 
     .line 8
     .line 9
@@ -3420,7 +3657,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 13
     .line 14
@@ -3452,7 +3690,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {v0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 28
     .line 29
@@ -3464,7 +3703,8 @@ return-void
 
     .line 32
     .line 33
-    invoke-static {v0, p0}, Landroidx/core/view/WindowCompat;->getInsetsController(Landroid/view/Window;Landroid/view/View;)Landroidx/core/view/WindowInsetsControllerCompat;
+    invoke-static {v0, p0}, Landroidx/core/view/WindowCompat;
+    ->getInsetsController(Landroid/view/Window;Landroid/view/View;)Landroidx/core/view/WindowInsetsControllerCompat;
 
     .line 34
     .line 35
@@ -3483,7 +3723,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {v0}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/ContextWrapper;
+    ->getBaseContext()Landroid/content/Context;
 
     .line 42
     .line 43
@@ -3508,7 +3749,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getWindowSystemUiVisibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getWindowSystemUiVisibility()I
 
     .line 2
     .line 3
@@ -3524,7 +3766,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getX()F
 
     .line 2
     .line 3
@@ -3540,7 +3783,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getY()F
 
     .line 2
     .line 3
@@ -3558,7 +3802,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getZ(Landroid/view/View;)F
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getZ(Landroid/view/View;)F
 
     .line 2
     .line 3
@@ -3576,7 +3821,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityDelegateInternal(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityDelegateInternal(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 2
     .line 3
@@ -3607,7 +3853,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3619,7 +3866,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->hasExplicitFocusable(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->hasExplicitFocusable(Landroid/view/View;)Z
 
     .line 8
     .line 9
@@ -3630,7 +3878,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->hasFocusable()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->hasFocusable()Z
 
     .line 13
     .line 14
@@ -3648,7 +3897,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->hasNestedScrollingParent(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->hasNestedScrollingParent(Landroid/view/View;)Z
 
     move-result p0
 
@@ -3670,7 +3920,8 @@ return-void
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingChild2;
 
-    invoke-interface {p0, p1}, Landroidx/core/view/NestedScrollingChild2;->hasNestedScrollingParent(I)Z
+    invoke-interface {p0, p1}, Landroidx/core/view/NestedScrollingChild2;
+    ->hasNestedScrollingParent(I)Z
 
     goto :goto_0
 
@@ -3678,7 +3929,8 @@ return-void
     if-nez p1, :cond_1
 
     .line 4
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->hasNestedScrollingParent(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->hasNestedScrollingParent(Landroid/view/View;)Z
 
     move-result p0
 
@@ -3701,7 +3953,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->hasOnClickListeners()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->hasOnClickListeners()Z
 
     .line 2
     .line 3
@@ -3721,7 +3974,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->hasOverlappingRendering()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->hasOverlappingRendering()Z
 
     .line 2
     .line 3
@@ -3741,7 +3995,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->hasTransientState()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->hasTransientState()Z
 
     .line 2
     .line 3
@@ -3761,7 +4016,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->accessibilityHeadingProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->accessibilityHeadingProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -3769,7 +4025,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->get(Landroid/view/View;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->get(Landroid/view/View;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -3785,7 +4042,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 14
     .line 15
@@ -3818,7 +4076,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isAttachedToWindow()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isAttachedToWindow()Z
 
     .line 2
     .line 3
@@ -3836,7 +4095,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3848,7 +4108,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->isFocusedByDefault(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->isFocusedByDefault(Landroid/view/View;)Z
 
     .line 8
     .line 9
@@ -3872,7 +4133,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->isImportantForAccessibility(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->isImportantForAccessibility(Landroid/view/View;)Z
 
     .line 2
     .line 3
@@ -3890,7 +4152,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3902,7 +4165,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->isImportantForAutofill(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->isImportantForAutofill(Landroid/view/View;)Z
 
     .line 8
     .line 9
@@ -3926,7 +4190,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3938,7 +4203,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api30Impl;->isImportantForContentCapture(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api30Impl;
+    ->isImportantForContentCapture(Landroid/view/View;)Z
 
     .line 8
     .line 9
@@ -3964,7 +4230,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isInLayout()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isInLayout()Z
 
     .line 2
     .line 3
@@ -3982,7 +4249,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3994,7 +4262,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->isKeyboardNavigationCluster(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->isKeyboardNavigationCluster(Landroid/view/View;)Z
 
     .line 8
     .line 9
@@ -4020,7 +4289,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isLaidOut()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isLaidOut()Z
 
     .line 2
     .line 3
@@ -4040,7 +4310,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isLayoutDirectionResolved()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isLayoutDirectionResolved()Z
 
     .line 2
     .line 3
@@ -4058,7 +4329,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->isNestedScrollingEnabled(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->isNestedScrollingEnabled(Landroid/view/View;)Z
 
     .line 2
     .line 3
@@ -4074,7 +4346,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isOpaque()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isOpaque()Z
 
     .line 2
     .line 3
@@ -4094,7 +4367,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isPaddingRelative()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isPaddingRelative()Z
 
     .line 2
     .line 3
@@ -4114,7 +4388,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->screenReaderFocusableProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->screenReaderFocusableProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -4122,7 +4397,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->get(Landroid/view/View;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->get(Landroid/view/View;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -4138,7 +4414,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 14
     .line 15
@@ -4167,7 +4444,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->jumpDrawablesToCurrentState()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->jumpDrawablesToCurrentState()V
 
     .line 2
     .line 3
@@ -4189,7 +4467,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -4201,7 +4480,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api26Impl;->keyboardNavigationClusterSearch(Landroid/view/View;Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->keyboardNavigationClusterSearch(Landroid/view/View;Landroid/view/View;I)Landroid/view/View;
 
     .line 8
     .line 9
@@ -4227,7 +4507,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -4239,7 +4520,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -4251,7 +4533,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityManager;->isEnabled()Z
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityManager;
+    ->isEnabled()Z
 
     .line 14
     .line 15
@@ -4267,7 +4550,8 @@ return-void
 
     .line 20
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
 
     .line 21
     .line 22
@@ -4279,7 +4563,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isShown()Z
 
     .line 27
     .line 28
@@ -4291,7 +4576,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p0}, Landroid/view/View;->getWindowVisibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getWindowVisibility()I
 
     .line 33
     .line 34
@@ -4314,7 +4600,8 @@ return-void
 
     .line 41
     :goto_0
-    invoke-virtual {p0}, Landroid/view/View;->getAccessibilityLiveRegion()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getAccessibilityLiveRegion()I
 
     .line 42
     .line 43
@@ -4342,7 +4629,8 @@ return-void
 
     .line 53
     .line 54
-    invoke-static {}, Landroid/view/accessibility/AccessibilityEvent;->obtain()Landroid/view/accessibility/AccessibilityEvent;
+    invoke-static {}, Landroid/view/accessibility/AccessibilityEvent;
+    ->obtain()Landroid/view/accessibility/AccessibilityEvent;
 
     .line 55
     .line 56
@@ -4350,32 +4638,38 @@ return-void
     move-result-object v1
 
     .line 58
-    invoke-virtual {p0, v1}, Landroid/view/View;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v1}, Landroid/view/View;
+    ->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v1, v3}, Landroid/view/accessibility/AccessibilityEvent;->setEventType(I)V
+    invoke-virtual {v1, v3}, Landroid/view/accessibility/AccessibilityEvent;
+    ->setEventType(I)V
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {v1, p1}, Landroid/view/accessibility/AccessibilityEvent;->setContentChangeTypes(I)V
+    invoke-virtual {v1, p1}, Landroid/view/accessibility/AccessibilityEvent;
+    ->setContentChangeTypes(I)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v1, p0}, Landroid/view/accessibility/AccessibilityRecord;->setSource(Landroid/view/View;)V
+    invoke-virtual {v1, p0}, Landroid/view/accessibility/AccessibilityRecord;
+    ->setSource(Landroid/view/View;)V
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {p0, v1}, Landroid/view/View;->onPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v1}, Landroid/view/View;
+    ->onPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
+    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getText()Ljava/util/List;
 
     .line 74
     .line 75
@@ -4383,7 +4677,8 @@ return-void
     move-result-object p1
 
     .line 77
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
 
     .line 78
     .line 79
@@ -4391,12 +4686,14 @@ return-void
     move-result-object p0
 
     .line 81
-    invoke-interface {p1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, p0}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityManager;->sendAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityManager;
+    ->sendAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 85
     .line 86
@@ -4405,7 +4702,8 @@ return-void
 
     .line 88
     :cond_3
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 89
     .line 90
@@ -4417,7 +4715,8 @@ return-void
 
     .line 93
     .line 94
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 95
     .line 96
@@ -4426,7 +4725,8 @@ return-void
 
     .line 98
     :try_start_0
-    invoke-interface {v0, p0, p0, p1}, Landroid/view/ViewParent;->notifySubtreeAccessibilityStateChanged(Landroid/view/View;Landroid/view/View;I)V
+    invoke-interface {v0, p0, p0, p1}, Landroid/view/ViewParent;
+    ->notifySubtreeAccessibilityStateChanged(Landroid/view/View;Landroid/view/View;I)V
     :try_end_0
     .catch Ljava/lang/AbstractMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4440,7 +4740,8 @@ return-void
     move-exception p1
 
     .line 103
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 104
     .line 105
@@ -4448,7 +4749,8 @@ return-void
     move-result-object p0
 
     .line 107
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 108
     .line 109
@@ -4456,7 +4758,8 @@ return-void
     move-result-object p0
 
     .line 111
-    invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 112
     .line 113
@@ -4468,7 +4771,8 @@ return-void
 
     .line 116
     .line 117
-    invoke-virtual {p0, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 118
     .line 119
@@ -4480,7 +4784,8 @@ return-void
 
     .line 122
     .line 123
-    invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 124
     .line 125
@@ -4492,7 +4797,8 @@ return-void
     .line 127
     :cond_5
     :goto_2
-    invoke-static {}, Landroid/view/accessibility/AccessibilityEvent;->obtain()Landroid/view/accessibility/AccessibilityEvent;
+    invoke-static {}, Landroid/view/accessibility/AccessibilityEvent;
+    ->obtain()Landroid/view/accessibility/AccessibilityEvent;
 
     .line 128
     .line 129
@@ -4513,12 +4819,14 @@ return-void
     .line 135
     .line 136
     :goto_3
-    invoke-virtual {v0, v3}, Landroid/view/accessibility/AccessibilityEvent;->setEventType(I)V
+    invoke-virtual {v0, v3}, Landroid/view/accessibility/AccessibilityEvent;
+    ->setEventType(I)V
 
     .line 137
     .line 138
     .line 139
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityEvent;->setContentChangeTypes(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityEvent;
+    ->setContentChangeTypes(I)V
 
     .line 140
     .line 141
@@ -4527,7 +4835,8 @@ return-void
 
     .line 143
     .line 144
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getText()Ljava/util/List;
 
     .line 145
     .line 146
@@ -4535,7 +4844,8 @@ return-void
     move-result-object p1
 
     .line 148
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityPaneTitle(Landroid/view/View;)Ljava/lang/CharSequence;
 
     .line 149
     .line 150
@@ -4543,18 +4853,21 @@ return-void
     move-result-object v1
 
     .line 152
-    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 153
     .line 154
     .line 155
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->setImportantForAccessibilityIfNeeded(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->setImportantForAccessibilityIfNeeded(Landroid/view/View;)V
 
     .line 156
     .line 157
     .line 158
     :cond_7
-    invoke-virtual {p0, v0}, Landroid/view/View;->sendAccessibilityEventUnchecked(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->sendAccessibilityEventUnchecked(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 159
     .line 160
@@ -4570,7 +4883,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -4582,7 +4896,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/view/View;->offsetLeftAndRight(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->offsetLeftAndRight(I)V
 
     .line 8
     .line 9
@@ -4591,7 +4906,8 @@ return-void
 
     .line 11
     :cond_0
-    invoke-static {}, Landroidx/core/view/ViewCompat;->getEmptyTempRect()Landroid/graphics/Rect;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->getEmptyTempRect()Landroid/graphics/Rect;
 
     .line 12
     .line 13
@@ -4599,7 +4915,8 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 16
     .line 17
@@ -4622,7 +4939,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v2}, Landroid/view/View;->getLeft()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getLeft()I
 
     .line 27
     .line 28
@@ -4630,7 +4948,8 @@ return-void
     move-result v3
 
     .line 30
-    invoke-virtual {v2}, Landroid/view/View;->getTop()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getTop()I
 
     .line 31
     .line 32
@@ -4638,7 +4957,8 @@ return-void
     move-result v4
 
     .line 34
-    invoke-virtual {v2}, Landroid/view/View;->getRight()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getRight()I
 
     .line 35
     .line 36
@@ -4646,7 +4966,8 @@ return-void
     move-result v5
 
     .line 38
-    invoke-virtual {v2}, Landroid/view/View;->getBottom()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getBottom()I
 
     .line 39
     .line 40
@@ -4654,12 +4975,14 @@ return-void
     move-result v2
 
     .line 42
-    invoke-virtual {v0, v3, v4, v5, v2}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v0, v3, v4, v5, v2}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p0}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLeft()I
 
     .line 46
     .line 47
@@ -4667,7 +4990,8 @@ return-void
     move-result v2
 
     .line 49
-    invoke-virtual {p0}, Landroid/view/View;->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTop()I
 
     .line 50
     .line 51
@@ -4675,7 +4999,8 @@ return-void
     move-result v3
 
     .line 53
-    invoke-virtual {p0}, Landroid/view/View;->getRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRight()I
 
     .line 54
     .line 55
@@ -4683,7 +5008,8 @@ return-void
     move-result v4
 
     .line 57
-    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBottom()I
 
     .line 58
     .line 59
@@ -4691,7 +5017,8 @@ return-void
     move-result v5
 
     .line 61
-    invoke-virtual {v0, v2, v3, v4, v5}, Landroid/graphics/Rect;->intersects(IIII)Z
+    invoke-virtual {v0, v2, v3, v4, v5}, Landroid/graphics/Rect;
+    ->intersects(IIII)Z
 
     .line 62
     .line 63
@@ -4711,7 +5038,8 @@ return-void
 
     .line 69
     :goto_0
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->compatOffsetLeftAndRight(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->compatOffsetLeftAndRight(Landroid/view/View;I)V
 
     .line 70
     .line 71
@@ -4720,7 +5048,8 @@ return-void
 
     .line 73
     .line 74
-    invoke-virtual {p0}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLeft()I
 
     .line 75
     .line 76
@@ -4728,7 +5057,8 @@ return-void
     move-result p1
 
     .line 78
-    invoke-virtual {p0}, Landroid/view/View;->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTop()I
 
     .line 79
     .line 80
@@ -4736,7 +5066,8 @@ return-void
     move-result v2
 
     .line 82
-    invoke-virtual {p0}, Landroid/view/View;->getRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRight()I
 
     .line 83
     .line 84
@@ -4744,7 +5075,8 @@ return-void
     move-result v3
 
     .line 86
-    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBottom()I
 
     .line 87
     .line 88
@@ -4752,7 +5084,8 @@ return-void
     move-result p0
 
     .line 90
-    invoke-virtual {v0, p1, v2, v3, p0}, Landroid/graphics/Rect;->intersect(IIII)Z
+    invoke-virtual {v0, p1, v2, v3, p0}, Landroid/graphics/Rect;
+    ->intersect(IIII)Z
 
     .line 91
     .line 92
@@ -4768,7 +5101,8 @@ return-void
 
     .line 97
     .line 98
-    invoke-virtual {v1, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;
+    ->invalidate(Landroid/graphics/Rect;)V
 
     .line 99
     .line 100
@@ -4785,7 +5119,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -4797,7 +5132,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/view/View;->offsetTopAndBottom(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->offsetTopAndBottom(I)V
 
     .line 8
     .line 9
@@ -4806,7 +5142,8 @@ return-void
 
     .line 11
     :cond_0
-    invoke-static {}, Landroidx/core/view/ViewCompat;->getEmptyTempRect()Landroid/graphics/Rect;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->getEmptyTempRect()Landroid/graphics/Rect;
 
     .line 12
     .line 13
@@ -4814,7 +5151,8 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 16
     .line 17
@@ -4837,7 +5175,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v2}, Landroid/view/View;->getLeft()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getLeft()I
 
     .line 27
     .line 28
@@ -4845,7 +5184,8 @@ return-void
     move-result v3
 
     .line 30
-    invoke-virtual {v2}, Landroid/view/View;->getTop()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getTop()I
 
     .line 31
     .line 32
@@ -4853,7 +5193,8 @@ return-void
     move-result v4
 
     .line 34
-    invoke-virtual {v2}, Landroid/view/View;->getRight()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getRight()I
 
     .line 35
     .line 36
@@ -4861,7 +5202,8 @@ return-void
     move-result v5
 
     .line 38
-    invoke-virtual {v2}, Landroid/view/View;->getBottom()I
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getBottom()I
 
     .line 39
     .line 40
@@ -4869,12 +5211,14 @@ return-void
     move-result v2
 
     .line 42
-    invoke-virtual {v0, v3, v4, v5, v2}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v0, v3, v4, v5, v2}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p0}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLeft()I
 
     .line 46
     .line 47
@@ -4882,7 +5226,8 @@ return-void
     move-result v2
 
     .line 49
-    invoke-virtual {p0}, Landroid/view/View;->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTop()I
 
     .line 50
     .line 51
@@ -4890,7 +5235,8 @@ return-void
     move-result v3
 
     .line 53
-    invoke-virtual {p0}, Landroid/view/View;->getRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRight()I
 
     .line 54
     .line 55
@@ -4898,7 +5244,8 @@ return-void
     move-result v4
 
     .line 57
-    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBottom()I
 
     .line 58
     .line 59
@@ -4906,7 +5253,8 @@ return-void
     move-result v5
 
     .line 61
-    invoke-virtual {v0, v2, v3, v4, v5}, Landroid/graphics/Rect;->intersects(IIII)Z
+    invoke-virtual {v0, v2, v3, v4, v5}, Landroid/graphics/Rect;
+    ->intersects(IIII)Z
 
     .line 62
     .line 63
@@ -4926,7 +5274,8 @@ return-void
 
     .line 69
     :goto_0
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->compatOffsetTopAndBottom(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->compatOffsetTopAndBottom(Landroid/view/View;I)V
 
     .line 70
     .line 71
@@ -4935,7 +5284,8 @@ return-void
 
     .line 73
     .line 74
-    invoke-virtual {p0}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLeft()I
 
     .line 75
     .line 76
@@ -4943,7 +5293,8 @@ return-void
     move-result p1
 
     .line 78
-    invoke-virtual {p0}, Landroid/view/View;->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTop()I
 
     .line 79
     .line 80
@@ -4951,7 +5302,8 @@ return-void
     move-result v2
 
     .line 82
-    invoke-virtual {p0}, Landroid/view/View;->getRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRight()I
 
     .line 83
     .line 84
@@ -4959,7 +5311,8 @@ return-void
     move-result v3
 
     .line 86
-    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBottom()I
 
     .line 87
     .line 88
@@ -4967,7 +5320,8 @@ return-void
     move-result p0
 
     .line 90
-    invoke-virtual {v0, p1, v2, v3, p0}, Landroid/graphics/Rect;->intersect(IIII)Z
+    invoke-virtual {v0, p1, v2, v3, p0}, Landroid/graphics/Rect;
+    ->intersect(IIII)Z
 
     .line 91
     .line 92
@@ -4983,7 +5337,8 @@ return-void
 
     .line 97
     .line 98
-    invoke-virtual {v1, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;
+    ->invalidate(Landroid/graphics/Rect;)V
 
     .line 99
     .line 100
@@ -5006,7 +5361,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 2
     .line 3
@@ -5018,7 +5374,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat$Api20Impl;->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat$Api20Impl;
+    ->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
 
     .line 8
     .line 9
@@ -5026,7 +5383,8 @@ return-void
     move-result-object v1
 
     .line 11
-    invoke-virtual {v1, v0}, Landroid/view/WindowInsets;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Landroid/view/WindowInsets;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -5038,7 +5396,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v1, p0}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {v1, p0}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 18
     .line 19
@@ -5058,7 +5417,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 2
     .line 3
@@ -5080,7 +5440,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 2
     .line 3
@@ -5088,7 +5449,8 @@ return-void
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Landroid/view/View;->onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 6
     .line 7
@@ -5102,7 +5464,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->onPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->onPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 2
     .line 3
@@ -5126,7 +5489,8 @@ return-void
 
     .line 2
     .line 3
-    sget v1, Landroidx/core/R$id;->tag_accessibility_pane_title:I
+    sget v1, Landroidx/core/R$id;
+    ->tag_accessibility_pane_title:I
 
     .line 4
     .line 5
@@ -5142,7 +5506,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v4, v2, v3}, Landroidx/core/view/ViewCompat$2;-><init>(ILjava/lang/Class;II)V
+    invoke-direct {v0, v1, v4, v2, v3}, Landroidx/core/view/ViewCompat$2;
+    -><init>(ILjava/lang/Class;II)V
 
     .line 12
     .line 13
@@ -5164,7 +5529,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->performAccessibilityAction(ILandroid/os/Bundle;)Z
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->performAccessibilityAction(ILandroid/os/Bundle;)Z
 
     .line 2
     .line 3
@@ -5182,7 +5548,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p1}, Landroidx/core/view/HapticFeedbackConstantsCompat;->getFeedbackConstantOrFallback(I)I
+    invoke-static {p1}, Landroidx/core/view/HapticFeedbackConstantsCompat;
+    ->getFeedbackConstantOrFallback(I)I
 
     move-result p1
 
@@ -5196,7 +5563,8 @@ return-void
 
     .line 2
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/view/View;->performHapticFeedback(I)Z
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->performHapticFeedback(I)Z
 
     move-result p0
 
@@ -5211,7 +5579,8 @@ return-void
     .end param
 
     .line 3
-    invoke-static {p1}, Landroidx/core/view/HapticFeedbackConstantsCompat;->getFeedbackConstantOrFallback(I)I
+    invoke-static {p1}, Landroidx/core/view/HapticFeedbackConstantsCompat;
+    ->getFeedbackConstantOrFallback(I)I
 
     move-result p1
 
@@ -5225,7 +5594,8 @@ return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->performHapticFeedback(II)Z
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->performHapticFeedback(II)Z
 
     move-result p0
 
@@ -5253,7 +5623,8 @@ return-void
     const/4 v1, 0x3
 
     .line 4
-    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 5
     .line 6
@@ -5273,12 +5644,14 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
@@ -5287,12 +5660,14 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 26
     .line 27
@@ -5300,7 +5675,8 @@ return-void
     move-result-object v2
 
     .line 29
-    invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -5308,7 +5684,8 @@ return-void
     move-result-object v2
 
     .line 33
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
@@ -5317,12 +5694,14 @@ return-void
 
     .line 37
     .line 38
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p0}, Landroid/view/View;->getId()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getId()I
 
     .line 42
     .line 43
@@ -5330,7 +5709,8 @@ return-void
     move-result v2
 
     .line 45
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -5339,12 +5719,14 @@ return-void
 
     .line 49
     .line 50
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 54
     .line 55
@@ -5352,13 +5734,15 @@ return-void
     move-result-object v1
 
     .line 57
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 58
     .line 59
     .line 60
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 61
     .line 62
@@ -5370,7 +5754,8 @@ return-void
 
     .line 65
     .line 66
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api31Impl;->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api31Impl;
+    ->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 67
     .line 68
@@ -5381,11 +5766,13 @@ return-void
 
     .line 71
     :cond_1
-    sget v0, Landroidx/core/R$id;->tag_on_receive_content_listener:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_on_receive_content_listener:I
 
     .line 72
     .line 73
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -5401,7 +5788,8 @@ return-void
 
     .line 80
     .line 81
-    invoke-interface {v0, p0, p1}, Landroidx/core/view/OnReceiveContentListener;->onReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-interface {v0, p0, p1}, Landroidx/core/view/OnReceiveContentListener;
+    ->onReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 82
     .line 83
@@ -5419,7 +5807,8 @@ return-void
 
     .line 89
     :cond_2
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getFallback(Landroid/view/View;)Landroidx/core/view/OnReceiveContentViewBehavior;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getFallback(Landroid/view/View;)Landroidx/core/view/OnReceiveContentViewBehavior;
 
     .line 90
     .line 91
@@ -5427,7 +5816,8 @@ return-void
     move-result-object p0
 
     .line 93
-    invoke-interface {p0, p1}, Landroidx/core/view/OnReceiveContentViewBehavior;->onReceiveContent(Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-interface {p0, p1}, Landroidx/core/view/OnReceiveContentViewBehavior;
+    ->onReceiveContent(Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 94
     .line 95
@@ -5438,7 +5828,8 @@ return-void
 
     .line 98
     :cond_3
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getFallback(Landroid/view/View;)Landroidx/core/view/OnReceiveContentViewBehavior;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getFallback(Landroid/view/View;)Landroidx/core/view/OnReceiveContentViewBehavior;
 
     .line 99
     .line 100
@@ -5446,7 +5837,8 @@ return-void
     move-result-object p0
 
     .line 102
-    invoke-interface {p0, p1}, Landroidx/core/view/OnReceiveContentViewBehavior;->onReceiveContent(Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-interface {p0, p1}, Landroidx/core/view/OnReceiveContentViewBehavior;
+    ->onReceiveContent(Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 103
     .line 104
@@ -5466,7 +5858,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->postInvalidateOnAnimation()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->postInvalidateOnAnimation()V
     return-void
 .end method
 
@@ -5480,7 +5873,8 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;->postInvalidateOnAnimation(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;
+    ->postInvalidateOnAnimation(IIII)V
 
     return-void
 .end method
@@ -5499,7 +5893,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->postOnAnimation(Ljava/lang/Runnable;)V
 
     .line 2
     .line 3
@@ -5527,7 +5922,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/view/View;->postOnAnimationDelayed(Ljava/lang/Runnable;J)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/view/View;
+    ->postOnAnimationDelayed(Ljava/lang/Runnable;J)V
 
     .line 2
     .line 3
@@ -5543,7 +5939,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p1, p0}, Landroidx/core/view/ViewCompat;->removeActionWithId(ILandroid/view/View;)V
+    invoke-static {p1, p0}, Landroidx/core/view/ViewCompat;
+    ->removeActionWithId(ILandroid/view/View;)V
 
     .line 2
     .line 3
@@ -5551,7 +5948,8 @@ return-void
     const/4 p1, 0x0
 
     .line 5
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->notifyViewAccessibilityStateChangedIfNeeded(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->notifyViewAccessibilityStateChangedIfNeeded(Landroid/view/View;I)V
 
     .line 6
     .line 7
@@ -5563,7 +5961,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;->getActionList(Landroid/view/View;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;
+    ->getActionList(Landroid/view/View;)Ljava/util/List;
 
     .line 2
     .line 3
@@ -5575,7 +5974,8 @@ return-void
 
     .line 6
     :goto_0
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 7
     .line 8
@@ -5587,7 +5987,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -5599,7 +6000,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getId()I
+    invoke-virtual {v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getId()I
 
     .line 19
     .line 20
@@ -5611,7 +6013,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-interface {p1, v0}, Ljava/util/List;->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;
+    ->remove(I)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -5643,7 +6046,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -5655,7 +6059,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;->removeOnUnhandledKeyEventListener(Landroid/view/View;Landroidx/core/view/ViewCompat$OnUnhandledKeyEventListenerCompat;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;
+    ->removeOnUnhandledKeyEventListener(Landroid/view/View;Landroidx/core/view/ViewCompat$OnUnhandledKeyEventListenerCompat;)V
 
     .line 8
     .line 9
@@ -5664,11 +6069,13 @@ return-void
 
     .line 11
     :cond_0
-    sget v0, Landroidx/core/R$id;->tag_unhandled_key_listeners:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_unhandled_key_listeners:I
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -5684,12 +6091,14 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 25
     .line 26
@@ -5701,7 +6110,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;->unregisterListeningView(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$UnhandledKeyEventManager;
+    ->unregisterListeningView(Landroid/view/View;)V
 
     .line 31
     .line 32
@@ -5738,7 +6148,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->getId()I
+    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->getId()I
 
     .line 6
     .line 7
@@ -5746,7 +6157,8 @@ return-void
     move-result p1
 
     .line 9
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->removeAccessibilityAction(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->removeAccessibilityAction(Landroid/view/View;I)V
 
     .line 10
     .line 11
@@ -5755,7 +6167,8 @@ return-void
 
     .line 13
     :cond_0
-    invoke-virtual {p1, p2, p3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;->createReplacementAction(Ljava/lang/CharSequence;Landroidx/core/view/accessibility/AccessibilityViewCommand;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    invoke-virtual {p1, p2, p3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
+    ->createReplacementAction(Ljava/lang/CharSequence;Landroidx/core/view/accessibility/AccessibilityViewCommand;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;
 
     .line 14
     .line 15
@@ -5763,7 +6176,8 @@ return-void
     move-result-object p1
 
     .line 17
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->addAccessibilityAction(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->addAccessibilityAction(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;)V
 
     .line 18
     .line 19
@@ -5779,7 +6193,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api20Impl;->requestApplyInsets(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api20Impl;
+    ->requestApplyInsets(Landroid/view/View;)V
 
     .line 2
     .line 3
@@ -5811,7 +6226,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -5823,7 +6239,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;->requireViewById(Landroid/view/View;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;
+    ->requireViewById(Landroid/view/View;I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -5839,7 +6256,8 @@ return-void
 
     .line 14
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -5863,7 +6281,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -5900,7 +6319,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/view/View;->resolveSizeAndState(III)I
+    invoke-static {p0, p1, p2}, Landroid/view/View;
+    ->resolveSizeAndState(III)I
 
     .line 2
     .line 3
@@ -5918,7 +6338,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -5930,7 +6351,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;->restoreDefaultFocus(Landroid/view/View;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->restoreDefaultFocus(Landroid/view/View;)Z
 
     .line 8
     .line 9
@@ -5941,7 +6363,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->requestFocus()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->requestFocus()Z
 
     .line 13
     .line 14
@@ -5981,7 +6404,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -5993,7 +6417,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static/range {p0 .. p6}, Landroidx/core/view/ViewCompat$Api29Impl;->saveAttributeDataForStyleable(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
+    invoke-static/range {p0 .. p6}, Landroidx/core/view/ViewCompat$Api29Impl;
+    ->saveAttributeDataForStyleable(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
 
     .line 8
     .line 9
@@ -6018,7 +6443,8 @@ return-void
 
     .line 2
     .line 3
-    sget v1, Landroidx/core/R$id;->tag_screen_reader_focusable:I
+    sget v1, Landroidx/core/R$id;
+    ->tag_screen_reader_focusable:I
 
     .line 4
     .line 5
@@ -6030,7 +6456,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3}, Landroidx/core/view/ViewCompat$1;-><init>(ILjava/lang/Class;I)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/core/view/ViewCompat$1;
+    -><init>(ILjava/lang/Class;I)V
 
     .line 10
     .line 11
@@ -6054,7 +6481,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getAccessibilityDelegateInternal(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getAccessibilityDelegateInternal(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 4
     .line 5
@@ -6074,13 +6502,15 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {p1}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
+    invoke-direct {p1}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->setImportantForAccessibilityIfNeeded(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->setImportantForAccessibilityIfNeeded(Landroid/view/View;)V
 
     .line 17
     .line 18
@@ -6096,7 +6526,8 @@ return-void
 
     .line 23
     :cond_1
-    invoke-virtual {p1}, Landroidx/core/view/AccessibilityDelegateCompat;->getBridge()Landroid/view/View$AccessibilityDelegate;
+    invoke-virtual {p1}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->getBridge()Landroid/view/View$AccessibilityDelegate;
 
     .line 24
     .line 25
@@ -6105,7 +6536,8 @@ return-void
 
     .line 27
     :goto_0
-    invoke-virtual {p0, p1}, Landroid/view/View;->setAccessibilityDelegate(Landroid/view/View$AccessibilityDelegate;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setAccessibilityDelegate(Landroid/view/View$AccessibilityDelegate;)V
 
     .line 28
     .line 29
@@ -6123,7 +6555,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->accessibilityHeadingProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->accessibilityHeadingProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -6131,7 +6564,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -6139,7 +6573,8 @@ return-void
     move-result-object p1
 
     .line 9
-    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->set(Landroid/view/View;Ljava/lang/Object;)V
+    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->set(Landroid/view/View;Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -6157,7 +6592,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setAccessibilityLiveRegion(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setAccessibilityLiveRegion(I)V
 
     .line 2
     .line 3
@@ -6179,7 +6615,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->paneTitleProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->paneTitleProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -6187,7 +6624,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->set(Landroid/view/View;Ljava/lang/Object;)V
+    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->set(Landroid/view/View;Ljava/lang/Object;)V
 
     .line 6
     .line 7
@@ -6196,11 +6634,13 @@ return-void
 
     .line 9
     .line 10
-    sget-object p1, Landroidx/core/view/ViewCompat;->sAccessibilityPaneVisibilityManager:Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
+    sget-object p1, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityPaneVisibilityManager:Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
 
     .line 11
     .line 12
-    invoke-virtual {p1, p0}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->addAccessibilityPane(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
+    ->addAccessibilityPane(Landroid/view/View;)V
 
     .line 13
     .line 14
@@ -6209,11 +6649,13 @@ return-void
 
     .line 16
     :cond_0
-    sget-object p1, Landroidx/core/view/ViewCompat;->sAccessibilityPaneVisibilityManager:Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
+    sget-object p1, Landroidx/core/view/ViewCompat;
+    ->sAccessibilityPaneVisibilityManager:Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
 
     .line 17
     .line 18
-    invoke-virtual {p1, p0}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->removeAccessibilityPane(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
+    ->removeAccessibilityPane(Landroid/view/View;)V
 
     .line 19
     .line 20
@@ -6227,7 +6669,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setActivated(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setActivated(Z)V
 
     .line 2
     .line 3
@@ -6247,7 +6690,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setAlpha(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setAlpha(F)V
 
     .line 2
     .line 3
@@ -6267,7 +6711,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -6279,7 +6724,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;->setAutofillHints(Landroid/view/View;[Ljava/lang/String;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->setAutofillHints(Landroid/view/View;[Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -6300,7 +6746,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -6312,7 +6759,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;->setAutofillId(Landroid/view/View;Landroidx/core/view/autofill/AutofillIdCompat;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api28Impl;
+    ->setAutofillId(Landroid/view/View;Landroidx/core/view/autofill/AutofillIdCompat;)V
 
     .line 8
     .line 9
@@ -6335,7 +6783,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 2
     .line 3
@@ -6355,11 +6804,13 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setBackgroundTintList(Landroid/view/View;Landroid/content/res/ColorStateList;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setBackgroundTintList(Landroid/view/View;Landroid/content/res/ColorStateList;)V
 
     .line 4
     .line 5
@@ -6372,7 +6823,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBackground()Landroid/graphics/drawable/Drawable;
 
     .line 11
     .line 12
@@ -6380,7 +6832,8 @@ return-void
     move-result-object p1
 
     .line 14
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getBackgroundTintList(Landroid/view/View;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getBackgroundTintList(Landroid/view/View;)Landroid/content/res/ColorStateList;
 
     .line 15
     .line 16
@@ -6392,7 +6845,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getBackgroundTintMode(Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getBackgroundTintMode(Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
 
     .line 21
     .line 22
@@ -6428,7 +6882,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->isStateful()Z
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;
+    ->isStateful()Z
 
     .line 35
     .line 36
@@ -6440,7 +6895,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p0}, Landroid/view/View;->getDrawableState()[I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getDrawableState()[I
 
     .line 41
     .line 42
@@ -6448,13 +6904,15 @@ return-void
     move-result-object v0
 
     .line 44
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setState([I)Z
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;
+    ->setState([I)Z
 
     .line 45
     .line 46
     .line 47
     :cond_2
-    invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 48
     .line 49
@@ -6475,11 +6933,13 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setBackgroundTintMode(Landroid/view/View;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setBackgroundTintMode(Landroid/view/View;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 4
     .line 5
@@ -6492,7 +6952,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBackground()Landroid/graphics/drawable/Drawable;
 
     .line 11
     .line 12
@@ -6500,7 +6961,8 @@ return-void
     move-result-object p1
 
     .line 14
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getBackgroundTintList(Landroid/view/View;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getBackgroundTintList(Landroid/view/View;)Landroid/content/res/ColorStateList;
 
     .line 15
     .line 16
@@ -6512,7 +6974,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->getBackgroundTintMode(Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->getBackgroundTintMode(Landroid/view/View;)Landroid/graphics/PorterDuff$Mode;
 
     .line 21
     .line 22
@@ -6548,7 +7011,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->isStateful()Z
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;
+    ->isStateful()Z
 
     .line 35
     .line 36
@@ -6560,7 +7024,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p0}, Landroid/view/View;->getDrawableState()[I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getDrawableState()[I
 
     .line 41
     .line 42
@@ -6568,13 +7033,15 @@ return-void
     move-result-object v0
 
     .line 44
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setState([I)Z
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;
+    ->setState([I)Z
 
     .line 45
     .line 46
     .line 47
     :cond_2
-    invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 48
     .line 49
@@ -6605,7 +7072,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object v3, Landroidx/core/view/ViewCompat;->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/view/ViewCompat;
+    ->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
 
     .line 6
     .line 7
@@ -6630,7 +7098,8 @@ return-void
 
     .line 16
     .line 17
-    sget-object v7, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -6638,7 +7107,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 22
     .line 23
@@ -6646,7 +7116,8 @@ return-void
     move-result-object v3
 
     .line 25
-    sput-object v3, Landroidx/core/view/ViewCompat;->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/core/view/ViewCompat;
+    ->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -6663,28 +7134,33 @@ return-void
 
     .line 30
     .line 31
-    invoke-static {v4, v5, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v5, v3}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 32
     .line 33
     .line 34
     :goto_0
-    sget-object v3, Landroidx/core/view/ViewCompat;->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/view/ViewCompat;
+    ->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
 
     .line 35
     .line 36
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 37
     .line 38
     .line 39
     :cond_0
     :try_start_1
-    sget-object v3, Landroidx/core/view/ViewCompat;->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/view/ViewCompat;
+    ->sChildrenDrawingOrderMethod:Ljava/lang/reflect/Method;
 
     .line 40
     .line 41
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 42
     .line 43
@@ -6700,7 +7176,8 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_3
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_2
@@ -6734,7 +7211,8 @@ return-void
 
     .line 59
     :goto_1
-    invoke-static {v4, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 60
     .line 61
@@ -6743,7 +7221,8 @@ return-void
 
     .line 63
     :goto_2
-    invoke-static {v4, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 64
     .line 65
@@ -6752,7 +7231,8 @@ return-void
 
     .line 67
     :goto_3
-    invoke-static {v4, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 68
     .line 69
@@ -6775,7 +7255,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setClipBounds(Landroid/graphics/Rect;)V
 
     .line 2
     .line 3
@@ -6795,7 +7276,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -6807,7 +7289,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api29Impl;->setContentCaptureSession(Landroid/view/View;Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api29Impl;
+    ->setContentCaptureSession(Landroid/view/View;Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;)V
 
     .line 8
     .line 9
@@ -6824,7 +7307,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setElevation(Landroid/view/View;F)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setElevation(Landroid/view/View;F)V
 
     .line 2
     .line 3
@@ -6838,7 +7322,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setFitsSystemWindows(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setFitsSystemWindows(Z)V
 
     .line 2
     .line 3
@@ -6854,7 +7339,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -6866,7 +7352,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;->setFocusedByDefault(Landroid/view/View;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->setFocusedByDefault(Landroid/view/View;Z)V
 
     .line 8
     .line 9
@@ -6885,7 +7372,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setHasTransientState(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setHasTransientState(Z)V
 
     .line 2
     .line 3
@@ -6906,7 +7394,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setImportantForAccessibility(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setImportantForAccessibility(I)V
 
     .line 2
     .line 3
@@ -6918,7 +7407,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getImportantForAccessibility()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getImportantForAccessibility()I
 
     .line 2
     .line 3
@@ -6933,7 +7423,8 @@ return-void
     const/4 v0, 0x1
 
     .line 8
-    invoke-virtual {p0, v0}, Landroid/view/View;->setImportantForAccessibility(I)V
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setImportantForAccessibility(I)V
 
     .line 9
     .line 10
@@ -6950,7 +7441,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -6962,7 +7454,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;->setImportantForAutofill(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->setImportantForAutofill(Landroid/view/View;I)V
 
     .line 8
     .line 9
@@ -6979,7 +7472,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -6991,7 +7485,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api30Impl;->setImportantForContentCapture(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api30Impl;
+    ->setImportantForContentCapture(Landroid/view/View;I)V
 
     .line 8
     .line 9
@@ -7008,7 +7503,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7020,7 +7516,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;->setKeyboardNavigationCluster(Landroid/view/View;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->setKeyboardNavigationCluster(Landroid/view/View;Z)V
 
     .line 8
     .line 9
@@ -7043,7 +7540,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setLabelFor(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setLabelFor(I)V
 
     .line 2
     .line 3
@@ -7065,7 +7563,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setLayerPaint(Landroid/graphics/Paint;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setLayerPaint(Landroid/graphics/Paint;)V
 
     .line 2
     .line 3
@@ -7079,7 +7578,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->setLayerType(ILandroid/graphics/Paint;)V
 
     .line 2
     .line 3
@@ -7097,7 +7597,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setLayoutDirection(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setLayoutDirection(I)V
 
     .line 2
     .line 3
@@ -7113,7 +7614,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setNestedScrollingEnabled(Landroid/view/View;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setNestedScrollingEnabled(Landroid/view/View;Z)V
 
     .line 2
     .line 3
@@ -7129,7 +7631,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7141,7 +7644,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;->setNextClusterForwardId(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->setNextClusterForwardId(Landroid/view/View;I)V
 
     .line 8
     .line 9
@@ -7162,7 +7666,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setOnApplyWindowInsetsListener(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setOnApplyWindowInsetsListener(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
 
     .line 2
     .line 3
@@ -7186,7 +7691,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7198,7 +7704,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api31Impl;->setOnReceiveContentListener(Landroid/view/View;[Ljava/lang/String;Landroidx/core/view/OnReceiveContentListener;)V
+    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api31Impl;
+    ->setOnReceiveContentListener(Landroid/view/View;[Ljava/lang/String;Landroidx/core/view/OnReceiveContentListener;)V
 
     .line 8
     .line 9
@@ -7252,7 +7759,8 @@ return-void
 
     .line 27
     .line 28
-    invoke-static {v2, v3}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v2, v3}, Landroidx/core/util/Preconditions;
+    ->checkArgument(ZLjava/lang/Object;)V
 
     .line 29
     .line 30
@@ -7281,7 +7789,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {v4, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     .line 42
     .line 43
@@ -7320,12 +7829,14 @@ return-void
 
     .line 56
     .line 57
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    invoke-static {p1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/util/Arrays;
+    ->toString([Ljava/lang/Object;)Ljava/lang/String;
 
     .line 61
     .line 62
@@ -7333,12 +7844,14 @@ return-void
     move-result-object v2
 
     .line 64
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -7346,26 +7859,31 @@ return-void
     move-result-object v1
 
     .line 71
-    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;
+    ->checkArgument(ZLjava/lang/Object;)V
 
     .line 72
     .line 73
     .line 74
     :cond_7
-    sget v0, Landroidx/core/R$id;->tag_on_receive_content_mime_types:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_on_receive_content_mime_types:I
 
     .line 75
     .line 76
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 77
     .line 78
     .line 79
-    sget p1, Landroidx/core/R$id;->tag_on_receive_content_listener:I
+    sget p1, Landroidx/core/R$id;
+    ->tag_on_receive_content_listener:I
 
     .line 80
     .line 81
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 82
     .line 83
@@ -7379,7 +7897,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setOverScrollMode(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setOverScrollMode(I)V
 
     .line 2
     .line 3
@@ -7413,7 +7932,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;->setPaddingRelative(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;
+    ->setPaddingRelative(IIII)V
 
     .line 2
     .line 3
@@ -7427,7 +7947,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setPivotX(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setPivotX(F)V
 
     .line 2
     .line 3
@@ -7441,7 +7962,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setPivotY(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setPivotY(F)V
 
     .line 2
     .line 3
@@ -7461,7 +7983,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7477,7 +8000,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/core/view/PointerIconCompat;->getPointerIcon()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/core/view/PointerIconCompat;
+    ->getPointerIcon()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -7493,7 +8017,8 @@ return-void
 
     .line 15
     :goto_0
-    invoke-static {p1}, Landroidx/core/os/a;->i(Ljava/lang/Object;)Landroid/view/PointerIcon;
+    invoke-static {p1}, Landroidx/core/os/a;
+    ->i(Ljava/lang/Object;)Landroid/view/PointerIcon;
 
     .line 16
     .line 17
@@ -7501,7 +8026,8 @@ return-void
     move-result-object p1
 
     .line 19
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api24Impl;->setPointerIcon(Landroid/view/View;Landroid/view/PointerIcon;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api24Impl;
+    ->setPointerIcon(Landroid/view/View;Landroid/view/PointerIcon;)V
 
     .line 20
     .line 21
@@ -7516,7 +8042,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setRotation(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setRotation(F)V
 
     .line 2
     .line 3
@@ -7530,7 +8057,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setRotationX(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setRotationX(F)V
 
     .line 2
     .line 3
@@ -7544,7 +8072,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setRotationY(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setRotationY(F)V
 
     .line 2
     .line 3
@@ -7558,7 +8087,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setSaveFromParentEnabled(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setSaveFromParentEnabled(Z)V
 
     .line 2
     .line 3
@@ -7572,7 +8102,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setScaleX(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setScaleX(F)V
 
     .line 2
     .line 3
@@ -7586,7 +8117,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setScaleY(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setScaleY(F)V
 
     .line 2
     .line 3
@@ -7604,7 +8136,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->screenReaderFocusableProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->screenReaderFocusableProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -7612,7 +8145,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -7620,7 +8154,8 @@ return-void
     move-result-object p1
 
     .line 9
-    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->set(Landroid/view/View;Ljava/lang/Object;)V
+    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->set(Landroid/view/View;Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -7636,14 +8171,16 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x17
 
     if-lt v0, v1, :cond_0
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api23Impl;->setScrollIndicators(Landroid/view/View;I)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api23Impl;
+    ->setScrollIndicators(Landroid/view/View;I)V
 
     :cond_0
     return-void
@@ -7657,14 +8194,16 @@ return-void
     .end param
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x17
 
     if-lt v0, v1, :cond_0
 
     .line 4
-    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api23Impl;->setScrollIndicators(Landroid/view/View;II)V
+    invoke-static {p0, p1, p2}, Landroidx/core/view/ViewCompat$Api23Impl;
+    ->setScrollIndicators(Landroid/view/View;II)V
 
     :cond_0
     return-void
@@ -7684,7 +8223,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewCompat;->stateDescriptionProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    invoke-static {}, Landroidx/core/view/ViewCompat;
+    ->stateDescriptionProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 
     .line 2
     .line 3
@@ -7692,7 +8232,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->set(Landroid/view/View;Ljava/lang/Object;)V
+    invoke-virtual {v0, p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    ->set(Landroid/view/View;Ljava/lang/Object;)V
 
     .line 6
     .line 7
@@ -7721,7 +8262,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7733,7 +8275,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api29Impl;->setSystemGestureExclusionRects(Landroid/view/View;Ljava/util/List;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api29Impl;
+    ->setSystemGestureExclusionRects(Landroid/view/View;Ljava/util/List;)V
 
     .line 8
     .line 9
@@ -7754,7 +8297,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7766,7 +8310,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api26Impl;
+    ->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 8
     .line 9
@@ -7787,7 +8332,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setTransitionName(Landroid/view/View;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setTransitionName(Landroid/view/View;Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -7801,7 +8347,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setTranslationX(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setTranslationX(F)V
 
     .line 2
     .line 3
@@ -7815,7 +8362,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setTranslationY(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setTranslationY(F)V
 
     .line 2
     .line 3
@@ -7831,7 +8379,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setTranslationZ(Landroid/view/View;F)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setTranslationZ(Landroid/view/View;F)V
 
     .line 2
     .line 3
@@ -7851,7 +8400,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/WindowInsetsAnimationCompat;->setCallback(Landroid/view/View;Landroidx/core/view/WindowInsetsAnimationCompat$Callback;)V
+    invoke-static {p0, p1}, Landroidx/core/view/WindowInsetsAnimationCompat;
+    ->setCallback(Landroid/view/View;Landroidx/core/view/WindowInsetsAnimationCompat$Callback;)V
 
     .line 2
     .line 3
@@ -7865,7 +8415,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setX(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setX(F)V
 
     .line 2
     .line 3
@@ -7879,7 +8430,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setY(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setY(F)V
 
     .line 2
     .line 3
@@ -7895,7 +8447,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->setZ(Landroid/view/View;F)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->setZ(Landroid/view/View;F)V
 
     .line 2
     .line 3
@@ -7923,7 +8476,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -7935,7 +8489,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat$Api24Impl;->startDragAndDrop(Landroid/view/View;Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewCompat$Api24Impl;
+    ->startDragAndDrop(Landroid/view/View;Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
 
     .line 8
     .line 9
@@ -7946,7 +8501,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;->startDrag(Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;
+    ->startDrag(Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
 
     .line 13
     .line 14
@@ -7964,7 +8520,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;->startNestedScroll(Landroid/view/View;I)Z
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->startNestedScroll(Landroid/view/View;I)Z
 
     move-result p0
 
@@ -7986,7 +8543,8 @@ return-void
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingChild2;
 
-    invoke-interface {p0, p1, p2}, Landroidx/core/view/NestedScrollingChild2;->startNestedScroll(II)Z
+    invoke-interface {p0, p1, p2}, Landroidx/core/view/NestedScrollingChild2;
+    ->startNestedScroll(II)Z
 
     move-result p0
 
@@ -7996,7 +8554,8 @@ return-void
     if-nez p2, :cond_1
 
     .line 4
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->startNestedScroll(Landroid/view/View;I)Z
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->startNestedScroll(Landroid/view/View;I)Z
 
     move-result p0
 
@@ -8024,7 +8583,8 @@ return-void
 
     .line 2
     .line 3
-    sget v1, Landroidx/core/R$id;->tag_state_description:I
+    sget v1, Landroidx/core/R$id;
+    ->tag_state_description:I
 
     .line 4
     .line 5
@@ -8040,7 +8600,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v4, v2, v3}, Landroidx/core/view/ViewCompat$3;-><init>(ILjava/lang/Class;II)V
+    invoke-direct {v0, v1, v4, v2, v3}, Landroidx/core/view/ViewCompat$3;
+    -><init>(ILjava/lang/Class;II)V
 
     .line 12
     .line 13
@@ -8056,7 +8617,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;->stopNestedScroll(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat$Api21Impl;
+    ->stopNestedScroll(Landroid/view/View;)V
 
     return-void
 .end method
@@ -8076,14 +8638,16 @@ return-void
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingChild2;
 
-    invoke-interface {p0, p1}, Landroidx/core/view/NestedScrollingChild2;->stopNestedScroll(I)V
+    invoke-interface {p0, p1}, Landroidx/core/view/NestedScrollingChild2;
+    ->stopNestedScroll(I)V
 return-void
 
     :cond_0
     if-nez p1, :cond_1
 
     .line 4
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->stopNestedScroll(Landroid/view/View;)V
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->stopNestedScroll(Landroid/view/View;)V
 
     :cond_1
     return-void
@@ -8093,7 +8657,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 2
     .line 3
@@ -8108,12 +8673,14 @@ return-void
     add-float/2addr v1, v0
 
     .line 8
-    invoke-virtual {p0, v1}, Landroid/view/View;->setTranslationY(F)V
+    invoke-virtual {p0, v1}, Landroid/view/View;
+    ->setTranslationY(F)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/view/View;->setTranslationY(F)V
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setTranslationY(F)V
 
     .line 12
     .line 13
@@ -8133,7 +8700,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -8145,7 +8713,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api24Impl;->updateDragShadow(Landroid/view/View;Landroid/view/View$DragShadowBuilder;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat$Api24Impl;
+    ->updateDragShadow(Landroid/view/View;Landroid/view/View$DragShadowBuilder;)V
 
     .line 8
     .line 9

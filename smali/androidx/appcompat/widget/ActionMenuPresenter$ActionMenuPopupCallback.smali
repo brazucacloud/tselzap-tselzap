@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter$ActionMenuPopupCallback;->this$0:Landroidx/appcompat/widget/ActionMenuPresenter;
+    iput-object p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter$ActionMenuPopupCallback;
+    ->this$0:Landroidx/appcompat/widget/ActionMenuPresenter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;-><init>()V
+    invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;
+    -><init>()V
     return-void
 .end method
 
@@ -37,11 +39,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActionMenuPresenter$ActionMenuPopupCallback;->this$0:Landroidx/appcompat/widget/ActionMenuPresenter;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActionMenuPresenter$ActionMenuPopupCallback;
+    ->this$0:Landroidx/appcompat/widget/ActionMenuPresenter;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/widget/ActionMenuPresenter;->mActionButtonPopup:Landroidx/appcompat/widget/ActionMenuPresenter$ActionButtonSubmenu;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActionMenuPresenter;
+    ->mActionButtonPopup:Landroidx/appcompat/widget/ActionMenuPresenter$ActionButtonSubmenu;
 
     .line 4
     .line 5
@@ -49,7 +53,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->getPopup()Landroidx/appcompat/view/menu/MenuPopup;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;
+    ->getPopup()Landroidx/appcompat/view/menu/MenuPopup;
 
     .line 8
     .line 9

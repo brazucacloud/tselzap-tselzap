@@ -18,7 +18,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +32,8 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;->close()V
+    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;
+    ->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -49,7 +51,8 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p0}, Ljava/io/Closeable;->close()V
+    invoke-interface {p0}, Ljava/io/Closeable;
+    ->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -79,7 +82,8 @@
     const/16 v1, 0x400
 
     .line 1
-    invoke-static {p0, p1, v0, v1}, Lcom/google/android/gms/common/util/IOUtils;->copyStream(Ljava/io/InputStream;Ljava/io/OutputStream;ZI)J
+    invoke-static {p0, p1, v0, v1}, Lcom/google/android/gms/common/util/IOUtils;
+    ->copyStream(Ljava/io/InputStream;Ljava/io/OutputStream;ZI)J
 
     move-result-wide p0
 
@@ -112,7 +116,8 @@
 
     .line 3
     :try_start_0
-    invoke-virtual {p0, v0, v3, p3}, Ljava/io/InputStream;->read([BII)I
+    invoke-virtual {p0, v0, v3, p3}, Ljava/io/InputStream;
+    ->read([BII)I
 
     move-result v4
 
@@ -125,7 +130,8 @@
     add-long/2addr v1, v5
 
     .line 4
-    invoke-virtual {p1, v0, v3, v4}, Ljava/io/OutputStream;->write([BII)V
+    invoke-virtual {p1, v0, v3, v4}, Ljava/io/OutputStream;
+    ->write([BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -140,10 +146,12 @@
     if-eqz p2, :cond_1
 
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/common/util/IOUtils;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {p0}, Lcom/google/android/gms/common/util/IOUtils;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 6
-    invoke-static {p1}, Lcom/google/android/gms/common/util/IOUtils;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/util/IOUtils;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     :cond_1
     return-wide v1
@@ -155,10 +163,12 @@
 
     .line 7
     :cond_2
-    invoke-static {p0}, Lcom/google/android/gms/common/util/IOUtils;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {p0}, Lcom/google/android/gms/common/util/IOUtils;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 8
-    invoke-static {p1}, Lcom/google/android/gms/common/util/IOUtils;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/util/IOUtils;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 9
     :goto_2
@@ -245,7 +255,8 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/util/IOUtils;->readInputStreamFully(Ljava/io/InputStream;Z)[B
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/util/IOUtils;
+    ->readInputStreamFully(Ljava/io/InputStream;Z)[B
 
     move-result-object p0
 
@@ -270,15 +281,18 @@
     .line 2
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
-    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
+    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;
+    -><init>()V
 
     const/16 v1, 0x400
 
     .line 3
-    invoke-static {p0, v0, p1, v1}, Lcom/google/android/gms/common/util/IOUtils;->copyStream(Ljava/io/InputStream;Ljava/io/OutputStream;ZI)J
+    invoke-static {p0, v0, p1, v1}, Lcom/google/android/gms/common/util/IOUtils;
+    ->copyStream(Ljava/io/InputStream;Ljava/io/OutputStream;ZI)J
 
     .line 4
-    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;
+    ->toByteArray()[B
 
     move-result-object p0
 
@@ -305,17 +319,20 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
+    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -329,7 +346,8 @@
     .line 15
     .line 16
     :goto_0
-    invoke-virtual {p0, v1}, Ljava/io/InputStream;->read([B)I
+    invoke-virtual {p0, v1}, Ljava/io/InputStream;
+    ->read([B)I
 
     .line 17
     .line 18
@@ -344,7 +362,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;
+    ->toByteArray()[B
 
     .line 24
     .line 25
@@ -358,7 +377,8 @@
     const/4 v3, 0x0
 
     .line 29
-    invoke-virtual {v0, v1, v3, v2}, Ljava/io/OutputStream;->write([BII)V
+    invoke-virtual {v0, v1, v3, v2}, Ljava/io/OutputStream;
+    ->write([BII)V
 
     .line 30
     .line 31

@@ -12,10 +12,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lu0/h;-><init>(Lu0/n;)V
+    invoke-direct {p0, p1}, Lu0/h;
+    -><init>(Lu0/n;)V
 
     .line 2
-    iput-object p2, p0, Lx0/f;->r:Landroid/graphics/RectF;
+    iput-object p2, p0, Lx0/f;
+    ->r:Landroid/graphics/RectF;
 
     return-void
 .end method
@@ -24,12 +26,15 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0, p1}, Lu0/h;-><init>(Lu0/h;)V
+    invoke-direct {p0, p1}, Lu0/h;
+    -><init>(Lu0/h;)V
 
     .line 4
-    iget-object p1, p1, Lx0/f;->r:Landroid/graphics/RectF;
+    iget-object p1, p1, Lx0/f;
+    ->r:Landroid/graphics/RectF;
 
-    iput-object p1, p0, Lx0/f;->r:Landroid/graphics/RectF;
+    iput-object p1, p0, Lx0/f;
+    ->r:Landroid/graphics/RectF;
 
     return-void
 .end method
@@ -44,16 +49,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lu0/j;-><init>(Lu0/h;)V
+    invoke-direct {v0, p0}, Lu0/j;
+    -><init>(Lu0/h;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p0, v0, Lx0/g;->H:Lx0/f;
+    iput-object p0, v0, Lx0/g;
+    ->H:Lx0/f;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lu0/j;->invalidateSelf()V
+    invoke-virtual {v0}, Lu0/j;
+    ->invalidateSelf()V
 
     .line 9
     .line 10

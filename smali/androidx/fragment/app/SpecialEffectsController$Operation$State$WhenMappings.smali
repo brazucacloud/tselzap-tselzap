@@ -22,7 +22,8 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->values()[Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    invoke-static {}, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->values()[Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
     move-result-object v0
 
@@ -31,9 +32,11 @@
     new-array v0, v0, [I
 
     :try_start_0
-    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->REMOVED:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->REMOVED:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -45,9 +48,11 @@
 
     :catch_0
     :try_start_1
-    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -59,9 +64,11 @@
 
     :catch_1
     :try_start_2
-    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -73,9 +80,11 @@
 
     :catch_2
     :try_start_3
-    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    sget-object v1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -86,7 +95,8 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
 
     :catch_3
-    sput-object v0, Landroidx/fragment/app/SpecialEffectsController$Operation$State$WhenMappings;->$EnumSwitchMapping$0:[I
+    sput-object v0, Landroidx/fragment/app/SpecialEffectsController$Operation$State$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

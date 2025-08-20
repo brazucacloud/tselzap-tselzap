@@ -11,7 +11,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzdd;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzdd;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +35,8 @@
 
     .line 2
     .line 3
-    sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v5, Ljava/util/concurrent/TimeUnit;
+    ->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 4
     .line 5
@@ -41,7 +44,8 @@
 
     .line 6
     .line 7
-    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
+    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingQueue;
+    -><init>()V
 
     .line 8
     .line 9
@@ -59,7 +63,8 @@
     move-object v7, p1
 
     .line 15
-    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;
+    -><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
 
     .line 16
     .line 17
@@ -67,12 +72,14 @@
     const/4 p1, 0x1
 
     .line 19
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ThreadPoolExecutor;
+    ->allowCoreThreadTimeOut(Z)V
 
     .line 20
     .line 21
     .line 22
-    invoke-static {v0}, Ljava/util/concurrent/Executors;->unconfigurableExecutorService(Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v0}, Ljava/util/concurrent/Executors;
+    ->unconfigurableExecutorService(Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/ExecutorService;
 
     .line 23
     .line 24

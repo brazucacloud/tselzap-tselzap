@@ -16,11 +16,14 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzhn;Ljava/lang/String;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhq;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhq;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
-    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzhq;->zzb:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzhq;
+    ->zzb:Ljava/lang/String;
 
     return-void
 .end method
@@ -30,11 +33,14 @@
 .method public final zza()Ljava/lang/Object;
     .locals 2
 
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhq;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhq;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
-    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzhq;->zzb:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzhq;
+    ->zzb:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzhn;->zza(Lcom/google/android/gms/internal/measurement/zzhn;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzhn;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzhn;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

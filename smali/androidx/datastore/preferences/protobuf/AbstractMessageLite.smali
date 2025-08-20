@@ -36,7 +36,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -44,7 +45,9 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->memoizedHashCode:I    return-void
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
+    ->memoizedHashCode:I    
+    return-void
 .end method
 
 .method public static addAll(Ljava/lang/Iterable;Ljava/util/Collection;)V
@@ -67,7 +70,8 @@
     .line 1
     check-cast p1, Ljava/util/List;
 
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    ->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
 return-void
 .end method
 
@@ -86,7 +90,8 @@ return-void
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    ->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
 return-void
 .end method
 
@@ -94,7 +99,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->isValidUtf8()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;
+    ->isValidUtf8()Z
 
     .line 2
     .line 3
@@ -114,7 +120,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -133,12 +140,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -146,7 +155,8 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -154,7 +164,8 @@ return-void
     move-result-object v1
 
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -163,12 +174,14 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
@@ -177,12 +190,14 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -202,7 +217,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -213,7 +229,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->getMemoizedSerializedSize()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
+    ->getMemoizedSerializedSize()I
 
     .line 2
     .line 3
@@ -228,7 +245,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-interface {p1, p0}, Landroidx/datastore/preferences/protobuf/Schema;->getSerializedSize(Ljava/lang/Object;)I
+    invoke-interface {p1, p0}, Landroidx/datastore/preferences/protobuf/Schema;
+    ->getSerializedSize(Ljava/lang/Object;)I
 
     .line 9
     .line 10
@@ -236,7 +254,9 @@ return-void
     move-result p1
 
     .line 12
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->setMemoizedSerializedSize(I)V    return p1
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
+    ->setMemoizedSerializedSize(I)V    
+    return p1
 
     .line 16
     :cond_0
@@ -251,7 +271,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;
+    -><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
 return-object v0
 .end method
 
@@ -263,7 +284,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -275,7 +297,8 @@ return-object v0
 
     .line 1
     :try_start_0
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;->getSerializedSize()I
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->getSerializedSize()I
 
     .line 2
     .line 3
@@ -287,7 +310,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->newInstance([B)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->newInstance([B)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 8
     .line 9
@@ -295,12 +319,14 @@ return-object v0
     move-result-object v1
 
     .line 11
-    invoke-interface {p0, v1}, Landroidx/datastore/preferences/protobuf/MessageLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-interface {p0, v1}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->checkNoSpaceLeft()V
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->checkNoSpaceLeft()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0    return-object v0
 
@@ -317,7 +343,8 @@ return-object v0
 
     .line 22
     .line 23
-    invoke-direct {p0, v2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->getSerializingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
+    ->getSerializingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -325,7 +352,8 @@ return-object v0
     move-result-object v2
 
     .line 27
-    invoke-direct {v1, v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, v2, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 28
     .line 29
@@ -337,7 +365,8 @@ return-object v0
 
     .line 1
     :try_start_0
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;->getSerializedSize()I
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->getSerializedSize()I
 
     .line 2
     .line 3
@@ -345,7 +374,8 @@ return-object v0
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->newCodedBuilder(I)Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
+    ->newCodedBuilder(I)Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;
 
     .line 6
     .line 7
@@ -353,7 +383,8 @@ return-object v0
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;->getCodedOutput()Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;
+    ->getCodedOutput()Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 10
     .line 11
@@ -361,12 +392,14 @@ return-object v0
     move-result-object v1
 
     .line 13
-    invoke-interface {p0, v1}, Landroidx/datastore/preferences/protobuf/MessageLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-interface {p0, v1}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;->build()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;
+    ->build()Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 17
     .line 18
@@ -390,7 +423,8 @@ return-object v0
 
     .line 25
     .line 26
-    invoke-direct {p0, v2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->getSerializingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
+    ->getSerializingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -398,7 +432,8 @@ return-object v0
     move-result-object v2
 
     .line 30
-    invoke-direct {v1, v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, v2, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 31
     .line 32
@@ -409,7 +444,8 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;->getSerializedSize()I
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->getSerializedSize()I
 
     .line 2
     .line 3
@@ -417,7 +453,8 @@ return-object v0
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeRawVarint32Size(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeRawVarint32Size(I)I
 
     .line 6
     .line 7
@@ -428,7 +465,8 @@ return-object v0
     add-int/2addr v1, v0
 
     .line 10
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computePreferredBufferSize(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computePreferredBufferSize(I)I
 
     .line 11
     .line 12
@@ -436,7 +474,8 @@ return-object v0
     move-result v1
 
     .line 14
-    invoke-static {p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->newInstance(Ljava/io/OutputStream;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    invoke-static {p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->newInstance(Ljava/io/OutputStream;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 15
     .line 16
@@ -444,17 +483,20 @@ return-object v0
     move-result-object p1
 
     .line 18
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeRawVarint32(I)V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {p0, p1}, Landroidx/datastore/preferences/protobuf/MessageLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-interface {p0, p1}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->flush()V
     return-void
 .end method
 
@@ -462,7 +504,8 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;->getSerializedSize()I
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->getSerializedSize()I
 
     .line 2
     .line 3
@@ -470,7 +513,8 @@ return-object v0
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computePreferredBufferSize(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computePreferredBufferSize(I)I
 
     .line 6
     .line 7
@@ -478,7 +522,8 @@ return-object v0
     move-result v0
 
     .line 9
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->newInstance(Ljava/io/OutputStream;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->newInstance(Ljava/io/OutputStream;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 10
     .line 11
@@ -486,12 +531,14 @@ return-object v0
     move-result-object p1
 
     .line 13
-    invoke-interface {p0, p1}, Landroidx/datastore/preferences/protobuf/MessageLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-interface {p0, p1}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->flush()V
     return-void
 .end method
 

@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -49,12 +50,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/arch/core/executor/a;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/arch/core/executor/a;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sMainThreadExecutor:Ljava/util/concurrent/Executor;
+    sput-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sMainThreadExecutor:Ljava/util/concurrent/Executor;
 
     .line 8
     .line 9
@@ -65,19 +68,22 @@
     const/4 v1, 0x1
 
     .line 12
-    invoke-direct {v0, v1}, Landroidx/arch/core/executor/a;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/arch/core/executor/a;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sIOThreadExecutor:Ljava/util/concurrent/Executor;    return-void
+    sput-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sIOThreadExecutor:Ljava/util/concurrent/Executor;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/arch/core/executor/TaskExecutor;-><init>()V
+    invoke-direct {p0}, Landroidx/arch/core/executor/TaskExecutor;
+    -><init>()V
 
     .line 2
     .line 3
@@ -86,23 +92,28 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/arch/core/executor/DefaultTaskExecutor;-><init>()V
+    invoke-direct {v0}, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDefaultTaskExecutor:Landroidx/arch/core/executor/TaskExecutor;
+    iput-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDefaultTaskExecutor:Landroidx/arch/core/executor/TaskExecutor;
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDelegate:Landroidx/arch/core/executor/TaskExecutor;    return-void
+    iput-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDelegate:Landroidx/arch/core/executor/TaskExecutor;    
+    return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/Runnable;)V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->lambda$static$0(Ljava/lang/Runnable;)V
+    invoke-static {p0}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->lambda$static$0(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -110,7 +121,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->lambda$static$1(Ljava/lang/Runnable;)V
+    invoke-static {p0}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->lambda$static$1(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -120,7 +132,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sIOThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
+    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sIOThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
 .end method
 
 .method public static getInstance()Landroidx/arch/core/executor/ArchTaskExecutor;
@@ -129,7 +142,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;
+    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;
 
     .line 2
     .line 3
@@ -137,7 +151,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;    return-object v0
+    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;    return-object v0
 
     .line 8
     :cond_0
@@ -149,7 +164,8 @@ return-void
 
     .line 11
     :try_start_0
-    sget-object v1, Landroidx/arch/core/executor/ArchTaskExecutor;->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;
+    sget-object v1, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;
 
     .line 12
     .line 13
@@ -161,12 +177,14 @@ return-void
 
     .line 16
     .line 17
-    invoke-direct {v1}, Landroidx/arch/core/executor/ArchTaskExecutor;-><init>()V
+    invoke-direct {v1}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    sput-object v1, Landroidx/arch/core/executor/ArchTaskExecutor;->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;
+    sput-object v1, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;
 
     .line 21
     .line 22
@@ -187,7 +205,8 @@ return-void
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 26
-    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;    return-object v0
+    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sInstance:Landroidx/arch/core/executor/ArchTaskExecutor;    return-object v0
 
     .line 29
     :goto_1
@@ -205,14 +224,16 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;->sMainThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
+    sget-object v0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->sMainThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
 .end method
 
 .method private static synthetic lambda$static$0(Ljava/lang/Runnable;)V
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/arch/core/executor/ArchTaskExecutor;->getInstance()Landroidx/arch/core/executor/ArchTaskExecutor;
+    invoke-static {}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->getInstance()Landroidx/arch/core/executor/ArchTaskExecutor;
 
     .line 2
     .line 3
@@ -220,7 +241,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->postToMainThread(Ljava/lang/Runnable;)V
     return-void
 .end method
 
@@ -228,7 +250,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/arch/core/executor/ArchTaskExecutor;->getInstance()Landroidx/arch/core/executor/ArchTaskExecutor;
+    invoke-static {}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->getInstance()Landroidx/arch/core/executor/ArchTaskExecutor;
 
     .line 2
     .line 3
@@ -236,7 +259,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->executeOnDiskIO(Ljava/lang/Runnable;)V
     return-void
 .end method
 
@@ -250,11 +274,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDelegate:Landroidx/arch/core/executor/TaskExecutor;
+    iget-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDelegate:Landroidx/arch/core/executor/TaskExecutor;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;
+    ->executeOnDiskIO(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -262,11 +288,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDelegate:Landroidx/arch/core/executor/TaskExecutor;
+    iget-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDelegate:Landroidx/arch/core/executor/TaskExecutor;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/arch/core/executor/TaskExecutor;->isMainThread()Z
+    invoke-virtual {v0}, Landroidx/arch/core/executor/TaskExecutor;
+    ->isMainThread()Z
 
     .line 4
     .line 5
@@ -284,11 +312,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDelegate:Landroidx/arch/core/executor/TaskExecutor;
+    iget-object v0, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDelegate:Landroidx/arch/core/executor/TaskExecutor;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;
+    ->postToMainThread(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -304,12 +334,15 @@ return-void
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDefaultTaskExecutor:Landroidx/arch/core/executor/TaskExecutor;
+    iget-object p1, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDefaultTaskExecutor:Landroidx/arch/core/executor/TaskExecutor;
 
     .line 4
     .line 5
     :cond_0
-    iput-object p1, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDelegate:Landroidx/arch/core/executor/TaskExecutor;    return-void
+    iput-object p1, p0, Landroidx/arch/core/executor/ArchTaskExecutor;
+    ->mDelegate:Landroidx/arch/core/executor/TaskExecutor;    
+    return-void
 .end method
 
 .end class

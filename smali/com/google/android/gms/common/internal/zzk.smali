@@ -57,9 +57,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zzl;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zzl;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zzl;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/zzk;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/internal/zzk;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -68,7 +70,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
     return-void
 .end method
 
@@ -101,15 +104,20 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/zzk;->zza:Landroid/os/Bundle;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zza:Landroid/os/Bundle;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/zzk;->zzb:[Lcom/google/android/gms/common/Feature;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zzb:[Lcom/google/android/gms/common/Feature;
 
-    iput p3, p0, Lcom/google/android/gms/common/internal/zzk;->zzc:I
+    iput p3, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zzc:I
 
-    iput-object p4, p0, Lcom/google/android/gms/common/internal/zzk;->zzd:Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    iput-object p4, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zzd:Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
 
     return-void
 .end method
@@ -120,7 +128,8 @@
     .locals 4
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -128,7 +137,8 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zzk;->zza:Landroid/os/Bundle;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zza:Landroid/os/Bundle;
 
     .line 6
     .line 7
@@ -138,7 +148,8 @@
     const/4 v3, 0x0
 
     .line 9
-    invoke-static {p1, v2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeBundle(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
+    invoke-static {p1, v2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeBundle(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
 
     .line 10
     .line 11
@@ -146,11 +157,13 @@
     const/4 v1, 0x2
 
     .line 13
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zzk;->zzb:[Lcom/google/android/gms/common/Feature;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zzb:[Lcom/google/android/gms/common/Feature;
 
     .line 14
     .line 15
-    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeTypedArray(Landroid/os/Parcel;I[Landroid/os/Parcelable;IZ)V
+    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeTypedArray(Landroid/os/Parcel;I[Landroid/os/Parcelable;IZ)V
 
     .line 16
     .line 17
@@ -158,11 +171,13 @@
     const/4 v1, 0x3
 
     .line 19
-    iget v2, p0, Lcom/google/android/gms/common/internal/zzk;->zzc:I
+    iget v2, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zzc:I
 
     .line 20
     .line 21
-    invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 22
     .line 23
@@ -170,16 +185,19 @@
     const/4 v1, 0x4
 
     .line 25
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zzk;->zzd:Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zzk;
+    ->zzd:Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
 
     .line 26
     .line 27
-    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v1, v2, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 31
     .line 32

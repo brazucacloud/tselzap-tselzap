@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/fragments/Settings_coder;->setupMethodSendSpinner(Landroid/view/View;)V
+    value = Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->setupMethodSendSpinner(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder$1;->this$0:Lcom/fmark/tselzap/fragments/Settings_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder$1;
+    ->this$0:Lcom/fmark/tselzap/fragments/Settings_coder;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -53,11 +56,13 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder$1;->this$0:Lcom/fmark/tselzap/fragments/Settings_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder$1;
+    ->this$0:Lcom/fmark/tselzap/fragments/Settings_coder;
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p1, p1, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 4
     .line 5
@@ -65,7 +70,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;->setInt(Ljava/lang/String;I)V
+    invoke-virtual {p1, p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setInt(Ljava/lang/String;I)V
 
     .line 8
     .line 9

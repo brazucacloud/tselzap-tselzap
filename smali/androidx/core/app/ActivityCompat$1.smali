@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+    value = Landroidx/core/app/ActivityCompat;
+    ->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,19 +36,23 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/app/ActivityCompat$1;->val$permissionsArray:[Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$permissionsArray:[Ljava/lang/String;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/app/ActivityCompat$1;->val$activity:Landroid/app/Activity;
+    iput-object p2, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$activity:Landroid/app/Activity;
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/core/app/ActivityCompat$1;->val$requestCode:I
+    iput p3, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$requestCode:I
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 8
     .line 9
@@ -61,7 +66,8 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$1;->val$permissionsArray:[Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$permissionsArray:[Ljava/lang/String;
 
     .line 2
     .line 3
@@ -72,11 +78,13 @@
 
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/core/app/ActivityCompat$1;->val$activity:Landroid/app/Activity;
+    iget-object v1, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$activity:Landroid/app/Activity;
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 9
     .line 10
@@ -84,11 +92,13 @@
     move-result-object v1
 
     .line 12
-    iget-object v2, p0, Landroidx/core/app/ActivityCompat$1;->val$activity:Landroid/app/Activity;
+    iget-object v2, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$activity:Landroid/app/Activity;
 
     .line 13
     .line 14
-    invoke-virtual {v2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v2}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -96,7 +106,8 @@
     move-result-object v2
 
     .line 18
-    iget-object v3, p0, Landroidx/core/app/ActivityCompat$1;->val$permissionsArray:[Ljava/lang/String;
+    iget-object v3, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$permissionsArray:[Ljava/lang/String;
 
     .line 19
     .line 20
@@ -111,7 +122,8 @@
 
     .line 23
     .line 24
-    iget-object v5, p0, Landroidx/core/app/ActivityCompat$1;->val$permissionsArray:[Ljava/lang/String;
+    iget-object v5, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$permissionsArray:[Ljava/lang/String;
 
     .line 25
     .line 26
@@ -119,7 +131,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v1, v5, v2}, Landroid/content/pm/PackageManager;->checkPermission(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {v1, v5, v2}, Landroid/content/pm/PackageManager;
+    ->checkPermission(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 29
     .line 30
@@ -139,7 +152,8 @@
 
     .line 37
     :cond_0
-    iget-object v1, p0, Landroidx/core/app/ActivityCompat$1;->val$activity:Landroid/app/Activity;
+    iget-object v1, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$activity:Landroid/app/Activity;
 
     .line 38
     .line 39
@@ -147,15 +161,18 @@
 
     .line 40
     .line 41
-    iget v2, p0, Landroidx/core/app/ActivityCompat$1;->val$requestCode:I
+    iget v2, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$requestCode:I
 
     .line 42
     .line 43
-    iget-object v3, p0, Landroidx/core/app/ActivityCompat$1;->val$permissionsArray:[Ljava/lang/String;
+    iget-object v3, p0, Landroidx/core/app/ActivityCompat$1;
+    ->val$permissionsArray:[Ljava/lang/String;
 
     .line 44
     .line 45
-    invoke-interface {v1, v2, v3, v0}, Landroidx/core/app/ActivityCompat$OnRequestPermissionsResultCallback;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+    invoke-interface {v1, v2, v3, v0}, Landroidx/core/app/ActivityCompat$OnRequestPermissionsResultCallback;
+    ->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
     .line 46
     .line 47

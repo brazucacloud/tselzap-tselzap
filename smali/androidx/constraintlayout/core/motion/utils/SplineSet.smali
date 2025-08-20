@@ -35,7 +35,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,7 +49,8 @@
 
     .line 7
     .line 8
-    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 9
     .line 10
@@ -56,7 +58,9 @@
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F    
+    return-void
 .end method
 
 .method public static makeCustomSpline(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;)Landroidx/constraintlayout/core/motion/utils/SplineSet;
@@ -67,7 +71,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSet;-><init>(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;)V
+    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSet;
+    -><init>(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;)V
 return-object v0
 .end method
 
@@ -79,7 +84,9 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSpline;-><init>(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomVar;)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSpline;
+    -><init>(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomVar;)V    
+    return-object v0
 .end method
 
 .method public static makeSpline(Ljava/lang/String;J)Landroidx/constraintlayout/core/motion/utils/SplineSet;
@@ -90,7 +97,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CoreSpline;-><init>(Ljava/lang/String;J)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CoreSpline;
+    -><init>(Ljava/lang/String;J)V
 return-object v0
 .end method
 
@@ -100,7 +108,8 @@ return-object v0
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
 
     .line 2
     .line 3
@@ -110,7 +119,8 @@ return-object v0
     const/4 p1, 0x0
 
     .line 5
-    invoke-virtual {v0, v1, v2, p1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;->getPos(DI)D
+    invoke-virtual {v0, v1, v2, p1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    ->getPos(DI)D
 
     .line 6
     .line 7
@@ -127,14 +137,16 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-object v0
 .end method
 
 .method public getSlope(F)F
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
 
     .line 2
     .line 3
@@ -144,7 +156,8 @@ return-object v0
     const/4 p1, 0x0
 
     .line 5
-    invoke-virtual {v0, v1, v2, p1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;->getSlope(DI)D
+    invoke-virtual {v0, v1, v2, p1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    ->getSlope(DI)D
 
     .line 6
     .line 7
@@ -161,14 +174,16 @@ return-object v0
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 2
     .line 3
     array-length v1, v0
 
     .line 4
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I
 
     .line 5
     .line 6
@@ -187,7 +202,8 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([II)[I
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->copyOf([II)[I
 
     .line 14
     .line 15
@@ -195,11 +211,13 @@ return-object v0
     move-result-object v0
 
     .line 17
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F
 
     .line 20
     .line 21
@@ -210,7 +228,8 @@ return-object v0
 
     .line 23
     .line 24
-    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([FI)[F
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->copyOf([FI)[F
 
     .line 25
     .line 26
@@ -218,16 +237,19 @@ return-object v0
     move-result-object v0
 
     .line 28
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F
 
     .line 29
     .line 30
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 31
     .line 32
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I
 
     .line 33
     .line 34
@@ -235,7 +257,8 @@ return-object v0
 
     .line 35
     .line 36
-    iget-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F
+    iget-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F
 
     .line 37
     .line 38
@@ -247,18 +270,22 @@ return-object v0
 
     .line 41
     .line 42
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I    
+    return-void
 .end method
 
 .method public setProperty(Landroidx/constraintlayout/core/motion/utils/TypedValues;F)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mType:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mType:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/constraintlayout/core/motion/utils/a;->a(Ljava/lang/String;)I
+    invoke-static {v0}, Landroidx/constraintlayout/core/motion/utils/a;
+    ->a(Ljava/lang/String;)I
 
     .line 4
     .line 5
@@ -266,7 +293,8 @@ return-object v0
     move-result v0
 
     .line 7
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->get(F)F
 
     .line 8
     .line 9
@@ -274,7 +302,8 @@ return-object v0
     move-result p2
 
     .line 11
-    invoke-interface {p1, v0, p2}, Landroidx/constraintlayout/core/motion/utils/TypedValues;->setValue(IF)Z
+    invoke-interface {p1, v0, p2}, Landroidx/constraintlayout/core/motion/utils/TypedValues;
+    ->setValue(IF)Z
 return-void
 .end method
 
@@ -282,14 +311,17 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mType:Ljava/lang/String;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mType:Ljava/lang/String;    
+    return-void
 .end method
 
 .method public setup(I)V
     .locals 9
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I
 
     .line 2
     .line 3
@@ -297,11 +329,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 7
     .line 8
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F
 
     .line 9
     .line 10
@@ -314,7 +348,8 @@ return-void
     const/4 v4, 0x0
 
     .line 13
-    invoke-static {v1, v2, v4, v0}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;->doubleQuickSort([I[FII)V
+    invoke-static {v1, v2, v4, v0}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;
+    ->doubleQuickSort([I[FII)V
 
     .line 14
     .line 15
@@ -326,7 +361,8 @@ return-void
 
     .line 18
     :goto_0
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I
 
     .line 19
     .line 20
@@ -334,7 +370,8 @@ return-void
 
     .line 21
     .line 22
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 23
     .line 24
@@ -386,11 +423,13 @@ return-void
 
     .line 45
     .line 46
-    sget-object v1, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
+    sget-object v1, Ljava/lang/Double;
+    ->TYPE:Ljava/lang/Class;
 
     .line 47
     .line 48
-    invoke-static {v1, v2}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+    invoke-static {v1, v2}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -409,7 +448,8 @@ return-void
 
     .line 56
     :goto_1
-    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I
+    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I
 
     .line 57
     .line 58
@@ -421,7 +461,8 @@ return-void
 
     .line 61
     .line 62
-    iget-object v5, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v5, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 63
     .line 64
@@ -445,7 +486,8 @@ return-void
 
     .line 73
     :cond_3
-    iget-object v5, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v5, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 74
     .line 75
@@ -475,7 +517,8 @@ return-void
 
     .line 88
     .line 89
-    iget-object v6, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F
+    iget-object v6, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F
 
     .line 90
     .line 91
@@ -503,7 +546,8 @@ return-void
 
     .line 101
     :cond_4
-    invoke-static {p1, v0, v1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;->get(I[D[[D)Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    invoke-static {p1, v0, v1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    ->get(I[D[[D)Landroidx/constraintlayout/core/motion/utils/CurveFit;
 
     .line 102
     .line 103
@@ -511,14 +555,17 @@ return-void
     move-result-object p1
 
     .line 105
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    
+    return-void
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mType:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mType:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -530,7 +577,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v1, v2}, Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/text/DecimalFormat;
+    -><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -539,7 +587,8 @@ return-void
 
     .line 11
     :goto_0
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCount:I
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCount:I
 
     .line 12
     .line 13
@@ -551,7 +600,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v0, v3}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v3}, LA/d;
+    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
@@ -559,7 +609,8 @@ return-void
     move-result-object v0
 
     .line 21
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mTimePoints:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mTimePoints:[I
 
     .line 22
     .line 23
@@ -567,7 +618,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
@@ -576,12 +628,14 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
     .line 33
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mValues:[F
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mValues:[F
 
     .line 34
     .line 35
@@ -592,7 +646,8 @@ return-void
     float-to-double v3, v3
 
     .line 38
-    invoke-virtual {v1, v3, v4}, Ljava/text/NumberFormat;->format(D)Ljava/lang/String;
+    invoke-virtual {v1, v3, v4}, Ljava/text/NumberFormat;
+    ->format(D)Ljava/lang/String;
 
     .line 39
     .line 40
@@ -600,7 +655,8 @@ return-void
     move-result-object v3
 
     .line 42
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
@@ -609,12 +665,14 @@ return-void
 
     .line 46
     .line 47
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
     .line 50
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 51
     .line 52

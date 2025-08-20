@@ -18,7 +18,8 @@
     .locals 2
 
     .line 1
-    sget-object v0, LE/o;->a:[C
+    sget-object v0, LE/o;
+    ->a:[C
 
     .line 2
     .line 3
@@ -29,12 +30,14 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-direct {v0, v1}, Ljava/util/ArrayDeque;-><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayDeque;
+    -><init>(I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, LE/f;->d:Ljava/util/ArrayDeque;
+    sput-object v0, LE/f;
+    ->d:Ljava/util/ArrayDeque;
 
     .line 10
     .line 11
@@ -47,11 +50,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lr/x;->available()I
+    invoke-virtual {v0}, Lr/x;
+    ->available()I
 
     .line 4
     .line 5
@@ -65,11 +70,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lr/x;->close()V
+    invoke-virtual {v0}, Lr/x;
+    ->close()V
 
     .line 4
     .line 5
@@ -81,11 +88,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lr/x;->mark(I)V
+    invoke-virtual {v0, p1}, Lr/x;
+    ->mark(I)V
 
     .line 4
     .line 5
@@ -97,11 +106,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -116,9 +127,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
-    invoke-virtual {v0}, Lr/x;->read()I
+    invoke-virtual {v0}, Lr/x;
+    ->read()I
 
     move-result v0
     :try_end_0
@@ -130,7 +143,8 @@
     move-exception v0
 
     .line 2
-    iput-object v0, p0, LE/f;->c:Ljava/io/IOException;
+    iput-object v0, p0, LE/f;
+    ->c:Ljava/io/IOException;
 
     .line 3
     throw v0
@@ -141,9 +155,11 @@
 
     .line 4
     :try_start_0
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
-    invoke-virtual {v0, p1}, Ljava/io/InputStream;->read([B)I
+    invoke-virtual {v0, p1}, Ljava/io/InputStream;
+    ->read([B)I
 
     move-result p1
     :try_end_0
@@ -155,7 +171,8 @@
     move-exception p1
 
     .line 5
-    iput-object p1, p0, LE/f;->c:Ljava/io/IOException;
+    iput-object p1, p0, LE/f;
+    ->c:Ljava/io/IOException;
 
     .line 6
     throw p1
@@ -166,9 +183,11 @@
 
     .line 7
     :try_start_0
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
-    invoke-virtual {v0, p1, p2, p3}, Lr/x;->read([BII)I
+    invoke-virtual {v0, p1, p2, p3}, Lr/x;
+    ->read([BII)I
 
     move-result p1
     :try_end_0
@@ -180,7 +199,8 @@
     move-exception p1
 
     .line 8
-    iput-object p1, p0, LE/f;->c:Ljava/io/IOException;
+    iput-object p1, p0, LE/f;
+    ->c:Ljava/io/IOException;
 
     .line 9
     throw p1
@@ -193,15 +213,18 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, LE/f;->c:Ljava/io/IOException;
+    iput-object v0, p0, LE/f;
+    ->c:Ljava/io/IOException;
 
     .line 3
     .line 4
-    iput-object v0, p0, LE/f;->b:Lr/x;
+    iput-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 5
     .line 6
-    sget-object v0, LE/f;->d:Ljava/util/ArrayDeque;
+    sget-object v0, LE/f;
+    ->d:Ljava/util/ArrayDeque;
 
     .line 7
     .line 8
@@ -209,7 +232,8 @@
 
     .line 9
     :try_start_0
-    invoke-virtual {v0, p0}, Ljava/util/ArrayDeque;->offer(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/util/ArrayDeque;
+    ->offer(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -245,11 +269,13 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 3
     .line 4
-    invoke-virtual {v0}, Lr/x;->reset()V
+    invoke-virtual {v0}, Lr/x;
+    ->reset()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -290,11 +316,13 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, LE/f;->b:Lr/x;
+    iget-object v0, p0, LE/f;
+    ->b:Lr/x;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lr/x;->skip(J)J
+    invoke-virtual {v0, p1, p2}, Lr/x;
+    ->skip(J)J
 
     .line 4
     .line 5
@@ -310,7 +338,8 @@
     move-exception p1
 
     .line 9
-    iput-object p1, p0, LE/f;->c:Ljava/io/IOException;
+    iput-object p1, p0, LE/f;
+    ->c:Ljava/io/IOException;
 
     .line 10
     .line 11

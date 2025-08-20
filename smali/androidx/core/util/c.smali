@@ -8,7 +8,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -20,7 +21,8 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-direct {v0, p0, p1, v1}, Landroidx/core/util/a;-><init>(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;I)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/core/util/a;
+    -><init>(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;I)V
 
     .line 8
     .line 9
@@ -39,7 +41,8 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, p0, v1}, Landroidx/core/util/b;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Landroidx/core/util/b;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 5
     .line 6
@@ -51,7 +54,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -63,7 +67,8 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-direct {v0, p0, p1, v1}, Landroidx/core/util/a;-><init>(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;I)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/core/util/a;
+    -><init>(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;I)V
 
     .line 8
     .line 9
@@ -75,7 +80,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p2}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p0, p2}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -87,7 +93,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p2}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p1, p2}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -114,7 +121,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -133,7 +141,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p2}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p0, p2}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -145,7 +154,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p2}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p1, p2}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -189,7 +199,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, v0}, Landroidx/core/content/e;-><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/core/content/e;
+    -><init>(I)V
 
     .line 8
     .line 9
@@ -205,7 +216,8 @@
     const/4 v1, 0x0
 
     .line 14
-    invoke-direct {v0, p0, v1}, Landroidx/core/util/b;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Landroidx/core/util/b;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 15
     .line 16
@@ -236,7 +248,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -250,12 +263,14 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-interface {p0}, Landroidx/core/util/Predicate;->negate()Landroidx/core/util/Predicate;
+    invoke-interface {p0}, Landroidx/core/util/Predicate;
+    ->negate()Landroidx/core/util/Predicate;
 
     .line 5
     .line 6

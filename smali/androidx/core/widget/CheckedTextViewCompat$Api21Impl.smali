@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckedTextView;->getCheckMarkTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/CheckedTextView;
+    ->getCheckMarkTintList()Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -61,7 +63,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckedTextView;->getCheckMarkTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/CheckedTextView;
+    ->getCheckMarkTintMode()Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -83,7 +86,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/CheckedTextView;->setCheckMarkTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroid/widget/CheckedTextView;
+    ->setCheckMarkTintList(Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -103,7 +107,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/CheckedTextView;->setCheckMarkTintMode(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-virtual {p0, p1}, Landroid/widget/CheckedTextView;
+    ->setCheckMarkTintMode(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3

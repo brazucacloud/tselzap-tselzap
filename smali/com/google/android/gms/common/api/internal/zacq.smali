@@ -14,9 +14,11 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zact;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacq;->zaa:Lcom/google/android/gms/common/api/internal/zact;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacq;
+    ->zaa:Lcom/google/android/gms/common/api/internal/zact;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -26,11 +28,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zacq;->zaa:Lcom/google/android/gms/common/api/internal/zact;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zacq;
+    ->zaa:Lcom/google/android/gms/common/api/internal/zact;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zact;->zac(Lcom/google/android/gms/common/api/internal/zact;)Lcom/google/android/gms/common/api/internal/zacs;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zact;
+    ->zac(Lcom/google/android/gms/common/api/internal/zact;)Lcom/google/android/gms/common/api/internal/zacs;
 
     .line 4
     .line 5
@@ -45,12 +49,14 @@
     const/4 v2, 0x4
 
     .line 10
-    invoke-direct {v1, v2}, Lcom/google/android/gms/common/ConnectionResult;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/google/android/gms/common/ConnectionResult;
+    -><init>(I)V
 
     .line 11
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Lcom/google/android/gms/common/api/internal/zacs;->zae(Lcom/google/android/gms/common/ConnectionResult;)V
+    invoke-interface {v0, v1}, Lcom/google/android/gms/common/api/internal/zacs;
+    ->zae(Lcom/google/android/gms/common/ConnectionResult;)V
 
     .line 14
     .line 15

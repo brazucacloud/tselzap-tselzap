@@ -25,16 +25,19 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;->mStartOffset:J
+    iput-wide p1, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;
+    ->mStartOffset:J
 
     .line 5
     .line 6
-    iput-wide p3, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;->mLength:J
+    iput-wide p3, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;
+    ->mLength:J
 
     .line 7
     .line 8
@@ -47,7 +50,8 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;->mLength:J
+    iget-wide v0, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;
+    ->mLength:J
 
     .line 2
     .line 3
@@ -58,7 +62,8 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;->mStartOffset:J
+    iget-wide v0, p0, Landroidx/emoji2/text/MetadataListReader$OffsetInfo;
+    ->mStartOffset:J
 
     .line 2
     .line 3

@@ -27,20 +27,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/android/volley/VolleyLog$MarkerLog$Marker;->name:Ljava/lang/String;
+    iput-object p1, p0, Lcom/android/volley/VolleyLog$MarkerLog$Marker;
+    ->name:Ljava/lang/String;
 
     .line 5
     .line 6
-    iput-wide p2, p0, Lcom/android/volley/VolleyLog$MarkerLog$Marker;->thread:J
+    iput-wide p2, p0, Lcom/android/volley/VolleyLog$MarkerLog$Marker;
+    ->thread:J
 
     .line 7
     .line 8
-    iput-wide p4, p0, Lcom/android/volley/VolleyLog$MarkerLog$Marker;->time:J
+    iput-wide p4, p0, Lcom/android/volley/VolleyLog$MarkerLog$Marker;
+    ->time:J
 
     .line 9
     .line 10

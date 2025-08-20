@@ -22,7 +22,8 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;->values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
+    invoke-static {}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
+    ->values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
 
     move-result-object v0
 
@@ -31,9 +32,11 @@
     new-array v0, v0, [I
 
     :try_start_0
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;->SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
+    ->SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -45,9 +48,11 @@
 
     :catch_0
     :try_start_1
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;->DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
+    ->DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -58,7 +63,8 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
     :catch_1
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1$WhenMappings;->$EnumSwitchMapping$0:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

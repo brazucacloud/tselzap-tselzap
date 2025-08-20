@@ -28,9 +28,11 @@
 
     new-instance v0, Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;
 
-    invoke-direct {v0}, Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;
+    -><init>()V
 
-    sput-object v0, Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;->INSTANCE:Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;
+    sput-object v0, Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;
+    ->INSTANCE:Landroidx/datastore/migrations/SharedPreferencesMigration$Api24Impl;
 
     return-void
 .end method
@@ -39,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -57,7 +60,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -66,12 +70,14 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroid/content/Context;->deleteSharedPreferences(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/content/Context;
+    ->deleteSharedPreferences(Ljava/lang/String;)Z
 
     .line 12
     .line 13

@@ -12,11 +12,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Le0/g;->a:Lcom/google/android/material/button/MaterialButtonToggleGroup;
+    iput-object p1, p0, Le0/g;
+    ->a:Lcom/google/android/material/button/MaterialButtonToggleGroup;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;
+    -><init>()V
 
     .line 4
     .line 5
@@ -30,16 +32,19 @@
     .locals 9
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 2
     .line 3
     .line 4
-    sget v0, Lcom/google/android/material/button/MaterialButtonToggleGroup;->q:I
+    sget v0, Lcom/google/android/material/button/MaterialButtonToggleGroup;
+    ->q:I
 
     .line 5
     .line 6
-    iget-object v0, p0, Le0/g;->a:Lcom/google/android/material/button/MaterialButtonToggleGroup;
+    iget-object v0, p0, Le0/g;
+    ->a:Lcom/google/android/material/button/MaterialButtonToggleGroup;
 
     .line 7
     .line 8
@@ -62,7 +67,8 @@
 
     .line 15
     :goto_0
-    invoke-virtual {v0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 16
     .line 17
@@ -74,7 +80,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 22
     .line 23
@@ -93,7 +100,8 @@
 
     .line 29
     :cond_1
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 30
     .line 31
@@ -109,7 +117,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 38
     .line 39
@@ -117,7 +126,8 @@
     move-result-object v3
 
     .line 41
-    invoke-virtual {v3}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v3}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 42
     .line 43
@@ -158,7 +168,8 @@
 
     .line 57
     .line 58
-    iget-boolean v8, p1, Lcom/google/android/material/button/MaterialButton;->m:Z
+    iget-boolean v8, p1, Lcom/google/android/material/button/MaterialButton;
+    ->m:Z
 
     .line 59
     .line 60
@@ -174,7 +185,8 @@
     const/4 v4, 0x1
 
     .line 64
-    invoke-static/range {v3 .. v8}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;->obtain(IIIIZZ)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;
+    invoke-static/range {v3 .. v8}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;
+    ->obtain(IIIIZZ)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;
 
     .line 65
     .line 66
@@ -182,7 +194,8 @@
     move-result-object p1
 
     .line 68
-    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionItemInfo(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setCollectionItemInfo(Ljava/lang/Object;)V
 
     .line 69
     .line 70

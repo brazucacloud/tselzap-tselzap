@@ -8,7 +8,8 @@
     .locals 4
 
     .line 1
-    invoke-interface {p0}, Landroid/view/Menu;->size()I
+    invoke-interface {p0}, Landroid/view/Menu;
+    ->size()I
 
     .line 2
     .line 3
@@ -27,7 +28,8 @@
 
     .line 8
     .line 9
-    invoke-interface {p0, v2}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p0, v2}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     .line 10
     .line 11
@@ -35,7 +37,8 @@
     move-result-object v3
 
     .line 13
-    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -76,7 +79,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/Menu;->size()I
+    invoke-interface {p0}, Landroid/view/Menu;
+    ->size()I
 
     .line 2
     .line 3
@@ -92,7 +96,8 @@
 
     .line 7
     .line 8
-    invoke-interface {p0, v1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p0, v1}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     .line 9
     .line 10
@@ -100,7 +105,8 @@
     move-result-object v2
 
     .line 12
-    invoke-interface {p1, v2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -128,7 +134,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/Menu;->size()I
+    invoke-interface {p0}, Landroid/view/Menu;
+    ->size()I
 
     .line 2
     .line 3
@@ -144,7 +151,8 @@
 
     .line 7
     .line 8
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 9
     .line 10
@@ -152,7 +160,8 @@
     move-result-object v2
 
     .line 12
-    invoke-interface {p0, v1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p0, v1}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     .line 13
     .line 14
@@ -160,7 +169,8 @@
     move-result-object v3
 
     .line 16
-    invoke-interface {p1, v2, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -180,7 +190,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p0, p1}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -206,7 +217,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/MenuKt$children$1;-><init>(Landroid/view/Menu;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/MenuKt$children$1;
+    -><init>(Landroid/view/Menu;)V
 
     .line 4
     .line 5
@@ -218,7 +230,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/Menu;->size()I
+    invoke-interface {p0}, Landroid/view/Menu;
+    ->size()I
 
     .line 2
     .line 3
@@ -232,7 +245,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/Menu;->size()I
+    invoke-interface {p0}, Landroid/view/Menu;
+    ->size()I
 
     .line 2
     .line 3
@@ -259,7 +273,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/Menu;->size()I
+    invoke-interface {p0}, Landroid/view/Menu;
+    ->size()I
 
     .line 2
     .line 3
@@ -300,7 +315,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/MenuKt$iterator$1;-><init>(Landroid/view/Menu;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/MenuKt$iterator$1;
+    -><init>(Landroid/view/Menu;)V
 
     .line 4
     .line 5
@@ -312,7 +328,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
+    invoke-interface {p1}, Landroid/view/MenuItem;
+    ->getItemId()I
 
     .line 2
     .line 3
@@ -320,7 +337,8 @@
     move-result p1
 
     .line 5
-    invoke-interface {p0, p1}, Landroid/view/Menu;->removeItem(I)V
+    invoke-interface {p0, p1}, Landroid/view/Menu;
+    ->removeItem(I)V
 
     .line 6
     .line 7
@@ -332,7 +350,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p0, p1}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -344,7 +363,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
+    invoke-interface {p1}, Landroid/view/MenuItem;
+    ->getItemId()I
 
     .line 8
     .line 9
@@ -352,12 +372,14 @@
     move-result p1
 
     .line 11
-    invoke-interface {p0, p1}, Landroid/view/Menu;->removeItem(I)V
+    invoke-interface {p0, p1}, Landroid/view/Menu;
+    ->removeItem(I)V
 
     .line 12
     .line 13
     .line 14
-    sget-object p0, Lc1/v;->a:Lc1/v;
+    sget-object p0, Lc1/v;
+    ->a:Lc1/v;
 
     .line 15
     .line 16
@@ -381,7 +403,8 @@
 
     .line 22
     .line 23
-    invoke-direct {p0}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>()V
 
     .line 24
     .line 25

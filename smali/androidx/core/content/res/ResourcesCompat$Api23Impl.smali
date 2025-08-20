@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;->getColor(ILandroid/content/res/Resources$Theme;)I
+    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;
+    ->getColor(ILandroid/content/res/Resources$Theme;)I
 
     .line 2
     .line 3
@@ -68,7 +70,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;->getColorStateList(ILandroid/content/res/Resources$Theme;)Landroid/content/res/ColorStateList;
+    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;
+    ->getColorStateList(ILandroid/content/res/Resources$Theme;)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3

@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/service/zaf;-><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/service/zaf;
+    -><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
 
     .line 2
     .line 3
@@ -26,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->getService()Landroid/os/IInterface;
 
     .line 4
     .line 5
@@ -42,12 +44,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/service/zad;-><init>(Lcom/google/android/gms/common/api/internal/BaseImplementation$ResultHolder;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/service/zad;
+    -><init>(Lcom/google/android/gms/common/api/internal/BaseImplementation$ResultHolder;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/internal/service/zal;->zae(Lcom/google/android/gms/common/internal/service/zak;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/internal/service/zal;
+    ->zae(Lcom/google/android/gms/common/internal/service/zak;)V
 
     .line 15
     .line 16

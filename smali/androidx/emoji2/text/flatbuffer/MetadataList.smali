@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/flatbuffer/Table;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/flatbuffer/Table;
+    -><init>()V
 
     .line 2
     .line 3
@@ -28,7 +29,8 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Landroidx/emoji2/text/flatbuffer/Constants;->FLATBUFFERS_1_12_0()V
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/Constants;
+    ->FLATBUFFERS_1_12_0()V
 
     .line 2
     .line 3
@@ -40,7 +42,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/emoji2/text/flatbuffer/Table;->__indirect(ILjava/nio/ByteBuffer;)I
+    invoke-static {p0, p1}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__indirect(ILjava/nio/ByteBuffer;)I
 
     .line 2
     .line 3
@@ -60,7 +63,8 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-virtual {p0, v0, p1, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addOffset(III)V
+    invoke-virtual {p0, v0, p1, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->addOffset(III)V
 
     .line 4
     .line 5
@@ -78,7 +82,8 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-virtual {p0, v0, p1, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addOffset(III)V
+    invoke-virtual {p0, v0, p1, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->addOffset(III)V
 
     .line 4
     .line 5
@@ -93,7 +98,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addInt(III)V
+    invoke-virtual {p0, v0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->addInt(III)V
 
     .line 3
     .line 4
@@ -111,7 +117,8 @@
     const/4 v1, 0x4
 
     .line 3
-    invoke-virtual {p0, v1, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->startVector(III)V
+    invoke-virtual {p0, v1, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->startVector(III)V
 
     .line 4
     .line 5
@@ -132,7 +139,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addOffset(I)V
+    invoke-virtual {p0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->addOffset(I)V
 
     .line 14
     .line 15
@@ -145,7 +153,8 @@
 
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->endVector()I
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->endVector()I
 
     .line 20
     .line 21
@@ -162,27 +171,32 @@
     const/4 v0, 0x3
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->startTable(I)V
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->startTable(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-static {p0, p3}, Landroidx/emoji2/text/flatbuffer/MetadataList;->addSourceSha(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;I)V
+    invoke-static {p0, p3}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->addSourceSha(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;I)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p0, p2}, Landroidx/emoji2/text/flatbuffer/MetadataList;->addList(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;I)V
+    invoke-static {p0, p2}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->addList(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;I)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/emoji2/text/flatbuffer/MetadataList;->addVersion(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;I)V
+    invoke-static {p0, p1}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->addVersion(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/MetadataList;->endMetadataList(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;)I
+    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->endMetadataList(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;)I
 
     .line 15
     .line 16
@@ -196,7 +210,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->endTable()I
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->endTable()I
 
     .line 2
     .line 3
@@ -210,7 +225,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finish(I)V
+    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->finish(I)V
 
     .line 2
     .line 3
@@ -222,7 +238,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finishSizePrefixed(I)V
+    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->finishSizePrefixed(I)V
 
     .line 2
     .line 3
@@ -236,9 +253,11 @@
     .line 1
     new-instance v0, Landroidx/emoji2/text/flatbuffer/MetadataList;
 
-    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;-><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    -><init>()V
 
-    invoke-static {p0, v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;->getRootAsMetadataList(Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/MetadataList;)Landroidx/emoji2/text/flatbuffer/MetadataList;
+    invoke-static {p0, v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->getRootAsMetadataList(Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/MetadataList;)Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     move-result-object p0
 
@@ -249,25 +268,31 @@
     .locals 2
 
     .line 2
-    sget-object v0, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
+    sget-object v0, Ljava/nio/ByteOrder;
+    ->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
+    ->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;
+    ->position()I
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->getInt(I)I
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
+    ->getInt(I)I
 
     move-result v0
 
-    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;
+    ->position()I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-virtual {p1, v1, p0}, Landroidx/emoji2/text/flatbuffer/MetadataList;->__assign(ILjava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataList;
+    invoke-virtual {p1, v1, p0}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->__assign(ILjava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataList;
 
     move-result-object p0
 
@@ -281,7 +306,8 @@
     const/4 v0, 0x4
 
     .line 2
-    invoke-virtual {p0, v0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->startVector(III)V
+    invoke-virtual {p0, v0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->startVector(III)V
 
     .line 3
     .line 4
@@ -296,7 +322,8 @@
     const/4 v0, 0x3
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->startTable(I)V
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;
+    ->startTable(I)V
 
     .line 3
     .line 4
@@ -310,7 +337,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/MetadataList;->__init(ILjava/nio/ByteBuffer;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->__init(ILjava/nio/ByteBuffer;)V
 
     .line 2
     .line 3
@@ -322,7 +350,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Table;->__reset(ILjava/nio/ByteBuffer;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__reset(ILjava/nio/ByteBuffer;)V
 
     .line 2
     .line 3
@@ -336,9 +365,11 @@
     .line 1
     new-instance v0, Landroidx/emoji2/text/flatbuffer/MetadataItem;
 
-    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/MetadataItem;-><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/MetadataItem;
+    -><init>()V
 
-    invoke-virtual {p0, v0, p1}, Landroidx/emoji2/text/flatbuffer/MetadataList;->list(Landroidx/emoji2/text/flatbuffer/MetadataItem;I)Landroidx/emoji2/text/flatbuffer/MetadataItem;
+    invoke-virtual {p0, v0, p1}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->list(Landroidx/emoji2/text/flatbuffer/MetadataItem;I)Landroidx/emoji2/text/flatbuffer/MetadataItem;
 
     move-result-object p1
 
@@ -351,13 +382,15 @@
     const/4 v0, 0x6
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__offset(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__offset(I)I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__vector(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__vector(I)I
 
     move-result v0
 
@@ -365,13 +398,16 @@
 
     add-int/2addr p2, v0
 
-    invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/Table;->__indirect(I)I
+    invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__indirect(I)I
 
     move-result p2
 
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/Table;->bb:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/Table;
+    ->bb:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {p1, p2, v0}, Landroidx/emoji2/text/flatbuffer/MetadataItem;->__assign(ILjava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataItem;
+    invoke-virtual {p1, p2, v0}, Landroidx/emoji2/text/flatbuffer/MetadataItem;
+    ->__assign(ILjava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataItem;
 
     move-result-object p1
 
@@ -390,7 +426,8 @@
     const/4 v0, 0x6
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__offset(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__offset(I)I
 
     .line 3
     .line 4
@@ -402,7 +439,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__vector_len(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__vector_len(I)I
 
     .line 9
     .line 10
@@ -424,9 +462,11 @@
     .line 1
     new-instance v0, Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
 
-    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;-><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
+    -><init>()V
 
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;->listVector(Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;)Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/MetadataList;
+    ->listVector(Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;)Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
 
     move-result-object v0
 
@@ -439,21 +479,25 @@
     const/4 v0, 0x6
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__offset(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__offset(I)I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__vector(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__vector(I)I
 
     move-result v0
 
     const/4 v1, 0x4
 
-    iget-object v2, p0, Landroidx/emoji2/text/flatbuffer/Table;->bb:Ljava/nio/ByteBuffer;
+    iget-object v2, p0, Landroidx/emoji2/text/flatbuffer/Table;
+    ->bb:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {p1, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;->__assign(IILjava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
+    invoke-virtual {p1, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
+    ->__assign(IILjava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
 
     move-result-object p1
 
@@ -473,7 +517,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__offset(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__offset(I)I
 
     .line 4
     .line 5
@@ -485,14 +530,16 @@
 
     .line 8
     .line 9
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/Table;->bb_pos:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/Table;
+    ->bb_pos:I
 
     .line 10
     .line 11
     add-int/2addr v0, v1
 
     .line 12
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__string(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__string(I)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -519,7 +566,8 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/Table;->__vector_as_bytebuffer(II)Ljava/nio/ByteBuffer;
+    invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__vector_as_bytebuffer(II)Ljava/nio/ByteBuffer;
 
     .line 5
     .line 6
@@ -540,7 +588,8 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-virtual {p0, p1, v0, v1}, Landroidx/emoji2/text/flatbuffer/Table;->__vector_in_bytebuffer(Ljava/nio/ByteBuffer;II)Ljava/nio/ByteBuffer;
+    invoke-virtual {p0, p1, v0, v1}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__vector_in_bytebuffer(Ljava/nio/ByteBuffer;II)Ljava/nio/ByteBuffer;
 
     .line 5
     .line 6
@@ -557,7 +606,8 @@
     const/4 v0, 0x4
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;->__offset(I)I
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->__offset(I)I
 
     .line 3
     .line 4
@@ -569,18 +619,21 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/Table;->bb:Ljava/nio/ByteBuffer;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/Table;
+    ->bb:Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/Table;->bb_pos:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/Table;
+    ->bb_pos:I
 
     .line 11
     .line 12
     add-int/2addr v0, v2
 
     .line 13
-    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->getInt(I)I
+    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;
+    ->getInt(I)I
 
     .line 14
     .line 15

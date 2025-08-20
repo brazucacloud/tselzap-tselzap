@@ -12,14 +12,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lg0/e;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iput-object p1, p0, Lg0/e;
+    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Lg0/f;-><init>(I)V
+    invoke-direct {p0, p1}, Lg0/f;
+    -><init>(I)V
 
     .line 5
     .line 6
@@ -33,11 +35,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lg0/e;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/e;
+    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getHeight()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getHeight()I
 
     .line 4
     .line 5
@@ -45,7 +49,8 @@
     move-result v1
 
     .line 7
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingBottom()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getPaddingBottom()I
 
     .line 8
     .line 9
@@ -71,11 +76,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lg0/e;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/e;
+    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getWidth()I
 
     .line 4
     .line 5
@@ -89,11 +96,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lg0/e;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/e;
+    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/material/carousel/CarouselLayoutManager;->c()Z
+    invoke-virtual {v0}, Lcom/google/android/material/carousel/CarouselLayoutManager;
+    ->c()Z
 
     .line 4
     .line 5
@@ -105,7 +114,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getWidth()I
 
     .line 10
     .line 11
@@ -125,11 +135,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lg0/e;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/e;
+    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingTop()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getPaddingTop()I
 
     .line 4
     .line 5

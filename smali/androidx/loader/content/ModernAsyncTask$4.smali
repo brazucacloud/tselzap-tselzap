@@ -23,7 +23,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/loader/content/ModernAsyncTask$Status;->values()[Landroidx/loader/content/ModernAsyncTask$Status;
+    invoke-static {}, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->values()[Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 2
     .line 3
@@ -38,16 +39,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/loader/content/ModernAsyncTask$4;->$SwitchMap$androidx$loader$content$ModernAsyncTask$Status:[I
+    sput-object v0, Landroidx/loader/content/ModernAsyncTask$4;
+    ->$SwitchMap$androidx$loader$content$ModernAsyncTask$Status:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Landroidx/loader/content/ModernAsyncTask$Status;->RUNNING:Landroidx/loader/content/ModernAsyncTask$Status;
+    sget-object v1, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->RUNNING:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -66,15 +70,18 @@
     .line 19
     :catch_0
     :try_start_1
-    sget-object v0, Landroidx/loader/content/ModernAsyncTask$4;->$SwitchMap$androidx$loader$content$ModernAsyncTask$Status:[I
+    sget-object v0, Landroidx/loader/content/ModernAsyncTask$4;
+    ->$SwitchMap$androidx$loader$content$ModernAsyncTask$Status:[I
 
     .line 20
     .line 21
-    sget-object v1, Landroidx/loader/content/ModernAsyncTask$Status;->FINISHED:Landroidx/loader/content/ModernAsyncTask$Status;
+    sget-object v1, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->FINISHED:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 24
     .line 25

@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -25,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -66,7 +68,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1}, Landroidx/core/provider/FontsContractCompat;->buildTypeface(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;)Landroid/graphics/Typeface;
+    invoke-static {p1, v0, v1}, Landroidx/core/provider/FontsContractCompat;
+    ->buildTypeface(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;)Landroid/graphics/Typeface;
 
     .line 9
     .line 10
@@ -93,7 +96,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p1, v0, p2}, Landroidx/core/provider/FontsContractCompat;->fetchFonts(Landroid/content/Context;Landroid/os/CancellationSignal;Landroidx/core/provider/FontRequest;)Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    invoke-static {p1, v0, p2}, Landroidx/core/provider/FontsContractCompat;
+    ->fetchFonts(Landroid/content/Context;Landroid/os/CancellationSignal;Landroidx/core/provider/FontRequest;)Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
 
     .line 3
     .line 4
@@ -119,7 +123,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 2
     .line 3
@@ -130,7 +135,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p1, p2, v0, p3}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+    invoke-virtual {p1, p2, v0, p3}, Landroid/content/ContentResolver;
+    ->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
 
     .line 7
     .line 8
@@ -150,7 +156,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 2
     .line 3
@@ -158,7 +165,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
+    invoke-virtual {p1, p2}, Landroid/content/ContentResolver;
+    ->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
     .line 6
     .line 7

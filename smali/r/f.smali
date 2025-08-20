@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Typeface;->getWeight()I
+    invoke-virtual {p0}, Landroid/graphics/Typeface;
+    ->getWeight()I
 
     move-result p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/ImageDecoder;->createSource(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+    invoke-static {p0}, Landroid/graphics/ImageDecoder;
+    ->createSource(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
 
     move-result-object p0
 
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p0, p1, p2}, Landroid/graphics/Typeface;
+    ->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     move-result-object p0
 

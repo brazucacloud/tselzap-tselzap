@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/appcompat/widget/c;->a:Ljava/lang/Runnable;
+    iput-object p1, p0, Landroidx/appcompat/widget/c;
+    ->a:Ljava/lang/Runnable;
 
     return-void
 .end method
@@ -28,9 +30,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/c;->a:Ljava/lang/Runnable;
+    iget-object v0, p0, Landroidx/appcompat/widget/c;
+    ->a:Ljava/lang/Runnable;
 
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v0}, Ljava/lang/Runnable;
+    ->run()V
 return-void
 .end method
 

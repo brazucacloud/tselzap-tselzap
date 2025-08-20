@@ -16,7 +16,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -25,16 +26,19 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p2}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lw0/k;->a:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lw0/k;
+    ->a:Ljava/lang/ref/WeakReference;
 
     .line 10
     .line 11
-    iput p1, p0, Lw0/k;->b:I
+    iput p1, p0, Lw0/k;
+    ->b:I
 
     .line 12
     .line 13

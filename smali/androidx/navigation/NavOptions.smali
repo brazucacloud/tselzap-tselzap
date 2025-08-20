@@ -83,34 +83,44 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-boolean p1, p0, Landroidx/navigation/NavOptions;->singleTop:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavOptions;
+    ->singleTop:Z
 
     .line 3
-    iput-boolean p2, p0, Landroidx/navigation/NavOptions;->restoreState:Z
+    iput-boolean p2, p0, Landroidx/navigation/NavOptions;
+    ->restoreState:Z
 
     .line 4
-    iput p3, p0, Landroidx/navigation/NavOptions;->popUpToId:I
+    iput p3, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I
 
     .line 5
-    iput-boolean p4, p0, Landroidx/navigation/NavOptions;->popUpToInclusive:Z
+    iput-boolean p4, p0, Landroidx/navigation/NavOptions;
+    ->popUpToInclusive:Z
 
     .line 6
-    iput-boolean p5, p0, Landroidx/navigation/NavOptions;->popUpToSaveState:Z
+    iput-boolean p5, p0, Landroidx/navigation/NavOptions;
+    ->popUpToSaveState:Z
 
     .line 7
-    iput p6, p0, Landroidx/navigation/NavOptions;->enterAnim:I
+    iput p6, p0, Landroidx/navigation/NavOptions;
+    ->enterAnim:I
 
     .line 8
-    iput p7, p0, Landroidx/navigation/NavOptions;->exitAnim:I
+    iput p7, p0, Landroidx/navigation/NavOptions;
+    ->exitAnim:I
 
     .line 9
-    iput p8, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I
+    iput p8, p0, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I
 
     .line 10
-    iput p9, p0, Landroidx/navigation/NavOptions;->popExitAnim:I
+    iput p9, p0, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I
 
     return-void
 .end method
@@ -120,22 +130,27 @@
 
     const-string v0, "popUpToRouteObject"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
-    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p3}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/t;->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/t;
+    ->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
 
     move-result-object v0
 
-    invoke-static {v0}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {v0}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object v0
 
-    invoke-static {v0}, Landroidx/navigation/serialization/RouteSerializerKt;->generateHashCode(LJ1/b;)I
+    invoke-static {v0}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateHashCode(LJ1/b;)I
 
     move-result v4
 
@@ -158,10 +173,12 @@
     move/from16 v10, p9
 
     .line 18
-    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;-><init>(ZZIZZIIII)V
+    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;
+    -><init>(ZZIZZIIII)V
 
     .line 19
-    iput-object p3, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;
+    iput-object p3, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     return-void
 .end method
@@ -170,13 +187,16 @@
     .locals 11
 
     .line 11
-    sget-object v0, Landroidx/navigation/NavDestination;->Companion:Landroidx/navigation/NavDestination$Companion;
+    sget-object v0, Landroidx/navigation/NavDestination;
+    ->Companion:Landroidx/navigation/NavDestination$Companion;
 
-    invoke-virtual {v0, p3}, Landroidx/navigation/NavDestination$Companion;->createRoute(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p3}, Landroidx/navigation/NavDestination$Companion;
+    ->createRoute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     move-result v4
 
@@ -199,10 +219,12 @@
     move/from16 v10, p9
 
     .line 12
-    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;-><init>(ZZIZZIIII)V
+    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;
+    -><init>(ZZIZZIIII)V
 
     .line 13
-    iput-object p3, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;
 
     return-void
 .end method
@@ -218,13 +240,16 @@
     .end annotation
 
     .line 14
-    invoke-static {p3}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p3}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
-    invoke-static {p3}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p3}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object v0
 
-    invoke-static {v0}, Landroidx/navigation/serialization/RouteSerializerKt;->generateHashCode(LJ1/b;)I
+    invoke-static {v0}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateHashCode(LJ1/b;)I
 
     move-result v4
 
@@ -247,10 +272,12 @@
     move/from16 v10, p9
 
     .line 15
-    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;-><init>(ZZIZZIIII)V
+    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;
+    -><init>(ZZIZZIIII)V
 
     .line 16
-    iput-object p3, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;
+    iput-object p3, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteClass:Lv1/c;
 
     return-void
 .end method
@@ -287,7 +314,8 @@
 
     .line 13
     :cond_1
-    iget-boolean v2, p0, Landroidx/navigation/NavOptions;->singleTop:Z
+    iget-boolean v2, p0, Landroidx/navigation/NavOptions;
+    ->singleTop:Z
 
     .line 14
     .line 15
@@ -295,7 +323,8 @@
 
     .line 16
     .line 17
-    iget-boolean v3, p1, Landroidx/navigation/NavOptions;->singleTop:Z
+    iget-boolean v3, p1, Landroidx/navigation/NavOptions;
+    ->singleTop:Z
 
     .line 18
     .line 19
@@ -303,11 +332,13 @@
 
     .line 20
     .line 21
-    iget-boolean v2, p0, Landroidx/navigation/NavOptions;->restoreState:Z
+    iget-boolean v2, p0, Landroidx/navigation/NavOptions;
+    ->restoreState:Z
 
     .line 22
     .line 23
-    iget-boolean v3, p1, Landroidx/navigation/NavOptions;->restoreState:Z
+    iget-boolean v3, p1, Landroidx/navigation/NavOptions;
+    ->restoreState:Z
 
     .line 24
     .line 25
@@ -315,11 +346,13 @@
 
     .line 26
     .line 27
-    iget v2, p0, Landroidx/navigation/NavOptions;->popUpToId:I
+    iget v2, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I
 
     .line 28
     .line 29
-    iget v3, p1, Landroidx/navigation/NavOptions;->popUpToId:I
+    iget v3, p1, Landroidx/navigation/NavOptions;
+    ->popUpToId:I
 
     .line 30
     .line 31
@@ -327,15 +360,18 @@
 
     .line 32
     .line 33
-    iget-object v2, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 34
     .line 35
-    iget-object v3, p1, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
+    iget-object v3, p1, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 36
     .line 37
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -347,15 +383,18 @@
 
     .line 42
     .line 43
-    iget-object v2, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;
+    iget-object v2, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteClass:Lv1/c;
 
     .line 44
     .line 45
-    iget-object v3, p1, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;
+    iget-object v3, p1, Landroidx/navigation/NavOptions;
+    ->popUpToRouteClass:Lv1/c;
 
     .line 46
     .line 47
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 48
     .line 49
@@ -367,15 +406,18 @@
 
     .line 52
     .line 53
-    iget-object v2, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;
+    iget-object v2, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     .line 54
     .line 55
-    iget-object v3, p1, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;
+    iget-object v3, p1, Landroidx/navigation/NavOptions;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     .line 56
     .line 57
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -387,11 +429,13 @@
 
     .line 62
     .line 63
-    iget-boolean v2, p0, Landroidx/navigation/NavOptions;->popUpToInclusive:Z
+    iget-boolean v2, p0, Landroidx/navigation/NavOptions;
+    ->popUpToInclusive:Z
 
     .line 64
     .line 65
-    iget-boolean v3, p1, Landroidx/navigation/NavOptions;->popUpToInclusive:Z
+    iget-boolean v3, p1, Landroidx/navigation/NavOptions;
+    ->popUpToInclusive:Z
 
     .line 66
     .line 67
@@ -399,11 +443,13 @@
 
     .line 68
     .line 69
-    iget-boolean v2, p0, Landroidx/navigation/NavOptions;->popUpToSaveState:Z
+    iget-boolean v2, p0, Landroidx/navigation/NavOptions;
+    ->popUpToSaveState:Z
 
     .line 70
     .line 71
-    iget-boolean v3, p1, Landroidx/navigation/NavOptions;->popUpToSaveState:Z
+    iget-boolean v3, p1, Landroidx/navigation/NavOptions;
+    ->popUpToSaveState:Z
 
     .line 72
     .line 73
@@ -411,11 +457,13 @@
 
     .line 74
     .line 75
-    iget v2, p0, Landroidx/navigation/NavOptions;->enterAnim:I
+    iget v2, p0, Landroidx/navigation/NavOptions;
+    ->enterAnim:I
 
     .line 76
     .line 77
-    iget v3, p1, Landroidx/navigation/NavOptions;->enterAnim:I
+    iget v3, p1, Landroidx/navigation/NavOptions;
+    ->enterAnim:I
 
     .line 78
     .line 79
@@ -423,11 +471,13 @@
 
     .line 80
     .line 81
-    iget v2, p0, Landroidx/navigation/NavOptions;->exitAnim:I
+    iget v2, p0, Landroidx/navigation/NavOptions;
+    ->exitAnim:I
 
     .line 82
     .line 83
-    iget v3, p1, Landroidx/navigation/NavOptions;->exitAnim:I
+    iget v3, p1, Landroidx/navigation/NavOptions;
+    ->exitAnim:I
 
     .line 84
     .line 85
@@ -435,11 +485,13 @@
 
     .line 86
     .line 87
-    iget v2, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I
+    iget v2, p0, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I
 
     .line 88
     .line 89
-    iget v3, p1, Landroidx/navigation/NavOptions;->popEnterAnim:I
+    iget v3, p1, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I
 
     .line 90
     .line 91
@@ -447,11 +499,13 @@
 
     .line 92
     .line 93
-    iget v2, p0, Landroidx/navigation/NavOptions;->popExitAnim:I
+    iget v2, p0, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I
 
     .line 94
     .line 95
-    iget p1, p1, Landroidx/navigation/NavOptions;->popExitAnim:I
+    iget p1, p1, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I
 
     .line 96
     .line 97
@@ -472,7 +526,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->enterAnim:I    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->enterAnim:I    return v0
 .end method
 
 .method public final getExitAnim()I
@@ -484,7 +539,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->exitAnim:I    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->exitAnim:I    return v0
 .end method
 
 .method public final getPopEnterAnim()I
@@ -496,7 +552,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I    return v0
 .end method
 
 .method public final getPopExitAnim()I
@@ -508,7 +565,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popExitAnim:I    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I    return v0
 .end method
 
 .method public final getPopUpTo()I
@@ -517,7 +575,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I    return v0
 .end method
 
 .method public final getPopUpToId()I
@@ -526,14 +585,16 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I    return v0
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I    return v0
 .end method
 
 .method public final getPopUpToRoute()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getPopUpToRouteClass()Lv1/c;
@@ -546,21 +607,24 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteClass:Lv1/c;    return-object v0
 .end method
 
 .method public final getPopUpToRouteObject()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteObject:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavOptions;->shouldLaunchSingleTop()Z
+    invoke-virtual {p0}, Landroidx/navigation/NavOptions;
+    ->shouldLaunchSingleTop()Z
 
     .line 2
     .line 3
@@ -572,7 +636,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/navigation/NavOptions;->shouldRestoreState()Z
+    invoke-virtual {p0}, Landroidx/navigation/NavOptions;
+    ->shouldRestoreState()Z
 
     .line 8
     .line 9
@@ -587,7 +652,8 @@
 
     .line 13
     .line 14
-    iget v0, p0, Landroidx/navigation/NavOptions;->popUpToId:I
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I
 
     .line 15
     .line 16
@@ -598,7 +664,8 @@
 
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 20
     .line 21
@@ -609,7 +676,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 25
     .line 26
@@ -632,7 +700,8 @@
 
     .line 32
     .line 33
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;
+    iget-object v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteClass:Lv1/c;
 
     .line 34
     .line 35
@@ -640,7 +709,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 38
     .line 39
@@ -663,7 +733,8 @@
 
     .line 45
     .line 46
-    iget-object v0, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     .line 47
     .line 48
@@ -671,7 +742,8 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 51
     .line 52
@@ -687,7 +759,8 @@
 
     .line 56
     .line 57
-    invoke-virtual {p0}, Landroidx/navigation/NavOptions;->isPopUpToInclusive()Z
+    invoke-virtual {p0}, Landroidx/navigation/NavOptions;
+    ->isPopUpToInclusive()Z
 
     .line 58
     .line 59
@@ -702,7 +775,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {p0}, Landroidx/navigation/NavOptions;->shouldPopUpToSaveState()Z
+    invoke-virtual {p0}, Landroidx/navigation/NavOptions;
+    ->shouldPopUpToSaveState()Z
 
     .line 65
     .line 66
@@ -717,7 +791,8 @@
 
     .line 70
     .line 71
-    iget v0, p0, Landroidx/navigation/NavOptions;->enterAnim:I
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->enterAnim:I
 
     .line 72
     .line 73
@@ -728,7 +803,8 @@
 
     .line 75
     .line 76
-    iget v0, p0, Landroidx/navigation/NavOptions;->exitAnim:I
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->exitAnim:I
 
     .line 77
     .line 78
@@ -739,7 +815,8 @@
 
     .line 80
     .line 81
-    iget v0, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I
 
     .line 82
     .line 83
@@ -750,7 +827,8 @@
 
     .line 85
     .line 86
-    iget v0, p0, Landroidx/navigation/NavOptions;->popExitAnim:I
+    iget v0, p0, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I
 
     .line 87
     .line 88
@@ -763,28 +841,32 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->popUpToInclusive:Z    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToInclusive:Z    return v0
 .end method
 
 .method public final shouldLaunchSingleTop()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->singleTop:Z    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;
+    ->singleTop:Z    return v0
 .end method
 
 .method public final shouldPopUpToSaveState()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->popUpToSaveState:Z    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;
+    ->popUpToSaveState:Z    return v0
 .end method
 
 .method public final shouldRestoreState()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavOptions;->restoreState:Z    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavOptions;
+    ->restoreState:Z    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -799,12 +881,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-boolean v1, p0, Landroidx/navigation/NavOptions;->singleTop:Z
+    iget-boolean v1, p0, Landroidx/navigation/NavOptions;
+    ->singleTop:Z
 
     .line 9
     .line 10
@@ -816,13 +900,15 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
     .line 17
     :cond_0
-    iget-boolean v1, p0, Landroidx/navigation/NavOptions;->restoreState:Z
+    iget-boolean v1, p0, Landroidx/navigation/NavOptions;
+    ->restoreState:Z
 
     .line 18
     .line 19
@@ -834,13 +920,15 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
     :cond_1
-    iget-object v1, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 27
     .line 28
@@ -855,7 +943,8 @@
 
     .line 32
     .line 33
-    iget v4, p0, Landroidx/navigation/NavOptions;->popUpToId:I
+    iget v4, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I
 
     .line 34
     .line 35
@@ -872,12 +961,14 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    iget-object v1, p0, Landroidx/navigation/NavOptions;->popUpToRoute:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 45
     .line 46
@@ -885,7 +976,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 49
     .line 50
@@ -894,7 +986,8 @@
 
     .line 52
     :cond_3
-    iget-object v1, p0, Landroidx/navigation/NavOptions;->popUpToRouteClass:Lv1/c;
+    iget-object v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteClass:Lv1/c;
 
     .line 53
     .line 54
@@ -902,7 +995,8 @@
 
     .line 55
     .line 56
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 57
     .line 58
@@ -911,7 +1005,8 @@
 
     .line 60
     :cond_4
-    iget-object v1, p0, Landroidx/navigation/NavOptions;->popUpToRouteObject:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -919,7 +1014,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
@@ -932,16 +1028,19 @@
 
     .line 69
     .line 70
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
     .line 73
-    iget v1, p0, Landroidx/navigation/NavOptions;->popUpToId:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToId:I
 
     .line 74
     .line 75
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 76
     .line 77
@@ -949,13 +1048,15 @@
     move-result-object v1
 
     .line 79
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 80
     .line 81
     .line 82
     :goto_0
-    iget-boolean v1, p0, Landroidx/navigation/NavOptions;->popUpToInclusive:Z
+    iget-boolean v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToInclusive:Z
 
     .line 83
     .line 84
@@ -967,13 +1068,15 @@
 
     .line 87
     .line 88
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 89
     .line 90
     .line 91
     :cond_6
-    iget-boolean v1, p0, Landroidx/navigation/NavOptions;->popUpToSaveState:Z
+    iget-boolean v1, p0, Landroidx/navigation/NavOptions;
+    ->popUpToSaveState:Z
 
     .line 92
     .line 93
@@ -985,19 +1088,22 @@
 
     .line 96
     .line 97
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 98
     .line 99
     .line 100
     :cond_7
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 101
     .line 102
     .line 103
     :cond_8
-    iget v1, p0, Landroidx/navigation/NavOptions;->enterAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->enterAnim:I
 
     .line 104
     .line 105
@@ -1005,7 +1111,8 @@
 
     .line 106
     .line 107
-    iget v1, p0, Landroidx/navigation/NavOptions;->exitAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->exitAnim:I
 
     .line 108
     .line 109
@@ -1013,7 +1120,8 @@
 
     .line 110
     .line 111
-    iget v1, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I
 
     .line 112
     .line 113
@@ -1021,7 +1129,8 @@
 
     .line 114
     .line 115
-    iget v1, p0, Landroidx/navigation/NavOptions;->popExitAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I
 
     .line 116
     .line 117
@@ -1034,16 +1143,19 @@
 
     .line 120
     .line 121
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 122
     .line 123
     .line 124
-    iget v1, p0, Landroidx/navigation/NavOptions;->enterAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->enterAnim:I
 
     .line 125
     .line 126
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 127
     .line 128
@@ -1051,7 +1163,8 @@
     move-result-object v1
 
     .line 130
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 131
     .line 132
@@ -1060,16 +1173,19 @@
 
     .line 134
     .line 135
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 136
     .line 137
     .line 138
-    iget v1, p0, Landroidx/navigation/NavOptions;->exitAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->exitAnim:I
 
     .line 139
     .line 140
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 141
     .line 142
@@ -1077,7 +1193,8 @@
     move-result-object v1
 
     .line 144
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 145
     .line 146
@@ -1086,16 +1203,19 @@
 
     .line 148
     .line 149
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 150
     .line 151
     .line 152
-    iget v1, p0, Landroidx/navigation/NavOptions;->popEnterAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->popEnterAnim:I
 
     .line 153
     .line 154
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 155
     .line 156
@@ -1103,7 +1223,8 @@
     move-result-object v1
 
     .line 158
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 159
     .line 160
@@ -1112,16 +1233,19 @@
 
     .line 162
     .line 163
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 164
     .line 165
     .line 166
-    iget v1, p0, Landroidx/navigation/NavOptions;->popExitAnim:I
+    iget v1, p0, Landroidx/navigation/NavOptions;
+    ->popExitAnim:I
 
     .line 167
     .line 168
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 169
     .line 170
@@ -1129,18 +1253,21 @@
     move-result-object v1
 
     .line 172
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 173
     .line 174
     .line 175
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 176
     .line 177
     .line 178
     :cond_a
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 179
     .line 180
@@ -1152,7 +1279,8 @@
 
     .line 183
     .line 184
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 

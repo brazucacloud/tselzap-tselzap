@@ -14,9 +14,11 @@
 .method public constructor <init>(Ljava/lang/Runnable;I)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/util/concurrent/zza;->zza:Ljava/lang/Runnable;
+    iput-object p1, p0, Lcom/google/android/gms/common/util/concurrent/zza;
+    ->zza:Ljava/lang/Runnable;
 
     return-void
 .end method
@@ -30,16 +32,19 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0}, Landroid/os/Process;->setThreadPriority(I)V
+    invoke-static {v0}, Landroid/os/Process;
+    ->setThreadPriority(I)V
 
     .line 3
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/google/android/gms/common/util/concurrent/zza;->zza:Ljava/lang/Runnable;
+    iget-object v0, p0, Lcom/google/android/gms/common/util/concurrent/zza;
+    ->zza:Ljava/lang/Runnable;
 
     .line 6
     .line 7
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v0}, Ljava/lang/Runnable;
+    ->run()V
 
     .line 8
     .line 9

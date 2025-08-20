@@ -23,7 +23,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {p0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 2
     .line 3
@@ -31,7 +32,8 @@
     move-result-object p0
 
     .line 5
-    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -40,7 +42,8 @@
 
     .line 9
     .line 10
-    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 11
     .line 12
@@ -49,7 +52,8 @@
 
     .line 14
     :cond_0
-    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 15
     .line 16
@@ -73,7 +77,8 @@
 
     .line 6
     :cond_0
-    invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {p0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 7
     .line 8
@@ -81,7 +86,8 @@
     move-result-object p0
 
     .line 10
-    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -90,7 +96,8 @@
 
     .line 14
     .line 15
-    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 16
     .line 17
@@ -99,7 +106,8 @@
 
     .line 19
     :cond_1
-    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 20
     .line 21

@@ -12,7 +12,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -21,7 +22,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -30,12 +32,14 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 17
     .line 18
@@ -47,7 +51,8 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -60,7 +65,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 30
     .line 31
@@ -72,7 +78,8 @@
 
     .line 34
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLeft()I
 
     .line 35
     .line 36
@@ -80,7 +87,8 @@
     move-result p3
 
     .line 38
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 39
     .line 40
@@ -95,7 +103,8 @@
 
     .line 44
     :goto_0
-    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 45
     .line 46
@@ -106,7 +115,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {p4}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p4}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 50
     .line 51
@@ -118,7 +128,8 @@
 
     .line 54
     :cond_1
-    invoke-virtual {p0}, Landroid/view/View;->getRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRight()I
 
     .line 55
     .line 56
@@ -126,7 +137,8 @@
     move-result p4
 
     .line 58
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 59
     .line 60
@@ -141,7 +153,8 @@
 
     .line 64
     :goto_1
-    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 65
     .line 66
@@ -152,7 +165,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p2, v1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+    invoke-virtual {p2, v1}, Landroid/graphics/drawable/Drawable;
+    ->setAlpha(I)V
 
     .line 70
     .line 71
@@ -161,7 +175,8 @@
 
     .line 73
     .line 74
-    invoke-virtual {p5}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p5}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 75
     .line 76
@@ -179,13 +194,15 @@
     float-to-int p5, p5
 
     .line 82
-    invoke-virtual {p2, p5}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+    invoke-virtual {p2, p5}, Landroid/graphics/drawable/Drawable;
+    ->setAlpha(I)V
 
     .line 83
     .line 84
     .line 85
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBottom()I
 
     .line 86
     .line 87
@@ -193,14 +210,16 @@
     move-result p5
 
     .line 89
-    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 90
     .line 91
     add-int/2addr p5, v1
 
     .line 92
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 93
     .line 94
@@ -214,7 +233,8 @@
     add-int/2addr p5, v1
 
     .line 98
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicHeight()I
 
     .line 99
     .line 100
@@ -225,17 +245,20 @@
     add-int/2addr v1, p5
 
     .line 103
-    invoke-virtual {p2, p3, p5, p4, v1}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p2, p3, p5, p4, v1}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 107
     .line 108
     .line 109
-    invoke-virtual {p0}, Landroid/view/View;->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTop()I
 
     .line 110
     .line 111
@@ -243,14 +266,16 @@
     move-result p5
 
     .line 113
-    iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+    iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->topMargin:I
 
     .line 114
     .line 115
     sub-int/2addr p5, v0
 
     .line 116
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 117
     .line 118
@@ -264,7 +289,8 @@
     add-int/2addr p5, p0
 
     .line 122
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicHeight()I
 
     .line 123
     .line 124
@@ -276,12 +302,14 @@
 
     .line 127
     .line 128
-    invoke-virtual {p2, p3, p0, p4, p5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p2, p3, p0, p4, p5}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 129
     .line 130
     .line 131
-    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 132
     .line 133
@@ -332,7 +360,8 @@
 
     .line 17
     :cond_2
-    invoke-static/range {p0 .. p5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawHorizontalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-static/range {p0 .. p5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
+    ->drawHorizontalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 18
     .line 19
@@ -348,7 +377,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -357,7 +387,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -366,12 +397,14 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 17
     .line 18
@@ -383,7 +416,8 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -396,7 +430,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 30
     .line 31
@@ -408,7 +443,8 @@
 
     .line 34
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTop()I
 
     .line 35
     .line 36
@@ -416,7 +452,8 @@
     move-result p3
 
     .line 38
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 39
     .line 40
@@ -431,7 +468,8 @@
 
     .line 44
     :goto_0
-    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->topMargin:I
 
     .line 45
     .line 46
@@ -442,7 +480,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {p4}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p4}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 50
     .line 51
@@ -454,7 +493,8 @@
 
     .line 54
     :cond_1
-    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBottom()I
 
     .line 55
     .line 56
@@ -462,7 +502,8 @@
     move-result p4
 
     .line 58
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 59
     .line 60
@@ -477,7 +518,8 @@
 
     .line 64
     :goto_1
-    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 65
     .line 66
@@ -488,7 +530,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p2, v1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+    invoke-virtual {p2, v1}, Landroid/graphics/drawable/Drawable;
+    ->setAlpha(I)V
 
     .line 70
     .line 71
@@ -497,7 +540,8 @@
 
     .line 73
     .line 74
-    invoke-virtual {p5}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p5}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 75
     .line 76
@@ -515,13 +559,15 @@
     float-to-int p5, p5
 
     .line 82
-    invoke-virtual {p2, p5}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+    invoke-virtual {p2, p5}, Landroid/graphics/drawable/Drawable;
+    ->setAlpha(I)V
 
     .line 83
     .line 84
     .line 85
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;->getRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRight()I
 
     .line 86
     .line 87
@@ -529,14 +575,16 @@
     move-result p5
 
     .line 89
-    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 90
     .line 91
     add-int/2addr p5, v1
 
     .line 92
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 93
     .line 94
@@ -550,7 +598,8 @@
     add-int/2addr p5, v1
 
     .line 98
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicWidth()I
 
     .line 99
     .line 100
@@ -561,17 +610,20 @@
     add-int/2addr v1, p5
 
     .line 103
-    invoke-virtual {p2, p5, p3, v1, p4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p2, p5, p3, v1, p4}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 107
     .line 108
     .line 109
-    invoke-virtual {p0}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLeft()I
 
     .line 110
     .line 111
@@ -579,14 +631,16 @@
     move-result p5
 
     .line 113
-    iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 114
     .line 115
     sub-int/2addr p5, v0
 
     .line 116
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 117
     .line 118
@@ -600,7 +654,8 @@
     add-int/2addr p5, p0
 
     .line 122
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicWidth()I
 
     .line 123
     .line 124
@@ -612,12 +667,14 @@
 
     .line 127
     .line 128
-    invoke-virtual {p2, p0, p3, p5, p4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p2, p0, p3, p5, p4}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 129
     .line 130
     .line 131
-    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 132
     .line 133
@@ -668,7 +725,8 @@
 
     .line 17
     :cond_2
-    invoke-static/range {p0 .. p5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawVerticalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-static/range {p0 .. p5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
+    ->drawVerticalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 18
     .line 19

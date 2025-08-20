@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -43,7 +44,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p0, p1, v0}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/viewpager2/widget/ViewPager2$SavedState;
+    invoke-virtual {p0, p1, v0}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;
+    ->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/viewpager2/widget/ViewPager2$SavedState;
 
     move-result-object p1
 
@@ -54,7 +56,8 @@
     .locals 2
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x18
 
@@ -63,7 +66,8 @@
     .line 4
     new-instance v0, Landroidx/viewpager2/widget/ViewPager2$SavedState;
 
-    invoke-direct {v0, p1, p2}, Landroidx/viewpager2/widget/ViewPager2$SavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Landroidx/viewpager2/widget/ViewPager2$SavedState;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
     return-object v0
 
@@ -71,7 +75,8 @@
     :cond_0
     new-instance p2, Landroidx/viewpager2/widget/ViewPager2$SavedState;
 
-    invoke-direct {p2, p1}, Landroidx/viewpager2/widget/ViewPager2$SavedState;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {p2, p1}, Landroidx/viewpager2/widget/ViewPager2$SavedState;
+    -><init>(Landroid/os/Parcel;)V
 
     return-object p2
 .end method
@@ -80,7 +85,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;->createFromParcel(Landroid/os/Parcel;)Landroidx/viewpager2/widget/ViewPager2$SavedState;
+    invoke-virtual {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;
+    ->createFromParcel(Landroid/os/Parcel;)Landroidx/viewpager2/widget/ViewPager2$SavedState;
 
     move-result-object p1
 
@@ -91,7 +97,8 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/viewpager2/widget/ViewPager2$SavedState;
+    invoke-virtual {p0, p1, p2}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;
+    ->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/viewpager2/widget/ViewPager2$SavedState;
 
     move-result-object p1
 
@@ -111,7 +118,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;->newArray(I)[Landroidx/viewpager2/widget/ViewPager2$SavedState;
+    invoke-virtual {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$SavedState$1;
+    ->newArray(I)[Landroidx/viewpager2/widget/ViewPager2$SavedState;
 
     move-result-object p1
 

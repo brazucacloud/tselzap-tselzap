@@ -14,9 +14,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/common/util/BiConsumer;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacu;->zaa:Lcom/google/android/gms/common/util/BiConsumer;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacu;
+    ->zaa:Lcom/google/android/gms/common/util/BiConsumer;
 
     return-void
 .end method
@@ -27,7 +29,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zacu;->zaa:Lcom/google/android/gms/common/util/BiConsumer;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zacu;
+    ->zaa:Lcom/google/android/gms/common/util/BiConsumer;
 
     .line 2
     .line 3
@@ -39,7 +42,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v0, p1, p2}, Lcom/google/android/gms/common/util/BiConsumer;->accept(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Lcom/google/android/gms/common/util/BiConsumer;
+    ->accept(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 8
     .line 9

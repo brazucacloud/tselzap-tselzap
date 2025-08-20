@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -22,7 +23,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/server/response/FastParser;->zac(Lcom/google/android/gms/common/server/response/FastParser;Ljava/io/BufferedReader;)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/server/response/FastParser;
+    ->zac(Lcom/google/android/gms/common/server/response/FastParser;Ljava/io/BufferedReader;)I
 
     .line 2
     .line 3
@@ -30,7 +32,8 @@
     move-result p1
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7

@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/emoji2/text/EmojiCompat$CompatInternal19;->loadMetadata()V
+    value = Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
+    ->loadMetadata()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +24,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal19$1;->this$0:Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal19$1;
+    ->this$0:Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback;
+    -><init>()V
 
     .line 4
     .line 5
@@ -45,15 +48,18 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal19$1;->this$0:Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal19$1;
+    ->this$0:Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/emoji2/text/EmojiCompat$CompatInternal;->mEmojiCompat:Landroidx/emoji2/text/EmojiCompat;
+    iget-object v0, v0, Landroidx/emoji2/text/EmojiCompat$CompatInternal;
+    ->mEmojiCompat:Landroidx/emoji2/text/EmojiCompat;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/EmojiCompat;->onMetadataLoadFailed(Ljava/lang/Throwable;)V
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/EmojiCompat;
+    ->onMetadataLoadFailed(Ljava/lang/Throwable;)V
 
     .line 6
     .line 7
@@ -69,11 +75,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal19$1;->this$0:Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal19$1;
+    ->this$0:Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/EmojiCompat$CompatInternal19;->onMetadataLoadSuccess(Landroidx/emoji2/text/MetadataRepo;)V
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/EmojiCompat$CompatInternal19;
+    ->onMetadataLoadSuccess(Landroidx/emoji2/text/MetadataRepo;)V
 
     .line 4
     .line 5

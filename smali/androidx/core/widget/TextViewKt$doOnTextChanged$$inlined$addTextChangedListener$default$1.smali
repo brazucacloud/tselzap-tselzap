@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/widget/TextViewKt;->doOnTextChanged(Landroid/widget/TextView;Lp1/r;)Landroid/text/TextWatcher;
+    value = Landroidx/core/widget/TextViewKt;
+    ->doOnTextChanged(Landroid/widget/TextView;Lp1/r;)Landroid/text/TextWatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;->$onTextChanged:Lp1/r;
+    iput-object p1, p0, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;
+    ->$onTextChanged:Lp1/r;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -56,11 +59,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;->$onTextChanged:Lp1/r;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;
+    ->$onTextChanged:Lp1/r;
 
     .line 2
     .line 3
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 4
     .line 5
@@ -68,7 +73,8 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9
@@ -76,7 +82,8 @@
     move-result-object p3
 
     .line 11
-    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 12
     .line 13
@@ -84,7 +91,8 @@
     move-result-object p4
 
     .line 15
-    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17

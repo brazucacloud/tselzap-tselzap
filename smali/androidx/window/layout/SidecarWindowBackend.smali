@@ -61,12 +61,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/layout/SidecarWindowBackend$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/SidecarWindowBackend$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/window/layout/SidecarWindowBackend;->Companion:Landroidx/window/layout/SidecarWindowBackend$Companion;
+    sput-object v0, Landroidx/window/layout/SidecarWindowBackend;
+    ->Companion:Landroidx/window/layout/SidecarWindowBackend$Companion;
 
     .line 8
     .line 9
@@ -74,12 +76,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/window/layout/SidecarWindowBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sput-object v0, Landroidx/window/layout/SidecarWindowBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 15
     .line 16
@@ -92,12 +96,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
+    iput-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 5
     .line 6
@@ -105,16 +111,19 @@
 
     .line 7
     .line 8
-    invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
+    iget-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 14
     .line 15
@@ -130,12 +139,14 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Landroidx/window/layout/SidecarWindowBackend$ExtensionListenerImpl;-><init>(Landroidx/window/layout/SidecarWindowBackend;)V
+    invoke-direct {v0, p0}, Landroidx/window/layout/SidecarWindowBackend$ExtensionListenerImpl;
+    -><init>(Landroidx/window/layout/SidecarWindowBackend;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-interface {p1, v0}, Landroidx/window/layout/ExtensionInterfaceCompat;->setExtensionCallback(Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;)V
+    invoke-interface {p1, v0}, Landroidx/window/layout/ExtensionInterfaceCompat;
+    ->setExtensionCallback(Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;)V
 
     .line 24
     .line 25
@@ -147,7 +158,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;->globalInstance:Landroidx/window/layout/SidecarWindowBackend;
+    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;
+    ->globalInstance:Landroidx/window/layout/SidecarWindowBackend;
 
     .line 2
     .line 3
@@ -158,7 +170,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 2
     .line 3
@@ -169,7 +182,8 @@
     .locals 0
 
     .line 1
-    sput-object p0, Landroidx/window/layout/SidecarWindowBackend;->globalInstance:Landroidx/window/layout/SidecarWindowBackend;
+    sput-object p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->globalInstance:Landroidx/window/layout/SidecarWindowBackend;
 
     .line 2
     .line 3
@@ -183,7 +197,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
@@ -195,7 +210,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Collection;
+    ->isEmpty()Z
 
     .line 8
     .line 9
@@ -211,7 +227,8 @@
 
     .line 14
     :cond_0
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 15
     .line 16
@@ -220,7 +237,8 @@
 
     .line 18
     :cond_1
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 19
     .line 20
@@ -232,7 +250,8 @@
 
     .line 23
     .line 24
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -244,7 +263,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->getActivity()Landroid/app/Activity;
+    invoke-virtual {v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->getActivity()Landroid/app/Activity;
 
     .line 31
     .line 32
@@ -252,7 +272,8 @@
     move-result-object v1
 
     .line 34
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 35
     .line 36
@@ -269,7 +290,8 @@
     .line 41
     :cond_2
     :goto_0
-    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
+    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 42
     .line 43
@@ -281,7 +303,8 @@
 
     .line 46
     :cond_3
-    invoke-interface {v0, p1}, Landroidx/window/layout/ExtensionInterfaceCompat;->onWindowLayoutChangeListenerRemoved(Landroid/app/Activity;)V
+    invoke-interface {v0, p1}, Landroidx/window/layout/ExtensionInterfaceCompat;
+    ->onWindowLayoutChangeListenerRemoved(Landroid/app/Activity;)V
 
     .line 47
     .line 48
@@ -301,7 +324,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
@@ -316,7 +340,8 @@
 
     .line 7
     .line 8
-    invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Collection;
+    ->isEmpty()Z
 
     .line 9
     .line 10
@@ -332,7 +357,8 @@
 
     .line 15
     :cond_0
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 16
     .line 17
@@ -341,7 +367,8 @@
 
     .line 19
     :cond_1
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 20
     .line 21
@@ -353,7 +380,8 @@
 
     .line 24
     .line 25
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -365,7 +393,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->getActivity()Landroid/app/Activity;
+    invoke-virtual {v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->getActivity()Landroid/app/Activity;
 
     .line 32
     .line 33
@@ -373,7 +402,8 @@
     move-result-object v1
 
     .line 35
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -400,7 +430,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
+    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 2
     .line 3
@@ -419,7 +450,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowLayoutChangeCallbacks:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
@@ -444,7 +476,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -453,7 +486,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -462,22 +496,26 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 19
     .line 20
     .line 21
     :try_start_0
-    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;->getWindowExtension()Landroidx/window/layout/ExtensionInterfaceCompat;
+    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;
+    ->getWindowExtension()Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 22
     .line 23
@@ -493,23 +531,27 @@
 
     .line 28
     .line 29
-    sget-object p2, Ld1/t;->b:Ld1/t;
+    sget-object p2, Ld1/t;
+    ->b:Ld1/t;
 
     .line 30
     .line 31
-    invoke-direct {p1, p2}, Landroidx/window/layout/WindowLayoutInfo;-><init>(Ljava/util/List;)V
+    invoke-direct {p1, p2}, Landroidx/window/layout/WindowLayoutInfo;
+    -><init>(Ljava/util/List;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-interface {p3, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p3, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 35
     .line 36
     .line 37
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 38
     .line 39
@@ -526,7 +568,8 @@
     .line 43
     :cond_0
     :try_start_1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SidecarWindowBackend;->isActivityRegistered(Landroid/app/Activity;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SidecarWindowBackend;
+    ->isActivityRegistered(Landroid/app/Activity;)Z
 
     .line 44
     .line 45
@@ -538,12 +581,14 @@
 
     .line 48
     .line 49
-    invoke-direct {v3, p1, p2, p3}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;-><init>(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
+    invoke-direct {v3, p1, p2, p3}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    -><init>(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;
+    ->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 53
     .line 54
@@ -551,7 +596,8 @@
     move-result-object p2
 
     .line 56
-    invoke-virtual {p2, v3}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v3}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -560,7 +606,8 @@
 
     .line 60
     .line 61
-    invoke-interface {v1, p1}, Landroidx/window/layout/ExtensionInterfaceCompat;->onWindowLayoutChangeListenerAdded(Landroid/app/Activity;)V
+    invoke-interface {v1, p1}, Landroidx/window/layout/ExtensionInterfaceCompat;
+    ->onWindowLayoutChangeListenerAdded(Landroid/app/Activity;)V
 
     .line 62
     .line 63
@@ -569,7 +616,8 @@
 
     .line 65
     :cond_1
-    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;
+    ->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 66
     .line 67
@@ -577,7 +625,8 @@
     move-result-object p2
 
     .line 69
-    invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 70
     .line 71
@@ -586,7 +635,8 @@
 
     .line 73
     :cond_2
-    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 74
     .line 75
@@ -601,7 +651,8 @@
 
     .line 79
     .line 80
-    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -616,7 +667,8 @@
 
     .line 86
     .line 87
-    invoke-virtual {v2}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->getActivity()Landroid/app/Activity;
+    invoke-virtual {v2}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->getActivity()Landroid/app/Activity;
 
     .line 88
     .line 89
@@ -624,7 +676,8 @@
     move-result-object v2
 
     .line 91
-    invoke-virtual {p1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 92
     .line 93
@@ -656,7 +709,8 @@
 
     .line 104
     :cond_4
-    invoke-virtual {p3}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->getLastInfo()Landroidx/window/layout/WindowLayoutInfo;
+    invoke-virtual {p3}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->getLastInfo()Landroidx/window/layout/WindowLayoutInfo;
 
     .line 105
     .line 106
@@ -669,7 +723,8 @@
 
     .line 109
     .line 110
-    invoke-virtual {v3, v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->accept(Landroidx/window/layout/WindowLayoutInfo;)V
+    invoke-virtual {v3, v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->accept(Landroidx/window/layout/WindowLayoutInfo;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -678,7 +733,8 @@
     .line 113
     :cond_5
     :goto_2
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 114
     .line 115
@@ -687,7 +743,8 @@
 
     .line 117
     :goto_3
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 118
     .line 119
@@ -1482,7 +1539,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
+    iput-object p1, p0, Landroidx/window/layout/SidecarWindowBackend;
+    ->windowExtension:Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 2
     .line 3
@@ -1505,12 +1563,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/layout/SidecarWindowBackend;
+    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 7
     .line 8
@@ -1518,7 +1578,8 @@
 
     .line 9
     :try_start_0
-    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;->getWindowExtension()Landroidx/window/layout/ExtensionInterfaceCompat;
+    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;
+    ->getWindowExtension()Landroidx/window/layout/ExtensionInterfaceCompat;
 
     .line 10
     .line 11
@@ -1543,12 +1604,14 @@
 
     .line 18
     .line 19
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;
+    ->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 23
     .line 24
@@ -1556,7 +1619,8 @@
     move-result-object v2
 
     .line 26
-    invoke-virtual {v2}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 27
     .line 28
@@ -1566,7 +1630,8 @@
     .line 30
     :cond_1
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 31
     .line 32
@@ -1578,7 +1643,8 @@
 
     .line 35
     .line 36
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -1590,7 +1656,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {v3}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->getCallback()Landroidx/core/util/Consumer;
+    invoke-virtual {v3}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->getCallback()Landroidx/core/util/Consumer;
 
     .line 43
     .line 44
@@ -1602,7 +1669,8 @@
 
     .line 47
     .line 48
-    invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, v3}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -1618,7 +1686,8 @@
 
     .line 54
     :cond_2
-    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
+    invoke-virtual {p0}, Landroidx/window/layout/SidecarWindowBackend;
+    ->getWindowLayoutChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 55
     .line 56
@@ -1626,12 +1695,14 @@
     move-result-object p1
 
     .line 58
-    invoke-virtual {p1, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->removeAll(Ljava/util/Collection;)Z
+    invoke-virtual {p1, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->removeAll(Ljava/util/Collection;)Z
 
     .line 59
     .line 60
     .line 61
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 62
     .line 63
@@ -1640,7 +1711,8 @@
 
     .line 65
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 66
     .line 67
@@ -1652,7 +1724,8 @@
 
     .line 70
     .line 71
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -1664,7 +1737,8 @@
 
     .line 76
     .line 77
-    invoke-virtual {v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;->getActivity()Landroid/app/Activity;
+    invoke-virtual {v1}, Landroidx/window/layout/SidecarWindowBackend$WindowLayoutChangeCallbackWrapper;
+    ->getActivity()Landroid/app/Activity;
 
     .line 78
     .line 79
@@ -1672,7 +1746,8 @@
     move-result-object v1
 
     .line 81
-    invoke-direct {p0, v1}, Landroidx/window/layout/SidecarWindowBackend;->callbackRemovedForActivity(Landroid/app/Activity;)V
+    invoke-direct {p0, v1}, Landroidx/window/layout/SidecarWindowBackend;
+    ->callbackRemovedForActivity(Landroid/app/Activity;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

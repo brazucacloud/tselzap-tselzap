@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzan;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzan;
+    -><init>()V
     return-void
 .end method
 
@@ -26,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -65,7 +67,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5

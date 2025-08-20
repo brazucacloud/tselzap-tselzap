@@ -18,7 +18,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -68,7 +69,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v3}, Landroid/graphics/Rect;->isEmpty()Z
+    invoke-virtual {v3}, Landroid/graphics/Rect;
+    ->isEmpty()Z
 
     .line 16
     .line 17
@@ -80,7 +82,8 @@
 
     .line 20
     .line 21
-    iget v4, v3, Landroid/graphics/Rect;->left:I
+    iget v4, v3, Landroid/graphics/Rect;
+    ->left:I
 
     .line 22
     .line 23
@@ -88,11 +91,13 @@
 
     .line 24
     .line 25
-    iget v4, v3, Landroid/graphics/Rect;->right:I
+    iget v4, v3, Landroid/graphics/Rect;
+    ->right:I
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 28
     .line 29
@@ -104,7 +109,8 @@
 
     .line 32
     .line 33
-    iget v4, v3, Landroid/graphics/Rect;->top:I
+    iget v4, v3, Landroid/graphics/Rect;
+    ->top:I
 
     .line 34
     .line 35
@@ -112,11 +118,13 @@
 
     .line 36
     .line 37
-    iget v4, v3, Landroid/graphics/Rect;->bottom:I
+    iget v4, v3, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 38
     .line 39
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 40
     .line 41
@@ -140,7 +148,8 @@
 
     .line 49
     .line 50
-    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -150,7 +159,8 @@
     .line 54
     :cond_1
     :goto_0
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 55
     .line 56
@@ -162,7 +172,8 @@
 
     .line 59
     .line 60
-    invoke-static {v0}, Landroidx/core/graphics/BitmapCompat$Api27Impl;->copyBitmapIfHardware(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Landroidx/core/graphics/BitmapCompat$Api27Impl;
+    ->copyBitmapIfHardware(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 61
     .line 62
@@ -182,7 +193,8 @@
 
     .line 67
     .line 68
-    invoke-virtual {v3}, Landroid/graphics/Rect;->width()I
+    invoke-virtual {v3}, Landroid/graphics/Rect;
+    ->width()I
 
     .line 69
     .line 70
@@ -194,7 +206,8 @@
 
     .line 73
     :cond_3
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 74
     .line 75
@@ -207,7 +220,8 @@
 
     .line 78
     .line 79
-    invoke-virtual {v3}, Landroid/graphics/Rect;->height()I
+    invoke-virtual {v3}, Landroid/graphics/Rect;
+    ->height()I
 
     .line 80
     .line 81
@@ -219,7 +233,8 @@
 
     .line 84
     :cond_4
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 85
     .line 86
@@ -250,7 +265,8 @@
 
     .line 95
     .line 96
-    iget v12, v3, Landroid/graphics/Rect;->left:I
+    iget v12, v3, Landroid/graphics/Rect;
+    ->left:I
 
     .line 97
     .line 98
@@ -266,7 +282,8 @@
 
     .line 101
     .line 102
-    iget v3, v3, Landroid/graphics/Rect;->top:I
+    iget v3, v3, Landroid/graphics/Rect;
+    ->top:I
 
     .line 103
     .line 104
@@ -289,7 +306,8 @@
 
     .line 110
     .line 111
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 112
     .line 113
@@ -301,7 +319,8 @@
 
     .line 116
     .line 117
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 118
     .line 119
@@ -313,7 +332,8 @@
 
     .line 122
     .line 123
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->isMutable()Z
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->isMutable()Z
 
     .line 124
     .line 125
@@ -329,7 +349,8 @@
 
     .line 130
     .line 131
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 132
     .line 133
@@ -337,7 +358,8 @@
     move-result-object v1
 
     .line 135
-    invoke-virtual {v0, v1, v13}, Landroid/graphics/Bitmap;->copy(Landroid/graphics/Bitmap$Config;Z)Landroid/graphics/Bitmap;
+    invoke-virtual {v0, v1, v13}, Landroid/graphics/Bitmap;
+    ->copy(Landroid/graphics/Bitmap$Config;Z)Landroid/graphics/Bitmap;
 
     .line 136
     .line 137
@@ -356,12 +378,14 @@
 
     .line 142
     .line 143
-    invoke-direct {v14, v13}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v14, v13}, Landroid/graphics/Paint;
+    -><init>(I)V
 
     .line 144
     .line 145
     .line 146
-    invoke-virtual {v14, v13}, Landroid/graphics/Paint;->setFilterBitmap(Z)V
+    invoke-virtual {v14, v13}, Landroid/graphics/Paint;
+    ->setFilterBitmap(Z)V
 
     .line 147
     .line 148
@@ -374,7 +398,8 @@
 
     .line 152
     .line 153
-    invoke-static {v14}, Landroidx/core/graphics/BitmapCompat$Api29Impl;->setPaintBlendMode(Landroid/graphics/Paint;)V
+    invoke-static {v14}, Landroidx/core/graphics/BitmapCompat$Api29Impl;
+    ->setPaintBlendMode(Landroid/graphics/Paint;)V
 
     .line 154
     .line 155
@@ -387,16 +412,19 @@
 
     .line 158
     .line 159
-    sget-object v11, Landroid/graphics/PorterDuff$Mode;->SRC:Landroid/graphics/PorterDuff$Mode;
+    sget-object v11, Landroid/graphics/PorterDuff$Mode;
+    ->SRC:Landroid/graphics/PorterDuff$Mode;
 
     .line 160
     .line 161
-    invoke-direct {v15, v11}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-direct {v15, v11}, Landroid/graphics/PorterDuffXfermode;
+    -><init>(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 162
     .line 163
     .line 164
-    invoke-virtual {v14, v15}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
+    invoke-virtual {v14, v15}, Landroid/graphics/Paint;
+    ->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
     .line 165
     .line 166
@@ -410,7 +438,8 @@
 
     .line 170
     .line 171
-    invoke-virtual {v6}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {v6}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 172
     .line 173
@@ -418,7 +447,8 @@
     move-result-object v0
 
     .line 175
-    invoke-static {v1, v2, v0}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {v1, v2, v0}, Landroid/graphics/Bitmap;
+    ->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 176
     .line 177
@@ -430,7 +460,8 @@
 
     .line 180
     .line 181
-    invoke-direct {v1, v0}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v1, v0}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 182
     .line 183
@@ -447,7 +478,8 @@
     int-to-float v3, v3
 
     .line 188
-    invoke-virtual {v1, v6, v2, v3, v14}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
+    invoke-virtual {v1, v6, v2, v3, v14}, Landroid/graphics/Canvas;
+    ->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
     .line 189
     .line 190
@@ -460,7 +492,8 @@
 
     .line 193
     .line 194
-    invoke-static/range {v16 .. v17}, Ljava/lang/Math;->log(D)D
+    invoke-static/range {v16 .. v17}, Ljava/lang/Math;
+    ->log(D)D
 
     .line 195
     .line 196
@@ -490,7 +523,8 @@
     float-to-double v11, v9
 
     .line 208
-    invoke-static {v11, v12}, Ljava/lang/Math;->log(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;
+    ->log(D)D
 
     .line 209
     .line 210
@@ -502,7 +536,8 @@
 
     .line 213
     .line 214
-    invoke-static {v11, v12}, Ljava/lang/Math;->ceil(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;
+    ->ceil(D)D
 
     .line 215
     .line 216
@@ -528,7 +563,8 @@
     float-to-double v11, v9
 
     .line 224
-    invoke-static {v11, v12}, Ljava/lang/Math;->log(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;
+    ->log(D)D
 
     .line 225
     .line 226
@@ -540,7 +576,8 @@
 
     .line 229
     .line 230
-    invoke-static {v11, v12}, Ljava/lang/Math;->floor(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;
+    ->floor(D)D
 
     .line 231
     .line 232
@@ -563,7 +600,8 @@
     float-to-double v10, v10
 
     .line 240
-    invoke-static {v10, v11}, Ljava/lang/Math;->log(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;
+    ->log(D)D
 
     .line 241
     .line 242
@@ -575,7 +613,8 @@
 
     .line 245
     .line 246
-    invoke-static {v10, v11}, Ljava/lang/Math;->ceil(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;
+    ->ceil(D)D
 
     .line 247
     .line 248
@@ -594,7 +633,8 @@
     float-to-double v10, v10
 
     .line 253
-    invoke-static {v10, v11}, Ljava/lang/Math;->log(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;
+    ->log(D)D
 
     .line 254
     .line 255
@@ -606,7 +646,8 @@
 
     .line 258
     .line 259
-    invoke-static {v10, v11}, Ljava/lang/Math;->floor(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;
+    ->floor(D)D
 
     .line 260
     .line 261
@@ -626,7 +667,8 @@
 
     .line 267
     .line 268
-    invoke-static {v0}, Landroidx/core/graphics/BitmapCompat$Api27Impl;->isAlreadyF16AndLinear(Landroid/graphics/Bitmap;)Z
+    invoke-static {v0}, Landroidx/core/graphics/BitmapCompat$Api27Impl;
+    ->isAlreadyF16AndLinear(Landroid/graphics/Bitmap;)Z
 
     .line 269
     .line 270
@@ -642,7 +684,8 @@
 
     .line 275
     .line 276
-    invoke-static {v7, v1, v13, v9}, Landroidx/core/graphics/BitmapCompat;->sizeAtStep(IIII)I
+    invoke-static {v7, v1, v13, v9}, Landroidx/core/graphics/BitmapCompat;
+    ->sizeAtStep(IIII)I
 
     .line 277
     .line 278
@@ -662,7 +705,8 @@
 
     .line 283
     .line 284
-    invoke-static {v8, v2, v13, v10}, Landroidx/core/graphics/BitmapCompat;->sizeAtStep(IIII)I
+    invoke-static {v8, v2, v13, v10}, Landroidx/core/graphics/BitmapCompat;
+    ->sizeAtStep(IIII)I
 
     .line 285
     .line 286
@@ -678,7 +722,8 @@
 
     .line 290
     :goto_c
-    invoke-static {v4, v11, v0, v13}, Landroidx/core/graphics/BitmapCompat$Api27Impl;->createBitmapWithSourceColorspace(IILandroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
+    invoke-static {v4, v11, v0, v13}, Landroidx/core/graphics/BitmapCompat$Api27Impl;
+    ->createBitmapWithSourceColorspace(IILandroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     .line 291
     .line 292
@@ -690,7 +735,8 @@
 
     .line 295
     .line 296
-    invoke-direct {v11, v4}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v11, v4}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 297
     .line 298
@@ -707,7 +753,8 @@
     int-to-float v3, v3
 
     .line 303
-    invoke-virtual {v11, v6, v12, v3, v14}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
+    invoke-virtual {v11, v6, v12, v3, v14}, Landroid/graphics/Canvas;
+    ->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
     .line 304
     .line 305
@@ -748,7 +795,8 @@
 
     .line 317
     .line 318
-    invoke-direct {v15, v12, v3, v7, v8}, Landroid/graphics/Rect;-><init>(IIII)V
+    invoke-direct {v15, v12, v3, v7, v8}, Landroid/graphics/Rect;
+    -><init>(IIII)V
 
     .line 319
     .line 320
@@ -757,7 +805,8 @@
 
     .line 322
     .line 323
-    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 324
     .line 325
@@ -790,7 +839,8 @@
 
     .line 337
     .line 338
-    invoke-virtual {v4}, Landroid/graphics/Bitmap;->recycle()V
+    invoke-virtual {v4}, Landroid/graphics/Bitmap;
+    ->recycle()V
 
     .line 339
     .line 340
@@ -853,7 +903,8 @@
 
     .line 363
     :goto_12
-    invoke-static {v7, v1, v12, v9}, Landroidx/core/graphics/BitmapCompat;->sizeAtStep(IIII)I
+    invoke-static {v7, v1, v12, v9}, Landroidx/core/graphics/BitmapCompat;
+    ->sizeAtStep(IIII)I
 
     .line 364
     .line 365
@@ -865,7 +916,8 @@
 
     .line 368
     .line 369
-    invoke-static {v8, v2, v13, v10}, Landroidx/core/graphics/BitmapCompat;->sizeAtStep(IIII)I
+    invoke-static {v8, v2, v13, v10}, Landroidx/core/graphics/BitmapCompat;
+    ->sizeAtStep(IIII)I
 
     .line 370
     .line 371
@@ -880,7 +932,8 @@
     const/4 v12, 0x0
 
     .line 376
-    invoke-virtual {v3, v12, v12, v5, v11}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v3, v12, v12, v5, v11}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 377
     .line 378
@@ -908,7 +961,8 @@
 
     .line 387
     .line 388
-    invoke-virtual {v4}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {v4}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 389
     .line 390
@@ -920,7 +974,8 @@
 
     .line 393
     .line 394
-    invoke-virtual {v4}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {v4}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 395
     .line 396
@@ -955,7 +1010,8 @@
 
     .line 408
     .line 409
-    sget v12, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v12, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 410
     .line 411
@@ -971,7 +1027,8 @@
 
     .line 416
     .line 417
-    invoke-static {v4}, Landroidx/core/graphics/BitmapCompat$Api27Impl;->isAlreadyF16AndLinear(Landroid/graphics/Bitmap;)Z
+    invoke-static {v4}, Landroidx/core/graphics/BitmapCompat$Api27Impl;
+    ->isAlreadyF16AndLinear(Landroid/graphics/Bitmap;)Z
 
     .line 418
     .line 419
@@ -1031,7 +1088,8 @@
 
     .line 441
     .line 442
-    invoke-virtual {v4}, Landroid/graphics/Bitmap;->recycle()V
+    invoke-virtual {v4}, Landroid/graphics/Bitmap;
+    ->recycle()V
 
     .line 443
     .line 444
@@ -1054,7 +1112,8 @@
     .line 451
     .line 452
     :goto_17
-    invoke-static {v7, v1, v4, v9}, Landroidx/core/graphics/BitmapCompat;->sizeAtStep(IIII)I
+    invoke-static {v7, v1, v4, v9}, Landroidx/core/graphics/BitmapCompat;
+    ->sizeAtStep(IIII)I
 
     .line 453
     .line 454
@@ -1078,7 +1137,8 @@
 
     .line 462
     :goto_18
-    invoke-static {v8, v2, v5, v10}, Landroidx/core/graphics/BitmapCompat;->sizeAtStep(IIII)I
+    invoke-static {v8, v2, v5, v10}, Landroidx/core/graphics/BitmapCompat;
+    ->sizeAtStep(IIII)I
 
     .line 463
     .line 464
@@ -1086,7 +1146,8 @@
     move-result v5
 
     .line 466
-    sget v11, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v11, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 467
     .line 468
@@ -1117,7 +1178,8 @@
 
     .line 479
     :goto_19
-    invoke-static {v4, v5, v0, v11}, Landroidx/core/graphics/BitmapCompat$Api27Impl;->createBitmapWithSourceColorspace(IILandroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
+    invoke-static {v4, v5, v0, v11}, Landroidx/core/graphics/BitmapCompat$Api27Impl;
+    ->createBitmapWithSourceColorspace(IILandroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     .line 480
     .line 481
@@ -1129,7 +1191,8 @@
 
     .line 484
     :cond_22
-    invoke-virtual {v6}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {v6}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 485
     .line 486
@@ -1137,7 +1200,8 @@
     move-result-object v11
 
     .line 488
-    invoke-static {v4, v5, v11}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {v4, v5, v11}, Landroid/graphics/Bitmap;
+    ->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 489
     .line 490
@@ -1150,17 +1214,20 @@
 
     .line 493
     .line 494
-    invoke-direct {v5, v4}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v5, v4}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 495
     .line 496
     .line 497
-    invoke-virtual {v5, v6, v15, v3, v14}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
+    invoke-virtual {v5, v6, v15, v3, v14}, Landroid/graphics/Canvas;
+    ->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 498
     .line 499
     .line 500
-    invoke-virtual {v15, v3}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
+    invoke-virtual {v15, v3}, Landroid/graphics/Rect;
+    ->set(Landroid/graphics/Rect;)V
 
     .line 501
     .line 502
@@ -1206,7 +1273,8 @@
 
     .line 520
     .line 521
-    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 522
     .line 523
@@ -2391,7 +2459,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getAllocationByteCount()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getAllocationByteCount()I
 
     .line 2
     .line 3
@@ -2409,7 +2478,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->hasMipMap()Z
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->hasMipMap()Z
 
     .line 2
     .line 3
@@ -2427,7 +2497,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/Bitmap;->setHasMipMap(Z)V
+    invoke-virtual {p0, p1}, Landroid/graphics/Bitmap;
+    ->setHasMipMap(Z)V
 
     .line 2
     .line 3

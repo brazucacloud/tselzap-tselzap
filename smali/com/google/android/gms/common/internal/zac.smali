@@ -21,12 +21,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/common/internal/zac;->zaa:Landroidx/collection/SimpleArrayMap;
+    sput-object v0, Lcom/google/android/gms/common/internal/zac;
+    ->zaa:Landroidx/collection/SimpleArrayMap;
 
     .line 7
     .line 8
@@ -37,7 +39,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -46,7 +49,8 @@
 
     .line 5
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 6
     .line 7
@@ -54,7 +58,8 @@
     move-result-object v1
 
     .line 9
-    invoke-virtual {v1, v0}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->getApplicationLabel(Ljava/lang/String;)Ljava/lang/CharSequence;
+    invoke-virtual {v1, v0}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->getApplicationLabel(Ljava/lang/String;)Ljava/lang/CharSequence;
 
     .line 10
     .line 11
@@ -62,7 +67,8 @@
     move-result-object v1
 
     .line 13
-    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -79,7 +85,8 @@
     nop
 
     .line 19
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     .line 20
     .line 21
@@ -87,11 +94,13 @@
     move-result-object p0
 
     .line 23
-    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->name:Ljava/lang/String;
+    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;
+    ->name:Ljava/lang/String;
 
     .line 24
     .line 25
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 26
     .line 27
@@ -116,7 +125,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -150,7 +160,8 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -161,11 +172,13 @@
 
     .line 22
     :cond_0
-    sget p1, Lcom/google/android/gms/base/R$string;->common_google_play_services_enable_button:I
+    sget p1, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_enable_button:I
 
     .line 23
     .line 24
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -176,11 +189,13 @@
 
     .line 29
     :cond_1
-    sget p1, Lcom/google/android/gms/base/R$string;->common_google_play_services_update_button:I
+    sget p1, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_update_button:I
 
     .line 30
     .line 31
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 32
     .line 33
@@ -191,11 +206,13 @@
 
     .line 36
     :cond_2
-    sget p1, Lcom/google/android/gms/base/R$string;->common_google_play_services_install_button:I
+    sget p1, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_install_button:I
 
     .line 37
     .line 38
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 39
     .line 40
@@ -217,7 +234,8 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -225,7 +243,8 @@
     move-result-object v2
 
     .line 7
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/zac;->zaa(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/zac;
+    ->zaa(Landroid/content/Context;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -286,7 +305,8 @@
     .line 34
     .line 35
     .line 36
-    sget p0, Lcom/google/android/gms/common/R$string;->common_google_play_services_unknown_issue:I
+    sget p0, Lcom/google/android/gms/common/R$string;
+    ->common_google_play_services_unknown_issue:I
 
     .line 37
     .line 38
@@ -298,7 +318,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -309,7 +330,8 @@
 
     .line 47
     :pswitch_0
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_updating_text:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_updating_text:I
 
     .line 48
     .line 49
@@ -321,7 +343,8 @@
 
     .line 52
     .line 53
-    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 54
     .line 55
@@ -336,7 +359,8 @@
 
     .line 59
     .line 60
-    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;
+    ->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 61
     .line 62
@@ -351,7 +375,8 @@
 
     .line 66
     .line 67
-    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;
+    ->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 68
     .line 69
@@ -366,7 +391,8 @@
 
     .line 73
     .line 74
-    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;
+    ->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -377,7 +403,8 @@
 
     .line 79
     :cond_1
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_unsupported_text:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_unsupported_text:I
 
     .line 80
     .line 81
@@ -389,7 +416,8 @@
 
     .line 84
     .line 85
-    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 86
     .line 87
@@ -404,7 +432,8 @@
 
     .line 91
     .line 92
-    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;
+    ->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 93
     .line 94
@@ -419,7 +448,8 @@
 
     .line 98
     .line 99
-    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v3}, Lcom/google/android/gms/common/internal/zac;
+    ->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 100
     .line 101
@@ -430,7 +460,8 @@
 
     .line 104
     :cond_4
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_enable_text:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_enable_text:I
 
     .line 105
     .line 106
@@ -442,7 +473,8 @@
 
     .line 109
     .line 110
-    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 111
     .line 112
@@ -453,7 +485,8 @@
 
     .line 115
     :cond_5
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isWearableWithoutPlayStore(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
+    ->isWearableWithoutPlayStore(Landroid/content/Context;)Z
 
     .line 116
     .line 117
@@ -465,11 +498,13 @@
 
     .line 120
     .line 121
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_wear_update_text:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_wear_update_text:I
 
     .line 122
     .line 123
-    invoke-virtual {v2, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {v2, p0}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 124
     .line 125
@@ -480,7 +515,8 @@
 
     .line 128
     :cond_6
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_update_text:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_update_text:I
 
     .line 129
     .line 130
@@ -492,7 +528,8 @@
 
     .line 133
     .line 134
-    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 135
     .line 136
@@ -503,7 +540,8 @@
 
     .line 139
     :cond_7
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_install_text:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_install_text:I
 
     .line 140
     .line 141
@@ -515,7 +553,8 @@
 
     .line 144
     .line 145
-    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Landroid/content/res/Resources;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 146
     .line 147
@@ -648,7 +687,8 @@
 
     .line 9
     :cond_0
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zac(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zac(Landroid/content/Context;I)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -660,7 +700,8 @@
     .line 14
     :cond_1
     :goto_0
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/zac;->zaa(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/zac;
+    ->zaa(Landroid/content/Context;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -672,7 +713,8 @@
 
     .line 19
     .line 20
-    invoke-static {p0, v0, p1}, Lcom/google/android/gms/common/internal/zac;->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zag(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -699,7 +741,8 @@
 
     .line 5
     .line 6
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -711,7 +754,8 @@
 
     .line 11
     :cond_0
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zaf(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zaf(Landroid/content/Context;I)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -724,7 +768,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 18
     .line 19
@@ -732,11 +777,13 @@
     move-result-object p0
 
     .line 21
-    sget p1, Lcom/google/android/gms/base/R$string;->common_google_play_services_notification_ticker:I
+    sget p1, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_notification_ticker:I
 
     .line 22
     .line 23
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -756,7 +803,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -785,17 +833,20 @@
 
     .line 14
     .line 15
-    invoke-direct {p0, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -803,7 +854,8 @@
     move-result-object p0
 
     .line 25
-    invoke-static {v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 26
     .line 27
@@ -816,7 +868,8 @@
 
     .line 30
     .line 31
-    invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 32
     .line 33
@@ -825,7 +878,8 @@
 
     .line 35
     .line 36
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -840,7 +894,8 @@
 
     .line 42
     .line 43
-    invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 44
     .line 45
@@ -849,7 +904,8 @@
 
     .line 47
     .line 48
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -864,7 +920,8 @@
 
     .line 54
     .line 55
-    invoke-static {v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 56
     .line 57
@@ -877,7 +934,8 @@
 
     .line 60
     .line 61
-    invoke-static {v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 62
     .line 63
@@ -890,7 +948,8 @@
 
     .line 66
     .line 67
-    invoke-static {v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 68
     .line 69
@@ -903,7 +962,8 @@
 
     .line 72
     .line 73
-    invoke-static {v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 74
     .line 75
@@ -916,7 +976,8 @@
 
     .line 78
     .line 79
-    invoke-static {v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 80
     .line 81
@@ -929,7 +990,8 @@
 
     .line 84
     .line 85
-    invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 86
     .line 87
@@ -938,7 +1000,8 @@
 
     .line 89
     .line 90
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 91
     .line 92
@@ -953,7 +1016,8 @@
 
     .line 96
     .line 97
-    invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 98
     .line 99
@@ -962,7 +1026,8 @@
 
     .line 101
     .line 102
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 103
     .line 104
@@ -977,11 +1042,13 @@
 
     .line 108
     :pswitch_b
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_enable_title:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_enable_title:I
 
     .line 109
     .line 110
-    invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 111
     .line 112
@@ -992,11 +1059,13 @@
 
     .line 115
     :pswitch_c
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_update_title:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_update_title:I
 
     .line 116
     .line 117
-    invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 118
     .line 119
@@ -1007,11 +1076,13 @@
 
     .line 122
     :pswitch_d
-    sget p0, Lcom/google/android/gms/base/R$string;->common_google_play_services_install_title:I
+    sget p0, Lcom/google/android/gms/base/R$string;
+    ->common_google_play_services_install_title:I
 
     .line 123
     .line 124
-    invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 125
     .line 126
@@ -1159,7 +1230,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -1167,7 +1239,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/zac;
+    ->zah(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -1179,11 +1252,13 @@
 
     .line 10
     .line 11
-    sget p0, Lcom/google/android/gms/common/R$string;->common_google_play_services_unknown_issue:I
+    sget p0, Lcom/google/android/gms/common/R$string;
+    ->common_google_play_services_unknown_issue:I
 
     .line 12
     .line 13
-    invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -1192,7 +1267,8 @@
 
     .line 17
     :cond_0
-    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v0}, Landroid/content/res/Resources;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 18
     .line 19
@@ -1200,7 +1276,8 @@
     move-result-object p1
 
     .line 21
-    iget-object p1, p1, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
+    iget-object p1, p1, Landroid/content/res/Configuration;
+    ->locale:Ljava/util/Locale;
 
     .line 22
     .line 23
@@ -1218,7 +1295,8 @@
 
     .line 28
     .line 29
-    invoke-static {p1, p0, v0}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p0, v0}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -1242,7 +1320,8 @@
 
     .line 4
     .line 5
-    sget-object v2, Lcom/google/android/gms/common/internal/zac;->zaa:Landroidx/collection/SimpleArrayMap;
+    sget-object v2, Lcom/google/android/gms/common/internal/zac;
+    ->zaa:Landroidx/collection/SimpleArrayMap;
 
     .line 6
     .line 7
@@ -1250,7 +1329,8 @@
 
     .line 8
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 9
     .line 10
@@ -1258,7 +1338,8 @@
     move-result-object v3
 
     .line 12
-    invoke-virtual {v3}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v3}, Landroid/content/res/Resources;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 13
     .line 14
@@ -1266,7 +1347,8 @@
     move-result-object v3
 
     .line 16
-    invoke-static {v3}, Landroidx/core/os/ConfigurationCompat;->getLocales(Landroid/content/res/Configuration;)Landroidx/core/os/LocaleListCompat;
+    invoke-static {v3}, Landroidx/core/os/ConfigurationCompat;
+    ->getLocales(Landroid/content/res/Configuration;)Landroidx/core/os/LocaleListCompat;
 
     .line 17
     .line 18
@@ -1277,7 +1359,8 @@
     const/4 v4, 0x0
 
     .line 21
-    invoke-virtual {v3, v4}, Landroidx/core/os/LocaleListCompat;->get(I)Ljava/util/Locale;
+    invoke-virtual {v3, v4}, Landroidx/core/os/LocaleListCompat;
+    ->get(I)Ljava/util/Locale;
 
     .line 22
     .line 23
@@ -1285,11 +1368,13 @@
     move-result-object v3
 
     .line 25
-    sget-object v4, Lcom/google/android/gms/common/internal/zac;->zab:Ljava/util/Locale;
+    sget-object v4, Lcom/google/android/gms/common/internal/zac;
+    ->zab:Ljava/util/Locale;
 
     .line 26
     .line 27
-    invoke-virtual {v3, v4}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/util/Locale;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -1301,12 +1386,14 @@
 
     .line 32
     .line 33
-    invoke-virtual {v2}, Landroidx/collection/SimpleArrayMap;->clear()V
+    invoke-virtual {v2}, Landroidx/collection/SimpleArrayMap;
+    ->clear()V
 
     .line 34
     .line 35
     .line 36
-    sput-object v3, Lcom/google/android/gms/common/internal/zac;->zab:Ljava/util/Locale;
+    sput-object v3, Lcom/google/android/gms/common/internal/zac;
+    ->zab:Ljava/util/Locale;
 
     .line 37
     .line 38
@@ -1322,7 +1409,8 @@
     .line 41
     :cond_0
     :goto_0
-    invoke-virtual {v2, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -1344,7 +1432,8 @@
 
     .line 51
     :cond_1
-    invoke-static {p0}, Lcom/google/android/gms/common/GooglePlayServicesUtil;->getRemoteResource(Landroid/content/Context;)Landroid/content/res/Resources;
+    invoke-static {p0}, Lcom/google/android/gms/common/GooglePlayServicesUtil;
+    ->getRemoteResource(Landroid/content/Context;)Landroid/content/res/Resources;
 
     .line 52
     .line 53
@@ -1373,7 +1462,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {p0, p1, v4, v5}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {p0, p1, v4, v5}, Landroid/content/res/Resources;
+    ->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 65
     .line 66
@@ -1393,17 +1483,20 @@
 
     .line 73
     .line 74
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 75
     .line 76
     .line 77
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 81
     .line 82
@@ -1411,7 +1504,8 @@
     move-result-object p1
 
     .line 84
-    invoke-static {p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 85
     .line 86
@@ -1422,7 +1516,8 @@
 
     .line 89
     :cond_3
-    invoke-virtual {p0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Landroid/content/res/Resources;
+    ->getString(I)Ljava/lang/String;
 
     .line 90
     .line 91
@@ -1430,7 +1525,8 @@
     move-result-object p0
 
     .line 93
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 94
     .line 95
@@ -1450,17 +1546,20 @@
 
     .line 102
     .line 103
-    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 107
     .line 108
     .line 109
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 110
     .line 111
@@ -1468,7 +1567,8 @@
     move-result-object p1
 
     .line 113
-    invoke-static {p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 114
     .line 115
@@ -1479,7 +1579,8 @@
 
     .line 118
     :cond_4
-    invoke-virtual {v2, p1, p0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1, p0}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 119
     .line 120

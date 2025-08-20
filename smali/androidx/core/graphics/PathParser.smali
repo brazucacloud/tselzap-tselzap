@@ -21,7 +21,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,12 +46,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/core/graphics/PathParser$PathDataNode;-><init>(C[F)V
+    invoke-direct {v0, p1, p2}, Landroidx/core/graphics/PathParser$PathDataNode;
+    -><init>(C[F)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -114,7 +117,8 @@
 
     .line 17
     .line 18
-    invoke-static {v2}, Landroidx/core/graphics/PathParser$PathDataNode;->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
+    invoke-static {v2}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
 
     .line 19
     .line 20
@@ -126,7 +130,8 @@
 
     .line 23
     .line 24
-    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
+    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
 
     .line 25
     .line 26
@@ -142,7 +147,8 @@
 
     .line 31
     .line 32
-    invoke-static {v2}, Landroidx/core/graphics/PathParser$PathDataNode;->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
+    invoke-static {v2}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
 
     .line 33
     .line 34
@@ -157,7 +163,8 @@
 
     .line 38
     .line 39
-    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
+    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
 
     .line 40
     .line 41
@@ -224,7 +231,8 @@
     sub-int/2addr v0, p1
 
     .line 10
-    invoke-static {p2, v0}, Ljava/lang/Math;->min(II)I
+    invoke-static {p2, v0}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 11
     .line 12
@@ -239,7 +247,8 @@
     const/4 v1, 0x0
 
     .line 17
-    invoke-static {p0, p1, p2, v1, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p0, p1, p2, v1, v0}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 18
     .line 19
@@ -252,7 +261,8 @@
 
     .line 22
     .line 23
-    invoke-direct {p0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 24
     .line 25
@@ -265,7 +275,8 @@
 
     .line 28
     .line 29
-    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;
+    -><init>()V
 
     .line 30
     .line 31
@@ -372,7 +383,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
@@ -390,7 +402,8 @@
 
     .line 10
     :goto_0
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 11
     .line 12
@@ -402,7 +415,8 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v3}, Landroidx/core/graphics/PathParser;->nextStart(Ljava/lang/String;I)I
+    invoke-static {p0, v3}, Landroidx/core/graphics/PathParser;
+    ->nextStart(Ljava/lang/String;I)I
 
     .line 17
     .line 18
@@ -410,7 +424,8 @@
     move-result v3
 
     .line 20
-    invoke-virtual {p0, v4, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v4, v3}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -418,7 +433,8 @@
     move-result-object v4
 
     .line 24
-    invoke-virtual {v4}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/String;
+    ->trim()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -426,7 +442,8 @@
     move-result-object v4
 
     .line 28
-    invoke-virtual {v4}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {v4}, Ljava/lang/String;
+    ->isEmpty()Z
 
     .line 29
     .line 30
@@ -438,7 +455,8 @@
 
     .line 33
     .line 34
-    invoke-static {v4}, Landroidx/core/graphics/PathParser;->getFloats(Ljava/lang/String;)[F
+    invoke-static {v4}, Landroidx/core/graphics/PathParser;
+    ->getFloats(Ljava/lang/String;)[F
 
     .line 35
     .line 36
@@ -446,7 +464,8 @@
     move-result-object v5
 
     .line 38
-    invoke-virtual {v4, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {v4, v1}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 39
     .line 40
@@ -454,7 +473,8 @@
     move-result v4
 
     .line 42
-    invoke-static {v0, v4, v5}, Landroidx/core/graphics/PathParser;->addNode(Ljava/util/ArrayList;C[F)V
+    invoke-static {v0, v4, v5}, Landroidx/core/graphics/PathParser;
+    ->addNode(Ljava/util/ArrayList;C[F)V
 
     .line 43
     .line 44
@@ -484,7 +504,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 55
     .line 56
@@ -496,7 +517,8 @@
 
     .line 59
     .line 60
-    invoke-virtual {p0, v4}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p0, v4}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 61
     .line 62
@@ -508,7 +530,8 @@
 
     .line 65
     .line 66
-    invoke-static {v0, p0, v2}, Landroidx/core/graphics/PathParser;->addNode(Ljava/util/ArrayList;C[F)V
+    invoke-static {v0, p0, v2}, Landroidx/core/graphics/PathParser;
+    ->addNode(Ljava/util/ArrayList;C[F)V
 
     .line 67
     .line 68
@@ -518,7 +541,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {v0, p0}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/util/ArrayList;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -547,12 +571,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Landroidx/core/graphics/PathParser;->createNodesFromPathData(Ljava/lang/String;)[Landroidx/core/graphics/PathParser$PathDataNode;
+    invoke-static {p0}, Landroidx/core/graphics/PathParser;
+    ->createNodesFromPathData(Ljava/lang/String;)[Landroidx/core/graphics/PathParser$PathDataNode;
 
     .line 7
     .line 8
@@ -561,7 +587,8 @@
 
     .line 10
     :try_start_0
-    invoke-static {v1, v0}, Landroidx/core/graphics/PathParser$PathDataNode;->nodesToPath([Landroidx/core/graphics/PathParser$PathDataNode;Landroid/graphics/Path;)V
+    invoke-static {v1, v0}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->nodesToPath([Landroidx/core/graphics/PathParser$PathDataNode;Landroid/graphics/Path;)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -583,7 +610,8 @@
 
     .line 18
     .line 19
-    invoke-static {v2, p0}, LA/d;->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p0}, LA/d;
+    ->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -591,7 +619,8 @@
     move-result-object p0
 
     .line 23
-    invoke-direct {v1, p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p0, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 24
     .line 25
@@ -636,7 +665,8 @@
 
     .line 11
     .line 12
-    invoke-direct {v2, v3}, Landroidx/core/graphics/PathParser$PathDataNode;-><init>(Landroidx/core/graphics/PathParser$PathDataNode;)V
+    invoke-direct {v2, v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    -><init>(Landroidx/core/graphics/PathParser$PathDataNode;)V
 
     .line 13
     .line 14
@@ -663,7 +693,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;->mEndWithNegOrDot:Z
+    iput-boolean v0, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    ->mEndWithNegOrDot:Z
 
     .line 3
     .line 4
@@ -680,7 +711,8 @@
 
     .line 8
     :goto_0
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 9
     .line 10
@@ -692,7 +724,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 15
     .line 16
@@ -750,7 +783,8 @@
 
     .line 40
     :cond_0
-    iput-boolean v7, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;->mEndWithNegOrDot:Z
+    iput-boolean v7, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    ->mEndWithNegOrDot:Z
 
     .line 41
     .line 42
@@ -775,7 +809,8 @@
 
     .line 48
     .line 49
-    iput-boolean v7, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;->mEndWithNegOrDot:Z
+    iput-boolean v7, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    ->mEndWithNegOrDot:Z
 
     .line 50
     .line 51
@@ -812,7 +847,8 @@
     .line 61
     :cond_5
     :goto_4
-    iput v1, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;->mEndPosition:I
+    iput v1, p2, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    ->mEndPosition:I
 
     .line 62
     .line 63
@@ -889,7 +925,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 3
     .line 4
@@ -905,7 +942,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0, v0}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p0, v0}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 11
     .line 12
@@ -926,7 +964,8 @@
     .line 19
     :cond_0
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 20
     .line 21
@@ -942,12 +981,14 @@
 
     .line 26
     .line 27
-    invoke-direct {v2}, Landroidx/core/graphics/PathParser$ExtractFloatResult;-><init>()V
+    invoke-direct {v2}, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    -><init>()V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 31
     .line 32
@@ -966,12 +1007,14 @@
 
     .line 37
     .line 38
-    invoke-static {p0, v4, v2}, Landroidx/core/graphics/PathParser;->extract(Ljava/lang/String;ILandroidx/core/graphics/PathParser$ExtractFloatResult;)V
+    invoke-static {p0, v4, v2}, Landroidx/core/graphics/PathParser;
+    ->extract(Ljava/lang/String;ILandroidx/core/graphics/PathParser$ExtractFloatResult;)V
 
     .line 39
     .line 40
     .line 41
-    iget v6, v2, Landroidx/core/graphics/PathParser$ExtractFloatResult;->mEndPosition:I
+    iget v6, v2, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    ->mEndPosition:I
 
     .line 42
     .line 43
@@ -983,7 +1026,8 @@
 
     .line 46
     .line 47
-    invoke-virtual {p0, v4, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v4, v6}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 48
     .line 49
@@ -991,7 +1035,8 @@
     move-result-object v4
 
     .line 51
-    invoke-static {v4}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+    invoke-static {v4}, Ljava/lang/Float;
+    ->parseFloat(Ljava/lang/String;)F
 
     .line 52
     .line 53
@@ -1018,7 +1063,8 @@
     .line 61
     :cond_1
     :goto_1
-    iget-boolean v4, v2, Landroidx/core/graphics/PathParser$ExtractFloatResult;->mEndWithNegOrDot:Z
+    iget-boolean v4, v2, Landroidx/core/graphics/PathParser$ExtractFloatResult;
+    ->mEndWithNegOrDot:Z
 
     .line 62
     .line 63
@@ -1041,7 +1087,8 @@
 
     .line 70
     :cond_3
-    invoke-static {v1, v0, v5}, Landroidx/core/graphics/PathParser;->copyOfRange([FII)[F
+    invoke-static {v1, v0, v5}, Landroidx/core/graphics/PathParser;
+    ->copyOfRange([FII)[F
 
     .line 71
     .line 72
@@ -1066,7 +1113,8 @@
 
     .line 80
     .line 81
-    invoke-static {v2, p0, v3}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p0, v3}, Landroidx/constraintlayout/core/parser/a;
+    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 82
     .line 83
@@ -1074,7 +1122,8 @@
     move-result-object p0
 
     .line 85
-    invoke-direct {v1, p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p0, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 86
     .line 87
@@ -1107,7 +1156,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p2, p3, p1}, Landroidx/core/graphics/PathParser;->interpolatePathDataNodes([Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;F)Z
+    invoke-static {p0, p2, p3, p1}, Landroidx/core/graphics/PathParser;
+    ->interpolatePathDataNodes([Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;F)Z
 
     move-result p0
 
@@ -1121,7 +1171,8 @@
 
     const-string p1, "Can\'t interpolate between two incompatible pathData"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -1142,7 +1193,8 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -1163,7 +1215,8 @@
     if-ne v0, v1, :cond_2
 
     .line 4
-    invoke-static {p1, p2}, Landroidx/core/graphics/PathParser;->canMorph([Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;)Z
+    invoke-static {p1, p2}, Landroidx/core/graphics/PathParser;
+    ->canMorph([Landroidx/core/graphics/PathParser$PathDataNode;[Landroidx/core/graphics/PathParser$PathDataNode;)Z
 
     move-result v0
 
@@ -1187,7 +1240,8 @@
 
     aget-object v3, p2, v1
 
-    invoke-virtual {v0, v2, v3, p3}, Landroidx/core/graphics/PathParser$PathDataNode;->interpolatePathDataNode(Landroidx/core/graphics/PathParser$PathDataNode;Landroidx/core/graphics/PathParser$PathDataNode;F)V
+    invoke-virtual {v0, v2, v3, p3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->interpolatePathDataNode(Landroidx/core/graphics/PathParser$PathDataNode;Landroidx/core/graphics/PathParser$PathDataNode;F)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1204,7 +1258,8 @@
 
     const-string p1, "The nodes to be interpolated and resulting nodes must have the same length"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -1214,7 +1269,8 @@
 
     .line 1
     :goto_0
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 2
     .line 3
@@ -1226,7 +1282,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p0, p1}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 8
     .line 9
@@ -1337,7 +1394,8 @@
 
     .line 11
     .line 12
-    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
+    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
 
     .line 13
     .line 14
@@ -1345,7 +1403,8 @@
     move-result v5
 
     .line 16
-    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
+    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
 
     .line 17
     .line 18
@@ -1353,12 +1412,14 @@
     move-result-object v6
 
     .line 20
-    invoke-static {p1, v0, v2, v5, v6}, Landroidx/core/graphics/PathParser$PathDataNode;->access$200(Landroid/graphics/Path;[FCC[F)V
+    invoke-static {p1, v0, v2, v5, v6}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$200(Landroid/graphics/Path;[FCC[F)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
+    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
 
     .line 24
     .line 25
@@ -1411,7 +1472,8 @@
 
     .line 9
     .line 10
-    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
+    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$000(Landroidx/core/graphics/PathParser$PathDataNode;)C
 
     .line 11
     .line 12
@@ -1419,7 +1481,8 @@
     move-result v3
 
     .line 14
-    invoke-static {v2, v3}, Landroidx/core/graphics/PathParser$PathDataNode;->access$002(Landroidx/core/graphics/PathParser$PathDataNode;C)C
+    invoke-static {v2, v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$002(Landroidx/core/graphics/PathParser$PathDataNode;C)C
 
     .line 15
     .line 16
@@ -1432,7 +1495,8 @@
 
     .line 19
     .line 20
-    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
+    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
 
     .line 21
     .line 22
@@ -1451,7 +1515,8 @@
 
     .line 28
     .line 29
-    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
+    invoke-static {v3}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
 
     .line 30
     .line 31
@@ -1463,7 +1528,8 @@
 
     .line 34
     .line 35
-    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
+    invoke-static {v4}, Landroidx/core/graphics/PathParser$PathDataNode;
+    ->access$100(Landroidx/core/graphics/PathParser$PathDataNode;)[F
 
     .line 36
     .line 37

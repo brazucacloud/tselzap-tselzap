@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/AsyncRequestQueue;->getBlockingQueue()Ljava/util/concurrent/PriorityBlockingQueue;
+    value = Lcom/android/volley/AsyncRequestQueue;
+    ->getBlockingQueue()Ljava/util/concurrent/PriorityBlockingQueue;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -49,7 +51,8 @@
 
     check-cast p2, Ljava/lang/Runnable;
 
-    invoke-virtual {p0, p1, p2}, Lcom/android/volley/AsyncRequestQueue$3;->compare(Ljava/lang/Runnable;Ljava/lang/Runnable;)I
+    invoke-virtual {p0, p1, p2}, Lcom/android/volley/AsyncRequestQueue$3;
+    ->compare(Ljava/lang/Runnable;Ljava/lang/Runnable;)I
 
     move-result p1
 
@@ -74,7 +77,8 @@
 
     check-cast p2, Lcom/android/volley/RequestTask;
 
-    invoke-virtual {p1, p2}, Lcom/android/volley/RequestTask;->compareTo(Lcom/android/volley/RequestTask;)I
+    invoke-virtual {p1, p2}, Lcom/android/volley/RequestTask;
+    ->compareTo(Lcom/android/volley/RequestTask;)I
 
     move-result p1
 

@@ -31,19 +31,22 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mTextView:Landroid/widget/TextView;
+    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mTextView:Landroid/widget/TextView;
 
     .line 5
     .line 6
     const/4 v0, 0x1
 
     .line 7
-    iput-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEnabled:Z
+    iput-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEnabled:Z
 
     .line 8
     .line 9
@@ -51,12 +54,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiInputFilter;-><init>(Landroid/widget/TextView;)V
+    invoke-direct {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiInputFilter;
+    -><init>(Landroid/widget/TextView;)V
 
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEmojiInputFilter:Landroidx/emoji2/viewsintegration/EmojiInputFilter;
+    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEmojiInputFilter:Landroidx/emoji2/viewsintegration/EmojiInputFilter;
 
     .line 15
     .line 16
@@ -91,7 +96,8 @@
 
     .line 7
     .line 8
-    iget-object v4, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEmojiInputFilter:Landroidx/emoji2/viewsintegration/EmojiInputFilter;
+    iget-object v4, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEmojiInputFilter:Landroidx/emoji2/viewsintegration/EmojiInputFilter;
 
     .line 9
     .line 10
@@ -122,12 +128,14 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v1, v2, v1, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p1, v1, v2, v1, v0}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 22
     .line 23
     .line 24
-    iget-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEmojiInputFilter:Landroidx/emoji2/viewsintegration/EmojiInputFilter;
+    iget-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEmojiInputFilter:Landroidx/emoji2/viewsintegration/EmojiInputFilter;
 
     .line 25
     .line 26
@@ -163,7 +171,8 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, v1}, Landroid/util/SparseArray;-><init>(I)V
+    invoke-direct {v0, v1}, Landroid/util/SparseArray;
+    -><init>(I)V
 
     .line 5
     .line 6
@@ -191,7 +200,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;
+    ->put(ILjava/lang/Object;)V
 
     .line 18
     .line 19
@@ -218,7 +228,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->getEmojiInputFilterPositionArray([Landroid/text/InputFilter;)Landroid/util/SparseArray;
+    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->getEmojiInputFilterPositionArray([Landroid/text/InputFilter;)Landroid/util/SparseArray;
 
     .line 2
     .line 3
@@ -226,7 +237,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {v0}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 6
     .line 7
@@ -248,7 +260,8 @@
     array-length v2, p1
 
     .line 14
-    invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {v0}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 15
     .line 16
@@ -274,7 +287,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v3}, Landroid/util/SparseArray;->indexOfKey(I)I
+    invoke-virtual {v0, v3}, Landroid/util/SparseArray;
+    ->indexOfKey(I)I
 
     .line 26
     .line 27
@@ -332,7 +346,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/emoji2/viewsintegration/EmojiTransformationMethod;->getOriginalTransformationMethod()Landroid/text/method/TransformationMethod;
+    invoke-virtual {p1}, Landroidx/emoji2/viewsintegration/EmojiTransformationMethod;
+    ->getOriginalTransformationMethod()Landroid/text/method/TransformationMethod;
 
     .line 8
     .line 9
@@ -348,11 +363,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mTextView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mTextView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/widget/TextView;->getFilters()[Landroid/text/InputFilter;
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getFilters()[Landroid/text/InputFilter;
 
     .line 4
     .line 5
@@ -360,11 +377,13 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mTextView:Landroid/widget/TextView;
+    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mTextView:Landroid/widget/TextView;
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->getFilters([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
+    invoke-virtual {p0, v0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->getFilters([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
 
     .line 10
     .line 11
@@ -372,7 +391,8 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setFilters([Landroid/text/InputFilter;)V
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;
+    ->setFilters([Landroid/text/InputFilter;)V
 
     .line 14
     .line 15
@@ -418,7 +438,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTransformationMethod;-><init>(Landroid/text/method/TransformationMethod;)V
+    invoke-direct {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTransformationMethod;
+    -><init>(Landroid/text/method/TransformationMethod;)V
 
     .line 14
     .line 15
@@ -438,7 +459,8 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEnabled:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEnabled:Z
 
     .line 2
     .line 3
@@ -446,7 +468,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->removeEmojiInputFilterIfPresent([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
+    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->removeEmojiInputFilterIfPresent([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
 
     .line 6
     .line 7
@@ -457,7 +480,8 @@
 
     .line 10
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->addEmojiInputFilterIfMissing([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
+    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->addEmojiInputFilterIfMissing([Landroid/text/InputFilter;)[Landroid/text/InputFilter;
 
     .line 11
     .line 12
@@ -471,7 +495,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEnabled:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEnabled:Z
 
     .line 2
     .line 3
@@ -486,7 +511,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->updateTransformationMethod()V
+    invoke-virtual {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->updateTransformationMethod()V
 
     .line 4
     .line 5
@@ -499,16 +525,19 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEnabled:Z
+    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEnabled:Z
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->updateTransformationMethod()V
+    invoke-virtual {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->updateTransformationMethod()V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->updateFilters()V
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->updateFilters()V
 
     .line 7
     .line 8
@@ -520,12 +549,14 @@
     .locals 0
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEnabled:Z
+    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEnabled:Z
 
     .line 2
     .line 3
@@ -536,11 +567,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mTextView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mTextView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/widget/TextView;->getTransformationMethod()Landroid/text/method/TransformationMethod;
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getTransformationMethod()Landroid/text/method/TransformationMethod;
 
     .line 4
     .line 5
@@ -548,7 +581,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->wrapTransformationMethod(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
+    invoke-virtual {p0, v0}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->wrapTransformationMethod(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
 
     .line 8
     .line 9
@@ -556,11 +590,13 @@
     move-result-object v0
 
     .line 11
-    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mTextView:Landroid/widget/TextView;
+    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mTextView:Landroid/widget/TextView;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;
+    ->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
     .line 14
     .line 15
@@ -578,7 +614,8 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->mEnabled:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->mEnabled:Z
 
     .line 2
     .line 3
@@ -586,7 +623,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->wrapForEnabled(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
+    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->wrapForEnabled(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
 
     .line 6
     .line 7
@@ -597,7 +635,8 @@
 
     .line 10
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;->unwrapForDisabled(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
+    invoke-direct {p0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19;
+    ->unwrapForDisabled(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
 
     .line 11
     .line 12

@@ -44,12 +44,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/layout/FoldingFeature$Orientation$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/FoldingFeature$Orientation$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/window/layout/FoldingFeature$Orientation;->Companion:Landroidx/window/layout/FoldingFeature$Orientation$Companion;
+    sput-object v0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->Companion:Landroidx/window/layout/FoldingFeature$Orientation$Companion;
 
     .line 8
     .line 9
@@ -61,12 +63,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, v1}, Landroidx/window/layout/FoldingFeature$Orientation;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/FoldingFeature$Orientation;
+    -><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    sput-object v0, Landroidx/window/layout/FoldingFeature$Orientation;->VERTICAL:Landroidx/window/layout/FoldingFeature$Orientation;
+    sput-object v0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->VERTICAL:Landroidx/window/layout/FoldingFeature$Orientation;
 
     .line 17
     .line 18
@@ -78,12 +82,14 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, v1}, Landroidx/window/layout/FoldingFeature$Orientation;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/FoldingFeature$Orientation;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    sput-object v0, Landroidx/window/layout/FoldingFeature$Orientation;->HORIZONTAL:Landroidx/window/layout/FoldingFeature$Orientation;
+    sput-object v0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->HORIZONTAL:Landroidx/window/layout/FoldingFeature$Orientation;
 
     .line 26
     .line 27
@@ -94,12 +100,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/window/layout/FoldingFeature$Orientation;->description:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->description:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -112,7 +120,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/FoldingFeature$Orientation;->description:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->description:Ljava/lang/String;
 
     .line 2
     .line 3

@@ -62,9 +62,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/window/layout/SidecarCompat$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/SidecarCompat$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/window/layout/SidecarCompat;->Companion:Landroidx/window/layout/SidecarCompat$Companion;
+    sput-object v0, Landroidx/window/layout/SidecarCompat;
+    ->Companion:Landroidx/window/layout/SidecarCompat$Companion;
 
     return-void
 .end method
@@ -74,12 +76,15 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    sget-object v0, Landroidx/window/layout/SidecarCompat;->Companion:Landroidx/window/layout/SidecarCompat$Companion;
+    sget-object v0, Landroidx/window/layout/SidecarCompat;
+    ->Companion:Landroidx/window/layout/SidecarCompat$Companion;
 
-    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;->getSidecarCompat$window_release(Landroid/content/Context;)Landroidx/window/sidecar/SidecarInterface;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;
+    ->getSidecarCompat$window_release(Landroid/content/Context;)Landroidx/window/sidecar/SidecarInterface;
 
     move-result-object p1
 
@@ -90,10 +95,12 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2, v1}, Landroidx/window/layout/SidecarAdapter;-><init>(Landroidx/window/core/SpecificationComputer$VerificationMode;ILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1, v2, v1}, Landroidx/window/layout/SidecarAdapter;
+    -><init>(Landroidx/window/core/SpecificationComputer$VerificationMode;ILkotlin/jvm/internal/e;)V
 
     .line 8
-    invoke-direct {p0, p1, v0}, Landroidx/window/layout/SidecarCompat;-><init>(Landroidx/window/sidecar/SidecarInterface;Landroidx/window/layout/SidecarAdapter;)V
+    invoke-direct {p0, p1, v0}, Landroidx/window/layout/SidecarCompat;
+    -><init>(Landroidx/window/sidecar/SidecarInterface;Landroidx/window/layout/SidecarAdapter;)V
 return-void
 .end method
 
@@ -108,30 +115,38 @@ return-void
 
     const-string v0, "sidecarAdapter"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 3
-    iput-object p2, p0, Landroidx/window/layout/SidecarCompat;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iput-object p2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 4
     new-instance p1, Ljava/util/LinkedHashMap;
 
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat;->windowListenerRegisteredContexts:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->windowListenerRegisteredContexts:Ljava/util/Map;
 
     .line 5
     new-instance p1, Ljava/util/LinkedHashMap;
 
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat;->componentCallbackMap:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->componentCallbackMap:Ljava/util/Map;
 
     return-void
 .end method
@@ -140,7 +155,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/window/layout/SidecarCompat;->extensionCallback:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
+    iget-object p0, p0, Landroidx/window/layout/SidecarCompat;
+    ->extensionCallback:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
 
     .line 2
     .line 3
@@ -151,7 +167,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/window/layout/SidecarCompat;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iget-object p0, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 2
     .line 3
@@ -162,7 +179,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/window/layout/SidecarCompat;->windowListenerRegisteredContexts:Ljava/util/Map;
+    iget-object p0, p0, Landroidx/window/layout/SidecarCompat;
+    ->windowListenerRegisteredContexts:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -173,11 +191,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->componentCallbackMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->componentCallbackMap:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -193,21 +213,25 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, p0, p1}, Landroidx/window/layout/SidecarCompat$registerConfigurationChangeListener$configChangeObserver$1;-><init>(Landroidx/window/layout/SidecarCompat;Landroid/app/Activity;)V
+    invoke-direct {v0, p0, p1}, Landroidx/window/layout/SidecarCompat$registerConfigurationChangeListener$configChangeObserver$1;
+    -><init>(Landroidx/window/layout/SidecarCompat;Landroid/app/Activity;)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat;->componentCallbackMap:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat;
+    ->componentCallbackMap:Ljava/util/Map;
 
     .line 15
     .line 16
-    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, v0}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p1, v0}, Landroid/app/Activity;->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+    invoke-virtual {p1, v0}, Landroid/app/Activity;
+    ->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
 
     .line 20
     .line 21
@@ -220,11 +244,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->componentCallbackMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->componentCallbackMap:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -236,16 +262,19 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {p1, v0}, Landroid/app/Activity;->unregisterComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+    invoke-virtual {p1, v0}, Landroid/app/Activity;
+    ->unregisterComponentCallbacks(Landroid/content/ComponentCallbacks;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->componentCallbackMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->componentCallbackMap:Ljava/util/Map;
 
     .line 13
     .line 14
-    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -259,7 +288,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 2
     .line 3
@@ -276,16 +306,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/window/layout/SidecarCompat;->Companion:Landroidx/window/layout/SidecarCompat$Companion;
+    sget-object v0, Landroidx/window/layout/SidecarCompat;
+    ->Companion:Landroidx/window/layout/SidecarCompat$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;
+    ->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
 
     .line 9
     .line 10
@@ -301,11 +334,13 @@ return-void
 
     .line 15
     .line 16
-    sget-object v0, Ld1/t;->b:Ld1/t;
+    sget-object v0, Ld1/t;
+    ->b:Ld1/t;
 
     .line 17
     .line 18
-    invoke-direct {p1, v0}, Landroidx/window/layout/WindowLayoutInfo;-><init>(Ljava/util/List;)V
+    invoke-direct {p1, v0}, Landroidx/window/layout/WindowLayoutInfo;
+    -><init>(Ljava/util/List;)V
 
     .line 19
     .line 20
@@ -314,7 +349,8 @@ return-void
 
     .line 22
     :cond_0
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 23
     .line 24
@@ -332,7 +368,8 @@ return-void
 
     .line 29
     :cond_1
-    invoke-interface {v0, p1}, Landroidx/window/sidecar/SidecarInterface;->getWindowLayoutInfo(Landroid/os/IBinder;)Landroidx/window/sidecar/SidecarWindowLayoutInfo;
+    invoke-interface {v0, p1}, Landroidx/window/sidecar/SidecarInterface;
+    ->getWindowLayoutInfo(Landroid/os/IBinder;)Landroidx/window/sidecar/SidecarWindowLayoutInfo;
 
     .line 30
     .line 31
@@ -341,11 +378,13 @@ return-void
 
     .line 33
     :goto_0
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 34
     .line 35
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 36
     .line 37
@@ -357,7 +396,8 @@ return-void
 
     .line 40
     :cond_2
-    invoke-interface {v2}, Landroidx/window/sidecar/SidecarInterface;->getDeviceState()Landroidx/window/sidecar/SidecarDeviceState;
+    invoke-interface {v2}, Landroidx/window/sidecar/SidecarInterface;
+    ->getDeviceState()Landroidx/window/sidecar/SidecarDeviceState;
 
     .line 41
     .line 42
@@ -374,13 +414,15 @@ return-void
 
     .line 47
     .line 48
-    invoke-direct {v1}, Landroidx/window/sidecar/SidecarDeviceState;-><init>()V
+    invoke-direct {v1}, Landroidx/window/sidecar/SidecarDeviceState;
+    -><init>()V
 
     .line 49
     .line 50
     .line 51
     :cond_3
-    invoke-virtual {v0, p1, v1}, Landroidx/window/layout/SidecarAdapter;->translate(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/WindowLayoutInfo;
+    invoke-virtual {v0, p1, v1}, Landroidx/window/layout/SidecarAdapter;
+    ->translate(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/WindowLayoutInfo;
 
     .line 52
     .line 53
@@ -398,16 +440,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/window/layout/SidecarCompat;->Companion:Landroidx/window/layout/SidecarCompat$Companion;
+    sget-object v0, Landroidx/window/layout/SidecarCompat;
+    ->Companion:Landroidx/window/layout/SidecarCompat$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;
+    ->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
 
     .line 9
     .line 10
@@ -419,7 +464,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0, p1}, Landroidx/window/layout/SidecarCompat;->register(Landroid/os/IBinder;Landroid/app/Activity;)V
+    invoke-virtual {p0, v0, p1}, Landroidx/window/layout/SidecarCompat;
+    ->register(Landroid/os/IBinder;Landroid/app/Activity;)V
 
     .line 15
     .line 16
@@ -432,12 +478,14 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v0, p0, p1}, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;-><init>(Landroidx/window/layout/SidecarCompat;Landroid/app/Activity;)V
+    invoke-direct {v0, p0, p1}, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;
+    -><init>(Landroidx/window/layout/SidecarCompat;Landroid/app/Activity;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 24
     .line 25
@@ -445,7 +493,8 @@ return-void
     move-result-object p1
 
     .line 27
-    invoke-virtual {p1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p1}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 28
     .line 29
@@ -453,7 +502,8 @@ return-void
     move-result-object p1
 
     .line 31
-    invoke-virtual {p1, v0}, Landroid/view/View;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 32
     .line 33
@@ -469,16 +519,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/window/layout/SidecarCompat;->Companion:Landroidx/window/layout/SidecarCompat$Companion;
+    sget-object v0, Landroidx/window/layout/SidecarCompat;
+    ->Companion:Landroidx/window/layout/SidecarCompat$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;
+    ->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
 
     .line 9
     .line 10
@@ -494,7 +547,8 @@ return-void
 
     .line 15
     :cond_0
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 16
     .line 17
@@ -506,22 +560,26 @@ return-void
 
     .line 20
     :cond_1
-    invoke-interface {v1, v0}, Landroidx/window/sidecar/SidecarInterface;->onWindowLayoutChangeListenerRemoved(Landroid/os/IBinder;)V
+    invoke-interface {v1, v0}, Landroidx/window/sidecar/SidecarInterface;
+    ->onWindowLayoutChangeListenerRemoved(Landroid/os/IBinder;)V
 
     .line 21
     .line 22
     .line 23
     :goto_0
-    invoke-direct {p0, p1}, Landroidx/window/layout/SidecarCompat;->unregisterComponentCallback(Landroid/app/Activity;)V
+    invoke-direct {p0, p1}, Landroidx/window/layout/SidecarCompat;
+    ->unregisterComponentCallback(Landroid/app/Activity;)V
 
     .line 24
     .line 25
     .line 26
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;->windowListenerRegisteredContexts:Ljava/util/Map;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->windowListenerRegisteredContexts:Ljava/util/Map;
 
     .line 27
     .line 28
-    invoke-interface {p1}, Ljava/util/Map;->size()I
+    invoke-interface {p1}, Ljava/util/Map;
+    ->size()I
 
     .line 29
     .line 30
@@ -547,11 +605,13 @@ return-void
 
     .line 38
     :goto_1
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->windowListenerRegisteredContexts:Ljava/util/Map;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->windowListenerRegisteredContexts:Ljava/util/Map;
 
     .line 39
     .line 40
-    invoke-interface {v2, v0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v0}, Ljava/util/Map;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -560,7 +620,8 @@ return-void
 
     .line 44
     .line 45
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 46
     .line 47
@@ -572,7 +633,8 @@ return-void
 
     .line 50
     :cond_3
-    invoke-interface {p1, v1}, Landroidx/window/sidecar/SidecarInterface;->onDeviceStateListenersChanged(Z)V
+    invoke-interface {p1, v1}, Landroidx/window/sidecar/SidecarInterface;
+    ->onDeviceStateListenersChanged(Z)V
 
     .line 51
     .line 52
@@ -590,7 +652,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -599,21 +662,25 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->windowListenerRegisteredContexts:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->windowListenerRegisteredContexts:Ljava/util/Map;
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
     .line 16
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 17
     .line 18
@@ -625,17 +692,20 @@ return-void
 
     .line 21
     :cond_0
-    invoke-interface {v0, p1}, Landroidx/window/sidecar/SidecarInterface;->onWindowLayoutChangeListenerAdded(Landroid/os/IBinder;)V
+    invoke-interface {v0, p1}, Landroidx/window/sidecar/SidecarInterface;
+    ->onWindowLayoutChangeListenerAdded(Landroid/os/IBinder;)V
 
     .line 22
     .line 23
     .line 24
     :goto_0
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;->windowListenerRegisteredContexts:Ljava/util/Map;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->windowListenerRegisteredContexts:Ljava/util/Map;
 
     .line 25
     .line 26
-    invoke-interface {p1}, Ljava/util/Map;->size()I
+    invoke-interface {p1}, Ljava/util/Map;
+    ->size()I
 
     .line 27
     .line 28
@@ -650,7 +720,8 @@ return-void
 
     .line 32
     .line 33
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 34
     .line 35
@@ -665,14 +736,16 @@ return-void
     const/4 v0, 0x0
 
     .line 39
-    invoke-interface {p1, v0}, Landroidx/window/sidecar/SidecarInterface;->onDeviceStateListenersChanged(Z)V
+    invoke-interface {p1, v0}, Landroidx/window/sidecar/SidecarInterface;
+    ->onDeviceStateListenersChanged(Z)V
 
     .line 40
     .line 41
     .line 42
     :cond_2
     :goto_1
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;->extensionCallback:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->extensionCallback:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
 
     .line 43
     .line 44
@@ -684,7 +757,8 @@ return-void
 
     .line 47
     :cond_3
-    invoke-virtual {p0, p2}, Landroidx/window/layout/SidecarCompat;->getWindowLayoutInfo(Landroid/app/Activity;)Landroidx/window/layout/WindowLayoutInfo;
+    invoke-virtual {p0, p2}, Landroidx/window/layout/SidecarCompat;
+    ->getWindowLayoutInfo(Landroid/app/Activity;)Landroidx/window/layout/WindowLayoutInfo;
 
     .line 48
     .line 49
@@ -692,13 +766,15 @@ return-void
     move-result-object v0
 
     .line 51
-    invoke-interface {p1, p2, v0}, Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;->onWindowLayoutChanged(Landroid/app/Activity;Landroidx/window/layout/WindowLayoutInfo;)V
+    invoke-interface {p1, p2, v0}, Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
+    ->onWindowLayoutChanged(Landroid/app/Activity;Landroidx/window/layout/WindowLayoutInfo;)V
 
     .line 52
     .line 53
     .line 54
     :goto_2
-    invoke-direct {p0, p2}, Landroidx/window/layout/SidecarCompat;->registerConfigurationChangeListener(Landroid/app/Activity;)V
+    invoke-direct {p0, p2}, Landroidx/window/layout/SidecarCompat;
+    ->registerConfigurationChangeListener(Landroid/app/Activity;)V
 
     .line 55
     .line 56
@@ -714,7 +790,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -723,16 +800,19 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0, p1}, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;-><init>(Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
+    -><init>(Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/window/layout/SidecarCompat;->extensionCallback:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
+    iput-object v0, p0, Landroidx/window/layout/SidecarCompat;
+    ->extensionCallback:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
 
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 14
     .line 15
@@ -748,7 +828,8 @@ return-void
 
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat;->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecarAdapter:Landroidx/window/layout/SidecarAdapter;
 
     .line 21
     .line 22
@@ -756,7 +837,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {v2, p0}, Landroidx/window/layout/SidecarCompat$TranslatingCallback;-><init>(Landroidx/window/layout/SidecarCompat;)V
+    invoke-direct {v2, p0}, Landroidx/window/layout/SidecarCompat$TranslatingCallback;
+    -><init>(Landroidx/window/layout/SidecarCompat;)V
 
     .line 25
     .line 26
@@ -765,7 +847,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v0, v1, v2}, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;-><init>(Landroidx/window/layout/SidecarAdapter;Landroidx/window/sidecar/SidecarInterface$SidecarCallback;)V
+    invoke-direct {v0, v1, v2}, Landroidx/window/layout/SidecarCompat$DistinctSidecarElementCallback;
+    -><init>(Landroidx/window/layout/SidecarAdapter;Landroidx/window/sidecar/SidecarInterface$SidecarCallback;)V
 
     .line 30
     .line 31
@@ -774,7 +857,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-interface {p1, v0}, Landroidx/window/sidecar/SidecarInterface;->setSidecarCallback(Landroidx/window/sidecar/SidecarInterface$SidecarCallback;)V
+    invoke-interface {p1, v0}, Landroidx/window/sidecar/SidecarInterface;
+    ->setSidecarCallback(Landroidx/window/sidecar/SidecarInterface$SidecarCallback;)V
 
     .line 35
     .line 36
@@ -798,7 +882,8 @@ return-void
 
     .line 3
     :try_start_0
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 4
     .line 5
@@ -817,7 +902,8 @@ return-void
 
     .line 10
     :cond_0
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 11
     .line 12
@@ -849,7 +935,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v2, v4, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v4, v5}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 26
     .line 27
@@ -869,7 +956,8 @@ return-void
 
     .line 33
     :cond_2
-    invoke-virtual {v2}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     .line 34
     .line 35
@@ -878,11 +966,13 @@ return-void
 
     .line 37
     :goto_2
-    sget-object v4, Ljava/lang/Void;->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Void;
+    ->TYPE:Ljava/lang/Class;
 
     .line 38
     .line 39
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 40
     .line 41
@@ -894,7 +984,8 @@ return-void
 
     .line 44
     .line 45
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 46
     .line 47
@@ -906,13 +997,15 @@ return-void
 
     .line 50
     :cond_3
-    invoke-interface {v2}, Landroidx/window/sidecar/SidecarInterface;->getDeviceState()Landroidx/window/sidecar/SidecarDeviceState;
+    invoke-interface {v2}, Landroidx/window/sidecar/SidecarInterface;
+    ->getDeviceState()Landroidx/window/sidecar/SidecarDeviceState;
 
     .line 51
     .line 52
     .line 53
     :goto_3
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 54
     .line 55
@@ -924,13 +1017,15 @@ return-void
 
     .line 58
     :cond_4
-    invoke-interface {v2, v0}, Landroidx/window/sidecar/SidecarInterface;->onDeviceStateListenersChanged(Z)V
+    invoke-interface {v2, v0}, Landroidx/window/sidecar/SidecarInterface;
+    ->onDeviceStateListenersChanged(Z)V
 
     .line 59
     .line 60
     .line 61
     :goto_4
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -953,7 +1048,8 @@ return-void
     .line 69
     :cond_5
     :try_start_1
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 70
     .line 71
@@ -981,7 +1077,8 @@ return-void
 
     .line 81
     .line 82
-    invoke-virtual {v2, v6, v7}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v6, v7}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 83
     .line 84
@@ -1001,7 +1098,8 @@ return-void
 
     .line 90
     :cond_7
-    invoke-virtual {v2}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     .line 91
     .line 92
@@ -1014,7 +1112,8 @@ return-void
 
     .line 95
     .line 96
-    invoke-static {v2, v6}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v6}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 97
     .line 98
@@ -1026,7 +1125,8 @@ return-void
 
     .line 101
     .line 102
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 103
     .line 104
@@ -1042,7 +1142,8 @@ return-void
 
     .line 108
     :cond_8
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 109
     .line 110
@@ -1070,7 +1171,8 @@ return-void
 
     .line 120
     .line 121
-    invoke-virtual {v2, v6, v7}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v6, v7}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 122
     .line 123
@@ -1090,7 +1192,8 @@ return-void
 
     .line 129
     :cond_a
-    invoke-virtual {v2}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     .line 130
     .line 131
@@ -1099,7 +1202,8 @@ return-void
 
     .line 133
     :goto_a
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 134
     .line 135
@@ -1111,7 +1215,8 @@ return-void
 
     .line 138
     .line 139
-    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;->sidecar:Landroidx/window/sidecar/SidecarInterface;
+    iget-object v2, p0, Landroidx/window/layout/SidecarCompat;
+    ->sidecar:Landroidx/window/sidecar/SidecarInterface;
 
     .line 140
     .line 141
@@ -1127,7 +1232,8 @@ return-void
 
     .line 145
     :cond_b
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 146
     .line 147
@@ -1155,7 +1261,8 @@ return-void
 
     .line 157
     .line 158
-    invoke-virtual {v2, v6, v7}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v6, v7}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 159
     .line 160
@@ -1172,7 +1279,8 @@ return-void
 
     .line 165
     :cond_d
-    invoke-virtual {v2}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     .line 166
     .line 167
@@ -1181,7 +1289,8 @@ return-void
 
     .line 169
     :goto_d
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 170
     .line 171
@@ -1197,7 +1306,8 @@ return-void
 
     .line 176
     .line 177
-    invoke-direct {v2}, Landroidx/window/sidecar/SidecarDeviceState;-><init>()V
+    invoke-direct {v2}, Landroidx/window/sidecar/SidecarDeviceState;
+    -><init>()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1208,7 +1318,8 @@ return-void
 
     .line 181
     :try_start_2
-    iput v3, v2, Landroidx/window/sidecar/SidecarDeviceState;->posture:I
+    iput v3, v2, Landroidx/window/sidecar/SidecarDeviceState;
+    ->posture:I
     :try_end_2
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -1232,7 +1343,8 @@ return-void
 
     .line 189
     .line 190
-    sget-object v7, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Integer;
+    ->TYPE:Ljava/lang/Class;
 
     .line 191
     .line 192
@@ -1240,7 +1352,8 @@ return-void
 
     .line 193
     .line 194
-    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 195
     .line 196
@@ -1248,7 +1361,8 @@ return-void
     move-result-object v4
 
     .line 198
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 199
     .line 200
@@ -1264,7 +1378,8 @@ return-void
 
     .line 205
     .line 206
-    invoke-virtual {v4, v2, v6}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v2, v6}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 207
     .line 208
@@ -1281,7 +1396,8 @@ return-void
 
     .line 214
     .line 215
-    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 216
     .line 217
@@ -1293,7 +1409,8 @@ return-void
 
     .line 220
     .line 221
-    invoke-virtual {v4, v2, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v2, v5}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 222
     .line 223
@@ -1309,7 +1426,8 @@ return-void
 
     .line 228
     .line 229
-    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v2}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 230
     .line 231
@@ -1326,12 +1444,14 @@ return-void
 
     .line 236
     .line 237
-    invoke-direct {v2}, Landroidx/window/sidecar/SidecarDisplayFeature;-><init>()V
+    invoke-direct {v2}, Landroidx/window/sidecar/SidecarDisplayFeature;
+    -><init>()V
 
     .line 238
     .line 239
     .line 240
-    invoke-virtual {v2}, Landroidx/window/sidecar/SidecarDisplayFeature;->getRect()Landroid/graphics/Rect;
+    invoke-virtual {v2}, Landroidx/window/sidecar/SidecarDisplayFeature;
+    ->getRect()Landroid/graphics/Rect;
 
     .line 241
     .line 242
@@ -1343,22 +1463,26 @@ return-void
 
     .line 245
     .line 246
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 247
     .line 248
     .line 249
-    invoke-virtual {v2, v3}, Landroidx/window/sidecar/SidecarDisplayFeature;->setRect(Landroid/graphics/Rect;)V
+    invoke-virtual {v2, v3}, Landroidx/window/sidecar/SidecarDisplayFeature;
+    ->setRect(Landroid/graphics/Rect;)V
 
     .line 250
     .line 251
     .line 252
-    invoke-virtual {v2}, Landroidx/window/sidecar/SidecarDisplayFeature;->getType()I
+    invoke-virtual {v2}, Landroidx/window/sidecar/SidecarDisplayFeature;
+    ->getType()I
 
     .line 253
     .line 254
     .line 255
-    invoke-virtual {v2, v0}, Landroidx/window/sidecar/SidecarDisplayFeature;->setType(I)V
+    invoke-virtual {v2, v0}, Landroidx/window/sidecar/SidecarDisplayFeature;
+    ->setType(I)V
 
     .line 256
     .line 257
@@ -1367,7 +1491,8 @@ return-void
 
     .line 259
     .line 260
-    invoke-direct {v3}, Landroidx/window/sidecar/SidecarWindowLayoutInfo;-><init>()V
+    invoke-direct {v3}, Landroidx/window/sidecar/SidecarWindowLayoutInfo;
+    -><init>()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -1375,7 +1500,8 @@ return-void
     .line 262
     .line 263
     :try_start_4
-    iget-object v1, v3, Landroidx/window/sidecar/SidecarWindowLayoutInfo;->displayFeatures:Ljava/util/List;
+    iget-object v1, v3, Landroidx/window/sidecar/SidecarWindowLayoutInfo;
+    ->displayFeatures:Ljava/util/List;
     :try_end_4
     .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -1392,12 +1518,14 @@ return-void
 
     .line 268
     .line 269
-    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v4}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 270
     .line 271
     .line 272
-    invoke-interface {v4, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v4, v2}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 273
     .line 274
@@ -1422,7 +1550,8 @@ return-void
 
     .line 284
     .line 285
-    invoke-virtual {v2, v5, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v5, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 286
     .line 287
@@ -1438,7 +1567,8 @@ return-void
 
     .line 292
     .line 293
-    invoke-virtual {v2, v3, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v3, v5}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 294
     .line 295
@@ -1455,7 +1585,8 @@ return-void
 
     .line 301
     .line 302
-    invoke-virtual {v2, v5, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v5, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 303
     .line 304
@@ -1467,7 +1598,8 @@ return-void
 
     .line 307
     .line 308
-    invoke-virtual {v2, v3, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v3, v5}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 309
     .line 310
@@ -1483,7 +1615,8 @@ return-void
 
     .line 315
     .line 316
-    invoke-virtual {v4, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 317
     .line 318
@@ -1507,7 +1640,8 @@ return-void
 
     .line 326
     .line 327
-    invoke-direct {v0, v2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/Exception;
+    -><init>(Ljava/lang/String;)V
 
     .line 328
     .line 329
@@ -1524,7 +1658,8 @@ return-void
 
     .line 334
     .line 335
-    invoke-direct {v0, v2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 336
     .line 337
@@ -1541,7 +1676,8 @@ return-void
 
     .line 342
     .line 343
-    invoke-direct {v0, v2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/Exception;
+    -><init>(Ljava/lang/String;)V
 
     .line 344
     .line 345
@@ -1558,7 +1694,8 @@ return-void
 
     .line 350
     .line 351
-    invoke-direct {v0, v2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 352
     .line 353
@@ -1575,7 +1712,8 @@ return-void
 
     .line 358
     .line 359
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v2}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 360
     .line 361
@@ -1583,7 +1721,8 @@ return-void
     move-result-object v2
 
     .line 363
-    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;
+    -><init>(Ljava/lang/String;)V
 
     .line 364
     .line 365
@@ -1600,7 +1739,8 @@ return-void
 
     .line 370
     .line 371
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 372
     .line 373
@@ -1608,7 +1748,8 @@ return-void
     move-result-object v2
 
     .line 375
-    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;
+    -><init>(Ljava/lang/String;)V
 
     .line 376
     .line 377
@@ -1625,7 +1766,8 @@ return-void
 
     .line 382
     .line 383
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 384
     .line 385
@@ -1633,7 +1775,8 @@ return-void
     move-result-object v2
 
     .line 387
-    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;
+    -><init>(Ljava/lang/String;)V
 
     .line 388
     .line 389
@@ -1650,7 +1793,8 @@ return-void
 
     .line 394
     .line 395
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 396
     .line 397
@@ -1658,7 +1802,8 @@ return-void
     move-result-object v2
 
     .line 399
-    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/NoSuchMethodException;
+    -><init>(Ljava/lang/String;)V
 
     .line 400
     .line 401

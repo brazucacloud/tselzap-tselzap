@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/lifecycle/a;->b:I
+    iput p2, p0, Landroidx/lifecycle/a;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/lifecycle/a;
+    ->c:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,31 +34,38 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/lifecycle/a;->b:I
+    iget v0, p0, Landroidx/lifecycle/a;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/lifecycle/a;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/lifecycle/ProcessLifecycleOwner;
 
-    invoke-static {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;->a(Landroidx/lifecycle/ProcessLifecycleOwner;)V
+    invoke-static {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;
+    ->a(Landroidx/lifecycle/ProcessLifecycleOwner;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/lifecycle/a;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/lifecycle/ComputableLiveData;
 
-    invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;->b(Landroidx/lifecycle/ComputableLiveData;)V
+    invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;
+    ->b(Landroidx/lifecycle/ComputableLiveData;)V
 return-void
 
     :pswitch_1
-    iget-object v0, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/lifecycle/a;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/lifecycle/ComputableLiveData;
 
-    invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;->a(Landroidx/lifecycle/ComputableLiveData;)V
+    invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;
+    ->a(Landroidx/lifecycle/ComputableLiveData;)V
 return-void
 
     nop

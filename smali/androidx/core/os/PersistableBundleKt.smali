@@ -13,7 +13,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-static {v0}, Landroidx/core/os/PersistableBundleApi21ImplKt;->createPersistableBundle(I)Landroid/os/PersistableBundle;
+    invoke-static {v0}, Landroidx/core/os/PersistableBundleApi21ImplKt;
+    ->createPersistableBundle(I)Landroid/os/PersistableBundle;
 
     move-result-object v0
 
@@ -38,7 +39,8 @@
     .line 1
     array-length v0, p0
 
-    invoke-static {v0}, Landroidx/core/os/PersistableBundleApi21ImplKt;->createPersistableBundle(I)Landroid/os/PersistableBundle;
+    invoke-static {v0}, Landroidx/core/os/PersistableBundleApi21ImplKt;
+    ->createPersistableBundle(I)Landroid/os/PersistableBundle;
 
     move-result-object v0
 
@@ -53,15 +55,18 @@
     aget-object v3, p0, v2
 
     .line 3
-    iget-object v4, v3, Lc1/f;->b:Ljava/lang/Object;
+    iget-object v4, v3, Lc1/f;
+    ->b:Ljava/lang/Object;
 
     .line 4
     check-cast v4, Ljava/lang/String;
 
     .line 5
-    iget-object v3, v3, Lc1/f;->c:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;
+    ->c:Ljava/lang/Object;
 
-    invoke-static {v0, v4, v3}, Landroidx/core/os/PersistableBundleApi21ImplKt;->putValue(Landroid/os/PersistableBundle;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v4, v3}, Landroidx/core/os/PersistableBundleApi21ImplKt;
+    ->putValue(Landroid/os/PersistableBundle;Ljava/lang/String;Ljava/lang/Object;)V
 
     add-int/lit8 v2, v2, 0x1
 
@@ -90,7 +95,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/Map;->size()I
+    invoke-interface {p0}, Ljava/util/Map;
+    ->size()I
 
     .line 2
     .line 3
@@ -98,7 +104,8 @@
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/core/os/PersistableBundleApi21ImplKt;->createPersistableBundle(I)Landroid/os/PersistableBundle;
+    invoke-static {v0}, Landroidx/core/os/PersistableBundleApi21ImplKt;
+    ->createPersistableBundle(I)Landroid/os/PersistableBundle;
 
     .line 6
     .line 7
@@ -106,7 +113,8 @@
     move-result-object v0
 
     .line 9
-    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 10
     .line 11
@@ -114,7 +122,8 @@
     move-result-object p0
 
     .line 13
-    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -123,7 +132,8 @@
 
     .line 17
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 18
     .line 19
@@ -135,7 +145,8 @@
 
     .line 22
     .line 23
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -147,7 +158,8 @@
 
     .line 28
     .line 29
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -159,7 +171,8 @@
 
     .line 34
     .line 35
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -167,7 +180,8 @@
     move-result-object v1
 
     .line 39
-    invoke-static {v0, v2, v1}, Landroidx/core/os/PersistableBundleApi21ImplKt;->putValue(Landroid/os/PersistableBundle;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Landroidx/core/os/PersistableBundleApi21ImplKt;
+    ->putValue(Landroid/os/PersistableBundle;Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 40
     .line 41

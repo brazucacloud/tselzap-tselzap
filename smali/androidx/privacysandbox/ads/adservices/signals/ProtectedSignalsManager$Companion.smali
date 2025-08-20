@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManager$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManager$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -49,16 +51,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
+    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->adServicesVersion()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
+    ->adServicesVersion()I
 
     .line 9
     .line 10
@@ -82,7 +87,8 @@
 
     .line 19
     .line 20
-    invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 21
     .line 22
@@ -91,7 +97,8 @@
 
     .line 24
     .line 25
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/b;->q(Landroid/content/Context;)Landroid/adservices/signals/ProtectedSignalsManager;
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/b;
+    ->q(Landroid/content/Context;)Landroid/adservices/signals/ProtectedSignalsManager;
 
     .line 26
     .line 27
@@ -103,12 +110,14 @@
 
     .line 30
     .line 31
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;-><init>(Landroid/adservices/signals/ProtectedSignalsManager;)V
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
+    -><init>(Landroid/adservices/signals/ProtectedSignalsManager;)V
 return-object v0
 
     .line 38
@@ -117,7 +126,8 @@ return-object v0
 
     .line 39
     .line 40
-    invoke-static {v2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42

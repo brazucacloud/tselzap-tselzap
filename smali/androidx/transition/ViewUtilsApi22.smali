@@ -24,7 +24,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi21;-><init>()V
+    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi21;
+    -><init>()V
     return-void
 .end method
 
@@ -43,7 +44,8 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ViewUtilsApi22;->sTryHiddenSetLeftTopRightBottom:Z
+    sget-boolean v0, Landroidx/transition/ViewUtilsApi22;
+    ->sTryHiddenSetLeftTopRightBottom:Z
 
     .line 2
     .line 3
@@ -52,7 +54,8 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1, p2, p3, p4, p5}, Landroidx/transition/ViewUtilsApi22$Api29Impl;->setLeftTopRightBottom(Landroid/view/View;IIII)V
+    invoke-static {p1, p2, p3, p4, p5}, Landroidx/transition/ViewUtilsApi22$Api29Impl;
+    ->setLeftTopRightBottom(Landroid/view/View;IIII)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -61,7 +64,8 @@
     const/4 p1, 0x0
 
     .line 10
-    sput-boolean p1, Landroidx/transition/ViewUtilsApi22;->sTryHiddenSetLeftTopRightBottom:Z
+    sput-boolean p1, Landroidx/transition/ViewUtilsApi22;
+    ->sTryHiddenSetLeftTopRightBottom:Z
 
     .line 11
     .line 12

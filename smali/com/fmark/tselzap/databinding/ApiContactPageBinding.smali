@@ -67,32 +67,39 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->rootView:Landroid/widget/ScrollView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->rootView:Landroid/widget/ScrollView;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->editToken:Lcom/google/android/material/textfield/TextInputEditText;
+    iput-object p2, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->editToken:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->socketStatus:Landroid/widget/TextView;
+    iput-object p3, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->socketStatus:Landroid/widget/TextView;
 
     .line 9
     .line 10
-    iput-object p4, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
+    iput-object p4, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->socketSwitch:Landroidx/appcompat/widget/SwitchCompat;
 
     .line 11
     .line 12
-    iput-object p5, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->statusIndicator:Landroid/view/View;
+    iput-object p5, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->statusIndicator:Landroid/view/View;
 
     .line 13
     .line 14
-    iput-object p6, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->tvToken:Landroid/widget/TextView;
+    iput-object p6, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->tvToken:Landroid/widget/TextView;
 
     .line 15
     .line 16
@@ -114,7 +121,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -138,7 +146,8 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 17
     .line 18
@@ -162,7 +171,8 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 29
     .line 30
@@ -186,7 +196,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 41
     .line 42
@@ -203,7 +214,8 @@
     .line 47
     .line 48
     .line 49
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 50
     .line 51
@@ -233,7 +245,8 @@
 
     .line 62
     .line 63
-    invoke-direct/range {v2 .. v8}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;-><init>(Landroid/widget/ScrollView;Lcom/google/android/material/textfield/TextInputEditText;Landroid/widget/TextView;Landroidx/appcompat/widget/SwitchCompat;Landroid/view/View;Landroid/widget/TextView;)V
+    invoke-direct/range {v2 .. v8}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    -><init>(Landroid/widget/ScrollView;Lcom/google/android/material/textfield/TextInputEditText;Landroid/widget/TextView;Landroidx/appcompat/widget/SwitchCompat;Landroid/view/View;Landroid/widget/TextView;)V
 
     .line 64
     .line 65
@@ -242,7 +255,8 @@
 
     .line 67
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 68
     .line 69
@@ -250,7 +264,8 @@
     move-result-object p0
 
     .line 71
-    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;
+    ->getResourceName(I)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -266,7 +281,8 @@
 
     .line 78
     .line 79
-    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 80
     .line 81
@@ -274,7 +290,8 @@
     move-result-object p0
 
     .line 83
-    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -453,7 +470,8 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
 
     move-result-object p0
 
@@ -478,18 +496,21 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;)V
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    invoke-static {p0}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
 
     move-result-object p0
 
@@ -504,7 +525,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->getRoot()Landroid/widget/ScrollView;
+    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->getRoot()Landroid/widget/ScrollView;
 
     move-result-object v0
 
@@ -517,7 +539,8 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;->rootView:Landroid/widget/ScrollView;
+    iget-object v0, p0, Lcom/fmark/tselzap/databinding/ApiContactPageBinding;
+    ->rootView:Landroid/widget/ScrollView;
 
     return-object v0
 .end method

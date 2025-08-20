@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,7 +46,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getType(Ljava/lang/Object;)I
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getType(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -81,12 +83,14 @@
     const/4 v0, -0x1
 
     .line 17
-    invoke-direct {p0, v0}, Landroidx/core/graphics/drawable/IconCompat;-><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/core/graphics/drawable/IconCompat;
+    -><init>(I)V
 
     .line 18
     .line 19
     .line 20
-    iput-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -94,7 +98,8 @@
 
     .line 23
     :cond_0
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getUri(Ljava/lang/Object;)Landroid/net/Uri;
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getUri(Ljava/lang/Object;)Landroid/net/Uri;
 
     .line 24
     .line 25
@@ -102,7 +107,8 @@
     move-result-object p0
 
     .line 27
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;->createWithAdaptiveBitmapContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithAdaptiveBitmapContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 28
     .line 29
@@ -113,7 +119,8 @@
 
     .line 32
     :cond_1
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getUri(Ljava/lang/Object;)Landroid/net/Uri;
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getUri(Ljava/lang/Object;)Landroid/net/Uri;
 
     .line 33
     .line 34
@@ -121,7 +128,8 @@
     move-result-object p0
 
     .line 36
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;->createWithContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 37
     .line 38
@@ -132,7 +140,8 @@
 
     .line 41
     :cond_2
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getResPackage(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getResPackage(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -141,7 +150,8 @@
 
     .line 45
     :try_start_0
-    invoke-static {p0, v0}, Landroidx/core/graphics/drawable/IconCompat;->getResources(Landroid/content/Context;Ljava/lang/String;)Landroid/content/res/Resources;
+    invoke-static {p0, v0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getResources(Landroid/content/Context;Ljava/lang/String;)Landroid/content/res/Resources;
 
     .line 46
     .line 47
@@ -149,7 +159,8 @@
     move-result-object p0
 
     .line 49
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getResId(Ljava/lang/Object;)I
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getResId(Ljava/lang/Object;)I
 
     .line 50
     .line 51
@@ -157,7 +168,8 @@
     move-result p1
 
     .line 53
-    invoke-static {p0, v0, p1}, Landroidx/core/graphics/drawable/IconCompat;->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {p0, v0, p1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 54
     .line 55
@@ -178,7 +190,8 @@
 
     .line 61
     .line 62
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -367,12 +380,14 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getType(Ljava/lang/Object;)I
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getType(Ljava/lang/Object;)I
 
     .line 5
     .line 6
@@ -408,12 +423,14 @@
     const/4 v1, -0x1
 
     .line 20
-    invoke-direct {v0, v1}, Landroidx/core/graphics/drawable/IconCompat;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/graphics/drawable/IconCompat;
+    -><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    iput-object p0, v0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iput-object p0, v0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -421,7 +438,8 @@
 
     .line 26
     :cond_0
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getUri(Ljava/lang/Object;)Landroid/net/Uri;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getUri(Ljava/lang/Object;)Landroid/net/Uri;
 
     .line 27
     .line 28
@@ -429,7 +447,8 @@
     move-result-object p0
 
     .line 30
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;->createWithAdaptiveBitmapContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithAdaptiveBitmapContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 31
     .line 32
@@ -440,7 +459,8 @@
 
     .line 35
     :cond_1
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getUri(Ljava/lang/Object;)Landroid/net/Uri;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getUri(Ljava/lang/Object;)Landroid/net/Uri;
 
     .line 36
     .line 37
@@ -448,7 +468,8 @@
     move-result-object p0
 
     .line 39
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;->createWithContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithContentUri(Landroid/net/Uri;)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 40
     .line 41
@@ -459,7 +480,8 @@
 
     .line 44
     :cond_2
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getResPackage(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getResPackage(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 45
     .line 46
@@ -467,7 +489,8 @@
     move-result-object v0
 
     .line 48
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;->getResId(Ljava/lang/Object;)I
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api23Impl;
+    ->getResId(Ljava/lang/Object;)I
 
     .line 49
     .line 50
@@ -478,7 +501,8 @@
     const/4 v1, 0x0
 
     .line 53
-    invoke-static {v1, v0, p0}, Landroidx/core/graphics/drawable/IconCompat;->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {v1, v0, p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 54
     .line 55
@@ -509,7 +533,8 @@
 
     .line 4
     .line 5
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -521,7 +546,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;->getResId(Ljava/lang/Object;)I
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;
+    ->getResId(Ljava/lang/Object;)I
 
     .line 12
     .line 13
@@ -536,7 +562,8 @@
 
     .line 17
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -552,7 +579,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 26
     .line 27
@@ -564,7 +592,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -576,7 +605,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 38
     .line 39
@@ -612,7 +642,8 @@
 
     .line 48
     :goto_0
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 49
     .line 50
@@ -621,7 +652,8 @@
 
     .line 52
     :goto_1
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 53
     .line 54
@@ -630,7 +662,8 @@
 
     .line 56
     :goto_2
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 57
     .line 58
@@ -656,7 +689,8 @@
 
     .line 4
     .line 5
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -668,7 +702,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;->getResPackage(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;
+    ->getResPackage(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -683,7 +718,8 @@
 
     .line 17
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -702,7 +738,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -714,7 +751,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -755,7 +793,8 @@
 
     .line 45
     :goto_0
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 46
     .line 47
@@ -764,7 +803,8 @@
 
     .line 49
     :goto_1
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 50
     .line 51
@@ -773,7 +813,8 @@
 
     .line 53
     :goto_2
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 54
     .line 55
@@ -797,7 +838,8 @@
 
     .line 4
     .line 5
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -809,7 +851,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;->getType(Ljava/lang/Object;)I
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;
+    ->getType(Ljava/lang/Object;)I
 
     .line 12
     .line 13
@@ -824,7 +867,8 @@
 
     .line 17
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -843,7 +887,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -855,7 +900,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -867,7 +913,8 @@
 
     .line 37
     .line 38
-    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 39
     .line 40
@@ -907,17 +954,20 @@
 
     .line 50
     .line 51
-    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 58
     .line 59
@@ -925,7 +975,8 @@
     move-result-object p0
 
     .line 61
-    invoke-static {v1, p0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, p0, v3}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 62
     .line 63
@@ -938,17 +989,20 @@
 
     .line 66
     .line 67
-    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -956,7 +1010,8 @@
     move-result-object p0
 
     .line 77
-    invoke-static {v1, p0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, p0, v3}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 78
     .line 79
@@ -969,17 +1024,20 @@
 
     .line 82
     .line 83
-    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 90
     .line 91
@@ -987,7 +1045,8 @@
     move-result-object p0
 
     .line 93
-    invoke-static {v1, p0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, p0, v3}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 94
     .line 95
@@ -1016,7 +1075,8 @@
 
     .line 4
     .line 5
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -1028,7 +1088,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;->getUri(Ljava/lang/Object;)Landroid/net/Uri;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompat$Api28Impl;
+    ->getUri(Ljava/lang/Object;)Landroid/net/Uri;
 
     .line 12
     .line 13
@@ -1043,7 +1104,8 @@
 
     .line 17
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -1062,7 +1124,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -1074,7 +1137,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v4}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -1115,7 +1179,8 @@
 
     .line 45
     :goto_0
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 46
     .line 47
@@ -1124,7 +1189,8 @@
 
     .line 49
     :goto_1
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 50
     .line 51
@@ -1133,7 +1199,8 @@
 
     .line 53
     :goto_2
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 54
     .line 55
@@ -1147,7 +1214,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Icon;->loadDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Icon;
+    ->loadDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -1163,7 +1231,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/graphics/drawable/IconCompat;->mType:I
+    iget v0, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mType:I
 
     .line 2
     .line 3
@@ -1188,7 +1257,8 @@
 
     .line 12
     .line 13
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -1197,7 +1267,8 @@
 
     .line 17
     :pswitch_1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 18
     .line 19
@@ -1209,7 +1280,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;->getUri()Landroid/net/Uri;
+    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getUri()Landroid/net/Uri;
 
     .line 24
     .line 25
@@ -1217,7 +1289,8 @@
     move-result-object p1
 
     .line 27
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api30Impl;->createWithAdaptiveBitmapContentUri(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api30Impl;
+    ->createWithAdaptiveBitmapContentUri(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
 
     .line 28
     .line 29
@@ -1234,7 +1307,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, p1}, Landroidx/core/graphics/drawable/IconCompat;->getUriInputStream(Landroid/content/Context;)Ljava/io/InputStream;
+    invoke-virtual {p0, p1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getUriInputStream(Landroid/content/Context;)Ljava/io/InputStream;
 
     .line 36
     .line 37
@@ -1250,7 +1324,8 @@
 
     .line 42
     .line 43
-    invoke-static {p1}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Landroid/graphics/BitmapFactory;
+    ->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     .line 44
     .line 45
@@ -1258,7 +1333,8 @@
     move-result-object p1
 
     .line 47
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api26Impl;->createWithAdaptiveBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api26Impl;
+    ->createWithAdaptiveBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 48
     .line 49
@@ -1271,7 +1347,8 @@
     .line 52
     .line 53
     :cond_1
-    invoke-static {p1}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Landroid/graphics/BitmapFactory;
+    ->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     .line 54
     .line 55
@@ -1279,7 +1356,8 @@
     move-result-object p1
 
     .line 57
-    invoke-static {p1, v1}, Landroidx/core/graphics/drawable/IconCompat;->createLegacyIconFromAdaptiveIcon(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
+    invoke-static {p1, v1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createLegacyIconFromAdaptiveIcon(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     .line 58
     .line 59
@@ -1287,7 +1365,8 @@
     move-result-object p1
 
     .line 61
-    invoke-static {p1}, Landroid/graphics/drawable/Icon;->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroid/graphics/drawable/Icon;
+    ->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 62
     .line 63
@@ -1312,12 +1391,14 @@
 
     .line 72
     .line 73
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;->getUri()Landroid/net/Uri;
+    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getUri()Landroid/net/Uri;
 
     .line 77
     .line 78
@@ -1325,12 +1406,14 @@
     move-result-object p0
 
     .line 80
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 84
     .line 85
@@ -1338,7 +1421,8 @@
     move-result-object p0
 
     .line 87
-    invoke-direct {p1, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -1359,12 +1443,14 @@
 
     .line 96
     .line 97
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 98
     .line 99
     .line 100
-    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;->getUri()Landroid/net/Uri;
+    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getUri()Landroid/net/Uri;
 
     .line 101
     .line 102
@@ -1372,12 +1458,14 @@
     move-result-object p0
 
     .line 104
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
     .line 107
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 108
     .line 109
@@ -1385,7 +1473,8 @@
     move-result-object p0
 
     .line 111
-    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 112
     .line 113
@@ -1394,7 +1483,8 @@
 
     .line 115
     :pswitch_2
-    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 116
     .line 117
@@ -1402,7 +1492,8 @@
 
     .line 118
     .line 119
-    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 120
     .line 121
@@ -1410,7 +1501,8 @@
 
     .line 122
     .line 123
-    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api26Impl;->createWithAdaptiveBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroidx/core/graphics/drawable/IconCompat$Api26Impl;
+    ->createWithAdaptiveBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 124
     .line 125
@@ -1422,7 +1514,8 @@
 
     .line 128
     :cond_4
-    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 129
     .line 130
@@ -1430,7 +1523,8 @@
 
     .line 131
     .line 132
-    invoke-static {p1, v1}, Landroidx/core/graphics/drawable/IconCompat;->createLegacyIconFromAdaptiveIcon(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
+    invoke-static {p1, v1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createLegacyIconFromAdaptiveIcon(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     .line 133
     .line 134
@@ -1438,7 +1532,8 @@
     move-result-object p1
 
     .line 136
-    invoke-static {p1}, Landroid/graphics/drawable/Icon;->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroid/graphics/drawable/Icon;
+    ->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 137
     .line 138
@@ -1450,7 +1545,8 @@
 
     .line 141
     :pswitch_3
-    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 142
     .line 143
@@ -1458,7 +1554,8 @@
 
     .line 144
     .line 145
-    invoke-static {p1}, Landroid/graphics/drawable/Icon;->createWithContentUri(Ljava/lang/String;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroid/graphics/drawable/Icon;
+    ->createWithContentUri(Ljava/lang/String;)Landroid/graphics/drawable/Icon;
 
     .line 146
     .line 147
@@ -1470,7 +1567,8 @@
 
     .line 150
     :pswitch_4
-    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 151
     .line 152
@@ -1478,15 +1576,18 @@
 
     .line 153
     .line 154
-    iget v0, p0, Landroidx/core/graphics/drawable/IconCompat;->mInt1:I
+    iget v0, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mInt1:I
 
     .line 155
     .line 156
-    iget v1, p0, Landroidx/core/graphics/drawable/IconCompat;->mInt2:I
+    iget v1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mInt2:I
 
     .line 157
     .line 158
-    invoke-static {p1, v0, v1}, Landroid/graphics/drawable/Icon;->createWithData([BII)Landroid/graphics/drawable/Icon;
+    invoke-static {p1, v0, v1}, Landroid/graphics/drawable/Icon;
+    ->createWithData([BII)Landroid/graphics/drawable/Icon;
 
     .line 159
     .line 160
@@ -1498,7 +1599,8 @@
 
     .line 163
     :pswitch_5
-    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;->getResPackage()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getResPackage()Ljava/lang/String;
 
     .line 164
     .line 165
@@ -1506,11 +1608,13 @@
     move-result-object p1
 
     .line 167
-    iget v0, p0, Landroidx/core/graphics/drawable/IconCompat;->mInt1:I
+    iget v0, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mInt1:I
 
     .line 168
     .line 169
-    invoke-static {p1, v0}, Landroid/graphics/drawable/Icon;->createWithResource(Ljava/lang/String;I)Landroid/graphics/drawable/Icon;
+    invoke-static {p1, v0}, Landroid/graphics/drawable/Icon;
+    ->createWithResource(Ljava/lang/String;I)Landroid/graphics/drawable/Icon;
 
     .line 170
     .line 171
@@ -1522,7 +1626,8 @@
 
     .line 174
     :pswitch_6
-    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 175
     .line 176
@@ -1530,7 +1635,8 @@
 
     .line 177
     .line 178
-    invoke-static {p1}, Landroid/graphics/drawable/Icon;->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p1}, Landroid/graphics/drawable/Icon;
+    ->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 179
     .line 180
@@ -1539,7 +1645,8 @@
 
     .line 182
     :goto_0
-    iget-object v0, p0, Landroidx/core/graphics/drawable/IconCompat;->mTintList:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mTintList:Landroid/content/res/ColorStateList;
 
     .line 183
     .line 184
@@ -1547,17 +1654,20 @@
 
     .line 185
     .line 186
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Icon;->setTintList(Landroid/content/res/ColorStateList;)Landroid/graphics/drawable/Icon;
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Icon;
+    ->setTintList(Landroid/content/res/ColorStateList;)Landroid/graphics/drawable/Icon;
 
     .line 187
     .line 188
     .line 189
     :cond_5
-    iget-object p0, p0, Landroidx/core/graphics/drawable/IconCompat;->mTintMode:Landroid/graphics/PorterDuff$Mode;
+    iget-object p0, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
     .line 190
     .line 191
-    sget-object v0, Landroidx/core/graphics/drawable/IconCompat;->DEFAULT_TINT_MODE:Landroid/graphics/PorterDuff$Mode;
+    sget-object v0, Landroidx/core/graphics/drawable/IconCompat;
+    ->DEFAULT_TINT_MODE:Landroid/graphics/PorterDuff$Mode;
 
     .line 192
     .line 193
@@ -1565,7 +1675,8 @@
 
     .line 194
     .line 195
-    invoke-virtual {p1, p0}, Landroid/graphics/drawable/Icon;->setTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/graphics/drawable/Icon;
+    invoke-virtual {p1, p0}, Landroid/graphics/drawable/Icon;
+    ->setTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/graphics/drawable/Icon;
 
     .line 196
     .line 197
@@ -1575,7 +1686,8 @@
 
     .line 199
     :pswitch_7
-    iget-object p0, p0, Landroidx/core/graphics/drawable/IconCompat;->mObj1:Ljava/lang/Object;
+    iget-object p0, p0, Landroidx/core/graphics/drawable/IconCompat;
+    ->mObj1:Ljava/lang/Object;
 
     .line 200
     .line 201

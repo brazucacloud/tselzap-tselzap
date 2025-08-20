@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/fragment/FragmentNavigator;->attachClearViewModel$navigation_fragment_release(Landroidx/fragment/app/Fragment;Landroidx/navigation/NavBackStackEntry;Landroidx/navigation/NavigatorState;)V
+    value = Landroidx/navigation/fragment/FragmentNavigator;
+    ->attachClearViewModel$navigation_fragment_release(Landroidx/fragment/app/Fragment;Landroidx/navigation/NavBackStackEntry;Landroidx/navigation/NavigatorState;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;
 
-    invoke-direct {v0}, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;
+    -><init>()V
 
-    sput-object v0, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;->INSTANCE:Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;
+    sput-object v0, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;
+    ->INSTANCE:Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -57,12 +61,14 @@ return-void
 
     const-string v0, "$this$initializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance p1, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
 
-    invoke-direct {p1}, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;-><init>()V
+    invoke-direct {p1}, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
+    -><init>()V
     return-object p1
 .end method
 
@@ -72,7 +78,8 @@ return-void
     .line 2
     check-cast p1, Landroidx/lifecycle/viewmodel/CreationExtras;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;->invoke(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
+    invoke-virtual {p0, p1}, Landroidx/navigation/fragment/FragmentNavigator$attachClearViewModel$viewModel$1$1;
+    ->invoke(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
 
     move-result-object p1
 

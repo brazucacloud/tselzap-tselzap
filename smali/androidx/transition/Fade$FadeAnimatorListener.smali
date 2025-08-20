@@ -28,7 +28,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
+    -><init>()V
 
     .line 2
     .line 3
@@ -36,11 +37,14 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mLayerTypeChanged:Z
+    iput-boolean v0, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mLayerTypeChanged:Z
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;    return-void
+    iput-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;    
+    return-void
 .end method
 
 
@@ -49,7 +53,8 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 2
     .line 3
@@ -57,7 +62,9 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0}, Landroidx/transition/ViewUtils;->setTransitionAlpha(Landroid/view/View;F)V    return-void
+    invoke-static {p1, v0}, Landroidx/transition/ViewUtils;
+    ->setTransitionAlpha(Landroid/view/View;F)V    
+    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -66,7 +73,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/transition/Fade$FadeAnimatorListener;->onAnimationEnd(Landroid/animation/Animator;Z)V
+    invoke-virtual {p0, p1, v0}, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->onAnimationEnd(Landroid/animation/Animator;Z)V
 return-void
 .end method
 
@@ -78,33 +86,40 @@ return-void
     .end param
 
     .line 2
-    iget-boolean p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mLayerTypeChanged:Z
+    iget-boolean p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mLayerTypeChanged:Z
 
     if-eqz p1, :cond_0
 
     .line 3
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;
+    ->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_0
     if-nez p2, :cond_1
 
     .line 4
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtils;->setTransitionAlpha(Landroid/view/View;F)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtils;
+    ->setTransitionAlpha(Landroid/view/View;F)V
 
     .line 5
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
-    invoke-static {p1}, Landroidx/transition/ViewUtils;->clearNonTransitionAlpha(Landroid/view/View;)V
+    invoke-static {p1}, Landroidx/transition/ViewUtils;
+    ->clearNonTransitionAlpha(Landroid/view/View;)V
 
     :cond_1
     return-void
@@ -114,11 +129,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;->hasOverlappingRendering()Z
+    invoke-virtual {p1}, Landroid/view/View;
+    ->hasOverlappingRendering()Z
 
     .line 4
     .line 5
@@ -130,11 +147,13 @@ return-void
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;->getLayerType()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayerType()I
 
     .line 12
     .line 13
@@ -149,11 +168,13 @@ return-void
     const/4 p1, 0x1
 
     .line 18
-    iput-boolean p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mLayerTypeChanged:Z
+    iput-boolean p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mLayerTypeChanged:Z
 
     .line 19
     .line 20
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 21
     .line 22
@@ -163,7 +184,8 @@ return-void
     const/4 v1, 0x0
 
     .line 24
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;
+    ->setLayerType(ILandroid/graphics/Paint;)V
 
     .line 25
     .line 26
@@ -196,7 +218,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 
@@ -208,11 +231,13 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 4
     .line 5
@@ -224,11 +249,13 @@ return-void
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/transition/ViewUtils;->getTransitionAlpha(Landroid/view/View;)F
+    invoke-static {p1}, Landroidx/transition/ViewUtils;
+    ->getTransitionAlpha(Landroid/view/View;)F
 
     .line 12
     .line 13
@@ -244,15 +271,18 @@ return-void
 
     .line 17
     :goto_0
-    iget-object v0, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 18
     .line 19
-    sget v1, Landroidx/transition/R$id;->transition_pause_alpha:I
+    sget v1, Landroidx/transition/R$id;
+    ->transition_pause_alpha:I
 
     .line 20
     .line 21
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 22
     .line 23
@@ -260,7 +290,9 @@ return-void
     move-result-object p1
 
     .line 25
-    invoke-virtual {v0, v1, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v0, v1, p1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V    
+    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -271,18 +303,22 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Fade$FadeAnimatorListener;
+    ->mView:Landroid/view/View;
 
     .line 2
     .line 3
-    sget v0, Landroidx/transition/R$id;->transition_pause_alpha:I
+    sget v0, Landroidx/transition/R$id;
+    ->transition_pause_alpha:I
 
     .line 4
     .line 5
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V    
+    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V

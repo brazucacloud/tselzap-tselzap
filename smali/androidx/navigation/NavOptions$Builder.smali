@@ -78,7 +78,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -86,23 +87,29 @@
     const/4 v0, -0x1
 
     .line 5
-    iput v0, p0, Landroidx/navigation/NavOptions$Builder;->popUpToId:I
+    iput v0, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToId:I
 
     .line 6
     .line 7
-    iput v0, p0, Landroidx/navigation/NavOptions$Builder;->enterAnim:I
+    iput v0, p0, Landroidx/navigation/NavOptions$Builder;
+    ->enterAnim:I
 
     .line 8
     .line 9
-    iput v0, p0, Landroidx/navigation/NavOptions$Builder;->exitAnim:I
+    iput v0, p0, Landroidx/navigation/NavOptions$Builder;
+    ->exitAnim:I
 
     .line 10
     .line 11
-    iput v0, p0, Landroidx/navigation/NavOptions$Builder;->popEnterAnim:I
+    iput v0, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popEnterAnim:I
 
     .line 12
     .line 13
-    iput v0, p0, Landroidx/navigation/NavOptions$Builder;->popExitAnim:I    return-void
+    iput v0, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popExitAnim:I    
+    return-void
 .end method
 
 .method public static synthetic setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;IZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
@@ -116,7 +123,8 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo(IZZ)Landroidx/navigation/NavOptions$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo(IZZ)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p0
 
@@ -134,7 +142,8 @@
 
     .line 5
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo(Ljava/lang/Object;ZZ)Landroidx/navigation/NavOptions$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo(Ljava/lang/Object;ZZ)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p0
 
@@ -152,7 +161,8 @@
 
     .line 3
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo(Ljava/lang/String;ZZ)Landroidx/navigation/NavOptions$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo(Ljava/lang/String;ZZ)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p0
 
@@ -170,7 +180,8 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo(Lv1/c;ZZ)Landroidx/navigation/NavOptions$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo(Lv1/c;ZZ)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p0
 
@@ -181,7 +192,8 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -194,7 +206,8 @@
     .locals 13
 
     .line 1
-    iget-object v3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRoute:Ljava/lang/String;
+    iget-object v3, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -206,44 +219,54 @@
 
     .line 6
     .line 7
-    iget-boolean v1, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z
+    iget-boolean v1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->singleTop:Z
 
     .line 8
     .line 9
-    iget-boolean v2, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z
+    iget-boolean v2, p0, Landroidx/navigation/NavOptions$Builder;
+    ->restoreState:Z
 
     .line 10
     .line 11
-    iget-boolean v4, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iget-boolean v4, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 12
     .line 13
-    iget-boolean v5, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iget-boolean v5, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 
     .line 14
     .line 15
-    iget v6, p0, Landroidx/navigation/NavOptions$Builder;->enterAnim:I
+    iget v6, p0, Landroidx/navigation/NavOptions$Builder;
+    ->enterAnim:I
 
     .line 16
     .line 17
-    iget v7, p0, Landroidx/navigation/NavOptions$Builder;->exitAnim:I
+    iget v7, p0, Landroidx/navigation/NavOptions$Builder;
+    ->exitAnim:I
 
     .line 18
     .line 19
-    iget v8, p0, Landroidx/navigation/NavOptions$Builder;->popEnterAnim:I
+    iget v8, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popEnterAnim:I
 
     .line 20
     .line 21
-    iget v9, p0, Landroidx/navigation/NavOptions$Builder;->popExitAnim:I
+    iget v9, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popExitAnim:I
 
     .line 22
     .line 23
-    invoke-direct/range {v0 .. v9}, Landroidx/navigation/NavOptions;-><init>(ZZLjava/lang/String;ZZIIII)V
+    invoke-direct/range {v0 .. v9}, Landroidx/navigation/NavOptions;
+    -><init>(ZZLjava/lang/String;ZZIIII)V
 return-object v0
 
     .line 27
     :cond_0
-    iget-object v4, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRouteClass:Lv1/c;
+    iget-object v4, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRouteClass:Lv1/c;
 
     .line 28
     .line 29
@@ -255,44 +278,54 @@ return-object v0
 
     .line 32
     .line 33
-    iget-boolean v2, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z
+    iget-boolean v2, p0, Landroidx/navigation/NavOptions$Builder;
+    ->singleTop:Z
 
     .line 34
     .line 35
-    iget-boolean v3, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z
+    iget-boolean v3, p0, Landroidx/navigation/NavOptions$Builder;
+    ->restoreState:Z
 
     .line 36
     .line 37
-    iget-boolean v5, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iget-boolean v5, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 38
     .line 39
-    iget-boolean v6, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iget-boolean v6, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 
     .line 40
     .line 41
-    iget v7, p0, Landroidx/navigation/NavOptions$Builder;->enterAnim:I
+    iget v7, p0, Landroidx/navigation/NavOptions$Builder;
+    ->enterAnim:I
 
     .line 42
     .line 43
-    iget v8, p0, Landroidx/navigation/NavOptions$Builder;->exitAnim:I
+    iget v8, p0, Landroidx/navigation/NavOptions$Builder;
+    ->exitAnim:I
 
     .line 44
     .line 45
-    iget v9, p0, Landroidx/navigation/NavOptions$Builder;->popEnterAnim:I
+    iget v9, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popEnterAnim:I
 
     .line 46
     .line 47
-    iget v10, p0, Landroidx/navigation/NavOptions$Builder;->popExitAnim:I
+    iget v10, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popExitAnim:I
 
     .line 48
     .line 49
-    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;-><init>(ZZLv1/c;ZZIIII)V
+    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;
+    -><init>(ZZLv1/c;ZZIIII)V
 return-object v1
 
     .line 53
     :cond_1
-    iget-object v5, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRouteObject:Ljava/lang/Object;
+    iget-object v5, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -304,44 +337,54 @@ return-object v1
 
     .line 58
     .line 59
-    iget-boolean v3, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z
+    iget-boolean v3, p0, Landroidx/navigation/NavOptions$Builder;
+    ->singleTop:Z
 
     .line 60
     .line 61
-    iget-boolean v4, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z
+    iget-boolean v4, p0, Landroidx/navigation/NavOptions$Builder;
+    ->restoreState:Z
 
     .line 62
     .line 63
-    invoke-static {v5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v5}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 64
     .line 65
     .line 66
-    iget-boolean v6, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iget-boolean v6, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 67
     .line 68
-    iget-boolean v7, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iget-boolean v7, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 
     .line 69
     .line 70
-    iget v8, p0, Landroidx/navigation/NavOptions$Builder;->enterAnim:I
+    iget v8, p0, Landroidx/navigation/NavOptions$Builder;
+    ->enterAnim:I
 
     .line 71
     .line 72
-    iget v9, p0, Landroidx/navigation/NavOptions$Builder;->exitAnim:I
+    iget v9, p0, Landroidx/navigation/NavOptions$Builder;
+    ->exitAnim:I
 
     .line 73
     .line 74
-    iget v10, p0, Landroidx/navigation/NavOptions$Builder;->popEnterAnim:I
+    iget v10, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popEnterAnim:I
 
     .line 75
     .line 76
-    iget v11, p0, Landroidx/navigation/NavOptions$Builder;->popExitAnim:I
+    iget v11, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popExitAnim:I
 
     .line 77
     .line 78
-    invoke-direct/range {v2 .. v11}, Landroidx/navigation/NavOptions;-><init>(ZZLjava/lang/Object;ZZIIII)V
+    invoke-direct/range {v2 .. v11}, Landroidx/navigation/NavOptions;
+    -><init>(ZZLjava/lang/Object;ZZIIII)V
 return-object v2
 
     .line 82
@@ -350,43 +393,53 @@ return-object v2
 
     .line 83
     .line 84
-    iget-boolean v4, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z
+    iget-boolean v4, p0, Landroidx/navigation/NavOptions$Builder;
+    ->singleTop:Z
 
     .line 85
     .line 86
-    iget-boolean v5, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z
+    iget-boolean v5, p0, Landroidx/navigation/NavOptions$Builder;
+    ->restoreState:Z
 
     .line 87
     .line 88
-    iget v6, p0, Landroidx/navigation/NavOptions$Builder;->popUpToId:I
+    iget v6, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToId:I
 
     .line 89
     .line 90
-    iget-boolean v7, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iget-boolean v7, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 91
     .line 92
-    iget-boolean v8, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iget-boolean v8, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 
     .line 93
     .line 94
-    iget v9, p0, Landroidx/navigation/NavOptions$Builder;->enterAnim:I
+    iget v9, p0, Landroidx/navigation/NavOptions$Builder;
+    ->enterAnim:I
 
     .line 95
     .line 96
-    iget v10, p0, Landroidx/navigation/NavOptions$Builder;->exitAnim:I
+    iget v10, p0, Landroidx/navigation/NavOptions$Builder;
+    ->exitAnim:I
 
     .line 97
     .line 98
-    iget v11, p0, Landroidx/navigation/NavOptions$Builder;->popEnterAnim:I
+    iget v11, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popEnterAnim:I
 
     .line 99
     .line 100
-    iget v12, p0, Landroidx/navigation/NavOptions$Builder;->popExitAnim:I
+    iget v12, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popExitAnim:I
 
     .line 101
     .line 102
-    invoke-direct/range {v3 .. v12}, Landroidx/navigation/NavOptions;-><init>(ZZIZZIIII)V
+    invoke-direct/range {v3 .. v12}, Landroidx/navigation/NavOptions;
+    -><init>(ZZIZZIIII)V
 return-object v3
 .end method
 
@@ -401,7 +454,9 @@ return-object v3
     .end param
 
     .line 1
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->enterAnim:I    return-object p0
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->enterAnim:I    
+    return-object p0
 .end method
 
 .method public final setExitAnim(I)Landroidx/navigation/NavOptions$Builder;
@@ -415,14 +470,17 @@ return-object v3
     .end param
 
     .line 1
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->exitAnim:I    return-object p0
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->exitAnim:I    
+    return-object p0
 .end method
 
 .method public final setLaunchSingleTop(Z)Landroidx/navigation/NavOptions$Builder;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->singleTop:Z
 return-object p0
 .end method
 
@@ -437,7 +495,9 @@ return-object p0
     .end param
 
     .line 1
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->popEnterAnim:I    return-object p0
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popEnterAnim:I    
+    return-object p0
 .end method
 
 .method public final setPopExitAnim(I)Landroidx/navigation/NavOptions$Builder;
@@ -451,7 +511,9 @@ return-object p0
     .end param
 
     .line 1
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->popExitAnim:I    return-object p0
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popExitAnim:I    
+    return-object p0
 .end method
 
 .method public final setPopUpTo(IZ)Landroidx/navigation/NavOptions$Builder;
@@ -474,7 +536,8 @@ return-object p0
 
     move v2, p2
 
-    invoke-static/range {v0 .. v5}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;IZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
+    invoke-static/range {v0 .. v5}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;IZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p1
 
@@ -489,18 +552,22 @@ return-object p0
     .end param
 
     .line 6
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToId:I
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToId:I
 
     const/4 p1, 0x0
 
     .line 7
-    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRoute:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRoute:Ljava/lang/String;
 
     .line 8
-    iput-boolean p2, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iput-boolean p2, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 9
-    iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 return-object p0
 .end method
 
@@ -518,7 +585,8 @@ return-object p0
     .line 2
     const-string v0, "route"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x4
 
@@ -532,7 +600,8 @@ return-object p0
 
     move v3, p2
 
-    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;Ljava/lang/Object;ZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
+    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;Ljava/lang/Object;ZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p1
 
@@ -552,29 +621,36 @@ return-object p0
 
     const-string v0, "route"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
-    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRouteObject:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRouteObject:Ljava/lang/Object;
 
     .line 19
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/jvm/internal/t;->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
+    invoke-static {p1}, Lkotlin/jvm/internal/t;
+    ->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
 
     move-result-object p1
 
-    invoke-static {p1}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p1}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object p1
 
-    invoke-static {p1}, Landroidx/navigation/serialization/RouteSerializerKt;->generateHashCode(LJ1/b;)I
+    invoke-static {p1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateHashCode(LJ1/b;)I
 
     move-result p1
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo(IZZ)Landroidx/navigation/NavOptions$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo(IZZ)Landroidx/navigation/NavOptions$Builder;
 
     return-object p0
 .end method
@@ -595,7 +671,8 @@ return-object p0
 
     move v2, p2
 
-    invoke-static/range {v0 .. v5}, Landroidx/navigation/NavOptions$Builder;->setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;Ljava/lang/String;ZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
+    invoke-static/range {v0 .. v5}, Landroidx/navigation/NavOptions$Builder;
+    ->setPopUpTo$default(Landroidx/navigation/NavOptions$Builder;Ljava/lang/String;ZZILjava/lang/Object;)Landroidx/navigation/NavOptions$Builder;
 
     move-result-object p1
 
@@ -606,18 +683,22 @@ return-object p0
     .locals 0
 
     .line 10
-    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRoute:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRoute:Ljava/lang/String;
 
     const/4 p1, -0x1
 
     .line 11
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToId:I
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToId:I
 
     .line 12
-    iput-boolean p2, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iput-boolean p2, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 13
-    iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 return-object p0
 .end method
 
@@ -625,7 +706,8 @@ return-object p0
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -640,21 +722,26 @@ return-object p0
 
     const-string v0, "klass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
-    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToRouteClass:Lv1/c;
+    iput-object p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToRouteClass:Lv1/c;
 
     const/4 p1, -0x1
 
     .line 15
-    iput p1, p0, Landroidx/navigation/NavOptions$Builder;->popUpToId:I
+    iput p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToId:I
 
     .line 16
-    iput-boolean p2, p0, Landroidx/navigation/NavOptions$Builder;->popUpToInclusive:Z
+    iput-boolean p2, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToInclusive:Z
 
     .line 17
-    iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
+    iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;
+    ->popUpToSaveState:Z
 return-object p0
 .end method
 
@@ -670,7 +757,8 @@ return-object p0
     .end annotation
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p1, 0x0
 
@@ -689,7 +777,8 @@ return-object p0
     .end annotation
 
     .line 5
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p1, 0x0
 
@@ -700,7 +789,8 @@ return-object p0
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;
+    ->restoreState:Z
 return-object p0
 .end method
 

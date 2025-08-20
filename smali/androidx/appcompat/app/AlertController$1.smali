@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AlertController$1;->this$0:Landroidx/appcompat/app/AlertController;
+    iput-object p1, p0, Landroidx/appcompat/app/AlertController$1;
+    ->this$0:Landroidx/appcompat/app/AlertController;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +42,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AlertController$1;->this$0:Landroidx/appcompat/app/AlertController;
+    iget-object v0, p0, Landroidx/appcompat/app/AlertController$1;
+    ->this$0:Landroidx/appcompat/app/AlertController;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/appcompat/app/AlertController;->mButtonPositive:Landroid/widget/Button;
+    iget-object v1, v0, Landroidx/appcompat/app/AlertController;
+    ->mButtonPositive:Landroid/widget/Button;
 
     .line 4
     .line 5
@@ -52,7 +56,8 @@
 
     .line 6
     .line 7
-    iget-object v1, v0, Landroidx/appcompat/app/AlertController;->mButtonPositiveMessage:Landroid/os/Message;
+    iget-object v1, v0, Landroidx/appcompat/app/AlertController;
+    ->mButtonPositiveMessage:Landroid/os/Message;
 
     .line 8
     .line 9
@@ -60,7 +65,8 @@
 
     .line 10
     .line 11
-    invoke-static {v1}, Landroid/os/Message;->obtain(Landroid/os/Message;)Landroid/os/Message;
+    invoke-static {v1}, Landroid/os/Message;
+    ->obtain(Landroid/os/Message;)Landroid/os/Message;
 
     .line 12
     .line 13
@@ -72,7 +78,8 @@
 
     .line 16
     :cond_0
-    iget-object v1, v0, Landroidx/appcompat/app/AlertController;->mButtonNegative:Landroid/widget/Button;
+    iget-object v1, v0, Landroidx/appcompat/app/AlertController;
+    ->mButtonNegative:Landroid/widget/Button;
 
     .line 17
     .line 18
@@ -80,7 +87,8 @@
 
     .line 19
     .line 20
-    iget-object v1, v0, Landroidx/appcompat/app/AlertController;->mButtonNegativeMessage:Landroid/os/Message;
+    iget-object v1, v0, Landroidx/appcompat/app/AlertController;
+    ->mButtonNegativeMessage:Landroid/os/Message;
 
     .line 21
     .line 22
@@ -88,7 +96,8 @@
 
     .line 23
     .line 24
-    invoke-static {v1}, Landroid/os/Message;->obtain(Landroid/os/Message;)Landroid/os/Message;
+    invoke-static {v1}, Landroid/os/Message;
+    ->obtain(Landroid/os/Message;)Landroid/os/Message;
 
     .line 25
     .line 26
@@ -100,7 +109,8 @@
 
     .line 29
     :cond_1
-    iget-object v1, v0, Landroidx/appcompat/app/AlertController;->mButtonNeutral:Landroid/widget/Button;
+    iget-object v1, v0, Landroidx/appcompat/app/AlertController;
+    ->mButtonNeutral:Landroid/widget/Button;
 
     .line 30
     .line 31
@@ -108,7 +118,8 @@
 
     .line 32
     .line 33
-    iget-object p1, v0, Landroidx/appcompat/app/AlertController;->mButtonNeutralMessage:Landroid/os/Message;
+    iget-object p1, v0, Landroidx/appcompat/app/AlertController;
+    ->mButtonNeutralMessage:Landroid/os/Message;
 
     .line 34
     .line 35
@@ -116,7 +127,8 @@
 
     .line 36
     .line 37
-    invoke-static {p1}, Landroid/os/Message;->obtain(Landroid/os/Message;)Landroid/os/Message;
+    invoke-static {p1}, Landroid/os/Message;
+    ->obtain(Landroid/os/Message;)Landroid/os/Message;
 
     .line 38
     .line 39
@@ -136,28 +148,33 @@
 
     .line 44
     .line 45
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+    invoke-virtual {p1}, Landroid/os/Message;
+    ->sendToTarget()V
 
     .line 46
     .line 47
     .line 48
     :cond_3
-    iget-object p1, p0, Landroidx/appcompat/app/AlertController$1;->this$0:Landroidx/appcompat/app/AlertController;
+    iget-object p1, p0, Landroidx/appcompat/app/AlertController$1;
+    ->this$0:Landroidx/appcompat/app/AlertController;
 
     .line 49
     .line 50
-    iget-object v0, p1, Landroidx/appcompat/app/AlertController;->mHandler:Landroid/os/Handler;
+    iget-object v0, p1, Landroidx/appcompat/app/AlertController;
+    ->mHandler:Landroid/os/Handler;
 
     .line 51
     .line 52
     const/4 v1, 0x1
 
     .line 53
-    iget-object p1, p1, Landroidx/appcompat/app/AlertController;->mDialog:Landroidx/appcompat/app/AppCompatDialog;
+    iget-object p1, p1, Landroidx/appcompat/app/AlertController;
+    ->mDialog:Landroidx/appcompat/app/AppCompatDialog;
 
     .line 54
     .line 55
-    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;
+    ->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     .line 56
     .line 57
@@ -165,7 +182,8 @@
     move-result-object p1
 
     .line 59
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+    invoke-virtual {p1}, Landroid/os/Message;
+    ->sendToTarget()V
     return-void
 .end method
 

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
+    value = Landroidx/fragment/app/Fragment;
+    ->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,15 +44,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/Fragment$8;->this$0:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/fragment/app/Fragment$8;
+    ->this$0:Landroidx/fragment/app/Fragment;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/Fragment$8;->val$registry:Landroidx/activity/result/ActivityResultRegistry;
+    iput-object p2, p0, Landroidx/fragment/app/Fragment$8;
+    ->val$registry:Landroidx/activity/result/ActivityResultRegistry;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -61,7 +65,8 @@
     .locals 0
 
     .line 2
-    iget-object p1, p0, Landroidx/fragment/app/Fragment$8;->val$registry:Landroidx/activity/result/ActivityResultRegistry;
+    iget-object p1, p0, Landroidx/fragment/app/Fragment$8;
+    ->val$registry:Landroidx/activity/result/ActivityResultRegistry;
 
     return-object p1
 .end method
@@ -72,7 +77,8 @@
     .line 1
     check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment$8;->apply(Ljava/lang/Void;)Landroidx/activity/result/ActivityResultRegistry;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment$8;
+    ->apply(Ljava/lang/Void;)Landroidx/activity/result/ActivityResultRegistry;
 
     move-result-object p1
 

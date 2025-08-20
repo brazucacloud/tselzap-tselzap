@@ -16,7 +16,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionInterpolator;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionInterpolator;
+    -><init>()V
 
     .line 2
     .line 3
@@ -25,16 +26,20 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;-><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mStopLogicEngine:Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mStopLogicEngine:Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;    
+    return-void
 .end method
 
 
@@ -43,11 +48,13 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mStopLogicEngine:Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mStopLogicEngine:Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
 
     .line 2
     .line 3
-    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 4
     .line 5
@@ -69,7 +76,8 @@
     move v6, p6
 
     .line 11
-    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
+    ->config(FFFFFF)V
 return-void
 .end method
 
@@ -77,11 +85,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->debug(Ljava/lang/String;F)Ljava/lang/String;
+    invoke-interface {v0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->debug(Ljava/lang/String;F)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -95,11 +105,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->getInterpolation(F)F
+    invoke-interface {v0, p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->getInterpolation(F)F
 
     .line 4
     .line 5
@@ -113,9 +125,11 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
-    invoke-interface {v0}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->getVelocity()F
+    invoke-interface {v0}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->getVelocity()F
 
     move-result v0
 
@@ -126,9 +140,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
-    invoke-interface {v0, p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->getVelocity(F)F
+    invoke-interface {v0, p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->getVelocity(F)F
 
     move-result p1
 
@@ -139,11 +155,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->isStopped()Z
+    invoke-interface {v0}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->isStopped()Z
 
     .line 4
     .line 5
@@ -157,7 +175,8 @@ return-void
     .locals 10
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mSpringStopEngine:Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mSpringStopEngine:Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
 
     .line 2
     .line 3
@@ -169,21 +188,25 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;-><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mSpringStopEngine:Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mSpringStopEngine:Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v1, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mSpringStopEngine:Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    iget-object v1, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mSpringStopEngine:Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
 
     .line 13
     .line 14
-    iput-object v1, p0, Landroidx/constraintlayout/motion/utils/StopLogic;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iput-object v1, p0, Landroidx/constraintlayout/motion/utils/StopLogic;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 15
     .line 16
@@ -214,7 +237,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual/range {v1 .. v9}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V
+    invoke-virtual/range {v1 .. v9}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    ->springConfig(FFFFFFFI)V
 return-void
 .end method
 

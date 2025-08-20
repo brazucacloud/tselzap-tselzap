@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/AppCompatTextHelper;->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
+    value = Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,23 +30,28 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->this$0:Landroidx/appcompat/widget/AppCompatTextHelper;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->this$0:Landroidx/appcompat/widget/AppCompatTextHelper;
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->val$fontWeight:I
+    iput p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->val$fontWeight:I
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->val$style:I
+    iput p3, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->val$style:I
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->val$textViewWeak:Ljava/lang/ref/WeakReference;
+    iput-object p4, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->val$textViewWeak:Ljava/lang/ref/WeakReference;
 
     .line 8
     .line 9
-    invoke-direct {p0}, Landroidx/core/content/res/ResourcesCompat$FontCallback;-><init>()V
+    invoke-direct {p0}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
+    -><init>()V
     return-void
 .end method
 
@@ -65,7 +71,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -77,7 +84,8 @@
 
     .line 6
     .line 7
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->val$fontWeight:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->val$fontWeight:I
 
     .line 8
     .line 9
@@ -88,7 +96,8 @@
 
     .line 11
     .line 12
-    iget v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->val$style:I
+    iget v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->val$style:I
 
     .line 13
     .line 14
@@ -111,7 +120,8 @@
 
     .line 21
     :goto_0
-    invoke-static {p1, v0, v1}, Landroidx/appcompat/widget/AppCompatTextHelper$Api28Impl;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p1, v0, v1}, Landroidx/appcompat/widget/AppCompatTextHelper$Api28Impl;
+    ->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     .line 22
     .line 23
@@ -120,15 +130,18 @@
 
     .line 25
     :cond_1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->this$0:Landroidx/appcompat/widget/AppCompatTextHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->this$0:Landroidx/appcompat/widget/AppCompatTextHelper;
 
     .line 26
     .line 27
-    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;->val$textViewWeak:Ljava/lang/ref/WeakReference;
+    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    ->val$textViewWeak:Ljava/lang/ref/WeakReference;
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1, p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->onAsyncTypefaceReceived(Ljava/lang/ref/WeakReference;Landroid/graphics/Typeface;)V
+    invoke-virtual {v0, v1, p1}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->onAsyncTypefaceReceived(Ljava/lang/ref/WeakReference;Landroid/graphics/Typeface;)V
 return-void
 .end method
 

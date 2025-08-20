@@ -9,7 +9,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -25,16 +26,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    -><init>(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iput-object p2, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 5
     .line 6
-    iput-object p3, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;    return-void
+    iput-object p3, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;    
+    return-void
 .end method
 
 
@@ -43,11 +48,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->collapseItemActionView(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->collapseItemActionView(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
 
     .line 4
     .line 5
@@ -69,7 +76,8 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchMenuItemSelected(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->dispatchMenuItemSelected(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)Z
 
     .line 2
     .line 3
@@ -81,11 +89,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->dispatchMenuItemSelected(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->dispatchMenuItemSelected(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)Z
 
     .line 10
     .line 11
@@ -117,11 +127,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->expandItemActionView(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->expandItemActionView(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
 
     .line 4
     .line 5
@@ -135,7 +147,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 2
     .line 3
@@ -143,7 +156,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuItemImpl;->getItemId()I
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuItemImpl;
+    ->getItemId()I
 
     .line 6
     .line 7
@@ -173,12 +187,14 @@
 
     .line 16
     .line 17
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    invoke-super {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->getActionViewStatesKey()Ljava/lang/String;
+    invoke-super {p0}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->getActionViewStatesKey()Ljava/lang/String;
 
     .line 21
     .line 22
@@ -186,7 +202,8 @@
     move-result-object v2
 
     .line 24
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
@@ -195,17 +212,20 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -219,25 +239,29 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;    return-object v0
 .end method
 
 .method public getParentMenu()Landroid/view/Menu;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
 .end method
 
 .method public getRootMenu()Landroidx/appcompat/view/menu/MenuBuilder;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->getRootMenu()Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->getRootMenu()Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 4
     .line 5
@@ -251,11 +275,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->isGroupDividerEnabled()Z
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->isGroupDividerEnabled()Z
 
     .line 4
     .line 5
@@ -269,11 +295,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->isQwertyMode()Z
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->isQwertyMode()Z
 
     .line 4
     .line 5
@@ -287,11 +315,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->isShortcutsVisible()Z
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->isShortcutsVisible()Z
 
     .line 4
     .line 5
@@ -305,11 +335,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
 return-void
 .end method
 
@@ -317,11 +349,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setGroupDividerEnabled(Z)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setGroupDividerEnabled(Z)V
 return-void
 .end method
 
@@ -329,7 +363,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderIconInt(I)Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setHeaderIconInt(I)Landroidx/appcompat/view/menu/MenuBuilder;
 
     move-result-object p1
 
@@ -342,7 +377,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderIconInt(Landroid/graphics/drawable/Drawable;)Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setHeaderIconInt(Landroid/graphics/drawable/Drawable;)Landroidx/appcompat/view/menu/MenuBuilder;
 
     move-result-object p1
 
@@ -355,7 +391,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderTitleInt(I)Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setHeaderTitleInt(I)Landroidx/appcompat/view/menu/MenuBuilder;
 
     move-result-object p1
 
@@ -368,7 +405,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderTitleInt(Ljava/lang/CharSequence;)Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setHeaderTitleInt(Ljava/lang/CharSequence;)Landroidx/appcompat/view/menu/MenuBuilder;
 
     move-result-object p1
 
@@ -381,7 +419,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setHeaderViewInt(Landroid/view/View;)Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-super {p0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setHeaderViewInt(Landroid/view/View;)Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
@@ -396,9 +435,11 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;->setIcon(I)Landroid/view/MenuItem;
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;
+    ->setIcon(I)Landroid/view/MenuItem;
 
     return-object p0
 .end method
@@ -407,9 +448,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mItem:Landroidx/appcompat/view/menu/MenuItemImpl;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;->setIcon(Landroid/graphics/drawable/Drawable;)Landroid/view/MenuItem;
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;
+    ->setIcon(Landroid/graphics/drawable/Drawable;)Landroid/view/MenuItem;
 
     return-object p0
 .end method
@@ -418,11 +461,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setQwertyMode(Z)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setQwertyMode(Z)V
 return-void
 .end method
 
@@ -430,11 +475,14 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/SubMenuBuilder;
+    ->mParentMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setShortcutsVisible(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->setShortcutsVisible(Z)V    
+    return-void
 .end method
 
 .end class

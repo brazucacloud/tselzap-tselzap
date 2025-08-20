@@ -12,7 +12,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->hasValue(I)Z
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->hasValue(I)Z
 
     .line 2
     .line 3
@@ -36,7 +37,8 @@
 
     .line 11
     .line 12
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -88,7 +90,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -96,7 +99,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 6
     .line 7
@@ -116,7 +120,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -124,7 +129,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getColor(II)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getColor(II)I
 
     .line 6
     .line 7
@@ -142,12 +148,14 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 5
     .line 6
@@ -171,7 +179,8 @@
 
     .line 14
     .line 15
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -220,7 +229,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -228,7 +238,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getDimension(IF)F
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getDimension(IF)F
 
     .line 6
     .line 7
@@ -248,7 +259,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -256,7 +268,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getDimensionPixelOffset(II)I
 
     .line 6
     .line 7
@@ -276,7 +289,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -284,7 +298,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getDimensionPixelSize(II)I
 
     .line 6
     .line 7
@@ -302,12 +317,14 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     .line 5
     .line 6
@@ -315,7 +332,8 @@
     move-result-object p0
 
     .line 8
-    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -331,7 +349,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -339,7 +358,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getFloat(IF)F
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getFloat(IF)F
 
     .line 6
     .line 7
@@ -360,12 +380,14 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayApi26ImplKt;->getFont(Landroid/content/res/TypedArray;I)Landroid/graphics/Typeface;
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayApi26ImplKt;
+    ->getFont(Landroid/content/res/TypedArray;I)Landroid/graphics/Typeface;
 
     .line 5
     .line 6
@@ -383,7 +405,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -391,7 +414,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getInt(II)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getInt(II)I
 
     .line 6
     .line 7
@@ -409,7 +433,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -417,7 +442,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getInteger(II)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getInteger(II)I
 
     .line 6
     .line 7
@@ -437,7 +463,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
@@ -445,7 +472,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/res/TypedArray;
+    ->getResourceId(II)I
 
     .line 6
     .line 7
@@ -463,12 +491,14 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -492,7 +522,8 @@
 
     .line 14
     .line 15
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -541,12 +572,14 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getTextArray(I)[Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getTextArray(I)[Ljava/lang/CharSequence;
 
     .line 5
     .line 6
@@ -564,12 +597,14 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;
+    ->checkAttribute(Landroid/content/res/TypedArray;I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;
+    ->getText(I)Ljava/lang/CharSequence;
 
     .line 5
     .line 6
@@ -593,7 +628,8 @@
 
     .line 14
     .line 15
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -648,7 +684,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -656,7 +693,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;
+    ->recycle()V
 
     .line 6
     .line 7

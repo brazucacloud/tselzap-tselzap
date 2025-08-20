@@ -8,7 +8,8 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/StrictMode;->getVmPolicy()Landroid/os/StrictMode$VmPolicy;
+    invoke-static {}, Landroid/os/StrictMode;
+    ->getVmPolicy()Landroid/os/StrictMode$VmPolicy;
 
     .line 2
     .line 3
@@ -16,7 +17,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastS()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
+    ->isAtLeastS()Z
 
     .line 6
     .line 7
@@ -32,12 +34,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v1, v0}, Landroid/os/StrictMode$VmPolicy$Builder;-><init>(Landroid/os/StrictMode$VmPolicy;)V
+    invoke-direct {v1, v0}, Landroid/os/StrictMode$VmPolicy$Builder;
+    -><init>(Landroid/os/StrictMode$VmPolicy;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {v1}, Lcom/google/android/gms/common/util/zzb;->zza(Landroid/os/StrictMode$VmPolicy$Builder;)Landroid/os/StrictMode$VmPolicy$Builder;
+    invoke-static {v1}, Lcom/google/android/gms/common/util/zzb;
+    ->zza(Landroid/os/StrictMode$VmPolicy$Builder;)Landroid/os/StrictMode$VmPolicy$Builder;
 
     .line 17
     .line 18
@@ -45,7 +49,8 @@
     move-result-object v1
 
     .line 20
-    invoke-virtual {v1}, Landroid/os/StrictMode$VmPolicy$Builder;->build()Landroid/os/StrictMode$VmPolicy;
+    invoke-virtual {v1}, Landroid/os/StrictMode$VmPolicy$Builder;
+    ->build()Landroid/os/StrictMode$VmPolicy;
 
     .line 21
     .line 22
@@ -53,7 +58,8 @@
     move-result-object v1
 
     .line 24
-    invoke-static {v1}, Landroid/os/StrictMode;->setVmPolicy(Landroid/os/StrictMode$VmPolicy;)V
+    invoke-static {v1}, Landroid/os/StrictMode;
+    ->setVmPolicy(Landroid/os/StrictMode$VmPolicy;)V
 
     .line 25
     .line 26

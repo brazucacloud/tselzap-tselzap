@@ -52,42 +52,51 @@
     .end param
 
     .line 3
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentContainer;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentContainer;
+    -><init>()V
 
     .line 4
     new-instance v0, Landroidx/fragment/app/FragmentManagerImpl;
 
-    invoke-direct {v0}, Landroidx/fragment/app/FragmentManagerImpl;-><init>()V
+    invoke-direct {v0}, Landroidx/fragment/app/FragmentManagerImpl;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iput-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 5
-    iput-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;->mActivity:Landroid/app/Activity;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mActivity:Landroid/app/Activity;
 
     .line 6
     const-string p1, "context == null"
 
-    invoke-static {p2, p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/content/Context;
 
-    iput-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mContext:Landroid/content/Context;
 
     .line 7
     const-string p1, "handler == null"
 
-    invoke-static {p3, p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, p1}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/os/Handler;
 
-    iput-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;->mHandler:Landroid/os/Handler;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mHandler:Landroid/os/Handler;
 
     .line 8
-    iput p4, p0, Landroidx/fragment/app/FragmentHostCallback;->mWindowAnimations:I
+    iput p4, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mWindowAnimations:I
 
     return-void
 .end method
@@ -118,7 +127,8 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-direct {p0, v0, p1, p2, p3}, Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroid/app/Activity;Landroid/content/Context;Landroid/os/Handler;I)V
+    invoke-direct {p0, v0, p1, p2, p3}, Landroidx/fragment/app/FragmentHostCallback;
+    -><init>(Landroid/app/Activity;Landroid/content/Context;Landroid/os/Handler;I)V
 return-void
 .end method
 
@@ -132,11 +142,13 @@ return-void
     .line 2
     new-instance v0, Landroid/os/Handler;
 
-    invoke-direct {v0}, Landroid/os/Handler;-><init>()V
+    invoke-direct {v0}, Landroid/os/Handler;
+    -><init>()V
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, p1, p1, v0, v1}, Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroid/app/Activity;Landroid/content/Context;Landroid/os/Handler;I)V
+    invoke-direct {p0, p1, p1, v0, v1}, Landroidx/fragment/app/FragmentHostCallback;
+    -><init>(Landroid/app/Activity;Landroid/content/Context;Landroid/os/Handler;I)V
 return-void
 .end method
 
@@ -148,7 +160,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mActivity:Landroid/app/Activity;    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mActivity:Landroid/app/Activity;    return-object v0
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -157,7 +170,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mContext:Landroid/content/Context;    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mContext:Landroid/content/Context;    return-object v0
 .end method
 
 .method public getHandler()Landroid/os/Handler;
@@ -167,12 +181,14 @@ return-void
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mHandler:Landroid/os/Handler;    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mHandler:Landroid/os/Handler;    return-object v0
 .end method
 
 .method public onDump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -224,11 +240,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Landroid/view/LayoutInflater;
+    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 4
     .line 5
@@ -242,7 +260,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mWindowAnimations:I    return v0
+    iget v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mWindowAnimations:I    return v0
 .end method
 
 .method public onHasView()Z
@@ -315,7 +334,8 @@ return-void
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentHostCallback;->onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
+    invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentHostCallback;
+    ->onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
 return-void
 .end method
 
@@ -339,9 +359,11 @@ return-void
     if-ne p3, p1, :cond_0
 
     .line 2
-    iget-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;->mContext:Landroid/content/Context;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mContext:Landroid/content/Context;
 
-    invoke-static {p1, p2, p4}, Landroidx/core/content/ContextCompat;->startActivity(Landroid/content/Context;Landroid/content/Intent;Landroid/os/Bundle;)V
+    invoke-static {p1, p2, p4}, Landroidx/core/content/ContextCompat;
+    ->startActivity(Landroid/content/Context;Landroid/content/Intent;Landroid/os/Bundle;)V
 return-void
 
     .line 3
@@ -350,7 +372,8 @@ return-void
 
     const-string p2, "Starting activity with a requestCode requires a FragmentActivity host"
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -384,7 +407,8 @@ return-void
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->mActivity:Landroid/app/Activity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;
+    ->mActivity:Landroid/app/Activity;
 
     .line 5
     .line 6
@@ -410,7 +434,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-static/range {v0 .. v7}, Landroidx/core/app/ActivityCompat;->startIntentSenderForResult(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+    invoke-static/range {v0 .. v7}, Landroidx/core/app/ActivityCompat;
+    ->startIntentSenderForResult(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
 return-void
 
     .line 18
@@ -423,7 +448,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24

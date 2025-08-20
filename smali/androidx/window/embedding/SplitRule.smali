@@ -44,7 +44,8 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v6}, Landroidx/window/embedding/SplitRule;-><init>(IIFIILkotlin/jvm/internal/e;)V
+    invoke-direct/range {v0 .. v6}, Landroidx/window/embedding/SplitRule;
+    -><init>(IIFIILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -52,19 +53,24 @@ return-void
     .locals 0
 
     .line 3
-    invoke-direct {p0}, Landroidx/window/embedding/EmbeddingRule;-><init>()V
+    invoke-direct {p0}, Landroidx/window/embedding/EmbeddingRule;
+    -><init>()V
 
     .line 4
-    iput p1, p0, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iput p1, p0, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 5
-    iput p2, p0, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iput p2, p0, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 6
-    iput p3, p0, Landroidx/window/embedding/SplitRule;->splitRatio:F
+    iput p3, p0, Landroidx/window/embedding/SplitRule;
+    ->splitRatio:F
 
     .line 7
-    iput p4, p0, Landroidx/window/embedding/SplitRule;->layoutDirection:I
+    iput p4, p0, Landroidx/window/embedding/SplitRule;
+    ->layoutDirection:I
 
     return-void
 .end method
@@ -103,7 +109,8 @@ return-void
 
     .line 2
     :cond_3
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/window/embedding/SplitRule;-><init>(IIFI)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/window/embedding/SplitRule;
+    -><init>(IIFI)V
 return-void
 .end method
 
@@ -117,12 +124,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 7
     .line 8
@@ -141,11 +150,13 @@ return-void
 
     .line 14
     :cond_0
-    sget-object v0, Landroidx/window/embedding/SplitRule$Api30Impl;->INSTANCE:Landroidx/window/embedding/SplitRule$Api30Impl;
+    sget-object v0, Landroidx/window/embedding/SplitRule$Api30Impl;
+    ->INSTANCE:Landroidx/window/embedding/SplitRule$Api30Impl;
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Landroidx/window/embedding/SplitRule$Api30Impl;->getBounds(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
+    invoke-virtual {v0, p1}, Landroidx/window/embedding/SplitRule$Api30Impl;
+    ->getBounds(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 17
     .line 18
@@ -153,7 +164,8 @@ return-void
     move-result-object p1
 
     .line 20
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 21
     .line 22
@@ -164,7 +176,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
+    invoke-virtual {p1}, Landroid/graphics/Rect;
+    ->width()I
 
     .line 26
     .line 27
@@ -172,7 +185,8 @@ return-void
     move-result v0
 
     .line 29
-    iget v3, p0, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iget v3, p0, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 30
     .line 31
@@ -196,7 +210,8 @@ return-void
 
     .line 37
     :goto_1
-    iget v3, p0, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iget v3, p0, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 38
     .line 39
@@ -204,7 +219,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
+    invoke-virtual {p1}, Landroid/graphics/Rect;
+    ->width()I
 
     .line 42
     .line 43
@@ -212,7 +228,8 @@ return-void
     move-result v3
 
     .line 45
-    invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
+    invoke-virtual {p1}, Landroid/graphics/Rect;
+    ->height()I
 
     .line 46
     .line 47
@@ -220,7 +237,8 @@ return-void
     move-result p1
 
     .line 49
-    invoke-static {v3, p1}, Ljava/lang/Math;->min(II)I
+    invoke-static {v3, p1}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 50
     .line 51
@@ -228,7 +246,8 @@ return-void
     move-result p1
 
     .line 53
-    iget v3, p0, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iget v3, p0, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 54
     .line 55
@@ -297,7 +316,8 @@ return-void
 
     .line 11
     :cond_1
-    iget v1, p0, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iget v1, p0, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 12
     .line 13
@@ -305,7 +325,8 @@ return-void
 
     .line 14
     .line 15
-    iget v3, p1, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iget v3, p1, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 16
     .line 17
@@ -317,11 +338,13 @@ return-void
 
     .line 20
     :cond_2
-    iget v1, p0, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iget v1, p0, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 21
     .line 22
-    iget v3, p1, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iget v3, p1, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 23
     .line 24
@@ -333,11 +356,13 @@ return-void
 
     .line 27
     :cond_3
-    iget v1, p0, Landroidx/window/embedding/SplitRule;->splitRatio:F
+    iget v1, p0, Landroidx/window/embedding/SplitRule;
+    ->splitRatio:F
 
     .line 28
     .line 29
-    iget v3, p1, Landroidx/window/embedding/SplitRule;->splitRatio:F
+    iget v3, p1, Landroidx/window/embedding/SplitRule;
+    ->splitRatio:F
 
     .line 30
     .line 31
@@ -349,11 +374,13 @@ return-void
 
     .line 34
     .line 35
-    iget v1, p0, Landroidx/window/embedding/SplitRule;->layoutDirection:I
+    iget v1, p0, Landroidx/window/embedding/SplitRule;
+    ->layoutDirection:I
 
     .line 36
     .line 37
-    iget p1, p1, Landroidx/window/embedding/SplitRule;->layoutDirection:I
+    iget p1, p1, Landroidx/window/embedding/SplitRule;
+    ->layoutDirection:I
 
     .line 38
     .line 39
@@ -376,7 +403,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->layoutDirection:I
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->layoutDirection:I
 
     .line 2
     .line 3
@@ -387,7 +415,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 2
     .line 3
@@ -398,7 +427,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 2
     .line 3
@@ -409,7 +439,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->splitRatio:F
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->splitRatio:F
 
     .line 2
     .line 3
@@ -420,7 +451,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->minWidth:I
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->minWidth:I
 
     .line 2
     .line 3
@@ -428,7 +460,8 @@ return-void
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/window/embedding/SplitRule;->minSmallestWidth:I
+    iget v1, p0, Landroidx/window/embedding/SplitRule;
+    ->minSmallestWidth:I
 
     .line 6
     .line 7
@@ -439,11 +472,13 @@ return-void
 
     .line 9
     .line 10
-    iget v1, p0, Landroidx/window/embedding/SplitRule;->splitRatio:F
+    iget v1, p0, Landroidx/window/embedding/SplitRule;
+    ->splitRatio:F
 
     .line 11
     .line 12
-    invoke-static {v1}, Ljava/lang/Float;->floatToIntBits(F)I
+    invoke-static {v1}, Ljava/lang/Float;
+    ->floatToIntBits(F)I
 
     .line 13
     .line 14
@@ -458,7 +493,8 @@ return-void
 
     .line 18
     .line 19
-    iget v0, p0, Landroidx/window/embedding/SplitRule;->layoutDirection:I
+    iget v0, p0, Landroidx/window/embedding/SplitRule;
+    ->layoutDirection:I
 
     .line 20
     .line 21

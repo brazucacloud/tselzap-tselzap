@@ -29,16 +29,19 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;
+    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;-><init>(Landroidx/appcompat/app/AppCompatDelegateImpl;)V
+    invoke-direct {p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
+    -><init>(Landroidx/appcompat/app/AppCompatDelegateImpl;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p2}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 7
     .line 8
@@ -50,7 +53,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -62,7 +66,9 @@
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;->mPowerManager:Landroid/os/PowerManager;    return-void
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;
+    ->mPowerManager:Landroid/os/PowerManager;    
+    return-void
 .end method
 
 
@@ -75,7 +81,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/content/IntentFilter;-><init>()V
+    invoke-direct {v0}, Landroid/content/IntentFilter;
+    -><init>()V
 
     .line 4
     .line 5
@@ -84,7 +91,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;
+    ->addAction(Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -92,11 +100,13 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;->mPowerManager:Landroid/os/PowerManager;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;
+    ->mPowerManager:Landroid/os/PowerManager;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl$Api21Impl;->isPowerSaveMode(Landroid/os/PowerManager;)Z
+    invoke-static {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl$Api21Impl;
+    ->isPowerSaveMode(Landroid/os/PowerManager;)Z
 
     .line 4
     .line 5
@@ -123,11 +133,14 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager;
+    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->applyDayNight()Z    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    ->applyDayNight()Z    
+    return-void
 .end method
 
 .end class

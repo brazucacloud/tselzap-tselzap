@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -44,7 +45,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getReceiveContentMimeTypes()[Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getReceiveContentMimeTypes()[Ljava/lang/String;
 
     .line 2
     .line 3
@@ -71,7 +73,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->toContentInfo()Landroid/view/ContentInfo;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->toContentInfo()Landroid/view/ContentInfo;
 
     .line 2
     .line 3
@@ -79,7 +82,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroid/view/View;->performReceiveContent(Landroid/view/ContentInfo;)Landroid/view/ContentInfo;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->performReceiveContent(Landroid/view/ContentInfo;)Landroid/view/ContentInfo;
 
     .line 6
     .line 7
@@ -105,7 +109,8 @@
 
     .line 16
     :cond_1
-    invoke-static {p0}, Landroidx/core/view/ContentInfoCompat;->toContentInfoCompat(Landroid/view/ContentInfo;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p0}, Landroidx/core/view/ContentInfoCompat;
+    ->toContentInfoCompat(Landroid/view/ContentInfo;)Landroidx/core/view/ContentInfoCompat;
 
     .line 17
     .line 18
@@ -140,7 +145,8 @@
     const/4 p2, 0x0
 
     .line 4
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->setOnReceiveContentListener([Ljava/lang/String;Landroid/view/OnReceiveContentListener;)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->setOnReceiveContentListener([Ljava/lang/String;Landroid/view/OnReceiveContentListener;)V
 
     .line 5
     .line 6
@@ -153,12 +159,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, p2}, Landroidx/core/view/ViewCompat$OnReceiveContentListenerAdapter;-><init>(Landroidx/core/view/OnReceiveContentListener;)V
+    invoke-direct {v0, p2}, Landroidx/core/view/ViewCompat$OnReceiveContentListenerAdapter;
+    -><init>(Landroidx/core/view/OnReceiveContentListener;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0, p1, v0}, Landroid/view/View;->setOnReceiveContentListener([Ljava/lang/String;Landroid/view/OnReceiveContentListener;)V
+    invoke-virtual {p0, p1, v0}, Landroid/view/View;
+    ->setOnReceiveContentListener([Ljava/lang/String;Landroid/view/OnReceiveContentListener;)V
 
     .line 14
     .line 15

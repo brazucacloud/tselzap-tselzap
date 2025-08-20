@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/ListFragment$2;->this$0:Landroidx/fragment/app/ListFragment;
+    iput-object p1, p0, Landroidx/fragment/app/ListFragment$2;
+    ->this$0:Landroidx/fragment/app/ListFragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -49,7 +51,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/ListFragment$2;->this$0:Landroidx/fragment/app/ListFragment;
+    iget-object v0, p0, Landroidx/fragment/app/ListFragment$2;
+    ->this$0:Landroidx/fragment/app/ListFragment;
 
     .line 2
     .line 3
@@ -69,7 +72,9 @@
     move-wide v4, p4
 
     .line 9
-    invoke-virtual/range {v0 .. v5}, Landroidx/fragment/app/ListFragment;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V    return-void
+    invoke-virtual/range {v0 .. v5}, Landroidx/fragment/app/ListFragment;
+    ->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V    
+    return-void
 .end method
 
 .end class

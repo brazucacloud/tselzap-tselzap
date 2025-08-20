@@ -16,7 +16,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Lx0/q;-><init>(Lx0/p;)V
+    invoke-direct {p0, p1}, Lx0/q;
+    -><init>(Lx0/p;)V
 
     .line 2
     .line 3
@@ -26,7 +27,8 @@
     .line 5
     .line 6
     .line 7
-    iput p1, p0, Lx0/x;->e:I
+    iput p1, p0, Lx0/x;
+    ->e:I
 
     .line 8
     .line 9
@@ -38,12 +40,14 @@
 
     .line 12
     .line 13
-    invoke-direct {p1, p0, v0}, LH/a;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, v0}, LH/a;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Lx0/x;->g:LH/a;
+    iput-object p1, p0, Lx0/x;
+    ->g:LH/a;
 
     .line 17
     .line 18
@@ -51,7 +55,8 @@
 
     .line 19
     .line 20
-    iput p2, p0, Lx0/x;->e:I
+    iput p2, p0, Lx0/x;
+    ->e:I
 
     .line 21
     .line 22
@@ -65,7 +70,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lx0/q;->q()V
+    invoke-virtual {p0}, Lx0/q;
+    ->q()V
 
     .line 2
     .line 3
@@ -89,7 +95,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lx0/x;->e:I
+    iget v0, p0, Lx0/x;
+    ->e:I
 
     .line 2
     .line 3
@@ -100,7 +107,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lx0/x;->g:LH/a;
+    iget-object v0, p0, Lx0/x;
+    ->g:LH/a;
 
     .line 2
     .line 3
@@ -120,7 +128,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v0, p0, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 2
     .line 3
@@ -131,7 +140,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroid/widget/TextView;->getTransformationMethod()Landroid/text/method/TransformationMethod;
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getTransformationMethod()Landroid/text/method/TransformationMethod;
 
     .line 7
     .line 8
@@ -167,11 +177,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lx0/x;->f:Landroid/widget/EditText;
+    iput-object p1, p0, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lx0/q;->q()V
+    invoke-virtual {p0}, Lx0/q;
+    ->q()V
 
     .line 4
     .line 5
@@ -183,7 +195,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v0, p0, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 2
     .line 3
@@ -191,7 +204,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/widget/TextView;->getInputType()I
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getInputType()I
 
     .line 6
     .line 7
@@ -207,7 +221,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroid/widget/TextView;->getInputType()I
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getInputType()I
 
     .line 14
     .line 15
@@ -223,7 +238,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Landroid/widget/TextView;->getInputType()I
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getInputType()I
 
     .line 22
     .line 23
@@ -239,7 +255,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0}, Landroid/widget/TextView;->getInputType()I
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getInputType()I
 
     .line 30
     .line 31
@@ -256,11 +273,13 @@
     .line 36
     .line 37
     :cond_0
-    iget-object v0, p0, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v0, p0, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 38
     .line 39
-    invoke-static {}, Landroid/text/method/PasswordTransformationMethod;->getInstance()Landroid/text/method/PasswordTransformationMethod;
+    invoke-static {}, Landroid/text/method/PasswordTransformationMethod;
+    ->getInstance()Landroid/text/method/PasswordTransformationMethod;
 
     .line 40
     .line 41
@@ -268,7 +287,8 @@
     move-result-object v1
 
     .line 43
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;
+    ->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
     .line 44
     .line 45
@@ -281,7 +301,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v0, p0, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 2
     .line 3
@@ -289,7 +310,8 @@
 
     .line 4
     .line 5
-    invoke-static {}, Landroid/text/method/PasswordTransformationMethod;->getInstance()Landroid/text/method/PasswordTransformationMethod;
+    invoke-static {}, Landroid/text/method/PasswordTransformationMethod;
+    ->getInstance()Landroid/text/method/PasswordTransformationMethod;
 
     .line 6
     .line 7
@@ -297,7 +319,8 @@
     move-result-object v1
 
     .line 9
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;
+    ->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
     .line 10
     .line 11

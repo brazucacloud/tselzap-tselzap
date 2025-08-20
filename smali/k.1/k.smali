@@ -27,12 +27,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lk/k;-><init>(I)V
+    invoke-direct {v0, v1}, Lk/k;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lk/k;->b:Lk/k;
+    sput-object v0, Lk/k;
+    ->b:Lk/k;
 
     .line 8
     .line 9
@@ -43,12 +45,14 @@
     const/4 v1, 0x1
 
     .line 12
-    invoke-direct {v0, v1}, Lk/k;-><init>(I)V
+    invoke-direct {v0, v1}, Lk/k;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v0, Lk/k;->c:Lk/k;
+    sput-object v0, Lk/k;
+    ->c:Lk/k;
 
     .line 16
     .line 17
@@ -59,12 +63,14 @@
     const/4 v1, 0x2
 
     .line 20
-    invoke-direct {v0, v1}, Lk/k;-><init>(I)V
+    invoke-direct {v0, v1}, Lk/k;
+    -><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    sput-object v0, Lk/k;->d:Lk/k;
+    sput-object v0, Lk/k;
+    ->d:Lk/k;
 
     .line 24
     .line 25
@@ -75,9 +81,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lk/k;->a:I
+    iput p1, p0, Lk/k;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -87,7 +95,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lk/k;->a:I
+    iget v0, p0, Lk/k;
+    ->a:I
 
     .line 2
     .line 3
@@ -96,7 +105,8 @@
     .line 4
     .line 5
     .line 6
-    sget-object v0, Li/a;->c:Li/a;
+    sget-object v0, Li/a;
+    ->c:Li/a;
 
     .line 7
     .line 8
@@ -119,7 +129,8 @@
 
     .line 14
     :pswitch_0
-    sget-object v0, Li/a;->d:Li/a;
+    sget-object v0, Li/a;
+    ->d:Li/a;
 
     .line 15
     .line 16
@@ -127,7 +138,8 @@
 
     .line 17
     .line 18
-    sget-object v0, Li/a;->f:Li/a;
+    sget-object v0, Li/a;
+    ->f:Li/a;
 
     .line 19
     .line 20

@@ -25,9 +25,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/wrappers/Wrappers;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/wrappers/Wrappers;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/wrappers/Wrappers;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/wrappers/Wrappers;->zza:Lcom/google/android/gms/common/wrappers/Wrappers;
+    sput-object v0, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zza:Lcom/google/android/gms/common/wrappers/Wrappers;
 
     return-void
 .end method
@@ -35,11 +37,13 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/gms/common/wrappers/Wrappers;->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    iput-object v0, p0, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     return-void
 .end method
@@ -57,11 +61,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/wrappers/Wrappers;->zza:Lcom/google/android/gms/common/wrappers/Wrappers;
+    sget-object v0, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zza:Lcom/google/android/gms/common/wrappers/Wrappers;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->zza(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zza(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 4
     .line 5
@@ -90,7 +96,8 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/Wrappers;->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 3
     .line 4
@@ -98,7 +105,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 7
     .line 8
@@ -110,7 +118,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 13
     .line 14
@@ -134,17 +143,20 @@
 
     .line 20
     .line 21
-    invoke-direct {v0, p1}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    -><init>(Landroid/content/Context;)V
 
     .line 22
     .line 23
     .line 24
-    iput-object v0, p0, Lcom/google/android/gms/common/wrappers/Wrappers;->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    iput-object v0, p0, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 25
     .line 26
     :cond_1
-    iget-object p1, p0, Lcom/google/android/gms/common/wrappers/Wrappers;->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    iget-object p1, p0, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->zzb:Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

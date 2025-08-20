@@ -14,16 +14,19 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/android/volley/Header;->mName:Ljava/lang/String;
+    iput-object p1, p0, Lcom/android/volley/Header;
+    ->mName:Ljava/lang/String;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/android/volley/Header;->mValue:Ljava/lang/String;
+    iput-object p2, p0, Lcom/android/volley/Header;
+    ->mValue:Ljava/lang/String;
 
     .line 7
     .line 8
@@ -54,7 +57,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -78,15 +82,18 @@
 
     .line 18
     .line 19
-    iget-object v2, p0, Lcom/android/volley/Header;->mName:Ljava/lang/String;
+    iget-object v2, p0, Lcom/android/volley/Header;
+    ->mName:Ljava/lang/String;
 
     .line 20
     .line 21
-    iget-object v3, p1, Lcom/android/volley/Header;->mName:Ljava/lang/String;
+    iget-object v3, p1, Lcom/android/volley/Header;
+    ->mName:Ljava/lang/String;
 
     .line 22
     .line 23
-    invoke-static {v2, v3}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v2, v3}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 24
     .line 25
@@ -98,15 +105,18 @@
 
     .line 28
     .line 29
-    iget-object v2, p0, Lcom/android/volley/Header;->mValue:Ljava/lang/String;
+    iget-object v2, p0, Lcom/android/volley/Header;
+    ->mValue:Ljava/lang/String;
 
     .line 30
     .line 31
-    iget-object p1, p1, Lcom/android/volley/Header;->mValue:Ljava/lang/String;
+    iget-object p1, p1, Lcom/android/volley/Header;
+    ->mValue:Ljava/lang/String;
 
     .line 32
     .line 33
-    invoke-static {v2, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v2, p1}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 34
     .line 35
@@ -130,7 +140,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/Header;->mName:Ljava/lang/String;
+    iget-object v0, p0, Lcom/android/volley/Header;
+    ->mName:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -141,7 +152,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/Header;->mValue:Ljava/lang/String;
+    iget-object v0, p0, Lcom/android/volley/Header;
+    ->mValue:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -152,11 +164,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/Header;->mName:Ljava/lang/String;
+    iget-object v0, p0, Lcom/android/volley/Header;
+    ->mName:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -168,11 +182,13 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Lcom/android/volley/Header;->mValue:Ljava/lang/String;
+    iget-object v1, p0, Lcom/android/volley/Header;
+    ->mValue:Ljava/lang/String;
 
     .line 10
     .line 11
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 12
     .line 13
@@ -197,16 +213,19 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lcom/android/volley/Header;->mName:Ljava/lang/String;
+    iget-object v1, p0, Lcom/android/volley/Header;
+    ->mName:Ljava/lang/String;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -215,12 +234,14 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/android/volley/Header;->mValue:Ljava/lang/String;
+    iget-object v1, p0, Lcom/android/volley/Header;
+    ->mValue:Ljava/lang/String;
 
     .line 19
     .line 20
@@ -228,7 +249,8 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v1, v2}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 23
     .line 24

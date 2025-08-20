@@ -12,9 +12,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, LU/i;->a:I
+    iput p1, p0, LU/i;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

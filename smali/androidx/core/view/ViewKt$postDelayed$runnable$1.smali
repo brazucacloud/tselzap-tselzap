@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewKt;->postDelayed(Landroid/view/View;JLp1/a;)Ljava/lang/Runnable;
+    value = Landroidx/core/view/ViewKt;
+    ->postDelayed(Landroid/view/View;JLp1/a;)Ljava/lang/Runnable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,11 +40,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewKt$postDelayed$runnable$1;->$action:Lp1/a;
+    iput-object p1, p0, Landroidx/core/view/ViewKt$postDelayed$runnable$1;
+    ->$action:Lp1/a;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -57,11 +60,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewKt$postDelayed$runnable$1;->$action:Lp1/a;
+    iget-object v0, p0, Landroidx/core/view/ViewKt$postDelayed$runnable$1;
+    ->$action:Lp1/a;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 4
     .line 5

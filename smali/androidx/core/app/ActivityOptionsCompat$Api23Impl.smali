@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/app/ActivityOptions;->makeBasic()Landroid/app/ActivityOptions;
+    invoke-static {}, Landroid/app/ActivityOptions;
+    ->makeBasic()Landroid/app/ActivityOptions;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/ActivityOptions;->makeClipRevealAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
+    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/ActivityOptions;
+    ->makeClipRevealAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/ActivityOptions;->requestUsageTimeReport(Landroid/app/PendingIntent;)V
+    invoke-virtual {p0, p1}, Landroid/app/ActivityOptions;
+    ->requestUsageTimeReport(Landroid/app/PendingIntent;)V
 
     .line 2
     .line 3

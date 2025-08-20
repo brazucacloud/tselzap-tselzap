@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +32,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -40,7 +42,8 @@
 
     .line 7
     :try_start_0
-    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 8
     .line 9

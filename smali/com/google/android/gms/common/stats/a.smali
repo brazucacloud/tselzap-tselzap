@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityManager;->getRecommendedTimeoutMillis(II)I
+    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityManager;
+    ->getRecommendedTimeoutMillis(II)I
 
     move-result p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/ColorStateListDrawable;->getColorStateList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/graphics/drawable/ColorStateListDrawable;
+    ->getColorStateList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -39,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/EditText;->getTextCursorDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/widget/EditText;
+    ->getTextCursorDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
 
@@ -50,7 +53,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/provider/MediaStore;->setRequireOriginal(Landroid/net/Uri;)Landroid/net/Uri;
+    invoke-static {p0}, Landroid/provider/MediaStore;
+    ->setRequireOriginal(Landroid/net/Uri;)Landroid/net/Uri;
 
     move-result-object p0
 
@@ -61,7 +65,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljavax/net/ssl/SSLSocket;->getApplicationProtocol()Ljava/lang/String;
+    invoke-virtual {p0}, Ljavax/net/ssl/SSLSocket;
+    ->getApplicationProtocol()Ljava/lang/String;
 
     move-result-object p0
 
@@ -72,7 +77,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljavax/net/ssl/SSLParameters;->setApplicationProtocols([Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Ljavax/net/ssl/SSLParameters;
+    ->setApplicationProtocols([Ljava/lang/String;)V
 return-void
 .end method
 
@@ -82,7 +88,8 @@ return-void
     .line 1
     const/4 v0, 0x1
 
-    invoke-static {p0, v0}, Landroid/net/ssl/SSLSockets;->setUseSessionTickets(Ljavax/net/ssl/SSLSocket;Z)V
+    invoke-static {p0, v0}, Landroid/net/ssl/SSLSockets;
+    ->setUseSessionTickets(Ljavax/net/ssl/SSLSocket;Z)V
 return-void
 .end method
 
@@ -90,7 +97,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/os/Environment;->isExternalStorageLegacy()Z
+    invoke-static {}, Landroid/os/Environment;
+    ->isExternalStorageLegacy()Z
 
     move-result v0
 
@@ -101,7 +109,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p3, p4, p2}, Landroid/content/Context;->bindService(Landroid/content/Intent;ILjava/util/concurrent/Executor;Landroid/content/ServiceConnection;)Z
+    invoke-virtual {p0, p1, p3, p4, p2}, Landroid/content/Context;
+    ->bindService(Landroid/content/Intent;ILjava/util/concurrent/Executor;Landroid/content/ServiceConnection;)Z
 
     move-result p0
 
@@ -121,7 +130,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/net/ssl/SSLSockets;->isSupportedSocket(Ljavax/net/ssl/SSLSocket;)Z
+    invoke-static {p0}, Landroid/net/ssl/SSLSockets;
+    ->isSupportedSocket(Ljavax/net/ssl/SSLSocket;)Z
 
     move-result p0
 

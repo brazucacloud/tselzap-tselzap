@@ -59,15 +59,19 @@
     .end annotation
 
     .line 2
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->key:Ljava/lang/Comparable;
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->key:Ljava/lang/Comparable;
 
     .line 4
-    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
+    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;
 
     return-void
 .end method
@@ -83,17 +87,20 @@
     .end annotation
 
     .line 1
-    invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Comparable;
 
-    invoke-interface {p2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object p2
 
-    invoke-direct {p0, p1, v0, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/lang/Comparable;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, v0, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/lang/Comparable;Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -115,7 +122,8 @@ return-void
 
     .line 4
     :cond_1
-    invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -135,15 +143,18 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getKey()Ljava/lang/Comparable;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->getKey()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getKey()Ljava/lang/Comparable;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->getKey()Ljava/lang/Comparable;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
+    invoke-interface {v0, p1}, Ljava/lang/Comparable;
+    ->compareTo(Ljava/lang/Object;)I
 
     move-result p1
 
@@ -156,7 +167,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->compareTo(Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;)I
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->compareTo(Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;)I
 
     move-result p1
 
@@ -187,25 +199,31 @@ return-void
     check-cast p1, Ljava/util/Map$Entry;
 
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->key:Ljava/lang/Comparable;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->key:Ljava/lang/Comparable;
 
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
-    invoke-direct {p0, v1, v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-direct {p0, v1, v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;
 
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-direct {p0, v1, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-direct {p0, v1, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -226,7 +244,8 @@ return-void
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->key:Ljava/lang/Comparable;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->key:Ljava/lang/Comparable;
 
     return-object v0
 .end method
@@ -235,7 +254,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getKey()Ljava/lang/Comparable;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->getKey()Ljava/lang/Comparable;
 
     move-result-object v0
 
@@ -251,14 +271,16 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->key:Ljava/lang/Comparable;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->key:Ljava/lang/Comparable;
 
     .line 2
     .line 3
@@ -276,7 +298,8 @@ return-void
 
     .line 8
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 9
     .line 10
@@ -285,7 +308,8 @@ return-void
 
     .line 12
     :goto_0
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -297,7 +321,8 @@ return-void
 
     .line 17
     :cond_1
-    invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 18
     .line 19
@@ -320,20 +345,25 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->access$300(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->access$300(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;    return-object v0
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;    
+    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -344,16 +374,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->key:Ljava/lang/Comparable;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->key:Ljava/lang/Comparable;
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
@@ -362,21 +395,25 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->value:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
+    ->value:Ljava/lang/Object;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 22
     .line 23

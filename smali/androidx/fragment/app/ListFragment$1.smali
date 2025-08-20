@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/ListFragment$1;->this$0:Landroidx/fragment/app/ListFragment;
+    iput-object p1, p0, Landroidx/fragment/app/ListFragment$1;
+    ->this$0:Landroidx/fragment/app/ListFragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,15 +42,19 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/ListFragment$1;->this$0:Landroidx/fragment/app/ListFragment;
+    iget-object v0, p0, Landroidx/fragment/app/ListFragment$1;
+    ->this$0:Landroidx/fragment/app/ListFragment;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/fragment/app/ListFragment;->mList:Landroid/widget/ListView;
+    iget-object v0, v0, Landroidx/fragment/app/ListFragment;
+    ->mList:Landroid/widget/ListView;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v0}, Landroid/view/ViewGroup;->focusableViewAvailable(Landroid/view/View;)V    return-void
+    invoke-virtual {v0, v0}, Landroid/view/ViewGroup;
+    ->focusableViewAvailable(Landroid/view/View;)V    
+    return-void
 .end method
 
 .end class

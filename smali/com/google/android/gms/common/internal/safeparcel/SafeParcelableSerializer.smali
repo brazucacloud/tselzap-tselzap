@@ -12,7 +12,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -43,12 +44,14 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    invoke-static {}, Landroid/os/Parcel;
+    ->obtain()Landroid/os/Parcel;
 
     .line 5
     .line 6
@@ -62,17 +65,20 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-virtual {v0, p0, v2, v1}, Landroid/os/Parcel;->unmarshall([BII)V
+    invoke-virtual {v0, p0, v2, v1}, Landroid/os/Parcel;
+    ->unmarshall([BII)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v0, v2}, Landroid/os/Parcel;->setDataPosition(I)V
+    invoke-virtual {v0, v2}, Landroid/os/Parcel;
+    ->setDataPosition(I)V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p1, v0}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Landroid/os/Parcelable$Creator;
+    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -84,7 +90,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->recycle()V
 
     .line 23
     .line 24
@@ -125,7 +132,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getByteArrayExtra(Ljava/lang/String;)[B
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getByteArrayExtra(Ljava/lang/String;)[B
 
     .line 2
     .line 3
@@ -143,7 +151,8 @@
 
     .line 9
     :cond_0
-    invoke-static {p0, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
+    invoke-static {p0, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
 
     .line 10
     .line 11
@@ -181,7 +190,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/util/Base64Utils;->decodeUrlSafe(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/google/android/gms/common/util/Base64Utils;
+    ->decodeUrlSafe(Ljava/lang/String;)[B
 
     .line 2
     .line 3
@@ -189,7 +199,8 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
 
     .line 6
     .line 7
@@ -234,7 +245,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;
+    ->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
 
     .line 2
     .line 3
@@ -260,7 +272,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 14
     .line 15
@@ -268,12 +281,14 @@
     move-result v0
 
     .line 17
-    invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {p1, v0}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 18
     .line 19
     .line 20
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 21
     .line 22
@@ -289,7 +304,8 @@
 
     .line 26
     .line 27
-    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -301,7 +317,8 @@
 
     .line 32
     .line 33
-    invoke-static {v2, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
+    invoke-static {v2, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
 
     .line 34
     .line 35
@@ -309,7 +326,8 @@
     move-result-object v2
 
     .line 37
-    invoke-virtual {p1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -360,7 +378,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getByteArray(Ljava/lang/String;)[B
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;
+    ->getByteArray(Ljava/lang/String;)[B
 
     .line 2
     .line 3
@@ -368,7 +387,8 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->deserializeIterableFromBytes([BLandroid/os/Parcelable$Creator;)Ljava/util/ArrayList;
+    invoke-static {p0, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->deserializeIterableFromBytes([BLandroid/os/Parcelable$Creator;)Ljava/util/ArrayList;
 
     .line 6
     .line 7
@@ -417,7 +437,8 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    invoke-static {}, Landroid/os/Parcel;
+    ->obtain()Landroid/os/Parcel;
 
     .line 6
     .line 7
@@ -431,12 +452,14 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-virtual {v0, p0, v2, v1}, Landroid/os/Parcel;->unmarshall([BII)V
+    invoke-virtual {v0, p0, v2, v1}, Landroid/os/Parcel;
+    ->unmarshall([BII)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {v0, v2}, Landroid/os/Parcel;->setDataPosition(I)V
+    invoke-virtual {v0, v2}, Landroid/os/Parcel;
+    ->setDataPosition(I)V
 
     .line 15
     .line 16
@@ -446,19 +469,22 @@
 
     .line 18
     .line 19
-    invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, p0, p1}, Landroid/os/Parcel;->readTypedList(Ljava/util/List;Landroid/os/Parcelable$Creator;)V
+    invoke-virtual {v0, p0, p1}, Landroid/os/Parcel;
+    ->readTypedList(Ljava/util/List;Landroid/os/Parcelable$Creator;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->recycle()V
 
     .line 26
     .line 27
@@ -470,7 +496,8 @@
     move-exception p0
 
     .line 30
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->recycle()V
 
     .line 31
     .line 32
@@ -534,7 +561,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
 
     .line 2
     .line 3
@@ -560,7 +588,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 14
     .line 15
@@ -568,12 +597,14 @@
     move-result v0
 
     .line 17
-    invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {p1, v0}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 18
     .line 19
     .line 20
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 21
     .line 22
@@ -589,7 +620,8 @@
 
     .line 26
     .line 27
-    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -601,7 +633,8 @@
 
     .line 32
     .line 33
-    invoke-static {v2, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
+    invoke-static {v2, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->deserializeFromBytes([BLandroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
 
     .line 34
     .line 35
@@ -609,7 +642,8 @@
     move-result-object v2
 
     .line 37
-    invoke-virtual {p1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -660,7 +694,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getByteArrayExtra(Ljava/lang/String;)[B
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getByteArrayExtra(Ljava/lang/String;)[B
 
     .line 2
     .line 3
@@ -668,7 +703,8 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->deserializeIterableFromBytes([BLandroid/os/Parcelable$Creator;)Ljava/util/ArrayList;
+    invoke-static {p0, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->deserializeIterableFromBytes([BLandroid/os/Parcelable$Creator;)Ljava/util/ArrayList;
 
     .line 6
     .line 7
@@ -713,12 +749,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -727,7 +765,8 @@
 
     .line 10
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -739,7 +778,8 @@
 
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -751,7 +791,8 @@
 
     .line 21
     .line 22
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
 
     .line 23
     .line 24
@@ -759,7 +800,8 @@
     move-result-object v1
 
     .line 26
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -768,7 +810,8 @@
 
     .line 30
     :cond_0
-    invoke-virtual {p1, p2, v0}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
+    invoke-virtual {p1, p2, v0}, Landroid/os/Bundle;
+    ->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
 
     .line 31
     .line 32
@@ -807,7 +850,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->serializeIterableToBytes(Ljava/lang/Iterable;)[B
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->serializeIterableToBytes(Ljava/lang/Iterable;)[B
 
     .line 2
     .line 3
@@ -815,7 +859,8 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p1, p2, p0}, Landroid/os/Bundle;->putByteArray(Ljava/lang/String;[B)V
+    invoke-virtual {p1, p2, p0}, Landroid/os/Bundle;
+    ->putByteArray(Ljava/lang/String;[B)V
 
     .line 6
     .line 7
@@ -846,7 +891,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    invoke-static {}, Landroid/os/Parcel;
+    ->obtain()Landroid/os/Parcel;
 
     .line 2
     .line 3
@@ -855,7 +901,8 @@
 
     .line 5
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/internal/common/zzak;->zzj(Ljava/lang/Iterable;)Lcom/google/android/gms/internal/common/zzak;
+    invoke-static {p0}, Lcom/google/android/gms/internal/common/zzak;
+    ->zzj(Ljava/lang/Iterable;)Lcom/google/android/gms/internal/common/zzak;
 
     .line 6
     .line 7
@@ -863,12 +910,14 @@
     move-result-object p0
 
     .line 9
-    invoke-virtual {v0, p0}, Landroid/os/Parcel;->writeTypedList(Ljava/util/List;)V
+    invoke-virtual {v0, p0}, Landroid/os/Parcel;
+    ->writeTypedList(Ljava/util/List;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroid/os/Parcel;->marshall()[B
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->marshall()[B
 
     .line 13
     .line 14
@@ -878,7 +927,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 16
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->recycle()V
 
     .line 17
     .line 18
@@ -890,7 +940,8 @@
     move-exception p0
 
     .line 21
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->recycle()V
 
     .line 22
     .line 23
@@ -939,12 +990,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -953,7 +1006,8 @@
 
     .line 10
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -965,7 +1019,8 @@
 
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -977,7 +1032,8 @@
 
     .line 21
     .line 22
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
 
     .line 23
     .line 24
@@ -985,7 +1041,8 @@
     move-result-object v1
 
     .line 26
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -994,7 +1051,8 @@
 
     .line 30
     :cond_0
-    invoke-virtual {p1, p2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
+    invoke-virtual {p1, p2, v0}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     .line 31
     .line 32
@@ -1033,7 +1091,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->serializeIterableToBytes(Ljava/lang/Iterable;)[B
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->serializeIterableToBytes(Ljava/lang/Iterable;)[B
 
     .line 2
     .line 3
@@ -1041,7 +1100,8 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p1, p2, p0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[B)Landroid/content/Intent;
+    invoke-virtual {p1, p2, p0}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[B)Landroid/content/Intent;
 
     .line 6
     .line 7
@@ -1070,7 +1130,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    invoke-static {}, Landroid/os/Parcel;
+    ->obtain()Landroid/os/Parcel;
 
     .line 2
     .line 3
@@ -1081,12 +1142,14 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/os/Parcel;->marshall()[B
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->marshall()[B
 
     .line 10
     .line 11
@@ -1094,7 +1157,8 @@
     move-result-object p0
 
     .line 13
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;
+    ->recycle()V
 
     .line 14
     .line 15
@@ -1131,7 +1195,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
 
     .line 2
     .line 3
@@ -1139,7 +1204,8 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p1, p2, p0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[B)Landroid/content/Intent;
+    invoke-virtual {p1, p2, p0}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[B)Landroid/content/Intent;
 
     .line 6
     .line 7
@@ -1169,7 +1235,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelableSerializer;
+    ->serializeToBytes(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)[B
 
     .line 2
     .line 3
@@ -1177,7 +1244,8 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/common/util/Base64Utils;->encodeUrlSafe([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/google/android/gms/common/util/Base64Utils;
+    ->encodeUrlSafe([B)Ljava/lang/String;
 
     .line 6
     .line 7

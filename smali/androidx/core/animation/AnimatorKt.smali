@@ -24,12 +24,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;-><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
+    invoke-direct {v0, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;
+    -><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p0, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 7
     .line 8
@@ -49,7 +51,8 @@
 
     .line 4
     .line 5
-    sget-object p1, Landroidx/core/animation/AnimatorKt$addListener$1;->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$1;
+    sget-object p1, Landroidx/core/animation/AnimatorKt$addListener$1;
+    ->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$1;
 
     .line 6
     .line 7
@@ -62,7 +65,8 @@
 
     .line 10
     .line 11
-    sget-object p2, Landroidx/core/animation/AnimatorKt$addListener$2;->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$2;
+    sget-object p2, Landroidx/core/animation/AnimatorKt$addListener$2;
+    ->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$2;
 
     .line 12
     .line 13
@@ -75,7 +79,8 @@
 
     .line 16
     .line 17
-    sget-object p3, Landroidx/core/animation/AnimatorKt$addListener$3;->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$3;
+    sget-object p3, Landroidx/core/animation/AnimatorKt$addListener$3;
+    ->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$3;
 
     .line 18
     .line 19
@@ -88,7 +93,8 @@
 
     .line 22
     .line 23
-    sget-object p4, Landroidx/core/animation/AnimatorKt$addListener$4;->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$4;
+    sget-object p4, Landroidx/core/animation/AnimatorKt$addListener$4;
+    ->INSTANCE:Landroidx/core/animation/AnimatorKt$addListener$4;
 
     .line 24
     .line 25
@@ -97,12 +103,14 @@
 
     .line 26
     .line 27
-    invoke-direct {p5, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;-><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
+    invoke-direct {p5, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;
+    -><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0, p5}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p0, p5}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 31
     .line 32
@@ -128,12 +136,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p2, p1}, Landroidx/core/animation/AnimatorKt$addPauseListener$listener$1;-><init>(Lp1/l;Lp1/l;)V
+    invoke-direct {v0, p2, p1}, Landroidx/core/animation/AnimatorKt$addPauseListener$listener$1;
+    -><init>(Lp1/l;Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/animation/Animator;->addPauseListener(Landroid/animation/Animator$AnimatorPauseListener;)V
+    invoke-virtual {p0, v0}, Landroid/animation/Animator;
+    ->addPauseListener(Landroid/animation/Animator$AnimatorPauseListener;)V
 
     .line 7
     .line 8
@@ -153,7 +163,8 @@
 
     .line 4
     .line 5
-    sget-object p1, Landroidx/core/animation/AnimatorKt$addPauseListener$1;->INSTANCE:Landroidx/core/animation/AnimatorKt$addPauseListener$1;
+    sget-object p1, Landroidx/core/animation/AnimatorKt$addPauseListener$1;
+    ->INSTANCE:Landroidx/core/animation/AnimatorKt$addPauseListener$1;
 
     .line 6
     .line 7
@@ -166,12 +177,14 @@
 
     .line 10
     .line 11
-    sget-object p2, Landroidx/core/animation/AnimatorKt$addPauseListener$2;->INSTANCE:Landroidx/core/animation/AnimatorKt$addPauseListener$2;
+    sget-object p2, Landroidx/core/animation/AnimatorKt$addPauseListener$2;
+    ->INSTANCE:Landroidx/core/animation/AnimatorKt$addPauseListener$2;
 
     .line 12
     .line 13
     :cond_1
-    invoke-static {p0, p1, p2}, Landroidx/core/animation/AnimatorKt;->addPauseListener(Landroid/animation/Animator;Lp1/l;Lp1/l;)Landroid/animation/Animator$AnimatorPauseListener;
+    invoke-static {p0, p1, p2}, Landroidx/core/animation/AnimatorKt;
+    ->addPauseListener(Landroid/animation/Animator;Lp1/l;Lp1/l;)Landroid/animation/Animator$AnimatorPauseListener;
 
     .line 14
     .line 15
@@ -198,12 +211,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnCancel$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnCancel$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p0, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 7
     .line 8
@@ -228,12 +243,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p0, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 7
     .line 8
@@ -260,7 +277,8 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-static {p0, v0, p1, v1, v0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$default(Landroid/animation/Animator;Lp1/l;Lp1/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
+    invoke-static {p0, v0, p1, v1, v0}, Landroidx/core/animation/AnimatorKt;
+    ->addPauseListener$default(Landroid/animation/Animator;Lp1/l;Lp1/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
 
     .line 4
     .line 5
@@ -287,12 +305,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnRepeat$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnRepeat$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p0, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 7
     .line 8
@@ -319,7 +339,8 @@
     const/4 v1, 0x2
 
     .line 3
-    invoke-static {p0, p1, v0, v1, v0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$default(Landroid/animation/Animator;Lp1/l;Lp1/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
+    invoke-static {p0, p1, v0, v1, v0}, Landroidx/core/animation/AnimatorKt;
+    ->addPauseListener$default(Landroid/animation/Animator;Lp1/l;Lp1/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
 
     .line 4
     .line 5
@@ -346,12 +367,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p0, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 7
     .line 8

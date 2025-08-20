@@ -15,17 +15,20 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzaf;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzaf;
+    -><init>()V
 
     const/4 p1, 0x4
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/internal/common/zzae;->zza:[Ljava/lang/Object;
+    iput-object p1, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zza:[Ljava/lang/Object;
 
     const/4 p1, 0x0
 
-    iput p1, p0, Lcom/google/android/gms/internal/common/zzae;->zzb:I
+    iput p1, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zzb:I
 
     return-void
 .end method
@@ -36,19 +39,22 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzae;->zza:[Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zza:[Ljava/lang/Object;
 
     .line 5
     .line 6
     array-length v0, v0
 
     .line 7
-    iget v1, p0, Lcom/google/android/gms/internal/common/zzae;->zzb:I
+    iget v1, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zzb:I
 
     .line 8
     .line 9
@@ -86,7 +92,8 @@
 
     .line 23
     .line 24
-    invoke-static {v1}, Ljava/lang/Integer;->highestOneBit(I)I
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->highestOneBit(I)I
 
     .line 25
     .line 26
@@ -114,7 +121,8 @@
 
     .line 36
     .line 37
-    iget-boolean v0, p0, Lcom/google/android/gms/internal/common/zzae;->zzc:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zzc:Z
 
     .line 38
     .line 39
@@ -123,11 +131,13 @@
     .line 40
     .line 41
     :cond_3
-    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzae;->zza:[Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zza:[Ljava/lang/Object;
 
     .line 42
     .line 43
-    invoke-static {v0, v3}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v0, v3}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -135,23 +145,27 @@
     move-result-object v0
 
     .line 47
-    iput-object v0, p0, Lcom/google/android/gms/internal/common/zzae;->zza:[Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zza:[Ljava/lang/Object;
 
     .line 48
     .line 49
     const/4 v0, 0x0
 
     .line 50
-    iput-boolean v0, p0, Lcom/google/android/gms/internal/common/zzae;->zzc:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zzc:Z
 
     .line 51
     .line 52
     :cond_4
-    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzae;->zza:[Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zza:[Ljava/lang/Object;
 
     .line 53
     .line 54
-    iget v1, p0, Lcom/google/android/gms/internal/common/zzae;->zzb:I
+    iget v1, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zzb:I
 
     .line 55
     .line 56
@@ -159,7 +173,8 @@
 
     .line 57
     .line 58
-    iput v2, p0, Lcom/google/android/gms/internal/common/zzae;->zzb:I
+    iput v2, p0, Lcom/google/android/gms/internal/common/zzae;
+    ->zzb:I
 
     .line 59
     .line 60
@@ -179,7 +194,8 @@
 
     .line 66
     .line 67
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 68
     .line 69

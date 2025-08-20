@@ -55,9 +55,11 @@
 
     new-instance v0, Lcom/google/android/gms/signin/internal/zab;
 
-    invoke-direct {v0}, Lcom/google/android/gms/signin/internal/zab;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/signin/internal/zab;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/signin/internal/zaa;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/signin/internal/zaa;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -72,7 +74,8 @@
     const/4 v2, 0x2
 
     .line 1
-    invoke-direct {p0, v2, v0, v1}, Lcom/google/android/gms/signin/internal/zaa;-><init>(IILandroid/content/Intent;)V
+    invoke-direct {p0, v2, v0, v1}, Lcom/google/android/gms/signin/internal/zaa;
+    -><init>(IILandroid/content/Intent;)V
 return-void
 .end method
 
@@ -100,13 +103,17 @@ return-void
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
-    iput p1, p0, Lcom/google/android/gms/signin/internal/zaa;->zaa:I
+    iput p1, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zaa:I
 
-    iput p2, p0, Lcom/google/android/gms/signin/internal/zaa;->zab:I
+    iput p2, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zab:I
 
-    iput-object p3, p0, Lcom/google/android/gms/signin/internal/zaa;->zac:Landroid/content/Intent;
+    iput-object p3, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zac:Landroid/content/Intent;
 
     return-void
 .end method
@@ -117,7 +124,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/signin/internal/zaa;->zab:I
+    iget v0, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zab:I
 
     .line 2
     .line 3
@@ -125,7 +133,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Lcom/google/android/gms/common/api/Status;->RESULT_SUCCESS:Lcom/google/android/gms/common/api/Status;
+    sget-object v0, Lcom/google/android/gms/common/api/Status;
+    ->RESULT_SUCCESS:Lcom/google/android/gms/common/api/Status;
 
     .line 6
     .line 7
@@ -133,7 +142,8 @@ return-void
 
     .line 8
     :cond_0
-    sget-object v0, Lcom/google/android/gms/common/api/Status;->RESULT_CANCELED:Lcom/google/android/gms/common/api/Status;
+    sget-object v0, Lcom/google/android/gms/common/api/Status;
+    ->RESULT_CANCELED:Lcom/google/android/gms/common/api/Status;
 
     .line 9
     .line 10
@@ -144,11 +154,13 @@ return-void
     .locals 4
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/signin/internal/zaa;->zaa:I
+    iget v0, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zaa:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -159,7 +171,8 @@ return-void
     const/4 v2, 0x1
 
     .line 8
-    invoke-static {p1, v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
@@ -167,16 +180,19 @@ return-void
     const/4 v0, 0x2
 
     .line 12
-    iget v2, p0, Lcom/google/android/gms/signin/internal/zaa;->zab:I
+    iget v2, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zab:I
 
     .line 13
     .line 14
-    invoke-static {p1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/google/android/gms/signin/internal/zaa;->zac:Landroid/content/Intent;
+    iget-object v0, p0, Lcom/google/android/gms/signin/internal/zaa;
+    ->zac:Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -186,12 +202,14 @@ return-void
     const/4 v3, 0x3
 
     .line 21
-    invoke-static {p1, v3, v0, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v0, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 25
     .line 26

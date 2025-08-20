@@ -12,12 +12,14 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;
+    -><init>()V
 
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;->h:Z
+    iput-boolean v0, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;
+    ->h:Z
 return-void
 .end method
 
@@ -33,12 +35,14 @@ return-void
     .end param
 
     .line 3
-    invoke-direct {p0, p1, p2}, Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x0
 
     .line 4
-    iput-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;->h:Z
+    iput-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;
+    ->h:Z
 return-void
 .end method
 
@@ -48,12 +52,14 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;->onDependentViewChanged(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z
+    invoke-super {p0, p1, p2, p3}, Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;
+    ->onDependentViewChanged(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z
 
     .line 2
     .line 3
     .line 4
-    iget-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;->h:Z
+    iget-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;
+    ->h:Z
 
     .line 5
     .line 6
@@ -75,7 +81,8 @@ return-void
     const/4 p1, 0x1
 
     .line 14
-    iput-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;->h:Z
+    iput-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;
+    ->h:Z
 
     .line 15
     .line 16
@@ -83,12 +90,14 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p3, p2}, Landroid/view/View;->setBackgroundColor(I)V
+    invoke-virtual {p3, p2}, Landroid/view/View;
+    ->setBackgroundColor(I)V
 
     .line 19
     .line 20
     .line 21
-    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 22
     .line 23
@@ -103,7 +112,8 @@ return-void
     const/4 p1, 0x0
 
     .line 28
-    invoke-virtual {p3, p1}, Landroid/view/View;->setOutlineProvider(Landroid/view/ViewOutlineProvider;)V
+    invoke-virtual {p3, p1}, Landroid/view/View;
+    ->setOutlineProvider(Landroid/view/ViewOutlineProvider;)V
 
     .line 29
     .line 30
@@ -115,7 +125,8 @@ return-void
     const/4 p1, 0x0
 
     .line 33
-    invoke-virtual {p3, p1}, Lcom/google/android/material/appbar/AppBarLayout;->setTargetElevation(F)V
+    invoke-virtual {p3, p1}, Lcom/google/android/material/appbar/AppBarLayout;
+    ->setTargetElevation(F)V
 
     .line 34
     .line 35

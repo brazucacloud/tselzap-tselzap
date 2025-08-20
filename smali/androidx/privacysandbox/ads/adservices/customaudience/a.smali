@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;->setMatchBehavior(I)Landroid/adservices/measurement/DeletionRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->setMatchBehavior(I)Landroid/adservices/measurement/DeletionRequest$Builder;
 
     move-result-object p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;->setEnd(Ljava/time/Instant;)Landroid/adservices/measurement/DeletionRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->setEnd(Ljava/time/Instant;)Landroid/adservices/measurement/DeletionRequest$Builder;
 
     move-result-object p0
 
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;->setOriginUris(Ljava/util/List;)Landroid/adservices/measurement/DeletionRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->setOriginUris(Ljava/util/List;)Landroid/adservices/measurement/DeletionRequest$Builder;
 
     move-result-object p0
 
@@ -41,7 +44,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/adservices/measurement/MeasurementManager;->registerSource(Landroid/net/Uri;Landroid/view/InputEvent;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/adservices/measurement/MeasurementManager;
+    ->registerSource(Landroid/net/Uri;Landroid/view/InputEvent;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -49,7 +53,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setActivationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
+    ->setActivationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -60,7 +65,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;->setCustomAudience(Landroid/adservices/customaudience/CustomAudience;)Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
+    ->setCustomAudience(Landroid/adservices/customaudience/CustomAudience;)Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
 
     move-result-object p0
 
@@ -71,7 +77,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;->build()Landroid/adservices/customaudience/JoinCustomAudienceRequest;
+    invoke-virtual {p0}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
+    ->build()Landroid/adservices/customaudience/JoinCustomAudienceRequest;
 
     move-result-object p0
 
@@ -82,7 +89,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;->build()Landroid/adservices/customaudience/LeaveCustomAudienceRequest;
+    invoke-virtual {p0}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
+    ->build()Landroid/adservices/customaudience/LeaveCustomAudienceRequest;
 
     move-result-object p0
 
@@ -93,7 +101,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;->setTrustedBiddingUri(Landroid/net/Uri;)Landroid/adservices/customaudience/TrustedBiddingData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
+    ->setTrustedBiddingUri(Landroid/net/Uri;)Landroid/adservices/customaudience/TrustedBiddingData$Builder;
 
     move-result-object p0
 
@@ -104,7 +113,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;->setTrustedBiddingKeys(Ljava/util/List;)Landroid/adservices/customaudience/TrustedBiddingData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
+    ->setTrustedBiddingKeys(Ljava/util/List;)Landroid/adservices/customaudience/TrustedBiddingData$Builder;
 
     move-result-object p0
 
@@ -115,7 +125,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;->build()Landroid/adservices/customaudience/TrustedBiddingData;
+    invoke-virtual {p0}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
+    ->build()Landroid/adservices/customaudience/TrustedBiddingData;
 
     move-result-object p0
 
@@ -128,7 +139,8 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/measurement/DeletionRequest$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/measurement/DeletionRequest$Builder;-><init>()V
+    invoke-direct {v0}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    -><init>()V
     return-object v0
 .end method
 
@@ -136,7 +148,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;->setDeletionMode(I)Landroid/adservices/measurement/DeletionRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->setDeletionMode(I)Landroid/adservices/measurement/DeletionRequest$Builder;
 
     move-result-object p0
 
@@ -147,7 +160,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;->setStart(Ljava/time/Instant;)Landroid/adservices/measurement/DeletionRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->setStart(Ljava/time/Instant;)Landroid/adservices/measurement/DeletionRequest$Builder;
 
     move-result-object p0
 
@@ -158,7 +172,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;->setDomainUris(Ljava/util/List;)Landroid/adservices/measurement/DeletionRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->setDomainUris(Ljava/util/List;)Landroid/adservices/measurement/DeletionRequest$Builder;
 
     move-result-object p0
 
@@ -169,7 +184,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/measurement/DeletionRequest$Builder;->build()Landroid/adservices/measurement/DeletionRequest;
+    invoke-virtual {p0}, Landroid/adservices/measurement/DeletionRequest$Builder;
+    ->build()Landroid/adservices/measurement/DeletionRequest;
 
     move-result-object p0
 
@@ -180,7 +196,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/adservices/measurement/MeasurementManager;->get(Landroid/content/Context;)Landroid/adservices/measurement/MeasurementManager;
+    invoke-static {p0}, Landroid/adservices/measurement/MeasurementManager;
+    ->get(Landroid/content/Context;)Landroid/adservices/measurement/MeasurementManager;
 
     move-result-object p0
 
@@ -200,7 +217,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceParams$Builder;->setDebugKeyAllowed(Z)Landroid/adservices/measurement/WebSourceParams$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceParams$Builder;
+    ->setDebugKeyAllowed(Z)Landroid/adservices/measurement/WebSourceParams$Builder;
 
     move-result-object p0
 
@@ -213,7 +231,8 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/measurement/WebSourceParams$Builder;
 
-    invoke-direct {v0, p0}, Landroid/adservices/measurement/WebSourceParams$Builder;-><init>(Landroid/net/Uri;)V
+    invoke-direct {v0, p0}, Landroid/adservices/measurement/WebSourceParams$Builder;
+    -><init>(Landroid/net/Uri;)V
     return-object v0
 .end method
 
@@ -221,7 +240,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/measurement/WebSourceParams$Builder;->build()Landroid/adservices/measurement/WebSourceParams;
+    invoke-virtual {p0}, Landroid/adservices/measurement/WebSourceParams$Builder;
+    ->build()Landroid/adservices/measurement/WebSourceParams;
 
     move-result-object p0
 
@@ -250,7 +270,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;->leaveCustomAudience(Landroid/adservices/customaudience/LeaveCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;
+    ->leaveCustomAudience(Landroid/adservices/customaudience/LeaveCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -258,7 +279,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;->deleteRegistrations(Landroid/adservices/measurement/DeletionRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;
+    ->deleteRegistrations(Landroid/adservices/measurement/DeletionRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -266,7 +288,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;->registerWebSource(Landroid/adservices/measurement/WebSourceRegistrationRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;
+    ->registerWebSource(Landroid/adservices/measurement/WebSourceRegistrationRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -274,7 +297,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;->registerWebTrigger(Landroid/adservices/measurement/WebTriggerRegistrationRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;
+    ->registerWebTrigger(Landroid/adservices/measurement/WebTriggerRegistrationRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -282,7 +306,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/adservices/measurement/MeasurementManager;->registerSource(Landroid/net/Uri;Landroid/view/InputEvent;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/adservices/measurement/MeasurementManager;
+    ->registerSource(Landroid/net/Uri;Landroid/view/InputEvent;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -290,7 +315,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;->registerTrigger(Landroid/net/Uri;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/measurement/MeasurementManager;
+    ->registerTrigger(Landroid/net/Uri;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -298,7 +324,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/adservices/measurement/MeasurementManager;->getMeasurementApiStatus(Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2}, Landroid/adservices/measurement/MeasurementManager;
+    ->getMeasurementApiStatus(Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 

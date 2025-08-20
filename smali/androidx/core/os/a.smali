@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->isInMultiWindowMode()Z
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->isInMultiWindowMode()Z
 
     move-result p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->isImportantForAccessibility()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isImportantForAccessibility()Z
 
     move-result p0
 
@@ -32,7 +34,8 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Landroid/text/Html;->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
+    invoke-static {p0, v0}, Landroid/text/Html;
+    ->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -43,7 +46,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Ljava/lang/CharSequence;->chars()Ljava/util/stream/IntStream;
+    invoke-interface {p0}, Ljava/lang/CharSequence;
+    ->chars()Ljava/util/stream/IntStream;
 
     move-result-object p0
 
@@ -54,7 +58,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/LocaleList;->hashCode()I
+    invoke-virtual {p0}, Landroid/os/LocaleList;
+    ->hashCode()I
 
     move-result p0
 
@@ -65,7 +70,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/LocaleList;->indexOf(Ljava/util/Locale;)I
+    invoke-virtual {p0, p1}, Landroid/os/LocaleList;
+    ->indexOf(Ljava/util/Locale;)I
 
     move-result p0
 
@@ -76,7 +82,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getDrawingOrder()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getDrawingOrder()I
 
     move-result p0
 
@@ -87,7 +94,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/animation/Animator;->getTotalDuration()J
+    invoke-virtual {p0}, Landroid/animation/Animator;
+    ->getTotalDuration()J
 
     move-result-wide v0
 
@@ -98,7 +106,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->createDeviceProtectedStorageContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->createDeviceProtectedStorageContext()Landroid/content/Context;
 
     move-result-object p0
 
@@ -111,7 +120,8 @@
     .line 1
     new-instance v0, Landroid/content/res/Resources$NotFoundException;
 
-    invoke-direct {v0, p0, p1}, Landroid/content/res/Resources$NotFoundException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v0, p0, p1}, Landroid/content/res/Resources$NotFoundException;
+    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
     return-object v0
 .end method
 
@@ -119,7 +129,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/TextPaint;->getTextLocales()Landroid/os/LocaleList;
+    invoke-virtual {p0}, Landroid/text/TextPaint;
+    ->getTextLocales()Landroid/os/LocaleList;
 
     move-result-object p0
 
@@ -132,7 +143,8 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-static {p0, v0}, Landroid/text/Html;->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
+    invoke-static {p0, v0}, Landroid/text/Html;
+    ->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -152,7 +164,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SET_PROGRESS:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    ->ACTION_SET_PROGRESS:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -170,7 +183,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/FloatProperty;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/util/FloatProperty;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -181,7 +195,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/LocaleList;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/os/LocaleList;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
@@ -192,7 +207,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/FloatProperty;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/util/FloatProperty;
+    ->getName()Ljava/lang/String;
 
     move-result-object p0
 
@@ -203,7 +219,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/LocaleList;->get(I)Ljava/util/Locale;
+    invoke-virtual {p0, p1}, Landroid/os/LocaleList;
+    ->get(I)Ljava/util/Locale;
 
     move-result-object p0
 
@@ -225,7 +242,8 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {v0, p0}, Ljava/util/stream/IntStream;->range(II)Ljava/util/stream/IntStream;
+    invoke-static {v0, p0}, Ljava/util/stream/IntStream;
+    ->range(II)Ljava/util/stream/IntStream;
 
     move-result-object p0
 
@@ -236,7 +254,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Ljava/lang/CharSequence;->codePoints()Ljava/util/stream/IntStream;
+    invoke-interface {p0}, Ljava/lang/CharSequence;
+    ->codePoints()Ljava/util/stream/IntStream;
 
     move-result-object p0
 
@@ -247,7 +266,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/String;->codePoints()Ljava/util/stream/IntStream;
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->codePoints()Ljava/util/stream/IntStream;
 
     move-result-object p0
 
@@ -258,7 +278,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/service/notification/NotificationListenerService;->requestRebind(Landroid/content/ComponentName;)V
+    invoke-static {p0}, Landroid/service/notification/NotificationListenerService;
+    ->requestRebind(Landroid/content/ComponentName;)V
 return-void
 .end method
 
@@ -266,7 +287,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/FloatProperty;->setValue(Ljava/lang/Object;F)V
+    invoke-virtual {p0, p1, p2}, Landroid/util/FloatProperty;
+    ->setValue(Ljava/lang/Object;F)V
 
     return-void
 .end method
@@ -275,7 +297,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setDrawingOrder(I)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setDrawingOrder(I)V
 return-void
 .end method
 
@@ -283,7 +306,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setImportantForAccessibility(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setImportantForAccessibility(Z)V
 return-void
 .end method
 
@@ -291,7 +315,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/stream/IntStream;->forEach(Ljava/util/function/IntConsumer;)V
+    invoke-interface {p0, p1}, Ljava/util/stream/IntStream;
+    ->forEach(Ljava/util/function/IntConsumer;)V
 return-void
 .end method
 
@@ -299,7 +324,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/stream/IntStream;->forEach(Ljava/util/function/IntConsumer;)V
+    invoke-interface {p0, p1}, Ljava/util/stream/IntStream;
+    ->forEach(Ljava/util/function/IntConsumer;)V
 return-void
 .end method
 
@@ -307,7 +333,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/stream/IntStream;->forEach(Ljava/util/function/IntConsumer;)V
+    invoke-interface {p0, p1}, Ljava/util/stream/IntStream;
+    ->forEach(Ljava/util/function/IntConsumer;)V
 return-void
 .end method
 

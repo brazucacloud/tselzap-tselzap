@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/EncryptedTopic;->getEncapsulatedKey()[B
+    invoke-virtual {p0}, Landroid/adservices/topics/EncryptedTopic;
+    ->getEncapsulatedKey()[B
 
     move-result-object p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;->setKeyedFrequencyCapsForViewEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;
+    ->setKeyedFrequencyCapsForViewEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
 
     move-result-object p0
 
@@ -39,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;->setKeyedFrequencyCapsForClickEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;
+    ->setKeyedFrequencyCapsForClickEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
 
     move-result-object p0
 
@@ -50,7 +53,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;->setAdFilters(Landroid/adservices/common/AdFilters;)Landroid/adservices/common/AdData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;
+    ->setAdFilters(Landroid/adservices/common/AdFilters;)Landroid/adservices/common/AdData$Builder;
 
     move-result-object p0
 
@@ -61,7 +65,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;->setAdRenderId(Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;
+    ->setAdRenderId(Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
 
     move-result-object p0
 
@@ -72,7 +77,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;->setAdCounterKeys(Ljava/util/Set;)Landroid/adservices/common/AdData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;
+    ->setAdCounterKeys(Ljava/util/Set;)Landroid/adservices/common/AdData$Builder;
 
     move-result-object p0
 
@@ -85,7 +91,8 @@
     .line 1
     new-instance v0, Landroid/adservices/common/AdFilters$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/common/AdFilters$Builder;-><init>()V
+    invoke-direct {v0}, Landroid/adservices/common/AdFilters$Builder;
+    -><init>()V
     return-object v0
 .end method
 
@@ -93,7 +100,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/AdFilters$Builder;->setFrequencyCapFilters(Landroid/adservices/common/FrequencyCapFilters;)Landroid/adservices/common/AdFilters$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/AdFilters$Builder;
+    ->setFrequencyCapFilters(Landroid/adservices/common/FrequencyCapFilters;)Landroid/adservices/common/AdFilters$Builder;
 
     move-result-object p0
 
@@ -104,7 +112,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/common/AdFilters$Builder;->build()Landroid/adservices/common/AdFilters;
+    invoke-virtual {p0}, Landroid/adservices/common/AdFilters$Builder;
+    ->build()Landroid/adservices/common/AdFilters;
 
     move-result-object p0
 
@@ -117,7 +126,8 @@
     .line 1
     new-instance v0, Landroid/adservices/common/FrequencyCapFilters$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/common/FrequencyCapFilters$Builder;-><init>()V
+    invoke-direct {v0}, Landroid/adservices/common/FrequencyCapFilters$Builder;
+    -><init>()V
     return-object v0
 .end method
 
@@ -125,7 +135,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;->setKeyedFrequencyCapsForWinEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;
+    ->setKeyedFrequencyCapsForWinEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
 
     move-result-object p0
 
@@ -136,7 +147,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/common/FrequencyCapFilters$Builder;->build()Landroid/adservices/common/FrequencyCapFilters;
+    invoke-virtual {p0}, Landroid/adservices/common/FrequencyCapFilters$Builder;
+    ->build()Landroid/adservices/common/FrequencyCapFilters;
 
     move-result-object p0
 
@@ -149,7 +161,8 @@
     .line 1
     new-instance v0, Landroid/adservices/common/KeyedFrequencyCap$Builder;
 
-    invoke-direct {v0, p0, p1, p2}, Landroid/adservices/common/KeyedFrequencyCap$Builder;-><init>(IILjava/time/Duration;)V
+    invoke-direct {v0, p0, p1, p2}, Landroid/adservices/common/KeyedFrequencyCap$Builder;
+    -><init>(IILjava/time/Duration;)V
     return-object v0
 .end method
 
@@ -157,7 +170,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/common/KeyedFrequencyCap$Builder;->build()Landroid/adservices/common/KeyedFrequencyCap;
+    invoke-virtual {p0}, Landroid/adservices/common/KeyedFrequencyCap$Builder;
+    ->build()Landroid/adservices/common/KeyedFrequencyCap;
 
     move-result-object p0
 
@@ -168,7 +182,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;->setUserBiddingSignals(Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    ->setUserBiddingSignals(Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
 
     move-result-object p0
 
@@ -179,7 +194,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;->setName(Ljava/lang/String;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    ->setName(Ljava/lang/String;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
 
     move-result-object p0
 
@@ -190,7 +206,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;->setActivationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    ->setActivationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
 
     move-result-object p0
 
@@ -203,7 +220,8 @@
     .line 1
     new-instance v0, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
 
-    invoke-direct {v0, p0}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;-><init>(Landroid/net/Uri;)V
+    invoke-direct {v0, p0}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    -><init>(Landroid/net/Uri;)V
     return-object v0
 .end method
 
@@ -211,7 +229,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;->build()Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest;
+    invoke-virtual {p0}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    ->build()Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest;
 
     move-result-object p0
 
@@ -222,7 +241,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/adservices/signals/ProtectedSignalsManager;->get(Landroid/content/Context;)Landroid/adservices/signals/ProtectedSignalsManager;
+    invoke-static {p0}, Landroid/adservices/signals/ProtectedSignalsManager;
+    ->get(Landroid/content/Context;)Landroid/adservices/signals/ProtectedSignalsManager;
 
     move-result-object p0
 
@@ -242,7 +262,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/EncryptedTopic;->getKeyIdentifier()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/adservices/topics/EncryptedTopic;
+    ->getKeyIdentifier()Ljava/lang/String;
 
     move-result-object p0
 
@@ -253,7 +274,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/GetTopicsResponse;->getEncryptedTopics()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/adservices/topics/GetTopicsResponse;
+    ->getEncryptedTopics()Ljava/util/List;
 
     move-result-object p0
 
@@ -273,7 +295,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;->fetchAndJoinCustomAudience(Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;
+    ->fetchAndJoinCustomAudience(Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -281,7 +304,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/EncryptedTopic;->getEncryptedTopic()[B
+    invoke-virtual {p0}, Landroid/adservices/topics/EncryptedTopic;
+    ->getEncryptedTopic()[B
 
     move-result-object p0
 
@@ -292,7 +316,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;->setKeyedFrequencyCapsForImpressionEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/FrequencyCapFilters$Builder;
+    ->setKeyedFrequencyCapsForImpressionEvents(Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
 
     move-result-object p0
 
@@ -303,7 +328,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;->setExpirationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
+    ->setExpirationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
 
     move-result-object p0
 

@@ -16,11 +16,13 @@
 
     .line 2
     .line 3
-    sget-object v1, Li/f;->a:Ljava/nio/charset/Charset;
+    sget-object v1, Li/f;
+    ->a:Ljava/nio/charset/Charset;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->getBytes(Ljava/nio/charset/Charset;)[B
 
     .line 6
     .line 7
@@ -28,7 +30,8 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Lr/i;->b:[B
+    sput-object v0, Lr/i;
+    ->b:[B
 
     .line 10
     .line 11
@@ -41,11 +44,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lr/i;->b:[B
+    sget-object v0, Lr/i;
+    ->b:[B
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
+    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;
+    ->update([B)V
 
     .line 4
     .line 5
@@ -57,11 +62,13 @@
     .locals 3
 
     .line 1
-    sget-object v0, Lr/z;->a:Landroid/graphics/Paint;
+    sget-object v0, Lr/z;
+    ->a:Landroid/graphics/Paint;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 4
     .line 5
@@ -80,7 +87,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 13
     .line 14
@@ -92,7 +100,8 @@
 
     .line 17
     .line 18
-    invoke-static {v2, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 19
     .line 20
@@ -108,7 +117,8 @@
 
     .line 25
     .line 26
-    invoke-static {v2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 27
     .line 28
@@ -118,7 +128,8 @@
 
     .line 30
     :cond_1
-    invoke-static {v2, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 31
     .line 32
@@ -134,13 +145,15 @@
 
     .line 37
     .line 38
-    invoke-static {v2, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 39
     .line 40
     .line 41
     :cond_2
-    invoke-static {p1, p2, p3, p4}, Lr/z;->b(Ll/a;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    invoke-static {p1, p2, p3, p4}, Lr/z;
+    ->b(Ll/a;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     .line 42
     .line 43

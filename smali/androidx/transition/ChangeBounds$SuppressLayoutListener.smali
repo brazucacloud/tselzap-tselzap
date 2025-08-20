@@ -29,7 +29,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,11 +38,14 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z
+    iput-boolean v0, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mCanceled:Z
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;    return-void
+    iput-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mParent:Landroid/view/ViewGroup;    
+    return-void
 .end method
 
 
@@ -54,14 +58,16 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V
+    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V
 
     .line 5
     .line 6
@@ -69,7 +75,8 @@
     const/4 p1, 0x1
 
     .line 8
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mCanceled:Z
 return-void
 .end method
 
@@ -81,7 +88,8 @@ return-void
     .end param
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z
+    iget-boolean v0, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mCanceled:Z
 
     .line 2
     .line 3
@@ -89,20 +97,24 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 6
     .line 7
     const/4 v1, 0x0
 
     .line 8
-    invoke-static {v0, v1}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V
+    invoke-static {v0, v1}, Landroidx/transition/ViewGroupUtils;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V
 
     .line 9
     .line 10
     .line 11
     :cond_0
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-void
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
+    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    
+    return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -113,14 +125,17 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V    return-void
+    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V    
+    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -131,14 +146,17 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mParent:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
     const/4 v0, 0x1
 
     .line 4
-    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V    return-void
+    invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V    
+    return-void
 .end method
 
 .end class

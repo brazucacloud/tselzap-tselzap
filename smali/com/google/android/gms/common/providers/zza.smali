@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -20,7 +21,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/common/zzg;->zza()Lcom/google/android/gms/internal/common/zzd;
+    invoke-static {}, Lcom/google/android/gms/internal/common/zzg;
+    ->zza()Lcom/google/android/gms/internal/common/zzd;
 
     .line 2
     .line 3
@@ -28,7 +30,8 @@
     const/4 v0, 0x1
 
     .line 5
-    invoke-static {v0}, Ljava/util/concurrent/Executors;->newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;
+    invoke-static {v0}, Ljava/util/concurrent/Executors;
+    ->newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 6
     .line 7
@@ -36,7 +39,8 @@
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Ljava/util/concurrent/Executors;->unconfigurableScheduledExecutorService(Ljava/util/concurrent/ScheduledExecutorService;)Ljava/util/concurrent/ScheduledExecutorService;
+    invoke-static {v0}, Ljava/util/concurrent/Executors;
+    ->unconfigurableScheduledExecutorService(Ljava/util/concurrent/ScheduledExecutorService;)Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 10
     .line 11

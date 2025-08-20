@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback;
+    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -44,11 +46,13 @@
     .end param
 
     .line 1
-    iget-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iget-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback;
+    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    invoke-virtual {p2, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;->checkCloseActionMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V
+    invoke-virtual {p2, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    ->checkCloseActionMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V
 return-void
 .end method
 
@@ -60,11 +64,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback;
+    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->getWindowCallback()Landroid/view/Window$Callback;
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;
+    ->getWindowCallback()Landroid/view/Window$Callback;
 
     .line 4
     .line 5
@@ -80,7 +86,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-interface {v0, v1, p1}, Landroid/view/Window$Callback;->onMenuOpened(ILandroid/view/Menu;)Z
+    invoke-interface {v0, v1, p1}, Landroid/view/Window$Callback;
+    ->onMenuOpened(ILandroid/view/Menu;)Z
 
     .line 12
     .line 13

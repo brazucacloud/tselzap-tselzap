@@ -9,7 +9,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/MenuKt;->iterator(Landroid/view/Menu;)Ljava/util/Iterator;
+    value = Landroidx/core/view/MenuKt;
+    ->iterator(Landroid/view/Menu;)Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,11 +40,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/MenuKt$iterator$1;->$this_iterator:Landroid/view/Menu;
+    iput-object p1, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->$this_iterator:Landroid/view/Menu;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -57,15 +60,18 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/view/MenuKt$iterator$1;->index:I
+    iget v0, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->index:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/view/MenuKt$iterator$1;->$this_iterator:Landroid/view/Menu;
+    iget-object v1, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->$this_iterator:Landroid/view/Menu;
 
     .line 4
     .line 5
-    invoke-interface {v1}, Landroid/view/Menu;->size()I
+    invoke-interface {v1}, Landroid/view/Menu;
+    ->size()I
 
     .line 6
     .line 7
@@ -92,15 +98,19 @@
     .locals 3
 
     .line 2
-    iget-object v0, p0, Landroidx/core/view/MenuKt$iterator$1;->$this_iterator:Landroid/view/Menu;
+    iget-object v0, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->$this_iterator:Landroid/view/Menu;
 
-    iget v1, p0, Landroidx/core/view/MenuKt$iterator$1;->index:I
+    iget v1, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->index:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Landroidx/core/view/MenuKt$iterator$1;->index:I
+    iput v2, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->index:I
 
-    invoke-interface {v0, v1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {v0, v1}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -111,7 +121,8 @@
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {v0}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>()V
 
     throw v0
 .end method
@@ -120,7 +131,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/view/MenuKt$iterator$1;->next()Landroid/view/MenuItem;
+    invoke-virtual {p0}, Landroidx/core/view/MenuKt$iterator$1;
+    ->next()Landroid/view/MenuItem;
 
     move-result-object v0
 
@@ -131,11 +143,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/MenuKt$iterator$1;->$this_iterator:Landroid/view/Menu;
+    iget-object v0, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->$this_iterator:Landroid/view/Menu;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/view/MenuKt$iterator$1;->index:I
+    iget v1, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->index:I
 
     .line 4
     .line 5
@@ -143,11 +157,13 @@
 
     .line 6
     .line 7
-    iput v1, p0, Landroidx/core/view/MenuKt$iterator$1;->index:I
+    iput v1, p0, Landroidx/core/view/MenuKt$iterator$1;
+    ->index:I
 
     .line 8
     .line 9
-    invoke-interface {v0, v1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {v0, v1}, Landroid/view/Menu;
+    ->getItem(I)Landroid/view/MenuItem;
 
     .line 10
     .line 11
@@ -159,7 +175,8 @@
 
     .line 14
     .line 15
-    invoke-interface {v1}, Landroid/view/MenuItem;->getItemId()I
+    invoke-interface {v1}, Landroid/view/MenuItem;
+    ->getItemId()I
 
     .line 16
     .line 17
@@ -167,12 +184,14 @@
     move-result v1
 
     .line 19
-    invoke-interface {v0, v1}, Landroid/view/Menu;->removeItem(I)V
+    invoke-interface {v0, v1}, Landroid/view/Menu;
+    ->removeItem(I)V
 
     .line 20
     .line 21
     .line 22
-    sget-object v0, Lc1/v;->a:Lc1/v;
+    sget-object v0, Lc1/v;
+    ->a:Lc1/v;
 
     .line 23
     .line 24
@@ -196,7 +215,8 @@
 
     .line 30
     .line 31
-    invoke-direct {v0}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>()V
 
     .line 32
     .line 33

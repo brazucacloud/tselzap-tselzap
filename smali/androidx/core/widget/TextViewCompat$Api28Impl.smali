@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,7 +46,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/icu/text/DecimalFormatSymbols;->getDigitStrings()[Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/icu/text/DecimalFormatSymbols;
+    ->getDigitStrings()[Ljava/lang/String;
 
     .line 2
     .line 3
@@ -61,7 +63,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;->getTextMetricsParams()Landroid/text/PrecomputedText$Params;
+    invoke-virtual {p0}, Landroid/widget/TextView;
+    ->getTextMetricsParams()Landroid/text/PrecomputedText$Params;
 
     .line 2
     .line 3
@@ -77,7 +80,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setFirstBaselineToTopHeight(I)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;
+    ->setFirstBaselineToTopHeight(I)V
 
     .line 2
     .line 3

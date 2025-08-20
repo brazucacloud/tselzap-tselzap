@@ -68,7 +68,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -77,21 +78,25 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->executor:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->executor:Ljava/util/concurrent/Executor;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/activity/FullyDrawnReporter;->reportFullyDrawn:Lp1/a;
+    iput-object p2, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportFullyDrawn:Lp1/a;
 
     .line 17
     .line 18
@@ -99,12 +104,14 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p1}, Ljava/lang/Object;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -112,12 +119,14 @@
 
     .line 26
     .line 27
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 28
     .line 29
     .line 30
-    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->onReportCallbacks:Ljava/util/List;
+    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->onReportCallbacks:Ljava/util/List;
 
     .line 31
     .line 32
@@ -128,19 +137,23 @@
     const/4 p2, 0x3
 
     .line 35
-    invoke-direct {p1, p0, p2}, Landroidx/activity/d;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, p2}, Landroidx/activity/d;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 36
     .line 37
     .line 38
-    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->reportRunnable:Ljava/lang/Runnable;    return-void
+    iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportRunnable:Ljava/lang/Runnable;    
+    return-void
 .end method
 
 .method public static synthetic a(Landroidx/activity/FullyDrawnReporter;)V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/activity/FullyDrawnReporter;->reportRunnable$lambda$2(Landroidx/activity/FullyDrawnReporter;)V
+    invoke-static {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->reportRunnable$lambda$2(Landroidx/activity/FullyDrawnReporter;)V
 return-void
 .end method
 
@@ -148,7 +161,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/activity/FullyDrawnReporter;->reportPosted:Z
+    iget-boolean v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportPosted:Z
 
     .line 2
     .line 3
@@ -156,7 +170,8 @@ return-void
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/activity/FullyDrawnReporter;->reporterCount:I
+    iget v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reporterCount:I
 
     .line 6
     .line 7
@@ -167,19 +182,23 @@ return-void
     const/4 v0, 0x1
 
     .line 10
-    iput-boolean v0, p0, Landroidx/activity/FullyDrawnReporter;->reportPosted:Z
+    iput-boolean v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportPosted:Z
 
     .line 11
     .line 12
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->executor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->executor:Ljava/util/concurrent/Executor;
 
     .line 13
     .line 14
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->reportRunnable:Ljava/lang/Runnable;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportRunnable:Ljava/lang/Runnable;
 
     .line 15
     .line 16
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 17
     .line 18
@@ -196,12 +215,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -212,11 +233,13 @@ return-void
 
     .line 10
     :try_start_0
-    iput-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportPosted:Z
+    iput-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportPosted:Z
 
     .line 11
     .line 12
-    iget v1, p0, Landroidx/activity/FullyDrawnReporter;->reporterCount:I
+    iget v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reporterCount:I
 
     .line 13
     .line 14
@@ -224,7 +247,8 @@ return-void
 
     .line 15
     .line 16
-    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportedFullyDrawn:Z
+    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportedFullyDrawn:Z
 
     .line 17
     .line 18
@@ -232,16 +256,19 @@ return-void
 
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->reportFullyDrawn:Lp1/a;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportFullyDrawn:Lp1/a;
 
     .line 21
     .line 22
-    invoke-interface {v1}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->fullyDrawnReported()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->fullyDrawnReported()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -288,12 +315,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -301,7 +330,8 @@ return-void
 
     .line 9
     :try_start_0
-    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportedFullyDrawn:Z
+    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportedFullyDrawn:Z
 
     .line 10
     .line 11
@@ -316,7 +346,8 @@ return-void
 
     .line 15
     :cond_0
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->onReportCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->onReportCallbacks:Ljava/util/List;
 
     .line 16
     .line 17
@@ -324,7 +355,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-interface {v1, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -342,7 +374,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -364,7 +397,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -372,7 +406,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportedFullyDrawn:Z
+    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportedFullyDrawn:Z
 
     .line 5
     .line 6
@@ -380,7 +415,8 @@ return-void
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/activity/FullyDrawnReporter;->reporterCount:I
+    iget v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reporterCount:I
 
     .line 9
     .line 10
@@ -388,7 +424,8 @@ return-void
 
     .line 11
     .line 12
-    iput v1, p0, Landroidx/activity/FullyDrawnReporter;->reporterCount:I
+    iput v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reporterCount:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -421,12 +458,14 @@ return-void
     .locals 3
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -437,11 +476,13 @@ return-void
 
     .line 5
     :try_start_0
-    iput-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportedFullyDrawn:Z
+    iput-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportedFullyDrawn:Z
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->onReportCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->onReportCallbacks:Ljava/util/List;
 
     .line 8
     .line 9
@@ -449,7 +490,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 12
     .line 13
@@ -458,7 +500,8 @@ return-void
 
     .line 15
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 16
     .line 17
@@ -470,7 +513,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -482,7 +526,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-interface {v2}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v2}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -498,11 +543,13 @@ return-void
 
     .line 33
     :cond_0
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->onReportCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->onReportCallbacks:Ljava/util/List;
 
     .line 34
     .line 35
-    invoke-interface {v1}, Ljava/util/List;->clear()V
+    invoke-interface {v1}, Ljava/util/List;
+    ->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -524,7 +571,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -532,7 +580,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportedFullyDrawn:Z
+    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportedFullyDrawn:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -567,12 +616,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -580,7 +631,8 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->onReportCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->onReportCallbacks:Ljava/util/List;
 
     .line 10
     .line 11
@@ -588,7 +640,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v1, p1}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/Collection;
+    ->remove(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -613,7 +666,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;
+    ->lock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -621,7 +675,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;->reportedFullyDrawn:Z
+    iget-boolean v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reportedFullyDrawn:Z
 
     .line 5
     .line 6
@@ -629,7 +684,8 @@ return-void
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/activity/FullyDrawnReporter;->reporterCount:I
+    iget v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reporterCount:I
 
     .line 9
     .line 10
@@ -641,11 +697,13 @@ return-void
 
     .line 13
     .line 14
-    iput v1, p0, Landroidx/activity/FullyDrawnReporter;->reporterCount:I
+    iput v1, p0, Landroidx/activity/FullyDrawnReporter;
+    ->reporterCount:I
 
     .line 15
     .line 16
-    invoke-direct {p0}, Landroidx/activity/FullyDrawnReporter;->postWhenReportersAreDone()V
+    invoke-direct {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->postWhenReportersAreDone()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

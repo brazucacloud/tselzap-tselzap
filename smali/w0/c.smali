@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lw0/c;->b:I
+    iput p2, p0, Lw0/c;
+    ->b:I
 
-    iput-object p1, p0, Lw0/c;->c:Lw0/i;
+    iput-object p1, p0, Lw0/c;
+    ->c:Lw0/i;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -34,7 +37,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iget-object v1, p0, Lw0/c;->c:Lw0/i;
+    iget-object v1, p0, Lw0/c;
+    ->c:Lw0/i;
 
     .line 3
     .line 4
@@ -44,7 +48,8 @@
     const/4 v3, 0x1
 
     .line 6
-    iget v4, p0, Lw0/c;->b:I
+    iget v4, p0, Lw0/c;
+    ->b:I
 
     .line 7
     .line 8
@@ -53,7 +58,8 @@
     .line 9
     .line 10
     .line 11
-    iget-object v4, v1, Lw0/i;->i:Lw0/h;
+    iget-object v4, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 12
     .line 13
@@ -66,7 +72,8 @@
     .line 16
     .line 17
     :cond_0
-    invoke-virtual {v4}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 18
     .line 19
@@ -74,7 +81,8 @@
     move-result-object v4
 
     .line 21
-    iget-object v5, v1, Lw0/i;->i:Lw0/h;
+    iget-object v5, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 22
     .line 23
@@ -82,13 +90,15 @@
 
     .line 24
     .line 25
-    invoke-virtual {v5, v0}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v5, v0}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 26
     .line 27
     .line 28
     :cond_1
-    invoke-virtual {v5}, Lw0/h;->getAnimationMode()I
+    invoke-virtual {v5}, Lw0/h;
+    ->getAnimationMode()I
 
     .line 29
     .line 30
@@ -109,7 +119,8 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {v4}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
+    invoke-static {v4}, Landroid/animation/ValueAnimator;
+    ->ofFloat([F)Landroid/animation/ValueAnimator;
 
     .line 40
     .line 41
@@ -117,11 +128,13 @@
     move-result-object v4
 
     .line 43
-    iget-object v5, v1, Lw0/i;->d:Landroid/animation/TimeInterpolator;
+    iget-object v5, v1, Lw0/i;
+    ->d:Landroid/animation/TimeInterpolator;
 
     .line 44
     .line 45
-    invoke-virtual {v4, v5}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v4, v5}, Landroid/animation/ValueAnimator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 46
     .line 47
@@ -130,12 +143,14 @@
 
     .line 49
     .line 50
-    invoke-direct {v5, v1, v0}, Lw0/b;-><init>(Lw0/i;I)V
+    invoke-direct {v5, v1, v0}, Lw0/b;
+    -><init>(Lw0/i;I)V
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v4, v5}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    invoke-virtual {v4, v5}, Landroid/animation/ValueAnimator;
+    ->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 54
     .line 55
@@ -149,7 +164,8 @@
     .line 59
     .line 60
     .line 61
-    invoke-static {v5}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
+    invoke-static {v5}, Landroid/animation/ValueAnimator;
+    ->ofFloat([F)Landroid/animation/ValueAnimator;
 
     .line 62
     .line 63
@@ -157,11 +173,13 @@
     move-result-object v5
 
     .line 65
-    iget-object v6, v1, Lw0/i;->f:Landroid/animation/TimeInterpolator;
+    iget-object v6, v1, Lw0/i;
+    ->f:Landroid/animation/TimeInterpolator;
 
     .line 66
     .line 67
-    invoke-virtual {v5, v6}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v5, v6}, Landroid/animation/ValueAnimator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 68
     .line 69
@@ -170,12 +188,14 @@
 
     .line 71
     .line 72
-    invoke-direct {v6, v1, v3}, Lw0/b;-><init>(Lw0/i;I)V
+    invoke-direct {v6, v1, v3}, Lw0/b;
+    -><init>(Lw0/i;I)V
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v5, v6}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    invoke-virtual {v5, v6}, Landroid/animation/ValueAnimator;
+    ->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 76
     .line 77
@@ -184,7 +204,8 @@
 
     .line 79
     .line 80
-    invoke-direct {v6}, Landroid/animation/AnimatorSet;-><init>()V
+    invoke-direct {v6}, Landroid/animation/AnimatorSet;
+    -><init>()V
 
     .line 81
     .line 82
@@ -201,19 +222,22 @@
 
     .line 88
     .line 89
-    invoke-virtual {v6, v2}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
+    invoke-virtual {v6, v2}, Landroid/animation/AnimatorSet;
+    ->playTogether([Landroid/animation/Animator;)V
 
     .line 90
     .line 91
     .line 92
-    iget v0, v1, Lw0/i;->a:I
+    iget v0, v1, Lw0/i;
+    ->a:I
 
     .line 93
     .line 94
     int-to-long v2, v0
 
     .line 95
-    invoke-virtual {v6, v2, v3}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
+    invoke-virtual {v6, v2, v3}, Landroid/animation/AnimatorSet;
+    ->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 96
     .line 97
@@ -225,17 +249,20 @@
     const/4 v2, 0x3
 
     .line 101
-    invoke-direct {v0, v1, v2}, Lw0/a;-><init>(Lw0/i;I)V
+    invoke-direct {v0, v1, v2}, Lw0/a;
+    -><init>(Lw0/i;I)V
 
     .line 102
     .line 103
     .line 104
-    invoke-virtual {v6, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {v6, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 105
     .line 106
     .line 107
-    invoke-virtual {v6}, Landroid/animation/AnimatorSet;->start()V
+    invoke-virtual {v6}, Landroid/animation/AnimatorSet;
+    ->start()V
 
     .line 108
     .line 109
@@ -244,7 +271,8 @@
 
     .line 111
     :cond_2
-    invoke-virtual {v5}, Landroid/view/View;->getHeight()I
+    invoke-virtual {v5}, Landroid/view/View;
+    ->getHeight()I
 
     .line 112
     .line 113
@@ -252,7 +280,8 @@
     move-result v4
 
     .line 115
-    invoke-virtual {v5}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v5}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 116
     .line 117
@@ -272,7 +301,8 @@
 
     .line 124
     .line 125
-    iget v6, v6, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iget v6, v6, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 126
     .line 127
@@ -283,7 +313,8 @@
     int-to-float v6, v4
 
     .line 129
-    invoke-virtual {v5, v6}, Landroid/view/View;->setTranslationY(F)V
+    invoke-virtual {v5, v6}, Landroid/view/View;
+    ->setTranslationY(F)V
 
     .line 130
     .line 131
@@ -292,7 +323,8 @@
 
     .line 133
     .line 134
-    invoke-direct {v5}, Landroid/animation/ValueAnimator;-><init>()V
+    invoke-direct {v5}, Landroid/animation/ValueAnimator;
+    -><init>()V
 
     .line 135
     .line 136
@@ -305,28 +337,33 @@
     move-result-object v0
 
     .line 141
-    invoke-virtual {v5, v0}, Landroid/animation/ValueAnimator;->setIntValues([I)V
+    invoke-virtual {v5, v0}, Landroid/animation/ValueAnimator;
+    ->setIntValues([I)V
 
     .line 142
     .line 143
     .line 144
-    iget-object v0, v1, Lw0/i;->e:Landroid/animation/TimeInterpolator;
+    iget-object v0, v1, Lw0/i;
+    ->e:Landroid/animation/TimeInterpolator;
 
     .line 145
     .line 146
-    invoke-virtual {v5, v0}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v5, v0}, Landroid/animation/ValueAnimator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 147
     .line 148
     .line 149
-    iget v0, v1, Lw0/i;->c:I
+    iget v0, v1, Lw0/i;
+    ->c:I
 
     .line 150
     .line 151
     int-to-long v6, v0
 
     .line 152
-    invoke-virtual {v5, v6, v7}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
+    invoke-virtual {v5, v6, v7}, Landroid/animation/ValueAnimator;
+    ->setDuration(J)Landroid/animation/ValueAnimator;
 
     .line 153
     .line 154
@@ -335,12 +372,14 @@
 
     .line 156
     .line 157
-    invoke-direct {v0, v1, v3}, Lw0/a;-><init>(Lw0/i;I)V
+    invoke-direct {v0, v1, v3}, Lw0/a;
+    -><init>(Lw0/i;I)V
 
     .line 158
     .line 159
     .line 160
-    invoke-virtual {v5, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {v5, v0}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 161
     .line 162
@@ -349,17 +388,20 @@
 
     .line 164
     .line 165
-    invoke-direct {v0, v1, v2}, Lw0/b;-><init>(Lw0/i;I)V
+    invoke-direct {v0, v1, v2}, Lw0/b;
+    -><init>(Lw0/i;I)V
 
     .line 166
     .line 167
     .line 168
-    invoke-virtual {v5, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    invoke-virtual {v5, v0}, Landroid/animation/ValueAnimator;
+    ->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 169
     .line 170
     .line 171
-    invoke-virtual {v5}, Landroid/animation/ValueAnimator;->start()V
+    invoke-virtual {v5}, Landroid/animation/ValueAnimator;
+    ->start()V
 
     .line 172
     .line 173
@@ -369,7 +411,8 @@
 
     .line 175
     :pswitch_0
-    invoke-virtual {v1}, Lw0/i;->b()V
+    invoke-virtual {v1}, Lw0/i;
+    ->b()V
 
     .line 176
     .line 177
@@ -378,7 +421,8 @@
 
     .line 179
     :pswitch_1
-    iget-object v0, v1, Lw0/i;->i:Lw0/h;
+    iget-object v0, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 180
     .line 181
@@ -386,7 +430,8 @@
 
     .line 182
     .line 183
-    iget-object v0, v1, Lw0/i;->h:Landroid/content/Context;
+    iget-object v0, v1, Lw0/i;
+    ->h:Landroid/content/Context;
 
     .line 184
     .line 185
@@ -398,7 +443,8 @@
 
     .line 188
     :cond_4
-    invoke-static {v0}, Lo0/H;->a(Landroid/content/Context;)Landroid/graphics/Rect;
+    invoke-static {v0}, Lo0/H;
+    ->a(Landroid/content/Context;)Landroid/graphics/Rect;
 
     .line 189
     .line 190
@@ -406,7 +452,8 @@
     move-result-object v0
 
     .line 192
-    invoke-virtual {v0}, Landroid/graphics/Rect;->height()I
+    invoke-virtual {v0}, Landroid/graphics/Rect;
+    ->height()I
 
     .line 193
     .line 194
@@ -418,11 +465,13 @@
 
     .line 197
     .line 198
-    iget-object v4, v1, Lw0/i;->i:Lw0/h;
+    iget-object v4, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 199
     .line 200
-    invoke-virtual {v4, v2}, Landroid/view/View;->getLocationInWindow([I)V
+    invoke-virtual {v4, v2}, Landroid/view/View;
+    ->getLocationInWindow([I)V
 
     .line 201
     .line 202
@@ -431,7 +480,8 @@
 
     .line 204
     .line 205
-    invoke-virtual {v4}, Landroid/view/View;->getHeight()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getHeight()I
 
     .line 206
     .line 207
@@ -445,11 +495,13 @@
     sub-int/2addr v0, v3
 
     .line 211
-    iget-object v2, v1, Lw0/i;->i:Lw0/h;
+    iget-object v2, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 212
     .line 213
-    invoke-virtual {v2}, Landroid/view/View;->getTranslationY()F
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getTranslationY()F
 
     .line 214
     .line 215
@@ -463,7 +515,8 @@
     add-int/2addr v0, v2
 
     .line 219
-    iget v2, v1, Lw0/i;->p:I
+    iget v2, v1, Lw0/i;
+    ->p:I
 
     .line 220
     .line 221
@@ -471,7 +524,8 @@
 
     .line 222
     .line 223
-    iput v2, v1, Lw0/i;->q:I
+    iput v2, v1, Lw0/i;
+    ->q:I
 
     .line 224
     .line 225
@@ -479,11 +533,13 @@
 
     .line 226
     :cond_5
-    iget-object v2, v1, Lw0/i;->i:Lw0/h;
+    iget-object v2, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 227
     .line 228
-    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v2}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 229
     .line 230
@@ -499,7 +555,8 @@
 
     .line 235
     .line 236
-    sget-object v0, Lw0/i;->z:Ljava/lang/String;
+    sget-object v0, Lw0/i;
+    ->z:Ljava/lang/String;
 
     .line 237
     .line 238
@@ -507,7 +564,8 @@
 
     .line 239
     .line 240
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 241
     .line 242
@@ -516,11 +574,13 @@
 
     .line 244
     :cond_6
-    iget v3, v1, Lw0/i;->p:I
+    iget v3, v1, Lw0/i;
+    ->p:I
 
     .line 245
     .line 246
-    iput v3, v1, Lw0/i;->q:I
+    iput v3, v1, Lw0/i;
+    ->q:I
 
     .line 247
     .line 248
@@ -528,7 +588,8 @@
 
     .line 249
     .line 250
-    iget v4, v2, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iget v4, v2, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 251
     .line 252
@@ -538,15 +599,18 @@
     add-int/2addr v3, v4
 
     .line 254
-    iput v3, v2, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iput v3, v2, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 255
     .line 256
-    iget-object v0, v1, Lw0/i;->i:Lw0/h;
+    iget-object v0, v1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 257
     .line 258
-    invoke-virtual {v0}, Landroid/view/View;->requestLayout()V
+    invoke-virtual {v0}, Landroid/view/View;
+    ->requestLayout()V
 
     .line 259
     .line 260

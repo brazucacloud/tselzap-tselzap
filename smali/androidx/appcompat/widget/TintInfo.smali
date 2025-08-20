@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -26,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -39,22 +41,26 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;
+    iput-object v0, p0, Landroidx/appcompat/widget/TintInfo;
+    ->mTintList:Landroid/content/res/ColorStateList;
 
     .line 3
     .line 4
     const/4 v1, 0x0
 
     .line 5
-    iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;->mHasTintList:Z
+    iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;
+    ->mHasTintList:Z
 
     .line 6
     .line 7
-    iput-object v0, p0, Landroidx/appcompat/widget/TintInfo;->mTintMode:Landroid/graphics/PorterDuff$Mode;
+    iput-object v0, p0, Landroidx/appcompat/widget/TintInfo;
+    ->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
     .line 8
     .line 9
-    iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;->mHasTintMode:Z
+    iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;
+    ->mHasTintMode:Z
 return-void
 .end method
 

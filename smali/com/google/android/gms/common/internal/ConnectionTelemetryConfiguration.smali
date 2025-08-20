@@ -86,9 +86,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zzm;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zzm;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zzm;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -137,19 +139,26 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Constructor;
     .end annotation
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
-    iput-boolean p2, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzb:Z
+    iput-boolean p2, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzb:Z
 
-    iput-boolean p3, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzc:Z
+    iput-boolean p3, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzc:Z
 
-    iput-object p4, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzd:[I
+    iput-object p4, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzd:[I
 
-    iput p5, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zze:I
+    iput p5, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zze:I
 
-    iput-object p6, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzf:[I
+    iput-object p6, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzf:[I
 
     return-void
 .end method
@@ -161,7 +170,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zze:I
+    iget v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zze:I
 
     return v0
 .end method
@@ -174,7 +184,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzd:[I
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzd:[I
 
     return-object v0
 .end method
@@ -187,7 +198,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzf:[I
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzf:[I
 
     return-object v0
 .end method
@@ -197,7 +209,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzb:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzb:Z
 
     return v0
 .end method
@@ -207,7 +220,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zzc:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zzc:Z
 
     return v0
 .end method
@@ -220,7 +234,8 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -228,7 +243,8 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     .line 6
     .line 7
@@ -238,7 +254,8 @@
     const/4 v3, 0x0
 
     .line 9
-    invoke-static {p1, v2, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v2, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 10
     .line 11
@@ -246,7 +263,8 @@
     const/4 p2, 0x2
 
     .line 13
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodInvocationTelemetryEnabled()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->getMethodInvocationTelemetryEnabled()Z
 
     .line 14
     .line 15
@@ -254,7 +272,8 @@
     move-result v1
 
     .line 17
-    invoke-static {p1, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeBoolean(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeBoolean(Landroid/os/Parcel;IZ)V
 
     .line 18
     .line 19
@@ -262,7 +281,8 @@
     const/4 p2, 0x3
 
     .line 21
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodTimingTelemetryEnabled()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->getMethodTimingTelemetryEnabled()Z
 
     .line 22
     .line 23
@@ -270,7 +290,8 @@
     move-result v1
 
     .line 25
-    invoke-static {p1, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeBoolean(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeBoolean(Landroid/os/Parcel;IZ)V
 
     .line 26
     .line 27
@@ -278,7 +299,8 @@
     const/4 p2, 0x4
 
     .line 29
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodInvocationMethodKeyAllowlist()[I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->getMethodInvocationMethodKeyAllowlist()[I
 
     .line 30
     .line 31
@@ -286,7 +308,8 @@
     move-result-object v1
 
     .line 33
-    invoke-static {p1, p2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeIntArray(Landroid/os/Parcel;I[IZ)V
+    invoke-static {p1, p2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeIntArray(Landroid/os/Parcel;I[IZ)V
 
     .line 34
     .line 35
@@ -294,7 +317,8 @@
     const/4 p2, 0x5
 
     .line 37
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMaxMethodInvocationsLogged()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->getMaxMethodInvocationsLogged()I
 
     .line 38
     .line 39
@@ -302,7 +326,8 @@
     move-result v1
 
     .line 41
-    invoke-static {p1, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 42
     .line 43
@@ -310,7 +335,8 @@
     const/4 p2, 0x6
 
     .line 45
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodInvocationMethodKeyDisallowlist()[I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->getMethodInvocationMethodKeyDisallowlist()[I
 
     .line 46
     .line 47
@@ -318,12 +344,14 @@
     move-result-object v1
 
     .line 49
-    invoke-static {p1, p2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeIntArray(Landroid/os/Parcel;I[IZ)V
+    invoke-static {p1, p2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeIntArray(Landroid/os/Parcel;I[IZ)V
 
     .line 50
     .line 51
     .line 52
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 53
     .line 54
@@ -336,7 +364,8 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    ->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     return-object v0
 .end method

@@ -35,7 +35,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v1, v2}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 7
     .line 8
@@ -46,7 +47,8 @@
     const/4 v1, 0x1
 
     .line 11
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -60,20 +62,23 @@
     move-exception v1
 
     .line 16
-    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 17
     .line 18
     .line 19
     :goto_0
-    sput-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;->sIsChildViewEnabled:Ljava/lang/reflect/Field;    return-void
+    sput-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;
+    ->sIsChildViewEnabled:Ljava/lang/reflect/Field;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -81,7 +86,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;->sIsChildViewEnabled:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;
+    ->sIsChildViewEnabled:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -90,7 +96,8 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->getBoolean(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->getBoolean(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -106,7 +113,8 @@
     move-exception p0
 
     .line 11
-    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 12
     .line 13
@@ -121,7 +129,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;->sIsChildViewEnabled:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/widget/DropDownListView$PreApi33Impl;
+    ->sIsChildViewEnabled:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -130,7 +139,8 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -138,7 +148,8 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {v0, p0, p1}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v0, p0, p1}, Ljava/lang/reflect/Field;
+    ->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -147,7 +158,8 @@
     move-exception p0
 
     .line 14
-    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 15
     .line 16

@@ -16,12 +16,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lo0/E;->a:Lo0/D;
+    sput-object v0, Lo0/E;
+    ->a:Lo0/D;
 
     .line 7
     .line 8
@@ -36,7 +38,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
@@ -45,7 +48,8 @@
 
     .line 7
     :goto_0
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 8
     .line 9
@@ -57,7 +61,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 14
     .line 15
@@ -77,7 +82,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v2}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/widget/TextView;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 24
     .line 25
@@ -85,7 +91,8 @@
     move-result-object v3
 
     .line 27
-    invoke-static {v3, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v3, p1}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 28
     .line 29
@@ -97,7 +104,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 34
     .line 35

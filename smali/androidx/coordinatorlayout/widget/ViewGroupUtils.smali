@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -42,12 +43,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->sMatrix:Ljava/lang/ThreadLocal;
+    sput-object v0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->sMatrix:Ljava/lang/ThreadLocal;
 
     .line 7
     .line 8
@@ -55,19 +58,22 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->sRectF:Ljava/lang/ThreadLocal;    return-void
+    sput-object v0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->sRectF:Ljava/lang/ThreadLocal;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -75,7 +81,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 2
     .line 3
@@ -83,7 +90,8 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getHeight()I
 
     .line 6
     .line 7
@@ -94,19 +102,23 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-virtual {p2, v2, v2, v0, v1}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {p2, v2, v2, v0, v1}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 11
     .line 12
     .line 13
-    invoke-static {p0, p1, p2}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->offsetDescendantRect(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V    return-void
+    invoke-static {p0, p1, p2}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->offsetDescendantRect(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V    
+    return-void
 .end method
 
 .method private static offsetDescendantMatrix(Landroid/view/ViewParent;Landroid/view/View;Landroid/graphics/Matrix;)V
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 2
     .line 3
@@ -130,12 +142,14 @@
 
     .line 12
     .line 13
-    invoke-static {p0, v0, p2}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->offsetDescendantMatrix(Landroid/view/ViewParent;Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p0, v0, p2}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->offsetDescendantMatrix(Landroid/view/ViewParent;Landroid/view/View;Landroid/graphics/Matrix;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getScrollX()I
 
     .line 17
     .line 18
@@ -149,7 +163,8 @@
     int-to-float p0, p0
 
     .line 22
-    invoke-virtual {v0}, Landroid/view/View;->getScrollY()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getScrollY()I
 
     .line 23
     .line 24
@@ -163,13 +178,15 @@
     int-to-float v0, v0
 
     .line 28
-    invoke-virtual {p2, p0, v0}, Landroid/graphics/Matrix;->preTranslate(FF)Z
+    invoke-virtual {p2, p0, v0}, Landroid/graphics/Matrix;
+    ->preTranslate(FF)Z
 
     .line 29
     .line 30
     .line 31
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 32
     .line 33
@@ -180,7 +197,8 @@
     int-to-float p0, p0
 
     .line 36
-    invoke-virtual {p1}, Landroid/view/View;->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getTop()I
 
     .line 37
     .line 38
@@ -191,12 +209,14 @@
     int-to-float v0, v0
 
     .line 41
-    invoke-virtual {p2, p0, v0}, Landroid/graphics/Matrix;->preTranslate(FF)Z
+    invoke-virtual {p2, p0, v0}, Landroid/graphics/Matrix;
+    ->preTranslate(FF)Z
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p1}, Landroid/view/View;->getMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getMatrix()Landroid/graphics/Matrix;
 
     .line 45
     .line 46
@@ -204,7 +224,8 @@
     move-result-object p0
 
     .line 48
-    invoke-virtual {p0}, Landroid/graphics/Matrix;->isIdentity()Z
+    invoke-virtual {p0}, Landroid/graphics/Matrix;
+    ->isIdentity()Z
 
     .line 49
     .line 50
@@ -216,7 +237,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {p1}, Landroid/view/View;->getMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getMatrix()Landroid/graphics/Matrix;
 
     .line 55
     .line 56
@@ -224,7 +246,8 @@
     move-result-object p0
 
     .line 58
-    invoke-virtual {p2, p0}, Landroid/graphics/Matrix;->preConcat(Landroid/graphics/Matrix;)Z
+    invoke-virtual {p2, p0}, Landroid/graphics/Matrix;
+    ->preConcat(Landroid/graphics/Matrix;)Z
 
     .line 59
     .line 60
@@ -237,11 +260,13 @@
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->sMatrix:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->sMatrix:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ThreadLocal;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -261,12 +286,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Matrix;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;
+    ->set(Ljava/lang/Object;)V
 
     .line 17
     .line 18
@@ -275,22 +302,26 @@
 
     .line 20
     :cond_0
-    invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
+    invoke-virtual {v1}, Landroid/graphics/Matrix;
+    ->reset()V
 
     .line 21
     .line 22
     .line 23
     :goto_0
-    invoke-static {p0, p1, v1}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->offsetDescendantMatrix(Landroid/view/ViewParent;Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p0, p1, v1}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->offsetDescendantMatrix(Landroid/view/ViewParent;Landroid/view/View;Landroid/graphics/Matrix;)V
 
     .line 24
     .line 25
     .line 26
-    sget-object p0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->sRectF:Ljava/lang/ThreadLocal;
+    sget-object p0, Landroidx/coordinatorlayout/widget/ViewGroupUtils;
+    ->sRectF:Ljava/lang/ThreadLocal;
 
     .line 27
     .line 28
-    invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+    invoke-virtual {p0}, Ljava/lang/ThreadLocal;
+    ->get()Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -310,28 +341,33 @@
 
     .line 37
     .line 38
-    invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
+    invoke-direct {p1}, Landroid/graphics/RectF;
+    -><init>()V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p0, p1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Ljava/lang/ThreadLocal;
+    ->set(Ljava/lang/Object;)V
 
     .line 42
     .line 43
     .line 44
     :cond_1
-    invoke-virtual {p1, p2}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
+    invoke-virtual {p1, p2}, Landroid/graphics/RectF;
+    ->set(Landroid/graphics/Rect;)V
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
+    invoke-virtual {v1, p1}, Landroid/graphics/Matrix;
+    ->mapRect(Landroid/graphics/RectF;)Z
 
     .line 48
     .line 49
     .line 50
-    iget p0, p1, Landroid/graphics/RectF;->left:F
+    iget p0, p1, Landroid/graphics/RectF;
+    ->left:F
 
     .line 51
     .line 52
@@ -345,7 +381,8 @@
     float-to-int p0, p0
 
     .line 56
-    iget v1, p1, Landroid/graphics/RectF;->top:F
+    iget v1, p1, Landroid/graphics/RectF;
+    ->top:F
 
     .line 57
     .line 58
@@ -355,7 +392,8 @@
     float-to-int v1, v1
 
     .line 60
-    iget v2, p1, Landroid/graphics/RectF;->right:F
+    iget v2, p1, Landroid/graphics/RectF;
+    ->right:F
 
     .line 61
     .line 62
@@ -365,7 +403,8 @@
     float-to-int v2, v2
 
     .line 64
-    iget p1, p1, Landroid/graphics/RectF;->bottom:F
+    iget p1, p1, Landroid/graphics/RectF;
+    ->bottom:F
 
     .line 65
     .line 66
@@ -375,7 +414,8 @@
     float-to-int p1, p1
 
     .line 68
-    invoke-virtual {p2, p0, v1, v2, p1}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {p2, p0, v1, v2, p1}, Landroid/graphics/Rect;
+    ->set(IIII)V
 return-void
 .end method
 

@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -24,7 +25,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zzki;->zzci()Lcom/google/android/gms/internal/measurement/zzki;
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zzci()Lcom/google/android/gms/internal/measurement/zzki;
 
     .line 4
     .line 5

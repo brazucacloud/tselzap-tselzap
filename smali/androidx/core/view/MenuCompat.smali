@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -44,7 +45,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenu;->setGroupDividerEnabled(Z)V
+    invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenu;
+    ->setGroupDividerEnabled(Z)V
 
     .line 8
     .line 9
@@ -53,7 +55,8 @@
 
     .line 11
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 12
     .line 13
@@ -65,7 +68,8 @@
 
     .line 16
     .line 17
-    invoke-static {p0, p1}, Landroidx/core/view/MenuCompat$Api28Impl;->setGroupDividerEnabled(Landroid/view/Menu;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/MenuCompat$Api28Impl;
+    ->setGroupDividerEnabled(Landroid/view/Menu;Z)V
 
     .line 18
     .line 19
@@ -80,7 +84,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/MenuItem;->setShowAsAction(I)V
+    invoke-interface {p0, p1}, Landroid/view/MenuItem;
+    ->setShowAsAction(I)V
 
     .line 2
     .line 3

@@ -23,17 +23,23 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, La0/a;->a:Lcom/google/android/material/appbar/AppBarLayout;
+    iput-object p1, p0, La0/a;
+    ->a:Lcom/google/android/material/appbar/AppBarLayout;
 
-    iput-object p2, p0, La0/a;->b:Landroid/content/res/ColorStateList;
+    iput-object p2, p0, La0/a;
+    ->b:Landroid/content/res/ColorStateList;
 
-    iput-object p3, p0, La0/a;->c:Landroid/content/res/ColorStateList;
+    iput-object p3, p0, La0/a;
+    ->c:Landroid/content/res/ColorStateList;
 
-    iput-object p4, p0, La0/a;->d:Lu0/j;
+    iput-object p4, p0, La0/a;
+    ->d:Lu0/j;
 
-    iput-object p5, p0, La0/a;->e:Ljava/lang/Integer;
+    iput-object p5, p0, La0/a;
+    ->e:Ljava/lang/Integer;
 
     return-void
 .end method
@@ -44,15 +50,18 @@
     .locals 4
 
     .line 1
-    sget v0, Lcom/google/android/material/appbar/AppBarLayout;->z:I
+    sget v0, Lcom/google/android/material/appbar/AppBarLayout;
+    ->z:I
 
     .line 2
     .line 3
-    iget-object v0, p0, La0/a;->a:Lcom/google/android/material/appbar/AppBarLayout;
+    iget-object v0, p0, La0/a;
+    ->a:Lcom/google/android/material/appbar/AppBarLayout;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;
+    ->getAnimatedValue()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -64,7 +73,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 12
     .line 13
@@ -72,11 +82,13 @@
     move-result p1
 
     .line 15
-    iget-object v1, p0, La0/a;->b:Landroid/content/res/ColorStateList;
+    iget-object v1, p0, La0/a;
+    ->b:Landroid/content/res/ColorStateList;
 
     .line 16
     .line 17
-    invoke-virtual {v1}, Landroid/content/res/ColorStateList;->getDefaultColor()I
+    invoke-virtual {v1}, Landroid/content/res/ColorStateList;
+    ->getDefaultColor()I
 
     .line 18
     .line 19
@@ -84,11 +96,13 @@
     move-result v1
 
     .line 21
-    iget-object v2, p0, La0/a;->c:Landroid/content/res/ColorStateList;
+    iget-object v2, p0, La0/a;
+    ->c:Landroid/content/res/ColorStateList;
 
     .line 22
     .line 23
-    invoke-virtual {v2}, Landroid/content/res/ColorStateList;->getDefaultColor()I
+    invoke-virtual {v2}, Landroid/content/res/ColorStateList;
+    ->getDefaultColor()I
 
     .line 24
     .line 25
@@ -96,7 +110,8 @@
     move-result v2
 
     .line 27
-    invoke-static {v1, v2, p1}, Lj0/a;->c(IIF)I
+    invoke-static {v1, v2, p1}, Lj0/a;
+    ->c(IIF)I
 
     .line 28
     .line 29
@@ -104,7 +119,8 @@
     move-result p1
 
     .line 31
-    invoke-static {p1}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
+    invoke-static {p1}, Landroid/content/res/ColorStateList;
+    ->valueOf(I)Landroid/content/res/ColorStateList;
 
     .line 32
     .line 33
@@ -112,16 +128,19 @@
     move-result-object v1
 
     .line 35
-    iget-object v2, p0, La0/a;->d:Lu0/j;
+    iget-object v2, p0, La0/a;
+    ->d:Lu0/j;
 
     .line 36
     .line 37
-    invoke-virtual {v2, v1}, Lu0/j;->o(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v2, v1}, Lu0/j;
+    ->o(Landroid/content/res/ColorStateList;)V
 
     .line 38
     .line 39
     .line 40
-    iget-object v1, v0, Lcom/google/android/material/appbar/AppBarLayout;->v:Landroid/graphics/drawable/Drawable;
+    iget-object v1, v0, Lcom/google/android/material/appbar/AppBarLayout;
+    ->v:Landroid/graphics/drawable/Drawable;
 
     .line 41
     .line 42
@@ -129,7 +148,8 @@
 
     .line 43
     .line 44
-    iget-object v1, v0, Lcom/google/android/material/appbar/AppBarLayout;->w:Ljava/lang/Integer;
+    iget-object v1, v0, Lcom/google/android/material/appbar/AppBarLayout;
+    ->w:Ljava/lang/Integer;
 
     .line 45
     .line 46
@@ -137,11 +157,13 @@
 
     .line 47
     .line 48
-    iget-object v3, p0, La0/a;->e:Ljava/lang/Integer;
+    iget-object v3, p0, La0/a;
+    ->e:Ljava/lang/Integer;
 
     .line 49
     .line 50
-    invoke-virtual {v1, v3}, Ljava/lang/Integer;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/Integer;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 51
     .line 52
@@ -153,21 +175,25 @@
 
     .line 55
     .line 56
-    iget-object v1, v0, Lcom/google/android/material/appbar/AppBarLayout;->v:Landroid/graphics/drawable/Drawable;
+    iget-object v1, v0, Lcom/google/android/material/appbar/AppBarLayout;
+    ->v:Landroid/graphics/drawable/Drawable;
 
     .line 57
     .line 58
-    invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->setTint(I)V
+    invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;
+    ->setTint(I)V
 
     .line 59
     .line 60
     .line 61
     :cond_0
-    iget-object p1, v0, Lcom/google/android/material/appbar/AppBarLayout;->r:Ljava/util/ArrayList;
+    iget-object p1, v0, Lcom/google/android/material/appbar/AppBarLayout;
+    ->r:Ljava/util/ArrayList;
 
     .line 62
     .line 63
-    invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 64
     .line 65
@@ -179,7 +205,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 70
     .line 71
@@ -188,7 +215,8 @@
 
     .line 73
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 74
     .line 75
@@ -200,7 +228,8 @@
 
     .line 78
     .line 79
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -212,11 +241,13 @@
 
     .line 84
     .line 85
-    iget-object v0, v2, Lu0/j;->c:Lu0/h;
+    iget-object v0, v2, Lu0/j;
+    ->c:Lu0/h;
 
     .line 86
     .line 87
-    iget-object v0, v0, Lu0/h;->d:Landroid/content/res/ColorStateList;
+    iget-object v0, v0, Lu0/h;
+    ->d:Landroid/content/res/ColorStateList;
 
     .line 88
     .line 89
@@ -239,7 +270,8 @@
 
     .line 95
     .line 96
-    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;
+    -><init>()V
 
     .line 97
     .line 98

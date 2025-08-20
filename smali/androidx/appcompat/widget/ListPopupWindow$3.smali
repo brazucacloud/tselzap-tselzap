@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/ListPopupWindow;->buildDropDown()I
+    value = Landroidx/appcompat/widget/ListPopupWindow;
+    ->buildDropDown()I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$3;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iput-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$3;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -56,11 +59,13 @@
 
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$3;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$3;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 5
     .line 6
-    iget-object p1, p1, Landroidx/appcompat/widget/ListPopupWindow;->mDropDownList:Landroidx/appcompat/widget/DropDownListView;
+    iget-object p1, p1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mDropDownList:Landroidx/appcompat/widget/DropDownListView;
 
     .line 7
     .line 8
@@ -71,7 +76,8 @@
     const/4 p2, 0x0
 
     .line 11
-    invoke-virtual {p1, p2}, Landroidx/appcompat/widget/DropDownListView;->setListSelectionHidden(Z)V
+    invoke-virtual {p1, p2}, Landroidx/appcompat/widget/DropDownListView;
+    ->setListSelectionHidden(Z)V
 
     .line 12
     .line 13

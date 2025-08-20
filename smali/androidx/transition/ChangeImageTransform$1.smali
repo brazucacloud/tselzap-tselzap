@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -54,7 +55,8 @@
 
     check-cast p3, Landroid/graphics/Matrix;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/transition/ChangeImageTransform$1;->evaluate(FLandroid/graphics/Matrix;Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/transition/ChangeImageTransform$1;
+    ->evaluate(FLandroid/graphics/Matrix;Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
 
     move-result-object p1
 

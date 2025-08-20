@@ -18,7 +18,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/Picture;->beginRecording(II)Landroid/graphics/Canvas;
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/Picture;
+    ->beginRecording(II)Landroid/graphics/Canvas;
 
     .line 2
     .line 3
@@ -27,14 +28,16 @@
 
     .line 5
     :try_start_0
-    invoke-interface {p3, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroid/graphics/Picture;->endRecording()V
+    invoke-virtual {p0}, Landroid/graphics/Picture;
+    ->endRecording()V
 
     .line 9
     .line 10
@@ -46,7 +49,8 @@
     move-exception p1
 
     .line 13
-    invoke-virtual {p0}, Landroid/graphics/Picture;->endRecording()V
+    invoke-virtual {p0}, Landroid/graphics/Picture;
+    ->endRecording()V
 
     .line 14
     .line 15

@@ -19,9 +19,11 @@
 
     new-instance v0, Landroidx/window/layout/ActivityCompatHelperApi30;
 
-    invoke-direct {v0}, Landroidx/window/layout/ActivityCompatHelperApi30;-><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/ActivityCompatHelperApi30;
+    -><init>()V
 
-    sput-object v0, Landroidx/window/layout/ActivityCompatHelperApi30;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi30;
+    sput-object v0, Landroidx/window/layout/ActivityCompatHelperApi30;
+    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi30;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,12 +51,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getWindowManager()Landroid/view/WindowManager;
 
     .line 7
     .line 8
@@ -61,7 +66,8 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p1}, Landroidx/core/view/p;->s(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
+    invoke-static {p1}, Landroidx/core/view/p;
+    ->s(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
 
     .line 11
     .line 12
@@ -69,7 +75,8 @@
     move-result-object p1
 
     .line 14
-    invoke-static {p1}, Landroidx/core/view/p;->e(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
+    invoke-static {p1}, Landroidx/core/view/p;
+    ->e(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 15
     .line 16
@@ -81,7 +88,8 @@
 
     .line 19
     .line 20
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -97,12 +105,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getWindowManager()Landroid/view/WindowManager;
 
     .line 7
     .line 8
@@ -110,7 +120,8 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p1}, Landroidx/core/view/p;->f(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
+    invoke-static {p1}, Landroidx/core/view/p;
+    ->f(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
 
     .line 11
     .line 12
@@ -118,7 +129,8 @@
     move-result-object p1
 
     .line 14
-    invoke-static {p1}, Landroidx/core/view/p;->e(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
+    invoke-static {p1}, Landroidx/core/view/p;
+    ->e(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 15
     .line 16
@@ -130,7 +142,8 @@
 
     .line 19
     .line 20
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     .line 22

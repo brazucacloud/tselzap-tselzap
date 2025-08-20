@@ -51,23 +51,28 @@
     .locals 1
 
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x0
 
     .line 7
-    iput-boolean v0, p0, Lcom/android/volley/Response;->intermediate:Z
+    iput-boolean v0, p0, Lcom/android/volley/Response;
+    ->intermediate:Z
 
     const/4 v0, 0x0
 
     .line 8
-    iput-object v0, p0, Lcom/android/volley/Response;->result:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/android/volley/Response;
+    ->result:Ljava/lang/Object;
 
     .line 9
-    iput-object v0, p0, Lcom/android/volley/Response;->cacheEntry:Lcom/android/volley/Cache$Entry;
+    iput-object v0, p0, Lcom/android/volley/Response;
+    ->cacheEntry:Lcom/android/volley/Cache$Entry;
 
     .line 10
-    iput-object p1, p0, Lcom/android/volley/Response;->error:Lcom/android/volley/VolleyError;
+    iput-object p1, p0, Lcom/android/volley/Response;
+    ->error:Lcom/android/volley/VolleyError;
 
     return-void
 .end method
@@ -91,23 +96,28 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/android/volley/Response;->intermediate:Z
+    iput-boolean v0, p0, Lcom/android/volley/Response;
+    ->intermediate:Z
 
     .line 3
-    iput-object p1, p0, Lcom/android/volley/Response;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/android/volley/Response;
+    ->result:Ljava/lang/Object;
 
     .line 4
-    iput-object p2, p0, Lcom/android/volley/Response;->cacheEntry:Lcom/android/volley/Cache$Entry;
+    iput-object p2, p0, Lcom/android/volley/Response;
+    ->cacheEntry:Lcom/android/volley/Cache$Entry;
 
     const/4 p1, 0x0
 
     .line 5
-    iput-object p1, p0, Lcom/android/volley/Response;->error:Lcom/android/volley/VolleyError;
+    iput-object p1, p0, Lcom/android/volley/Response;
+    ->error:Lcom/android/volley/VolleyError;
 
     return-void
 .end method
@@ -131,7 +141,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lcom/android/volley/Response;-><init>(Lcom/android/volley/VolleyError;)V
+    invoke-direct {v0, p0}, Lcom/android/volley/Response;
+    -><init>(Lcom/android/volley/VolleyError;)V
 
     .line 4
     .line 5
@@ -166,7 +177,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lcom/android/volley/Response;-><init>(Ljava/lang/Object;Lcom/android/volley/Cache$Entry;)V
+    invoke-direct {v0, p0, p1}, Lcom/android/volley/Response;
+    -><init>(Ljava/lang/Object;Lcom/android/volley/Cache$Entry;)V
 
     .line 4
     .line 5
@@ -180,7 +192,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/Response;->error:Lcom/android/volley/VolleyError;
+    iget-object v0, p0, Lcom/android/volley/Response;
+    ->error:Lcom/android/volley/VolleyError;
 
     .line 2
     .line 3

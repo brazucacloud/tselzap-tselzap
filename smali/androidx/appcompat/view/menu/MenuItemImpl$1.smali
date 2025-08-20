@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/view/menu/MenuItemImpl;->setSupportActionProvider(Landroidx/core/view/ActionProvider;)Landroidx/core/internal/view/SupportMenuItem;
+    value = Landroidx/appcompat/view/menu/MenuItemImpl;
+    ->setSupportActionProvider(Landroidx/core/view/ActionProvider;)Landroidx/core/internal/view/SupportMenuItem;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuItemImpl$1;->this$0:Landroidx/appcompat/view/menu/MenuItemImpl;
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuItemImpl$1;
+    ->this$0:Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,15 +43,19 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/view/menu/MenuItemImpl$1;->this$0:Landroidx/appcompat/view/menu/MenuItemImpl;
+    iget-object p1, p0, Landroidx/appcompat/view/menu/MenuItemImpl$1;
+    ->this$0:Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 2
     .line 3
-    iget-object v0, p1, Landroidx/appcompat/view/menu/MenuItemImpl;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p1, Landroidx/appcompat/view/menu/MenuItemImpl;
+    ->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemVisibleChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;
+    ->onItemVisibleChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V    
+    return-void
 .end method
 
 .end class

@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BufferAllocator;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BufferAllocator;
+    -><init>()V
     return-void
 .end method
 
@@ -29,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
+    invoke-static {p1}, Ljava/nio/ByteBuffer;
+    ->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
@@ -37,7 +39,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;->wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
+    ->wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
 
     .line 6
     .line 7
@@ -55,7 +58,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;->wrap([B)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
+    ->wrap([B)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
 
     .line 4
     .line 5

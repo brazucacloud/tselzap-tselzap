@@ -52,7 +52,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -61,37 +62,43 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 10
     .line 11
     const/4 v0, 0x0
 
     .line 12
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mAuthoritative:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mAuthoritative:Z
 
     .line 13
     .line 14
     const/4 v0, 0x0
 
     .line 15
-    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mResults:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mResults:Ljava/util/ArrayList;
 
     .line 16
     .line 17
     const/4 v0, -0x1
 
     .line 18
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mMoveTo:I
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mMoveTo:I
 
     .line 19
     .line 20
-    sget v0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->sCount:I
+    sget v0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->sCount:I
 
     .line 21
     .line 22
@@ -99,26 +106,32 @@
 
     .line 23
     .line 24
-    sput v1, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->sCount:I
+    sput v1, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->sCount:I
 
     .line 25
     .line 26
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mId:I
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mId:I
 
     .line 27
     .line 28
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mOrientation:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mOrientation:I    
+    return-void
 .end method
 
 .method private contains(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -132,7 +145,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mOrientation:I
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mOrientation:I
 
     .line 2
     .line 3
@@ -173,20 +187,24 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->getDimensionBehaviour(I)Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->getDimensionBehaviour(I)Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
 
     move-result-object v0
 
     .line 2
-    sget-object v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;->WRAP_CONTENT:Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    sget-object v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    ->WRAP_CONTENT:Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;->MATCH_PARENT:Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    sget-object v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    ->MATCH_PARENT:Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
 
     if-eq v0, v1, :cond_1
 
-    sget-object v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;->FIXED:Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    sget-object v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
+    ->FIXED:Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
 
     if-ne v0, v1, :cond_0
 
@@ -202,7 +220,8 @@
     if-nez p1, :cond_2
 
     .line 3
-    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->getWidth()I
+    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->getWidth()I
 
     move-result p1
 
@@ -210,7 +229,8 @@
 
     .line 4
     :cond_2
-    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->getHeight()I
+    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->getHeight()I
 
     move-result p1
 
@@ -233,7 +253,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 3
     .line 4
@@ -245,7 +266,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->getParent()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    invoke-virtual {v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->getParent()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 9
     .line 10
@@ -257,12 +279,14 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->reset()V
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;
+    ->reset()V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v1, p1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->addToSolver(Landroidx/constraintlayout/core/LinearSystem;Z)V
+    invoke-virtual {v1, p1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->addToSolver(Landroidx/constraintlayout/core/LinearSystem;Z)V
 
     .line 18
     .line 19
@@ -271,7 +295,8 @@
 
     .line 21
     :goto_0
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 22
     .line 23
@@ -283,7 +308,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p2, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -295,7 +321,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v3, p1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->addToSolver(Landroidx/constraintlayout/core/LinearSystem;Z)V
+    invoke-virtual {v3, p1, v0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->addToSolver(Landroidx/constraintlayout/core/LinearSystem;Z)V
 
     .line 34
     .line 35
@@ -312,7 +339,8 @@
 
     .line 40
     .line 41
-    iget v2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->mHorizontalChainsSize:I
+    iget v2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
+    ->mHorizontalChainsSize:I
 
     .line 42
     .line 43
@@ -320,7 +348,8 @@
 
     .line 44
     .line 45
-    invoke-static {v1, p1, p2, v0}, Landroidx/constraintlayout/core/widgets/Chain;->applyChainConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Landroidx/constraintlayout/core/LinearSystem;Ljava/util/ArrayList;I)V
+    invoke-static {v1, p1, p2, v0}, Landroidx/constraintlayout/core/widgets/Chain;
+    ->applyChainConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Landroidx/constraintlayout/core/LinearSystem;Ljava/util/ArrayList;I)V
 
     .line 46
     .line 47
@@ -333,7 +362,8 @@
 
     .line 50
     .line 51
-    iget v3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->mVerticalChainsSize:I
+    iget v3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
+    ->mVerticalChainsSize:I
 
     .line 52
     .line 53
@@ -341,14 +371,16 @@
 
     .line 54
     .line 55
-    invoke-static {v1, p1, p2, v2}, Landroidx/constraintlayout/core/widgets/Chain;->applyChainConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Landroidx/constraintlayout/core/LinearSystem;Ljava/util/ArrayList;I)V
+    invoke-static {v1, p1, p2, v2}, Landroidx/constraintlayout/core/widgets/Chain;
+    ->applyChainConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;Landroidx/constraintlayout/core/LinearSystem;Ljava/util/ArrayList;I)V
 
     .line 56
     .line 57
     .line 58
     :cond_2
     :try_start_0
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->minimize()V
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;
+    ->minimize()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -362,7 +394,8 @@
     move-exception v2
 
     .line 63
-    sget-object v3, Ljava/lang/System;->err:Ljava/io/PrintStream;
+    sget-object v3, Ljava/lang/System;
+    ->err:Ljava/io/PrintStream;
 
     .line 64
     .line 65
@@ -370,12 +403,14 @@
 
     .line 66
     .line 67
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 71
     .line 72
@@ -383,7 +418,8 @@
     move-result-object v5
 
     .line 74
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 75
     .line 76
@@ -392,12 +428,14 @@
 
     .line 78
     .line 79
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 80
     .line 81
     .line 82
-    invoke-virtual {v2}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+    invoke-virtual {v2}, Ljava/lang/Throwable;
+    ->getStackTrace()[Ljava/lang/StackTraceElement;
 
     .line 83
     .line 84
@@ -405,7 +443,8 @@
     move-result-object v2
 
     .line 86
-    invoke-static {v2}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2}, Ljava/util/Arrays;
+    ->toString([Ljava/lang/Object;)Ljava/lang/String;
 
     .line 87
     .line 88
@@ -421,7 +460,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {v2, v5, v6}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-virtual {v2, v5, v6}, Ljava/lang/String;
+    ->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 95
     .line 96
@@ -437,7 +477,8 @@
 
     .line 101
     .line 102
-    invoke-virtual {v2, v5, v6}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-virtual {v2, v5, v6}, Ljava/lang/String;
+    ->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 103
     .line 104
@@ -453,7 +494,8 @@
 
     .line 109
     .line 110
-    invoke-virtual {v2, v5, v6}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-virtual {v2, v5, v6}, Ljava/lang/String;
+    ->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 111
     .line 112
@@ -461,12 +503,14 @@
     move-result-object v2
 
     .line 114
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 115
     .line 116
     .line 117
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 118
     .line 119
@@ -474,7 +518,8 @@
     move-result-object v2
 
     .line 121
-    invoke-virtual {v3, v2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 122
     .line 123
@@ -484,17 +529,20 @@
 
     .line 125
     .line 126
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 127
     .line 128
     .line 129
-    iput-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mResults:Ljava/util/ArrayList;
+    iput-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mResults:Ljava/util/ArrayList;
 
     .line 130
     .line 131
     :goto_2
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 132
     .line 133
@@ -506,7 +554,8 @@
 
     .line 136
     .line 137
-    invoke-virtual {p2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 138
     .line 139
@@ -522,16 +571,19 @@
 
     .line 144
     .line 145
-    invoke-direct {v3, v2, p1, p3}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup$MeasureResult;-><init>(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/LinearSystem;I)V
+    invoke-direct {v3, v2, p1, p3}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup$MeasureResult;
+    -><init>(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/LinearSystem;I)V
 
     .line 146
     .line 147
     .line 148
-    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mResults:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mResults:Ljava/util/ArrayList;
 
     .line 149
     .line 150
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 151
     .line 152
@@ -548,11 +600,13 @@
 
     .line 157
     .line 158
-    iget-object p2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mLeft:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
+    iget-object p2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->mLeft:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
 
     .line 159
     .line 160
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/LinearSystem;->getObjectVariableValue(Ljava/lang/Object;)I
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/LinearSystem;
+    ->getObjectVariableValue(Ljava/lang/Object;)I
 
     .line 161
     .line 162
@@ -560,11 +614,13 @@
     move-result p2
 
     .line 164
-    iget-object p3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mRight:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
+    iget-object p3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->mRight:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
 
     .line 165
     .line 166
-    invoke-virtual {p1, p3}, Landroidx/constraintlayout/core/LinearSystem;->getObjectVariableValue(Ljava/lang/Object;)I
+    invoke-virtual {p1, p3}, Landroidx/constraintlayout/core/LinearSystem;
+    ->getObjectVariableValue(Ljava/lang/Object;)I
 
     .line 167
     .line 168
@@ -572,7 +628,8 @@
     move-result p3
 
     .line 170
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->reset()V
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;
+    ->reset()V
 
     .line 171
     .line 172
@@ -584,11 +641,13 @@
 
     .line 175
     :cond_4
-    iget-object p2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mTop:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
+    iget-object p2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->mTop:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
 
     .line 176
     .line 177
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/LinearSystem;->getObjectVariableValue(Ljava/lang/Object;)I
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/LinearSystem;
+    ->getObjectVariableValue(Ljava/lang/Object;)I
 
     .line 178
     .line 179
@@ -596,11 +655,13 @@
     move-result p2
 
     .line 181
-    iget-object p3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->mBottom:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
+    iget-object p3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->mBottom:Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
 
     .line 182
     .line 183
-    invoke-virtual {p1, p3}, Landroidx/constraintlayout/core/LinearSystem;->getObjectVariableValue(Ljava/lang/Object;)I
+    invoke-virtual {p1, p3}, Landroidx/constraintlayout/core/LinearSystem;
+    ->getObjectVariableValue(Ljava/lang/Object;)I
 
     .line 184
     .line 185
@@ -608,7 +669,8 @@
     move-result p3
 
     .line 187
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->reset()V
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;
+    ->reset()V
 
     .line 188
     .line 189
@@ -621,11 +683,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -643,11 +707,13 @@
 
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -661,7 +727,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mResults:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mResults:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -673,7 +740,8 @@
 
     .line 6
     :cond_0
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mAuthoritative:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mAuthoritative:Z
 
     .line 7
     .line 8
@@ -689,11 +757,13 @@
 
     .line 12
     :goto_0
-    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mResults:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mResults:Ljava/util/ArrayList;
 
     .line 13
     .line 14
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 15
     .line 16
@@ -705,11 +775,13 @@
 
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mResults:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mResults:Ljava/util/ArrayList;
 
     .line 21
     .line 22
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -721,7 +793,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v1}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup$MeasureResult;->apply()V
+    invoke-virtual {v1}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup$MeasureResult;
+    ->apply()V
 
     .line 29
     .line 30
@@ -750,11 +823,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -762,7 +837,8 @@
     move-result v0
 
     .line 7
-    iget v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mMoveTo:I
+    iget v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mMoveTo:I
 
     .line 8
     .line 9
@@ -781,7 +857,8 @@
 
     .line 15
     :goto_0
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 16
     .line 17
@@ -793,7 +870,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, v1}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -805,11 +883,13 @@
 
     .line 26
     .line 27
-    iget v3, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mMoveTo:I
+    iget v3, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mMoveTo:I
 
     .line 28
     .line 29
-    iget v4, v2, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mId:I
+    iget v4, v2, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mId:I
 
     .line 30
     .line 31
@@ -817,11 +897,13 @@
 
     .line 32
     .line 33
-    iget v3, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mOrientation:I
+    iget v3, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mOrientation:I
 
     .line 34
     .line 35
-    invoke-virtual {p0, v3, v2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->moveTo(ILandroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)V
+    invoke-virtual {p0, v3, v2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->moveTo(ILandroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)V
 
     .line 36
     .line 37
@@ -839,7 +921,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p0}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -852,11 +935,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->clear()V
     return-void
 .end method
 
@@ -864,14 +949,16 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mId:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mId:I    return v0
 .end method
 
 .method public getOrientation()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mOrientation:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mOrientation:I    return v0
 .end method
 
 .method public intersectWith(Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)Z
@@ -885,11 +972,13 @@
 
     .line 3
     :goto_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 4
     .line 5
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 6
     .line 7
@@ -901,11 +990,13 @@
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -917,7 +1008,8 @@
 
     .line 18
     .line 19
-    invoke-direct {p1, v2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->contains(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
+    invoke-direct {p1, v2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->contains(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
 
     .line 20
     .line 21
@@ -950,16 +1042,19 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mAuthoritative:Z    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mAuthoritative:Z    return v0
 .end method
 
 .method public measureWrap(Landroidx/constraintlayout/core/LinearSystem;I)I
     .locals 1
 
     .line 5
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result v0
 
@@ -971,9 +1066,11 @@
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
-    invoke-direct {p0, p1, v0, p2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->solverMeasure(Landroidx/constraintlayout/core/LinearSystem;Ljava/util/ArrayList;I)I
+    invoke-direct {p0, p1, v0, p2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->solverMeasure(Landroidx/constraintlayout/core/LinearSystem;Ljava/util/ArrayList;I)I
 
     move-result p1
 
@@ -984,11 +1081,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -997,7 +1096,8 @@
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -1009,7 +1109,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -1021,7 +1122,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p2, v1}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->add(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
+    invoke-virtual {p2, v1}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->add(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
 
     .line 20
     .line 21
@@ -1030,7 +1132,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->getId()I
+    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->getId()I
 
     .line 25
     .line 26
@@ -1038,7 +1141,8 @@
     move-result v2
 
     .line 28
-    iput v2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->horizontalGroup:I
+    iput v2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->horizontalGroup:I
 
     .line 29
     .line 30
@@ -1046,7 +1150,8 @@
 
     .line 31
     :cond_0
-    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->getId()I
+    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->getId()I
 
     .line 32
     .line 33
@@ -1054,7 +1159,8 @@
     move-result v2
 
     .line 35
-    iput v2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->verticalGroup:I
+    iput v2, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->verticalGroup:I
 
     .line 36
     .line 37
@@ -1062,18 +1168,22 @@
 
     .line 38
     :cond_1
-    iget p1, p2, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mId:I
+    iget p1, p2, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mId:I
 
     .line 39
     .line 40
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mMoveTo:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mMoveTo:I    
+    return-void
 .end method
 
 .method public setAuthoritative(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mAuthoritative:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mAuthoritative:Z
 return-void
 .end method
 
@@ -1081,18 +1191,22 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mOrientation:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mOrientation:I    
+    return-void
 .end method
 
 .method public size()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -1110,12 +1224,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->getOrientationString()Ljava/lang/String;
+    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->getOrientationString()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -1123,7 +1239,8 @@ return-void
     move-result-object v1
 
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -1132,12 +1249,14 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mId:I
+    iget v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mId:I
 
     .line 19
     .line 20
@@ -1145,7 +1264,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-static {v0, v2, v1}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v2, v1}, LA/d;
+    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 23
     .line 24
@@ -1153,11 +1273,13 @@ return-void
     move-result-object v0
 
     .line 26
-    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mWidgets:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    ->mWidgets:Ljava/util/ArrayList;
 
     .line 27
     .line 28
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 29
     .line 30
@@ -1166,7 +1288,8 @@ return-void
 
     .line 32
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 33
     .line 34
@@ -1178,7 +1301,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -1194,7 +1318,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-static {v0, v3}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v3}, LA/d;
+    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
@@ -1202,7 +1327,8 @@ return-void
     move-result-object v0
 
     .line 50
-    invoke-virtual {v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->getDebugName()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    ->getDebugName()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -1210,12 +1336,14 @@ return-void
     move-result-object v2
 
     .line 54
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 58
     .line 59
@@ -1231,7 +1359,8 @@ return-void
 
     .line 63
     .line 64
-    invoke-static {v0, v1}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, LA/d;
+    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 65
     .line 66

@@ -51,7 +51,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -59,12 +60,14 @@
     const/4 v0, 0x1
 
     .line 7
-    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V
+    invoke-direct {p0, v0}, Landroidx/navigation/NavType;
+    -><init>(Z)V
 
     .line 8
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->type:Ljava/lang/Class;
+    iput-object p1, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->type:Ljava/lang/Class;
 
     .line 11
     .line 12
@@ -72,7 +75,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 15
     .line 16
@@ -88,12 +92,14 @@
 
     .line 22
     .line 23
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -102,12 +108,14 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 35
     .line 36
@@ -119,7 +127,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -127,7 +136,8 @@
     move-result-object p1
 
     .line 44
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -164,7 +174,8 @@
 
     .line 11
     :cond_1
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->type:Ljava/lang/Class;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->type:Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -172,11 +183,13 @@
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->type:Ljava/lang/Class;
+    iget-object p1, p1, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->type:Ljava/lang/Class;
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -202,7 +215,8 @@
     const-string v1, "key"
 
     .line 1
-    invoke-static {p1, v0, p2, v1, p2}, Landroidx/constraintlayout/core/parser/a;->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0, p2, v1, p2}, Landroidx/constraintlayout/core/parser/a;
+    ->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -225,7 +239,8 @@
     .locals 0
 
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/io/Serializable;
 
     move-result-object p1
 
@@ -236,11 +251,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->type:Ljava/lang/Class;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->type:Ljava/lang/Class;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -254,11 +271,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->type:Ljava/lang/Class;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->type:Ljava/lang/Class;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -280,14 +299,16 @@
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Serializables don\'t support default values."
 
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -296,7 +317,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->parseValue(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->parseValue(Ljava/lang/String;)Ljava/io/Serializable;
 
     move-result-object p1
 
@@ -316,22 +338,27 @@
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->type:Ljava/lang/Class;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->type:Ljava/lang/Class;
 
-    invoke-virtual {v0, p3}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p3}, Ljava/lang/Class;
+    ->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
 
     check-cast p3, Ljava/io/Serializable;
 
-    invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
+    invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;
+    ->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
 return-void
 .end method
 
@@ -341,7 +368,8 @@ return-void
     .line 1
     check-cast p3, Ljava/io/Serializable;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/io/Serializable;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    ->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/io/Serializable;)V
 return-void
 .end method
 

@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener;->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener;
+    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -43,12 +45,14 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->setIsRecyclable(Z)V
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->setIsRecyclable(Z)V
 
     .line 3
     .line 4
     .line 5
-    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->mShadowedHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->mShadowedHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 6
     .line 7
@@ -59,7 +63,8 @@
 
     .line 9
     .line 10
-    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->mShadowingHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->mShadowingHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 11
     .line 12
@@ -67,16 +72,19 @@
 
     .line 13
     .line 14
-    iput-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->mShadowedHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    iput-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->mShadowedHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 15
     .line 16
     :cond_0
-    iput-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->mShadowingHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    iput-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->mShadowingHolder:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->shouldBeKeptAsChild()Z
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->shouldBeKeptAsChild()Z
 
     .line 19
     .line 20
@@ -88,15 +96,18 @@
 
     .line 23
     .line 24
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener;->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener;
+    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 25
     .line 26
-    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->itemView:Landroid/view/View;
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->removeAnimatingView(Landroid/view/View;)Z
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->removeAnimatingView(Landroid/view/View;)Z
 
     .line 29
     .line 30
@@ -108,7 +119,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->isTmpDetached()Z
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->isTmpDetached()Z
 
     .line 35
     .line 36
@@ -120,18 +132,21 @@
 
     .line 39
     .line 40
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener;->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener;
+    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 41
     .line 42
-    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->itemView:Landroid/view/View;
 
     .line 43
     .line 44
     const/4 v1, 0x0
 
     .line 45
-    invoke-virtual {v0, p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->removeDetachedView(Landroid/view/View;Z)V
+    invoke-virtual {v0, p1, v1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->removeDetachedView(Landroid/view/View;Z)V
 
     .line 46
     .line 47

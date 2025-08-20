@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/contextaware/ContextAwareKt;->withContextAvailable(Landroidx/activity/contextaware/ContextAware;Lp1/l;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/activity/contextaware/ContextAwareKt;
+    ->withContextAvailable(Landroidx/activity/contextaware/ContextAware;Lp1/l;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -48,15 +49,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;->$co:Lz1/f;
+    iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
+    ->$co:Lz1/f;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;->$onContextAvailable:Lp1/l;
+    iput-object p2, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
+    ->$onContextAvailable:Lp1/l;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -70,21 +74,25 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;->$co:Lz1/f;
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
+    ->$co:Lz1/f;
 
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;->$onContextAvailable:Lp1/l;
+    iget-object v1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
+    ->$onContextAvailable:Lp1/l;
 
     .line 9
     .line 10
     :try_start_0
-    invoke-interface {v1, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -101,7 +109,8 @@
     move-exception p1
 
     .line 16
-    invoke-static {p1}, Lcom/bumptech/glide/b;->n(Ljava/lang/Throwable;)Lc1/g;
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->n(Ljava/lang/Throwable;)Lc1/g;
 
     .line 17
     .line 18
@@ -110,7 +119,8 @@
 
     .line 20
     :goto_0
-    invoke-interface {v0, p1}, Lg1/d;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lg1/d;
+    ->resumeWith(Ljava/lang/Object;)V
 return-void
 .end method
 

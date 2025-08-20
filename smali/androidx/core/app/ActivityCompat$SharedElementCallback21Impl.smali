@@ -27,12 +27,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/SharedElementCallback;-><init>()V
+    invoke-direct {p0}, Landroid/app/SharedElementCallback;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iput-object p1, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 5
     .line 6
@@ -43,7 +45,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->lambda$onSharedElementsArrived$0(Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;)V
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->lambda$onSharedElementsArrived$0(Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;)V
 return-void
 .end method
 
@@ -51,7 +54,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api23Impl;->onSharedElementsReady(Ljava/lang/Object;)V
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api23Impl;
+    ->onSharedElementsReady(Ljava/lang/Object;)V
 
     .line 2
     .line 3
@@ -65,11 +69,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/app/SharedElementCallback;->onCaptureSharedElementSnapshot(Landroid/view/View;Landroid/graphics/Matrix;Landroid/graphics/RectF;)Landroid/os/Parcelable;
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/app/SharedElementCallback;
+    ->onCaptureSharedElementSnapshot(Landroid/view/View;Landroid/graphics/Matrix;Landroid/graphics/RectF;)Landroid/os/Parcelable;
 
     .line 4
     .line 5
@@ -83,11 +89,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/core/app/SharedElementCallback;->onCreateSnapshotView(Landroid/content/Context;Landroid/os/Parcelable;)Landroid/view/View;
+    invoke-virtual {v0, p1, p2}, Landroidx/core/app/SharedElementCallback;
+    ->onCreateSnapshotView(Landroid/content/Context;Landroid/os/Parcelable;)Landroid/view/View;
 
     .line 4
     .line 5
@@ -113,11 +121,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/core/app/SharedElementCallback;->onMapSharedElements(Ljava/util/List;Ljava/util/Map;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/core/app/SharedElementCallback;
+    ->onMapSharedElements(Ljava/util/List;Ljava/util/Map;)V
 
     .line 4
     .line 5
@@ -137,11 +147,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/app/SharedElementCallback;->onRejectSharedElements(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Landroidx/core/app/SharedElementCallback;
+    ->onRejectSharedElements(Ljava/util/List;)V
 
     .line 4
     .line 5
@@ -167,11 +179,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/app/SharedElementCallback;->onSharedElementEnd(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/app/SharedElementCallback;
+    ->onSharedElementEnd(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
     .line 4
     .line 5
@@ -197,11 +211,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/app/SharedElementCallback;->onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/app/SharedElementCallback;
+    ->onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
     .line 4
     .line 5
@@ -230,7 +246,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->mCallback:Landroidx/core/app/SharedElementCallback;
+    iget-object v0, p0, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    ->mCallback:Landroidx/core/app/SharedElementCallback;
 
     .line 2
     .line 3
@@ -238,12 +255,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v1, p3}, Landroidx/core/app/b;-><init>(Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;)V
+    invoke-direct {v1, p3}, Landroidx/core/app/b;
+    -><init>(Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/core/app/SharedElementCallback;->onSharedElementsArrived(Ljava/util/List;Ljava/util/List;Landroidx/core/app/SharedElementCallback$OnSharedElementsReadyListener;)V
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/core/app/SharedElementCallback;
+    ->onSharedElementsArrived(Ljava/util/List;Ljava/util/List;Landroidx/core/app/SharedElementCallback$OnSharedElementsReadyListener;)V
 
     .line 9
     .line 10

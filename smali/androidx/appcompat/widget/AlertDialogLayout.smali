@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -20,7 +21,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/appcompat/widget/LinearLayoutCompat;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/LinearLayoutCompat;
+    -><init>(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -36,7 +38,8 @@ return-void
     .end param
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -44,7 +47,8 @@ return-void
     .locals 9
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getMeasuredWidth()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMeasuredWidth()I
 
     .line 2
     .line 3
@@ -56,7 +60,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
+    invoke-static {v0, v1}, Landroid/view/View$MeasureSpec;
+    ->makeMeasureSpec(II)I
 
     .line 8
     .line 9
@@ -72,7 +77,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -80,7 +86,8 @@ return-void
     move-result-object v3
 
     .line 18
-    invoke-virtual {v3}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v3}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 19
     .line 20
@@ -96,7 +103,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v3}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 27
     .line 28
@@ -108,7 +116,8 @@ return-void
 
     .line 31
     .line 32
-    iget v2, v1, Landroid/widget/LinearLayout$LayoutParams;->width:I
+    iget v2, v1, Landroid/widget/LinearLayout$LayoutParams;
+    ->width:I
 
     .line 33
     .line 34
@@ -119,11 +128,13 @@ return-void
 
     .line 36
     .line 37
-    iget v8, v1, Landroid/widget/LinearLayout$LayoutParams;->height:I
+    iget v8, v1, Landroid/widget/LinearLayout$LayoutParams;
+    ->height:I
 
     .line 38
     .line 39
-    invoke-virtual {v3}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v3}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 40
     .line 41
@@ -131,7 +142,8 @@ return-void
     move-result v2
 
     .line 43
-    iput v2, v1, Landroid/widget/LinearLayout$LayoutParams;->height:I
+    iput v2, v1, Landroid/widget/LinearLayout$LayoutParams;
+    ->height:I
 
     .line 44
     .line 45
@@ -147,12 +159,14 @@ return-void
     move v6, p2
 
     .line 49
-    invoke-virtual/range {v2 .. v7}, Landroid/view/ViewGroup;->measureChildWithMargins(Landroid/view/View;IIII)V
+    invoke-virtual/range {v2 .. v7}, Landroid/view/ViewGroup;
+    ->measureChildWithMargins(Landroid/view/View;IIII)V
 
     .line 50
     .line 51
     .line 52
-    iput v8, v1, Landroid/widget/LinearLayout$LayoutParams;->height:I
+    iput v8, v1, Landroid/widget/LinearLayout$LayoutParams;
+    ->height:I
 
     .line 53
     .line 54
@@ -182,7 +196,8 @@ return-void
     .locals 3
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewCompat;->getMinimumHeight(Landroid/view/View;)I
+    invoke-static {p0}, Landroidx/core/view/ViewCompat;
+    ->getMinimumHeight(Landroid/view/View;)I
 
     .line 2
     .line 3
@@ -209,7 +224,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 16
     .line 17
@@ -224,7 +240,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 23
     .line 24
@@ -232,7 +249,8 @@ return-void
     move-result-object p0
 
     .line 26
-    invoke-static {p0}, Landroidx/appcompat/widget/AlertDialogLayout;->resolveMinimumHeight(Landroid/view/View;)I
+    invoke-static {p0}, Landroidx/appcompat/widget/AlertDialogLayout;
+    ->resolveMinimumHeight(Landroid/view/View;)I
 
     .line 27
     .line 28
@@ -256,7 +274,9 @@ return-void
     add-int/2addr p5, p3
 
     .line 3
-    invoke-virtual {p1, p2, p3, p4, p5}, Landroid/view/View;->layout(IIII)V    return-void
+    invoke-virtual {p1, p2, p3, p4, p5}, Landroid/view/View;
+    ->layout(IIII)V    
+    return-void
 .end method
 
 .method private tryOnMeasure(II)Z
@@ -275,7 +295,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 8
     .line 9
@@ -307,7 +328,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {v0, v8}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v8}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 21
     .line 22
@@ -315,7 +337,8 @@ return-void
     move-result-object v10
 
     .line 24
-    invoke-virtual {v10}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v10}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 25
     .line 26
@@ -331,7 +354,8 @@ return-void
 
     .line 31
     :cond_0
-    invoke-virtual {v10}, Landroid/view/View;->getId()I
+    invoke-virtual {v10}, Landroid/view/View;
+    ->getId()I
 
     .line 32
     .line 33
@@ -339,7 +363,8 @@ return-void
     move-result v9
 
     .line 35
-    sget v11, Landroidx/appcompat/R$id;->topPanel:I
+    sget v11, Landroidx/appcompat/R$id;
+    ->topPanel:I
 
     .line 36
     .line 37
@@ -354,7 +379,8 @@ return-void
 
     .line 41
     :cond_1
-    sget v11, Landroidx/appcompat/R$id;->buttonPanel:I
+    sget v11, Landroidx/appcompat/R$id;
+    ->buttonPanel:I
 
     .line 42
     .line 43
@@ -369,7 +395,8 @@ return-void
 
     .line 47
     :cond_2
-    sget v11, Landroidx/appcompat/R$id;->contentPanel:I
+    sget v11, Landroidx/appcompat/R$id;
+    ->contentPanel:I
 
     .line 48
     .line 49
@@ -377,7 +404,8 @@ return-void
 
     .line 50
     .line 51
-    sget v11, Landroidx/appcompat/R$id;->customPanel:I
+    sget v11, Landroidx/appcompat/R$id;
+    ->customPanel:I
 
     .line 52
     .line 53
@@ -410,7 +438,8 @@ return-void
 
     .line 64
     :cond_6
-    invoke-static {v2}, Landroid/view/View$MeasureSpec;->getMode(I)I
+    invoke-static {v2}, Landroid/view/View$MeasureSpec;
+    ->getMode(I)I
 
     .line 65
     .line 66
@@ -418,7 +447,8 @@ return-void
     move-result v8
 
     .line 68
-    invoke-static {v2}, Landroid/view/View$MeasureSpec;->getSize(I)I
+    invoke-static {v2}, Landroid/view/View$MeasureSpec;
+    ->getSize(I)I
 
     .line 69
     .line 70
@@ -426,7 +456,8 @@ return-void
     move-result v10
 
     .line 72
-    invoke-static {v1}, Landroid/view/View$MeasureSpec;->getMode(I)I
+    invoke-static {v1}, Landroid/view/View$MeasureSpec;
+    ->getMode(I)I
 
     .line 73
     .line 74
@@ -434,7 +465,8 @@ return-void
     move-result v11
 
     .line 76
-    invoke-virtual {v0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 77
     .line 78
@@ -442,7 +474,8 @@ return-void
     move-result v12
 
     .line 80
-    invoke-virtual {v0}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 81
     .line 82
@@ -457,12 +490,14 @@ return-void
 
     .line 86
     .line 87
-    invoke-virtual {v4, v1, v5}, Landroid/view/View;->measure(II)V
+    invoke-virtual {v4, v1, v5}, Landroid/view/View;
+    ->measure(II)V
 
     .line 88
     .line 89
     .line 90
-    invoke-virtual {v4}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 91
     .line 92
@@ -473,7 +508,8 @@ return-void
     add-int/2addr v13, v12
 
     .line 95
-    invoke-virtual {v4}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 96
     .line 97
@@ -481,7 +517,8 @@ return-void
     move-result v4
 
     .line 99
-    invoke-static {v5, v4}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {v5, v4}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 100
     .line 101
@@ -501,12 +538,14 @@ return-void
 
     .line 106
     .line 107
-    invoke-virtual {v6, v1, v5}, Landroid/view/View;->measure(II)V
+    invoke-virtual {v6, v1, v5}, Landroid/view/View;
+    ->measure(II)V
 
     .line 108
     .line 109
     .line 110
-    invoke-static {v6}, Landroidx/appcompat/widget/AlertDialogLayout;->resolveMinimumHeight(Landroid/view/View;)I
+    invoke-static {v6}, Landroidx/appcompat/widget/AlertDialogLayout;
+    ->resolveMinimumHeight(Landroid/view/View;)I
 
     .line 111
     .line 112
@@ -514,7 +553,8 @@ return-void
     move-result v12
 
     .line 114
-    invoke-virtual {v6}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v6}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 115
     .line 116
@@ -528,7 +568,8 @@ return-void
     add-int/2addr v13, v12
 
     .line 120
-    invoke-virtual {v6}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {v6}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 121
     .line 122
@@ -536,7 +577,8 @@ return-void
     move-result v15
 
     .line 124
-    invoke-static {v4, v15}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {v4, v15}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 125
     .line 126
@@ -574,7 +616,8 @@ return-void
 
     .line 138
     .line 139
-    invoke-static {v5, v15}, Ljava/lang/Math;->max(II)I
+    invoke-static {v5, v15}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 140
     .line 141
@@ -582,7 +625,8 @@ return-void
     move-result v15
 
     .line 143
-    invoke-static {v15, v8}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
+    invoke-static {v15, v8}, Landroid/view/View$MeasureSpec;
+    ->makeMeasureSpec(II)I
 
     .line 144
     .line 145
@@ -591,12 +635,14 @@ return-void
 
     .line 147
     :goto_5
-    invoke-virtual {v7, v1, v15}, Landroid/view/View;->measure(II)V
+    invoke-virtual {v7, v1, v15}, Landroid/view/View;
+    ->measure(II)V
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v7}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v7}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 151
     .line 152
@@ -607,7 +653,8 @@ return-void
     add-int/2addr v13, v15
 
     .line 155
-    invoke-virtual {v7}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {v7}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 156
     .line 157
@@ -615,7 +662,8 @@ return-void
     move-result v5
 
     .line 159
-    invoke-static {v4, v5}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {v4, v5}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 160
     .line 161
@@ -645,7 +693,8 @@ return-void
     sub-int/2addr v13, v12
 
     .line 171
-    invoke-static {v10, v14}, Ljava/lang/Math;->min(II)I
+    invoke-static {v10, v14}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 172
     .line 173
@@ -664,7 +713,8 @@ return-void
 
     .line 179
     :cond_b
-    invoke-static {v12, v5}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
+    invoke-static {v12, v5}, Landroid/view/View$MeasureSpec;
+    ->makeMeasureSpec(II)I
 
     .line 180
     .line 181
@@ -672,12 +722,14 @@ return-void
     move-result v12
 
     .line 183
-    invoke-virtual {v6, v1, v12}, Landroid/view/View;->measure(II)V
+    invoke-virtual {v6, v1, v12}, Landroid/view/View;
+    ->measure(II)V
 
     .line 184
     .line 185
     .line 186
-    invoke-virtual {v6}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v6}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 187
     .line 188
@@ -688,7 +740,8 @@ return-void
     add-int/2addr v13, v12
 
     .line 191
-    invoke-virtual {v6}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {v6}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 192
     .line 193
@@ -696,7 +749,8 @@ return-void
     move-result v6
 
     .line 195
-    invoke-static {v4, v6}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {v4, v6}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 196
     .line 197
@@ -719,7 +773,8 @@ return-void
     add-int/2addr v15, v10
 
     .line 205
-    invoke-static {v15, v8}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
+    invoke-static {v15, v8}, Landroid/view/View$MeasureSpec;
+    ->makeMeasureSpec(II)I
 
     .line 206
     .line 207
@@ -727,12 +782,14 @@ return-void
     move-result v6
 
     .line 209
-    invoke-virtual {v7, v1, v6}, Landroid/view/View;->measure(II)V
+    invoke-virtual {v7, v1, v6}, Landroid/view/View;
+    ->measure(II)V
 
     .line 210
     .line 211
     .line 212
-    invoke-virtual {v7}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v7}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 213
     .line 214
@@ -743,7 +800,8 @@ return-void
     add-int/2addr v13, v6
 
     .line 217
-    invoke-virtual {v7}, Landroid/view/View;->getMeasuredState()I
+    invoke-virtual {v7}, Landroid/view/View;
+    ->getMeasuredState()I
 
     .line 218
     .line 219
@@ -751,7 +809,8 @@ return-void
     move-result v6
 
     .line 221
-    invoke-static {v4, v6}, Landroid/view/View;->combineMeasuredStates(II)I
+    invoke-static {v4, v6}, Landroid/view/View;
+    ->combineMeasuredStates(II)I
 
     .line 222
     .line 223
@@ -771,7 +830,8 @@ return-void
 
     .line 228
     .line 229
-    invoke-virtual {v0, v6}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v6}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 230
     .line 231
@@ -779,7 +839,8 @@ return-void
     move-result-object v8
 
     .line 233
-    invoke-virtual {v8}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v8}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 234
     .line 235
@@ -791,7 +852,8 @@ return-void
 
     .line 238
     .line 239
-    invoke-virtual {v8}, Landroid/view/View;->getMeasuredWidth()I
+    invoke-virtual {v8}, Landroid/view/View;
+    ->getMeasuredWidth()I
 
     .line 240
     .line 241
@@ -799,7 +861,8 @@ return-void
     move-result v8
 
     .line 243
-    invoke-static {v7, v8}, Ljava/lang/Math;->max(II)I
+    invoke-static {v7, v8}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 244
     .line 245
@@ -816,7 +879,8 @@ return-void
 
     .line 250
     :cond_f
-    invoke-virtual {v0}, Landroid/view/View;->getPaddingLeft()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getPaddingLeft()I
 
     .line 251
     .line 252
@@ -824,7 +888,8 @@ return-void
     move-result v6
 
     .line 254
-    invoke-virtual {v0}, Landroid/view/View;->getPaddingRight()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getPaddingRight()I
 
     .line 255
     .line 256
@@ -838,7 +903,8 @@ return-void
     add-int/2addr v8, v7
 
     .line 260
-    invoke-static {v8, v1, v4}, Landroid/view/View;->resolveSizeAndState(III)I
+    invoke-static {v8, v1, v4}, Landroid/view/View;
+    ->resolveSizeAndState(III)I
 
     .line 261
     .line 262
@@ -849,7 +915,8 @@ return-void
     const/4 v4, 0x0
 
     .line 265
-    invoke-static {v13, v2, v4}, Landroid/view/View;->resolveSizeAndState(III)I
+    invoke-static {v13, v2, v4}, Landroid/view/View;
+    ->resolveSizeAndState(III)I
 
     .line 266
     .line 267
@@ -857,7 +924,8 @@ return-void
     move-result v4
 
     .line 269
-    invoke-virtual {v0, v1, v4}, Landroid/view/View;->setMeasuredDimension(II)V
+    invoke-virtual {v0, v1, v4}, Landroid/view/View;
+    ->setMeasuredDimension(II)V
 
     .line 270
     .line 271
@@ -866,7 +934,8 @@ return-void
 
     .line 273
     .line 274
-    invoke-direct {v0, v3, v2}, Landroidx/appcompat/widget/AlertDialogLayout;->forceUniformWidth(II)V
+    invoke-direct {v0, v3, v2}, Landroidx/appcompat/widget/AlertDialogLayout;
+    ->forceUniformWidth(II)V
 
     .line 275
     .line 276
@@ -883,7 +952,8 @@ return-void
     .locals 10
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingLeft()I
 
     .line 2
     .line 3
@@ -894,7 +964,8 @@ return-void
     sub-int/2addr p4, p2
 
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingRight()I
 
     .line 7
     .line 8
@@ -909,7 +980,8 @@ return-void
     sub-int/2addr p4, p1
 
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingRight()I
 
     .line 14
     .line 15
@@ -920,7 +992,8 @@ return-void
     sub-int/2addr p4, v0
 
     .line 18
-    invoke-virtual {p0}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 19
     .line 20
@@ -928,7 +1001,8 @@ return-void
     move-result v0
 
     .line 22
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 23
     .line 24
@@ -936,7 +1010,8 @@ return-void
     move-result v1
 
     .line 26
-    invoke-virtual {p0}, Landroidx/appcompat/widget/LinearLayoutCompat;->getGravity()I
+    invoke-virtual {p0}, Landroidx/appcompat/widget/LinearLayoutCompat;
+    ->getGravity()I
 
     .line 27
     .line 28
@@ -972,7 +1047,8 @@ return-void
 
     .line 43
     .line 44
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 45
     .line 46
@@ -984,7 +1060,8 @@ return-void
 
     .line 49
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 50
     .line 51
@@ -1006,7 +1083,8 @@ return-void
 
     .line 58
     :cond_1
-    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 59
     .line 60
@@ -1029,7 +1107,8 @@ return-void
     .line 67
     .line 68
     :goto_0
-    invoke-virtual {p0}, Landroidx/appcompat/widget/LinearLayoutCompat;->getDividerDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroidx/appcompat/widget/LinearLayoutCompat;
+    ->getDividerDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 69
     .line 70
@@ -1051,7 +1130,8 @@ return-void
 
     .line 77
     :cond_2
-    invoke-virtual {p5}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+    invoke-virtual {p5}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicHeight()I
 
     .line 78
     .line 79
@@ -1064,7 +1144,8 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 84
     .line 85
@@ -1076,7 +1157,8 @@ return-void
 
     .line 88
     .line 89
-    invoke-virtual {v4}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 90
     .line 91
@@ -1092,7 +1174,8 @@ return-void
 
     .line 96
     .line 97
-    invoke-virtual {v4}, Landroid/view/View;->getMeasuredWidth()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getMeasuredWidth()I
 
     .line 98
     .line 99
@@ -1100,7 +1183,8 @@ return-void
     move-result v7
 
     .line 101
-    invoke-virtual {v4}, Landroid/view/View;->getMeasuredHeight()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getMeasuredHeight()I
 
     .line 102
     .line 103
@@ -1108,7 +1192,8 @@ return-void
     move-result v8
 
     .line 105
-    invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 106
     .line 107
@@ -1123,7 +1208,8 @@ return-void
 
     .line 111
     .line 112
-    iget v3, v9, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
+    iget v3, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->gravity:I
 
     .line 113
     .line 114
@@ -1135,7 +1221,8 @@ return-void
 
     .line 117
     :cond_3
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutDirection()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutDirection()I
 
     .line 118
     .line 119
@@ -1143,7 +1230,8 @@ return-void
     move-result v5
 
     .line 121
-    invoke-static {v3, v5}, Landroidx/core/view/GravityCompat;->getAbsoluteGravity(II)I
+    invoke-static {v3, v5}, Landroidx/core/view/GravityCompat;
+    ->getAbsoluteGravity(II)I
 
     .line 122
     .line 123
@@ -1169,7 +1257,8 @@ return-void
 
     .line 132
     .line 133
-    iget v3, v9, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
+    iget v3, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->leftMargin:I
 
     .line 134
     .line 135
@@ -1188,7 +1277,8 @@ return-void
 
     .line 139
     .line 140
-    iget v5, v9, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
+    iget v5, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->rightMargin:I
 
     .line 141
     .line 142
@@ -1211,14 +1301,16 @@ return-void
     add-int/2addr v3, p1
 
     .line 149
-    iget v5, v9, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
+    iget v5, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->leftMargin:I
 
     .line 150
     .line 151
     add-int/2addr v3, v5
 
     .line 152
-    iget v5, v9, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
+    iget v5, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->rightMargin:I
 
     .line 153
     .line 154
@@ -1226,7 +1318,8 @@ return-void
 
     .line 155
     :goto_4
-    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/LinearLayoutCompat;->hasDividerBeforeChildAt(I)Z
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/LinearLayoutCompat;
+    ->hasDividerBeforeChildAt(I)Z
 
     .line 156
     .line 157
@@ -1242,7 +1335,8 @@ return-void
 
     .line 162
     :cond_6
-    iget v3, v9, Landroid/widget/LinearLayout$LayoutParams;->topMargin:I
+    iget v3, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->topMargin:I
 
     .line 163
     .line 164
@@ -1253,12 +1347,14 @@ return-void
     move-object v3, p0
 
     .line 167
-    invoke-direct/range {v3 .. v8}, Landroidx/appcompat/widget/AlertDialogLayout;->setChildFrame(Landroid/view/View;IIII)V
+    invoke-direct/range {v3 .. v8}, Landroidx/appcompat/widget/AlertDialogLayout;
+    ->setChildFrame(Landroid/view/View;IIII)V
 
     .line 168
     .line 169
     .line 170
-    iget p3, v9, Landroid/widget/LinearLayout$LayoutParams;->bottomMargin:I
+    iget p3, v9, Landroid/widget/LinearLayout$LayoutParams;
+    ->bottomMargin:I
 
     .line 171
     .line 172
@@ -1287,7 +1383,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AlertDialogLayout;->tryOnMeasure(II)Z
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AlertDialogLayout;
+    ->tryOnMeasure(II)Z
 
     .line 2
     .line 3
@@ -1299,7 +1396,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;
+    ->onMeasure(II)V
 
     .line 8
     .line 9

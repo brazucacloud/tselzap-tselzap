@@ -28,7 +28,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -44,9 +45,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/api/ApiMetadata;
 
-    iget-object v1, p0, Lcom/google/android/gms/common/api/ApiMetadata$Builder;->zza:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
+    ->zza:Lcom/google/android/gms/common/api/ComplianceOptions;
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/ApiMetadata;-><init>(Lcom/google/android/gms/common/api/ComplianceOptions;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/ApiMetadata;
+    -><init>(Lcom/google/android/gms/common/api/ComplianceOptions;)V
 return-object v0
 .end method
 
@@ -62,7 +65,8 @@ return-object v0
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/ApiMetadata$Builder;->zza:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
+    ->zza:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     return-object p0
 .end method

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/graphics/shapes/Shapes_androidKt;->transformed(Landroidx/graphics/shapes/RoundedPolygon;Landroid/graphics/Matrix;)Landroidx/graphics/shapes/RoundedPolygon;
+    value = Landroidx/graphics/shapes/Shapes_androidKt;
+    ->transformed(Landroidx/graphics/shapes/RoundedPolygon;Landroid/graphics/Matrix;)Landroidx/graphics/shapes/RoundedPolygon;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,11 +28,14 @@
 .method public constructor <init>([FLandroid/graphics/Matrix;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;->$tempArray:[F
+    iput-object p1, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;
+    ->$tempArray:[F
 
-    iput-object p2, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;->$matrix:Landroid/graphics/Matrix;
+    iput-object p2, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;
+    ->$matrix:Landroid/graphics/Matrix;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -41,7 +45,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;->$tempArray:[F
+    iget-object v0, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;
+    ->$tempArray:[F
 
     .line 2
     .line 3
@@ -59,16 +64,19 @@
 
     .line 8
     .line 9
-    iget-object p2, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;->$matrix:Landroid/graphics/Matrix;
+    iget-object p2, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;
+    ->$matrix:Landroid/graphics/Matrix;
 
     .line 10
     .line 11
-    invoke-virtual {p2, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {p2, v0}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 12
     .line 13
     .line 14
-    iget-object p2, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;->$tempArray:[F
+    iget-object p2, p0, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;
+    ->$tempArray:[F
 
     .line 15
     .line 16
@@ -80,7 +88,8 @@
 
     .line 19
     .line 20
-    invoke-static {v0, p1}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p1}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 21
     .line 22

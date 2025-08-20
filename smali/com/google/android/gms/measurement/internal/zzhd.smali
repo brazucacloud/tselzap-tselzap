@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhd;->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhd;
+    ->zza:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -27,7 +29,8 @@
 .method public static bridge synthetic zza(Lcom/google/android/gms/measurement/internal/zzhd;)Ljava/lang/String;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/measurement/internal/zzhd;->zza:Ljava/lang/String;
+    iget-object p0, p0, Lcom/google/android/gms/measurement/internal/zzhd;
+    ->zza:Ljava/lang/String;
 
     return-object p0
 .end method

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;-><init>(Ljava/util/List;)V
+    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    -><init>(Ljava/util/List;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,11 +47,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
+    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -68,7 +71,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -77,7 +81,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -86,11 +91,13 @@
 
     .line 12
     .line 13
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 16
     .line 17
@@ -120,11 +127,13 @@
 
     .line 28
     :cond_0
-    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
+    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 29
     .line 30
-    invoke-static/range {p1 .. p7}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$onIsDraggingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
+    invoke-static/range {p1 .. p7}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    ->access$onIsDraggingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 
     .line 31
     .line 32
@@ -133,11 +142,13 @@
 
     .line 34
     :cond_1
-    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
+    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 35
     .line 36
-    invoke-static/range {p1 .. p7}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$onIsSwipingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
+    invoke-static/range {p1 .. p7}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    ->access$onIsSwipingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 
     .line 37
     .line 38

@@ -14,15 +14,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, LB0/z;->b:Ljava/util/Set;
+    iput-object p1, p0, LB0/z;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    iput-object p2, p0, LB0/z;->c:Ljava/util/Set;
+    iput-object p2, p0, LB0/z;
+    ->c:Ljava/util/Set;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractSet;
+    -><init>()V
 
     .line 6
     .line 7
@@ -40,7 +43,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -77,7 +81,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -114,7 +119,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -142,11 +148,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/z;->b:Ljava/util/Set;
+    iget-object v0, p0, LB0/z;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -158,11 +166,13 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, LB0/z;->c:Ljava/util/Set;
+    iget-object v0, p0, LB0/z;
+    ->c:Ljava/util/Set;
 
     .line 10
     .line 11
-    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -194,11 +204,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/z;->b:Ljava/util/Set;
+    iget-object v0, p0, LB0/z;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Set;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -210,11 +222,13 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, LB0/z;->c:Ljava/util/Set;
+    iget-object v0, p0, LB0/z;
+    ->c:Ljava/util/Set;
 
     .line 10
     .line 11
-    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Set;
+    ->isEmpty()Z
 
     .line 12
     .line 13
@@ -245,7 +259,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, LB0/y;-><init>(LB0/z;)V
+    invoke-direct {v0, p0}, LB0/y;
+    -><init>(LB0/z;)V
 
     .line 4
     .line 5
@@ -261,7 +276,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -298,7 +314,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -335,7 +352,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     .line 4
     .line 5
@@ -368,11 +386,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, LB0/z;->b:Ljava/util/Set;
+    iget-object v0, p0, LB0/z;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Set;->size()I
+    invoke-interface {v0}, Ljava/util/Set;
+    ->size()I
 
     .line 4
     .line 5
@@ -380,11 +400,13 @@
     move-result v1
 
     .line 7
-    iget-object v2, p0, LB0/z;->c:Ljava/util/Set;
+    iget-object v2, p0, LB0/z;
+    ->c:Ljava/util/Set;
 
     .line 8
     .line 9
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 10
     .line 11
@@ -394,7 +416,8 @@
     .line 13
     :cond_0
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 14
     .line 15
@@ -406,7 +429,8 @@
 
     .line 18
     .line 19
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -414,7 +438,8 @@
     move-result-object v3
 
     .line 23
-    invoke-interface {v0, v3}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, v3}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 24
     .line 25

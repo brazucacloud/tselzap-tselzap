@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -16,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -35,7 +37,8 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;
+    -><init>()V
 
     throw p0
 .end method
@@ -55,11 +58,13 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -83,11 +88,13 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-static {p1, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -100,7 +107,8 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p0}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -112,7 +120,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Ljava/lang/Float;->isInfinite(F)Z
+    invoke-static {p0}, Ljava/lang/Float;
+    ->isInfinite(F)Z
 
     .line 8
     .line 9
@@ -136,7 +145,8 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, LA/d;
+    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -144,7 +154,8 @@
     move-result-object p1
 
     .line 22
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -161,7 +172,8 @@
 
     .line 29
     .line 30
-    invoke-static {p1, v0}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, LA/d;
+    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -169,7 +181,8 @@
     move-result-object p1
 
     .line 34
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -220,14 +233,17 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object p1, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object p1, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 34
-    invoke-static {p2, p3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {p2, p3}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     move-result-object p2
 
-    invoke-static {p4, p5}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {p4, p5}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     move-result-object p3
 
@@ -242,11 +258,13 @@
     .line 35
     const-string p2, "%s is out of range of [%f, %f] (too high)"
 
-    invoke-static {p1, p2, p4}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2, p4}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -254,14 +272,17 @@
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object p1, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object p1, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 37
-    invoke-static {p2, p3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {p2, p3}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     move-result-object p2
 
-    invoke-static {p4, p5}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {p4, p5}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     move-result-object p3
 
@@ -276,11 +297,13 @@
     .line 38
     const-string p2, "%s is out of range of [%f, %f] (too low)"
 
-    invoke-static {p1, p2, p4}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2, p4}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -314,14 +337,17 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object v4, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object v4, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 28
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
-    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p2}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p2
 
@@ -336,11 +362,13 @@
     .line 29
     const-string p1, "%s is out of range of [%f, %f] (too high)"
 
-    invoke-static {v4, p1, v3}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v4, p1, v3}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -348,14 +376,17 @@
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object v4, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object v4, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 31
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
-    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p2}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p2
 
@@ -370,11 +401,13 @@
     .line 32
     const-string p1, "%s is out of range of [%f, %f] (too low)"
 
-    invoke-static {v4, p1, v3}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v4, p1, v3}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -401,34 +434,44 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object v2, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object v2, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 4
     const-string p1, "] (too high)"
 
     .line 5
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -436,34 +479,44 @@
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object v2, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object v2, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 8
     const-string p1, "] (too low)"
 
     .line 9
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -494,31 +547,39 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object p1, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object p1, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 12
     new-instance p1, Ljava/lang/StringBuilder;
 
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {p1, p6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, p2, p3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2, p3}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     const-string p2, "] (too high)"
 
     .line 14
-    invoke-static {p1, p4, p5, p2}, LA/d;->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p4, p5, p2}, LA/d;
+    ->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     .line 15
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -526,31 +587,39 @@
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    sget-object p1, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object p1, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 17
     new-instance p1, Ljava/lang/StringBuilder;
 
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {p1, p6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, p2, p3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2, p3}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     const-string p2, "] (too low)"
 
     .line 19
-    invoke-static {p1, p4, p5, p2}, LA/d;->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p4, p5, p2}, LA/d;
+    ->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     .line 20
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -569,7 +638,8 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;
+    -><init>()V
 
     throw p0
 .end method
@@ -592,7 +662,8 @@
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -625,12 +696,14 @@
 
     .line 11
     .line 12
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {p0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {p0}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -638,7 +711,8 @@
     move-result-object p0
 
     .line 19
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
@@ -647,12 +721,14 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
     .line 27
-    invoke-static {p1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -660,7 +736,8 @@
     move-result-object p0
 
     .line 31
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
@@ -669,12 +746,14 @@
 
     .line 35
     .line 36
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 40
     .line 41
@@ -682,7 +761,8 @@
     move-result-object p0
 
     .line 43
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -713,7 +793,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     return-object p0
 .end method
@@ -749,11 +830,13 @@
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -764,7 +847,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p0, v0}, Landroidx/core/util/Preconditions;->checkState(ZLjava/lang/String;)V
+    invoke-static {p0, v0}, Landroidx/core/util/Preconditions;
+    ->checkState(ZLjava/lang/String;)V
 return-void
 .end method
 
@@ -783,7 +867,8 @@ return-void
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -806,7 +891,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
@@ -818,7 +904,8 @@ return-void
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;
+    -><init>()V
 
     throw p0
 .end method
@@ -847,7 +934,8 @@ return-void
     .end annotation
 
     .line 3
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
@@ -859,11 +947,13 @@ return-void
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -898,7 +988,8 @@ return-void
     .end annotation
 
     .line 5
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
@@ -910,11 +1001,13 @@ return-void
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    invoke-static {p1, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method

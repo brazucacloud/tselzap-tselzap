@@ -15,20 +15,24 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 5
     .line 6
-    sget-object v0, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
+    sget-object v0, Ljava/nio/ByteOrder;
+    ->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+    invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;
+    ->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
@@ -42,11 +46,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->array()[B
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
+    ->array()[B
 
     .line 4
     .line 5
@@ -60,11 +66,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->get(I)B
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->get(I)B
 
     .line 4
     .line 5
@@ -78,7 +86,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->get(I)B
+    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->get(I)B
 
     .line 2
     .line 3
@@ -105,11 +114,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->getDouble(I)D
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->getDouble(I)D
 
     .line 4
     .line 5
@@ -123,11 +134,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->getFloat(I)F
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->getFloat(I)F
 
     .line 4
     .line 5
@@ -141,11 +154,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->getInt(I)I
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->getInt(I)I
 
     .line 4
     .line 5
@@ -159,11 +174,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->getLong(I)J
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->getLong(I)J
 
     .line 4
     .line 5
@@ -177,11 +194,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->getShort(I)S
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->getShort(I)S
 
     .line 4
     .line 5
@@ -195,11 +214,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Utf8Safe;->decodeUtf8Buffer(Ljava/nio/ByteBuffer;II)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Utf8Safe;
+    ->decodeUtf8Buffer(Ljava/nio/ByteBuffer;II)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -213,11 +234,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 4
     .line 5
@@ -231,9 +254,11 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->put(B)Ljava/nio/ByteBuffer;
 
     return-void
 .end method
@@ -242,9 +267,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;
+    ->put([BII)Ljava/nio/ByteBuffer;
 
     return-void
 .end method
@@ -253,11 +280,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->put(B)Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -269,11 +298,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->putDouble(D)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;
+    ->putDouble(D)Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -285,11 +316,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->putFloat(F)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->putFloat(F)Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -301,11 +334,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->putInt(I)Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -317,11 +352,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;
+    ->putLong(J)Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -333,11 +370,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->putShort(S)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->putShort(S)Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -349,11 +388,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 4
     .line 5
@@ -382,12 +423,15 @@
     add-int/lit8 v0, p1, 0x1
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 2
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->put(IB)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;
+    ->put(IB)Ljava/nio/ByteBuffer;
 
     return-void
 .end method
@@ -400,29 +444,38 @@
     add-int/2addr v0, p1
 
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 4
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/Buffer;->position()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;
+    ->position()I
 
     move-result v0
 
     .line 5
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;
+    ->position(I)Ljava/nio/Buffer;
 
     .line 6
-    iget-object p1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {p1, p2, p3, p4}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {p1, p2, p3, p4}, Ljava/nio/ByteBuffer;
+    ->put([BII)Ljava/nio/ByteBuffer;
 
     .line 7
-    iget-object p1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;
+    ->position(I)Ljava/nio/Buffer;
 
     return-void
 .end method
@@ -431,7 +484,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->set(IB)V
+    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->set(IB)V
 
     .line 2
     .line 3
@@ -447,16 +501,19 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;->putDouble(ID)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;
+    ->putDouble(ID)Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
@@ -472,16 +529,19 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->putFloat(IF)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;
+    ->putFloat(IF)Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
@@ -497,16 +557,19 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->putInt(II)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;
+    ->putInt(II)Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
@@ -522,16 +585,19 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;->putLong(IJ)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;
+    ->putLong(IJ)Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
@@ -547,16 +613,19 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->requestCapacity(I)Z
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->requestCapacity(I)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->putShort(IS)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;
+    ->putShort(IS)Ljava/nio/ByteBuffer;
 
     .line 9
     .line 10
@@ -568,11 +637,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
+    ->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;->position()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;
+    ->position()I
 
     .line 4
     .line 5

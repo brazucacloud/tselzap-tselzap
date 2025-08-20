@@ -18,19 +18,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput p1, p0, Landroidx/window/core/Bounds;->left:I
+    iput p1, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 3
-    iput p2, p0, Landroidx/window/core/Bounds;->top:I
+    iput p2, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 4
-    iput p3, p0, Landroidx/window/core/Bounds;->right:I
+    iput p3, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 5
-    iput p4, p0, Landroidx/window/core/Bounds;->bottom:I
+    iput p4, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     return-void
 .end method
@@ -40,18 +45,24 @@
 
     const-string v0, "rect"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    iget v0, p1, Landroid/graphics/Rect;->left:I
+    iget v0, p1, Landroid/graphics/Rect;
+    ->left:I
 
-    iget v1, p1, Landroid/graphics/Rect;->top:I
+    iget v1, p1, Landroid/graphics/Rect;
+    ->top:I
 
-    iget v2, p1, Landroid/graphics/Rect;->right:I
+    iget v2, p1, Landroid/graphics/Rect;
+    ->right:I
 
-    iget p1, p1, Landroid/graphics/Rect;->bottom:I
+    iget p1, p1, Landroid/graphics/Rect;
+    ->bottom:I
 
-    invoke-direct {p0, v0, v1, v2, p1}, Landroidx/window/core/Bounds;-><init>(IIII)V
+    invoke-direct {p0, v0, v1, v2, p1}, Landroidx/window/core/Bounds;
+    -><init>(IIII)V
 return-void
 .end method
 
@@ -83,7 +94,8 @@ return-void
 
     .line 9
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -96,7 +108,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v2, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -123,11 +136,13 @@ return-void
 
     .line 26
     .line 27
-    iget v1, p0, Landroidx/window/core/Bounds;->left:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 28
     .line 29
-    iget v3, p1, Landroidx/window/core/Bounds;->left:I
+    iget v3, p1, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 30
     .line 31
@@ -139,11 +154,13 @@ return-void
 
     .line 34
     :cond_3
-    iget v1, p0, Landroidx/window/core/Bounds;->top:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 35
     .line 36
-    iget v3, p1, Landroidx/window/core/Bounds;->top:I
+    iget v3, p1, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 37
     .line 38
@@ -155,11 +172,13 @@ return-void
 
     .line 41
     :cond_4
-    iget v1, p0, Landroidx/window/core/Bounds;->right:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 42
     .line 43
-    iget v3, p1, Landroidx/window/core/Bounds;->right:I
+    iget v3, p1, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 44
     .line 45
@@ -171,11 +190,13 @@ return-void
 
     .line 48
     :cond_5
-    iget v1, p0, Landroidx/window/core/Bounds;->bottom:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 49
     .line 50
-    iget p1, p1, Landroidx/window/core/Bounds;->bottom:I
+    iget p1, p1, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 51
     .line 52
@@ -199,7 +220,8 @@ return-void
 
     .line 59
     .line 60
-    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -232,7 +254,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->bottom:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 2
     .line 3
@@ -243,11 +266,13 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->bottom:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/window/core/Bounds;->top:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 4
     .line 5
@@ -260,7 +285,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->left:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 2
     .line 3
@@ -271,7 +297,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->right:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 2
     .line 3
@@ -282,7 +309,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->top:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 2
     .line 3
@@ -293,11 +321,13 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->right:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/window/core/Bounds;->left:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 4
     .line 5
@@ -310,7 +340,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/window/core/Bounds;->left:I
+    iget v0, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 2
     .line 3
@@ -318,7 +349,8 @@ return-void
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/window/core/Bounds;->top:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 6
     .line 7
@@ -329,7 +361,8 @@ return-void
 
     .line 9
     .line 10
-    iget v1, p0, Landroidx/window/core/Bounds;->right:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 11
     .line 12
@@ -340,7 +373,8 @@ return-void
 
     .line 14
     .line 15
-    iget v1, p0, Landroidx/window/core/Bounds;->bottom:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 16
     .line 17
@@ -353,7 +387,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/window/core/Bounds;->getHeight()I
+    invoke-virtual {p0}, Landroidx/window/core/Bounds;
+    ->getHeight()I
 
     .line 2
     .line 3
@@ -365,7 +400,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/window/core/Bounds;->getWidth()I
+    invoke-virtual {p0}, Landroidx/window/core/Bounds;
+    ->getWidth()I
 
     .line 8
     .line 9
@@ -397,7 +433,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/window/core/Bounds;->getHeight()I
+    invoke-virtual {p0}, Landroidx/window/core/Bounds;
+    ->getHeight()I
 
     .line 2
     .line 3
@@ -409,7 +446,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/window/core/Bounds;->getWidth()I
+    invoke-virtual {p0}, Landroidx/window/core/Bounds;
+    ->getWidth()I
 
     .line 8
     .line 9
@@ -440,23 +478,28 @@ return-void
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/window/core/Bounds;->left:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 4
     .line 5
-    iget v2, p0, Landroidx/window/core/Bounds;->top:I
+    iget v2, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 6
     .line 7
-    iget v3, p0, Landroidx/window/core/Bounds;->right:I
+    iget v3, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 8
     .line 9
-    iget v4, p0, Landroidx/window/core/Bounds;->bottom:I
+    iget v4, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v2, v3, v4}, Landroid/graphics/Rect;-><init>(IIII)V
+    invoke-direct {v0, v1, v2, v3, v4}, Landroid/graphics/Rect;
+    -><init>(IIII)V
 
     .line 12
     .line 13
@@ -476,16 +519,19 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget v1, p0, Landroidx/window/core/Bounds;->left:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->left:I
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -494,40 +540,48 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget v2, p0, Landroidx/window/core/Bounds;->top:I
+    iget v2, p0, Landroidx/window/core/Bounds;
+    ->top:I
 
     .line 19
     .line 20
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    iget v2, p0, Landroidx/window/core/Bounds;->right:I
+    iget v2, p0, Landroidx/window/core/Bounds;
+    ->right:I
 
     .line 27
     .line 28
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
-    iget v1, p0, Landroidx/window/core/Bounds;->bottom:I
+    iget v1, p0, Landroidx/window/core/Bounds;
+    ->bottom:I
 
     .line 35
     .line 36
@@ -535,7 +589,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-static {v0, v2, v1}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v2, v1}, LA/d;
+    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 39
     .line 40

@@ -16,11 +16,14 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzhz;Ljava/lang/String;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhy;->zza:Lcom/google/android/gms/measurement/internal/zzhz;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhy;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzhz;
 
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzhy;->zzb:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzhy;
+    ->zzb:Ljava/lang/String;
 
     return-void
 .end method
@@ -31,11 +34,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhy;->zza:Lcom/google/android/gms/measurement/internal/zzhz;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhy;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzhz;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhy;->zzb:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhy;
+    ->zzb:Ljava/lang/String;
 
     .line 4
     .line 5
@@ -47,7 +52,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v3, v0, v1}, Lcom/google/android/gms/measurement/internal/zzie;-><init>(Lcom/google/android/gms/measurement/internal/zzhz;Ljava/lang/String;)V
+    invoke-direct {v3, v0, v1}, Lcom/google/android/gms/measurement/internal/zzie;
+    -><init>(Lcom/google/android/gms/measurement/internal/zzhz;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -56,7 +62,8 @@
 
     .line 13
     .line 14
-    invoke-direct {v2, v0, v3}, Lcom/google/android/gms/internal/measurement/zzm;-><init>(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzo;)V
+    invoke-direct {v2, v0, v3}, Lcom/google/android/gms/internal/measurement/zzm;
+    -><init>(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzo;)V
 
     .line 15
     .line 16

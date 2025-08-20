@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -54,7 +55,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;-><init>(Landroidx/recyclerview/widget/MessageThreadUtil;Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;)V
+    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$2;
+    -><init>(Landroidx/recyclerview/widget/MessageThreadUtil;Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;)V
 return-object v0
 .end method
 
@@ -75,7 +77,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$1;-><init>(Landroidx/recyclerview/widget/MessageThreadUtil;Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;)V
+    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$1;
+    -><init>(Landroidx/recyclerview/widget/MessageThreadUtil;Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;)V
 return-object v0
 .end method
 

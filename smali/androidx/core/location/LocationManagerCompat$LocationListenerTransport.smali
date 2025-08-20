@@ -35,16 +35,19 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iput-object p2, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     .line 7
     .line 8
@@ -55,7 +58,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onProviderEnabled$4(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->lambda$onProviderEnabled$4(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -63,7 +67,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onStatusChanged$3(Ljava/lang/String;ILandroid/os/Bundle;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->lambda$onStatusChanged$3(Ljava/lang/String;ILandroid/os/Bundle;)V
 return-void
 .end method
 
@@ -71,7 +76,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onLocationChanged$0(Landroid/location/Location;)V
+    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->lambda$onLocationChanged$0(Landroid/location/Location;)V
 return-void
 .end method
 
@@ -79,7 +85,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onLocationChanged$1(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->lambda$onLocationChanged$1(Ljava/util/List;)V
 return-void
 .end method
 
@@ -87,7 +94,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onProviderDisabled$5(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->lambda$onProviderDisabled$5(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -95,7 +103,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onFlushComplete$2(I)V
+    invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->lambda$onFlushComplete$2(I)V
 return-void
 .end method
 
@@ -103,7 +112,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -115,11 +125,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;->onFlushComplete(I)V
+    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;
+    ->onFlushComplete(I)V
 
     .line 9
     .line 10
@@ -131,7 +143,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -143,11 +156,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroid/location/LocationListener;->onLocationChanged(Landroid/location/Location;)V
+    invoke-interface {v0, p1}, Landroid/location/LocationListener;
+    ->onLocationChanged(Landroid/location/Location;)V
 
     .line 9
     .line 10
@@ -159,7 +174,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -171,11 +187,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;->onLocationChanged(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;
+    ->onLocationChanged(Ljava/util/List;)V
 
     .line 9
     .line 10
@@ -187,7 +205,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -199,11 +218,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;->onProviderDisabled(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;
+    ->onProviderDisabled(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -215,7 +236,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -227,11 +249,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;->onProviderEnabled(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Landroidx/core/location/LocationListenerCompat;
+    ->onProviderEnabled(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -243,7 +267,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -255,11 +280,13 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1, p2, p3}, Landroidx/core/location/LocationListenerCompat;->onStatusChanged(Ljava/lang/String;ILandroid/os/Bundle;)V
+    invoke-interface {v0, p1, p2, p3}, Landroidx/core/location/LocationListenerCompat;
+    ->onStatusChanged(Ljava/lang/String;ILandroid/os/Bundle;)V
 
     .line 9
     .line 10
@@ -273,11 +300,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/util/ObjectsCompat;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Landroidx/core/util/ObjectsCompat;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -296,7 +325,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -308,7 +338,8 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     .line 7
     .line 8
@@ -316,12 +347,14 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {v1, p0, p1}, Landroidx/core/location/l;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;I)V
+    invoke-direct {v1, p0, p1}, Landroidx/core/location/l;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;I)V
 
     .line 11
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 14
     .line 15
@@ -337,7 +370,8 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     if-nez v0, :cond_0
 
@@ -345,15 +379,18 @@ return-void
 
     .line 2
     :cond_0
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     new-instance v1, Landroidx/core/location/k;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/k;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/k;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/Object;I)V
 
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -373,7 +410,8 @@ return-void
     .end annotation
 
     .line 3
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     if-nez v0, :cond_0
 
@@ -381,15 +419,18 @@ return-void
 
     .line 4
     :cond_0
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     new-instance v1, Landroidx/core/location/k;
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/k;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/k;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/Object;I)V
 
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -401,7 +442,8 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -413,7 +455,8 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     .line 7
     .line 8
@@ -424,12 +467,14 @@ return-void
     const/4 v2, 0x1
 
     .line 11
-    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/j;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;I)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/j;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 15
     .line 16
@@ -445,7 +490,8 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -457,7 +503,8 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     .line 7
     .line 8
@@ -468,12 +515,14 @@ return-void
     const/4 v2, 0x0
 
     .line 11
-    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/j;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;I)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/j;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 15
     .line 16
@@ -485,7 +534,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 2
     .line 3
@@ -497,7 +547,8 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mExecutor:Ljava/util/concurrent/Executor;
 
     .line 7
     .line 8
@@ -505,12 +556,14 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/core/location/m;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;ILandroid/os/Bundle;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/core/location/m;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;ILandroid/os/Bundle;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 14
     .line 15
@@ -525,7 +578,8 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    iput-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->mKey:Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 3
     .line 4

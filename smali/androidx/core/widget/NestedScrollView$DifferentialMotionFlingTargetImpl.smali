@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;->this$0:Landroidx/core/widget/NestedScrollView;
+    iput-object p1, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;
+    ->this$0:Landroidx/core/widget/NestedScrollView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -44,11 +46,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;->this$0:Landroidx/core/widget/NestedScrollView;
+    iget-object v0, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;
+    ->this$0:Landroidx/core/widget/NestedScrollView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/widget/NestedScrollView;->getVerticalScrollFactorCompat()F
+    invoke-virtual {v0}, Landroidx/core/widget/NestedScrollView;
+    ->getVerticalScrollFactorCompat()F
 
     .line 4
     .line 5
@@ -82,19 +86,22 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;->stopDifferentialMotionFling()V
+    invoke-virtual {p0}, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;
+    ->stopDifferentialMotionFling()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;->this$0:Landroidx/core/widget/NestedScrollView;
+    iget-object v0, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;
+    ->this$0:Landroidx/core/widget/NestedScrollView;
 
     .line 12
     .line 13
     float-to-int p1, p1
 
     .line 14
-    invoke-virtual {v0, p1}, Landroidx/core/widget/NestedScrollView;->fling(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/widget/NestedScrollView;
+    ->fling(I)V
 
     .line 15
     .line 16
@@ -108,11 +115,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;->this$0:Landroidx/core/widget/NestedScrollView;
+    iget-object v0, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;
+    ->this$0:Landroidx/core/widget/NestedScrollView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/widget/NestedScrollView;->access$000(Landroidx/core/widget/NestedScrollView;)Landroid/widget/OverScroller;
+    invoke-static {v0}, Landroidx/core/widget/NestedScrollView;
+    ->access$000(Landroidx/core/widget/NestedScrollView;)Landroid/widget/OverScroller;
 
     .line 4
     .line 5
@@ -120,7 +129,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Landroid/widget/OverScroller;->abortAnimation()V
+    invoke-virtual {v0}, Landroid/widget/OverScroller;
+    ->abortAnimation()V
 
     .line 8
     .line 9

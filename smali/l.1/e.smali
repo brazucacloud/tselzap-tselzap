@@ -12,11 +12,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Ll/e;->c:I
+    iput p1, p0, Ll/e;
+    ->c:I
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, LR0/c;-><init>(I)V
+    invoke-direct {p0, p1}, LR0/c;
+    -><init>(I)V
 return-void
 .end method
 
@@ -26,7 +28,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Ll/e;->c:I
+    iget v0, p0, Ll/e;
+    ->c:I
 
     .line 2
     .line 3
@@ -39,7 +42,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Ll/k;-><init>(Ll/e;)V
+    invoke-direct {v0, p0}, Ll/k;
+    -><init>(Ll/e;)V
 
     .line 9
     .line 10
@@ -52,7 +56,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {v0, p0}, Ll/d;-><init>(Ll/e;)V
+    invoke-direct {v0, p0}, Ll/d;
+    -><init>(Ll/e;)V
 
     .line 15
     .line 16

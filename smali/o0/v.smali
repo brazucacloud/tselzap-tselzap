@@ -30,12 +30,14 @@
     const/4 v1, 0x3
 
     .line 4
-    invoke-direct {v0, v1}, Ld0/f;-><init>(I)V
+    invoke-direct {v0, v1}, Ld0/f;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lo0/v;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lo0/v;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 8
     .line 9
@@ -46,12 +48,14 @@
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Landroid/util/SparseArray;-><init>()V
+    invoke-direct {p0}, Landroid/util/SparseArray;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     .line 5
     .line 6
@@ -63,12 +67,14 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, v1}, Landroid/os/Parcel;->readIntArray([I)V
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;
+    ->readIntArray([I)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->readParcelableArray(Ljava/lang/ClassLoader;)[Landroid/os/Parcelable;
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->readParcelableArray(Ljava/lang/ClassLoader;)[Landroid/os/Parcelable;
 
     .line 14
     .line 15
@@ -92,7 +98,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, v2, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, v2, v3}, Landroid/util/SparseArray;
+    ->put(ILjava/lang/Object;)V
 
     .line 25
     .line 26
@@ -123,7 +130,8 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {p0}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 2
     .line 3
@@ -147,7 +155,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0, v3}, Landroid/util/SparseArray;->keyAt(I)I
+    invoke-virtual {p0, v3}, Landroid/util/SparseArray;
+    ->keyAt(I)I
 
     .line 13
     .line 14
@@ -159,7 +168,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v3}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Landroid/util/SparseArray;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -183,17 +193,20 @@
 
     .line 29
     :cond_0
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeIntArray([I)V
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;
+    ->writeIntArray([I)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p1, v2, p2}, Landroid/os/Parcel;->writeParcelableArray([Landroid/os/Parcelable;I)V
+    invoke-virtual {p1, v2, p2}, Landroid/os/Parcel;
+    ->writeParcelableArray([Landroid/os/Parcelable;I)V
 
     .line 36
     .line 37

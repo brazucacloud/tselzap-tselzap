@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/VChain$VAnchor;->this$0:Landroidx/constraintlayout/core/dsl/VChain;
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/VChain$VAnchor;
+    ->this$0:Landroidx/constraintlayout/core/dsl/VChain;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Ljava/lang/Enum;->name()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Enum;
+    ->name()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -35,7 +37,8 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p2}, Landroidx/constraintlayout/core/dsl/Constraint$Side;->valueOf(Ljava/lang/String;)Landroidx/constraintlayout/core/dsl/Constraint$Side;
+    invoke-static {p2}, Landroidx/constraintlayout/core/dsl/Constraint$Side;
+    ->valueOf(Ljava/lang/String;)Landroidx/constraintlayout/core/dsl/Constraint$Side;
 
     .line 8
     .line 9
@@ -43,7 +46,8 @@
     move-result-object p2
 
     .line 11
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/dsl/Chain$Anchor;-><init>(Landroidx/constraintlayout/core/dsl/Chain;Landroidx/constraintlayout/core/dsl/Constraint$Side;)V
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/dsl/Chain$Anchor;
+    -><init>(Landroidx/constraintlayout/core/dsl/Chain;Landroidx/constraintlayout/core/dsl/Constraint$Side;)V
     return-void
 .end method
 

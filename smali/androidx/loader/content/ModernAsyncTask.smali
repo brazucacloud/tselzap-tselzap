@@ -94,12 +94,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v7}, Landroidx/loader/content/ModernAsyncTask$1;-><init>()V
+    invoke-direct {v7}, Landroidx/loader/content/ModernAsyncTask$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v7, Landroidx/loader/content/ModernAsyncTask;->sThreadFactory:Ljava/util/concurrent/ThreadFactory;
+    sput-object v7, Landroidx/loader/content/ModernAsyncTask;
+    ->sThreadFactory:Ljava/util/concurrent/ThreadFactory;
 
     .line 7
     .line 8
@@ -111,12 +113,14 @@
 
     .line 11
     .line 12
-    invoke-direct {v6, v0}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>(I)V
+    invoke-direct {v6, v0}, Ljava/util/concurrent/LinkedBlockingQueue;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v6, Landroidx/loader/content/ModernAsyncTask;->sPoolWorkQueue:Ljava/util/concurrent/BlockingQueue;
+    sput-object v6, Landroidx/loader/content/ModernAsyncTask;
+    ->sPoolWorkQueue:Ljava/util/concurrent/BlockingQueue;
 
     .line 16
     .line 17
@@ -128,7 +132,8 @@
 
     .line 20
     .line 21
-    sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v5, Ljava/util/concurrent/TimeUnit;
+    ->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 22
     .line 23
@@ -139,32 +144,38 @@
 
     .line 25
     .line 26
-    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;
+    -><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v0, Landroidx/loader/content/ModernAsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
+    sput-object v0, Landroidx/loader/content/ModernAsyncTask;
+    ->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
 
     .line 30
     .line 31
-    sput-object v0, Landroidx/loader/content/ModernAsyncTask;->sDefaultExecutor:Ljava/util/concurrent/Executor;    return-void
+    sput-object v0, Landroidx/loader/content/ModernAsyncTask;
+    ->sDefaultExecutor:Ljava/util/concurrent/Executor;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Landroidx/loader/content/ModernAsyncTask$Status;->PENDING:Landroidx/loader/content/ModernAsyncTask$Status;
+    sget-object v0, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->PENDING:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 5
     .line 6
-    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
+    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 7
     .line 8
@@ -172,12 +183,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mCancelled:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mCancelled:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 14
     .line 15
@@ -185,12 +198,14 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mTaskInvoked:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mTaskInvoked:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 21
     .line 22
@@ -198,12 +213,14 @@
 
     .line 23
     .line 24
-    invoke-direct {v0, p0}, Landroidx/loader/content/ModernAsyncTask$2;-><init>(Landroidx/loader/content/ModernAsyncTask;)V
+    invoke-direct {v0, p0}, Landroidx/loader/content/ModernAsyncTask$2;
+    -><init>(Landroidx/loader/content/ModernAsyncTask;)V
 
     .line 25
     .line 26
     .line 27
-    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mWorker:Landroidx/loader/content/ModernAsyncTask$WorkerRunnable;
+    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mWorker:Landroidx/loader/content/ModernAsyncTask$WorkerRunnable;
 
     .line 28
     .line 29
@@ -211,21 +228,26 @@
 
     .line 30
     .line 31
-    invoke-direct {v1, p0, v0}, Landroidx/loader/content/ModernAsyncTask$3;-><init>(Landroidx/loader/content/ModernAsyncTask;Ljava/util/concurrent/Callable;)V
+    invoke-direct {v1, p0, v0}, Landroidx/loader/content/ModernAsyncTask$3;
+    -><init>(Landroidx/loader/content/ModernAsyncTask;Ljava/util/concurrent/Callable;)V
 
     .line 32
     .line 33
     .line 34
-    iput-object v1, p0, Landroidx/loader/content/ModernAsyncTask;->mFuture:Ljava/util/concurrent/FutureTask;    return-void
+    iput-object v1, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mFuture:Ljava/util/concurrent/FutureTask;    
+    return-void
 .end method
 
 .method public static execute(Ljava/lang/Runnable;)V
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/loader/content/ModernAsyncTask;->sDefaultExecutor:Ljava/util/concurrent/Executor;
+    sget-object v0, Landroidx/loader/content/ModernAsyncTask;
+    ->sDefaultExecutor:Ljava/util/concurrent/Executor;
 
-    invoke-interface {v0, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, p0}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -241,7 +263,8 @@ return-void
 
     .line 4
     :try_start_0
-    sget-object v1, Landroidx/loader/content/ModernAsyncTask;->sHandler:Landroidx/loader/content/ModernAsyncTask$InternalHandler;
+    sget-object v1, Landroidx/loader/content/ModernAsyncTask;
+    ->sHandler:Landroidx/loader/content/ModernAsyncTask$InternalHandler;
 
     .line 5
     .line 6
@@ -253,12 +276,14 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {v1}, Landroidx/loader/content/ModernAsyncTask$InternalHandler;-><init>()V
+    invoke-direct {v1}, Landroidx/loader/content/ModernAsyncTask$InternalHandler;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Landroidx/loader/content/ModernAsyncTask;->sHandler:Landroidx/loader/content/ModernAsyncTask$InternalHandler;
+    sput-object v1, Landroidx/loader/content/ModernAsyncTask;
+    ->sHandler:Landroidx/loader/content/ModernAsyncTask$InternalHandler;
 
     .line 14
     .line 15
@@ -274,7 +299,8 @@ return-void
     .line 18
     :cond_0
     :goto_0
-    sget-object v1, Landroidx/loader/content/ModernAsyncTask;->sHandler:Landroidx/loader/content/ModernAsyncTask$InternalHandler;
+    sget-object v1, Landroidx/loader/content/ModernAsyncTask;
+    ->sHandler:Landroidx/loader/content/ModernAsyncTask$InternalHandler;
 
     .line 19
     .line 20
@@ -295,12 +321,14 @@ return-void
     .locals 0
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sput-object p0, Landroidx/loader/content/ModernAsyncTask;->sDefaultExecutor:Ljava/util/concurrent/Executor;    return-void
+    sput-object p0, Landroidx/loader/content/ModernAsyncTask;
+    ->sDefaultExecutor:Ljava/util/concurrent/Executor;    return-void
 .end method
 
 
@@ -309,23 +337,27 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mCancelled:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mCancelled:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
     const/4 v1, 0x1
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    ->set(Z)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mFuture:Ljava/util/concurrent/FutureTask;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mFuture:Ljava/util/concurrent/FutureTask;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/FutureTask;->cancel(Z)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/FutureTask;
+    ->cancel(Z)Z
 
     .line 10
     .line 11
@@ -354,9 +386,11 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/loader/content/ModernAsyncTask;->sDefaultExecutor:Ljava/util/concurrent/Executor;
+    sget-object v0, Landroidx/loader/content/ModernAsyncTask;
+    ->sDefaultExecutor:Ljava/util/concurrent/Executor;
 
-    invoke-virtual {p0, v0, p1}, Landroidx/loader/content/ModernAsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroidx/loader/content/ModernAsyncTask;
+    invoke-virtual {p0, v0, p1}, Landroidx/loader/content/ModernAsyncTask;
+    ->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroidx/loader/content/ModernAsyncTask;
 
     move-result-object p1
 
@@ -376,11 +410,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/loader/content/ModernAsyncTask$Status;->PENDING:Landroidx/loader/content/ModernAsyncTask$Status;
+    sget-object v1, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->PENDING:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 4
     .line 5
@@ -388,15 +424,18 @@ return-void
 
     .line 6
     .line 7
-    sget-object p1, Landroidx/loader/content/ModernAsyncTask$4;->$SwitchMap$androidx$loader$content$ModernAsyncTask$Status:[I
+    sget-object p1, Landroidx/loader/content/ModernAsyncTask$4;
+    ->$SwitchMap$androidx$loader$content$ModernAsyncTask$Status:[I
 
     .line 8
     .line 9
-    iget-object p2, p0, Landroidx/loader/content/ModernAsyncTask;->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
+    iget-object p2, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 10
     .line 11
-    invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p2}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 12
     .line 13
@@ -430,7 +469,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -447,7 +487,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -464,7 +505,8 @@ return-void
 
     .line 42
     .line 43
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -473,32 +515,39 @@ return-void
 
     .line 47
     :cond_2
-    sget-object v0, Landroidx/loader/content/ModernAsyncTask$Status;->RUNNING:Landroidx/loader/content/ModernAsyncTask$Status;
+    sget-object v0, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->RUNNING:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 48
     .line 49
-    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
+    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 50
     .line 51
-    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;->onPreExecute()V
+    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;
+    ->onPreExecute()V
 
     .line 52
     .line 53
     .line 54
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mWorker:Landroidx/loader/content/ModernAsyncTask$WorkerRunnable;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mWorker:Landroidx/loader/content/ModernAsyncTask$WorkerRunnable;
 
     .line 55
     .line 56
-    iput-object p2, v0, Landroidx/loader/content/ModernAsyncTask$WorkerRunnable;->mParams:[Ljava/lang/Object;
+    iput-object p2, v0, Landroidx/loader/content/ModernAsyncTask$WorkerRunnable;
+    ->mParams:[Ljava/lang/Object;
 
     .line 57
     .line 58
-    iget-object p2, p0, Landroidx/loader/content/ModernAsyncTask;->mFuture:Ljava/util/concurrent/FutureTask;
+    iget-object p2, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mFuture:Ljava/util/concurrent/FutureTask;
 
     .line 59
     .line 60
-    invoke-interface {p1, p2}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p1, p2}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-object p0
 .end method
 
@@ -511,7 +560,8 @@ return-object p0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;->isCancelled()Z
+    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;
+    ->isCancelled()Z
 
     .line 2
     .line 3
@@ -523,7 +573,8 @@ return-object p0
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/loader/content/ModernAsyncTask;->onCancelled(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroidx/loader/content/ModernAsyncTask;
+    ->onCancelled(Ljava/lang/Object;)V
 
     .line 8
     .line 9
@@ -532,17 +583,21 @@ return-object p0
 
     .line 11
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/loader/content/ModernAsyncTask;->onPostExecute(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroidx/loader/content/ModernAsyncTask;
+    ->onPostExecute(Ljava/lang/Object;)V
 
     .line 12
     .line 13
     .line 14
     :goto_0
-    sget-object p1, Landroidx/loader/content/ModernAsyncTask$Status;->FINISHED:Landroidx/loader/content/ModernAsyncTask$Status;
+    sget-object p1, Landroidx/loader/content/ModernAsyncTask$Status;
+    ->FINISHED:Landroidx/loader/content/ModernAsyncTask$Status;
 
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/loader/content/ModernAsyncTask;->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;    return-void
+    iput-object p1, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;    
+    return-void
 .end method
 
 .method public final get()Ljava/lang/Object;
@@ -554,9 +609,11 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mFuture:Ljava/util/concurrent/FutureTask;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mFuture:Ljava/util/concurrent/FutureTask;
 
-    invoke-virtual {v0}, Ljava/util/concurrent/FutureTask;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/concurrent/FutureTask;
+    ->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -574,9 +631,11 @@ return-object p0
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mFuture:Ljava/util/concurrent/FutureTask;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mFuture:Ljava/util/concurrent/FutureTask;
 
-    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/FutureTask;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/FutureTask;
+    ->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -587,18 +646,21 @@ return-object p0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;    return-object v0
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mStatus:Landroidx/loader/content/ModernAsyncTask$Status;    return-object v0
 .end method
 
 .method public final isCancelled()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mCancelled:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mCancelled:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    ->get()Z
 
     .line 4
     .line 5
@@ -623,7 +685,8 @@ return-object p0
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;->onCancelled()V
+    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;
+    ->onCancelled()V
     return-void
 .end method
 
@@ -664,7 +727,8 @@ return-object p0
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/loader/content/ModernAsyncTask;->getHandler()Landroid/os/Handler;
+    invoke-static {}, Landroidx/loader/content/ModernAsyncTask;
+    ->getHandler()Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -690,12 +754,14 @@ return-object p0
 
     .line 12
     .line 13
-    invoke-direct {v1, p0, v3}, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;-><init>(Landroidx/loader/content/ModernAsyncTask;[Ljava/lang/Object;)V
+    invoke-direct {v1, p0, v3}, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;
+    -><init>(Landroidx/loader/content/ModernAsyncTask;[Ljava/lang/Object;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, v2, v1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {v0, v2, v1}, Landroid/os/Handler;
+    ->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     .line 17
     .line 18
@@ -703,7 +769,8 @@ return-object p0
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+    invoke-virtual {v0}, Landroid/os/Message;
+    ->sendToTarget()V
     return-object p1
 .end method
 
@@ -716,11 +783,13 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;->mTaskInvoked:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Landroidx/loader/content/ModernAsyncTask;
+    ->mTaskInvoked:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    ->get()Z
 
     .line 4
     .line 5
@@ -732,7 +801,8 @@ return-object p0
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/loader/content/ModernAsyncTask;->postResult(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/loader/content/ModernAsyncTask;
+    ->postResult(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -750,7 +820,8 @@ return-object p0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;->isCancelled()Z
+    invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;
+    ->isCancelled()Z
 
     .line 2
     .line 3
@@ -762,7 +833,8 @@ return-object p0
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/loader/content/ModernAsyncTask;->getHandler()Landroid/os/Handler;
+    invoke-static {}, Landroidx/loader/content/ModernAsyncTask;
+    ->getHandler()Landroid/os/Handler;
 
     .line 8
     .line 9
@@ -774,7 +846,8 @@ return-object p0
 
     .line 12
     .line 13
-    invoke-direct {v1, p0, p1}, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;-><init>(Landroidx/loader/content/ModernAsyncTask;[Ljava/lang/Object;)V
+    invoke-direct {v1, p0, p1}, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;
+    -><init>(Landroidx/loader/content/ModernAsyncTask;[Ljava/lang/Object;)V
 
     .line 14
     .line 15
@@ -782,7 +855,8 @@ return-object p0
     const/4 p1, 0x2
 
     .line 17
-    invoke-virtual {v0, p1, v1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {v0, p1, v1}, Landroid/os/Handler;
+    ->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     .line 18
     .line 19
@@ -790,7 +864,8 @@ return-object p0
     move-result-object p1
 
     .line 21
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+    invoke-virtual {p1}, Landroid/os/Message;
+    ->sendToTarget()V
 
     .line 22
     .line 23

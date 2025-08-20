@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/material/datepicker/E;->a:Lcom/google/android/material/datepicker/p;
+    iput-object p1, p0, Lcom/google/android/material/datepicker/E;
+    ->a:Lcom/google/android/material/datepicker/p;
 
     .line 5
     .line 6
@@ -30,15 +32,18 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/datepicker/E;->a:Lcom/google/android/material/datepicker/p;
+    iget-object v0, p0, Lcom/google/android/material/datepicker/E;
+    ->a:Lcom/google/android/material/datepicker/p;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/material/datepicker/p;->d:Lcom/google/android/material/datepicker/c;
+    iget-object v0, v0, Lcom/google/android/material/datepicker/p;
+    ->d:Lcom/google/android/material/datepicker/c;
 
     .line 4
     .line 5
-    iget v0, v0, Lcom/google/android/material/datepicker/c;->g:I
+    iget v0, v0, Lcom/google/android/material/datepicker/c;
+    ->g:I
 
     .line 6
     .line 7
@@ -59,30 +64,36 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/google/android/material/datepicker/E;->a:Lcom/google/android/material/datepicker/p;
+    iget-object v2, p0, Lcom/google/android/material/datepicker/E;
+    ->a:Lcom/google/android/material/datepicker/p;
 
     .line 6
     .line 7
-    iget-object v3, v2, Lcom/google/android/material/datepicker/p;->d:Lcom/google/android/material/datepicker/c;
+    iget-object v3, v2, Lcom/google/android/material/datepicker/p;
+    ->d:Lcom/google/android/material/datepicker/c;
 
     .line 8
     .line 9
-    iget-object v3, v3, Lcom/google/android/material/datepicker/c;->b:Lcom/google/android/material/datepicker/t;
+    iget-object v3, v3, Lcom/google/android/material/datepicker/c;
+    ->b:Lcom/google/android/material/datepicker/t;
 
     .line 10
     .line 11
-    iget v3, v3, Lcom/google/android/material/datepicker/t;->d:I
+    iget v3, v3, Lcom/google/android/material/datepicker/t;
+    ->d:I
 
     .line 12
     .line 13
     add-int/2addr v3, p2
 
     .line 14
-    iget-object p2, p1, Lcom/google/android/material/datepicker/D;->a:Landroid/widget/TextView;
+    iget-object p2, p1, Lcom/google/android/material/datepicker/D;
+    ->a:Landroid/widget/TextView;
 
     .line 15
     .line 16
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+    invoke-static {}, Ljava/util/Locale;
+    ->getDefault()Ljava/util/Locale;
 
     .line 17
     .line 18
@@ -90,7 +101,8 @@
     move-result-object v4
 
     .line 20
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 21
     .line 22
@@ -110,7 +122,8 @@
 
     .line 29
     .line 30
-    invoke-static {v4, v5, v6}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v4, v5, v6}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -118,16 +131,19 @@
     move-result-object v4
 
     .line 34
-    invoke-virtual {p2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v4}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 35
     .line 36
     .line 37
-    iget-object p1, p1, Lcom/google/android/material/datepicker/D;->a:Landroid/widget/TextView;
+    iget-object p1, p1, Lcom/google/android/material/datepicker/D;
+    ->a:Landroid/widget/TextView;
 
     .line 38
     .line 39
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 40
     .line 41
@@ -135,7 +151,8 @@
     move-result-object p2
 
     .line 43
-    invoke-static {}, Lcom/google/android/material/datepicker/C;->b()Ljava/util/Calendar;
+    invoke-static {}, Lcom/google/android/material/datepicker/C;
+    ->b()Ljava/util/Calendar;
 
     .line 44
     .line 45
@@ -143,7 +160,8 @@
     move-result-object v4
 
     .line 47
-    invoke-virtual {v4, v1}, Ljava/util/Calendar;->get(I)I
+    invoke-virtual {v4, v1}, Ljava/util/Calendar;
+    ->get(I)I
 
     .line 48
     .line 49
@@ -160,7 +178,8 @@
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {p2, v4}, Landroid/content/Context;
+    ->getString(I)Ljava/lang/String;
 
     .line 57
     .line 58
@@ -168,7 +187,8 @@
     move-result-object p2
 
     .line 60
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 61
     .line 62
@@ -184,7 +204,8 @@
 
     .line 67
     .line 68
-    invoke-static {p2, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v5}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 69
     .line 70
@@ -201,7 +222,8 @@
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {p2, v4}, Landroid/content/Context;
+    ->getString(I)Ljava/lang/String;
 
     .line 77
     .line 78
@@ -209,7 +231,8 @@
     move-result-object p2
 
     .line 80
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 81
     .line 82
@@ -225,7 +248,8 @@
 
     .line 87
     .line 88
-    invoke-static {p2, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v5}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 89
     .line 90
@@ -234,16 +258,19 @@
 
     .line 92
     :goto_0
-    invoke-virtual {p1, p2}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 93
     .line 94
     .line 95
-    iget-object p1, v2, Lcom/google/android/material/datepicker/p;->g:Lcom/google/android/material/datepicker/d;
+    iget-object p1, v2, Lcom/google/android/material/datepicker/p;
+    ->g:Lcom/google/android/material/datepicker/d;
 
     .line 96
     .line 97
-    invoke-static {}, Lcom/google/android/material/datepicker/C;->b()Ljava/util/Calendar;
+    invoke-static {}, Lcom/google/android/material/datepicker/C;
+    ->b()Ljava/util/Calendar;
 
     .line 98
     .line 99
@@ -251,7 +278,8 @@
     move-result-object p2
 
     .line 101
-    invoke-virtual {p2, v1}, Ljava/util/Calendar;->get(I)I
+    invoke-virtual {p2, v1}, Ljava/util/Calendar;
+    ->get(I)I
 
     .line 102
     .line 103
@@ -263,7 +291,8 @@
 
     .line 106
     .line 107
-    iget-object p1, p1, Lcom/google/android/material/datepicker/d;->b:Lu0/f;
+    iget-object p1, p1, Lcom/google/android/material/datepicker/d;
+    ->b:Lu0/f;
 
     .line 108
     .line 109
@@ -271,7 +300,8 @@
 
     .line 110
     :cond_1
-    iget-object p1, p1, Lcom/google/android/material/datepicker/d;->a:Lu0/f;
+    iget-object p1, p1, Lcom/google/android/material/datepicker/d;
+    ->a:Lu0/f;
 
     .line 111
     .line 112
@@ -411,7 +441,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -419,7 +450,8 @@
     move-result-object p2
 
     .line 5
-    invoke-static {p2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {p2}, Landroid/view/LayoutInflater;
+    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 6
     .line 7
@@ -435,7 +467,8 @@
     const/4 v1, 0x0
 
     .line 13
-    invoke-virtual {p2, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p2, v0, p1, v1}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 14
     .line 15
@@ -451,7 +484,8 @@
 
     .line 20
     .line 21
-    invoke-direct {p2, p1}, Lcom/google/android/material/datepicker/D;-><init>(Landroid/widget/TextView;)V
+    invoke-direct {p2, p1}, Lcom/google/android/material/datepicker/D;
+    -><init>(Landroid/widget/TextView;)V
 
     .line 22
     .line 23

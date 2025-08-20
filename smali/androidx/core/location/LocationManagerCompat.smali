@@ -72,12 +72,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/location/LocationManagerCompat;->sLocationListeners:Ljava/util/WeakHashMap;
+    sput-object v0, Landroidx/core/location/LocationManagerCompat;
+    ->sLocationListeners:Ljava/util/WeakHashMap;
 
     .line 7
     .line 8
@@ -88,7 +90,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -100,7 +103,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;->lambda$getCurrentLocation$0(Landroidx/core/util/Consumer;Landroid/location/Location;)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;
+    ->lambda$getCurrentLocation$0(Landroidx/core/util/Consumer;Landroid/location/Location;)V
 return-void
 .end method
 
@@ -108,7 +112,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;->lambda$registerGnssStatusCallback$1(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)Ljava/lang/Boolean;
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;
+    ->lambda$registerGnssStatusCallback$1(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)Ljava/lang/Boolean;
 
     move-result-object p0
 
@@ -158,36 +163,42 @@ return-void
     .end annotation
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
     if-lt v0, v1, :cond_0
 
     .line 4
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api30Impl;->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api30Impl;
+    ->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
 return-void
 
     :cond_0
     if-eqz p2, :cond_1
 
     .line 5
-    invoke-virtual {p2}, Landroid/os/CancellationSignal;->throwIfCanceled()V
+    invoke-virtual {p2}, Landroid/os/CancellationSignal;
+    ->throwIfCanceled()V
 
     .line 6
     :cond_1
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
     .line 7
-    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->elapsedRealtime()J
 
     move-result-wide v1
 
-    invoke-static {v0}, Landroidx/core/location/LocationCompat;->getElapsedRealtimeMillis(Landroid/location/Location;)J
+    invoke-static {v0}, Landroidx/core/location/LocationCompat;
+    ->getElapsedRealtimeMillis(Landroid/location/Location;)J
 
     move-result-wide v3
 
@@ -204,19 +215,23 @@ return-void
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p4, v0, p1}, Landroidx/core/location/f;-><init>(Landroidx/core/util/Consumer;Landroid/location/Location;I)V
+    invoke-direct {p0, p4, v0, p1}, Landroidx/core/location/f;
+    -><init>(Landroidx/core/util/Consumer;Landroid/location/Location;I)V
 
-    invoke-interface {p3, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p3, p0}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 
     .line 9
     :cond_2
     new-instance v6, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;
 
-    invoke-direct {v6, p0, p3, p4}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;-><init>(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
+    invoke-direct {v6, p0, p3, p4}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;
+    -><init>(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
 
     .line 10
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     move-result-object v7
 
@@ -229,22 +244,26 @@ return-void
     move-object v2, p1
 
     .line 11
-    invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+    invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;
+    ->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
 
     if-eqz p2, :cond_3
 
     .line 12
     new-instance p0, Landroidx/core/location/b;
 
-    invoke-direct {p0, v6}, Landroidx/core/location/b;-><init>(Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;)V
+    invoke-direct {p0, v6}, Landroidx/core/location/b;
+    -><init>(Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;)V
 
-    invoke-virtual {p2, p0}, Landroid/os/CancellationSignal;->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V
+    invoke-virtual {p2, p0}, Landroid/os/CancellationSignal;
+    ->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V
 
     :cond_3
     const-wide/16 p0, 0x7530
 
     .line 13
-    invoke-virtual {v6, p0, p1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;->startTimeout(J)V
+    invoke-virtual {v6, p0, p1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;
+    ->startTimeout(J)V
 return-void
 .end method
 
@@ -296,7 +315,8 @@ return-void
     if-eqz p2, :cond_0
 
     .line 1
-    invoke-virtual {p2}, Landroidx/core/os/CancellationSignal;->getCancellationSignalObject()Ljava/lang/Object;
+    invoke-virtual {p2}, Landroidx/core/os/CancellationSignal;
+    ->getCancellationSignalObject()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -309,7 +329,8 @@ return-void
 
     .line 2
     :goto_0
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat;->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat;
+    ->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
     return-void
 .end method
 
@@ -323,7 +344,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -335,7 +357,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationManagerCompat$Api28Impl;->getGnssHardwareModelName(Landroid/location/LocationManager;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/location/LocationManagerCompat$Api28Impl;
+    ->getGnssHardwareModelName(Landroid/location/LocationManager;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -359,7 +382,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -371,7 +395,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationManagerCompat$Api28Impl;->getGnssYearOfHardware(Landroid/location/LocationManager;)I
+    invoke-static {p0}, Landroidx/core/location/LocationManagerCompat$Api28Impl;
+    ->getGnssYearOfHardware(Landroid/location/LocationManager;)I
 
     .line 8
     .line 9
@@ -399,7 +424,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -411,7 +437,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->hasProvider(Landroid/location/LocationManager;Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api31Impl;
+    ->hasProvider(Landroid/location/LocationManager;Ljava/lang/String;)Z
 
     .line 8
     .line 9
@@ -422,7 +449,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/location/LocationManager;->getAllProviders()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/location/LocationManager;
+    ->getAllProviders()Ljava/util/List;
 
     .line 13
     .line 14
@@ -430,7 +458,8 @@ return-void
     move-result-object v0
 
     .line 16
-    invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -453,7 +482,8 @@ return-void
 
     .line 25
     :try_start_0
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->getProvider(Ljava/lang/String;)Landroid/location/LocationProvider;
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->getProvider(Ljava/lang/String;)Landroid/location/LocationProvider;
 
     .line 26
     .line 27
@@ -483,7 +513,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -495,7 +526,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationManagerCompat$Api28Impl;->isLocationEnabled(Landroid/location/LocationManager;)Z
+    invoke-static {p0}, Landroidx/core/location/LocationManagerCompat$Api28Impl;
+    ->isLocationEnabled(Landroid/location/LocationManager;)Z
 
     .line 8
     .line 9
@@ -510,7 +542,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/location/LocationManager;
+    ->isProviderEnabled(Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -526,7 +559,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {p0, v0}, Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/location/LocationManager;
+    ->isProviderEnabled(Ljava/lang/String;)Z
 
     .line 23
     .line 24
@@ -558,7 +592,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 2
     .line 3
@@ -570,7 +605,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->addGpsStatusListener(Landroid/location/GpsStatus$Listener;)Z
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->addGpsStatusListener(Landroid/location/GpsStatus$Listener;)Z
 
     .line 2
     .line 3
@@ -578,7 +614,8 @@ return-void
     move-result p0
 
     .line 5
-    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -611,14 +648,16 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
     if-le v0, v1, :cond_0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;Landroid/os/Handler;)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;Landroid/os/Handler;)Z
 
     move-result p0
 
@@ -628,12 +667,14 @@ return-void
     if-ne v0, v1, :cond_1
 
     .line 3
-    invoke-static {p2}, Landroidx/core/os/ExecutorCompat;->create(Landroid/os/Handler;)Ljava/util/concurrent/Executor;
+    invoke-static {p2}, Landroidx/core/os/ExecutorCompat;
+    ->create(Landroid/os/Handler;)Ljava/util/concurrent/Executor;
 
     move-result-object p2
 
     .line 4
-    invoke-static {p0, p2, p1}, Landroidx/core/location/LocationManagerCompat;->registerGnssMeasurementsCallbackOnR(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
+    invoke-static {p0, p2, p1}, Landroidx/core/location/LocationManagerCompat;
+    ->registerGnssMeasurementsCallbackOnR(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
 
     move-result p0
 
@@ -641,23 +682,27 @@ return-void
 
     .line 5
     :cond_1
-    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
 
     monitor-enter v0
 
     .line 6
     :try_start_0
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;
+    ->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
 
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;Landroid/os/Handler;)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;Landroid/os/Handler;)Z
 
     move-result p0
 
     if-eqz p0, :cond_2
 
     .line 8
-    invoke-virtual {v0, p1, p1}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p1}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p0, 0x1
 
@@ -711,14 +756,16 @@ return-void
     .end annotation
 
     .line 12
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
     if-le v0, v1, :cond_0
 
     .line 13
-    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$Api31Impl;
+    ->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
 
     move-result p0
 
@@ -728,7 +775,8 @@ return-void
     if-ne v0, v1, :cond_1
 
     .line 14
-    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat;->registerGnssMeasurementsCallbackOnR(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat;
+    ->registerGnssMeasurementsCallbackOnR(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
 
     move-result p0
 
@@ -736,7 +784,8 @@ return-void
 
     .line 15
     :cond_1
-    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
 
     monitor-enter v0
 
@@ -744,20 +793,24 @@ return-void
     :try_start_0
     new-instance v1, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;
 
-    invoke-direct {v1, p2, p1}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;-><init>(Landroid/location/GnssMeasurementsEvent$Callback;Ljava/util/concurrent/Executor;)V
+    invoke-direct {v1, p2, p1}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;
+    -><init>(Landroid/location/GnssMeasurementsEvent$Callback;Ljava/util/concurrent/Executor;)V
 
     .line 17
-    invoke-static {p0, p2}, Landroidx/core/location/LocationManagerCompat;->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
+    invoke-static {p0, p2}, Landroidx/core/location/LocationManagerCompat;
+    ->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
 
     .line 18
-    invoke-static {p0, v1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)Z
+    invoke-static {p0, v1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->registerGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)Z
 
     move-result p0
 
     if-eqz p0, :cond_2
 
     .line 19
-    invoke-virtual {v0, p2, v1}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p2, v1}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p0, 0x1
 
@@ -819,7 +872,8 @@ return-void
     const/4 v3, 0x0
 
     .line 5
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -832,7 +886,8 @@ return-void
     .line 10
     .line 11
     :try_start_0
-    sget-object v4, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderClass:Ljava/lang/Class;
+    sget-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderClass:Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -844,7 +899,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v4}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -852,12 +908,14 @@ return-void
     move-result-object v4
 
     .line 21
-    sput-object v4, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderClass:Ljava/lang/Class;
+    sput-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderClass:Ljava/lang/Class;
 
     .line 22
     .line 23
     :cond_0
-    sget-object v4, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderBuildMethod:Ljava/lang/reflect/Method;
+    sget-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderBuildMethod:Ljava/lang/reflect/Method;
 
     .line 24
     .line 25
@@ -865,7 +923,8 @@ return-void
 
     .line 26
     .line 27
-    sget-object v4, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderClass:Ljava/lang/Class;
+    sget-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderClass:Ljava/lang/Class;
 
     .line 28
     .line 29
@@ -877,7 +936,8 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 34
     .line 35
@@ -885,17 +945,20 @@ return-void
     move-result-object v4
 
     .line 37
-    sput-object v4, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderBuildMethod:Ljava/lang/reflect/Method;
+    sput-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderBuildMethod:Ljava/lang/reflect/Method;
 
     .line 38
     .line 39
-    invoke-virtual {v4, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v4, v2}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 40
     .line 41
     .line 42
     :cond_1
-    sget-object v4, Landroidx/core/location/LocationManagerCompat;->sRegisterGnssMeasurementsCallbackMethod:Ljava/lang/reflect/Method;
+    sget-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sRegisterGnssMeasurementsCallbackMethod:Ljava/lang/reflect/Method;
 
     .line 43
     .line 44
@@ -915,7 +978,8 @@ return-void
 
     .line 51
     .line 52
-    invoke-static {v6}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v6}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 53
     .line 54
@@ -923,7 +987,8 @@ return-void
     move-result-object v6
 
     .line 56
-    invoke-static {}, Landroidx/appcompat/app/c;->C()Ljava/lang/Class;
+    invoke-static {}, Landroidx/appcompat/app/c;
+    ->C()Ljava/lang/Class;
 
     .line 57
     .line 58
@@ -951,7 +1016,8 @@ return-void
 
     .line 69
     .line 70
-    invoke-virtual {v4, v5, v8}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v4, v5, v8}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 71
     .line 72
@@ -959,25 +1025,30 @@ return-void
     move-result-object v4
 
     .line 74
-    sput-object v4, Landroidx/core/location/LocationManagerCompat;->sRegisterGnssMeasurementsCallbackMethod:Ljava/lang/reflect/Method;
+    sput-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sRegisterGnssMeasurementsCallbackMethod:Ljava/lang/reflect/Method;
 
     .line 75
     .line 76
-    invoke-virtual {v4, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v4, v2}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 77
     .line 78
     .line 79
     :cond_2
-    sget-object v4, Landroidx/core/location/LocationManagerCompat;->sRegisterGnssMeasurementsCallbackMethod:Ljava/lang/reflect/Method;
+    sget-object v4, Landroidx/core/location/LocationManagerCompat;
+    ->sRegisterGnssMeasurementsCallbackMethod:Ljava/lang/reflect/Method;
 
     .line 80
     .line 81
-    sget-object v5, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderBuildMethod:Ljava/lang/reflect/Method;
+    sget-object v5, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderBuildMethod:Ljava/lang/reflect/Method;
 
     .line 82
     .line 83
-    sget-object v6, Landroidx/core/location/LocationManagerCompat;->sGnssRequestBuilderClass:Ljava/lang/Class;
+    sget-object v6, Landroidx/core/location/LocationManagerCompat;
+    ->sGnssRequestBuilderClass:Ljava/lang/Class;
 
     .line 84
     .line 85
@@ -985,7 +1056,8 @@ return-void
 
     .line 86
     .line 87
-    invoke-virtual {v6, v7}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v6, v7}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 88
     .line 89
@@ -997,7 +1069,8 @@ return-void
 
     .line 92
     .line 93
-    invoke-virtual {v6, v7}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v7}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 94
     .line 95
@@ -1009,7 +1082,8 @@ return-void
 
     .line 98
     .line 99
-    invoke-virtual {v5, v6, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v5, v6, v7}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 100
     .line 101
@@ -1033,7 +1107,8 @@ return-void
 
     .line 110
     .line 111
-    invoke-virtual {v4, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 112
     .line 113
@@ -1049,7 +1124,8 @@ return-void
 
     .line 118
     .line 119
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 120
     .line 121
@@ -1080,7 +1156,8 @@ return-void
 
     .line 128
     .line 129
-    invoke-direct {p0}, Ljava/lang/IllegalStateException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/IllegalStateException;
+    -><init>()V
 
     .line 130
     .line 131
@@ -1866,14 +1943,16 @@ return-void
     .end annotation
 
     .line 9
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
     if-lt v0, v1, :cond_0
 
     .line 10
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$Api30Impl;->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$Api30Impl;
+    ->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
 
     move-result p0
 
@@ -1885,7 +1964,8 @@ return-void
     if-lt v0, v1, :cond_1
 
     .line 11
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
 
     move-result p0
 
@@ -1907,16 +1987,19 @@ return-void
 
     .line 12
     :goto_0
-    invoke-static {v2}, Landroidx/core/util/Preconditions;->checkArgument(Z)V
+    invoke-static {v2}, Landroidx/core/util/Preconditions;
+    ->checkArgument(Z)V
 
     .line 13
-    sget-object v2, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v2, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
 
     monitor-enter v2
 
     .line 14
     :try_start_0
-    invoke-virtual {v2, p3}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p3}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -1927,7 +2010,8 @@ return-void
     .line 15
     new-instance v3, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
 
-    invoke-direct {v3, p0, p3}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;-><init>(Landroid/location/LocationManager;Landroidx/core/location/GnssStatusCompat$Callback;)V
+    invoke-direct {v3, p0, p3}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
+    -><init>(Landroid/location/LocationManager;Landroidx/core/location/GnssStatusCompat$Callback;)V
 
     goto :goto_1
 
@@ -1938,40 +2022,48 @@ return-void
 
     .line 16
     :cond_3
-    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;->unregister()V
+    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
+    ->unregister()V
 
     .line 17
     :goto_1
-    invoke-virtual {v3, p2}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;->register(Ljava/util/concurrent/Executor;)V
+    invoke-virtual {v3, p2}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
+    ->register(Ljava/util/concurrent/Executor;)V
 
     .line 18
     new-instance p2, Ljava/util/concurrent/FutureTask;
 
     new-instance v4, Landroidx/core/location/c;
 
-    invoke-direct {v4, p0, v3}, Landroidx/core/location/c;-><init>(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)V
+    invoke-direct {v4, p0, v3}, Landroidx/core/location/c;
+    -><init>(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)V
 
-    invoke-direct {p2, v4}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
+    invoke-direct {p2, v4}, Ljava/util/concurrent/FutureTask;
+    -><init>(Ljava/util/concurrent/Callable;)V
 
     .line 19
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     move-result-object p0
 
-    invoke-virtual {p1}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
+    invoke-virtual {p1}, Landroid/os/Handler;
+    ->getLooper()Landroid/os/Looper;
 
     move-result-object v4
 
     if-ne p0, v4, :cond_4
 
     .line 20
-    invoke-virtual {p2}, Ljava/util/concurrent/FutureTask;->run()V
+    invoke-virtual {p2}, Ljava/util/concurrent/FutureTask;
+    ->run()V
 
     goto :goto_2
 
     .line 21
     :cond_4
-    invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, p2}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     move-result p0
     :try_end_0
@@ -1982,16 +2074,19 @@ return-void
     .line 22
     :goto_2
     :try_start_1
-    sget-object p0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object p0, Ljava/util/concurrent/TimeUnit;
+    ->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v4, 0x5
 
-    invoke-virtual {p0, v4, v5}, Ljava/util/concurrent/TimeUnit;->toNanos(J)J
+    invoke-virtual {p0, v4, v5}, Ljava/util/concurrent/TimeUnit;
+    ->toNanos(J)J
 
     move-result-wide v4
 
     .line 23
-    invoke-static {}, Ljava/lang/System;->nanoTime()J
+    invoke-static {}, Ljava/lang/System;
+    ->nanoTime()J
 
     move-result-wide v6
     :try_end_1
@@ -2006,24 +2101,29 @@ return-void
     .line 24
     :goto_3
     :try_start_2
-    sget-object v8, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v8, Ljava/util/concurrent/TimeUnit;
+    ->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-virtual {p2, v4, v5, v8}, Ljava/util/concurrent/FutureTask;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-virtual {p2, v4, v5, v8}, Ljava/util/concurrent/FutureTask;
+    ->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Boolean;
 
-    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v4}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result v4
 
     if-eqz v4, :cond_6
 
     .line 25
-    sget-object v4, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v4, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
 
-    invoke-virtual {v4, p3, v3}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, p3, v3}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_2
     .catch Ljava/lang/InterruptedException; {:try_start_2 .. :try_end_2} :catch_2
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_2 .. :try_end_2} :catch_1
@@ -2034,11 +2134,13 @@ return-void
 
     .line 26
     :try_start_3
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;
+    ->currentThread()Ljava/lang/Thread;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Ljava/lang/Thread;->interrupt()V
+    invoke-virtual {p0}, Ljava/lang/Thread;
+    ->interrupt()V
 
     :cond_5
     monitor-exit v2
@@ -2069,11 +2171,13 @@ return-void
     :cond_6
     if-eqz p0, :cond_7
 
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;
+    ->currentThread()Ljava/lang/Thread;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Ljava/lang/Thread;->interrupt()V
+    invoke-virtual {p0}, Ljava/lang/Thread;
+    ->interrupt()V
 
     :cond_7
     monitor-exit v2
@@ -2085,7 +2189,8 @@ return-void
     .line 27
     :catch_2
     :try_start_4
-    invoke-static {}, Ljava/lang/System;->nanoTime()J
+    invoke-static {}, Ljava/lang/System;
+    ->nanoTime()J
 
     move-result-wide v4
     :try_end_4
@@ -2142,25 +2247,31 @@ return-void
 
     new-instance p3, Ljava/lang/StringBuilder;
 
-    invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p1, " appears to be blocked, please run registerGnssStatusCallback() directly on a Looper thread or ensure the main Looper is not blocked by this thread"
 
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw p0
 
     .line 29
     :goto_5
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
 
@@ -2169,7 +2280,8 @@ return-void
     if-nez p0, :cond_9
 
     .line 30
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
 
@@ -2178,7 +2290,8 @@ return-void
     if-eqz p0, :cond_8
 
     .line 31
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
 
@@ -2190,13 +2303,15 @@ return-void
     :cond_8
     new-instance p0, Ljava/lang/IllegalStateException;
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/Throwable;)V
 
     throw p0
 
     .line 33
     :cond_9
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
 
@@ -2211,11 +2326,13 @@ return-void
 
     .line 34
     :try_start_6
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;
+    ->currentThread()Ljava/lang/Thread;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Ljava/lang/Thread;->interrupt()V
+    invoke-virtual {p0}, Ljava/lang/Thread;
+    ->interrupt()V
 
     .line 35
     :cond_a
@@ -2227,19 +2344,24 @@ return-void
 
     new-instance p2, Ljava/lang/StringBuilder;
 
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p1, " is shutting down"
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -2271,18 +2393,21 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
     if-lt v0, v1, :cond_0
 
     .line 2
-    invoke-static {p2}, Landroidx/core/os/ExecutorCompat;->create(Landroid/os/Handler;)Ljava/util/concurrent/Executor;
+    invoke-static {p2}, Landroidx/core/os/ExecutorCompat;
+    ->create(Landroid/os/Handler;)Ljava/util/concurrent/Executor;
 
     move-result-object p2
 
-    invoke-static {p0, p2, p1}, Landroidx/core/location/LocationManagerCompat;->registerGnssStatusCallback(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
+    invoke-static {p0, p2, p1}, Landroidx/core/location/LocationManagerCompat;
+    ->registerGnssStatusCallback(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
 
     move-result p0
 
@@ -2292,9 +2417,11 @@ return-void
     :cond_0
     new-instance v0, Landroidx/core/location/LocationManagerCompat$InlineHandlerExecutor;
 
-    invoke-direct {v0, p2}, Landroidx/core/location/LocationManagerCompat$InlineHandlerExecutor;-><init>(Landroid/os/Handler;)V
+    invoke-direct {v0, p2}, Landroidx/core/location/LocationManagerCompat$InlineHandlerExecutor;
+    -><init>(Landroid/os/Handler;)V
 
-    invoke-static {p0, v0, p1}, Landroidx/core/location/LocationManagerCompat;->registerGnssStatusCallback(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
+    invoke-static {p0, v0, p1}, Landroidx/core/location/LocationManagerCompat;
+    ->registerGnssStatusCallback(Landroid/location/LocationManager;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
 
     move-result p0
 
@@ -2320,7 +2447,8 @@ return-void
     .end annotation
 
     .line 4
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
@@ -2329,7 +2457,8 @@ return-void
     const/4 v0, 0x0
 
     .line 5
-    invoke-static {p0, v0, p1, p2}, Landroidx/core/location/LocationManagerCompat;->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
+    invoke-static {p0, v0, p1, p2}, Landroidx/core/location/LocationManagerCompat;
+    ->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
 
     move-result p0
 
@@ -2337,14 +2466,16 @@ return-void
 
     .line 6
     :cond_0
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     move-result-object v0
 
     if-nez v0, :cond_1
 
     .line 7
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
 
@@ -2352,9 +2483,11 @@ return-void
     :cond_1
     new-instance v1, Landroid/os/Handler;
 
-    invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v1, v0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
-    invoke-static {p0, v1, p1, p2}, Landroidx/core/location/LocationManagerCompat;->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
+    invoke-static {p0, v1, p1, p2}, Landroidx/core/location/LocationManagerCompat;
+    ->registerGnssStatusCallback(Landroid/location/LocationManager;Landroid/os/Handler;Ljava/util/concurrent/Executor;Landroidx/core/location/GnssStatusCompat$Callback;)Z
 
     move-result p0
 
@@ -2375,11 +2508,13 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/location/LocationManagerCompat;->sLocationListeners:Ljava/util/WeakHashMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat;
+    ->sLocationListeners:Ljava/util/WeakHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->getKey()Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    invoke-virtual {p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->getKey()Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 4
     .line 5
@@ -2391,12 +2526,14 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v2, p1}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v0, v1, v2}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/WeakHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -2412,7 +2549,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -2436,12 +2574,14 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->unregister()V
+    invoke-virtual {p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->unregister()V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->removeUpdates(Landroid/location/LocationListener;)V
 
     .line 34
     .line 35
@@ -2468,7 +2608,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/location/LocationManagerCompat;->sLocationListeners:Ljava/util/WeakHashMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat;
+    ->sLocationListeners:Ljava/util/WeakHashMap;
 
     .line 2
     .line 3
@@ -2476,7 +2617,8 @@ return-void
 
     .line 4
     :try_start_0
-    invoke-virtual {v0}, Ljava/util/WeakHashMap;->values()Ljava/util/Collection;
+    invoke-virtual {v0}, Ljava/util/WeakHashMap;
+    ->values()Ljava/util/Collection;
 
     .line 5
     .line 6
@@ -2484,7 +2626,8 @@ return-void
     move-result-object v1
 
     .line 8
-    invoke-interface {v1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -2497,7 +2640,8 @@ return-void
     .line 13
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 14
     .line 15
@@ -2509,7 +2653,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -2521,7 +2666,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v3}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -2541,7 +2687,8 @@ return-void
 
     .line 34
     :cond_1
-    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->getKey()Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->getKey()Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
     .line 35
     .line 36
@@ -2549,7 +2696,8 @@ return-void
     move-result-object v4
 
     .line 38
-    iget-object v5, v4, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v5, v4, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 39
     .line 40
@@ -2565,7 +2713,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 47
     .line 48
@@ -2582,17 +2731,20 @@ return-void
     .line 52
     :cond_2
     :goto_1
-    invoke-virtual {v2, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v4}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->unregister()V
+    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->unregister()V
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p0, v3}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
+    invoke-virtual {p0, v3}, Landroid/location/LocationManager;
+    ->removeUpdates(Landroid/location/LocationListener;)V
 
     .line 59
     .line 60
@@ -2605,7 +2757,8 @@ return-void
 
     .line 63
     .line 64
-    invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 65
     .line 66
@@ -2614,7 +2767,8 @@ return-void
 
     .line 68
     :goto_2
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 69
     .line 70
@@ -2626,7 +2780,8 @@ return-void
 
     .line 73
     .line 74
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 75
     .line 76
@@ -2638,11 +2793,13 @@ return-void
 
     .line 79
     .line 80
-    sget-object v3, Landroidx/core/location/LocationManagerCompat;->sLocationListeners:Ljava/util/WeakHashMap;
+    sget-object v3, Landroidx/core/location/LocationManagerCompat;
+    ->sLocationListeners:Ljava/util/WeakHashMap;
 
     .line 81
     .line 82
-    invoke-virtual {v3, v2}, Ljava/util/WeakHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Ljava/util/WeakHashMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 83
     .line 84
@@ -2656,7 +2813,8 @@ return-void
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 87
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->removeUpdates(Landroid/location/LocationListener;)V
 
     .line 88
     .line 89
@@ -2850,33 +3008,39 @@ return-void
     .end annotation
 
     .line 14
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1f
 
     if-lt v0, v1, :cond_0
 
     .line 15
-    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;->toLocationRequest()Landroid/location/LocationRequest;
+    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;
+    ->toLocationRequest()Landroid/location/LocationRequest;
 
     move-result-object p2
 
     new-instance v0, Landroid/os/Handler;
 
-    invoke-direct {v0, p4}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, p4}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 16
-    invoke-static {v0}, Landroidx/core/os/ExecutorCompat;->create(Landroid/os/Handler;)Ljava/util/concurrent/Executor;
+    invoke-static {v0}, Landroidx/core/os/ExecutorCompat;
+    ->create(Landroid/os/Handler;)Ljava/util/concurrent/Executor;
 
     move-result-object p4
 
     .line 17
-    invoke-static {p0, p1, p2, p4, p3}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
+    invoke-static {p0, p1, p2, p4, p3}, Landroidx/core/location/LocationManagerCompat$Api31Impl;
+    ->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
 return-void
 
     .line 18
     :cond_0
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api19Impl;->tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Landroidx/core/location/LocationListenerCompat;Landroid/os/Looper;)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api19Impl;
+    ->tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Landroidx/core/location/LocationListenerCompat;Landroid/os/Looper;)Z
 
     move-result v0
 
@@ -2886,12 +3050,14 @@ return-void
 
     .line 19
     :cond_1
-    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;->getIntervalMillis()J
+    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;
+    ->getIntervalMillis()J
 
     move-result-wide v3
 
     .line 20
-    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;->getMinUpdateDistanceMeters()F
+    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;
+    ->getMinUpdateDistanceMeters()F
 
     move-result v5
 
@@ -2904,7 +3070,8 @@ return-void
     move-object v7, p4
 
     .line 21
-    invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+    invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;
+    ->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
     return-void
 .end method
 
@@ -2938,19 +3105,22 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1f
 
     if-lt v0, v1, :cond_0
 
     .line 2
-    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;->toLocationRequest()Landroid/location/LocationRequest;
+    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;
+    ->toLocationRequest()Landroid/location/LocationRequest;
 
     move-result-object p2
 
     .line 3
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api31Impl;
+    ->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
     return-void
 
     :cond_0
@@ -2959,7 +3129,8 @@ return-void
     if-lt v0, v1, :cond_1
 
     .line 4
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api30Impl;->tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Ljava/util/concurrent/Executor;Landroidx/core/location/LocationListenerCompat;)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api30Impl;
+    ->tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Ljava/util/concurrent/Executor;Landroidx/core/location/LocationListenerCompat;)Z
 
     move-result v0
 
@@ -2973,12 +3144,15 @@ return-void
 
     new-instance v0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
 
-    invoke-direct {v0, p1, p4}, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;-><init>(Ljava/lang/String;Landroidx/core/location/LocationListenerCompat;)V
+    invoke-direct {v0, p1, p4}, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    -><init>(Ljava/lang/String;Landroidx/core/location/LocationListenerCompat;)V
 
-    invoke-direct {v6, v0, p3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerKey;Ljava/util/concurrent/Executor;)V
+    invoke-direct {v6, v0, p3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    -><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerKey;Ljava/util/concurrent/Executor;)V
 
     .line 6
-    invoke-static {p0, p1, p2, v6}, Landroidx/core/location/LocationManagerCompat$Api19Impl;->tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;)Z
+    invoke-static {p0, p1, p2, v6}, Landroidx/core/location/LocationManagerCompat$Api19Impl;
+    ->tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;)Z
 
     move-result p3
 
@@ -2989,23 +3163,27 @@ return-void
 
     .line 7
     :cond_2
-    sget-object p3, Landroidx/core/location/LocationManagerCompat;->sLocationListeners:Ljava/util/WeakHashMap;
+    sget-object p3, Landroidx/core/location/LocationManagerCompat;
+    ->sLocationListeners:Ljava/util/WeakHashMap;
 
     monitor-enter p3
 
     .line 8
     :try_start_0
-    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;->getIntervalMillis()J
+    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;
+    ->getIntervalMillis()J
 
     move-result-wide v3
 
     .line 9
-    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;->getMinUpdateDistanceMeters()F
+    invoke-virtual {p2}, Landroidx/core/location/LocationRequestCompat;
+    ->getMinUpdateDistanceMeters()F
 
     move-result v5
 
     .line 10
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     move-result-object v7
 
@@ -3014,10 +3192,12 @@ return-void
     move-object v2, p1
 
     .line 11
-    invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+    invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;
+    ->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
 
     .line 12
-    invoke-static {v1, v6}, Landroidx/core/location/LocationManagerCompat;->registerLocationListenerTransport(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;)V
+    invoke-static {v1, v6}, Landroidx/core/location/LocationManagerCompat;
+    ->registerLocationListenerTransport(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;)V
 
     .line 13
     monitor-exit p3
@@ -3051,7 +3231,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3063,7 +3244,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
 
     .line 8
     .line 9
@@ -3072,7 +3254,8 @@ return-void
 
     .line 11
     :cond_0
-    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssMeasurementListeners:Landroidx/collection/SimpleArrayMap;
 
     .line 12
     .line 13
@@ -3080,7 +3263,8 @@ return-void
 
     .line 14
     :try_start_0
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -3088,7 +3272,8 @@ return-void
     move-result-object p1
 
     .line 18
-    invoke-static {p1}, Landroidx/appcompat/app/c;->g(Ljava/lang/Object;)Landroid/location/GnssMeasurementsEvent$Callback;
+    invoke-static {p1}, Landroidx/appcompat/app/c;
+    ->g(Ljava/lang/Object;)Landroid/location/GnssMeasurementsEvent$Callback;
 
     .line 19
     .line 20
@@ -3115,7 +3300,8 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {v1}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;->unregister()V
+    invoke-virtual {v1}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;
+    ->unregister()V
 
     .line 32
     .line 33
@@ -3132,7 +3318,8 @@ return-void
     .line 37
     :cond_1
     :goto_0
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->unregisterGnssMeasurementsCallback(Landroid/location/LocationManager;Landroid/location/GnssMeasurementsEvent$Callback;)V
 
     .line 38
     .line 39
@@ -3172,7 +3359,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3184,7 +3372,8 @@ return-void
 
     .line 6
     .line 7
-    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
 
     .line 8
     .line 9
@@ -3192,7 +3381,8 @@ return-void
 
     .line 10
     :try_start_0
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -3204,7 +3394,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;->unregisterGnssStatusCallback(Landroid/location/LocationManager;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$Api24Impl;
+    ->unregisterGnssStatusCallback(Landroid/location/LocationManager;Ljava/lang/Object;)V
 
     .line 17
     .line 18
@@ -3236,7 +3427,8 @@ return-void
 
     .line 26
     :cond_1
-    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
+    ->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
 
     .line 27
     .line 28
@@ -3244,7 +3436,8 @@ return-void
 
     .line 29
     :try_start_1
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -3260,12 +3453,14 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {p1}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;->unregister()V
+    invoke-virtual {p1}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
+    ->unregister()V
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->removeGpsStatusListener(Landroid/location/GpsStatus$Listener;)V
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->removeGpsStatusListener(Landroid/location/GpsStatus$Listener;)V
 
     .line 41
     .line 42

@@ -65,7 +65,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -75,14 +76,16 @@
     .line 5
     .line 6
     .line 7
-    iput v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiSpanIndicatorColor:I
+    iput v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiSpanIndicatorColor:I
 
     .line 8
     .line 9
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mMetadataLoadStrategy:I
+    iput v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mMetadataLoadStrategy:I
 
     .line 11
     .line 12
@@ -90,12 +93,14 @@
 
     .line 13
     .line 14
-    invoke-direct {v0}, Landroidx/emoji2/text/DefaultGlyphChecker;-><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/text/DefaultGlyphChecker;
+    -><init>()V
 
     .line 15
     .line 16
     .line 17
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mGlyphChecker:Landroidx/emoji2/text/EmojiCompat$GlyphChecker;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mGlyphChecker:Landroidx/emoji2/text/EmojiCompat$GlyphChecker;
 
     .line 18
     .line 19
@@ -103,12 +108,14 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mMetadataLoader:Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoader;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mMetadataLoader:Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoader;
 
     .line 25
     .line 26
@@ -123,7 +130,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mMetadataLoader:Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoader;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mMetadataLoader:Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoader;
 
     .line 2
     .line 3
@@ -144,12 +152,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mInitCallbacks:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mInitCallbacks:Ljava/util/Set;
 
     .line 7
     .line 8
@@ -161,21 +171,25 @@
 
     .line 11
     .line 12
-    invoke-direct {v0}, Landroidx/collection/ArraySet;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArraySet;
+    -><init>()V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mInitCallbacks:Ljava/util/Set;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mInitCallbacks:Ljava/util/Set;
 
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mInitCallbacks:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mInitCallbacks:Ljava/util/Set;
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -193,7 +207,8 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiSpanIndicatorColor:I
+    iput p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiSpanIndicatorColor:I
 
     .line 2
     .line 3
@@ -206,7 +221,8 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiSpanIndicatorEnabled:Z
+    iput-boolean p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiSpanIndicatorEnabled:Z
 
     .line 2
     .line 3
@@ -227,12 +243,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mGlyphChecker:Landroidx/emoji2/text/EmojiCompat$GlyphChecker;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mGlyphChecker:Landroidx/emoji2/text/EmojiCompat$GlyphChecker;
 
     .line 7
     .line 8
@@ -245,7 +263,8 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mMetadataLoadStrategy:I
+    iput p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mMetadataLoadStrategy:I
 
     .line 2
     .line 3
@@ -258,7 +277,8 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mReplaceAll:Z
+    iput-boolean p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mReplaceAll:Z
 
     .line 2
     .line 3
@@ -275,7 +295,8 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mSpanFactory:Landroidx/emoji2/text/EmojiCompat$SpanFactory;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mSpanFactory:Landroidx/emoji2/text/EmojiCompat$SpanFactory;
 
     .line 2
     .line 3
@@ -290,7 +311,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/emoji2/text/EmojiCompat$Config;->setUseEmojiAsDefaultStyle(ZLjava/util/List;)Landroidx/emoji2/text/EmojiCompat$Config;
+    invoke-virtual {p0, p1, v0}, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->setUseEmojiAsDefaultStyle(ZLjava/util/List;)Landroidx/emoji2/text/EmojiCompat$Config;
 
     move-result-object p1
 
@@ -317,47 +339,55 @@
     .end annotation
 
     .line 2
-    iput-boolean p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mUseEmojiAsDefaultStyle:Z
+    iput-boolean p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mUseEmojiAsDefaultStyle:Z
 
     if-eqz p1, :cond_1
 
     if-eqz p2, :cond_1
 
     .line 3
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result p1
 
     new-array p1, p1, [I
 
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiAsDefaultStyleExceptions:[I
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
     .line 4
-    invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Integer;
 
     .line 5
-    iget-object v1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiAsDefaultStyleExceptions:[I
+    iget-object v1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
     add-int/lit8 v2, p2, 0x1
 
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;
+    ->intValue()I
 
     move-result v0
 
@@ -369,16 +399,19 @@
 
     .line 6
     :cond_0
-    iget-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiAsDefaultStyleExceptions:[I
+    iget-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
-    invoke-static {p1}, Ljava/util/Arrays;->sort([I)V
+    invoke-static {p1}, Ljava/util/Arrays;
+    ->sort([I)V
     return-object p0
 
     :cond_1
     const/4 p1, 0x0
 
     .line 7
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiAsDefaultStyleExceptions:[I
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
     return-object p0
 .end method
@@ -397,12 +430,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mInitCallbacks:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$Config;
+    ->mInitCallbacks:Ljava/util/Set;
 
     .line 7
     .line 8
@@ -410,7 +445,8 @@
 
     .line 9
     .line 10
-    invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 11
     .line 12

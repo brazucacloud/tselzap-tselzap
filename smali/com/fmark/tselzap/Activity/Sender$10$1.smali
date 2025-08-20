@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/Activity/Sender$10;->onClick(Landroid/view/View;)V
+    value = Lcom/fmark/tselzap/Activity/Sender$10;
+    ->onClick(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,27 +40,33 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->this$1:Lcom/fmark/tselzap/Activity/Sender$10;
+    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->this$1:Lcom/fmark/tselzap/Activity/Sender$10;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iput-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 4
     .line 5
-    iput-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectItems:Ljava/util/ArrayList;
+    iput-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectItems:Ljava/util/ArrayList;
 
     .line 6
     .line 7
-    iput-object p4, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectNumbers:Ljava/util/ArrayList;
+    iput-object p4, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectNumbers:Ljava/util/ArrayList;
 
     .line 8
     .line 9
-    iput-object p5, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec2:[Ljava/lang/CharSequence;
+    iput-object p5, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec2:[Ljava/lang/CharSequence;
 
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 12
     .line 13
@@ -88,7 +95,8 @@
 
     .line 7
     :goto_0
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 8
     .line 9
@@ -106,7 +114,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p3}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
+    invoke-virtual {p3}, Landroid/app/AlertDialog;
+    ->getListView()Landroid/widget/ListView;
 
     .line 16
     .line 17
@@ -114,16 +123,19 @@
     move-result-object p3
 
     .line 19
-    invoke-virtual {p3, p2, v0}, Landroid/widget/AbsListView;->setItemChecked(IZ)V
+    invoke-virtual {p3, p2, v0}, Landroid/widget/AbsListView;
+    ->setItemChecked(IZ)V
 
     .line 20
     .line 21
     .line 22
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectItems:Ljava/util/ArrayList;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectItems:Ljava/util/ArrayList;
 
     .line 23
     .line 24
-    iget-object v1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object v1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 25
     .line 26
@@ -131,16 +143,19 @@
 
     .line 27
     .line 28
-    invoke-virtual {p3, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 29
     .line 30
     .line 31
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectNumbers:Ljava/util/ArrayList;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectNumbers:Ljava/util/ArrayList;
 
     .line 32
     .line 33
-    iget-object v1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec2:[Ljava/lang/CharSequence;
+    iget-object v1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec2:[Ljava/lang/CharSequence;
 
     .line 34
     .line 35
@@ -148,7 +163,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {p3, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -161,11 +177,13 @@
 
     .line 43
     :cond_0
-    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectItems:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectItems:Ljava/util/ArrayList;
 
     .line 44
     .line 45
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 46
     .line 47
@@ -173,16 +191,19 @@
 
     .line 48
     .line 49
-    invoke-virtual {p1, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 50
     .line 51
     .line 52
-    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectNumbers:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectNumbers:Ljava/util/ArrayList;
 
     .line 53
     .line 54
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec2:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec2:[Ljava/lang/CharSequence;
 
     .line 55
     .line 56
@@ -190,7 +211,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 59
     .line 60
@@ -204,7 +226,8 @@
     .line 63
     .line 64
     :goto_1
-    iget-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 65
     .line 66
@@ -222,7 +245,8 @@
 
     .line 71
     .line 72
-    invoke-virtual {p2}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
+    invoke-virtual {p2}, Landroid/app/AlertDialog;
+    ->getListView()Landroid/widget/ListView;
 
     .line 73
     .line 74
@@ -233,16 +257,19 @@
     const/4 p3, 0x0
 
     .line 77
-    invoke-virtual {p2, v0, p3}, Landroid/widget/AbsListView;->setItemChecked(IZ)V
+    invoke-virtual {p2, v0, p3}, Landroid/widget/AbsListView;
+    ->setItemChecked(IZ)V
 
     .line 78
     .line 79
     .line 80
-    iget-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectItems:Ljava/util/ArrayList;
+    iget-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectItems:Ljava/util/ArrayList;
 
     .line 81
     .line 82
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 83
     .line 84
@@ -250,16 +277,19 @@
 
     .line 85
     .line 86
-    invoke-virtual {p2, p3}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p3}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 87
     .line 88
     .line 89
-    iget-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectNumbers:Ljava/util/ArrayList;
+    iget-object p2, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectNumbers:Ljava/util/ArrayList;
 
     .line 90
     .line 91
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec2:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec2:[Ljava/lang/CharSequence;
 
     .line 92
     .line 93
@@ -267,7 +297,8 @@
 
     .line 94
     .line 95
-    invoke-virtual {p2, p3}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p3}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 96
     .line 97
@@ -280,11 +311,13 @@
 
     .line 101
     :cond_2
-    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectItems:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectItems:Ljava/util/ArrayList;
 
     .line 102
     .line 103
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 104
     .line 105
@@ -292,7 +325,8 @@
 
     .line 106
     .line 107
-    invoke-virtual {p1, p3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p3}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 108
     .line 109
@@ -304,11 +338,13 @@
 
     .line 112
     .line 113
-    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectItems:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectItems:Ljava/util/ArrayList;
 
     .line 114
     .line 115
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec:[Ljava/lang/CharSequence;
 
     .line 116
     .line 117
@@ -316,16 +352,19 @@
 
     .line 118
     .line 119
-    invoke-virtual {p1, p3}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p3}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 120
     .line 121
     .line 122
-    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$SelectNumbers:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$SelectNumbers:Ljava/util/ArrayList;
 
     .line 123
     .line 124
-    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;->val$sec2:[Ljava/lang/CharSequence;
+    iget-object p3, p0, Lcom/fmark/tselzap/Activity/Sender$10$1;
+    ->val$sec2:[Ljava/lang/CharSequence;
 
     .line 125
     .line 126
@@ -333,7 +372,8 @@
 
     .line 127
     .line 128
-    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 129
     .line 130

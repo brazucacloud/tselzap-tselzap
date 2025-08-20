@@ -10,7 +10,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -28,7 +29,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/graphics/TypefaceCompatApi26Impl;-><init>()V
+    invoke-direct {p0}, Landroidx/core/graphics/TypefaceCompatApi26Impl;
+    -><init>()V
 
     .line 2
     .line 3
@@ -49,11 +51,13 @@
 
     .line 3
     :try_start_0
-    iget-object v2, p0, Landroidx/core/graphics/TypefaceCompatApi26Impl;->mFontFamily:Ljava/lang/Class;
+    iget-object v2, p0, Landroidx/core/graphics/TypefaceCompatApi26Impl;
+    ->mFontFamily:Ljava/lang/Class;
 
     .line 4
     .line 5
-    invoke-static {v2, v1}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {v2, v1}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -61,19 +65,22 @@
     move-result-object v2
 
     .line 9
-    invoke-static {v2, v0, p1}, Ljava/lang/reflect/Array;->set(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-static {v2, v0, p1}, Ljava/lang/reflect/Array;
+    ->set(Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/core/graphics/TypefaceCompatApi26Impl;->mCreateFromFamiliesWithDefault:Ljava/lang/reflect/Method;
+    iget-object p1, p0, Landroidx/core/graphics/TypefaceCompatApi26Impl;
+    ->mCreateFromFamiliesWithDefault:Ljava/lang/reflect/Method;
 
     .line 13
     .line 14
     const/4 v3, -0x1
 
     .line 15
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 16
     .line 17
@@ -81,7 +88,8 @@
     move-result-object v4
 
     .line 19
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 20
     .line 21
@@ -125,7 +133,8 @@
     const/4 v0, 0x0
 
     .line 39
-    invoke-virtual {p1, v0, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, v5}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -159,7 +168,8 @@
 
     .line 50
     .line 51
-    invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 52
     .line 53
@@ -211,7 +221,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p2, p3, p4}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p2, p3, p4}, Landroid/graphics/Typeface;
+    ->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     .line 2
     .line 3
@@ -236,7 +247,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p1, v0}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {p1, v0}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 3
     .line 4
@@ -244,7 +256,8 @@
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 7
     .line 8
@@ -274,7 +287,8 @@
 
     .line 19
     .line 20
-    sget-object p1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+    sget-object p1, Ljava/lang/Integer;
+    ->TYPE:Ljava/lang/Class;
 
     .line 21
     .line 22
@@ -300,7 +314,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p1, v2, v1}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {p1, v2, v1}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 33
     .line 34
@@ -308,7 +323,8 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {p1, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 37
     .line 38

@@ -42,7 +42,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -55,12 +56,14 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/Pools$SimplePool;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/Pools$SimplePool;
+    -><init>(I)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;->mOptimizedArrayRowPool:Landroidx/constraintlayout/core/Pools$Pool;
+    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;
+    ->mOptimizedArrayRowPool:Landroidx/constraintlayout/core/Pools$Pool;
 
     .line 12
     .line 13
@@ -68,12 +71,14 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/Pools$SimplePool;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/Pools$SimplePool;
+    -><init>(I)V
 
     .line 16
     .line 17
     .line 18
-    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;->mArrayRowPool:Landroidx/constraintlayout/core/Pools$Pool;
+    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;
+    ->mArrayRowPool:Landroidx/constraintlayout/core/Pools$Pool;
 
     .line 19
     .line 20
@@ -81,12 +86,14 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/Pools$SimplePool;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/Pools$SimplePool;
+    -><init>(I)V
 
     .line 23
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;->mSolverVariablePool:Landroidx/constraintlayout/core/Pools$Pool;
+    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;
+    ->mSolverVariablePool:Landroidx/constraintlayout/core/Pools$Pool;
 
     .line 26
     .line 27
@@ -98,7 +105,9 @@
 
     .line 30
     .line 31
-    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/Cache;
+    ->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;    
+    return-void
 .end method
 
 .end class

@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -20,7 +21,8 @@
     .locals 9
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->validateObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->validateObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -50,7 +52,8 @@
 
     .line 12
     :goto_0
-    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->dataPosition()I
 
     .line 13
     .line 14
@@ -62,7 +65,8 @@
 
     .line 17
     .line 18
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->readHeader(Landroid/os/Parcel;)I
 
     .line 19
     .line 20
@@ -70,7 +74,8 @@
     move-result v1
 
     .line 22
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->getFieldId(I)I
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->getFieldId(I)I
 
     .line 23
     .line 24
@@ -113,7 +118,8 @@
 
     .line 40
     .line 41
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->skipUnknownField(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->skipUnknownField(Landroid/os/Parcel;I)V
 
     .line 42
     .line 43
@@ -122,7 +128,8 @@
 
     .line 45
     :cond_0
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->readInt(Landroid/os/Parcel;I)I
 
     .line 46
     .line 47
@@ -134,7 +141,8 @@
 
     .line 50
     :cond_1
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readLongObject(Landroid/os/Parcel;I)Ljava/lang/Long;
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->readLongObject(Landroid/os/Parcel;I)Ljava/lang/Long;
 
     .line 51
     .line 52
@@ -146,7 +154,8 @@
 
     .line 55
     :cond_2
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readLongObject(Landroid/os/Parcel;I)Ljava/lang/Long;
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->readLongObject(Landroid/os/Parcel;I)Ljava/lang/Long;
 
     .line 56
     .line 57
@@ -158,7 +167,8 @@
 
     .line 60
     :cond_3
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->readInt(Landroid/os/Parcel;I)I
 
     .line 61
     .line 62
@@ -170,7 +180,8 @@
 
     .line 65
     :cond_4
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->readInt(Landroid/os/Parcel;I)I
 
     .line 66
     .line 67
@@ -182,7 +193,8 @@
 
     .line 70
     :cond_5
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->ensureAtEnd(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
+    ->ensureAtEnd(Landroid/os/Parcel;I)V
 
     .line 71
     .line 72
@@ -191,7 +203,8 @@
 
     .line 74
     .line 75
-    invoke-direct/range {v3 .. v8}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;-><init>(IILjava/lang/Long;Ljava/lang/Long;I)V
+    invoke-direct/range {v3 .. v8}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    -><init>(IILjava/lang/Long;Ljava/lang/Long;I)V
 
     .line 76
     .line 77

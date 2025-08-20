@@ -14,21 +14,25 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zam;->zab:Lcom/google/android/gms/common/ConnectionResult;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab:Lcom/google/android/gms/common/ConnectionResult;
 
     .line 8
     .line 9
-    iput p2, p0, Lcom/google/android/gms/common/api/internal/zam;->zaa:I
+    iput p2, p0, Lcom/google/android/gms/common/api/internal/zam;
+    ->zaa:I
 
     .line 10
     .line 11
@@ -40,7 +44,8 @@
 .method public final zaa()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/api/internal/zam;->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/api/internal/zam;
+    ->zaa:I
 
     return v0
 .end method
@@ -48,7 +53,8 @@
 .method public final zab()Lcom/google/android/gms/common/ConnectionResult;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zam;->zab:Lcom/google/android/gms/common/ConnectionResult;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab:Lcom/google/android/gms/common/ConnectionResult;
 
     return-object v0
 .end method

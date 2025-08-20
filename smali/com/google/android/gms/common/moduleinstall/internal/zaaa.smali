@@ -14,9 +14,11 @@
 .method public constructor <init>(Lcom/google/android/gms/common/moduleinstall/internal/zaab;Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;)V
     .locals 0
 
-    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaaa;->zaa:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaaa;
+    ->zaa:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -30,11 +32,13 @@
 
     .line 2
     .line 3
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaaa;->zaa:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaaa;
+    ->zaa:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;
 
     .line 4
     .line 5
-    invoke-interface {p1, v0}, Lcom/google/android/gms/common/moduleinstall/InstallStatusListener;->onInstallStatusUpdated(Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;)V
+    invoke-interface {p1, v0}, Lcom/google/android/gms/common/moduleinstall/InstallStatusListener;
+    ->onInstallStatusUpdated(Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;)V
 
     .line 6
     .line 7

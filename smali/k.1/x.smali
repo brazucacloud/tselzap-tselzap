@@ -17,7 +17,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -25,11 +26,13 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Lk/x;->c:Z
+    iput-boolean v0, p0, Lk/x;
+    ->c:Z
 
     .line 6
     .line 7
-    iput-object p1, p0, Lk/x;->b:Ljava/lang/Appendable;
+    iput-object p1, p0, Lk/x;
+    ->b:Ljava/lang/Appendable;
 
     .line 8
     .line 9
@@ -42,21 +45,25 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lk/x;->c:Z
+    iget-boolean v0, p0, Lk/x;
+    ->c:Z
 
-    iget-object v1, p0, Lk/x;->b:Ljava/lang/Appendable;
+    iget-object v1, p0, Lk/x;
+    ->b:Ljava/lang/Appendable;
 
     const/4 v2, 0x0
 
     if-eqz v0, :cond_0
 
     .line 2
-    iput-boolean v2, p0, Lk/x;->c:Z
+    iput-boolean v2, p0, Lk/x;
+    ->c:Z
 
     .line 3
     const-string v0, "  "
 
-    invoke-interface {v1, v0}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+    invoke-interface {v1, v0}, Ljava/lang/Appendable;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     :cond_0
     const/16 v0, 0xa
@@ -67,10 +74,12 @@
 
     .line 4
     :cond_1
-    iput-boolean v2, p0, Lk/x;->c:Z
+    iput-boolean v2, p0, Lk/x;
+    ->c:Z
 
     .line 5
-    invoke-interface {v1, p1}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
+    invoke-interface {v1, p1}, Ljava/lang/Appendable;
+    ->append(C)Ljava/lang/Appendable;
 
     return-object p0
 .end method
@@ -87,11 +96,13 @@
     const/4 v0, 0x0
 
     .line 7
-    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;
+    ->length()I
 
     move-result v1
 
-    invoke-virtual {p0, p1, v0, v1}, Lk/x;->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
+    invoke-virtual {p0, p1, v0, v1}, Lk/x;
+    ->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
 
     return-object p0
 .end method
@@ -106,25 +117,30 @@
 
     .line 9
     :cond_0
-    iget-boolean v0, p0, Lk/x;->c:Z
+    iget-boolean v0, p0, Lk/x;
+    ->c:Z
 
-    iget-object v1, p0, Lk/x;->b:Ljava/lang/Appendable;
+    iget-object v1, p0, Lk/x;
+    ->b:Ljava/lang/Appendable;
 
     const/4 v2, 0x0
 
     if-eqz v0, :cond_1
 
     .line 10
-    iput-boolean v2, p0, Lk/x;->c:Z
+    iput-boolean v2, p0, Lk/x;
+    ->c:Z
 
     .line 11
     const-string v0, "  "
 
-    invoke-interface {v1, v0}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+    invoke-interface {v1, v0}, Ljava/lang/Appendable;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     .line 12
     :cond_1
-    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;
+    ->length()I
 
     move-result v0
 
@@ -132,7 +148,8 @@
 
     add-int/lit8 v0, p3, -0x1
 
-    invoke-interface {p1, v0}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {p1, v0}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     move-result v0
 
@@ -143,10 +160,12 @@
     const/4 v2, 0x1
 
     :cond_2
-    iput-boolean v2, p0, Lk/x;->c:Z
+    iput-boolean v2, p0, Lk/x;
+    ->c:Z
 
     .line 13
-    invoke-interface {v1, p1, p2, p3}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
+    invoke-interface {v1, p1, p2, p3}, Ljava/lang/Appendable;
+    ->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
 
     return-object p0
 .end method

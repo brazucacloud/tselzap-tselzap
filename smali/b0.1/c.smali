@@ -16,11 +16,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iput-object p1, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V
+    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;
+    -><init>()V
 
     .line 4
     .line 5
@@ -28,7 +30,9 @@
     const/4 p1, -0x1
 
     .line 7
-    iput p1, p0, Lb0/c;->b:I    return-void
+    iput p1, p0, Lb0/c;
+    ->b:I    
+    return-void
 .end method
 
 
@@ -37,7 +41,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutDirection()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutDirection()I
 
     .line 2
     .line 3
@@ -63,11 +68,13 @@
 
     .line 11
     :goto_0
-    iget-object v1, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object v1, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 12
     .line 13
-    iget v1, v1, Lcom/google/android/material/behavior/SwipeDismissBehavior;->f:I
+    iget v1, v1, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->f:I
 
     .line 14
     .line 15
@@ -79,11 +86,13 @@
 
     .line 18
     .line 19
-    iget p3, p0, Lb0/c;->a:I
+    iget p3, p0, Lb0/c;
+    ->a:I
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 22
     .line 23
@@ -94,7 +103,8 @@
     sub-int/2addr p3, p1
 
     .line 26
-    iget p1, p0, Lb0/c;->a:I
+    iget p1, p0, Lb0/c;
+    ->a:I
 
     .line 27
     .line 28
@@ -102,11 +112,13 @@
 
     .line 29
     :cond_1
-    iget p3, p0, Lb0/c;->a:I
+    iget p3, p0, Lb0/c;
+    ->a:I
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 32
     .line 33
@@ -130,11 +142,13 @@
 
     .line 40
     .line 41
-    iget p3, p0, Lb0/c;->a:I
+    iget p3, p0, Lb0/c;
+    ->a:I
 
     .line 42
     .line 43
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 44
     .line 45
@@ -146,11 +160,13 @@
 
     .line 48
     :cond_3
-    iget p3, p0, Lb0/c;->a:I
+    iget p3, p0, Lb0/c;
+    ->a:I
 
     .line 49
     .line 50
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 51
     .line 52
@@ -161,7 +177,8 @@
     sub-int/2addr p3, p1
 
     .line 55
-    iget p1, p0, Lb0/c;->a:I
+    iget p1, p0, Lb0/c;
+    ->a:I
 
     .line 56
     .line 57
@@ -169,11 +186,13 @@
 
     .line 58
     :cond_4
-    iget p3, p0, Lb0/c;->a:I
+    iget p3, p0, Lb0/c;
+    ->a:I
 
     .line 59
     .line 60
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 61
     .line 62
@@ -184,11 +203,13 @@
     sub-int/2addr p3, v0
 
     .line 65
-    iget v0, p0, Lb0/c;->a:I
+    iget v0, p0, Lb0/c;
+    ->a:I
 
     .line 66
     .line 67
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 68
     .line 69
@@ -200,7 +221,8 @@
 
     .line 72
     :goto_2
-    invoke-static {p3, p2}, Ljava/lang/Math;->max(II)I
+    invoke-static {p3, p2}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 73
     .line 74
@@ -208,7 +230,8 @@
     move-result p2
 
     .line 76
-    invoke-static {p2, p1}, Ljava/lang/Math;->min(II)I
+    invoke-static {p2, p1}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 77
     .line 78
@@ -222,7 +245,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getTop()I
 
     .line 2
     .line 3
@@ -236,7 +260,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 2
     .line 3
@@ -250,11 +275,13 @@
     .locals 1
 
     .line 1
-    iput p2, p0, Lb0/c;->b:I
+    iput p2, p0, Lb0/c;
+    ->b:I
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 4
     .line 5
@@ -262,11 +289,13 @@
     move-result p2
 
     .line 7
-    iput p2, p0, Lb0/c;->a:I
+    iput p2, p0, Lb0/c;
+    ->a:I
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 10
     .line 11
@@ -278,18 +307,21 @@
 
     .line 14
     .line 15
-    iget-object p2, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object p2, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 16
     .line 17
     const/4 v0, 0x1
 
     .line 18
-    iput-boolean v0, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e:Z
+    iput-boolean v0, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->e:Z
 
     .line 19
     .line 20
-    invoke-interface {p1, v0}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
+    invoke-interface {p1, v0}, Landroid/view/ViewParent;
+    ->requestDisallowInterceptTouchEvent(Z)V
 
     .line 21
     .line 22
@@ -297,7 +329,8 @@
     const/4 p1, 0x0
 
     .line 24
-    iput-boolean p1, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e:Z
+    iput-boolean p1, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->e:Z
 
     .line 25
     .line 26
@@ -309,11 +342,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object v0, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->c:Lw0/e;
+    iget-object v0, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->c:Lw0/e;
 
     .line 4
     .line 5
@@ -321,7 +356,8 @@
 
     .line 6
     .line 7
-    iget-object v0, v0, Lw0/e;->a:Lw0/i;
+    iget-object v0, v0, Lw0/e;
+    ->a:Lw0/i;
 
     .line 8
     .line 9
@@ -347,7 +383,8 @@
 
     .line 18
     :cond_0
-    invoke-static {}, LN0/d;->d()LN0/d;
+    invoke-static {}, LN0/d;
+    ->d()LN0/d;
 
     .line 19
     .line 20
@@ -355,16 +392,19 @@
     move-result-object p1
 
     .line 22
-    iget-object v0, v0, Lw0/i;->t:Lw0/d;
+    iget-object v0, v0, Lw0/i;
+    ->t:Lw0/d;
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, LN0/d;->f(Lw0/d;)V
+    invoke-virtual {p1, v0}, LN0/d;
+    ->f(Lw0/d;)V
     return-void
 
     .line 28
     :cond_1
-    invoke-static {}, LN0/d;->d()LN0/d;
+    invoke-static {}, LN0/d;
+    ->d()LN0/d;
 
     .line 29
     .line 30
@@ -372,11 +412,13 @@
     move-result-object p1
 
     .line 32
-    iget-object v0, v0, Lw0/i;->t:Lw0/d;
+    iget-object v0, v0, Lw0/i;
+    ->t:Lw0/d;
 
     .line 33
     .line 34
-    invoke-virtual {p1, v0}, LN0/d;->g(Lw0/d;)V
+    invoke-virtual {p1, v0}, LN0/d;
+    ->g(Lw0/d;)V
 
     .line 35
     .line 36
@@ -390,7 +432,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 2
     .line 3
@@ -401,11 +444,13 @@
     int-to-float p3, p3
 
     .line 6
-    iget-object p4, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object p4, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 7
     .line 8
-    iget p5, p4, Lcom/google/android/material/behavior/SwipeDismissBehavior;->h:F
+    iget p5, p4, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->h:F
 
     .line 9
     .line 10
@@ -413,7 +458,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 13
     .line 14
@@ -424,7 +470,8 @@
     int-to-float p5, p5
 
     .line 17
-    iget p4, p4, Lcom/google/android/material/behavior/SwipeDismissBehavior;->i:F
+    iget p4, p4, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->i:F
 
     .line 18
     .line 19
@@ -432,14 +479,16 @@
 
     .line 20
     .line 21
-    iget p4, p0, Lb0/c;->a:I
+    iget p4, p0, Lb0/c;
+    ->a:I
 
     .line 22
     .line 23
     sub-int/2addr p2, p4
 
     .line 24
-    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(I)I
 
     .line 25
     .line 26
@@ -462,7 +511,9 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, p4}, Landroid/view/View;->setAlpha(F)V    return-void
+    invoke-virtual {p1, p4}, Landroid/view/View;
+    ->setAlpha(F)V    
+    return-void
 
     .line 39
     :cond_0
@@ -477,7 +528,9 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, v0}, Landroid/view/View;->setAlpha(F)V    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->setAlpha(F)V    
+    return-void
 
     .line 48
     :cond_1
@@ -494,7 +547,8 @@
 
     .line 52
     .line 53
-    invoke-static {v0, p2}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v0, p2}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 54
     .line 55
@@ -502,7 +556,8 @@
     move-result p2
 
     .line 57
-    invoke-static {p2, p4}, Ljava/lang/Math;->min(FF)F
+    invoke-static {p2, p4}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 58
     .line 59
@@ -510,7 +565,9 @@
     move-result p2
 
     .line 61
-    invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setAlpha(F)V    
+    return-void
 .end method
 
 .method public final onViewReleased(Landroid/view/View;FF)V
@@ -520,11 +577,13 @@
     const/4 p3, -0x1
 
     .line 2
-    iput p3, p0, Lb0/c;->b:I
+    iput p3, p0, Lb0/c;
+    ->b:I
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 5
     .line 6
@@ -532,7 +591,8 @@
     move-result p3
 
     .line 8
-    iget-object v0, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object v0, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 9
     .line 10
@@ -553,7 +613,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutDirection()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutDirection()I
 
     .line 18
     .line 19
@@ -576,7 +637,8 @@
 
     .line 26
     :goto_0
-    iget v6, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->f:I
+    iget v6, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->f:I
 
     .line 27
     .line 28
@@ -647,7 +709,8 @@
 
     .line 56
     :cond_5
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 57
     .line 58
@@ -655,14 +718,16 @@
     move-result v4
 
     .line 60
-    iget v5, p0, Lb0/c;->a:I
+    iget v5, p0, Lb0/c;
+    ->a:I
 
     .line 61
     .line 62
     sub-int/2addr v4, v5
 
     .line 63
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 64
     .line 65
@@ -673,7 +738,8 @@
     int-to-float v5, v5
 
     .line 68
-    iget v6, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->g:F
+    iget v6, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->g:F
 
     .line 69
     .line 70
@@ -681,7 +747,8 @@
 
     .line 71
     .line 72
-    invoke-static {v5}, Ljava/lang/Math;->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 73
     .line 74
@@ -689,7 +756,8 @@
     move-result v5
 
     .line 76
-    invoke-static {v4}, Ljava/lang/Math;->abs(I)I
+    invoke-static {v4}, Ljava/lang/Math;
+    ->abs(I)I
 
     .line 77
     .line 78
@@ -710,7 +778,8 @@
 
     .line 85
     .line 86
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 87
     .line 88
@@ -718,7 +787,8 @@
     move-result p2
 
     .line 90
-    iget v1, p0, Lb0/c;->a:I
+    iget v1, p0, Lb0/c;
+    ->a:I
 
     .line 91
     .line 92
@@ -738,7 +808,8 @@
     .line 97
     :cond_7
     :goto_2
-    iget p2, p0, Lb0/c;->a:I
+    iget p2, p0, Lb0/c;
+    ->a:I
 
     .line 98
     .line 99
@@ -750,7 +821,8 @@
 
     .line 102
     :cond_8
-    iget v1, p0, Lb0/c;->a:I
+    iget v1, p0, Lb0/c;
+    ->a:I
 
     .line 103
     .line 104
@@ -758,11 +830,13 @@
 
     .line 105
     :goto_3
-    iget-object p2, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->b:Landroidx/customview/widget/ViewDragHelper;
+    iget-object p2, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->b:Landroidx/customview/widget/ViewDragHelper;
 
     .line 106
     .line 107
-    invoke-virtual {p1}, Landroid/view/View;->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getTop()I
 
     .line 108
     .line 109
@@ -770,7 +844,8 @@
     move-result p3
 
     .line 111
-    invoke-virtual {p2, v1, p3}, Landroidx/customview/widget/ViewDragHelper;->settleCapturedViewAt(II)Z
+    invoke-virtual {p2, v1, p3}, Landroidx/customview/widget/ViewDragHelper;
+    ->settleCapturedViewAt(II)Z
 
     .line 112
     .line 113
@@ -786,12 +861,15 @@
 
     .line 118
     .line 119
-    invoke-direct {p2, v0, p1, v2}, Lb0/e;-><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;Landroid/view/View;Z)V
+    invoke-direct {p2, v0, p1, v2}, Lb0/e;
+    -><init>(Lcom/google/android/material/behavior/SwipeDismissBehavior;Landroid/view/View;Z)V
 
     .line 120
     .line 121
     .line 122
-    invoke-virtual {p1, p2}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->postOnAnimation(Ljava/lang/Runnable;)V    
+    return-void
 
     .line 126
     :cond_9
@@ -799,7 +877,8 @@
 
     .line 127
     .line 128
-    iget-object p2, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;->c:Lw0/e;
+    iget-object p2, v0, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->c:Lw0/e;
 
     .line 129
     .line 130
@@ -807,7 +886,8 @@
 
     .line 131
     .line 132
-    invoke-virtual {p2, p1}, Lw0/e;->a(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Lw0/e;
+    ->a(Landroid/view/View;)V
 
     .line 133
     .line 134
@@ -820,7 +900,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lb0/c;->b:I
+    iget v0, p0, Lb0/c;
+    ->b:I
 
     .line 2
     .line 3
@@ -836,11 +917,13 @@
     .line 7
     .line 8
     :cond_0
-    iget-object p2, p0, Lb0/c;->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object p2, p0, Lb0/c;
+    ->c:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 9
     .line 10
-    invoke-virtual {p2, p1}, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e(Landroid/view/View;)Z
+    invoke-virtual {p2, p1}, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->e(Landroid/view/View;)Z
 
     .line 11
     .line 12

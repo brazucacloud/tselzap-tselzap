@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/material/datepicker/k;->a:Lcom/google/android/material/datepicker/p;
+    iput-object p1, p0, Lcom/google/android/material/datepicker/k;
+    ->a:Lcom/google/android/material/datepicker/p;
 
     .line 5
     .line 6

@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -34,7 +35,8 @@
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/core/view/ViewParentCompat;->sTempNestedScrollConsumed:[I
+    sget-object v0, Landroidx/core/view/ViewParentCompat;
+    ->sTempNestedScrollConsumed:[I
 
     .line 2
     .line 3
@@ -49,7 +51,8 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/core/view/ViewParentCompat;->sTempNestedScrollConsumed:[I
+    sput-object v0, Landroidx/core/view/ViewParentCompat;
+    ->sTempNestedScrollConsumed:[I
 
     .line 9
     .line 10
@@ -72,7 +75,8 @@
     .line 16
     .line 17
     :goto_0
-    sget-object v0, Landroidx/core/view/ViewParentCompat;->sTempNestedScrollConsumed:[I
+    sget-object v0, Landroidx/core/view/ViewParentCompat;
+    ->sTempNestedScrollConsumed:[I
 
     .line 18
     .line 19
@@ -95,7 +99,8 @@
     .end param
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;->notifySubtreeAccessibilityStateChanged(Landroid/view/View;Landroid/view/View;I)V
+    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;
+    ->notifySubtreeAccessibilityStateChanged(Landroid/view/View;Landroid/view/View;I)V
 
     .line 2
     .line 3
@@ -116,7 +121,8 @@
 
     .line 1
     :try_start_0
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onNestedFling(Landroid/view/ViewParent;Landroid/view/View;FFZ)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onNestedFling(Landroid/view/ViewParent;Landroid/view/View;FFZ)Z
 
     .line 2
     .line 3
@@ -140,12 +146,14 @@
 
     .line 10
     .line 11
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -154,12 +162,14 @@
 
     .line 18
     .line 19
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -171,7 +181,8 @@
 
     .line 27
     .line 28
-    invoke-static {p2, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 29
     .line 30
@@ -194,7 +205,8 @@
 
     .line 1
     :try_start_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onNestedPreFling(Landroid/view/ViewParent;Landroid/view/View;FF)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onNestedPreFling(Landroid/view/ViewParent;Landroid/view/View;FF)Z
 
     .line 2
     .line 3
@@ -218,12 +230,14 @@
 
     .line 10
     .line 11
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -232,12 +246,14 @@
 
     .line 18
     .line 19
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -249,7 +265,8 @@
 
     .line 27
     .line 28
-    invoke-static {p2, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 29
     .line 30
@@ -287,7 +304,8 @@
     move-object v4, p4
 
     .line 1
-    invoke-static/range {v0 .. v5}, Landroidx/core/view/ViewParentCompat;->onNestedPreScroll(Landroid/view/ViewParent;Landroid/view/View;II[II)V
+    invoke-static/range {v0 .. v5}, Landroidx/core/view/ViewParentCompat;
+    ->onNestedPreScroll(Landroid/view/ViewParent;Landroid/view/View;II[II)V
 
     return-void
 .end method
@@ -315,7 +333,8 @@
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingParent2;
 
-    invoke-interface/range {p0 .. p5}, Landroidx/core/view/NestedScrollingParent2;->onNestedPreScroll(Landroid/view/View;II[II)V
+    invoke-interface/range {p0 .. p5}, Landroidx/core/view/NestedScrollingParent2;
+    ->onNestedPreScroll(Landroid/view/View;II[II)V
 
     return-void
 
@@ -324,7 +343,8 @@
 
     .line 4
     :try_start_0
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onNestedPreScroll(Landroid/view/ViewParent;Landroid/view/View;II[I)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onNestedPreScroll(Landroid/view/ViewParent;Landroid/view/View;II[I)V
     :try_end_0
     .catch Ljava/lang/AbstractMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -340,21 +360,26 @@
 
     const-string p3, "ViewParent "
 
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p0, " does not implement interface method onNestedPreScroll"
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
     const-string p2, "ViewParentCompat"
 
-    invoke-static {p2, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_1
     return-void
@@ -374,7 +399,8 @@
     const/4 v6, 0x0
 
     .line 1
-    invoke-static {}, Landroidx/core/view/ViewParentCompat;->getTempNestedScrollConsumed()[I
+    invoke-static {}, Landroidx/core/view/ViewParentCompat;
+    ->getTempNestedScrollConsumed()[I
 
     move-result-object v7
 
@@ -391,7 +417,8 @@
     move v5, p5
 
     .line 2
-    invoke-static/range {v0 .. v7}, Landroidx/core/view/ViewParentCompat;->onNestedScroll(Landroid/view/ViewParent;Landroid/view/View;IIIII[I)V
+    invoke-static/range {v0 .. v7}, Landroidx/core/view/ViewParentCompat;
+    ->onNestedScroll(Landroid/view/ViewParent;Landroid/view/View;IIIII[I)V
 
     return-void
 .end method
@@ -408,7 +435,8 @@
     .end param
 
     .line 3
-    invoke-static {}, Landroidx/core/view/ViewParentCompat;->getTempNestedScrollConsumed()[I
+    invoke-static {}, Landroidx/core/view/ViewParentCompat;
+    ->getTempNestedScrollConsumed()[I
 
     move-result-object v7
 
@@ -427,7 +455,8 @@
     move v6, p6
 
     .line 4
-    invoke-static/range {v0 .. v7}, Landroidx/core/view/ViewParentCompat;->onNestedScroll(Landroid/view/ViewParent;Landroid/view/View;IIIII[I)V
+    invoke-static/range {v0 .. v7}, Landroidx/core/view/ViewParentCompat;
+    ->onNestedScroll(Landroid/view/ViewParent;Landroid/view/View;IIIII[I)V
 
     return-void
 .end method
@@ -455,7 +484,8 @@
     .line 6
     check-cast p0, Landroidx/core/view/NestedScrollingParent3;
 
-    invoke-interface/range {p0 .. p7}, Landroidx/core/view/NestedScrollingParent3;->onNestedScroll(Landroid/view/View;IIIII[I)V
+    invoke-interface/range {p0 .. p7}, Landroidx/core/view/NestedScrollingParent3;
+    ->onNestedScroll(Landroid/view/View;IIIII[I)V
 
     return-void
 
@@ -504,7 +534,8 @@
 
     check-cast p1, Landroidx/core/view/NestedScrollingParent2;
 
-    invoke-interface/range {p1 .. p7}, Landroidx/core/view/NestedScrollingParent2;->onNestedScroll(Landroid/view/View;IIIII)V
+    invoke-interface/range {p1 .. p7}, Landroidx/core/view/NestedScrollingParent2;
+    ->onNestedScroll(Landroid/view/View;IIIII)V
 
     return-void
 
@@ -515,7 +546,8 @@
 
     .line 11
     :try_start_0
-    invoke-static/range {p1 .. p6}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onNestedScroll(Landroid/view/ViewParent;Landroid/view/View;IIII)V
+    invoke-static/range {p1 .. p6}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onNestedScroll(Landroid/view/ViewParent;Landroid/view/View;IIII)V
     :try_end_0
     .catch Ljava/lang/AbstractMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -531,21 +563,26 @@
 
     const-string p3, "ViewParent "
 
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p1, " does not implement interface method onNestedScroll"
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "ViewParentCompat"
 
-    invoke-static {p2, p1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p1, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_2
     return-void
@@ -569,7 +606,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, v0}, Landroidx/core/view/ViewParentCompat;->onNestedScrollAccepted(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;II)V
+    invoke-static {p0, p1, p2, p3, v0}, Landroidx/core/view/ViewParentCompat;
+    ->onNestedScrollAccepted(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;II)V
 
     return-void
 .end method
@@ -597,7 +635,8 @@
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingParent2;
 
-    invoke-interface {p0, p1, p2, p3, p4}, Landroidx/core/view/NestedScrollingParent2;->onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;II)V
+    invoke-interface {p0, p1, p2, p3, p4}, Landroidx/core/view/NestedScrollingParent2;
+    ->onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;II)V
 
     return-void
 
@@ -606,7 +645,8 @@
 
     .line 4
     :try_start_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onNestedScrollAccepted(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onNestedScrollAccepted(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)V
     :try_end_0
     .catch Ljava/lang/AbstractMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -620,21 +660,26 @@
 
     const-string p3, "ViewParent "
 
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p0, " does not implement interface method onNestedScrollAccepted"
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
     const-string p2, "ViewParentCompat"
 
-    invoke-static {p2, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_1
     return-void
@@ -658,7 +703,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, v0}, Landroidx/core/view/ViewParentCompat;->onStartNestedScroll(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;II)Z
+    invoke-static {p0, p1, p2, p3, v0}, Landroidx/core/view/ViewParentCompat;
+    ->onStartNestedScroll(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;II)Z
 
     move-result p0
 
@@ -688,7 +734,8 @@
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingParent2;
 
-    invoke-interface {p0, p1, p2, p3, p4}, Landroidx/core/view/NestedScrollingParent2;->onStartNestedScroll(Landroid/view/View;Landroid/view/View;II)Z
+    invoke-interface {p0, p1, p2, p3, p4}, Landroidx/core/view/NestedScrollingParent2;
+    ->onStartNestedScroll(Landroid/view/View;Landroid/view/View;II)Z
 
     move-result p0
 
@@ -699,7 +746,8 @@
 
     .line 4
     :try_start_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onStartNestedScroll(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onStartNestedScroll(Landroid/view/ViewParent;Landroid/view/View;Landroid/view/View;I)Z
 
     move-result p0
     :try_end_0
@@ -715,21 +763,26 @@
 
     const-string p3, "ViewParent "
 
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p0, " does not implement interface method onStartNestedScroll"
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
     const-string p2, "ViewParentCompat"
 
-    invoke-static {p2, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_1
     const/4 p0, 0x0
@@ -751,7 +804,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {p0, p1, v0}, Landroidx/core/view/ViewParentCompat;->onStopNestedScroll(Landroid/view/ViewParent;Landroid/view/View;I)V
+    invoke-static {p0, p1, v0}, Landroidx/core/view/ViewParentCompat;
+    ->onStopNestedScroll(Landroid/view/ViewParent;Landroid/view/View;I)V
 
     return-void
 .end method
@@ -775,7 +829,8 @@
     .line 3
     check-cast p0, Landroidx/core/view/NestedScrollingParent2;
 
-    invoke-interface {p0, p1, p2}, Landroidx/core/view/NestedScrollingParent2;->onStopNestedScroll(Landroid/view/View;I)V
+    invoke-interface {p0, p1, p2}, Landroidx/core/view/NestedScrollingParent2;
+    ->onStopNestedScroll(Landroid/view/View;I)V
 
     return-void
 
@@ -784,7 +839,8 @@
 
     .line 4
     :try_start_0
-    invoke-static {p0, p1}, Landroidx/core/view/ViewParentCompat$Api21Impl;->onStopNestedScroll(Landroid/view/ViewParent;Landroid/view/View;)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewParentCompat$Api21Impl;
+    ->onStopNestedScroll(Landroid/view/ViewParent;Landroid/view/View;)V
     :try_end_0
     .catch Ljava/lang/AbstractMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -798,21 +854,26 @@
 
     const-string v0, "ViewParent "
 
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p0, " does not implement interface method onStopNestedScroll"
 
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
     const-string p2, "ViewParentCompat"
 
-    invoke-static {p2, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_1
     return-void
@@ -824,7 +885,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/ViewParent;->requestSendAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
+    invoke-interface {p0, p1, p2}, Landroid/view/ViewParent;
+    ->requestSendAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
 
     .line 2
     .line 3

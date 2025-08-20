@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -24,12 +25,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p3, p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$IVersions;->zza(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-interface {p3, p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$IVersions;
+    ->zza(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 7
     .line 8
@@ -37,7 +40,8 @@
     move-result v1
 
     .line 10
-    iput v1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;->localVersion:I
+    iput v1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;
+    ->localVersion:I
 
     .line 11
     .line 12
@@ -51,7 +55,8 @@
 
     .line 15
     .line 16
-    invoke-interface {p3, p1, p2, v3}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$IVersions;->zzb(Landroid/content/Context;Ljava/lang/String;Z)I
+    invoke-interface {p3, p1, p2, v3}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$IVersions;
+    ->zzb(Landroid/content/Context;Ljava/lang/String;Z)I
 
     .line 17
     .line 18
@@ -59,7 +64,8 @@
     move-result p1
 
     .line 20
-    iput p1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;->remoteVersion:I
+    iput p1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;
+    ->remoteVersion:I
 
     .line 21
     .line 22
@@ -67,7 +73,8 @@
 
     .line 23
     :cond_0
-    invoke-interface {p3, p1, p2, v2}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$IVersions;->zzb(Landroid/content/Context;Ljava/lang/String;Z)I
+    invoke-interface {p3, p1, p2, v2}, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$IVersions;
+    ->zzb(Landroid/content/Context;Ljava/lang/String;Z)I
 
     .line 24
     .line 25
@@ -75,12 +82,14 @@
     move-result p1
 
     .line 27
-    iput p1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;->remoteVersion:I
+    iput p1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;
+    ->remoteVersion:I
 
     .line 28
     .line 29
     :goto_0
-    iget p2, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;->localVersion:I
+    iget p2, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;
+    ->localVersion:I
 
     .line 30
     .line 31
@@ -115,7 +124,8 @@
 
     .line 42
     :goto_1
-    iput v2, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;->selection:I
+    iput v2, v0, Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy$SelectionResult;
+    ->selection:I
 
     .line 43
     .line 44

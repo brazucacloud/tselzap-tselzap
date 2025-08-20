@@ -20,7 +20,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -28,7 +29,8 @@
     array-length v0, p0
 
     .line 7
-    invoke-static {p0, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p0, v0}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -40,7 +42,8 @@
 
     .line 12
     .line 13
-    invoke-static {p0}, Landroidx/datastore/preferences/core/PreferencesFactory;->createMutable([Landroidx/datastore/preferences/core/Preferences$Pair;)Landroidx/datastore/preferences/core/MutablePreferences;
+    invoke-static {p0}, Landroidx/datastore/preferences/core/PreferencesFactory;
+    ->createMutable([Landroidx/datastore/preferences/core/Preferences$Pair;)Landroidx/datastore/preferences/core/MutablePreferences;
 
     .line 14
     .line 15
@@ -64,7 +67,8 @@
     const/4 v2, 0x1
 
     .line 5
-    invoke-direct {v0, v1, v2, v2, v1}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1, v2, v2, v1}, Landroidx/datastore/preferences/core/MutablePreferences;
+    -><init>(Ljava/util/Map;ZILkotlin/jvm/internal/e;)V
 
     .line 6
     .line 7
@@ -88,7 +92,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -106,7 +111,8 @@
     const/4 v3, 0x0
 
     .line 11
-    invoke-direct {v0, v3, v1, v2, v3}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2, v3}, Landroidx/datastore/preferences/core/MutablePreferences;
+    -><init>(Ljava/util/Map;ZILkotlin/jvm/internal/e;)V
 
     .line 12
     .line 13
@@ -114,7 +120,8 @@
     array-length v1, p0
 
     .line 15
-    invoke-static {p0, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p0, v1}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -126,7 +133,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/core/MutablePreferences;->putAll([Landroidx/datastore/preferences/core/Preferences$Pair;)V
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->putAll([Landroidx/datastore/preferences/core/Preferences$Pair;)V
 
     .line 22
     .line 23

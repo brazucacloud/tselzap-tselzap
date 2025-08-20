@@ -44,13 +44,15 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/fragment/R$styleable;->Fragment:[I
+    sput-object v1, Landroidx/fragment/R$styleable;
+    ->Fragment:[I
 
     filled-new-array {v0, v2}, [I
 
     move-result-object v0
 
-    sput-object v0, Landroidx/fragment/R$styleable;->FragmentContainerView:[I
+    sput-object v0, Landroidx/fragment/R$styleable;
+    ->FragmentContainerView:[I
 
     return-void
 .end method
@@ -58,7 +60,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

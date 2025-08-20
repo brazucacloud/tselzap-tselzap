@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/fragments/ApiContact_coder;->connectToSocket()V
+    value = Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->connectToSocket()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$2;->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$2;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -59,7 +62,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Lorg/json/JSONObject;
+    ->optString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -71,7 +75,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;
+    ->optString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -79,11 +84,13 @@
     move-result-object p1
 
     .line 18
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$2;->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$2;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
 
     .line 19
     .line 20
-    invoke-static {v1, v0, p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->o(Lcom/fmark/tselzap/fragments/ApiContact_coder;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0, p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->o(Lcom/fmark/tselzap/fragments/ApiContact_coder;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     .line 22

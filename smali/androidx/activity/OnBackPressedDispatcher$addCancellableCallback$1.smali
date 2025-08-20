@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/OnBackPressedDispatcher;->addCancellableCallback$activity_release(Landroidx/activity/OnBackPressedCallback;)Landroidx/activity/Cancellable;
+    value = Landroidx/activity/OnBackPressedDispatcher;
+    ->addCancellableCallback$activity_release(Landroidx/activity/OnBackPressedCallback;)Landroidx/activity/Cancellable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -53,7 +54,8 @@
     move-object v2, p1
 
     .line 11
-    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/h;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/h;
+    -><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 return-void
 .end method
 
@@ -63,9 +65,11 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$addCancellableCallback$1;->invoke()V
+    invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$addCancellableCallback$1;
+    ->invoke()V
 
-    sget-object v0, Lc1/v;->a:Lc1/v;
+    sget-object v0, Lc1/v;
+    ->a:Lc1/v;
 
     return-object v0
 .end method
@@ -74,11 +78,13 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Lkotlin/jvm/internal/b;->receiver:Ljava/lang/Object;
+    iget-object v0, p0, Lkotlin/jvm/internal/b;
+    ->receiver:Ljava/lang/Object;
 
     check-cast v0, Landroidx/activity/OnBackPressedDispatcher;
 
-    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$updateEnabledCallbacks(Landroidx/activity/OnBackPressedDispatcher;)V
+    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;
+    ->access$updateEnabledCallbacks(Landroidx/activity/OnBackPressedDispatcher;)V
 return-void
 .end method
 

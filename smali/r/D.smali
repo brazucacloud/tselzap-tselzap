@@ -31,7 +31,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 4
     .line 5
@@ -46,7 +47,8 @@
     const/4 v2, 0x1
 
     .line 10
-    invoke-direct {v1, v2}, Lr/k;-><init>(I)V
+    invoke-direct {v1, v2}, Lr/k;
+    -><init>(I)V
 
     .line 11
     .line 12
@@ -59,19 +61,22 @@
 
     .line 16
     .line 17
-    invoke-direct {v2, v3, v0, v1}, Li/h;-><init>(Ljava/lang/String;Ljava/lang/Object;Li/g;)V
+    invoke-direct {v2, v3, v0, v1}, Li/h;
+    -><init>(Ljava/lang/String;Ljava/lang/Object;Li/g;)V
 
     .line 18
     .line 19
     .line 20
-    sput-object v2, Lr/D;->d:Li/h;
+    sput-object v2, Lr/D;
+    ->d:Li/h;
 
     .line 21
     .line 22
     const/4 v0, 0x2
 
     .line 23
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 24
     .line 25
@@ -86,7 +91,8 @@
     const/4 v2, 0x2
 
     .line 30
-    invoke-direct {v1, v2}, Lr/k;-><init>(I)V
+    invoke-direct {v1, v2}, Lr/k;
+    -><init>(I)V
 
     .line 31
     .line 32
@@ -99,12 +105,14 @@
 
     .line 36
     .line 37
-    invoke-direct {v2, v3, v0, v1}, Li/h;-><init>(Ljava/lang/String;Ljava/lang/Object;Li/g;)V
+    invoke-direct {v2, v3, v0, v1}, Li/h;
+    -><init>(Ljava/lang/String;Ljava/lang/Object;Li/g;)V
 
     .line 38
     .line 39
     .line 40
-    sput-object v2, Lr/D;->e:Li/h;
+    sput-object v2, Lr/D;
+    ->e:Li/h;
 
     .line 41
     .line 42
@@ -116,12 +124,14 @@
 
     .line 45
     .line 46
-    invoke-direct {v0, v1}, Lu0/f;-><init>(I)V
+    invoke-direct {v0, v1}, Lu0/f;
+    -><init>(I)V
 
     .line 47
     .line 48
     .line 49
-    sput-object v0, Lr/D;->f:Lu0/f;
+    sput-object v0, Lr/D;
+    ->f:Lu0/f;
 
     .line 50
     .line 51
@@ -132,24 +142,29 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lr/D;->b:Ll/a;
+    iput-object p1, p0, Lr/D;
+    ->b:Ll/a;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lr/D;->a:Lu0/f;
+    iput-object p2, p0, Lr/D;
+    ->a:Lu0/f;
 
     .line 7
     .line 8
-    sget-object p1, Lr/D;->f:Lu0/f;
+    sget-object p1, Lr/D;
+    ->f:Lu0/f;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lr/D;->c:Lu0/f;
+    iput-object p1, p0, Lr/D;
+    ->c:Lu0/f;
 
     .line 11
     .line 12
@@ -164,7 +179,8 @@
 
     .line 2
     .line 3
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 4
     .line 5
@@ -191,7 +207,8 @@
 
     .line 15
     .line 16
-    sget-object v4, Lr/o;->e:Lr/o;
+    sget-object v4, Lr/o;
+    ->e:Lr/o;
 
     .line 17
     .line 18
@@ -204,7 +221,8 @@
     .line 21
     .line 22
     :try_start_0
-    invoke-virtual {p0, v4}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Landroid/media/MediaMetadataRetriever;
+    ->extractMetadata(I)Ljava/lang/String;
 
     .line 23
     .line 24
@@ -212,7 +230,8 @@
     move-result-object v4
 
     .line 26
-    invoke-static {v4}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v4}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 27
     .line 28
@@ -224,7 +243,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0, v5}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
+    invoke-virtual {p0, v5}, Landroid/media/MediaMetadataRetriever;
+    ->extractMetadata(I)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -232,7 +252,8 @@
     move-result-object v5
 
     .line 36
-    invoke-static {v5}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v5}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 37
     .line 38
@@ -244,7 +265,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {p0, v6}, Landroid/media/MediaMetadataRetriever;->extractMetadata(I)Ljava/lang/String;
+    invoke-virtual {p0, v6}, Landroid/media/MediaMetadataRetriever;
+    ->extractMetadata(I)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -252,7 +274,8 @@
     move-result-object v6
 
     .line 46
-    invoke-static {v6}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v6}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 47
     .line 48
@@ -287,7 +310,8 @@
 
     .line 61
     :cond_1
-    invoke-virtual {v3, v4, v5, p4, p5}, Lr/o;->b(IIII)F
+    invoke-virtual {v3, v4, v5, p4, p5}, Lr/o;
+    ->b(IIII)F
 
     .line 62
     .line 63
@@ -302,7 +326,8 @@
 
     .line 67
     .line 68
-    invoke-static {v2}, Ljava/lang/Math;->round(F)I
+    invoke-static {v2}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 69
     .line 70
@@ -317,7 +342,8 @@
 
     .line 74
     .line 75
-    invoke-static {v0}, Ljava/lang/Math;->round(F)I
+    invoke-static {v0}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 76
     .line 77
@@ -337,7 +363,8 @@
     move-wide v2, p1
 
     .line 83
-    invoke-static/range {v1 .. v6}, Lcom/google/android/gms/dynamite/a;->a(Landroid/media/MediaMetadataRetriever;JIII)Landroid/graphics/Bitmap;
+    invoke-static/range {v1 .. v6}, Lcom/google/android/gms/dynamite/a;
+    ->a(Landroid/media/MediaMetadataRetriever;JIII)Landroid/graphics/Bitmap;
 
     .line 84
     .line 85
@@ -361,7 +388,8 @@
 
     .line 91
     .line 92
-    invoke-static {v2, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 93
     .line 94
@@ -377,7 +405,8 @@
 
     .line 99
     .line 100
-    invoke-static {v2, v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 101
     .line 102
@@ -388,7 +417,8 @@
 
     .line 104
     .line 105
-    invoke-virtual/range {p0 .. p3}, Landroid/media/MediaMetadataRetriever;->getFrameAtTime(JI)Landroid/graphics/Bitmap;
+    invoke-virtual/range {p0 .. p3}, Landroid/media/MediaMetadataRetriever;
+    ->getFrameAtTime(JI)Landroid/graphics/Bitmap;
 
     .line 106
     .line 107
@@ -413,7 +443,8 @@
 
     .line 115
     .line 116
-    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -1348,11 +1379,13 @@
 
     .line 4
     .line 5
-    sget-object v2, Lr/D;->d:Li/h;
+    sget-object v2, Lr/D;
+    ->d:Li/h;
 
     .line 6
     .line 7
-    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;
+    ->c(Li/h;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -1364,7 +1397,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v2}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 14
     .line 15
@@ -1408,7 +1442,8 @@
 
     .line 33
     .line 34
-    invoke-static {v2, v4, v5}, LA/d;->e(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v2, v4, v5}, LA/d;
+    ->e(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -1416,7 +1451,8 @@
     move-result-object v2
 
     .line 38
-    invoke-direct {v0, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -1426,11 +1462,13 @@
     .line 42
     :cond_1
     :goto_0
-    sget-object v2, Lr/D;->e:Li/h;
+    sget-object v2, Lr/D;
+    ->e:Li/h;
 
     .line 43
     .line 44
-    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;
+    ->c(Li/h;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -1449,7 +1487,8 @@
     const/4 v2, 0x2
 
     .line 53
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 54
     .line 55
@@ -1458,11 +1497,13 @@
 
     .line 57
     :cond_2
-    sget-object v3, Lr/o;->g:Li/h;
+    sget-object v3, Lr/o;
+    ->g:Li/h;
 
     .line 58
     .line 59
-    invoke-virtual {v0, v3}, Li/i;->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v3}, Li/i;
+    ->c(Li/h;)Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -1478,7 +1519,8 @@
 
     .line 66
     .line 67
-    sget-object v0, Lr/o;->f:Lr/o;
+    sget-object v0, Lr/o;
+    ->f:Lr/o;
 
     .line 68
     .line 69
@@ -1486,11 +1528,13 @@
     move-object v9, v0
 
     .line 70
-    iget-object v0, v1, Lr/D;->c:Lu0/f;
+    iget-object v0, v1, Lr/D;
+    ->c:Lu0/f;
 
     .line 71
     .line 72
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 73
     .line 74
@@ -1499,17 +1543,20 @@
 
     .line 76
     .line 77
-    invoke-direct {v3}, Landroid/media/MediaMetadataRetriever;-><init>()V
+    invoke-direct {v3}, Landroid/media/MediaMetadataRetriever;
+    -><init>()V
 
     .line 78
     .line 79
     .line 80
     :try_start_0
-    iget-object v0, v1, Lr/D;->a:Lu0/f;
+    iget-object v0, v1, Lr/D;
+    ->a:Lu0/f;
 
     .line 81
     .line 82
-    iget v0, v0, Lu0/f;->b:I
+    iget v0, v0, Lu0/f;
+    ->b:I
 
     .line 83
     .line 84
@@ -1526,7 +1573,8 @@
 
     .line 90
     .line 91
-    invoke-virtual {v0}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+    invoke-virtual {v0}, Landroid/os/ParcelFileDescriptor;
+    ->getFileDescriptor()Ljava/io/FileDescriptor;
 
     .line 92
     .line 93
@@ -1534,7 +1582,8 @@
     move-result-object v0
 
     .line 95
-    invoke-virtual {v3, v0}, Landroid/media/MediaMetadataRetriever;->setDataSource(Ljava/io/FileDescriptor;)V
+    invoke-virtual {v3, v0}, Landroid/media/MediaMetadataRetriever;
+    ->setDataSource(Ljava/io/FileDescriptor;)V
 
     .line 96
     .line 97
@@ -1555,12 +1604,14 @@
 
     .line 104
     .line 105
-    invoke-direct {v6, v0}, Lr/C;-><init>(Ljava/nio/ByteBuffer;)V
+    invoke-direct {v6, v0}, Lr/C;
+    -><init>(Ljava/nio/ByteBuffer;)V
 
     .line 106
     .line 107
     .line 108
-    invoke-static {v3, v6}, Lcom/google/android/gms/internal/measurement/a;->l(Landroid/media/MediaMetadataRetriever;Lr/C;)V
+    invoke-static {v3, v6}, Lcom/google/android/gms/internal/measurement/a;
+    ->l(Landroid/media/MediaMetadataRetriever;Lr/C;)V
 
     .line 109
     .line 110
@@ -1577,7 +1628,8 @@
 
     .line 115
     .line 116
-    invoke-virtual {v0}, Landroid/content/res/AssetFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+    invoke-virtual {v0}, Landroid/content/res/AssetFileDescriptor;
+    ->getFileDescriptor()Ljava/io/FileDescriptor;
 
     .line 117
     .line 118
@@ -1585,7 +1637,8 @@
     move-result-object v11
 
     .line 120
-    invoke-virtual {v0}, Landroid/content/res/AssetFileDescriptor;->getStartOffset()J
+    invoke-virtual {v0}, Landroid/content/res/AssetFileDescriptor;
+    ->getStartOffset()J
 
     .line 121
     .line 122
@@ -1593,7 +1646,8 @@
     move-result-wide v12
 
     .line 124
-    invoke-virtual {v0}, Landroid/content/res/AssetFileDescriptor;->getLength()J
+    invoke-virtual {v0}, Landroid/content/res/AssetFileDescriptor;
+    ->getLength()J
 
     .line 125
     .line 126
@@ -1607,7 +1661,8 @@
 
     .line 129
     :try_start_1
-    invoke-virtual/range {v10 .. v15}, Landroid/media/MediaMetadataRetriever;->setDataSource(Ljava/io/FileDescriptor;JJ)V
+    invoke-virtual/range {v10 .. v15}, Landroid/media/MediaMetadataRetriever;
+    ->setDataSource(Ljava/io/FileDescriptor;JJ)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -1619,7 +1674,8 @@
     .line 133
     :goto_1
     :try_start_2
-    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v2}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 134
     .line 135
@@ -1635,7 +1691,8 @@
 
     .line 140
     .line 141
-    invoke-static/range {v3 .. v9}, Lr/D;->c(Landroid/media/MediaMetadataRetriever;JIIILr/o;)Landroid/graphics/Bitmap;
+    invoke-static/range {v3 .. v9}, Lr/D;
+    ->c(Landroid/media/MediaMetadataRetriever;JIIILr/o;)Landroid/graphics/Bitmap;
 
     .line 142
     .line 143
@@ -1645,16 +1702,19 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 145
-    invoke-virtual {v3}, Landroid/media/MediaMetadataRetriever;->release()V
+    invoke-virtual {v3}, Landroid/media/MediaMetadataRetriever;
+    ->release()V
 
     .line 146
     .line 147
     .line 148
-    iget-object v2, v1, Lr/D;->b:Ll/a;
+    iget-object v2, v1, Lr/D;
+    ->b:Ll/a;
 
     .line 149
     .line 150
-    invoke-static {v0, v2}, Lr/c;->a(Landroid/graphics/Bitmap;Ll/a;)Lr/c;
+    invoke-static {v0, v2}, Lr/c;
+    ->a(Landroid/graphics/Bitmap;Ll/a;)Lr/c;
 
     .line 151
     .line 152
@@ -1679,7 +1739,8 @@
 
     .line 159
     :goto_2
-    invoke-virtual {v3}, Landroid/media/MediaMetadataRetriever;->release()V
+    invoke-virtual {v3}, Landroid/media/MediaMetadataRetriever;
+    ->release()V
 
     .line 160
     .line 161

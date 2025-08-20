@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentStateManager;->createView()V
+    value = Landroidx/fragment/app/FragmentStateManager;
+    ->createView()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,15 +34,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentStateManager$1;->this$0:Landroidx/fragment/app/FragmentStateManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentStateManager$1;
+    ->this$0:Landroidx/fragment/app/FragmentStateManager;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/FragmentStateManager$1;->val$fragmentView:Landroid/view/View;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentStateManager$1;
+    ->val$fragmentView:Landroid/view/View;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -51,20 +55,25 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentStateManager$1;->val$fragmentView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentStateManager$1;
+    ->val$fragmentView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/View;
+    ->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/fragment/app/FragmentStateManager$1;->val$fragmentView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentStateManager$1;
+    ->val$fragmentView:Landroid/view/View;
 
     .line 7
     .line 8
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V    return-void
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;
+    ->requestApplyInsets(Landroid/view/View;)V    
+    return-void
 .end method
 
 .method public onViewDetachedFromWindow(Landroid/view/View;)V

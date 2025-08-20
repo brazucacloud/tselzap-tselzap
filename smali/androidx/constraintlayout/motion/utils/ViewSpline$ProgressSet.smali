@@ -23,7 +23,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;
+    -><init>()V
 
     .line 2
     .line 3
@@ -31,7 +32,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;->mNoMethod:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;
+    ->mNoMethod:Z
 return-void
 .end method
 
@@ -67,7 +69,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->get(F)F
 
     .line 14
     .line 15
@@ -75,12 +78,14 @@ return-void
     move-result p2
 
     .line 17
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->setProgress(F)V
 return-void
 
     .line 21
     :cond_0
-    iget-boolean v4, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;->mNoMethod:Z
+    iget-boolean v4, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;
+    ->mNoMethod:Z
 
     .line 22
     .line 23
@@ -93,7 +98,8 @@ return-void
     .line 26
     :cond_1
     :try_start_0
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 27
     .line 28
@@ -109,7 +115,8 @@ return-void
 
     .line 33
     .line 34
-    sget-object v7, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Float;
+    ->TYPE:Ljava/lang/Class;
 
     .line 35
     .line 36
@@ -117,7 +124,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v4, v5, v6}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 39
     .line 40
@@ -131,7 +139,8 @@ return-void
 
     .line 43
     :catch_0
-    iput-boolean v1, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;->mNoMethod:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;
+    ->mNoMethod:Z
 
     .line 44
     .line 45
@@ -144,7 +153,8 @@ return-void
     .line 47
     .line 48
     :try_start_1
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->get(F)F
 
     .line 49
     .line 50
@@ -152,7 +162,8 @@ return-void
     move-result p2
 
     .line 52
-    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p2}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 53
     .line 54
@@ -168,7 +179,8 @@ return-void
 
     .line 59
     .line 60
-    invoke-virtual {v4, p1, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, p1, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_1 .. :try_end_1} :catch_1
@@ -194,7 +206,8 @@ return-void
 
     .line 68
     :goto_1
-    invoke-static {v3, v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 69
     .line 70
@@ -203,7 +216,8 @@ return-void
 
     .line 72
     :goto_2
-    invoke-static {v3, v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 73
     .line 74

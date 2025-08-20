@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -39,7 +40,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -55,7 +57,8 @@
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Collection;->size()I
+    invoke-interface {v0}, Ljava/util/Collection;
+    ->size()I
 
     .line 17
     .line 18
@@ -72,12 +75,14 @@
     const/4 v3, 0x0
 
     .line 23
-    invoke-direct {v1, v3, v0, v2}, Lu1/e;-><init>(III)V
+    invoke-direct {v1, v3, v0, v2}, Lu1/e;
+    -><init>(III)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v1}, Lu1/e;->b()Lu1/f;
+    invoke-virtual {v1}, Lu1/e;
+    ->b()Lu1/f;
 
     .line 27
     .line 28
@@ -85,7 +90,8 @@
     move-result-object v0
 
     .line 30
-    iget-boolean v1, v0, Lu1/f;->d:Z
+    iget-boolean v1, v0, Lu1/f;
+    ->d:Z
 
     .line 31
     .line 32
@@ -93,7 +99,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v0}, Ld1/y;->nextInt()I
+    invoke-virtual {v0}, Ld1/y;
+    ->nextInt()I
 
     .line 35
     .line 36
@@ -101,7 +108,8 @@
     move-result v1
 
     .line 38
-    iget-boolean v4, v0, Lu1/f;->d:Z
+    iget-boolean v4, v0, Lu1/f;
+    ->d:Z
 
     .line 39
     .line 40
@@ -113,7 +121,8 @@
 
     .line 43
     :cond_0
-    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -125,7 +134,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 50
     .line 51
@@ -133,7 +143,8 @@
     move-result-object v4
 
     .line 53
-    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -145,7 +156,8 @@
 
     .line 58
     .line 59
-    invoke-virtual {v5}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v5}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 60
     .line 61
@@ -153,7 +165,8 @@
     move-result-object v5
 
     .line 63
-    invoke-static {v4, v5}, Landroidx/graphics/shapes/FeatureMappingKt;->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
+    invoke-static {v4, v5}, Landroidx/graphics/shapes/FeatureMappingKt;
+    ->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
 
     .line 64
     .line 65
@@ -162,7 +175,8 @@
 
     .line 67
     :cond_1
-    invoke-virtual {v0}, Ld1/y;->nextInt()I
+    invoke-virtual {v0}, Ld1/y;
+    ->nextInt()I
 
     .line 68
     .line 69
@@ -170,7 +184,8 @@
     move-result v5
 
     .line 71
-    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -182,7 +197,8 @@
 
     .line 76
     .line 77
-    invoke-virtual {v6}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v6}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 78
     .line 79
@@ -190,7 +206,8 @@
     move-result-object v6
 
     .line 81
-    invoke-interface {p1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v5}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -202,7 +219,8 @@
 
     .line 86
     .line 87
-    invoke-virtual {v7}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v7}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 88
     .line 89
@@ -210,7 +228,8 @@
     move-result-object v7
 
     .line 91
-    invoke-static {v6, v7}, Landroidx/graphics/shapes/FeatureMappingKt;->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
+    invoke-static {v6, v7}, Landroidx/graphics/shapes/FeatureMappingKt;
+    ->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
 
     .line 92
     .line 93
@@ -218,7 +237,8 @@
     move-result v6
 
     .line 95
-    invoke-static {v4, v6}, Ljava/lang/Float;->compare(FF)I
+    invoke-static {v4, v6}, Ljava/lang/Float;
+    ->compare(FF)I
 
     .line 96
     .line 97
@@ -237,7 +257,8 @@
 
     .line 103
     :cond_2
-    iget-boolean v5, v0, Lu1/f;->d:Z
+    iget-boolean v5, v0, Lu1/f;
+    ->d:Z
 
     .line 104
     .line 105
@@ -246,7 +267,8 @@
     .line 106
     .line 107
     :goto_0
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 108
     .line 109
@@ -254,7 +276,8 @@
     move-result v0
 
     .line 111
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 112
     .line 113
@@ -266,7 +289,8 @@
 
     .line 116
     .line 117
-    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 118
     .line 119
@@ -278,7 +302,8 @@
 
     .line 122
     .line 123
-    invoke-static {v5}, Ld1/l;->h0([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v5}, Ld1/l;
+    ->h0([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     .line 124
     .line 125
@@ -325,12 +350,14 @@
 
     .line 142
     .line 143
-    invoke-direct {v8, v6, v7, v2}, Lu1/e;-><init>(III)V
+    invoke-direct {v8, v6, v7, v2}, Lu1/e;
+    -><init>(III)V
 
     .line 144
     .line 145
     .line 146
-    invoke-virtual {v8}, Lu1/e;->b()Lu1/f;
+    invoke-virtual {v8}, Lu1/e;
+    ->b()Lu1/f;
 
     .line 147
     .line 148
@@ -338,7 +365,8 @@
     move-result-object v6
 
     .line 150
-    iget-boolean v7, v6, Lu1/f;->d:Z
+    iget-boolean v7, v6, Lu1/f;
+    ->d:Z
 
     .line 151
     .line 152
@@ -346,7 +374,8 @@
 
     .line 153
     .line 154
-    invoke-virtual {v6}, Ld1/y;->nextInt()I
+    invoke-virtual {v6}, Ld1/y;
+    ->nextInt()I
 
     .line 155
     .line 156
@@ -354,7 +383,8 @@
     move-result v7
 
     .line 158
-    iget-boolean v8, v6, Lu1/f;->d:Z
+    iget-boolean v8, v6, Lu1/f;
+    ->d:Z
 
     .line 159
     .line 160
@@ -370,7 +400,8 @@
 
     .line 164
     :cond_4
-    invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v5}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 165
     .line 166
@@ -382,7 +413,8 @@
 
     .line 169
     .line 170
-    invoke-virtual {v8}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v8}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 171
     .line 172
@@ -394,7 +426,8 @@
 
     .line 175
     .line 176
-    invoke-interface {p1, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v9}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 177
     .line 178
@@ -406,7 +439,8 @@
 
     .line 181
     .line 182
-    invoke-virtual {v9}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v9}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 183
     .line 184
@@ -414,7 +448,8 @@
     move-result-object v9
 
     .line 186
-    invoke-static {v8, v9}, Landroidx/graphics/shapes/FeatureMappingKt;->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
+    invoke-static {v8, v9}, Landroidx/graphics/shapes/FeatureMappingKt;
+    ->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
 
     .line 187
     .line 188
@@ -423,7 +458,8 @@
 
     .line 190
     :cond_5
-    invoke-virtual {v6}, Ld1/y;->nextInt()I
+    invoke-virtual {v6}, Ld1/y;
+    ->nextInt()I
 
     .line 191
     .line 192
@@ -431,7 +467,8 @@
     move-result v9
 
     .line 194
-    invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v5}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 195
     .line 196
@@ -443,7 +480,8 @@
 
     .line 199
     .line 200
-    invoke-virtual {v10}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v10}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 201
     .line 202
@@ -455,7 +493,8 @@
 
     .line 205
     .line 206
-    invoke-interface {p1, v11}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v11}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 207
     .line 208
@@ -467,7 +506,8 @@
 
     .line 211
     .line 212
-    invoke-virtual {v11}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v11}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 213
     .line 214
@@ -475,7 +515,8 @@
     move-result-object v11
 
     .line 216
-    invoke-static {v10, v11}, Landroidx/graphics/shapes/FeatureMappingKt;->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
+    invoke-static {v10, v11}, Landroidx/graphics/shapes/FeatureMappingKt;
+    ->featureDistSquared(Landroidx/graphics/shapes/Feature;Landroidx/graphics/shapes/Feature;)F
 
     .line 217
     .line 218
@@ -483,7 +524,8 @@
     move-result v10
 
     .line 220
-    invoke-static {v8, v10}, Ljava/lang/Float;->compare(FF)I
+    invoke-static {v8, v10}, Ljava/lang/Float;
+    ->compare(FF)I
 
     .line 221
     .line 222
@@ -502,7 +544,8 @@
 
     .line 228
     :cond_6
-    iget-boolean v9, v6, Lu1/f;->d:Z
+    iget-boolean v9, v6, Lu1/f;
+    ->d:Z
 
     .line 229
     .line 230
@@ -518,7 +561,8 @@
 
     .line 234
     .line 235
-    invoke-interface {p1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v7}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 236
     .line 237
@@ -526,7 +570,8 @@
     move-result-object v7
 
     .line 239
-    invoke-virtual {v3, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v7}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 240
     .line 241
@@ -543,7 +588,8 @@
 
     .line 246
     .line 247
-    invoke-direct {p0}, Ljava/util/NoSuchElementException;-><init>()V
+    invoke-direct {p0}, Ljava/util/NoSuchElementException;
+    -><init>()V
 
     .line 248
     .line 249
@@ -560,7 +606,8 @@
 
     .line 253
     .line 254
-    invoke-direct {p0}, Ljava/util/NoSuchElementException;-><init>()V
+    invoke-direct {p0}, Ljava/util/NoSuchElementException;
+    -><init>()V
 
     .line 255
     .line 256
@@ -575,7 +622,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -584,7 +632,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -612,7 +661,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Feature$Corner;->getConvex()Z
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Feature$Corner;
+    ->getConvex()Z
 
     .line 23
     .line 24
@@ -627,7 +677,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Landroidx/graphics/shapes/Feature$Corner;->getConvex()Z
+    invoke-virtual {v1}, Landroidx/graphics/shapes/Feature$Corner;
+    ->getConvex()Z
 
     .line 30
     .line 31
@@ -643,7 +694,8 @@
 
     .line 39
     :cond_0
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 40
     .line 41
@@ -651,7 +703,8 @@
     move-result-object v0
 
     .line 43
-    invoke-static {v0}, Ld1/k;->q0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v0}, Ld1/k;
+    ->q0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -663,7 +716,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 50
     .line 51
@@ -671,7 +725,8 @@
     move-result v0
 
     .line 53
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 54
     .line 55
@@ -679,7 +734,8 @@
     move-result-object v1
 
     .line 57
-    invoke-static {v1}, Ld1/k;->w0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v1}, Ld1/k;
+    ->w0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -691,7 +747,8 @@
 
     .line 62
     .line 63
-    invoke-virtual {v1}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {v1}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 64
     .line 65
@@ -709,7 +766,8 @@
     div-float/2addr v1, v0
 
     .line 71
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 72
     .line 73
@@ -717,7 +775,8 @@
     move-result-object v2
 
     .line 75
-    invoke-static {v2}, Ld1/k;->q0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v2}, Ld1/k;
+    ->q0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 76
     .line 77
@@ -729,7 +788,8 @@
 
     .line 80
     .line 81
-    invoke-virtual {v2}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v2}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 82
     .line 83
@@ -737,7 +797,8 @@
     move-result v2
 
     .line 85
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 86
     .line 87
@@ -745,7 +806,8 @@
     move-result-object p0
 
     .line 89
-    invoke-static {p0}, Ld1/k;->w0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Ld1/k;
+    ->w0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -757,7 +819,8 @@
 
     .line 94
     .line 95
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 96
     .line 97
@@ -771,7 +834,8 @@
     div-float/2addr p0, v0
 
     .line 101
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 102
     .line 103
@@ -779,7 +843,8 @@
     move-result-object v2
 
     .line 105
-    invoke-static {v2}, Ld1/k;->q0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v2}, Ld1/k;
+    ->q0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 106
     .line 107
@@ -791,7 +856,8 @@
 
     .line 110
     .line 111
-    invoke-virtual {v2}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
+    invoke-virtual {v2}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0X()F
 
     .line 112
     .line 113
@@ -799,7 +865,8 @@
     move-result v2
 
     .line 115
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 116
     .line 117
@@ -807,7 +874,8 @@
     move-result-object v3
 
     .line 119
-    invoke-static {v3}, Ld1/k;->w0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v3}, Ld1/k;
+    ->w0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 120
     .line 121
@@ -819,7 +887,8 @@
 
     .line 124
     .line 125
-    invoke-virtual {v3}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
+    invoke-virtual {v3}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1X()F
 
     .line 126
     .line 127
@@ -833,7 +902,8 @@
     div-float/2addr v3, v0
 
     .line 131
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 132
     .line 133
@@ -841,7 +911,8 @@
     move-result-object v2
 
     .line 135
-    invoke-static {v2}, Ld1/k;->q0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v2}, Ld1/k;
+    ->q0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 136
     .line 137
@@ -853,7 +924,8 @@
 
     .line 140
     .line 141
-    invoke-virtual {v2}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
+    invoke-virtual {v2}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor0Y()F
 
     .line 142
     .line 143
@@ -861,7 +933,8 @@
     move-result v2
 
     .line 145
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Feature;
+    ->getCubics()Ljava/util/List;
 
     .line 146
     .line 147
@@ -869,7 +942,8 @@
     move-result-object p1
 
     .line 149
-    invoke-static {p1}, Ld1/k;->w0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Ld1/k;
+    ->w0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 150
     .line 151
@@ -881,7 +955,8 @@
 
     .line 154
     .line 155
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
+    ->getAnchor1Y()F
 
     .line 156
     .line 157
@@ -934,7 +1009,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -943,7 +1019,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -952,12 +1029,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Le1/b;-><init>()V
+    invoke-direct {v0}, Le1/b;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 17
     .line 18
@@ -976,7 +1055,8 @@
 
     .line 23
     .line 24
-    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -988,7 +1068,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 31
     .line 32
@@ -1004,7 +1085,8 @@
 
     .line 37
     .line 38
-    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -1012,7 +1094,8 @@
     move-result-object v4
 
     .line 42
-    invoke-virtual {v0, v4}, Le1/b;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Le1/b;
+    ->add(Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -1026,7 +1109,8 @@
 
     .line 48
     :cond_1
-    invoke-static {v0}, Lcom/bumptech/glide/b;->e(Le1/b;)Le1/b;
+    invoke-static {v0}, Lcom/bumptech/glide/b;
+    ->e(Le1/b;)Le1/b;
 
     .line 49
     .line 50
@@ -1038,12 +1122,14 @@
 
     .line 53
     .line 54
-    invoke-direct {v0}, Le1/b;-><init>()V
+    invoke-direct {v0}, Le1/b;
+    -><init>()V
 
     .line 55
     .line 56
     .line 57
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 58
     .line 59
@@ -1059,7 +1145,8 @@
 
     .line 63
     .line 64
-    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1071,7 +1158,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;->getFeature()Landroidx/graphics/shapes/Feature;
+    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getFeature()Landroidx/graphics/shapes/Feature;
 
     .line 71
     .line 72
@@ -1087,7 +1175,8 @@
 
     .line 77
     .line 78
-    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 79
     .line 80
@@ -1095,7 +1184,8 @@
     move-result-object v4
 
     .line 82
-    invoke-virtual {v0, v4}, Le1/b;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Le1/b;
+    ->add(Ljava/lang/Object;)Z
 
     .line 83
     .line 84
@@ -1109,7 +1199,8 @@
 
     .line 88
     :cond_3
-    invoke-static {v0}, Lcom/bumptech/glide/b;->e(Le1/b;)Le1/b;
+    invoke-static {v0}, Lcom/bumptech/glide/b;
+    ->e(Le1/b;)Le1/b;
 
     .line 89
     .line 90
@@ -1117,7 +1208,8 @@
     move-result-object p1
 
     .line 92
-    invoke-virtual {p0}, Ld1/f;->b()I
+    invoke-virtual {p0}, Ld1/f;
+    ->b()I
 
     .line 93
     .line 94
@@ -1125,7 +1217,8 @@
     move-result v0
 
     .line 96
-    invoke-virtual {p1}, Ld1/f;->b()I
+    invoke-virtual {p1}, Ld1/f;
+    ->b()I
 
     .line 97
     .line 98
@@ -1137,7 +1230,8 @@
 
     .line 101
     .line 102
-    invoke-static {p1, p0}, Landroidx/graphics/shapes/FeatureMappingKt;->doMapping(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
+    invoke-static {p1, p0}, Landroidx/graphics/shapes/FeatureMappingKt;
+    ->doMapping(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
 
     .line 103
     .line 104
@@ -1149,7 +1243,8 @@
 
     .line 107
     .line 108
-    invoke-direct {v0, p0, p1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, p0, p1}, Lc1/f;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 109
     .line 110
@@ -1158,7 +1253,8 @@
 
     .line 112
     :cond_4
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/FeatureMappingKt;->doMapping(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/FeatureMappingKt;
+    ->doMapping(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
 
     .line 113
     .line 114
@@ -1170,13 +1266,15 @@
 
     .line 117
     .line 118
-    invoke-direct {v0, p0, p1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, p0, p1}, Lc1/f;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 119
     .line 120
     .line 121
     :goto_2
-    iget-object p0, v0, Lc1/f;->b:Ljava/lang/Object;
+    iget-object p0, v0, Lc1/f;
+    ->b:Ljava/lang/Object;
 
     .line 122
     .line 123
@@ -1184,7 +1282,8 @@
 
     .line 124
     .line 125
-    iget-object p1, v0, Lc1/f;->c:Ljava/lang/Object;
+    iget-object p1, v0, Lc1/f;
+    ->c:Ljava/lang/Object;
 
     .line 126
     .line 127
@@ -1196,12 +1295,14 @@
 
     .line 130
     .line 131
-    invoke-direct {v0}, Le1/b;-><init>()V
+    invoke-direct {v0}, Le1/b;
+    -><init>()V
 
     .line 132
     .line 133
     .line 134
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 135
     .line 136
@@ -1217,7 +1318,8 @@
 
     .line 140
     .line 141
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 142
     .line 143
@@ -1229,7 +1331,8 @@
 
     .line 146
     .line 147
-    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 148
     .line 149
@@ -1241,7 +1344,8 @@
 
     .line 152
     .line 153
-    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;->getProgress()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getProgress()F
 
     .line 154
     .line 155
@@ -1249,7 +1353,8 @@
     move-result v4
 
     .line 157
-    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {v4}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 158
     .line 159
@@ -1257,7 +1362,8 @@
     move-result-object v4
 
     .line 161
-    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 162
     .line 163
@@ -1269,7 +1375,8 @@
 
     .line 166
     .line 167
-    invoke-virtual {v5}, Landroidx/graphics/shapes/ProgressableFeature;->getProgress()F
+    invoke-virtual {v5}, Landroidx/graphics/shapes/ProgressableFeature;
+    ->getProgress()F
 
     .line 168
     .line 169
@@ -1277,7 +1384,8 @@
     move-result v5
 
     .line 171
-    invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {v5}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 172
     .line 173
@@ -1289,12 +1397,14 @@
 
     .line 176
     .line 177
-    invoke-direct {v6, v4, v5}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v6, v4, v5}, Lc1/f;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 178
     .line 179
     .line 180
-    invoke-virtual {v0, v6}, Le1/b;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v6}, Le1/b;
+    ->add(Ljava/lang/Object;)Z
 
     .line 181
     .line 182
@@ -1307,7 +1417,8 @@
 
     .line 186
     :cond_5
-    invoke-static {v0}, Lcom/bumptech/glide/b;->e(Le1/b;)Le1/b;
+    invoke-static {v0}, Lcom/bumptech/glide/b;
+    ->e(Le1/b;)Le1/b;
 
     .line 187
     .line 188
@@ -1323,7 +1434,8 @@
 
     .line 193
     .line 194
-    invoke-virtual {p0, v0}, Le1/b;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Le1/b;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 195
     .line 196
@@ -1338,7 +1450,8 @@
     array-length v0, p0
 
     .line 201
-    invoke-static {p0, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p0, v0}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 202
     .line 203
@@ -1350,7 +1463,8 @@
 
     .line 206
     .line 207
-    invoke-direct {p1, p0}, Landroidx/graphics/shapes/DoubleMapper;-><init>([Lc1/f;)V
+    invoke-direct {p1, p0}, Landroidx/graphics/shapes/DoubleMapper;
+    -><init>([Lc1/f;)V
 return-object p1
 .end method
 

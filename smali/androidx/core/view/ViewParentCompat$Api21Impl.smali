@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3, p4}, Landroid/view/ViewParent;->onNestedFling(Landroid/view/View;FFZ)Z
+    invoke-interface {p0, p1, p2, p3, p4}, Landroid/view/ViewParent;
+    ->onNestedFling(Landroid/view/View;FFZ)Z
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;->onNestedPreFling(Landroid/view/View;FF)Z
+    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;
+    ->onNestedPreFling(Landroid/view/View;FF)Z
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3, p4}, Landroid/view/ViewParent;->onNestedPreScroll(Landroid/view/View;II[I)V
+    invoke-interface {p0, p1, p2, p3, p4}, Landroid/view/ViewParent;
+    ->onNestedPreScroll(Landroid/view/View;II[I)V
 
     .line 2
     .line 3
@@ -83,7 +87,8 @@
     .end annotation
 
     .line 1
-    invoke-interface/range {p0 .. p5}, Landroid/view/ViewParent;->onNestedScroll(Landroid/view/View;IIII)V
+    invoke-interface/range {p0 .. p5}, Landroid/view/ViewParent;
+    ->onNestedScroll(Landroid/view/View;IIII)V
 
     .line 2
     .line 3
@@ -97,7 +102,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;->onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;I)V
+    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;
+    ->onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;I)V
 
     .line 2
     .line 3
@@ -111,7 +117,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;->onStartNestedScroll(Landroid/view/View;Landroid/view/View;I)Z
+    invoke-interface {p0, p1, p2, p3}, Landroid/view/ViewParent;
+    ->onStartNestedScroll(Landroid/view/View;Landroid/view/View;I)Z
 
     .line 2
     .line 3
@@ -127,7 +134,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/ViewParent;->onStopNestedScroll(Landroid/view/View;)V
+    invoke-interface {p0, p1}, Landroid/view/ViewParent;
+    ->onStopNestedScroll(Landroid/view/View;)V
 
     .line 2
     .line 3

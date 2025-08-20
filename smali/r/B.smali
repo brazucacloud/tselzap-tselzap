@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lr/B;->a:I
+    iput p1, p0, Lr/B;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +29,8 @@
     .locals 0
 
     .line 1
-    iget p2, p0, Lr/B;->a:I
+    iget p2, p0, Lr/B;
+    ->a:I
 
     .line 2
     .line 3
@@ -44,7 +47,8 @@
 
     .line 9
     .line 10
-    invoke-direct {p2, p1}, Lr/A;-><init>(Ljava/io/File;)V
+    invoke-direct {p2, p1}, Lr/A;
+    -><init>(Ljava/io/File;)V
 
     .line 11
     .line 12
@@ -68,7 +72,8 @@
     const/4 p3, 0x0
 
     .line 21
-    invoke-direct {p2, p1, p3}, Lt/a;-><init>(Landroid/graphics/drawable/Drawable;I)V
+    invoke-direct {p2, p1, p3}, Lt/a;
+    -><init>(Landroid/graphics/drawable/Drawable;I)V
 
     .line 22
     .line 23
@@ -93,7 +98,8 @@
 
     .line 30
     .line 31
-    invoke-direct {p2, p1}, Lr/A;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {p2, p1}, Lr/A;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 32
     .line 33
@@ -294,7 +300,8 @@
     .locals 0
 
     .line 1
-    iget p2, p0, Lr/B;->a:I
+    iget p2, p0, Lr/B;
+    ->a:I
 
     .line 2
     .line 3

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/loader/content/Loader$ForceLoadContentObserver;->this$0:Landroidx/loader/content/Loader;
+    iput-object p1, p0, Landroidx/loader/content/Loader$ForceLoadContentObserver;
+    ->this$0:Landroidx/loader/content/Loader;
 
     .line 2
     .line 3
@@ -31,12 +32,14 @@
 
     .line 4
     .line 5
-    invoke-direct {p1}, Landroid/os/Handler;-><init>()V
+    invoke-direct {p1}, Landroid/os/Handler;
+    -><init>()V
 
     .line 6
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
+    invoke-direct {p0, p1}, Landroid/database/ContentObserver;
+    -><init>(Landroid/os/Handler;)V
 return-void
 .end method
 
@@ -54,11 +57,13 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/loader/content/Loader$ForceLoadContentObserver;->this$0:Landroidx/loader/content/Loader;
+    iget-object p1, p0, Landroidx/loader/content/Loader$ForceLoadContentObserver;
+    ->this$0:Landroidx/loader/content/Loader;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/loader/content/Loader;->onContentChanged()V
+    invoke-virtual {p1}, Landroidx/loader/content/Loader;
+    ->onContentChanged()V
     return-void
 .end method
 

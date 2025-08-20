@@ -13,7 +13,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;
+    -><init>()V
     return-void
 .end method
 
@@ -21,7 +22,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1, p2}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 

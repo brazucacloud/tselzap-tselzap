@@ -15,7 +15,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/legacy/content/WakefulBroadcastReceiver;-><init>()V
+    invoke-direct {p0}, Landroidx/legacy/content/WakefulBroadcastReceiver;
+    -><init>()V
 
     .line 2
     .line 3
@@ -31,7 +32,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/BroadcastReceiver;->goAsync()Landroid/content/BroadcastReceiver$PendingResult;
+    invoke-virtual {p0}, Landroid/content/BroadcastReceiver;
+    ->goAsync()Landroid/content/BroadcastReceiver$PendingResult;
 
     .line 2
     .line 3
@@ -55,7 +57,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/legacy/content/WakefulBroadcastReceiver;->startWakefulService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {p1, p2}, Landroidx/legacy/content/WakefulBroadcastReceiver;
+    ->startWakefulService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 2
     .line 3
@@ -77,7 +80,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementReceiver;->zza:Lcom/google/android/gms/measurement/internal/zzhx;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementReceiver;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzhx;
 
     .line 2
     .line 3
@@ -89,21 +93,25 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/zzhx;-><init>(Lcom/google/android/gms/measurement/internal/zzhx$zza;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/zzhx;
+    -><init>(Lcom/google/android/gms/measurement/internal/zzhx$zza;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementReceiver;->zza:Lcom/google/android/gms/measurement/internal/zzhx;
+    iput-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementReceiver;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzhx;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementReceiver;->zza:Lcom/google/android/gms/measurement/internal/zzhx;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementReceiver;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzhx;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzhx;->zza(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzhx;
+    ->zza(Landroid/content/Context;Landroid/content/Intent;)V
 
     .line 15
     .line 16

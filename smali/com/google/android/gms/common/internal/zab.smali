@@ -12,17 +12,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
     .line 7
-    invoke-static {p1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {p1}, Ljava/util/Collections;
+    ->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     .line 8
     .line 9
@@ -30,7 +33,8 @@
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/zab;->zaa:Ljava/util/Set;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/zab;
+    ->zaa:Ljava/util/Set;
 
     .line 12
     .line 13

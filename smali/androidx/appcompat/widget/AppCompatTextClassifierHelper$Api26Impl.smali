@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +41,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -52,7 +54,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -68,7 +71,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/view/textclassifier/TextClassificationManager;->getTextClassifier()Landroid/view/textclassifier/TextClassifier;
+    invoke-virtual {p0}, Landroid/view/textclassifier/TextClassificationManager;
+    ->getTextClassifier()Landroid/view/textclassifier/TextClassifier;
 
     .line 16
     .line 17
@@ -79,7 +83,8 @@
 
     .line 20
     :cond_0
-    sget-object p0, Landroid/view/textclassifier/TextClassifier;->NO_OP:Landroid/view/textclassifier/TextClassifier;    return-object p0
+    sget-object p0, Landroid/view/textclassifier/TextClassifier;
+    ->NO_OP:Landroid/view/textclassifier/TextClassifier;    return-object p0
 .end method
 
 .end class

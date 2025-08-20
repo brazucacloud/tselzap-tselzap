@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -23,7 +24,8 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zad;
 
-    invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/internal/zad;-><init>(Landroid/content/Intent;Landroid/app/Activity;I)V
+    invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/internal/zad;
+    -><init>(Landroid/content/Intent;Landroid/app/Activity;I)V
 return-object v0
 .end method
 
@@ -40,7 +42,8 @@ return-object v0
 
     new-instance v0, Lcom/google/android/gms/common/internal/zae;
 
-    invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/internal/zae;-><init>(Landroid/content/Intent;Landroidx/fragment/app/Fragment;I)V
+    invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/internal/zae;
+    -><init>(Landroid/content/Intent;Landroidx/fragment/app/Fragment;I)V
 return-object v0
 .end method
 
@@ -59,7 +62,8 @@ return-object v0
 
     const/4 v0, 0x2
 
-    invoke-direct {p2, p1, p0, v0}, Lcom/google/android/gms/common/internal/zaf;-><init>(Landroid/content/Intent;Lcom/google/android/gms/common/api/internal/LifecycleFragment;I)V
+    invoke-direct {p2, p1, p0, v0}, Lcom/google/android/gms/common/internal/zaf;
+    -><init>(Landroid/content/Intent;Lcom/google/android/gms/common/api/internal/LifecycleFragment;I)V
 return-object p2
 .end method
 
@@ -70,7 +74,8 @@ return-object p2
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/zag;->zaa()V
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/zag;
+    ->zaa()V
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -101,7 +106,8 @@ return-object p2
 
     .line 11
     .line 12
-    sget-object v2, Landroid/os/Build;->FINGERPRINT:Ljava/lang/String;
+    sget-object v2, Landroid/os/Build;
+    ->FINGERPRINT:Ljava/lang/String;
 
     .line 13
     .line 14
@@ -109,7 +115,8 @@ return-object p2
 
     .line 15
     .line 16
-    invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 17
     .line 18
@@ -132,7 +139,8 @@ return-object p2
 
     .line 25
     .line 26
-    invoke-static {v1, v0, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -140,7 +148,8 @@ return-object p2
     .line 28
     .line 29
     :goto_0
-    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
+    invoke-interface {p1}, Landroid/content/DialogInterface;
+    ->dismiss()V
 
     .line 30
     .line 31
@@ -149,7 +158,8 @@ return-object p2
 
     .line 33
     :goto_1
-    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
+    invoke-interface {p1}, Landroid/content/DialogInterface;
+    ->dismiss()V
 
     .line 34
     .line 35

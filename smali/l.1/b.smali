@@ -12,9 +12,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Ll/b;->a:I
+    iput p1, p0, Ll/b;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -24,7 +26,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Ll/b;->a:I
+    iget v0, p0, Ll/b;
+    ->a:I
 
     .line 2
     .line 3
@@ -77,7 +80,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Ll/b;->a:I
+    iget v0, p0, Ll/b;
+    ->a:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -102,7 +106,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Ll/b;->a:I
+    iget v0, p0, Ll/b;
+    ->a:I
 
     .line 2
     .line 3

@@ -38,13 +38,15 @@
 
     new-array v0, v0, [Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
-    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;->PATH:Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->PATH:Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
     const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;->QUERY:Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->QUERY:Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
     const/4 v2, 0x1
 
@@ -68,12 +70,14 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/RouteBuilder$ParamType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    -><init>(Ljava/lang/String;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;->PATH:Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->PATH:Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
     .line 10
     .line 11
@@ -88,16 +92,19 @@
     const/4 v2, 0x1
 
     .line 16
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/RouteBuilder$ParamType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    -><init>(Ljava/lang/String;I)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;->QUERY:Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->QUERY:Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
     .line 20
     .line 21
-    invoke-static {}, Landroidx/navigation/serialization/RouteBuilder$ParamType;->$values()[Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    invoke-static {}, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->$values()[Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
     .line 22
     .line 23
@@ -105,7 +112,8 @@
     move-result-object v0
 
     .line 25
-    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;->$VALUES:[Landroidx/navigation/serialization/RouteBuilder$ParamType;    return-void
+    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->$VALUES:[Landroidx/navigation/serialization/RouteBuilder$ParamType;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -117,7 +125,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
+    -><init>(Ljava/lang/String;I)V
 return-void
 .end method
 
@@ -126,7 +135,8 @@ return-void
 
     const-class v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;
+    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
@@ -138,9 +148,11 @@ return-void
 .method public static values()[Landroidx/navigation/serialization/RouteBuilder$ParamType;
     .locals 1
 
-    sget-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;->$VALUES:[Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sget-object v0, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->$VALUES:[Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
-    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->clone()Ljava/lang/Object;
 
     move-result-object v0
 

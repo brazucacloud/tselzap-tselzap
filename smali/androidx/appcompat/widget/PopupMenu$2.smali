@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/PopupMenu;-><init>(Landroid/content/Context;Landroid/view/View;III)V
+    value = Landroidx/appcompat/widget/PopupMenu;
+    -><init>(Landroid/content/Context;Landroid/view/View;III)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/PopupMenu$2;->this$0:Landroidx/appcompat/widget/PopupMenu;
+    iput-object p1, p0, Landroidx/appcompat/widget/PopupMenu$2;
+    ->this$0:Landroidx/appcompat/widget/PopupMenu;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +43,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/PopupMenu$2;->this$0:Landroidx/appcompat/widget/PopupMenu;
+    iget-object v0, p0, Landroidx/appcompat/widget/PopupMenu$2;
+    ->this$0:Landroidx/appcompat/widget/PopupMenu;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/appcompat/widget/PopupMenu;->mOnDismissListener:Landroidx/appcompat/widget/PopupMenu$OnDismissListener;
+    iget-object v1, v0, Landroidx/appcompat/widget/PopupMenu;
+    ->mOnDismissListener:Landroidx/appcompat/widget/PopupMenu$OnDismissListener;
 
     .line 4
     .line 5
@@ -52,7 +57,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v1, v0}, Landroidx/appcompat/widget/PopupMenu$OnDismissListener;->onDismiss(Landroidx/appcompat/widget/PopupMenu;)V
+    invoke-interface {v1, v0}, Landroidx/appcompat/widget/PopupMenu$OnDismissListener;
+    ->onDismiss(Landroidx/appcompat/widget/PopupMenu;)V
 
     .line 8
     .line 9

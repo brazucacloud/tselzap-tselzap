@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/ByteString;->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
+    value = Landroidx/datastore/preferences/protobuf/ByteString;
+    ->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,11 +28,13 @@
     .locals 1
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->this$0:Landroidx/datastore/preferences/protobuf/ByteString;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->this$0:Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$AbstractByteIterator;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$AbstractByteIterator;
+    -><init>()V
 
     .line 4
     .line 5
@@ -39,11 +42,13 @@
     const/4 v0, 0x0
 
     .line 7
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->position:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->position:I
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
+    ->size()I
 
     .line 10
     .line 11
@@ -51,7 +56,8 @@
     move-result p1
 
     .line 13
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->limit:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->limit:I
 
     .line 14
     .line 15
@@ -64,11 +70,13 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->position:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->position:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->limit:I
 
     .line 4
     .line 5
@@ -91,11 +99,13 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->position:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->position:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->limit:I
 
     .line 4
     .line 5
@@ -107,15 +117,18 @@
 
     .line 8
     .line 9
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->position:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->position:I
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->this$0:Landroidx/datastore/preferences/protobuf/ByteString;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;
+    ->this$0:Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Landroidx/datastore/preferences/protobuf/ByteString;->internalByteAt(I)B
+    invoke-virtual {v1, v0}, Landroidx/datastore/preferences/protobuf/ByteString;
+    ->internalByteAt(I)B
 
     .line 14
     .line 15
@@ -130,7 +143,8 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;
+    -><init>()V
 
     .line 21
     .line 22

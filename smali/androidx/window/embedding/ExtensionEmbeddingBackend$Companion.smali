@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -43,11 +45,13 @@
 
     .line 4
     :try_start_0
-    sget-object v2, Landroidx/window/embedding/EmbeddingCompat;->Companion:Landroidx/window/embedding/EmbeddingCompat$Companion;
+    sget-object v2, Landroidx/window/embedding/EmbeddingCompat;
+    ->Companion:Landroidx/window/embedding/EmbeddingCompat$Companion;
 
     .line 5
     .line 6
-    invoke-virtual {v2}, Landroidx/window/embedding/EmbeddingCompat$Companion;->getExtensionApiLevel()Ljava/lang/Integer;
+    invoke-virtual {v2}, Landroidx/window/embedding/EmbeddingCompat$Companion;
+    ->getExtensionApiLevel()Ljava/lang/Integer;
 
     .line 7
     .line 8
@@ -55,7 +59,8 @@
     move-result-object v3
 
     .line 10
-    invoke-virtual {p0, v3}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;->isExtensionVersionSupported(Ljava/lang/Integer;)Z
+    invoke-virtual {p0, v3}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    ->isExtensionVersionSupported(Ljava/lang/Integer;)Z
 
     .line 11
     .line 12
@@ -67,7 +72,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v2}, Landroidx/window/embedding/EmbeddingCompat$Companion;->isEmbeddingAvailable()Z
+    invoke-virtual {v2}, Landroidx/window/embedding/EmbeddingCompat$Companion;
+    ->isEmbeddingAvailable()Z
 
     .line 17
     .line 18
@@ -83,7 +89,8 @@
 
     .line 23
     .line 24
-    invoke-direct {v2}, Landroidx/window/embedding/EmbeddingCompat;-><init>()V
+    invoke-direct {v2}, Landroidx/window/embedding/EmbeddingCompat;
+    -><init>()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -104,7 +111,8 @@
 
     .line 31
     .line 32
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -112,7 +120,8 @@
     move-result-object v2
 
     .line 36
-    invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 37
     .line 38
@@ -127,7 +136,8 @@
 
     .line 42
     .line 43
-    invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 44
     .line 45
@@ -142,7 +152,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->access$getGlobalInstance$cp()Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->access$getGlobalInstance$cp()Landroidx/window/embedding/ExtensionEmbeddingBackend;
 
     .line 2
     .line 3
@@ -154,7 +165,8 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->access$getGlobalLock$cp()Ljava/util/concurrent/locks/ReentrantLock;
+    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->access$getGlobalLock$cp()Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 8
     .line 9
@@ -162,13 +174,15 @@
     move-result-object v0
 
     .line 11
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 12
     .line 13
     .line 14
     :try_start_0
-    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->access$getGlobalInstance$cp()Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->access$getGlobalInstance$cp()Landroidx/window/embedding/ExtensionEmbeddingBackend;
 
     .line 15
     .line 16
@@ -180,11 +194,13 @@
 
     .line 19
     .line 20
-    sget-object v1, Landroidx/window/embedding/ExtensionEmbeddingBackend;->Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    sget-object v1, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
 
     .line 21
     .line 22
-    invoke-direct {v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;->initAndVerifyEmbeddingExtension()Landroidx/window/embedding/EmbeddingInterfaceCompat;
+    invoke-direct {v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    ->initAndVerifyEmbeddingExtension()Landroidx/window/embedding/EmbeddingInterfaceCompat;
 
     .line 23
     .line 24
@@ -196,12 +212,14 @@
 
     .line 27
     .line 28
-    invoke-direct {v2, v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend;-><init>(Landroidx/window/embedding/EmbeddingInterfaceCompat;)V
+    invoke-direct {v2, v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    -><init>(Landroidx/window/embedding/EmbeddingInterfaceCompat;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-static {v2}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->access$setGlobalInstance$cp(Landroidx/window/embedding/ExtensionEmbeddingBackend;)V
+    invoke-static {v2}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->access$setGlobalInstance$cp(Landroidx/window/embedding/ExtensionEmbeddingBackend;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -220,7 +238,8 @@
     .line 37
     :cond_0
     :goto_0
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 38
     .line 39
@@ -229,7 +248,8 @@
 
     .line 41
     :goto_1
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 42
     .line 43
@@ -239,7 +259,8 @@
     .line 45
     :cond_1
     :goto_2
-    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;->access$getGlobalInstance$cp()Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    invoke-static {}, Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    ->access$getGlobalInstance$cp()Landroidx/window/embedding/ExtensionEmbeddingBackend;
 
     .line 46
     .line 47
@@ -247,7 +268,8 @@
     move-result-object v0
 
     .line 49
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 50
     .line 51
@@ -272,7 +294,8 @@
 
     .line 5
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 6
     .line 7

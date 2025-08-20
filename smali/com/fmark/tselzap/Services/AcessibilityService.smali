@@ -38,7 +38,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroid/accessibilityservice/AccessibilityService;-><init>()V
+    invoke-direct {p0}, Landroid/accessibilityservice/AccessibilityService;
+    -><init>()V
 
     .line 2
     .line 3
@@ -46,11 +47,13 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->mediaTempDescription:Ljava/lang/String;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->mediaTempDescription:Ljava/lang/String;
 
     .line 6
     .line 7
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->audioTempDescription:Ljava/lang/String;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->audioTempDescription:Ljava/lang/String;
 
     .line 8
     .line 9
@@ -58,12 +61,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->eventsClassList:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->eventsClassList:Ljava/util/List;
 
     .line 15
     .line 16
@@ -71,7 +76,8 @@
 
     .line 17
     .line 18
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 19
     .line 20
@@ -79,12 +85,14 @@
     move-result-object v1
 
     .line 22
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 23
     .line 24
     .line 25
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->handler:Landroid/os/Handler;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handler:Landroid/os/Handler;
 
     .line 26
     .line 27
@@ -99,7 +107,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchForImageView(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchForImageView(Ljava/lang/String;)Ljava/util/List;
 
     .line 4
     .line 5
@@ -114,7 +123,8 @@
 
     .line 9
     .line 10
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 11
     .line 12
@@ -126,7 +136,8 @@
 
     .line 15
     .line 16
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -138,7 +149,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 23
     .line 24
@@ -150,7 +162,8 @@
 
     .line 27
     .line 28
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -162,7 +175,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 35
     .line 36
@@ -170,7 +184,8 @@
     move-result-object v2
 
     .line 38
-    invoke-interface {v2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v2}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -178,11 +193,13 @@
     move-result-object v2
 
     .line 42
-    iput-object v2, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->mediaTempDescription:Ljava/lang/String;
+    iput-object v2, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->mediaTempDescription:Ljava/lang/String;
 
     .line 43
     .line 44
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -198,7 +215,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 53
     .line 54
@@ -207,16 +225,19 @@
 
     .line 56
     .line 57
-    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 58
     .line 59
     .line 60
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->mediaTempDescription:Ljava/lang/String;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->mediaTempDescription:Ljava/lang/String;
 
     .line 61
     .line 62
-    invoke-direct {p0, p1, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleMediaImageViewClick(Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, p1, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleMediaImageViewClick(Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 63
     .line 64
@@ -233,12 +254,14 @@
 
     .line 69
     .line 70
-    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 74
     .line 75
@@ -250,7 +273,8 @@
 
     .line 78
     .line 79
-    invoke-static {p1, p2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p1, p2, v1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 80
     .line 81
@@ -258,7 +282,8 @@
     move-result-object p1
 
     .line 83
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 84
     .line 85
@@ -268,12 +293,14 @@
 
     .line 87
     .line 88
-    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 89
     .line 90
     .line 91
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 92
     .line 93
@@ -285,7 +312,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->clickAttachMediaButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->clickAttachMediaButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
 
     .line 2
     .line 3
@@ -303,12 +331,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 7
     .line 8
@@ -317,12 +347,14 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -330,7 +362,8 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -345,7 +378,8 @@
 
     .line 24
     .line 25
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 26
     .line 27
@@ -357,7 +391,8 @@
 
     .line 30
     .line 31
-    invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -369,7 +404,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->isClickable()Z
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isClickable()Z
 
     .line 38
     .line 39
@@ -385,7 +421,8 @@
 
     .line 44
     .line 45
-    invoke-virtual {p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 46
     .line 47
@@ -403,7 +440,8 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 2
     .line 3
@@ -430,7 +468,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 13
     .line 14
@@ -442,7 +481,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v3}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 19
     .line 20
@@ -454,7 +494,8 @@
 
     .line 23
     .line 24
-    invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v3}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 25
     .line 26
@@ -463,7 +504,8 @@
 
     .line 28
     :goto_1
-    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 29
     .line 30
@@ -475,7 +517,8 @@
 
     .line 33
     .line 34
-    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -487,7 +530,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {v4}, Landroid/view/accessibility/AccessibilityNodeInfo;->isClickable()Z
+    invoke-virtual {v4}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isClickable()Z
 
     .line 41
     .line 42
@@ -503,7 +547,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {v4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 49
     .line 50
@@ -511,7 +556,8 @@
     move-result p1
 
     .line 52
-    invoke-virtual {v4}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
+    invoke-virtual {v4}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->recycle()V
 
     .line 53
     .line 54
@@ -520,7 +566,8 @@
 
     .line 56
     :cond_1
-    invoke-virtual {v4}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
+    invoke-virtual {v4}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->recycle()V
 
     .line 57
     .line 58
@@ -533,7 +580,8 @@
 
     .line 61
     .line 62
-    invoke-static {v3, v4}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v3, v4}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 63
     .line 64
@@ -546,7 +594,8 @@
 
     .line 68
     :cond_3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->recycle()V
 
     .line 69
     .line 70
@@ -562,7 +611,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 4
     .line 5
@@ -571,7 +621,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 9
     .line 10
@@ -587,7 +638,8 @@
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 17
     .line 18
@@ -602,7 +654,8 @@
     const/4 v2, 0x0
 
     .line 23
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -614,7 +667,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChildCount()I
 
     .line 30
     .line 31
@@ -626,7 +680,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {v0, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 36
     .line 37
@@ -634,7 +689,8 @@
     move-result-object v0
 
     .line 39
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 40
     .line 41
@@ -642,7 +698,8 @@
     move-result-object v1
 
     .line 43
-    invoke-interface {v1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v1}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -650,7 +707,8 @@
     move-result-object v1
 
     .line 47
-    iput-object v1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->audioTempDescription:Ljava/lang/String;
+    iput-object v1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->audioTempDescription:Ljava/lang/String;
 
     .line 48
     .line 49
@@ -658,7 +716,8 @@
 
     .line 50
     .line 51
-    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 52
     .line 53
@@ -667,12 +726,14 @@
 
     .line 55
     .line 56
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 60
     .line 61
@@ -681,12 +742,14 @@
 
     .line 63
     .line 64
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -694,7 +757,8 @@
     move-result-object p1
 
     .line 71
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 72
     .line 73
@@ -706,7 +770,8 @@
 
     .line 76
     .line 77
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 78
     .line 79
@@ -718,7 +783,8 @@
 
     .line 82
     .line 83
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 84
     .line 85
@@ -730,7 +796,8 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 90
     .line 91
@@ -744,12 +811,14 @@
 
     .line 94
     .line 95
-    invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 96
     .line 97
     .line 98
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 99
     .line 100
@@ -761,7 +830,8 @@
 
     .line 103
     .line 104
-    invoke-static {p1, p2, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p1, p2, v2}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 105
     .line 106
@@ -769,7 +839,8 @@
     move-result-object p1
 
     .line 108
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 109
     .line 110
@@ -782,7 +853,8 @@
 
     .line 113
     .line 114
-    invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 115
     .line 116
@@ -802,7 +874,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 6
     .line 7
@@ -810,7 +883,8 @@
     move-result-object v2
 
     .line 9
-    invoke-static {v2}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v2}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 10
     .line 11
@@ -826,7 +900,8 @@
 
     .line 16
     .line 17
-    invoke-interface {v2, v3, v4}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v3, v4}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -834,7 +909,8 @@
     move-result-object v2
 
     .line 21
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 22
     .line 23
@@ -842,7 +918,8 @@
     move-result-object v3
 
     .line 25
-    invoke-static {v3}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v3}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 26
     .line 27
@@ -858,7 +935,8 @@
 
     .line 32
     .line 33
-    invoke-interface {v3, v4, v5}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v3, v4, v5}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -866,7 +944,8 @@
     move-result-object v3
 
     .line 37
-    invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -878,7 +957,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -886,7 +966,8 @@
     move-result v3
 
     .line 47
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 48
     .line 49
@@ -894,7 +975,8 @@
     move-result-object v5
 
     .line 51
-    invoke-static {v5}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v5}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 52
     .line 53
@@ -909,7 +991,8 @@
     const/4 v7, 0x0
 
     .line 58
-    invoke-interface {v5, v6, v7}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    invoke-interface {v5, v6, v7}, Landroid/content/SharedPreferences;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 59
     .line 60
@@ -917,7 +1000,8 @@
     move-result v5
 
     .line 62
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 63
     .line 64
@@ -925,7 +1009,8 @@
     move-result-object v8
 
     .line 66
-    invoke-static {v8}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v8}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 67
     .line 68
@@ -941,7 +1026,8 @@
 
     .line 73
     .line 74
-    invoke-interface {v8, v9, v10}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v8, v9, v10}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -949,7 +1035,8 @@
     move-result-object v8
 
     .line 78
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 79
     .line 80
@@ -957,7 +1044,8 @@
     move-result-object v9
 
     .line 82
-    invoke-static {v9}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v9}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 83
     .line 84
@@ -969,7 +1057,8 @@
 
     .line 87
     .line 88
-    invoke-interface {v9, v11, v10}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v9, v11, v10}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 89
     .line 90
@@ -985,7 +1074,8 @@
 
     .line 95
     .line 96
-    invoke-static {v10, v11}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v10, v11}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 97
     .line 98
@@ -1042,7 +1132,8 @@
 
     .line 122
     :cond_2
-    invoke-virtual {v9, v14}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v14}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 123
     .line 124
@@ -1054,7 +1145,8 @@
 
     .line 127
     .line 128
-    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;->clickAttachMediaButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
+    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->clickAttachMediaButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
 
     .line 129
     .line 130
@@ -1067,7 +1159,8 @@
     .line 133
     .line 134
     :cond_3
-    invoke-virtual {v9, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v13}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 135
     .line 136
@@ -1079,7 +1172,8 @@
 
     .line 139
     .line 140
-    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;->clickAttachAudioButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
+    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->clickAttachAudioButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
 
     .line 141
     .line 142
@@ -1092,7 +1186,8 @@
     .line 145
     .line 146
     :cond_4
-    invoke-virtual {v9, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v12}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 147
     .line 148
@@ -1104,7 +1199,8 @@
 
     .line 151
     .line 152
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->actionCall()Z
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->actionCall()Z
 
     .line 153
     .line 154
@@ -1124,22 +1220,26 @@
 
     .line 160
     .line 161
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 162
     .line 163
     .line 164
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 165
     .line 166
     .line 167
-    invoke-virtual {v3, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v11}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 168
     .line 169
     .line 170
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 171
     .line 172
@@ -1147,7 +1247,8 @@
     move-result-object v2
 
     .line 174
-    invoke-virtual {v1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 175
     .line 176
@@ -1155,7 +1256,8 @@
     move-result-object v1
 
     .line 178
-    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 179
     .line 180
@@ -1175,12 +1277,14 @@
 
     .line 187
     .line 188
-    invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 189
     .line 190
     .line 191
-    invoke-interface {v1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v7}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 192
     .line 193
@@ -1192,7 +1296,8 @@
 
     .line 196
     .line 197
-    invoke-virtual {v1, v10}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v1, v10}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 198
     .line 199
@@ -1208,7 +1313,8 @@
     .line 203
     :cond_7
     :goto_1
-    invoke-virtual {v9, v14}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v14}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 204
     .line 205
@@ -1220,7 +1326,8 @@
 
     .line 208
     .line 209
-    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;->clickAttachMediaButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
+    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->clickAttachMediaButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
 
     .line 210
     .line 211
@@ -1233,7 +1340,8 @@
     .line 214
     .line 215
     :cond_8
-    invoke-virtual {v9, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v13}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 216
     .line 217
@@ -1245,7 +1353,8 @@
 
     .line 220
     .line 221
-    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;->clickAttachAudioButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
+    invoke-direct {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->clickAttachAudioButton(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Z
 
     .line 222
     .line 223
@@ -1258,7 +1367,8 @@
     .line 226
     .line 227
     :cond_9
-    invoke-virtual {v9, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v12}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 228
     .line 229
@@ -1270,7 +1380,8 @@
 
     .line 232
     .line 233
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->actionCall()Z
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->actionCall()Z
 
     .line 234
     .line 235
@@ -1288,7 +1399,8 @@
 
     .line 240
     :cond_b
-    invoke-static {v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 241
     .line 242
@@ -1300,12 +1412,14 @@
 
     .line 245
     .line 246
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 247
     .line 248
     .line 249
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 250
     .line 251
@@ -1314,12 +1428,14 @@
 
     .line 253
     .line 254
-    invoke-virtual {v4, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v9}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 255
     .line 256
     .line 257
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 258
     .line 259
@@ -1327,7 +1443,8 @@
     move-result-object v4
 
     .line 261
-    invoke-virtual {v3, v4}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v3, v4}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 262
     .line 263
@@ -1335,7 +1452,8 @@
     move-result-object v3
 
     .line 265
-    invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v3}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 266
     .line 267
@@ -1347,7 +1465,8 @@
 
     .line 270
     .line 271
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 272
     .line 273
@@ -1355,7 +1474,8 @@
     move-result-object v4
 
     .line 275
-    invoke-static {v4}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v4}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 276
     .line 277
@@ -1371,7 +1491,8 @@
 
     .line 282
     .line 283
-    invoke-interface {v4, v9, v12}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v4, v9, v12}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 284
     .line 285
@@ -1379,7 +1500,8 @@
     move-result-object v4
 
     .line 287
-    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v12}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 288
     .line 289
@@ -1391,7 +1513,8 @@
 
     .line 292
     .line 293
-    invoke-virtual {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;->getLastMessage(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Ljava/lang/String;
+    invoke-virtual {v0, v2, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->getLastMessage(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)Ljava/lang/String;
 
     .line 294
     .line 295
@@ -1399,7 +1522,8 @@
     move-result-object v4
 
     .line 297
-    invoke-virtual {v4, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v8}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 298
     .line 299
@@ -1416,12 +1540,14 @@
 
     .line 304
     .line 305
-    invoke-static {v12, v13}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v12, v13}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 306
     .line 307
     .line 308
-    invoke-interface {v3, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v7}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 309
     .line 310
@@ -1433,7 +1559,8 @@
 
     .line 313
     .line 314
-    invoke-static {v3, v8, v7}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->simulateWriting(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;Ljava/lang/String;I)V
+    invoke-static {v3, v8, v7}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->simulateWriting(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;Ljava/lang/String;I)V
 
     .line 315
     .line 316
@@ -1442,22 +1569,26 @@
 
     .line 318
     .line 319
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 320
     .line 321
     .line 322
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 323
     .line 324
     .line 325
-    invoke-virtual {v3, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v11}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 326
     .line 327
     .line 328
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 329
     .line 330
@@ -1465,7 +1596,8 @@
     move-result-object v2
 
     .line 332
-    invoke-virtual {v1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 333
     .line 334
@@ -1473,7 +1605,8 @@
     move-result-object v1
 
     .line 336
-    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 337
     .line 338
@@ -1485,7 +1618,8 @@
 
     .line 341
     .line 342
-    invoke-interface {v1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v7}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 343
     .line 344
@@ -1497,7 +1631,8 @@
 
     .line 347
     .line 348
-    invoke-virtual {v1, v10}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v1, v10}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 349
     .line 350
@@ -1511,7 +1646,8 @@
 
     .line 354
     .line 355
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 356
     .line 357
@@ -1519,7 +1655,8 @@
     move-result-object v1
 
     .line 359
-    invoke-static {v1}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v1}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 360
     .line 361
@@ -1527,7 +1664,8 @@
     move-result-object v1
 
     .line 363
-    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v1}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 364
     .line 365
@@ -1535,17 +1673,20 @@
     move-result-object v1
 
     .line 367
-    invoke-interface {v1, v6, v7}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v1, v6, v7}, Landroid/content/SharedPreferences$Editor;
+    ->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     .line 368
     .line 369
     .line 370
-    invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 371
     .line 372
     .line 373
-    invoke-direct {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 374
     .line 375
@@ -1554,7 +1695,8 @@
 
     .line 377
     :cond_d
-    invoke-direct {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 378
     .line 379
@@ -1570,7 +1712,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p4, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p4, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 4
     .line 5
@@ -1582,7 +1725,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     .line 10
     .line 11
@@ -1601,7 +1745,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 19
     .line 20
@@ -1613,7 +1758,8 @@
 
     .line 23
     .line 24
-    invoke-interface {v0}, Ljava/util/List;->size()I
+    invoke-interface {v0}, Ljava/util/List;
+    ->size()I
 
     .line 25
     .line 26
@@ -1633,7 +1779,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {p1, p3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, p3}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     .line 34
     .line 35
@@ -1649,7 +1796,8 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1, p3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, p3}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     .line 42
     .line 43
@@ -1669,7 +1817,8 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 51
     .line 52
@@ -1685,7 +1834,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 59
     .line 60
@@ -1698,7 +1848,8 @@
     .line 63
     .line 64
     :cond_2
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 65
     .line 66
@@ -1712,12 +1863,14 @@
 
     .line 69
     .line 70
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
@@ -1726,12 +1879,14 @@
 
     .line 77
     .line 78
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 82
     .line 83
@@ -1739,7 +1894,8 @@
     move-result-object p1
 
     .line 85
-    invoke-virtual {p4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 86
     .line 87
@@ -1747,7 +1903,8 @@
     move-result-object p1
 
     .line 89
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 90
     .line 91
@@ -1759,7 +1916,8 @@
 
     .line 94
     .line 95
-    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 96
     .line 97
@@ -1771,7 +1929,8 @@
 
     .line 100
     .line 101
-    invoke-virtual {p1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 102
     .line 103
@@ -1785,12 +1944,14 @@
 
     .line 106
     .line 107
-    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 108
     .line 109
     .line 110
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 111
     .line 112
@@ -1802,7 +1963,8 @@
 
     .line 115
     .line 116
-    invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 117
     .line 118
@@ -1814,7 +1976,8 @@
 
     .line 121
     .line 122
-    invoke-virtual {p1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 123
     .line 124
@@ -1824,7 +1987,8 @@
 
     .line 126
     .line 127
-    invoke-virtual {p3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 128
     .line 129
@@ -1836,7 +2000,8 @@
 
     .line 132
     .line 133
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 134
     .line 135
@@ -1853,7 +2018,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getText()Ljava/util/List;
 
     .line 2
     .line 3
@@ -1865,7 +2031,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v0, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -1884,7 +2051,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getText()Ljava/util/List;
 
     .line 17
     .line 18
@@ -1896,7 +2064,8 @@
 
     .line 21
     .line 22
-    invoke-interface {v0, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, v3}, Ljava/util/List;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -1913,7 +2082,8 @@
     .line 29
     .line 30
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 31
     .line 32
@@ -1921,7 +2091,8 @@
     move-result-object p3
 
     .line 34
-    invoke-static {p3}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {p3}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 35
     .line 36
@@ -1933,7 +2104,8 @@
 
     .line 39
     .line 40
-    invoke-interface {p3, v0, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {p3, v0, v2}, Landroid/content/SharedPreferences;
+    ->getBoolean(Ljava/lang/String;Z)Z
 
     .line 41
     .line 42
@@ -1946,7 +2118,8 @@
     .line 45
     .line 46
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 47
     .line 48
@@ -1954,7 +2127,8 @@
     move-result-object p2
 
     .line 50
-    invoke-static {p2}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {p2}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 51
     .line 52
@@ -1970,7 +2144,8 @@
 
     .line 57
     .line 58
-    invoke-interface {p2, p3, v0}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p2, p3, v0}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 59
     .line 60
@@ -1978,7 +2153,8 @@
     move-result-object p2
 
     .line 62
-    invoke-static {p4}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {p4}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 63
     .line 64
@@ -1999,12 +2175,14 @@
 
     .line 71
     .line 72
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 76
     .line 77
@@ -2013,12 +2191,14 @@
 
     .line 79
     .line 80
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 84
     .line 85
@@ -2026,7 +2206,8 @@
     move-result-object v0
 
     .line 87
-    invoke-virtual {p3, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p3, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 88
     .line 89
@@ -2038,7 +2219,8 @@
 
     .line 92
     .line 93
-    invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p3}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 94
     .line 95
@@ -2055,7 +2237,8 @@
     .line 100
     .line 101
     :cond_2
-    invoke-interface {p3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p3, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 102
     .line 103
@@ -2067,7 +2250,8 @@
 
     .line 106
     .line 107
-    invoke-static {p3, p2, v2}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->simulateWriting(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;Ljava/lang/String;I)V
+    invoke-static {p3, p2, v2}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->simulateWriting(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;Ljava/lang/String;I)V
 
     .line 108
     .line 109
@@ -2076,12 +2260,14 @@
 
     .line 111
     .line 112
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 113
     .line 114
     .line 115
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 116
     .line 117
@@ -2090,12 +2276,14 @@
 
     .line 119
     .line 120
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 121
     .line 122
     .line 123
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 124
     .line 125
@@ -2103,7 +2291,8 @@
     move-result-object p1
 
     .line 127
-    invoke-virtual {p4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 128
     .line 129
@@ -2111,7 +2300,8 @@
     move-result-object p1
 
     .line 131
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 132
     .line 133
@@ -2123,7 +2313,8 @@
 
     .line 136
     .line 137
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 138
     .line 139
@@ -2135,7 +2326,8 @@
 
     .line 142
     .line 143
-    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2157,7 +2349,8 @@
 
     .line 151
     .line 152
-    invoke-static {p2, p3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p3, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 153
     .line 154
@@ -2166,7 +2359,8 @@
 
     .line 156
     :cond_3
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityEvent;->getContentChangeTypes()I
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityEvent;
+    ->getContentChangeTypes()I
 
     .line 157
     .line 158
@@ -2182,7 +2376,8 @@
 
     .line 163
     .line 164
-    invoke-direct {p0, p4}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleHomeActivityEvent(Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, p4}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleHomeActivityEvent(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 165
     .line 166
@@ -2192,7 +2387,8 @@
     .line 168
     :cond_4
     :goto_0
-    invoke-static {p1}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, LA/d;
+    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 169
     .line 170
@@ -2204,7 +2400,8 @@
 
     .line 173
     .line 174
-    invoke-virtual {p3, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 175
     .line 176
@@ -2229,12 +2426,14 @@
     .line 184
     .line 185
     :goto_1
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 186
     .line 187
     .line 188
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 189
     .line 190
@@ -2242,7 +2441,8 @@
     move-result-object p1
 
     .line 192
-    invoke-virtual {p4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p4, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 193
     .line 194
@@ -2254,7 +2454,8 @@
 
     .line 197
     .line 198
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 199
     .line 200
@@ -2266,7 +2467,8 @@
 
     .line 203
     .line 204
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 205
     .line 206
@@ -2278,7 +2480,8 @@
 
     .line 209
     .line 210
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->isClickable()Z
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isClickable()Z
 
     .line 211
     .line 212
@@ -2290,7 +2493,8 @@
 
     .line 215
     .line 216
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 217
     .line 218
@@ -2302,7 +2506,8 @@
 
     .line 221
     .line 222
-    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 223
     .line 224
@@ -2311,7 +2516,8 @@
 
     .line 226
     .line 227
-    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 228
     .line 229
@@ -2325,7 +2531,8 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -2333,7 +2540,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 6
     .line 7
@@ -2349,7 +2557,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -2357,7 +2566,8 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 18
     .line 19
@@ -2365,7 +2575,8 @@
     move-result-object v1
 
     .line 21
-    invoke-static {v1}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v1}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 22
     .line 23
@@ -2380,7 +2591,8 @@
     const/4 v3, 0x0
 
     .line 28
-    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 29
     .line 30
@@ -2388,7 +2600,8 @@
     move-result v1
 
     .line 32
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 33
     .line 34
@@ -2396,7 +2609,8 @@
     move-result-object v2
 
     .line 36
-    invoke-static {v2}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v2}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 37
     .line 38
@@ -2412,7 +2626,8 @@
 
     .line 43
     .line 44
-    invoke-interface {v2, v4, v5}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v4, v5}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 45
     .line 46
@@ -2428,7 +2643,8 @@
     .line 50
     .line 51
     :try_start_0
-    invoke-virtual {v2}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {v2}, Ljava/lang/String;
+    ->isEmpty()Z
 
     .line 52
     .line 53
@@ -2440,7 +2656,8 @@
 
     .line 56
     .line 57
-    invoke-direct {p0, v0, v2, p1}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchAndSelectContact(Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0, v2, p1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchAndSelectContact(Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2462,7 +2679,8 @@
 
     .line 65
     .line 66
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 67
     .line 68
@@ -2472,7 +2690,8 @@
 
     .line 70
     :cond_1
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 71
     .line 72
@@ -2480,7 +2699,8 @@
     move-result-object v1
 
     .line 74
-    invoke-static {v1}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v1}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 75
     .line 76
@@ -2492,7 +2712,8 @@
 
     .line 79
     .line 80
-    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;
+    ->getBoolean(Ljava/lang/String;Z)Z
 
     .line 81
     .line 82
@@ -2508,12 +2729,14 @@
 
     .line 87
     .line 88
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 89
     .line 90
     .line 91
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 92
     .line 93
@@ -2522,12 +2745,14 @@
 
     .line 95
     .line 96
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 97
     .line 98
     .line 99
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -2535,7 +2760,8 @@
     move-result-object v0
 
     .line 103
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 104
     .line 105
@@ -2543,7 +2769,8 @@
     move-result-object p1
 
     .line 107
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 108
     .line 109
@@ -2555,7 +2782,8 @@
 
     .line 112
     .line 113
-    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -2571,7 +2799,8 @@
 
     .line 120
     .line 121
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 122
     .line 123
@@ -2580,13 +2809,15 @@
 
     .line 125
     .line 126
-    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 127
     .line 128
     .line 129
     :cond_2
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 130
     .line 131
@@ -2595,7 +2826,8 @@
 
     .line 133
     :cond_3
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 134
     .line 135
@@ -2607,7 +2839,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 2
     .line 3
@@ -2619,12 +2852,14 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -2633,12 +2868,14 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -2646,7 +2883,8 @@
     move-result-object p1
 
     .line 22
-    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 23
     .line 24
@@ -2658,7 +2896,8 @@
 
     .line 27
     .line 28
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 29
     .line 30
@@ -2673,7 +2912,8 @@
     const/4 p2, 0x0
 
     .line 35
-    invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -2689,12 +2929,14 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->performAction(I)Z
+    invoke-virtual {p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->performAction(I)Z
 
     .line 44
     .line 45
     .line 46
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 47
     .line 48
@@ -2707,7 +2949,8 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->mediaTempDescription:Ljava/lang/String;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->mediaTempDescription:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -2715,7 +2958,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -2735,7 +2979,8 @@
 
     .line 14
     .line 15
-    invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 16
     .line 17
@@ -2743,11 +2988,13 @@
     const/4 p2, 0x0
 
     .line 19
-    iput-object p2, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->mediaTempDescription:Ljava/lang/String;
+    iput-object p2, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->mediaTempDescription:Ljava/lang/String;
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 22
     .line 23
@@ -2755,7 +3002,8 @@
     move-result-object p2
 
     .line 25
-    invoke-static {p2}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {p2}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 26
     .line 27
@@ -2771,7 +3019,8 @@
 
     .line 32
     .line 33
-    invoke-interface {p2, v0, v1}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p2, v0, v1}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -2779,7 +3028,8 @@
     move-result-object p2
 
     .line 37
-    invoke-static {p3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {p3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 38
     .line 39
@@ -2791,12 +3041,14 @@
 
     .line 42
     .line 43
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
@@ -2805,12 +3057,14 @@
 
     .line 50
     .line 51
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -2818,7 +3072,8 @@
     move-result-object v1
 
     .line 58
-    invoke-virtual {v0, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v0, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 59
     .line 60
@@ -2826,7 +3081,8 @@
     move-result-object v0
 
     .line 62
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 63
     .line 64
@@ -2841,7 +3097,8 @@
     const/4 v1, 0x0
 
     .line 69
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -2853,7 +3110,8 @@
 
     .line 74
     .line 75
-    invoke-virtual {v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->isFocusable()Z
+    invoke-virtual {v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->isFocusable()Z
 
     .line 76
     .line 77
@@ -2865,7 +3123,8 @@
 
     .line 80
     .line 81
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -2880,12 +3139,14 @@
     const/4 v3, 0x1
 
     .line 88
-    invoke-virtual {v2, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->performAction(I)Z
+    invoke-virtual {v2, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->performAction(I)Z
 
     .line 89
     .line 90
     .line 91
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 92
     .line 93
@@ -2897,7 +3158,8 @@
 
     .line 96
     .line 97
-    invoke-static {v0, p2, v1}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->simulateWriting(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;Ljava/lang/String;I)V
+    invoke-static {v0, p2, v1}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->simulateWriting(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;Ljava/lang/String;I)V
 
     .line 98
     .line 99
@@ -2906,12 +3168,14 @@
 
     .line 101
     .line 102
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 103
     .line 104
     .line 105
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 106
     .line 107
@@ -2920,12 +3184,14 @@
 
     .line 109
     .line 110
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 111
     .line 112
     .line 113
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -2933,7 +3199,8 @@
     move-result-object p1
 
     .line 117
-    invoke-virtual {p3, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p3, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 118
     .line 119
@@ -2945,7 +3212,8 @@
 
     .line 122
     .line 123
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 124
     .line 125
@@ -2957,7 +3225,8 @@
 
     .line 128
     .line 129
-    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 130
     .line 131
@@ -2973,7 +3242,8 @@
 
     .line 136
     .line 137
-    invoke-virtual {p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 138
     .line 139
@@ -2994,7 +3264,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 2
     .line 3
@@ -3004,7 +3275,8 @@
     .line 5
     :cond_0
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 6
     .line 7
@@ -3016,7 +3288,8 @@
 
     .line 10
     .line 11
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -3028,7 +3301,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 18
     .line 19
@@ -3040,7 +3314,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 24
     .line 25
@@ -3052,7 +3327,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -3068,7 +3344,8 @@
 
     .line 36
     :goto_1
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChildCount()I
 
     .line 37
     .line 38
@@ -3080,7 +3357,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 43
     .line 44
@@ -3092,7 +3370,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 49
     .line 50
@@ -3104,7 +3383,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 55
     .line 56
@@ -3116,7 +3396,8 @@
 
     .line 59
     .line 60
-    invoke-virtual {v3, v4}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -3132,7 +3413,8 @@
 
     .line 67
     .line 68
-    invoke-virtual {v2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 69
     .line 70
@@ -3156,7 +3438,8 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -3168,7 +3451,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -3180,7 +3464,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/String;
+    ->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 14
     .line 15
@@ -3196,7 +3481,8 @@
 
     .line 20
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 21
     .line 22
@@ -3204,7 +3490,8 @@
     move-result-object v1
 
     .line 24
-    invoke-static {v1}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v1}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 25
     .line 26
@@ -3220,7 +3507,8 @@
 
     .line 31
     .line 32
-    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -3228,7 +3516,8 @@
     move-result-object v1
 
     .line 36
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 37
     .line 38
@@ -3248,7 +3537,8 @@
 
     .line 45
     :cond_1
-    invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -3256,12 +3546,14 @@
     move-result-object p1
 
     .line 49
-    invoke-direct {p0, v1, p1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleMediaImageViewClick(Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v1, p1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleMediaImageViewClick(Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 50
     .line 51
     .line 52
-    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->audioTempDescription:Ljava/lang/String;
+    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->audioTempDescription:Ljava/lang/String;
 
     .line 53
     .line 54
@@ -3269,7 +3561,8 @@
 
     .line 55
     .line 56
-    invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -3277,7 +3570,8 @@
     move-result-object p2
 
     .line 60
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -3292,7 +3586,8 @@
     const/4 p1, 0x0
 
     .line 67
-    iput-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->audioTempDescription:Ljava/lang/String;
+    iput-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->audioTempDescription:Ljava/lang/String;
 
     .line 68
     .line 69
@@ -3304,7 +3599,8 @@
 
     .line 72
     .line 73
-    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 74
     .line 75
@@ -3322,12 +3618,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 7
     .line 8
@@ -3336,12 +3634,14 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -3349,7 +3649,8 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -3368,7 +3669,8 @@
 
     .line 26
     .line 27
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 28
     .line 29
@@ -3380,7 +3682,8 @@
 
     .line 32
     .line 33
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -3392,7 +3695,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 40
     .line 41
@@ -3402,12 +3706,14 @@
 
     .line 43
     .line 44
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
@@ -3416,12 +3722,14 @@
 
     .line 51
     .line 52
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 56
     .line 57
@@ -3429,7 +3737,8 @@
     move-result-object p1
 
     .line 59
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 60
     .line 61
@@ -3441,7 +3750,8 @@
 
     .line 64
     .line 65
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 66
     .line 67
@@ -3453,7 +3763,8 @@
 
     .line 70
     .line 71
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -3465,12 +3776,14 @@
 
     .line 76
     .line 77
-    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {p1, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 78
     .line 79
     .line 80
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->sendNext()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->sendNext()V
 
     .line 81
     .line 82
@@ -3479,7 +3792,8 @@
 
     .line 84
     .line 85
-    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {p1, p2}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 86
     .line 87
@@ -3493,7 +3807,8 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -3505,7 +3820,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -3517,7 +3833,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 14
     .line 15
@@ -3542,7 +3859,8 @@
     .line 23
     .line 24
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 25
     .line 26
@@ -3550,7 +3868,8 @@
     move-result-object v0
 
     .line 28
-    invoke-static {v0}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 29
     .line 30
@@ -3566,7 +3885,8 @@
 
     .line 35
     .line 36
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -3574,7 +3894,8 @@
     move-result-object v0
 
     .line 40
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 41
     .line 42
@@ -3582,7 +3903,8 @@
     move-result-object v1
 
     .line 44
-    invoke-static {v1}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v1}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 45
     .line 46
@@ -3598,7 +3920,8 @@
 
     .line 51
     .line 52
-    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -3619,12 +3942,14 @@
 
     .line 61
     .line 62
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 66
     .line 67
@@ -3633,12 +3958,14 @@
 
     .line 69
     .line 70
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -3646,7 +3973,8 @@
     move-result-object v2
 
     .line 77
-    invoke-virtual {p2, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, v2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 78
     .line 79
@@ -3665,7 +3993,8 @@
     .line 84
     .line 85
     :try_start_1
-    invoke-interface {v2}, Ljava/util/List;->size()I
+    invoke-interface {v2}, Ljava/util/List;
+    ->size()I
 
     .line 86
     .line 87
@@ -3684,7 +4013,8 @@
 
     .line 93
     :cond_2
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityRecord;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 94
     .line 95
@@ -3696,7 +4026,8 @@
 
     .line 98
     .line 99
-    invoke-interface {v2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {v2}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -3705,7 +4036,8 @@
 
     .line 103
     :goto_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 104
     .line 105
@@ -3713,7 +4045,8 @@
     move-result-object v4
 
     .line 107
-    invoke-static {v4}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v4}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 108
     .line 109
@@ -3729,7 +4062,8 @@
 
     .line 114
     .line 115
-    invoke-interface {v4, v5, v6}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v4, v5, v6}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 116
     .line 117
@@ -3741,7 +4075,8 @@
 
     .line 120
     .line 121
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 122
     .line 123
@@ -3764,7 +4099,8 @@
 
     .line 130
     .line 131
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 132
     .line 133
@@ -3777,7 +4113,8 @@
     .line 136
     .line 137
     :cond_3
-    invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v6}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 138
     .line 139
@@ -3794,7 +4131,8 @@
     .line 144
     .line 145
     :cond_4
-    invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 146
     .line 147
@@ -3823,7 +4161,8 @@
 
     .line 158
     .line 159
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 160
     .line 161
@@ -3847,7 +4186,8 @@
 
     .line 169
     .line 170
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 171
     .line 172
@@ -3872,7 +4212,8 @@
 
     .line 181
     .line 182
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 183
     .line 184
@@ -3896,7 +4237,8 @@
 
     .line 192
     .line 193
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 194
     .line 195
@@ -3919,7 +4261,8 @@
 
     .line 202
     .line 203
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 204
     .line 205
@@ -3943,7 +4286,8 @@
 
     .line 213
     .line 214
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 215
     .line 216
@@ -3966,7 +4310,8 @@
 
     .line 223
     .line 224
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 225
     .line 226
@@ -3985,7 +4330,8 @@
 
     .line 232
     :sswitch_7
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 233
     .line 234
@@ -4004,7 +4350,8 @@
 
     .line 240
     :sswitch_8
-    invoke-virtual {v2, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v6}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 241
     .line 242
@@ -4027,7 +4374,8 @@
 
     .line 249
     .line 250
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 251
     .line 252
@@ -4051,7 +4399,8 @@
 
     .line 260
     .line 261
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 262
     .line 263
@@ -4074,7 +4423,8 @@
 
     .line 270
     .line 271
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 272
     .line 273
@@ -4110,7 +4460,8 @@
     .line 284
     .line 285
     :try_start_3
-    invoke-direct {p0, v2, v0, v1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleDefaultCase(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v2, v0, v1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleDefaultCase(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 286
     .line 287
@@ -4119,7 +4470,8 @@
 
     .line 289
     :pswitch_0
-    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->bottomSheetMedia(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->bottomSheetMedia(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 290
     .line 291
@@ -4128,7 +4480,8 @@
 
     .line 293
     :pswitch_1
-    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleVoipActivity(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleVoipActivity(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 294
     .line 295
@@ -4137,7 +4490,8 @@
 
     .line 297
     :pswitch_2
-    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleAudioPickerActivity(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleAudioPickerActivity(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 298
     .line 299
@@ -4146,7 +4500,8 @@
 
     .line 301
     :pswitch_3
-    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleMediaComposerActivity(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleMediaComposerActivity(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 302
     .line 303
@@ -4159,12 +4514,14 @@
 
     .line 306
     .line 307
-    invoke-static {v4, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 308
     .line 309
     .line 310
-    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleHomeActivityEvent(Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleHomeActivityEvent(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 311
     .line 312
@@ -4177,12 +4534,14 @@
 
     .line 315
     .line 316
-    invoke-static {v4, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 317
     .line 318
     .line 319
-    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleConversationEvent(Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleConversationEvent(Landroid/view/accessibility/AccessibilityNodeInfo;)V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
 
@@ -4198,7 +4557,8 @@
     .line 324
     .line 325
     :try_start_4
-    invoke-static {v3, v4}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v3, v4}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
 
@@ -4213,32 +4573,38 @@
 
     .line 330
     :try_start_5
-    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 331
     .line 332
     .line 333
     :goto_3
-    invoke-direct {p0, v0, p1, v1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleFrameLayoutEvent(Ljava/lang/String;Landroid/view/accessibility/AccessibilityEvent;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0, p1, v1, p2}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleFrameLayoutEvent(Ljava/lang/String;Landroid/view/accessibility/AccessibilityEvent;Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 334
     .line 335
     .line 336
     :goto_4
-    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->eventsClassList:Ljava/util/List;
+    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->eventsClassList:Ljava/util/List;
 
     .line 337
     .line 338
-    invoke-interface {p1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v2}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 339
     .line 340
     .line 341
-    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->eventsClassList:Ljava/util/List;
+    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->eventsClassList:Ljava/util/List;
 
     .line 342
     .line 343
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 344
     .line 345
@@ -4250,11 +4616,13 @@
 
     .line 348
     .line 349
-    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->eventsClassList:Ljava/util/List;
+    iget-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->eventsClassList:Ljava/util/List;
 
     .line 350
     .line 351
-    invoke-interface {p1, v5}, Ljava/util/List;->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, v5}, Ljava/util/List;
+    ->remove(I)Ljava/lang/Object;
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_0
 
@@ -4265,7 +4633,8 @@
 
     .line 355
     :goto_5
-    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 356
     .line 357
@@ -5459,7 +5828,8 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 3
     .line 4
@@ -5471,7 +5841,8 @@
 
     .line 7
     .line 8
-    invoke-static {p0, v1}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v1}, Landroid/provider/Settings$Secure;
+    ->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -5487,12 +5858,14 @@
 
     .line 15
     .line 16
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
@@ -5501,12 +5874,14 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -5515,12 +5890,14 @@
 
     .line 31
     .line 32
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -5528,7 +5905,8 @@
     move-result-object p1
 
     .line 39
-    invoke-virtual {p0, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 40
     .line 41
@@ -5567,7 +5945,8 @@
 
     .line 53
     .line 54
-    invoke-static {p1, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, v1, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 55
     .line 56
@@ -5592,7 +5971,8 @@
     .line 5
     :goto_0
     :try_start_0
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChildCount()I
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChildCount()I
 
     .line 6
     .line 7
@@ -5604,7 +5984,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 12
     .line 13
@@ -5616,12 +5997,14 @@
 
     .line 16
     .line 17
-    invoke-direct {p0, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;->processNode(Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->processNode(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
+    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->recycle()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -5656,7 +6039,8 @@
 
     .line 32
     .line 33
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 34
     .line 35
@@ -5670,7 +6054,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 2
     .line 3
@@ -5690,7 +6075,8 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 12
     .line 13
@@ -5703,12 +6089,14 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->recycle()V
 
     .line 21
     .line 22
@@ -5720,7 +6108,8 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 2
     .line 3
@@ -5728,7 +6117,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 6
     .line 7
@@ -5749,12 +6139,14 @@
 
     .line 14
     .line 15
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -5763,12 +6155,14 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -5776,7 +6170,8 @@
     move-result-object v1
 
     .line 30
-    invoke-virtual {v0, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v0, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 31
     .line 32
@@ -5788,7 +6183,8 @@
 
     .line 35
     .line 36
-    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 37
     .line 38
@@ -5807,7 +6203,8 @@
     const/4 v2, 0x0
 
     .line 44
-    invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -5823,7 +6220,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {v1, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->performAction(I)Z
+    invoke-virtual {v1, v3}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->performAction(I)Z
 
     .line 53
     .line 54
@@ -5832,12 +6230,14 @@
 
     .line 56
     .line 57
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62
@@ -5846,12 +6246,14 @@
 
     .line 64
     .line 65
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 66
     .line 67
     .line 68
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 69
     .line 70
@@ -5859,7 +6261,8 @@
     move-result-object v1
 
     .line 72
-    invoke-virtual {v0, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v0, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 73
     .line 74
@@ -5871,7 +6274,8 @@
 
     .line 77
     .line 78
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 79
     .line 80
@@ -5887,7 +6291,8 @@
 
     .line 85
     :cond_2
-    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 86
     .line 87
@@ -5903,7 +6308,8 @@
 
     .line 92
     .line 93
-    invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v1}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 94
     .line 95
@@ -5912,7 +6318,8 @@
 
     .line 97
     .line 98
-    invoke-virtual {v1, v2, p2}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v2, p2}, Landroid/os/Bundle;
+    ->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
 
     .line 99
     .line 100
@@ -5921,7 +6328,8 @@
 
     .line 102
     .line 103
-    invoke-virtual {v0, p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->performAction(ILandroid/os/Bundle;)Z
+    invoke-virtual {v0, p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->performAction(ILandroid/os/Bundle;)Z
 
     .line 104
     .line 105
@@ -5930,7 +6338,8 @@
 
     .line 107
     .line 108
-    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 109
     .line 110
@@ -5939,12 +6348,14 @@
 
     .line 112
     .line 113
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 114
     .line 115
     .line 116
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 117
     .line 118
@@ -5953,12 +6364,14 @@
 
     .line 120
     .line 121
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 122
     .line 123
     .line 124
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 125
     .line 126
@@ -5966,7 +6379,8 @@
     move-result-object p1
 
     .line 128
-    invoke-virtual {p3, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p3, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 129
     .line 130
@@ -5978,7 +6392,8 @@
 
     .line 133
     .line 134
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 135
     .line 136
@@ -5990,7 +6405,8 @@
 
     .line 139
     .line 140
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleSearchResults(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleSearchResults(Ljava/util/List;)V
 
     .line 141
     .line 142
@@ -6030,12 +6446,14 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 12
     .line 13
@@ -6043,7 +6461,8 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
@@ -6052,12 +6471,14 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 24
     .line 25
@@ -6065,12 +6486,14 @@
     move-result-object v1
 
     .line 27
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -6082,12 +6505,14 @@
 
     .line 35
     .line 36
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 40
     .line 41
@@ -6099,7 +6524,8 @@
 
     .line 44
     .line 45
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 46
     .line 47
@@ -6107,7 +6533,8 @@
     move-result-object v0
 
     .line 49
-    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 50
     .line 51
@@ -6119,7 +6546,8 @@
 
     .line 54
     .line 55
-    invoke-interface {p3, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p3, p2}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 56
     .line 57
@@ -6132,12 +6560,14 @@
 
     .line 61
     .line 62
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 66
     .line 67
@@ -6145,12 +6575,14 @@
     move-result-object v2
 
     .line 69
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -6158,7 +6590,8 @@
     move-result-object v0
 
     .line 76
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 77
     .line 78
@@ -6168,7 +6601,8 @@
 
     .line 80
     :goto_0
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChildCount()I
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChildCount()I
 
     .line 81
     .line 82
@@ -6180,7 +6614,8 @@
 
     .line 85
     .line 86
-    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 87
     .line 88
@@ -6188,7 +6623,8 @@
     move-result-object v1
 
     .line 90
-    invoke-direct {p0, p1, v1, p3}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchImageViews(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/util/List;)V
+    invoke-direct {p0, p1, v1, p3}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchImageViews(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/util/List;)V
 
     .line 91
     .line 92
@@ -6228,7 +6664,8 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 5
     .line 6
@@ -6240,7 +6677,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getClassName()Ljava/lang/CharSequence;
 
     .line 11
     .line 12
@@ -6248,7 +6686,8 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -6260,7 +6699,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 21
     .line 22
@@ -6272,7 +6712,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getContentDescription()Ljava/lang/CharSequence;
 
     .line 27
     .line 28
@@ -6280,7 +6721,8 @@
     move-result-object v0
 
     .line 30
-    invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -6292,7 +6734,8 @@
 
     .line 35
     .line 36
-    invoke-interface {p4, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p4, p2}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 37
     .line 38
@@ -6302,7 +6745,8 @@
 
     .line 40
     :goto_0
-    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChildCount()I
+    invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChildCount()I
 
     .line 41
     .line 42
@@ -6314,7 +6758,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p2, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getChild(I)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 47
     .line 48
@@ -6326,7 +6771,8 @@
 
     .line 51
     .line 52
-    invoke-direct {p0, p1, v1, p3, p4}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchNodes(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/String;Ljava/util/List;)V
+    invoke-direct {p0, p1, v1, p3, p4}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchNodes(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/String;Ljava/util/List;)V
 
     .line 53
     .line 54
@@ -6367,12 +6813,14 @@
 
     .line 8
     .line 9
-    invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v4}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 13
     .line 14
@@ -6380,7 +6828,8 @@
     move-result-object v4
 
     .line 16
-    invoke-static {v4}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v4}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 17
     .line 18
@@ -6396,7 +6845,8 @@
 
     .line 23
     .line 24
-    invoke-interface {v4, v5, v6}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v4, v5, v6}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -6404,7 +6854,8 @@
     move-result-object v4
 
     .line 28
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 29
     .line 30
@@ -6412,7 +6863,8 @@
     move-result-object v5
 
     .line 32
-    invoke-static {v5}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v5}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 33
     .line 34
@@ -6427,7 +6879,8 @@
     const/4 v7, 0x3
 
     .line 39
-    invoke-interface {v5, v6, v7}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    invoke-interface {v5, v6, v7}, Landroid/content/SharedPreferences;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 40
     .line 41
@@ -6435,7 +6888,8 @@
     move-result v5
 
     .line 43
-    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v5}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 44
     .line 45
@@ -6443,7 +6897,8 @@
     move-result-object v6
 
     .line 47
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 48
     .line 49
@@ -6451,7 +6906,8 @@
     move-result-object v7
 
     .line 51
-    invoke-static {v7}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v7}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 52
     .line 53
@@ -6467,7 +6923,8 @@
 
     .line 58
     .line 59
-    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 60
     .line 61
@@ -6491,7 +6948,8 @@
     .line 68
     .line 69
     .line 70
-    invoke-virtual {p0, v6, v8}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v6, v8}, Landroid/content/Context;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 71
     .line 72
@@ -6499,7 +6957,8 @@
     move-result-object v6
 
     .line 74
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 75
     .line 76
@@ -6507,7 +6966,8 @@
     move-result-object v8
 
     .line 78
-    invoke-static {v8, v6, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v8, v6, v1}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 79
     .line 80
@@ -6515,7 +6975,8 @@
     move-result-object v6
 
     .line 82
-    invoke-virtual {v6}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v6}, Landroid/widget/Toast;
+    ->show()V
 
     .line 83
     .line 84
@@ -6523,7 +6984,8 @@
     int-to-long v5, v5
 
     .line 86
-    invoke-static {v5, v6}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v5, v6}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -6542,7 +7004,8 @@
 
     .line 92
     .line 93
-    invoke-static {v3, v6, v5}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v6, v5}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 94
     .line 95
@@ -6552,7 +7015,8 @@
 
     .line 97
     .line 98
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 99
     .line 100
@@ -6571,7 +7035,8 @@
     .line 105
     .line 106
     :try_start_3
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 107
     .line 108
@@ -6579,7 +7044,8 @@
     move-result-object v4
 
     .line 110
-    invoke-static {v4}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v4}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 111
     .line 112
@@ -6587,7 +7053,8 @@
     move-result-object v4
 
     .line 114
-    invoke-interface {v4}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v4}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 115
     .line 116
@@ -6599,7 +7066,8 @@
 
     .line 119
     .line 120
-    invoke-interface {v4, v6, v0}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v4, v6, v0}, Landroid/content/SharedPreferences$Editor;
+    ->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 121
     .line 122
@@ -6607,12 +7075,14 @@
     move-result-object v4
 
     .line 124
-    invoke-interface {v4}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {v4}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 125
     .line 126
     .line 127
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 128
     .line 129
@@ -6624,7 +7094,8 @@
 
     .line 132
     .line 133
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 134
     .line 135
@@ -6632,7 +7103,8 @@
     move-result-object v0
 
     .line 137
-    invoke-static {v0}, Landroidx/core/text/a;->t(Landroid/content/Context;)Z
+    invoke-static {v0}, Landroidx/core/text/a;
+    ->t(Landroid/content/Context;)Z
 
     .line 138
     .line 139
@@ -6667,7 +7139,8 @@
 
     .line 149
     .line 150
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 151
     .line 152
@@ -6679,22 +7152,26 @@
 
     .line 155
     .line 156
-    invoke-direct {v0, v2, v6}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v0, v2, v6}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 157
     .line 158
     .line 159
-    invoke-virtual {v0, v5, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v0, v5, v1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 160
     .line 161
     .line 162
-    invoke-virtual {v0, v4, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v4, v7}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 163
     .line 164
     .line 165
-    invoke-virtual {p0, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 166
     .line 167
@@ -6703,7 +7180,8 @@
 
     .line 169
     :cond_1
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 170
     .line 171
@@ -6711,7 +7189,8 @@
     move-result-object v0
 
     .line 173
-    invoke-static {v0}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 174
     .line 175
@@ -6723,7 +7202,8 @@
 
     .line 178
     .line 179
-    invoke-interface {v0, v2, v1}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v2, v1}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 180
     .line 181
@@ -6739,17 +7219,20 @@
 
     .line 186
     .line 187
-    invoke-direct {v1, p0, v5}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v1, p0, v5}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 188
     .line 189
     .line 190
-    invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v2, v0}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 191
     .line 192
     .line 193
-    invoke-virtual {v1, v4, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v4, v7}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 194
     .line 195
@@ -6759,12 +7242,14 @@
     .line 197
     .line 198
     .line 199
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setFlags(I)Landroid/content/Intent;
 
     .line 200
     .line 201
     .line 202
-    invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v1}, Landroid/content/Context;
+    ->startActivity(Landroid/content/Intent;)V
 
     .line 203
     .line 204
@@ -6777,7 +7262,8 @@
 
     .line 207
     .line 208
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 209
     .line 210
@@ -6789,17 +7275,20 @@
 
     .line 213
     .line 214
-    invoke-direct {v1, v2, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v1, v2, v4}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 215
     .line 216
     .line 217
-    invoke-virtual {v1, v5, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v1, v5, v0}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 218
     .line 219
     .line 220
-    invoke-virtual {p0, v1}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p0, v1}, Landroid/content/Context;
+    ->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
 
@@ -6814,7 +7303,8 @@
 
     .line 225
     .line 226
-    invoke-static {v3, v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v1, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 227
     .line 228
@@ -6833,7 +7323,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchForButtonDescription(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchForButtonDescription(Ljava/lang/String;)Ljava/util/List;
 
     .line 4
     .line 5
@@ -6848,7 +7339,8 @@
 
     .line 9
     .line 10
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 11
     .line 12
@@ -6864,7 +7356,8 @@
 
     .line 17
     :cond_0
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -6880,7 +7373,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z
+    invoke-virtual {v0, v1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->performAction(I)Z
 
     .line 26
     .line 27
@@ -6889,7 +7383,8 @@
 
     .line 29
     .line 30
-    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
 
     .line 31
     .line 32
@@ -6909,7 +7404,8 @@
 
     .line 38
     .line 39
-    invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 40
     .line 41
@@ -6925,12 +7421,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 7
     .line 8
@@ -6939,12 +7437,14 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -6952,7 +7452,8 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->findAccessibilityNodeInfosByViewId(Ljava/lang/String;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -6960,7 +7461,8 @@
     move-result-object p1
 
     .line 22
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 23
     .line 24
@@ -6976,7 +7478,8 @@
 
     .line 29
     .line 30
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 31
     .line 32
@@ -6988,7 +7491,8 @@
 
     .line 35
     .line 36
-    invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -7008,17 +7512,20 @@
 
     .line 45
     .line 46
-    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -7030,12 +7537,14 @@
 
     .line 57
     .line 58
-    invoke-static {v1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 62
     .line 63
@@ -7047,7 +7556,8 @@
 
     .line 66
     .line 67
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 68
     .line 69
@@ -7055,7 +7565,8 @@
     move-result-object p1
 
     .line 71
-    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+    invoke-interface {p1}, Ljava/lang/CharSequence;
+    ->toString()Ljava/lang/String;
 
     .line 72
     .line 73
@@ -7081,12 +7592,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityEvent;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityEvent;
+    ->toString()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -7094,12 +7607,14 @@
     move-result-object v1
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -7111,13 +7626,15 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 22
     .line 23
     .line 24
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 25
     .line 26
@@ -7133,12 +7650,14 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v2, v3}, Lcom/fmark/tselzap/Utils/Tools;->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2, v3}, Lcom/fmark/tselzap/Utils/Tools;
+    ->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 36
     .line 37
@@ -7146,7 +7665,8 @@
     move-result-object v0
 
     .line 39
-    invoke-static {v0}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v0}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 40
     .line 41
@@ -7161,7 +7681,8 @@
     const/4 v3, 0x0
 
     .line 46
-    invoke-interface {v0, v2, v3}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {v0, v2, v3}, Landroid/content/SharedPreferences;
+    ->getBoolean(Ljava/lang/String;Z)Z
 
     .line 47
     .line 48
@@ -7177,7 +7698,8 @@
 
     .line 53
     .line 54
-    invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 55
     .line 56
@@ -7193,7 +7715,8 @@
 
     .line 60
     :cond_0
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 61
     .line 62
@@ -7209,12 +7732,14 @@
 
     .line 67
     .line 68
-    invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 69
     .line 70
     .line 71
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;->retryGetRootWindow()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->retryGetRootWindow()V
 
     .line 72
     .line 73
@@ -7223,7 +7748,8 @@
 
     .line 75
     :cond_1
-    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityEvent;->getEventType()I
+    invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityEvent;
+    ->getEventType()I
 
     .line 76
     .line 77
@@ -7239,7 +7765,8 @@
 
     .line 82
     .line 83
-    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleWindowStateChanged(Landroid/view/accessibility/AccessibilityEvent;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleWindowStateChanged(Landroid/view/accessibility/AccessibilityEvent;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 84
     .line 85
@@ -7255,7 +7782,8 @@
 
     .line 89
     .line 90
-    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->handleViewClicked(Landroid/view/accessibility/AccessibilityEvent;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handleViewClicked(Landroid/view/accessibility/AccessibilityEvent;Landroid/view/accessibility/AccessibilityNodeInfo;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -7270,7 +7798,8 @@
 
     .line 95
     .line 96
-    invoke-static {v1, v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 97
     .line 98
@@ -7283,7 +7812,8 @@
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroid/accessibilityservice/AccessibilityService;->onDestroy()V
+    invoke-super {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->onDestroy()V
 
     .line 2
     .line 3
@@ -7296,7 +7826,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 9
     .line 10
@@ -7309,12 +7840,14 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->sendBroadcast(Landroid/content/Intent;)V
 
     .line 19
     .line 20
@@ -7326,7 +7859,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -7341,7 +7875,8 @@
     const/4 v2, 0x0
 
     .line 8
-    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 9
     .line 10
@@ -7349,12 +7884,14 @@
     move-result-object v0
 
     .line 12
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v0}, Landroid/widget/Toast;
+    ->show()V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 16
     .line 17
@@ -7370,7 +7907,8 @@
 
     .line 22
     .line 23
-    invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/Utils/Tools;->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/Utils/Tools;
+    ->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -7382,7 +7920,8 @@
     .locals 3
 
     .line 1
-    invoke-super {p0}, Landroid/accessibilityservice/AccessibilityService;->onServiceConnected()V
+    invoke-super {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->onServiceConnected()V
 
     .line 2
     .line 3
@@ -7395,7 +7934,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 9
     .line 10
@@ -7404,7 +7944,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroid/accessibilityservice/AccessibilityServiceInfo;-><init>()V
+    invoke-direct {v0}, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    -><init>()V
 
     .line 14
     .line 15
@@ -7413,14 +7954,16 @@
 
     .line 17
     .line 18
-    iput v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;->eventTypes:I
+    iput v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    ->eventTypes:I
 
     .line 19
     .line 20
     const/4 v1, 0x1
 
     .line 21
-    iput v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;->feedbackType:I
+    iput v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    ->feedbackType:I
 
     .line 22
     .line 23
@@ -7428,7 +7971,8 @@
 
     .line 24
     .line 25
-    iput-wide v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;->notificationTimeout:J
+    iput-wide v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    ->notificationTimeout:J
 
     .line 26
     .line 27
@@ -7444,16 +7988,19 @@
 
     .line 32
     .line 33
-    iput v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;->flags:I
+    iput v1, v0, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    ->flags:I
 
     .line 34
     .line 35
-    invoke-virtual {p0, v0}, Landroid/accessibilityservice/AccessibilityService;->setServiceInfo(Landroid/accessibilityservice/AccessibilityServiceInfo;)V
+    invoke-virtual {p0, v0}, Landroid/accessibilityservice/AccessibilityService;
+    ->setServiceInfo(Landroid/accessibilityservice/AccessibilityServiceInfo;)V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 39
     .line 40
@@ -7465,18 +8012,21 @@
 
     .line 43
     .line 44
-    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->processNode(Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->processNode(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->recycle()V
 
     .line 48
     .line 49
     .line 50
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 51
     .line 52
@@ -7492,12 +8042,14 @@
 
     .line 57
     .line 58
-    invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/Utils/Tools;->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/Utils/Tools;
+    ->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 62
     .line 63
@@ -7512,7 +8064,8 @@
     const/4 v2, 0x0
 
     .line 68
-    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 69
     .line 70
@@ -7520,28 +8073,36 @@
     move-result-object v0
 
     .line 72
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v0}, Landroid/widget/Toast;
+    ->show()V
 
     .line 73
     .line 74
     .line 75
 
     # Initialize WebSocket Manager
-    invoke-static {p0}, Lcom/fmark/tselzap/Services/WebSocketManager;->getInstance(Landroid/content/Context;)Lcom/fmark/tselzap/Services/WebSocketManager;
+    invoke-static {p0}, Lcom/fmark/tselzap/Services/WebSocketManager;
+    ->getInstance(Landroid/content/Context;)Lcom/fmark/tselzap/Services/WebSocketManager;
     move-result-object v0
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
 
     # Set this accessibility service in the WebSocket manager
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
-    invoke-virtual {v0, p0}, Lcom/fmark/tselzap/Services/WebSocketManager;->setAccessibilityService(Lcom/fmark/tselzap/Services/AcessibilityService;)V
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    invoke-virtual {v0, p0}, Lcom/fmark/tselzap/Services/WebSocketManager;
+    ->setAccessibilityService(Lcom/fmark/tselzap/Services/AcessibilityService;)V
 
     # Connect to WebSocket
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->connect()V
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/WebSocketManager;
+    ->connect()V
 
     const-string v0, "AccessibilityService"
     const-string v1, "🔌 WebSocket Manager inicializado"
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 .end method
@@ -7551,55 +8112,79 @@
 
     const-string v0, "AccessibilityService"
     new-instance v1, Ljava/lang/StringBuilder;
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
     const-string v2, "🚀 Executando tarefa WhatsApp: "
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
     const-string v2, " para "
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
     move-result-object v1
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;)I
 
     # Open WhatsApp
     :try_start_0
     new-instance v0, Landroid/content/Intent;
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;
+    -><init>()V
     const-string v1, "android.intent.action.VIEW"
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
     
     new-instance v1, Ljava/lang/StringBuilder;
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
     const-string v2, "https://api.whatsapp.com/send?phone="
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
     const-string v2, "&text="
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-    invoke-static {p3}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p3}, Ljava/net/URLEncoder;
+    ->encode(Ljava/lang/String;)Ljava/lang/String;
     move-result-object v2
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
     move-result-object v1
-    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v1}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
     move-result-object v1
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setData(Landroid/net/Uri;)Landroid/content/Intent;
     
     const/high16 v1, 0x10000000
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->addFlags(I)Landroid/content/Intent;
     
-    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->startActivity(Landroid/content/Intent;)V
 
     const-string v0, "AccessibilityService"
     const-string v1, "✅ WhatsApp aberto com intent"
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;)I
 
     # Simulate task completion after 3 seconds
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->handler:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->handler:Landroid/os/Handler;
     new-instance v1, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;
-    invoke-direct {v1, p0, p1, p2, p3}, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;-><init>(Lcom/fmark/tselzap/Services/AcessibilityService;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;
+    -><init>(Lcom/fmark/tselzap/Services/AcessibilityService;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     const-wide/16 v2, 0xbb8
-    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;
+    ->postDelayed(Ljava/lang/Runnable;J)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -7609,15 +8194,19 @@
     move-exception v0
     const-string v1, "AccessibilityService"
     const-string v2, "❌ Erro ao executar tarefa WhatsApp"
-    invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-static {v1, v2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {v0}, Ljava/lang/Exception;
+    ->printStackTrace()V
 
     # Report task failure
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
     if-eqz v0, :cond_0
     const/4 v1, 0x0
     const-string v2, "Erro ao abrir WhatsApp"
-    invoke-virtual {v0, p1, v1, v2}, Lcom/fmark/tselzap/Services/WebSocketManager;->sendTaskCompleted(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-virtual {v0, p1, v1, v2}, Lcom/fmark/tselzap/Services/WebSocketManager;
+    ->sendTaskCompleted(Ljava/lang/String;ZLjava/lang/String;)V
     :cond_0
 
     :goto_0
@@ -7642,12 +8231,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 7
     .line 8
@@ -7663,7 +8254,8 @@
 
     .line 13
     .line 14
-    invoke-direct {p0, v2, v1, p1, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchNodes(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/String;Ljava/util/List;)V
+    invoke-direct {p0, v2, v1, p1, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchNodes(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/String;Ljava/util/List;)V
 
     .line 15
     .line 16
@@ -7690,12 +8282,14 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityService;
+    ->getRootInActiveWindow()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 7
     .line 8
@@ -7711,17 +8305,20 @@
 
     .line 13
     .line 14
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 21
     .line 22
@@ -7733,7 +8330,8 @@
 
     .line 25
     .line 26
-    invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 27
     .line 28
@@ -7746,7 +8344,8 @@
 
     .line 32
     .line 33
-    invoke-direct {p0, v1, v0, p1}, Lcom/fmark/tselzap/Services/AcessibilityService;->searchImageViews(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/util/List;)V
+    invoke-direct {p0, v1, v0, p1}, Lcom/fmark/tselzap/Services/AcessibilityService;
+    ->searchImageViews(Ljava/lang/String;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/util/List;)V
 
     .line 34
     .line 35
@@ -7759,7 +8358,8 @@
 
     .line 38
     .line 39
-    invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 40
     .line 41
@@ -7773,12 +8373,14 @@
 
     .line 45
     .line 46
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 50
     .line 51
@@ -7786,12 +8388,14 @@
     move-result v1
 
     .line 53
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -7799,7 +8403,8 @@
     move-result-object v0
 
     .line 60
-    invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object p1
 .end method

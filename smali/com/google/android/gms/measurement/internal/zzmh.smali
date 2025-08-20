@@ -48,7 +48,8 @@
     move-wide v3, p3
 
     .line 1
-    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzmh;-><init>(Ljava/lang/String;Ljava/lang/String;JZJ)V
+    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzmh;
+    -><init>(Ljava/lang/String;Ljava/lang/String;JZJ)V
 return-void
 .end method
 
@@ -64,27 +65,34 @@ return-void
     .end param
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzmh;
+    ->zza:Ljava/lang/String;
 
     .line 4
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zzb:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzmh;
+    ->zzb:Ljava/lang/String;
 
     .line 5
-    iput-wide p3, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zzc:J
+    iput-wide p3, p0, Lcom/google/android/gms/measurement/internal/zzmh;
+    ->zzc:J
 
     const/4 p1, 0x0
 
     .line 6
-    iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zzd:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzmh;
+    ->zzd:Z
 
     .line 7
-    iput-boolean p5, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zze:Z
+    iput-boolean p5, p0, Lcom/google/android/gms/measurement/internal/zzmh;
+    ->zze:Z
 
     .line 8
-    iput-wide p6, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zzf:J
+    iput-wide p6, p0, Lcom/google/android/gms/measurement/internal/zzmh;
+    ->zzf:J
 
     return-void
 .end method

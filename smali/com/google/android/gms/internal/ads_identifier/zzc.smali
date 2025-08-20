@@ -16,7 +16,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 4
     .line 5
@@ -24,7 +25,8 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Lcom/google/android/gms/internal/ads_identifier/zzc;->zza:Ljava/lang/ClassLoader;
+    sput-object v0, Lcom/google/android/gms/internal/ads_identifier/zzc;
+    ->zza:Ljava/lang/ClassLoader;
 
     .line 8
     .line 9
@@ -34,7 +36,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -45,7 +48,8 @@
     const/4 p1, 0x1
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 3
     .line 4
@@ -57,7 +61,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p0}, Landroid/os/Parcel;
+    ->readInt()I
 
     .line 2
     .line 3

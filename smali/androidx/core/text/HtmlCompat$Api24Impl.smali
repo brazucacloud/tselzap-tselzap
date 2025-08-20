@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/text/Html;->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
+    invoke-static {p0, p1}, Landroid/text/Html;
+    ->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -50,7 +52,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Landroid/text/Html;->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
+    invoke-static {p0, p1, p2, p3}, Landroid/text/Html;
+    ->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -63,7 +66,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/text/Html;->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroid/text/Html;
+    ->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
 
     .line 2
     .line 3

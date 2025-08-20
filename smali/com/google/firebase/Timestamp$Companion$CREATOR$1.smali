@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -46,20 +47,24 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Lcom/google/firebase/Timestamp;
 
-    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readLong()J
 
     move-result-wide v1
 
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p1
 
-    invoke-direct {v0, v1, v2, p1}, Lcom/google/firebase/Timestamp;-><init>(JI)V
+    invoke-direct {v0, v1, v2, p1}, Lcom/google/firebase/Timestamp;
+    -><init>(JI)V
     return-object v0
 .end method
 
@@ -67,7 +72,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/google/firebase/Timestamp$Companion$CREATOR$1;->createFromParcel(Landroid/os/Parcel;)Lcom/google/firebase/Timestamp;
+    invoke-virtual {p0, p1}, Lcom/google/firebase/Timestamp$Companion$CREATOR$1;
+    ->createFromParcel(Landroid/os/Parcel;)Lcom/google/firebase/Timestamp;
 
     move-result-object p1
 
@@ -87,7 +93,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/google/firebase/Timestamp$Companion$CREATOR$1;->newArray(I)[Lcom/google/firebase/Timestamp;
+    invoke-virtual {p0, p1}, Lcom/google/firebase/Timestamp$Companion$CREATOR$1;
+    ->newArray(I)[Lcom/google/firebase/Timestamp;
 
     move-result-object p1
 

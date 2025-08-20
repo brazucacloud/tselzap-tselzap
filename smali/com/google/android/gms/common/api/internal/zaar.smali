@@ -12,7 +12,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/signin/internal/zac;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/signin/internal/zac;
+    -><init>()V
 
     .line 2
     .line 3
@@ -21,12 +22,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaar;->zaa:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaar;
+    ->zaa:Ljava/lang/ref/WeakReference;
 
     .line 10
     .line 11
@@ -41,11 +44,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaar;->zaa:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaar;
+    ->zaa:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -65,7 +70,8 @@
 
     .line 12
     :cond_0
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zak(Lcom/google/android/gms/common/api/internal/zaaw;)Lcom/google/android/gms/common/api/internal/zabi;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
+    ->zak(Lcom/google/android/gms/common/api/internal/zaaw;)Lcom/google/android/gms/common/api/internal/zabi;
 
     .line 13
     .line 14
@@ -77,12 +83,14 @@
 
     .line 17
     .line 18
-    invoke-direct {v2, p0, v0, v0, p1}, Lcom/google/android/gms/common/api/internal/zaaq;-><init>(Lcom/google/android/gms/common/api/internal/zaar;Lcom/google/android/gms/common/api/internal/zabf;Lcom/google/android/gms/common/api/internal/zaaw;Lcom/google/android/gms/signin/internal/zak;)V
+    invoke-direct {v2, p0, v0, v0, p1}, Lcom/google/android/gms/common/api/internal/zaaq;
+    -><init>(Lcom/google/android/gms/common/api/internal/zaar;Lcom/google/android/gms/common/api/internal/zabf;Lcom/google/android/gms/common/api/internal/zaaw;Lcom/google/android/gms/signin/internal/zak;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Lcom/google/android/gms/common/api/internal/zabi;->zal(Lcom/google/android/gms/common/api/internal/zabg;)V
+    invoke-virtual {v1, v2}, Lcom/google/android/gms/common/api/internal/zabi;
+    ->zal(Lcom/google/android/gms/common/api/internal/zabg;)V
 
     .line 22
     .line 23

@@ -19,7 +19,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -28,12 +29,15 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkArgumentNonnegative(ILjava/lang/String;)I
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkArgumentNonnegative(ILjava/lang/String;)I
 
     .line 7
     .line 8
     .line 9
-    iput p1, p0, Landroidx/viewpager2/widget/MarginPageTransformer;->mMarginPx:I    return-void
+    iput p1, p0, Landroidx/viewpager2/widget/MarginPageTransformer;
+    ->mMarginPx:I    
+    return-void
 .end method
 
 .method private requireViewPager(Landroid/view/View;)Landroidx/viewpager2/widget/ViewPager2;
@@ -44,7 +48,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 2
     .line 3
@@ -52,7 +57,8 @@
     move-result-object p1
 
     .line 5
-    invoke-interface {p1}, Landroid/view/ViewParent;->getParent()Landroid/view/ViewParent;
+    invoke-interface {p1}, Landroid/view/ViewParent;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 6
     .line 7
@@ -88,7 +94,8 @@
 
     .line 23
     .line 24
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -106,7 +113,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/MarginPageTransformer;->requireViewPager(Landroid/view/View;)Landroidx/viewpager2/widget/ViewPager2;
+    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/MarginPageTransformer;
+    ->requireViewPager(Landroid/view/View;)Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
@@ -114,7 +122,8 @@
     move-result-object v0
 
     .line 5
-    iget v1, p0, Landroidx/viewpager2/widget/MarginPageTransformer;->mMarginPx:I
+    iget v1, p0, Landroidx/viewpager2/widget/MarginPageTransformer;
+    ->mMarginPx:I
 
     .line 6
     .line 7
@@ -125,7 +134,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->getOrientation()I
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;
+    ->getOrientation()I
 
     .line 11
     .line 12
@@ -137,7 +147,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->isRtl()Z
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;
+    ->isRtl()Z
 
     .line 17
     .line 18
@@ -153,11 +164,15 @@
 
     .line 23
     :cond_0
-    invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationX(F)V    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;
+    ->setTranslationX(F)V    
+    return-void
 
     .line 27
     :cond_1
-    invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationY(F)V    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;
+    ->setTranslationY(F)V    
+    return-void
 .end method
 
 .end class

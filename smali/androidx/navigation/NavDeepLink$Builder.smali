@@ -40,9 +40,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/navigation/NavDeepLink$Builder$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/navigation/NavDeepLink$Builder$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/navigation/NavDeepLink$Builder;->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
+    sput-object v0, Landroidx/navigation/NavDeepLink$Builder;
+    ->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
 
     return-void
 .end method
@@ -51,21 +53,25 @@
     .locals 0
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
 .method public static final fromAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
     .locals 1
 
-    sget-object v0, Landroidx/navigation/NavDeepLink$Builder;->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
+    sget-object v0, Landroidx/navigation/NavDeepLink$Builder;
+    ->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;->fromAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
+    invoke-virtual {v0, p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;
+    ->fromAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
 
     move-result-object p0
 
@@ -75,9 +81,11 @@
 .method public static final fromMimeType(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
     .locals 1
 
-    sget-object v0, Landroidx/navigation/NavDeepLink$Builder;->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
+    sget-object v0, Landroidx/navigation/NavDeepLink$Builder;
+    ->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;->fromMimeType(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
+    invoke-virtual {v0, p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;
+    ->fromMimeType(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
 
     move-result-object p0
 
@@ -87,9 +95,11 @@
 .method public static final fromUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
     .locals 1
 
-    sget-object v0, Landroidx/navigation/NavDeepLink$Builder;->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
+    sget-object v0, Landroidx/navigation/NavDeepLink$Builder;
+    ->Companion:Landroidx/navigation/NavDeepLink$Builder$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;->fromUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
+    invoke-virtual {v0, p0}, Landroidx/navigation/NavDeepLink$Builder$Companion;
+    ->fromUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
 
     move-result-object p0
 
@@ -104,20 +114,24 @@
     if-eqz p0, :cond_0
 
     .line 1
-    sget-object p2, Ld1/u;->b:Ld1/u;
+    sget-object p2, Ld1/u;
+    ->b:Ld1/u;
 
     .line 2
     :cond_0
     const-string p0, "basePath"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "typeMap"
 
-    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -132,11 +146,13 @@
     if-eqz p4, :cond_0
 
     .line 4
-    sget-object p3, Ld1/u;->b:Ld1/u;
+    sget-object p3, Ld1/u;
+    ->b:Ld1/u;
 
     .line 5
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavDeepLink$Builder;->setUriPattern(Ljava/lang/String;Lv1/c;Ljava/util/Map;)Landroidx/navigation/NavDeepLink$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavDeepLink$Builder;
+    ->setUriPattern(Ljava/lang/String;Lv1/c;Ljava/util/Map;)Landroidx/navigation/NavDeepLink$Builder;
 
     move-result-object p0
 
@@ -153,19 +169,23 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/navigation/NavDeepLink$Builder;->uriPattern:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->uriPattern:Ljava/lang/String;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/navigation/NavDeepLink$Builder;->action:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->action:Ljava/lang/String;
 
     .line 6
     .line 7
-    iget-object v3, p0, Landroidx/navigation/NavDeepLink$Builder;->mimeType:Ljava/lang/String;
+    iget-object v3, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->mimeType:Ljava/lang/String;
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavDeepLink;
+    -><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -177,12 +197,14 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 7
     .line 8
@@ -194,7 +216,9 @@ return-object v0
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->action:Ljava/lang/String;    return-object p0
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->action:Ljava/lang/String;    
+    return-object p0
 
     .line 15
     :cond_0
@@ -206,7 +230,8 @@ return-object v0
 
     .line 18
     .line 19
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -221,12 +246,15 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->mimeType:Ljava/lang/String;    return-object p0
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->mimeType:Ljava/lang/String;    
+    return-object p0
 .end method
 
 .method public final setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
@@ -234,10 +262,12 @@ return-object v0
 
     const-string v0, "uriPattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->uriPattern:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->uriPattern:Ljava/lang/String;
 
     return-object p0
 .end method
@@ -260,14 +290,17 @@ return-object v0
 
     const-string v0, "basePath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "typeMap"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p1, 0x0
 
@@ -278,7 +311,8 @@ return-object v0
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -300,26 +334,32 @@ return-object v0
 
     const-string v0, "basePath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "route"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-static {p2}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p2}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object p2
 
-    invoke-static {p2, p3, p1}, Landroidx/navigation/serialization/RouteSerializerKt;->generateRoutePattern(LJ1/b;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p3, p1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateRoutePattern(LJ1/b;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;->uriPattern:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$Builder;
+    ->uriPattern:Ljava/lang/String;
 
     return-object p0
 .end method

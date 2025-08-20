@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2, p3, p4, p5}, Landroidx/emoji2/text/EmojiCompat;->handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
+    invoke-static {p1, p2, p3, p4, p5}, Landroidx/emoji2/text/EmojiCompat;
+    ->handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
 
     .line 2
     .line 3
@@ -69,7 +71,8 @@
     .end param
 
     .line 1
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->isConfigured()Z
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
+    ->isConfigured()Z
 
     .line 2
     .line 3
@@ -81,7 +84,8 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
+    ->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 8
     .line 9
@@ -89,7 +93,8 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/EmojiCompat;->updateEditorInfo(Landroid/view/inputmethod/EditorInfo;)V
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/EmojiCompat;
+    ->updateEditorInfo(Landroid/view/inputmethod/EditorInfo;)V
 
     .line 12
     .line 13

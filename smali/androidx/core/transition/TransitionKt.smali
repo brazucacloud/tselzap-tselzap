@@ -40,12 +40,14 @@
     move-object v3, p5
 
     .line 8
-    invoke-direct/range {v0 .. v5}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/core/transition/TransitionKt$addListener$listener$1;
+    -><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, v0}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 12
     .line 13
@@ -65,7 +67,8 @@
 
     .line 4
     .line 5
-    sget-object p1, Landroidx/core/transition/TransitionKt$addListener$1;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$1;
+    sget-object p1, Landroidx/core/transition/TransitionKt$addListener$1;
+    ->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$1;
 
     .line 6
     .line 7
@@ -78,7 +81,8 @@
 
     .line 10
     .line 11
-    sget-object p2, Landroidx/core/transition/TransitionKt$addListener$2;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$2;
+    sget-object p2, Landroidx/core/transition/TransitionKt$addListener$2;
+    ->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$2;
 
     .line 12
     .line 13
@@ -94,7 +98,8 @@
 
     .line 17
     .line 18
-    sget-object p3, Landroidx/core/transition/TransitionKt$addListener$3;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$3;
+    sget-object p3, Landroidx/core/transition/TransitionKt$addListener$3;
+    ->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$3;
 
     .line 19
     .line 20
@@ -107,7 +112,8 @@
 
     .line 23
     .line 24
-    sget-object p4, Landroidx/core/transition/TransitionKt$addListener$4;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$4;
+    sget-object p4, Landroidx/core/transition/TransitionKt$addListener$4;
+    ->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$4;
 
     .line 25
     .line 26
@@ -120,7 +126,8 @@
 
     .line 29
     .line 30
-    sget-object p5, Landroidx/core/transition/TransitionKt$addListener$5;->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$5;
+    sget-object p5, Landroidx/core/transition/TransitionKt$addListener$5;
+    ->INSTANCE:Landroidx/core/transition/TransitionKt$addListener$5;
 
     .line 31
     .line 32
@@ -135,12 +142,14 @@
     move-object p3, p1
 
     .line 36
-    invoke-direct/range {p2 .. p7}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
+    invoke-direct/range {p2 .. p7}, Landroidx/core/transition/TransitionKt$addListener$listener$1;
+    -><init>(Lp1/l;Lp1/l;Lp1/l;Lp1/l;Lp1/l;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {p0, p2}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, p2}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 40
     .line 41
@@ -165,12 +174,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, v0}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 7
     .line 8
@@ -195,12 +206,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, v0}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 7
     .line 8
@@ -225,12 +238,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, v0}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 7
     .line 8
@@ -255,12 +270,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, v0}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 7
     .line 8
@@ -285,12 +302,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
+    invoke-virtual {p0, v0}, Landroid/transition/Transition;
+    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
     .line 7
     .line 8

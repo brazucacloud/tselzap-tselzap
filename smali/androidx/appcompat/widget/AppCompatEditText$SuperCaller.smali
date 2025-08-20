@@ -27,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->this$0:Landroidx/appcompat/widget/AppCompatEditText;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;
+    ->this$0:Landroidx/appcompat/widget/AppCompatEditText;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -43,11 +45,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->this$0:Landroidx/appcompat/widget/AppCompatEditText;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;
+    ->this$0:Landroidx/appcompat/widget/AppCompatEditText;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatEditText;->access$001(Landroidx/appcompat/widget/AppCompatEditText;)Landroid/view/textclassifier/TextClassifier;
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatEditText;
+    ->access$001(Landroidx/appcompat/widget/AppCompatEditText;)Landroid/view/textclassifier/TextClassifier;
 
     .line 4
     .line 5
@@ -61,11 +65,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->this$0:Landroidx/appcompat/widget/AppCompatEditText;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;
+    ->this$0:Landroidx/appcompat/widget/AppCompatEditText;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatEditText;->access$101(Landroidx/appcompat/widget/AppCompatEditText;Landroid/view/textclassifier/TextClassifier;)V
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatEditText;
+    ->access$101(Landroidx/appcompat/widget/AppCompatEditText;Landroid/view/textclassifier/TextClassifier;)V
 return-void
 .end method
 

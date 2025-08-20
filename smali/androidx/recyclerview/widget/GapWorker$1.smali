@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -41,7 +42,8 @@
     .locals 6
 
     .line 2
-    iget-object v0, p1, Landroidx/recyclerview/widget/GapWorker$Task;->view:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p1, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->view:Landroidx/recyclerview/widget/RecyclerView;
 
     const/4 v1, 0x0
 
@@ -57,7 +59,8 @@
     const/4 v3, 0x0
 
     :goto_0
-    iget-object v4, p2, Landroidx/recyclerview/widget/GapWorker$Task;->view:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v4, p2, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->view:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v4, :cond_1
 
@@ -82,9 +85,11 @@
 
     .line 3
     :cond_3
-    iget-boolean v0, p1, Landroidx/recyclerview/widget/GapWorker$Task;->neededNextFrame:Z
+    iget-boolean v0, p1, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->neededNextFrame:Z
 
-    iget-boolean v3, p2, Landroidx/recyclerview/widget/GapWorker$Task;->neededNextFrame:Z
+    iget-boolean v3, p2, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->neededNextFrame:Z
 
     if-eq v0, v3, :cond_5
 
@@ -97,9 +102,11 @@
 
     .line 4
     :cond_5
-    iget v0, p2, Landroidx/recyclerview/widget/GapWorker$Task;->viewVelocity:I
+    iget v0, p2, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->viewVelocity:I
 
-    iget v2, p1, Landroidx/recyclerview/widget/GapWorker$Task;->viewVelocity:I
+    iget v2, p1, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->viewVelocity:I
 
     sub-int/2addr v0, v2
 
@@ -109,9 +116,11 @@
 
     .line 5
     :cond_6
-    iget p1, p1, Landroidx/recyclerview/widget/GapWorker$Task;->distanceToItem:I
+    iget p1, p1, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->distanceToItem:I
 
-    iget p2, p2, Landroidx/recyclerview/widget/GapWorker$Task;->distanceToItem:I
+    iget p2, p2, Landroidx/recyclerview/widget/GapWorker$Task;
+    ->distanceToItem:I
 
     sub-int/2addr p1, p2
 
@@ -131,7 +140,8 @@
 
     check-cast p2, Landroidx/recyclerview/widget/GapWorker$Task;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/GapWorker$1;->compare(Landroidx/recyclerview/widget/GapWorker$Task;Landroidx/recyclerview/widget/GapWorker$Task;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/GapWorker$1;
+    ->compare(Landroidx/recyclerview/widget/GapWorker$Task;Landroidx/recyclerview/widget/GapWorker$Task;)I
 
     move-result p1
 

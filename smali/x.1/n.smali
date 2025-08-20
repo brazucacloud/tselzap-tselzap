@@ -16,7 +16,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -25,12 +26,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0}, Ljava/util/Collections;->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
+    invoke-static {v0}, Ljava/util/Collections;
+    ->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
 
     .line 10
     .line 11
@@ -38,7 +41,8 @@
     move-result-object v0
 
     .line 13
-    iput-object v0, p0, Lx/n;->a:Ljava/util/Set;
+    iput-object v0, p0, Lx/n;
+    ->a:Ljava/util/Set;
 
     .line 14
     .line 15
@@ -46,12 +50,14 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    iput-object v0, p0, Lx/n;->b:Ljava/util/ArrayList;
+    iput-object v0, p0, Lx/n;
+    ->b:Ljava/util/ArrayList;
 
     .line 21
     .line 22
@@ -75,11 +81,13 @@
 
     .line 5
     :cond_0
-    iget-object v1, p0, Lx/n;->a:Ljava/util/Set;
+    iget-object v1, p0, Lx/n;
+    ->a:Ljava/util/Set;
 
     .line 6
     .line 7
-    invoke-interface {v1, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/Set;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -87,11 +95,13 @@
     move-result v1
 
     .line 11
-    iget-object v2, p0, Lx/n;->b:Ljava/util/ArrayList;
+    iget-object v2, p0, Lx/n;
+    ->b:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -120,7 +130,8 @@
 
     .line 24
     .line 25
-    invoke-interface {p1}, LA/c;->clear()V
+    invoke-interface {p1}, LA/c;
+    ->clear()V
 
     .line 26
     .line 27
@@ -137,12 +148,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-super {p0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -150,7 +163,8 @@
     move-result-object v1
 
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -159,16 +173,19 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Lx/n;->a:Ljava/util/Set;
+    iget-object v1, p0, Lx/n;
+    ->a:Ljava/util/Set;
 
     .line 19
     .line 20
-    invoke-interface {v1}, Ljava/util/Set;->size()I
+    invoke-interface {v1}, Ljava/util/Set;
+    ->size()I
 
     .line 21
     .line 22
@@ -176,7 +193,8 @@
     move-result v1
 
     .line 24
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
@@ -185,16 +203,19 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    iget-boolean v1, p0, Lx/n;->c:Z
+    iget-boolean v1, p0, Lx/n;
+    ->c:Z
 
     .line 33
     .line 34
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Z)Ljava/lang/StringBuilder;
 
     .line 35
     .line 36
@@ -203,12 +224,14 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 43
     .line 44

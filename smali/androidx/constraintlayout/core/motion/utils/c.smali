@@ -8,7 +8,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -16,7 +17,8 @@
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 6
     .line 7
@@ -42,7 +44,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -71,7 +74,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -100,7 +104,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -129,7 +134,8 @@
 
     .line 55
     .line 56
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -158,7 +164,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 70
     .line 71
@@ -187,7 +194,8 @@
 
     .line 81
     .line 82
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 83
     .line 84
@@ -216,7 +224,8 @@
 
     .line 94
     .line 95
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 96
     .line 97
@@ -245,7 +254,8 @@
 
     .line 107
     .line 108
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 109
     .line 110
@@ -274,7 +284,8 @@
 
     .line 120
     .line 121
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 122
     .line 123
@@ -301,7 +312,8 @@
 
     .line 131
     .line 132
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 133
     .line 134
@@ -328,7 +340,8 @@
 
     .line 142
     .line 143
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 144
     .line 145
@@ -356,7 +369,8 @@
 
     .line 154
     .line 155
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 156
     .line 157
@@ -384,7 +398,8 @@
 
     .line 166
     .line 167
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 168
     .line 169
@@ -412,7 +427,8 @@
 
     .line 178
     .line 179
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 180
     .line 181
@@ -440,7 +456,8 @@
 
     .line 190
     .line 191
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 192
     .line 193
@@ -468,7 +485,8 @@
 
     .line 202
     .line 203
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 204
     .line 205
@@ -663,7 +681,8 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 .method public static b(I)I
     .locals 1
@@ -813,6 +832,7 @@
         :pswitch_0
         :pswitch_0
         :pswitch_0
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 .end class

@@ -12,7 +12,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -168,7 +169,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x16
 
@@ -193,7 +195,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x17
 
@@ -218,7 +221,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x18
 
@@ -243,7 +247,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1a
 
@@ -268,7 +273,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1c
 
@@ -293,7 +299,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1d
 
@@ -318,7 +325,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1e
 
@@ -343,7 +351,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1f
 
@@ -368,7 +377,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x20
 
@@ -393,7 +403,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x21
 
@@ -418,7 +429,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x22
 
@@ -445,7 +457,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastU()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
+    ->isAtLeastU()Z
 
     .line 2
     .line 3
@@ -463,7 +476,8 @@
 
     .line 9
     :cond_0
-    invoke-static {}, Landroidx/core/os/BuildCompat;->isAtLeastV()Z
+    invoke-static {}, Landroidx/core/os/BuildCompat;
+    ->isAtLeastV()Z
 
     .line 10
     .line 11

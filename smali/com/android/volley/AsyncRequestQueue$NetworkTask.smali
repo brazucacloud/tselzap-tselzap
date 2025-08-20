@@ -40,11 +40,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/AsyncRequestQueue$NetworkTask;->this$0:Lcom/android/volley/AsyncRequestQueue;
+    iput-object p1, p0, Lcom/android/volley/AsyncRequestQueue$NetworkTask;
+    ->this$0:Lcom/android/volley/AsyncRequestQueue;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Lcom/android/volley/RequestTask;-><init>(Lcom/android/volley/Request;)V
+    invoke-direct {p0, p2}, Lcom/android/volley/RequestTask;
+    -><init>(Lcom/android/volley/Request;)V
 
     .line 4
     .line 5
@@ -58,11 +60,13 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object v0, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/android/volley/Request;->isCanceled()Z
+    invoke-virtual {v0}, Lcom/android/volley/Request;
+    ->isCanceled()Z
 
     .line 4
     .line 5
@@ -74,7 +78,8 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object v0, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 10
     .line 11
@@ -82,16 +87,19 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Lcom/android/volley/Request;->finish(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/android/volley/Request;
+    ->finish(Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object v0, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Lcom/android/volley/Request;->notifyListenerResponseNotUsable()V
+    invoke-virtual {v0}, Lcom/android/volley/Request;
+    ->notifyListenerResponseNotUsable()V
 
     .line 19
     .line 20
@@ -100,7 +108,8 @@
 
     .line 22
     :cond_0
-    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->elapsedRealtime()J
 
     .line 23
     .line 24
@@ -108,7 +117,8 @@
     move-result-wide v0
 
     .line 26
-    iget-object v2, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object v2, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 27
     .line 28
@@ -116,16 +126,19 @@
 
     .line 29
     .line 30
-    invoke-virtual {v2, v3}, Lcom/android/volley/Request;->addMarker(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/android/volley/Request;
+    ->addMarker(Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    iget-object v2, p0, Lcom/android/volley/AsyncRequestQueue$NetworkTask;->this$0:Lcom/android/volley/AsyncRequestQueue;
+    iget-object v2, p0, Lcom/android/volley/AsyncRequestQueue$NetworkTask;
+    ->this$0:Lcom/android/volley/AsyncRequestQueue;
 
     .line 34
     .line 35
-    invoke-static {v2}, Lcom/android/volley/AsyncRequestQueue;->access$600(Lcom/android/volley/AsyncRequestQueue;)Lcom/android/volley/AsyncNetwork;
+    invoke-static {v2}, Lcom/android/volley/AsyncRequestQueue;
+    ->access$600(Lcom/android/volley/AsyncRequestQueue;)Lcom/android/volley/AsyncNetwork;
 
     .line 36
     .line 37
@@ -133,7 +146,8 @@
     move-result-object v2
 
     .line 39
-    iget-object v3, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object v3, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 40
     .line 41
@@ -141,12 +155,14 @@
 
     .line 42
     .line 43
-    invoke-direct {v4, p0, v0, v1}, Lcom/android/volley/AsyncRequestQueue$NetworkTask$1;-><init>(Lcom/android/volley/AsyncRequestQueue$NetworkTask;J)V
+    invoke-direct {v4, p0, v0, v1}, Lcom/android/volley/AsyncRequestQueue$NetworkTask$1;
+    -><init>(Lcom/android/volley/AsyncRequestQueue$NetworkTask;J)V
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v2, v3, v4}, Lcom/android/volley/AsyncNetwork;->performRequest(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
+    invoke-virtual {v2, v3, v4}, Lcom/android/volley/AsyncNetwork;
+    ->performRequest(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
 
     .line 47
     .line 48

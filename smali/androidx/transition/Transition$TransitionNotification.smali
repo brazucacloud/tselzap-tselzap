@@ -38,12 +38,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/transition/c;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/transition/c;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_START:Landroidx/transition/Transition$TransitionNotification;
+    sput-object v0, Landroidx/transition/Transition$TransitionNotification;
+    ->ON_START:Landroidx/transition/Transition$TransitionNotification;
 
     .line 8
     .line 9
@@ -54,12 +56,14 @@
     const/4 v1, 0x1
 
     .line 12
-    invoke-direct {v0, v1}, Landroidx/transition/c;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/transition/c;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_END:Landroidx/transition/Transition$TransitionNotification;
+    sput-object v0, Landroidx/transition/Transition$TransitionNotification;
+    ->ON_END:Landroidx/transition/Transition$TransitionNotification;
 
     .line 16
     .line 17
@@ -70,12 +74,14 @@
     const/4 v1, 0x2
 
     .line 20
-    invoke-direct {v0, v1}, Landroidx/transition/c;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/transition/c;
+    -><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_CANCEL:Landroidx/transition/Transition$TransitionNotification;
+    sput-object v0, Landroidx/transition/Transition$TransitionNotification;
+    ->ON_CANCEL:Landroidx/transition/Transition$TransitionNotification;
 
     .line 24
     .line 25
@@ -86,12 +92,14 @@
     const/4 v1, 0x3
 
     .line 28
-    invoke-direct {v0, v1}, Landroidx/transition/c;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/transition/c;
+    -><init>(I)V
 
     .line 29
     .line 30
     .line 31
-    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_PAUSE:Landroidx/transition/Transition$TransitionNotification;
+    sput-object v0, Landroidx/transition/Transition$TransitionNotification;
+    ->ON_PAUSE:Landroidx/transition/Transition$TransitionNotification;
 
     .line 32
     .line 33
@@ -102,12 +110,14 @@
     const/4 v1, 0x4
 
     .line 36
-    invoke-direct {v0, v1}, Landroidx/transition/c;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/transition/c;
+    -><init>(I)V
 
     .line 37
     .line 38
     .line 39
-    sput-object v0, Landroidx/transition/Transition$TransitionNotification;->ON_RESUME:Landroidx/transition/Transition$TransitionNotification;    return-void
+    sput-object v0, Landroidx/transition/Transition$TransitionNotification;
+    ->ON_RESUME:Landroidx/transition/Transition$TransitionNotification;    return-void
 .end method
 
 

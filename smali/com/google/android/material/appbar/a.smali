@@ -19,20 +19,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lcom/google/android/material/appbar/a;->c:Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
+    iput-object p2, p0, Lcom/google/android/material/appbar/a;
+    ->c:Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/google/android/material/appbar/a;->a:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iput-object p1, p0, Lcom/google/android/material/appbar/a;
+    ->a:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/google/android/material/appbar/a;->b:Lcom/google/android/material/appbar/AppBarLayout;
+    iput-object p3, p0, Lcom/google/android/material/appbar/a;
+    ->b:Lcom/google/android/material/appbar/AppBarLayout;
 
     .line 9
     .line 10
@@ -45,7 +49,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;
+    ->getAnimatedValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -57,7 +62,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 8
     .line 9
@@ -65,19 +71,23 @@
     move-result p1
 
     .line 11
-    iget-object v0, p0, Lcom/google/android/material/appbar/a;->a:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iget-object v0, p0, Lcom/google/android/material/appbar/a;
+    ->a:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/google/android/material/appbar/a;->b:Lcom/google/android/material/appbar/AppBarLayout;
+    iget-object v1, p0, Lcom/google/android/material/appbar/a;
+    ->b:Lcom/google/android/material/appbar/AppBarLayout;
 
     .line 14
     .line 15
-    iget-object v2, p0, Lcom/google/android/material/appbar/a;->c:Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
+    iget-object v2, p0, Lcom/google/android/material/appbar/a;
+    ->c:Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
 
     .line 16
     .line 17
-    invoke-virtual {v2, v0, v1, p1}, La0/f;->i(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)V
+    invoke-virtual {v2, v0, v1, p1}, La0/f;
+    ->i(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)V
 
     .line 18
     .line 19

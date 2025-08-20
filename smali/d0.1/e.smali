@@ -17,16 +17,19 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Ld0/e;->b:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iput-object p1, p0, Ld0/e;
+    ->b:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 5
     .line 6
-    iput p2, p0, Ld0/e;->a:I
+    iput p2, p0, Ld0/e;
+    ->a:I
 
     .line 7
     .line 8
@@ -39,15 +42,18 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Ld0/e;->b:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object p1, p0, Ld0/e;
+    ->b:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 2
     .line 3
-    iget p2, p0, Ld0/e;->a:I
+    iget p2, p0, Ld0/e;
+    ->a:I
 
     .line 4
     .line 5
-    invoke-virtual {p1, p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->o(I)V
+    invoke-virtual {p1, p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    ->o(I)V
 
     .line 6
     .line 7

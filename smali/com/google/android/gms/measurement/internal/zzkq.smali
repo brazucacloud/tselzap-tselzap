@@ -18,13 +18,17 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzkf;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/android/gms/measurement/internal/zzoz;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzkq;->zza:Lcom/google/android/gms/measurement/internal/zzkf;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzkq;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzkf;
 
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzkq;->zzb:Ljava/util/concurrent/atomic/AtomicReference;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzkq;
+    ->zzb:Ljava/util/concurrent/atomic/AtomicReference;
 
-    iput-object p3, p0, Lcom/google/android/gms/measurement/internal/zzkq;->zzc:Lcom/google/android/gms/measurement/internal/zzoz;
+    iput-object p3, p0, Lcom/google/android/gms/measurement/internal/zzkq;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzoz;
 
     return-void
 .end method
@@ -34,11 +38,14 @@
 .method public final zza(Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
     .locals 8
 
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzkq;->zza:Lcom/google/android/gms/measurement/internal/zzkf;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzkq;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzkf;
 
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzkq;->zzb:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzkq;
+    ->zzb:Ljava/util/concurrent/atomic/AtomicReference;
 
-    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzkq;->zzc:Lcom/google/android/gms/measurement/internal/zzoz;
+    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzkq;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzoz;
 
     move-object v3, p1
 
@@ -50,7 +57,8 @@
 
     move-object v7, p5
 
-    invoke-static/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzkf;->zza(Lcom/google/android/gms/measurement/internal/zzkf;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/android/gms/measurement/internal/zzoz;Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
+    invoke-static/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzkf;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzkf;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/android/gms/measurement/internal/zzoz;Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
 return-void
 .end method
 

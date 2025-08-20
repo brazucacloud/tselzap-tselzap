@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->hasBearingAccuracy()Z
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->hasBearingAccuracy()Z
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroid/location/Location;->getElapsedRealtimeUncertaintyNanos()D
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getElapsedRealtimeUncertaintyNanos()D
 
     .line 9
     .line 10
@@ -61,12 +64,14 @@
     move-result-wide v0
 
     .line 12
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;->removeBearingAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;
+    ->removeBearingAccuracy(Landroid/location/Location;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0, v0, v1}, Landroid/location/Location;->setElapsedRealtimeUncertaintyNanos(D)V
+    invoke-virtual {p0, v0, v1}, Landroid/location/Location;
+    ->setElapsedRealtimeUncertaintyNanos(D)V
 
     .line 16
     .line 17
@@ -80,7 +85,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->hasSpeedAccuracy()Z
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->hasSpeedAccuracy()Z
 
     .line 2
     .line 3
@@ -96,7 +102,8 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroid/location/Location;->getElapsedRealtimeUncertaintyNanos()D
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getElapsedRealtimeUncertaintyNanos()D
 
     .line 9
     .line 10
@@ -104,12 +111,14 @@
     move-result-wide v0
 
     .line 12
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;->removeSpeedAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;
+    ->removeSpeedAccuracy(Landroid/location/Location;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0, v0, v1}, Landroid/location/Location;->setElapsedRealtimeUncertaintyNanos(D)V
+    invoke-virtual {p0, v0, v1}, Landroid/location/Location;
+    ->setElapsedRealtimeUncertaintyNanos(D)V
 
     .line 16
     .line 17
@@ -123,7 +132,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->hasVerticalAccuracy()Z
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->hasVerticalAccuracy()Z
 
     .line 2
     .line 3
@@ -139,7 +149,8 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroid/location/Location;->getElapsedRealtimeUncertaintyNanos()D
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getElapsedRealtimeUncertaintyNanos()D
 
     .line 9
     .line 10
@@ -147,12 +158,14 @@
     move-result-wide v0
 
     .line 12
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;->removeVerticalAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;
+    ->removeVerticalAccuracy(Landroid/location/Location;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0, v0, v1}, Landroid/location/Location;->setElapsedRealtimeUncertaintyNanos(D)V
+    invoke-virtual {p0, v0, v1}, Landroid/location/Location;
+    ->setElapsedRealtimeUncertaintyNanos(D)V
 
     .line 16
     .line 17

@@ -12,7 +12,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -21,7 +22,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -30,7 +32,8 @@
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -38,7 +41,8 @@
     move-result-object p1
 
     .line 17
-    invoke-static {p0, p1}, Landroidx/datastore/DataStoreFile;->dataStoreFile(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File;
+    invoke-static {p0, p1}, Landroidx/datastore/DataStoreFile;
+    ->dataStoreFile(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File;
 
     .line 18
     .line 19

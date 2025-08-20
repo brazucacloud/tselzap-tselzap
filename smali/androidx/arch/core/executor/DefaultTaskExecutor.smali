@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -33,7 +34,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/arch/core/executor/TaskExecutor;-><init>()V
+    invoke-direct {p0}, Landroidx/arch/core/executor/TaskExecutor;
+    -><init>()V
 
     .line 2
     .line 3
@@ -42,12 +44,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mLock:Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mLock:Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -55,7 +59,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Landroidx/arch/core/executor/DefaultTaskExecutor$1;-><init>(Landroidx/arch/core/executor/DefaultTaskExecutor;)V
+    invoke-direct {v0, p0}, Landroidx/arch/core/executor/DefaultTaskExecutor$1;
+    -><init>(Landroidx/arch/core/executor/DefaultTaskExecutor;)V
 
     .line 14
     .line 15
@@ -63,7 +68,8 @@
     const/4 v1, 0x4
 
     .line 17
-    invoke-static {v1, v0}, Ljava/util/concurrent/Executors;->newFixedThreadPool(ILjava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v1, v0}, Ljava/util/concurrent/Executors;
+    ->newFixedThreadPool(ILjava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
 
     .line 18
     .line 19
@@ -71,7 +77,9 @@
     move-result-object v0
 
     .line 21
-    iput-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mDiskIO:Ljava/util/concurrent/ExecutorService;    return-void
+    iput-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mDiskIO:Ljava/util/concurrent/ExecutorService;    
+    return-void
 .end method
 
 .method private static createAsync(Landroid/os/Looper;)Landroid/os/Handler;
@@ -96,7 +104,8 @@
     const/4 v3, 0x3
 
     .line 5
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 6
     .line 7
@@ -108,7 +117,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/arch/core/executor/DefaultTaskExecutor$Api28Impl;->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {p0}, Landroidx/arch/core/executor/DefaultTaskExecutor$Api28Impl;
+    ->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
 
     .line 12
     .line 13
@@ -144,7 +154,8 @@
 
     .line 27
     .line 28
-    sget-object v6, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     .line 29
     .line 30
@@ -152,7 +163,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v4, v5}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v4, v5}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 33
     .line 34
@@ -175,7 +187,8 @@
 
     .line 42
     .line 43
-    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+    sget-object v1, Ljava/lang/Boolean;
+    ->TRUE:Ljava/lang/Boolean;
 
     .line 44
     .line 45
@@ -183,7 +196,8 @@
 
     .line 46
     .line 47
-    invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -204,7 +218,8 @@
 
     .line 55
     .line 56
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, p0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 return-object v0
 
     .line 60
@@ -213,7 +228,8 @@ return-object v0
 
     .line 61
     .line 62
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, p0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 return-object v0
 .end method
 
@@ -227,11 +243,13 @@ return-object v0
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mDiskIO:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mDiskIO:Ljava/util/concurrent/ExecutorService;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -239,7 +257,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 2
     .line 3
@@ -247,7 +266,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+    invoke-virtual {v0}, Landroid/os/Looper;
+    ->getThread()Ljava/lang/Thread;
 
     .line 6
     .line 7
@@ -255,7 +275,8 @@ return-void
     move-result-object v0
 
     .line 9
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;
+    ->currentThread()Ljava/lang/Thread;
 
     .line 10
     .line 11
@@ -286,7 +307,8 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mMainHandler:Landroid/os/Handler;
+    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mMainHandler:Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -294,7 +316,8 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mLock:Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -302,7 +325,8 @@ return-void
 
     .line 8
     :try_start_0
-    iget-object v1, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mMainHandler:Landroid/os/Handler;
+    iget-object v1, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mMainHandler:Landroid/os/Handler;
 
     .line 9
     .line 10
@@ -310,7 +334,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 13
     .line 14
@@ -318,7 +343,8 @@ return-void
     move-result-object v1
 
     .line 16
-    invoke-static {v1}, Landroidx/arch/core/executor/DefaultTaskExecutor;->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {v1}, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
 
     .line 17
     .line 18
@@ -326,7 +352,8 @@ return-void
     move-result-object v1
 
     .line 20
-    iput-object v1, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mMainHandler:Landroid/os/Handler;
+    iput-object v1, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mMainHandler:Landroid/os/Handler;
 
     .line 21
     .line 22
@@ -359,11 +386,13 @@ return-void
     .line 29
     :cond_1
     :goto_2
-    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;->mMainHandler:Landroid/os/Handler;
+    iget-object v0, p0, Landroidx/arch/core/executor/DefaultTaskExecutor;
+    ->mMainHandler:Landroid/os/Handler;
 
     .line 30
     .line 31
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p1}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 return-void
 .end method
 

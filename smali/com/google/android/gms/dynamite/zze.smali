@@ -10,7 +10,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -20,7 +21,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->getLocalVersion(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;
+    ->getLocalVersion(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 2
     .line 3
@@ -34,7 +36,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, Lcom/google/android/gms/dynamite/DynamiteModule;->zza(Landroid/content/Context;Ljava/lang/String;Z)I
+    invoke-static {p1, p2, p3}, Lcom/google/android/gms/dynamite/DynamiteModule;
+    ->zza(Landroid/content/Context;Ljava/lang/String;Z)I
 
     .line 2
     .line 3

@@ -39,7 +39,8 @@
 
     .line 2
     .line 3
-    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$000()Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$000()Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 4
     .line 5
@@ -53,12 +54,14 @@
     const/4 v3, 0x1
 
     .line 9
-    invoke-direct {v0, v1, v2, v3, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
+    invoke-direct {v0, v1, v2, v3, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
 
     .line 10
     .line 11
     .line 12
-    sput-object v0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->NULL_REFERENCE:Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    sput-object v0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->NULL_REFERENCE:Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
 
     .line 13
     .line 14
@@ -85,7 +88,8 @@
     move v5, p3
 
     .line 1
-    invoke-direct/range {v2 .. v7}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;IIII)V
+    invoke-direct/range {v2 .. v7}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;IIII)V
 return-void
 .end method
 
@@ -93,22 +97,28 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 4
-    iput p2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iput p2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 5
-    iput p3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iput p3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 6
-    iput p4, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iput p4, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 7
-    iput p5, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iput p5, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     return-void
 .end method
@@ -117,7 +127,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->NULL_REFERENCE:Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    sget-object v0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->NULL_REFERENCE:Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
 
     .line 2
     .line 3
@@ -130,7 +141,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isBlob()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isBlob()Z
 
     .line 2
     .line 3
@@ -142,7 +154,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isString()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isString()Z
 
     .line 8
     .line 9
@@ -158,7 +171,8 @@ return-void
 
     .line 14
     :cond_0
-    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
+    ->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
 
     .line 15
     .line 16
@@ -174,19 +188,23 @@ return-void
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 22
     .line 23
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 24
     .line 25
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 26
     .line 27
-    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 28
     .line 29
@@ -194,11 +212,13 @@ return-void
     move-result v2
 
     .line 31
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 32
     .line 33
-    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
 
     .line 34
     .line 35
@@ -210,7 +230,8 @@ return-void
     .locals 7
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isBoolean()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isBoolean()Z
 
     .line 2
     .line 3
@@ -228,15 +249,18 @@ return-void
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 10
     .line 11
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 12
     .line 13
-    invoke-interface {v0, v3}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
+    invoke-interface {v0, v3}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    ->get(I)B
 
     .line 14
     .line 15
@@ -256,7 +280,8 @@ return-void
 
     .line 21
     :cond_1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asUInt()J
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asUInt()J
 
     .line 22
     .line 23
@@ -287,7 +312,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -298,19 +324,23 @@ return-void
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 9
     .line 10
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 13
     .line 14
@@ -388,7 +418,8 @@ return-void
 
     .line 47
     :cond_1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     .line 48
     .line 49
@@ -396,7 +427,8 @@ return-void
     move-result-object v0
 
     .line 51
-    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;->size()I
+    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    ->size()I
 
     .line 52
     .line 53
@@ -410,19 +442,23 @@ return-void
 
     .line 57
     :cond_2
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 58
     .line 59
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 60
     .line 61
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 62
     .line 63
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 64
     .line 65
@@ -430,11 +466,13 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 68
     .line 69
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 70
     .line 71
@@ -445,19 +483,23 @@ return-void
 
     .line 74
     :cond_3
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 75
     .line 76
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 77
     .line 78
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 79
     .line 80
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 81
     .line 82
@@ -465,11 +507,13 @@ return-void
     move-result v1
 
     .line 84
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 85
     .line 86
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 87
     .line 88
@@ -483,19 +527,23 @@ return-void
 
     .line 92
     :cond_4
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 93
     .line 94
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 95
     .line 96
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 97
     .line 98
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 99
     .line 100
@@ -503,11 +551,13 @@ return-void
     move-result v1
 
     .line 102
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 103
     .line 104
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 105
     .line 106
@@ -521,7 +571,8 @@ return-void
 
     .line 110
     :cond_5
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asString()Ljava/lang/String;
 
     .line 111
     .line 112
@@ -529,7 +580,8 @@ return-void
     move-result-object v0
 
     .line 114
-    invoke-static {v0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+    invoke-static {v0}, Ljava/lang/Double;
+    ->parseDouble(Ljava/lang/String;)D
 
     .line 115
     .line 116
@@ -540,19 +592,23 @@ return-void
 
     .line 119
     :cond_6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 120
     .line 121
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 122
     .line 123
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 124
     .line 125
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 126
     .line 127
@@ -566,19 +622,23 @@ return-void
 
     .line 131
     :cond_7
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 132
     .line 133
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 134
     .line 135
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 136
     .line 137
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 138
     .line 139
@@ -595,7 +655,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -606,19 +667,23 @@ return-void
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 9
     .line 10
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 13
     .line 14
@@ -694,19 +759,23 @@ return-void
 
     .line 46
     :cond_1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 47
     .line 48
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 49
     .line 50
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 51
     .line 52
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 53
     .line 54
@@ -717,7 +786,8 @@ return-void
 
     .line 57
     :cond_2
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     .line 58
     .line 59
@@ -725,7 +795,8 @@ return-void
     move-result-object v0
 
     .line 61
-    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;->size()I
+    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    ->size()I
 
     .line 62
     .line 63
@@ -736,19 +807,23 @@ return-void
 
     .line 66
     :cond_3
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 67
     .line 68
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 69
     .line 70
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 71
     .line 72
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 73
     .line 74
@@ -756,11 +831,13 @@ return-void
     move-result v1
 
     .line 76
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 77
     .line 78
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 79
     .line 80
@@ -774,19 +851,23 @@ return-void
 
     .line 84
     :cond_4
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 85
     .line 86
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 87
     .line 88
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 89
     .line 90
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 91
     .line 92
@@ -794,11 +875,13 @@ return-void
     move-result v1
 
     .line 94
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 95
     .line 96
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 97
     .line 98
@@ -813,19 +896,23 @@ return-void
 
     .line 102
     :cond_5
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 103
     .line 104
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 105
     .line 106
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 107
     .line 108
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 109
     .line 110
@@ -833,11 +920,13 @@ return-void
     move-result v1
 
     .line 112
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 113
     .line 114
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 115
     .line 116
@@ -848,7 +937,8 @@ return-void
 
     .line 119
     :cond_6
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asString()Ljava/lang/String;
 
     .line 120
     .line 121
@@ -856,7 +946,8 @@ return-void
     move-result-object v0
 
     .line 123
-    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 124
     .line 125
@@ -867,19 +958,23 @@ return-void
 
     .line 128
     :cond_7
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 129
     .line 130
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 131
     .line 132
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 133
     .line 134
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 135
     .line 136
@@ -893,19 +988,23 @@ return-void
 
     .line 140
     :cond_8
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 141
     .line 142
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 143
     .line 144
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 145
     .line 146
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 147
     .line 148
@@ -1111,7 +1210,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isKey()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isKey()Z
 
     .line 2
     .line 3
@@ -1127,19 +1227,23 @@ return-void
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 10
     .line 11
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 12
     .line 13
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 14
     .line 15
-    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 16
     .line 17
@@ -1147,11 +1251,13 @@ return-void
     move-result v2
 
     .line 19
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 20
     .line 21
-    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
 
     .line 22
     .line 23
@@ -1160,7 +1266,8 @@ return-void
 
     .line 25
     :cond_0
-    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
+    ->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
 
     .line 26
     .line 27
@@ -1174,7 +1281,8 @@ return-void
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -1185,19 +1293,23 @@ return-void
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 9
     .line 10
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 13
     .line 14
@@ -1275,19 +1387,23 @@ return-void
 
     .line 47
     :cond_1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 48
     .line 49
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 50
     .line 51
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 52
     .line 53
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 54
     .line 55
@@ -1301,7 +1417,8 @@ return-void
 
     .line 59
     :cond_2
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     .line 60
     .line 61
@@ -1309,7 +1426,8 @@ return-void
     move-result-object v0
 
     .line 63
-    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;->size()I
+    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    ->size()I
 
     .line 64
     .line 65
@@ -1323,19 +1441,23 @@ return-void
 
     .line 69
     :cond_3
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 70
     .line 71
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 72
     .line 73
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 74
     .line 75
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 76
     .line 77
@@ -1343,11 +1465,13 @@ return-void
     move-result v1
 
     .line 79
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 80
     .line 81
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 82
     .line 83
@@ -1361,19 +1485,23 @@ return-void
 
     .line 87
     :cond_4
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 88
     .line 89
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 90
     .line 91
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 92
     .line 93
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 94
     .line 95
@@ -1381,11 +1509,13 @@ return-void
     move-result v1
 
     .line 97
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 98
     .line 99
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 100
     .line 101
@@ -1396,19 +1526,23 @@ return-void
 
     .line 104
     :cond_5
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 105
     .line 106
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 107
     .line 108
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 109
     .line 110
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 111
     .line 112
@@ -1416,11 +1550,13 @@ return-void
     move-result v1
 
     .line 114
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 115
     .line 116
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 117
     .line 118
@@ -1432,7 +1568,8 @@ return-void
     .line 121
     :cond_6
     :try_start_0
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asString()Ljava/lang/String;
 
     .line 122
     .line 123
@@ -1440,7 +1577,8 @@ return-void
     move-result-object v0
 
     .line 125
-    invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    invoke-static {v0}, Ljava/lang/Long;
+    ->parseLong(Ljava/lang/String;)J
 
     .line 126
     .line 127
@@ -1457,19 +1595,23 @@ return-void
 
     .line 131
     :cond_7
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 132
     .line 133
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 134
     .line 135
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 136
     .line 137
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 138
     .line 139
@@ -1483,19 +1625,23 @@ return-void
 
     .line 143
     :cond_8
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 144
     .line 145
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 146
     .line 147
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 148
     .line 149
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 150
     .line 151
@@ -1509,7 +1655,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isMap()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isMap()Z
 
     .line 2
     .line 3
@@ -1525,19 +1672,23 @@ return-void
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 10
     .line 11
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 12
     .line 13
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 14
     .line 15
-    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 16
     .line 17
@@ -1545,11 +1696,13 @@ return-void
     move-result v2
 
     .line 19
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 20
     .line 21
-    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
 
     .line 22
     .line 23
@@ -1558,7 +1711,8 @@ return-void
 
     .line 25
     :cond_0
-    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
+    ->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
 
     .line 26
     .line 27
@@ -1572,7 +1726,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isString()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isString()Z
 
     .line 2
     .line 3
@@ -1584,19 +1739,23 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 8
     .line 9
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 10
     .line 11
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 12
     .line 13
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 14
     .line 15
@@ -1604,11 +1763,13 @@ return-void
     move-result v0
 
     .line 17
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 18
     .line 19
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 20
     .line 21
@@ -1616,7 +1777,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-static {v1, v3, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v1, v3, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 24
     .line 25
@@ -1627,11 +1789,13 @@ return-void
     long-to-int v2, v1
 
     .line 28
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 29
     .line 30
-    invoke-interface {v1, v0, v2}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getString(II)Ljava/lang/String;
+    invoke-interface {v1, v0, v2}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    ->getString(II)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -1642,7 +1806,8 @@ return-void
 
     .line 35
     :cond_0
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isKey()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isKey()Z
 
     .line 36
     .line 37
@@ -1654,19 +1819,23 @@ return-void
 
     .line 40
     .line 41
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 42
     .line 43
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 44
     .line 45
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 46
     .line 47
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 48
     .line 49
@@ -1678,11 +1847,13 @@ return-void
 
     .line 52
     :goto_0
-    iget-object v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 53
     .line 54
-    invoke-interface {v2, v1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
+    invoke-interface {v2, v1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    ->get(I)B
 
     .line 55
     .line 56
@@ -1694,14 +1865,16 @@ return-void
 
     .line 59
     .line 60
-    iget-object v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 61
     .line 62
     sub-int/2addr v1, v0
 
     .line 63
-    invoke-interface {v2, v0, v1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getString(II)Ljava/lang/String;
+    invoke-interface {v2, v0, v1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    ->getString(II)Ljava/lang/String;
 
     .line 64
     .line 65
@@ -1731,7 +1904,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -1742,19 +1916,23 @@ return-void
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 9
     .line 10
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 13
     .line 14
@@ -1832,19 +2010,23 @@ return-void
 
     .line 47
     :cond_1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 48
     .line 49
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 50
     .line 51
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 52
     .line 53
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 54
     .line 55
@@ -1852,11 +2034,13 @@ return-void
     move-result v1
 
     .line 57
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 58
     .line 59
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 60
     .line 61
@@ -1870,19 +2054,23 @@ return-void
 
     .line 65
     :cond_2
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 66
     .line 67
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 68
     .line 69
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 70
     .line 71
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 72
     .line 73
@@ -1890,11 +2078,13 @@ return-void
     move-result v1
 
     .line 75
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 76
     .line 77
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 78
     .line 79
@@ -1905,19 +2095,23 @@ return-void
 
     .line 82
     :cond_3
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 83
     .line 84
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 85
     .line 86
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 87
     .line 88
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 89
     .line 90
@@ -1925,11 +2119,13 @@ return-void
     move-result v1
 
     .line 92
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 93
     .line 94
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 95
     .line 96
@@ -1940,7 +2136,8 @@ return-void
 
     .line 99
     :cond_4
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asString()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -1948,7 +2145,8 @@ return-void
     move-result-object v0
 
     .line 103
-    invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    invoke-static {v0}, Ljava/lang/Long;
+    ->parseLong(Ljava/lang/String;)J
 
     .line 104
     .line 105
@@ -1959,19 +2157,23 @@ return-void
 
     .line 108
     :cond_5
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 109
     .line 110
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 111
     .line 112
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 113
     .line 114
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 115
     .line 116
@@ -1985,7 +2187,8 @@ return-void
 
     .line 120
     :cond_6
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     .line 121
     .line 122
@@ -1993,7 +2196,8 @@ return-void
     move-result-object v0
 
     .line 124
-    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;->size()I
+    invoke-virtual {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    ->size()I
 
     .line 125
     .line 126
@@ -2007,19 +2211,23 @@ return-void
 
     .line 130
     :cond_7
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 131
     .line 132
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 133
     .line 134
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 135
     .line 136
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 137
     .line 138
@@ -2033,19 +2241,23 @@ return-void
 
     .line 142
     :cond_8
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 143
     .line 144
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 145
     .line 146
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 147
     .line 148
-    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 149
     .line 150
@@ -2059,7 +2271,8 @@ return-void
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isVector()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isVector()Z
 
     .line 2
     .line 3
@@ -2075,19 +2288,23 @@ return-void
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 10
     .line 11
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 12
     .line 13
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 14
     .line 15
-    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 16
     .line 17
@@ -2095,11 +2312,13 @@ return-void
     move-result v2
 
     .line 19
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 20
     .line 21
-    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)V
 
     .line 22
     .line 23
@@ -2108,7 +2327,8 @@ return-void
 
     .line 25
     :cond_0
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 26
     .line 27
@@ -2124,19 +2344,23 @@ return-void
 
     .line 32
     .line 33
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 34
     .line 35
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 36
     .line 37
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 38
     .line 39
-    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 40
     .line 41
@@ -2144,14 +2368,16 @@ return-void
     move-result v2
 
     .line 43
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 44
     .line 45
     const/4 v4, 0x4
 
     .line 46
-    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$TypedVector;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
+    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$TypedVector;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
 
     .line 47
     .line 48
@@ -2160,7 +2386,8 @@ return-void
 
     .line 50
     :cond_1
-    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->isTypedVector(I)Z
+    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->isTypedVector(I)Z
 
     .line 51
     .line 52
@@ -2176,19 +2403,23 @@ return-void
 
     .line 57
     .line 58
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->bb:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 59
     .line 60
-    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->end:I
+    iget v2, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->end:I
 
     .line 61
     .line 62
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->parentWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->parentWidth:I
 
     .line 63
     .line 64
-    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {v1, v2, v3}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 65
     .line 66
@@ -2196,15 +2427,18 @@ return-void
     move-result v2
 
     .line 68
-    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->byteWidth:I
+    iget v3, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->byteWidth:I
 
     .line 69
     .line 70
-    iget v4, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v4, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 71
     .line 72
-    invoke-static {v4}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->toTypedVectorElementType(I)I
+    invoke-static {v4}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->toTypedVectorElementType(I)I
 
     .line 73
     .line 74
@@ -2212,7 +2446,8 @@ return-void
     move-result v4
 
     .line 76
-    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$TypedVector;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
+    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$TypedVector;
+    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
 
     .line 77
     .line 78
@@ -2221,7 +2456,8 @@ return-void
 
     .line 80
     :cond_2
-    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    ->empty()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     .line 81
     .line 82
@@ -2235,7 +2471,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2246,7 +2483,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2273,7 +2511,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2300,7 +2539,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2339,7 +2579,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2375,7 +2616,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isInt()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isInt()Z
 
     .line 2
     .line 3
@@ -2387,7 +2629,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isUInt()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isUInt()Z
 
     .line 8
     .line 9
@@ -2419,7 +2662,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2445,7 +2689,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2472,7 +2717,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2495,7 +2741,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isIntOrUInt()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isIntOrUInt()Z
 
     .line 2
     .line 3
@@ -2507,7 +2754,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->isFloat()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->isFloat()Z
 
     .line 8
     .line 9
@@ -2539,7 +2787,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2565,11 +2814,13 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->isTypedVector(I)Z
+    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
+    ->isTypedVector(I)Z
 
     .line 4
     .line 5
@@ -2583,7 +2834,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2621,7 +2873,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     .line 2
     .line 3
@@ -2665,13 +2918,16 @@ return-void
 
     const/16 v1, 0x80
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
@@ -2682,7 +2938,8 @@ return-void
     .locals 2
 
     .line 2
-    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
     const/16 v1, 0x24
 
@@ -2696,21 +2953,25 @@ return-void
 
     .line 3
     :pswitch_0
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asBoolean()Z
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asBoolean()Z
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Z)Ljava/lang/StringBuilder;
 
     return-object p1
 
     .line 4
     :pswitch_1
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asBlob()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asBlob()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Blob;
+    ->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -2724,27 +2985,34 @@ return-void
 
     const-string v1, "not_implemented:"
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->type:I
+    iget v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->type:I
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$FlexBufferException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$FlexBufferException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 
     .line 6
     :pswitch_3
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    ->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -2752,11 +3020,13 @@ return-void
 
     .line 7
     :pswitch_4
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asMap()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asMap()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Map;
+    ->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -2764,61 +3034,75 @@ return-void
 
     .line 8
     :pswitch_5
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     return-object p1
 
     .line 9
     :pswitch_6
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asKey()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asKey()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
 
     move-result-object v0
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Key;
+    ->toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     return-object p1
 
     .line 10
     :pswitch_7
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asFloat()D
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asFloat()D
 
     move-result-wide v0
 
-    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;
+    ->append(D)Ljava/lang/StringBuilder;
 
     return-object p1
 
     .line 11
     :pswitch_8
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asUInt()J
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asUInt()J
 
     move-result-wide v0
 
-    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     return-object p1
 
     .line 12
     :pswitch_9
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asLong()J
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asLong()J
 
     move-result-wide v0
 
-    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     return-object p1
 
@@ -2826,18 +3110,21 @@ return-void
     :pswitch_a
     const-string v0, "null"
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     return-object p1
 
     .line 14
     :cond_0
     :pswitch_b
-    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
+    invoke-virtual {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    ->asVector()Landroidx/emoji2/text/flatbuffer/FlexBuffers$Vector;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     return-object p1
 

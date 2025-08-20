@@ -73,7 +73,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -82,7 +83,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -91,7 +93,8 @@
 
     .line 12
     .line 13
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -99,24 +102,29 @@
     const/4 v0, 0x0
 
     .line 17
-    invoke-direct {p0, v0}, Landroidx/datastore/core/SingleProcessDataStore$Message;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/core/SingleProcessDataStore$Message;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     .line 18
     .line 19
     .line 20
-    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->transform:Lp1/p;
+    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->transform:Lp1/p;
 
     .line 21
     .line 22
-    iput-object p2, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->ack:Lz1/l;
+    iput-object p2, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->ack:Lz1/l;
 
     .line 23
     .line 24
-    iput-object p3, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->lastState:Landroidx/datastore/core/State;
+    iput-object p3, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->lastState:Landroidx/datastore/core/State;
 
     .line 25
     .line 26
-    iput-object p4, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->callerContext:Lg1/i;
+    iput-object p4, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->callerContext:Lg1/i;
 
     .line 27
     .line 28
@@ -135,7 +143,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->ack:Lz1/l;
+    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->ack:Lz1/l;
 
     .line 2
     .line 3
@@ -146,7 +155,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->callerContext:Lg1/i;
+    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->callerContext:Lg1/i;
 
     .line 2
     .line 3
@@ -164,7 +174,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->lastState:Landroidx/datastore/core/State;
+    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->lastState:Landroidx/datastore/core/State;
 
     .line 2
     .line 3
@@ -181,7 +192,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;->transform:Lp1/p;
+    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Update;
+    ->transform:Lp1/p;
 
     .line 2
     .line 3

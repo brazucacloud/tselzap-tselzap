@@ -34,7 +34,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -54,7 +55,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -63,16 +65,19 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p2, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;->mCollapsingToolbarLayoutWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object p2, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;
+    ->mCollapsingToolbarLayoutWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 12
     .line 13
-    invoke-virtual {p2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -84,11 +89,13 @@
 
     .line 18
     .line 19
-    iget-object p2, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;->mToolbarWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object p2, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;
+    ->mToolbarWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 20
     .line 21
-    invoke-virtual {p2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -100,7 +107,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;
+    ->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
     return-void
 
     .line 31
@@ -109,7 +117,8 @@
 
     .line 32
     .line 33
-    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;
+    -><init>()V
 
     .line 34
     .line 35
@@ -124,11 +133,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;->mToolbarWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;
+    ->mToolbarWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -148,7 +159,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->getNavigationIcon()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;
+    ->getNavigationIcon()Landroid/graphics/drawable/Drawable;
 
     .line 14
     .line 15
@@ -171,12 +183,14 @@
 
     .line 22
     :goto_0
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;
+    ->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, p2}, Landroidx/appcompat/widget/Toolbar;->setNavigationContentDescription(I)V
+    invoke-virtual {v0, p2}, Landroidx/appcompat/widget/Toolbar;
+    ->setNavigationContentDescription(I)V
 
     .line 26
     .line 27
@@ -185,7 +199,8 @@
 
     .line 29
     .line 30
-    invoke-static {v0}, Landroidx/transition/TransitionManager;->beginDelayedTransition(Landroid/view/ViewGroup;)V
+    invoke-static {v0}, Landroidx/transition/TransitionManager;
+    ->beginDelayedTransition(Landroid/view/ViewGroup;)V
 
     .line 31
     .line 32
@@ -198,11 +213,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;->mCollapsingToolbarLayoutWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object p1, p0, Landroidx/navigation/ui/CollapsingToolbarOnDestinationChangedListener;
+    ->mCollapsingToolbarLayoutWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -218,7 +235,8 @@
 
     .line 11
     .line 12
-    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;
+    -><init>()V
 
     .line 13
     .line 14

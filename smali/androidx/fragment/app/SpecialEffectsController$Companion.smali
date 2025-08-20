@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/SpecialEffectsController$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/SpecialEffectsController$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -38,23 +40,28 @@
 
     const-string v0, "container"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fragmentManager"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;->getSpecialEffectsControllerFactory()Landroidx/fragment/app/SpecialEffectsControllerFactory;
+    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;
+    ->getSpecialEffectsControllerFactory()Landroidx/fragment/app/SpecialEffectsControllerFactory;
 
     move-result-object p2
 
     const-string v0, "fragmentManager.specialEffectsControllerFactory"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/SpecialEffectsController$Companion;->getOrCreateController(Landroid/view/ViewGroup;Landroidx/fragment/app/SpecialEffectsControllerFactory;)Landroidx/fragment/app/SpecialEffectsController;
+    invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/SpecialEffectsController$Companion;
+    ->getOrCreateController(Landroid/view/ViewGroup;Landroidx/fragment/app/SpecialEffectsControllerFactory;)Landroidx/fragment/app/SpecialEffectsController;
 
     move-result-object p1
 
@@ -66,16 +73,20 @@
 
     const-string v0, "container"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "factory"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    sget v0, Landroidx/fragment/R$id;->special_effects_controller_view_tag:I
+    sget v0, Landroidx/fragment/R$id;
+    ->special_effects_controller_view_tag:I
 
-    invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -91,16 +102,19 @@
 
     .line 6
     :cond_0
-    invoke-interface {p2, p1}, Landroidx/fragment/app/SpecialEffectsControllerFactory;->createController(Landroid/view/ViewGroup;)Landroidx/fragment/app/SpecialEffectsController;
+    invoke-interface {p2, p1}, Landroidx/fragment/app/SpecialEffectsControllerFactory;
+    ->createController(Landroid/view/ViewGroup;)Landroidx/fragment/app/SpecialEffectsController;
 
     move-result-object p2
 
     const-string v1, "factory.createController(container)"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    invoke-virtual {p1, v0, p2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p1, v0, p2}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     return-object p2
 .end method

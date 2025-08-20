@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -25,7 +26,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/io/Writer;-><init>()V
+    invoke-direct {p0}, Ljava/io/Writer;
+    -><init>()V
 
     .line 2
     .line 3
@@ -38,16 +40,19 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/core/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
+    iput-object v0, p0, Landroidx/core/util/LogWriter;
+    ->mBuilder:Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/core/util/LogWriter;->mTag:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/util/LogWriter;
+    ->mTag:Ljava/lang/String;
 
     .line 14
     .line 15
@@ -58,11 +63,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
+    iget-object v0, p0, Landroidx/core/util/LogWriter;
+    ->mBuilder:Ljava/lang/StringBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->length()I
 
     .line 4
     .line 5
@@ -74,15 +81,18 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/util/LogWriter;->mTag:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/util/LogWriter;
+    ->mTag:Ljava/lang/String;
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/core/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
+    iget-object v1, p0, Landroidx/core/util/LogWriter;
+    ->mBuilder:Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -90,19 +100,22 @@
     move-result-object v1
 
     .line 17
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 18
     .line 19
     .line 20
-    iget-object v0, p0, Landroidx/core/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
+    iget-object v0, p0, Landroidx/core/util/LogWriter;
+    ->mBuilder:Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     const/4 v1, 0x0
 
     .line 23
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->length()I
 
     .line 24
     .line 25
@@ -110,7 +123,8 @@
     move-result v2
 
     .line 27
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
+    ->delete(II)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -125,7 +139,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/util/LogWriter;->flushBuilder()V
+    invoke-direct {p0}, Landroidx/core/util/LogWriter;
+    ->flushBuilder()V
 
     .line 2
     .line 3
@@ -137,7 +152,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/util/LogWriter;->flushBuilder()V
+    invoke-direct {p0}, Landroidx/core/util/LogWriter;
+    ->flushBuilder()V
 
     .line 2
     .line 3
@@ -173,7 +189,8 @@
 
     .line 11
     .line 12
-    invoke-direct {p0}, Landroidx/core/util/LogWriter;->flushBuilder()V
+    invoke-direct {p0}, Landroidx/core/util/LogWriter;
+    ->flushBuilder()V
 
     .line 13
     .line 14
@@ -182,11 +199,13 @@
 
     .line 16
     :cond_0
-    iget-object v2, p0, Landroidx/core/util/LogWriter;->mBuilder:Ljava/lang/StringBuilder;
+    iget-object v2, p0, Landroidx/core/util/LogWriter;
+    ->mBuilder:Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20

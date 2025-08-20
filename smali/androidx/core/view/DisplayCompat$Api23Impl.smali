@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,7 +46,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/Display;->getMode()Landroid/view/Display$Mode;
+    invoke-virtual {p1}, Landroid/view/Display;
+    ->getMode()Landroid/view/Display$Mode;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;->getCurrentDisplaySizeFromWorkarounds(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;
+    ->getCurrentDisplaySizeFromWorkarounds(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 6
     .line 7
@@ -65,7 +68,8 @@
 
     .line 10
     .line 11
-    invoke-static {v0, p0}, Landroidx/core/view/DisplayCompat$Api23Impl;->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/graphics/Point;)Z
+    invoke-static {v0, p0}, Landroidx/core/view/DisplayCompat$Api23Impl;
+    ->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/graphics/Point;)Z
 
     .line 12
     .line 13
@@ -85,7 +89,8 @@
 
     .line 19
     .line 20
-    invoke-direct {p1, v0, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;-><init>(Landroid/view/Display$Mode;Landroid/graphics/Point;)V
+    invoke-direct {p1, v0, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;
+    -><init>(Landroid/view/Display$Mode;Landroid/graphics/Point;)V
 
     .line 21
     .line 22
@@ -102,7 +107,8 @@
     const/4 p1, 0x1
 
     .line 27
-    invoke-direct {p0, v0, p1}, Landroidx/core/view/DisplayCompat$ModeCompat;-><init>(Landroid/view/Display$Mode;Z)V
+    invoke-direct {p0, v0, p1}, Landroidx/core/view/DisplayCompat$ModeCompat;
+    -><init>(Landroid/view/Display$Mode;Z)V
 
     .line 28
     .line 29
@@ -130,7 +136,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/Display;->getSupportedModes()[Landroid/view/Display$Mode;
+    invoke-virtual {p1}, Landroid/view/Display;
+    ->getSupportedModes()[Landroid/view/Display$Mode;
 
     .line 2
     .line 3
@@ -145,7 +152,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/Display;->getMode()Landroid/view/Display$Mode;
+    invoke-virtual {p1}, Landroid/view/Display;
+    ->getMode()Landroid/view/Display$Mode;
 
     .line 9
     .line 10
@@ -153,7 +161,8 @@
     move-result-object v2
 
     .line 12
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;->getCurrentDisplaySizeFromWorkarounds(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;
+    ->getCurrentDisplaySizeFromWorkarounds(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 13
     .line 14
@@ -168,7 +177,8 @@
 
     .line 18
     .line 19
-    invoke-static {v2, p0}, Landroidx/core/view/DisplayCompat$Api23Impl;->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/graphics/Point;)Z
+    invoke-static {v2, p0}, Landroidx/core/view/DisplayCompat$Api23Impl;
+    ->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/graphics/Point;)Z
 
     .line 20
     .line 21
@@ -199,7 +209,8 @@
 
     .line 31
     .line 32
-    invoke-static {v4, v2}, Landroidx/core/view/DisplayCompat$Api23Impl;->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/view/Display$Mode;)Z
+    invoke-static {v4, v2}, Landroidx/core/view/DisplayCompat$Api23Impl;
+    ->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/view/Display$Mode;)Z
 
     .line 33
     .line 34
@@ -219,7 +230,8 @@
 
     .line 41
     .line 42
-    invoke-direct {v4, v5, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;-><init>(Landroid/view/Display$Mode;Landroid/graphics/Point;)V
+    invoke-direct {v4, v5, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;
+    -><init>(Landroid/view/Display$Mode;Landroid/graphics/Point;)V
 
     .line 43
     .line 44
@@ -236,7 +248,8 @@
 
     .line 49
     .line 50
-    invoke-direct {v4, v5, p1}, Landroidx/core/view/DisplayCompat$ModeCompat;-><init>(Landroid/view/Display$Mode;Z)V
+    invoke-direct {v4, v5, p1}, Landroidx/core/view/DisplayCompat$ModeCompat;
+    -><init>(Landroid/view/Display$Mode;Z)V
 
     .line 51
     .line 52
@@ -266,7 +279,8 @@
 
     .line 62
     .line 63
-    invoke-static {p0, v2}, Landroidx/core/view/DisplayCompat$Api23Impl;->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/view/Display$Mode;)Z
+    invoke-static {p0, v2}, Landroidx/core/view/DisplayCompat$Api23Impl;
+    ->physicalSizeEquals(Landroid/view/Display$Mode;Landroid/view/Display$Mode;)Z
 
     .line 64
     .line 65
@@ -282,7 +296,8 @@
 
     .line 70
     .line 71
-    invoke-direct {v3, v4, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;-><init>(Landroid/view/Display$Mode;Z)V
+    invoke-direct {v3, v4, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;
+    -><init>(Landroid/view/Display$Mode;Z)V
 
     .line 72
     .line 73
@@ -310,7 +325,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/Display;->getMode()Landroid/view/Display$Mode;
+    invoke-virtual {p0}, Landroid/view/Display;
+    ->getMode()Landroid/view/Display$Mode;
 
     .line 2
     .line 3
@@ -318,7 +334,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Landroid/view/Display;->getSupportedModes()[Landroid/view/Display$Mode;
+    invoke-virtual {p0}, Landroid/view/Display;
+    ->getSupportedModes()[Landroid/view/Display$Mode;
 
     .line 6
     .line 7
@@ -344,7 +361,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroid/view/Display$Mode;->getPhysicalHeight()I
+    invoke-virtual {v0}, Landroid/view/Display$Mode;
+    ->getPhysicalHeight()I
 
     .line 17
     .line 18
@@ -352,7 +370,8 @@
     move-result v5
 
     .line 20
-    invoke-virtual {v4}, Landroid/view/Display$Mode;->getPhysicalHeight()I
+    invoke-virtual {v4}, Landroid/view/Display$Mode;
+    ->getPhysicalHeight()I
 
     .line 21
     .line 22
@@ -364,7 +383,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroid/view/Display$Mode;->getPhysicalWidth()I
+    invoke-virtual {v0}, Landroid/view/Display$Mode;
+    ->getPhysicalWidth()I
 
     .line 27
     .line 28
@@ -372,7 +392,8 @@
     move-result v5
 
     .line 30
-    invoke-virtual {v4}, Landroid/view/Display$Mode;->getPhysicalWidth()I
+    invoke-virtual {v4}, Landroid/view/Display$Mode;
+    ->getPhysicalWidth()I
 
     .line 31
     .line 32
@@ -410,37 +431,45 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/Display$Mode;->getPhysicalWidth()I
+    invoke-virtual {p0}, Landroid/view/Display$Mode;
+    ->getPhysicalWidth()I
 
     move-result v0
 
-    iget v1, p1, Landroid/graphics/Point;->x:I
+    iget v1, p1, Landroid/graphics/Point;
+    ->x:I
 
     if-ne v0, v1, :cond_0
 
-    invoke-virtual {p0}, Landroid/view/Display$Mode;->getPhysicalHeight()I
+    invoke-virtual {p0}, Landroid/view/Display$Mode;
+    ->getPhysicalHeight()I
 
     move-result v0
 
-    iget v1, p1, Landroid/graphics/Point;->y:I
+    iget v1, p1, Landroid/graphics/Point;
+    ->y:I
 
     if-eq v0, v1, :cond_1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroid/view/Display$Mode;->getPhysicalWidth()I
+    invoke-virtual {p0}, Landroid/view/Display$Mode;
+    ->getPhysicalWidth()I
 
     move-result v0
 
-    iget v1, p1, Landroid/graphics/Point;->y:I
+    iget v1, p1, Landroid/graphics/Point;
+    ->y:I
 
     if-ne v0, v1, :cond_2
 
-    invoke-virtual {p0}, Landroid/view/Display$Mode;->getPhysicalHeight()I
+    invoke-virtual {p0}, Landroid/view/Display$Mode;
+    ->getPhysicalHeight()I
 
     move-result p0
 
-    iget p1, p1, Landroid/graphics/Point;->x:I
+    iget p1, p1, Landroid/graphics/Point;
+    ->x:I
 
     if-ne p0, p1, :cond_2
 
@@ -459,22 +488,26 @@
     .locals 2
 
     .line 3
-    invoke-virtual {p0}, Landroid/view/Display$Mode;->getPhysicalWidth()I
+    invoke-virtual {p0}, Landroid/view/Display$Mode;
+    ->getPhysicalWidth()I
 
     move-result v0
 
-    invoke-virtual {p1}, Landroid/view/Display$Mode;->getPhysicalWidth()I
+    invoke-virtual {p1}, Landroid/view/Display$Mode;
+    ->getPhysicalWidth()I
 
     move-result v1
 
     if-ne v0, v1, :cond_0
 
     .line 4
-    invoke-virtual {p0}, Landroid/view/Display$Mode;->getPhysicalHeight()I
+    invoke-virtual {p0}, Landroid/view/Display$Mode;
+    ->getPhysicalHeight()I
 
     move-result p0
 
-    invoke-virtual {p1}, Landroid/view/Display$Mode;->getPhysicalHeight()I
+    invoke-virtual {p1}, Landroid/view/Display$Mode;
+    ->getPhysicalHeight()I
 
     move-result p1
 

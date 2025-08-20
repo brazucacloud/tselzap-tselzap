@@ -31,16 +31,19 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mContext:Landroid/content/Context;
 
     .line 5
     .line 6
-    invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {p1}, Landroid/view/LayoutInflater;
+    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 7
     .line 8
@@ -48,7 +51,9 @@
     move-result-object p1
 
     .line 10
-    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mInflater:Landroid/view/LayoutInflater;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mInflater:Landroid/view/LayoutInflater;    
+    return-void
 .end method
 
 
@@ -59,7 +64,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mDropDownInflater:Landroid/view/LayoutInflater;
+    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mDropDownInflater:Landroid/view/LayoutInflater;
 
     .line 2
     .line 3
@@ -67,7 +73,8 @@
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mInflater:Landroid/view/LayoutInflater;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mInflater:Landroid/view/LayoutInflater;    return-object v0
 .end method
 
 .method public getDropDownViewTheme()Landroid/content/res/Resources$Theme;
@@ -76,7 +83,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mDropDownInflater:Landroid/view/LayoutInflater;
+    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mDropDownInflater:Landroid/view/LayoutInflater;
 
     .line 2
     .line 3
@@ -90,7 +98,8 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Landroid/view/LayoutInflater;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/view/LayoutInflater;
+    ->getContext()Landroid/content/Context;
 
     .line 8
     .line 9
@@ -98,7 +107,8 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 12
     .line 13
@@ -123,15 +133,19 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mDropDownInflater:Landroid/view/LayoutInflater;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mDropDownInflater:Landroid/view/LayoutInflater;    
+    return-void
 
     .line 7
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mContext:Landroid/content/Context;
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 10
     .line 11
@@ -139,7 +153,8 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {p1, v0}, Landroid/content/res/Resources$Theme;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources$Theme;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -151,11 +166,14 @@
 
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mInflater:Landroid/view/LayoutInflater;
+    iget-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mInflater:Landroid/view/LayoutInflater;
 
     .line 20
     .line 21
-    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mDropDownInflater:Landroid/view/LayoutInflater;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mDropDownInflater:Landroid/view/LayoutInflater;    
+    return-void
 
     .line 24
     :cond_1
@@ -163,16 +181,19 @@
 
     .line 25
     .line 26
-    iget-object v1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mContext:Landroid/content/Context;
 
     .line 27
     .line 28
-    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/ContextThemeWrapper;-><init>(Landroid/content/Context;Landroid/content/res/Resources$Theme;)V
+    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/ContextThemeWrapper;
+    -><init>(Landroid/content/Context;Landroid/content/res/Resources$Theme;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Landroid/view/LayoutInflater;
+    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 32
     .line 33
@@ -180,7 +201,9 @@
     move-result-object p1
 
     .line 35
-    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mDropDownInflater:Landroid/view/LayoutInflater;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;
+    ->mDropDownInflater:Landroid/view/LayoutInflater;    
+    return-void
 .end method
 
 .end class

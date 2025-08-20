@@ -14,9 +14,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/stats/WakeLock;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/stats/zza;->zza:Lcom/google/android/gms/stats/WakeLock;
+    iput-object p1, p0, Lcom/google/android/gms/stats/zza;
+    ->zza:Lcom/google/android/gms/stats/WakeLock;
 
     return-void
 .end method
@@ -26,9 +28,11 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/stats/zza;->zza:Lcom/google/android/gms/stats/WakeLock;
+    iget-object v0, p0, Lcom/google/android/gms/stats/zza;
+    ->zza:Lcom/google/android/gms/stats/WakeLock;
 
-    invoke-static {v0}, Lcom/google/android/gms/stats/WakeLock;->zza(Lcom/google/android/gms/stats/WakeLock;)V
+    invoke-static {v0}, Lcom/google/android/gms/stats/WakeLock;
+    ->zza(Lcom/google/android/gms/stats/WakeLock;)V
 return-void
 .end method
 

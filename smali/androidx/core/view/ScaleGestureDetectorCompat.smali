@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -24,7 +25,8 @@
     .end param
 
     .line 2
-    invoke-virtual {p0}, Landroid/view/ScaleGestureDetector;->isQuickScaleEnabled()Z
+    invoke-virtual {p0}, Landroid/view/ScaleGestureDetector;
+    ->isQuickScaleEnabled()Z
 
     move-result p0
 
@@ -39,7 +41,8 @@
     .line 1
     check-cast p0, Landroid/view/ScaleGestureDetector;
 
-    invoke-static {p0}, Landroidx/core/view/ScaleGestureDetectorCompat;->isQuickScaleEnabled(Landroid/view/ScaleGestureDetector;)Z
+    invoke-static {p0}, Landroidx/core/view/ScaleGestureDetectorCompat;
+    ->isQuickScaleEnabled(Landroid/view/ScaleGestureDetector;)Z
 
     move-result p0
 
@@ -54,7 +57,8 @@
     .end param
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/view/ScaleGestureDetector;->setQuickScaleEnabled(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/ScaleGestureDetector;
+    ->setQuickScaleEnabled(Z)V
 return-void
 .end method
 
@@ -66,7 +70,8 @@ return-void
     .line 1
     check-cast p0, Landroid/view/ScaleGestureDetector;
 
-    invoke-static {p0, p1}, Landroidx/core/view/ScaleGestureDetectorCompat;->setQuickScaleEnabled(Landroid/view/ScaleGestureDetector;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/ScaleGestureDetectorCompat;
+    ->setQuickScaleEnabled(Landroid/view/ScaleGestureDetector;Z)V
 return-void
 .end method
 

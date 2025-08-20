@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDestination;->hasRequiredArguments(Landroidx/navigation/NavDeepLink;Landroid/net/Uri;Ljava/util/Map;)Z
+    value = Landroidx/navigation/NavDestination;
+    ->hasRequiredArguments(Landroidx/navigation/NavDeepLink;Landroid/net/Uri;Ljava/util/Map;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavDestination$hasRequiredArguments$missingRequiredArguments$1;->$matchingArgs:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/navigation/NavDestination$hasRequiredArguments$missingRequiredArguments$1;
+    ->$matchingArgs:Landroid/os/Bundle;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -47,18 +50,22 @@ return-void
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestination$hasRequiredArguments$missingRequiredArguments$1;->$matchingArgs:Landroid/os/Bundle;
+    iget-object v0, p0, Landroidx/navigation/NavDestination$hasRequiredArguments$missingRequiredArguments$1;
+    ->$matchingArgs:Landroid/os/Bundle;
 
-    invoke-virtual {v0, p1}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Landroid/os/BaseBundle;
+    ->containsKey(Ljava/lang/String;)Z
 
     move-result p1
 
     xor-int/lit8 p1, p1, 0x1
 
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -71,7 +78,8 @@ return-void
     .line 2
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestination$hasRequiredArguments$missingRequiredArguments$1;->invoke(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestination$hasRequiredArguments$missingRequiredArguments$1;
+    ->invoke(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object p1
 

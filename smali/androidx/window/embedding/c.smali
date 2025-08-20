@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    iput p3, p0, Landroidx/window/embedding/c;->a:I
+    iput p3, p0, Landroidx/window/embedding/c;
+    ->a:I
 
-    iput-object p1, p0, Landroidx/window/embedding/c;->b:Landroidx/window/embedding/EmbeddingAdapter;
+    iput-object p1, p0, Landroidx/window/embedding/c;
+    ->b:Landroidx/window/embedding/EmbeddingAdapter;
 
-    iput-object p2, p0, Landroidx/window/embedding/c;->c:Ljava/util/Set;
+    iput-object p2, p0, Landroidx/window/embedding/c;
+    ->c:Ljava/util/Set;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -35,30 +39,37 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/window/embedding/c;->a:I
+    iget v0, p0, Landroidx/window/embedding/c;
+    ->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/window/embedding/c;->b:Landroidx/window/embedding/EmbeddingAdapter;
+    iget-object v0, p0, Landroidx/window/embedding/c;
+    ->b:Landroidx/window/embedding/EmbeddingAdapter;
 
-    iget-object v1, p0, Landroidx/window/embedding/c;->c:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/c;
+    ->c:Ljava/util/Set;
 
     check-cast p1, Landroid/util/Pair;
 
-    invoke-static {v0, v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;->d(Landroidx/window/embedding/EmbeddingAdapter;Ljava/util/Set;Landroid/util/Pair;)Z
+    invoke-static {v0, v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;
+    ->d(Landroidx/window/embedding/EmbeddingAdapter;Ljava/util/Set;Landroid/util/Pair;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/window/embedding/c;->b:Landroidx/window/embedding/EmbeddingAdapter;
+    iget-object v0, p0, Landroidx/window/embedding/c;
+    ->b:Landroidx/window/embedding/EmbeddingAdapter;
 
-    iget-object v1, p0, Landroidx/window/embedding/c;->c:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/c;
+    ->c:Ljava/util/Set;
 
     check-cast p1, Landroid/util/Pair;
 
-    invoke-static {v0, v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;->a(Landroidx/window/embedding/EmbeddingAdapter;Ljava/util/Set;Landroid/util/Pair;)Z
+    invoke-static {v0, v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;
+    ->a(Landroidx/window/embedding/EmbeddingAdapter;Ljava/util/Set;Landroid/util/Pair;)Z
 
     move-result p1
 

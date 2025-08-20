@@ -28,16 +28,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;->mPosition:I
+    iput p1, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;
+    ->mPosition:I
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;    return-void
+    iput-object p2, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;    
+    return-void
 .end method
 
 
@@ -46,15 +50,19 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;->mPosition:I
+    iget v1, p0, Landroidx/viewpager2/widget/ViewPager2$SmoothScrollToPosition;
+    ->mPosition:I
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->smoothScrollToPosition(I)V    
+    return-void
 .end method
 
 .end class

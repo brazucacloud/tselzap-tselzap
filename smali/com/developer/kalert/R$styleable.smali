@@ -3948,7 +3948,8 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->ActionBar:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->ActionBar:[I
 
     const v1, 0x10100b3
 
@@ -3956,7 +3957,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/developer/kalert/R$styleable;->ActionBarLayout:[I
+    sput-object v2, Lcom/developer/kalert/R$styleable;
+    ->ActionBarLayout:[I
 
     const v2, 0x101013f
 
@@ -3964,13 +3966,15 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/developer/kalert/R$styleable;->ActionMenuItemView:[I
+    sput-object v2, Lcom/developer/kalert/R$styleable;
+    ->ActionMenuItemView:[I
 
     const/4 v2, 0x0
 
     new-array v3, v2, [I
 
-    sput-object v3, Lcom/developer/kalert/R$styleable;->ActionMenuView:[I
+    sput-object v3, Lcom/developer/kalert/R$styleable;
+    ->ActionMenuView:[I
 
     const/4 v3, 0x6
 
@@ -3978,7 +3982,8 @@
 
     fill-array-data v4, :array_1
 
-    sput-object v4, Lcom/developer/kalert/R$styleable;->ActionMode:[I
+    sput-object v4, Lcom/developer/kalert/R$styleable;
+    ->ActionMode:[I
 
     const v4, 0x7f04023c
 
@@ -3988,7 +3993,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/developer/kalert/R$styleable;->ActivityChooserView:[I
+    sput-object v4, Lcom/developer/kalert/R$styleable;
+    ->ActivityChooserView:[I
 
     const/16 v4, 0x8
 
@@ -3996,13 +4002,15 @@
 
     fill-array-data v4, :array_2
 
-    sput-object v4, Lcom/developer/kalert/R$styleable;->AlertDialog:[I
+    sput-object v4, Lcom/developer/kalert/R$styleable;
+    ->AlertDialog:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_3
 
-    sput-object v4, Lcom/developer/kalert/R$styleable;->AnimatedStateListDrawableCompat:[I
+    sput-object v4, Lcom/developer/kalert/R$styleable;
+    ->AnimatedStateListDrawableCompat:[I
 
     const v4, 0x10100d0
 
@@ -4012,7 +4020,8 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/developer/kalert/R$styleable;->AnimatedStateListDrawableItem:[I
+    sput-object v6, Lcom/developer/kalert/R$styleable;
+    ->AnimatedStateListDrawableItem:[I
 
     const v6, 0x101044a
 
@@ -4024,7 +4033,8 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/developer/kalert/R$styleable;->AnimatedStateListDrawableTransition:[I
+    sput-object v6, Lcom/developer/kalert/R$styleable;
+    ->AnimatedStateListDrawableTransition:[I
 
     const/16 v6, 0x9
 
@@ -4032,7 +4042,8 @@
 
     fill-array-data v6, :array_4
 
-    sput-object v6, Lcom/developer/kalert/R$styleable;->AppBarLayout:[I
+    sput-object v6, Lcom/developer/kalert/R$styleable;
+    ->AppBarLayout:[I
 
     const v6, 0x7f04052c
 
@@ -4046,7 +4057,8 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/developer/kalert/R$styleable;->AppBarLayoutStates:[I
+    sput-object v6, Lcom/developer/kalert/R$styleable;
+    ->AppBarLayoutStates:[I
 
     const v6, 0x7f040370
 
@@ -4058,11 +4070,13 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/developer/kalert/R$styleable;->AppBarLayout_Layout:[I
+    sput-object v6, Lcom/developer/kalert/R$styleable;
+    ->AppBarLayout_Layout:[I
 
     new-array v2, v2, [I
 
-    sput-object v2, Lcom/developer/kalert/R$styleable;->AppCompatEmojiHelper:[I
+    sput-object v2, Lcom/developer/kalert/R$styleable;
+    ->AppCompatEmojiHelper:[I
 
     const v2, 0x7f0405fd
 
@@ -4076,7 +4090,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/developer/kalert/R$styleable;->AppCompatImageView:[I
+    sput-object v2, Lcom/developer/kalert/R$styleable;
+    ->AppCompatImageView:[I
 
     const v2, 0x7f0405f7
 
@@ -4090,7 +4105,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/developer/kalert/R$styleable;->AppCompatSeekBar:[I
+    sput-object v2, Lcom/developer/kalert/R$styleable;
+    ->AppCompatSeekBar:[I
 
     const v2, 0x1010034
 
@@ -4100,7 +4116,8 @@
 
     fill-array-data v7, :array_5
 
-    sput-object v7, Lcom/developer/kalert/R$styleable;->AppCompatTextHelper:[I
+    sput-object v7, Lcom/developer/kalert/R$styleable;
+    ->AppCompatTextHelper:[I
 
     const/16 v7, 0x16
 
@@ -4108,7 +4125,8 @@
 
     fill-array-data v7, :array_6
 
-    sput-object v7, Lcom/developer/kalert/R$styleable;->AppCompatTextView:[I
+    sput-object v7, Lcom/developer/kalert/R$styleable;
+    ->AppCompatTextView:[I
 
     const/16 v7, 0x7f
 
@@ -4116,7 +4134,8 @@
 
     fill-array-data v7, :array_7
 
-    sput-object v7, Lcom/developer/kalert/R$styleable;->AppCompatTheme:[I
+    sput-object v7, Lcom/developer/kalert/R$styleable;
+    ->AppCompatTheme:[I
 
     const/16 v7, 0x1c
 
@@ -4124,7 +4143,8 @@
 
     fill-array-data v7, :array_8
 
-    sput-object v7, Lcom/developer/kalert/R$styleable;->Badge:[I
+    sput-object v7, Lcom/developer/kalert/R$styleable;
+    ->Badge:[I
 
     const/16 v7, 0x10
 
@@ -4132,7 +4152,8 @@
 
     fill-array-data v7, :array_9
 
-    sput-object v7, Lcom/developer/kalert/R$styleable;->BaseProgressIndicator:[I
+    sput-object v7, Lcom/developer/kalert/R$styleable;
+    ->BaseProgressIndicator:[I
 
     const v7, 0x7f040060
 
@@ -4142,7 +4163,8 @@
 
     fill-array-data v8, :array_a
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->BottomAppBar:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->BottomAppBar:[I
 
     const v8, 0x1010140
 
@@ -4158,7 +4180,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->BottomNavigationView:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->BottomNavigationView:[I
 
     const/16 v8, 0x19
 
@@ -4166,7 +4189,8 @@
 
     fill-array-data v8, :array_b
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->BottomSheetBehavior_Layout:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->BottomSheetBehavior_Layout:[I
 
     const v8, 0x7f040039
 
@@ -4174,7 +4198,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->ButtonBarLayout:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->ButtonBarLayout:[I
 
     const v8, 0x7f040496
 
@@ -4184,7 +4209,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->Capability:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->Capability:[I
 
     const/16 v8, 0xd
 
@@ -4192,7 +4218,8 @@
 
     fill-array-data v8, :array_c
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->CardView:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->CardView:[I
 
     const v8, 0x7f0400fe
 
@@ -4206,7 +4233,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->CheckedTextView:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->CheckedTextView:[I
 
     const/16 v8, 0x2a
 
@@ -4214,13 +4242,15 @@
 
     fill-array-data v8, :array_d
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->Chip:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->Chip:[I
 
     new-array v8, v6, [I
 
     fill-array-data v8, :array_e
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->ChipGroup:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->ChipGroup:[I
 
     const v8, 0x7f0402ee
 
@@ -4236,7 +4266,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->CircularProgressIndicator:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->CircularProgressIndicator:[I
 
     const v8, 0x7f04012b
 
@@ -4246,7 +4277,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->ClockFaceView:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->ClockFaceView:[I
 
     const v8, 0x7f0404c2
 
@@ -4258,7 +4290,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->ClockHandView:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->ClockHandView:[I
 
     const/16 v8, 0x20
 
@@ -4266,7 +4299,8 @@
 
     fill-array-data v8, :array_f
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->CollapsingToolbarLayout:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->CollapsingToolbarLayout:[I
 
     const v8, 0x7f040331
 
@@ -4276,7 +4310,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->CollapsingToolbarLayout_Layout:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->CollapsingToolbarLayout_Layout:[I
 
     const v8, 0x7f04003a
 
@@ -4292,7 +4327,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->ColorStateListItem:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->ColorStateListItem:[I
 
     const v8, 0x7f0400b5
 
@@ -4308,7 +4344,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/developer/kalert/R$styleable;->CompoundButton:[I
+    sput-object v8, Lcom/developer/kalert/R$styleable;
+    ->CompoundButton:[I
 
     const v9, 0x7f04041b
 
@@ -4318,7 +4355,8 @@
 
     fill-array-data v15, :array_10
 
-    sput-object v15, Lcom/developer/kalert/R$styleable;->Constraint:[I
+    sput-object v15, Lcom/developer/kalert/R$styleable;
+    ->Constraint:[I
 
     const/16 v15, 0x73
 
@@ -4326,7 +4364,8 @@
 
     fill-array-data v15, :array_11
 
-    sput-object v15, Lcom/developer/kalert/R$styleable;->ConstraintLayout_Layout:[I
+    sput-object v15, Lcom/developer/kalert/R$styleable;
+    ->ConstraintLayout_Layout:[I
 
     const v15, 0x7f0401a4
 
@@ -4338,7 +4377,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->ConstraintLayout_placeholder:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->ConstraintLayout_placeholder:[I
 
     const/16 v5, 0x7b
 
@@ -4346,7 +4386,8 @@
 
     fill-array-data v5, :array_12
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->ConstraintSet:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->ConstraintSet:[I
 
     const v5, 0x7f04031e
 
@@ -4356,13 +4397,15 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->CoordinatorLayout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->CoordinatorLayout:[I
 
     new-array v5, v6, [I
 
     fill-array-data v5, :array_13
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->CoordinatorLayout_Layout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->CoordinatorLayout_Layout:[I
 
     const/16 v5, 0xb
 
@@ -4370,7 +4413,8 @@
 
     fill-array-data v5, :array_14
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->CustomAttribute:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->CustomAttribute:[I
 
     const/16 v5, 0x8
 
@@ -4378,19 +4422,22 @@
 
     fill-array-data v5, :array_15
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->DrawerArrowToggle:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->DrawerArrowToggle:[I
 
     filled-new-array/range {v16 .. v16}, [I
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->DrawerLayout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->DrawerLayout:[I
 
     new-array v5, v6, [I
 
     fill-array-data v5, :array_16
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->ExtendedFloatingActionButton:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->ExtendedFloatingActionButton:[I
 
     const v5, 0x7f040079
 
@@ -4400,7 +4447,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->ExtendedFloatingActionButton_Behavior_Layout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->ExtendedFloatingActionButton_Behavior_Layout:[I
 
     const/16 v5, 0x11
 
@@ -4408,13 +4456,15 @@
 
     fill-array-data v5, :array_17
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->FloatingActionButton:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->FloatingActionButton:[I
 
     filled-new-array {v15}, [I
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->FloatingActionButton_Behavior_Layout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->FloatingActionButton_Behavior_Layout:[I
 
     const v5, 0x7f0402cc
 
@@ -4424,13 +4474,15 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->FlowLayout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->FlowLayout:[I
 
     new-array v5, v6, [I
 
     fill-array-data v5, :array_18
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->FontFamily:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->FontFamily:[I
 
     const/16 v5, 0xa
 
@@ -4438,7 +4490,8 @@
 
     fill-array-data v5, :array_19
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->FontFamilyFont:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->FontFamilyFont:[I
 
     const v5, 0x1010200
 
@@ -4452,7 +4505,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->ForegroundLinearLayout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->ForegroundLinearLayout:[I
 
     const v5, 0x1010003
 
@@ -4462,13 +4516,15 @@
 
     move-result-object v15
 
-    sput-object v15, Lcom/developer/kalert/R$styleable;->Fragment:[I
+    sput-object v15, Lcom/developer/kalert/R$styleable;
+    ->Fragment:[I
 
     filled-new-array {v5, v8}, [I
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->FragmentContainerView:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->FragmentContainerView:[I
 
     const/16 v5, 0xc
 
@@ -4476,7 +4532,8 @@
 
     fill-array-data v5, :array_1a
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->GradientColor:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->GradientColor:[I
 
     const v5, 0x1010514
 
@@ -4484,7 +4541,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->GradientColorItem:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->GradientColorItem:[I
 
     const/16 v5, 0xe
 
@@ -4492,7 +4550,8 @@
 
     fill-array-data v5, :array_1b
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->ImageFilterView:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->ImageFilterView:[I
 
     const/16 v5, 0x9
 
@@ -4500,7 +4559,8 @@
 
     fill-array-data v5, :array_1c
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->Insets:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->Insets:[I
 
     const/16 v5, 0x13
 
@@ -4508,7 +4568,8 @@
 
     fill-array-data v5, :array_1d
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->KeyAttribute:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->KeyAttribute:[I
 
     const/16 v5, 0x15
 
@@ -4516,7 +4577,8 @@
 
     fill-array-data v5, :array_1e
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->KeyCycle:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->KeyCycle:[I
 
     const/16 v5, 0xc
 
@@ -4524,7 +4586,8 @@
 
     fill-array-data v5, :array_1f
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->KeyPosition:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->KeyPosition:[I
 
     const/16 v5, 0x15
 
@@ -4532,7 +4595,8 @@
 
     fill-array-data v5, :array_20
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->KeyTimeCycle:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->KeyTimeCycle:[I
 
     const/16 v5, 0xd
 
@@ -4540,7 +4604,8 @@
 
     fill-array-data v5, :array_21
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->KeyTrigger:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->KeyTrigger:[I
 
     const/16 v5, 0x4c
 
@@ -4548,7 +4613,8 @@
 
     fill-array-data v5, :array_22
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->Layout:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->Layout:[I
 
     const/16 v5, 0x9
 
@@ -4556,7 +4622,8 @@
 
     fill-array-data v5, :array_23
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->LinearLayoutCompat:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->LinearLayoutCompat:[I
 
     const v5, 0x10100f5
 
@@ -4568,7 +4635,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->LinearLayoutCompat_Layout:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->LinearLayoutCompat_Layout:[I
 
     const v1, 0x7f040634
 
@@ -4582,7 +4650,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->LinearProgressIndicator:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->LinearProgressIndicator:[I
 
     const v1, 0x10102ac
 
@@ -4592,7 +4661,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->ListPopupWindow:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->ListPopupWindow:[I
 
     const v1, 0x7f040059
 
@@ -4606,19 +4676,22 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialAlertDialog:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialAlertDialog:[I
 
     new-array v1, v3, [I
 
     fill-array-data v1, :array_24
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialAlertDialogTheme:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialAlertDialogTheme:[I
 
     new-array v1, v6, [I
 
     fill-array-data v1, :array_25
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialAutoCompleteTextView:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialAutoCompleteTextView:[I
 
     const/16 v1, 0x16
 
@@ -4626,7 +4699,8 @@
 
     fill-array-data v1, :array_26
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialButton:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialButton:[I
 
     const/16 v1, 0x8
 
@@ -4634,7 +4708,8 @@
 
     fill-array-data v1, :array_27
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialButtonToggleGroup:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialButtonToggleGroup:[I
 
     const/16 v1, 0xb
 
@@ -4642,7 +4717,8 @@
 
     fill-array-data v1, :array_28
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialCalendar:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialCalendar:[I
 
     const/16 v1, 0xa
 
@@ -4650,7 +4726,8 @@
 
     fill-array-data v1, :array_29
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialCalendarItem:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialCalendarItem:[I
 
     const/16 v1, 0xd
 
@@ -4658,7 +4735,8 @@
 
     fill-array-data v1, :array_2a
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialCardView:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialCardView:[I
 
     const/16 v1, 0xb
 
@@ -4666,7 +4744,8 @@
 
     fill-array-data v1, :array_2b
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialCheckBox:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialCheckBox:[I
 
     const v1, 0x7f04052a
 
@@ -4676,7 +4755,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialCheckBoxStates:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialCheckBoxStates:[I
 
     const v1, 0x7f0401fd
 
@@ -4692,7 +4772,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->MaterialDivider:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->MaterialDivider:[I
 
     const v1, 0x7f040649
 
@@ -4700,19 +4781,22 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialRadioButton:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialRadioButton:[I
 
     filled-new-array {v11, v12}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialShape:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialShape:[I
 
     new-array v0, v6, [I
 
     fill-array-data v0, :array_2c
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialSwitch:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialSwitch:[I
 
     const v0, 0x10104b6
 
@@ -4728,13 +4812,15 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialTextAppearance:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialTextAppearance:[I
 
     filled-new-array {v2, v6, v11}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialTextView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialTextView:[I
 
     const v0, 0x7f04012d
 
@@ -4744,7 +4830,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialTimePicker:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialTimePicker:[I
 
     const v0, 0x7f04055a
 
@@ -4760,13 +4847,15 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MaterialToolbar:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MaterialToolbar:[I
 
     new-array v0, v3, [I
 
     fill-array-data v0, :array_2d
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MenuGroup:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MenuGroup:[I
 
     const/16 v0, 0x17
 
@@ -4774,7 +4863,8 @@
 
     fill-array-data v0, :array_2e
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MenuItem:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MenuItem:[I
 
     const/16 v0, 0x9
 
@@ -4782,13 +4872,15 @@
 
     fill-array-data v0, :array_2f
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MenuView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MenuView:[I
 
     new-array v0, v3, [I
 
     fill-array-data v0, :array_30
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MockView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MockView:[I
 
     const/16 v0, 0xa
 
@@ -4796,7 +4888,8 @@
 
     fill-array-data v0, :array_31
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->Motion:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->Motion:[I
 
     const v0, 0x7f040449
 
@@ -4806,13 +4899,15 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MotionHelper:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MotionHelper:[I
 
     new-array v0, v3, [I
 
     fill-array-data v0, :array_32
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MotionLayout:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MotionLayout:[I
 
     const v0, 0x7f0401e0
 
@@ -4822,7 +4917,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MotionScene:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MotionScene:[I
 
     const v0, 0x7f04058f
 
@@ -4834,7 +4930,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->MotionTelltales:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->MotionTelltales:[I
 
     const/16 v0, 0xc
 
@@ -4842,7 +4939,8 @@
 
     fill-array-data v0, :array_33
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->NavigationBarActiveIndicator:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->NavigationBarActiveIndicator:[I
 
     const/16 v0, 0x18
 
@@ -4850,7 +4948,8 @@
 
     fill-array-data v0, :array_34
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->NavigationBarView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->NavigationBarView:[I
 
     const/16 v0, 0x12
 
@@ -4858,7 +4957,8 @@
 
     fill-array-data v0, :array_35
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->NavigationRailView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->NavigationRailView:[I
 
     const/16 v0, 0x26
 
@@ -4866,7 +4966,8 @@
 
     fill-array-data v0, :array_36
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->NavigationView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->NavigationView:[I
 
     const v0, 0x7f04012a
 
@@ -4876,7 +4977,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->OnClick:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->OnClick:[I
 
     const/16 v0, 0x13
 
@@ -4884,7 +4986,8 @@
 
     fill-array-data v0, :array_37
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->OnSwipe:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->OnSwipe:[I
 
     const v0, 0x10102c9
 
@@ -4896,7 +4999,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->PopupWindow:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->PopupWindow:[I
 
     const v0, 0x7f040526
 
@@ -4904,7 +5008,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->PopupWindowBackgroundState:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->PopupWindowBackgroundState:[I
 
     const/16 v0, 0xa
 
@@ -4912,7 +5017,8 @@
 
     fill-array-data v0, :array_38
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ProgressWheel:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ProgressWheel:[I
 
     const v0, 0x7f040653
 
@@ -4924,13 +5030,15 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->PropertySet:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->PropertySet:[I
 
     filled-new-array {v10}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->RadialViewGroup:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->RadialViewGroup:[I
 
     const v0, 0x7f0403ea
 
@@ -4940,7 +5048,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->RangeSlider:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->RangeSlider:[I
 
     const v0, 0x7f040453
 
@@ -4950,7 +5059,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->RecycleListView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->RecycleListView:[I
 
     const/16 v0, 0xc
 
@@ -4958,7 +5068,8 @@
 
     fill-array-data v0, :array_39
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->RecyclerView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->RecyclerView:[I
 
     const v0, 0x7f0404a9
 
@@ -4974,7 +5085,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->Rotate3dAnimation:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->Rotate3dAnimation:[I
 
     const v0, 0x7f0402f4
 
@@ -4982,7 +5094,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ScrimInsetsFrameLayout:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ScrimInsetsFrameLayout:[I
 
     const v0, 0x7f040080
 
@@ -4990,7 +5103,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ScrollingViewBehavior_Layout:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ScrollingViewBehavior_Layout:[I
 
     const/16 v0, 0x1d
 
@@ -4998,7 +5112,8 @@
 
     fill-array-data v0, :array_3a
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->SearchView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->SearchView:[I
 
     const/16 v0, 0xa
 
@@ -5006,7 +5121,8 @@
 
     fill-array-data v0, :array_3b
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ShapeAppearance:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ShapeAppearance:[I
 
     const/16 v0, 0xb
 
@@ -5014,7 +5130,8 @@
 
     fill-array-data v0, :array_3c
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ShapeableImageView:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ShapeableImageView:[I
 
     const/16 v0, 0x28
 
@@ -5022,7 +5139,8 @@
 
     fill-array-data v0, :array_3d
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->Slider:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->Slider:[I
 
     const v0, 0x7f040509
 
@@ -5034,7 +5152,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->Snackbar:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->Snackbar:[I
 
     const/16 v0, 0xa
 
@@ -5042,7 +5161,8 @@
 
     fill-array-data v0, :array_3e
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->SnackbarLayout:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->SnackbarLayout:[I
 
     const v0, 0x1010262
 
@@ -5056,7 +5176,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->Spinner:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->Spinner:[I
 
     const v0, 0x7f040192
 
@@ -5064,19 +5185,22 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/developer/kalert/R$styleable;->State:[I
+    sput-object v5, Lcom/developer/kalert/R$styleable;
+    ->State:[I
 
     new-array v3, v3, [I
 
     fill-array-data v3, :array_3f
 
-    sput-object v3, Lcom/developer/kalert/R$styleable;->StateListDrawable:[I
+    sput-object v3, Lcom/developer/kalert/R$styleable;
+    ->StateListDrawable:[I
 
     filled-new-array/range {v17 .. v17}, [I
 
     move-result-object v3
 
-    sput-object v3, Lcom/developer/kalert/R$styleable;->StateListDrawableItem:[I
+    sput-object v3, Lcom/developer/kalert/R$styleable;
+    ->StateListDrawableItem:[I
 
     const v3, 0x7f0401e5
 
@@ -5084,7 +5208,8 @@
 
     move-result-object v3
 
-    sput-object v3, Lcom/developer/kalert/R$styleable;->StateSet:[I
+    sput-object v3, Lcom/developer/kalert/R$styleable;
+    ->StateSet:[I
 
     const/16 v3, 0xe
 
@@ -5092,13 +5217,15 @@
 
     fill-array-data v3, :array_40
 
-    sput-object v3, Lcom/developer/kalert/R$styleable;->SwitchCompat:[I
+    sput-object v3, Lcom/developer/kalert/R$styleable;
+    ->SwitchCompat:[I
 
     filled-new-array {v1}, [I
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->SwitchMaterial:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->SwitchMaterial:[I
 
     const v1, 0x101014f
 
@@ -5110,7 +5237,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->TabItem:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->TabItem:[I
 
     const/16 v1, 0x1b
 
@@ -5118,7 +5246,8 @@
 
     fill-array-data v1, :array_41
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->TabLayout:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->TabLayout:[I
 
     const/16 v1, 0x10
 
@@ -5126,7 +5255,8 @@
 
     fill-array-data v1, :array_42
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->TextAppearance:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->TextAppearance:[I
 
     const v1, 0x7f0405d3
 
@@ -5134,7 +5264,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->TextInputEditText:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->TextInputEditText:[I
 
     const/16 v1, 0x4b
 
@@ -5142,7 +5273,8 @@
 
     fill-array-data v1, :array_43
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->TextInputLayout:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->TextInputLayout:[I
 
     const v1, 0x7f04022b
 
@@ -5152,7 +5284,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->ThemeEnforcement:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->ThemeEnforcement:[I
 
     const/16 v1, 0x1e
 
@@ -5160,7 +5293,8 @@
 
     fill-array-data v1, :array_44
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->Toolbar:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->Toolbar:[I
 
     const/16 v1, 0x18
 
@@ -5168,7 +5302,8 @@
 
     fill-array-data v1, :array_45
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->Tooltip:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->Tooltip:[I
 
     const/16 v1, 0xc
 
@@ -5176,7 +5311,8 @@
 
     fill-array-data v1, :array_46
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->Transform:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->Transform:[I
 
     const/16 v1, 0xb
 
@@ -5184,7 +5320,8 @@
 
     fill-array-data v1, :array_47
 
-    sput-object v1, Lcom/developer/kalert/R$styleable;->Transition:[I
+    sput-object v1, Lcom/developer/kalert/R$styleable;
+    ->Transition:[I
 
     const v1, 0x7f0404a3
 
@@ -5198,7 +5335,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->Variant:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->Variant:[I
 
     const v0, 0x7f040458
 
@@ -5214,7 +5352,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->View:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->View:[I
 
     const v0, 0x10100d4
 
@@ -5224,13 +5363,15 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ViewBackgroundHelper:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ViewBackgroundHelper:[I
 
     filled-new-array/range {v16 .. v16}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ViewPager2:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ViewPager2:[I
 
     const v0, 0x10100f3
 
@@ -5238,7 +5379,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/developer/kalert/R$styleable;->ViewStubCompat:[I
+    sput-object v0, Lcom/developer/kalert/R$styleable;
+    ->ViewStubCompat:[I
 
     return-void
 
@@ -7168,7 +7310,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/PausingDispatcherKt;->whenStateAtLeast(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lp1/p;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/lifecycle/PausingDispatcherKt;
+    ->whenStateAtLeast(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lp1/p;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -68,22 +69,26 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$this_whenStateAtLeast:Landroidx/lifecycle/Lifecycle;
+    iput-object p1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$this_whenStateAtLeast:Landroidx/lifecycle/Lifecycle;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$minState:Landroidx/lifecycle/Lifecycle$State;
+    iput-object p2, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$minState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$block:Lp1/p;
+    iput-object p3, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$block:Lp1/p;
 
     .line 6
     .line 7
     const/4 p1, 0x2
 
     .line 8
-    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p4}, Li1/i;
+    -><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -108,24 +113,30 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$this_whenStateAtLeast:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$this_whenStateAtLeast:Landroidx/lifecycle/Lifecycle;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$minState:Landroidx/lifecycle/Lifecycle$State;
+    iget-object v2, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$minState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 6
     .line 7
-    iget-object v3, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$block:Lp1/p;
+    iget-object v3, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$block:Lp1/p;
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lp1/p;Lg1/d;)V
+    invoke-direct {v0, v1, v2, v3, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    -><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lp1/p;Lg1/d;)V
 
     .line 10
     .line 11
     .line 12
-    iput-object p1, v0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->L$0:Ljava/lang/Object;    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->L$0:Ljava/lang/Object;    
+    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -136,7 +147,8 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -156,15 +168,18 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
 
-    sget-object p2, Lc1/v;->a:Lc1/v;
+    sget-object p2, Lc1/v;
+    ->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -175,11 +190,13 @@ return-void
     .locals 7
 
     .line 1
-    sget-object v0, Lh1/a;->b:Lh1/a;
+    sget-object v0, Lh1/a;
+    ->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->label:I
+    iget v1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->label:I
 
     .line 4
     .line 5
@@ -194,7 +211,8 @@ return-void
 
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->L$0:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->L$0:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -203,7 +221,8 @@ return-void
     .line 13
     .line 14
     :try_start_0
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -229,7 +248,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -238,12 +258,14 @@ return-void
 
     .line 28
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 29
     .line 30
     .line 31
-    iget-object p1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->L$0:Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -251,7 +273,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-interface {p1}, Lz1/v;->getCoroutineContext()Lg1/i;
+    invoke-interface {p1}, Lz1/v;
+    ->getCoroutineContext()Lg1/i;
 
     .line 36
     .line 37
@@ -259,11 +282,13 @@ return-void
     move-result-object p1
 
     .line 39
-    sget-object v1, Lz1/u;->c:Lz1/u;
+    sget-object v1, Lz1/u;
+    ->c:Lz1/u;
 
     .line 40
     .line 41
-    invoke-interface {p1, v1}, Lg1/i;->get(Lg1/h;)Lg1/g;
+    invoke-interface {p1, v1}, Lg1/i;
+    ->get(Lg1/h;)Lg1/g;
 
     .line 42
     .line 43
@@ -283,7 +308,8 @@ return-void
 
     .line 50
     .line 51
-    invoke-direct {v1}, Landroidx/lifecycle/PausingDispatcher;-><init>()V
+    invoke-direct {v1}, Landroidx/lifecycle/PausingDispatcher;
+    -><init>()V
 
     .line 52
     .line 53
@@ -292,37 +318,45 @@ return-void
 
     .line 55
     .line 56
-    iget-object v4, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$this_whenStateAtLeast:Landroidx/lifecycle/Lifecycle;
+    iget-object v4, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$this_whenStateAtLeast:Landroidx/lifecycle/Lifecycle;
 
     .line 57
     .line 58
-    iget-object v5, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$minState:Landroidx/lifecycle/Lifecycle$State;
+    iget-object v5, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$minState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 59
     .line 60
-    iget-object v6, v1, Landroidx/lifecycle/PausingDispatcher;->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
+    iget-object v6, v1, Landroidx/lifecycle/PausingDispatcher;
+    ->dispatchQueue:Landroidx/lifecycle/DispatchQueue;
 
     .line 61
     .line 62
-    invoke-direct {v3, v4, v5, v6, p1}, Landroidx/lifecycle/LifecycleController;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/DispatchQueue;Lz1/V;)V
+    invoke-direct {v3, v4, v5, v6, p1}, Landroidx/lifecycle/LifecycleController;
+    -><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/DispatchQueue;Lz1/V;)V
 
     .line 63
     .line 64
     .line 65
     :try_start_1
-    iget-object p1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->$block:Lp1/p;
+    iget-object p1, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->$block:Lp1/p;
 
     .line 66
     .line 67
-    iput-object v3, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->L$0:Ljava/lang/Object;
+    iput-object v3, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->L$0:Ljava/lang/Object;
 
     .line 68
     .line 69
-    iput v2, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;->label:I
+    iput v2, p0, Landroidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2;
+    ->label:I
 
     .line 70
     .line 71
-    invoke-static {p1, v1, p0}, Lz1/w;->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
+    invoke-static {p1, v1, p0}, Lz1/w;
+    ->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -340,7 +374,8 @@ return-void
 
     .line 79
     :goto_0
-    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleController;->finish()V
+    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleController;
+    ->finish()V
     return-object p1
 
     .line 83
@@ -352,7 +387,8 @@ return-void
 
     .line 85
     :goto_1
-    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleController;->finish()V
+    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleController;
+    ->finish()V
 
     .line 86
     .line 87
@@ -369,7 +405,8 @@ return-void
 
     .line 92
     .line 93
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 94
     .line 95

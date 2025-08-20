@@ -24,7 +24,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -33,12 +34,14 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 12
     .line 13
@@ -50,12 +53,14 @@
 
     .line 16
     .line 17
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-direct {p0, v0, p2}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;-><init>(Landroid/content/Context;Landroidx/navigation/ui/AppBarConfiguration;)V
+    invoke-direct {p0, v0, p2}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;
+    -><init>(Landroid/content/Context;Landroidx/navigation/ui/AppBarConfiguration;)V
 
     .line 21
     .line 22
@@ -64,12 +69,15 @@
 
     .line 24
     .line 25
-    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 26
     .line 27
     .line 28
-    iput-object p2, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;->toolbarWeakReference:Ljava/lang/ref/WeakReference;    return-void
+    iput-object p2, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;
+    ->toolbarWeakReference:Ljava/lang/ref/WeakReference;    
+    return-void
 .end method
 
 
@@ -82,7 +90,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -91,16 +100,19 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;->toolbarWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;
+    ->toolbarWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -116,12 +128,14 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;
+    ->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
     return-void
 
     .line 25
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->onDestinationChanged(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;
+    ->onDestinationChanged(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -133,11 +147,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;->toolbarWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;
+    ->toolbarWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -157,7 +173,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->getNavigationIcon()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;
+    ->getNavigationIcon()Landroid/graphics/drawable/Drawable;
 
     .line 14
     .line 15
@@ -180,12 +197,14 @@ return-void
 
     .line 22
     :goto_0
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;
+    ->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, p2}, Landroidx/appcompat/widget/Toolbar;->setNavigationContentDescription(I)V
+    invoke-virtual {v0, p2}, Landroidx/appcompat/widget/Toolbar;
+    ->setNavigationContentDescription(I)V
 
     .line 26
     .line 27
@@ -194,7 +213,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-static {v0}, Landroidx/transition/TransitionManager;->beginDelayedTransition(Landroid/view/ViewGroup;)V
+    invoke-static {v0}, Landroidx/transition/TransitionManager;
+    ->beginDelayedTransition(Landroid/view/ViewGroup;)V
 
     .line 31
     .line 32
@@ -207,11 +227,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;->toolbarWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/navigation/ui/ToolbarOnDestinationChangedListener;
+    ->toolbarWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -227,7 +249,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;
+    ->setTitle(Ljava/lang/CharSequence;)V
 
     .line 12
     .line 13

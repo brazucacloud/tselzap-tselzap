@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/app/AlertController;->setScrollIndicators(Landroid/view/ViewGroup;Landroid/view/View;II)V
+    value = Landroidx/appcompat/app/AlertController;
+    ->setScrollIndicators(Landroid/view/ViewGroup;Landroid/view/View;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,19 +36,23 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AlertController$4;->this$0:Landroidx/appcompat/app/AlertController;
+    iput-object p1, p0, Landroidx/appcompat/app/AlertController$4;
+    ->this$0:Landroidx/appcompat/app/AlertController;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/appcompat/app/AlertController$4;->val$top:Landroid/view/View;
+    iput-object p2, p0, Landroidx/appcompat/app/AlertController$4;
+    ->val$top:Landroid/view/View;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/appcompat/app/AlertController$4;->val$bottom:Landroid/view/View;
+    iput-object p3, p0, Landroidx/appcompat/app/AlertController$4;
+    ->val$bottom:Landroid/view/View;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -57,15 +62,19 @@
     .locals 0
 
     .line 1
-    iget-object p2, p0, Landroidx/appcompat/app/AlertController$4;->val$top:Landroid/view/View;
+    iget-object p2, p0, Landroidx/appcompat/app/AlertController$4;
+    ->val$top:Landroid/view/View;
 
     .line 2
     .line 3
-    iget-object p3, p0, Landroidx/appcompat/app/AlertController$4;->val$bottom:Landroid/view/View;
+    iget-object p3, p0, Landroidx/appcompat/app/AlertController$4;
+    ->val$bottom:Landroid/view/View;
 
     .line 4
     .line 5
-    invoke-static {p1, p2, p3}, Landroidx/appcompat/app/AlertController;->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V    return-void
+    invoke-static {p1, p2, p3}, Landroidx/appcompat/app/AlertController;
+    ->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V    
+    return-void
 .end method
 
 .method public onScrollStateChanged(Landroid/widget/AbsListView;I)V

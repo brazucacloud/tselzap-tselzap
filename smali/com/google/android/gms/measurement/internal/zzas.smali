@@ -10,7 +10,8 @@
 .method public synthetic constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -19,7 +20,8 @@
 .method public final zza(Landroid/database/Cursor;)Ljava/lang/Object;
     .locals 0
 
-    invoke-static {p1}, Lcom/google/android/gms/measurement/internal/zzap;->zza(Landroid/database/Cursor;)Lcom/google/android/gms/measurement/internal/zzju;
+    invoke-static {p1}, Lcom/google/android/gms/measurement/internal/zzap;
+    ->zza(Landroid/database/Cursor;)Lcom/google/android/gms/measurement/internal/zzju;
 
     move-result-object p1
 

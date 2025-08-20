@@ -32,7 +32,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,9 @@
 
     .line 5
     .line 6
-    iput-wide v0, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;->mNextStableId:J    return-void
+    iput-wide v0, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;
+    ->mNextStableId:J    
+    return-void
 .end method
 
 
@@ -56,7 +59,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage$WrapperStableIdLookup;-><init>(Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;)V
+    invoke-direct {v0, p0}, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage$WrapperStableIdLookup;
+    -><init>(Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;)V
 return-object v0
 .end method
 
@@ -64,7 +68,8 @@ return-object v0
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;->mNextStableId:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;
+    ->mNextStableId:J
 
     .line 2
     .line 3
@@ -75,7 +80,9 @@ return-object v0
     add-long/2addr v2, v0
 
     .line 6
-    iput-wide v2, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;->mNextStableId:J    return-wide v0
+    iput-wide v2, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;
+    ->mNextStableId:J    
+    return-wide v0
 .end method
 
 .end class

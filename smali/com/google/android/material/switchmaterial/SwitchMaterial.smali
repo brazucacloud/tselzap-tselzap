@@ -109,7 +109,8 @@
 
     .line 43
     .line 44
-    sput-object v0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->f:[[I
+    sput-object v0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->f:[[I
 
     .line 45
     .line 46
@@ -138,7 +139,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p1, p2, v4, v0}, Lz0/a;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, v4, v0}, Lz0/a;
+    ->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     .line 8
     .line 9
@@ -146,12 +148,14 @@
     move-result-object p1
 
     .line 11
-    invoke-direct {p0, p1, p2, v4}, Landroidx/appcompat/widget/SwitchCompat;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v4}, Landroidx/appcompat/widget/SwitchCompat;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 15
     .line 16
@@ -163,16 +167,19 @@
 
     .line 19
     .line 20
-    invoke-direct {p1, v1}, Lm0/a;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, v1}, Lm0/a;
+    -><init>(Landroid/content/Context;)V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->b:Lm0/a;
+    iput-object p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->b:Lm0/a;
 
     .line 24
     .line 25
-    sget-object v3, LY/a;->L:[I
+    sget-object v3, LY/a;
+    ->L:[I
 
     .line 26
     .line 27
@@ -188,7 +195,8 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {v1, p2, v4, v5}, Lo0/C;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-static {v1, p2, v4, v5}, Lo0/C;
+    ->a(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 34
     .line 35
@@ -196,12 +204,14 @@
     move-object v2, p2
 
     .line 37
-    invoke-static/range {v1 .. v6}, Lo0/C;->b(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)V
+    invoke-static/range {v1 .. v6}, Lo0/C;
+    ->b(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)V
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v1, v2, v3, v4, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {v1, v2, v3, v4, v5}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 41
     .line 42
@@ -209,7 +219,8 @@
     move-result-object p2
 
     .line 44
-    invoke-virtual {p2, p1, p1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p2, p1, p1}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 45
     .line 46
@@ -217,11 +228,13 @@
     move-result p1
 
     .line 48
-    iput-boolean p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->e:Z
+    iput-boolean p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->e:Z
 
     .line 49
     .line 50
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;
+    ->recycle()V
 
     .line 51
     .line 52
@@ -233,7 +246,8 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->c:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->c:Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -246,7 +260,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p0, v0}, Lj0/a;->b(Landroid/view/View;I)I
+    invoke-static {p0, v0}, Lj0/a;
+    ->b(Landroid/view/View;I)I
 
     .line 9
     .line 10
@@ -259,7 +274,8 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p0, v1}, Lj0/a;->b(Landroid/view/View;I)I
+    invoke-static {p0, v1}, Lj0/a;
+    ->b(Landroid/view/View;I)I
 
     .line 16
     .line 17
@@ -267,7 +283,8 @@
     move-result v1
 
     .line 19
-    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 20
     .line 21
@@ -280,7 +297,8 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
+    invoke-virtual {v2, v3}, Landroid/content/res/Resources;
+    ->getDimension(I)F
 
     .line 27
     .line 28
@@ -288,11 +306,13 @@
     move-result v2
 
     .line 30
-    iget-object v3, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->b:Lm0/a;
+    iget-object v3, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->b:Lm0/a;
 
     .line 31
     .line 32
-    iget-boolean v4, v3, Lm0/a;->a:Z
+    iget-boolean v4, v3, Lm0/a;
+    ->a:Z
 
     .line 33
     .line 34
@@ -300,7 +320,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 37
     .line 38
@@ -327,7 +348,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {v6}, Landroid/view/View;->getElevation()F
+    invoke-virtual {v6}, Landroid/view/View;
+    ->getElevation()F
 
     .line 49
     .line 50
@@ -338,7 +360,8 @@
     add-float/2addr v5, v6
 
     .line 53
-    invoke-interface {v4}, Landroid/view/ViewParent;->getParent()Landroid/view/ViewParent;
+    invoke-interface {v4}, Landroid/view/ViewParent;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 54
     .line 55
@@ -354,7 +377,8 @@
 
     .line 59
     :cond_1
-    invoke-virtual {v3, v0, v2}, Lm0/a;->a(IF)I
+    invoke-virtual {v3, v0, v2}, Lm0/a;
+    ->a(IF)I
 
     .line 60
     .line 61
@@ -366,7 +390,8 @@
 
     .line 64
     .line 65
-    invoke-static {v0, v1, v3}, Lj0/a;->c(IIF)I
+    invoke-static {v0, v1, v3}, Lj0/a;
+    ->c(IIF)I
 
     .line 66
     .line 67
@@ -379,7 +404,8 @@
     .line 70
     .line 71
     .line 72
-    invoke-static {v0, v1, v4}, Lj0/a;->c(IIF)I
+    invoke-static {v0, v1, v4}, Lj0/a;
+    ->c(IIF)I
 
     .line 73
     .line 74
@@ -399,21 +425,25 @@
 
     .line 81
     .line 82
-    sget-object v2, Lcom/google/android/material/switchmaterial/SwitchMaterial;->f:[[I
+    sget-object v2, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->f:[[I
 
     .line 83
     .line 84
-    invoke-direct {v1, v2, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+    invoke-direct {v1, v2, v0}, Landroid/content/res/ColorStateList;
+    -><init>([[I[I)V
 
     .line 85
     .line 86
     .line 87
-    iput-object v1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->c:Landroid/content/res/ColorStateList;
+    iput-object v1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->c:Landroid/content/res/ColorStateList;
 
     .line 88
     .line 89
     :cond_2
-    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->c:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->c:Landroid/content/res/ColorStateList;
 
     .line 90
     .line 91
@@ -424,7 +454,8 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->d:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->d:Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -437,7 +468,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p0, v0}, Lj0/a;->b(Landroid/view/View;I)I
+    invoke-static {p0, v0}, Lj0/a;
+    ->b(Landroid/view/View;I)I
 
     .line 9
     .line 10
@@ -450,7 +482,8 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p0, v1}, Lj0/a;->b(Landroid/view/View;I)I
+    invoke-static {p0, v1}, Lj0/a;
+    ->b(Landroid/view/View;I)I
 
     .line 16
     .line 17
@@ -463,7 +496,8 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p0, v2}, Lj0/a;->b(Landroid/view/View;I)I
+    invoke-static {p0, v2}, Lj0/a;
+    ->b(Landroid/view/View;I)I
 
     .line 23
     .line 24
@@ -476,7 +510,8 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {v0, v1, v3}, Lj0/a;->c(IIF)I
+    invoke-static {v0, v1, v3}, Lj0/a;
+    ->c(IIF)I
 
     .line 30
     .line 31
@@ -489,7 +524,8 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {v0, v2, v4}, Lj0/a;->c(IIF)I
+    invoke-static {v0, v2, v4}, Lj0/a;
+    ->c(IIF)I
 
     .line 37
     .line 38
@@ -502,7 +538,8 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {v0, v1, v5}, Lj0/a;->c(IIF)I
+    invoke-static {v0, v1, v5}, Lj0/a;
+    ->c(IIF)I
 
     .line 44
     .line 45
@@ -510,7 +547,8 @@
     move-result v1
 
     .line 47
-    invoke-static {v0, v2, v5}, Lj0/a;->c(IIF)I
+    invoke-static {v0, v2, v5}, Lj0/a;
+    ->c(IIF)I
 
     .line 48
     .line 49
@@ -530,21 +568,25 @@
 
     .line 56
     .line 57
-    sget-object v2, Lcom/google/android/material/switchmaterial/SwitchMaterial;->f:[[I
+    sget-object v2, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->f:[[I
 
     .line 58
     .line 59
-    invoke-direct {v1, v2, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+    invoke-direct {v1, v2, v0}, Landroid/content/res/ColorStateList;
+    -><init>([[I[I)V
 
     .line 60
     .line 61
     .line 62
-    iput-object v1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->d:Landroid/content/res/ColorStateList;
+    iput-object v1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->d:Landroid/content/res/ColorStateList;
 
     .line 63
     .line 64
     :cond_0
-    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->d:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->d:Landroid/content/res/ColorStateList;
 
     .line 65
     .line 66
@@ -557,12 +599,14 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/widget/CompoundButton;->onAttachedToWindow()V
+    invoke-super {p0}, Landroid/widget/CompoundButton;
+    ->onAttachedToWindow()V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->e:Z
+    iget-boolean v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->e:Z
 
     .line 5
     .line 6
@@ -570,7 +614,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/appcompat/widget/SwitchCompat;->getThumbTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getThumbTintList()Landroid/content/res/ColorStateList;
 
     .line 9
     .line 10
@@ -582,7 +627,8 @@
 
     .line 13
     .line 14
-    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;->getMaterialThemeColorsThumbTintList()Landroid/content/res/ColorStateList;
+    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->getMaterialThemeColorsThumbTintList()Landroid/content/res/ColorStateList;
 
     .line 15
     .line 16
@@ -590,13 +636,15 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/SwitchCompat;->setThumbTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setThumbTintList(Landroid/content/res/ColorStateList;)V
 
     .line 19
     .line 20
     .line 21
     :cond_0
-    iget-boolean v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->e:Z
+    iget-boolean v0, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->e:Z
 
     .line 22
     .line 23
@@ -604,7 +652,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/appcompat/widget/SwitchCompat;->getTrackTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroidx/appcompat/widget/SwitchCompat;
+    ->getTrackTintList()Landroid/content/res/ColorStateList;
 
     .line 26
     .line 27
@@ -616,7 +665,8 @@
 
     .line 30
     .line 31
-    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;->getMaterialThemeColorsTrackTintList()Landroid/content/res/ColorStateList;
+    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->getMaterialThemeColorsTrackTintList()Landroid/content/res/ColorStateList;
 
     .line 32
     .line 33
@@ -624,7 +674,8 @@
     move-result-object v0
 
     .line 35
-    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/SwitchCompat;->setTrackTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setTrackTintList(Landroid/content/res/ColorStateList;)V
 
     .line 36
     .line 37
@@ -637,7 +688,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;->e:Z
+    iput-boolean p1, p0, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->e:Z
 
     .line 2
     .line 3
@@ -645,7 +697,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;->getMaterialThemeColorsThumbTintList()Landroid/content/res/ColorStateList;
+    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->getMaterialThemeColorsThumbTintList()Landroid/content/res/ColorStateList;
 
     .line 6
     .line 7
@@ -653,12 +706,14 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setThumbTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setThumbTintList(Landroid/content/res/ColorStateList;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;->getMaterialThemeColorsTrackTintList()Landroid/content/res/ColorStateList;
+    invoke-direct {p0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    ->getMaterialThemeColorsTrackTintList()Landroid/content/res/ColorStateList;
 
     .line 13
     .line 14
@@ -666,7 +721,8 @@
     move-result-object p1
 
     .line 16
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setTrackTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setTrackTintList(Landroid/content/res/ColorStateList;)V
 
     .line 17
     .line 18
@@ -678,12 +734,14 @@
     const/4 p1, 0x0
 
     .line 21
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setThumbTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setThumbTintList(Landroid/content/res/ColorStateList;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setTrackTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setTrackTintList(Landroid/content/res/ColorStateList;)V
 
     .line 25
     .line 26

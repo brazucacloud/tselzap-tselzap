@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -32,7 +33,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -44,11 +46,15 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/appcompat/widget/TooltipCompat$Api26Impl;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
+    invoke-static {p0, p1}, Landroidx/appcompat/widget/TooltipCompat$Api26Impl;
+    ->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    
+    return-void
 
     .line 11
     :cond_0
-    invoke-static {p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
+    invoke-static {p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;
+    ->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    
+    return-void
 .end method
 
 .end class

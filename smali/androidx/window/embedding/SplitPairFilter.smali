@@ -25,7 +25,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -34,29 +35,35 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iput-object p1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iput-object p2, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 17
     .line 18
-    iput-object p3, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/ComponentName;
+    ->getPackageName()Ljava/lang/String;
 
     .line 21
     .line 22
@@ -68,12 +75,14 @@
 
     .line 25
     .line 26
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p1}, Landroid/content/ComponentName;->getClassName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/ComponentName;
+    ->getClassName()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -85,12 +94,14 @@
 
     .line 34
     .line 35
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {p2}, Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/ComponentName;
+    ->getPackageName()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -102,12 +113,14 @@
 
     .line 43
     .line 44
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {p2}, Landroid/content/ComponentName;->getClassName()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/ComponentName;
+    ->getClassName()Ljava/lang/String;
 
     .line 48
     .line 49
@@ -119,12 +132,14 @@
 
     .line 52
     .line 53
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p3}, Ljava/lang/String;->length()I
+    invoke-virtual {p3}, Ljava/lang/String;
+    ->length()I
 
     .line 57
     .line 58
@@ -136,7 +151,8 @@
 
     .line 61
     .line 62
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 63
     .line 64
@@ -148,7 +164,8 @@
 
     .line 67
     .line 68
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->length()I
 
     .line 69
     .line 70
@@ -160,7 +177,8 @@
 
     .line 73
     .line 74
-    invoke-virtual {p2}, Ljava/lang/String;->length()I
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->length()I
 
     .line 75
     .line 76
@@ -176,7 +194,8 @@
 
     .line 81
     .line 82
-    invoke-static {v1, p3}, Lx1/d;->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, p3}, Lx1/d;
+    ->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
 
     .line 83
     .line 84
@@ -198,7 +217,8 @@
 
     .line 91
     .line 92
-    invoke-static {p3, v1, v3, v4}, Lx1/d;->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
+    invoke-static {p3, v1, v3, v4}, Lx1/d;
+    ->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
 
     .line 93
     .line 94
@@ -206,7 +226,8 @@
     move-result v2
 
     .line 96
-    invoke-virtual {p3}, Ljava/lang/String;->length()I
+    invoke-virtual {p3}, Ljava/lang/String;
+    ->length()I
 
     .line 97
     .line 98
@@ -230,7 +251,8 @@
 
     .line 106
     .line 107
-    invoke-direct {p1, v5}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v5}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -240,7 +262,8 @@
     .line 111
     :cond_1
     :goto_0
-    invoke-static {v1, p1}, Lx1/d;->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, p1}, Lx1/d;
+    ->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
 
     .line 112
     .line 113
@@ -256,7 +279,8 @@
 
     .line 118
     .line 119
-    invoke-static {p1, v1, v3, v4}, Lx1/d;->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
+    invoke-static {p1, v1, v3, v4}, Lx1/d;
+    ->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
 
     .line 120
     .line 121
@@ -264,7 +288,8 @@
     move-result p3
 
     .line 123
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->length()I
 
     .line 124
     .line 125
@@ -288,7 +313,8 @@
 
     .line 133
     .line 134
-    invoke-direct {p1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 135
     .line 136
@@ -298,7 +324,8 @@
     .line 138
     :cond_3
     :goto_1
-    invoke-static {v1, v0}, Lx1/d;->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, v0}, Lx1/d;
+    ->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
 
     .line 139
     .line 140
@@ -310,7 +337,8 @@
 
     .line 143
     .line 144
-    invoke-static {v0, v1, v3, v4}, Lx1/d;->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
+    invoke-static {v0, v1, v3, v4}, Lx1/d;
+    ->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
 
     .line 145
     .line 146
@@ -318,7 +346,8 @@
     move-result p1
 
     .line 148
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 149
     .line 150
@@ -342,7 +371,8 @@
 
     .line 158
     .line 159
-    invoke-direct {p1, v5}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v5}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 160
     .line 161
@@ -352,7 +382,8 @@
     .line 163
     :cond_5
     :goto_2
-    invoke-static {v1, p2}, Lx1/d;->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, p2}, Lx1/d;
+    ->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
 
     .line 164
     .line 165
@@ -364,7 +395,8 @@
 
     .line 168
     .line 169
-    invoke-static {p2, v1, v3, v4}, Lx1/d;->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
+    invoke-static {p2, v1, v3, v4}, Lx1/d;
+    ->u(Ljava/lang/CharSequence;Ljava/lang/String;II)I
 
     .line 170
     .line 171
@@ -372,7 +404,8 @@
     move-result p1
 
     .line 173
-    invoke-virtual {p2}, Ljava/lang/String;->length()I
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->length()I
 
     .line 174
     .line 175
@@ -396,7 +429,8 @@
 
     .line 183
     .line 184
-    invoke-direct {p1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 185
     .line 186
@@ -418,7 +452,8 @@
 
     .line 192
     .line 193
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 194
     .line 195
@@ -435,7 +470,8 @@
 
     .line 200
     .line 201
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 202
     .line 203
@@ -1174,7 +1210,8 @@
 
     .line 11
     :cond_1
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 12
     .line 13
@@ -1182,11 +1219,13 @@
 
     .line 14
     .line 15
-    iget-object v3, p1, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v3, p1, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 16
     .line 17
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -1202,15 +1241,18 @@
 
     .line 24
     :cond_2
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 25
     .line 26
-    iget-object v3, p1, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v3, p1, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 27
     .line 28
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -1226,15 +1268,18 @@
 
     .line 35
     :cond_3
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 36
     .line 37
-    iget-object p1, p1, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 38
     .line 39
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 40
     .line 41
@@ -1257,7 +1302,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 2
     .line 3
@@ -1268,7 +1314,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -1279,7 +1326,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 2
     .line 3
@@ -1290,11 +1338,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/ComponentName;->hashCode()I
+    invoke-virtual {v0}, Landroid/content/ComponentName;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -1306,11 +1356,13 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 10
     .line 11
-    invoke-virtual {v1}, Landroid/content/ComponentName;->hashCode()I
+    invoke-virtual {v1}, Landroid/content/ComponentName;
+    ->hashCode()I
 
     .line 12
     .line 13
@@ -1325,7 +1377,8 @@
 
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 19
     .line 20
@@ -1340,7 +1393,8 @@
 
     .line 24
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 25
     .line 26
@@ -1362,7 +1416,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1371,12 +1426,14 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/app/Activity;->getComponentName()Landroid/content/ComponentName;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getComponentName()Landroid/content/ComponentName;
 
     .line 12
     .line 13
@@ -1384,15 +1441,18 @@
     move-result-object p1
 
     .line 15
-    sget-object v0, Landroidx/window/embedding/MatcherUtils;->INSTANCE:Landroidx/window/embedding/MatcherUtils;
+    sget-object v0, Landroidx/window/embedding/MatcherUtils;
+    ->INSTANCE:Landroidx/window/embedding/MatcherUtils;
 
     .line 16
     .line 17
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1, v1}, Landroidx/window/embedding/MatcherUtils;->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
+    invoke-virtual {v0, p1, v1}, Landroidx/window/embedding/MatcherUtils;
+    ->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
 
     .line 20
     .line 21
@@ -1411,7 +1471,8 @@
 
     .line 27
     :cond_0
-    invoke-virtual {p2}, Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
+    invoke-virtual {p2}, Landroid/content/Intent;
+    ->getComponent()Landroid/content/ComponentName;
 
     .line 28
     .line 29
@@ -1419,11 +1480,13 @@
     move-result-object p1
 
     .line 31
-    iget-object v2, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v2, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 32
     .line 33
-    invoke-virtual {v0, p1, v2}, Landroidx/window/embedding/MatcherUtils;->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
+    invoke-virtual {v0, p1, v2}, Landroidx/window/embedding/MatcherUtils;
+    ->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
 
     .line 34
     .line 35
@@ -1439,7 +1502,8 @@
 
     .line 40
     :cond_1
-    iget-object p1, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iget-object p1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 41
     .line 42
@@ -1447,7 +1511,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/Intent;
+    ->getAction()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -1455,7 +1520,8 @@
     move-result-object p2
 
     .line 48
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -1489,7 +1555,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1498,16 +1565,19 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    sget-object v0, Landroidx/window/embedding/MatcherUtils;->INSTANCE:Landroidx/window/embedding/MatcherUtils;
+    sget-object v0, Landroidx/window/embedding/MatcherUtils;
+    ->INSTANCE:Landroidx/window/embedding/MatcherUtils;
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroid/app/Activity;->getComponentName()Landroid/content/ComponentName;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getComponentName()Landroid/content/ComponentName;
 
     .line 14
     .line 15
@@ -1515,11 +1585,13 @@
     move-result-object v1
 
     .line 17
-    iget-object v2, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v2, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1, v2}, Landroidx/window/embedding/MatcherUtils;->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
+    invoke-virtual {v0, v1, v2}, Landroidx/window/embedding/MatcherUtils;
+    ->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
 
     .line 20
     .line 21
@@ -1537,7 +1609,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p2}, Landroid/app/Activity;->getComponentName()Landroid/content/ComponentName;
+    invoke-virtual {p2}, Landroid/app/Activity;
+    ->getComponentName()Landroid/content/ComponentName;
 
     .line 28
     .line 29
@@ -1545,11 +1618,13 @@
     move-result-object v1
 
     .line 31
-    iget-object v4, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v4, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1, v4}, Landroidx/window/embedding/MatcherUtils;->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
+    invoke-virtual {v0, v1, v4}, Landroidx/window/embedding/MatcherUtils;
+    ->areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
 
     .line 34
     .line 35
@@ -1572,7 +1647,8 @@
 
     .line 42
     :goto_0
-    invoke-virtual {p2}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p2}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 43
     .line 44
@@ -1588,7 +1664,8 @@
 
     .line 49
     .line 50
-    invoke-virtual {p2}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p2}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 51
     .line 52
@@ -1600,12 +1677,14 @@
 
     .line 55
     .line 56
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p0, p1, p2}, Landroidx/window/embedding/SplitPairFilter;->matchesActivityIntentPair(Landroid/app/Activity;Landroid/content/Intent;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/window/embedding/SplitPairFilter;
+    ->matchesActivityIntentPair(Landroid/app/Activity;Landroid/content/Intent;)Z
 
     .line 60
     .line 61
@@ -1640,16 +1719,19 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->primaryActivityName:Landroid/content/ComponentName;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->primaryActivityName:Landroid/content/ComponentName;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -1658,16 +1740,19 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityName:Landroid/content/ComponentName;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityName:Landroid/content/ComponentName;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -1676,16 +1761,19 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;->secondaryActivityIntentAction:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairFilter;
+    ->secondaryActivityIntentAction:Ljava/lang/String;
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
@@ -1694,12 +1782,14 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 39
     .line 40

@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p0}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 2
     .line 3

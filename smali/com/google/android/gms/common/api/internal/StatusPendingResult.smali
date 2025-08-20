@@ -27,7 +27,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
+    -><init>(Landroid/os/Looper;)V
 return-void
 .end method
 
@@ -41,7 +42,8 @@ return-void
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
+    -><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
 return-void
 .end method
 

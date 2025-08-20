@@ -23,13 +23,16 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     new-instance v0, Lcom/google/android/gms/tasks/zzw;
 
-    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzw;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzw;
+    -><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     return-void
 .end method
@@ -42,19 +45,24 @@
     .end param
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     new-instance v0, Lcom/google/android/gms/tasks/zzw;
 
-    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzw;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzw;
+    -><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     new-instance v0, Lcom/google/android/gms/tasks/zzs;
 
-    invoke-direct {v0, p0}, Lcom/google/android/gms/tasks/zzs;-><init>(Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/tasks/zzs;
+    -><init>(Lcom/google/android/gms/tasks/TaskCompletionSource;)V
 
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/tasks/CancellationToken;->onCanceledRequested(Lcom/google/android/gms/tasks/OnTokenCanceledListener;)Lcom/google/android/gms/tasks/CancellationToken;
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/tasks/CancellationToken;
+    ->onCanceledRequested(Lcom/google/android/gms/tasks/OnTokenCanceledListener;)Lcom/google/android/gms/tasks/CancellationToken;
 
     return-void
 .end method
@@ -62,7 +70,8 @@
 .method public static bridge synthetic zza(Lcom/google/android/gms/tasks/TaskCompletionSource;)Lcom/google/android/gms/tasks/zzw;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object p0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     return-object p0
 .end method
@@ -82,7 +91,8 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     return-object v0
 .end method
@@ -95,11 +105,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;->zza(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;
+    ->zza(Ljava/lang/Exception;)V
 
     .line 4
     .line 5
@@ -120,11 +132,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;->zzb(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;
+    ->zzb(Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -140,11 +154,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;->zzd(Ljava/lang/Exception;)Z
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;
+    ->zzd(Ljava/lang/Exception;)Z
 
     .line 4
     .line 5
@@ -167,11 +183,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;->zze(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/zzw;
+    ->zze(Ljava/lang/Object;)Z
 
     .line 4
     .line 5

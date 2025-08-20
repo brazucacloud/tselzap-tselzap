@@ -84,7 +84,8 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Landroidx/navigation/common/R$styleable;->NavAction:[I
+    sput-object v1, Landroidx/navigation/common/R$styleable;
+    ->NavAction:[I
 
     const v1, 0x7f040046
 
@@ -98,7 +99,8 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/navigation/common/R$styleable;->NavArgument:[I
+    sput-object v1, Landroidx/navigation/common/R$styleable;
+    ->NavArgument:[I
 
     const v1, 0x7f0403e6
 
@@ -112,7 +114,8 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/navigation/common/R$styleable;->NavDeepLink:[I
+    sput-object v1, Landroidx/navigation/common/R$styleable;
+    ->NavDeepLink:[I
 
     const v1, 0x7f04051c
 
@@ -120,7 +123,8 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/navigation/common/R$styleable;->NavGraphNavigator:[I
+    sput-object v1, Landroidx/navigation/common/R$styleable;
+    ->NavGraphNavigator:[I
 
     const v1, 0x7f0404ad
 
@@ -130,7 +134,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/navigation/common/R$styleable;->Navigator:[I
+    sput-object v0, Landroidx/navigation/common/R$styleable;
+    ->Navigator:[I
 
     return-void
 
@@ -153,7 +158,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

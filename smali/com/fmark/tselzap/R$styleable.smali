@@ -5170,7 +5170,8 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->ActionBar:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->ActionBar:[I
 
     const v1, 0x10100b3
 
@@ -5178,7 +5179,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ActionBarLayout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ActionBarLayout:[I
 
     const v2, 0x101013f
 
@@ -5186,13 +5188,15 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ActionMenuItemView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ActionMenuItemView:[I
 
     const/4 v2, 0x0
 
     new-array v3, v2, [I
 
-    sput-object v3, Lcom/fmark/tselzap/R$styleable;->ActionMenuView:[I
+    sput-object v3, Lcom/fmark/tselzap/R$styleable;
+    ->ActionMenuView:[I
 
     const/4 v3, 0x6
 
@@ -5200,7 +5204,8 @@
 
     fill-array-data v4, :array_1
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->ActionMode:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->ActionMode:[I
 
     const v4, 0x7f04023c
 
@@ -5210,7 +5215,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->ActivityChooserView:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->ActivityChooserView:[I
 
     const v4, 0x7f040028
 
@@ -5220,7 +5226,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->ActivityFilter:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->ActivityFilter:[I
 
     const v4, 0x7f0401db
 
@@ -5236,7 +5243,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->ActivityNavigator:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->ActivityNavigator:[I
 
     const v4, 0x7f04003d
 
@@ -5244,7 +5252,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->ActivityRule:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->ActivityRule:[I
 
     const/16 v4, 0x8
 
@@ -5252,13 +5261,15 @@
 
     fill-array-data v4, :array_2
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->AlertDialog:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->AlertDialog:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_3
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->AnimatedStateListDrawableCompat:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->AnimatedStateListDrawableCompat:[I
 
     const v4, 0x10100d0
 
@@ -5268,7 +5279,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AnimatedStateListDrawableItem:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AnimatedStateListDrawableItem:[I
 
     const v8, 0x101044a
 
@@ -5280,7 +5292,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AnimatedStateListDrawableTransition:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AnimatedStateListDrawableTransition:[I
 
     const/16 v8, 0x9
 
@@ -5288,7 +5301,8 @@
 
     fill-array-data v8, :array_4
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AppBarLayout:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AppBarLayout:[I
 
     const v8, 0x7f04052c
 
@@ -5302,7 +5316,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AppBarLayoutStates:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AppBarLayoutStates:[I
 
     const v8, 0x7f040370
 
@@ -5314,11 +5329,13 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AppBarLayout_Layout:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AppBarLayout_Layout:[I
 
     new-array v8, v2, [I
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AppCompatEmojiHelper:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AppCompatEmojiHelper:[I
 
     const v8, 0x7f0405fd
 
@@ -5332,7 +5349,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AppCompatImageView:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AppCompatImageView:[I
 
     const v8, 0x7f0405f7
 
@@ -5346,7 +5364,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->AppCompatSeekBar:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->AppCompatSeekBar:[I
 
     const/4 v9, 0x7
 
@@ -5354,7 +5373,8 @@
 
     fill-array-data v10, :array_5
 
-    sput-object v10, Lcom/fmark/tselzap/R$styleable;->AppCompatTextHelper:[I
+    sput-object v10, Lcom/fmark/tselzap/R$styleable;
+    ->AppCompatTextHelper:[I
 
     const/16 v10, 0x16
 
@@ -5362,7 +5382,8 @@
 
     fill-array-data v10, :array_6
 
-    sput-object v10, Lcom/fmark/tselzap/R$styleable;->AppCompatTextView:[I
+    sput-object v10, Lcom/fmark/tselzap/R$styleable;
+    ->AppCompatTextView:[I
 
     const/16 v10, 0x7f
 
@@ -5370,7 +5391,8 @@
 
     fill-array-data v10, :array_7
 
-    sput-object v10, Lcom/fmark/tselzap/R$styleable;->AppCompatTheme:[I
+    sput-object v10, Lcom/fmark/tselzap/R$styleable;
+    ->AppCompatTheme:[I
 
     const v10, 0x101030e
 
@@ -5380,7 +5402,8 @@
 
     move-result-object v10
 
-    sput-object v10, Lcom/fmark/tselzap/R$styleable;->BackgroundStyle:[I
+    sput-object v10, Lcom/fmark/tselzap/R$styleable;
+    ->BackgroundStyle:[I
 
     const/16 v10, 0x1c
 
@@ -5388,7 +5411,8 @@
 
     fill-array-data v10, :array_8
 
-    sput-object v10, Lcom/fmark/tselzap/R$styleable;->Badge:[I
+    sput-object v10, Lcom/fmark/tselzap/R$styleable;
+    ->Badge:[I
 
     const/16 v10, 0x10
 
@@ -5396,7 +5420,8 @@
 
     fill-array-data v10, :array_9
 
-    sput-object v10, Lcom/fmark/tselzap/R$styleable;->BaseProgressIndicator:[I
+    sput-object v10, Lcom/fmark/tselzap/R$styleable;
+    ->BaseProgressIndicator:[I
 
     const v10, 0x7f040060
 
@@ -5406,7 +5431,8 @@
 
     fill-array-data v11, :array_a
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->BottomAppBar:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->BottomAppBar:[I
 
     const v11, 0x1010140
 
@@ -5422,7 +5448,8 @@
 
     move-result-object v11
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->BottomNavigationView:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->BottomNavigationView:[I
 
     const/16 v13, 0x19
 
@@ -5430,7 +5457,8 @@
 
     fill-array-data v13, :array_b
 
-    sput-object v13, Lcom/fmark/tselzap/R$styleable;->BottomSheetBehavior_Layout:[I
+    sput-object v13, Lcom/fmark/tselzap/R$styleable;
+    ->BottomSheetBehavior_Layout:[I
 
     const v13, 0x7f040039
 
@@ -5438,7 +5466,8 @@
 
     move-result-object v13
 
-    sput-object v13, Lcom/fmark/tselzap/R$styleable;->ButtonBarLayout:[I
+    sput-object v13, Lcom/fmark/tselzap/R$styleable;
+    ->ButtonBarLayout:[I
 
     const v13, 0x7f040496
 
@@ -5450,7 +5479,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->Capability:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->Capability:[I
 
     const/16 v0, 0xd
 
@@ -5458,7 +5488,8 @@
 
     fill-array-data v0, :array_c
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->CardView:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->CardView:[I
 
     const/16 v0, 0xb
 
@@ -5466,13 +5497,15 @@
 
     fill-array-data v13, :array_d
 
-    sput-object v13, Lcom/fmark/tselzap/R$styleable;->Carousel:[I
+    sput-object v13, Lcom/fmark/tselzap/R$styleable;
+    ->Carousel:[I
 
     new-array v13, v3, [I
 
     fill-array-data v13, :array_e
 
-    sput-object v13, Lcom/fmark/tselzap/R$styleable;->CheckBoxPreference:[I
+    sput-object v13, Lcom/fmark/tselzap/R$styleable;
+    ->CheckBoxPreference:[I
 
     const v13, 0x7f0400fe
 
@@ -5488,7 +5521,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CheckedTextView:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CheckedTextView:[I
 
     const/16 v11, 0x2a
 
@@ -5496,13 +5530,15 @@
 
     fill-array-data v11, :array_f
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->Chip:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->Chip:[I
 
     new-array v11, v9, [I
 
     fill-array-data v11, :array_10
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->ChipGroup:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->ChipGroup:[I
 
     const v11, 0x7f0402e7
 
@@ -5518,7 +5554,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CircularProgressIndicator:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CircularProgressIndicator:[I
 
     const v5, 0x7f04012b
 
@@ -5528,7 +5565,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ClockFaceView:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ClockFaceView:[I
 
     const v5, 0x7f0404c2
 
@@ -5540,7 +5578,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ClockHandView:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ClockHandView:[I
 
     const/16 v5, 0x20
 
@@ -5548,7 +5587,8 @@
 
     fill-array-data v5, :array_11
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CollapsingToolbarLayout:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CollapsingToolbarLayout:[I
 
     const v5, 0x7f040331
 
@@ -5558,7 +5598,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CollapsingToolbarLayout_Layout:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CollapsingToolbarLayout_Layout:[I
 
     const v5, 0x7f04003a
 
@@ -5576,7 +5617,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ColorStateListItem:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ColorStateListItem:[I
 
     const v5, 0x7f0400b5
 
@@ -5590,7 +5632,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CompoundButton:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CompoundButton:[I
 
     const/16 v11, 0x7c
 
@@ -5598,7 +5641,8 @@
 
     fill-array-data v11, :array_12
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->Constraint:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->Constraint:[I
 
     const/16 v11, 0x73
 
@@ -5606,7 +5650,8 @@
 
     fill-array-data v11, :array_13
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->ConstraintLayout_Layout:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->ConstraintLayout_Layout:[I
 
     const v11, 0x7f04049e
 
@@ -5622,7 +5667,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ConstraintLayout_ReactiveGuide:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ConstraintLayout_ReactiveGuide:[I
 
     const v5, 0x7f0401a4
 
@@ -5632,7 +5678,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ConstraintLayout_placeholder:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ConstraintLayout_placeholder:[I
 
     const/16 v5, 0x6c
 
@@ -5640,7 +5687,8 @@
 
     fill-array-data v5, :array_14
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ConstraintOverride:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ConstraintOverride:[I
 
     const/16 v5, 0x7b
 
@@ -5648,7 +5696,8 @@
 
     fill-array-data v5, :array_15
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ConstraintSet:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ConstraintSet:[I
 
     const v5, 0x7f04031e
 
@@ -5658,13 +5707,15 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CoordinatorLayout:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CoordinatorLayout:[I
 
     new-array v5, v9, [I
 
     fill-array-data v5, :array_16
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CoordinatorLayout_Layout:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CoordinatorLayout_Layout:[I
 
     const/16 v5, 0x30
 
@@ -5672,19 +5723,22 @@
 
     fill-array-data v5, :array_17
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CountryCodePicker:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CountryCodePicker:[I
 
     new-array v5, v0, [I
 
     fill-array-data v5, :array_18
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->CustomAttribute:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->CustomAttribute:[I
 
     filled-new-array {v6}, [I
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->DialogFragmentNavigator:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->DialogFragmentNavigator:[I
 
     const/16 v5, 0xc
 
@@ -5692,7 +5746,8 @@
 
     fill-array-data v5, :array_19
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->DialogPreference:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->DialogPreference:[I
 
     const v5, 0x7f040454
 
@@ -5702,7 +5757,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->DockedToolbar:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->DockedToolbar:[I
 
     const/16 v5, 0xc
 
@@ -5710,7 +5766,8 @@
 
     fill-array-data v5, :array_1a
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->DragDropSwipeRecyclerView:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->DragDropSwipeRecyclerView:[I
 
     const/16 v5, 0x8
 
@@ -5718,13 +5775,15 @@
 
     fill-array-data v5, :array_1b
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->DrawerArrowToggle:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->DrawerArrowToggle:[I
 
     filled-new-array/range {v16 .. v16}, [I
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->DrawerLayout:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->DrawerLayout:[I
 
     const v5, 0x7f04064a
 
@@ -5732,13 +5791,15 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->EditTextPreference:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->EditTextPreference:[I
 
     new-array v8, v9, [I
 
     fill-array-data v8, :array_1c
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->ExtendedFloatingActionButton:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->ExtendedFloatingActionButton:[I
 
     const v8, 0x7f040079
 
@@ -5748,7 +5809,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->ExtendedFloatingActionButton_Behavior_Layout:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->ExtendedFloatingActionButton_Behavior_Layout:[I
 
     const/16 v8, 0x11
 
@@ -5756,13 +5818,15 @@
 
     fill-array-data v8, :array_1d
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->FloatingActionButton:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->FloatingActionButton:[I
 
     filled-new-array {v11}, [I
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->FloatingActionButton_Behavior_Layout:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->FloatingActionButton_Behavior_Layout:[I
 
     const v8, 0x7f040393
 
@@ -5776,7 +5840,8 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->FloatingToolbar:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->FloatingToolbar:[I
 
     const v8, 0x7f0402cc
 
@@ -5786,13 +5851,15 @@
 
     move-result-object v8
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->FlowLayout:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->FlowLayout:[I
 
     new-array v8, v9, [I
 
     fill-array-data v8, :array_1e
 
-    sput-object v8, Lcom/fmark/tselzap/R$styleable;->FontFamily:[I
+    sput-object v8, Lcom/fmark/tselzap/R$styleable;
+    ->FontFamily:[I
 
     const/16 v8, 0xa
 
@@ -5800,7 +5867,8 @@
 
     fill-array-data v11, :array_1f
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->FontFamilyFont:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->FontFamilyFont:[I
 
     const v11, 0x1010200
 
@@ -5812,7 +5880,8 @@
 
     move-result-object v11
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->ForegroundLinearLayout:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->ForegroundLinearLayout:[I
 
     const v11, 0x10100d1
 
@@ -5820,19 +5889,22 @@
 
     move-result-object v14
 
-    sput-object v14, Lcom/fmark/tselzap/R$styleable;->Fragment:[I
+    sput-object v14, Lcom/fmark/tselzap/R$styleable;
+    ->Fragment:[I
 
     filled-new-array {v6, v11}, [I
 
     move-result-object v11
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->FragmentContainerView:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->FragmentContainerView:[I
 
     filled-new-array {v6}, [I
 
     move-result-object v11
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->FragmentNavigator:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->FragmentNavigator:[I
 
     const/16 v11, 0xc
 
@@ -5840,7 +5912,8 @@
 
     fill-array-data v11, :array_20
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->GradientColor:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->GradientColor:[I
 
     const v11, 0x1010514
 
@@ -5848,13 +5921,15 @@
 
     move-result-object v11
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->GradientColorItem:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->GradientColorItem:[I
 
     new-array v11, v0, [I
 
     fill-array-data v11, :array_21
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->Grid:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->Grid:[I
 
     const/16 v11, 0xe
 
@@ -5862,7 +5937,8 @@
 
     fill-array-data v11, :array_22
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->ImageFilterView:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->ImageFilterView:[I
 
     const/16 v11, 0x9
 
@@ -5870,7 +5946,8 @@
 
     fill-array-data v11, :array_23
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->Insets:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->Insets:[I
 
     const/16 v11, 0x13
 
@@ -5878,7 +5955,8 @@
 
     fill-array-data v11, :array_24
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->KeyAttribute:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->KeyAttribute:[I
 
     const/16 v11, 0x15
 
@@ -5886,19 +5964,23 @@
 
     fill-array-data v11, :array_25
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->KeyCycle:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->KeyCycle:[I
 
     new-array v11, v2, [I
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->KeyFrame:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->KeyFrame:[I
 
     new-array v11, v2, [I
 
-    sput-object v11, Lcom/fmark/tselzap/R$styleable;->KeyFramesAcceleration:[I
+    sput-object v11, Lcom/fmark/tselzap/R$styleable;
+    ->KeyFramesAcceleration:[I
 
     new-array v2, v2, [I
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->KeyFramesVelocity:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->KeyFramesVelocity:[I
 
     const/16 v2, 0xc
 
@@ -5906,7 +5988,8 @@
 
     fill-array-data v2, :array_26
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->KeyPosition:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->KeyPosition:[I
 
     const/16 v2, 0x15
 
@@ -5914,7 +5997,8 @@
 
     fill-array-data v2, :array_27
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->KeyTimeCycle:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->KeyTimeCycle:[I
 
     const/16 v2, 0xd
 
@@ -5922,7 +6006,8 @@
 
     fill-array-data v2, :array_28
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->KeyTrigger:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->KeyTrigger:[I
 
     const/16 v2, 0x4c
 
@@ -5930,7 +6015,8 @@
 
     fill-array-data v2, :array_29
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->Layout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->Layout:[I
 
     const/16 v2, 0x9
 
@@ -5938,7 +6024,8 @@
 
     fill-array-data v2, :array_2a
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->LinearLayoutCompat:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->LinearLayoutCompat:[I
 
     const v2, 0x10100f5
 
@@ -5950,7 +6037,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->LinearLayoutCompat_Layout:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->LinearLayoutCompat_Layout:[I
 
     const v1, 0x7f040634
 
@@ -5964,7 +6052,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->LinearProgressIndicator:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->LinearProgressIndicator:[I
 
     const v1, 0x10102ac
 
@@ -5974,7 +6063,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->ListPopupWindow:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->ListPopupWindow:[I
 
     const v1, 0x10100b2
 
@@ -5988,7 +6078,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->ListPreference:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->ListPreference:[I
 
     const v5, 0x7f0402df
 
@@ -6000,7 +6091,8 @@
 
     move-result-object v5
 
-    sput-object v5, Lcom/fmark/tselzap/R$styleable;->LoadingImageView:[I
+    sput-object v5, Lcom/fmark/tselzap/R$styleable;
+    ->LoadingImageView:[I
 
     const v5, 0x7f0401a3
 
@@ -6014,7 +6106,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->LoadingIndicator:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->LoadingIndicator:[I
 
     const v4, 0x7f04005b
 
@@ -6028,19 +6121,22 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialAlertDialog:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialAlertDialog:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_2b
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialAlertDialogTheme:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialAlertDialogTheme:[I
 
     new-array v4, v9, [I
 
     fill-array-data v4, :array_2c
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialAutoCompleteTextView:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialAutoCompleteTextView:[I
 
     const/16 v4, 0x16
 
@@ -6048,13 +6144,15 @@
 
     fill-array-data v4, :array_2d
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialButton:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialButton:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_2e
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialButtonGroup:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialButtonGroup:[I
 
     const/16 v4, 0x8
 
@@ -6062,19 +6160,22 @@
 
     fill-array-data v4, :array_2f
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialButtonToggleGroup:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialButtonToggleGroup:[I
 
     new-array v4, v0, [I
 
     fill-array-data v4, :array_30
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialCalendar:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialCalendar:[I
 
     new-array v4, v8, [I
 
     fill-array-data v4, :array_31
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialCalendarItem:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialCalendarItem:[I
 
     const/16 v4, 0xd
 
@@ -6082,13 +6183,15 @@
 
     fill-array-data v4, :array_32
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialCardView:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialCardView:[I
 
     new-array v4, v0, [I
 
     fill-array-data v4, :array_33
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialCheckBox:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialCheckBox:[I
 
     const v4, 0x7f04052a
 
@@ -6098,7 +6201,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialCheckBoxStates:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialCheckBoxStates:[I
 
     const v4, 0x7f0401fd
 
@@ -6114,7 +6218,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialDivider:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialDivider:[I
 
     const v4, 0x7f040649
 
@@ -6122,7 +6227,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialRadioButton:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialRadioButton:[I
 
     const v4, 0x7f0404c4
 
@@ -6132,7 +6238,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialShape:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialShape:[I
 
     const v4, 0x7f0401d9
 
@@ -6142,13 +6249,15 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialSpring:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialSpring:[I
 
     new-array v4, v9, [I
 
     fill-array-data v4, :array_34
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialSwitch:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialSwitch:[I
 
     const v4, 0x7f04029f
 
@@ -6164,7 +6273,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialTextAppearance:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialTextAppearance:[I
 
     const v4, 0x101057f
 
@@ -6174,7 +6284,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialTextView:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialTextView:[I
 
     const v4, 0x7f04012d
 
@@ -6184,7 +6295,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialTimePicker:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialTimePicker:[I
 
     const v4, 0x7f04055a
 
@@ -6200,13 +6312,15 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MaterialToolbar:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MaterialToolbar:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_35
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MenuGroup:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MenuGroup:[I
 
     const/16 v4, 0x17
 
@@ -6214,7 +6328,8 @@
 
     fill-array-data v4, :array_36
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MenuItem:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MenuItem:[I
 
     const/16 v4, 0x9
 
@@ -6222,19 +6337,22 @@
 
     fill-array-data v4, :array_37
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MenuView:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MenuView:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_38
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MockView:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MockView:[I
 
     new-array v4, v8, [I
 
     fill-array-data v4, :array_39
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->Motion:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->Motion:[I
 
     const/16 v4, 0x8
 
@@ -6242,7 +6360,8 @@
 
     fill-array-data v4, :array_3a
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MotionEffect:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MotionEffect:[I
 
     const v4, 0x7f040449
 
@@ -6252,7 +6371,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MotionHelper:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MotionHelper:[I
 
     const/16 v4, 0x19
 
@@ -6260,13 +6380,15 @@
 
     fill-array-data v4, :array_3b
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MotionLabel:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MotionLabel:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_3c
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MotionLayout:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MotionLayout:[I
 
     const v4, 0x7f0401e0
 
@@ -6276,7 +6398,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MotionScene:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MotionScene:[I
 
     const v4, 0x7f04058f
 
@@ -6288,7 +6411,8 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MotionTelltales:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MotionTelltales:[I
 
     const v4, 0x7f0403df
 
@@ -6296,19 +6420,22 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/fmark/tselzap/R$styleable;->MultiContactPicker:[I
+    sput-object v4, Lcom/fmark/tselzap/R$styleable;
+    ->MultiContactPicker:[I
 
     filled-new-array {v1, v2, v11, v13}, [I
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->MultiSelectListPreference:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->MultiSelectListPreference:[I
 
     new-array v2, v0, [I
 
     fill-array-data v2, :array_3d
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavAction:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavAction:[I
 
     const v2, 0x7f040046
 
@@ -6320,7 +6447,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavArgument:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavArgument:[I
 
     const v2, 0x7f0403e6
 
@@ -6334,7 +6462,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavDeepLink:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavDeepLink:[I
 
     const v2, 0x7f04051c
 
@@ -6342,7 +6471,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavGraphNavigator:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavGraphNavigator:[I
 
     const v2, 0x7f040428
 
@@ -6350,7 +6480,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavHost:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavHost:[I
 
     const v2, 0x7f0401e2
 
@@ -6358,7 +6489,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavHostFragment:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavHostFragment:[I
 
     const v2, 0x7f0402aa
 
@@ -6366,7 +6498,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavInclude:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavInclude:[I
 
     const/16 v2, 0xc
 
@@ -6374,7 +6507,8 @@
 
     fill-array-data v2, :array_3e
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavigationBarActiveIndicator:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavigationBarActiveIndicator:[I
 
     const/16 v2, 0x18
 
@@ -6382,7 +6516,8 @@
 
     fill-array-data v2, :array_3f
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavigationBarView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavigationBarView:[I
 
     const/16 v2, 0x12
 
@@ -6390,7 +6525,8 @@
 
     fill-array-data v2, :array_40
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavigationRailView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavigationRailView:[I
 
     const/16 v2, 0x26
 
@@ -6398,7 +6534,8 @@
 
     fill-array-data v2, :array_41
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NavigationView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NavigationView:[I
 
     const v2, 0x1010001
 
@@ -6410,7 +6547,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->Navigator:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->Navigator:[I
 
     const/16 v2, 0x10
 
@@ -6418,7 +6556,8 @@
 
     fill-array-data v2, :array_42
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->NumberPicker:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->NumberPicker:[I
 
     const v2, 0x7f04012a
 
@@ -6428,7 +6567,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->OnClick:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->OnClick:[I
 
     const/16 v2, 0x13
 
@@ -6436,7 +6576,8 @@
 
     fill-array-data v2, :array_43
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->OnSwipe:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->OnSwipe:[I
 
     const v2, 0x10102c9
 
@@ -6448,7 +6589,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PopupWindow:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PopupWindow:[I
 
     const v2, 0x7f040526
 
@@ -6456,7 +6598,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PopupWindowBackgroundState:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PopupWindowBackgroundState:[I
 
     const/16 v2, 0x24
 
@@ -6464,7 +6607,8 @@
 
     fill-array-data v2, :array_44
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->Preference:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->Preference:[I
 
     const v2, 0x101012a
 
@@ -6478,7 +6622,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PreferenceFragment:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PreferenceFragment:[I
 
     const v2, 0x101012a
 
@@ -6486,7 +6631,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PreferenceFragmentCompat:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PreferenceFragmentCompat:[I
 
     const v2, 0x7f0402f2
 
@@ -6498,7 +6644,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PreferenceGroup:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PreferenceGroup:[I
 
     const v2, 0x7f0403d9
 
@@ -6512,7 +6659,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PreferenceImageView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PreferenceImageView:[I
 
     const/16 v2, 0x11
 
@@ -6520,13 +6668,15 @@
 
     fill-array-data v2, :array_45
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PreferenceTheme:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PreferenceTheme:[I
 
     new-array v2, v8, [I
 
     fill-array-data v2, :array_46
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ProgressWheel:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ProgressWheel:[I
 
     const v2, 0x7f040653
 
@@ -6542,13 +6692,15 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->PropertySet:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->PropertySet:[I
 
     filled-new-array/range {v18 .. v18}, [I
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->RadialViewGroup:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->RadialViewGroup:[I
 
     const v2, 0x7f0403ea
 
@@ -6558,7 +6710,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->RangeSlider:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->RangeSlider:[I
 
     const v2, 0x7f040453
 
@@ -6568,7 +6721,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->RecycleListView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->RecycleListView:[I
 
     const/16 v2, 0xc
 
@@ -6576,7 +6730,8 @@
 
     fill-array-data v2, :array_47
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->RecyclerView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->RecyclerView:[I
 
     const v2, 0x7f0404a9
 
@@ -6592,7 +6747,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->Rotate3dAnimation:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->Rotate3dAnimation:[I
 
     const v2, 0x7f0402f4
 
@@ -6600,7 +6756,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ScrimInsetsFrameLayout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ScrimInsetsFrameLayout:[I
 
     const v2, 0x7f040080
 
@@ -6608,7 +6765,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ScrollingViewBehavior_Layout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ScrollingViewBehavior_Layout:[I
 
     const/16 v2, 0xd
 
@@ -6616,7 +6774,8 @@
 
     fill-array-data v2, :array_48
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->SearchBar:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->SearchBar:[I
 
     const/16 v2, 0x1d
 
@@ -6624,25 +6783,29 @@
 
     fill-array-data v2, :array_49
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->SearchView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->SearchView:[I
 
     new-array v2, v9, [I
 
     fill-array-data v2, :array_4a
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->SeekBarPreference:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->SeekBarPreference:[I
 
     new-array v2, v8, [I
 
     fill-array-data v2, :array_4b
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ShapeAppearance:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ShapeAppearance:[I
 
     new-array v2, v0, [I
 
     fill-array-data v2, :array_4c
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ShapeableImageView:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ShapeableImageView:[I
 
     const/16 v2, 0x14
 
@@ -6650,7 +6813,8 @@
 
     fill-array-data v2, :array_4d
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->ShimmerFrameLayout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->ShimmerFrameLayout:[I
 
     const/16 v2, 0x8
 
@@ -6658,7 +6822,8 @@
 
     fill-array-data v2, :array_4e
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->SideSheetBehavior_Layout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->SideSheetBehavior_Layout:[I
 
     const v2, 0x7f040173
 
@@ -6670,7 +6835,8 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->SignInButton:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->SignInButton:[I
 
     const/16 v2, 0x28
 
@@ -6678,7 +6844,8 @@
 
     fill-array-data v2, :array_4f
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->Slider:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->Slider:[I
 
     const v2, 0x7f040509
 
@@ -6690,13 +6857,15 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->Snackbar:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->Snackbar:[I
 
     new-array v2, v8, [I
 
     fill-array-data v2, :array_50
 
-    sput-object v2, Lcom/fmark/tselzap/R$styleable;->SnackbarLayout:[I
+    sput-object v2, Lcom/fmark/tselzap/R$styleable;
+    ->SnackbarLayout:[I
 
     const v2, 0x1010262
 
@@ -6710,7 +6879,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->Spinner:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->Spinner:[I
 
     const v1, 0x7f0404b9
 
@@ -6722,13 +6892,15 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SplitPairFilter:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SplitPairFilter:[I
 
     new-array v1, v9, [I
 
     fill-array-data v1, :array_51
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SplitPairRule:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SplitPairRule:[I
 
     const v1, 0x7f040511
 
@@ -6744,7 +6916,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SplitPlaceholderRule:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SplitPlaceholderRule:[I
 
     const v1, 0x7f040192
 
@@ -6754,19 +6927,22 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->State:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->State:[I
 
     new-array v1, v3, [I
 
     fill-array-data v1, :array_52
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->StateListDrawable:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->StateListDrawable:[I
 
     filled-new-array/range {v17 .. v17}, [I
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->StateListDrawableItem:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->StateListDrawableItem:[I
 
     const v1, 0x7f040662
 
@@ -6774,7 +6950,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->StateListSizeChange:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->StateListSizeChange:[I
 
     const v1, 0x7f0401e5
 
@@ -6782,7 +6959,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->StateSet:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->StateSet:[I
 
     const/16 v1, 0xe
 
@@ -6790,7 +6968,8 @@
 
     fill-array-data v1, :array_53
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SwitchCompat:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SwitchCompat:[I
 
     const v1, 0x7f040649
 
@@ -6798,19 +6977,22 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SwitchMaterial:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SwitchMaterial:[I
 
     new-array v1, v8, [I
 
     fill-array-data v1, :array_54
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SwitchPreference:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SwitchPreference:[I
 
     new-array v1, v8, [I
 
     fill-array-data v1, :array_55
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->SwitchPreferenceCompat:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->SwitchPreferenceCompat:[I
 
     const v1, 0x1010002
 
@@ -6820,7 +7002,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->TabItem:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->TabItem:[I
 
     const/16 v1, 0x1b
 
@@ -6828,7 +7011,8 @@
 
     fill-array-data v1, :array_56
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->TabLayout:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->TabLayout:[I
 
     const/16 v1, 0x10
 
@@ -6836,7 +7020,8 @@
 
     fill-array-data v1, :array_57
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->TextAppearance:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->TextAppearance:[I
 
     const/16 v1, 0xe
 
@@ -6844,7 +7029,8 @@
 
     fill-array-data v1, :array_58
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->TextEffects:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->TextEffects:[I
 
     const v1, 0x7f0405d3
 
@@ -6852,7 +7038,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->TextInputEditText:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->TextInputEditText:[I
 
     const/16 v1, 0x4b
 
@@ -6860,7 +7047,8 @@
 
     fill-array-data v1, :array_59
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->TextInputLayout:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->TextInputLayout:[I
 
     const v1, 0x7f04022b
 
@@ -6872,7 +7060,8 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->ThemeEnforcement:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->ThemeEnforcement:[I
 
     const/16 v1, 0x1e
 
@@ -6880,7 +7069,8 @@
 
     fill-array-data v1, :array_5a
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->Toolbar:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->Toolbar:[I
 
     const/16 v1, 0x18
 
@@ -6888,7 +7078,8 @@
 
     fill-array-data v1, :array_5b
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->Tooltip:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->Tooltip:[I
 
     const/16 v1, 0xc
 
@@ -6896,13 +7087,15 @@
 
     fill-array-data v1, :array_5c
 
-    sput-object v1, Lcom/fmark/tselzap/R$styleable;->Transform:[I
+    sput-object v1, Lcom/fmark/tselzap/R$styleable;
+    ->Transform:[I
 
     new-array v0, v0, [I
 
     fill-array-data v0, :array_5d
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->Transition:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->Transition:[I
 
     const v0, 0x7f0404a3
 
@@ -6918,7 +7111,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->Variant:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->Variant:[I
 
     const v0, 0x7f040458
 
@@ -6934,7 +7128,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->View:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->View:[I
 
     const v0, 0x10100d4
 
@@ -6944,13 +7139,15 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->ViewBackgroundHelper:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->ViewBackgroundHelper:[I
 
     filled-new-array/range {v19 .. v19}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->ViewPager2:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->ViewPager2:[I
 
     const v0, 0x10100f3
 
@@ -6960,7 +7157,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->ViewStubCompat:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->ViewStubCompat:[I
 
     const/16 v0, 0xf
 
@@ -6968,7 +7166,8 @@
 
     fill-array-data v0, :array_5e
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->ViewTransition:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->ViewTransition:[I
 
     const v0, 0x7f04026b
 
@@ -6980,7 +7179,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->fastscroll__fastScroller:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->fastscroll__fastScroller:[I
 
     const v0, 0x7f04018d
 
@@ -6988,7 +7188,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->include:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->include:[I
 
     const/16 v0, 0x1d
 
@@ -6996,7 +7197,8 @@
 
     fill-array-data v0, :array_5f
 
-    sput-object v0, Lcom/fmark/tselzap/R$styleable;->stl_SmartTabLayout:[I
+    sput-object v0, Lcom/fmark/tselzap/R$styleable;
+    ->stl_SmartTabLayout:[I
 
     return-void
 
@@ -9480,7 +9682,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

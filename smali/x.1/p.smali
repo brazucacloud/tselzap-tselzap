@@ -15,7 +15,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -24,12 +25,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0}, Ljava/util/Collections;->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
+    invoke-static {v0}, Ljava/util/Collections;
+    ->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
 
     .line 10
     .line 11
@@ -37,7 +40,8 @@
     move-result-object v0
 
     .line 13
-    iput-object v0, p0, Lx/p;->b:Ljava/util/Set;
+    iput-object v0, p0, Lx/p;
+    ->b:Ljava/util/Set;
 
     .line 14
     .line 15
@@ -50,11 +54,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx/p;->b:Ljava/util/Set;
+    iget-object v0, p0, Lx/p;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-static {v0}, LE/o;->d(Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {v0}, LE/o;
+    ->d(Ljava/util/Collection;)Ljava/util/ArrayList;
 
     .line 4
     .line 5
@@ -62,7 +68,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -71,7 +78,8 @@
 
     .line 11
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 12
     .line 13
@@ -83,7 +91,8 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -95,7 +104,8 @@
 
     .line 22
     .line 23
-    invoke-interface {v1}, Lx/i;->onDestroy()V
+    invoke-interface {v1}, Lx/i;
+    ->onDestroy()V
 
     .line 24
     .line 25
@@ -111,11 +121,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx/p;->b:Ljava/util/Set;
+    iget-object v0, p0, Lx/p;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-static {v0}, LE/o;->d(Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {v0}, LE/o;
+    ->d(Ljava/util/Collection;)Ljava/util/ArrayList;
 
     .line 4
     .line 5
@@ -123,7 +135,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -132,7 +145,8 @@
 
     .line 11
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 12
     .line 13
@@ -144,7 +158,8 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -156,7 +171,8 @@
 
     .line 22
     .line 23
-    invoke-interface {v1}, Lx/i;->onStart()V
+    invoke-interface {v1}, Lx/i;
+    ->onStart()V
 
     .line 24
     .line 25
@@ -172,11 +188,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx/p;->b:Ljava/util/Set;
+    iget-object v0, p0, Lx/p;
+    ->b:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-static {v0}, LE/o;->d(Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {v0}, LE/o;
+    ->d(Ljava/util/Collection;)Ljava/util/ArrayList;
 
     .line 4
     .line 5
@@ -184,7 +202,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -193,7 +212,8 @@
 
     .line 11
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 12
     .line 13
@@ -205,7 +225,8 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -217,7 +238,8 @@
 
     .line 22
     .line 23
-    invoke-interface {v1}, Lx/i;->onStop()V
+    invoke-interface {v1}, Lx/i;
+    ->onStop()V
 
     .line 24
     .line 25

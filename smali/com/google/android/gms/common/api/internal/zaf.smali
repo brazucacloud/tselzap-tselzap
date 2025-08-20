@@ -15,12 +15,14 @@
     const/4 v0, 0x3
 
     .line 2
-    invoke-direct {p0, v0, p2}, Lcom/google/android/gms/common/api/internal/zad;-><init>(ILcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-direct {p0, v0, p2}, Lcom/google/android/gms/common/api/internal/zad;
+    -><init>(ILcom/google/android/gms/tasks/TaskCompletionSource;)V
 
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaf;->zab:Lcom/google/android/gms/common/api/internal/zaci;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaf;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaci;
 
     .line 6
     .line 7
@@ -33,15 +35,18 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zaf;->zab:Lcom/google/android/gms/common/api/internal/zaci;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zaf;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaci;
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/google/android/gms/common/api/internal/zaci;->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    iget-object p1, p1, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zab()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    ->zab()Z
 
     .line 6
     .line 7
@@ -57,15 +62,18 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zaf;->zab:Lcom/google/android/gms/common/api/internal/zaci;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zaf;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaci;
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/google/android/gms/common/api/internal/zaci;->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    iget-object p1, p1, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->getRequiredFeatures()[Lcom/google/android/gms/common/Feature;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    ->getRequiredFeatures()[Lcom/google/android/gms/common/Feature;
 
     .line 6
     .line 7
@@ -79,15 +87,18 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaf;->zab:Lcom/google/android/gms/common/api/internal/zaci;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaf;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaci;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zaci;->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;
+    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 6
     .line 7
@@ -95,24 +106,29 @@
     move-result-object v1
 
     .line 9
-    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/zad;->zaa:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/zad;
+    ->zaa:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->registerListener(Lcom/google/android/gms/common/api/Api$AnyClient;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    ->registerListener(Lcom/google/android/gms/common/api/Api$AnyClient;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaf;->zab:Lcom/google/android/gms/common/api/internal/zaci;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaf;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaci;
 
     .line 15
     .line 16
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zaci;->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->getListenerKey()Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    ->getListenerKey()Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
 
     .line 19
     .line 20
@@ -124,7 +140,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;->zah()Ljava/util/Map;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;
+    ->zah()Ljava/util/Map;
 
     .line 25
     .line 26
@@ -132,11 +149,13 @@
     move-result-object p1
 
     .line 28
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zaf;->zab:Lcom/google/android/gms/common/api/internal/zaci;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zaf;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaci;
 
     .line 29
     .line 30
-    invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0, v1}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 31
     .line 32

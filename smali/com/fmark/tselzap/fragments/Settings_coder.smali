@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;
+    -><init>()V
 
     .line 2
     .line 3
@@ -40,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p5}, Lcom/fmark/tselzap/fragments/Settings_coder;->lambda$showTimePickerDialog$5(Landroid/widget/TextView;Ljava/lang/String;Landroid/widget/TimePicker;II)V
+    invoke-direct/range {p0 .. p5}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->lambda$showTimePickerDialog$5(Landroid/widget/TextView;Ljava/lang/String;Landroid/widget/TimePicker;II)V
 
     return-void
 .end method
@@ -49,7 +51,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;->lambda$onCreateView$2(Landroid/widget/CompoundButton;Z)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->lambda$onCreateView$2(Landroid/widget/CompoundButton;Z)V
 
     return-void
 .end method
@@ -58,7 +61,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;->lambda$onCreateView$3(Landroid/widget/CompoundButton;Z)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->lambda$onCreateView$3(Landroid/widget/CompoundButton;Z)V
 
     return-void
 .end method
@@ -67,7 +71,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;->lambda$onCreateView$0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->lambda$onCreateView$0(Landroid/view/View;)V
 
     return-void
 .end method
@@ -76,7 +81,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;->lambda$onCreateView$1(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->lambda$onCreateView$1(Landroid/view/View;)V
 
     return-void
 .end method
@@ -85,7 +91,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;->lambda$onCreateView$4(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->lambda$onCreateView$4(Landroid/view/View;)V
 
     return-void
 .end method
@@ -94,7 +101,8 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->textViewPauseStart1:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->textViewPauseStart1:Landroid/widget/TextView;
 
     .line 2
     .line 3
@@ -102,7 +110,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/fragments/Settings_coder;->showTimePickerDialog(Landroid/widget/TextView;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->showTimePickerDialog(Landroid/widget/TextView;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -114,7 +123,8 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->textViewPauseEnd1:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->textViewPauseEnd1:Landroid/widget/TextView;
 
     .line 2
     .line 3
@@ -122,7 +132,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/fragments/Settings_coder;->showTimePickerDialog(Landroid/widget/TextView;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->showTimePickerDialog(Landroid/widget/TextView;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -134,7 +145,8 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -142,7 +154,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p1, v0, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 6
     .line 7
@@ -154,7 +167,8 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -162,7 +176,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p1, v0, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 6
     .line 7
@@ -174,7 +189,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Settings_coder;->permissionOverlay()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->permissionOverlay()V
 
     .line 2
     .line 3
@@ -186,7 +202,8 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+    invoke-static {}, Ljava/util/Locale;
+    ->getDefault()Ljava/util/Locale;
 
     .line 2
     .line 3
@@ -194,7 +211,8 @@
     move-result-object p3
 
     .line 5
-    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -202,7 +220,8 @@
     move-result-object p4
 
     .line 9
-    invoke-static {p5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p5}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 10
     .line 11
@@ -235,7 +254,8 @@
 
     .line 23
     .line 24
-    invoke-static {p3, p4, v0}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p3, p4, v0}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -243,12 +263,14 @@
     move-result-object p3
 
     .line 28
-    invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p1, p3}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 29
     .line 30
     .line 31
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 32
     .line 33
@@ -256,7 +278,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p2, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p4}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -281,7 +304,8 @@
     .line 45
     .line 46
     :goto_0
-    invoke-virtual {p1, p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -293,7 +317,8 @@
     .locals 3
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -305,7 +330,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getContext()Landroid/content/Context;
 
     .line 8
     .line 9
@@ -313,7 +339,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Landroidx/core/text/a;->t(Landroid/content/Context;)Z
+    invoke-static {v0}, Landroidx/core/text/a;
+    ->t(Landroid/content/Context;)Z
 
     .line 12
     .line 13
@@ -325,7 +352,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getContext()Landroid/content/Context;
 
     .line 18
     .line 19
@@ -340,7 +368,8 @@
     const/4 v2, 0x0
 
     .line 24
-    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 25
     .line 26
@@ -348,7 +377,8 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v0}, Landroid/widget/Toast;
+    ->show()V
 
     .line 29
     .line 30
@@ -362,7 +392,8 @@
 
     .line 34
     .line 35
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -371,7 +402,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {p0, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v0, v1}, Landroidx/fragment/app/Fragment;
+    ->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 41
     .line 42
@@ -389,7 +421,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -401,7 +434,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 11
     .line 12
@@ -418,7 +452,8 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {v0, v1, v2}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
+    invoke-static {v0, v1, v2}, Landroid/widget/ArrayAdapter;
+    ->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
     .line 20
     .line 21
@@ -431,12 +466,14 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Landroid/widget/ArrayAdapter;->setDropDownViewResource(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/ArrayAdapter;
+    ->setDropDownViewResource(I)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p1, v0}, Landroid/widget/Spinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
+    invoke-virtual {p1, v0}, Landroid/widget/Spinner;
+    ->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
     .line 30
     .line 31
@@ -445,17 +482,20 @@
 
     .line 33
     .line 34
-    invoke-direct {v0, p0}, Lcom/fmark/tselzap/fragments/Settings_coder$1;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;)V
+    invoke-direct {v0, p0}, Lcom/fmark/tselzap/fragments/Settings_coder$1;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p1, v0}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
+    invoke-virtual {p1, v0}, Landroid/widget/AdapterView;
+    ->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
     .line 38
     .line 39
     .line 40
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 41
     .line 42
@@ -466,7 +506,8 @@
     const/4 v2, 0x0
 
     .line 45
-    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 46
     .line 47
@@ -474,7 +515,8 @@
     move-result v0
 
     .line 49
-    invoke-virtual {p1, v0}, Landroid/widget/AdapterView;->setSelection(I)V
+    invoke-virtual {p1, v0}, Landroid/widget/AdapterView;
+    ->setSelection(I)V
 
     .line 50
     .line 51
@@ -490,12 +532,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v2, p0, p1, p2}, Lcom/fmark/tselzap/fragments/n;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;Landroid/widget/TextView;Ljava/lang/String;)V
+    invoke-direct {v2, p0, p1, p2}, Lcom/fmark/tselzap/fragments/n;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;Landroid/widget/TextView;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+    invoke-static {}, Ljava/util/Calendar;
+    ->getInstance()Ljava/util/Calendar;
 
     .line 7
     .line 8
@@ -507,7 +551,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, p2}, Ljava/util/Calendar;->get(I)I
+    invoke-virtual {p1, p2}, Ljava/util/Calendar;
+    ->get(I)I
 
     .line 13
     .line 14
@@ -519,7 +564,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Ljava/util/Calendar;->get(I)I
+    invoke-virtual {p1, p2}, Ljava/util/Calendar;
+    ->get(I)I
 
     .line 19
     .line 20
@@ -531,7 +577,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 25
     .line 26
@@ -542,12 +589,14 @@
     const/4 v5, 0x1
 
     .line 29
-    invoke-direct/range {v0 .. v5}, Landroid/app/TimePickerDialog;-><init>(Landroid/content/Context;Landroid/app/TimePickerDialog$OnTimeSetListener;IIZ)V
+    invoke-direct/range {v0 .. v5}, Landroid/app/TimePickerDialog;
+    -><init>(Landroid/content/Context;Landroid/app/TimePickerDialog$OnTimeSetListener;IIZ)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0}, Landroid/app/TimePickerDialog;->show()V
+    invoke-virtual {v0}, Landroid/app/TimePickerDialog;
+    ->show()V
 
     .line 33
     .line 34
@@ -559,7 +608,8 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -571,7 +621,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getContext()Landroid/content/Context;
 
     .line 8
     .line 9
@@ -579,7 +630,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Landroidx/core/text/a;->t(Landroid/content/Context;)Z
+    invoke-static {v0}, Landroidx/core/text/a;
+    ->t(Landroid/content/Context;)Z
 
     .line 12
     .line 13
@@ -591,7 +643,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 18
     .line 19
@@ -604,7 +657,8 @@
     .line 22
     .line 23
     .line 24
-    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 25
     .line 26
@@ -616,7 +670,8 @@
 
     .line 29
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireContext()Landroid/content/Context;
 
     .line 30
     .line 31
@@ -629,7 +684,8 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 37
     .line 38
@@ -638,11 +694,13 @@
 
     .line 40
     :goto_0
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activeAccBeta:Landroid/widget/LinearLayout;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activeAccBeta:Landroid/widget/LinearLayout;
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1}, Landroid/view/View;
+    ->getBackground()Landroid/graphics/drawable/Drawable;
 
     .line 43
     .line 44
@@ -654,7 +712,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {v1, v0}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
+    invoke-virtual {v1, v0}, Landroid/graphics/drawable/GradientDrawable;
+    ->setColor(I)V
 
     .line 49
     .line 50
@@ -663,19 +722,22 @@
 
     .line 52
     :cond_1
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->allow_beta:Lcom/google/android/material/card/MaterialCardView;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->allow_beta:Lcom/google/android/material/card/MaterialCardView;
 
     .line 53
     .line 54
     const/4 v1, 0x0
 
     .line 55
-    invoke-virtual {v0, v1}, Landroid/view/View;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/view/View;
+    ->setEnabled(Z)V
 
     .line 56
     .line 57
     .line 58
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->allow_beta:Lcom/google/android/material/card/MaterialCardView;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->allow_beta:Lcom/google/android/material/card/MaterialCardView;
 
     .line 59
     .line 60
@@ -683,7 +745,8 @@
 
     .line 61
     .line 62
-    invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
+    invoke-virtual {v0, v1}, Landroid/view/View;
+    ->setAlpha(F)V
 
     .line 63
     .line 64
@@ -697,7 +760,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;
+    ->onActivityResult(IILandroid/content/Intent;)V
 
     .line 2
     .line 3
@@ -710,7 +774,8 @@
 
     .line 7
     .line 8
-    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 9
     .line 10
@@ -722,7 +787,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getContext()Landroid/content/Context;
 
     .line 15
     .line 16
@@ -730,7 +796,8 @@
     move-result-object p1
 
     .line 18
-    invoke-static {p1}, Landroidx/core/text/a;->t(Landroid/content/Context;)Z
+    invoke-static {p1}, Landroidx/core/text/a;
+    ->t(Landroid/content/Context;)Z
 
     .line 19
     .line 20
@@ -750,16 +817,19 @@
 
     .line 27
     .line 28
-    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 29
     .line 30
     .line 31
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activeAccBeta:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activeAccBeta:Landroid/widget/LinearLayout;
 
     .line 32
     .line 33
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 34
     .line 35
@@ -772,7 +842,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
+    invoke-virtual {p2, p3}, Landroid/content/res/Resources;
+    ->getColor(I)I
 
     .line 41
     .line 42
@@ -780,7 +851,8 @@
     move-result p2
 
     .line 44
-    invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundColor(I)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setBackgroundColor(I)V
 
     .line 45
     .line 46
@@ -793,16 +865,19 @@
 
     .line 49
     .line 50
-    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 51
     .line 52
     .line 53
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activeAccBeta:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activeAccBeta:Landroid/widget/LinearLayout;
 
     .line 54
     .line 55
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 56
     .line 57
@@ -815,7 +890,8 @@
     .line 60
     .line 61
     .line 62
-    invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
+    invoke-virtual {p2, p3}, Landroid/content/res/Resources;
+    ->getColor(I)I
 
     .line 63
     .line 64
@@ -823,7 +899,8 @@
     move-result p2
 
     .line 66
-    invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundColor(I)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setBackgroundColor(I)V
 
     .line 67
     .line 68
@@ -844,7 +921,8 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 6
     .line 7
@@ -852,7 +930,8 @@
     move-result-object p1
 
     .line 9
-    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
+    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 10
     .line 11
@@ -860,7 +939,8 @@
     move-result-object p2
 
     .line 13
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 14
     .line 15
@@ -869,7 +949,8 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 19
     .line 20
@@ -881,7 +962,8 @@
 
     .line 23
     .line 24
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->textViewPauseStart1:Landroid/widget/TextView;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->textViewPauseStart1:Landroid/widget/TextView;
 
     .line 25
     .line 26
@@ -890,7 +972,8 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 30
     .line 31
@@ -902,7 +985,8 @@
 
     .line 34
     .line 35
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->textViewPauseEnd1:Landroid/widget/TextView;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->textViewPauseEnd1:Landroid/widget/TextView;
 
     .line 36
     .line 37
@@ -911,7 +995,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 41
     .line 42
@@ -923,7 +1008,8 @@
 
     .line 45
     .line 46
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activePauseBot:Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activePauseBot:Lcom/google/android/material/switchmaterial/SwitchMaterial;
 
     .line 47
     .line 48
@@ -932,7 +1018,8 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 52
     .line 53
@@ -944,7 +1031,8 @@
 
     .line 56
     .line 57
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->checkAddContato:Lcom/google/android/material/checkbox/MaterialCheckBox;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->checkAddContato:Lcom/google/android/material/checkbox/MaterialCheckBox;
 
     .line 58
     .line 59
@@ -953,7 +1041,8 @@
     .line 60
     .line 61
     .line 62
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 63
     .line 64
@@ -965,7 +1054,8 @@
 
     .line 67
     .line 68
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->allow_beta:Lcom/google/android/material/card/MaterialCardView;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->allow_beta:Lcom/google/android/material/card/MaterialCardView;
 
     .line 69
     .line 70
@@ -974,7 +1064,8 @@
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 74
     .line 75
@@ -986,7 +1077,8 @@
 
     .line 78
     .line 79
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activeAccBeta:Landroid/widget/LinearLayout;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activeAccBeta:Landroid/widget/LinearLayout;
 
     .line 80
     .line 81
@@ -995,7 +1087,8 @@
     .line 82
     .line 83
     .line 84
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 85
     .line 86
@@ -1007,12 +1100,14 @@
 
     .line 89
     .line 90
-    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/l;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
+    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/l;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
 
     .line 91
     .line 92
     .line 93
-    invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p3}, Landroid/view/View;
+    ->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 94
     .line 95
@@ -1022,7 +1117,8 @@
     .line 97
     .line 98
     .line 99
-    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 100
     .line 101
@@ -1037,21 +1133,25 @@
     const/4 v0, 0x1
 
     .line 106
-    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/l;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
+    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/l;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
 
     .line 107
     .line 108
     .line 109
-    invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p3}, Landroid/view/View;
+    ->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 110
     .line 111
     .line 112
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activePauseBot:Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activePauseBot:Lcom/google/android/material/switchmaterial/SwitchMaterial;
 
     .line 113
     .line 114
-    iget-object p3, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p3, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 115
     .line 116
@@ -1059,7 +1159,8 @@
 
     .line 117
     .line 118
-    invoke-virtual {p3, v0}, Lcom/fmark/tselzap/Storage/DataStorage;->getBool(Ljava/lang/String;)Z
+    invoke-virtual {p3, v0}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getBool(Ljava/lang/String;)Z
 
     .line 119
     .line 120
@@ -1067,12 +1168,14 @@
     move-result p3
 
     .line 122
-    invoke-virtual {p2, p3}, Landroidx/appcompat/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {p2, p3}, Landroidx/appcompat/widget/SwitchCompat;
+    ->setChecked(Z)V
 
     .line 123
     .line 124
     .line 125
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->activePauseBot:Lcom/google/android/material/switchmaterial/SwitchMaterial;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->activePauseBot:Lcom/google/android/material/switchmaterial/SwitchMaterial;
 
     .line 126
     .line 127
@@ -1083,21 +1186,25 @@
     const/4 v0, 0x0
 
     .line 130
-    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/m;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
+    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/m;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
 
     .line 131
     .line 132
     .line 133
-    invoke-virtual {p2, p3}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {p2, p3}, Landroid/widget/CompoundButton;
+    ->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 134
     .line 135
     .line 136
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->checkAddContato:Lcom/google/android/material/checkbox/MaterialCheckBox;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->checkAddContato:Lcom/google/android/material/checkbox/MaterialCheckBox;
 
     .line 137
     .line 138
-    iget-object p3, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p3, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 139
     .line 140
@@ -1105,7 +1212,8 @@
 
     .line 141
     .line 142
-    invoke-virtual {p3, v0}, Lcom/fmark/tselzap/Storage/DataStorage;->getBool(Ljava/lang/String;)Z
+    invoke-virtual {p3, v0}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getBool(Ljava/lang/String;)Z
 
     .line 143
     .line 144
@@ -1113,12 +1221,14 @@
     move-result p3
 
     .line 146
-    invoke-virtual {p2, p3}, Lcom/google/android/material/checkbox/MaterialCheckBox;->setChecked(Z)V
+    invoke-virtual {p2, p3}, Lcom/google/android/material/checkbox/MaterialCheckBox;
+    ->setChecked(Z)V
 
     .line 147
     .line 148
     .line 149
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->checkAddContato:Lcom/google/android/material/checkbox/MaterialCheckBox;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->checkAddContato:Lcom/google/android/material/checkbox/MaterialCheckBox;
 
     .line 150
     .line 151
@@ -1129,22 +1239,26 @@
     const/4 v0, 0x1
 
     .line 154
-    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/m;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
+    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/m;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
 
     .line 155
     .line 156
     .line 157
-    invoke-virtual {p2, p3}, Lcom/google/android/material/checkbox/MaterialCheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {p2, p3}, Lcom/google/android/material/checkbox/MaterialCheckBox;
+    ->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 158
     .line 159
     .line 160
-    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Settings_coder;->updateOverlayPermissionStatus()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->updateOverlayPermissionStatus()V
 
     .line 161
     .line 162
     .line 163
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->allow_beta:Lcom/google/android/material/card/MaterialCardView;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->allow_beta:Lcom/google/android/material/card/MaterialCardView;
 
     .line 164
     .line 165
@@ -1155,17 +1269,20 @@
     const/4 v0, 0x2
 
     .line 168
-    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/l;-><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
+    invoke-direct {p3, p0, v0}, Lcom/fmark/tselzap/fragments/l;
+    -><init>(Lcom/fmark/tselzap/fragments/Settings_coder;I)V
 
     .line 169
     .line 170
     .line 171
-    invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p3}, Landroid/view/View;
+    ->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 172
     .line 173
     .line 174
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 175
     .line 176
@@ -1173,7 +1290,8 @@
 
     .line 177
     .line 178
-    invoke-virtual {p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 179
     .line 180
@@ -1181,7 +1299,8 @@
     move-result-object p2
 
     .line 182
-    iget-object p3, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p3, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 183
     .line 184
@@ -1189,7 +1308,8 @@
 
     .line 185
     .line 186
-    invoke-virtual {p3, v0}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p3, v0}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 187
     .line 188
@@ -1197,25 +1317,30 @@
     move-result-object p3
 
     .line 190
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->textViewPauseStart1:Landroid/widget/TextView;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->textViewPauseStart1:Landroid/widget/TextView;
 
     .line 191
     .line 192
-    invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p2}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 193
     .line 194
     .line 195
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;->textViewPauseEnd1:Landroid/widget/TextView;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->textViewPauseEnd1:Landroid/widget/TextView;
 
     .line 196
     .line 197
-    invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, p3}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 198
     .line 199
     .line 200
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;->setupMethodSendSpinner(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Settings_coder;
+    ->setupMethodSendSpinner(Landroid/view/View;)V
 
     .line 201
     .line 202

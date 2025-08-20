@@ -8,7 +8,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -16,7 +17,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -28,7 +30,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 12
     .line 13
@@ -36,7 +39,8 @@
     move-result p0
 
     .line 15
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 16
     .line 17
@@ -77,7 +81,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p2, p3}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {p2, p3}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 2
     .line 3
@@ -110,7 +115,8 @@
     long-to-int p2, v0
 
     .line 10
-    invoke-static {p2}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p2}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 11
     .line 12
@@ -140,7 +146,8 @@
     long-to-int p4, p3
 
     .line 25
-    invoke-static {p4}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p4}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 26
     .line 27
@@ -149,7 +156,8 @@
 
     .line 29
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/PointKt;->copy-5P9i7ZU(JFF)J
+    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->copy-5P9i7ZU(JFF)J
 
     .line 30
     .line 31
@@ -163,7 +171,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -174,7 +183,8 @@
     div-float/2addr v0, p2
 
     .line 6
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 7
     .line 8
@@ -185,7 +195,8 @@
     div-float/2addr p0, p2
 
     .line 11
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 12
     .line 13
@@ -199,7 +210,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -211,7 +223,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 8
     .line 9
@@ -232,7 +245,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -240,7 +254,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -252,7 +267,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 12
     .line 13
@@ -260,7 +276,8 @@
     move-result p0
 
     .line 15
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 16
     .line 17
@@ -281,7 +298,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getDistance-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getDistance-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -300,7 +318,8 @@
 
     .line 9
     .line 10
-    invoke-static {p0, p1, v0}, Landroidx/graphics/shapes/PointKt;->div-so9K2fw(JF)J
+    invoke-static {p0, p1, v0}, Landroidx/graphics/shapes/PointKt;
+    ->div-so9K2fw(JF)J
 
     .line 11
     .line 12
@@ -319,7 +338,8 @@
 
     .line 18
     .line 19
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -330,7 +350,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -338,7 +359,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -350,7 +372,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 12
     .line 13
@@ -358,7 +381,8 @@
     move-result v0
 
     .line 15
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 16
     .line 17
@@ -376,7 +400,8 @@
     float-to-double p0, p0
 
     .line 23
-    invoke-static {p0, p1}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 24
     .line 25
@@ -393,7 +418,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -401,7 +427,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -413,7 +440,8 @@
 
     .line 10
     .line 11
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 12
     .line 13
@@ -421,7 +449,8 @@
     move-result v0
 
     .line 15
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 16
     .line 17
@@ -452,7 +481,8 @@
     long-to-int p1, p0
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p1}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 6
     .line 7
@@ -479,7 +509,8 @@
     long-to-int p1, p0
 
     .line 8
-    invoke-static {p1}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p1}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 9
     .line 10
@@ -493,7 +524,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -501,7 +533,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -509,7 +542,8 @@
     move-result v1
 
     .line 9
-    invoke-static {v0, v1, p4}, Landroidx/graphics/shapes/Utils;->interpolate(FFF)F
+    invoke-static {v0, v1, p4}, Landroidx/graphics/shapes/Utils;
+    ->interpolate(FFF)F
 
     .line 10
     .line 11
@@ -517,7 +551,8 @@
     move-result v0
 
     .line 13
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 14
     .line 15
@@ -525,7 +560,8 @@
     move-result p0
 
     .line 17
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 18
     .line 19
@@ -533,7 +569,8 @@
     move-result p1
 
     .line 21
-    invoke-static {p0, p1, p4}, Landroidx/graphics/shapes/Utils;->interpolate(FFF)F
+    invoke-static {p0, p1, p4}, Landroidx/graphics/shapes/Utils;
+    ->interpolate(FFF)F
 
     .line 22
     .line 23
@@ -541,7 +578,8 @@
     move-result p0
 
     .line 25
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 26
     .line 27
@@ -555,7 +593,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -563,7 +602,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -574,7 +614,8 @@
     sub-float/2addr v0, v1
 
     .line 10
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 11
     .line 12
@@ -582,7 +623,8 @@
     move-result p0
 
     .line 14
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 15
     .line 16
@@ -593,7 +635,8 @@
     sub-float/2addr p0, p1
 
     .line 19
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 20
     .line 21
@@ -607,7 +650,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -615,7 +659,8 @@
     move-result v0
 
     .line 5
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 6
     .line 7
@@ -626,7 +671,8 @@
     add-float/2addr v1, v0
 
     .line 10
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 11
     .line 12
@@ -634,7 +680,8 @@
     move-result p0
 
     .line 14
-    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p2, p3}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 15
     .line 16
@@ -645,7 +692,8 @@
     add-float/2addr p1, p0
 
     .line 19
-    invoke-static {v1, p1}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v1, p1}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 20
     .line 21
@@ -659,7 +707,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -670,7 +719,8 @@
     rem-float/2addr v0, p2
 
     .line 6
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 7
     .line 8
@@ -681,7 +731,8 @@
     rem-float/2addr p0, p2
 
     .line 11
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 12
     .line 13
@@ -695,7 +746,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -707,7 +759,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 8
     .line 9
@@ -719,7 +772,8 @@
 
     .line 12
     .line 13
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 14
     .line 15
@@ -737,12 +791,14 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 7
     .line 8
@@ -750,7 +806,8 @@
     move-result v0
 
     .line 10
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 11
     .line 12
@@ -758,7 +815,8 @@
     move-result p0
 
     .line 14
-    invoke-interface {p2, v0, p0}, Landroidx/graphics/shapes/PointTransformer;->transform-XgqJiTY(FF)J
+    invoke-interface {p2, v0, p0}, Landroidx/graphics/shapes/PointTransformer;
+    ->transform-XgqJiTY(FF)J
 
     .line 15
     .line 16
@@ -777,7 +835,8 @@
     long-to-int p2, v0
 
     .line 23
-    invoke-static {p2}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p2}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 24
     .line 25
@@ -798,7 +857,8 @@
     long-to-int p1, p0
 
     .line 34
-    invoke-static {p1}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p1}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 35
     .line 36
@@ -806,7 +866,8 @@
     move-result p0
 
     .line 38
-    invoke-static {p2, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {p2, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 39
     .line 40
@@ -820,7 +881,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getX-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -831,7 +893,8 @@
     neg-float v0, v0
 
     .line 6
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
+    ->getY-DnnuFBc(J)F
 
     .line 7
     .line 8
@@ -842,7 +905,8 @@
     neg-float p0, p0
 
     .line 11
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
+    ->constructor-impl(FF)J
 
     .line 12
     .line 13

@@ -67,7 +67,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -75,18 +76,21 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 6
     .line 7
     const/4 v0, -0x1
 
     .line 8
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 11
     .line 12
@@ -94,12 +98,15 @@
 
     .line 13
     .line 14
-    invoke-direct {v0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;-><init>(Landroid/widget/TextView;)V
+    invoke-direct {v0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    -><init>(Landroid/widget/TextView;)V
 
     .line 15
     .line 16
     .line 17
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;    
+    return-void
 .end method
 
 .method private applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
@@ -114,11 +121,13 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/view/View;->getDrawableState()[I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getDrawableState()[I
 
     .line 8
     .line 9
@@ -126,7 +135,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p1, p2, v0}, Landroidx/appcompat/widget/AppCompatDrawableManager;->tintDrawable(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;[I)V
+    invoke-static {p1, p2, v0}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->tintDrawable(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;[I)V
 
     .line 12
     .line 13
@@ -139,7 +149,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p0, p2}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getTintList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p1, p0, p2}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getTintList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -155,7 +166,8 @@
 
     .line 8
     .line 9
-    invoke-direct {p1}, Landroidx/appcompat/widget/TintInfo;-><init>()V
+    invoke-direct {p1}, Landroidx/appcompat/widget/TintInfo;
+    -><init>()V
 
     .line 10
     .line 11
@@ -163,11 +175,14 @@
     const/4 p2, 0x1
 
     .line 13
-    iput-boolean p2, p1, Landroidx/appcompat/widget/TintInfo;->mHasTintList:Z
+    iput-boolean p2, p1, Landroidx/appcompat/widget/TintInfo;
+    ->mHasTintList:Z
 
     .line 14
     .line 15
-    iput-object p0, p1, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;    return-object p1
+    iput-object p0, p1, Landroidx/appcompat/widget/TintInfo;
+    ->mTintList:Landroid/content/res/ColorStateList;    
+    return-object p1
 
     .line 18
     :cond_0
@@ -229,11 +244,13 @@
     .line 20
     :cond_2
     :goto_0
-    iget-object p5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 21
     .line 22
-    invoke-virtual {p5}, Landroid/widget/TextView;->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p5}, Landroid/widget/TextView;
+    ->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
 
     .line 23
     .line 24
@@ -261,11 +278,13 @@
 
     .line 35
     :cond_3
-    iget-object p5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 36
     .line 37
-    invoke-virtual {p5}, Landroid/widget/TextView;->getCompoundDrawables()[Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p5}, Landroid/widget/TextView;
+    ->getCompoundDrawables()[Landroid/graphics/drawable/Drawable;
 
     .line 38
     .line 39
@@ -273,7 +292,8 @@
     move-result-object p5
 
     .line 41
-    iget-object p6, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p6, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 42
     .line 43
@@ -329,7 +349,9 @@
     .line 62
     .line 63
     :goto_4
-    invoke-virtual {p6, p1, p2, p3, p4}, Landroid/widget/TextView;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {p6, p1, p2, p3, p4}, Landroid/widget/TextView;
+    ->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    
+    return-void
 
     .line 67
     :cond_8
@@ -360,7 +382,8 @@
     .line 76
     .line 77
     :goto_7
-    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 78
     .line 79
@@ -368,16 +391,20 @@
 
     .line 80
     .line 81
-    invoke-virtual {p1, p6, p2, p3, p4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {p1, p6, p2, p3, p4}, Landroid/widget/TextView;
+    ->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    
+    return-void
 
     .line 85
     :cond_b
     :goto_8
-    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 86
     .line 87
-    invoke-virtual {p1}, Landroid/widget/TextView;->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Landroid/widget/TextView;
+    ->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
 
     .line 88
     .line 89
@@ -424,7 +451,8 @@
     .line 105
     .line 106
     :goto_b
-    iget-object p3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 107
     .line 108
@@ -441,64 +469,80 @@
     .line 112
     .line 113
     :goto_c
-    invoke-virtual {p3, p5, p2, p6, p4}, Landroid/widget/TextView;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {p3, p5, p2, p6, p4}, Landroid/widget/TextView;
+    ->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V    
+    return-void
 .end method
 
 .method private setCompoundTints()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 2
     .line 3
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 4
     .line 5
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 6
     .line 7
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;    
+    return-void
 .end method
 
 .method private setTextSizeInternal(IF)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setTextSizeInternal(IF)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->setTextSizeInternal(IF)V    
+    return-void
 .end method
 
 .method private updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
     .locals 10
 
     .line 1
-    sget v0, Landroidx/appcompat/R$styleable;->TextAppearance_android_textStyle:I
+    sget v0, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textStyle:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 4
     .line 5
-    invoke-virtual {p2, v0, v1}, Landroidx/appcompat/widget/TintTypedArray;->getInt(II)I
+    invoke-virtual {p2, v0, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getInt(II)I
 
     .line 6
     .line 7
@@ -506,11 +550,13 @@
     move-result v0
 
     .line 9
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 10
     .line 11
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 12
     .line 13
@@ -528,11 +574,13 @@
 
     .line 18
     .line 19
-    sget v4, Landroidx/appcompat/R$styleable;->TextAppearance_android_textFontWeight:I
+    sget v4, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textFontWeight:I
 
     .line 20
     .line 21
-    invoke-virtual {p2, v4, v2}, Landroidx/appcompat/widget/TintTypedArray;->getInt(II)I
+    invoke-virtual {p2, v4, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getInt(II)I
 
     .line 22
     .line 23
@@ -540,7 +588,8 @@
     move-result v4
 
     .line 25
-    iput v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iput v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 26
     .line 27
@@ -548,23 +597,27 @@
 
     .line 28
     .line 29
-    iget v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 30
     .line 31
     and-int/2addr v4, v1
 
     .line 32
-    iput v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iput v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 33
     .line 34
     :cond_0
-    sget v4, Landroidx/appcompat/R$styleable;->TextAppearance_android_fontFamily:I
+    sget v4, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_fontFamily:I
 
     .line 35
     .line 36
-    invoke-virtual {p2, v4}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v4}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 37
     .line 38
@@ -582,11 +635,13 @@
 
     .line 43
     .line 44
-    sget v5, Landroidx/appcompat/R$styleable;->TextAppearance_fontFamily:I
+    sget v5, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_fontFamily:I
 
     .line 45
     .line 46
-    invoke-virtual {p2, v5}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v5}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 47
     .line 48
@@ -602,11 +657,13 @@
 
     .line 53
     :cond_1
-    sget p1, Landroidx/appcompat/R$styleable;->TextAppearance_android_typeface:I
+    sget p1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_typeface:I
 
     .line 54
     .line 55
-    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 56
     .line 57
@@ -618,11 +675,13 @@
 
     .line 60
     .line 61
-    iput-boolean v7, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAsyncFontPending:Z
+    iput-boolean v7, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAsyncFontPending:Z
 
     .line 62
     .line 63
-    invoke-virtual {p2, p1, v6}, Landroidx/appcompat/widget/TintTypedArray;->getInt(II)I
+    invoke-virtual {p2, p1, v6}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getInt(II)I
 
     .line 64
     .line 65
@@ -650,27 +709,36 @@
     .line 75
     .line 76
     :cond_2
-    sget-object p1, Landroid/graphics/Typeface;->MONOSPACE:Landroid/graphics/Typeface;
+    sget-object p1, Landroid/graphics/Typeface;
+    ->MONOSPACE:Landroid/graphics/Typeface;
 
     .line 77
     .line 78
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;    
+    return-void
 
     .line 81
     :cond_3
-    sget-object p1, Landroid/graphics/Typeface;->SERIF:Landroid/graphics/Typeface;
+    sget-object p1, Landroid/graphics/Typeface;
+    ->SERIF:Landroid/graphics/Typeface;
 
     .line 82
     .line 83
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;    
+    return-void
 
     .line 86
     :cond_4
-    sget-object p1, Landroid/graphics/Typeface;->SANS_SERIF:Landroid/graphics/Typeface;
+    sget-object p1, Landroid/graphics/Typeface;
+    ->SANS_SERIF:Landroid/graphics/Typeface;
 
     .line 87
     .line 88
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;    return-void
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;    
+    return-void
 
     .line 91
     :cond_5
@@ -678,15 +746,18 @@
     const/4 v5, 0x0
 
     .line 92
-    iput-object v5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iput-object v5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 93
     .line 94
-    sget v5, Landroidx/appcompat/R$styleable;->TextAppearance_fontFamily:I
+    sget v5, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_fontFamily:I
 
     .line 95
     .line 96
-    invoke-virtual {p2, v5}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v5}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 97
     .line 98
@@ -702,15 +773,18 @@
 
     .line 103
     :cond_6
-    iget v5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iget v5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 104
     .line 105
-    iget v8, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v8, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 106
     .line 107
-    invoke-virtual {p1}, Landroid/content/Context;->isRestricted()Z
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->isRestricted()Z
 
     .line 108
     .line 109
@@ -726,11 +800,13 @@
 
     .line 114
     .line 115
-    iget-object v9, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v9, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 116
     .line 117
-    invoke-direct {p1, v9}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, v9}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 118
     .line 119
@@ -739,17 +815,20 @@
 
     .line 121
     .line 122
-    invoke-direct {v9, p0, v5, v8, p1}, Landroidx/appcompat/widget/AppCompatTextHelper$1;-><init>(Landroidx/appcompat/widget/AppCompatTextHelper;IILjava/lang/ref/WeakReference;)V
+    invoke-direct {v9, p0, v5, v8, p1}, Landroidx/appcompat/widget/AppCompatTextHelper$1;
+    -><init>(Landroidx/appcompat/widget/AppCompatTextHelper;IILjava/lang/ref/WeakReference;)V
 
     .line 123
     .line 124
     .line 125
     :try_start_0
-    iget p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 126
     .line 127
-    invoke-virtual {p2, v4, p1, v9}, Landroidx/appcompat/widget/TintTypedArray;->getFont(IILandroidx/core/content/res/ResourcesCompat$FontCallback;)Landroid/graphics/Typeface;
+    invoke-virtual {p2, v4, p1, v9}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getFont(IILandroidx/core/content/res/ResourcesCompat$FontCallback;)Landroid/graphics/Typeface;
 
     .line 128
     .line 129
@@ -765,7 +844,8 @@
 
     .line 134
     .line 135
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 136
     .line 137
@@ -773,7 +853,8 @@
 
     .line 138
     .line 139
-    invoke-static {p1, v7}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+    invoke-static {p1, v7}, Landroid/graphics/Typeface;
+    ->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
 
     .line 140
     .line 141
@@ -781,11 +862,13 @@
     move-result-object p1
 
     .line 143
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 144
     .line 145
-    iget v5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v5, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 146
     .line 147
@@ -807,7 +890,8 @@
 
     .line 153
     :goto_1
-    invoke-static {p1, v0, v5}, Landroidx/appcompat/widget/AppCompatTextHelper$Api28Impl;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p1, v0, v5}, Landroidx/appcompat/widget/AppCompatTextHelper$Api28Impl;
+    ->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     .line 154
     .line 155
@@ -815,7 +899,8 @@
     move-result-object p1
 
     .line 157
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 158
     .line 159
@@ -830,13 +915,15 @@
 
     .line 162
     :cond_8
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 163
     .line 164
     :cond_9
     :goto_2
-    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 165
     .line 166
@@ -855,7 +942,8 @@
 
     .line 171
     :goto_3
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAsyncFontPending:Z
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAsyncFontPending:Z
     :try_end_0
     .catch Ljava/lang/UnsupportedOperationException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -864,7 +952,8 @@
     .line 173
     :cond_b
     :goto_4
-    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 174
     .line 175
@@ -872,7 +961,8 @@
 
     .line 176
     .line 177
-    invoke-virtual {p2, v4}, Landroidx/appcompat/widget/TintTypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {p2, v4}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 178
     .line 179
@@ -884,7 +974,8 @@
 
     .line 182
     .line 183
-    sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 184
     .line 185
@@ -892,7 +983,8 @@
 
     .line 186
     .line 187
-    iget p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iget p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 188
     .line 189
@@ -900,7 +992,8 @@
 
     .line 190
     .line 191
-    invoke-static {p1, v7}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
+    invoke-static {p1, v7}, Landroid/graphics/Typeface;
+    ->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 
     .line 192
     .line 193
@@ -908,11 +1001,13 @@
     move-result-object p1
 
     .line 195
-    iget p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iget p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 196
     .line 197
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 198
     .line 199
@@ -931,7 +1026,8 @@
 
     .line 204
     :goto_5
-    invoke-static {p1, p2, v6}, Landroidx/appcompat/widget/AppCompatTextHelper$Api28Impl;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p1, p2, v6}, Landroidx/appcompat/widget/AppCompatTextHelper$Api28Impl;
+    ->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     .line 205
     .line 206
@@ -939,7 +1035,8 @@
     move-result-object p1
 
     .line 208
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 209
     .line 210
@@ -947,11 +1044,13 @@
 
     .line 211
     :cond_d
-    iget p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 212
     .line 213
-    invoke-static {p1, p2}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
+    invoke-static {p1, p2}, Landroid/graphics/Typeface;
+    ->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 
     .line 214
     .line 215
@@ -959,7 +1058,8 @@
     move-result-object p1
 
     .line 217
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 218
     .line 219
@@ -974,7 +1074,8 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 2
     .line 3
@@ -988,7 +1089,8 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 8
     .line 9
@@ -996,7 +1098,8 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 12
     .line 13
@@ -1004,7 +1107,8 @@
 
     .line 14
     .line 15
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 16
     .line 17
@@ -1013,11 +1117,13 @@
     .line 18
     .line 19
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Landroid/widget/TextView;->getCompoundDrawables()[Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getCompoundDrawables()[Landroid/graphics/drawable/Drawable;
 
     .line 22
     .line 23
@@ -1029,11 +1135,13 @@
 
     .line 26
     .line 27
-    iget-object v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 28
     .line 29
-    invoke-direct {p0, v3, v4}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
+    invoke-direct {p0, v3, v4}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
 
     .line 30
     .line 31
@@ -1045,11 +1153,13 @@
 
     .line 34
     .line 35
-    iget-object v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 36
     .line 37
-    invoke-direct {p0, v3, v4}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
+    invoke-direct {p0, v3, v4}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
 
     .line 38
     .line 39
@@ -1058,11 +1168,13 @@
 
     .line 41
     .line 42
-    iget-object v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v4, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 43
     .line 44
-    invoke-direct {p0, v3, v4}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
+    invoke-direct {p0, v3, v4}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
 
     .line 45
     .line 46
@@ -1074,17 +1186,20 @@
 
     .line 49
     .line 50
-    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 51
     .line 52
-    invoke-direct {p0, v0, v3}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
+    invoke-direct {p0, v0, v3}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
 
     .line 53
     .line 54
     .line 55
     :cond_1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 56
     .line 57
@@ -1092,7 +1207,8 @@
 
     .line 58
     .line 59
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 60
     .line 61
@@ -1109,11 +1225,13 @@
     .line 65
     :cond_3
     :goto_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 66
     .line 67
-    invoke-virtual {v0}, Landroid/widget/TextView;->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
 
     .line 68
     .line 69
@@ -1125,11 +1243,13 @@
 
     .line 72
     .line 73
-    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 74
     .line 75
-    invoke-direct {p0, v2, v3}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
+    invoke-direct {p0, v2, v3}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
 
     .line 76
     .line 77
@@ -1138,11 +1258,13 @@
 
     .line 79
     .line 80
-    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 81
     .line 82
-    invoke-direct {p0, v0, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
+    invoke-direct {p0, v0, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawableTint(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;)V
 return-void
 .end method
 
@@ -1150,16 +1272,19 @@ return-void
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->autoSizeText()V
     return-void
 .end method
 
@@ -1167,11 +1292,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeMaxTextSize()I
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeMaxTextSize()I
 
     .line 4
     .line 5
@@ -1185,11 +1312,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeMinTextSize()I
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeMinTextSize()I
 
     .line 4
     .line 5
@@ -1203,11 +1332,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeStepGranularity()I
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeStepGranularity()I
 
     .line 4
     .line 5
@@ -1221,11 +1352,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeTextAvailableSizes()[I
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeTextAvailableSizes()[I
 
     .line 4
     .line 5
@@ -1239,11 +1372,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeTextType()I
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeTextType()I
 
     .line 4
     .line 5
@@ -1259,7 +1394,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 2
     .line 3
@@ -1267,7 +1403,8 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;    return-object v0
+    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;
+    ->mTintList:Landroid/content/res/ColorStateList;    return-object v0
 
     .line 8
     :cond_0
@@ -1282,7 +1419,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 2
     .line 3
@@ -1290,7 +1428,8 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;->mTintMode:Landroid/graphics/PorterDuff$Mode;    return-object v0
+    iget-object v0, v0, Landroidx/appcompat/widget/TintInfo;
+    ->mTintMode:Landroid/graphics/PorterDuff$Mode;    return-object v0
 
     .line 8
     :cond_0
@@ -1303,16 +1442,19 @@ return-void
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->isAutoSizeEnabled()Z
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->isAutoSizeEnabled()Z
 
     .line 4
     .line 5
@@ -1347,11 +1489,13 @@ return-void
 
     .line 6
     .line 7
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 10
     .line 11
@@ -1359,7 +1503,8 @@ return-void
     move-result-object v8
 
     .line 13
-    invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->get()Landroidx/appcompat/widget/AppCompatDrawableManager;
+    invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->get()Landroidx/appcompat/widget/AppCompatDrawableManager;
 
     .line 14
     .line 15
@@ -1367,14 +1512,16 @@ return-void
     move-result-object v9
 
     .line 17
-    sget-object v3, Landroidx/appcompat/R$styleable;->AppCompatTextHelper:[I
+    sget-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper:[I
 
     .line 18
     .line 19
     const/4 v10, 0x0
 
     .line 20
-    invoke-static {v8, v4, v3, v6, v10}, Landroidx/appcompat/widget/TintTypedArray;->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/TintTypedArray;
+    invoke-static {v8, v4, v3, v6, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/TintTypedArray;
 
     .line 21
     .line 22
@@ -1382,11 +1529,13 @@ return-void
     move-result-object v11
 
     .line 24
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 25
     .line 26
-    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 27
     .line 28
@@ -1394,7 +1543,8 @@ return-void
     move-result-object v2
 
     .line 30
-    invoke-virtual {v11}, Landroidx/appcompat/widget/TintTypedArray;->getWrappedTypeArray()Landroid/content/res/TypedArray;
+    invoke-virtual {v11}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getWrappedTypeArray()Landroid/content/res/TypedArray;
 
     .line 31
     .line 32
@@ -1405,19 +1555,22 @@ return-void
     const/4 v7, 0x0
 
     .line 35
-    invoke-static/range {v1 .. v7}, Landroidx/core/view/ViewCompat;->saveAttributeDataForStyleable(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
+    invoke-static/range {v1 .. v7}, Landroidx/core/view/ViewCompat;
+    ->saveAttributeDataForStyleable(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
 
     .line 36
     .line 37
     .line 38
-    sget v1, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_textAppearance:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_textAppearance:I
 
     .line 39
     .line 40
     const/4 v7, -0x1
 
     .line 41
-    invoke-virtual {v11, v1, v7}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v1, v7}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 42
     .line 43
@@ -1425,11 +1578,13 @@ return-void
     move-result v1
 
     .line 45
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_drawableLeft:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_drawableLeft:I
 
     .line 46
     .line 47
-    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 48
     .line 49
@@ -1441,7 +1596,8 @@ return-void
 
     .line 52
     .line 53
-    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 54
     .line 55
@@ -1449,7 +1605,8 @@ return-void
     move-result v2
 
     .line 57
-    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
+    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
 
     .line 58
     .line 59
@@ -1457,16 +1614,19 @@ return-void
     move-result-object v2
 
     .line 61
-    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableLeftTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 62
     .line 63
     :cond_0
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_drawableTop:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_drawableTop:I
 
     .line 64
     .line 65
-    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 66
     .line 67
@@ -1478,7 +1638,8 @@ return-void
 
     .line 70
     .line 71
-    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 72
     .line 73
@@ -1486,7 +1647,8 @@ return-void
     move-result v2
 
     .line 75
-    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
+    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
 
     .line 76
     .line 77
@@ -1494,16 +1656,19 @@ return-void
     move-result-object v2
 
     .line 79
-    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTopTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 80
     .line 81
     :cond_1
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_drawableRight:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_drawableRight:I
 
     .line 82
     .line 83
-    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 84
     .line 85
@@ -1515,7 +1680,8 @@ return-void
 
     .line 88
     .line 89
-    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 90
     .line 91
@@ -1523,7 +1689,8 @@ return-void
     move-result v2
 
     .line 93
-    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
+    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
 
     .line 94
     .line 95
@@ -1531,16 +1698,19 @@ return-void
     move-result-object v2
 
     .line 97
-    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableRightTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 98
     .line 99
     :cond_2
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_drawableBottom:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_drawableBottom:I
 
     .line 100
     .line 101
-    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 102
     .line 103
@@ -1552,7 +1722,8 @@ return-void
 
     .line 106
     .line 107
-    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 108
     .line 109
@@ -1560,7 +1731,8 @@ return-void
     move-result v2
 
     .line 111
-    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
+    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
 
     .line 112
     .line 113
@@ -1568,16 +1740,19 @@ return-void
     move-result-object v2
 
     .line 115
-    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableBottomTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 116
     .line 117
     :cond_3
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_drawableStart:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_drawableStart:I
 
     .line 118
     .line 119
-    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 120
     .line 121
@@ -1589,7 +1764,8 @@ return-void
 
     .line 124
     .line 125
-    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 126
     .line 127
@@ -1597,7 +1773,8 @@ return-void
     move-result v2
 
     .line 129
-    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
+    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
 
     .line 130
     .line 131
@@ -1605,16 +1782,19 @@ return-void
     move-result-object v2
 
     .line 133
-    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableStartTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 134
     .line 135
     :cond_4
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextHelper_android_drawableEnd:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper_android_drawableEnd:I
 
     .line 136
     .line 137
-    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 138
     .line 139
@@ -1626,7 +1806,8 @@ return-void
 
     .line 142
     .line 143
-    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v11, v2, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 144
     .line 145
@@ -1634,7 +1815,8 @@ return-void
     move-result v2
 
     .line 147
-    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
+    invoke-static {v8, v9, v2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->createTintInfo(Landroid/content/Context;Landroidx/appcompat/widget/AppCompatDrawableManager;I)Landroidx/appcompat/widget/TintInfo;
 
     .line 148
     .line 149
@@ -1642,21 +1824,25 @@ return-void
     move-result-object v2
 
     .line 151
-    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableEndTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 152
     .line 153
     :cond_5
-    invoke-virtual {v11}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+    invoke-virtual {v11}, Landroidx/appcompat/widget/TintTypedArray;
+    ->recycle()V
 
     .line 154
     .line 155
     .line 156
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 157
     .line 158
-    invoke-virtual {v2}, Landroid/widget/TextView;->getTransformationMethod()Landroid/text/method/TransformationMethod;
+    invoke-virtual {v2}, Landroid/widget/TextView;
+    ->getTransformationMethod()Landroid/text/method/TransformationMethod;
 
     .line 159
     .line 160
@@ -1680,11 +1866,13 @@ return-void
 
     .line 169
     .line 170
-    sget-object v13, Landroidx/appcompat/R$styleable;->TextAppearance:[I
+    sget-object v13, Landroidx/appcompat/R$styleable;
+    ->TextAppearance:[I
 
     .line 171
     .line 172
-    invoke-static {v8, v1, v13}, Landroidx/appcompat/widget/TintTypedArray;->obtainStyledAttributes(Landroid/content/Context;I[I)Landroidx/appcompat/widget/TintTypedArray;
+    invoke-static {v8, v1, v13}, Landroidx/appcompat/widget/TintTypedArray;
+    ->obtainStyledAttributes(Landroid/content/Context;I[I)Landroidx/appcompat/widget/TintTypedArray;
 
     .line 173
     .line 174
@@ -1696,11 +1884,13 @@ return-void
 
     .line 177
     .line 178
-    sget v13, Landroidx/appcompat/R$styleable;->TextAppearance_textAllCaps:I
+    sget v13, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_textAllCaps:I
 
     .line 179
     .line 180
-    invoke-virtual {v1, v13}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v13}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 181
     .line 182
@@ -1712,7 +1902,8 @@ return-void
 
     .line 185
     .line 186
-    invoke-virtual {v1, v13, v10}, Landroidx/appcompat/widget/TintTypedArray;->getBoolean(IZ)Z
+    invoke-virtual {v1, v13, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getBoolean(IZ)Z
 
     .line 187
     .line 188
@@ -1734,12 +1925,14 @@ return-void
 
     .line 194
     :goto_0
-    invoke-direct {v0, v8, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
+    invoke-direct {v0, v8, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
 
     .line 195
     .line 196
     .line 197
-    sget v15, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v15, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 198
     .line 199
@@ -1747,11 +1940,13 @@ return-void
 
     .line 200
     .line 201
-    sget v11, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColor:I
+    sget v11, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColor:I
 
     .line 202
     .line 203
-    invoke-virtual {v1, v11}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v11}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 204
     .line 205
@@ -1763,7 +1958,8 @@ return-void
 
     .line 208
     .line 209
-    invoke-virtual {v1, v11}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v1, v11}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 210
     .line 211
@@ -1779,11 +1975,13 @@ return-void
 
     .line 215
     :goto_1
-    sget v12, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColorHint:I
+    sget v12, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColorHint:I
 
     .line 216
     .line 217
-    invoke-virtual {v1, v12}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v12}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 218
     .line 219
@@ -1795,7 +1993,8 @@ return-void
 
     .line 222
     .line 223
-    invoke-virtual {v1, v12}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v1, v12}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 224
     .line 225
@@ -1811,11 +2010,13 @@ return-void
 
     .line 229
     :goto_2
-    sget v7, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColorLink:I
+    sget v7, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColorLink:I
 
     .line 230
     .line 231
-    invoke-virtual {v1, v7}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v7}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 232
     .line 233
@@ -1827,7 +2028,8 @@ return-void
 
     .line 236
     .line 237
-    invoke-virtual {v1, v7}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v1, v7}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 238
     .line 239
@@ -1856,11 +2058,13 @@ return-void
 
     .line 247
     :goto_3
-    sget v5, Landroidx/appcompat/R$styleable;->TextAppearance_textLocale:I
+    sget v5, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_textLocale:I
 
     .line 248
     .line 249
-    invoke-virtual {v1, v5}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v5}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 250
     .line 251
@@ -1872,7 +2076,8 @@ return-void
 
     .line 254
     .line 255
-    invoke-virtual {v1, v5}, Landroidx/appcompat/widget/TintTypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v5}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 256
     .line 257
@@ -1892,11 +2097,13 @@ return-void
 
     .line 262
     .line 263
-    sget v15, Landroidx/appcompat/R$styleable;->TextAppearance_fontVariationSettings:I
+    sget v15, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_fontVariationSettings:I
 
     .line 264
     .line 265
-    invoke-virtual {v1, v15}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v15}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 266
     .line 267
@@ -1908,7 +2115,8 @@ return-void
 
     .line 270
     .line 271
-    invoke-virtual {v1, v15}, Landroidx/appcompat/widget/TintTypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v15}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 272
     .line 273
@@ -1924,7 +2132,8 @@ return-void
 
     .line 277
     :goto_5
-    invoke-virtual {v1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+    invoke-virtual {v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->recycle()V
 
     .line 278
     .line 279
@@ -1955,11 +2164,13 @@ return-void
 
     .line 288
     :goto_6
-    sget-object v1, Landroidx/appcompat/R$styleable;->TextAppearance:[I
+    sget-object v1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance:[I
 
     .line 289
     .line 290
-    invoke-static {v8, v4, v1, v6, v10}, Landroidx/appcompat/widget/TintTypedArray;->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/TintTypedArray;
+    invoke-static {v8, v4, v1, v6, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/TintTypedArray;
 
     .line 291
     .line 292
@@ -1971,11 +2182,13 @@ return-void
 
     .line 295
     .line 296
-    sget v3, Landroidx/appcompat/R$styleable;->TextAppearance_textAllCaps:I
+    sget v3, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_textAllCaps:I
 
     .line 297
     .line 298
-    invoke-virtual {v1, v3}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v3}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 299
     .line 300
@@ -1987,7 +2200,8 @@ return-void
 
     .line 303
     .line 304
-    invoke-virtual {v1, v3, v10}, Landroidx/appcompat/widget/TintTypedArray;->getBoolean(IZ)Z
+    invoke-virtual {v1, v3, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getBoolean(IZ)Z
 
     .line 305
     .line 306
@@ -1999,7 +2213,8 @@ return-void
 
     .line 309
     :cond_e
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 310
     .line 311
@@ -2011,11 +2226,13 @@ return-void
 
     .line 314
     .line 315
-    sget v10, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColor:I
+    sget v10, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColor:I
 
     .line 316
     .line 317
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 318
     .line 319
@@ -2027,7 +2244,8 @@ return-void
 
     .line 322
     .line 323
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 324
     .line 325
@@ -2036,11 +2254,13 @@ return-void
 
     .line 327
     :cond_f
-    sget v10, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColorHint:I
+    sget v10, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColorHint:I
 
     .line 328
     .line 329
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 330
     .line 331
@@ -2052,7 +2272,8 @@ return-void
 
     .line 334
     .line 335
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 336
     .line 337
@@ -2061,11 +2282,13 @@ return-void
 
     .line 339
     :cond_10
-    sget v10, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColorLink:I
+    sget v10, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColorLink:I
 
     .line 340
     .line 341
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 342
     .line 343
@@ -2077,7 +2300,8 @@ return-void
 
     .line 346
     .line 347
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 348
     .line 349
@@ -2086,11 +2310,13 @@ return-void
 
     .line 351
     :cond_11
-    sget v10, Landroidx/appcompat/R$styleable;->TextAppearance_textLocale:I
+    sget v10, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_textLocale:I
 
     .line 352
     .line 353
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 354
     .line 355
@@ -2102,7 +2328,8 @@ return-void
 
     .line 358
     .line 359
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 360
     .line 361
@@ -2119,11 +2346,13 @@ return-void
 
     .line 366
     .line 367
-    sget v10, Landroidx/appcompat/R$styleable;->TextAppearance_fontVariationSettings:I
+    sget v10, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_fontVariationSettings:I
 
     .line 368
     .line 369
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 370
     .line 371
@@ -2135,7 +2364,8 @@ return-void
 
     .line 374
     .line 375
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 376
     .line 377
@@ -2152,11 +2382,13 @@ return-void
 
     .line 382
     .line 383
-    sget v10, Landroidx/appcompat/R$styleable;->TextAppearance_android_textSize:I
+    sget v10, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textSize:I
 
     .line 384
     .line 385
-    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v1, v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 386
     .line 387
@@ -2175,7 +2407,8 @@ return-void
     const/4 v2, -0x1
 
     .line 394
-    invoke-virtual {v1, v10, v2}, Landroidx/appcompat/widget/TintTypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {v1, v10, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getDimensionPixelSize(II)I
 
     .line 395
     .line 396
@@ -2187,7 +2420,8 @@ return-void
 
     .line 399
     .line 400
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 401
     .line 402
@@ -2201,7 +2435,8 @@ return-void
     const/4 v14, 0x0
 
     .line 406
-    invoke-virtual {v2, v14, v10}, Landroid/widget/TextView;->setTextSize(IF)V
+    invoke-virtual {v2, v14, v10}, Landroid/widget/TextView;
+    ->setTextSize(IF)V
 
     .line 407
     .line 408
@@ -2227,12 +2462,14 @@ return-void
 
     .line 416
     :goto_8
-    invoke-direct {v0, v8, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
+    invoke-direct {v0, v8, v1}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
 
     .line 417
     .line 418
     .line 419
-    invoke-virtual {v1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+    invoke-virtual {v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->recycle()V
 
     .line 420
     .line 421
@@ -2241,11 +2478,13 @@ return-void
 
     .line 423
     .line 424
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 425
     .line 426
-    invoke-virtual {v1, v11}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1, v11}, Landroid/widget/TextView;
+    ->setTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 427
     .line 428
@@ -2255,11 +2494,13 @@ return-void
 
     .line 430
     .line 431
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 432
     .line 433
-    invoke-virtual {v1, v12}, Landroid/widget/TextView;->setHintTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1, v12}, Landroid/widget/TextView;
+    ->setHintTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 434
     .line 435
@@ -2269,11 +2510,13 @@ return-void
 
     .line 437
     .line 438
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 439
     .line 440
-    invoke-virtual {v1, v7}, Landroid/widget/TextView;->setLinkTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v1, v7}, Landroid/widget/TextView;
+    ->setLinkTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 441
     .line 442
@@ -2287,13 +2530,15 @@ return-void
 
     .line 446
     .line 447
-    invoke-virtual {v0, v13}, Landroidx/appcompat/widget/AppCompatTextHelper;->setAllCaps(Z)V
+    invoke-virtual {v0, v13}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->setAllCaps(Z)V
 
     .line 448
     .line 449
     .line 450
     :cond_19
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 451
     .line 452
@@ -2301,7 +2546,8 @@ return-void
 
     .line 453
     .line 454
-    iget v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontWeight:I
+    iget v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontWeight:I
 
     .line 455
     .line 456
@@ -2312,15 +2558,18 @@ return-void
 
     .line 458
     .line 459
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 460
     .line 461
-    iget v7, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v7, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 462
     .line 463
-    invoke-virtual {v2, v1, v7}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
+    invoke-virtual {v2, v1, v7}, Landroid/widget/TextView;
+    ->setTypeface(Landroid/graphics/Typeface;I)V
 
     .line 464
     .line 465
@@ -2329,11 +2578,13 @@ return-void
 
     .line 467
     :cond_1a
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 468
     .line 469
-    invoke-virtual {v2, v1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
+    invoke-virtual {v2, v1}, Landroid/widget/TextView;
+    ->setTypeface(Landroid/graphics/Typeface;)V
 
     .line 470
     .line 471
@@ -2344,11 +2595,13 @@ return-void
 
     .line 473
     .line 474
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 475
     .line 476
-    invoke-static {v1, v15}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;->setFontVariationSettings(Landroid/widget/TextView;Ljava/lang/String;)Z
+    invoke-static {v1, v15}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;
+    ->setFontVariationSettings(Landroid/widget/TextView;Ljava/lang/String;)Z
 
     .line 477
     .line 478
@@ -2366,11 +2619,13 @@ return-void
 
     .line 484
     .line 485
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 486
     .line 487
-    invoke-static {v5}, Landroidx/appcompat/widget/AppCompatTextHelper$Api24Impl;->forLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
+    invoke-static {v5}, Landroidx/appcompat/widget/AppCompatTextHelper$Api24Impl;
+    ->forLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
 
     .line 488
     .line 489
@@ -2378,7 +2633,8 @@ return-void
     move-result-object v2
 
     .line 491
-    invoke-static {v1, v2}, Landroidx/appcompat/widget/AppCompatTextHelper$Api24Impl;->setTextLocales(Landroid/widget/TextView;Landroid/os/LocaleList;)V
+    invoke-static {v1, v2}, Landroidx/appcompat/widget/AppCompatTextHelper$Api24Impl;
+    ->setTextLocales(Landroid/widget/TextView;Landroid/os/LocaleList;)V
 
     .line 492
     .line 493
@@ -2391,7 +2647,8 @@ return-void
 
     .line 496
     .line 497
-    invoke-virtual {v5, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {v5, v1}, Ljava/lang/String;
+    ->split(Ljava/lang/String;)[Ljava/lang/String;
 
     .line 498
     .line 499
@@ -2407,11 +2664,13 @@ return-void
 
     .line 504
     .line 505
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 506
     .line 507
-    invoke-static {v1}, Landroidx/appcompat/widget/AppCompatTextHelper$Api21Impl;->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
+    invoke-static {v1}, Landroidx/appcompat/widget/AppCompatTextHelper$Api21Impl;
+    ->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
 
     .line 508
     .line 509
@@ -2419,23 +2678,27 @@ return-void
     move-result-object v1
 
     .line 511
-    invoke-virtual {v2, v1}, Landroid/widget/TextView;->setTextLocale(Ljava/util/Locale;)V
+    invoke-virtual {v2, v1}, Landroid/widget/TextView;
+    ->setTextLocale(Ljava/util/Locale;)V
 
     .line 512
     .line 513
     .line 514
     :cond_1e
     :goto_a
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 515
     .line 516
-    invoke-virtual {v1, v4, v6}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->loadFromAttributes(Landroid/util/AttributeSet;I)V
+    invoke-virtual {v1, v4, v6}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->loadFromAttributes(Landroid/util/AttributeSet;I)V
 
     .line 517
     .line 518
     .line 519
-    sget-boolean v1, Landroidx/appcompat/widget/ViewUtils;->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
+    sget-boolean v1, Landroidx/appcompat/widget/ViewUtils;
+    ->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
 
     .line 520
     .line 521
@@ -2447,11 +2710,13 @@ return-void
 
     .line 524
     .line 525
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 526
     .line 527
-    invoke-virtual {v1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeTextType()I
+    invoke-virtual {v1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeTextType()I
 
     .line 528
     .line 529
@@ -2463,11 +2728,13 @@ return-void
 
     .line 532
     .line 533
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 534
     .line 535
-    invoke-virtual {v1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeTextAvailableSizes()[I
+    invoke-virtual {v1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeTextAvailableSizes()[I
 
     .line 536
     .line 537
@@ -2482,11 +2749,13 @@ return-void
 
     .line 541
     .line 542
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 543
     .line 544
-    invoke-static {v2}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;->getAutoSizeStepGranularity(Landroid/widget/TextView;)I
+    invoke-static {v2}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;
+    ->getAutoSizeStepGranularity(Landroid/widget/TextView;)I
 
     .line 545
     .line 546
@@ -2505,15 +2774,18 @@ return-void
 
     .line 552
     .line 553
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 554
     .line 555
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 556
     .line 557
-    invoke-virtual {v2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeMinTextSize()I
+    invoke-virtual {v2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeMinTextSize()I
 
     .line 558
     .line 559
@@ -2521,11 +2793,13 @@ return-void
     move-result v2
 
     .line 561
-    iget-object v3, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v3, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 562
     .line 563
-    invoke-virtual {v3}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeMaxTextSize()I
+    invoke-virtual {v3}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeMaxTextSize()I
 
     .line 564
     .line 565
@@ -2533,11 +2807,13 @@ return-void
     move-result v3
 
     .line 567
-    iget-object v5, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v5, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 568
     .line 569
-    invoke-virtual {v5}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->getAutoSizeStepGranularity()I
+    invoke-virtual {v5}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->getAutoSizeStepGranularity()I
 
     .line 570
     .line 571
@@ -2548,7 +2824,8 @@ return-void
     const/4 v14, 0x0
 
     .line 574
-    invoke-static {v1, v2, v3, v5, v14}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;->setAutoSizeTextTypeUniformWithConfiguration(Landroid/widget/TextView;IIII)V
+    invoke-static {v1, v2, v3, v5, v14}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;
+    ->setAutoSizeTextTypeUniformWithConfiguration(Landroid/widget/TextView;IIII)V
 
     .line 575
     .line 576
@@ -2560,22 +2837,26 @@ return-void
     const/4 v14, 0x0
 
     .line 579
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 580
     .line 581
-    invoke-static {v2, v1, v14}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;->setAutoSizeTextTypeUniformWithPresetSizes(Landroid/widget/TextView;[II)V
+    invoke-static {v2, v1, v14}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;
+    ->setAutoSizeTextTypeUniformWithPresetSizes(Landroid/widget/TextView;[II)V
 
     .line 582
     .line 583
     .line 584
     :cond_20
     :goto_b
-    sget-object v1, Landroidx/appcompat/R$styleable;->AppCompatTextView:[I
+    sget-object v1, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView:[I
 
     .line 585
     .line 586
-    invoke-static {v8, v4, v1}, Landroidx/appcompat/widget/TintTypedArray;->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[I)Landroidx/appcompat/widget/TintTypedArray;
+    invoke-static {v8, v4, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[I)Landroidx/appcompat/widget/TintTypedArray;
 
     .line 587
     .line 588
@@ -2583,14 +2864,16 @@ return-void
     move-result-object v10
 
     .line 590
-    sget v1, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableLeftCompat:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableLeftCompat:I
 
     .line 591
     .line 592
     const/4 v2, -0x1
 
     .line 593
-    invoke-virtual {v10, v1, v2}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v10, v1, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 594
     .line 595
@@ -2602,7 +2885,8 @@ return-void
 
     .line 598
     .line 599
-    invoke-virtual {v9, v8, v1}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v9, v8, v1}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 600
     .line 601
@@ -2618,11 +2902,13 @@ return-void
 
     .line 605
     :goto_c
-    sget v3, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableTopCompat:I
+    sget v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableTopCompat:I
 
     .line 606
     .line 607
-    invoke-virtual {v10, v3, v2}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v10, v3, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 608
     .line 609
@@ -2634,7 +2920,8 @@ return-void
 
     .line 612
     .line 613
-    invoke-virtual {v9, v8, v3}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v9, v8, v3}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 614
     .line 615
@@ -2650,11 +2937,13 @@ return-void
 
     .line 619
     :goto_d
-    sget v4, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableRightCompat:I
+    sget v4, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableRightCompat:I
 
     .line 620
     .line 621
-    invoke-virtual {v10, v4, v2}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v10, v4, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 622
     .line 623
@@ -2666,7 +2955,8 @@ return-void
 
     .line 626
     .line 627
-    invoke-virtual {v9, v8, v4}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v9, v8, v4}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 628
     .line 629
@@ -2682,11 +2972,13 @@ return-void
 
     .line 633
     :goto_e
-    sget v5, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableBottomCompat:I
+    sget v5, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableBottomCompat:I
 
     .line 634
     .line 635
-    invoke-virtual {v10, v5, v2}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v10, v5, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 636
     .line 637
@@ -2698,7 +2990,8 @@ return-void
 
     .line 640
     .line 641
-    invoke-virtual {v9, v8, v5}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v9, v8, v5}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 642
     .line 643
@@ -2714,11 +3007,13 @@ return-void
 
     .line 647
     :goto_f
-    sget v6, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableStartCompat:I
+    sget v6, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableStartCompat:I
 
     .line 648
     .line 649
-    invoke-virtual {v10, v6, v2}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v10, v6, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 650
     .line 651
@@ -2730,7 +3025,8 @@ return-void
 
     .line 654
     .line 655
-    invoke-virtual {v9, v8, v6}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v9, v8, v6}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 656
     .line 657
@@ -2746,11 +3042,13 @@ return-void
 
     .line 661
     :goto_10
-    sget v11, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableEndCompat:I
+    sget v11, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableEndCompat:I
 
     .line 662
     .line 663
-    invoke-virtual {v10, v11, v2}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
+    invoke-virtual {v10, v11, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getResourceId(II)I
 
     .line 664
     .line 665
@@ -2762,7 +3060,8 @@ return-void
 
     .line 668
     .line 669
-    invoke-virtual {v9, v8, v11}, Landroidx/appcompat/widget/AppCompatDrawableManager;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v9, v8, v11}, Landroidx/appcompat/widget/AppCompatDrawableManager;
+    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 670
     .line 671
@@ -2810,16 +3109,19 @@ return-void
 
     .line 687
     :goto_11
-    invoke-direct/range {v0 .. v6}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundDrawables(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
+    invoke-direct/range {v0 .. v6}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->setCompoundDrawables(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
     .line 688
     .line 689
     .line 690
-    sget v1, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableTint:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableTint:I
 
     .line 691
     .line 692
-    invoke-virtual {v10, v1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v10, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 693
     .line 694
@@ -2831,7 +3133,8 @@ return-void
 
     .line 697
     .line 698
-    invoke-virtual {v10, v1}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {v10, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 699
     .line 700
@@ -2839,21 +3142,25 @@ return-void
     move-result-object v1
 
     .line 702
-    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v2, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 703
     .line 704
-    invoke-static {v2, v1}, Landroidx/core/widget/TextViewCompat;->setCompoundDrawableTintList(Landroid/widget/TextView;Landroid/content/res/ColorStateList;)V
+    invoke-static {v2, v1}, Landroidx/core/widget/TextViewCompat;
+    ->setCompoundDrawableTintList(Landroid/widget/TextView;Landroid/content/res/ColorStateList;)V
 
     .line 705
     .line 706
     .line 707
     :cond_27
-    sget v1, Landroidx/appcompat/R$styleable;->AppCompatTextView_drawableTintMode:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_drawableTintMode:I
 
     .line 708
     .line 709
-    invoke-virtual {v10, v1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v10, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 710
     .line 711
@@ -2868,7 +3175,8 @@ return-void
     const/4 v2, -0x1
 
     .line 716
-    invoke-virtual {v10, v1, v2}, Landroidx/appcompat/widget/TintTypedArray;->getInt(II)I
+    invoke-virtual {v10, v1, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getInt(II)I
 
     .line 717
     .line 718
@@ -2879,7 +3187,8 @@ return-void
     const/4 v3, 0x0
 
     .line 721
-    invoke-static {v1, v3}, Landroidx/appcompat/widget/DrawableUtils;->parseTintMode(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {v1, v3}, Landroidx/appcompat/widget/DrawableUtils;
+    ->parseTintMode(ILandroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuff$Mode;
 
     .line 722
     .line 723
@@ -2887,11 +3196,13 @@ return-void
     move-result-object v1
 
     .line 725
-    iget-object v3, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v3, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 726
     .line 727
-    invoke-static {v3, v1}, Landroidx/core/widget/TextViewCompat;->setCompoundDrawableTintMode(Landroid/widget/TextView;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v3, v1}, Landroidx/core/widget/TextViewCompat;
+    ->setCompoundDrawableTintMode(Landroid/widget/TextView;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 728
     .line 729
@@ -2904,11 +3215,13 @@ return-void
 
     .line 732
     :goto_12
-    sget v1, Landroidx/appcompat/R$styleable;->AppCompatTextView_firstBaselineToTopHeight:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_firstBaselineToTopHeight:I
 
     .line 733
     .line 734
-    invoke-virtual {v10, v1, v2}, Landroidx/appcompat/widget/TintTypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {v10, v1, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getDimensionPixelSize(II)I
 
     .line 735
     .line 736
@@ -2916,11 +3229,13 @@ return-void
     move-result v1
 
     .line 738
-    sget v3, Landroidx/appcompat/R$styleable;->AppCompatTextView_lastBaselineToBottomHeight:I
+    sget v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_lastBaselineToBottomHeight:I
 
     .line 739
     .line 740
-    invoke-virtual {v10, v3, v2}, Landroidx/appcompat/widget/TintTypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {v10, v3, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getDimensionPixelSize(II)I
 
     .line 741
     .line 742
@@ -2928,11 +3243,13 @@ return-void
     move-result v3
 
     .line 744
-    sget v2, Landroidx/appcompat/R$styleable;->AppCompatTextView_lineHeight:I
+    sget v2, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView_lineHeight:I
 
     .line 745
     .line 746
-    invoke-virtual {v10, v2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {v10, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 747
     .line 748
@@ -2944,7 +3261,8 @@ return-void
 
     .line 751
     .line 752
-    invoke-virtual {v10, v2}, Landroidx/appcompat/widget/TintTypedArray;->peekValue(I)Landroid/util/TypedValue;
+    invoke-virtual {v10, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->peekValue(I)Landroid/util/TypedValue;
 
     .line 753
     .line 754
@@ -2956,7 +3274,8 @@ return-void
 
     .line 757
     .line 758
-    iget v5, v4, Landroid/util/TypedValue;->type:I
+    iget v5, v4, Landroid/util/TypedValue;
+    ->type:I
 
     .line 759
     .line 760
@@ -2967,11 +3286,13 @@ return-void
 
     .line 762
     .line 763
-    iget v2, v4, Landroid/util/TypedValue;->data:I
+    iget v2, v4, Landroid/util/TypedValue;
+    ->data:I
 
     .line 764
     .line 765
-    invoke-static {v2}, Landroidx/core/util/TypedValueCompat;->getUnitFromComplexDimension(I)I
+    invoke-static {v2}, Landroidx/core/util/TypedValueCompat;
+    ->getUnitFromComplexDimension(I)I
 
     .line 766
     .line 767
@@ -2979,11 +3300,13 @@ return-void
     move-result v2
 
     .line 769
-    iget v4, v4, Landroid/util/TypedValue;->data:I
+    iget v4, v4, Landroid/util/TypedValue;
+    ->data:I
 
     .line 770
     .line 771
-    invoke-static {v4}, Landroid/util/TypedValue;->complexToFloat(I)F
+    invoke-static {v4}, Landroid/util/TypedValue;
+    ->complexToFloat(I)F
 
     .line 772
     .line 773
@@ -3004,7 +3327,8 @@ return-void
     const/4 v4, -0x1
 
     .line 779
-    invoke-virtual {v10, v2, v4}, Landroidx/appcompat/widget/TintTypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {v10, v2, v4}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getDimensionPixelSize(II)I
 
     .line 780
     .line 781
@@ -3036,7 +3360,8 @@ return-void
     .line 790
     .line 791
     :goto_13
-    invoke-virtual {v10}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+    invoke-virtual {v10}, Landroidx/appcompat/widget/TintTypedArray;
+    ->recycle()V
 
     .line 792
     .line 793
@@ -3045,11 +3370,13 @@ return-void
 
     .line 795
     .line 796
-    iget-object v6, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v6, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 797
     .line 798
-    invoke-static {v6, v1}, Landroidx/core/widget/TextViewCompat;->setFirstBaselineToTopHeight(Landroid/widget/TextView;I)V
+    invoke-static {v6, v1}, Landroidx/core/widget/TextViewCompat;
+    ->setFirstBaselineToTopHeight(Landroid/widget/TextView;I)V
 
     .line 799
     .line 800
@@ -3059,11 +3386,13 @@ return-void
 
     .line 802
     .line 803
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 804
     .line 805
-    invoke-static {v1, v3}, Landroidx/core/widget/TextViewCompat;->setLastBaselineToBottomHeight(Landroid/widget/TextView;I)V
+    invoke-static {v1, v3}, Landroidx/core/widget/TextViewCompat;
+    ->setLastBaselineToBottomHeight(Landroid/widget/TextView;I)V
 
     .line 806
     .line 807
@@ -3081,22 +3410,27 @@ return-void
 
     .line 813
     .line 814
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 815
     .line 816
     float-to-int v2, v5
 
     .line 817
-    invoke-static {v1, v2}, Landroidx/core/widget/TextViewCompat;->setLineHeight(Landroid/widget/TextView;I)V    return-void
+    invoke-static {v1, v2}, Landroidx/core/widget/TextViewCompat;
+    ->setLineHeight(Landroid/widget/TextView;I)V    
+    return-void
 
     .line 821
     :cond_2d
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 822
     .line 823
-    invoke-static {v1, v2, v5}, Landroidx/core/widget/TextViewCompat;->setLineHeight(Landroid/widget/TextView;IF)V
+    invoke-static {v1, v2, v5}, Landroidx/core/widget/TextViewCompat;
+    ->setLineHeight(Landroid/widget/TextView;IF)V
 
     .line 824
     .line 825
@@ -3119,7 +3453,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAsyncFontPending:Z
+    iget-boolean v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAsyncFontPending:Z
 
     .line 2
     .line 3
@@ -3127,11 +3462,13 @@ return-void
 
     .line 4
     .line 5
-    iput-object p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iput-object p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -3147,7 +3484,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Landroid/view/View;->isAttachedToWindow()Z
+    invoke-virtual {p1}, Landroid/view/View;
+    ->isAttachedToWindow()Z
 
     .line 16
     .line 17
@@ -3159,7 +3497,8 @@ return-void
 
     .line 20
     .line 21
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 22
     .line 23
@@ -3167,20 +3506,25 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {v1, p0, p1, p2, v0}, Landroidx/appcompat/widget/AppCompatTextHelper$2;-><init>(Landroidx/appcompat/widget/AppCompatTextHelper;Landroid/widget/TextView;Landroid/graphics/Typeface;I)V
+    invoke-direct {v1, p0, p1, p2, v0}, Landroidx/appcompat/widget/AppCompatTextHelper$2;
+    -><init>(Landroidx/appcompat/widget/AppCompatTextHelper;Landroid/widget/TextView;Landroid/graphics/Typeface;I)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {p1, v1}, Landroid/view/View;
+    ->post(Ljava/lang/Runnable;)Z    
+    return-void
 
     .line 32
     :cond_0
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 33
     .line 34
-    invoke-virtual {p1, p2, v0}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
+    invoke-virtual {p1, p2, v0}, Landroid/widget/TextView;
+    ->setTypeface(Landroid/graphics/Typeface;I)V
 
     .line 35
     .line 36
@@ -3193,12 +3537,14 @@ return-void
     .locals 0
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget-boolean p1, Landroidx/appcompat/widget/ViewUtils;->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
+    sget-boolean p1, Landroidx/appcompat/widget/ViewUtils;
+    ->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
 
     .line 2
     .line 3
@@ -3206,7 +3552,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->autoSizeText()V
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->autoSizeText()V
 
     .line 6
     .line 7
@@ -3219,7 +3566,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->applyCompoundDrawablesTints()V
     return-void
 .end method
 
@@ -3227,11 +3575,13 @@ return-void
     .locals 4
 
     .line 1
-    sget-object v0, Landroidx/appcompat/R$styleable;->TextAppearance:[I
+    sget-object v0, Landroidx/appcompat/R$styleable;
+    ->TextAppearance:[I
 
     .line 2
     .line 3
-    invoke-static {p1, p2, v0}, Landroidx/appcompat/widget/TintTypedArray;->obtainStyledAttributes(Landroid/content/Context;I[I)Landroidx/appcompat/widget/TintTypedArray;
+    invoke-static {p1, p2, v0}, Landroidx/appcompat/widget/TintTypedArray;
+    ->obtainStyledAttributes(Landroid/content/Context;I[I)Landroidx/appcompat/widget/TintTypedArray;
 
     .line 4
     .line 5
@@ -3239,11 +3589,13 @@ return-void
     move-result-object p2
 
     .line 7
-    sget v0, Landroidx/appcompat/R$styleable;->TextAppearance_textAllCaps:I
+    sget v0, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_textAllCaps:I
 
     .line 8
     .line 9
-    invoke-virtual {p2, v0}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v0}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 10
     .line 11
@@ -3258,7 +3610,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {p2, v0, v2}, Landroidx/appcompat/widget/TintTypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p2, v0, v2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getBoolean(IZ)Z
 
     .line 17
     .line 18
@@ -3266,13 +3619,15 @@ return-void
     move-result v0
 
     .line 20
-    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setAllCaps(Z)V
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->setAllCaps(Z)V
 
     .line 21
     .line 22
     .line 23
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 24
     .line 25
@@ -3284,11 +3639,13 @@ return-void
 
     .line 28
     .line 29
-    sget v1, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColor:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColor:I
 
     .line 30
     .line 31
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 32
     .line 33
@@ -3300,7 +3657,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 38
     .line 39
@@ -3312,21 +3670,25 @@ return-void
 
     .line 42
     .line 43
-    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 44
     .line 45
-    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;
+    ->setTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 46
     .line 47
     .line 48
     :cond_1
-    sget v1, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColorLink:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColorLink:I
 
     .line 49
     .line 50
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 51
     .line 52
@@ -3338,7 +3700,8 @@ return-void
 
     .line 55
     .line 56
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 57
     .line 58
@@ -3350,21 +3713,25 @@ return-void
 
     .line 61
     .line 62
-    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 63
     .line 64
-    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setLinkTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;
+    ->setLinkTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 65
     .line 66
     .line 67
     :cond_2
-    sget v1, Landroidx/appcompat/R$styleable;->TextAppearance_android_textColorHint:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textColorHint:I
 
     .line 68
     .line 69
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 70
     .line 71
@@ -3376,7 +3743,8 @@ return-void
 
     .line 74
     .line 75
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 76
     .line 77
@@ -3388,21 +3756,25 @@ return-void
 
     .line 80
     .line 81
-    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v3, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 82
     .line 83
-    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setHintTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;
+    ->setHintTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 84
     .line 85
     .line 86
     :cond_3
-    sget v1, Landroidx/appcompat/R$styleable;->TextAppearance_android_textSize:I
+    sget v1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_android_textSize:I
 
     .line 87
     .line 88
-    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, v1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 89
     .line 90
@@ -3417,7 +3789,8 @@ return-void
     const/4 v3, -0x1
 
     .line 95
-    invoke-virtual {p2, v1, v3}, Landroidx/appcompat/widget/TintTypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {p2, v1, v3}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getDimensionPixelSize(II)I
 
     .line 96
     .line 97
@@ -3429,20 +3802,23 @@ return-void
 
     .line 100
     .line 101
-    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 102
     .line 103
     const/4 v3, 0x0
 
     .line 104
-    invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;->setTextSize(IF)V
+    invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;
+    ->setTextSize(IF)V
 
     .line 105
     .line 106
     .line 107
     :cond_4
-    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextHelper;->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->updateTypefaceAndStyle(Landroid/content/Context;Landroidx/appcompat/widget/TintTypedArray;)V
 
     .line 108
     .line 109
@@ -3455,11 +3831,13 @@ return-void
 
     .line 113
     .line 114
-    sget p1, Landroidx/appcompat/R$styleable;->TextAppearance_fontVariationSettings:I
+    sget p1, Landroidx/appcompat/R$styleable;
+    ->TextAppearance_fontVariationSettings:I
 
     .line 115
     .line 116
-    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
+    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->hasValue(I)Z
 
     .line 117
     .line 118
@@ -3471,7 +3849,8 @@ return-void
 
     .line 121
     .line 122
-    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/TintTypedArray;->getString(I)Ljava/lang/String;
+    invoke-virtual {p2, p1}, Landroidx/appcompat/widget/TintTypedArray;
+    ->getString(I)Ljava/lang/String;
 
     .line 123
     .line 124
@@ -3483,22 +3862,26 @@ return-void
 
     .line 127
     .line 128
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 129
     .line 130
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;->setFontVariationSettings(Landroid/widget/TextView;Ljava/lang/String;)Z
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextHelper$Api26Impl;
+    ->setFontVariationSettings(Landroid/widget/TextView;Ljava/lang/String;)Z
 
     .line 131
     .line 132
     .line 133
     :cond_5
-    invoke-virtual {p2}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+    invoke-virtual {p2}, Landroidx/appcompat/widget/TintTypedArray;
+    ->recycle()V
 
     .line 134
     .line 135
     .line 136
-    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mFontTypeface:Landroid/graphics/Typeface;
+    iget-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mFontTypeface:Landroid/graphics/Typeface;
 
     .line 137
     .line 138
@@ -3506,15 +3889,18 @@ return-void
 
     .line 139
     .line 140
-    iget-object p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 141
     .line 142
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mStyle:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mStyle:I
 
     .line 143
     .line 144
-    invoke-virtual {p2, p1, v0}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
+    invoke-virtual {p2, p1, v0}, Landroid/widget/TextView;
+    ->setTypeface(Landroid/graphics/Typeface;I)V
 
     .line 145
     .line 146
@@ -3539,7 +3925,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -3555,7 +3942,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/widget/TextView;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 10
     .line 11
@@ -3563,7 +3951,8 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-static {p3, p1}, Landroidx/core/view/inputmethod/EditorInfoCompat;->setInitialSurroundingText(Landroid/view/inputmethod/EditorInfo;Ljava/lang/CharSequence;)V
+    invoke-static {p3, p1}, Landroidx/core/view/inputmethod/EditorInfoCompat;
+    ->setInitialSurroundingText(Landroid/view/inputmethod/EditorInfo;Ljava/lang/CharSequence;)V
 
     .line 14
     .line 15
@@ -3576,22 +3965,28 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setAllCaps(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroid/widget/TextView;
+    ->setAllCaps(Z)V    
+    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithConfiguration(IIII)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->setAutoSizeTextTypeUniformWithConfiguration(IIII)V    
+    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithPresetSizes([II)V
@@ -3602,22 +3997,28 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeUniformWithPresetSizes([II)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->setAutoSizeTextTypeUniformWithPresetSizes([II)V    
+    return-void
 .end method
 
 .method public setAutoSizeTextTypeWithDefaults(I)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mAutoSizeTextHelper:Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setAutoSizeTextTypeWithDefaults(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->setAutoSizeTextTypeWithDefaults(I)V    
+    return-void
 .end method
 
 .method public setCompoundDrawableTintList(Landroid/content/res/ColorStateList;)V
@@ -3628,7 +4029,8 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 2
     .line 3
@@ -3640,21 +4042,25 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/appcompat/widget/TintInfo;-><init>()V
+    invoke-direct {v0}, Landroidx/appcompat/widget/TintInfo;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 13
     .line 14
-    iput-object p1, v0, Landroidx/appcompat/widget/TintInfo;->mTintList:Landroid/content/res/ColorStateList;
+    iput-object p1, v0, Landroidx/appcompat/widget/TintInfo;
+    ->mTintList:Landroid/content/res/ColorStateList;
 
     .line 15
     .line 16
@@ -3673,11 +4079,13 @@ return-void
 
     .line 21
     :goto_0
-    iput-boolean p1, v0, Landroidx/appcompat/widget/TintInfo;->mHasTintList:Z
+    iput-boolean p1, v0, Landroidx/appcompat/widget/TintInfo;
+    ->mHasTintList:Z
 
     .line 22
     .line 23
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->setCompoundTints()V
     return-void
 .end method
 
@@ -3689,7 +4097,8 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 2
     .line 3
@@ -3701,21 +4110,25 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/appcompat/widget/TintInfo;-><init>()V
+    invoke-direct {v0}, Landroidx/appcompat/widget/TintInfo;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iput-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->mDrawableTint:Landroidx/appcompat/widget/TintInfo;
 
     .line 13
     .line 14
-    iput-object p1, v0, Landroidx/appcompat/widget/TintInfo;->mTintMode:Landroid/graphics/PorterDuff$Mode;
+    iput-object p1, v0, Landroidx/appcompat/widget/TintInfo;
+    ->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
     .line 15
     .line 16
@@ -3734,11 +4147,13 @@ return-void
 
     .line 21
     :goto_0
-    iput-boolean p1, v0, Landroidx/appcompat/widget/TintInfo;->mHasTintMode:Z
+    iput-boolean p1, v0, Landroidx/appcompat/widget/TintInfo;
+    ->mHasTintMode:Z
 
     .line 22
     .line 23
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->setCompoundTints()V
     return-void
 .end method
 
@@ -3746,12 +4161,14 @@ return-void
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/widget/ViewUtils;->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
+    sget-boolean v0, Landroidx/appcompat/widget/ViewUtils;
+    ->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z
 
     .line 2
     .line 3
@@ -3759,7 +4176,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->isAutoSizeEnabled()Z
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->isAutoSizeEnabled()Z
 
     .line 6
     .line 7
@@ -3771,7 +4189,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextHelper;->setTextSizeInternal(IF)V
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextHelper;
+    ->setTextSizeInternal(IF)V
 
     .line 12
     .line 13

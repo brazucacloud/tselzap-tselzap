@@ -26,12 +26,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/lifecycle/LifecycleDispatcher;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/LifecycleDispatcher;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/lifecycle/LifecycleDispatcher;->INSTANCE:Landroidx/lifecycle/LifecycleDispatcher;
+    sput-object v0, Landroidx/lifecycle/LifecycleDispatcher;
+    ->INSTANCE:Landroidx/lifecycle/LifecycleDispatcher;
 
     .line 7
     .line 8
@@ -42,19 +44,22 @@
     const/4 v1, 0x0
 
     .line 11
-    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
+    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    -><init>(Z)V
 
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/lifecycle/LifecycleDispatcher;->initialized:Ljava/util/concurrent/atomic/AtomicBoolean;    return-void
+    sput-object v0, Landroidx/lifecycle/LifecycleDispatcher;
+    ->initialized:Ljava/util/concurrent/atomic/AtomicBoolean;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -66,19 +71,22 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/LifecycleDispatcher;->initialized:Ljava/util/concurrent/atomic/AtomicBoolean;
+    sget-object v0, Landroidx/lifecycle/LifecycleDispatcher;
+    ->initialized:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 7
     .line 8
     const/4 v1, 0x1
 
     .line 9
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
+    ->getAndSet(Z)Z
 
     .line 10
     .line 11
@@ -90,7 +98,8 @@
 
     .line 16
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 17
     .line 18
@@ -102,7 +111,8 @@
 
     .line 21
     .line 22
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -115,12 +125,14 @@
 
     .line 28
     .line 29
-    invoke-direct {v0}, Landroidx/lifecycle/LifecycleDispatcher$DispatcherActivityCallback;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/LifecycleDispatcher$DispatcherActivityCallback;
+    -><init>()V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    invoke-virtual {p0, v0}, Landroid/app/Application;
+    ->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 return-void
 .end method
 

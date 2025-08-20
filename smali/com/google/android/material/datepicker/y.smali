@@ -12,7 +12,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;
+    -><init>()V
 
     .line 2
     .line 3
@@ -21,12 +22,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/material/datepicker/y;->b:Ljava/util/LinkedHashSet;
+    iput-object v0, p0, Lcom/google/android/material/datepicker/y;
+    ->b:Ljava/util/LinkedHashSet;
 
     .line 10
     .line 11

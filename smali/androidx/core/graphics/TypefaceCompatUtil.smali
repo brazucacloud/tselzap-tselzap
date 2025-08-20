@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -22,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -43,7 +45,8 @@
     .line 2
     .line 3
     :try_start_0
-    invoke-interface {p0}, Ljava/io/Closeable;->close()V
+    invoke-interface {p0}, Ljava/io/Closeable;
+    ->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/TypefaceCompatUtil;->getTempFile(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {p0}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->getTempFile(Landroid/content/Context;)Ljava/io/File;
 
     .line 2
     .line 3
@@ -89,7 +93,8 @@
     .line 9
     :cond_0
     :try_start_0
-    invoke-static {p0, p1, p2}, Landroidx/core/graphics/TypefaceCompatUtil;->copyToFile(Ljava/io/File;Landroid/content/res/Resources;I)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->copyToFile(Ljava/io/File;Landroid/content/res/Resources;I)Z
 
     .line 10
     .line 11
@@ -103,7 +108,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Ljava/io/File;->delete()Z
+    invoke-virtual {p0}, Ljava/io/File;
+    ->delete()Z
 
     .line 16
     .line 17
@@ -113,7 +119,8 @@
     .line 19
     :cond_1
     :try_start_1
-    invoke-static {p0}, Landroidx/core/graphics/TypefaceCompatUtil;->mmap(Ljava/io/File;)Ljava/nio/ByteBuffer;
+    invoke-static {p0}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->mmap(Ljava/io/File;)Ljava/nio/ByteBuffer;
 
     .line 20
     .line 21
@@ -123,7 +130,8 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 23
-    invoke-virtual {p0}, Ljava/io/File;->delete()Z
+    invoke-virtual {p0}, Ljava/io/File;
+    ->delete()Z
 
     .line 24
     .line 25
@@ -135,7 +143,8 @@
     move-exception p1
 
     .line 28
-    invoke-virtual {p0}, Ljava/io/File;->delete()Z
+    invoke-virtual {p0}, Ljava/io/File;
+    ->delete()Z
 
     .line 29
     .line 30
@@ -242,7 +251,8 @@
 
     .line 14
     :try_start_0
-    invoke-virtual {p1, p2}, Landroid/content/res/Resources;->openRawResource(I)Ljava/io/InputStream;
+    invoke-virtual {p1, p2}, Landroid/content/res/Resources;
+    ->openRawResource(I)Ljava/io/InputStream;
 
     move-result-object p1
     :try_end_0
@@ -250,14 +260,16 @@
 
     .line 15
     :try_start_1
-    invoke-static {p0, p1}, Landroidx/core/graphics/TypefaceCompatUtil;->copyToFile(Ljava/io/File;Ljava/io/InputStream;)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->copyToFile(Ljava/io/File;Ljava/io/InputStream;)Z
 
     move-result p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 16
-    invoke-static {p1}, Landroidx/core/graphics/TypefaceCompatUtil;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {p1}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     return p0
 
@@ -272,7 +284,8 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {p1}, Landroidx/core/graphics/TypefaceCompatUtil;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {p1}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 17
     throw p0
@@ -290,7 +303,8 @@
     .end param
 
     .line 1
-    invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskWrites()Landroid/os/StrictMode$ThreadPolicy;
+    invoke-static {}, Landroid/os/StrictMode;
+    ->allowThreadDiskWrites()Landroid/os/StrictMode$ThreadPolicy;
 
     move-result-object v0
 
@@ -302,7 +316,8 @@
     :try_start_0
     new-instance v3, Ljava/io/FileOutputStream;
 
-    invoke-direct {v3, p0, v1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;Z)V
+    invoke-direct {v3, p0, v1}, Ljava/io/FileOutputStream;
+    -><init>(Ljava/io/File;Z)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
@@ -315,7 +330,8 @@
 
     .line 4
     :goto_0
-    invoke-virtual {p1, p0}, Ljava/io/InputStream;->read([B)I
+    invoke-virtual {p1, p0}, Ljava/io/InputStream;
+    ->read([B)I
 
     move-result v2
 
@@ -324,7 +340,8 @@
     if-eq v2, v4, :cond_0
 
     .line 5
-    invoke-virtual {v3, p0, v1, v2}, Ljava/io/FileOutputStream;->write([BII)V
+    invoke-virtual {v3, p0, v1, v2}, Ljava/io/FileOutputStream;
+    ->write([BII)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -347,10 +364,12 @@
 
     .line 6
     :cond_0
-    invoke-static {v3}, Landroidx/core/graphics/TypefaceCompatUtil;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {v3}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 7
-    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;
+    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     const/4 p0, 0x1
 
@@ -371,40 +390,50 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     const-string v4, "Error copying resource contents to temp file: "
 
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {p1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p1, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     .line 9
-    invoke-static {v2}, Landroidx/core/graphics/TypefaceCompatUtil;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {v2}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 10
-    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;
+    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     return v1
 
     .line 11
     :goto_2
-    invoke-static {v2}, Landroidx/core/graphics/TypefaceCompatUtil;->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {v2}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->closeQuietly(Ljava/io/Closeable;)V
 
     .line 12
-    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;
+    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 13
     throw p0
@@ -420,7 +449,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getCacheDir()Ljava/io/File;
 
     .line 2
     .line 3
@@ -447,12 +477,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {}, Landroid/os/Process;->myPid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myPid()I
 
     .line 17
     .line 18
@@ -460,7 +492,8 @@
     move-result v2
 
     .line 20
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -469,12 +502,14 @@
 
     .line 24
     .line 25
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Landroid/os/Process;->myTid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myTid()I
 
     .line 29
     .line 30
@@ -482,17 +517,20 @@
     move-result v3
 
     .line 32
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -520,22 +558,26 @@
 
     .line 50
     .line 51
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -543,13 +585,15 @@
     move-result-object v4
 
     .line 64
-    invoke-direct {v3, p0, v4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v3, p0, v4}, Ljava/io/File;
+    -><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
     :try_start_0
-    invoke-virtual {v3}, Ljava/io/File;->createNewFile()Z
+    invoke-virtual {v3}, Ljava/io/File;
+    ->createNewFile()Z
 
     .line 68
     .line 69
@@ -597,7 +641,8 @@
     .end annotation
 
     .line 7
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
 
@@ -607,7 +652,8 @@
     :try_start_0
     const-string v0, "r"
 
-    invoke-virtual {p0, p2, v0, p1}, Landroid/content/ContentResolver;->openFileDescriptor(Landroid/net/Uri;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/os/ParcelFileDescriptor;
+    invoke-virtual {p0, p2, v0, p1}, Landroid/content/ContentResolver;
+    ->openFileDescriptor(Landroid/net/Uri;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/os/ParcelFileDescriptor;
 
     move-result-object p0
 
@@ -616,7 +662,8 @@
     if-eqz p0, :cond_0
 
     .line 9
-    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;->close()V
+    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;
+    ->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -628,31 +675,37 @@
     :try_start_1
     new-instance p1, Ljava/io/FileInputStream;
 
-    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;
+    ->getFileDescriptor()Ljava/io/FileDescriptor;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Ljava/io/FileInputStream;-><init>(Ljava/io/FileDescriptor;)V
+    invoke-direct {p1, p2}, Ljava/io/FileInputStream;
+    -><init>(Ljava/io/FileDescriptor;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 11
     :try_start_2
-    invoke-virtual {p1}, Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
+    invoke-virtual {p1}, Ljava/io/FileInputStream;
+    ->getChannel()Ljava/nio/channels/FileChannel;
 
     move-result-object v2
 
     .line 12
-    invoke-virtual {v2}, Ljava/nio/channels/FileChannel;->size()J
+    invoke-virtual {v2}, Ljava/nio/channels/FileChannel;
+    ->size()J
 
     move-result-wide v6
 
     .line 13
-    sget-object v3, Ljava/nio/channels/FileChannel$MapMode;->READ_ONLY:Ljava/nio/channels/FileChannel$MapMode;
+    sget-object v3, Ljava/nio/channels/FileChannel$MapMode;
+    ->READ_ONLY:Ljava/nio/channels/FileChannel$MapMode;
 
     const-wide/16 v4, 0x0
 
-    invoke-virtual/range {v2 .. v7}, Ljava/nio/channels/FileChannel;->map(Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
+    invoke-virtual/range {v2 .. v7}, Ljava/nio/channels/FileChannel;
+    ->map(Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
 
     move-result-object p2
     :try_end_2
@@ -660,13 +713,15 @@
 
     .line 14
     :try_start_3
-    invoke-virtual {p1}, Ljava/io/FileInputStream;->close()V
+    invoke-virtual {p1}, Ljava/io/FileInputStream;
+    ->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     .line 15
     :try_start_4
-    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;->close()V
+    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;
+    ->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
 
@@ -686,7 +741,8 @@
 
     .line 16
     :try_start_5
-    invoke-virtual {p1}, Ljava/io/FileInputStream;->close()V
+    invoke-virtual {p1}, Ljava/io/FileInputStream;
+    ->close()V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
@@ -698,7 +754,8 @@
     move-object p1, v0
 
     :try_start_6
-    invoke-virtual {p2, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p2, p1}, Ljava/lang/Throwable;
+    ->addSuppressed(Ljava/lang/Throwable;)V
 
     :goto_0
     throw p2
@@ -708,7 +765,8 @@
     .line 17
     :goto_1
     :try_start_7
-    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;->close()V
+    invoke-virtual {p0}, Landroid/os/ParcelFileDescriptor;
+    ->close()V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_3
 
@@ -720,7 +778,8 @@
     move-object p0, v0
 
     :try_start_8
-    invoke-virtual {p1, p0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p1, p0}, Ljava/lang/Throwable;
+    ->addSuppressed(Ljava/lang/Throwable;)V
 
     :goto_2
     throw p1
@@ -740,27 +799,32 @@
     :try_start_0
     new-instance v1, Ljava/io/FileInputStream;
 
-    invoke-direct {v1, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+    invoke-direct {v1, p0}, Ljava/io/FileInputStream;
+    -><init>(Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 2
     :try_start_1
-    invoke-virtual {v1}, Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
+    invoke-virtual {v1}, Ljava/io/FileInputStream;
+    ->getChannel()Ljava/nio/channels/FileChannel;
 
     move-result-object v2
 
     .line 3
-    invoke-virtual {v2}, Ljava/nio/channels/FileChannel;->size()J
+    invoke-virtual {v2}, Ljava/nio/channels/FileChannel;
+    ->size()J
 
     move-result-wide v6
 
     .line 4
-    sget-object v3, Ljava/nio/channels/FileChannel$MapMode;->READ_ONLY:Ljava/nio/channels/FileChannel$MapMode;
+    sget-object v3, Ljava/nio/channels/FileChannel$MapMode;
+    ->READ_ONLY:Ljava/nio/channels/FileChannel$MapMode;
 
     const-wide/16 v4, 0x0
 
-    invoke-virtual/range {v2 .. v7}, Ljava/nio/channels/FileChannel;->map(Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
+    invoke-virtual/range {v2 .. v7}, Ljava/nio/channels/FileChannel;
+    ->map(Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
 
     move-result-object p0
     :try_end_1
@@ -768,7 +832,8 @@
 
     .line 5
     :try_start_2
-    invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
+    invoke-virtual {v1}, Ljava/io/FileInputStream;
+    ->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -781,7 +846,8 @@
 
     .line 6
     :try_start_3
-    invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
+    invoke-virtual {v1}, Ljava/io/FileInputStream;
+    ->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -791,7 +857,8 @@
     move-exception v0
 
     :try_start_4
-    invoke-virtual {p0, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, v0}, Ljava/lang/Throwable;
+    ->addSuppressed(Ljava/lang/Throwable;)V
 
     :goto_0
     throw p0
@@ -823,7 +890,8 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -847,7 +915,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 4
     .line 5
@@ -867,7 +936,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {v3}, Landroidx/core/provider/FontsContractCompat$FontInfo;->getResultCode()I
+    invoke-virtual {v3}, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->getResultCode()I
 
     .line 13
     .line 14
@@ -883,7 +953,8 @@
 
     .line 19
     :cond_0
-    invoke-virtual {v3}, Landroidx/core/provider/FontsContractCompat$FontInfo;->getUri()Landroid/net/Uri;
+    invoke-virtual {v3}, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->getUri()Landroid/net/Uri;
 
     .line 20
     .line 21
@@ -891,7 +962,8 @@
     move-result-object v3
 
     .line 23
-    invoke-virtual {v0, v3}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/util/HashMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -907,7 +979,8 @@
 
     .line 30
     :cond_1
-    invoke-static {p0, p2, v3}, Landroidx/core/graphics/TypefaceCompatUtil;->mmap(Landroid/content/Context;Landroid/os/CancellationSignal;Landroid/net/Uri;)Ljava/nio/ByteBuffer;
+    invoke-static {p0, p2, v3}, Landroidx/core/graphics/TypefaceCompatUtil;
+    ->mmap(Landroid/content/Context;Landroid/os/CancellationSignal;Landroid/net/Uri;)Ljava/nio/ByteBuffer;
 
     .line 31
     .line 32
@@ -915,7 +988,8 @@
     move-result-object v4
 
     .line 34
-    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -929,7 +1003,8 @@
 
     .line 40
     :cond_2
-    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;
+    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 41
     .line 42

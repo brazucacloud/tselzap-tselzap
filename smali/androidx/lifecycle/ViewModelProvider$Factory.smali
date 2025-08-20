@@ -28,9 +28,11 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    sget-object v0, Landroidx/lifecycle/ViewModelProvider$Factory$Companion;->$$INSTANCE:Landroidx/lifecycle/ViewModelProvider$Factory$Companion;
+    sget-object v0, Landroidx/lifecycle/ViewModelProvider$Factory$Companion;
+    ->$$INSTANCE:Landroidx/lifecycle/ViewModelProvider$Factory$Companion;
 
-    sput-object v0, Landroidx/lifecycle/ViewModelProvider$Factory;->Companion:Landroidx/lifecycle/ViewModelProvider$Factory$Companion;
+    sput-object v0, Landroidx/lifecycle/ViewModelProvider$Factory;
+    ->Companion:Landroidx/lifecycle/ViewModelProvider$Factory$Companion;
 
     return-void
 .end method

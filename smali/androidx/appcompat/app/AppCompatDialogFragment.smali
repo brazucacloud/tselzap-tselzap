@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;
+    -><init>()V
     return-void
 .end method
 
@@ -20,7 +21,8 @@
     .end param
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/fragment/app/DialogFragment;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/fragment/app/DialogFragment;
+    -><init>(I)V
 return-void
 .end method
 
@@ -40,7 +42,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -48,7 +51,8 @@ return-void
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0}, Landroidx/fragment/app/DialogFragment;->getTheme()I
+    invoke-virtual {p0}, Landroidx/fragment/app/DialogFragment;
+    ->getTheme()I
 
     .line 8
     .line 9
@@ -56,7 +60,8 @@ return-void
     move-result v1
 
     .line 11
-    invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;
+    -><init>(Landroid/content/Context;I)V
     return-object p1
 .end method
 
@@ -68,7 +73,8 @@ return-void
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -109,7 +115,8 @@ return-void
 
     .line 18
     :cond_0
-    invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Dialog;
+    ->getWindow()Landroid/view/Window;
 
     .line 19
     .line 20
@@ -121,17 +128,21 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {p1, p2}, Landroid/view/Window;->addFlags(I)V
+    invoke-virtual {p1, p2}, Landroid/view/Window;
+    ->addFlags(I)V
 
     .line 25
     .line 26
     .line 27
     :cond_1
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDialog;
+    ->supportRequestWindowFeature(I)Z    
+    return-void
 
     .line 31
     :cond_2
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;->setupDialog(Landroid/app/Dialog;I)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;
+    ->setupDialog(Landroid/app/Dialog;I)V
 return-void
 .end method
 

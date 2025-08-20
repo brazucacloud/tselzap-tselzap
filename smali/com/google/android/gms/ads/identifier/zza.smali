@@ -12,11 +12,13 @@
     .locals 0
 
     .line 1
-    iput-object p2, p0, Lcom/google/android/gms/ads/identifier/zza;->zza:Ljava/util/Map;
+    iput-object p2, p0, Lcom/google/android/gms/ads/identifier/zza;
+    ->zza:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Thread;
+    -><init>()V
 
     .line 4
     .line 5
@@ -30,7 +32,8 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/ads/identifier/zza;->zza:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/ads/identifier/zza;
+    ->zza:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -38,7 +41,8 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v1}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 6
     .line 7
@@ -46,7 +50,8 @@
     move-result-object v1
 
     .line 9
-    invoke-virtual {v1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
+    invoke-virtual {v1}, Landroid/net/Uri;
+    ->buildUpon()Landroid/net/Uri$Builder;
 
     .line 10
     .line 11
@@ -54,7 +59,8 @@
     move-result-object v1
 
     .line 13
-    invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     .line 14
     .line 15
@@ -62,7 +68,8 @@
     move-result-object v2
 
     .line 17
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 18
     .line 19
@@ -71,7 +78,8 @@
 
     .line 21
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 22
     .line 23
@@ -83,7 +91,8 @@
 
     .line 26
     .line 27
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -95,7 +104,8 @@
 
     .line 32
     .line 33
-    invoke-interface {v0, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v3}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -107,7 +117,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, v3, v4}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
+    invoke-virtual {v1, v3, v4}, Landroid/net/Uri$Builder;
+    ->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     .line 40
     .line 41
@@ -116,7 +127,8 @@
 
     .line 43
     :cond_0
-    invoke-virtual {v1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
+    invoke-virtual {v1}, Landroid/net/Uri$Builder;
+    ->build()Landroid/net/Uri;
 
     .line 44
     .line 45
@@ -124,7 +136,8 @@
     move-result-object v0
 
     .line 47
-    invoke-virtual {v0}, Landroid/net/Uri;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/net/Uri;
+    ->toString()Ljava/lang/String;
 
     .line 48
     .line 49
@@ -132,7 +145,8 @@
     move-result-object v0
 
     .line 51
-    invoke-static {v0}, Lcom/google/android/gms/ads/identifier/zzc;->zza(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/google/android/gms/ads/identifier/zzc;
+    ->zza(Ljava/lang/String;)V
 
     .line 52
     .line 53

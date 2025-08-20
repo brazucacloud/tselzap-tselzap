@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/view/PointerIcon;->create(Landroid/graphics/Bitmap;FF)Landroid/view/PointerIcon;
+    invoke-static {p0, p1, p2}, Landroid/view/PointerIcon;
+    ->create(Landroid/graphics/Bitmap;FF)Landroid/view/PointerIcon;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/view/PointerIcon;->getSystemIcon(Landroid/content/Context;I)Landroid/view/PointerIcon;
+    invoke-static {p0, p1}, Landroid/view/PointerIcon;
+    ->getSystemIcon(Landroid/content/Context;I)Landroid/view/PointerIcon;
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/view/PointerIcon;->load(Landroid/content/res/Resources;I)Landroid/view/PointerIcon;
+    invoke-static {p0, p1}, Landroid/view/PointerIcon;
+    ->load(Landroid/content/res/Resources;I)Landroid/view/PointerIcon;
 
     .line 2
     .line 3

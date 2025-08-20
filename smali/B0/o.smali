@@ -22,7 +22,8 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-static {p0, v0}, Ljava/lang/Math;->max(II)I
+    invoke-static {p0, v0}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 3
     .line 4
@@ -46,7 +47,8 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, Ljava/lang/Integer;->highestOneBit(I)I
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->highestOneBit(I)I
 
     .line 15
     .line 16
@@ -127,7 +129,8 @@
 
     .line 48
     .line 49
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -185,7 +188,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, LB0/o;->g(I)I
+    invoke-static {p0}, LB0/o;
+    ->g(I)I
 
     .line 8
     .line 9
@@ -223,7 +227,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v7}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v7}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 25
     .line 26
@@ -231,7 +236,8 @@
     move-result v9
 
     .line 28
-    invoke-static {v9}, La/a;->O(I)I
+    invoke-static {v9}, La/a;
+    ->O(I)I
 
     .line 29
     .line 30
@@ -274,7 +280,8 @@
 
     .line 47
     :cond_0
-    invoke-virtual {v12, v7}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v12, v7}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 48
     .line 49
@@ -315,7 +322,8 @@
 
     .line 64
     .line 65
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
     .line 66
     .line 67
@@ -324,17 +332,20 @@
 
     .line 69
     .line 70
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 77
     .line 78
@@ -342,7 +353,8 @@
     move-result-object p1
 
     .line 80
-    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -354,7 +366,8 @@
     const/4 v3, 0x0
 
     .line 85
-    invoke-static {p1, v6, p0, v3}, Ljava/util/Arrays;->fill([Ljava/lang/Object;IILjava/lang/Object;)V
+    invoke-static {p1, v6, p0, v3}, Ljava/util/Arrays;
+    ->fill([Ljava/lang/Object;IILjava/lang/Object;)V
 
     .line 86
     .line 87
@@ -367,7 +380,8 @@
 
     .line 91
     .line 92
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 93
     .line 94
@@ -376,7 +390,8 @@
 
     .line 96
     .line 97
-    invoke-direct {p1, p0}, LB0/A;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p0}, LB0/A;
+    -><init>(Ljava/lang/Object;)V
 
     .line 98
     .line 99
@@ -385,7 +400,8 @@
 
     .line 101
     :cond_4
-    invoke-static {v6}, LB0/o;->g(I)I
+    invoke-static {v6}, LB0/o;
+    ->g(I)I
 
     .line 102
     .line 103
@@ -401,7 +417,8 @@
 
     .line 108
     .line 109
-    invoke-static {v6, p1}, LB0/o;->h(I[Ljava/lang/Object;)LB0/o;
+    invoke-static {v6, p1}, LB0/o;
+    ->h(I[Ljava/lang/Object;)LB0/o;
 
     .line 110
     .line 111
@@ -430,7 +447,8 @@
 
     .line 121
     .line 122
-    invoke-static {p1, v6}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p1, v6}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 123
     .line 124
@@ -446,7 +464,8 @@
 
     .line 128
     .line 129
-    invoke-direct/range {v3 .. v8}, LB0/x;-><init>(III[Ljava/lang/Object;[Ljava/lang/Object;)V
+    invoke-direct/range {v3 .. v8}, LB0/x;
+    -><init>(III[Ljava/lang/Object;[Ljava/lang/Object;)V
 
     .line 130
     .line 131
@@ -459,7 +478,8 @@
 
     .line 134
     .line 135
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 136
     .line 137
@@ -468,7 +488,8 @@
 
     .line 139
     .line 140
-    invoke-direct {p1, p0}, LB0/A;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p0}, LB0/A;
+    -><init>(Ljava/lang/Object;)V
 
     .line 141
     .line 142
@@ -477,7 +498,8 @@
 
     .line 144
     :cond_8
-    sget-object p0, LB0/x;->k:LB0/x;
+    sget-object p0, LB0/x;
+    ->k:LB0/x;
 
     .line 145
     .line 146
@@ -527,7 +549,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -540,7 +563,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, LB0/o;->hashCode()I
+    invoke-virtual {p0}, LB0/o;
+    ->hashCode()I
 
     .line 25
     .line 26
@@ -548,7 +572,8 @@
     move-result v1
 
     .line 28
-    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 29
     .line 30
@@ -585,7 +610,8 @@
     .line 43
     .line 44
     :try_start_0
-    invoke-interface {p0}, Ljava/util/Set;->size()I
+    invoke-interface {p0}, Ljava/util/Set;
+    ->size()I
 
     .line 45
     .line 46
@@ -593,7 +619,8 @@
     move-result v1
 
     .line 48
-    invoke-interface {p1}, Ljava/util/Set;->size()I
+    invoke-interface {p1}, Ljava/util/Set;
+    ->size()I
 
     .line 49
     .line 50
@@ -605,7 +632,8 @@
 
     .line 53
     .line 54
-    invoke-interface {p0, p1}, Ljava/util/Set;->containsAll(Ljava/util/Collection;)Z
+    invoke-interface {p0, p1}, Ljava/util/Set;
+    ->containsAll(Ljava/util/Collection;)Z
 
     .line 55
     .line 56
@@ -633,7 +661,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/o;->c:LB0/k;
+    iget-object v0, p0, LB0/o;
+    ->c:LB0/k;
 
     .line 2
     .line 3
@@ -641,7 +670,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, LB0/o;->i()LB0/k;
+    invoke-virtual {p0}, LB0/o;
+    ->i()LB0/k;
 
     .line 6
     .line 7
@@ -649,7 +679,8 @@
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, LB0/o;->c:LB0/k;
+    iput-object v0, p0, LB0/o;
+    ->c:LB0/k;
 
     .line 10
     .line 11
@@ -661,7 +692,8 @@
     .locals 4
 
     .line 1
-    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 2
     .line 3
@@ -676,7 +708,8 @@
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -688,7 +721,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -700,7 +734,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v3}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v3}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 20
     .line 21
@@ -736,11 +771,13 @@
     .locals 2
 
     .line 1
-    sget-object v0, LB0/h;->b:[Ljava/lang/Object;
+    sget-object v0, LB0/h;
+    ->b:[Ljava/lang/Object;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, LB0/h;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {p0, v0}, LB0/h;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -748,14 +785,16 @@
     move-result-object v0
 
     .line 7
-    sget-object v1, LB0/k;->c:LB0/i;
+    sget-object v1, LB0/k;
+    ->c:LB0/i;
 
     .line 8
     .line 9
     array-length v1, v0
 
     .line 10
-    invoke-static {v1, v0}, LB0/k;->f(I[Ljava/lang/Object;)LB0/r;
+    invoke-static {v1, v0}, LB0/k;
+    ->f(I[Ljava/lang/Object;)LB0/r;
 
     .line 11
     .line 12

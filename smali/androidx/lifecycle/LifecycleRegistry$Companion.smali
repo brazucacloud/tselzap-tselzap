@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/LifecycleRegistry$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/LifecycleRegistry$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -43,7 +45,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -58,7 +61,8 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-direct {v0, p1, v1, v2}, Landroidx/lifecycle/LifecycleRegistry;-><init>(Landroidx/lifecycle/LifecycleOwner;ZLkotlin/jvm/internal/e;)V
+    invoke-direct {v0, p1, v1, v2}, Landroidx/lifecycle/LifecycleRegistry;
+    -><init>(Landroidx/lifecycle/LifecycleOwner;ZLkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 
@@ -70,7 +74,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -79,7 +84,8 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-virtual {p2, p1}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
+    invoke-virtual {p2, p1}, Ljava/lang/Enum;
+    ->compareTo(Ljava/lang/Enum;)I
 
     .line 9
     .line 10

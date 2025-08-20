@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
+    invoke-direct {p0}, Landroid/os/AsyncTask;
+    -><init>()V
 
     .line 2
     .line 3
@@ -46,7 +47,8 @@
 
     .line 6
     .line 7
-    invoke-direct {v2}, Lcom/fmark/tselzap/License/classes/AppLicenseCheckModel;-><init>()V
+    invoke-direct {v2}, Lcom/fmark/tselzap/License/classes/AppLicenseCheckModel;
+    -><init>()V
 
     .line 8
     .line 9
@@ -56,12 +58,14 @@
 
     .line 11
     .line 12
-    invoke-direct {v3}, Lcom/fmark/tselzap/License/clsLBLicense;-><init>()V
+    invoke-direct {v3}, Lcom/fmark/tselzap/License/clsLBLicense;
+    -><init>()V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
+    invoke-static {v0}, Lokhttp3/MediaType;
+    ->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     .line 16
     .line 17
@@ -69,7 +73,8 @@
     move-result-object v3
 
     .line 19
-    invoke-static {v3, p1}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;Ljava/lang/String;)Lokhttp3/RequestBody;
+    invoke-static {v3, p1}, Lokhttp3/RequestBody;
+    ->create(Lokhttp3/MediaType;Ljava/lang/String;)Lokhttp3/RequestBody;
 
     .line 20
     .line 21
@@ -81,7 +86,8 @@
 
     .line 24
     .line 25
-    invoke-direct {v3}, Lokhttp3/Request$Builder;-><init>()V
+    invoke-direct {v3}, Lokhttp3/Request$Builder;
+    -><init>()V
 
     .line 26
     .line 27
@@ -90,16 +96,19 @@
 
     .line 29
     .line 30
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 31
     .line 32
     .line 33
-    sget-object v5, Lcom/fmark/tselzap/License/clsLBLicense;->myServerURL:Ljava/lang/String;
+    sget-object v5, Lcom/fmark/tselzap/License/clsLBLicense;
+    ->myServerURL:Ljava/lang/String;
 
     .line 34
     .line 35
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
@@ -108,12 +117,14 @@
 
     .line 39
     .line 40
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -121,7 +132,8 @@
     move-result-object v4
 
     .line 47
-    invoke-virtual {v3, v4}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {v3, v4}, Lokhttp3/Request$Builder;
+    ->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 48
     .line 49
@@ -129,7 +141,8 @@
     move-result-object v3
 
     .line 51
-    invoke-virtual {v3, p1}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+    invoke-virtual {v3, p1}, Lokhttp3/Request$Builder;
+    ->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     .line 52
     .line 53
@@ -141,7 +154,8 @@
 
     .line 56
     .line 57
-    invoke-virtual {p1, v3, v0}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, v3, v0}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 58
     .line 59
@@ -153,11 +167,13 @@
 
     .line 62
     .line 63
-    sget-object v3, Lcom/fmark/tselzap/License/clsLBLicense;->myServerAPIKey:Ljava/lang/String;
+    sget-object v3, Lcom/fmark/tselzap/License/clsLBLicense;
+    ->myServerAPIKey:Ljava/lang/String;
 
     .line 64
     .line 65
-    invoke-virtual {p1, v0, v3}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, v0, v3}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 66
     .line 67
@@ -173,12 +189,14 @@
 
     .line 72
     .line 73
-    invoke-direct {v3, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 77
     .line 78
@@ -187,12 +205,14 @@
 
     .line 80
     .line 81
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 85
     .line 86
@@ -200,7 +220,8 @@
     move-result-object p2
 
     .line 88
-    invoke-virtual {p1, v0, p2}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, v0, p2}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 89
     .line 90
@@ -212,7 +233,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {p1, p2, p3}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, p2, p3}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 95
     .line 96
@@ -220,7 +242,8 @@
     move-result-object p1
 
     .line 98
-    invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+    invoke-virtual {p1}, Lokhttp3/Request$Builder;
+    ->build()Lokhttp3/Request;
 
     .line 99
     .line 100
@@ -232,12 +255,14 @@
 
     .line 103
     .line 104
-    invoke-direct {p2}, Lokhttp3/OkHttpClient;-><init>()V
+    invoke-direct {p2}, Lokhttp3/OkHttpClient;
+    -><init>()V
 
     .line 105
     .line 106
     .line 107
-    invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
+    invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;
+    ->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     .line 108
     .line 109
@@ -245,7 +270,8 @@
     move-result-object p1
 
     .line 111
-    invoke-interface {p1}, Lokhttp3/Call;->execute()Lokhttp3/Response;
+    invoke-interface {p1}, Lokhttp3/Call;
+    ->execute()Lokhttp3/Response;
 
     .line 112
     .line 113
@@ -257,7 +283,8 @@
 
     .line 116
     .line 117
-    invoke-direct {p2}, Lcom/google/gson/Gson;-><init>()V
+    invoke-direct {p2}, Lcom/google/gson/Gson;
+    -><init>()V
 
     .line 118
     .line 119
@@ -266,7 +293,8 @@
 
     .line 121
     .line 122
-    invoke-virtual {p1, v0, v1}, Lokhttp3/Response;->peekBody(J)Lokhttp3/ResponseBody;
+    invoke-virtual {p1, v0, v1}, Lokhttp3/Response;
+    ->peekBody(J)Lokhttp3/ResponseBody;
 
     .line 123
     .line 124
@@ -274,7 +302,8 @@
     move-result-object p1
 
     .line 126
-    invoke-virtual {p1}, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
+    invoke-virtual {p1}, Lokhttp3/ResponseBody;
+    ->string()Ljava/lang/String;
 
     .line 127
     .line 128
@@ -286,7 +315,8 @@
 
     .line 131
     .line 132
-    invoke-virtual {p2, p1, p3}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p2, p1, p3}, Lcom/google/gson/Gson;
+    ->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 133
     .line 134
@@ -323,7 +353,8 @@
 
     .line 6
     .line 7
-    invoke-direct {v2}, Lcom/fmark/tselzap/License/classes/AppLicenseCheckModel;-><init>()V
+    invoke-direct {v2}, Lcom/fmark/tselzap/License/classes/AppLicenseCheckModel;
+    -><init>()V
 
     .line 8
     .line 9
@@ -333,12 +364,14 @@
 
     .line 11
     .line 12
-    invoke-direct {v3}, Lcom/fmark/tselzap/License/clsLBLicense;-><init>()V
+    invoke-direct {v3}, Lcom/fmark/tselzap/License/clsLBLicense;
+    -><init>()V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
+    invoke-static {v0}, Lokhttp3/MediaType;
+    ->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     .line 16
     .line 17
@@ -346,7 +379,8 @@
     move-result-object v3
 
     .line 19
-    invoke-static {v3, p1}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;Ljava/lang/String;)Lokhttp3/RequestBody;
+    invoke-static {v3, p1}, Lokhttp3/RequestBody;
+    ->create(Lokhttp3/MediaType;Ljava/lang/String;)Lokhttp3/RequestBody;
 
     .line 20
     .line 21
@@ -358,7 +392,8 @@
 
     .line 24
     .line 25
-    invoke-direct {v3}, Lokhttp3/Request$Builder;-><init>()V
+    invoke-direct {v3}, Lokhttp3/Request$Builder;
+    -><init>()V
 
     .line 26
     .line 27
@@ -367,16 +402,19 @@
 
     .line 29
     .line 30
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 31
     .line 32
     .line 33
-    sget-object v5, Lcom/fmark/tselzap/License/clsLBLicense;->myServerURL:Ljava/lang/String;
+    sget-object v5, Lcom/fmark/tselzap/License/clsLBLicense;
+    ->myServerURL:Ljava/lang/String;
 
     .line 34
     .line 35
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
@@ -385,12 +423,14 @@
 
     .line 39
     .line 40
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -398,7 +438,8 @@
     move-result-object v4
 
     .line 47
-    invoke-virtual {v3, v4}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {v3, v4}, Lokhttp3/Request$Builder;
+    ->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 48
     .line 49
@@ -406,7 +447,8 @@
     move-result-object v3
 
     .line 51
-    invoke-virtual {v3, p1}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+    invoke-virtual {v3, p1}, Lokhttp3/Request$Builder;
+    ->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     .line 52
     .line 53
@@ -418,7 +460,8 @@
 
     .line 56
     .line 57
-    invoke-virtual {p1, v3, v0}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, v3, v0}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 58
     .line 59
@@ -430,11 +473,13 @@
 
     .line 62
     .line 63
-    sget-object v3, Lcom/fmark/tselzap/License/clsLBLicense;->myServerAPIKey:Ljava/lang/String;
+    sget-object v3, Lcom/fmark/tselzap/License/clsLBLicense;
+    ->myServerAPIKey:Ljava/lang/String;
 
     .line 64
     .line 65
-    invoke-virtual {p1, v0, v3}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, v0, v3}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 66
     .line 67
@@ -450,12 +495,14 @@
 
     .line 72
     .line 73
-    invoke-direct {v3, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 77
     .line 78
@@ -464,12 +511,14 @@
 
     .line 80
     .line 81
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 85
     .line 86
@@ -477,7 +526,8 @@
     move-result-object p2
 
     .line 88
-    invoke-virtual {p1, v0, p2}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, v0, p2}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 89
     .line 90
@@ -489,7 +539,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {p1, p2, p3}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {p1, p2, p3}, Lokhttp3/Request$Builder;
+    ->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     .line 95
     .line 96
@@ -497,7 +548,8 @@
     move-result-object p1
 
     .line 98
-    invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+    invoke-virtual {p1}, Lokhttp3/Request$Builder;
+    ->build()Lokhttp3/Request;
 
     .line 99
     .line 100
@@ -509,12 +561,14 @@
 
     .line 103
     .line 104
-    invoke-direct {p2}, Lokhttp3/OkHttpClient;-><init>()V
+    invoke-direct {p2}, Lokhttp3/OkHttpClient;
+    -><init>()V
 
     .line 105
     .line 106
     .line 107
-    invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
+    invoke-virtual {p2, p1}, Lokhttp3/OkHttpClient;
+    ->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     .line 108
     .line 109
@@ -522,7 +576,8 @@
     move-result-object p1
 
     .line 111
-    invoke-interface {p1}, Lokhttp3/Call;->execute()Lokhttp3/Response;
+    invoke-interface {p1}, Lokhttp3/Call;
+    ->execute()Lokhttp3/Response;
 
     .line 112
     .line 113
@@ -534,7 +589,8 @@
 
     .line 116
     .line 117
-    invoke-direct {p2}, Lcom/google/gson/Gson;-><init>()V
+    invoke-direct {p2}, Lcom/google/gson/Gson;
+    -><init>()V
 
     .line 118
     .line 119
@@ -543,7 +599,8 @@
 
     .line 121
     .line 122
-    invoke-virtual {p1, v0, v1}, Lokhttp3/Response;->peekBody(J)Lokhttp3/ResponseBody;
+    invoke-virtual {p1, v0, v1}, Lokhttp3/Response;
+    ->peekBody(J)Lokhttp3/ResponseBody;
 
     .line 123
     .line 124
@@ -551,7 +608,8 @@
     move-result-object p1
 
     .line 126
-    invoke-virtual {p1}, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
+    invoke-virtual {p1}, Lokhttp3/ResponseBody;
+    ->string()Ljava/lang/String;
 
     .line 127
     .line 128
@@ -563,7 +621,8 @@
 
     .line 131
     .line 132
-    invoke-virtual {p2, p1, p3}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p2, p1, p3}, Lcom/google/gson/Gson;
+    ->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 133
     .line 134
@@ -590,7 +649,8 @@
     .line 2
     check-cast p1, [Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Lcom/fmark/tselzap/License/threadPost;->doInBackground([Ljava/lang/String;)Lorg/json/JSONObject;
+    invoke-virtual {p0, p1}, Lcom/fmark/tselzap/License/threadPost;
+    ->doInBackground([Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
 

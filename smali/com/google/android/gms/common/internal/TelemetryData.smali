@@ -49,9 +49,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zaab;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zaab;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zaab;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/TelemetryData;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -72,16 +74,19 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zaa:I
+    iput p1, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zaa:I
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zab:Ljava/util/List;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zab:Ljava/util/List;
 
     .line 7
     .line 8
@@ -98,7 +103,8 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -109,16 +115,19 @@
     const/4 v0, 0x1
 
     .line 6
-    iget v1, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zaa:I
+    iget v1, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zaa:I
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zab:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zab:Ljava/util/List;
 
     .line 12
     .line 13
@@ -128,12 +137,14 @@
     const/4 v2, 0x2
 
     .line 15
-    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeTypedList(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeTypedList(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 19
     .line 20
@@ -144,7 +155,8 @@
 .method public final zaa()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zaa:I
 
     return v0
 .end method
@@ -154,7 +166,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zab:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zab:Ljava/util/List;
 
     return-object v0
 .end method
@@ -167,7 +180,8 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zab:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zab:Ljava/util/List;
 
     .line 2
     .line 3
@@ -179,21 +193,25 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zab:Ljava/util/List;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zab:Ljava/util/List;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->zab:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;
+    ->zab:Ljava/util/List;
 
     .line 13
     .line 14
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16

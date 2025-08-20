@@ -22,7 +22,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->getStatusCode()I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->getStatusCode()I
 
     .line 2
     .line 3
@@ -30,7 +31,8 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->getStatusMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->getStatusMessage()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -42,7 +44,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->getStatusMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->getStatusMessage()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -63,12 +66,14 @@
 
     .line 19
     .line 20
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
@@ -77,17 +82,20 @@
 
     .line 27
     .line 28
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 35
     .line 36
@@ -95,12 +103,14 @@
     move-result-object v0
 
     .line 38
-    invoke-direct {p0, v0}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/Exception;
+    -><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    iput-object p1, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/ApiException;
+    ->mStatus:Lcom/google/android/gms/common/api/Status;
 
     .line 42
     .line 43
@@ -114,7 +124,8 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;
+    ->mStatus:Lcom/google/android/gms/common/api/Status;
 
     return-object v0
 .end method
@@ -123,11 +134,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;
+    ->mStatus:Lcom/google/android/gms/common/api/Status;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->getStatusCode()I
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;
+    ->getStatusCode()I
 
     .line 4
     .line 5
@@ -146,11 +159,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;
+    ->mStatus:Lcom/google/android/gms/common/api/Status;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->getStatusMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;
+    ->getStatusMessage()Ljava/lang/String;
 
     .line 4
     .line 5

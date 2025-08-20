@@ -22,24 +22,28 @@
 
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 12
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -66,28 +70,33 @@
 
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "builder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -109,28 +118,33 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "route"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 14
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 15
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -153,32 +167,38 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "route"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "builder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -204,28 +224,33 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 17
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 18
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -253,32 +278,38 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "builder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 9
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -293,34 +324,40 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Ld1/u;->b:Ld1/u;
+    sget-object p1, Ld1/u;
+    ->b:Ld1/u;
 
     .line 2
     :cond_0
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "typeMap"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 5
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -335,38 +372,45 @@
     if-eqz p3, :cond_0
 
     .line 6
-    sget-object p1, Ld1/u;->b:Ld1/u;
+    sget-object p1, Ld1/u;
+    ->b:Ld1/u;
 
     .line 7
     :cond_0
     const-string p3, "<this>"
 
-    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p3, "typeMap"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "builder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
-    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;->getProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraphBuilder;
+    ->getProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     const-class p1, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/Class;)Landroidx/navigation/Navigator;
 
     move-result-object p0
 
     check-cast p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     .line 10
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 

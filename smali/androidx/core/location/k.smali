@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    iput p3, p0, Landroidx/core/location/k;->b:I
+    iput p3, p0, Landroidx/core/location/k;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/core/location/k;->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    iput-object p1, p0, Landroidx/core/location/k;
+    ->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
 
-    iput-object p2, p0, Landroidx/core/location/k;->d:Ljava/lang/Object;
+    iput-object p2, p0, Landroidx/core/location/k;
+    ->d:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -35,27 +39,34 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/location/k;->b:I
+    iget v0, p0, Landroidx/core/location/k;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/location/k;->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    iget-object v0, p0, Landroidx/core/location/k;
+    ->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
 
-    iget-object v1, p0, Landroidx/core/location/k;->d:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/location/k;
+    ->d:Ljava/lang/Object;
 
     check-cast v1, Landroid/location/Location;
 
-    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->c(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Landroid/location/Location;)V
+    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->c(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Landroid/location/Location;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/location/k;->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    iget-object v0, p0, Landroidx/core/location/k;
+    ->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
 
-    iget-object v1, p0, Landroidx/core/location/k;->d:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/location/k;
+    ->d:Ljava/lang/Object;
 
     check-cast v1, Ljava/util/List;
 
-    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->d(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/util/List;)V
+    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
+    ->d(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/util/List;)V
 return-void
 
     nop

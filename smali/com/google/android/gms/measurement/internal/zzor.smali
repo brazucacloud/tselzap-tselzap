@@ -9,11 +9,14 @@
 
     new-instance v0, Ljava/util/AbstractMap$SimpleImmutableEntry;
 
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-direct {v0, p0, p1}, Ljava/util/AbstractMap$SimpleImmutableEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, p0, p1}, Ljava/util/AbstractMap$SimpleImmutableEntry;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 return-object v0
 .end method
 

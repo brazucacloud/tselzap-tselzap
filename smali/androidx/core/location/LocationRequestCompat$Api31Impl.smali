@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getIntervalMillis()J
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getIntervalMillis()J
 
     .line 4
     .line 5
@@ -49,12 +51,14 @@
     move-result-wide v1
 
     .line 7
-    invoke-direct {v0, v1, v2}, Landroid/location/LocationRequest$Builder;-><init>(J)V
+    invoke-direct {v0, v1, v2}, Landroid/location/LocationRequest$Builder;
+    -><init>(J)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getQuality()I
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getQuality()I
 
     .line 11
     .line 12
@@ -62,7 +66,8 @@
     move-result v1
 
     .line 14
-    invoke-virtual {v0, v1}, Landroid/location/LocationRequest$Builder;->setQuality(I)Landroid/location/LocationRequest$Builder;
+    invoke-virtual {v0, v1}, Landroid/location/LocationRequest$Builder;
+    ->setQuality(I)Landroid/location/LocationRequest$Builder;
 
     .line 15
     .line 16
@@ -70,7 +75,8 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getMinUpdateIntervalMillis()J
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getMinUpdateIntervalMillis()J
 
     .line 19
     .line 20
@@ -78,7 +84,8 @@
     move-result-wide v1
 
     .line 22
-    invoke-virtual {v0, v1, v2}, Landroid/location/LocationRequest$Builder;->setMinUpdateIntervalMillis(J)Landroid/location/LocationRequest$Builder;
+    invoke-virtual {v0, v1, v2}, Landroid/location/LocationRequest$Builder;
+    ->setMinUpdateIntervalMillis(J)Landroid/location/LocationRequest$Builder;
 
     .line 23
     .line 24
@@ -86,7 +93,8 @@
     move-result-object v0
 
     .line 26
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getDurationMillis()J
 
     .line 27
     .line 28
@@ -94,7 +102,8 @@
     move-result-wide v1
 
     .line 30
-    invoke-virtual {v0, v1, v2}, Landroid/location/LocationRequest$Builder;->setDurationMillis(J)Landroid/location/LocationRequest$Builder;
+    invoke-virtual {v0, v1, v2}, Landroid/location/LocationRequest$Builder;
+    ->setDurationMillis(J)Landroid/location/LocationRequest$Builder;
 
     .line 31
     .line 32
@@ -102,7 +111,8 @@
     move-result-object v0
 
     .line 34
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getMaxUpdates()I
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getMaxUpdates()I
 
     .line 35
     .line 36
@@ -110,7 +120,8 @@
     move-result v1
 
     .line 38
-    invoke-virtual {v0, v1}, Landroid/location/LocationRequest$Builder;->setMaxUpdates(I)Landroid/location/LocationRequest$Builder;
+    invoke-virtual {v0, v1}, Landroid/location/LocationRequest$Builder;
+    ->setMaxUpdates(I)Landroid/location/LocationRequest$Builder;
 
     .line 39
     .line 40
@@ -118,7 +129,8 @@
     move-result-object v0
 
     .line 42
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getMinUpdateDistanceMeters()F
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getMinUpdateDistanceMeters()F
 
     .line 43
     .line 44
@@ -126,7 +138,8 @@
     move-result v1
 
     .line 46
-    invoke-virtual {v0, v1}, Landroid/location/LocationRequest$Builder;->setMinUpdateDistanceMeters(F)Landroid/location/LocationRequest$Builder;
+    invoke-virtual {v0, v1}, Landroid/location/LocationRequest$Builder;
+    ->setMinUpdateDistanceMeters(F)Landroid/location/LocationRequest$Builder;
 
     .line 47
     .line 48
@@ -134,7 +147,8 @@
     move-result-object v0
 
     .line 50
-    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;->getMaxUpdateDelayMillis()J
+    invoke-virtual {p0}, Landroidx/core/location/LocationRequestCompat;
+    ->getMaxUpdateDelayMillis()J
 
     .line 51
     .line 52
@@ -142,7 +156,8 @@
     move-result-wide v1
 
     .line 54
-    invoke-virtual {v0, v1, v2}, Landroid/location/LocationRequest$Builder;->setMaxUpdateDelayMillis(J)Landroid/location/LocationRequest$Builder;
+    invoke-virtual {v0, v1, v2}, Landroid/location/LocationRequest$Builder;
+    ->setMaxUpdateDelayMillis(J)Landroid/location/LocationRequest$Builder;
 
     .line 55
     .line 56
@@ -150,7 +165,8 @@
     move-result-object p0
 
     .line 58
-    invoke-virtual {p0}, Landroid/location/LocationRequest$Builder;->build()Landroid/location/LocationRequest;
+    invoke-virtual {p0}, Landroid/location/LocationRequest$Builder;
+    ->build()Landroid/location/LocationRequest;
 
     .line 59
     .line 60

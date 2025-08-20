@@ -35,7 +35,8 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Lj/a;->c:[Ljava/lang/String;
+    sput-object v0, Lj/a;
+    ->c:[Ljava/lang/String;
 
     .line 8
     .line 9
@@ -51,7 +52,8 @@
     move-result-object v0
 
     .line 15
-    sput-object v0, Lj/a;->d:[Ljava/lang/String;
+    sput-object v0, Lj/a;
+    ->d:[Ljava/lang/String;
 
     .line 16
     .line 17
@@ -62,11 +64,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lj/a;->a:I
+    iput p2, p0, Lj/a;
+    ->a:I
 
-    iput-object p1, p0, Lj/a;->b:Landroid/content/ContentResolver;
+    iput-object p1, p0, Lj/a;
+    ->b:Landroid/content/ContentResolver;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -76,7 +81,8 @@
     .locals 6
 
     .line 1
-    iget v0, p0, Lj/a;->a:I
+    iget v0, p0, Lj/a;
+    ->a:I
 
     .line 2
     .line 3
@@ -85,7 +91,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;
+    ->getLastPathSegment()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -93,11 +100,13 @@
     move-result-object p1
 
     .line 10
-    sget-object v1, Landroid/provider/MediaStore$Video$Thumbnails;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
+    sget-object v1, Landroid/provider/MediaStore$Video$Thumbnails;
+    ->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     .line 11
     .line 12
-    sget-object v2, Lj/a;->d:[Ljava/lang/String;
+    sget-object v2, Lj/a;
+    ->d:[Ljava/lang/String;
 
     .line 13
     .line 14
@@ -112,7 +121,8 @@
     const/4 v5, 0x0
 
     .line 19
-    iget-object v0, p0, Lj/a;->b:Landroid/content/ContentResolver;
+    iget-object v0, p0, Lj/a;
+    ->b:Landroid/content/ContentResolver;
 
     .line 20
     .line 21
@@ -120,7 +130,8 @@
 
     .line 22
     .line 23
-    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 24
     .line 25
@@ -131,7 +142,8 @@
 
     .line 28
     :pswitch_0
-    invoke-virtual {p1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;
+    ->getLastPathSegment()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -139,11 +151,13 @@
     move-result-object p1
 
     .line 32
-    sget-object v1, Landroid/provider/MediaStore$Images$Thumbnails;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
+    sget-object v1, Landroid/provider/MediaStore$Images$Thumbnails;
+    ->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     .line 33
     .line 34
-    sget-object v2, Lj/a;->c:[Ljava/lang/String;
+    sget-object v2, Lj/a;
+    ->c:[Ljava/lang/String;
 
     .line 35
     .line 36
@@ -158,7 +172,8 @@
     const/4 v5, 0x0
 
     .line 41
-    iget-object v0, p0, Lj/a;->b:Landroid/content/ContentResolver;
+    iget-object v0, p0, Lj/a;
+    ->b:Landroid/content/ContentResolver;
 
     .line 42
     .line 43
@@ -166,7 +181,8 @@
 
     .line 44
     .line 45
-    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 46
     .line 47

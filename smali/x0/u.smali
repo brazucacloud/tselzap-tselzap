@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lx0/u;->b:Lx0/w;
+    iput-object p1, p0, Lx0/u;
+    ->b:Lx0/w;
 
     .line 5
     .line 6
@@ -33,7 +35,8 @@
     .locals 8
 
     .line 1
-    iget-object p1, p0, Lx0/u;->b:Lx0/w;
+    iget-object p1, p0, Lx0/u;
+    ->b:Lx0/w;
 
     .line 2
     .line 3
@@ -41,11 +44,13 @@
 
     .line 4
     .line 5
-    iget-object v0, p1, Lx0/w;->b:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object v0, p1, Lx0/w;
+    ->b:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;->getSelectedItem()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->getSelectedItem()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -57,7 +62,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Landroid/widget/AutoCompleteTextView;->getAdapter()Landroid/widget/ListAdapter;
+    invoke-virtual {p1}, Landroid/widget/AutoCompleteTextView;
+    ->getAdapter()Landroid/widget/ListAdapter;
 
     .line 13
     .line 14
@@ -65,7 +71,8 @@
     move-result-object v0
 
     .line 16
-    invoke-interface {v0, p3}, Landroid/widget/Adapter;->getItem(I)Ljava/lang/Object;
+    invoke-interface {v0, p3}, Landroid/widget/Adapter;
+    ->getItem(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -74,7 +81,8 @@
 
     .line 20
     :goto_0
-    invoke-static {p1, v0}, Lx0/w;->a(Lx0/w;Ljava/lang/Object;)Ljava/lang/CharSequence;
+    invoke-static {p1, v0}, Lx0/w;
+    ->a(Lx0/w;Ljava/lang/Object;)Ljava/lang/CharSequence;
 
     .line 21
     .line 22
@@ -85,12 +93,14 @@
     const/4 v1, 0x0
 
     .line 25
-    invoke-virtual {p1, v0, v1}, Landroid/widget/AutoCompleteTextView;->setText(Ljava/lang/CharSequence;Z)V
+    invoke-virtual {p1, v0, v1}, Landroid/widget/AutoCompleteTextView;
+    ->setText(Ljava/lang/CharSequence;Z)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1}, Landroid/widget/AutoCompleteTextView;->getOnItemClickListener()Landroid/widget/AdapterView$OnItemClickListener;
+    invoke-virtual {p1}, Landroid/widget/AutoCompleteTextView;
+    ->getOnItemClickListener()Landroid/widget/AdapterView$OnItemClickListener;
 
     .line 29
     .line 30
@@ -98,7 +108,8 @@
     move-result-object v2
 
     .line 32
-    iget-object p1, p1, Lx0/w;->b:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object p1, p1, Lx0/w;
+    ->b:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 33
     .line 34
@@ -133,7 +144,8 @@
     .line 45
     :cond_2
     :goto_2
-    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;->getSelectedView()Landroid/view/View;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->getSelectedView()Landroid/view/View;
 
     .line 46
     .line 47
@@ -141,7 +153,8 @@
     move-result-object p2
 
     .line 49
-    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;->getSelectedItemPosition()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->getSelectedItemPosition()I
 
     .line 50
     .line 51
@@ -149,7 +162,8 @@
     move-result p3
 
     .line 53
-    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;->getSelectedItemId()J
+    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->getSelectedItemId()J
 
     .line 54
     .line 55
@@ -161,7 +175,8 @@
 
     .line 58
     :goto_3
-    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;->getListView()Landroid/widget/ListView;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->getListView()Landroid/widget/ListView;
 
     .line 59
     .line 60
@@ -169,13 +184,15 @@
     move-result-object v3
 
     .line 62
-    invoke-interface/range {v2 .. v7}, Landroid/widget/AdapterView$OnItemClickListener;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    invoke-interface/range {v2 .. v7}, Landroid/widget/AdapterView$OnItemClickListener;
+    ->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     .line 63
     .line 64
     .line 65
     :cond_3
-    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;->dismiss()V
+    invoke-virtual {p1}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->dismiss()V
 
     .line 66
     .line 67

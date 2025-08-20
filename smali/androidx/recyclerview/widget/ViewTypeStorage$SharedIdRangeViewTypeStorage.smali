@@ -41,7 +41,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -50,12 +51,15 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
+    invoke-direct {v0}, Landroid/util/SparseArray;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;    
+    return-void
 .end method
 
 
@@ -74,7 +78,9 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage$WrapperViewTypeLookup;-><init>(Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage$WrapperViewTypeLookup;
+    -><init>(Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    
+    return-object v0
 .end method
 
 .method public getWrapperForGlobalType(I)Landroidx/recyclerview/widget/NestedAdapterWrapper;
@@ -83,11 +89,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroid/util/SparseArray;
+    ->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -103,7 +111,8 @@
 
     .line 10
     .line 11
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 12
     .line 13
@@ -118,7 +127,8 @@
     const/4 p1, 0x0
 
     .line 18
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -138,7 +148,8 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, LA/d;
+    ->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -146,7 +157,8 @@
     move-result-object p1
 
     .line 33
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -161,11 +173,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {v0}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 4
     .line 5
@@ -182,11 +196,13 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroid/util/SparseArray;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -198,7 +214,8 @@
 
     .line 18
     .line 19
-    invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/List;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -210,7 +227,8 @@
 
     .line 24
     .line 25
-    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 26
     .line 27
@@ -222,11 +240,13 @@
 
     .line 30
     .line 31
-    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 32
     .line 33
-    invoke-virtual {v1, v0}, Landroid/util/SparseArray;->removeAt(I)V
+    invoke-virtual {v1, v0}, Landroid/util/SparseArray;
+    ->removeAt(I)V
 
     .line 34
     .line 35

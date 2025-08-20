@@ -9,46 +9,56 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "navController"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1}, Landroidx/navigation/NavController;->getGraph()Landroidx/navigation/NavGraph;
+    invoke-virtual {p1}, Landroidx/navigation/NavController;
+    ->getGraph()Landroidx/navigation/NavGraph;
 
     move-result-object v0
 
     .line 2
-    sget-object v1, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;->INSTANCE:Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;
+    sget-object v1, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;
+    ->INSTANCE:Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;
 
     .line 3
     new-instance v2, Landroidx/navigation/ui/AppBarConfiguration$Builder;
 
-    invoke-direct {v2, v0}, Landroidx/navigation/ui/AppBarConfiguration$Builder;-><init>(Landroidx/navigation/NavGraph;)V
+    invoke-direct {v2, v0}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    -><init>(Landroidx/navigation/NavGraph;)V
 
     .line 4
-    invoke-virtual {v2, p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;->setOpenableLayout(Landroidx/customview/widget/Openable;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    invoke-virtual {v2, p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    ->setOpenableLayout(Landroidx/customview/widget/Openable;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
 
     move-result-object p2
 
     new-instance v0, Landroidx/navigation/ui/AppBarConfigurationKt$sam$i$androidx_navigation_ui_AppBarConfiguration_OnNavigateUpListener$0;
 
     .line 5
-    invoke-direct {v0, v1}, Landroidx/navigation/ui/AppBarConfigurationKt$sam$i$androidx_navigation_ui_AppBarConfiguration_OnNavigateUpListener$0;-><init>(Lp1/a;)V
+    invoke-direct {v0, v1}, Landroidx/navigation/ui/AppBarConfigurationKt$sam$i$androidx_navigation_ui_AppBarConfiguration_OnNavigateUpListener$0;
+    -><init>(Lp1/a;)V
 
-    invoke-virtual {p2, v0}, Landroidx/navigation/ui/AppBarConfiguration$Builder;->setFallbackOnNavigateUpListener(Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    invoke-virtual {p2, v0}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    ->setFallbackOnNavigateUpListener(Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
 
     move-result-object p2
 
     .line 6
-    invoke-virtual {p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;->build()Landroidx/navigation/ui/AppBarConfiguration;
+    invoke-virtual {p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    ->build()Landroidx/navigation/ui/AppBarConfiguration;
 
     move-result-object p2
 
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/NavigationUI;->setupWithNavController(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
+    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/NavigationUI;
+    ->setupWithNavController(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
     return-void
 .end method
 
@@ -57,18 +67,22 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "navController"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "configuration"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
-    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/NavigationUI;->setupWithNavController(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
+    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/NavigationUI;
+    ->setupWithNavController(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
 return-void
 .end method
 
@@ -84,7 +98,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/navigation/NavController;->getGraph()Landroidx/navigation/NavGraph;
+    invoke-virtual {p1}, Landroidx/navigation/NavController;
+    ->getGraph()Landroidx/navigation/NavGraph;
 
     .line 6
     .line 7
@@ -92,7 +107,8 @@ return-void
     move-result-object p2
 
     .line 9
-    sget-object p3, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;->INSTANCE:Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;
+    sget-object p3, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;
+    ->INSTANCE:Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$1;
 
     .line 10
     .line 11
@@ -100,7 +116,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {p4, p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;-><init>(Landroidx/navigation/NavGraph;)V
+    invoke-direct {p4, p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    -><init>(Landroidx/navigation/NavGraph;)V
 
     .line 14
     .line 15
@@ -108,7 +125,8 @@ return-void
     const/4 p2, 0x0
 
     .line 17
-    invoke-virtual {p4, p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;->setOpenableLayout(Landroidx/customview/widget/Openable;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    invoke-virtual {p4, p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    ->setOpenableLayout(Landroidx/customview/widget/Openable;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
 
     .line 18
     .line 19
@@ -120,12 +138,14 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p4, p3}, Landroidx/navigation/ui/AppBarConfigurationKt$sam$i$androidx_navigation_ui_AppBarConfiguration_OnNavigateUpListener$0;-><init>(Lp1/a;)V
+    invoke-direct {p4, p3}, Landroidx/navigation/ui/AppBarConfigurationKt$sam$i$androidx_navigation_ui_AppBarConfiguration_OnNavigateUpListener$0;
+    -><init>(Lp1/a;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p2, p4}, Landroidx/navigation/ui/AppBarConfiguration$Builder;->setFallbackOnNavigateUpListener(Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    invoke-virtual {p2, p4}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    ->setFallbackOnNavigateUpListener(Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)Landroidx/navigation/ui/AppBarConfiguration$Builder;
 
     .line 27
     .line 28
@@ -133,7 +153,8 @@ return-void
     move-result-object p2
 
     .line 30
-    invoke-virtual {p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;->build()Landroidx/navigation/ui/AppBarConfiguration;
+    invoke-virtual {p2}, Landroidx/navigation/ui/AppBarConfiguration$Builder;
+    ->build()Landroidx/navigation/ui/AppBarConfiguration;
 
     .line 31
     .line 32
@@ -142,7 +163,8 @@ return-void
 
     .line 34
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/ToolbarKt;->setupWithNavController(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
+    invoke-static {p0, p1, p2}, Landroidx/navigation/ui/ToolbarKt;
+    ->setupWithNavController(Landroidx/appcompat/widget/Toolbar;Landroidx/navigation/NavController;Landroidx/navigation/ui/AppBarConfiguration;)V
     return-void
 .end method
 

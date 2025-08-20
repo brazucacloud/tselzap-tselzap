@@ -28,23 +28,27 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mCallType:I
+    iput p1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mCallType:I
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iput-object p2, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 7
     .line 8
     const/4 p1, 0x1
 
     .line 9
-    invoke-virtual {p2, p1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {p2, p1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 return-void
 .end method
 
@@ -76,11 +80,13 @@ return-void
 
     .line 12
     .line 13
-    iget v1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mCallType:I
+    iget v1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mCallType:I
 
     .line 14
     .line 15
-    iget v3, p1, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mCallType:I
+    iget v3, p1, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mCallType:I
 
     .line 16
     .line 17
@@ -88,11 +94,13 @@ return-void
 
     .line 18
     .line 19
-    iget-object v1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iget-object v1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -100,11 +108,13 @@ return-void
     move-result-object v1
 
     .line 25
-    iget-object p1, p1, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iget-object p1, p1, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -112,7 +122,8 @@ return-void
     move-result-object p1
 
     .line 31
-    invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -131,7 +142,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mCallType:I
+    iget v0, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mCallType:I
 
     .line 2
     .line 3
@@ -139,11 +151,13 @@ return-void
 
     .line 4
     .line 5
-    iget-object v1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iget-object v1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 6
     .line 7
-    invoke-virtual {v1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -151,7 +165,8 @@ return-void
     move-result-object v1
 
     .line 11
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 12
     .line 13
@@ -178,7 +193,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget v3, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mCallType:I
+    iget v3, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mCallType:I
 
     .line 5
     .line 6
@@ -194,7 +210,8 @@ return-void
 
     .line 13
     :cond_0
-    iget-object v3, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iget-object v3, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 14
     .line 15
@@ -210,7 +227,9 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v3, p3, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {v3, p3, v0}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 
     .line 25
     :catch_0
@@ -228,7 +247,8 @@ return-void
 
     .line 29
     :cond_1
-    iget-object p2, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iget-object p2, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 30
     .line 31
@@ -240,11 +260,14 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {p2, p3, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {p2, p3, v0}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 
     .line 39
     :cond_2
-    iget-object p1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;->mMethod:Ljava/lang/reflect/Method;
+    iget-object p1, p0, Landroidx/lifecycle/ClassesInfoCache$MethodReference;
+    ->mMethod:Ljava/lang/reflect/Method;
 
     .line 40
     .line 41
@@ -252,7 +275,8 @@ return-void
 
     .line 42
     .line 43
-    invoke-virtual {p1, p3, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p3, p2}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0    return-void
@@ -263,7 +287,8 @@ return-void
 
     .line 48
     .line 49
-    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 50
     .line 51
@@ -280,7 +305,8 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 58
     .line 59
@@ -288,7 +314,8 @@ return-void
     move-result-object p1
 
     .line 61
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 62
     .line 63

@@ -47,16 +47,19 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, v2, v1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;-><init>([FI)V
+    invoke-direct {v0, v2, v1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    -><init>([FI)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/FloatArrayList;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->makeImmutable()V
     return-void
 .end method
 
@@ -70,7 +73,8 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;-><init>([FI)V
+    invoke-direct {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    -><init>([FI)V
 return-void
 .end method
 
@@ -78,13 +82,16 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 4
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     return-void
 .end method
@@ -93,17 +100,20 @@ return-void
     .locals 4
 
     .line 8
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     if-ltz p1, :cond_1
 
     .line 9
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     if-gt p1, v0, :cond_1
 
     .line 10
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     array-length v2, v1
 
@@ -114,7 +124,8 @@ return-void
     sub-int/2addr v0, p1
 
     .line 11
-    invoke-static {v1, p1, v1, v2, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v1, p1, v1, v2, v0}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     goto :goto_0
 
@@ -132,41 +143,51 @@ return-void
     const/4 v2, 0x0
 
     .line 14
-    invoke-static {v1, v2, v0, v2, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v1, v2, v0, v2, p1}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 15
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     add-int/lit8 v2, p1, 0x1
 
-    iget v3, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v3, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     sub-int/2addr v3, p1
 
-    invoke-static {v1, p1, v0, v2, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v1, p1, v0, v2, v3}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 16
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 17
     :goto_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     aput p2, v0, p1
 
     .line 18
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     add-int/lit8 p1, p1, 0x1
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 19
-    iget p1, p0, Ljava/util/AbstractList;->modCount:I
+    iget p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     add-int/lit8 p1, p1, 0x1
 
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
+    iput p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     return-void
 
@@ -174,11 +195,13 @@ return-void
     :cond_1
     new-instance p2, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     throw p2
 .end method
@@ -187,7 +210,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/FloatArrayList;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->EMPTY_LIST:Landroidx/datastore/preferences/protobuf/FloatArrayList;    return-object v0
 .end method
 
 .method private ensureIndexInRange(I)V
@@ -198,7 +222,8 @@ return-void
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 4
     .line 5
@@ -210,7 +235,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -218,7 +244,8 @@ return-void
     move-result-object p1
 
     .line 14
-    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -237,7 +264,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, p1, v1}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1, v1}, LA/d;
+    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -245,16 +273,19 @@ return-void
     move-result-object p1
 
     .line 9
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -270,11 +301,13 @@ return-void
     .locals 0
 
     .line 4
-    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p2}, Ljava/lang/Float;
+    ->floatValue()F
 
     move-result p2
 
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->addFloat(IF)V
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->addFloat(IF)V
     return-void
 .end method
 
@@ -284,7 +317,8 @@ return-void
     .line 1
     check-cast p2, Ljava/lang/Float;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->add(ILjava/lang/Float;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->add(ILjava/lang/Float;)V
 return-void
 .end method
 
@@ -292,11 +326,13 @@ return-void
     .locals 0
 
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;
+    ->floatValue()F
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->addFloat(F)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->addFloat(F)V
 
     const/4 p1, 0x1
 
@@ -309,7 +345,8 @@ return-void
     .line 2
     check-cast p1, Ljava/lang/Float;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->add(Ljava/lang/Float;)Z
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->add(Ljava/lang/Float;)Z
 
     move-result p1
 
@@ -329,12 +366,14 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -347,7 +386,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-super {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->addAll(Ljava/util/Collection;)Z
+    invoke-super {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 12
     .line 13
@@ -362,7 +402,8 @@ return-void
 
     .line 17
     .line 18
-    iget v0, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 19
     .line 20
@@ -373,7 +414,8 @@ return-void
 
     .line 24
     :cond_1
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 25
     .line 26
@@ -392,7 +434,8 @@ return-void
     add-int/2addr v2, v0
 
     .line 33
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 34
     .line 35
@@ -403,7 +446,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-static {v0, v2}, Ljava/util/Arrays;->copyOf([FI)[F
+    invoke-static {v0, v2}, Ljava/util/Arrays;
+    ->copyOf([FI)[F
 
     .line 39
     .line 40
@@ -411,37 +455,45 @@ return-void
     move-result-object v0
 
     .line 42
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 43
     .line 44
     :cond_2
-    iget-object v0, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 45
     .line 46
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 47
     .line 48
-    iget v4, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v4, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 49
     .line 50
-    iget p1, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget p1, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 51
     .line 52
-    invoke-static {v0, v1, v3, v4, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v1, v3, v4, p1}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 53
     .line 54
     .line 55
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 56
     .line 57
-    iget p1, p0, Ljava/util/AbstractList;->modCount:I
+    iget p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     .line 58
     .line 59
@@ -451,7 +503,9 @@ return-void
     add-int/2addr p1, v0
 
     .line 61
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I    return v0
+    iput p1, p0, Ljava/util/AbstractList;
+    ->modCount:I    
+    return v0
 
     .line 64
     :cond_3
@@ -459,7 +513,8 @@ return-void
 
     .line 65
     .line 66
-    invoke-direct {p1}, Ljava/lang/OutOfMemoryError;-><init>()V
+    invoke-direct {p1}, Ljava/lang/OutOfMemoryError;
+    -><init>()V
 
     .line 67
     .line 68
@@ -470,12 +525,15 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     .line 2
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     array-length v2, v1
 
@@ -494,20 +552,25 @@ return-void
     const/4 v3, 0x0
 
     .line 5
-    invoke-static {v1, v3, v2, v3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v1, v3, v2, v3, v0}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 6
-    iput-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iput-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 7
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     aput p1, v0, v1
 
@@ -533,7 +596,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-super {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->equals(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -548,11 +612,13 @@ return-void
 
     .line 15
     .line 16
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 17
     .line 18
-    iget v2, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 19
     .line 20
@@ -563,7 +629,8 @@ return-void
 
     .line 24
     :cond_2
-    iget-object p1, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object p1, p1, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 25
     .line 26
@@ -571,7 +638,8 @@ return-void
 
     .line 27
     :goto_0
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 28
     .line 29
@@ -579,7 +647,8 @@ return-void
 
     .line 30
     .line 31
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 32
     .line 33
@@ -587,7 +656,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
+    invoke-static {v2}, Ljava/lang/Float;
+    ->floatToIntBits(F)I
 
     .line 36
     .line 37
@@ -599,7 +669,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-static {v4}, Ljava/lang/Float;->floatToIntBits(F)I
+    invoke-static {v4}, Ljava/lang/Float;
+    ->floatToIntBits(F)I
 
     .line 42
     .line 43
@@ -626,11 +697,13 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->getFloat(I)F
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->getFloat(I)F
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -641,7 +714,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->get(I)Ljava/lang/Float;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->get(I)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -652,12 +726,14 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->ensureIndexInRange(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->ensureIndexInRange(I)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 5
     .line 6
@@ -675,7 +751,8 @@ return-void
 
     .line 3
     :goto_0
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 4
     .line 5
@@ -687,7 +764,8 @@ return-void
 
     .line 8
     .line 9
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 10
     .line 11
@@ -695,7 +773,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
+    invoke-static {v2}, Ljava/lang/Float;
+    ->floatToIntBits(F)I
 
     .line 14
     .line 15
@@ -721,29 +800,35 @@ return-void
     .locals 2
 
     .line 2
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     if-lt p1, v0, :cond_0
 
     .line 3
     new-instance v0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
 
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
-    invoke-static {v1, p1}, Ljava/util/Arrays;->copyOf([FI)[F
+    invoke-static {v1, p1}, Ljava/util/Arrays;
+    ->copyOf([FI)[F
 
     move-result-object p1
 
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
-    invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;-><init>([FI)V
+    invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    -><init>([FI)V
 return-object v0
 
     .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;
+    -><init>()V
 
     throw p1
 .end method
@@ -752,7 +837,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$FloatList;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$FloatList;
 
     move-result-object p1
 
@@ -763,18 +849,22 @@ return-object v0
     .locals 4
 
     .line 8
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     .line 9
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->ensureIndexInRange(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->ensureIndexInRange(I)V
 
     .line 10
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     aget v1, v0, p1
 
     .line 11
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     add-int/lit8 v3, v2, -0x1
 
@@ -787,25 +877,31 @@ return-object v0
     add-int/lit8 v2, v2, -0x1
 
     .line 12
-    invoke-static {v0, v3, v0, p1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v3, v0, p1, v2}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 13
     :cond_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     add-int/lit8 p1, p1, -0x1
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 14
-    iget p1, p0, Ljava/util/AbstractList;->modCount:I
+    iget p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     add-int/lit8 p1, p1, 0x1
 
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
+    iput p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     .line 15
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {v1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -816,7 +912,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->remove(I)Ljava/lang/Float;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->remove(I)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -827,7 +924,8 @@ return-object v0
     .locals 4
 
     .line 2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     const/4 v0, 0x0
 
@@ -835,31 +933,37 @@ return-object v0
 
     .line 3
     :goto_0
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     if-ge v1, v2, :cond_1
 
     .line 4
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     aget v2, v2, v1
 
-    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {v2}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object v2
 
-    invoke-virtual {p1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
     .line 5
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     add-int/lit8 v0, v1, 0x1
 
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     sub-int/2addr v2, v1
 
@@ -867,21 +971,26 @@ return-object v0
 
     sub-int/2addr v2, v3
 
-    invoke-static {p1, v0, p1, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p1, v0, p1, v1, v2}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 6
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     sub-int/2addr p1, v3
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 7
-    iget p1, p0, Ljava/util/AbstractList;->modCount:I
+    iget p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     add-int/2addr p1, v3
 
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I
+    iput p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     return v3
 
@@ -898,7 +1007,8 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
@@ -907,23 +1017,27 @@ return-object v0
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 9
     .line 10
     sub-int/2addr v1, p2
 
     .line 11
-    invoke-static {v0, p2, v0, p1, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, p2, v0, p1, v1}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 12
     .line 13
     .line 14
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 15
     .line 16
@@ -933,11 +1047,13 @@ return-object v0
     sub-int/2addr v0, p2
 
     .line 18
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I
 
     .line 19
     .line 20
-    iget p1, p0, Ljava/util/AbstractList;->modCount:I
+    iget p1, p0, Ljava/util/AbstractList;
+    ->modCount:I
 
     .line 21
     .line 22
@@ -945,7 +1061,9 @@ return-object v0
 
     .line 23
     .line 24
-    iput p1, p0, Ljava/util/AbstractList;->modCount:I    return-void
+    iput p1, p0, Ljava/util/AbstractList;
+    ->modCount:I    
+    return-void
 
     .line 27
     :cond_0
@@ -957,7 +1075,8 @@ return-object v0
 
     .line 30
     .line 31
-    invoke-direct {p1, p2}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -968,15 +1087,18 @@ return-object v0
     .locals 0
 
     .line 2
-    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p2}, Ljava/lang/Float;
+    ->floatValue()F
 
     move-result p2
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->setFloat(IF)F
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->setFloat(IF)F
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -989,7 +1111,8 @@ return-object v0
     .line 1
     check-cast p2, Ljava/lang/Float;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->set(ILjava/lang/Float;)Ljava/lang/Float;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->set(ILjava/lang/Float;)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -1000,17 +1123,20 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->ensureIndexInRange(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->ensureIndexInRange(I)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->array:[F
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->array:[F
 
     .line 8
     .line 9
@@ -1025,7 +1151,8 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;->size:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    ->size:I    return v0
 .end method
 
 .end class

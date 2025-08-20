@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/profileinstaller/c;->a:Landroidx/profileinstaller/ProfileInstallerInitializer;
+    iput-object p1, p0, Landroidx/profileinstaller/c;
+    ->a:Landroidx/profileinstaller/ProfileInstallerInitializer;
 
-    iput-object p2, p0, Landroidx/profileinstaller/c;->b:Landroid/content/Context;
+    iput-object p2, p0, Landroidx/profileinstaller/c;
+    ->b:Landroid/content/Context;
 
     return-void
 .end method
@@ -32,11 +35,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/profileinstaller/c;->a:Landroidx/profileinstaller/ProfileInstallerInitializer;
+    iget-object v0, p0, Landroidx/profileinstaller/c;
+    ->a:Landroidx/profileinstaller/ProfileInstallerInitializer;
 
-    iget-object v1, p0, Landroidx/profileinstaller/c;->b:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/profileinstaller/c;
+    ->b:Landroid/content/Context;
 
-    invoke-static {v0, v1, p1, p2}, Landroidx/profileinstaller/ProfileInstallerInitializer;->c(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;J)V
+    invoke-static {v0, v1, p1, p2}, Landroidx/profileinstaller/ProfileInstallerInitializer;
+    ->c(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;J)V
 return-void
 .end method
 

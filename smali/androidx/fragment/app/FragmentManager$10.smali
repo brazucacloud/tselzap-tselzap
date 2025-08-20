@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentManager;->attachController(Landroidx/fragment/app/FragmentHostCallback;Landroidx/fragment/app/FragmentContainer;Landroidx/fragment/app/Fragment;)V
+    value = Landroidx/fragment/app/FragmentManager;
+    ->attachController(Landroidx/fragment/app/FragmentHostCallback;Landroidx/fragment/app/FragmentContainer;Landroidx/fragment/app/Fragment;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,11 +38,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$10;->this$0:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$10;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -58,7 +61,8 @@
     .line 1
     check-cast p1, Ljava/util/Map;
 
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager$10;->onActivityResult(Ljava/util/Map;)V
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager$10;
+    ->onActivityResult(Ljava/util/Map;)V
 return-void
 .end method
 
@@ -81,7 +85,8 @@ return-void
     .end annotation
 
     .line 2
-    invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {p1}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     move-result-object v0
 
@@ -89,7 +94,8 @@ return-void
 
     new-array v2, v1, [Ljava/lang/String;
 
-    invoke-interface {v0, v2}, Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/Set;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -98,14 +104,17 @@ return-void
     .line 3
     new-instance v2, Ljava/util/ArrayList;
 
-    invoke-interface {p1}, Ljava/util/Map;->values()Ljava/util/Collection;
+    invoke-interface {p1}, Ljava/util/Map;
+    ->values()Ljava/util/Collection;
 
     move-result-object p1
 
-    invoke-direct {v2, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v2, p1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 4
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result p1
 
@@ -115,20 +124,23 @@ return-void
 
     .line 5
     :goto_0
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result v4
 
     if-ge v3, v4, :cond_1
 
     .line 6
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v3}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Boolean;
 
-    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v4}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result v4
 
@@ -151,11 +163,14 @@ return-void
 
     .line 8
     :cond_1
-    iget-object v1, p0, Landroidx/fragment/app/FragmentManager$10;->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentManager$10;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
-    iget-object v1, v1, Landroidx/fragment/app/FragmentManager;->mLaunchedFragments:Ljava/util/ArrayDeque;
+    iget-object v1, v1, Landroidx/fragment/app/FragmentManager;
+    ->mLaunchedFragments:Ljava/util/ArrayDeque;
 
-    invoke-virtual {v1}, Ljava/util/ArrayDeque;->pollFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/util/ArrayDeque;
+    ->pollFirst()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -171,33 +186,42 @@ return-void
 
     const-string v0, "No permissions were requested for "
 
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
     .line 11
     :cond_2
-    iget-object v3, v1, Landroidx/fragment/app/FragmentManager$LaunchedFragmentInfo;->mWho:Ljava/lang/String;
+    iget-object v3, v1, Landroidx/fragment/app/FragmentManager$LaunchedFragmentInfo;
+    ->mWho:Ljava/lang/String;
 
     .line 12
-    iget v1, v1, Landroidx/fragment/app/FragmentManager$LaunchedFragmentInfo;->mRequestCode:I
+    iget v1, v1, Landroidx/fragment/app/FragmentManager$LaunchedFragmentInfo;
+    ->mRequestCode:I
 
     .line 13
-    iget-object v4, p0, Landroidx/fragment/app/FragmentManager$10;->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v4, p0, Landroidx/fragment/app/FragmentManager$10;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
-    invoke-static {v4}, Landroidx/fragment/app/FragmentManager;->access$200(Landroidx/fragment/app/FragmentManager;)Landroidx/fragment/app/FragmentStore;
+    invoke-static {v4}, Landroidx/fragment/app/FragmentManager;
+    ->access$200(Landroidx/fragment/app/FragmentManager;)Landroidx/fragment/app/FragmentStore;
 
     move-result-object v4
 
-    invoke-virtual {v4, v3}, Landroidx/fragment/app/FragmentStore;->findFragmentByWho(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v4, v3}, Landroidx/fragment/app/FragmentStore;
+    ->findFragmentByWho(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     move-result-object v4
 
@@ -208,21 +232,26 @@ return-void
 
     const-string v0, "Permission request result delivered for unknown Fragment "
 
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
     .line 15
     :cond_3
-    invoke-virtual {v4, v1, v0, p1}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+    invoke-virtual {v4, v1, v0, p1}, Landroidx/fragment/app/Fragment;
+    ->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     return-void
 .end method
 

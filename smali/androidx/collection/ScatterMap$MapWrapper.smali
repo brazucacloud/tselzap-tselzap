@@ -48,11 +48,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iput-object p1, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -65,7 +67,8 @@
 
     const-string v1, "Operation is not supported for read-only collection"
 
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -76,7 +79,8 @@
         value = {
             "(TK;",
             "Ljava/util/function/BiFunction<",
-            "-TK;-TV;+TV;>;)TV;"
+            "-TK;
+    -TV;+TV;>;)TV;"
         }
     .end annotation
 
@@ -84,7 +88,8 @@
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -103,7 +108,8 @@
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -114,7 +120,8 @@
         value = {
             "(TK;",
             "Ljava/util/function/BiFunction<",
-            "-TK;-TV;+TV;>;)TV;"
+            "-TK;
+    -TV;+TV;>;)TV;"
         }
     .end annotation
 
@@ -122,7 +129,8 @@
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -131,11 +139,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/ScatterMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/ScatterMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -149,11 +159,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/ScatterMap;->containsValue(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/ScatterMap;
+    ->containsValue(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -175,7 +187,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;->getEntries()Ljava/util/Set;
+    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;
+    ->getEntries()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -196,11 +209,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/ScatterMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/ScatterMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -226,11 +241,13 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v1, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$entries$1;-><init>(Landroidx/collection/ScatterMap;)V
+    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$entries$1;
+    -><init>(Landroidx/collection/ScatterMap;)V
 return-object v0
 .end method
 
@@ -249,11 +266,13 @@ return-object v0
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v1, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$keys$1;-><init>(Landroidx/collection/ScatterMap;)V
+    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$keys$1;
+    -><init>(Landroidx/collection/ScatterMap;)V
 return-object v0
 .end method
 
@@ -261,11 +280,13 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/collection/ScatterMap;->_size:I    return v0
+    iget v0, v0, Landroidx/collection/ScatterMap;
+    ->_size:I    return v0
 .end method
 
 .method public getValues()Ljava/util/Collection;
@@ -283,11 +304,13 @@ return-object v0
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v1, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$values$1;-><init>(Landroidx/collection/ScatterMap;)V
+    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$values$1;
+    -><init>(Landroidx/collection/ScatterMap;)V
 return-object v0
 .end method
 
@@ -295,11 +318,13 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;->this$0:Landroidx/collection/ScatterMap;
+    iget-object v0, p0, Landroidx/collection/ScatterMap$MapWrapper;
+    ->this$0:Landroidx/collection/ScatterMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/ScatterMap;->isEmpty()Z
+    invoke-virtual {v0}, Landroidx/collection/ScatterMap;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -320,7 +345,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;->getKeys()Ljava/util/Set;
+    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;
+    ->getKeys()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -336,7 +362,8 @@ return-object v0
         value = {
             "(TK;TV;",
             "Ljava/util/function/BiFunction<",
-            "-TV;-TV;+TV;>;)TV;"
+            "-TV;
+    -TV;+TV;>;)TV;"
         }
     .end annotation
 
@@ -344,7 +371,8 @@ return-object v0
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -361,7 +389,8 @@ return-object v0
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -380,7 +409,8 @@ return-object v0
 
     const-string v0, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -397,7 +427,8 @@ return-object v0
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -417,7 +448,8 @@ return-object v0
 
     const-string v0, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -430,7 +462,8 @@ return-object v0
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -448,7 +481,8 @@ return-object v0
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -466,7 +500,8 @@ return-object v0
 
     const-string p2, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -477,7 +512,8 @@ return-object v0
         value = {
             "(",
             "Ljava/util/function/BiFunction<",
-            "-TK;-TV;+TV;>;)V"
+            "-TK;
+    -TV;+TV;>;)V"
         }
     .end annotation
 
@@ -485,7 +521,8 @@ return-object v0
 
     const-string v0, "Operation is not supported for read-only collection"
 
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -494,7 +531,8 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;->getSize()I
+    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;
+    ->getSize()I
 
     .line 2
     .line 3
@@ -515,7 +553,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;->getValues()Ljava/util/Collection;
+    invoke-virtual {p0}, Landroidx/collection/ScatterMap$MapWrapper;
+    ->getValues()Ljava/util/Collection;
 
     .line 2
     .line 3

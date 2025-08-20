@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -63,7 +65,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/ServiceCompat$Api34Impl;->startForeground(Landroid/app/Service;ILandroid/app/Notification;I)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/ServiceCompat$Api34Impl;
+    ->startForeground(Landroid/app/Service;ILandroid/app/Notification;I)V
 
     .line 8
     .line 9
@@ -80,7 +83,8 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/ServiceCompat$Api29Impl;->startForeground(Landroid/app/Service;ILandroid/app/Notification;I)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/ServiceCompat$Api29Impl;
+    ->startForeground(Landroid/app/Service;ILandroid/app/Notification;I)V
 
     .line 16
     .line 17
@@ -89,7 +93,8 @@
 
     .line 19
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
+    invoke-virtual {p0, p1, p2}, Landroid/app/Service;
+    ->startForeground(ILandroid/app/Notification;)V
 
     .line 20
     .line 21
@@ -105,7 +110,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -117,7 +123,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/app/ServiceCompat$Api24Impl;->stopForeground(Landroid/app/Service;I)V
+    invoke-static {p0, p1}, Landroidx/core/app/ServiceCompat$Api24Impl;
+    ->stopForeground(Landroid/app/Service;I)V
 
     .line 8
     .line 9
@@ -144,7 +151,8 @@
 
     .line 17
     :goto_0
-    invoke-virtual {p0, v0}, Landroid/app/Service;->stopForeground(Z)V
+    invoke-virtual {p0, v0}, Landroid/app/Service;
+    ->stopForeground(Z)V
 
     .line 18
     .line 19

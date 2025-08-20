@@ -18,12 +18,14 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -38,7 +40,8 @@
     const/4 v1, 0x0
 
     .line 11
-    invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p1, v0, v1}, Landroid/content/Context;
+    ->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 12
     .line 13
@@ -46,7 +49,8 @@
     move-result-object p1
 
     .line 15
-    iput-object p1, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iput-object p1, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 16
     .line 17
@@ -57,7 +61,8 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lcom/fmark/tselzap/Storage/DataStorage;->instance:Lcom/fmark/tselzap/Storage/DataStorage;
+    sget-object v0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->instance:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -65,7 +70,8 @@
 
     .line 4
     .line 5
-    sget-object v0, Lcom/fmark/tselzap/Storage/DataStorage;->instance:Lcom/fmark/tselzap/Storage/DataStorage;
+    sget-object v0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->instance:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 6
     .line 7
@@ -81,7 +87,8 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -108,7 +115,8 @@
 
     .line 4
     :try_start_0
-    sget-object v1, Lcom/fmark/tselzap/Storage/DataStorage;->instance:Lcom/fmark/tselzap/Storage/DataStorage;
+    sget-object v1, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->instance:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 5
     .line 6
@@ -120,12 +128,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v1, p0}, Lcom/fmark/tselzap/Storage/DataStorage;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/fmark/tselzap/Storage/DataStorage;
+    -><init>(Landroid/content/Context;)V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Lcom/fmark/tselzap/Storage/DataStorage;->instance:Lcom/fmark/tselzap/Storage/DataStorage;
+    sput-object v1, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->instance:Lcom/fmark/tselzap/Storage/DataStorage;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -170,14 +180,16 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;
+    ->getBoolean(Ljava/lang/String;Z)Z
 
     .line 5
     .line 6
@@ -191,11 +203,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 4
     .line 5
@@ -209,14 +223,16 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -240,14 +256,16 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
+    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;
+    ->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
 
     .line 5
     .line 6
@@ -263,7 +281,8 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, p1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 13
     .line 14
@@ -276,7 +295,8 @@
 
     .line 17
     .line 18
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 19
     .line 20
@@ -288,11 +308,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/content/SharedPreferences;->contains(Ljava/lang/String;)Z
+    invoke-interface {v0, p1}, Landroid/content/SharedPreferences;
+    ->contains(Ljava/lang/String;)Z
 
     .line 4
     .line 5
@@ -306,11 +328,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 4
     .line 5
@@ -318,7 +342,8 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0, p1}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, p1}, Landroid/content/SharedPreferences$Editor;
+    ->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 8
     .line 9
@@ -326,7 +351,8 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 12
     .line 13
@@ -338,11 +364,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 4
     .line 5
@@ -350,7 +378,8 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;
+    ->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 8
     .line 9
@@ -358,7 +387,8 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 12
     .line 13
@@ -370,11 +400,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 4
     .line 5
@@ -382,7 +414,8 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;
+    ->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     .line 8
     .line 9
@@ -390,7 +423,8 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 12
     .line 13
@@ -402,11 +436,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 4
     .line 5
@@ -414,7 +450,8 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 8
     .line 9
@@ -422,7 +459,8 @@
     move-result-object p1
 
     .line 11
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 12
     .line 13
@@ -447,16 +485,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p2}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, p2}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p2, p0, Lcom/fmark/tselzap/Storage/DataStorage;->prefs:Landroid/content/SharedPreferences;
+    iget-object p2, p0, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->prefs:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-interface {p2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {p2}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 9
     .line 10
@@ -464,7 +505,8 @@
     move-result-object p2
 
     .line 12
-    invoke-interface {p2, p1, v0}, Landroid/content/SharedPreferences$Editor;->putStringSet(Ljava/lang/String;Ljava/util/Set;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {p2, p1, v0}, Landroid/content/SharedPreferences$Editor;
+    ->putStringSet(Ljava/lang/String;Ljava/util/Set;)Landroid/content/SharedPreferences$Editor;
 
     .line 13
     .line 14
@@ -472,7 +514,8 @@
     move-result-object p1
 
     .line 16
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 17
     .line 18

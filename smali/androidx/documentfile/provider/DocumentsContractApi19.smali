@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +32,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroid/content/Context;->checkCallingOrSelfUriPermission(Landroid/net/Uri;I)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/Context;
+    ->checkCallingOrSelfUriPermission(Landroid/net/Uri;I)I
 
     .line 3
     .line 4
@@ -46,7 +48,8 @@
 
     .line 10
     :cond_0
-    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -54,7 +57,8 @@
     move-result-object p0
 
     .line 14
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 15
     .line 16
@@ -76,7 +80,8 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroid/content/Context;->checkCallingOrSelfUriPermission(Landroid/net/Uri;I)I
+    invoke-virtual {p0, p1, v0}, Landroid/content/Context;
+    ->checkCallingOrSelfUriPermission(Landroid/net/Uri;I)I
 
     .line 3
     .line 4
@@ -91,7 +96,8 @@
 
     .line 10
     :cond_0
-    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -103,7 +109,8 @@
 
     .line 15
     .line 16
-    invoke-static {p0, p1, v3, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForInt(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;I)I
+    invoke-static {p0, p1, v3, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForInt(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;I)I
 
     .line 17
     .line 18
@@ -111,7 +118,8 @@
     move-result p0
 
     .line 20
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 21
     .line 22
@@ -138,7 +146,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -158,7 +167,8 @@
 
     .line 46
     :cond_3
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 47
     .line 48
@@ -193,7 +203,8 @@
     .line 2
     .line 3
     :try_start_0
-    invoke-interface {p0}, Ljava/lang/AutoCloseable;->close()V
+    invoke-interface {p0}, Ljava/lang/AutoCloseable;
+    ->close()V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1    return-void
@@ -219,7 +230,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 4
     .line 5
@@ -258,7 +270,8 @@
     move-object v3, p1
 
     .line 19
-    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 20
     .line 21
@@ -266,7 +279,8 @@
     move-result-object v8
 
     .line 23
-    invoke-interface {v8}, Landroid/database/Cursor;->getCount()I
+    invoke-interface {v8}, Landroid/database/Cursor;
+    ->getCount()I
 
     .line 24
     .line 25
@@ -285,7 +299,9 @@
 
     .line 30
     :cond_0
-    invoke-static {v8}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V    return p0
+    invoke-static {v8}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V    
+    return p0
 
     .line 34
     :catchall_0
@@ -314,17 +330,20 @@
 
     .line 42
     .line 43
-    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -332,18 +351,22 @@
     move-result-object p1
 
     .line 53
-    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 54
     .line 55
     .line 56
-    invoke-static {v8}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V    return p0
+    invoke-static {v8}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V    
+    return p0
 
     .line 60
     :goto_0
-    invoke-static {v8}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {v8}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
 
     .line 61
     .line 62
@@ -362,7 +385,8 @@
 
     .line 4
     .line 5
-    invoke-static {p0, p1, v0, v1, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
+    invoke-static {p0, p1, v0, v1, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
 
     .line 6
     .line 7
@@ -385,7 +409,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {p0, p1, v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForString(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForString(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -408,7 +433,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {p0, p1, v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForString(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForString(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -424,7 +450,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -436,7 +463,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -463,7 +491,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -471,7 +500,8 @@
     move-result-object p0
 
     .line 7
-    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -485,7 +515,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->getRawType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -497,7 +528,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -509,7 +541,8 @@
 
     .line 12
     .line 13
-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 14
     .line 15
@@ -541,7 +574,8 @@
     .locals 4
 
     .line 1
-    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;->isDocumentUri(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;
+    ->isDocumentUri(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 2
     .line 3
@@ -556,7 +590,8 @@
 
     .line 9
     :cond_0
-    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getFlags(Landroid/content/Context;Landroid/net/Uri;)J
+    invoke-static {p0, p1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->getFlags(Landroid/content/Context;Landroid/net/Uri;)J
 
     .line 10
     .line 11
@@ -604,7 +639,8 @@
 
     .line 4
     .line 5
-    invoke-static {p0, p1, v0, v1, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
+    invoke-static {p0, p1, v0, v1, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
 
     .line 6
     .line 7
@@ -626,7 +662,8 @@
 
     .line 4
     .line 5
-    invoke-static {p0, p1, v0, v1, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
+    invoke-static {p0, p1, v0, v1, v2}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
 
     .line 6
     .line 7
@@ -643,7 +680,8 @@
     int-to-long v0, p3
 
     .line 2
-    invoke-static {p0, p1, p2, v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
+    invoke-static {p0, p1, p2, v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
 
     .line 3
     .line 4
@@ -664,7 +702,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 4
     .line 5
@@ -696,7 +735,8 @@
     move-object v3, p1
 
     .line 16
-    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 17
     .line 18
@@ -704,7 +744,8 @@
     move-result-object p0
 
     .line 20
-    invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->moveToFirst()Z
 
     .line 21
     .line 22
@@ -719,7 +760,8 @@
     const/4 p1, 0x0
 
     .line 27
-    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;
+    ->isNull(I)Z
 
     .line 28
     .line 29
@@ -731,7 +773,8 @@
 
     .line 32
     .line 33
-    invoke-interface {p0, p1}, Landroid/database/Cursor;->getLong(I)J
+    invoke-interface {p0, p1}, Landroid/database/Cursor;
+    ->getLong(I)J
 
     .line 34
     .line 35
@@ -742,7 +785,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 37
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
     return-wide p1
 
     .line 41
@@ -767,7 +811,8 @@
 
     .line 47
     :cond_0
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
 return-wide p3
 
     .line 51
@@ -781,17 +826,20 @@ return-wide p3
 
     .line 54
     .line 55
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 62
     .line 63
@@ -799,19 +847,22 @@ return-wide p3
     move-result-object p1
 
     .line 65
-    invoke-static {p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 66
     .line 67
     .line 68
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
     return-wide p3
 
     .line 72
     :goto_1
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
 
     .line 73
     .line 74
@@ -832,7 +883,8 @@ return-wide p3
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 4
     .line 5
@@ -864,7 +916,8 @@ return-wide p3
     move-object v3, p1
 
     .line 16
-    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 17
     .line 18
@@ -872,7 +925,8 @@ return-wide p3
     move-result-object p0
 
     .line 20
-    invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->moveToFirst()Z
 
     .line 21
     .line 22
@@ -887,7 +941,8 @@ return-wide p3
     const/4 p1, 0x0
 
     .line 27
-    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;
+    ->isNull(I)Z
 
     .line 28
     .line 29
@@ -899,7 +954,8 @@ return-wide p3
 
     .line 32
     .line 33
-    invoke-interface {p0, p1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {p0, p1}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -910,7 +966,8 @@ return-wide p3
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 37
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
     return-object p1
 
     .line 41
@@ -935,7 +992,8 @@ return-wide p3
 
     .line 47
     :cond_0
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
 return-object p3
 
     .line 51
@@ -949,17 +1007,20 @@ return-object p3
 
     .line 54
     .line 55
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 62
     .line 63
@@ -967,19 +1028,22 @@ return-object p3
     move-result-object p1
 
     .line 65
-    invoke-static {p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 66
     .line 67
     .line 68
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
     return-object p3
 
     .line 72
     :goto_1
-    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;
+    ->closeQuietly(Ljava/lang/AutoCloseable;)V
 
     .line 73
     .line 74

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p0, p1, p2}, Landroid/graphics/Typeface;
+    ->create(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     .line 2
     .line 3

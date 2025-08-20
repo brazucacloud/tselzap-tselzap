@@ -23,7 +23,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/os/BaseBundle;
+    ->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -33,11 +34,13 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p3
 
-    invoke-virtual {p2, p3}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {p2, p3}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result p3
 
@@ -50,15 +53,18 @@
     new-instance p3, Ljava/lang/IllegalStateException;
 
     .line 4
-    invoke-virtual {p2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Class;
+    ->getCanonicalName()Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;
+    ->getCanonicalName()Ljava/lang/String;
 
     move-result-object p0
 
@@ -67,34 +73,41 @@
 
     const-string v1, "Invalid conditional user property field type. \'"
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     const-string p1, "\' expected ["
 
     .line 7
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 8
     const-string p1, "] but was ["
 
     .line 9
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 10
     const-string p1, "]"
 
     .line 11
-    invoke-static {v0, p0, p1}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p0, p1}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     .line 12
-    invoke-direct {p3, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p3, p0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p3
 .end method
@@ -120,11 +133,13 @@
     .line 17
     check-cast p1, Ljava/lang/Double;
 
-    invoke-virtual {p1}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {p1}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v2
 
-    invoke-virtual {p0, v1, v2, v3}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
+    invoke-virtual {p0, v1, v2, v3}, Landroid/os/BaseBundle;
+    ->putDouble(Ljava/lang/String;D)V
     return-void
 
     .line 18
@@ -136,20 +151,24 @@
     .line 19
     check-cast p1, Ljava/lang/Long;
 
-    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p1}, Ljava/lang/Long;
+    ->longValue()J
 
     move-result-wide v2
 
-    invoke-virtual {p0, v1, v2, v3}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
+    invoke-virtual {p0, v1, v2, v3}, Landroid/os/BaseBundle;
+    ->putLong(Ljava/lang/String;J)V
     return-void
 
     .line 20
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Landroid/os/BaseBundle;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)V
     return-void
 .end method
 

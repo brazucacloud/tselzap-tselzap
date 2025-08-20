@@ -31,7 +31,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiCompat$InitCallback;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    -><init>()V
 
     .line 2
     .line 3
@@ -40,12 +41,15 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback;->mOuterWeakRef:Ljava/lang/ref/Reference;    return-void
+    iput-object v0, p0, Landroidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback;
+    ->mOuterWeakRef:Ljava/lang/ref/Reference;    
+    return-void
 .end method
 
 
@@ -58,11 +62,13 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback;->mOuterWeakRef:Ljava/lang/ref/Reference;
+    iget-object p1, p0, Landroidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback;
+    ->mOuterWeakRef:Ljava/lang/ref/Reference;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -78,7 +84,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;->onEmojiCompatInitializedForSwitchText()V
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SwitchCompat;
+    ->onEmojiCompatInitializedForSwitchText()V
 
     .line 12
     .line 13
@@ -91,11 +98,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback;->mOuterWeakRef:Ljava/lang/ref/Reference;
+    iget-object v0, p0, Landroidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback;
+    ->mOuterWeakRef:Ljava/lang/ref/Reference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -111,7 +120,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SwitchCompat;->onEmojiCompatInitializedForSwitchText()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SwitchCompat;
+    ->onEmojiCompatInitializedForSwitchText()V
 
     .line 12
     .line 13

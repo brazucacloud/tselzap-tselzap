@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -49,7 +50,8 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcel;Lcom/developer/progressx/ProgressWheel$1;)V
+    invoke-direct {v0, p1, v1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    -><init>(Landroid/os/Parcel;Lcom/developer/progressx/ProgressWheel$1;)V
 return-object v0
 .end method
 
@@ -57,7 +59,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState$1;->createFromParcel(Landroid/os/Parcel;)Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    invoke-virtual {p0, p1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState$1;
+    ->createFromParcel(Landroid/os/Parcel;)Lcom/developer/progressx/ProgressWheel$WheelSavedState;
 
     move-result-object p1
 
@@ -77,7 +80,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState$1;->newArray(I)[Lcom/developer/progressx/ProgressWheel$WheelSavedState;
+    invoke-virtual {p0, p1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState$1;
+    ->newArray(I)[Lcom/developer/progressx/ProgressWheel$WheelSavedState;
 
     move-result-object p1
 

@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lx0/j;->a:Lx0/k;
+    iput-object p1, p0, Lx0/j;
+    ->a:Lx0/k;
 
     return-void
 .end method
@@ -28,11 +30,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx0/j;->a:Lx0/k;
+    iget-object v0, p0, Lx0/j;
+    ->a:Lx0/k;
 
     .line 2
     .line 3
-    iget-object v1, v0, Lx0/k;->h:Landroid/widget/AutoCompleteTextView;
+    iget-object v1, v0, Lx0/k;
+    ->h:Landroid/widget/AutoCompleteTextView;
 
     .line 4
     .line 5
@@ -40,7 +44,8 @@
 
     .line 6
     .line 7
-    invoke-static {v1}, Lcom/bumptech/glide/b;->L(Landroid/widget/EditText;)Z
+    invoke-static {v1}, Lcom/bumptech/glide/b;
+    ->L(Landroid/widget/EditText;)Z
 
     .line 8
     .line 9
@@ -67,11 +72,13 @@
 
     .line 18
     :goto_0
-    iget-object v0, v0, Lx0/q;->d:Lcom/google/android/material/internal/CheckableImageButton;
+    iget-object v0, v0, Lx0/q;
+    ->d:Lcom/google/android/material/internal/CheckableImageButton;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroid/view/View;->setImportantForAccessibility(I)V
+    invoke-virtual {v0, p1}, Landroid/view/View;
+    ->setImportantForAccessibility(I)V
 
     .line 21
     .line 22

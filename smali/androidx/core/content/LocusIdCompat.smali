@@ -26,7 +26,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -35,7 +36,8 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkStringNotEmpty(Ljava/lang/CharSequence;Ljava/lang/Object;)Ljava/lang/CharSequence;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
+    ->checkStringNotEmpty(Ljava/lang/CharSequence;Ljava/lang/Object;)Ljava/lang/CharSequence;
 
     .line 7
     .line 8
@@ -47,11 +49,13 @@
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 13
     .line 14
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 15
     .line 16
@@ -63,7 +67,8 @@
 
     .line 19
     .line 20
-    invoke-static {p1}, Landroidx/core/content/LocusIdCompat$Api29Impl;->create(Ljava/lang/String;)Landroid/content/LocusId;
+    invoke-static {p1}, Landroidx/core/content/LocusIdCompat$Api29Impl;
+    ->create(Ljava/lang/String;)Landroid/content/LocusId;
 
     .line 21
     .line 22
@@ -71,7 +76,8 @@
     move-result-object p1
 
     .line 24
-    iput-object p1, p0, Landroidx/core/content/LocusIdCompat;->mWrapped:Landroid/content/LocusId;
+    iput-object p1, p0, Landroidx/core/content/LocusIdCompat;
+    ->mWrapped:Landroid/content/LocusId;
 
     .line 25
     .line 26
@@ -82,7 +88,8 @@
     const/4 p1, 0x0
 
     .line 28
-    iput-object p1, p0, Landroidx/core/content/LocusIdCompat;->mWrapped:Landroid/content/LocusId;
+    iput-object p1, p0, Landroidx/core/content/LocusIdCompat;
+    ->mWrapped:Landroid/content/LocusId;
 
     .line 29
     .line 30
@@ -95,11 +102,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 4
     .line 5
@@ -111,12 +120,14 @@
 
     .line 8
     .line 9
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -125,12 +136,14 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 21
     .line 22
@@ -158,7 +171,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -167,7 +181,8 @@
 
     .line 7
     .line 8
-    invoke-static {p0}, Landroidx/core/content/LocusIdCompat$Api29Impl;->getId(Landroid/content/LocusId;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/content/LocusIdCompat$Api29Impl;
+    ->getId(Landroid/content/LocusId;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -179,7 +194,8 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v1}, Landroidx/core/util/Preconditions;->checkStringNotEmpty(Ljava/lang/CharSequence;Ljava/lang/Object;)Ljava/lang/CharSequence;
+    invoke-static {p0, v1}, Landroidx/core/util/Preconditions;
+    ->checkStringNotEmpty(Ljava/lang/CharSequence;Ljava/lang/Object;)Ljava/lang/CharSequence;
 
     .line 15
     .line 16
@@ -191,7 +207,8 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Landroidx/core/content/LocusIdCompat;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Landroidx/core/content/LocusIdCompat;
+    -><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -231,7 +248,8 @@
 
     .line 9
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -255,7 +273,8 @@
 
     .line 19
     .line 20
-    iget-object v2, p0, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 21
     .line 22
@@ -263,7 +282,8 @@
 
     .line 23
     .line 24
-    iget-object p1, p1, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 25
     .line 26
@@ -279,11 +299,13 @@
 
     .line 30
     :cond_4
-    iget-object p1, p1, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 31
     .line 32
-    invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -299,7 +321,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -310,7 +333,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;->mId:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;
+    ->mId:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -325,7 +349,8 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 8
     .line 9
@@ -353,7 +378,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;->mWrapped:Landroid/content/LocusId;
+    iget-object v0, p0, Landroidx/core/content/LocusIdCompat;
+    ->mWrapped:Landroid/content/LocusId;
 
     .line 2
     .line 3
@@ -374,12 +400,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-direct {p0}, Landroidx/core/content/LocusIdCompat;->getSanitizedId()Ljava/lang/String;
+    invoke-direct {p0}, Landroidx/core/content/LocusIdCompat;
+    ->getSanitizedId()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -391,7 +419,8 @@
 
     .line 13
     .line 14
-    invoke-static {v0, v1, v2}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16

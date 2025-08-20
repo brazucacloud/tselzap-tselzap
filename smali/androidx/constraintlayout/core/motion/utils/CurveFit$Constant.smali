@@ -25,16 +25,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/CurveFit;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mTime:D
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mTime:D
 
     .line 5
     .line 6
-    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D    return-void
+    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mValue:[D    
+    return-void
 .end method
 
 
@@ -43,7 +47,8 @@
     .locals 0
 
     .line 4
-    iget-object p1, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D
+    iget-object p1, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mValue:[D
 
     aget-wide p2, p1, p3
 
@@ -54,13 +59,15 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D
+    iget-object p1, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mValue:[D
 
     const/4 p2, 0x0
 
     array-length v0, p1
 
-    invoke-static {p1, p2, p3, p2, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p1, p2, p3, p2, v0}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 return-void
 .end method
 
@@ -71,7 +78,8 @@ return-void
 
     .line 2
     :goto_0
-    iget-object p2, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D
+    iget-object p2, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mValue:[D
 
     array-length v0, p2
 
@@ -108,7 +116,8 @@ return-void
 
     .line 2
     :goto_0
-    iget-object p2, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mValue:[D
+    iget-object p2, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mValue:[D
 
     array-length p2, p2
 
@@ -131,7 +140,8 @@ return-void
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;->mTime:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
+    ->mTime:D
 
     .line 2
     .line 3

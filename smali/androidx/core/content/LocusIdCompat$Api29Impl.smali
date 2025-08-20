@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,7 +46,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/content/LocusId;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Landroid/content/LocusId;
+    -><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -63,7 +65,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/LocusId;->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/LocusId;
+    ->getId()Ljava/lang/String;
 
     .line 2
     .line 3

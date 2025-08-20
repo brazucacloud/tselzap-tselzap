@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lcom/fmark/tselzap/fragments/d;->b:I
+    iput p2, p0, Lcom/fmark/tselzap/fragments/d;
+    ->b:I
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/d;->c:Lcom/fmark/tselzap/fragments/Api_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/d;
+    ->c:Lcom/fmark/tselzap/fragments/Api_coder;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,20 +34,25 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/fmark/tselzap/fragments/d;->b:I
+    iget v0, p0, Lcom/fmark/tselzap/fragments/d;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/d;->c:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/d;
+    ->c:Lcom/fmark/tselzap/fragments/Api_coder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->e(Lcom/fmark/tselzap/fragments/Api_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;
+    ->e(Lcom/fmark/tselzap/fragments/Api_coder;Landroid/view/View;)V
 
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/d;->c:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/d;
+    ->c:Lcom/fmark/tselzap/fragments/Api_coder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->d(Lcom/fmark/tselzap/fragments/Api_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;
+    ->d(Lcom/fmark/tselzap/fragments/Api_coder;Landroid/view/View;)V
 
     return-void
 

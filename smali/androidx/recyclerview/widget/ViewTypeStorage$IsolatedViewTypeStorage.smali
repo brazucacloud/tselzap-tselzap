@@ -42,7 +42,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,19 +52,23 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
+    invoke-direct {v0}, Landroid/util/SparseArray;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 10
     .line 11
     const/4 v0, 0x0
 
     .line 12
-    iput v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mNextViewType:I    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mNextViewType:I    
+    return-void
 .end method
 
 
@@ -82,7 +87,9 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage$WrapperViewTypeLookup;-><init>(Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage$WrapperViewTypeLookup;
+    -><init>(Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;Landroidx/recyclerview/widget/NestedAdapterWrapper;)V    
+    return-object v0
 .end method
 
 .method public getWrapperForGlobalType(I)Landroidx/recyclerview/widget/NestedAdapterWrapper;
@@ -91,11 +98,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroid/util/SparseArray;
+    ->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -119,7 +128,8 @@
 
     .line 15
     .line 16
-    invoke-static {p1, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, LA/d;
+    ->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -127,7 +137,8 @@
     move-result-object p1
 
     .line 20
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -138,7 +149,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mNextViewType:I
+    iget v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mNextViewType:I
 
     .line 2
     .line 3
@@ -146,15 +158,19 @@
 
     .line 4
     .line 5
-    iput v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mNextViewType:I
+    iput v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mNextViewType:I
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 8
     .line 9
-    invoke-virtual {v1, v0, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return v0
+    invoke-virtual {v1, v0, p1}, Landroid/util/SparseArray;
+    ->put(ILjava/lang/Object;)V    
+    return v0
 .end method
 
 .method public removeWrapper(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
@@ -165,11 +181,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {v0}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 4
     .line 5
@@ -186,11 +204,13 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroid/util/SparseArray;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -206,11 +226,13 @@
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;->mGlobalTypeToWrapper:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
+    ->mGlobalTypeToWrapper:Landroid/util/SparseArray;
 
     .line 22
     .line 23
-    invoke-virtual {v1, v0}, Landroid/util/SparseArray;->removeAt(I)V
+    invoke-virtual {v1, v0}, Landroid/util/SparseArray;
+    ->removeAt(I)V
 
     .line 24
     .line 25

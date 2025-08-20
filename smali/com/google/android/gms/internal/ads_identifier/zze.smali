@@ -25,7 +25,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p0, v0}, Landroid/os/IBinder;
+    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -53,7 +54,8 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads_identifier/zzd;-><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads_identifier/zzd;
+    -><init>(Landroid/os/IBinder;)V
 
     .line 21
     .line 22

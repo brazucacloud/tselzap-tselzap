@@ -15,7 +15,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/common/zza;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/common/zza;
+    -><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -32,7 +33,8 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zza;->zza()Landroid/os/Parcel;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zza;
+    ->zza()Landroid/os/Parcel;
 
     .line 3
     .line 4
@@ -40,7 +42,8 @@
     move-result-object v1
 
     .line 6
-    invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/internal/common/zza;->zzD(ILandroid/os/Parcel;)V
+    invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/internal/common/zza;
+    ->zzD(ILandroid/os/Parcel;)V
 
     .line 7
     .line 8

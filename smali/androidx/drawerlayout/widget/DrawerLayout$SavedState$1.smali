@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -45,7 +46,8 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 .end method
 
@@ -55,7 +57,8 @@ return-object v0
     .line 3
     new-instance v0, Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
 
-    invoke-direct {v0, p1, p2}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 .end method
 
@@ -63,7 +66,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState$1;->createFromParcel(Landroid/os/Parcel;)Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
+    invoke-virtual {p0, p1}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState$1;
+    ->createFromParcel(Landroid/os/Parcel;)Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
 
     move-result-object p1
 
@@ -74,7 +78,8 @@ return-object v0
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState$1;->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
+    invoke-virtual {p0, p1, p2}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState$1;
+    ->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
 
     move-result-object p1
 
@@ -94,7 +99,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState$1;->newArray(I)[Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
+    invoke-virtual {p0, p1}, Landroidx/drawerlayout/widget/DrawerLayout$SavedState$1;
+    ->newArray(I)[Landroidx/drawerlayout/widget/DrawerLayout$SavedState;
 
     move-result-object p1
 

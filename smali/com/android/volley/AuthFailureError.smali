@@ -12,7 +12,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/android/volley/VolleyError;-><init>()V
+    invoke-direct {p0}, Lcom/android/volley/VolleyError;
+    -><init>()V
     return-void
 .end method
 
@@ -20,10 +21,12 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/android/volley/VolleyError;-><init>()V
+    invoke-direct {p0}, Lcom/android/volley/VolleyError;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Lcom/android/volley/AuthFailureError;->mResolutionIntent:Landroid/content/Intent;
+    iput-object p1, p0, Lcom/android/volley/AuthFailureError;
+    ->mResolutionIntent:Landroid/content/Intent;
 
     return-void
 .end method
@@ -32,7 +35,8 @@
     .locals 0
 
     .line 4
-    invoke-direct {p0, p1}, Lcom/android/volley/VolleyError;-><init>(Lcom/android/volley/NetworkResponse;)V
+    invoke-direct {p0, p1}, Lcom/android/volley/VolleyError;
+    -><init>(Lcom/android/volley/NetworkResponse;)V
 
     return-void
 .end method
@@ -41,7 +45,8 @@
     .locals 0
 
     .line 5
-    invoke-direct {p0, p1}, Lcom/android/volley/VolleyError;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/android/volley/VolleyError;
+    -><init>(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -50,7 +55,8 @@
     .locals 0
 
     .line 6
-    invoke-direct {p0, p1, p2}, Lcom/android/volley/VolleyError;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1, p2}, Lcom/android/volley/VolleyError;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method
@@ -61,7 +67,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/AuthFailureError;->mResolutionIntent:Landroid/content/Intent;
+    iget-object v0, p0, Lcom/android/volley/AuthFailureError;
+    ->mResolutionIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -77,7 +84,8 @@
 
     .line 8
     :cond_0
-    invoke-super {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-super {p0}, Ljava/lang/Exception;
+    ->getMessage()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -91,7 +99,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/AuthFailureError;->mResolutionIntent:Landroid/content/Intent;
+    iget-object v0, p0, Lcom/android/volley/AuthFailureError;
+    ->mResolutionIntent:Landroid/content/Intent;
 
     .line 2
     .line 3

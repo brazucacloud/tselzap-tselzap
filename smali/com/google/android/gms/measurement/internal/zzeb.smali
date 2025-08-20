@@ -10,7 +10,8 @@
 .method public synthetic constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -19,11 +20,13 @@
 .method public final zza()Ljava/lang/Object;
     .locals 1
 
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpw;->zza()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpw;
+    ->zza()Z
 
     move-result v0
 
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 

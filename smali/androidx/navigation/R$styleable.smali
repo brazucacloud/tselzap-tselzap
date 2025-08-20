@@ -54,7 +54,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/navigation/R$styleable;->ActivityNavigator:[I
+    sput-object v0, Landroidx/navigation/R$styleable;
+    ->ActivityNavigator:[I
 
     const v0, 0x7f040428
 
@@ -62,7 +63,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/navigation/R$styleable;->NavHost:[I
+    sput-object v0, Landroidx/navigation/R$styleable;
+    ->NavHost:[I
 
     const v0, 0x7f0402aa
 
@@ -70,7 +72,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/navigation/R$styleable;->NavInclude:[I
+    sput-object v0, Landroidx/navigation/R$styleable;
+    ->NavInclude:[I
 
     return-void
 .end method
@@ -78,7 +81,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

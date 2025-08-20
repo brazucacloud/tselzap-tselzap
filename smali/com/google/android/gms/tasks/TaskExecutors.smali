@@ -21,12 +21,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzu;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzu;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/tasks/TaskExecutors;->MAIN_THREAD:Ljava/util/concurrent/Executor;
+    sput-object v0, Lcom/google/android/gms/tasks/TaskExecutors;
+    ->MAIN_THREAD:Ljava/util/concurrent/Executor;
 
     .line 7
     .line 8
@@ -34,12 +36,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzt;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzt;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Lcom/google/android/gms/tasks/TaskExecutors;->zza:Ljava/util/concurrent/Executor;
+    sput-object v0, Lcom/google/android/gms/tasks/TaskExecutors;
+    ->zza:Ljava/util/concurrent/Executor;
 
     .line 14
     .line 15
@@ -49,7 +53,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

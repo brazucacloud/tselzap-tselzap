@@ -54,7 +54,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -63,12 +64,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 10
     .line 11
@@ -76,7 +79,8 @@
 
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mTAG:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mTAG:Ljava/lang/String;
 
     .line 14
     .line 15
@@ -84,30 +88,36 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRemoveList:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRemoveList:Ljava/util/ArrayList;
 
     .line 21
     .line 22
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;    
+    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/motion/widget/ViewTransitionController;)Landroidx/constraintlayout/motion/widget/MotionLayout;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;    return-object p0
+    iget-object p0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;    return-object p0
 .end method
 
 .method private listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V
     .locals 8
 
     .line 1
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getSharedValueID()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getSharedValueID()I
 
     .line 2
     .line 3
@@ -115,7 +125,8 @@
     move-result v3
 
     .line 5
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getSharedValue()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getSharedValue()I
 
     .line 6
     .line 7
@@ -123,7 +134,8 @@
     move-result v5
 
     .line 9
-    invoke-static {}, Landroidx/constraintlayout/widget/ConstraintLayout;->getSharedValues()Landroidx/constraintlayout/widget/SharedValues;
+    invoke-static {}, Landroidx/constraintlayout/widget/ConstraintLayout;
+    ->getSharedValues()Landroidx/constraintlayout/widget/SharedValues;
 
     .line 10
     .line 11
@@ -131,7 +143,8 @@
     move-result-object v6
 
     .line 13
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getSharedValueID()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getSharedValueID()I
 
     .line 14
     .line 15
@@ -152,26 +165,32 @@
     move v4, p2
 
     .line 22
-    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/motion/widget/ViewTransitionController$1;-><init>(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/ViewTransition;IZI)V
+    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/motion/widget/ViewTransitionController$1;
+    -><init>(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/ViewTransition;IZI)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v6, v7, v0}, Landroidx/constraintlayout/widget/SharedValues;->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V    return-void
+    invoke-virtual {v6, v7, v0}, Landroidx/constraintlayout/widget/SharedValues;
+    ->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V    
+    return-void
 .end method
 
 .method private varargs viewTransition(Landroidx/constraintlayout/motion/widget/ViewTransition;[Landroid/view/View;)V
     .locals 7
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
-    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getCurrentState()I
+    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getCurrentState()I
 
     move-result v4
 
     .line 2
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/ViewTransition;->mViewTransitionMode:I
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->mViewTransitionMode:I
 
     const/4 v1, 0x2
 
@@ -182,37 +201,46 @@
     if-ne v4, v0, :cond_0
 
     .line 3
-    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mTAG:Ljava/lang/String;
+    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mTAG:Ljava/lang/String;
 
     new-instance p2, Ljava/lang/StringBuilder;
 
     const-string v0, "No support for ViewTransition within transition yet. Currently: "
 
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 4
-    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p2
 
     .line 5
-    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
-    invoke-virtual {v0, v4}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
+    invoke-virtual {v0, v4}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
 
     move-result-object v5
 
@@ -222,7 +250,8 @@
 
     .line 7
     :cond_1
-    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     move-object v2, p0
 
@@ -230,7 +259,8 @@
 
     move-object v6, p2
 
-    invoke-virtual/range {v1 .. v6}, Landroidx/constraintlayout/motion/widget/ViewTransition;->applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
+    invoke-virtual/range {v1 .. v6}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
 
     return-void
 
@@ -242,11 +272,13 @@
     move-object v6, p2
 
     .line 8
-    iget-object v3, v2, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v3, v2, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     const/4 v5, 0x0
 
-    invoke-virtual/range {v1 .. v6}, Landroidx/constraintlayout/motion/widget/ViewTransition;->applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
+    invoke-virtual/range {v1 .. v6}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
 
     return-void
 .end method
@@ -257,11 +289,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -269,11 +303,13 @@
     const/4 v0, 0x0
 
     .line 7
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRelatedViews:Ljava/util/HashSet;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRelatedViews:Ljava/util/HashSet;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getStateTransition()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getStateTransition()I
 
     .line 10
     .line 11
@@ -291,11 +327,14 @@
     const/4 v0, 0x1
 
     .line 17
-    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V    
+    return-void
 
     .line 21
     :cond_0
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getStateTransition()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getStateTransition()I
 
     .line 22
     .line 23
@@ -313,7 +352,8 @@
     const/4 v0, 0x0
 
     .line 29
-    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V
+    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->listenForSharedVariable(Landroidx/constraintlayout/motion/widget/ViewTransition;Z)V
 
     .line 30
     .line 31
@@ -326,7 +366,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -338,21 +379,25 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -360,7 +405,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -372,7 +418,8 @@ return-void
 
     .line 6
     :cond_0
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -381,7 +428,8 @@ return-void
 
     .line 10
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -393,7 +441,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -405,7 +454,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;->mutate()V
+    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;
+    ->mutate()V
 
     .line 23
     .line 24
@@ -414,33 +464,40 @@ return-void
 
     .line 26
     :cond_1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 27
     .line 28
-    iget-object v1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRemoveList:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRemoveList:Ljava/util/ArrayList;
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->removeAll(Ljava/util/Collection;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->removeAll(Ljava/util/Collection;)Z
 
     .line 31
     .line 32
     .line 33
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRemoveList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRemoveList:Ljava/util/ArrayList;
 
     .line 34
     .line 35
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->clear()V
 
     .line 36
     .line 37
     .line 38
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 39
     .line 40
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 41
     .line 42
@@ -455,7 +512,8 @@ return-void
     const/4 v0, 0x0
 
     .line 47
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 48
     .line 49
@@ -468,11 +526,13 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -481,7 +541,8 @@ return-void
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -493,7 +554,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -505,7 +567,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getId()I
+    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getId()I
 
     .line 20
     .line 21
@@ -517,11 +580,13 @@ return-void
 
     .line 24
     .line 25
-    iget-object p1, v1, Landroidx/constraintlayout/motion/widget/ViewTransition;->mKeyFrames:Landroidx/constraintlayout/motion/widget/KeyFrames;
+    iget-object p1, v1, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->mKeyFrames:Landroidx/constraintlayout/motion/widget/KeyFrames;
 
     .line 26
     .line 27
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/KeyFrames;->addAllFrames(Landroidx/constraintlayout/motion/widget/MotionController;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/KeyFrames;
+    ->addAllFrames(Landroidx/constraintlayout/motion/widget/MotionController;)V
 
     .line 28
     .line 29
@@ -541,11 +606,13 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -554,7 +621,8 @@ return-void
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -566,7 +634,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -578,7 +647,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getId()I
+    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getId()I
 
     .line 20
     .line 21
@@ -590,7 +660,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v1, p2}, Landroidx/constraintlayout/motion/widget/ViewTransition;->setEnabled(Z)V
+    invoke-virtual {v1, p2}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->setEnabled(Z)V
 
     .line 26
     .line 27
@@ -603,11 +674,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {v0}, Landroid/view/View;
+    ->invalidate()V
     return-void
 .end method
 
@@ -615,11 +688,13 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -628,7 +703,8 @@ return-void
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -640,7 +716,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -652,7 +729,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getId()I
+    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getId()I
 
     .line 20
     .line 21
@@ -664,7 +742,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->isEnabled()Z
+    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->isEnabled()Z
 
     .line 26
     .line 27
@@ -684,11 +763,13 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -697,7 +778,8 @@ return-void
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -712,7 +794,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -724,7 +807,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getId()I
+    invoke-virtual {v1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getId()I
 
     .line 21
     .line 22
@@ -748,15 +832,18 @@ return-void
 
     .line 29
     .line 30
-    iput-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRelatedViews:Ljava/util/HashSet;
+    iput-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRelatedViews:Ljava/util/HashSet;
 
     .line 31
     .line 32
-    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 33
     .line 34
-    invoke-virtual {p1, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 35
     .line 36
@@ -769,11 +856,14 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRemoveList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRemoveList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public touchEvent(Landroid/view/MotionEvent;)V
@@ -786,11 +876,13 @@ return-void
     const/4 v1, 0x1
 
     .line 3
-    iget-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 4
     .line 5
-    invoke-virtual {v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getCurrentState()I
+    invoke-virtual {v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getCurrentState()I
 
     .line 6
     .line 7
@@ -810,7 +902,8 @@ return-void
     .line 13
     .line 14
     :cond_0
-    iget-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRelatedViews:Ljava/util/HashSet;
+    iget-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRelatedViews:Ljava/util/HashSet;
 
     .line 15
     .line 16
@@ -822,20 +915,24 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v2}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v2}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRelatedViews:Ljava/util/HashSet;
+    iput-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRelatedViews:Ljava/util/HashSet;
 
     .line 24
     .line 25
-    iget-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 26
     .line 27
-    invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 28
     .line 29
@@ -844,7 +941,8 @@ return-void
 
     .line 31
     :cond_1
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 32
     .line 33
@@ -856,7 +954,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -868,11 +967,13 @@ return-void
 
     .line 42
     .line 43
-    iget-object v4, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v4, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 44
     .line 45
-    invoke-virtual {v4}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {v4}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 46
     .line 47
@@ -888,11 +989,13 @@ return-void
 
     .line 51
     .line 52
-    iget-object v7, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v7, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 53
     .line 54
-    invoke-virtual {v7, v5}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v7, v5}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 55
     .line 56
@@ -900,7 +1003,8 @@ return-void
     move-result-object v7
 
     .line 58
-    invoke-virtual {v3, v7}, Landroidx/constraintlayout/motion/widget/ViewTransition;->matchesView(Landroid/view/View;)Z
+    invoke-virtual {v3, v7}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->matchesView(Landroid/view/View;)Z
 
     .line 59
     .line 60
@@ -912,16 +1016,19 @@ return-void
 
     .line 63
     .line 64
-    invoke-virtual {v7}, Landroid/view/View;->getId()I
+    invoke-virtual {v7}, Landroid/view/View;
+    ->getId()I
 
     .line 65
     .line 66
     .line 67
-    iget-object v8, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRelatedViews:Ljava/util/HashSet;
+    iget-object v8, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRelatedViews:Ljava/util/HashSet;
 
     .line 68
     .line 69
-    invoke-virtual {v8, v7}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v8, v7}, Ljava/util/HashSet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 70
     .line 71
@@ -934,7 +1041,8 @@ return-void
 
     .line 74
     :cond_3
-    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;
+    ->getX()F
 
     .line 75
     .line 76
@@ -942,7 +1050,8 @@ return-void
     move-result v2
 
     .line 78
-    invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;
+    ->getY()F
 
     .line 79
     .line 80
@@ -954,12 +1063,14 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {v10}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v10}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 85
     .line 86
     .line 87
-    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
+    invoke-virtual {p1}, Landroid/view/MotionEvent;
+    ->getAction()I
 
     .line 88
     .line 89
@@ -967,7 +1078,8 @@ return-void
     move-result p1
 
     .line 91
-    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 92
     .line 93
@@ -975,7 +1087,8 @@ return-void
 
     .line 94
     .line 95
-    invoke-virtual {v3}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v3}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 96
     .line 97
@@ -987,11 +1100,13 @@ return-void
 
     .line 100
     .line 101
-    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mAnimations:Ljava/util/ArrayList;
+    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mAnimations:Ljava/util/ArrayList;
 
     .line 102
     .line 103
-    invoke-virtual {v3}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v3}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 104
     .line 105
@@ -1000,7 +1115,8 @@ return-void
 
     .line 107
     :goto_1
-    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 108
     .line 109
@@ -1012,7 +1128,8 @@ return-void
 
     .line 112
     .line 113
-    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -1024,7 +1141,8 @@ return-void
 
     .line 118
     .line 119
-    invoke-virtual {v4, p1, v2, v9}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;->reactTo(IFF)V
+    invoke-virtual {v4, p1, v2, v9}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;
+    ->reactTo(IFF)V
 
     .line 120
     .line 121
@@ -1045,11 +1163,13 @@ return-void
 
     .line 128
     :cond_5
-    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 129
     .line 130
-    invoke-virtual {v3, v6}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
+    invoke-virtual {v3, v6}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
 
     .line 131
     .line 132
@@ -1057,11 +1177,13 @@ return-void
     move-result-object v7
 
     .line 134
-    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
     .line 135
     .line 136
-    invoke-virtual {v3}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v3}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 137
     .line 138
@@ -1070,7 +1192,8 @@ return-void
 
     .line 140
     :cond_6
-    invoke-interface {v11}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v11}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 141
     .line 142
@@ -1082,7 +1205,8 @@ return-void
 
     .line 145
     .line 146
-    invoke-interface {v11}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v11}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 147
     .line 148
@@ -1094,7 +1218,8 @@ return-void
 
     .line 151
     .line 152
-    invoke-virtual {v3, p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;->supports(I)Z
+    invoke-virtual {v3, p1}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->supports(I)Z
 
     .line 153
     .line 154
@@ -1106,11 +1231,13 @@ return-void
 
     .line 157
     .line 158
-    iget-object v4, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mRelatedViews:Ljava/util/HashSet;
+    iget-object v4, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mRelatedViews:Ljava/util/HashSet;
 
     .line 159
     .line 160
-    invoke-virtual {v4}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v4}, Ljava/util/HashSet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 161
     .line 162
@@ -1120,7 +1247,8 @@ return-void
     .line 164
     :cond_7
     :goto_2
-    invoke-interface {v12}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v12}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 165
     .line 166
@@ -1132,7 +1260,8 @@ return-void
 
     .line 169
     .line 170
-    invoke-interface {v12}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v12}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 171
     .line 172
@@ -1144,7 +1273,8 @@ return-void
 
     .line 175
     .line 176
-    invoke-virtual {v3, v4}, Landroidx/constraintlayout/motion/widget/ViewTransition;->matchesView(Landroid/view/View;)Z
+    invoke-virtual {v3, v4}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->matchesView(Landroid/view/View;)Z
 
     .line 177
     .line 178
@@ -1160,7 +1290,8 @@ return-void
 
     .line 183
     :cond_8
-    invoke-virtual {v4, v10}, Landroid/view/View;->getHitRect(Landroid/graphics/Rect;)V
+    invoke-virtual {v4, v10}, Landroid/view/View;
+    ->getHitRect(Landroid/graphics/Rect;)V
 
     .line 184
     .line 185
@@ -1171,7 +1302,8 @@ return-void
     float-to-int v8, v9
 
     .line 188
-    invoke-virtual {v10, v5, v8}, Landroid/graphics/Rect;->contains(II)Z
+    invoke-virtual {v10, v5, v8}, Landroid/graphics/Rect;
+    ->contains(II)Z
 
     .line 189
     .line 190
@@ -1183,7 +1315,8 @@ return-void
 
     .line 193
     .line 194
-    iget-object v5, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v5, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 195
     .line 196
@@ -1198,7 +1331,8 @@ return-void
     move-object v4, p0
 
     .line 201
-    invoke-virtual/range {v3 .. v8}, Landroidx/constraintlayout/motion/widget/ViewTransition;->applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
+    invoke-virtual/range {v3 .. v8}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
 
     .line 202
     .line 203
@@ -1217,12 +1351,15 @@ return-void
     .line 9
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 10
-    iget-object v1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mViewTransitions:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mViewTransitions:Ljava/util/ArrayList;
 
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -1230,20 +1367,23 @@ return-void
 
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v3
 
     if-eqz v3, :cond_4
 
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Landroidx/constraintlayout/motion/widget/ViewTransition;
 
     .line 11
-    invoke-virtual {v3}, Landroidx/constraintlayout/motion/widget/ViewTransition;->getId()I
+    invoke-virtual {v3}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->getId()I
 
     move-result v4
 
@@ -1262,14 +1402,16 @@ return-void
     aget-object v6, p2, v5
 
     .line 13
-    invoke-virtual {v3, v6}, Landroidx/constraintlayout/motion/widget/ViewTransition;->checkTags(Landroid/view/View;)Z
+    invoke-virtual {v3, v6}, Landroidx/constraintlayout/motion/widget/ViewTransition;
+    ->checkTags(Landroid/view/View;)Z
 
     move-result v7
 
     if-eqz v7, :cond_1
 
     .line 14
-    invoke-virtual {v0, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v6}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     :cond_1
     add-int/lit8 v5, v5, 0x1
@@ -1278,7 +1420,8 @@ return-void
 
     .line 15
     :cond_2
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     move-result v2
 
@@ -1287,16 +1430,19 @@ return-void
     .line 16
     new-array v2, v4, [Landroid/view/View;
 
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, [Landroid/view/View;
 
-    invoke-direct {p0, v3, v2}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->viewTransition(Landroidx/constraintlayout/motion/widget/ViewTransition;[Landroid/view/View;)V
+    invoke-direct {p0, v3, v2}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->viewTransition(Landroidx/constraintlayout/motion/widget/ViewTransition;[Landroid/view/View;)V
 
     .line 17
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->clear()V
 
     :cond_3
     move-object v2, v3
@@ -1307,11 +1453,13 @@ return-void
     if-nez v2, :cond_5
 
     .line 18
-    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->mTAG:Ljava/lang/String;
+    iget-object p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransitionController;
+    ->mTAG:Ljava/lang/String;
 
     const-string p2, " Could not find ViewTransition"
 
-    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_5
     return-void

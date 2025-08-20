@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearLayoutManager;
+    -><init>(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -45,11 +47,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->getOffscreenPageLimit()I
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;
+    ->getOffscreenPageLimit()I
 
     .line 4
     .line 5
@@ -64,15 +68,19 @@ return-void
 
     .line 9
     .line 10
-    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/LinearLayoutManager;->calculateExtraLayoutSpace(Landroidx/recyclerview/widget/RecyclerView$State;[I)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/LinearLayoutManager;
+    ->calculateExtraLayoutSpace(Landroidx/recyclerview/widget/RecyclerView$State;[I)V    
+    return-void
 
     .line 14
     :cond_0
-    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;->getPageSize()I
+    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;
+    ->getPageSize()I
 
     .line 17
     .line 18
@@ -113,20 +121,25 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/LinearLayoutManager;->onInitializeAccessibilityNodeInfo(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/LinearLayoutManager;
+    ->onInitializeAccessibilityNodeInfo(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 5
     .line 6
-    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 7
     .line 8
-    invoke-virtual {p1, p3}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onLmInitializeAccessibilityNodeInfo(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V    return-void
+    invoke-virtual {p1, p3}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->onLmInitializeAccessibilityNodeInfo(Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V    
+    return-void
 .end method
 
 .method public onInitializeAccessibilityNodeInfoForItem(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
@@ -149,15 +162,19 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 4
     .line 5
-    invoke-virtual {p1, p3, p4}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onLmInitializeAccessibilityNodeInfoForItem(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V    return-void
+    invoke-virtual {p1, p3, p4}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->onLmInitializeAccessibilityNodeInfoForItem(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V    
+    return-void
 .end method
 
 .method public performAccessibilityAction(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;ILandroid/os/Bundle;)Z
@@ -176,15 +193,18 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p3}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->handlesLmPerformAccessibilityAction(I)Z
+    invoke-virtual {v0, p3}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->handlesLmPerformAccessibilityAction(I)Z
 
     .line 6
     .line 7
@@ -196,15 +216,18 @@ return-void
 
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 12
     .line 13
-    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 14
     .line 15
-    invoke-virtual {p1, p3}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onLmPerformAccessibilityAction(I)Z
+    invoke-virtual {p1, p3}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->onLmPerformAccessibilityAction(I)Z
 
     .line 16
     .line 17
@@ -215,7 +238,8 @@ return-void
 
     .line 20
     :cond_0
-    invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->performAccessibilityAction(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;ILandroid/os/Bundle;)Z
+    invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->performAccessibilityAction(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;ILandroid/os/Bundle;)Z
 
     .line 21
     .line 22

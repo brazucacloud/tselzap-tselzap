@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/toolbox/ImageLoader;->getImageListener(Landroid/widget/ImageView;II)Lcom/android/volley/toolbox/ImageLoader$ImageListener;
+    value = Lcom/android/volley/toolbox/ImageLoader;
+    ->getImageListener(Landroid/widget/ImageView;II)Lcom/android/volley/toolbox/ImageLoader$ImageListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,19 +31,23 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$errorImageResId:I
+    iput p1, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$errorImageResId:I
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$view:Landroid/widget/ImageView;
+    iput-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$view:Landroid/widget/ImageView;
 
     .line 4
     .line 5
-    iput p3, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$defaultImageResId:I
+    iput p3, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$defaultImageResId:I
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 8
     .line 9
@@ -56,7 +61,8 @@
     .locals 1
 
     .line 1
-    iget p1, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$errorImageResId:I
+    iget p1, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$errorImageResId:I
 
     .line 2
     .line 3
@@ -64,11 +70,13 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$view:Landroid/widget/ImageView;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$view:Landroid/widget/ImageView;
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
+    ->setImageResource(I)V
 
     .line 8
     .line 9
@@ -81,7 +89,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {p1}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 2
     .line 3
@@ -93,11 +102,13 @@
 
     .line 6
     .line 7
-    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$view:Landroid/widget/ImageView;
+    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$view:Landroid/widget/ImageView;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {p1}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 10
     .line 11
@@ -105,7 +116,8 @@
     move-result-object p1
 
     .line 13
-    invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p2, p1}, Landroid/widget/ImageView;
+    ->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 14
     .line 15
@@ -114,7 +126,8 @@
 
     .line 17
     :cond_0
-    iget p1, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$defaultImageResId:I
+    iget p1, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$defaultImageResId:I
 
     .line 18
     .line 19
@@ -122,11 +135,13 @@
 
     .line 20
     .line 21
-    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$1;->val$view:Landroid/widget/ImageView;
+    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$1;
+    ->val$view:Landroid/widget/ImageView;
 
     .line 22
     .line 23
-    invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setImageResource(I)V
+    invoke-virtual {p2, p1}, Landroid/widget/ImageView;
+    ->setImageResource(I)V
 
     .line 24
     .line 25

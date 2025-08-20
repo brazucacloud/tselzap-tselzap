@@ -21,13 +21,16 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const-string v0, "Activity must not be null"
 
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;->zza:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;
+    ->zza:Ljava/lang/Object;
 
     return-void
 .end method
@@ -45,11 +48,13 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>()V
 
     throw p1
 .end method
@@ -62,7 +67,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;
+    ->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -79,7 +85,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;
+    ->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -94,7 +101,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;
+    ->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -109,7 +117,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/LifecycleActivity;
+    ->zza:Ljava/lang/Object;
 
     .line 2
     .line 3

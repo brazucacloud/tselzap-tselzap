@@ -66,12 +66,14 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -79,15 +81,18 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Lx0/t;->g:Landroid/content/Context;
+    iput-object v0, p0, Lx0/t;
+    ->g:Landroid/content/Context;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lx0/t;->h:Lcom/google/android/material/textfield/TextInputLayout;
+    iput-object p1, p0, Lx0/t;
+    ->h:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 13
     .line 14
@@ -100,7 +105,8 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {p1, v1}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 20
     .line 21
@@ -111,7 +117,8 @@
     int-to-float p1, p1
 
     .line 24
-    iput p1, p0, Lx0/t;->m:F
+    iput p1, p0, Lx0/t;
+    ->m:F
 
     .line 25
     .line 26
@@ -124,7 +131,8 @@
 
     .line 30
     .line 31
-    invoke-static {v0, p1, v1}, La/a;->I(Landroid/content/Context;II)I
+    invoke-static {v0, p1, v1}, La/a;
+    ->I(Landroid/content/Context;II)I
 
     .line 32
     .line 33
@@ -132,7 +140,8 @@
     move-result v1
 
     .line 35
-    iput v1, p0, Lx0/t;->a:I
+    iput v1, p0, Lx0/t;
+    ->a:I
 
     .line 36
     .line 37
@@ -145,7 +154,8 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, La/a;->I(Landroid/content/Context;II)I
+    invoke-static {v0, v1, v2}, La/a;
+    ->I(Landroid/content/Context;II)I
 
     .line 43
     .line 44
@@ -153,11 +163,13 @@
     move-result v1
 
     .line 46
-    iput v1, p0, Lx0/t;->b:I
+    iput v1, p0, Lx0/t;
+    ->b:I
 
     .line 47
     .line 48
-    invoke-static {v0, p1, v2}, La/a;->I(Landroid/content/Context;II)I
+    invoke-static {v0, p1, v2}, La/a;
+    ->I(Landroid/content/Context;II)I
 
     .line 49
     .line 50
@@ -165,11 +177,13 @@
     move-result p1
 
     .line 52
-    iput p1, p0, Lx0/t;->c:I
+    iput p1, p0, Lx0/t;
+    ->c:I
 
     .line 53
     .line 54
-    sget-object p1, LZ/a;->d:Landroidx/interpolator/view/animation/LinearOutSlowInInterpolator;
+    sget-object p1, LZ/a;
+    ->d:Landroidx/interpolator/view/animation/LinearOutSlowInInterpolator;
 
     .line 55
     .line 56
@@ -178,7 +192,8 @@
     .line 57
     .line 58
     .line 59
-    invoke-static {v0, v1, p1}, La/a;->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
+    invoke-static {v0, v1, p1}, La/a;
+    ->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
 
     .line 60
     .line 61
@@ -186,15 +201,18 @@
     move-result-object p1
 
     .line 63
-    iput-object p1, p0, Lx0/t;->d:Landroid/animation/TimeInterpolator;
+    iput-object p1, p0, Lx0/t;
+    ->d:Landroid/animation/TimeInterpolator;
 
     .line 64
     .line 65
-    sget-object p1, LZ/a;->a:Landroid/view/animation/LinearInterpolator;
+    sget-object p1, LZ/a;
+    ->a:Landroid/view/animation/LinearInterpolator;
 
     .line 66
     .line 67
-    invoke-static {v0, v1, p1}, La/a;->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
+    invoke-static {v0, v1, p1}, La/a;
+    ->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
 
     .line 68
     .line 69
@@ -202,7 +220,8 @@
     move-result-object v1
 
     .line 71
-    iput-object v1, p0, Lx0/t;->e:Landroid/animation/TimeInterpolator;
+    iput-object v1, p0, Lx0/t;
+    ->e:Landroid/animation/TimeInterpolator;
 
     .line 72
     .line 73
@@ -211,7 +230,8 @@
     .line 74
     .line 75
     .line 76
-    invoke-static {v0, v1, p1}, La/a;->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
+    invoke-static {v0, v1, p1}, La/a;
+    ->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
 
     .line 77
     .line 78
@@ -219,7 +239,8 @@
     move-result-object p1
 
     .line 80
-    iput-object p1, p0, Lx0/t;->f:Landroid/animation/TimeInterpolator;
+    iput-object p1, p0, Lx0/t;
+    ->f:Landroid/animation/TimeInterpolator;
 
     .line 81
     .line 82
@@ -232,7 +253,8 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 2
     .line 3
@@ -246,7 +268,8 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lx0/t;->k:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lx0/t;
+    ->k:Landroid/widget/FrameLayout;
 
     .line 8
     .line 9
@@ -258,36 +281,43 @@
 
     .line 12
     .line 13
-    iget-object v3, p0, Lx0/t;->g:Landroid/content/Context;
+    iget-object v3, p0, Lx0/t;
+    ->g:Landroid/content/Context;
 
     .line 14
     .line 15
-    invoke-direct {v0, v3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v3}, Landroid/widget/LinearLayout;
+    -><init>(Landroid/content/Context;)V
 
     .line 16
     .line 17
     .line 18
-    iput-object v0, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setOrientation(I)V
+    invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;
+    ->setOrientation(I)V
 
     .line 21
     .line 22
     .line 23
-    iget-object v0, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 24
     .line 25
-    iget-object v4, p0, Lx0/t;->h:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v4, p0, Lx0/t;
+    ->h:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 26
     .line 27
     const/4 v5, -0x1
 
     .line 28
-    invoke-virtual {v4, v0, v5, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
+    invoke-virtual {v4, v0, v5, v1}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;II)V
 
     .line 29
     .line 30
@@ -296,12 +326,14 @@
 
     .line 32
     .line 33
-    invoke-direct {v0, v3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v3}, Landroid/widget/FrameLayout;
+    -><init>(Landroid/content/Context;)V
 
     .line 34
     .line 35
     .line 36
-    iput-object v0, p0, Lx0/t;->k:Landroid/widget/FrameLayout;
+    iput-object v0, p0, Lx0/t;
+    ->k:Landroid/widget/FrameLayout;
 
     .line 37
     .line 38
@@ -313,25 +345,30 @@
 
     .line 41
     .line 42
-    invoke-direct {v0, v2, v1, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(IIF)V
+    invoke-direct {v0, v2, v1, v3}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(IIF)V
 
     .line 43
     .line 44
     .line 45
-    iget-object v3, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v3, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 46
     .line 47
-    iget-object v5, p0, Lx0/t;->k:Landroid/widget/FrameLayout;
+    iget-object v5, p0, Lx0/t;
+    ->k:Landroid/widget/FrameLayout;
 
     .line 48
     .line 49
-    invoke-virtual {v3, v5, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v3, v5, v0}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v4}, Lcom/google/android/material/textfield/TextInputLayout;->getEditText()Landroid/widget/EditText;
+    invoke-virtual {v4}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getEditText()Landroid/widget/EditText;
 
     .line 53
     .line 54
@@ -343,7 +380,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0}, Lx0/t;->b()V
+    invoke-virtual {p0}, Lx0/t;
+    ->b()V
 
     .line 59
     .line 60
@@ -368,16 +406,19 @@
 
     .line 68
     .line 69
-    invoke-direct {p2, v1, v1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+    invoke-direct {p2, v1, v1}, Landroid/widget/LinearLayout$LayoutParams;
+    -><init>(II)V
 
     .line 70
     .line 71
     .line 72
-    iget-object v1, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v1, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 73
     .line 74
-    invoke-virtual {v1, p1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, p1, p2}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 75
     .line 76
@@ -387,42 +428,50 @@
     .line 78
     :cond_2
     :goto_0
-    iget-object p2, p0, Lx0/t;->k:Landroid/widget/FrameLayout;
+    iget-object p2, p0, Lx0/t;
+    ->k:Landroid/widget/FrameLayout;
 
     .line 79
     .line 80
-    invoke-virtual {p2, v2}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p2, v2}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 81
     .line 82
     .line 83
-    iget-object p2, p0, Lx0/t;->k:Landroid/widget/FrameLayout;
+    iget-object p2, p0, Lx0/t;
+    ->k:Landroid/widget/FrameLayout;
 
     .line 84
     .line 85
-    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;)V
 
     .line 86
     .line 87
     .line 88
     :goto_1
-    iget-object p1, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 89
     .line 90
-    invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p1, v2}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 91
     .line 92
     .line 93
-    iget p1, p0, Lx0/t;->j:I
+    iget p1, p0, Lx0/t;
+    ->j:I
 
     .line 94
     .line 95
     add-int/2addr p1, v0
 
     .line 96
-    iput p1, p0, Lx0/t;->j:I
+    iput p1, p0, Lx0/t;
+    ->j:I
 
     .line 97
     .line 98
@@ -433,7 +482,8 @@
     .locals 8
 
     .line 1
-    iget-object v0, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 2
     .line 3
@@ -441,11 +491,13 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lx0/t;->h:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v0, p0, Lx0/t;
+    ->h:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/material/textfield/TextInputLayout;->getEditText()Landroid/widget/EditText;
+    invoke-virtual {v0}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getEditText()Landroid/widget/EditText;
 
     .line 8
     .line 9
@@ -457,7 +509,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Lcom/google/android/material/textfield/TextInputLayout;->getEditText()Landroid/widget/EditText;
+    invoke-virtual {v0}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getEditText()Landroid/widget/EditText;
 
     .line 14
     .line 15
@@ -465,11 +518,13 @@
     move-result-object v0
 
     .line 17
-    iget-object v1, p0, Lx0/t;->g:Landroid/content/Context;
+    iget-object v1, p0, Lx0/t;
+    ->g:Landroid/content/Context;
 
     .line 18
     .line 19
-    invoke-static {v1}, Lr0/c;->d(Landroid/content/Context;)Z
+    invoke-static {v1}, Lr0/c;
+    ->d(Landroid/content/Context;)Z
 
     .line 20
     .line 21
@@ -477,11 +532,13 @@
     move-result v2
 
     .line 23
-    iget-object v3, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v3, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 24
     .line 25
-    invoke-virtual {v0}, Landroid/view/View;->getPaddingStart()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getPaddingStart()I
 
     .line 26
     .line 27
@@ -498,7 +555,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 35
     .line 36
@@ -506,7 +564,8 @@
     move-result-object v4
 
     .line 38
-    invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v4, v5}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 39
     .line 40
@@ -515,7 +574,8 @@
 
     .line 42
     :cond_0
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 43
     .line 44
@@ -528,7 +588,8 @@
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v6, v7}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 50
     .line 51
@@ -540,7 +601,8 @@
 
     .line 54
     .line 55
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 56
     .line 57
@@ -553,7 +615,8 @@
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v6, v7}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 63
     .line 64
@@ -562,7 +625,8 @@
 
     .line 66
     :cond_1
-    invoke-virtual {v0}, Landroid/view/View;->getPaddingEnd()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getPaddingEnd()I
 
     .line 67
     .line 68
@@ -574,7 +638,8 @@
 
     .line 71
     .line 72
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 73
     .line 74
@@ -582,7 +647,8 @@
     move-result-object v0
 
     .line 76
-    invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v0, v5}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 77
     .line 78
@@ -594,7 +660,8 @@
     const/4 v1, 0x0
 
     .line 81
-    invoke-virtual {v3, v4, v6, v0, v1}, Landroid/view/View;->setPaddingRelative(IIII)V
+    invoke-virtual {v3, v4, v6, v0, v1}, Landroid/view/View;
+    ->setPaddingRelative(IIII)V
 
     .line 82
     .line 83
@@ -607,7 +674,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lx0/t;->l:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lx0/t;
+    ->l:Landroid/animation/AnimatorSet;
 
     .line 2
     .line 3
@@ -615,7 +683,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/animation/Animator;->cancel()V
+    invoke-virtual {v0}, Landroid/animation/Animator;
+    ->cancel()V
 
     .line 6
     .line 7
@@ -689,7 +758,8 @@
 
     .line 24
     :goto_1
-    sget-object v4, Landroid/view/View;->ALPHA:Landroid/util/Property;
+    sget-object v4, Landroid/view/View;
+    ->ALPHA:Landroid/util/Property;
 
     .line 25
     .line 26
@@ -701,7 +771,8 @@
 
     .line 29
     .line 30
-    invoke-static {p3, v4, v5}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {p3, v4, v5}, Landroid/animation/ObjectAnimator;
+    ->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
 
     .line 31
     .line 32
@@ -709,7 +780,8 @@
     move-result-object v3
 
     .line 34
-    iget v4, p0, Lx0/t;->c:I
+    iget v4, p0, Lx0/t;
+    ->c:I
 
     .line 35
     .line 36
@@ -717,7 +789,8 @@
 
     .line 37
     .line 38
-    iget v5, p0, Lx0/t;->b:I
+    iget v5, p0, Lx0/t;
+    ->b:I
 
     .line 39
     .line 40
@@ -732,7 +805,8 @@
 
     .line 43
     :goto_2
-    invoke-virtual {v3, v5, v6}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
+    invoke-virtual {v3, v5, v6}, Landroid/animation/ObjectAnimator;
+    ->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 44
     .line 45
@@ -741,7 +815,8 @@
 
     .line 47
     .line 48
-    iget-object p2, p0, Lx0/t;->e:Landroid/animation/TimeInterpolator;
+    iget-object p2, p0, Lx0/t;
+    ->e:Landroid/animation/TimeInterpolator;
 
     .line 49
     .line 50
@@ -749,12 +824,14 @@
 
     .line 51
     :cond_5
-    iget-object p2, p0, Lx0/t;->f:Landroid/animation/TimeInterpolator;
+    iget-object p2, p0, Lx0/t;
+    ->f:Landroid/animation/TimeInterpolator;
 
     .line 52
     .line 53
     :goto_3
-    invoke-virtual {v3, p2}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v3, p2}, Landroid/animation/Animator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 54
     .line 55
@@ -770,13 +847,15 @@
     int-to-long v5, v4
 
     .line 61
-    invoke-virtual {v3, v5, v6}, Landroid/animation/Animator;->setStartDelay(J)V
+    invoke-virtual {v3, v5, v6}, Landroid/animation/Animator;
+    ->setStartDelay(J)V
 
     .line 62
     .line 63
     .line 64
     :cond_6
-    invoke-virtual {p1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 65
     .line 66
@@ -789,11 +868,13 @@
 
     .line 70
     .line 71
-    sget-object p2, Landroid/view/View;->TRANSLATION_Y:Landroid/util/Property;
+    sget-object p2, Landroid/view/View;
+    ->TRANSLATION_Y:Landroid/util/Property;
 
     .line 72
     .line 73
-    iget p4, p0, Lx0/t;->m:F
+    iget p4, p0, Lx0/t;
+    ->m:F
 
     .line 74
     .line 75
@@ -815,7 +896,8 @@
 
     .line 82
     .line 83
-    invoke-static {p3, p2, p5}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
+    invoke-static {p3, p2, p5}, Landroid/animation/ObjectAnimator;
+    ->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
 
     .line 84
     .line 85
@@ -823,23 +905,27 @@
     move-result-object p2
 
     .line 87
-    iget p3, p0, Lx0/t;->a:I
+    iget p3, p0, Lx0/t;
+    ->a:I
 
     .line 88
     .line 89
     int-to-long p3, p3
 
     .line 90
-    invoke-virtual {p2, p3, p4}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
+    invoke-virtual {p2, p3, p4}, Landroid/animation/ObjectAnimator;
+    ->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 91
     .line 92
     .line 93
-    iget-object p3, p0, Lx0/t;->d:Landroid/animation/TimeInterpolator;
+    iget-object p3, p0, Lx0/t;
+    ->d:Landroid/animation/TimeInterpolator;
 
     .line 94
     .line 95
-    invoke-virtual {p2, p3}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {p2, p3}, Landroid/animation/Animator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 96
     .line 97
@@ -847,12 +933,14 @@
     int-to-long p3, v4
 
     .line 99
-    invoke-virtual {p2, p3, p4}, Landroid/animation/Animator;->setStartDelay(J)V
+    invoke-virtual {p2, p3, p4}, Landroid/animation/Animator;
+    ->setStartDelay(J)V
 
     .line 100
     .line 101
     .line 102
-    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 103
     .line 104
@@ -886,7 +974,8 @@
 
     .line 9
     :cond_0
-    iget-object p1, p0, Lx0/t;->y:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object p1, p0, Lx0/t;
+    ->y:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 10
     .line 11
@@ -894,7 +983,8 @@
 
     .line 12
     :cond_1
-    iget-object p1, p0, Lx0/t;->r:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object p1, p0, Lx0/t;
+    ->r:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 13
     .line 14
@@ -908,16 +998,19 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Lx0/t;->p:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lx0/t;
+    ->p:Ljava/lang/CharSequence;
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Lx0/t;->c()V
+    invoke-virtual {p0}, Lx0/t;
+    ->c()V
 
     .line 5
     .line 6
     .line 7
-    iget v0, p0, Lx0/t;->n:I
+    iget v0, p0, Lx0/t;
+    ->n:I
 
     .line 8
     .line 9
@@ -928,7 +1021,8 @@
 
     .line 11
     .line 12
-    iget-boolean v0, p0, Lx0/t;->x:Z
+    iget-boolean v0, p0, Lx0/t;
+    ->x:Z
 
     .line 13
     .line 14
@@ -936,11 +1030,13 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, Lx0/t;->w:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lx0/t;
+    ->w:Ljava/lang/CharSequence;
 
     .line 17
     .line 18
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 19
     .line 20
@@ -955,7 +1051,8 @@
     const/4 v0, 0x2
 
     .line 25
-    iput v0, p0, Lx0/t;->o:I
+    iput v0, p0, Lx0/t;
+    ->o:I
 
     .line 26
     .line 27
@@ -966,21 +1063,25 @@
     const/4 v0, 0x0
 
     .line 29
-    iput v0, p0, Lx0/t;->o:I
+    iput v0, p0, Lx0/t;
+    ->o:I
 
     .line 30
     .line 31
     :cond_1
     :goto_0
-    iget v0, p0, Lx0/t;->n:I
+    iget v0, p0, Lx0/t;
+    ->n:I
 
     .line 32
     .line 33
-    iget v1, p0, Lx0/t;->o:I
+    iget v1, p0, Lx0/t;
+    ->o:I
 
     .line 34
     .line 35
-    iget-object v2, p0, Lx0/t;->r:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v2, p0, Lx0/t;
+    ->r:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 36
     .line 37
@@ -988,7 +1089,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {p0, v2, v3}, Lx0/t;->h(Landroidx/appcompat/widget/AppCompatTextView;Ljava/lang/CharSequence;)Z
+    invoke-virtual {p0, v2, v3}, Lx0/t;
+    ->h(Landroidx/appcompat/widget/AppCompatTextView;Ljava/lang/CharSequence;)Z
 
     .line 40
     .line 41
@@ -996,7 +1098,8 @@
     move-result v2
 
     .line 43
-    invoke-virtual {p0, v0, v1, v2}, Lx0/t;->i(IIZ)V
+    invoke-virtual {p0, v0, v1, v2}, Lx0/t;
+    ->i(IIZ)V
 
     .line 44
     .line 45
@@ -1008,7 +1111,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 2
     .line 3
@@ -1032,7 +1136,8 @@
     .line 10
     .line 11
     :cond_1
-    iget-object p2, p0, Lx0/t;->k:Landroid/widget/FrameLayout;
+    iget-object p2, p0, Lx0/t;
+    ->k:Landroid/widget/FrameLayout;
 
     .line 12
     .line 13
@@ -1040,7 +1145,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;
+    ->removeView(Landroid/view/View;)V
 
     .line 16
     .line 17
@@ -1049,24 +1155,28 @@
 
     .line 19
     :cond_2
-    invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Landroid/view/ViewGroup;
+    ->removeView(Landroid/view/View;)V
 
     .line 20
     .line 21
     .line 22
     :goto_0
-    iget p1, p0, Lx0/t;->j:I
+    iget p1, p0, Lx0/t;
+    ->j:I
 
     .line 23
     .line 24
     sub-int/2addr p1, v1
 
     .line 25
-    iput p1, p0, Lx0/t;->j:I
+    iput p1, p0, Lx0/t;
+    ->j:I
 
     .line 26
     .line 27
-    iget-object p2, p0, Lx0/t;->i:Landroid/widget/LinearLayout;
+    iget-object p2, p0, Lx0/t;
+    ->i:Landroid/widget/LinearLayout;
 
     .line 28
     .line 29
@@ -1078,7 +1188,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {p2, p1}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p2, p1}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 34
     .line 35
@@ -1092,11 +1203,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx0/t;->h:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v0, p0, Lx0/t;
+    ->h:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->isLaidOut()Z
+    invoke-virtual {v0}, Landroid/view/View;
+    ->isLaidOut()Z
 
     .line 4
     .line 5
@@ -1108,7 +1221,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/view/View;->isEnabled()Z
+    invoke-virtual {v0}, Landroid/view/View;
+    ->isEnabled()Z
 
     .line 10
     .line 11
@@ -1120,11 +1234,13 @@
 
     .line 14
     .line 15
-    iget v0, p0, Lx0/t;->o:I
+    iget v0, p0, Lx0/t;
+    ->o:I
 
     .line 16
     .line 17
-    iget v1, p0, Lx0/t;->n:I
+    iget v1, p0, Lx0/t;
+    ->n:I
 
     .line 18
     .line 19
@@ -1136,7 +1252,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextView;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 24
     .line 25
@@ -1144,7 +1261,8 @@
     move-result-object p1
 
     .line 27
-    invoke-static {p1, p2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {p1, p2}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 28
     .line 29
@@ -1191,12 +1309,14 @@
 
     .line 8
     .line 9
-    invoke-direct {v8}, Landroid/animation/AnimatorSet;-><init>()V
+    invoke-direct {v8}, Landroid/animation/AnimatorSet;
+    -><init>()V
 
     .line 10
     .line 11
     .line 12
-    iput-object v8, p0, Lx0/t;->l:Landroid/animation/AnimatorSet;
+    iput-object v8, p0, Lx0/t;
+    ->l:Landroid/animation/AnimatorSet;
 
     .line 13
     .line 14
@@ -1204,16 +1324,19 @@
 
     .line 15
     .line 16
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 17
     .line 18
     .line 19
-    iget-boolean v2, p0, Lx0/t;->x:Z
+    iget-boolean v2, p0, Lx0/t;
+    ->x:Z
 
     .line 20
     .line 21
-    iget-object v3, p0, Lx0/t;->y:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v3, p0, Lx0/t;
+    ->y:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 22
     .line 23
@@ -1229,33 +1352,39 @@
     move v6, p2
 
     .line 27
-    invoke-virtual/range {v0 .. v6}, Lx0/t;->d(Ljava/util/ArrayList;ZLandroidx/appcompat/widget/AppCompatTextView;III)V
+    invoke-virtual/range {v0 .. v6}, Lx0/t;
+    ->d(Ljava/util/ArrayList;ZLandroidx/appcompat/widget/AppCompatTextView;III)V
 
     .line 28
     .line 29
     .line 30
-    iget-boolean v2, p0, Lx0/t;->q:Z
+    iget-boolean v2, p0, Lx0/t;
+    ->q:Z
 
     .line 31
     .line 32
-    iget-object v3, p0, Lx0/t;->r:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v3, p0, Lx0/t;
+    ->r:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 33
     .line 34
     const/4 v4, 0x1
 
     .line 35
-    invoke-virtual/range {v0 .. v6}, Lx0/t;->d(Ljava/util/ArrayList;ZLandroidx/appcompat/widget/AppCompatTextView;III)V
+    invoke-virtual/range {v0 .. v6}, Lx0/t;
+    ->d(Ljava/util/ArrayList;ZLandroidx/appcompat/widget/AppCompatTextView;III)V
 
     .line 36
     .line 37
     .line 38
-    invoke-static {v8, v1}, LZ/b;->a(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
+    invoke-static {v8, v1}, LZ/b;
+    ->a(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual/range {p0 .. p1}, Lx0/t;->e(I)Landroid/widget/TextView;
+    invoke-virtual/range {p0 .. p1}, Lx0/t;
+    ->e(I)Landroid/widget/TextView;
 
     .line 42
     .line 43
@@ -1263,7 +1392,8 @@
     move-result-object v3
 
     .line 45
-    invoke-virtual {p0, p2}, Lx0/t;->e(I)Landroid/widget/TextView;
+    invoke-virtual {p0, p2}, Lx0/t;
+    ->e(I)Landroid/widget/TextView;
 
     .line 46
     .line 47
@@ -1284,7 +1414,8 @@
     move v2, p2
 
     .line 54
-    invoke-direct/range {v0 .. v5}, Lx0/r;-><init>(Lx0/t;ILandroid/widget/TextView;ILandroid/widget/TextView;)V
+    invoke-direct/range {v0 .. v5}, Lx0/r;
+    -><init>(Lx0/t;ILandroid/widget/TextView;ILandroid/widget/TextView;)V
 
     .line 55
     .line 56
@@ -1292,12 +1423,14 @@
     move-object v1, v0
 
     .line 58
-    invoke-virtual {v8, v1}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {v8, v1}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v8}, Landroid/animation/AnimatorSet;->start()V
+    invoke-virtual {v8}, Landroid/animation/AnimatorSet;
+    ->start()V
 
     .line 62
     .line 63
@@ -1318,7 +1451,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {p0, p2}, Lx0/t;->e(I)Landroid/widget/TextView;
+    invoke-virtual {p0, p2}, Lx0/t;
+    ->e(I)Landroid/widget/TextView;
 
     .line 71
     .line 72
@@ -1330,7 +1464,8 @@
 
     .line 75
     .line 76
-    invoke-virtual {v1, v7}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v1, v7}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 77
     .line 78
@@ -1339,7 +1474,8 @@
 
     .line 80
     .line 81
-    invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
+    invoke-virtual {v1, v2}, Landroid/view/View;
+    ->setAlpha(F)V
 
     .line 82
     .line 83
@@ -1349,7 +1485,8 @@
 
     .line 85
     .line 86
-    invoke-virtual/range {p0 .. p1}, Lx0/t;->e(I)Landroid/widget/TextView;
+    invoke-virtual/range {p0 .. p1}, Lx0/t;
+    ->e(I)Landroid/widget/TextView;
 
     .line 87
     .line 88
@@ -1364,7 +1501,8 @@
     const/4 v2, 0x4
 
     .line 93
-    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v1, v2}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 94
     .line 95
@@ -1379,32 +1517,38 @@
     const/4 v2, 0x0
 
     .line 100
-    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 101
     .line 102
     .line 103
     :cond_4
-    iput p2, p0, Lx0/t;->n:I
+    iput p2, p0, Lx0/t;
+    ->n:I
 
     .line 104
     .line 105
     :goto_0
-    iget-object v1, p0, Lx0/t;->h:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v1, p0, Lx0/t;
+    ->h:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 106
     .line 107
-    invoke-virtual {v1}, Lcom/google/android/material/textfield/TextInputLayout;->t()V
+    invoke-virtual {v1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->t()V
 
     .line 108
     .line 109
     .line 110
-    invoke-virtual {v1, p3, v7}, Lcom/google/android/material/textfield/TextInputLayout;->w(ZZ)V
+    invoke-virtual {v1, p3, v7}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->w(ZZ)V
 
     .line 111
     .line 112
     .line 113
-    invoke-virtual {v1}, Lcom/google/android/material/textfield/TextInputLayout;->z()V
+    invoke-virtual {v1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->z()V
 
     .line 114
     .line 115

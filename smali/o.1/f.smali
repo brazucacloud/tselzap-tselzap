@@ -16,7 +16,8 @@
 
     .line 2
     .line 3
-    sget-object v0, Lo/g;->a:Ljava/util/Map;
+    sget-object v0, Lo/g;
+    ->a:Ljava/util/Map;
 
     .line 4
     .line 5
@@ -24,12 +25,14 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v0}, Lo/i;-><init>(Ljava/util/Map;)V
+    invoke-direct {v1, v0}, Lo/i;
+    -><init>(Ljava/util/Map;)V
 
     .line 8
     .line 9
     .line 10
-    sput-object v1, Lo/f;->a:Lo/i;
+    sput-object v1, Lo/f;
+    ->a:Lo/i;
 
     .line 11
     .line 12

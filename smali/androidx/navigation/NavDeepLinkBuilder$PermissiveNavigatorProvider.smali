@@ -31,7 +31,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavigatorProvider;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavigatorProvider;
+    -><init>()V
 
     .line 2
     .line 3
@@ -40,12 +41,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider$mDestNavigator$1;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider$mDestNavigator$1;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider;->mDestNavigator:Landroidx/navigation/Navigator;
+    iput-object v0, p0, Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider;
+    ->mDestNavigator:Landroidx/navigation/Navigator;
 
     .line 10
     .line 11
@@ -53,12 +56,15 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Landroidx/navigation/NavGraphNavigator;-><init>(Landroidx/navigation/NavigatorProvider;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/NavGraphNavigator;
+    -><init>(Landroidx/navigation/NavigatorProvider;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0, v0}, Landroidx/navigation/NavigatorProvider;->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;    return-void
+    invoke-virtual {p0, v0}, Landroidx/navigation/NavigatorProvider;
+    ->addNavigator(Landroidx/navigation/Navigator;)Landroidx/navigation/Navigator;    
+    return-void
 .end method
 
 
@@ -82,13 +88,15 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    invoke-super {p0, p1}, Landroidx/navigation/NavigatorProvider;->getNavigator(Ljava/lang/String;)Landroidx/navigation/Navigator;
+    invoke-super {p0, p1}, Landroidx/navigation/NavigatorProvider;
+    ->getNavigator(Ljava/lang/String;)Landroidx/navigation/Navigator;
 
     .line 7
     .line 8
@@ -101,7 +109,8 @@
 
     .line 11
     :catch_0
-    iget-object p1, p0, Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider;->mDestNavigator:Landroidx/navigation/Navigator;
+    iget-object p1, p0, Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider;
+    ->mDestNavigator:Landroidx/navigation/Navigator;
 
     .line 12
     .line 13
@@ -109,7 +118,8 @@
 
     .line 14
     .line 15
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 

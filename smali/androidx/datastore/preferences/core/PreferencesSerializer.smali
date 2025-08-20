@@ -38,12 +38,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/core/PreferencesSerializer;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer;->INSTANCE:Landroidx/datastore/preferences/core/PreferencesSerializer;
+    sput-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->INSTANCE:Landroidx/datastore/preferences/core/PreferencesSerializer;
 
     .line 7
     .line 8
@@ -51,7 +53,8 @@
 
     .line 9
     .line 10
-    sput-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer;->fileExtension:Ljava/lang/String;
+    sput-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->fileExtension:Ljava/lang/String;
 
     .line 11
     .line 12
@@ -62,7 +65,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -74,7 +78,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getValueCase()Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getValueCase()Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
     .line 2
     .line 3
@@ -93,11 +98,13 @@
 
     .line 9
     :cond_0
-    sget-object v1, Landroidx/datastore/preferences/core/PreferencesSerializer$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v1, Landroidx/datastore/preferences/core/PreferencesSerializer$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 12
     .line 13
@@ -126,7 +133,8 @@
 
     .line 23
     .line 24
-    invoke-direct {p1}, Ljava/lang/RuntimeException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/RuntimeException;
+    -><init>()V
 
     .line 25
     .line 26
@@ -143,7 +151,8 @@
 
     .line 31
     .line 32
-    invoke-direct {p1, p2, v2, v1, v2}, Landroidx/datastore/core/CorruptionException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;ILkotlin/jvm/internal/e;)V
+    invoke-direct {p1, p2, v2, v1, v2}, Landroidx/datastore/core/CorruptionException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;ILkotlin/jvm/internal/e;)V
 
     .line 33
     .line 34
@@ -152,7 +161,8 @@
 
     .line 36
     :pswitch_2
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->stringSetKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->stringSetKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 37
     .line 38
@@ -160,7 +170,8 @@
     move-result-object p1
 
     .line 40
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getStringSet()Landroidx/datastore/preferences/PreferencesProto$StringSet;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getStringSet()Landroidx/datastore/preferences/PreferencesProto$StringSet;
 
     .line 41
     .line 42
@@ -168,7 +179,8 @@
     move-result-object p2
 
     .line 44
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->getStringsList()Ljava/util/List;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;
+    ->getStringsList()Ljava/util/List;
 
     .line 45
     .line 46
@@ -180,7 +192,8 @@
 
     .line 49
     .line 50
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -189,7 +202,8 @@
 
     .line 54
     .line 55
-    invoke-static {p2}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p2}, Ld1/k;
+    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 56
     .line 57
@@ -197,7 +211,8 @@
     move-result-object p2
 
     .line 59
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 60
     .line 61
@@ -206,7 +221,8 @@
 
     .line 63
     :pswitch_3
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->stringKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->stringKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 64
     .line 65
@@ -214,7 +230,8 @@
     move-result-object p1
 
     .line 67
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getString()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -226,12 +243,14 @@
 
     .line 72
     .line 73
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 77
     .line 78
@@ -240,7 +259,8 @@
 
     .line 80
     :pswitch_4
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->longKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->longKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 81
     .line 82
@@ -248,7 +268,8 @@
     move-result-object p1
 
     .line 84
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getLong()J
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getLong()J
 
     .line 85
     .line 86
@@ -256,7 +277,8 @@
     move-result-wide v0
 
     .line 88
-    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 89
     .line 90
@@ -264,7 +286,8 @@
     move-result-object p2
 
     .line 92
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 93
     .line 94
@@ -273,7 +296,8 @@
 
     .line 96
     :pswitch_5
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->intKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->intKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 97
     .line 98
@@ -281,7 +305,8 @@
     move-result-object p1
 
     .line 100
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getInteger()I
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getInteger()I
 
     .line 101
     .line 102
@@ -289,7 +314,8 @@
     move-result p2
 
     .line 104
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 105
     .line 106
@@ -297,7 +323,8 @@
     move-result-object p2
 
     .line 108
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 109
     .line 110
@@ -306,7 +333,8 @@
 
     .line 112
     :pswitch_6
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->doubleKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->doubleKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 113
     .line 114
@@ -314,7 +342,8 @@
     move-result-object p1
 
     .line 116
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getDouble()D
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getDouble()D
 
     .line 117
     .line 118
@@ -322,7 +351,8 @@
     move-result-wide v0
 
     .line 120
-    invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {v0, v1}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     .line 121
     .line 122
@@ -330,7 +360,8 @@
     move-result-object p2
 
     .line 124
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 125
     .line 126
@@ -339,7 +370,8 @@
 
     .line 128
     :pswitch_7
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->floatKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->floatKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 129
     .line 130
@@ -347,7 +379,8 @@
     move-result-object p1
 
     .line 132
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getFloat()F
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getFloat()F
 
     .line 133
     .line 134
@@ -355,7 +388,8 @@
     move-result p2
 
     .line 136
-    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p2}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 137
     .line 138
@@ -363,7 +397,8 @@
     move-result-object p2
 
     .line 140
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 141
     .line 142
@@ -372,7 +407,8 @@
 
     .line 144
     :pswitch_8
-    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;->booleanKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
+    invoke-static {p1}, Landroidx/datastore/preferences/core/PreferencesKeys;
+    ->booleanKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
 
     .line 145
     .line 146
@@ -380,7 +416,8 @@
     move-result-object p1
 
     .line 148
-    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;->getBoolean()Z
+    invoke-virtual {p2}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->getBoolean()Z
 
     .line 149
     .line 150
@@ -388,7 +425,8 @@
     move-result p2
 
     .line 152
-    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 153
     .line 154
@@ -396,7 +434,8 @@
     move-result-object p2
 
     .line 156
-    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-virtual {p3, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;
+    ->set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 157
     .line 158
@@ -413,7 +452,8 @@
 
     .line 163
     .line 164
-    invoke-direct {p1, p2, v2, v1, v2}, Landroidx/datastore/core/CorruptionException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;ILkotlin/jvm/internal/e;)V
+    invoke-direct {p1, p2, v2, v1, v2}, Landroidx/datastore/core/CorruptionException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;ILkotlin/jvm/internal/e;)V
 
     .line 165
     .line 166
@@ -1185,7 +1225,8 @@
 
     .line 4
     .line 5
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 6
     .line 7
@@ -1197,7 +1238,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p1}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 12
     .line 13
@@ -1205,7 +1247,8 @@
     move-result p1
 
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setBoolean(Z)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setBoolean(Z)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 16
     .line 17
@@ -1213,7 +1256,8 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 20
     .line 21
@@ -1225,7 +1269,8 @@
 
     .line 24
     .line 25
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -1246,7 +1291,8 @@
 
     .line 34
     .line 35
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 36
     .line 37
@@ -1258,7 +1304,8 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->floatValue()F
 
     .line 42
     .line 43
@@ -1266,7 +1313,8 @@
     move-result p1
 
     .line 45
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setFloat(F)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setFloat(F)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 46
     .line 47
@@ -1274,7 +1322,8 @@
     move-result-object p1
 
     .line 49
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 50
     .line 51
@@ -1286,7 +1335,8 @@
 
     .line 54
     .line 55
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -1307,7 +1357,8 @@
 
     .line 64
     .line 65
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 66
     .line 67
@@ -1319,7 +1370,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {p1}, Ljava/lang/Number;->doubleValue()D
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->doubleValue()D
 
     .line 72
     .line 73
@@ -1327,7 +1379,8 @@
     move-result-wide v1
 
     .line 75
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setDouble(D)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setDouble(D)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 76
     .line 77
@@ -1335,7 +1388,8 @@
     move-result-object p1
 
     .line 79
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 80
     .line 81
@@ -1347,7 +1401,8 @@
 
     .line 84
     .line 85
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -1368,7 +1423,8 @@
 
     .line 94
     .line 95
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 96
     .line 97
@@ -1380,7 +1436,8 @@
 
     .line 100
     .line 101
-    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->intValue()I
 
     .line 102
     .line 103
@@ -1388,7 +1445,8 @@
     move-result p1
 
     .line 105
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setInteger(I)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setInteger(I)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 106
     .line 107
@@ -1396,7 +1454,8 @@
     move-result-object p1
 
     .line 109
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 110
     .line 111
@@ -1408,7 +1467,8 @@
 
     .line 114
     .line 115
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 116
     .line 117
@@ -1429,7 +1489,8 @@
 
     .line 124
     .line 125
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 126
     .line 127
@@ -1441,7 +1502,8 @@
 
     .line 130
     .line 131
-    invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->longValue()J
 
     .line 132
     .line 133
@@ -1449,7 +1511,8 @@
     move-result-wide v1
 
     .line 135
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setLong(J)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setLong(J)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 136
     .line 137
@@ -1457,7 +1520,8 @@
     move-result-object p1
 
     .line 139
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 140
     .line 141
@@ -1469,7 +1533,8 @@
 
     .line 144
     .line 145
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 146
     .line 147
@@ -1490,7 +1555,8 @@
 
     .line 154
     .line 155
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 156
     .line 157
@@ -1502,7 +1568,8 @@
 
     .line 160
     .line 161
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setString(Ljava/lang/String;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setString(Ljava/lang/String;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 162
     .line 163
@@ -1510,7 +1577,8 @@
     move-result-object p1
 
     .line 165
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 166
     .line 167
@@ -1522,7 +1590,8 @@
 
     .line 170
     .line 171
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 172
     .line 173
@@ -1543,7 +1612,8 @@
 
     .line 180
     .line 181
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 182
     .line 183
@@ -1551,7 +1621,8 @@
     move-result-object v0
 
     .line 185
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$StringSet;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
 
     .line 186
     .line 187
@@ -1563,7 +1634,8 @@
 
     .line 190
     .line 191
-    invoke-virtual {v1, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;->addAllStrings(Ljava/lang/Iterable;)Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
+    invoke-virtual {v1, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
+    ->addAllStrings(Ljava/lang/Iterable;)Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
 
     .line 192
     .line 193
@@ -1571,7 +1643,8 @@
     move-result-object p1
 
     .line 195
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;->setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
+    ->setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
 
     .line 196
     .line 197
@@ -1579,7 +1652,8 @@
     move-result-object p1
 
     .line 199
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 200
     .line 201
@@ -1591,7 +1665,8 @@
 
     .line 204
     .line 205
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 206
     .line 207
@@ -1608,7 +1683,8 @@
 
     .line 212
     .line 213
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 214
     .line 215
@@ -1616,7 +1692,8 @@
     move-result-object p1
 
     .line 217
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 218
     .line 219
@@ -1628,7 +1705,8 @@
 
     .line 222
     .line 223
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
+    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 224
     .line 225
@@ -1636,7 +1714,8 @@
     move-result-object p1
 
     .line 227
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 228
     .line 229
@@ -1663,7 +1742,8 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/core/PreferencesFactory;->createEmpty()Landroidx/datastore/preferences/core/Preferences;
+    invoke-static {}, Landroidx/datastore/preferences/core/PreferencesFactory;
+    ->createEmpty()Landroidx/datastore/preferences/core/Preferences;
 
     move-result-object v0
 
@@ -1674,7 +1754,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/core/PreferencesSerializer;->getDefaultValue()Landroidx/datastore/preferences/core/Preferences;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->getDefaultValue()Landroidx/datastore/preferences/core/Preferences;
 
     move-result-object v0
 
@@ -1685,7 +1766,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer;->fileExtension:Ljava/lang/String;
+    sget-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->fileExtension:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -1707,11 +1789,13 @@
     .end annotation
 
     .line 1
-    sget-object p2, Landroidx/datastore/preferences/PreferencesMapCompat;->Companion:Landroidx/datastore/preferences/PreferencesMapCompat$Companion;
+    sget-object p2, Landroidx/datastore/preferences/PreferencesMapCompat;
+    ->Companion:Landroidx/datastore/preferences/PreferencesMapCompat$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/PreferencesMapCompat$Companion;->readFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/PreferencesMapCompat$Companion;
+    ->readFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
 
     .line 4
     .line 5
@@ -1726,7 +1810,8 @@
 
     .line 9
     .line 10
-    invoke-static {p2}, Landroidx/datastore/preferences/core/PreferencesFactory;->createMutable([Landroidx/datastore/preferences/core/Preferences$Pair;)Landroidx/datastore/preferences/core/MutablePreferences;
+    invoke-static {p2}, Landroidx/datastore/preferences/core/PreferencesFactory;
+    ->createMutable([Landroidx/datastore/preferences/core/Preferences$Pair;)Landroidx/datastore/preferences/core/MutablePreferences;
 
     .line 11
     .line 12
@@ -1734,7 +1819,8 @@
     move-result-object p2
 
     .line 14
-    invoke-virtual {p1}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->getPreferencesMap()Ljava/util/Map;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
+    ->getPreferencesMap()Ljava/util/Map;
 
     .line 15
     .line 16
@@ -1746,12 +1832,14 @@
 
     .line 19
     .line 20
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p1}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 24
     .line 25
@@ -1759,7 +1847,8 @@
     move-result-object p1
 
     .line 27
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 28
     .line 29
@@ -1768,7 +1857,8 @@
 
     .line 31
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 32
     .line 33
@@ -1780,7 +1870,8 @@
 
     .line 36
     .line 37
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -1792,7 +1883,8 @@
 
     .line 42
     .line 43
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -1804,7 +1896,8 @@
 
     .line 48
     .line 49
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1816,7 +1909,8 @@
 
     .line 54
     .line 55
-    sget-object v2, Landroidx/datastore/preferences/core/PreferencesSerializer;->INSTANCE:Landroidx/datastore/preferences/core/PreferencesSerializer;
+    sget-object v2, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->INSTANCE:Landroidx/datastore/preferences/core/PreferencesSerializer;
 
     .line 56
     .line 57
@@ -1824,7 +1918,8 @@
 
     .line 58
     .line 59
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 60
     .line 61
@@ -1833,12 +1928,14 @@
 
     .line 63
     .line 64
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-direct {v2, v1, v0, p2}, Landroidx/datastore/preferences/core/PreferencesSerializer;->addProtoEntryToPreferences(Ljava/lang/String;Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/core/MutablePreferences;)V
+    invoke-direct {v2, v1, v0, p2}, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->addProtoEntryToPreferences(Ljava/lang/String;Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/core/MutablePreferences;)V
 
     .line 68
     .line 69
@@ -1847,7 +1944,8 @@
 
     .line 71
     :cond_0
-    invoke-virtual {p2}, Landroidx/datastore/preferences/core/Preferences;->toPreferences()Landroidx/datastore/preferences/core/Preferences;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/core/Preferences;
+    ->toPreferences()Landroidx/datastore/preferences/core/Preferences;
 
     .line 72
     .line 73
@@ -1873,72 +1971,86 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p1}, Landroidx/datastore/preferences/core/Preferences;->asMap()Ljava/util/Map;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/core/Preferences;
+    ->asMap()Ljava/util/Map;
 
     move-result-object p1
 
     .line 3
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;->newBuilder()Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
+    ->newBuilder()Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
 
     move-result-object p3
 
     .line 4
-    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p1}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     move-result-object p1
 
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/datastore/preferences/core/Preferences$Key;
 
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 5
-    invoke-virtual {v1}, Landroidx/datastore/preferences/core/Preferences$Key;->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/datastore/preferences/core/Preferences$Key;
+    ->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/core/PreferencesSerializer;->getValueProto(Ljava/lang/Object;)Landroidx/datastore/preferences/PreferencesProto$Value;
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->getValueProto(Ljava/lang/Object;)Landroidx/datastore/preferences/PreferencesProto$Value;
 
     move-result-object v0
 
-    invoke-virtual {p3, v1, v0}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;->putPreferences(Ljava/lang/String;Landroidx/datastore/preferences/PreferencesProto$Value;)Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
+    invoke-virtual {p3, v1, v0}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
+    ->putPreferences(Ljava/lang/String;Landroidx/datastore/preferences/PreferencesProto$Value;)Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
 
     goto :goto_0
 
     .line 6
     :cond_0
-    invoke-virtual {p3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p1
 
     check-cast p1, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
 
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->writeTo(Ljava/io/OutputStream;)V
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
+    ->writeTo(Ljava/io/OutputStream;)V
 
     .line 7
-    sget-object p1, Lc1/v;->a:Lc1/v;
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;
 
     return-object p1
 .end method
@@ -1949,7 +2061,8 @@
     .line 1
     check-cast p1, Landroidx/datastore/preferences/core/Preferences;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/core/PreferencesSerializer;->writeTo(Landroidx/datastore/preferences/core/Preferences;Ljava/io/OutputStream;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/core/PreferencesSerializer;
+    ->writeTo(Landroidx/datastore/preferences/core/Preferences;Ljava/io/OutputStream;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -41,12 +41,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iput-object p1, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 5
     .line 6
@@ -66,15 +68,18 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object v0, p0, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
+    iget-object p1, p1, Lcom/android/volley/RequestTask;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Lcom/android/volley/Request;->compareTo(Lcom/android/volley/Request;)I
+    invoke-virtual {v0, p1}, Lcom/android/volley/Request;
+    ->compareTo(Lcom/android/volley/Request;)I
 
     .line 6
     .line 7

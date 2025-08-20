@@ -70,20 +70,25 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1, p2, p5}, Lcom/android/volley/Request;-><init>(ILjava/lang/String;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct {p0, p1, p2, p5}, Lcom/android/volley/Request;
+    -><init>(ILjava/lang/String;Lcom/android/volley/Response$ErrorListener;)V
 
     .line 3
     new-instance p1, Ljava/lang/Object;
 
-    invoke-direct {p1}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p1}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/android/volley/toolbox/JsonRequest;->mLock:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mLock:Ljava/lang/Object;
 
     .line 4
-    iput-object p4, p0, Lcom/android/volley/toolbox/JsonRequest;->mListener:Lcom/android/volley/Response$Listener;
+    iput-object p4, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mListener:Lcom/android/volley/Response$Listener;
 
     .line 5
-    iput-object p3, p0, Lcom/android/volley/toolbox/JsonRequest;->mRequestBody:Ljava/lang/String;
+    iput-object p3, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mRequestBody:Ljava/lang/String;
 
     return-void
 .end method
@@ -118,7 +123,8 @@
     move-object v5, p4
 
     .line 1
-    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/JsonRequest;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/JsonRequest;
+    -><init>(ILjava/lang/String;Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
 return-void
 .end method
 
@@ -128,12 +134,14 @@ return-void
     .locals 2
 
     .line 1
-    invoke-super {p0}, Lcom/android/volley/Request;->cancel()V
+    invoke-super {p0}, Lcom/android/volley/Request;
+    ->cancel()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/android/volley/toolbox/JsonRequest;->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mLock:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -144,7 +152,8 @@ return-void
 
     .line 8
     :try_start_0
-    iput-object v1, p0, Lcom/android/volley/toolbox/JsonRequest;->mListener:Lcom/android/volley/Response$Listener;
+    iput-object v1, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mListener:Lcom/android/volley/Response$Listener;
 
     .line 9
     .line 10
@@ -182,7 +191,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/JsonRequest;->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -190,7 +200,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/android/volley/toolbox/JsonRequest;->mListener:Lcom/android/volley/Response$Listener;
+    iget-object v1, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mListener:Lcom/android/volley/Response$Listener;
 
     .line 5
     .line 6
@@ -203,7 +214,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-interface {v1, p1}, Lcom/android/volley/Response$Listener;->onResponse(Ljava/lang/Object;)V
+    invoke-interface {v1, p1}, Lcom/android/volley/Response$Listener;
+    ->onResponse(Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -249,7 +261,8 @@ return-void
 
     .line 4
     :try_start_0
-    iget-object v2, p0, Lcom/android/volley/toolbox/JsonRequest;->mRequestBody:Ljava/lang/String;
+    iget-object v2, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mRequestBody:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -261,7 +274,8 @@ return-void
 
     .line 9
     :cond_0
-    invoke-virtual {v2, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+    invoke-virtual {v2, v0}, Ljava/lang/String;
+    ->getBytes(Ljava/lang/String;)[B
 
     .line 10
     .line 11
@@ -274,7 +288,8 @@ return-void
 
     .line 14
     :catch_0
-    iget-object v2, p0, Lcom/android/volley/toolbox/JsonRequest;->mRequestBody:Ljava/lang/String;
+    iget-object v2, p0, Lcom/android/volley/toolbox/JsonRequest;
+    ->mRequestBody:Ljava/lang/String;
 
     .line 15
     .line 16
@@ -303,7 +318,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-static {v0, v3}, Lcom/android/volley/VolleyLog;->wtf(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3}, Lcom/android/volley/VolleyLog;
+    ->wtf(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 28
     .line 29
@@ -315,7 +331,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/android/volley/toolbox/JsonRequest;->PROTOCOL_CONTENT_TYPE:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/toolbox/JsonRequest;
+    ->PROTOCOL_CONTENT_TYPE:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -328,7 +345,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/JsonRequest;->getBody()[B
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/JsonRequest;
+    ->getBody()[B
 
     .line 2
     .line 3
@@ -344,7 +362,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/JsonRequest;->getBodyContentType()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/JsonRequest;
+    ->getBodyContentType()Ljava/lang/String;
 
     .line 2
     .line 3

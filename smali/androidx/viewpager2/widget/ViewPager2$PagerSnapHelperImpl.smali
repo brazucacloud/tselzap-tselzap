@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$PagerSnapHelperImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$PagerSnapHelperImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/PagerSnapHelper;-><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/PagerSnapHelper;
+    -><init>()V
     return-void
 .end method
 
@@ -39,11 +41,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$PagerSnapHelperImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$PagerSnapHelperImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->isFakeDragging()Z
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;
+    ->isFakeDragging()Z
 
     .line 4
     .line 5
@@ -61,7 +65,8 @@
 
     .line 11
     :cond_0
-    invoke-super {p0, p1}, Landroidx/recyclerview/widget/PagerSnapHelper;->findSnapView(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroid/view/View;
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/PagerSnapHelper;
+    ->findSnapView(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroid/view/View;
 
     .line 12
     .line 13

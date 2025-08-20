@@ -31,7 +31,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -40,12 +41,15 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;    return-void
+    iput-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;    
+    return-void
 .end method
 
 
@@ -69,16 +73,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -87,7 +94,8 @@
 
     .line 12
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -99,7 +107,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -111,7 +120,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2, p1, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;->onFragmentMaxLifecyclePreUpdated(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
+    invoke-virtual {v2, p1, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;
+    ->onFragmentMaxLifecyclePreUpdated(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
 
     .line 25
     .line 26
@@ -119,7 +129,8 @@
     move-result-object v2
 
     .line 28
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -143,7 +154,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 2
     .line 3
@@ -152,7 +164,8 @@
 
     .line 5
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 6
     .line 7
@@ -164,7 +177,8 @@
 
     .line 10
     .line 11
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -176,7 +190,8 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;->onPost()V
+    invoke-interface {v0}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
+    ->onPost()V
 
     .line 18
     .line 19
@@ -206,16 +221,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -224,7 +242,8 @@
 
     .line 12
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -236,7 +255,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -248,7 +268,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;->onFragmentPreAdded(Landroidx/fragment/app/Fragment;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
+    invoke-virtual {v2, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;
+    ->onFragmentPreAdded(Landroidx/fragment/app/Fragment;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
 
     .line 25
     .line 26
@@ -256,7 +277,8 @@
     move-result-object v2
 
     .line 28
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -286,16 +308,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -304,7 +329,8 @@
 
     .line 12
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -316,7 +342,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -328,7 +355,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;->onFragmentPreRemoved(Landroidx/fragment/app/Fragment;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
+    invoke-virtual {v2, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;
+    ->onFragmentPreRemoved(Landroidx/fragment/app/Fragment;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
 
     .line 25
     .line 26
@@ -336,7 +364,8 @@
     move-result-object v2
 
     .line 28
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -372,16 +401,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -390,7 +422,8 @@
 
     .line 12
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -402,7 +435,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -414,7 +448,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;->onFragmentPreSavedInstanceState(Landroidx/fragment/app/Fragment;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
+    invoke-virtual {v2, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;
+    ->onFragmentPreSavedInstanceState(Landroidx/fragment/app/Fragment;)Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;
 
     .line 25
     .line 26
@@ -422,7 +457,8 @@
     move-result-object v2
 
     .line 28
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -438,22 +474,28 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public unregisterCallback(Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;
+    ->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .end class

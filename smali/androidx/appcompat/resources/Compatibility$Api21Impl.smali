@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -52,7 +53,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;->createFromXmlInner(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;
+    ->createFromXmlInner(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -72,7 +74,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->getChangingConfigurations()I
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;
+    ->getChangingConfigurations()I
 
     .line 2
     .line 3
@@ -108,7 +111,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;->inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;
+    ->inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
 return-void
 .end method
 

@@ -18,7 +18,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;-><init>()V
+    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
+    -><init>()V
     return-void
 .end method
 
@@ -34,7 +35,8 @@
     .end param
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -44,7 +46,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -53,7 +56,8 @@ return-void
 
     .line 5
     .line 6
-    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;
+    -><init>()V
 
     .line 7
     .line 8

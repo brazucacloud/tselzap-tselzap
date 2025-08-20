@@ -38,19 +38,22 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/preference/Preference$BaseSavedState$1;-><init>()V
+    invoke-direct {v0}, Landroidx/preference/Preference$BaseSavedState$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/preference/Preference$BaseSavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
+    sput-object v0, Landroidx/preference/Preference$BaseSavedState;
+    ->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroid/view/AbsSavedState;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {p0, p1}, Landroid/view/AbsSavedState;
+    -><init>(Landroid/os/Parcel;)V
 return-void
 .end method
 
@@ -58,7 +61,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1}, Landroid/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroid/view/AbsSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 return-void
 .end method
 

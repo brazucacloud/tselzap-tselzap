@@ -27,15 +27,20 @@
         .end annotation
     .end param
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaj;->zad:Lcom/google/android/gms/common/api/internal/zak;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaj;
+    ->zad:Lcom/google/android/gms/common/api/internal/zak;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput p2, p0, Lcom/google/android/gms/common/api/internal/zaj;->zaa:I
+    iput p2, p0, Lcom/google/android/gms/common/api/internal/zaj;
+    ->zaa:I
 
-    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zaj;->zab:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zaj;
+    ->zab:Lcom/google/android/gms/common/api/GoogleApiClient;
 
-    iput-object p4, p0, Lcom/google/android/gms/common/api/internal/zaj;->zac:Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;
+    iput-object p4, p0, Lcom/google/android/gms/common/api/internal/zaj;
+    ->zac:Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;
 
     return-void
 .end method
@@ -50,7 +55,8 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -66,7 +72,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -74,20 +81,24 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 14
     .line 15
     .line 16
-    iget v0, p0, Lcom/google/android/gms/common/api/internal/zaj;->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/api/internal/zaj;
+    ->zaa:I
 
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zaj;->zad:Lcom/google/android/gms/common/api/internal/zak;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zaj;
+    ->zad:Lcom/google/android/gms/common/api/internal/zak;
 
     .line 19
     .line 20
-    invoke-virtual {v1, p1, v0}, Lcom/google/android/gms/common/api/internal/zap;->zah(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-virtual {v1, p1, v0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zah(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 21
     .line 22

@@ -12,7 +12,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Landroidx/collection/LruCache;-><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/collection/LruCache;
+    -><init>(I)V
 
     .line 4
     .line 5

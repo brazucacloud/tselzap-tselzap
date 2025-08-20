@@ -34,7 +34,8 @@
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -46,7 +47,8 @@
 
     .line 6
     .line 7
-    iput-object v1, p0, Lu0/p;->a:[Lu0/x;
+    iput-object v1, p0, Lu0/p;
+    ->a:[Lu0/x;
 
     .line 8
     .line 9
@@ -54,7 +56,8 @@
 
     .line 10
     .line 11
-    iput-object v1, p0, Lu0/p;->b:[Landroid/graphics/Matrix;
+    iput-object v1, p0, Lu0/p;
+    ->b:[Landroid/graphics/Matrix;
 
     .line 12
     .line 13
@@ -62,7 +65,8 @@
 
     .line 14
     .line 15
-    iput-object v1, p0, Lu0/p;->c:[Landroid/graphics/Matrix;
+    iput-object v1, p0, Lu0/p;
+    ->c:[Landroid/graphics/Matrix;
 
     .line 16
     .line 17
@@ -70,12 +74,14 @@
 
     .line 18
     .line 19
-    invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/PointF;
+    -><init>()V
 
     .line 20
     .line 21
     .line 22
-    iput-object v1, p0, Lu0/p;->d:Landroid/graphics/PointF;
+    iput-object v1, p0, Lu0/p;
+    ->d:Landroid/graphics/PointF;
 
     .line 23
     .line 24
@@ -83,12 +89,14 @@
 
     .line 25
     .line 26
-    invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 27
     .line 28
     .line 29
-    iput-object v1, p0, Lu0/p;->e:Landroid/graphics/Path;
+    iput-object v1, p0, Lu0/p;
+    ->e:Landroid/graphics/Path;
 
     .line 30
     .line 31
@@ -96,12 +104,14 @@
 
     .line 32
     .line 33
-    invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 34
     .line 35
     .line 36
-    iput-object v1, p0, Lu0/p;->f:Landroid/graphics/Path;
+    iput-object v1, p0, Lu0/p;
+    ->f:Landroid/graphics/Path;
 
     .line 37
     .line 38
@@ -109,12 +119,14 @@
 
     .line 39
     .line 40
-    invoke-direct {v1}, Lu0/x;-><init>()V
+    invoke-direct {v1}, Lu0/x;
+    -><init>()V
 
     .line 41
     .line 42
     .line 43
-    iput-object v1, p0, Lu0/p;->g:Lu0/x;
+    iput-object v1, p0, Lu0/p;
+    ->g:Lu0/x;
 
     .line 44
     .line 45
@@ -125,7 +137,8 @@
 
     .line 47
     .line 48
-    iput-object v2, p0, Lu0/p;->h:[F
+    iput-object v2, p0, Lu0/p;
+    ->h:[F
 
     .line 49
     .line 50
@@ -133,7 +146,8 @@
 
     .line 51
     .line 52
-    iput-object v1, p0, Lu0/p;->i:[F
+    iput-object v1, p0, Lu0/p;
+    ->i:[F
 
     .line 53
     .line 54
@@ -141,12 +155,14 @@
 
     .line 55
     .line 56
-    invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 57
     .line 58
     .line 59
-    iput-object v1, p0, Lu0/p;->j:Landroid/graphics/Path;
+    iput-object v1, p0, Lu0/p;
+    ->j:Landroid/graphics/Path;
 
     .line 60
     .line 61
@@ -154,19 +170,22 @@
 
     .line 62
     .line 63
-    invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 64
     .line 65
     .line 66
-    iput-object v1, p0, Lu0/p;->k:Landroid/graphics/Path;
+    iput-object v1, p0, Lu0/p;
+    ->k:Landroid/graphics/Path;
 
     .line 67
     .line 68
     const/4 v1, 0x1
 
     .line 69
-    iput-boolean v1, p0, Lu0/p;->l:Z
+    iput-boolean v1, p0, Lu0/p;
+    ->l:Z
 
     .line 70
     .line 71
@@ -178,7 +197,8 @@
 
     .line 73
     .line 74
-    iget-object v2, p0, Lu0/p;->a:[Lu0/x;
+    iget-object v2, p0, Lu0/p;
+    ->a:[Lu0/x;
 
     .line 75
     .line 76
@@ -186,7 +206,8 @@
 
     .line 77
     .line 78
-    invoke-direct {v3}, Lu0/x;-><init>()V
+    invoke-direct {v3}, Lu0/x;
+    -><init>()V
 
     .line 79
     .line 80
@@ -195,7 +216,8 @@
 
     .line 82
     .line 83
-    iget-object v2, p0, Lu0/p;->b:[Landroid/graphics/Matrix;
+    iget-object v2, p0, Lu0/p;
+    ->b:[Landroid/graphics/Matrix;
 
     .line 84
     .line 85
@@ -203,7 +225,8 @@
 
     .line 86
     .line 87
-    invoke-direct {v3}, Landroid/graphics/Matrix;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Matrix;
+    -><init>()V
 
     .line 88
     .line 89
@@ -212,7 +235,8 @@
 
     .line 91
     .line 92
-    iget-object v2, p0, Lu0/p;->c:[Landroid/graphics/Matrix;
+    iget-object v2, p0, Lu0/p;
+    ->c:[Landroid/graphics/Matrix;
 
     .line 93
     .line 94
@@ -220,7 +244,8 @@
 
     .line 95
     .line 96
-    invoke-direct {v3}, Landroid/graphics/Matrix;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Matrix;
+    -><init>()V
 
     .line 97
     .line 98
@@ -266,34 +291,41 @@
 
     .line 10
     .line 11
-    invoke-virtual {v4}, Landroid/graphics/Path;->rewind()V
+    invoke-virtual {v4}, Landroid/graphics/Path;
+    ->rewind()V
 
     .line 12
     .line 13
     .line 14
-    iget-object v5, v0, Lu0/p;->e:Landroid/graphics/Path;
+    iget-object v5, v0, Lu0/p;
+    ->e:Landroid/graphics/Path;
 
     .line 15
     .line 16
-    invoke-virtual {v5}, Landroid/graphics/Path;->rewind()V
+    invoke-virtual {v5}, Landroid/graphics/Path;
+    ->rewind()V
 
     .line 17
     .line 18
     .line 19
-    iget-object v6, v0, Lu0/p;->f:Landroid/graphics/Path;
+    iget-object v6, v0, Lu0/p;
+    ->f:Landroid/graphics/Path;
 
     .line 20
     .line 21
-    invoke-virtual {v6}, Landroid/graphics/Path;->rewind()V
+    invoke-virtual {v6}, Landroid/graphics/Path;
+    ->rewind()V
 
     .line 22
     .line 23
     .line 24
-    sget-object v7, Landroid/graphics/Path$Direction;->CW:Landroid/graphics/Path$Direction;
+    sget-object v7, Landroid/graphics/Path$Direction;
+    ->CW:Landroid/graphics/Path$Direction;
 
     .line 25
     .line 26
-    invoke-virtual {v6, v2, v7}, Landroid/graphics/Path;->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
+    invoke-virtual {v6, v2, v7}, Landroid/graphics/Path;
+    ->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
 
     .line 27
     .line 28
@@ -302,15 +334,18 @@
 
     .line 30
     :goto_0
-    iget-object v9, v0, Lu0/p;->c:[Landroid/graphics/Matrix;
+    iget-object v9, v0, Lu0/p;
+    ->c:[Landroid/graphics/Matrix;
 
     .line 31
     .line 32
-    iget-object v10, v0, Lu0/p;->b:[Landroid/graphics/Matrix;
+    iget-object v10, v0, Lu0/p;
+    ->b:[Landroid/graphics/Matrix;
 
     .line 33
     .line 34
-    iget-object v11, v0, Lu0/p;->a:[Lu0/x;
+    iget-object v11, v0, Lu0/p;
+    ->a:[Lu0/x;
 
     .line 35
     .line 36
@@ -330,7 +365,8 @@
 
     .line 41
     .line 42
-    iget-object v7, v0, Lu0/p;->h:[F
+    iget-object v7, v0, Lu0/p;
+    ->h:[F
 
     .line 43
     .line 44
@@ -354,7 +390,8 @@
 
     .line 53
     .line 54
-    iget-object v15, v1, Lu0/n;->f:Lu0/d;
+    iget-object v15, v1, Lu0/n;
+    ->f:Lu0/d;
 
     .line 55
     .line 56
@@ -362,7 +399,8 @@
 
     .line 57
     :cond_0
-    iget-object v15, v1, Lu0/n;->e:Lu0/d;
+    iget-object v15, v1, Lu0/n;
+    ->e:Lu0/d;
 
     .line 58
     .line 59
@@ -370,7 +408,8 @@
 
     .line 60
     :cond_1
-    iget-object v15, v1, Lu0/n;->h:Lu0/d;
+    iget-object v15, v1, Lu0/n;
+    ->h:Lu0/d;
 
     .line 61
     .line 62
@@ -378,7 +417,8 @@
 
     .line 63
     :cond_2
-    iget-object v15, v1, Lu0/n;->g:Lu0/d;
+    iget-object v15, v1, Lu0/n;
+    ->g:Lu0/d;
 
     .line 64
     .line 65
@@ -394,7 +434,8 @@
 
     .line 69
     .line 70
-    invoke-direct {v15, v12}, Lu0/c;-><init>(F)V
+    invoke-direct {v15, v12}, Lu0/c;
+    -><init>(F)V
 
     .line 71
     .line 72
@@ -415,7 +456,8 @@
 
     .line 79
     .line 80
-    iget-object v12, v1, Lu0/n;->b:La/a;
+    iget-object v12, v1, Lu0/n;
+    ->b:La/a;
 
     .line 81
     .line 82
@@ -423,7 +465,8 @@
 
     .line 83
     :cond_4
-    iget-object v12, v1, Lu0/n;->a:La/a;
+    iget-object v12, v1, Lu0/n;
+    ->a:La/a;
 
     .line 84
     .line 85
@@ -431,7 +474,8 @@
 
     .line 86
     :cond_5
-    iget-object v12, v1, Lu0/n;->d:La/a;
+    iget-object v12, v1, Lu0/n;
+    ->d:La/a;
 
     .line 87
     .line 88
@@ -439,7 +483,8 @@
 
     .line 89
     :cond_6
-    iget-object v12, v1, Lu0/n;->c:La/a;
+    iget-object v12, v1, Lu0/n;
+    ->c:La/a;
 
     .line 90
     .line 91
@@ -448,12 +493,14 @@
 
     .line 92
     .line 93
-    invoke-virtual {v12}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v12}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 94
     .line 95
     .line 96
-    invoke-interface {v15, v2}, Lu0/d;->a(Landroid/graphics/RectF;)F
+    invoke-interface {v15, v2}, Lu0/d;
+    ->a(Landroid/graphics/RectF;)F
 
     .line 97
     .line 98
@@ -465,7 +512,8 @@
 
     .line 101
     .line 102
-    invoke-virtual {v12, v13, v14, v15}, La/a;->q(Lu0/x;FF)V
+    invoke-virtual {v12, v13, v14, v15}, La/a;
+    ->q(Lu0/x;FF)V
 
     .line 103
     .line 104
@@ -489,12 +537,14 @@
 
     .line 113
     .line 114
-    invoke-virtual {v15}, Landroid/graphics/Matrix;->reset()V
+    invoke-virtual {v15}, Landroid/graphics/Matrix;
+    ->reset()V
 
     .line 115
     .line 116
     .line 117
-    iget-object v15, v0, Lu0/p;->d:Landroid/graphics/PointF;
+    iget-object v15, v0, Lu0/p;
+    ->d:Landroid/graphics/PointF;
 
     .line 118
     .line 119
@@ -523,7 +573,8 @@
 
     .line 129
     .line 130
-    iget v9, v2, Landroid/graphics/RectF;->right:F
+    iget v9, v2, Landroid/graphics/RectF;
+    ->right:F
 
     .line 131
     .line 132
@@ -531,11 +582,13 @@
 
     .line 133
     .line 134
-    iget v8, v2, Landroid/graphics/RectF;->top:F
+    iget v8, v2, Landroid/graphics/RectF;
+    ->top:F
 
     .line 135
     .line 136
-    invoke-virtual {v15, v9, v8}, Landroid/graphics/PointF;->set(FF)V
+    invoke-virtual {v15, v9, v8}, Landroid/graphics/PointF;
+    ->set(FF)V
 
     .line 137
     .line 138
@@ -548,15 +601,18 @@
 
     .line 141
     .line 142
-    iget v8, v2, Landroid/graphics/RectF;->left:F
+    iget v8, v2, Landroid/graphics/RectF;
+    ->left:F
 
     .line 143
     .line 144
-    iget v9, v2, Landroid/graphics/RectF;->top:F
+    iget v9, v2, Landroid/graphics/RectF;
+    ->top:F
 
     .line 145
     .line 146
-    invoke-virtual {v15, v8, v9}, Landroid/graphics/PointF;->set(FF)V
+    invoke-virtual {v15, v8, v9}, Landroid/graphics/PointF;
+    ->set(FF)V
 
     .line 147
     .line 148
@@ -569,15 +625,18 @@
 
     .line 151
     .line 152
-    iget v8, v2, Landroid/graphics/RectF;->left:F
+    iget v8, v2, Landroid/graphics/RectF;
+    ->left:F
 
     .line 153
     .line 154
-    iget v9, v2, Landroid/graphics/RectF;->bottom:F
+    iget v9, v2, Landroid/graphics/RectF;
+    ->bottom:F
 
     .line 155
     .line 156
-    invoke-virtual {v15, v8, v9}, Landroid/graphics/PointF;->set(FF)V
+    invoke-virtual {v15, v8, v9}, Landroid/graphics/PointF;
+    ->set(FF)V
 
     .line 157
     .line 158
@@ -590,15 +649,18 @@
 
     .line 161
     .line 162
-    iget v8, v2, Landroid/graphics/RectF;->right:F
+    iget v8, v2, Landroid/graphics/RectF;
+    ->right:F
 
     .line 163
     .line 164
-    iget v9, v2, Landroid/graphics/RectF;->bottom:F
+    iget v9, v2, Landroid/graphics/RectF;
+    ->bottom:F
 
     .line 165
     .line 166
-    invoke-virtual {v15, v8, v9}, Landroid/graphics/PointF;->set(FF)V
+    invoke-virtual {v15, v8, v9}, Landroid/graphics/PointF;
+    ->set(FF)V
 
     .line 167
     .line 168
@@ -608,15 +670,18 @@
 
     .line 170
     .line 171
-    iget v9, v15, Landroid/graphics/PointF;->x:F
+    iget v9, v15, Landroid/graphics/PointF;
+    ->x:F
 
     .line 172
     .line 173
-    iget v15, v15, Landroid/graphics/PointF;->y:F
+    iget v15, v15, Landroid/graphics/PointF;
+    ->y:F
 
     .line 174
     .line 175
-    invoke-virtual {v8, v9, v15}, Landroid/graphics/Matrix;->setTranslate(FF)V
+    invoke-virtual {v8, v9, v15}, Landroid/graphics/Matrix;
+    ->setTranslate(FF)V
 
     .line 176
     .line 177
@@ -625,7 +690,8 @@
 
     .line 179
     .line 180
-    invoke-virtual {v8, v13}, Landroid/graphics/Matrix;->preRotate(F)Z
+    invoke-virtual {v8, v13}, Landroid/graphics/Matrix;
+    ->preRotate(F)Z
 
     .line 181
     .line 182
@@ -634,7 +700,8 @@
 
     .line 184
     .line 185
-    iget v9, v8, Lu0/x;->b:F
+    iget v9, v8, Lu0/x;
+    ->b:F
 
     .line 186
     .line 187
@@ -642,7 +709,8 @@
 
     .line 188
     .line 189
-    iget v8, v8, Lu0/x;->c:F
+    iget v8, v8, Lu0/x;
+    ->c:F
 
     .line 190
     .line 191
@@ -658,7 +726,8 @@
 
     .line 196
     .line 197
-    invoke-virtual {v8, v7}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {v8, v7}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 198
     .line 199
@@ -667,7 +736,8 @@
 
     .line 201
     .line 202
-    invoke-virtual {v8}, Landroid/graphics/Matrix;->reset()V
+    invoke-virtual {v8}, Landroid/graphics/Matrix;
+    ->reset()V
 
     .line 203
     .line 204
@@ -684,7 +754,8 @@
 
     .line 210
     .line 211
-    invoke-virtual {v8, v9, v7}, Landroid/graphics/Matrix;->setTranslate(FF)V
+    invoke-virtual {v8, v9, v7}, Landroid/graphics/Matrix;
+    ->setTranslate(FF)V
 
     .line 212
     .line 213
@@ -693,7 +764,8 @@
 
     .line 215
     .line 216
-    invoke-virtual {v7, v13}, Landroid/graphics/Matrix;->preRotate(F)Z
+    invoke-virtual {v7, v13}, Landroid/graphics/Matrix;
+    ->preRotate(F)Z
 
     .line 217
     .line 218
@@ -722,7 +794,8 @@
 
     .line 228
     .line 229
-    invoke-virtual {v9}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v9}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 230
     .line 231
@@ -734,7 +807,8 @@
 
     .line 234
     .line 235
-    iget v9, v9, Lu0/x;->a:F
+    iget v9, v9, Lu0/x;
+    ->a:F
 
     .line 236
     .line 237
@@ -750,7 +824,8 @@
 
     .line 242
     .line 243
-    invoke-virtual {v9, v7}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {v9, v7}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 244
     .line 245
@@ -767,7 +842,8 @@
 
     .line 251
     .line 252
-    invoke-virtual {v4, v9, v13}, Landroid/graphics/Path;->moveTo(FF)V
+    invoke-virtual {v4, v9, v13}, Landroid/graphics/Path;
+    ->moveTo(FF)V
 
     .line 253
     .line 254
@@ -784,7 +860,8 @@
 
     .line 259
     .line 260
-    invoke-virtual {v4, v9, v13}, Landroid/graphics/Path;->lineTo(FF)V
+    invoke-virtual {v4, v9, v13}, Landroid/graphics/Path;
+    ->lineTo(FF)V
 
     .line 261
     .line 262
@@ -798,7 +875,8 @@
 
     .line 266
     .line 267
-    invoke-virtual {v9, v13, v4}, Lu0/x;->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    invoke-virtual {v9, v13, v4}, Lu0/x;
+    ->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     .line 268
     .line 269
@@ -815,15 +893,18 @@
 
     .line 275
     .line 276
-    iget-object v14, v3, Lu0/g;->a:Lu0/j;
+    iget-object v14, v3, Lu0/g;
+    ->a:Lu0/j;
 
     .line 277
     .line 278
-    iget-object v15, v14, Lu0/j;->f:Ljava/util/BitSet;
+    iget-object v15, v14, Lu0/j;
+    ->f:Ljava/util/BitSet;
 
     .line 279
     .line 280
-    invoke-virtual {v9}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v9}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 281
     .line 282
@@ -835,16 +916,19 @@
     const/4 v12, 0x0
 
     .line 286
-    invoke-virtual {v15, v8, v12}, Ljava/util/BitSet;->set(IZ)V
+    invoke-virtual {v15, v8, v12}, Ljava/util/BitSet;
+    ->set(IZ)V
 
     .line 287
     .line 288
     .line 289
-    iget v12, v9, Lu0/x;->e:F
+    iget v12, v9, Lu0/x;
+    ->e:F
 
     .line 290
     .line 291
-    invoke-virtual {v9, v12}, Lu0/x;->a(F)V
+    invoke-virtual {v9, v12}, Lu0/x;
+    ->a(F)V
 
     .line 292
     .line 293
@@ -853,7 +937,8 @@
 
     .line 295
     .line 296
-    invoke-direct {v12, v13}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
+    invoke-direct {v12, v13}, Landroid/graphics/Matrix;
+    -><init>(Landroid/graphics/Matrix;)V
 
     .line 297
     .line 298
@@ -862,11 +947,13 @@
 
     .line 300
     .line 301
-    iget-object v9, v9, Lu0/x;->g:Ljava/util/ArrayList;
+    iget-object v9, v9, Lu0/x;
+    ->g:Ljava/util/ArrayList;
 
     .line 302
     .line 303
-    invoke-direct {v13, v9}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v13, v9}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 304
     .line 305
@@ -875,12 +962,14 @@
 
     .line 307
     .line 308
-    invoke-direct {v9, v13, v12}, Lu0/q;-><init>(Ljava/util/ArrayList;Landroid/graphics/Matrix;)V
+    invoke-direct {v9, v13, v12}, Lu0/q;
+    -><init>(Ljava/util/ArrayList;Landroid/graphics/Matrix;)V
 
     .line 309
     .line 310
     .line 311
-    iget-object v12, v14, Lu0/j;->d:[Lu0/w;
+    iget-object v12, v14, Lu0/j;
+    ->d:[Lu0/w;
 
     .line 312
     .line 313
@@ -909,7 +998,8 @@
 
     .line 323
     .line 324
-    iget v14, v13, Lu0/x;->b:F
+    iget v14, v13, Lu0/x;
+    ->b:F
 
     .line 325
     .line 326
@@ -921,7 +1011,8 @@
 
     .line 329
     .line 330
-    iget v13, v13, Lu0/x;->c:F
+    iget v13, v13, Lu0/x;
+    ->c:F
 
     .line 331
     .line 332
@@ -937,7 +1028,8 @@
 
     .line 337
     .line 338
-    invoke-virtual {v13, v7}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {v13, v7}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 339
     .line 340
@@ -946,12 +1038,14 @@
 
     .line 342
     .line 343
-    invoke-virtual {v13}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v13}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 344
     .line 345
     .line 346
-    iget-object v14, v0, Lu0/p;->i:[F
+    iget-object v14, v0, Lu0/p;
+    ->i:[F
 
     .line 347
     .line 348
@@ -963,7 +1057,8 @@
 
     .line 351
     .line 352
-    iget v13, v13, Lu0/x;->a:F
+    iget v13, v13, Lu0/x;
+    ->a:F
 
     .line 353
     .line 354
@@ -979,7 +1074,8 @@
 
     .line 359
     .line 360
-    invoke-virtual {v13, v14}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {v13, v14}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 361
     .line 362
@@ -1019,7 +1115,8 @@
     float-to-double v13, v13
 
     .line 378
-    invoke-static {v10, v11, v13, v14}, Ljava/lang/Math;->hypot(DD)D
+    invoke-static {v10, v11, v13, v14}, Ljava/lang/Math;
+    ->hypot(DD)D
 
     .line 379
     .line 380
@@ -1041,7 +1138,8 @@
     const/4 v11, 0x0
 
     .line 388
-    invoke-static {v10, v11}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v10, v11}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 389
     .line 390
@@ -1053,7 +1151,8 @@
 
     .line 393
     .line 394
-    iget v13, v11, Lu0/x;->b:F
+    iget v13, v11, Lu0/x;
+    ->b:F
 
     .line 395
     .line 396
@@ -1065,7 +1164,8 @@
 
     .line 399
     .line 400
-    iget v11, v11, Lu0/x;->c:F
+    iget v11, v11, Lu0/x;
+    ->c:F
 
     .line 401
     .line 402
@@ -1080,7 +1180,8 @@
 
     .line 406
     .line 407
-    invoke-virtual {v11, v7}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {v11, v7}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 408
     .line 409
@@ -1096,7 +1197,8 @@
 
     .line 414
     .line 415
-    invoke-virtual {v2}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {v2}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 416
     .line 417
@@ -1111,7 +1213,8 @@
     sub-float/2addr v11, v14
 
     .line 422
-    invoke-static {v11}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v11}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 423
     .line 424
@@ -1120,7 +1223,8 @@
 
     .line 426
     :cond_d
-    invoke-virtual {v2}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {v2}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 427
     .line 428
@@ -1139,7 +1243,8 @@
     sub-float/2addr v11, v13
 
     .line 435
-    invoke-static {v11}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v11}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 436
     .line 437
@@ -1149,14 +1254,16 @@
 
     .line 439
     .line 440
-    iget-object v13, v0, Lu0/p;->g:Lu0/x;
+    iget-object v13, v0, Lu0/p;
+    ->g:Lu0/x;
 
     .line 441
     .line 442
     const/4 v14, 0x0
 
     .line 443
-    invoke-virtual {v13, v14, v11, v14}, Lu0/x;->d(FFF)V
+    invoke-virtual {v13, v14, v11, v14}, Lu0/x;
+    ->d(FFF)V
 
     .line 444
     .line 445
@@ -1182,7 +1289,8 @@
 
     .line 454
     .line 455
-    iget-object v11, v1, Lu0/n;->j:Lu0/f;
+    iget-object v11, v1, Lu0/n;
+    ->j:Lu0/f;
 
     .line 456
     .line 457
@@ -1190,7 +1298,8 @@
 
     .line 458
     :cond_e
-    iget-object v11, v1, Lu0/n;->i:Lu0/f;
+    iget-object v11, v1, Lu0/n;
+    ->i:Lu0/f;
 
     .line 459
     .line 460
@@ -1201,7 +1310,8 @@
     const/4 v14, 0x3
 
     .line 462
-    iget-object v11, v1, Lu0/n;->l:Lu0/f;
+    iget-object v11, v1, Lu0/n;
+    ->l:Lu0/f;
 
     .line 463
     .line 464
@@ -1212,12 +1322,14 @@
     const/4 v14, 0x3
 
     .line 466
-    iget-object v11, v1, Lu0/n;->k:Lu0/f;
+    iget-object v11, v1, Lu0/n;
+    ->k:Lu0/f;
 
     .line 467
     .line 468
     :goto_8
-    invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v11}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 469
     .line 470
@@ -1225,16 +1337,19 @@
     const/4 v11, 0x0
 
     .line 472
-    invoke-virtual {v13, v10, v11}, Lu0/x;->c(FF)V
+    invoke-virtual {v13, v10, v11}, Lu0/x;
+    ->c(FF)V
 
     .line 473
     .line 474
     .line 475
-    iget-object v10, v0, Lu0/p;->j:Landroid/graphics/Path;
+    iget-object v10, v0, Lu0/p;
+    ->j:Landroid/graphics/Path;
 
     .line 476
     .line 477
-    invoke-virtual {v10}, Landroid/graphics/Path;->reset()V
+    invoke-virtual {v10}, Landroid/graphics/Path;
+    ->reset()V
 
     .line 478
     .line 479
@@ -1243,12 +1358,14 @@
 
     .line 481
     .line 482
-    invoke-virtual {v13, v11, v10}, Lu0/x;->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    invoke-virtual {v13, v11, v10}, Lu0/x;
+    ->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     .line 483
     .line 484
     .line 485
-    iget-boolean v11, v0, Lu0/p;->l:Z
+    iget-boolean v11, v0, Lu0/p;
+    ->l:Z
 
     .line 486
     .line 487
@@ -1256,7 +1373,8 @@
 
     .line 488
     .line 489
-    invoke-virtual {v0, v10, v8}, Lu0/p;->b(Landroid/graphics/Path;I)Z
+    invoke-virtual {v0, v10, v8}, Lu0/p;
+    ->b(Landroid/graphics/Path;I)Z
 
     .line 490
     .line 491
@@ -1268,7 +1386,8 @@
 
     .line 494
     .line 495
-    invoke-virtual {v0, v10, v9}, Lu0/p;->b(Landroid/graphics/Path;I)Z
+    invoke-virtual {v0, v10, v9}, Lu0/p;
+    ->b(Landroid/graphics/Path;I)Z
 
     .line 496
     .line 497
@@ -1293,11 +1412,13 @@
     .line 505
     :cond_12
     :goto_9
-    sget-object v9, Landroid/graphics/Path$Op;->DIFFERENCE:Landroid/graphics/Path$Op;
+    sget-object v9, Landroid/graphics/Path$Op;
+    ->DIFFERENCE:Landroid/graphics/Path$Op;
 
     .line 506
     .line 507
-    invoke-virtual {v10, v10, v6, v9}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v10, v10, v6, v9}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 508
     .line 509
@@ -1313,7 +1434,8 @@
 
     .line 514
     .line 515
-    iget v9, v13, Lu0/x;->a:F
+    iget v9, v13, Lu0/x;
+    ->a:F
 
     .line 516
     .line 517
@@ -1329,7 +1451,8 @@
 
     .line 522
     .line 523
-    invoke-virtual {v9, v7}, Landroid/graphics/Matrix;->mapPoints([F)V
+    invoke-virtual {v9, v7}, Landroid/graphics/Matrix;
+    ->mapPoints([F)V
 
     .line 524
     .line 525
@@ -1342,7 +1465,8 @@
 
     .line 529
     .line 530
-    invoke-virtual {v5, v9, v10}, Landroid/graphics/Path;->moveTo(FF)V
+    invoke-virtual {v5, v9, v10}, Landroid/graphics/Path;
+    ->moveTo(FF)V
 
     .line 531
     .line 532
@@ -1351,7 +1475,8 @@
 
     .line 534
     .line 535
-    invoke-virtual {v13, v9, v5}, Lu0/x;->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    invoke-virtual {v13, v9, v5}, Lu0/x;
+    ->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     .line 536
     .line 537
@@ -1364,7 +1489,8 @@
 
     .line 540
     .line 541
-    invoke-virtual {v13, v9, v4}, Lu0/x;->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    invoke-virtual {v13, v9, v4}, Lu0/x;
+    ->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     .line 542
     .line 543
@@ -1378,11 +1504,13 @@
 
     .line 547
     .line 548
-    iget-object v10, v3, Lu0/g;->a:Lu0/j;
+    iget-object v10, v3, Lu0/g;
+    ->a:Lu0/j;
 
     .line 549
     .line 550
-    iget-object v11, v10, Lu0/j;->f:Ljava/util/BitSet;
+    iget-object v11, v10, Lu0/j;
+    ->f:Ljava/util/BitSet;
 
     .line 551
     .line 552
@@ -1393,16 +1521,19 @@
     const/4 v0, 0x0
 
     .line 555
-    invoke-virtual {v11, v14, v0}, Ljava/util/BitSet;->set(IZ)V
+    invoke-virtual {v11, v14, v0}, Ljava/util/BitSet;
+    ->set(IZ)V
 
     .line 556
     .line 557
     .line 558
-    iget v11, v13, Lu0/x;->e:F
+    iget v11, v13, Lu0/x;
+    ->e:F
 
     .line 559
     .line 560
-    invoke-virtual {v13, v11}, Lu0/x;->a(F)V
+    invoke-virtual {v13, v11}, Lu0/x;
+    ->a(F)V
 
     .line 561
     .line 562
@@ -1411,7 +1542,8 @@
 
     .line 564
     .line 565
-    invoke-direct {v11, v9}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
+    invoke-direct {v11, v9}, Landroid/graphics/Matrix;
+    -><init>(Landroid/graphics/Matrix;)V
 
     .line 566
     .line 567
@@ -1420,11 +1552,13 @@
 
     .line 569
     .line 570
-    iget-object v13, v13, Lu0/x;->g:Ljava/util/ArrayList;
+    iget-object v13, v13, Lu0/x;
+    ->g:Ljava/util/ArrayList;
 
     .line 571
     .line 572
-    invoke-direct {v9, v13}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v9, v13}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 573
     .line 574
@@ -1433,12 +1567,14 @@
 
     .line 576
     .line 577
-    invoke-direct {v13, v9, v11}, Lu0/q;-><init>(Ljava/util/ArrayList;Landroid/graphics/Matrix;)V
+    invoke-direct {v13, v9, v11}, Lu0/q;
+    -><init>(Ljava/util/ArrayList;Landroid/graphics/Matrix;)V
 
     .line 578
     .line 579
     .line 580
-    iget-object v9, v10, Lu0/j;->e:[Lu0/w;
+    iget-object v9, v10, Lu0/j;
+    ->e:[Lu0/w;
 
     .line 581
     .line 582
@@ -1480,17 +1616,20 @@
     .line 596
     .line 597
     :cond_14
-    invoke-virtual {v4}, Landroid/graphics/Path;->close()V
+    invoke-virtual {v4}, Landroid/graphics/Path;
+    ->close()V
 
     .line 598
     .line 599
     .line 600
-    invoke-virtual {v5}, Landroid/graphics/Path;->close()V
+    invoke-virtual {v5}, Landroid/graphics/Path;
+    ->close()V
 
     .line 601
     .line 602
     .line 603
-    invoke-virtual {v5}, Landroid/graphics/Path;->isEmpty()Z
+    invoke-virtual {v5}, Landroid/graphics/Path;
+    ->isEmpty()Z
 
     .line 604
     .line 605
@@ -1502,11 +1641,13 @@
 
     .line 608
     .line 609
-    sget-object v0, Landroid/graphics/Path$Op;->UNION:Landroid/graphics/Path$Op;
+    sget-object v0, Landroid/graphics/Path$Op;
+    ->UNION:Landroid/graphics/Path$Op;
 
     .line 610
     .line 611
-    invoke-virtual {v4, v5, v0}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v4, v5, v0}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 612
     .line 613
@@ -1519,16 +1660,19 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lu0/p;->k:Landroid/graphics/Path;
+    iget-object v0, p0, Lu0/p;
+    ->k:Landroid/graphics/Path;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
+    invoke-virtual {v0}, Landroid/graphics/Path;
+    ->reset()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lu0/p;->a:[Lu0/x;
+    iget-object v1, p0, Lu0/p;
+    ->a:[Lu0/x;
 
     .line 7
     .line 8
@@ -1536,7 +1680,8 @@
 
     .line 9
     .line 10
-    iget-object v2, p0, Lu0/p;->b:[Landroid/graphics/Matrix;
+    iget-object v2, p0, Lu0/p;
+    ->b:[Landroid/graphics/Matrix;
 
     .line 11
     .line 12
@@ -1544,7 +1689,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1, p2, v0}, Lu0/x;->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    invoke-virtual {v1, p2, v0}, Lu0/x;
+    ->b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     .line 15
     .line 16
@@ -1553,7 +1699,8 @@
 
     .line 18
     .line 19
-    invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
+    invoke-direct {p2}, Landroid/graphics/RectF;
+    -><init>()V
 
     .line 20
     .line 21
@@ -1561,31 +1708,37 @@
     const/4 v1, 0x1
 
     .line 23
-    invoke-virtual {p1, p2, v1}, Landroid/graphics/Path;->computeBounds(Landroid/graphics/RectF;Z)V
+    invoke-virtual {p1, p2, v1}, Landroid/graphics/Path;
+    ->computeBounds(Landroid/graphics/RectF;Z)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, p2, v1}, Landroid/graphics/Path;->computeBounds(Landroid/graphics/RectF;Z)V
+    invoke-virtual {v0, p2, v1}, Landroid/graphics/Path;
+    ->computeBounds(Landroid/graphics/RectF;Z)V
 
     .line 27
     .line 28
     .line 29
-    sget-object v2, Landroid/graphics/Path$Op;->INTERSECT:Landroid/graphics/Path$Op;
+    sget-object v2, Landroid/graphics/Path$Op;
+    ->INTERSECT:Landroid/graphics/Path$Op;
 
     .line 30
     .line 31
-    invoke-virtual {p1, v0, v2}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {p1, v0, v2}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1, p2, v1}, Landroid/graphics/Path;->computeBounds(Landroid/graphics/RectF;Z)V
+    invoke-virtual {p1, p2, v1}, Landroid/graphics/Path;
+    ->computeBounds(Landroid/graphics/RectF;Z)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p2}, Landroid/graphics/RectF;->isEmpty()Z
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->isEmpty()Z
 
     .line 38
     .line 39
@@ -1597,7 +1750,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {p2}, Landroid/graphics/RectF;->width()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->width()F
 
     .line 44
     .line 45
@@ -1617,7 +1771,8 @@
 
     .line 52
     .line 53
-    invoke-virtual {p2}, Landroid/graphics/RectF;->height()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->height()F
 
     .line 54
     .line 55

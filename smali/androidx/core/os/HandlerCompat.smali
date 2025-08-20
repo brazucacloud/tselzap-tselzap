@@ -21,7 +21,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -47,14 +48,16 @@
     const/4 v3, 0x3
 
     .line 1
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v5, 0x1c
 
     if-lt v4, v5, :cond_0
 
     .line 2
-    invoke-static {p0}, Landroidx/core/os/HandlerCompat$Api28Impl;->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {p0}, Landroidx/core/os/HandlerCompat$Api28Impl;
+    ->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
 
     move-result-object p0
 
@@ -75,11 +78,13 @@
 
     aput-object v6, v5, v1
 
-    sget-object v6, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     aput-object v6, v5, v0
 
-    invoke-virtual {v4, v5}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v4, v5}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v4
 
@@ -92,11 +97,13 @@
 
     aput-object v2, v3, v1
 
-    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+    sget-object v1, Ljava/lang/Boolean;
+    ->TRUE:Ljava/lang/Boolean;
 
     aput-object v1, v3, v0
 
-    invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -128,7 +135,8 @@
     move-exception p0
 
     .line 5
-    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
 
@@ -151,7 +159,8 @@
     :cond_1
     new-instance v0, Ljava/lang/RuntimeException;
 
-    invoke-direct {v0, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     throw v0
 
@@ -167,12 +176,14 @@
 
     const-string v2, "Unable to invoke Handler(Looper, Callback, boolean) constructor"
 
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 12
     new-instance v0, Landroid/os/Handler;
 
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, p0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 return-object v0
 .end method
 
@@ -198,14 +209,16 @@ return-object v0
     const/4 v3, 0x3
 
     .line 13
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v5, 0x1c
 
     if-lt v4, v5, :cond_0
 
     .line 14
-    invoke-static {p0, p1}, Landroidx/core/os/HandlerCompat$Api28Impl;->createAsync(Landroid/os/Looper;Landroid/os/Handler$Callback;)Landroid/os/Handler;
+    invoke-static {p0, p1}, Landroidx/core/os/HandlerCompat$Api28Impl;
+    ->createAsync(Landroid/os/Looper;Landroid/os/Handler$Callback;)Landroid/os/Handler;
 
     move-result-object p0
 
@@ -226,11 +239,13 @@ return-object v0
 
     aput-object v6, v5, v1
 
-    sget-object v6, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     aput-object v6, v5, v0
 
-    invoke-virtual {v4, v5}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v4, v5}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v4
 
@@ -241,11 +256,13 @@ return-object v0
 
     aput-object p1, v3, v1
 
-    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+    sget-object v1, Ljava/lang/Boolean;
+    ->TRUE:Ljava/lang/Boolean;
 
     aput-object v1, v3, v0
 
-    invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -277,7 +294,8 @@ return-object v0
     move-exception p0
 
     .line 17
-    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
 
@@ -300,7 +318,8 @@ return-object v0
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     throw p1
 
@@ -316,12 +335,14 @@ return-object v0
 
     const-string v2, "Unable to invoke Handler(Looper, Callback, boolean) constructor"
 
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 24
     new-instance v0, Landroid/os/Handler;
 
-    invoke-direct {v0, p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
+    invoke-direct {v0, p0, p1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
 return-object v0
 .end method
 
@@ -343,7 +364,8 @@ return-object v0
     const/4 v1, 0x1
 
     .line 3
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 4
     .line 5
@@ -355,7 +377,8 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-static {p0, p1}, Landroidx/core/os/HandlerCompat$Api29Impl;->hasCallbacks(Landroid/os/Handler;Ljava/lang/Runnable;)Z
+    invoke-static {p0, p1}, Landroidx/core/os/HandlerCompat$Api29Impl;
+    ->hasCallbacks(Landroid/os/Handler;Ljava/lang/Runnable;)Z
 
     .line 10
     .line 11
@@ -387,7 +410,8 @@ return-object v0
 
     .line 23
     .line 24
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 25
     .line 26
@@ -403,7 +427,8 @@ return-object v0
 
     .line 31
     .line 32
-    invoke-virtual {v2, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -415,7 +440,8 @@ return-object v0
 
     .line 37
     .line 38
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 39
     .line 40
@@ -457,7 +483,8 @@ return-object v0
 
     .line 51
     .line 52
-    invoke-direct {p1, v0, p0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p1, v0, p0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 53
     .line 54
@@ -469,7 +496,8 @@ return-object v0
     move-exception p0
 
     .line 57
-    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 58
     .line 59
@@ -505,7 +533,8 @@ return-object v0
 
     .line 73
     .line 74
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 75
     .line 76
@@ -695,7 +724,8 @@ return-object v0
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -707,7 +737,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/os/HandlerCompat$Api28Impl;->postDelayed(Landroid/os/Handler;Ljava/lang/Runnable;Ljava/lang/Object;J)Z
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/os/HandlerCompat$Api28Impl;
+    ->postDelayed(Landroid/os/Handler;Ljava/lang/Runnable;Ljava/lang/Object;J)Z
 
     .line 8
     .line 9
@@ -718,7 +749,8 @@ return-object v0
 
     .line 12
     :cond_0
-    invoke-static {p0, p1}, Landroid/os/Message;->obtain(Landroid/os/Handler;Ljava/lang/Runnable;)Landroid/os/Message;
+    invoke-static {p0, p1}, Landroid/os/Message;
+    ->obtain(Landroid/os/Handler;Ljava/lang/Runnable;)Landroid/os/Message;
 
     .line 13
     .line 14
@@ -726,11 +758,13 @@ return-object v0
     move-result-object p1
 
     .line 16
-    iput-object p2, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
+    iput-object p2, p1, Landroid/os/Message;
+    ->obj:Ljava/lang/Object;
 
     .line 17
     .line 18
-    invoke-virtual {p0, p1, p3, p4}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, p1, p3, p4}, Landroid/os/Handler;
+    ->sendMessageDelayed(Landroid/os/Message;J)Z
 
     .line 19
     .line 20

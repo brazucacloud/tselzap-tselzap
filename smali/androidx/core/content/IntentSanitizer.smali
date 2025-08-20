@@ -128,7 +128,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -136,7 +137,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/content/IntentSanitizer;-><init>()V
+    invoke-direct {p0}, Landroidx/core/content/IntentSanitizer;
+    -><init>()V
     return-void
 .end method
 
@@ -144,7 +146,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer;->lambda$sanitizeByThrowing$1(Ljava/lang/String;)V
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer;
+    ->lambda$sanitizeByThrowing$1(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -152,7 +155,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowClipDataText:Z
+    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowClipDataText:Z
 
     .line 2
     .line 3
@@ -163,7 +167,8 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedFlags:I
+    iput p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedFlags:I
 
     .line 2
     .line 3
@@ -174,7 +179,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedClipDataUri:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedClipDataUri:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -185,7 +191,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedClipData:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedClipData:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -196,7 +203,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowIdentifier:Z
+    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowIdentifier:Z
 
     .line 2
     .line 3
@@ -207,7 +215,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowSelector:Z
+    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowSelector:Z
 
     .line 2
     .line 3
@@ -218,7 +227,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowSourceBounds:Z
+    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowSourceBounds:Z
 
     .line 2
     .line 3
@@ -229,7 +239,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedActions:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedActions:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -240,7 +251,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedData:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedData:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -251,7 +263,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedTypes:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedTypes:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -262,7 +275,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedCategories:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedCategories:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -273,7 +287,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedPackages:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedPackages:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -284,7 +299,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowAnyComponent:Z
+    iput-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowAnyComponent:Z
 
     .line 2
     .line 3
@@ -295,7 +311,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedComponents:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedComponents:Landroidx/core/util/Predicate;
 
     .line 2
     .line 3
@@ -306,7 +323,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowedExtras:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedExtras:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -317,7 +335,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer;->lambda$sanitizeByFiltering$0(Ljava/lang/String;)V
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer;
+    ->lambda$sanitizeByFiltering$0(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -334,7 +353,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/ClipData$Item;->getHtmlText()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/ClipData$Item;
+    ->getHtmlText()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -346,7 +366,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroid/content/ClipData$Item;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p1}, Landroid/content/ClipData$Item;
+    ->getIntent()Landroid/content/Intent;
 
     .line 8
     .line 9
@@ -375,12 +396,14 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
@@ -389,17 +412,20 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -407,7 +433,8 @@ return-void
     move-result-object p0
 
     .line 37
-    invoke-interface {p2, p0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, p0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 38
     .line 39
@@ -429,7 +456,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/SecurityException;
+    -><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -466,7 +494,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getExtras()Landroid/os/Bundle;
 
     .line 4
     .line 5
@@ -477,7 +506,8 @@ return-void
     const/4 p3, 0x0
 
     .line 8
-    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -498,7 +528,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
+    invoke-virtual {p1, p2, p3}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 19
     .line 20
@@ -519,7 +550,8 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {p1, p2, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Landroid/os/Parcelable;)Landroid/content/Intent;
+    invoke-virtual {p1, p2, p3}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 29
     .line 30
@@ -540,7 +572,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-virtual {p1, p2, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
+    invoke-virtual {p1, p2, p3}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     .line 39
     .line 40
@@ -561,12 +594,14 @@ return-void
 
     .line 47
     .line 48
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p3}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 52
     .line 53
@@ -574,12 +609,14 @@ return-void
     move-result-object p3
 
     .line 55
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 59
     .line 60
@@ -587,7 +624,8 @@ return-void
     move-result-object p2
 
     .line 62
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -671,7 +709,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Intent;->getClipData()Landroid/content/ClipData;
+    invoke-virtual {p0}, Landroid/content/Intent;
+    ->getClipData()Landroid/content/ClipData;
 
     .line 2
     .line 3
@@ -692,7 +731,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-interface {p2, p0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p2, p0}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -704,7 +744,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p1, p0}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
+    invoke-virtual {p1, p0}, Landroid/content/Intent;
+    ->setClipData(Landroid/content/ClipData;)V
 
     .line 18
     .line 19
@@ -723,7 +764,8 @@ return-void
 
     .line 24
     :goto_0
-    invoke-virtual {p0}, Landroid/content/ClipData;->getItemCount()I
+    invoke-virtual {p0}, Landroid/content/ClipData;
+    ->getItemCount()I
 
     .line 25
     .line 26
@@ -735,7 +777,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p0, v0}, Landroid/content/ClipData;->getItemAt(I)Landroid/content/ClipData$Item;
+    invoke-virtual {p0, v0}, Landroid/content/ClipData;
+    ->getItemAt(I)Landroid/content/ClipData$Item;
 
     .line 31
     .line 32
@@ -743,7 +786,8 @@ return-void
     move-result-object v2
 
     .line 34
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 35
     .line 36
@@ -755,7 +799,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-static {v0, v2, p5}, Landroidx/core/content/IntentSanitizer$Api31Impl;->checkOtherMembers(ILandroid/content/ClipData$Item;Landroidx/core/util/Consumer;)V
+    invoke-static {v0, v2, p5}, Landroidx/core/content/IntentSanitizer$Api31Impl;
+    ->checkOtherMembers(ILandroid/content/ClipData$Item;Landroidx/core/util/Consumer;)V
 
     .line 41
     .line 42
@@ -764,7 +809,8 @@ return-void
 
     .line 44
     :cond_2
-    invoke-static {v0, v2, p5}, Landroidx/core/content/IntentSanitizer;->checkOtherMembers(ILandroid/content/ClipData$Item;Landroidx/core/util/Consumer;)V
+    invoke-static {v0, v2, p5}, Landroidx/core/content/IntentSanitizer;
+    ->checkOtherMembers(ILandroid/content/ClipData$Item;Landroidx/core/util/Consumer;)V
 
     .line 45
     .line 46
@@ -774,7 +820,8 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 50
     .line 51
@@ -786,7 +833,8 @@ return-void
 
     .line 54
     :cond_3
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 55
     .line 56
@@ -806,7 +854,8 @@ return-void
 
     .line 63
     .line 64
-    invoke-static {v3, v0, v4}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v0, v4}, LA/d;
+    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
@@ -814,7 +863,8 @@ return-void
     move-result-object v3
 
     .line 68
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 69
     .line 70
@@ -822,12 +872,14 @@ return-void
     move-result-object v4
 
     .line 72
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 76
     .line 77
@@ -835,7 +887,8 @@ return-void
     move-result-object v3
 
     .line 79
-    invoke-interface {p5, v3}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p5, v3}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 80
     .line 81
@@ -857,7 +910,8 @@ return-void
 
     .line 88
     .line 89
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getUri()Landroid/net/Uri;
 
     .line 90
     .line 91
@@ -869,7 +923,8 @@ return-void
 
     .line 94
     .line 95
-    invoke-static {v5, v0, v4}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v0, v4}, LA/d;
+    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 96
     .line 97
@@ -877,7 +932,8 @@ return-void
     move-result-object v4
 
     .line 99
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getUri()Landroid/net/Uri;
 
     .line 100
     .line 101
@@ -885,12 +941,14 @@ return-void
     move-result-object v2
 
     .line 103
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 107
     .line 108
@@ -898,7 +956,8 @@ return-void
     move-result-object v2
 
     .line 110
-    invoke-interface {p5, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p5, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 111
     .line 112
@@ -907,7 +966,8 @@ return-void
 
     .line 114
     :cond_5
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getUri()Landroid/net/Uri;
 
     .line 115
     .line 116
@@ -919,7 +979,8 @@ return-void
 
     .line 119
     .line 120
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getUri()Landroid/net/Uri;
 
     .line 121
     .line 122
@@ -927,7 +988,8 @@ return-void
     move-result-object v6
 
     .line 124
-    invoke-interface {p4, v6}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {p4, v6}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
@@ -943,7 +1005,8 @@ return-void
 
     .line 131
     :cond_6
-    invoke-static {v5, v0, v4}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v0, v4}, LA/d;
+    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 132
     .line 133
@@ -951,7 +1014,8 @@ return-void
     move-result-object v4
 
     .line 135
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getUri()Landroid/net/Uri;
 
     .line 136
     .line 137
@@ -959,12 +1023,14 @@ return-void
     move-result-object v2
 
     .line 139
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 140
     .line 141
     .line 142
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 143
     .line 144
@@ -972,7 +1038,8 @@ return-void
     move-result-object v2
 
     .line 146
-    invoke-interface {p5, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p5, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 147
     .line 148
@@ -987,7 +1054,8 @@ return-void
     .line 151
     :cond_8
     :goto_4
-    invoke-virtual {v2}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+    invoke-virtual {v2}, Landroid/content/ClipData$Item;
+    ->getUri()Landroid/net/Uri;
 
     .line 152
     .line 153
@@ -1013,7 +1081,8 @@ return-void
 
     .line 162
     .line 163
-    invoke-virtual {p0}, Landroid/content/ClipData;->getDescription()Landroid/content/ClipDescription;
+    invoke-virtual {p0}, Landroid/content/ClipData;
+    ->getDescription()Landroid/content/ClipDescription;
 
     .line 164
     .line 165
@@ -1025,12 +1094,14 @@ return-void
 
     .line 168
     .line 169
-    invoke-direct {v5, v3, p2, v2}, Landroid/content/ClipData$Item;-><init>(Ljava/lang/CharSequence;Landroid/content/Intent;Landroid/net/Uri;)V
+    invoke-direct {v5, v3, p2, v2}, Landroid/content/ClipData$Item;
+    -><init>(Ljava/lang/CharSequence;Landroid/content/Intent;Landroid/net/Uri;)V
 
     .line 170
     .line 171
     .line 172
-    invoke-direct {v1, v4, v5}, Landroid/content/ClipData;-><init>(Landroid/content/ClipDescription;Landroid/content/ClipData$Item;)V
+    invoke-direct {v1, v4, v5}, Landroid/content/ClipData;
+    -><init>(Landroid/content/ClipDescription;Landroid/content/ClipData$Item;)V
 
     .line 173
     .line 174
@@ -1043,12 +1114,14 @@ return-void
 
     .line 177
     .line 178
-    invoke-direct {v4, v3, p2, v2}, Landroid/content/ClipData$Item;-><init>(Ljava/lang/CharSequence;Landroid/content/Intent;Landroid/net/Uri;)V
+    invoke-direct {v4, v3, p2, v2}, Landroid/content/ClipData$Item;
+    -><init>(Ljava/lang/CharSequence;Landroid/content/Intent;Landroid/net/Uri;)V
 
     .line 179
     .line 180
     .line 181
-    invoke-virtual {v1, v4}, Landroid/content/ClipData;->addItem(Landroid/content/ClipData$Item;)V
+    invoke-virtual {v1, v4}, Landroid/content/ClipData;
+    ->addItem(Landroid/content/ClipData$Item;)V
 
     .line 182
     .line 183
@@ -1068,7 +1141,8 @@ return-void
 
     .line 189
     .line 190
-    invoke-virtual {p1, v1}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
+    invoke-virtual {p1, v1}, Landroid/content/Intent;
+    ->setClipData(Landroid/content/ClipData;)V
 
     .line 191
     .line 192
@@ -1109,12 +1183,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
+    invoke-direct {v1}, Landroid/content/Intent;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getComponent()Landroid/content/ComponentName;
 
     .line 7
     .line 8
@@ -1122,7 +1198,8 @@ return-void
     move-result-object v0
 
     .line 10
-    iget-boolean v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowAnyComponent:Z
+    iget-boolean v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowAnyComponent:Z
 
     .line 11
     .line 12
@@ -1135,11 +1212,13 @@ return-void
     .line 15
     .line 16
     :cond_0
-    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedComponents:Landroidx/core/util/Predicate;
+    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedComponents:Landroidx/core/util/Predicate;
 
     .line 17
     .line 18
-    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -1152,7 +1231,8 @@ return-void
     .line 23
     .line 24
     :cond_1
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     .line 25
     .line 26
@@ -1169,17 +1249,20 @@ return-void
 
     .line 31
     .line 32
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -1187,7 +1270,8 @@ return-void
     move-result-object v0
 
     .line 42
-    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 43
     .line 44
@@ -1204,18 +1288,21 @@ return-void
 
     .line 50
     .line 51
-    invoke-direct {v0, v2, v3}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v2, v3}, Landroid/content/ComponentName;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     .line 55
     .line 56
     .line 57
     :goto_0
-    invoke-virtual {p1}, Landroid/content/Intent;->getPackage()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getPackage()Ljava/lang/String;
 
     .line 58
     .line 59
@@ -1227,11 +1314,13 @@ return-void
 
     .line 62
     .line 63
-    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedPackages:Landroidx/core/util/Predicate;
+    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedPackages:Landroidx/core/util/Predicate;
 
     .line 64
     .line 65
-    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 66
     .line 67
@@ -1251,7 +1340,8 @@ return-void
 
     .line 73
     .line 74
-    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -1259,7 +1349,8 @@ return-void
     move-result-object v0
 
     .line 78
-    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 79
     .line 80
@@ -1269,17 +1360,20 @@ return-void
     .line 82
     :cond_4
     :goto_1
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 83
     .line 84
     .line 85
     :goto_2
-    iget v0, p0, Landroidx/core/content/IntentSanitizer;->mAllowedFlags:I
+    iget v0, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedFlags:I
 
     .line 86
     .line 87
-    invoke-virtual {p1}, Landroid/content/Intent;->getFlags()I
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getFlags()I
 
     .line 88
     .line 89
@@ -1290,7 +1384,8 @@ return-void
     or-int/2addr v0, v2
 
     .line 92
-    iget v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedFlags:I
+    iget v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedFlags:I
 
     .line 93
     .line 94
@@ -1298,7 +1393,8 @@ return-void
 
     .line 95
     .line 96
-    invoke-virtual {p1}, Landroid/content/Intent;->getFlags()I
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getFlags()I
 
     .line 97
     .line 98
@@ -1306,7 +1402,8 @@ return-void
     move-result v0
 
     .line 100
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setFlags(I)Landroid/content/Intent;
 
     .line 101
     .line 102
@@ -1315,7 +1412,8 @@ return-void
 
     .line 104
     :cond_5
-    invoke-virtual {p1}, Landroid/content/Intent;->getFlags()I
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getFlags()I
 
     .line 105
     .line 106
@@ -1326,7 +1424,8 @@ return-void
     and-int/2addr v0, v2
 
     .line 109
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setFlags(I)Landroid/content/Intent;
 
     .line 110
     .line 111
@@ -1339,12 +1438,14 @@ return-void
 
     .line 115
     .line 116
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 117
     .line 118
     .line 119
-    invoke-virtual {p1}, Landroid/content/Intent;->getFlags()I
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getFlags()I
 
     .line 120
     .line 121
@@ -1352,7 +1453,8 @@ return-void
     move-result v2
 
     .line 123
-    iget v3, p0, Landroidx/core/content/IntentSanitizer;->mAllowedFlags:I
+    iget v3, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedFlags:I
 
     .line 124
     .line 125
@@ -1362,7 +1464,8 @@ return-void
     and-int/2addr v2, v3
 
     .line 127
-    invoke-static {v2}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 128
     .line 129
@@ -1370,12 +1473,14 @@ return-void
     move-result-object v2
 
     .line 131
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 132
     .line 133
     .line 134
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 135
     .line 136
@@ -1383,13 +1488,15 @@ return-void
     move-result-object v0
 
     .line 138
-    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 139
     .line 140
     .line 141
     :goto_3
-    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getAction()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -1401,11 +1508,13 @@ return-void
 
     .line 146
     .line 147
-    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedActions:Landroidx/core/util/Predicate;
+    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedActions:Landroidx/core/util/Predicate;
 
     .line 148
     .line 149
-    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 150
     .line 151
@@ -1425,7 +1534,8 @@ return-void
 
     .line 157
     .line 158
-    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 159
     .line 160
@@ -1433,7 +1543,8 @@ return-void
     move-result-object v0
 
     .line 162
-    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 163
     .line 164
@@ -1443,13 +1554,15 @@ return-void
     .line 166
     :cond_7
     :goto_4
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 167
     .line 168
     .line 169
     :goto_5
-    invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getData()Landroid/net/Uri;
 
     .line 170
     .line 171
@@ -1461,11 +1574,13 @@ return-void
 
     .line 174
     .line 175
-    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedData:Landroidx/core/util/Predicate;
+    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedData:Landroidx/core/util/Predicate;
 
     .line 176
     .line 177
-    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 178
     .line 179
@@ -1489,17 +1604,20 @@ return-void
 
     .line 187
     .line 188
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 189
     .line 190
     .line 191
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 192
     .line 193
     .line 194
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 195
     .line 196
@@ -1507,7 +1625,8 @@ return-void
     move-result-object v0
 
     .line 198
-    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 199
     .line 200
@@ -1517,13 +1636,15 @@ return-void
     .line 202
     :cond_9
     :goto_6
-    invoke-virtual {v1, v0}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    invoke-virtual {v1, v0}, Landroid/content/Intent;
+    ->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     .line 203
     .line 204
     .line 205
     :goto_7
-    invoke-virtual {p1}, Landroid/content/Intent;->getType()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getType()Ljava/lang/String;
 
     .line 206
     .line 207
@@ -1535,11 +1656,13 @@ return-void
 
     .line 210
     .line 211
-    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedTypes:Landroidx/core/util/Predicate;
+    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedTypes:Landroidx/core/util/Predicate;
 
     .line 212
     .line 213
-    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v2, v0}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 214
     .line 215
@@ -1559,7 +1682,8 @@ return-void
 
     .line 221
     .line 222
-    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 223
     .line 224
@@ -1567,7 +1691,8 @@ return-void
     move-result-object v0
 
     .line 226
-    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v0}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 227
     .line 228
@@ -1577,7 +1702,8 @@ return-void
     .line 230
     :cond_b
     :goto_8
-    invoke-virtual {v1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
+    invoke-virtual {v1}, Landroid/content/Intent;
+    ->getData()Landroid/net/Uri;
 
     .line 231
     .line 232
@@ -1585,13 +1711,15 @@ return-void
     move-result-object v2
 
     .line 234
-    invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v2, v0}, Landroid/content/Intent;
+    ->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 235
     .line 236
     .line 237
     :goto_9
-    invoke-virtual {p1}, Landroid/content/Intent;->getCategories()Ljava/util/Set;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getCategories()Ljava/util/Set;
 
     .line 238
     .line 239
@@ -1603,7 +1731,8 @@ return-void
 
     .line 242
     .line 243
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 244
     .line 245
@@ -1612,7 +1741,8 @@ return-void
 
     .line 247
     :goto_a
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 248
     .line 249
@@ -1624,7 +1754,8 @@ return-void
 
     .line 252
     .line 253
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 254
     .line 255
@@ -1636,11 +1767,13 @@ return-void
 
     .line 258
     .line 259
-    iget-object v3, p0, Landroidx/core/content/IntentSanitizer;->mAllowedCategories:Landroidx/core/util/Predicate;
+    iget-object v3, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedCategories:Landroidx/core/util/Predicate;
 
     .line 260
     .line 261
-    invoke-interface {v3, v2}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v3, v2}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 262
     .line 263
@@ -1652,7 +1785,8 @@ return-void
 
     .line 266
     .line 267
-    invoke-virtual {v1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v2}, Landroid/content/Intent;
+    ->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 268
     .line 269
@@ -1669,17 +1803,20 @@ return-void
 
     .line 274
     .line 275
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 276
     .line 277
     .line 278
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 279
     .line 280
     .line 281
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 282
     .line 283
@@ -1687,7 +1824,8 @@ return-void
     move-result-object v2
 
     .line 285
-    invoke-interface {p2, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 286
     .line 287
@@ -1696,7 +1834,8 @@ return-void
 
     .line 289
     :cond_d
-    invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getExtras()Landroid/os/Bundle;
 
     .line 290
     .line 291
@@ -1708,7 +1847,8 @@ return-void
 
     .line 294
     .line 295
-    invoke-virtual {v0}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
+    invoke-virtual {v0}, Landroid/os/BaseBundle;
+    ->keySet()Ljava/util/Set;
 
     .line 296
     .line 297
@@ -1716,7 +1856,8 @@ return-void
     move-result-object v2
 
     .line 299
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 300
     .line 301
@@ -1725,7 +1866,8 @@ return-void
 
     .line 303
     :goto_b
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 304
     .line 305
@@ -1737,7 +1879,8 @@ return-void
 
     .line 308
     .line 309
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 310
     .line 311
@@ -1753,7 +1896,8 @@ return-void
 
     .line 316
     .line 317
-    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 318
     .line 319
@@ -1765,7 +1909,8 @@ return-void
 
     .line 322
     .line 323
-    iget v4, p0, Landroidx/core/content/IntentSanitizer;->mAllowedFlags:I
+    iget v4, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedFlags:I
 
     .line 324
     .line 325
@@ -1781,7 +1926,8 @@ return-void
 
     .line 330
     .line 331
-    invoke-interface {p2, v3}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v3}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 332
     .line 333
@@ -1794,7 +1940,8 @@ return-void
 
     .line 336
     .line 337
-    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 338
     .line 339
@@ -1806,7 +1953,8 @@ return-void
 
     .line 342
     .line 343
-    iget v4, p0, Landroidx/core/content/IntentSanitizer;->mAllowedFlags:I
+    iget v4, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedFlags:I
 
     .line 344
     .line 345
@@ -1825,7 +1973,8 @@ return-void
 
     .line 351
     .line 352
-    invoke-interface {p2, v3}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v3}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 353
     .line 354
@@ -1834,7 +1983,8 @@ return-void
 
     .line 356
     :cond_f
-    invoke-virtual {v0, v3}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v3}, Landroid/os/BaseBundle;
+    ->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 357
     .line 358
@@ -1842,11 +1992,13 @@ return-void
     move-result-object v4
 
     .line 360
-    iget-object v5, p0, Landroidx/core/content/IntentSanitizer;->mAllowedExtras:Ljava/util/Map;
+    iget-object v5, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedExtras:Ljava/util/Map;
 
     .line 361
     .line 362
-    invoke-interface {v5, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v5, v3}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 363
     .line 364
@@ -1862,7 +2014,8 @@ return-void
 
     .line 369
     .line 370
-    invoke-interface {v5, v4}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v5, v4}, Landroidx/core/util/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     .line 371
     .line 372
@@ -1874,7 +2027,8 @@ return-void
 
     .line 375
     .line 376
-    invoke-direct {p0, v1, v3, v4}, Landroidx/core/content/IntentSanitizer;->putExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-direct {p0, v1, v3, v4}, Landroidx/core/content/IntentSanitizer;
+    ->putExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 377
     .line 378
@@ -1891,12 +2045,14 @@ return-void
 
     .line 383
     .line 384
-    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 385
     .line 386
     .line 387
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 388
     .line 389
@@ -1905,17 +2061,20 @@ return-void
 
     .line 391
     .line 392
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 393
     .line 394
     .line 395
-    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 396
     .line 397
     .line 398
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 399
     .line 400
@@ -1923,7 +2082,8 @@ return-void
     move-result-object v3
 
     .line 402
-    invoke-interface {p2, v3}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p2, v3}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 403
     .line 404
@@ -1932,15 +2092,18 @@ return-void
 
     .line 406
     :cond_11
-    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;->mAllowedClipData:Landroidx/core/util/Predicate;
+    iget-object v2, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedClipData:Landroidx/core/util/Predicate;
 
     .line 407
     .line 408
-    iget-boolean v3, p0, Landroidx/core/content/IntentSanitizer;->mAllowClipDataText:Z
+    iget-boolean v3, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowClipDataText:Z
 
     .line 409
     .line 410
-    iget-object v4, p0, Landroidx/core/content/IntentSanitizer;->mAllowedClipDataUri:Landroidx/core/util/Predicate;
+    iget-object v4, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowedClipDataUri:Landroidx/core/util/Predicate;
 
     .line 411
     .line 412
@@ -1950,12 +2113,14 @@ return-void
     move-object v5, p2
 
     .line 414
-    invoke-static/range {v0 .. v5}, Landroidx/core/content/IntentSanitizer;->sanitizeClipData(Landroid/content/Intent;Landroid/content/Intent;Landroidx/core/util/Predicate;ZLandroidx/core/util/Predicate;Landroidx/core/util/Consumer;)V
+    invoke-static/range {v0 .. v5}, Landroidx/core/content/IntentSanitizer;
+    ->sanitizeClipData(Landroid/content/Intent;Landroid/content/Intent;Landroidx/core/util/Predicate;ZLandroidx/core/util/Predicate;Landroidx/core/util/Consumer;)V
 
     .line 415
     .line 416
     .line 417
-    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 418
     .line 419
@@ -1967,7 +2132,8 @@ return-void
 
     .line 422
     .line 423
-    iget-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowIdentifier:Z
+    iget-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowIdentifier:Z
 
     .line 424
     .line 425
@@ -1975,7 +2141,8 @@ return-void
 
     .line 426
     .line 427
-    invoke-static {v0}, Landroidx/core/content/IntentSanitizer$Api29Impl;->getIdentifier(Landroid/content/Intent;)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/content/IntentSanitizer$Api29Impl;
+    ->getIdentifier(Landroid/content/Intent;)Ljava/lang/String;
 
     .line 428
     .line 429
@@ -1983,7 +2150,8 @@ return-void
     move-result-object p1
 
     .line 431
-    invoke-static {v1, p1}, Landroidx/core/content/IntentSanitizer$Api29Impl;->setIdentifier(Landroid/content/Intent;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {v1, p1}, Landroidx/core/content/IntentSanitizer$Api29Impl;
+    ->setIdentifier(Landroid/content/Intent;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 432
     .line 433
@@ -1992,7 +2160,8 @@ return-void
 
     .line 435
     :cond_12
-    invoke-static {v0}, Landroidx/core/content/IntentSanitizer$Api29Impl;->getIdentifier(Landroid/content/Intent;)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/content/IntentSanitizer$Api29Impl;
+    ->getIdentifier(Landroid/content/Intent;)Ljava/lang/String;
 
     .line 436
     .line 437
@@ -2012,12 +2181,14 @@ return-void
 
     .line 444
     .line 445
-    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 446
     .line 447
     .line 448
-    invoke-static {v0}, Landroidx/core/content/IntentSanitizer$Api29Impl;->getIdentifier(Landroid/content/Intent;)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/content/IntentSanitizer$Api29Impl;
+    ->getIdentifier(Landroid/content/Intent;)Ljava/lang/String;
 
     .line 449
     .line 450
@@ -2025,12 +2196,14 @@ return-void
     move-result-object p2
 
     .line 452
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 453
     .line 454
     .line 455
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 456
     .line 457
@@ -2038,14 +2211,16 @@ return-void
     move-result-object p1
 
     .line 459
-    invoke-interface {v5, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v5, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 460
     .line 461
     .line 462
     :cond_13
     :goto_c
-    iget-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowSelector:Z
+    iget-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowSelector:Z
 
     .line 463
     .line 464
@@ -2053,7 +2228,8 @@ return-void
 
     .line 465
     .line 466
-    invoke-virtual {v0}, Landroid/content/Intent;->getSelector()Landroid/content/Intent;
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getSelector()Landroid/content/Intent;
 
     .line 467
     .line 468
@@ -2061,7 +2237,8 @@ return-void
     move-result-object p1
 
     .line 470
-    invoke-virtual {v1, p1}, Landroid/content/Intent;->setSelector(Landroid/content/Intent;)V
+    invoke-virtual {v1, p1}, Landroid/content/Intent;
+    ->setSelector(Landroid/content/Intent;)V
 
     .line 471
     .line 472
@@ -2070,7 +2247,8 @@ return-void
 
     .line 474
     :cond_14
-    invoke-virtual {v0}, Landroid/content/Intent;->getSelector()Landroid/content/Intent;
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getSelector()Landroid/content/Intent;
 
     .line 475
     .line 476
@@ -2090,12 +2268,14 @@ return-void
 
     .line 483
     .line 484
-    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 485
     .line 486
     .line 487
-    invoke-virtual {v0}, Landroid/content/Intent;->getSelector()Landroid/content/Intent;
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getSelector()Landroid/content/Intent;
 
     .line 488
     .line 489
@@ -2103,12 +2283,14 @@ return-void
     move-result-object p2
 
     .line 491
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 492
     .line 493
     .line 494
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 495
     .line 496
@@ -2116,14 +2298,16 @@ return-void
     move-result-object p1
 
     .line 498
-    invoke-interface {v5, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v5, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 499
     .line 500
     .line 501
     :cond_15
     :goto_d
-    iget-boolean p1, p0, Landroidx/core/content/IntentSanitizer;->mAllowSourceBounds:Z
+    iget-boolean p1, p0, Landroidx/core/content/IntentSanitizer;
+    ->mAllowSourceBounds:Z
 
     .line 502
     .line 503
@@ -2131,7 +2315,8 @@ return-void
 
     .line 504
     .line 505
-    invoke-virtual {v0}, Landroid/content/Intent;->getSourceBounds()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getSourceBounds()Landroid/graphics/Rect;
 
     .line 506
     .line 507
@@ -2139,7 +2324,8 @@ return-void
     move-result-object p1
 
     .line 509
-    invoke-virtual {v1, p1}, Landroid/content/Intent;->setSourceBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v1, p1}, Landroid/content/Intent;
+    ->setSourceBounds(Landroid/graphics/Rect;)V
 
     .line 510
     .line 511
@@ -2148,7 +2334,8 @@ return-void
 
     .line 513
     :cond_16
-    invoke-virtual {v0}, Landroid/content/Intent;->getSourceBounds()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getSourceBounds()Landroid/graphics/Rect;
 
     .line 514
     .line 515
@@ -2168,12 +2355,14 @@ return-void
 
     .line 522
     .line 523
-    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 524
     .line 525
     .line 526
-    invoke-virtual {v0}, Landroid/content/Intent;->getSourceBounds()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getSourceBounds()Landroid/graphics/Rect;
 
     .line 527
     .line 528
@@ -2181,12 +2370,14 @@ return-void
     move-result-object p2
 
     .line 530
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 531
     .line 532
     .line 533
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 534
     .line 535
@@ -2194,7 +2385,8 @@ return-void
     move-result-object p1
 
     .line 537
-    invoke-interface {v5, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v5, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 538
     .line 539
@@ -2220,12 +2412,14 @@ return-void
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/core/content/b;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/b;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, p1, v0}, Landroidx/core/content/IntentSanitizer;->sanitize(Landroid/content/Intent;Landroidx/core/util/Consumer;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, v0}, Landroidx/core/content/IntentSanitizer;
+    ->sanitize(Landroid/content/Intent;Landroidx/core/util/Consumer;)Landroid/content/Intent;
 
     .line 8
     .line 9
@@ -2252,12 +2446,14 @@ return-void
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/core/content/b;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/b;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, p1, v0}, Landroidx/core/content/IntentSanitizer;->sanitize(Landroid/content/Intent;Landroidx/core/util/Consumer;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, v0}, Landroidx/core/content/IntentSanitizer;
+    ->sanitize(Landroid/content/Intent;Landroidx/core/util/Consumer;)Landroid/content/Intent;
 
     .line 8
     .line 9

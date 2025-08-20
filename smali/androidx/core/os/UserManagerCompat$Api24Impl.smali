@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -53,7 +55,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroid/os/UserManager;->isUserUnlocked()Z
+    invoke-virtual {p0}, Landroid/os/UserManager;
+    ->isUserUnlocked()Z
 
     .line 10
     .line 11

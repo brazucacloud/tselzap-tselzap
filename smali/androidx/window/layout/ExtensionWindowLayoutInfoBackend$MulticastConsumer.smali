@@ -68,17 +68,20 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->activity:Landroid/app/Activity;
+    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->activity:Landroid/app/Activity;
 
     .line 10
     .line 11
@@ -86,12 +89,14 @@
 
     .line 12
     .line 13
-    invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
+    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 17
     .line 18
@@ -99,12 +104,14 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashSet;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->registeredListeners:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->registeredListeners:Ljava/util/Set;
 
     .line 24
     .line 25
@@ -118,50 +125,63 @@
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
 
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 3
     :try_start_0
-    sget-object v1, Landroidx/window/layout/ExtensionsWindowLayoutInfoAdapter;->INSTANCE:Landroidx/window/layout/ExtensionsWindowLayoutInfoAdapter;
+    sget-object v1, Landroidx/window/layout/ExtensionsWindowLayoutInfoAdapter;
+    ->INSTANCE:Landroidx/window/layout/ExtensionsWindowLayoutInfoAdapter;
 
-    iget-object v2, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->activity:Landroid/app/Activity;
+    iget-object v2, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->activity:Landroid/app/Activity;
 
-    invoke-virtual {v1, v2, p1}, Landroidx/window/layout/ExtensionsWindowLayoutInfoAdapter;->translate$window_release(Landroid/app/Activity;Landroidx/window/extensions/layout/WindowLayoutInfo;)Landroidx/window/layout/WindowLayoutInfo;
+    invoke-virtual {v1, v2, p1}, Landroidx/window/layout/ExtensionsWindowLayoutInfoAdapter;
+    ->translate$window_release(Landroid/app/Activity;Landroidx/window/extensions/layout/WindowLayoutInfo;)Landroidx/window/layout/WindowLayoutInfo;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
+    iput-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
 
     .line 4
-    iget-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->registeredListeners:Ljava/util/Set;
+    iget-object p1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->registeredListeners:Ljava/util/Set;
 
     .line 5
-    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/core/util/Consumer;
 
     .line 6
-    iget-object v2, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
+    iget-object v2, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
 
-    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -174,11 +194,13 @@
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 return-void
 
     :goto_1
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     throw p1
 .end method
@@ -189,7 +211,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/window/extensions/layout/WindowLayoutInfo;
 
-    invoke-virtual {p0, p1}, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->accept(Landroidx/window/extensions/layout/WindowLayoutInfo;)V
+    invoke-virtual {p0, p1}, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->accept(Landroidx/window/extensions/layout/WindowLayoutInfo;)V
 return-void
 .end method
 
@@ -209,22 +232,26 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 9
     .line 10
     .line 11
     :try_start_0
-    iget-object v1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
+    iget-object v1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
 
     .line 12
     .line 13
@@ -236,24 +263,28 @@ return-void
 
     .line 16
     :cond_0
-    invoke-interface {p1, v1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {p1, v1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 17
     .line 18
     .line 19
     :goto_0
-    iget-object v1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->registeredListeners:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->registeredListeners:Ljava/util/Set;
 
     .line 20
     .line 21
-    invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 22
     .line 23
     .line 24
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 25
     .line 26
@@ -265,7 +296,8 @@ return-void
     move-exception p1
 
     .line 29
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 30
     .line 31
@@ -329,11 +361,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->registeredListeners:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->registeredListeners:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Set;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -359,33 +393,39 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 9
     .line 10
     .line 11
     :try_start_0
-    iget-object v1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->registeredListeners:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;
+    ->registeredListeners:Ljava/util/Set;
 
     .line 12
     .line 13
-    invoke-interface {v1, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/Set;
+    ->remove(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 17
     .line 18
@@ -397,7 +437,8 @@ return-void
     move-exception p1
 
     .line 21
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 22
     .line 23

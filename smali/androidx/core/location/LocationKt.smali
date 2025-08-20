@@ -8,7 +8,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->getLatitude()D
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getLatitude()D
 
     .line 2
     .line 3
@@ -22,7 +23,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->getLongitude()D
+    invoke-virtual {p0}, Landroid/location/Location;
+    ->getLongitude()D
 
     .line 2
     .line 3

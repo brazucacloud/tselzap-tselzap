@@ -16,11 +16,13 @@
 
     .line 2
     .line 3
-    sget-object v1, Li/f;->a:Ljava/nio/charset/Charset;
+    sget-object v1, Li/f;
+    ->a:Ljava/nio/charset/Charset;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->getBytes(Ljava/nio/charset/Charset;)[B
 
     .line 6
     .line 7
@@ -28,7 +30,8 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Lr/h;->b:[B
+    sput-object v0, Lr/h;
+    ->b:[B
 
     .line 10
     .line 11
@@ -41,11 +44,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lr/h;->b:[B
+    sget-object v0, Lr/h;
+    ->b:[B
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
+    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;
+    ->update([B)V
 
     .line 4
     .line 5
@@ -57,11 +62,13 @@
     .locals 6
 
     .line 1
-    sget-object v0, Lr/z;->a:Landroid/graphics/Paint;
+    sget-object v0, Lr/z;
+    ->a:Landroid/graphics/Paint;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 4
     .line 5
@@ -73,7 +80,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 10
     .line 11
@@ -93,12 +101,14 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Matrix;
+    -><init>()V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 22
     .line 23
@@ -110,7 +120,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 28
     .line 29
@@ -136,7 +147,8 @@
     int-to-float v1, p4
 
     .line 39
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 40
     .line 41
@@ -153,7 +165,8 @@
     int-to-float v2, p3
 
     .line 46
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 47
     .line 48
@@ -188,7 +201,8 @@
     int-to-float v1, p3
 
     .line 60
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 61
     .line 62
@@ -205,7 +219,8 @@
     int-to-float v2, p4
 
     .line 67
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 68
     .line 69
@@ -228,7 +243,8 @@
     .line 76
     .line 77
     :goto_0
-    invoke-virtual {v0, v1, v1}, Landroid/graphics/Matrix;->setScale(FF)V
+    invoke-virtual {v0, v1, v1}, Landroid/graphics/Matrix;
+    ->setScale(FF)V
 
     .line 78
     .line 79
@@ -251,12 +267,14 @@
     int-to-float v2, v2
 
     .line 86
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Matrix;
+    ->postTranslate(FF)Z
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 90
     .line 91
@@ -268,7 +286,8 @@
 
     .line 94
     .line 95
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 96
     .line 97
@@ -280,12 +299,14 @@
 
     .line 100
     :cond_2
-    sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object v1, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 101
     .line 102
     :goto_1
-    invoke-interface {p1, p3, p4, v1}, Ll/a;->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p1, p3, p4, v1}, Ll/a;
+    ->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 103
     .line 104
@@ -293,7 +314,8 @@
     move-result-object p1
 
     .line 106
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->hasAlpha()Z
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->hasAlpha()Z
 
     .line 107
     .line 108
@@ -301,12 +323,14 @@
     move-result p3
 
     .line 110
-    invoke-virtual {p1, p3}, Landroid/graphics/Bitmap;->setHasAlpha(Z)V
+    invoke-virtual {p1, p3}, Landroid/graphics/Bitmap;
+    ->setHasAlpha(Z)V
 
     .line 111
     .line 112
     .line 113
-    invoke-static {p2, p1, v0}, Lr/z;->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)V
+    invoke-static {p2, p1, v0}, Lr/z;
+    ->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)V
 
     .line 114
     .line 115

@@ -46,17 +46,21 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zaa:[Lcom/google/android/gms/common/Feature;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zaa:[Lcom/google/android/gms/common/Feature;
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zab:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zab:Z
 
-    iput v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zac:I
+    iput v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zac:I
 
     return-void
 .end method
@@ -71,9 +75,11 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zaa:[Lcom/google/android/gms/common/Feature;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zaa:[Lcom/google/android/gms/common/Feature;
 
     const/4 v0, 0x0
 
@@ -84,9 +90,11 @@
     const/4 v0, 0x1
 
     :cond_0
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zab:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zab:Z
 
-    iput p3, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zac:I
+    iput p3, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zac:I
 
     return-void
 .end method
@@ -115,7 +123,8 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;-><init>(Lcom/google/android/gms/common/api/internal/zacw;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
+    -><init>(Lcom/google/android/gms/common/api/internal/zacw;)V
 return-object v0
 .end method
 
@@ -147,7 +156,8 @@ return-object v0
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zab:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zab:Z
 
     return v0
 .end method
@@ -155,7 +165,8 @@ return-object v0
 .method public final zaa()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zac:I
+    iget v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zac:I
 
     return v0
 .end method
@@ -165,7 +176,8 @@ return-object v0
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zaa:[Lcom/google/android/gms/common/Feature;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    ->zaa:[Lcom/google/android/gms/common/Feature;
 
     return-object v0
 .end method

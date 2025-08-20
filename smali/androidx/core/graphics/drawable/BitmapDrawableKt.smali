@@ -12,7 +12,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p0}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
+    invoke-direct {v0, p1, p0}, Landroid/graphics/drawable/BitmapDrawable;
+    -><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
     .line 4
     .line 5

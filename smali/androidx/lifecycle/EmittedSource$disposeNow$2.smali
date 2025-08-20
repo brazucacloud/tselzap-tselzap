@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/EmittedSource;->disposeNow(Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/lifecycle/EmittedSource;
+    ->disposeNow(Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -52,14 +53,16 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;->this$0:Landroidx/lifecycle/EmittedSource;
+    iput-object p1, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->this$0:Landroidx/lifecycle/EmittedSource;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;
+    -><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -84,11 +87,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;->this$0:Landroidx/lifecycle/EmittedSource;
+    iget-object v0, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->this$0:Landroidx/lifecycle/EmittedSource;
 
     .line 4
     .line 5
-    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;-><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
+    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    -><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
 return-object p1
 .end method
 
@@ -100,7 +105,8 @@ return-object p1
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -122,15 +128,18 @@ return-object p1
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/EmittedSource$disposeNow$2;
 
-    sget-object p2, Lc1/v;->a:Lc1/v;
+    sget-object p2, Lc1/v;
+    ->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -141,11 +150,13 @@ return-object p1
     .locals 1
 
     .line 1
-    sget-object v0, Lh1/a;->b:Lh1/a;
+    sget-object v0, Lh1/a;
+    ->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;->label:I
+    iget v0, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->label:I
 
     .line 4
     .line 5
@@ -153,21 +164,25 @@ return-object p1
 
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;->this$0:Landroidx/lifecycle/EmittedSource;
+    iget-object p1, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;
+    ->this$0:Landroidx/lifecycle/EmittedSource;
 
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/lifecycle/EmittedSource;->access$removeSource(Landroidx/lifecycle/EmittedSource;)V
+    invoke-static {p1}, Landroidx/lifecycle/EmittedSource;
+    ->access$removeSource(Landroidx/lifecycle/EmittedSource;)V
 
     .line 13
     .line 14
     .line 15
-    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;    return-object p1
 
     .line 18
     :cond_0
@@ -179,7 +194,8 @@ return-object p1
 
     .line 21
     .line 22
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24

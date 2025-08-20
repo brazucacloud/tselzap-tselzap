@@ -12,7 +12,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -30,7 +31,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lcom/google/android/gms/common/util/ClientLibraryUtils;->getPackageInfo(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/util/ClientLibraryUtils;
+    ->getPackageInfo(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     .line 2
     .line 3
@@ -45,7 +47,8 @@
 
     .line 7
     .line 8
-    iget-object p0, p0, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+    iget-object p0, p0, Landroid/content/pm/PackageInfo;
+    ->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
     .line 9
     .line 10
@@ -57,7 +60,8 @@
 
     .line 13
     :cond_0
-    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
+    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;
+    ->metaData:Landroid/os/Bundle;
 
     .line 14
     .line 15
@@ -69,7 +73,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, p1}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {p0, v0, p1}, Landroid/os/BaseBundle;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 20
     .line 21
@@ -102,7 +107,8 @@
 
     .line 1
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
+    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 2
     .line 3
@@ -114,7 +120,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 8
     .line 9

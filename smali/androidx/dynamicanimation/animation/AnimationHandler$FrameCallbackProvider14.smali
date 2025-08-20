@@ -27,7 +27,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;-><init>(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;)V
+    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;
+    -><init>(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;)V
 
     .line 2
     .line 3
@@ -36,7 +37,8 @@
 
     .line 5
     .line 6
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mLastFrameTime:J
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;
+    ->mLastFrameTime:J
 
     .line 7
     .line 8
@@ -44,12 +46,14 @@
 
     .line 9
     .line 10
-    invoke-direct {p1, p0}, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14$1;-><init>(Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;)V
+    invoke-direct {p1, p0}, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14$1;
+    -><init>(Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;)V
 
     .line 11
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mRunnable:Ljava/lang/Runnable;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;
+    ->mRunnable:Ljava/lang/Runnable;
 
     .line 14
     .line 15
@@ -57,7 +61,8 @@
 
     .line 16
     .line 17
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     .line 18
     .line 19
@@ -65,12 +70,15 @@
     move-result-object v0
 
     .line 21
-    invoke-direct {p1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p1, v0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mHandler:Landroid/os/Handler;    return-void
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;
+    ->mHandler:Landroid/os/Handler;    
+    return-void
 .end method
 
 
@@ -79,7 +87,8 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 2
     .line 3
@@ -87,7 +96,8 @@
     move-result-wide v0
 
     .line 5
-    iget-wide v2, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mLastFrameTime:J
+    iget-wide v2, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;
+    ->mLastFrameTime:J
 
     .line 6
     .line 7
@@ -105,7 +115,8 @@
 
     .line 12
     .line 13
-    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->max(JJ)J
+    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;
+    ->max(JJ)J
 
     .line 14
     .line 15
@@ -113,15 +124,18 @@
     move-result-wide v0
 
     .line 17
-    iget-object v2, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mHandler:Landroid/os/Handler;
+    iget-object v2, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;
+    ->mHandler:Landroid/os/Handler;
 
     .line 18
     .line 19
-    iget-object v3, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;->mRunnable:Ljava/lang/Runnable;
+    iget-object v3, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider14;
+    ->mRunnable:Ljava/lang/Runnable;
 
     .line 20
     .line 21
-    invoke-virtual {v2, v3, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v2, v3, v0, v1}, Landroid/os/Handler;
+    ->postDelayed(Ljava/lang/Runnable;J)Z
 return-void
 .end method
 

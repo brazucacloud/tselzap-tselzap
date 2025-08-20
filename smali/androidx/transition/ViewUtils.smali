@@ -36,7 +36,8 @@
     .locals 3
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -52,12 +53,14 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi29;-><init>()V
+    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi29;
+    -><init>()V
 
     .line 10
     .line 11
     .line 12
-    sput-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sput-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 13
     .line 14
@@ -77,12 +80,14 @@
 
     .line 20
     .line 21
-    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi23;-><init>()V
+    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi23;
+    -><init>()V
 
     .line 22
     .line 23
     .line 24
-    sput-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sput-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 25
     .line 26
@@ -102,12 +107,14 @@
 
     .line 32
     .line 33
-    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi22;-><init>()V
+    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi22;
+    -><init>()V
 
     .line 34
     .line 35
     .line 36
-    sput-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sput-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 37
     .line 38
@@ -119,12 +126,14 @@
 
     .line 40
     .line 41
-    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi21;-><init>()V
+    invoke-direct {v0}, Landroidx/transition/ViewUtilsApi21;
+    -><init>()V
 
     .line 42
     .line 43
     .line 44
-    sput-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sput-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 45
     .line 46
@@ -141,12 +150,14 @@
 
     .line 51
     .line 52
-    invoke-direct {v0, v1, v2}, Landroidx/transition/ViewUtils$1;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Landroidx/transition/ViewUtils$1;
+    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 53
     .line 54
     .line 55
-    sput-object v0, Landroidx/transition/ViewUtils;->TRANSITION_ALPHA:Landroid/util/Property;
+    sput-object v0, Landroidx/transition/ViewUtils;
+    ->TRANSITION_ALPHA:Landroid/util/Property;
 
     .line 56
     .line 57
@@ -162,19 +173,22 @@
 
     .line 62
     .line 63
-    invoke-direct {v0, v1, v2}, Landroidx/transition/ViewUtils$2;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Landroidx/transition/ViewUtils$2;
+    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
 
     .line 64
     .line 65
     .line 66
-    sput-object v0, Landroidx/transition/ViewUtils;->CLIP_BOUNDS:Landroid/util/Property;    return-void
+    sput-object v0, Landroidx/transition/ViewUtils;
+    ->CLIP_BOUNDS:Landroid/util/Property;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -186,11 +200,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/transition/ViewUtilsApi19;->clearNonTransitionAlpha(Landroid/view/View;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/transition/ViewUtilsApi19;
+    ->clearNonTransitionAlpha(Landroid/view/View;)V    
+    return-void
 .end method
 
 .method public static getTransitionAlpha(Landroid/view/View;)F
@@ -201,11 +218,13 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/transition/ViewUtilsApi19;->getTransitionAlpha(Landroid/view/View;)F
+    invoke-virtual {v0, p0}, Landroidx/transition/ViewUtilsApi19;
+    ->getTransitionAlpha(Landroid/view/View;)F
 
     .line 4
     .line 5
@@ -223,11 +242,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/transition/ViewUtilsApi19;->saveNonTransitionAlpha(Landroid/view/View;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/transition/ViewUtilsApi19;
+    ->saveNonTransitionAlpha(Landroid/view/View;)V    
+    return-void
 .end method
 
 .method public static setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -242,11 +264,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;->setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
+    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;
+    ->setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V    
+    return-void
 .end method
 
 .method public static setLeftTopRightBottom(Landroid/view/View;IIII)V
@@ -257,7 +282,8 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
@@ -276,7 +302,9 @@
     move v5, p4
 
     .line 8
-    invoke-virtual/range {v0 .. v5}, Landroidx/transition/ViewUtilsApi19;->setLeftTopRightBottom(Landroid/view/View;IIII)V    return-void
+    invoke-virtual/range {v0 .. v5}, Landroidx/transition/ViewUtilsApi19;
+    ->setLeftTopRightBottom(Landroid/view/View;IIII)V    
+    return-void
 .end method
 
 .method public static setTransitionAlpha(Landroid/view/View;F)V
@@ -287,11 +315,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;->setTransitionAlpha(Landroid/view/View;F)V    return-void
+    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;
+    ->setTransitionAlpha(Landroid/view/View;F)V    
+    return-void
 .end method
 
 .method public static setTransitionVisibility(Landroid/view/View;I)V
@@ -302,11 +333,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;->setTransitionVisibility(Landroid/view/View;I)V    return-void
+    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;
+    ->setTransitionVisibility(Landroid/view/View;I)V    
+    return-void
 .end method
 
 .method public static transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -321,11 +355,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;->transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
+    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;
+    ->transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V    
+    return-void
 .end method
 
 .method public static transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -340,11 +377,14 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/transition/ViewUtils;->IMPL:Landroidx/transition/ViewUtilsApi19;
+    sget-object v0, Landroidx/transition/ViewUtils;
+    ->IMPL:Landroidx/transition/ViewUtilsApi19;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
+    invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;
+    ->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V    
+    return-void
 .end method
 
 .end class

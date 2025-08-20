@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lcom/fmark/tselzap/fragments/a;->a:I
+    iput p2, p0, Lcom/fmark/tselzap/fragments/a;
+    ->a:I
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/a;->b:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/a;
+    ->b:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +34,8 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lcom/fmark/tselzap/fragments/a;->a:I
+    iget v0, p0, Lcom/fmark/tselzap/fragments/a;
+    ->a:I
 
     .line 2
     .line 3
@@ -40,7 +44,8 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/a;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/a;
+    ->b:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -48,7 +53,8 @@
 
     .line 9
     .line 10
-    iget-object v1, v0, Lcom/google/android/material/chip/Chip;->g:Lo0/g;
+    iget-object v1, v0, Lcom/google/android/material/chip/Chip;
+    ->g:Lo0/g;
 
     .line 11
     .line 12
@@ -60,7 +66,8 @@
 
     .line 15
     .line 16
-    iget-object v1, v1, LC1/s;->c:Ljava/lang/Object;
+    iget-object v1, v1, LC1/s;
+    ->c:Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -72,7 +79,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1, v0}, Lo0/a;->a(Lo0/h;)Z
+    invoke-virtual {v1, v0}, Lo0/a;
+    ->a(Lo0/h;)Z
 
     .line 23
     .line 24
@@ -88,11 +96,13 @@
 
     .line 29
     :cond_0
-    iget-boolean v2, v1, Lo0/a;->e:Z
+    iget-boolean v2, v1, Lo0/a;
+    ->e:Z
 
     .line 30
     .line 31
-    invoke-virtual {v1, v0, v2}, Lo0/a;->e(Lo0/h;Z)Z
+    invoke-virtual {v1, v0, v2}, Lo0/a;
+    ->e(Lo0/h;Z)Z
 
     .line 32
     .line 33
@@ -105,13 +115,15 @@
     .line 36
     .line 37
     :goto_0
-    invoke-virtual {v1}, Lo0/a;->d()V
+    invoke-virtual {v1}, Lo0/a;
+    ->d()V
 
     .line 38
     .line 39
     .line 40
     :cond_1
-    iget-object v0, v0, Lcom/google/android/material/chip/Chip;->f:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v0, v0, Lcom/google/android/material/chip/Chip;
+    ->f:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     .line 41
     .line 42
@@ -119,7 +131,8 @@
 
     .line 43
     .line 44
-    invoke-interface {v0, p1, p2}, Landroid/widget/CompoundButton$OnCheckedChangeListener;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V
+    invoke-interface {v0, p1, p2}, Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    ->onCheckedChanged(Landroid/widget/CompoundButton;Z)V
 
     .line 45
     .line 46
@@ -129,7 +142,8 @@
 
     .line 48
     :pswitch_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/a;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/a;
+    ->b:Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -137,7 +151,8 @@
 
     .line 51
     .line 52
-    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->b(Lcom/fmark/tselzap/fragments/ApiContact_coder;Landroid/widget/CompoundButton;Z)V
+    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->b(Lcom/fmark/tselzap/fragments/ApiContact_coder;Landroid/widget/CompoundButton;Z)V
 
     .line 53
     .line 54

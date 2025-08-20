@@ -11,7 +11,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -25,7 +26,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzir;->zza()Lcom/google/android/gms/internal/measurement/zzlw;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzir;
+    ->zza()Lcom/google/android/gms/internal/measurement/zzlw;
 
     .line 2
     .line 3
@@ -47,7 +49,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

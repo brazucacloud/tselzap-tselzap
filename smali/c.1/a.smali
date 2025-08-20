@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setContentDescription(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
+    invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenuItem;
+    ->setContentDescription(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
 
     .line 2
     .line 3
@@ -22,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setTooltipText(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
+    invoke-interface {p0, p1}, Landroidx/core/internal/view/SupportMenuItem;
+    ->setTooltipText(Ljava/lang/CharSequence;)Landroidx/core/internal/view/SupportMenuItem;
 
     .line 2
     .line 3

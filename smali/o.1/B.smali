@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lo/B;->b:I
+    iput p2, p0, Lo/B;
+    ->b:I
 
-    iput-object p1, p0, Lo/B;->c:Landroid/content/ContentResolver;
+    iput-object p1, p0, Lo/B;
+    ->c:Landroid/content/ContentResolver;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +34,8 @@
     .locals 0
 
     .line 1
-    iget p1, p0, Lo/B;->b:I
+    iget p1, p0, Lo/B;
+    ->b:I
 
     .line 2
     .line 3
@@ -44,7 +48,8 @@
 
     .line 7
     .line 8
-    invoke-direct {p1, p0}, Lo/C;-><init>(Lo/B;)V
+    invoke-direct {p1, p0}, Lo/C;
+    -><init>(Lo/B;)V
 
     .line 9
     .line 10
@@ -57,7 +62,8 @@
 
     .line 13
     .line 14
-    invoke-direct {p1, p0}, Lo/C;-><init>(Lo/B;)V
+    invoke-direct {p1, p0}, Lo/C;
+    -><init>(Lo/B;)V
 
     .line 15
     .line 16
@@ -70,7 +76,8 @@
 
     .line 19
     .line 20
-    invoke-direct {p1, p0}, Lo/C;-><init>(Lo/B;)V
+    invoke-direct {p1, p0}, Lo/C;
+    -><init>(Lo/B;)V
 
     .line 21
     .line 22

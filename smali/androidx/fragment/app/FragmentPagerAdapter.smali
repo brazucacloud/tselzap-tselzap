@@ -46,7 +46,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentPagerAdapter;-><init>(Landroidx/fragment/app/FragmentManager;I)V
+    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentPagerAdapter;
+    -><init>(Landroidx/fragment/app/FragmentManager;I)V
 return-void
 .end method
 
@@ -58,21 +59,26 @@ return-void
     .end param
 
     .line 2
-    invoke-direct {p0}, Landroidx/viewpager/widget/PagerAdapter;-><init>()V
+    invoke-direct {p0}, Landroidx/viewpager/widget/PagerAdapter;
+    -><init>()V
 
     const/4 v0, 0x0
 
     .line 3
-    iput-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iput-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 4
-    iput-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iput-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 5
-    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 6
-    iput p2, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mBehavior:I
+    iput p2, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mBehavior:I
 
     return-void
 .end method
@@ -89,12 +95,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
@@ -103,17 +111,20 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p1, p2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1, p2}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -141,7 +152,8 @@ return-void
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 4
     .line 5
@@ -149,11 +161,13 @@ return-void
 
     .line 6
     .line 7
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;
+    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 10
     .line 11
@@ -161,25 +175,30 @@ return-void
     move-result-object p1
 
     .line 13
-    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 14
     .line 15
     :cond_0
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 16
     .line 17
-    invoke-virtual {p1, p3}, Landroidx/fragment/app/FragmentTransaction;->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1, p3}, Landroidx/fragment/app/FragmentTransaction;
+    ->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 18
     .line 19
     .line 20
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 21
     .line 22
-    invoke-virtual {p3, p1}, Landroidx/fragment/app/Fragment;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p1}, Landroidx/fragment/app/Fragment;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -194,7 +213,8 @@ return-void
     const/4 p1, 0x0
 
     .line 29
-    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 30
     .line 31
@@ -210,7 +230,8 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 2
     .line 3
@@ -218,7 +239,8 @@ return-void
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mExecutingFinishUpdate:Z
+    iget-boolean v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mExecutingFinishUpdate:Z
 
     .line 6
     .line 7
@@ -233,18 +255,21 @@ return-void
 
     .line 11
     :try_start_0
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mExecutingFinishUpdate:Z
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mExecutingFinishUpdate:Z
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;
+    ->commitNowAllowingStateLoss()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 14
     .line 15
     .line 16
-    iput-boolean v1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mExecutingFinishUpdate:Z
+    iput-boolean v1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mExecutingFinishUpdate:Z
 
     .line 17
     .line 18
@@ -255,7 +280,8 @@ return-void
     move-exception p1
 
     .line 20
-    iput-boolean v1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mExecutingFinishUpdate:Z
+    iput-boolean v1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mExecutingFinishUpdate:Z
 
     .line 21
     .line 22
@@ -267,7 +293,8 @@ return-void
     const/4 p1, 0x0
 
     .line 24
-    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 25
     .line 26
@@ -298,7 +325,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 2
     .line 3
@@ -306,11 +334,13 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
+    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 8
     .line 9
@@ -318,12 +348,14 @@ return-void
     move-result-object v0
 
     .line 11
-    iput-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iput-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 12
     .line 13
     :cond_0
-    invoke-virtual {p0, p2}, Landroidx/fragment/app/FragmentPagerAdapter;->getItemId(I)J
+    invoke-virtual {p0, p2}, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->getItemId(I)J
 
     .line 14
     .line 15
@@ -331,7 +363,8 @@ return-void
     move-result-wide v0
 
     .line 17
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getId()I
 
     .line 18
     .line 19
@@ -339,7 +372,8 @@ return-void
     move-result v2
 
     .line 21
-    invoke-static {v2, v0, v1}, Landroidx/fragment/app/FragmentPagerAdapter;->makeFragmentName(IJ)Ljava/lang/String;
+    invoke-static {v2, v0, v1}, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->makeFragmentName(IJ)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -347,11 +381,13 @@ return-void
     move-result-object v2
 
     .line 25
-    iget-object v3, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v3, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 26
     .line 27
-    invoke-virtual {v3, v2}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v3, v2}, Landroidx/fragment/app/FragmentManager;
+    ->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 28
     .line 29
@@ -363,11 +399,13 @@ return-void
 
     .line 32
     .line 33
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 34
     .line 35
-    invoke-virtual {p1, v2}, Landroidx/fragment/app/FragmentTransaction;->attach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1, v2}, Landroidx/fragment/app/FragmentTransaction;
+    ->attach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 36
     .line 37
@@ -376,7 +414,8 @@ return-void
 
     .line 39
     :cond_1
-    invoke-virtual {p0, p2}, Landroidx/fragment/app/FragmentPagerAdapter;->getItem(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p0, p2}, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->getItem(I)Landroidx/fragment/app/Fragment;
 
     .line 40
     .line 41
@@ -384,11 +423,13 @@ return-void
     move-result-object v2
 
     .line 43
-    iget-object p2, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p2, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 44
     .line 45
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getId()I
 
     .line 46
     .line 47
@@ -396,7 +437,8 @@ return-void
     move-result v3
 
     .line 49
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getId()I
 
     .line 50
     .line 51
@@ -404,7 +446,8 @@ return-void
     move-result p1
 
     .line 53
-    invoke-static {p1, v0, v1}, Landroidx/fragment/app/FragmentPagerAdapter;->makeFragmentName(IJ)Ljava/lang/String;
+    invoke-static {p1, v0, v1}, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->makeFragmentName(IJ)Ljava/lang/String;
 
     .line 54
     .line 55
@@ -412,13 +455,15 @@ return-void
     move-result-object p1
 
     .line 57
-    invoke-virtual {p2, v3, v2, p1}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2, v3, v2, p1}, Landroidx/fragment/app/FragmentTransaction;
+    ->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 58
     .line 59
     .line 60
     :goto_0
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 61
     .line 62
@@ -429,12 +474,14 @@ return-void
     const/4 p1, 0x0
 
     .line 65
-    invoke-virtual {v2, p1}, Landroidx/fragment/app/Fragment;->setMenuVisibility(Z)V
+    invoke-virtual {v2, p1}, Landroidx/fragment/app/Fragment;
+    ->setMenuVisibility(Z)V
 
     .line 66
     .line 67
     .line 68
-    iget p2, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mBehavior:I
+    iget p2, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mBehavior:I
 
     .line 69
     .line 70
@@ -445,19 +492,24 @@ return-void
 
     .line 72
     .line 73
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 74
     .line 75
-    sget-object p2, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object p2, Landroidx/lifecycle/Lifecycle$State;
+    ->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 76
     .line 77
-    invoke-virtual {p1, v2, p2}, Landroidx/fragment/app/FragmentTransaction;->setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/fragment/app/FragmentTransaction;    return-object v2
+    invoke-virtual {p1, v2, p2}, Landroidx/fragment/app/FragmentTransaction;
+    ->setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/fragment/app/FragmentTransaction;    
+    return-object v2
 
     .line 81
     :cond_2
-    invoke-virtual {v2, p1}, Landroidx/fragment/app/Fragment;->setUserVisibleHint(Z)V
+    invoke-virtual {v2, p1}, Landroidx/fragment/app/Fragment;
+    ->setUserVisibleHint(Z)V
 
     .line 82
     .line 83
@@ -482,7 +534,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;
+    ->getView()Landroid/view/View;
 
     .line 4
     .line 5
@@ -545,7 +598,8 @@ return-void
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 4
     .line 5
@@ -563,12 +617,14 @@ return-void
     const/4 v0, 0x0
 
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->setMenuVisibility(Z)V
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;
+    ->setMenuVisibility(Z)V
 
     .line 12
     .line 13
     .line 14
-    iget p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mBehavior:I
+    iget p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mBehavior:I
 
     .line 15
     .line 16
@@ -576,7 +632,8 @@ return-void
 
     .line 17
     .line 18
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 19
     .line 20
@@ -584,11 +641,13 @@ return-void
 
     .line 21
     .line 22
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;
+    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 25
     .line 26
@@ -596,24 +655,29 @@ return-void
     move-result-object p1
 
     .line 28
-    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 29
     .line 30
     :cond_0
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 31
     .line 32
-    iget-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 33
     .line 34
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
+    ->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 35
     .line 36
-    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/FragmentTransaction;->setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/FragmentTransaction;
+    ->setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 37
     .line 38
@@ -622,23 +686,27 @@ return-void
 
     .line 40
     :cond_1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 41
     .line 42
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->setUserVisibleHint(Z)V
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;
+    ->setUserVisibleHint(Z)V
 
     .line 43
     .line 44
     .line 45
     :cond_2
     :goto_0
-    invoke-virtual {p3, p2}, Landroidx/fragment/app/Fragment;->setMenuVisibility(Z)V
+    invoke-virtual {p3, p2}, Landroidx/fragment/app/Fragment;
+    ->setMenuVisibility(Z)V
 
     .line 46
     .line 47
     .line 48
-    iget p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mBehavior:I
+    iget p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mBehavior:I
 
     .line 49
     .line 50
@@ -646,7 +714,8 @@ return-void
 
     .line 51
     .line 52
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 53
     .line 54
@@ -654,11 +723,13 @@ return-void
 
     .line 55
     .line 56
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 57
     .line 58
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;
+    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 59
     .line 60
@@ -666,20 +737,24 @@ return-void
     move-result-object p1
 
     .line 62
-    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 63
     .line 64
     :cond_3
-    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurTransaction:Landroidx/fragment/app/FragmentTransaction;
 
     .line 65
     .line 66
-    sget-object p2, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object p2, Landroidx/lifecycle/Lifecycle$State;
+    ->RESUMED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 67
     .line 68
-    invoke-virtual {p1, p3, p2}, Landroidx/fragment/app/FragmentTransaction;->setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p1, p3, p2}, Landroidx/fragment/app/FragmentTransaction;
+    ->setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 69
     .line 70
@@ -688,13 +763,15 @@ return-void
 
     .line 72
     :cond_4
-    invoke-virtual {p3, p2}, Landroidx/fragment/app/Fragment;->setUserVisibleHint(Z)V
+    invoke-virtual {p3, p2}, Landroidx/fragment/app/Fragment;
+    ->setUserVisibleHint(Z)V
 
     .line 73
     .line 74
     .line 75
     :goto_1
-    iput-object p3, p0, Landroidx/fragment/app/FragmentPagerAdapter;->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
+    iput-object p3, p0, Landroidx/fragment/app/FragmentPagerAdapter;
+    ->mCurrentPrimaryItem:Landroidx/fragment/app/Fragment;
 
     .line 76
     .line 77
@@ -710,7 +787,8 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getId()I
 
     .line 2
     .line 3
@@ -737,12 +815,14 @@ return-void
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -751,12 +831,14 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -764,7 +846,8 @@ return-void
     move-result-object v0
 
     .line 30
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32

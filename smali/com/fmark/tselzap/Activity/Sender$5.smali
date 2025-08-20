@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/Activity/Sender;->getPR()V
+    value = Lcom/fmark/tselzap/Activity/Sender;
+    ->getPR()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$5;->this$0:Lcom/fmark/tselzap/Activity/Sender;
+    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$5;
+    ->this$0:Lcom/fmark/tselzap/Activity/Sender;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V
+    invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;
+    -><init>()V
 
     .line 4
     .line 5

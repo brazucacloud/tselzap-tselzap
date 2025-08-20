@@ -39,12 +39,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/graphics/PaintCompat;->sRectThreadLocal:Ljava/lang/ThreadLocal;
+    sput-object v0, Landroidx/core/graphics/PaintCompat;
+    ->sRectThreadLocal:Ljava/lang/ThreadLocal;
 
     .line 7
     .line 8
@@ -55,7 +57,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -75,7 +78,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -87,7 +91,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/graphics/PaintCompat$Api23Impl;->hasGlyph(Landroid/graphics/Paint;Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/PaintCompat$Api23Impl;
+    ->hasGlyph(Landroid/graphics/Paint;Ljava/lang/String;)Z
 
     .line 8
     .line 9
@@ -98,7 +103,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->length()I
 
     .line 13
     .line 14
@@ -116,7 +122,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, v2}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p1, v2}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 21
     .line 22
@@ -124,7 +131,8 @@
     move-result v3
 
     .line 24
-    invoke-static {v3}, Ljava/lang/Character;->isWhitespace(C)Z
+    invoke-static {v3}, Ljava/lang/Character;
+    ->isWhitespace(C)Z
 
     .line 25
     .line 26
@@ -144,7 +152,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {p0, v3}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {p0, v3}, Landroid/graphics/Paint;
+    ->measureText(Ljava/lang/String;)F
 
     .line 34
     .line 35
@@ -156,7 +165,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {p0, v5}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {p0, v5}, Landroid/graphics/Paint;
+    ->measureText(Ljava/lang/String;)F
 
     .line 40
     .line 41
@@ -164,7 +174,8 @@
     move-result v5
 
     .line 43
-    invoke-virtual {p0, p1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {p0, p1}, Landroid/graphics/Paint;
+    ->measureText(Ljava/lang/String;)F
 
     .line 44
     .line 45
@@ -187,7 +198,8 @@
 
     .line 53
     :cond_2
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->length()I
 
     .line 54
     .line 55
@@ -195,7 +207,8 @@
     move-result v8
 
     .line 57
-    invoke-virtual {p1, v2, v8}, Ljava/lang/String;->codePointCount(II)I
+    invoke-virtual {p1, v2, v8}, Ljava/lang/String;
+    ->codePointCount(II)I
 
     .line 58
     .line 59
@@ -235,7 +248,8 @@
 
     .line 74
     .line 75
-    invoke-virtual {p1, v5}, Ljava/lang/String;->codePointAt(I)I
+    invoke-virtual {p1, v5}, Ljava/lang/String;
+    ->codePointAt(I)I
 
     .line 76
     .line 77
@@ -243,7 +257,8 @@
     move-result v8
 
     .line 79
-    invoke-static {v8}, Ljava/lang/Character;->charCount(I)I
+    invoke-static {v8}, Ljava/lang/Character;
+    ->charCount(I)I
 
     .line 80
     .line 81
@@ -254,7 +269,8 @@
     add-int/2addr v8, v5
 
     .line 84
-    invoke-virtual {p0, p1, v5, v8}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;II)F
+    invoke-virtual {p0, p1, v5, v8}, Landroid/graphics/Paint;
+    ->measureText(Ljava/lang/String;II)F
 
     .line 85
     .line 86
@@ -296,7 +312,8 @@
 
     .line 101
     :cond_6
-    invoke-static {}, Landroidx/core/graphics/PaintCompat;->obtainEmptyRects()Landroidx/core/util/Pair;
+    invoke-static {}, Landroidx/core/graphics/PaintCompat;
+    ->obtainEmptyRects()Landroidx/core/util/Pair;
 
     .line 102
     .line 103
@@ -304,7 +321,8 @@
     move-result-object v4
 
     .line 105
-    iget-object v5, v4, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
+    iget-object v5, v4, Landroidx/core/util/Pair;
+    ->first:Ljava/lang/Object;
 
     .line 106
     .line 107
@@ -315,12 +333,14 @@
     const/4 v6, 0x2
 
     .line 110
-    invoke-virtual {p0, v3, v2, v6, v5}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
+    invoke-virtual {p0, v3, v2, v6, v5}, Landroid/graphics/Paint;
+    ->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
 
     .line 111
     .line 112
     .line 113
-    iget-object v3, v4, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
+    iget-object v3, v4, Landroidx/core/util/Pair;
+    ->second:Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -328,12 +348,14 @@
 
     .line 116
     .line 117
-    invoke-virtual {p0, p1, v2, v0, v3}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
+    invoke-virtual {p0, p1, v2, v0, v3}, Landroid/graphics/Paint;
+    ->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
 
     .line 118
     .line 119
     .line 120
-    iget-object p0, v4, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
+    iget-object p0, v4, Landroidx/core/util/Pair;
+    ->first:Ljava/lang/Object;
 
     .line 121
     .line 122
@@ -341,11 +363,13 @@
 
     .line 123
     .line 124
-    iget-object p1, v4, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
+    iget-object p1, v4, Landroidx/core/util/Pair;
+    ->second:Ljava/lang/Object;
 
     .line 125
     .line 126
-    invoke-virtual {p0, p1}, Landroid/graphics/Rect;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Landroid/graphics/Rect;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 127
     .line 128
@@ -371,11 +395,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/PaintCompat;->sRectThreadLocal:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/core/graphics/PaintCompat;
+    ->sRectThreadLocal:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ThreadLocal;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -399,7 +425,8 @@
 
     .line 14
     .line 15
-    invoke-direct {v2}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v2}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 16
     .line 17
@@ -408,17 +435,20 @@
 
     .line 19
     .line 20
-    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    invoke-direct {v1, v2, v3}, Landroidx/core/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, v3}, Landroidx/core/util/Pair;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;
+    ->set(Ljava/lang/Object;)V
 
     .line 27
     .line 28
@@ -427,7 +457,8 @@
 
     .line 30
     :cond_0
-    iget-object v0, v1, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
+    iget-object v0, v1, Landroidx/core/util/Pair;
+    ->first:Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -435,12 +466,14 @@
 
     .line 33
     .line 34
-    invoke-virtual {v0}, Landroid/graphics/Rect;->setEmpty()V
+    invoke-virtual {v0}, Landroid/graphics/Rect;
+    ->setEmpty()V
 
     .line 35
     .line 36
     .line 37
-    iget-object v0, v1, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
+    iget-object v0, v1, Landroidx/core/util/Pair;
+    ->second:Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -448,7 +481,8 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0}, Landroid/graphics/Rect;->setEmpty()V
+    invoke-virtual {v0}, Landroid/graphics/Rect;
+    ->setEmpty()V
 
     .line 42
     .line 43
@@ -468,7 +502,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -490,7 +525,8 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/core/graphics/BlendModeUtils$Api29Impl;->obtainBlendModeFromCompat(Landroidx/core/graphics/BlendModeCompat;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/graphics/BlendModeUtils$Api29Impl;
+    ->obtainBlendModeFromCompat(Landroidx/core/graphics/BlendModeCompat;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -499,7 +535,8 @@
 
     .line 15
     :cond_0
-    invoke-static {p0, v3}, Landroidx/core/graphics/PaintCompat$Api29Impl;->setBlendMode(Landroid/graphics/Paint;Ljava/lang/Object;)V
+    invoke-static {p0, v3}, Landroidx/core/graphics/PaintCompat$Api29Impl;
+    ->setBlendMode(Landroid/graphics/Paint;Ljava/lang/Object;)V
 
     .line 16
     .line 17
@@ -512,7 +549,8 @@
 
     .line 20
     .line 21
-    invoke-static {p1}, Landroidx/core/graphics/BlendModeUtils;->obtainPorterDuffFromCompat(Landroidx/core/graphics/BlendModeCompat;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p1}, Landroidx/core/graphics/BlendModeUtils;
+    ->obtainPorterDuffFromCompat(Landroidx/core/graphics/BlendModeCompat;)Landroid/graphics/PorterDuff$Mode;
 
     .line 22
     .line 23
@@ -528,13 +566,15 @@
 
     .line 28
     .line 29
-    invoke-direct {v3, p1}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-direct {v3, p1}, Landroid/graphics/PorterDuffXfermode;
+    -><init>(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 30
     .line 31
     .line 32
     :cond_2
-    invoke-virtual {p0, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
+    invoke-virtual {p0, v3}, Landroid/graphics/Paint;
+    ->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
     .line 33
     .line 34
@@ -553,7 +593,8 @@
 
     .line 40
     :cond_4
-    invoke-virtual {p0, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
+    invoke-virtual {p0, v3}, Landroid/graphics/Paint;
+    ->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
     .line 41
     .line 42

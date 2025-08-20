@@ -880,7 +880,8 @@
 
     fill-array-data v2, :array_0
 
-    sput-object v2, Landroidx/appcompat/R$styleable;->ActionBar:[I
+    sput-object v2, Landroidx/appcompat/R$styleable;
+    ->ActionBar:[I
 
     const v2, 0x10100b3
 
@@ -888,7 +889,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->ActionBarLayout:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->ActionBarLayout:[I
 
     const v3, 0x101013f
 
@@ -896,13 +898,15 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->ActionMenuItemView:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->ActionMenuItemView:[I
 
     const/4 v3, 0x0
 
     new-array v4, v3, [I
 
-    sput-object v4, Landroidx/appcompat/R$styleable;->ActionMenuView:[I
+    sput-object v4, Landroidx/appcompat/R$styleable;
+    ->ActionMenuView:[I
 
     const/4 v4, 0x6
 
@@ -910,7 +914,8 @@
 
     fill-array-data v5, :array_1
 
-    sput-object v5, Landroidx/appcompat/R$styleable;->ActionMode:[I
+    sput-object v5, Landroidx/appcompat/R$styleable;
+    ->ActionMode:[I
 
     const v5, 0x7f04023c
 
@@ -920,7 +925,8 @@
 
     move-result-object v5
 
-    sput-object v5, Landroidx/appcompat/R$styleable;->ActivityChooserView:[I
+    sput-object v5, Landroidx/appcompat/R$styleable;
+    ->ActivityChooserView:[I
 
     const v5, 0x10100f2
 
@@ -930,11 +936,13 @@
 
     fill-array-data v6, :array_2
 
-    sput-object v6, Landroidx/appcompat/R$styleable;->AlertDialog:[I
+    sput-object v6, Landroidx/appcompat/R$styleable;
+    ->AlertDialog:[I
 
     new-array v3, v3, [I
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->AppCompatEmojiHelper:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatEmojiHelper:[I
 
     const v3, 0x7f0405fd
 
@@ -948,7 +956,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->AppCompatImageView:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatImageView:[I
 
     const v3, 0x7f0405f7
 
@@ -962,7 +971,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->AppCompatSeekBar:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatSeekBar:[I
 
     const/4 v3, 0x7
 
@@ -970,7 +980,8 @@
 
     fill-array-data v3, :array_3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->AppCompatTextHelper:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextHelper:[I
 
     const/16 v3, 0x16
 
@@ -978,7 +989,8 @@
 
     fill-array-data v3, :array_4
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->AppCompatTextView:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatTextView:[I
 
     const/16 v3, 0x7f
 
@@ -986,7 +998,8 @@
 
     fill-array-data v3, :array_5
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->AppCompatTheme:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->AppCompatTheme:[I
 
     const v3, 0x7f040039
 
@@ -994,7 +1007,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->ButtonBarLayout:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->ButtonBarLayout:[I
 
     const v3, 0x7f0400fe
 
@@ -1008,7 +1022,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->CheckedTextView:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->CheckedTextView:[I
 
     const v3, 0x7f0400b4
 
@@ -1022,7 +1037,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->CompoundButton:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->CompoundButton:[I
 
     const/16 v3, 0x8
 
@@ -1030,7 +1046,8 @@
 
     fill-array-data v3, :array_6
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->DrawerArrowToggle:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->DrawerArrowToggle:[I
 
     const/16 v3, 0x9
 
@@ -1038,7 +1055,8 @@
 
     fill-array-data v3, :array_7
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->LinearLayoutCompat:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->LinearLayoutCompat:[I
 
     const v3, 0x10100f5
 
@@ -1050,7 +1068,8 @@
 
     move-result-object v2
 
-    sput-object v2, Landroidx/appcompat/R$styleable;->LinearLayoutCompat_Layout:[I
+    sput-object v2, Landroidx/appcompat/R$styleable;
+    ->LinearLayoutCompat_Layout:[I
 
     const v2, 0x10102ac
 
@@ -1060,7 +1079,8 @@
 
     move-result-object v2
 
-    sput-object v2, Landroidx/appcompat/R$styleable;->ListPopupWindow:[I
+    sput-object v2, Landroidx/appcompat/R$styleable;
+    ->ListPopupWindow:[I
 
     const v2, 0x10100d0
 
@@ -1068,7 +1088,8 @@
 
     fill-array-data v3, :array_8
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->MenuGroup:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->MenuGroup:[I
 
     const/16 v3, 0x17
 
@@ -1076,7 +1097,8 @@
 
     fill-array-data v3, :array_9
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->MenuItem:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->MenuItem:[I
 
     const/16 v3, 0x9
 
@@ -1084,7 +1106,8 @@
 
     fill-array-data v3, :array_a
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->MenuView:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->MenuView:[I
 
     const v3, 0x10102c9
 
@@ -1096,7 +1119,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->PopupWindow:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->PopupWindow:[I
 
     const v3, 0x7f040526
 
@@ -1104,7 +1128,8 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->PopupWindowBackgroundState:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->PopupWindowBackgroundState:[I
 
     const v3, 0x7f040453
 
@@ -1114,13 +1139,15 @@
 
     move-result-object v3
 
-    sput-object v3, Landroidx/appcompat/R$styleable;->RecycleListView:[I
+    sput-object v3, Landroidx/appcompat/R$styleable;
+    ->RecycleListView:[I
 
     new-array v1, v1, [I
 
     fill-array-data v1, :array_b
 
-    sput-object v1, Landroidx/appcompat/R$styleable;->SearchView:[I
+    sput-object v1, Landroidx/appcompat/R$styleable;
+    ->SearchView:[I
 
     const v1, 0x1010262
 
@@ -1132,7 +1159,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->Spinner:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->Spinner:[I
 
     const/16 v0, 0xe
 
@@ -1140,7 +1168,8 @@
 
     fill-array-data v0, :array_c
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->SwitchCompat:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->SwitchCompat:[I
 
     const/16 v0, 0x10
 
@@ -1148,7 +1177,8 @@
 
     fill-array-data v0, :array_d
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->TextAppearance:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->TextAppearance:[I
 
     const/16 v0, 0x1e
 
@@ -1156,7 +1186,8 @@
 
     fill-array-data v0, :array_e
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->Toolbar:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->Toolbar:[I
 
     const v0, 0x7f040458
 
@@ -1172,7 +1203,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->View:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->View:[I
 
     const v0, 0x7f040060
 
@@ -1184,7 +1216,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->ViewBackgroundHelper:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->ViewBackgroundHelper:[I
 
     const v0, 0x10100f3
 
@@ -1192,7 +1225,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/appcompat/R$styleable;->ViewStubCompat:[I
+    sput-object v0, Landroidx/appcompat/R$styleable;
+    ->ViewStubCompat:[I
 
     return-void
 
@@ -1605,7 +1639,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

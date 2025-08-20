@@ -21,13 +21,17 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lj/b;->b:I
+    iput p1, p0, Lj/b;
+    ->b:I
 
-    iput-object p2, p0, Lj/b;->c:Ljava/lang/Comparable;
+    iput-object p2, p0, Lj/b;
+    ->c:Ljava/lang/Comparable;
 
-    iput-object p3, p0, Lj/b;->d:Ljava/lang/Object;
+    iput-object p3, p0, Lj/b;
+    ->d:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -55,7 +59,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lj/b;->b:I
+    iget v0, p0, Lj/b;
+    ->b:I
 
     .line 2
     .line 3
@@ -64,7 +69,8 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lj/b;->d:Ljava/lang/Object;
+    iget-object v0, p0, Lj/b;
+    ->d:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -72,7 +78,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Lo/z;->b()Ljava/lang/Class;
+    invoke-virtual {v0}, Lo/z;
+    ->b()Ljava/lang/Class;
 
     .line 11
     .line 12
@@ -83,7 +90,8 @@
 
     .line 15
     :pswitch_0
-    iget-object v0, p0, Lj/b;->d:Ljava/lang/Object;
+    iget-object v0, p0, Lj/b;
+    ->d:Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -91,7 +99,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 20
     .line 21
@@ -182,7 +191,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lj/b;->b:I
+    iget v0, p0, Lj/b;
+    ->b:I
 
     .line 2
     .line 3
@@ -191,7 +201,8 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lj/b;->e:Ljava/lang/Object;
+    iget-object v0, p0, Lj/b;
+    ->e:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -200,7 +211,8 @@
     .line 9
     .line 10
     :try_start_0
-    iget-object v1, p0, Lj/b;->d:Ljava/lang/Object;
+    iget-object v1, p0, Lj/b;
+    ->d:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -208,7 +220,8 @@
 
     .line 13
     .line 14
-    iget v1, v1, Lo/z;->b:I
+    iget v1, v1, Lo/z;
+    ->b:I
 
     .line 15
     .line 16
@@ -221,7 +234,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v0}, Ljava/io/InputStream;
+    ->close()V
 
     .line 22
     .line 23
@@ -234,7 +248,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroid/os/ParcelFileDescriptor;->close()V
+    invoke-virtual {v0}, Landroid/os/ParcelFileDescriptor;
+    ->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -249,7 +264,8 @@
     .line 31
     :pswitch_1
     :try_start_1
-    iget-object v0, p0, Lj/b;->e:Ljava/lang/Object;
+    iget-object v0, p0, Lj/b;
+    ->e:Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -257,7 +273,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v0}, Ljava/io/InputStream;
+    ->close()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -269,7 +286,8 @@
 
     .line 39
     :pswitch_2
-    iget-object v0, p0, Lj/b;->e:Ljava/lang/Object;
+    iget-object v0, p0, Lj/b;
+    ->e:Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -282,7 +300,8 @@
     .line 44
     .line 45
     :try_start_2
-    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v0}, Ljava/io/InputStream;
+    ->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2
 
@@ -347,7 +366,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lj/b;->b:I
+    iget v0, p0, Lj/b;
+    ->b:I
 
     return-void
 .end method
@@ -356,7 +376,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lj/b;->b:I
+    iget v0, p0, Lj/b;
+    ->b:I
 
     .line 2
     .line 3
@@ -365,7 +386,8 @@
     .line 4
     .line 5
     .line 6
-    sget-object v0, Li/a;->b:Li/a;
+    sget-object v0, Li/a;
+    ->b:Li/a;
 
     .line 7
     .line 8
@@ -373,7 +395,8 @@
 
     .line 9
     :pswitch_0
-    sget-object v0, Li/a;->b:Li/a;
+    sget-object v0, Li/a;
+    ->b:Li/a;
 
     .line 10
     .line 11
@@ -381,7 +404,8 @@
 
     .line 12
     :pswitch_1
-    sget-object v0, Li/a;->b:Li/a;
+    sget-object v0, Li/a;
+    ->b:Li/a;
 
     .line 13
     .line 14
@@ -406,7 +430,8 @@
     .locals 2
 
     .line 1
-    iget p1, p0, Lj/b;->b:I
+    iget p1, p0, Lj/b;
+    ->b:I
 
     .line 2
     .line 3
@@ -416,7 +441,8 @@
     .line 5
     .line 6
     :try_start_0
-    iget-object p1, p0, Lj/b;->d:Ljava/lang/Object;
+    iget-object p1, p0, Lj/b;
+    ->d:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -424,7 +450,8 @@
 
     .line 9
     .line 10
-    iget-object v0, p0, Lj/b;->c:Ljava/lang/Comparable;
+    iget-object v0, p0, Lj/b;
+    ->c:Ljava/lang/Comparable;
 
     .line 11
     .line 12
@@ -432,7 +459,8 @@
 
     .line 13
     .line 14
-    iget p1, p1, Lo/z;->b:I
+    iget p1, p1, Lo/z;
+    ->b:I
 
     .line 15
     .line 16
@@ -445,7 +473,8 @@
 
     .line 20
     .line 21
-    invoke-direct {p1, v0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+    invoke-direct {p1, v0}, Ljava/io/FileInputStream;
+    -><init>(Ljava/io/File;)V
 
     .line 22
     .line 23
@@ -458,7 +487,8 @@
 
     .line 26
     .line 27
-    invoke-static {v0, p1}, Landroid/os/ParcelFileDescriptor;->open(Ljava/io/File;I)Landroid/os/ParcelFileDescriptor;
+    invoke-static {v0, p1}, Landroid/os/ParcelFileDescriptor;
+    ->open(Ljava/io/File;I)Landroid/os/ParcelFileDescriptor;
 
     .line 28
     .line 29
@@ -467,11 +497,13 @@
 
     .line 31
     :goto_0
-    iput-object p1, p0, Lj/b;->e:Ljava/lang/Object;
+    iput-object p1, p0, Lj/b;
+    ->e:Ljava/lang/Object;
 
     .line 32
     .line 33
-    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;->e(Ljava/lang/Object;)V
+    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;
+    ->e(Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -492,7 +524,8 @@
     const/4 v1, 0x3
 
     .line 41
-    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 42
     .line 43
@@ -508,13 +541,15 @@
 
     .line 48
     .line 49
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 50
     .line 51
     .line 52
     :cond_0
-    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;->c(Ljava/lang/Exception;)V
+    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;
+    ->c(Ljava/lang/Exception;)V
 
     .line 53
     .line 54
@@ -525,7 +560,8 @@
     .line 56
     :pswitch_1
     :try_start_1
-    iget-object p1, p0, Lj/b;->c:Ljava/lang/Comparable;
+    iget-object p1, p0, Lj/b;
+    ->c:Ljava/lang/Comparable;
 
     .line 57
     .line 58
@@ -533,7 +569,8 @@
 
     .line 59
     .line 60
-    invoke-static {p1}, Lo/z;->a(Ljava/lang/String;)Ljava/io/ByteArrayInputStream;
+    invoke-static {p1}, Lo/z;
+    ->a(Ljava/lang/String;)Ljava/io/ByteArrayInputStream;
 
     .line 61
     .line 62
@@ -541,11 +578,13 @@
     move-result-object p1
 
     .line 64
-    iput-object p1, p0, Lj/b;->e:Ljava/lang/Object;
+    iput-object p1, p0, Lj/b;
+    ->e:Ljava/lang/Object;
 
     .line 65
     .line 66
-    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;->e(Ljava/lang/Object;)V
+    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;
+    ->e(Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -559,7 +598,8 @@
     move-exception p1
 
     .line 71
-    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;->c(Ljava/lang/Exception;)V
+    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;
+    ->c(Ljava/lang/Exception;)V
 
     .line 72
     .line 73
@@ -570,7 +610,8 @@
     .line 75
     :pswitch_2
     :try_start_2
-    invoke-virtual {p0}, Lj/b;->h()Ljava/io/InputStream;
+    invoke-virtual {p0}, Lj/b;
+    ->h()Ljava/io/InputStream;
 
     .line 76
     .line 77
@@ -578,11 +619,13 @@
     move-result-object p1
 
     .line 79
-    iput-object p1, p0, Lj/b;->e:Ljava/lang/Object;
+    iput-object p1, p0, Lj/b;
+    ->e:Ljava/lang/Object;
 
     .line 80
     .line 81
-    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;->e(Ljava/lang/Object;)V
+    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;
+    ->e(Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/io/FileNotFoundException; {:try_start_2 .. :try_end_2} :catch_2
 
@@ -603,7 +646,8 @@
     const/4 v1, 0x3
 
     .line 89
-    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 90
     .line 91
@@ -619,13 +663,15 @@
 
     .line 96
     .line 97
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 98
     .line 99
     .line 100
     :cond_1
-    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;->c(Ljava/lang/Exception;)V
+    invoke-interface {p2, p1}, Lcom/bumptech/glide/load/data/d;
+    ->c(Ljava/lang/Exception;)V
 
     .line 101
     .line 102
@@ -790,7 +836,8 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lj/b;->c:Ljava/lang/Comparable;
+    iget-object v1, p0, Lj/b;
+    ->c:Ljava/lang/Comparable;
 
     .line 4
     .line 5
@@ -798,7 +845,8 @@
 
     .line 6
     .line 7
-    iget-object v2, p0, Lj/b;->d:Ljava/lang/Object;
+    iget-object v2, p0, Lj/b;
+    ->d:Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -817,11 +865,13 @@
 
     .line 15
     :try_start_0
-    iget-object v6, v2, Lj/d;->a:Lj/c;
+    iget-object v6, v2, Lj/d;
+    ->a:Lj/c;
 
     .line 16
     .line 17
-    invoke-interface {v6, v1}, Lj/c;->a(Landroid/net/Uri;)Landroid/database/Cursor;
+    invoke-interface {v6, v1}, Lj/c;
+    ->a(Landroid/net/Uri;)Landroid/database/Cursor;
 
     .line 18
     .line 19
@@ -837,7 +887,8 @@
     .line 22
     .line 23
     :try_start_1
-    invoke-interface {v6}, Landroid/database/Cursor;->moveToFirst()Z
+    invoke-interface {v6}, Landroid/database/Cursor;
+    ->moveToFirst()Z
 
     .line 24
     .line 25
@@ -852,7 +903,8 @@
     const/4 v7, 0x0
 
     .line 30
-    invoke-interface {v6, v7}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {v6, v7}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -863,7 +915,8 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 34
-    invoke-interface {v6}, Landroid/database/Cursor;->close()V
+    invoke-interface {v6}, Landroid/database/Cursor;
+    ->close()V
 
     .line 35
     .line 36
@@ -895,7 +948,8 @@
     .line 45
     .line 46
     :goto_0
-    invoke-interface {v6}, Landroid/database/Cursor;->close()V
+    invoke-interface {v6}, Landroid/database/Cursor;
+    ->close()V
 
     .line 47
     .line 48
@@ -924,7 +978,8 @@
     .line 56
     :goto_1
     :try_start_2
-    invoke-static {v0, v4}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v4}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 57
     .line 58
@@ -940,17 +995,20 @@
 
     .line 63
     .line 64
-    invoke-direct {v8, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v8, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 71
     .line 72
@@ -958,7 +1016,8 @@
     move-result-object v3
 
     .line 74
-    invoke-static {v0, v3, v7}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v3, v7}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -974,7 +1033,8 @@
 
     .line 80
     :goto_2
-    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v3}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 81
     .line 82
@@ -982,7 +1042,8 @@
     move-result v6
 
     .line 84
-    iget-object v7, v2, Lj/d;->c:Landroid/content/ContentResolver;
+    iget-object v7, v2, Lj/d;
+    ->c:Landroid/content/ContentResolver;
 
     .line 85
     .line 86
@@ -1002,12 +1063,14 @@
 
     .line 91
     .line 92
-    invoke-direct {v6, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v3}, Ljava/io/File;
+    -><init>(Ljava/lang/String;)V
 
     .line 93
     .line 94
     .line 95
-    invoke-virtual {v6}, Ljava/io/File;->exists()Z
+    invoke-virtual {v6}, Ljava/io/File;
+    ->exists()Z
 
     .line 96
     .line 97
@@ -1019,7 +1082,8 @@
 
     .line 100
     .line 101
-    invoke-virtual {v6}, Ljava/io/File;->length()J
+    invoke-virtual {v6}, Ljava/io/File;
+    ->length()J
 
     .line 102
     .line 103
@@ -1039,7 +1103,8 @@
 
     .line 110
     .line 111
-    invoke-static {v6}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+    invoke-static {v6}, Landroid/net/Uri;
+    ->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
     .line 112
     .line 113
@@ -1048,7 +1113,8 @@
 
     .line 115
     :try_start_3
-    invoke-virtual {v7, v3}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+    invoke-virtual {v7, v3}, Landroid/content/ContentResolver;
+    ->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
 
     .line 116
     .line 117
@@ -1077,12 +1143,14 @@
 
     .line 126
     .line 127
-    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 128
     .line 129
     .line 130
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 131
     .line 132
@@ -1091,17 +1159,20 @@
 
     .line 134
     .line 135
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 136
     .line 137
     .line 138
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 139
     .line 140
     .line 141
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -1109,12 +1180,14 @@
     move-result-object v1
 
     .line 145
-    invoke-direct {v2, v1}, Ljava/io/FileNotFoundException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Ljava/io/FileNotFoundException;
+    -><init>(Ljava/lang/String;)V
 
     .line 146
     .line 147
     .line 148
-    invoke-virtual {v2, v0}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    invoke-virtual {v2, v0}, Ljava/lang/Throwable;
+    ->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 149
     .line 150
@@ -1142,7 +1215,8 @@
     .line 159
     .line 160
     :try_start_4
-    invoke-virtual {v7, v1}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+    invoke-virtual {v7, v1}, Landroid/content/ContentResolver;
+    ->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
 
     .line 161
     .line 162
@@ -1150,15 +1224,18 @@
     move-result-object v5
 
     .line 164
-    iget-object v7, v2, Lj/d;->d:Ljava/util/ArrayList;
+    iget-object v7, v2, Lj/d;
+    ->d:Ljava/util/ArrayList;
 
     .line 165
     .line 166
-    iget-object v2, v2, Lj/d;->b:Ll/f;
+    iget-object v2, v2, Lj/d;
+    ->b:Ll/f;
 
     .line 167
     .line 168
-    invoke-static {v5, v7, v2}, La/a;->u(Ljava/io/InputStream;Ljava/util/ArrayList;Ll/f;)I
+    invoke-static {v5, v7, v2}, La/a;
+    ->u(Ljava/io/InputStream;Ljava/util/ArrayList;Ll/f;)I
 
     .line 169
     .line 170
@@ -1175,7 +1252,8 @@
     .line 173
     .line 174
     :try_start_5
-    invoke-virtual {v5}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v5}, Ljava/io/InputStream;
+    ->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
 
@@ -1212,7 +1290,8 @@
     .line 185
     :goto_4
     :try_start_6
-    invoke-static {v0, v4}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v4}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 186
     .line 187
@@ -1228,17 +1307,20 @@
 
     .line 192
     .line 193
-    invoke-direct {v4, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v8}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 194
     .line 195
     .line 196
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 197
     .line 198
     .line 199
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 200
     .line 201
@@ -1246,7 +1328,8 @@
     move-result-object v1
 
     .line 203
-    invoke-static {v0, v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, v2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_2
 
@@ -1259,7 +1342,8 @@
     .line 207
     .line 208
     :try_start_7
-    invoke-virtual {v5}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v5}, Ljava/io/InputStream;
+    ->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_6
 
@@ -1282,7 +1366,8 @@
     .line 215
     .line 216
     :try_start_8
-    invoke-virtual {v5}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v5}, Ljava/io/InputStream;
+    ->close()V
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_7
 
@@ -1309,7 +1394,8 @@
 
     .line 224
     .line 225
-    invoke-direct {v1, v3, v0}, Lcom/bumptech/glide/load/data/j;-><init>(Ljava/io/InputStream;I)V
+    invoke-direct {v1, v3, v0}, Lcom/bumptech/glide/load/data/j;
+    -><init>(Ljava/io/InputStream;I)V
 
     .line 226
     .line 227
@@ -1326,7 +1412,8 @@
 
     .line 231
     .line 232
-    invoke-interface {v5}, Landroid/database/Cursor;->close()V
+    invoke-interface {v5}, Landroid/database/Cursor;
+    ->close()V
 
     .line 233
     .line 234

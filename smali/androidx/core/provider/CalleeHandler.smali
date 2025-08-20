@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -22,7 +23,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     .line 2
     .line 3
@@ -38,7 +40,8 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 10
     .line 11
@@ -46,7 +49,8 @@
     move-result-object v1
 
     .line 13
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 14
     .line 15
@@ -59,7 +63,8 @@
 
     .line 18
     .line 19
-    invoke-direct {v0}, Landroid/os/Handler;-><init>()V
+    invoke-direct {v0}, Landroid/os/Handler;
+    -><init>()V
 
     .line 20
     .line 21

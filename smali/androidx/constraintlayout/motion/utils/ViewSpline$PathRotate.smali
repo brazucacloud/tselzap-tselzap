@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;
+    -><init>()V
     return-void
 .end method
 
@@ -29,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->get(F)F
 
     .line 2
     .line 3
@@ -37,7 +39,8 @@
     move-result p2
 
     .line 5
-    invoke-static {p5, p6, p3, p4}, Ljava/lang/Math;->atan2(DD)D
+    invoke-static {p5, p6, p3, p4}, Ljava/lang/Math;
+    ->atan2(DD)D
 
     .line 6
     .line 7
@@ -45,7 +48,8 @@
     move-result-wide p3
 
     .line 9
-    invoke-static {p3, p4}, Ljava/lang/Math;->toDegrees(D)D
+    invoke-static {p3, p4}, Ljava/lang/Math;
+    ->toDegrees(D)D
 
     .line 10
     .line 11
@@ -59,7 +63,9 @@
     add-float/2addr p2, p3
 
     .line 15
-    invoke-virtual {p1, p2}, Landroid/view/View;->setRotation(F)V    return-void
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setRotation(F)V    
+    return-void
 .end method
 
 .method public setProperty(Landroid/view/View;F)V

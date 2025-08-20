@@ -35,40 +35,48 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/core/location/LocationRequestCompat$Builder;->setIntervalMillis(J)Landroidx/core/location/LocationRequestCompat$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->setIntervalMillis(J)Landroidx/core/location/LocationRequestCompat$Builder;
 
     const/16 p1, 0x66
 
     .line 3
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mQuality:I
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mQuality:I
 
     const-wide p1, 0x7fffffffffffffffL
 
     .line 4
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mDurationMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mDurationMillis:J
 
     const p1, 0x7fffffff
 
     .line 5
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdates:I
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdates:I
 
     const-wide/16 p1, -0x1
 
     .line 6
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateIntervalMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateIntervalMillis:J
 
     const/4 p1, 0x0
 
     .line 7
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateDistanceMeters:F
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateDistanceMeters:F
 
     const-wide/16 p1, 0x0
 
     .line 8
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdateDelayMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdateDelayMillis:J
 
     return-void
 .end method
@@ -81,42 +89,57 @@
     .end param
 
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 10
-    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;->mIntervalMillis:J
+    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mIntervalMillis:J
 
-    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mIntervalMillis:J
+    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mIntervalMillis:J
 
     .line 11
-    iget v0, p1, Landroidx/core/location/LocationRequestCompat;->mQuality:I
+    iget v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mQuality:I
 
-    iput v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mQuality:I
+    iput v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mQuality:I
 
     .line 12
-    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;->mDurationMillis:J
+    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mDurationMillis:J
 
-    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mDurationMillis:J
+    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mDurationMillis:J
 
     .line 13
-    iget v0, p1, Landroidx/core/location/LocationRequestCompat;->mMaxUpdates:I
+    iget v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mMaxUpdates:I
 
-    iput v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdates:I
+    iput v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdates:I
 
     .line 14
-    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;->mMinUpdateIntervalMillis:J
+    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mMinUpdateIntervalMillis:J
 
-    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateIntervalMillis:J
+    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateIntervalMillis:J
 
     .line 15
-    iget v0, p1, Landroidx/core/location/LocationRequestCompat;->mMinUpdateDistanceMeters:F
+    iget v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mMinUpdateDistanceMeters:F
 
-    iput v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateDistanceMeters:F
+    iput v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateDistanceMeters:F
 
     .line 16
-    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;->mMaxUpdateDelayMillis:J
+    iget-wide v0, p1, Landroidx/core/location/LocationRequestCompat;
+    ->mMaxUpdateDelayMillis:J
 
-    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdateDelayMillis:J
+    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdateDelayMillis:J
 
     return-void
 .end method
@@ -129,7 +152,8 @@
     .end annotation
 
     .line 1
-    iget-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mIntervalMillis:J
+    iget-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mIntervalMillis:J
 
     .line 2
     .line 3
@@ -148,7 +172,8 @@
 
     .line 11
     .line 12
-    iget-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateIntervalMillis:J
+    iget-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateIntervalMillis:J
 
     .line 13
     .line 14
@@ -184,7 +209,8 @@
 
     .line 25
     .line 26
-    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;->checkState(ZLjava/lang/String;)V
+    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;
+    ->checkState(ZLjava/lang/String;)V
 
     .line 27
     .line 28
@@ -193,27 +219,33 @@
 
     .line 30
     .line 31
-    iget-wide v3, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mIntervalMillis:J
+    iget-wide v3, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mIntervalMillis:J
 
     .line 32
     .line 33
-    iget v5, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mQuality:I
+    iget v5, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mQuality:I
 
     .line 34
     .line 35
-    iget-wide v6, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mDurationMillis:J
+    iget-wide v6, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mDurationMillis:J
 
     .line 36
     .line 37
-    iget v8, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdates:I
+    iget v8, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdates:I
 
     .line 38
     .line 39
-    iget-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateIntervalMillis:J
+    iget-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateIntervalMillis:J
 
     .line 40
     .line 41
-    invoke-static {v0, v1, v3, v4}, Ljava/lang/Math;->min(JJ)J
+    invoke-static {v0, v1, v3, v4}, Ljava/lang/Math;
+    ->min(JJ)J
 
     .line 42
     .line 43
@@ -221,15 +253,18 @@
     move-result-wide v9
 
     .line 45
-    iget v11, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateDistanceMeters:F
+    iget v11, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateDistanceMeters:F
 
     .line 46
     .line 47
-    iget-wide v12, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdateDelayMillis:J
+    iget-wide v12, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdateDelayMillis:J
 
     .line 48
     .line 49
-    invoke-direct/range {v2 .. v13}, Landroidx/core/location/LocationRequestCompat;-><init>(JIJIJFJ)V
+    invoke-direct/range {v2 .. v13}, Landroidx/core/location/LocationRequestCompat;
+    -><init>(JIJIJFJ)V
 
     .line 50
     .line 51
@@ -247,7 +282,8 @@
 
     .line 2
     .line 3
-    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateIntervalMillis:J
+    iput-wide v0, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateIntervalMillis:J
 
     .line 4
     .line 5
@@ -283,7 +319,8 @@
     move-wide v0, p1
 
     .line 11
-    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;->checkArgumentInRange(JJJLjava/lang/String;)J
+    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;
+    ->checkArgumentInRange(JJJLjava/lang/String;)J
 
     .line 12
     .line 13
@@ -291,7 +328,8 @@
     move-result-wide p1
 
     .line 15
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mDurationMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mDurationMillis:J
 
     .line 16
     .line 17
@@ -327,7 +365,8 @@
     move-wide v0, p1
 
     .line 11
-    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;->checkArgumentInRange(JJJLjava/lang/String;)J
+    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;
+    ->checkArgumentInRange(JJJLjava/lang/String;)J
 
     .line 12
     .line 13
@@ -335,7 +374,8 @@
     move-result-wide p1
 
     .line 15
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mIntervalMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mIntervalMillis:J
 
     .line 16
     .line 17
@@ -353,7 +393,8 @@
     .end annotation
 
     .line 1
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdateDelayMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdateDelayMillis:J
 
     .line 2
     .line 3
@@ -375,7 +416,8 @@
     move-wide v0, p1
 
     .line 13
-    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;->checkArgumentInRange(JJJLjava/lang/String;)J
+    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;
+    ->checkArgumentInRange(JJJLjava/lang/String;)J
 
     .line 14
     .line 15
@@ -383,7 +425,8 @@
     move-result-wide p1
 
     .line 17
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdateDelayMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdateDelayMillis:J
 
     .line 18
     .line 19
@@ -414,7 +457,8 @@
     const/4 v2, 0x1
 
     .line 7
-    invoke-static {p1, v2, v0, v1}, Landroidx/core/util/Preconditions;->checkArgumentInRange(IIILjava/lang/String;)I
+    invoke-static {p1, v2, v0, v1}, Landroidx/core/util/Preconditions;
+    ->checkArgumentInRange(IIILjava/lang/String;)I
 
     .line 8
     .line 9
@@ -422,7 +466,8 @@
     move-result p1
 
     .line 11
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMaxUpdates:I
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMaxUpdates:I
 
     .line 12
     .line 13
@@ -441,7 +486,8 @@
     .end annotation
 
     .line 1
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateDistanceMeters:F
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateDistanceMeters:F
 
     .line 2
     .line 3
@@ -457,7 +503,8 @@
     const/4 v2, 0x0
 
     .line 9
-    invoke-static {p1, v2, v0, v1}, Landroidx/core/util/Preconditions;->checkArgumentInRange(FFFLjava/lang/String;)F
+    invoke-static {p1, v2, v0, v1}, Landroidx/core/util/Preconditions;
+    ->checkArgumentInRange(FFFLjava/lang/String;)F
 
     .line 10
     .line 11
@@ -465,7 +512,8 @@
     move-result p1
 
     .line 13
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateDistanceMeters:F
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateDistanceMeters:F
 
     .line 14
     .line 15
@@ -501,7 +549,8 @@
     move-wide v0, p1
 
     .line 11
-    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;->checkArgumentInRange(JJJLjava/lang/String;)J
+    invoke-static/range {v0 .. v6}, Landroidx/core/util/Preconditions;
+    ->checkArgumentInRange(JJJLjava/lang/String;)J
 
     .line 12
     .line 13
@@ -509,7 +558,8 @@
     move-result-wide p1
 
     .line 15
-    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mMinUpdateIntervalMillis:J
+    iput-wide p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mMinUpdateIntervalMillis:J
 
     .line 16
     .line 17
@@ -568,7 +618,8 @@
 
     .line 19
     :goto_1
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 20
     .line 21
@@ -588,12 +639,14 @@
 
     .line 28
     .line 29
-    invoke-static {v2, v1, v0}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v0}, Landroidx/core/util/Preconditions;
+    ->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     .line 30
     .line 31
     .line 32
-    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;->mQuality:I
+    iput p1, p0, Landroidx/core/location/LocationRequestCompat$Builder;
+    ->mQuality:I
 
     .line 33
     .line 34

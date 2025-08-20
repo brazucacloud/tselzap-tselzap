@@ -33,12 +33,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;-><init>(Lp1/q;)V
+    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;
+    -><init>(Lp1/q;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0, v0}, Landroidx/core/app/c;->i(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
+    invoke-static {p0, v0}, Landroidx/core/app/c;
+    ->i(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
 
     .line 7
     .line 8
@@ -69,12 +71,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeDrawable$1;-><init>(Lp1/q;)V
+    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeDrawable$1;
+    -><init>(Lp1/q;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0, v0}, Landroidx/core/app/c;->j(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v0}, Landroidx/core/app/c;
+    ->j(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
 
     .line 7
     .line 8

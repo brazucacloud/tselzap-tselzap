@@ -18,20 +18,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lg/c;->d:Lg/e;
+    iput-object p1, p0, Lg/c;
+    ->d:Lg/e;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lg/c;->a:Lg/d;
+    iput-object p2, p0, Lg/c;
+    ->a:Lg/d;
 
     .line 7
     .line 8
-    iget-boolean p2, p2, Lg/d;->e:Z
+    iget-boolean p2, p2, Lg/d;
+    ->e:Z
 
     .line 9
     .line 10
@@ -46,7 +50,8 @@
 
     .line 14
     :cond_0
-    iget p1, p1, Lg/e;->h:I
+    iget p1, p1, Lg/e;
+    ->h:I
 
     .line 15
     .line 16
@@ -55,7 +60,8 @@
     .line 17
     .line 18
     :goto_0
-    iput-object p1, p0, Lg/c;->b:[Z
+    iput-object p1, p0, Lg/c;
+    ->b:[Z
 
     .line 19
     .line 20
@@ -68,14 +74,16 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lg/c;->d:Lg/e;
+    iget-object v0, p0, Lg/c;
+    ->d:Lg/e;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {v0, p0, v1}, Lg/e;->a(Lg/e;Lg/c;Z)V
+    invoke-static {v0, p0, v1}, Lg/e;
+    ->a(Lg/e;Lg/c;Z)V
 
     .line 5
     .line 6
@@ -87,7 +95,8 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lg/c;->d:Lg/e;
+    iget-object v0, p0, Lg/c;
+    ->d:Lg/e;
 
     .line 2
     .line 3
@@ -95,11 +104,13 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lg/c;->a:Lg/d;
+    iget-object v1, p0, Lg/c;
+    ->a:Lg/d;
 
     .line 5
     .line 6
-    iget-object v2, v1, Lg/d;->f:Lg/c;
+    iget-object v2, v1, Lg/d;
+    ->f:Lg/c;
 
     .line 7
     .line 8
@@ -107,7 +118,8 @@
 
     .line 9
     .line 10
-    iget-boolean v2, v1, Lg/d;->e:Z
+    iget-boolean v2, v1, Lg/d;
+    ->e:Z
 
     .line 11
     .line 12
@@ -118,7 +130,8 @@
 
     .line 14
     .line 15
-    iget-object v2, p0, Lg/c;->b:[Z
+    iget-object v2, p0, Lg/c;
+    ->b:[Z
 
     .line 16
     .line 17
@@ -141,7 +154,8 @@
     .line 23
     :cond_0
     :goto_0
-    iget-object v1, v1, Lg/d;->d:[Ljava/io/File;
+    iget-object v1, v1, Lg/d;
+    ->d:[Ljava/io/File;
 
     .line 24
     .line 25
@@ -149,15 +163,18 @@
 
     .line 26
     .line 27
-    iget-object v2, p0, Lg/c;->d:Lg/e;
+    iget-object v2, p0, Lg/c;
+    ->d:Lg/e;
 
     .line 28
     .line 29
-    iget-object v2, v2, Lg/e;->b:Ljava/io/File;
+    iget-object v2, v2, Lg/e;
+    ->b:Ljava/io/File;
 
     .line 30
     .line 31
-    invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
+    invoke-virtual {v2}, Ljava/io/File;
+    ->mkdirs()Z
 
     .line 32
     .line 33
@@ -172,7 +189,8 @@
 
     .line 37
     .line 38
-    invoke-direct {v1}, Ljava/lang/IllegalStateException;-><init>()V
+    invoke-direct {v1}, Ljava/lang/IllegalStateException;
+    -><init>()V
 
     .line 39
     .line 40

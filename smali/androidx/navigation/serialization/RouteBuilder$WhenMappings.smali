@@ -22,7 +22,8 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Landroidx/navigation/serialization/RouteBuilder$ParamType;->values()[Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    invoke-static {}, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->values()[Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
     move-result-object v0
 
@@ -31,9 +32,11 @@
     new-array v0, v0, [I
 
     :try_start_0
-    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;->PATH:Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->PATH:Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -45,9 +48,11 @@
 
     :catch_0
     :try_start_1
-    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;->QUERY:Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    sget-object v1, Landroidx/navigation/serialization/RouteBuilder$ParamType;
+    ->QUERY:Landroidx/navigation/serialization/RouteBuilder$ParamType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -58,7 +63,8 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
     :catch_1
-    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$WhenMappings;->$EnumSwitchMapping$0:[I
+    sput-object v0, Landroidx/navigation/serialization/RouteBuilder$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -35,7 +36,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -47,7 +49,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Landroid/content/pm/PackageManager$PackageInfoFlags;->of(J)Landroid/content/pm/PackageManager$PackageInfoFlags;
+    invoke-static {v0, v1}, Landroid/content/pm/PackageManager$PackageInfoFlags;
+    ->of(J)Landroid/content/pm/PackageManager$PackageInfoFlags;
 
     .line 8
     .line 9
@@ -55,7 +58,8 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {p0, p1, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;Landroid/content/pm/PackageManager$PackageInfoFlags;)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p0, p1, v0}, Landroid/content/pm/PackageManager;
+    ->getPackageInfo(Ljava/lang/String;Landroid/content/pm/PackageManager$PackageInfoFlags;)Landroid/content/pm/PackageInfo;
 
     .line 12
     .line 13

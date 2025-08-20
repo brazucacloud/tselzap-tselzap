@@ -32,7 +32,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;-><init>(Z)V
+    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;
+    -><init>(Z)V
 return-void
 .end method
 
@@ -42,7 +43,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->emptyCollection()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->emptyCollection()Ljava/util/List;
 
     move-result-object v0
 
@@ -61,7 +63,8 @@ return-void
     .end annotation
 
     .line 2
-    sget-object v0, Ld1/t;->b:Ld1/t;
+    sget-object v0, Ld1/t;
+    ->b:Ld1/t;
 
     return-object v0
 .end method
@@ -70,7 +73,8 @@ return-void
     .locals 0
 
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -96,7 +100,8 @@ return-void
     const-string v1, "key"
 
     .line 1
-    invoke-static {p1, v0, p2, v1, p2}, Landroidx/constraintlayout/core/parser/a;->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0, p2, v1, p2}, Landroidx/constraintlayout/core/parser/a;
+    ->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -117,7 +122,8 @@ return-void
     :goto_0
     if-eqz p1, :cond_1
 
-    invoke-static {p1}, Ld1/i;->h0([D)Ljava/util/List;
+    invoke-static {p1}, Ld1/i;
+    ->h0([D)Ljava/util/List;
 
     move-result-object p1
 
@@ -138,7 +144,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->parseValue(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->parseValue(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -151,7 +158,8 @@ return-void
     .line 2
     check-cast p2, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->parseValue(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->parseValue(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
@@ -173,20 +181,25 @@ return-void
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    sget-object v0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object v0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
-    invoke-virtual {v0}, Landroidx/navigation/serialization/InternalNavType;->getDoubleType()Landroidx/navigation/NavType;
+    invoke-virtual {v0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getDoubleType()Landroidx/navigation/NavType;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavType;
+    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/bumptech/glide/b;->R(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->R(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -210,27 +223,31 @@ return-void
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p2, :cond_0
 
     .line 4
     check-cast p2, Ljava/util/Collection;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->parseValue(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->parseValue(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
-    invoke-static {p1, p2}, Ld1/k;->z0(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {p1, p2}, Ld1/k;
+    ->z0(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/ArrayList;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->parseValue(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->parseValue(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -243,7 +260,8 @@ return-void
     .line 1
     check-cast p3, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
 return-void
 .end method
 
@@ -262,11 +280,13 @@ return-void
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p3, :cond_0
 
@@ -274,33 +294,38 @@ return-void
     check-cast p3, Ljava/util/Collection;
 
     .line 3
-    invoke-interface {p3}, Ljava/util/Collection;->size()I
+    invoke-interface {p3}, Ljava/util/Collection;
+    ->size()I
 
     move-result v0
 
     new-array v0, v0, [D
 
     .line 4
-    invoke-interface {p3}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p3
 
     const/4 v1, 0x0
 
     :goto_0
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/Number;
 
-    invoke-virtual {v2}, Ljava/lang/Number;->doubleValue()D
+    invoke-virtual {v2}, Ljava/lang/Number;
+    ->doubleValue()D
 
     move-result-wide v2
 
@@ -318,7 +343,8 @@ return-void
 
     .line 6
     :cond_1
-    invoke-virtual {p1, p2, v0}, Landroid/os/BaseBundle;->putDoubleArray(Ljava/lang/String;[D)V
+    invoke-virtual {p1, p2, v0}, Landroid/os/BaseBundle;
+    ->putDoubleArray(Ljava/lang/String;[D)V
     return-void
 .end method
 
@@ -328,7 +354,8 @@ return-void
     .line 1
     check-cast p1, Ljava/util/List;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->serializeAsValues(Ljava/util/List;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->serializeAsValues(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
@@ -359,42 +386,50 @@ return-void
 
     const/16 v1, 0xa
 
-    invoke-static {p1, v1}, Ld1/m;->j0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Ld1/m;
+    ->j0(Ljava/lang/Iterable;I)I
 
     move-result v1
 
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 4
-    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 5
     check-cast v1, Ljava/lang/Number;
 
-    invoke-virtual {v1}, Ljava/lang/Number;->doubleValue()D
+    invoke-virtual {v1}, Ljava/lang/Number;
+    ->doubleValue()D
 
     move-result-wide v1
 
     .line 6
-    invoke-static {v1, v2}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;
+    invoke-static {v1, v2}, Ljava/lang/String;
+    ->valueOf(D)Ljava/lang/String;
 
     move-result-object v1
 
     .line 7
-    invoke-interface {v0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -403,7 +438,8 @@ return-void
 
     .line 8
     :cond_1
-    sget-object p1, Ld1/t;->b:Ld1/t;
+    sget-object p1, Ld1/t;
+    ->b:Ld1/t;
 
     return-object p1
 .end method
@@ -416,7 +452,8 @@ return-void
 
     check-cast p2, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;->valueEquals(Ljava/util/List;Ljava/util/List;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$DoubleListType$1;
+    ->valueEquals(Ljava/util/List;Ljava/util/List;)Z
 
     move-result p1
 
@@ -449,7 +486,8 @@ return-void
     .line 3
     new-array v2, v1, [Ljava/lang/Double;
 
-    invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {p1, v2}, Ljava/util/Collection;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -469,7 +507,8 @@ return-void
     .line 5
     new-array v0, v1, [Ljava/lang/Double;
 
-    invoke-interface {p2, v0}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/Collection;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
 
@@ -479,7 +518,8 @@ return-void
 
     .line 6
     :cond_1
-    invoke-static {p1, v0}, Ld1/i;->V([Ljava/lang/Object;[Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Ld1/i;
+    ->V([Ljava/lang/Object;[Ljava/lang/Object;)Z
 
     move-result p1
 

@@ -12,7 +12,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzmc;->values()[Lcom/google/android/gms/internal/measurement/zzmc;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzmc;
+    ->values()[Lcom/google/android/gms/internal/measurement/zzmc;
 
     .line 2
     .line 3
@@ -27,16 +28,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzlh;->zza:[I
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzlh;
+    ->zza:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzmc;->zzb:Lcom/google/android/gms/internal/measurement/zzmc;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzmc;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzmc;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14

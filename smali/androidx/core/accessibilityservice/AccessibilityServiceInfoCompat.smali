@@ -32,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -124,7 +125,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, LA/d;
+    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
     .line 5
@@ -137,7 +139,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
+    invoke-static {p0}, Ljava/lang/Integer;
+    ->numberOfTrailingZeros(I)I
 
     .line 10
     .line 11
@@ -158,7 +161,8 @@
     and-int/2addr p0, v3
 
     .line 18
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->length()I
 
     .line 19
     .line 20
@@ -174,7 +178,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -222,7 +227,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 49
     .line 50
@@ -235,7 +241,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 55
     .line 56
@@ -248,7 +255,8 @@
 
     .line 59
     .line 60
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62
@@ -261,7 +269,8 @@
 
     .line 65
     .line 66
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 67
     .line 68
@@ -274,7 +283,8 @@
 
     .line 71
     .line 72
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
@@ -287,12 +297,14 @@
 
     .line 77
     .line 78
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 82
     .line 83
@@ -414,7 +426,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityServiceInfo;->getCapabilities()I
+    invoke-virtual {p0}, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    ->getCapabilities()I
 
     .line 2
     .line 3
@@ -438,7 +451,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/accessibilityservice/AccessibilityServiceInfo;->loadDescription(Landroid/content/pm/PackageManager;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/accessibilityservice/AccessibilityServiceInfo;
+    ->loadDescription(Landroid/content/pm/PackageManager;)Ljava/lang/String;
 
     .line 2
     .line 3

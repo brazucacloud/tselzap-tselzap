@@ -22,7 +22,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/transition/Slide$CalculateSlideHorizontal;-><init>(Landroidx/transition/Slide$1;)V
+    invoke-direct {p0, v0}, Landroidx/transition/Slide$CalculateSlideHorizontal;
+    -><init>(Landroidx/transition/Slide$1;)V
 return-void
 .end method
 
@@ -32,7 +33,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutDirection()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutDirection()I
 
     .line 2
     .line 3
@@ -47,7 +49,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p2}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p2}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 9
     .line 10
@@ -55,7 +58,8 @@ return-void
     move-result p2
 
     .line 12
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 13
     .line 14
@@ -72,7 +76,8 @@ return-void
 
     .line 19
     :cond_0
-    invoke-virtual {p2}, Landroid/view/View;->getTranslationX()F
+    invoke-virtual {p2}, Landroid/view/View;
+    ->getTranslationX()F
 
     .line 20
     .line 21
@@ -80,7 +85,8 @@ return-void
     move-result p2
 
     .line 23
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 24
     .line 25

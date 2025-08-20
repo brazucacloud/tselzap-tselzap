@@ -37,12 +37,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Lu0/f;-><init>(I)V
+    invoke-direct {v0, v1}, Lu0/f;
+    -><init>(I)V
 
     .line 6
     .line 7
     .line 8
-    sput-object v0, Lv/a;->f:Lu0/f;
+    sput-object v0, Lv/a;
+    ->f:Lu0/f;
 
     .line 9
     .line 10
@@ -53,12 +55,14 @@
     const/4 v1, 0x1
 
     .line 13
-    invoke-direct {v0, v1}, Lm/c;-><init>(I)V
+    invoke-direct {v0, v1}, Lm/c;
+    -><init>(I)V
 
     .line 14
     .line 15
     .line 16
-    sput-object v0, Lv/a;->g:Lm/c;
+    sput-object v0, Lv/a;
+    ->g:Lm/c;
 
     .line 17
     .line 18
@@ -69,16 +73,19 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lv/a;->f:Lu0/f;
+    sget-object v0, Lv/a;
+    ->f:Lu0/f;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 7
     .line 8
@@ -86,15 +93,18 @@
     move-result-object p1
 
     .line 10
-    iput-object p1, p0, Lv/a;->a:Landroid/content/Context;
+    iput-object p1, p0, Lv/a;
+    ->a:Landroid/content/Context;
 
     .line 11
     .line 12
-    iput-object p2, p0, Lv/a;->b:Ljava/util/ArrayList;
+    iput-object p2, p0, Lv/a;
+    ->b:Ljava/util/ArrayList;
 
     .line 13
     .line 14
-    iput-object v0, p0, Lv/a;->d:Lu0/f;
+    iput-object v0, p0, Lv/a;
+    ->d:Lu0/f;
 
     .line 15
     .line 16
@@ -106,20 +116,24 @@
 
     .line 19
     .line 20
-    invoke-direct {p1, p2, p3, p4}, LA0/c;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, p2, p3, p4}, LA0/c;
+    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Lv/a;->e:LA0/c;
+    iput-object p1, p0, Lv/a;
+    ->e:LA0/c;
 
     .line 24
     .line 25
-    sget-object p1, Lv/a;->g:Lm/c;
+    sget-object p1, Lv/a;
+    ->g:Lm/c;
 
     .line 26
     .line 27
-    iput-object p1, p0, Lv/a;->c:Lm/c;
+    iput-object p1, p0, Lv/a;
+    ->c:Lm/c;
 
     .line 28
     .line 29
@@ -130,21 +144,24 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Lh/b;->g:I
+    iget v0, p0, Lh/b;
+    ->g:I
 
     .line 2
     .line 3
     div-int/2addr v0, p2
 
     .line 4
-    iget v1, p0, Lh/b;->f:I
+    iget v1, p0, Lh/b;
+    ->f:I
 
     .line 5
     .line 6
     div-int/2addr v1, p1
 
     .line 7
-    invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 8
     .line 9
@@ -163,7 +180,8 @@
 
     .line 15
     :cond_0
-    invoke-static {v0}, Ljava/lang/Integer;->highestOneBit(I)I
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->highestOneBit(I)I
 
     .line 16
     .line 17
@@ -175,7 +193,8 @@
     const/4 v1, 0x1
 
     .line 20
-    invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
+    invoke-static {v1, v0}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 21
     .line 22
@@ -190,7 +209,8 @@
     const/4 v3, 0x2
 
     .line 27
-    invoke-static {v2, v3}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v3}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 28
     .line 29
@@ -218,7 +238,8 @@
 
     .line 40
     .line 41
-    invoke-static {v1, v0, v3, p1, v4}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v0, v3, p1, v4}, LA/d;
+    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
@@ -226,7 +247,8 @@
     move-result-object p1
 
     .line 45
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -235,30 +257,36 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    iget p2, p0, Lh/b;->f:I
+    iget p2, p0, Lh/b;
+    ->f:I
 
     .line 54
     .line 55
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    iget p0, p0, Lh/b;->g:I
+    iget p0, p0, Lh/b;
+    ->g:I
 
     .line 62
     .line 63
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
@@ -267,12 +295,14 @@
 
     .line 67
     .line 68
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 69
     .line 70
     .line 71
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 72
     .line 73
@@ -280,7 +310,8 @@
     move-result-object p0
 
     .line 75
-    invoke-static {v2, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p0}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 76
     .line 77
@@ -302,7 +333,8 @@
 
     .line 3
     .line 4
-    iget-object p1, p0, Lv/a;->c:Lm/c;
+    iget-object p1, p0, Lv/a;
+    ->c:Lm/c;
 
     .line 5
     .line 6
@@ -310,11 +342,13 @@
 
     .line 7
     :try_start_0
-    iget-object v0, p1, Lm/c;->a:Ljava/util/ArrayDeque;
+    iget-object v0, p1, Lm/c;
+    ->a:Ljava/util/ArrayDeque;
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Ljava/util/ArrayDeque;->poll()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/ArrayDeque;
+    ->poll()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -337,7 +371,8 @@
 
     .line 18
     .line 19
-    invoke-direct {v0}, Lh/c;-><init>()V
+    invoke-direct {v0}, Lh/c;
+    -><init>()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -369,18 +404,21 @@
 
     .line 29
     :try_start_2
-    iput-object v0, v5, Lh/c;->b:Ljava/nio/ByteBuffer;
+    iput-object v0, v5, Lh/c;
+    ->b:Ljava/nio/ByteBuffer;
 
     .line 30
     .line 31
-    iget-object v0, v5, Lh/c;->a:[B
+    iget-object v0, v5, Lh/c;
+    ->a:[B
 
     .line 32
     .line 33
     const/4 v1, 0x0
 
     .line 34
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([BB)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->fill([BB)V
 
     .line 35
     .line 36
@@ -389,20 +427,24 @@
 
     .line 38
     .line 39
-    invoke-direct {v0}, Lh/b;-><init>()V
+    invoke-direct {v0}, Lh/b;
+    -><init>()V
 
     .line 40
     .line 41
     .line 42
-    iput-object v0, v5, Lh/c;->c:Lh/b;
+    iput-object v0, v5, Lh/c;
+    ->c:Lh/b;
 
     .line 43
     .line 44
-    iput v1, v5, Lh/c;->d:I
+    iput v1, v5, Lh/c;
+    ->d:I
 
     .line 45
     .line 46
-    invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asReadOnlyBuffer()Ljava/nio/ByteBuffer;
+    invoke-virtual {v2}, Ljava/nio/ByteBuffer;
+    ->asReadOnlyBuffer()Ljava/nio/ByteBuffer;
 
     .line 47
     .line 48
@@ -410,24 +452,29 @@
     move-result-object v0
 
     .line 50
-    iput-object v0, v5, Lh/c;->b:Ljava/nio/ByteBuffer;
+    iput-object v0, v5, Lh/c;
+    ->b:Ljava/nio/ByteBuffer;
 
     .line 51
     .line 52
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
+    ->position(I)Ljava/nio/Buffer;
 
     .line 53
     .line 54
     .line 55
-    iget-object v0, v5, Lh/c;->b:Ljava/nio/ByteBuffer;
+    iget-object v0, v5, Lh/c;
+    ->b:Ljava/nio/ByteBuffer;
 
     .line 56
     .line 57
-    sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
+    sget-object v1, Ljava/nio/ByteOrder;
+    ->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     .line 58
     .line 59
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
+    ->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
@@ -450,7 +497,8 @@
 
     .line 67
     :try_start_3
-    invoke-virtual/range {v1 .. v6}, Lv/a;->c(Ljava/nio/ByteBuffer;IILh/c;Li/i;)Lt/a;
+    invoke-virtual/range {v1 .. v6}, Lv/a;
+    ->c(Ljava/nio/ByteBuffer;IILh/c;Li/i;)Lt/a;
 
     .line 68
     .line 69
@@ -460,11 +508,13 @@
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
     .line 71
-    iget-object p2, v1, Lv/a;->c:Lm/c;
+    iget-object p2, v1, Lv/a;
+    ->c:Lm/c;
 
     .line 72
     .line 73
-    invoke-virtual {p2, v5}, Lm/c;->c(Lh/c;)V
+    invoke-virtual {p2, v5}, Lm/c;
+    ->c(Lh/c;)V
 
     .line 74
     .line 75
@@ -479,11 +529,13 @@
     move-object p1, v0
 
     .line 79
-    iget-object p2, v1, Lv/a;->c:Lm/c;
+    iget-object p2, v1, Lv/a;
+    ->c:Lm/c;
 
     .line 80
     .line 81
-    invoke-virtual {p2, v5}, Lm/c;->c(Lh/c;)V
+    invoke-virtual {p2, v5}, Lm/c;
+    ->c(Lh/c;)V
 
     .line 82
     .line 83
@@ -653,11 +705,13 @@
 
     .line 2
     .line 3
-    sget-object v0, Lv/i;->b:Li/h;
+    sget-object v0, Lv/i;
+    ->b:Li/h;
 
     .line 4
     .line 5
-    invoke-virtual {p2, v0}, Li/i;->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Li/i;
+    ->c(Li/h;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -669,7 +723,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p2}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 12
     .line 13
@@ -688,7 +743,8 @@
 
     .line 19
     .line 20
-    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    ->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 21
     .line 22
@@ -696,11 +752,13 @@
 
     .line 23
     :cond_0
-    iget-object p2, p0, Lv/a;->b:Ljava/util/ArrayList;
+    iget-object p2, p0, Lv/a;
+    ->b:Ljava/util/ArrayList;
 
     .line 24
     .line 25
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 26
     .line 27
@@ -716,7 +774,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p2, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -728,7 +787,8 @@
 
     .line 37
     .line 38
-    invoke-interface {v3, p1}, Li/e;->a(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-interface {v3, p1}, Li/e;
+    ->a(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 39
     .line 40
@@ -736,7 +796,8 @@
     move-result-object v3
 
     .line 42
-    sget-object v4, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v4, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    ->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 43
     .line 44
@@ -759,12 +820,14 @@
 
     .line 51
     :cond_2
-    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    ->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 52
     .line 53
     :goto_1
-    sget-object p2, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->GIF:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object p2, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    ->GIF:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 54
     .line 55
@@ -800,11 +863,13 @@
 
     .line 7
     .line 8
-    sget v4, LE/i;->b:I
+    sget v4, LE/i;
+    ->b:I
 
     .line 9
     .line 10
-    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtimeNanos()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->elapsedRealtimeNanos()J
 
     .line 11
     .line 12
@@ -816,7 +881,8 @@
 
     .line 15
     :try_start_0
-    invoke-virtual/range {p4 .. p4}, Lh/c;->b()Lh/b;
+    invoke-virtual/range {p4 .. p4}, Lh/c;
+    ->b()Lh/b;
 
     .line 16
     .line 17
@@ -824,7 +890,8 @@
     move-result-object v7
 
     .line 19
-    iget v8, v7, Lh/b;->c:I
+    iget v8, v7, Lh/b;
+    ->c:I
 
     .line 20
     .line 21
@@ -835,7 +902,8 @@
 
     .line 23
     .line 24
-    iget v8, v7, Lh/b;->b:I
+    iget v8, v7, Lh/b;
+    ->b:I
 
     .line 25
     .line 26
@@ -848,7 +916,8 @@
     .line 29
     .line 30
     :cond_0
-    sget-object v8, Lv/i;->a:Li/h;
+    sget-object v8, Lv/i;
+    ->a:Li/h;
 
     .line 31
     .line 32
@@ -856,7 +925,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v10, v8}, Li/i;->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v10, v8}, Li/i;
+    ->c(Li/h;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -864,7 +934,8 @@
     move-result-object v8
 
     .line 38
-    sget-object v10, Li/b;->c:Li/b;
+    sget-object v10, Li/b;
+    ->c:Li/b;
 
     .line 39
     .line 40
@@ -872,7 +943,8 @@
 
     .line 41
     .line 42
-    sget-object v8, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
+    sget-object v8, Landroid/graphics/Bitmap$Config;
+    ->RGB_565:Landroid/graphics/Bitmap$Config;
 
     .line 43
     .line 44
@@ -897,7 +969,8 @@
     .line 51
     .line 52
     :cond_1
-    sget-object v8, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object v8, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 53
     .line 54
@@ -905,7 +978,8 @@
 
     .line 55
     :goto_1
-    invoke-static {v7, v13, v14}, Lv/a;->d(Lh/b;II)I
+    invoke-static {v7, v13, v14}, Lv/a;
+    ->d(Lh/b;II)I
 
     .line 56
     .line 57
@@ -913,15 +987,18 @@
     move-result v10
 
     .line 59
-    iget-object v11, v1, Lv/a;->d:Lu0/f;
+    iget-object v11, v1, Lv/a;
+    ->d:Lu0/f;
 
     .line 60
     .line 61
-    iget-object v12, v1, Lv/a;->e:LA0/c;
+    iget-object v12, v1, Lv/a;
+    ->e:LA0/c;
 
     .line 62
     .line 63
-    invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v11}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 64
     .line 65
@@ -934,39 +1011,46 @@
 
     .line 69
     .line 70
-    invoke-direct {v11, v12, v7, v15, v10}, Lh/d;-><init>(LA0/c;Lh/b;Ljava/nio/ByteBuffer;I)V
+    invoke-direct {v11, v12, v7, v15, v10}, Lh/d;
+    -><init>(LA0/c;Lh/b;Ljava/nio/ByteBuffer;I)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v11, v8}, Lh/d;->c(Landroid/graphics/Bitmap$Config;)V
+    invoke-virtual {v11, v8}, Lh/d;
+    ->c(Landroid/graphics/Bitmap$Config;)V
 
     .line 74
     .line 75
     .line 76
-    iget v7, v11, Lh/d;->k:I
+    iget v7, v11, Lh/d;
+    ->k:I
 
     .line 77
     .line 78
     add-int/2addr v7, v0
 
     .line 79
-    iget-object v8, v11, Lh/d;->l:Lh/b;
+    iget-object v8, v11, Lh/d;
+    ->l:Lh/b;
 
     .line 80
     .line 81
-    iget v8, v8, Lh/b;->c:I
+    iget v8, v8, Lh/b;
+    ->c:I
 
     .line 82
     .line 83
     rem-int/2addr v7, v8
 
     .line 84
-    iput v7, v11, Lh/d;->k:I
+    iput v7, v11, Lh/d;
+    ->k:I
 
     .line 85
     .line 86
-    invoke-virtual {v11}, Lh/d;->b()Landroid/graphics/Bitmap;
+    invoke-virtual {v11}, Lh/d;
+    ->b()Landroid/graphics/Bitmap;
 
     .line 87
     .line 88
@@ -980,7 +1064,8 @@
 
     .line 91
     .line 92
-    invoke-static {v3, v6}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v3, v6}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 93
     .line 94
@@ -996,13 +1081,15 @@
 
     .line 99
     .line 100
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 101
     .line 102
     .line 103
     :goto_2
-    invoke-static {v4, v5}, LE/i;->a(J)D
+    invoke-static {v4, v5}, LE/i;
+    ->a(J)D
 
     .line 104
     .line 105
@@ -1010,12 +1097,14 @@
     move-result-wide v4
 
     .line 107
-    invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;
+    ->append(D)Ljava/lang/StringBuilder;
 
     .line 108
     .line 109
     .line 110
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 111
     .line 112
@@ -1023,7 +1112,8 @@
     move-result-object v0
 
     .line 114
-    invoke-static {v3, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v0}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 115
     .line 116
@@ -1037,7 +1127,8 @@
 
     .line 119
     .line 120
-    iget-object v8, v1, Lv/a;->a:Landroid/content/Context;
+    iget-object v8, v1, Lv/a;
+    ->a:Landroid/content/Context;
 
     .line 121
     .line 122
@@ -1049,7 +1140,8 @@
 
     .line 125
     .line 126
-    invoke-static {v8}, Lcom/bumptech/glide/a;->b(Landroid/content/Context;)Lcom/bumptech/glide/a;
+    invoke-static {v8}, Lcom/bumptech/glide/a;
+    ->b(Landroid/content/Context;)Lcom/bumptech/glide/a;
 
     .line 127
     .line 128
@@ -1063,17 +1155,20 @@
     move-object v11, v8
 
     .line 132
-    invoke-direct/range {v10 .. v15}, Lv/h;-><init>(Lcom/bumptech/glide/a;Lh/d;IILandroid/graphics/Bitmap;)V
+    invoke-direct/range {v10 .. v15}, Lv/h;
+    -><init>(Lcom/bumptech/glide/a;Lh/d;IILandroid/graphics/Bitmap;)V
 
     .line 133
     .line 134
     .line 135
-    invoke-direct {v9, v10}, Lv/b;-><init>(Lv/h;)V
+    invoke-direct {v9, v10}, Lv/b;
+    -><init>(Lv/h;)V
 
     .line 136
     .line 137
     .line 138
-    invoke-direct {v7, v9}, Lv/c;-><init>(Lv/b;)V
+    invoke-direct {v7, v9}, Lv/c;
+    -><init>(Lv/b;)V
 
     .line 139
     .line 140
@@ -1082,14 +1177,16 @@
 
     .line 142
     .line 143
-    invoke-direct {v8, v7, v0}, Lt/a;-><init>(Landroid/graphics/drawable/Drawable;I)V
+    invoke-direct {v8, v7, v0}, Lt/a;
+    -><init>(Landroid/graphics/drawable/Drawable;I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 144
     .line 145
     .line 146
-    invoke-static {v3, v6}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v3, v6}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 147
     .line 148
@@ -1105,12 +1202,14 @@
 
     .line 153
     .line 154
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 155
     .line 156
     .line 157
-    invoke-static {v4, v5}, LE/i;->a(J)D
+    invoke-static {v4, v5}, LE/i;
+    ->a(J)D
 
     .line 158
     .line 159
@@ -1118,12 +1217,14 @@
     move-result-wide v4
 
     .line 161
-    invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;
+    ->append(D)Ljava/lang/StringBuilder;
 
     .line 162
     .line 163
     .line 164
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 165
     .line 166
@@ -1131,7 +1232,8 @@
     move-result-object v0
 
     .line 168
-    invoke-static {v3, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v0}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 169
     .line 170
@@ -1142,7 +1244,8 @@
     .line 172
     :cond_4
     :goto_3
-    invoke-static {v3, v6}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v3, v6}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 173
     .line 174
@@ -1158,7 +1261,8 @@
 
     .line 179
     .line 180
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 181
     .line 182
@@ -1171,7 +1275,8 @@
 
     .line 185
     :goto_4
-    invoke-static {v3, v6}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v3, v6}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 186
     .line 187
@@ -1187,12 +1292,14 @@
 
     .line 192
     .line 193
-    invoke-direct {v6, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 194
     .line 195
     .line 196
-    invoke-static {v4, v5}, LE/i;->a(J)D
+    invoke-static {v4, v5}, LE/i;
+    ->a(J)D
 
     .line 197
     .line 198
@@ -1200,12 +1307,14 @@
     move-result-wide v4
 
     .line 200
-    invoke-virtual {v6, v4, v5}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v4, v5}, Ljava/lang/StringBuilder;
+    ->append(D)Ljava/lang/StringBuilder;
 
     .line 201
     .line 202
     .line 203
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 204
     .line 205
@@ -1213,7 +1322,8 @@
     move-result-object v2
 
     .line 207
-    invoke-static {v3, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v2}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 208
     .line 209

@@ -35,9 +35,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/window/layout/HardwareFoldingFeature$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/HardwareFoldingFeature$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/window/layout/HardwareFoldingFeature;->Companion:Landroidx/window/layout/HardwareFoldingFeature$Companion;
+    sput-object v0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->Companion:Landroidx/window/layout/HardwareFoldingFeature$Companion;
 
     return-void
 .end method
@@ -50,7 +52,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -59,7 +62,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -68,33 +72,40 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 17
     .line 18
     .line 19
-    iput-object p1, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iput-object p1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 20
     .line 21
-    iput-object p2, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iput-object p2, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 22
     .line 23
-    iput-object p3, p0, Landroidx/window/layout/HardwareFoldingFeature;->state:Landroidx/window/layout/FoldingFeature$State;
+    iput-object p3, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->state:Landroidx/window/layout/FoldingFeature$State;
 
     .line 24
     .line 25
-    sget-object p2, Landroidx/window/layout/HardwareFoldingFeature;->Companion:Landroidx/window/layout/HardwareFoldingFeature$Companion;
+    sget-object p2, Landroidx/window/layout/HardwareFoldingFeature;
+    ->Companion:Landroidx/window/layout/HardwareFoldingFeature$Companion;
 
     .line 26
     .line 27
-    invoke-virtual {p2, p1}, Landroidx/window/layout/HardwareFoldingFeature$Companion;->validateFeatureBounds$window_release(Landroidx/window/core/Bounds;)V
+    invoke-virtual {p2, p1}, Landroidx/window/layout/HardwareFoldingFeature$Companion;
+    ->validateFeatureBounds$window_release(Landroidx/window/core/Bounds;)V
 
     .line 28
     .line 29
@@ -130,7 +141,8 @@
 
     .line 9
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -143,7 +155,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v2, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -170,15 +183,18 @@
 
     .line 26
     .line 27
-    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 28
     .line 29
-    iget-object v3, p1, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v3, p1, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 30
     .line 31
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -194,15 +210,18 @@
 
     .line 38
     :cond_3
-    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 39
     .line 40
-    iget-object v3, p1, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v3, p1, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 41
     .line 42
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -218,7 +237,8 @@
 
     .line 49
     :cond_4
-    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;->getState()Landroidx/window/layout/FoldingFeature$State;
+    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;
+    ->getState()Landroidx/window/layout/FoldingFeature$State;
 
     .line 50
     .line 51
@@ -226,7 +246,8 @@
     move-result-object v1
 
     .line 53
-    invoke-virtual {p1}, Landroidx/window/layout/HardwareFoldingFeature;->getState()Landroidx/window/layout/FoldingFeature$State;
+    invoke-virtual {p1}, Landroidx/window/layout/HardwareFoldingFeature;
+    ->getState()Landroidx/window/layout/FoldingFeature$State;
 
     .line 54
     .line 55
@@ -234,7 +255,8 @@
     move-result-object p1
 
     .line 57
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -262,7 +284,8 @@
 
     .line 68
     .line 69
-    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -286,11 +309,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->toRect()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->toRect()Landroid/graphics/Rect;
 
     .line 4
     .line 5
@@ -304,11 +329,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->getWidth()I
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->getWidth()I
 
     .line 4
     .line 5
@@ -320,11 +347,13 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->getHeight()I
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->getHeight()I
 
     .line 12
     .line 13
@@ -340,7 +369,8 @@
 
     .line 18
     :cond_0
-    sget-object v0, Landroidx/window/layout/FoldingFeature$OcclusionType;->FULL:Landroidx/window/layout/FoldingFeature$OcclusionType;
+    sget-object v0, Landroidx/window/layout/FoldingFeature$OcclusionType;
+    ->FULL:Landroidx/window/layout/FoldingFeature$OcclusionType;
 
     .line 19
     .line 20
@@ -349,7 +379,8 @@
     .line 21
     :cond_1
     :goto_0
-    sget-object v0, Landroidx/window/layout/FoldingFeature$OcclusionType;->NONE:Landroidx/window/layout/FoldingFeature$OcclusionType;
+    sget-object v0, Landroidx/window/layout/FoldingFeature$OcclusionType;
+    ->NONE:Landroidx/window/layout/FoldingFeature$OcclusionType;
 
     .line 22
     .line 23
@@ -360,11 +391,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->getWidth()I
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->getWidth()I
 
     .line 4
     .line 5
@@ -372,11 +405,13 @@
     move-result v0
 
     .line 7
-    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Landroidx/window/core/Bounds;->getHeight()I
+    invoke-virtual {v1}, Landroidx/window/core/Bounds;
+    ->getHeight()I
 
     .line 10
     .line 11
@@ -388,7 +423,8 @@
 
     .line 14
     .line 15
-    sget-object v0, Landroidx/window/layout/FoldingFeature$Orientation;->HORIZONTAL:Landroidx/window/layout/FoldingFeature$Orientation;
+    sget-object v0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->HORIZONTAL:Landroidx/window/layout/FoldingFeature$Orientation;
 
     .line 16
     .line 17
@@ -396,7 +432,8 @@
 
     .line 18
     :cond_0
-    sget-object v0, Landroidx/window/layout/FoldingFeature$Orientation;->VERTICAL:Landroidx/window/layout/FoldingFeature$Orientation;
+    sget-object v0, Landroidx/window/layout/FoldingFeature$Orientation;
+    ->VERTICAL:Landroidx/window/layout/FoldingFeature$Orientation;
 
     .line 19
     .line 20
@@ -407,7 +444,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->state:Landroidx/window/layout/FoldingFeature$State;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->state:Landroidx/window/layout/FoldingFeature$State;
 
     .line 2
     .line 3
@@ -418,7 +456,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 2
     .line 3
@@ -429,11 +468,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->hashCode()I
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -445,11 +486,13 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 10
     .line 11
-    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 12
     .line 13
@@ -464,7 +507,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;->getState()Landroidx/window/layout/FoldingFeature$State;
+    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;
+    ->getState()Landroidx/window/layout/FoldingFeature$State;
 
     .line 19
     .line 20
@@ -472,7 +516,8 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 23
     .line 24
@@ -489,15 +534,18 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/window/layout/HardwareFoldingFeature$Type;->Companion:Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;
+    sget-object v1, Landroidx/window/layout/HardwareFoldingFeature$Type;
+    ->Companion:Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;->getHINGE()Landroidx/window/layout/HardwareFoldingFeature$Type;
+    invoke-virtual {v1}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;
+    ->getHINGE()Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 6
     .line 7
@@ -505,7 +553,8 @@
     move-result-object v2
 
     .line 9
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -524,11 +573,13 @@
 
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;->getFOLD()Landroidx/window/layout/HardwareFoldingFeature$Type;
+    invoke-virtual {v1}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;
+    ->getFOLD()Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 20
     .line 21
@@ -536,7 +587,8 @@
     move-result-object v1
 
     .line 23
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -548,7 +600,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;->getState()Landroidx/window/layout/FoldingFeature$State;
+    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;
+    ->getState()Landroidx/window/layout/FoldingFeature$State;
 
     .line 30
     .line 31
@@ -556,11 +609,13 @@
     move-result-object v0
 
     .line 33
-    sget-object v1, Landroidx/window/layout/FoldingFeature$State;->HALF_OPENED:Landroidx/window/layout/FoldingFeature$State;
+    sget-object v1, Landroidx/window/layout/FoldingFeature$State;
+    ->HALF_OPENED:Landroidx/window/layout/FoldingFeature$State;
 
     .line 34
     .line 35
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -593,16 +648,19 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;->featureBounds:Landroidx/window/core/Bounds;
+    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->featureBounds:Landroidx/window/core/Bounds;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -611,16 +669,19 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
+    iget-object v1, p0, Landroidx/window/layout/HardwareFoldingFeature;
+    ->type:Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -629,12 +690,14 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;->getState()Landroidx/window/layout/FoldingFeature$State;
+    invoke-virtual {p0}, Landroidx/window/layout/HardwareFoldingFeature;
+    ->getState()Landroidx/window/layout/FoldingFeature$State;
 
     .line 29
     .line 30
@@ -642,7 +705,8 @@
     move-result-object v1
 
     .line 32
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -651,12 +715,14 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 41
     .line 42

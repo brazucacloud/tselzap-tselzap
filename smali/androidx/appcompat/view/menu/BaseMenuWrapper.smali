@@ -34,12 +34,15 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mContext:Landroid/content/Context;    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mContext:Landroid/content/Context;    
+    return-void
 .end method
 
 
@@ -60,7 +63,8 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 8
     .line 9
@@ -72,21 +76,25 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iput-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 17
     .line 18
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -106,20 +114,24 @@
 
     .line 29
     .line 30
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mContext:Landroid/content/Context;
 
     .line 31
     .line 32
-    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/menu/MenuItemWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenuItem;)V
+    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/menu/MenuItemWrapperICS;
+    -><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenuItem;)V
 
     .line 33
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 36
     .line 37
-    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -148,7 +160,8 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mSubMenus:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mSubMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 8
     .line 9
@@ -160,21 +173,25 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mSubMenus:Landroidx/collection/SimpleArrayMap;
+    iput-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mSubMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 17
     .line 18
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mSubMenus:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mSubMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -194,20 +211,24 @@
 
     .line 29
     .line 30
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mContext:Landroid/content/Context;
 
     .line 31
     .line 32
-    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/menu/SubMenuWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportSubMenu;)V
+    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/menu/SubMenuWrapperICS;
+    -><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportSubMenu;)V
 
     .line 33
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mSubMenus:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mSubMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 36
     .line 37
-    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -224,7 +245,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
@@ -232,13 +254,15 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->clear()V
 
     .line 6
     .line 7
     .line 8
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mSubMenus:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mSubMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 9
     .line 10
@@ -246,7 +270,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
+    ->clear()V
 
     .line 13
     .line 14
@@ -259,7 +284,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
@@ -275,11 +301,13 @@
 
     .line 7
     :goto_0
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {v1}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     .line 10
     .line 11
@@ -291,11 +319,13 @@
 
     .line 14
     .line 15
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 16
     .line 17
-    invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;->keyAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->keyAt(I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -307,7 +337,8 @@
 
     .line 22
     .line 23
-    invoke-interface {v1}, Landroid/view/MenuItem;->getGroupId()I
+    invoke-interface {v1}, Landroid/view/MenuItem;
+    ->getGroupId()I
 
     .line 24
     .line 25
@@ -319,11 +350,13 @@
 
     .line 28
     .line 29
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 30
     .line 31
-    invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->removeAt(I)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -349,7 +382,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
@@ -365,11 +399,13 @@
 
     .line 7
     :goto_0
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {v1}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     .line 10
     .line 11
@@ -381,11 +417,13 @@
 
     .line 14
     .line 15
-    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 16
     .line 17
-    invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;->keyAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->keyAt(I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -397,7 +435,8 @@
 
     .line 22
     .line 23
-    invoke-interface {v1}, Landroid/view/MenuItem;->getItemId()I
+    invoke-interface {v1}, Landroid/view/MenuItem;
+    ->getItemId()I
 
     .line 24
     .line 25
@@ -409,11 +448,14 @@
 
     .line 28
     .line 29
-    iget-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;->mMenuItems:Landroidx/collection/SimpleArrayMap;
+    iget-object p1, p0, Landroidx/appcompat/view/menu/BaseMenuWrapper;
+    ->mMenuItems:Landroidx/collection/SimpleArrayMap;
 
     .line 30
     .line 31
-    invoke-virtual {p1, v0}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;    return-void
+    invoke-virtual {p1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->removeAt(I)Ljava/lang/Object;    
+    return-void
 
     .line 35
     :cond_1

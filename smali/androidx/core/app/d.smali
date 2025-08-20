@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    iget p0, p0, Landroid/content/res/Configuration;->fontWeightAdjustment:I
+    iget p0, p0, Landroid/content/res/Configuration;
+    ->fontWeightAdjustment:I
 
     return p0
 .end method
@@ -17,7 +18,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ContentInfo;->getFlags()I
+    invoke-virtual {p0}, Landroid/view/ContentInfo;
+    ->getFlags()I
 
     move-result p0
 
@@ -28,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/RoundedCorner;->getRadius()I
+    invoke-virtual {p0}, Landroid/view/RoundedCorner;
+    ->getRadius()I
 
     move-result p0
 
@@ -39,7 +42,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ContentInfo;->getClip()Landroid/content/ClipData;
+    invoke-virtual {p0}, Landroid/view/ContentInfo;
+    ->getClip()Landroid/content/ClipData;
 
     move-result-object p0
 
@@ -59,7 +63,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ContentInfo;->getLinkUri()Landroid/net/Uri;
+    invoke-virtual {p0}, Landroid/view/ContentInfo;
+    ->getLinkUri()Landroid/net/Uri;
 
     move-result-object p0
 
@@ -70,7 +75,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ContentInfo;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/view/ContentInfo;
+    ->getExtras()Landroid/os/Bundle;
 
     move-result-object p0
 
@@ -90,7 +96,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/StrictMode$VmPolicy$Builder;->permitUnsafeIntentLaunch()Landroid/os/StrictMode$VmPolicy$Builder;
+    invoke-virtual {p0}, Landroid/os/StrictMode$VmPolicy$Builder;
+    ->permitUnsafeIntentLaunch()Landroid/os/StrictMode$VmPolicy$Builder;
 
     move-result-object p0
 
@@ -103,7 +110,8 @@
     .line 1
     new-instance v0, Landroid/view/ContentInfo$Builder;
 
-    invoke-direct {v0, p0, p1}, Landroid/view/ContentInfo$Builder;-><init>(Landroid/content/ClipData;I)V
+    invoke-direct {v0, p0, p1}, Landroid/view/ContentInfo$Builder;
+    -><init>(Landroid/content/ClipData;I)V
 return-object v0
 .end method
 
@@ -113,7 +121,8 @@ return-object v0
     .line 1
     new-instance v0, Landroid/view/ContentInfo$Builder;
 
-    invoke-direct {v0, p0}, Landroid/view/ContentInfo$Builder;-><init>(Landroid/view/ContentInfo;)V
+    invoke-direct {v0, p0}, Landroid/view/ContentInfo$Builder;
+    -><init>(Landroid/view/ContentInfo;)V
 return-object v0
 .end method
 
@@ -121,7 +130,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ContentInfo$Builder;->build()Landroid/view/ContentInfo;
+    invoke-virtual {p0}, Landroid/view/ContentInfo$Builder;
+    ->build()Landroid/view/ContentInfo;
 
     move-result-object p0
 
@@ -143,7 +153,8 @@ return-object v0
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Landroid/view/WindowInsets;->getRoundedCorner(I)Landroid/view/RoundedCorner;
+    invoke-virtual {p0, v0}, Landroid/view/WindowInsets;
+    ->getRoundedCorner(I)Landroid/view/RoundedCorner;
 
     move-result-object p0
 
@@ -154,7 +165,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/AttributionSource;->getAttributionTag()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/AttributionSource;
+    ->getAttributionTag()Ljava/lang/String;
 
     move-result-object p0
 
@@ -174,7 +186,8 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setBuilder(Landroid/app/Notification$Builder;)V
+    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;
+    ->setBuilder(Landroid/app/Notification$Builder;)V
 return-void
 .end method
 
@@ -182,7 +195,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setSource(I)Landroid/view/ContentInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;
+    ->setSource(I)Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method
@@ -191,7 +205,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setClip(Landroid/content/ClipData;)Landroid/view/ContentInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;
+    ->setClip(Landroid/content/ClipData;)Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method
@@ -200,7 +215,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setLinkUri(Landroid/net/Uri;)Landroid/view/ContentInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;
+    ->setLinkUri(Landroid/net/Uri;)Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method
@@ -209,7 +225,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setExtras(Landroid/os/Bundle;)Landroid/view/ContentInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;
+    ->setExtras(Landroid/os/Bundle;)Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method
@@ -218,7 +235,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ContentInfo;->getSource()I
+    invoke-virtual {p0}, Landroid/view/ContentInfo;
+    ->getSource()I
 
     move-result p0
 
@@ -231,7 +249,8 @@ return-void
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Landroid/view/WindowInsets;->getRoundedCorner(I)Landroid/view/RoundedCorner;
+    invoke-virtual {p0, v0}, Landroid/view/WindowInsets;
+    ->getRoundedCorner(I)Landroid/view/RoundedCorner;
 
     move-result-object p0
 
@@ -242,7 +261,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setFlags(I)Landroid/view/ContentInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;
+    ->setFlags(I)Landroid/view/ContentInfo$Builder;
 
     return-void
 .end method

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
 
     .line 2
     .line 3
-    invoke-interface {p0}, Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;->onSharedElementsReady()V
+    invoke-interface {p0}, Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;
+    ->onSharedElementsReady()V
 
     .line 4
     .line 5
@@ -55,7 +57,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->requestPermissions([Ljava/lang/String;I)V
+    invoke-virtual {p0, p1, p2}, Landroid/app/Activity;
+    ->requestPermissions([Ljava/lang/String;I)V
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Activity;->shouldShowRequestPermissionRationale(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/app/Activity;
+    ->shouldShowRequestPermissionRationale(Ljava/lang/String;)Z
 
     .line 2
     .line 3

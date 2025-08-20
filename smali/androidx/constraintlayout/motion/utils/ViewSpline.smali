@@ -34,7 +34,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/SplineSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    -><init>()V
     return-void
 .end method
 
@@ -56,14 +57,17 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;-><init>(Ljava/lang/String;Landroid/util/SparseArray;)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    -><init>(Ljava/lang/String;Landroid/util/SparseArray;)V    
+    return-object v0
 .end method
 
 .method public static makeSpline(Ljava/lang/String;)Landroidx/constraintlayout/motion/utils/ViewSpline;
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -71,7 +75,8 @@
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 6
     .line 7
@@ -93,7 +98,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -123,7 +129,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -153,7 +160,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -183,7 +191,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 59
     .line 60
@@ -213,7 +222,8 @@
 
     .line 71
     .line 72
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 73
     .line 74
@@ -243,7 +253,8 @@
 
     .line 85
     .line 86
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 87
     .line 88
@@ -273,7 +284,8 @@
 
     .line 99
     .line 100
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 101
     .line 102
@@ -303,7 +315,8 @@
 
     .line 113
     .line 114
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 115
     .line 116
@@ -333,7 +346,8 @@
 
     .line 127
     .line 128
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 129
     .line 130
@@ -360,7 +374,8 @@
 
     .line 138
     .line 139
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 140
     .line 141
@@ -387,7 +402,8 @@
 
     .line 149
     .line 150
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 151
     .line 152
@@ -414,7 +430,8 @@
 
     .line 160
     .line 161
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 162
     .line 163
@@ -441,7 +458,8 @@
 
     .line 171
     .line 172
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 173
     .line 174
@@ -468,7 +486,8 @@
 
     .line 182
     .line 183
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 184
     .line 185
@@ -495,7 +514,8 @@
 
     .line 193
     .line 194
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 195
     .line 196
@@ -522,7 +542,8 @@
 
     .line 204
     .line 205
-    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 206
     .line 207
@@ -557,7 +578,8 @@
 
     .line 219
     .line 220
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;
+    -><init>()V
     return-object p0
 
     .line 224
@@ -566,7 +588,8 @@
 
     .line 225
     .line 226
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;
+    -><init>()V
     return-object p0
 
     .line 230
@@ -575,7 +598,8 @@
 
     .line 231
     .line 232
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PathRotate;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PathRotate;
+    -><init>()V
     return-object p0
 
     .line 236
@@ -584,7 +608,8 @@
 
     .line 237
     .line 238
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ElevationSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ElevationSet;
+    -><init>()V
     return-object p0
 
     .line 242
@@ -593,7 +618,8 @@
 
     .line 243
     .line 244
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationSet;
+    -><init>()V
     return-object p0
 
     .line 248
@@ -602,7 +628,8 @@
 
     .line 249
     .line 250
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotYset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotYset;
+    -><init>()V
     return-object p0
 
     .line 254
@@ -611,7 +638,8 @@
 
     .line 255
     .line 256
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotXset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotXset;
+    -><init>()V
     return-object p0
 
     .line 260
@@ -620,7 +648,8 @@
 
     .line 261
     .line 262
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;
+    -><init>()V
     return-object p0
 
     .line 266
@@ -629,7 +658,8 @@
 
     .line 267
     .line 268
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleYset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleYset;
+    -><init>()V
     return-object p0
 
     .line 272
@@ -638,7 +668,8 @@
 
     .line 273
     .line 274
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleXset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleXset;
+    -><init>()V
     return-object p0
 
     .line 278
@@ -647,7 +678,8 @@
 
     .line 279
     .line 280
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;
+    -><init>()V
     return-object p0
 
     .line 284
@@ -656,7 +688,8 @@
 
     .line 285
     .line 286
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationZset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationZset;
+    -><init>()V
     return-object p0
 
     .line 290
@@ -665,7 +698,8 @@
 
     .line 291
     .line 292
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationYset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationYset;
+    -><init>()V
     return-object p0
 
     .line 296
@@ -674,7 +708,8 @@
 
     .line 297
     .line 298
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationXset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationXset;
+    -><init>()V
     return-object p0
 
     .line 302
@@ -683,7 +718,8 @@
 
     .line 303
     .line 304
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationYset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationYset;
+    -><init>()V
     return-object p0
 
     .line 308
@@ -692,7 +728,8 @@
 
     .line 309
     .line 310
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationXset;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationXset;
+    -><init>()V
     return-object p0
 
     .line 314
@@ -803,7 +840,8 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 
 # virtual methods

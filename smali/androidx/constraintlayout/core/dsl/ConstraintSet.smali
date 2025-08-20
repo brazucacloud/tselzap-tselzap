@@ -32,7 +32,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,12 +42,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mConstraints:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mConstraints:Ljava/util/ArrayList;
 
     .line 10
     .line 11
@@ -54,16 +57,20 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mHelpers:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mHelpers:Ljava/util/ArrayList;
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mName:Ljava/lang/String;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mName:Ljava/lang/String;    
+    return-void
 .end method
 
 
@@ -72,9 +79,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mConstraints:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mConstraints:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -82,9 +91,11 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mHelpers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mHelpers:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -101,12 +112,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v2, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mName:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mName:Ljava/lang/String;
 
     .line 9
     .line 10
@@ -114,7 +127,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-static {v1, v2, v3}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -122,16 +136,19 @@ return-void
     move-result-object v1
 
     .line 16
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mConstraints:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mConstraints:Ljava/util/ArrayList;
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 22
     .line 23
@@ -143,11 +160,13 @@ return-void
 
     .line 26
     .line 27
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mConstraints:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mConstraints:Ljava/util/ArrayList;
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 30
     .line 31
@@ -156,7 +175,8 @@ return-void
 
     .line 33
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 34
     .line 35
@@ -168,7 +188,8 @@ return-void
 
     .line 38
     .line 39
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -180,7 +201,8 @@ return-void
 
     .line 44
     .line 45
-    invoke-virtual {v2}, Landroidx/constraintlayout/core/dsl/Constraint;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/constraintlayout/core/dsl/Constraint;
+    ->toString()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -188,7 +210,8 @@ return-void
     move-result-object v2
 
     .line 49
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 50
     .line 51
@@ -197,11 +220,13 @@ return-void
 
     .line 53
     :cond_0
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mHelpers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mHelpers:Ljava/util/ArrayList;
 
     .line 54
     .line 55
-    invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 56
     .line 57
@@ -213,11 +238,13 @@ return-void
 
     .line 60
     .line 61
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mHelpers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;
+    ->mHelpers:Ljava/util/ArrayList;
 
     .line 62
     .line 63
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 64
     .line 65
@@ -226,7 +253,8 @@ return-void
 
     .line 67
     :goto_1
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 68
     .line 69
@@ -238,7 +266,8 @@ return-void
 
     .line 72
     .line 73
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -250,7 +279,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v2}, Landroidx/constraintlayout/core/dsl/Helper;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/constraintlayout/core/dsl/Helper;
+    ->toString()Ljava/lang/String;
 
     .line 80
     .line 81
@@ -258,7 +288,8 @@ return-void
     move-result-object v2
 
     .line 83
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
@@ -271,12 +302,14 @@ return-void
 
     .line 88
     .line 89
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 90
     .line 91
     .line 92
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 93
     .line 94

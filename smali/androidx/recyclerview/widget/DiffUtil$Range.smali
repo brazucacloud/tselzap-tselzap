@@ -29,7 +29,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -37,19 +38,24 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput p1, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->oldListStart:I
+    iput p1, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->oldListStart:I
 
     .line 4
-    iput p2, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->oldListEnd:I
+    iput p2, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->oldListEnd:I
 
     .line 5
-    iput p3, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->newListStart:I
+    iput p3, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->newListStart:I
 
     .line 6
-    iput p4, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->newListEnd:I
+    iput p4, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->newListEnd:I
 
     return-void
 .end method
@@ -60,11 +66,13 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->newListEnd:I
+    iget v0, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->newListEnd:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->newListStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->newListStart:I
 
     .line 4
     .line 5
@@ -77,11 +85,13 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->oldListEnd:I
+    iget v0, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->oldListEnd:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$Range;->oldListStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$Range;
+    ->oldListStart:I
 
     .line 4
     .line 5

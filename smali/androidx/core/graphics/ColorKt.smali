@@ -17,7 +17,8 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, LS1/b;->z(J)F
+    invoke-static {p0, p1}, LS1/b;
+    ->z(J)F
 
     move-result p0
 
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, LS1/b;->A(Landroid/graphics/Color;)F
+    invoke-static {p0}, LS1/b;
+    ->A(Landroid/graphics/Color;)F
 
     move-result p0
 
@@ -72,7 +74,8 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->C(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->C(J)F
 
     move-result p0
 
@@ -92,7 +95,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, LS1/b;->b(Landroid/graphics/Color;)F
+    invoke-static {p0}, LS1/b;
+    ->b(Landroid/graphics/Color;)F
 
     move-result p0
 
@@ -127,7 +131,8 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, LS1/b;->C(J)F
+    invoke-static {p0, p1}, LS1/b;
+    ->C(J)F
 
     move-result p0
 
@@ -147,7 +152,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, LS1/b;->D(Landroid/graphics/Color;)F
+    invoke-static {p0}, LS1/b;
+    ->D(Landroid/graphics/Color;)F
 
     move-result p0
 
@@ -182,7 +188,8 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, LS1/b;->a(J)F
+    invoke-static {p0, p1}, LS1/b;
+    ->a(J)F
 
     move-result p0
 
@@ -202,7 +209,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, Landroidx/core/graphics/a;->b(Landroid/graphics/Color;)F
+    invoke-static {p0}, Landroidx/core/graphics/a;
+    ->b(Landroid/graphics/Color;)F
 
     move-result p0
 
@@ -239,11 +247,13 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/graphics/a;->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p1}, Landroidx/core/graphics/a;
+    ->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->f(ILandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->f(ILandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -267,7 +277,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->f(ILandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->f(ILandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -287,11 +298,13 @@
     .end annotation
 
     .line 3
-    invoke-static {p2}, Landroidx/core/graphics/a;->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p2}, Landroidx/core/graphics/a;
+    ->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p2
 
-    invoke-static {p0, p1, p2}, LS1/b;->f(JLandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1, p2}, LS1/b;
+    ->f(JLandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -311,7 +324,8 @@
     .end annotation
 
     .line 4
-    invoke-static {p0, p1, p2}, LS1/b;->f(JLandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1, p2}, LS1/b;
+    ->f(JLandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -331,11 +345,13 @@
     .end annotation
 
     .line 5
-    invoke-static {p1}, Landroidx/core/graphics/a;->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p1}, Landroidx/core/graphics/a;
+    ->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, LS1/b;->n(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
+    invoke-static {p0, p1}, LS1/b;
+    ->n(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -355,7 +371,8 @@
     .end annotation
 
     .line 6
-    invoke-static {p0, p1}, LS1/b;->n(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
+    invoke-static {p0, p1}, LS1/b;
+    ->n(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -375,7 +392,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, LS1/b;->a(J)F
+    invoke-static {p0, p1}, LS1/b;
+    ->a(J)F
 
     move-result p0
 
@@ -410,7 +428,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, LS1/b;->C(J)F
+    invoke-static {p0, p1}, LS1/b;
+    ->C(J)F
 
     move-result p0
 
@@ -443,7 +462,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->i(J)Landroid/graphics/ColorSpace;
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->i(J)Landroid/graphics/ColorSpace;
 
     .line 2
     .line 3
@@ -466,7 +486,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->C(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->C(J)F
 
     move-result p0
 
@@ -505,7 +526,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/c;->a(I)F
+    invoke-static {p0}, Landroidx/appcompat/app/c;
+    ->a(I)F
 
     move-result p0
 
@@ -525,7 +547,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->a(J)F
 
     move-result p0
 
@@ -545,7 +568,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, LS1/b;->z(J)F
+    invoke-static {p0, p1}, LS1/b;
+    ->z(J)F
 
     move-result p0
 
@@ -580,7 +604,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, LS1/b;->w(J)Z
+    invoke-static {p0, p1}, LS1/b;
+    ->w(J)Z
 
     .line 2
     .line 3
@@ -603,7 +628,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->A(J)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->A(J)Z
 
     .line 2
     .line 3
@@ -626,7 +652,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p0}, Landroidx/core/graphics/ColorUtils;->compositeColors(Landroid/graphics/Color;Landroid/graphics/Color;)Landroid/graphics/Color;
+    invoke-static {p1, p0}, Landroidx/core/graphics/ColorUtils;
+    ->compositeColors(Landroid/graphics/Color;Landroid/graphics/Color;)Landroid/graphics/Color;
 
     .line 2
     .line 3
@@ -653,7 +680,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/a;->g(I)Landroid/graphics/Color;
+    invoke-static {p0}, Landroidx/core/graphics/a;
+    ->g(I)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -673,7 +701,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/graphics/a;->h(J)Landroid/graphics/Color;
+    invoke-static {p0, p1}, Landroidx/core/graphics/a;
+    ->h(J)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -696,7 +725,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, LS1/b;->c(J)I
+    invoke-static {p0, p1}, LS1/b;
+    ->c(J)I
 
     move-result p0
 
@@ -709,7 +739,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    invoke-static {p0}, Landroid/graphics/Color;
+    ->parseColor(Ljava/lang/String;)I
 
     move-result p0
 
@@ -733,7 +764,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, LS1/b;->e(I)J
+    invoke-static {p0}, LS1/b;
+    ->e(I)J
 
     .line 2
     .line 3

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/graphics/TypefaceCompatBaseImpl;->findBestEntry(Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;IZ)Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
+    value = Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    ->findBestEntry(Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;IZ)Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +36,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;->this$0:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    iput-object p1, p0, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;
+    ->this$0:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -53,7 +56,8 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;->getWeight()I
+    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
+    ->getWeight()I
 
     move-result p1
 
@@ -66,7 +70,8 @@
     .line 1
     check-cast p1, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
 
-    invoke-virtual {p0, p1}, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;->getWeight(Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;)I
+    invoke-virtual {p0, p1}, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;
+    ->getWeight(Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;)I
 
     move-result p1
 
@@ -77,7 +82,8 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;->isItalic()Z
+    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
+    ->isItalic()Z
 
     move-result p1
 
@@ -90,7 +96,8 @@
     .line 1
     check-cast p1, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
 
-    invoke-virtual {p0, p1}, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;->isItalic(Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;)Z
+    invoke-virtual {p0, p1}, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;
+    ->isItalic(Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;)Z
 
     move-result p1
 

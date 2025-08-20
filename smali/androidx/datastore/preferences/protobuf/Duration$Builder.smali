@@ -32,11 +32,13 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Duration;->access$000()Landroidx/datastore/preferences/protobuf/Duration;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->access$000()Landroidx/datastore/preferences/protobuf/Duration;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    -><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
     return-void
 .end method
 
@@ -44,7 +46,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Duration$Builder;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Duration$Builder;
+    -><init>()V
     return-void
 .end method
 
@@ -54,12 +57,14 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -67,7 +72,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Duration;->access$400(Landroidx/datastore/preferences/protobuf/Duration;)V
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->access$400(Landroidx/datastore/preferences/protobuf/Duration;)V
 return-object p0
 .end method
 
@@ -75,12 +81,14 @@ return-object p0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -88,7 +96,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Duration;->access$200(Landroidx/datastore/preferences/protobuf/Duration;)V
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->access$200(Landroidx/datastore/preferences/protobuf/Duration;)V
 return-object p0
 .end method
 
@@ -96,7 +105,8 @@ return-object p0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 2
     .line 3
@@ -104,7 +114,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Duration;->getNanos()I
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->getNanos()I
 
     .line 6
     .line 7
@@ -118,7 +129,8 @@ return-object p0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 2
     .line 3
@@ -126,7 +138,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Duration;->getSeconds()J
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->getSeconds()J
 
     .line 6
     .line 7
@@ -140,12 +153,14 @@ return-object p0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -153,7 +168,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Duration;->access$300(Landroidx/datastore/preferences/protobuf/Duration;I)V
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->access$300(Landroidx/datastore/preferences/protobuf/Duration;I)V
 return-object p0
 .end method
 
@@ -161,12 +177,14 @@ return-object p0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -174,7 +192,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Duration;->access$100(Landroidx/datastore/preferences/protobuf/Duration;J)V
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Duration;
+    ->access$100(Landroidx/datastore/preferences/protobuf/Duration;J)V
 return-object p0
 .end method
 

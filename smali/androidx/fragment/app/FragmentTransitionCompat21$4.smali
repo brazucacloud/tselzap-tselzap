@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentTransitionCompat21;->setListenerForTransitionEnd(Landroidx/fragment/app/Fragment;Ljava/lang/Object;Landroidx/core/os/CancellationSignal;Ljava/lang/Runnable;)V
+    value = Landroidx/fragment/app/FragmentTransitionCompat21;
+    ->setListenerForTransitionEnd(Landroidx/fragment/app/Fragment;Ljava/lang/Object;Landroidx/core/os/CancellationSignal;Ljava/lang/Runnable;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,15 +34,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$4;->this$0:Landroidx/fragment/app/FragmentTransitionCompat21;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$4;
+    ->this$0:Landroidx/fragment/app/FragmentTransitionCompat21;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/FragmentTransitionCompat21$4;->val$transitionCompleteRunnable:Ljava/lang/Runnable;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentTransitionCompat21$4;
+    ->val$transitionCompleteRunnable:Ljava/lang/Runnable;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -57,11 +61,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$4;->val$transitionCompleteRunnable:Ljava/lang/Runnable;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$4;
+    ->val$transitionCompleteRunnable:Ljava/lang/Runnable;
 
     .line 2
     .line 3
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+    invoke-interface {p1}, Ljava/lang/Runnable;
+    ->run()V
 return-void
 .end method
 

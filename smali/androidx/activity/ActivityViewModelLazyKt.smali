@@ -26,11 +26,13 @@
     .line 1
     new-instance p1, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;
 
-    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 2
     :cond_0
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -60,11 +62,13 @@
     .line 3
     new-instance p1, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;
 
-    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 4
     :cond_0
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p0, 0x0
 
@@ -88,11 +92,13 @@
     .line 1
     new-instance p1, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;
 
-    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$1;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 2
     :cond_1
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     throw p3
 .end method
@@ -114,11 +120,13 @@
     .line 3
     new-instance p1, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;
 
-    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$factoryPromise$2;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 4
     :cond_1
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     throw p3
 .end method

@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$2;->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
+    iput-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$2;
+    ->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;
+    -><init>()V
     return-void
 .end method
 
@@ -37,22 +39,26 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$2;->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
+    iget-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$2;
+    ->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    iput-object v0, p1, Landroidx/appcompat/app/WindowDecorActionBar;->mCurrentShowAnim:Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;
+    iput-object v0, p1, Landroidx/appcompat/app/WindowDecorActionBar;
+    ->mCurrentShowAnim:Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;
 
     .line 5
     .line 6
-    iget-object p1, p1, Landroidx/appcompat/app/WindowDecorActionBar;->mContainerView:Landroidx/appcompat/widget/ActionBarContainer;
+    iget-object p1, p1, Landroidx/appcompat/app/WindowDecorActionBar;
+    ->mContainerView:Landroidx/appcompat/widget/ActionBarContainer;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
+    invoke-virtual {p1}, Landroid/view/View;
+    ->requestLayout()V
     return-void
 .end method
 

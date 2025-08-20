@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroid/view/inputmethod/InputConnection;->commitContent(Landroid/view/inputmethod/InputContentInfo;ILandroid/os/Bundle;)Z
+    invoke-interface {p0, p1, p2, p3}, Landroid/view/inputmethod/InputConnection;
+    ->commitContent(Landroid/view/inputmethod/InputContentInfo;ILandroid/os/Bundle;)Z
 
     .line 2
     .line 3

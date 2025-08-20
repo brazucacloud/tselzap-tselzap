@@ -18,7 +18,8 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableIntLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableIntLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -28,16 +29,19 @@ return-void
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, v0}, Landroidx/collection/IntLongMap;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/collection/IntLongMap;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     if-ltz p1, :cond_0
 
     .line 4
-    invoke-static {p1}, Landroidx/collection/ScatterMapKt;->unloadedCapacity(I)I
+    invoke-static {p1}, Landroidx/collection/ScatterMapKt;
+    ->unloadedCapacity(I)I
 
     move-result p1
 
-    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;->initializeStorage(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->initializeStorage(I)V
 return-void
 
     .line 5
@@ -46,7 +50,8 @@ return-void
 
     const-string v0, "Capacity must be a positive value."
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -62,7 +67,8 @@ return-void
 
     .line 2
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    -><init>(I)V
 return-void
 .end method
 
@@ -70,7 +76,8 @@ return-void
     .locals 7
 
     .line 1
-    iget v0, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v0, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 2
     .line 3
@@ -82,7 +89,8 @@ return-void
 
     .line 6
     .line 7
-    iget v1, p0, Landroidx/collection/IntLongMap;->_size:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 8
     .line 9
@@ -118,7 +126,8 @@ return-void
     xor-long/2addr v3, v5
 
     .line 23
-    invoke-static {v1, v2, v3, v4}, Ljava/lang/Long;->compare(JJ)I
+    invoke-static {v1, v2, v3, v4}, Ljava/lang/Long;
+    ->compare(JJ)I
 
     .line 24
     .line 25
@@ -130,16 +139,19 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/collection/MutableIntLongMap;->removeDeletedMarkers()V
+    invoke-direct {p0}, Landroidx/collection/MutableIntLongMap;
+    ->removeDeletedMarkers()V
     return-void
 
     .line 33
     :cond_0
-    iget v0, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v0, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 34
     .line 35
-    invoke-static {v0}, Landroidx/collection/ScatterMapKt;->nextCapacity(I)I
+    invoke-static {v0}, Landroidx/collection/ScatterMapKt;
+    ->nextCapacity(I)I
 
     .line 36
     .line 37
@@ -147,7 +159,8 @@ return-void
     move-result v0
 
     .line 39
-    invoke-direct {p0, v0}, Landroidx/collection/MutableIntLongMap;->resizeStorage(I)V
+    invoke-direct {p0, v0}, Landroidx/collection/MutableIntLongMap;
+    ->resizeStorage(I)V
 return-void
 .end method
 
@@ -155,7 +168,8 @@ return-void
     .locals 9
 
     .line 1
-    iget v0, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v0, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 2
     .line 3
@@ -166,7 +180,8 @@ return-void
 
     .line 5
     :goto_0
-    iget-object v2, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v2, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 6
     .line 7
@@ -258,7 +273,8 @@ return-void
 
     .line 46
     .line 47
-    invoke-static {v2, v3}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v2, v3}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 48
     .line 49
@@ -327,7 +343,8 @@ return-void
 
     .line 16
     .line 17
-    iget v4, v0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v4, v0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 18
     .line 19
@@ -339,7 +356,8 @@ return-void
 
     .line 22
     :goto_0
-    iget-object v8, v0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v8, v0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 23
     .line 24
@@ -454,7 +472,8 @@ return-void
 
     .line 75
     .line 76
-    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 77
     .line 78
@@ -474,7 +493,8 @@ return-void
 
     .line 85
     .line 86
-    iget-object v12, v0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v12, v0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 87
     .line 88
@@ -525,7 +545,8 @@ return-void
 
     .line 108
     .line 109
-    invoke-direct {v0, v3}, Landroidx/collection/MutableIntLongMap;->findFirstAvailableSlot(I)I
+    invoke-direct {v0, v3}, Landroidx/collection/MutableIntLongMap;
+    ->findFirstAvailableSlot(I)I
 
     .line 110
     .line 111
@@ -533,7 +554,8 @@ return-void
     move-result v1
 
     .line 113
-    iget v2, v0, Landroidx/collection/MutableIntLongMap;->growthLimit:I
+    iget v2, v0, Landroidx/collection/MutableIntLongMap;
+    ->growthLimit:I
 
     .line 114
     .line 115
@@ -545,7 +567,8 @@ return-void
 
     .line 118
     .line 119
-    iget-object v2, v0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v2, v0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 120
     .line 121
@@ -587,12 +610,14 @@ return-void
 
     .line 138
     :cond_2
-    invoke-direct {v0}, Landroidx/collection/MutableIntLongMap;->adjustStorage()V
+    invoke-direct {v0}, Landroidx/collection/MutableIntLongMap;
+    ->adjustStorage()V
 
     .line 139
     .line 140
     .line 141
-    invoke-direct {v0, v3}, Landroidx/collection/MutableIntLongMap;->findFirstAvailableSlot(I)I
+    invoke-direct {v0, v3}, Landroidx/collection/MutableIntLongMap;
+    ->findFirstAvailableSlot(I)I
 
     .line 142
     .line 143
@@ -602,22 +627,26 @@ return-void
     .line 145
     :cond_3
     :goto_2
-    iget v2, v0, Landroidx/collection/IntLongMap;->_size:I
+    iget v2, v0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 146
     .line 147
     add-int/2addr v2, v13
 
     .line 148
-    iput v2, v0, Landroidx/collection/IntLongMap;->_size:I
+    iput v2, v0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 149
     .line 150
-    iget v2, v0, Landroidx/collection/MutableIntLongMap;->growthLimit:I
+    iget v2, v0, Landroidx/collection/MutableIntLongMap;
+    ->growthLimit:I
 
     .line 151
     .line 152
-    iget-object v3, v0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v3, v0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 153
     .line 154
@@ -673,7 +702,8 @@ return-void
 
     .line 177
     .line 178
-    iput v2, v0, Landroidx/collection/MutableIntLongMap;->growthLimit:I
+    iput v2, v0, Landroidx/collection/MutableIntLongMap;
+    ->growthLimit:I
 
     .line 179
     .line 180
@@ -698,7 +728,8 @@ return-void
 
     .line 188
     .line 189
-    iget v2, v0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v2, v0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 190
     .line 191
@@ -774,7 +805,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/IntLongMap;->getCapacity()I
+    invoke-virtual {p0}, Landroidx/collection/IntLongMap;
+    ->getCapacity()I
 
     .line 2
     .line 3
@@ -782,7 +814,8 @@ return-void
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/collection/ScatterMapKt;->loadedCapacity(I)I
+    invoke-static {v0}, Landroidx/collection/ScatterMapKt;
+    ->loadedCapacity(I)I
 
     .line 6
     .line 7
@@ -790,14 +823,17 @@ return-void
     move-result v0
 
     .line 9
-    iget v1, p0, Landroidx/collection/IntLongMap;->_size:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 10
     .line 11
     sub-int/2addr v0, v1
 
     .line 12
-    iput v0, p0, Landroidx/collection/MutableIntLongMap;->growthLimit:I    return-void
+    iput v0, p0, Landroidx/collection/MutableIntLongMap;
+    ->growthLimit:I    
+    return-void
 .end method
 
 .method private final initializeMetadata(I)V
@@ -808,7 +844,8 @@ return-void
 
     .line 2
     .line 3
-    sget-object v0, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
+    sget-object v0, Landroidx/collection/ScatterMapKt;
+    ->EmptyGroup:[J
 
     .line 4
     .line 5
@@ -832,13 +869,15 @@ return-void
 
     .line 13
     .line 14
-    invoke-static {v0}, Ld1/i;->e0([J)V
+    invoke-static {v0}, Ld1/i;
+    ->e0([J)V
 
     .line 15
     .line 16
     .line 17
     :goto_0
-    iput-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iput-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 18
     .line 19
@@ -878,7 +917,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableIntLongMap;->initializeGrowth()V
+    invoke-direct {p0}, Landroidx/collection/MutableIntLongMap;
+    ->initializeGrowth()V
     return-void
 .end method
 
@@ -893,7 +933,8 @@ return-void
     const/4 v0, 0x7
 
     .line 4
-    invoke-static {p1}, Landroidx/collection/ScatterMapKt;->normalizeCapacity(I)I
+    invoke-static {p1}, Landroidx/collection/ScatterMapKt;
+    ->normalizeCapacity(I)I
 
     .line 5
     .line 6
@@ -901,7 +942,8 @@ return-void
     move-result p1
 
     .line 8
-    invoke-static {v0, p1}, Ljava/lang/Math;->max(II)I
+    invoke-static {v0, p1}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 9
     .line 10
@@ -917,11 +959,13 @@ return-void
 
     .line 14
     :goto_0
-    iput p1, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iput p1, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 15
     .line 16
-    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;->initializeMetadata(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->initializeMetadata(I)V
 
     .line 17
     .line 18
@@ -930,7 +974,8 @@ return-void
 
     .line 20
     .line 21
-    iput-object v0, p0, Landroidx/collection/IntLongMap;->keys:[I
+    iput-object v0, p0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 22
     .line 23
@@ -938,18 +983,22 @@ return-void
 
     .line 24
     .line 25
-    iput-object p1, p0, Landroidx/collection/IntLongMap;->values:[J    return-void
+    iput-object p1, p0, Landroidx/collection/IntLongMap;
+    ->values:[J    
+    return-void
 .end method
 
 .method private final removeDeletedMarkers()V
     .locals 14
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 4
     .line 5
@@ -1002,7 +1051,8 @@ return-void
 
     .line 26
     .line 27
-    iget-object v5, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v5, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 28
     .line 29
@@ -1035,7 +1085,8 @@ return-void
 
     .line 41
     .line 42
-    iget v4, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v4, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 43
     .line 44
@@ -1103,14 +1154,17 @@ return-void
 
     .line 72
     :cond_1
-    iget v0, p0, Landroidx/collection/MutableIntLongMap;->growthLimit:I
+    iget v0, p0, Landroidx/collection/MutableIntLongMap;
+    ->growthLimit:I
 
     .line 73
     .line 74
     add-int/2addr v0, v3
 
     .line 75
-    iput v0, p0, Landroidx/collection/MutableIntLongMap;->growthLimit:I    return-void
+    iput v0, p0, Landroidx/collection/MutableIntLongMap;
+    ->growthLimit:I    
+    return-void
 .end method
 
 .method private final resizeStorage(I)V
@@ -1121,32 +1175,39 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v1, v0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 4
     .line 5
-    iget-object v2, v0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v2, v0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 6
     .line 7
-    iget-object v3, v0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object v3, v0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     .line 8
     .line 9
-    iget v4, v0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v4, v0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 10
     .line 11
-    invoke-direct/range {p0 .. p1}, Landroidx/collection/MutableIntLongMap;->initializeStorage(I)V
+    invoke-direct/range {p0 .. p1}, Landroidx/collection/MutableIntLongMap;
+    ->initializeStorage(I)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v5, v0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v5, v0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 15
     .line 16
-    iget-object v6, v0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object v6, v0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     .line 17
     .line 18
@@ -1220,7 +1281,8 @@ return-void
 
     .line 50
     .line 51
-    invoke-direct {v0, v12}, Landroidx/collection/MutableIntLongMap;->findFirstAvailableSlot(I)I
+    invoke-direct {v0, v12}, Landroidx/collection/MutableIntLongMap;
+    ->findFirstAvailableSlot(I)I
 
     .line 52
     .line 53
@@ -1235,7 +1297,8 @@ return-void
     int-to-long v13, v9
 
     .line 58
-    iget-object v9, v0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v9, v0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 59
     .line 60
@@ -1282,7 +1345,8 @@ return-void
 
     .line 80
     .line 81
-    iget v10, v0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v10, v0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 82
     .line 83
@@ -1384,7 +1448,8 @@ return-void
     .locals 9
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 2
     .line 3
@@ -1429,7 +1494,8 @@ return-void
 
     .line 21
     .line 22
-    iget v1, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 23
     .line 24
@@ -1492,15 +1558,18 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/collection/IntLongMap;->_size:I
+    iput v0, p0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 5
     .line 6
-    sget-object v1, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
+    sget-object v1, Landroidx/collection/ScatterMapKt;
+    ->EmptyGroup:[J
 
     .line 7
     .line 8
@@ -1508,16 +1577,19 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {v0}, Ld1/i;->e0([J)V
+    invoke-static {v0}, Ld1/i;
+    ->e0([J)V
 
     .line 11
     .line 12
     .line 13
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 14
     .line 15
-    iget v1, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 16
     .line 17
@@ -1558,7 +1630,8 @@ return-void
     .line 32
     .line 33
     :cond_0
-    invoke-direct {p0}, Landroidx/collection/MutableIntLongMap;->initializeGrowth()V
+    invoke-direct {p0}, Landroidx/collection/MutableIntLongMap;
+    ->initializeGrowth()V
     return-void
 .end method
 
@@ -1577,12 +1650,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/IntLongMap;->findKeyIndex(I)I
+    invoke-virtual {p0, p1}, Landroidx/collection/IntLongMap;
+    ->findKeyIndex(I)I
 
     .line 7
     .line 8
@@ -1594,7 +1669,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-interface {p2}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1606,7 +1682,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p2}, Ljava/lang/Number;->longValue()J
+    invoke-virtual {p2}, Ljava/lang/Number;
+    ->longValue()J
 
     .line 19
     .line 20
@@ -1614,12 +1691,14 @@ return-void
     move-result-wide v0
 
     .line 22
-    invoke-virtual {p0, p1, v0, v1}, Landroidx/collection/MutableIntLongMap;->put(IJ)V
+    invoke-virtual {p0, p1, v0, v1}, Landroidx/collection/MutableIntLongMap;
+    ->put(IJ)V
     return-wide v0
 
     .line 26
     :cond_0
-    iget-object p1, p0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object p1, p0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     .line 27
     .line 28
@@ -1630,7 +1709,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;->remove(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->remove(I)V
 return-void
 .end method
 
@@ -1639,13 +1719,16 @@ return-void
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
-    iget-object v0, p1, Landroidx/collection/IntList;->content:[I
+    iget-object v0, p1, Landroidx/collection/IntList;
+    ->content:[I
 
     .line 11
-    iget p1, p1, Landroidx/collection/IntList;->_size:I
+    iget p1, p1, Landroidx/collection/IntList;
+    ->_size:I
 
     const/4 v1, 0x0
 
@@ -1656,7 +1739,8 @@ return-void
     aget v2, v0, v1
 
     .line 13
-    invoke-virtual {p0, v2}, Landroidx/collection/MutableIntLongMap;->remove(I)V
+    invoke-virtual {p0, v2}, Landroidx/collection/MutableIntLongMap;
+    ->remove(I)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1671,13 +1755,16 @@ return-void
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    iget-object v0, p1, Landroidx/collection/IntSet;->elements:[I
+    iget-object v0, p1, Landroidx/collection/IntSet;
+    ->elements:[I
 
     .line 5
-    iget-object p1, p1, Landroidx/collection/IntSet;->metadata:[J
+    iget-object p1, p1, Landroidx/collection/IntSet;
+    ->metadata:[J
 
     .line 6
     array-length v1, p1
@@ -1743,7 +1830,8 @@ return-void
     aget v9, v0, v9
 
     .line 9
-    invoke-virtual {p0, v9}, Landroidx/collection/MutableIntLongMap;->remove(I)V
+    invoke-virtual {p0, v9}, Landroidx/collection/MutableIntLongMap;
+    ->remove(I)V
 
     :cond_0
     shr-long/2addr v4, v7
@@ -1771,7 +1859,8 @@ return-void
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     array-length v0, p1
@@ -1784,7 +1873,8 @@ return-void
     aget v2, p1, v1
 
     .line 3
-    invoke-virtual {p0, v2}, Landroidx/collection/MutableIntLongMap;->remove(I)V
+    invoke-virtual {p0, v2}, Landroidx/collection/MutableIntLongMap;
+    ->remove(I)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1802,12 +1892,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;->putAll(Landroidx/collection/IntLongMap;)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->putAll(Landroidx/collection/IntLongMap;)V
 return-void
 .end method
 
@@ -1815,7 +1907,8 @@ return-void
     .locals 3
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;->findInsertIndex(I)I
+    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->findInsertIndex(I)I
 
     move-result v0
 
@@ -1827,7 +1920,8 @@ return-void
 
     .line 3
     :cond_0
-    iget-object p4, p0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object p4, p0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     aget-wide v1, p4, v0
 
@@ -1835,12 +1929,14 @@ return-void
 
     .line 4
     :goto_0
-    iget-object v1, p0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v1, p0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     aput p1, v1, v0
 
     .line 5
-    iget-object p1, p0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object p1, p0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     aput-wide p2, p1, v0
 
@@ -1851,7 +1947,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/collection/MutableIntLongMap;->set(IJ)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/collection/MutableIntLongMap;
+    ->set(IJ)V
 return-void
 .end method
 
@@ -1867,20 +1964,24 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, v0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v1, v0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object v2, v0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     .line 11
     .line 12
-    iget-object v0, v0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, v0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 13
     .line 14
@@ -2001,7 +2102,8 @@ return-void
 
     .line 66
     .line 67
-    invoke-virtual {v11, v12, v13, v14}, Landroidx/collection/MutableIntLongMap;->set(IJ)V
+    invoke-virtual {v11, v12, v13, v14}, Landroidx/collection/MutableIntLongMap;
+    ->set(IJ)V
 
     .line 68
     .line 69
@@ -2067,14 +2169,16 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/IntLongMap;->findKeyIndex(I)I
+    invoke-virtual {p0, p1}, Landroidx/collection/IntLongMap;
+    ->findKeyIndex(I)I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;->removeValueAt(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->removeValueAt(I)V
 
     :cond_0
     return-void
@@ -2084,14 +2188,16 @@ return-void
     .locals 3
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/collection/IntLongMap;->findKeyIndex(I)I
+    invoke-virtual {p0, p1}, Landroidx/collection/IntLongMap;
+    ->findKeyIndex(I)I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
     .line 4
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     aget-wide v1, v0, p1
 
@@ -2100,7 +2206,8 @@ return-void
     if-nez v0, :cond_0
 
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;->removeValueAt(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->removeValueAt(I)V
 
     const/4 p1, 0x1
 
@@ -2127,12 +2234,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 7
     .line 8
@@ -2241,7 +2350,8 @@ return-void
     add-int/2addr v9, v8
 
     .line 55
-    iget-object v10, p0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v10, p0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 56
     .line 57
@@ -2249,7 +2359,8 @@ return-void
 
     .line 58
     .line 59
-    invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v10}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 60
     .line 61
@@ -2257,7 +2368,8 @@ return-void
     move-result-object v10
 
     .line 63
-    iget-object v11, p0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object v11, p0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     .line 64
     .line 65
@@ -2265,7 +2377,8 @@ return-void
 
     .line 66
     .line 67
-    invoke-static {v12, v13}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v12, v13}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 68
     .line 69
@@ -2273,7 +2386,8 @@ return-void
     move-result-object v11
 
     .line 71
-    invoke-interface {p1, v10, v11}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v10, v11}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -2285,7 +2399,8 @@ return-void
 
     .line 76
     .line 77
-    invoke-virtual {v10}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v10}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 78
     .line 79
@@ -2297,7 +2412,8 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {p0, v9}, Landroidx/collection/MutableIntLongMap;->removeValueAt(I)V
+    invoke-virtual {p0, v9}, Landroidx/collection/MutableIntLongMap;
+    ->removeValueAt(I)V
 
     .line 84
     .line 85
@@ -2338,7 +2454,8 @@ return-void
     .locals 11
 
     .line 1
-    iget v0, p0, Landroidx/collection/IntLongMap;->_size:I
+    iget v0, p0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 2
     .line 3
@@ -2346,11 +2463,13 @@ return-void
 
     .line 4
     .line 5
-    iput v0, p0, Landroidx/collection/IntLongMap;->_size:I
+    iput v0, p0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/collection/IntLongMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/IntLongMap;
+    ->metadata:[J
 
     .line 8
     .line 9
@@ -2399,7 +2518,8 @@ return-void
 
     .line 29
     .line 30
-    iget v1, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 31
     .line 32
@@ -2457,7 +2577,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;->findInsertIndex(I)I
+    invoke-direct {p0, p1}, Landroidx/collection/MutableIntLongMap;
+    ->findInsertIndex(I)I
 
     .line 2
     .line 3
@@ -2473,7 +2594,8 @@ return-void
 
     .line 8
     :cond_0
-    iget-object v1, p0, Landroidx/collection/IntLongMap;->keys:[I
+    iget-object v1, p0, Landroidx/collection/IntLongMap;
+    ->keys:[I
 
     .line 9
     .line 10
@@ -2481,7 +2603,8 @@ return-void
 
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/collection/IntLongMap;->values:[J
+    iget-object p1, p0, Landroidx/collection/IntLongMap;
+    ->values:[J
 
     .line 13
     .line 14
@@ -2492,15 +2615,18 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v0, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/IntLongMap;->_size:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_size:I
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/collection/ScatterMapKt;->unloadedCapacity(I)I
+    invoke-static {v1}, Landroidx/collection/ScatterMapKt;
+    ->unloadedCapacity(I)I
 
     .line 6
     .line 7
@@ -2508,7 +2634,8 @@ return-void
     move-result v1
 
     .line 9
-    invoke-static {v1}, Landroidx/collection/ScatterMapKt;->normalizeCapacity(I)I
+    invoke-static {v1}, Landroidx/collection/ScatterMapKt;
+    ->normalizeCapacity(I)I
 
     .line 10
     .line 11
@@ -2520,12 +2647,14 @@ return-void
 
     .line 14
     .line 15
-    invoke-direct {p0, v1}, Landroidx/collection/MutableIntLongMap;->resizeStorage(I)V
+    invoke-direct {p0, v1}, Landroidx/collection/MutableIntLongMap;
+    ->resizeStorage(I)V
 
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Landroidx/collection/IntLongMap;->_capacity:I
+    iget v1, p0, Landroidx/collection/IntLongMap;
+    ->_capacity:I
 
     .line 19
     .line 20

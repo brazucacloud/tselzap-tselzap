@@ -22,7 +22,9 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;-><init>(Ljava/lang/String;ILandroidx/datastore/preferences/protobuf/WireFormat$1;)V    return-void
+    invoke-direct {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;
+    -><init>(Ljava/lang/String;ILandroidx/datastore/preferences/protobuf/WireFormat$1;)V    
+    return-void
 .end method
 
 
@@ -31,7 +33,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readString()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    ->readString()Ljava/lang/String;
 
     .line 2
     .line 3

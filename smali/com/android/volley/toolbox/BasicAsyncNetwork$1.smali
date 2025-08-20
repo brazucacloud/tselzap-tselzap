@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/toolbox/BasicAsyncNetwork;->performRequest(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
+    value = Lcom/android/volley/toolbox/BasicAsyncNetwork;
+    ->performRequest(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,23 +33,28 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->this$0:Lcom/android/volley/toolbox/BasicAsyncNetwork;
+    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->this$0:Lcom/android/volley/toolbox/BasicAsyncNetwork;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$request:Lcom/android/volley/Request;
+    iput-object p2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$request:Lcom/android/volley/Request;
 
     .line 4
     .line 5
-    iput-wide p3, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$requestStartMs:J
+    iput-wide p3, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$requestStartMs:J
 
     .line 6
     .line 7
-    iput-object p5, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
+    iput-object p5, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 10
     .line 11
@@ -62,11 +68,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
+    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;->onError(Lcom/android/volley/VolleyError;)V
+    invoke-interface {v0, p1}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;
+    ->onError(Lcom/android/volley/VolleyError;)V
 
     .line 4
     .line 5
@@ -78,19 +86,23 @@
     .locals 8
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->this$0:Lcom/android/volley/toolbox/BasicAsyncNetwork;
+    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->this$0:Lcom/android/volley/toolbox/BasicAsyncNetwork;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$request:Lcom/android/volley/Request;
+    iget-object v1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$request:Lcom/android/volley/Request;
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
+    iget-object v2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
 
     .line 6
     .line 7
-    iget-wide v4, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$requestStartMs:J
+    iget-wide v4, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$requestStartMs:J
 
     .line 8
     .line 9
@@ -103,7 +115,8 @@
     move-object v3, p1
 
     .line 12
-    invoke-static/range {v0 .. v7}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->access$100(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)V
+    invoke-static/range {v0 .. v7}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
+    ->access$100(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)V
 
     .line 13
     .line 14
@@ -115,26 +128,31 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->this$0:Lcom/android/volley/toolbox/BasicAsyncNetwork;
+    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->this$0:Lcom/android/volley/toolbox/BasicAsyncNetwork;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$request:Lcom/android/volley/Request;
+    iget-object v1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$request:Lcom/android/volley/Request;
 
     .line 4
     .line 5
-    iget-wide v2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$requestStartMs:J
+    iget-wide v2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$requestStartMs:J
 
     .line 6
     .line 7
-    iget-object v5, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
+    iget-object v5, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
+    ->val$callback:Lcom/android/volley/AsyncNetwork$OnRequestComplete;
 
     .line 8
     .line 9
     move-object v4, p1
 
     .line 10
-    invoke-static/range {v0 .. v5}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->access$000(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;JLcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
+    invoke-static/range {v0 .. v5}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
+    ->access$000(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;JLcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
 
     .line 11
     .line 12

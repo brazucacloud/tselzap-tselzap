@@ -12,9 +12,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Ln0/d;->a:I
+    iput p2, p0, Ln0/d;
+    ->a:I
 
-    invoke-direct {p0, p3, p1}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p3, p1}, Landroid/util/Property;
+    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -24,7 +26,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Ln0/d;->a:I
+    iget v0, p0, Ln0/d;
+    ->a:I
 
     .line 2
     .line 3
@@ -37,7 +40,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingEnd()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingEnd()I
 
     .line 9
     .line 10
@@ -48,7 +52,8 @@ return-void
     int-to-float p1, p1
 
     .line 13
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 14
     .line 15
@@ -63,7 +68,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingStart()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingStart()I
 
     .line 21
     .line 22
@@ -74,7 +80,8 @@ return-void
     int-to-float p1, p1
 
     .line 25
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 26
     .line 27
@@ -89,7 +96,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 33
     .line 34
@@ -97,14 +105,16 @@ return-void
     move-result-object p1
 
     .line 36
-    iget p1, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
+    iget p1, p1, Landroid/view/ViewGroup$LayoutParams;
+    ->height:I
 
     .line 37
     .line 38
     int-to-float p1, p1
 
     .line 39
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 40
     .line 41
@@ -119,7 +129,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 47
     .line 48
@@ -127,14 +138,16 @@ return-void
     move-result-object p1
 
     .line 50
-    iget p1, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
+    iget p1, p1, Landroid/view/ViewGroup$LayoutParams;
+    ->width:I
 
     .line 51
     .line 52
     int-to-float p1, p1
 
     .line 53
-    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 54
     .line 55
@@ -184,7 +197,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Ln0/d;->a:I
+    iget v0, p0, Ln0/d;
+    ->a:I
 
     .line 2
     .line 3
@@ -201,7 +215,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingStart()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingStart()I
 
     .line 11
     .line 12
@@ -209,7 +224,8 @@ return-void
     move-result v0
 
     .line 14
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 15
     .line 16
@@ -217,7 +233,8 @@ return-void
     move-result v1
 
     .line 18
-    invoke-virtual {p2}, Ljava/lang/Float;->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Float;
+    ->intValue()I
 
     .line 19
     .line 20
@@ -225,7 +242,8 @@ return-void
     move-result p2
 
     .line 22
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 23
     .line 24
@@ -233,7 +251,8 @@ return-void
     move-result v2
 
     .line 26
-    invoke-virtual {p1, v0, v1, p2, v2}, Landroid/view/View;->setPaddingRelative(IIII)V
+    invoke-virtual {p1, v0, v1, p2, v2}, Landroid/view/View;
+    ->setPaddingRelative(IIII)V
 
     .line 27
     .line 28
@@ -250,7 +269,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {p2}, Ljava/lang/Float;->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Float;
+    ->intValue()I
 
     .line 35
     .line 36
@@ -258,7 +278,8 @@ return-void
     move-result p2
 
     .line 38
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingTop()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingTop()I
 
     .line 39
     .line 40
@@ -266,7 +287,8 @@ return-void
     move-result v0
 
     .line 42
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingEnd()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingEnd()I
 
     .line 43
     .line 44
@@ -274,7 +296,8 @@ return-void
     move-result v1
 
     .line 46
-    invoke-virtual {p1}, Landroid/view/View;->getPaddingBottom()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getPaddingBottom()I
 
     .line 47
     .line 48
@@ -282,7 +305,8 @@ return-void
     move-result v2
 
     .line 50
-    invoke-virtual {p1, p2, v0, v1, v2}, Landroid/view/View;->setPaddingRelative(IIII)V
+    invoke-virtual {p1, p2, v0, v1, v2}, Landroid/view/View;
+    ->setPaddingRelative(IIII)V
 
     .line 51
     .line 52
@@ -299,7 +323,8 @@ return-void
 
     .line 57
     .line 58
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 59
     .line 60
@@ -307,7 +332,8 @@ return-void
     move-result-object v0
 
     .line 62
-    invoke-virtual {p2}, Ljava/lang/Float;->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Float;
+    ->intValue()I
 
     .line 63
     .line 64
@@ -315,11 +341,13 @@ return-void
     move-result p2
 
     .line 66
-    iput p2, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
+    iput p2, v0, Landroid/view/ViewGroup$LayoutParams;
+    ->height:I
 
     .line 67
     .line 68
-    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
+    invoke-virtual {p1}, Landroid/view/View;
+    ->requestLayout()V
 
     .line 69
     .line 70
@@ -336,7 +364,8 @@ return-void
 
     .line 75
     .line 76
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 77
     .line 78
@@ -344,7 +373,8 @@ return-void
     move-result-object v0
 
     .line 80
-    invoke-virtual {p2}, Ljava/lang/Float;->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Float;
+    ->intValue()I
 
     .line 81
     .line 82
@@ -352,11 +382,13 @@ return-void
     move-result p2
 
     .line 84
-    iput p2, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
+    iput p2, v0, Landroid/view/ViewGroup$LayoutParams;
+    ->width:I
 
     .line 85
     .line 86
-    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
+    invoke-virtual {p1}, Landroid/view/View;
+    ->requestLayout()V
 
     .line 87
     .line 88

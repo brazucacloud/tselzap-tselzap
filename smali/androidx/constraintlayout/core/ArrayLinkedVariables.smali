@@ -43,7 +43,8 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 6
     .line 7
@@ -59,14 +61,16 @@
 
     .line 8
     .line 9
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 10
     .line 11
     const/4 v2, 0x0
 
     .line 12
-    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
+    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
 
     .line 13
     .line 14
@@ -74,7 +78,8 @@
 
     .line 15
     .line 16
-    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 17
     .line 18
@@ -82,7 +87,8 @@
 
     .line 19
     .line 20
-    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 21
     .line 22
@@ -90,30 +96,37 @@
 
     .line 23
     .line 24
-    iput-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iput-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 25
     .line 26
     const/4 v1, -0x1
 
     .line 27
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 28
     .line 29
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 30
     .line 31
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 32
     .line 33
-    iput-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iput-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 34
     .line 35
-    iput-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCache:Landroidx/constraintlayout/core/Cache;    
+    return-void
 .end method
 
 
@@ -122,7 +135,8 @@
     .locals 8
 
     .line 1
-    sget v0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->sEpsilon:F
+    sget v0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->sEpsilon:F
 
     .line 2
     .line 3
@@ -150,7 +164,8 @@
     .line 13
     .line 14
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 15
     .line 16
@@ -167,11 +182,13 @@
 
     .line 20
     .line 21
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 22
     .line 23
-    iget-object p3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object p3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 24
     .line 25
@@ -179,11 +196,13 @@
 
     .line 26
     .line 27
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 28
     .line 29
-    iget p3, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget p3, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 30
     .line 31
@@ -191,7 +210,8 @@
 
     .line 32
     .line 33
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 34
     .line 35
@@ -199,38 +219,45 @@
 
     .line 36
     .line 37
-    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 38
     .line 39
     add-int/2addr p2, v3
 
     .line 40
-    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 41
     .line 42
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 43
     .line 44
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;
+    ->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 45
     .line 46
     .line 47
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 48
     .line 49
     add-int/2addr p1, v3
 
     .line 50
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 51
     .line 52
-    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 53
     .line 54
@@ -238,18 +265,21 @@
 
     .line 55
     .line 56
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 57
     .line 58
     add-int/2addr p1, v3
 
     .line 59
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 60
     .line 61
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 62
     .line 63
@@ -260,7 +290,8 @@
 
     .line 65
     .line 66
-    iput-boolean v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 67
     .line 68
@@ -270,7 +301,9 @@
     sub-int/2addr p1, v3
 
     .line 70
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I    
+    return-void
 
     .line 73
     :cond_1
@@ -285,7 +318,8 @@
 
     .line 76
     .line 77
-    iget v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 78
     .line 79
@@ -293,7 +327,8 @@
 
     .line 80
     .line 81
-    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 82
     .line 83
@@ -301,7 +336,8 @@
 
     .line 84
     .line 85
-    iget v7, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v7, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 86
     .line 87
@@ -309,7 +345,8 @@
 
     .line 88
     .line 89
-    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 90
     .line 91
@@ -320,7 +357,8 @@
     add-float/2addr v2, p2
 
     .line 94
-    sget p2, Landroidx/constraintlayout/core/ArrayLinkedVariables;->sEpsilon:F
+    sget p2, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->sEpsilon:F
 
     .line 95
     .line 96
@@ -362,7 +400,8 @@
 
     .line 112
     .line 113
-    iget p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 114
     .line 115
@@ -370,7 +409,8 @@
 
     .line 116
     .line 117
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 118
     .line 119
@@ -378,7 +418,8 @@
 
     .line 120
     .line 121
-    iput p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 122
     .line 123
@@ -386,7 +427,8 @@
 
     .line 124
     :cond_3
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 125
     .line 126
@@ -403,17 +445,20 @@
 
     .line 131
     .line 132
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 133
     .line 134
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;->removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;
+    ->removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 135
     .line 136
     .line 137
     :cond_4
-    iget-boolean p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 138
     .line 139
@@ -421,30 +466,36 @@
 
     .line 140
     .line 141
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 142
     .line 143
     :cond_5
-    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 144
     .line 145
     sub-int/2addr p2, v3
 
     .line 146
-    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 147
     .line 148
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 149
     .line 150
     sub-int/2addr p1, v3
 
     .line 151
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I    
+    return-void
 
     .line 154
     :cond_6
@@ -456,7 +507,8 @@
 
     .line 157
     :cond_7
-    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 158
     .line 159
@@ -472,7 +524,8 @@
 
     .line 164
     :cond_8
-    iget p3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 165
     .line 166
@@ -480,7 +533,8 @@
 
     .line 167
     .line 168
-    iget-boolean v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 169
     .line 170
@@ -488,7 +542,8 @@
 
     .line 171
     .line 172
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 173
     .line 174
@@ -515,7 +570,8 @@
 
     .line 182
     :goto_2
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 183
     .line 184
@@ -526,7 +582,8 @@
 
     .line 186
     .line 187
-    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 188
     .line 189
@@ -541,7 +598,8 @@
 
     .line 193
     :goto_3
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 194
     .line 195
@@ -576,7 +634,8 @@
     .line 207
     :cond_c
     :goto_4
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 208
     .line 209
@@ -590,7 +649,8 @@
     array-length p3, v0
 
     .line 213
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 214
     .line 215
@@ -598,11 +658,13 @@
 
     .line 216
     .line 217
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 218
     .line 219
-    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 220
     .line 221
@@ -610,15 +672,18 @@
 
     .line 222
     .line 223
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 224
     .line 225
-    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 226
     .line 227
-    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([FI)[F
+    invoke-static {v1, v0}, Ljava/util/Arrays;
+    ->copyOf([FI)[F
 
     .line 228
     .line 229
@@ -626,19 +691,23 @@
     move-result-object v0
 
     .line 231
-    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 232
     .line 233
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 234
     .line 235
-    iget v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iget v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 236
     .line 237
-    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([II)[I
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->copyOf([II)[I
 
     .line 238
     .line 239
@@ -646,19 +715,23 @@
     move-result-object v0
 
     .line 241
-    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 242
     .line 243
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 244
     .line 245
-    iget v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iget v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 246
     .line 247
-    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([II)[I
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->copyOf([II)[I
 
     .line 248
     .line 249
@@ -666,16 +739,19 @@
     move-result-object v0
 
     .line 251
-    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 252
     .line 253
     :cond_d
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 254
     .line 255
-    iget v1, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v1, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 256
     .line 257
@@ -683,7 +759,8 @@
 
     .line 258
     .line 259
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 260
     .line 261
@@ -695,7 +772,8 @@
 
     .line 264
     .line 265
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 266
     .line 267
@@ -715,11 +793,13 @@
 
     .line 274
     :cond_e
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 275
     .line 276
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 277
     .line 278
@@ -727,43 +807,51 @@
 
     .line 279
     .line 280
-    iput p3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput p3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 281
     .line 282
     :goto_5
-    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 283
     .line 284
     add-int/2addr p2, v3
 
     .line 285
-    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 286
     .line 287
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 288
     .line 289
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;
+    ->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 290
     .line 291
     .line 292
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 293
     .line 294
     add-int/2addr p1, v3
 
     .line 295
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 296
     .line 297
-    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 298
     .line 299
@@ -771,23 +859,27 @@
 
     .line 300
     .line 301
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 302
     .line 303
     add-int/2addr p1, v3
 
     .line 304
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 305
     .line 306
     :cond_f
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 307
     .line 308
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 309
     .line 310
@@ -798,7 +890,8 @@
 
     .line 312
     .line 313
-    iput-boolean v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 314
     .line 315
@@ -808,7 +901,8 @@
     sub-int/2addr p1, v3
 
     .line 317
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 318
     .line 319
@@ -821,7 +915,8 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -839,7 +934,8 @@
 
     .line 7
     .line 8
-    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 9
     .line 10
@@ -847,15 +943,18 @@
 
     .line 11
     .line 12
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCache:Landroidx/constraintlayout/core/Cache;
 
     .line 13
     .line 14
-    iget-object v3, v3, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v3, v3, Landroidx/constraintlayout/core/Cache;
+    ->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
 
     .line 15
     .line 16
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 17
     .line 18
@@ -871,17 +970,20 @@
 
     .line 23
     .line 24
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 25
     .line 26
-    invoke-virtual {v3, v4}, Landroidx/constraintlayout/core/SolverVariable;->removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {v3, v4}, Landroidx/constraintlayout/core/SolverVariable;
+    ->removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 27
     .line 28
     .line 29
     :cond_0
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 30
     .line 31
@@ -897,26 +999,32 @@
 
     .line 36
     :cond_1
-    iput v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 37
     .line 38
-    iput v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 39
     .line 40
-    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 41
     .line 42
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I    return-void
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I    
+    return-void
 .end method
 
 .method public contains(Landroidx/constraintlayout/core/SolverVariable;)Z
     .locals 6
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -938,7 +1046,8 @@
 
     .line 10
     .line 11
-    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 12
     .line 13
@@ -946,7 +1055,8 @@
 
     .line 14
     .line 15
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 16
     .line 17
@@ -954,7 +1064,8 @@
 
     .line 18
     .line 19
-    iget v5, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v5, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 20
     .line 21
@@ -968,7 +1079,8 @@
 
     .line 25
     :cond_1
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 26
     .line 27
@@ -991,11 +1103,13 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 2
     .line 3
-    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v1, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 4
     .line 5
@@ -1003,7 +1117,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v1, v2}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Ljava/io/PrintStream;
+    ->print(Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -1016,7 +1131,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->getVariable(I)Landroidx/constraintlayout/core/SolverVariable;
+    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->getVariable(I)Landroidx/constraintlayout/core/SolverVariable;
 
     .line 14
     .line 15
@@ -1032,7 +1148,8 @@
 
     .line 20
     :cond_0
-    sget-object v3, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v3, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 21
     .line 22
@@ -1040,12 +1157,14 @@
 
     .line 23
     .line 24
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -1054,12 +1173,14 @@
 
     .line 31
     .line 32
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->getVariableValue(I)F
+    invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->getVariableValue(I)F
 
     .line 36
     .line 37
@@ -1067,7 +1188,8 @@
     move-result v2
 
     .line 39
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -1076,12 +1198,14 @@
 
     .line 43
     .line 44
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 48
     .line 49
@@ -1089,7 +1213,8 @@
     move-result-object v2
 
     .line 51
-    invoke-virtual {v3, v2}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Ljava/io/PrintStream;
+    ->print(Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -1103,7 +1228,8 @@
 
     .line 57
     :cond_1
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 58
     .line 59
@@ -1111,7 +1237,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -1119,7 +1246,8 @@ return-void
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1134,7 +1262,8 @@ return-void
 
     .line 6
     .line 7
-    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 8
     .line 9
@@ -1142,7 +1271,8 @@ return-void
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 12
     .line 13
@@ -1157,7 +1287,8 @@ return-void
 
     .line 17
     .line 18
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 19
     .line 20
@@ -1180,7 +1311,8 @@ return-void
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1195,7 +1327,8 @@ return-void
 
     .line 6
     .line 7
-    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 8
     .line 9
@@ -1203,7 +1336,8 @@ return-void
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 12
     .line 13
@@ -1211,7 +1345,8 @@ return-void
 
     .line 14
     .line 15
-    iget v3, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v3, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 16
     .line 17
@@ -1219,7 +1354,8 @@ return-void
 
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 20
     .line 21
@@ -1227,7 +1363,8 @@ return-void
 
     .line 24
     :cond_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 25
     .line 26
@@ -1252,21 +1389,24 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I    return v0
 .end method
 
 .method public getHead()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I    return v0
 .end method
 
 .method public final getId(I)I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 2
     .line 3
@@ -1277,7 +1417,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 2
     .line 3
@@ -1288,7 +1429,8 @@ return-void
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
 
     .line 2
     .line 3
@@ -1296,7 +1438,8 @@ return-void
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 6
     .line 7
@@ -1314,7 +1457,8 @@ return-void
 
     .line 11
     .line 12
-    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 13
     .line 14
@@ -1322,7 +1466,8 @@ return-void
 
     .line 15
     .line 16
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 17
     .line 18
@@ -1341,15 +1486,18 @@ return-void
 
     .line 24
     .line 25
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCache:Landroidx/constraintlayout/core/Cache;
 
     .line 26
     .line 27
-    iget-object v3, v3, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v3, v3, Landroidx/constraintlayout/core/Cache;
+    ->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
 
     .line 28
     .line 29
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 30
     .line 31
@@ -1365,11 +1513,13 @@ return-void
 
     .line 36
     .line 37
-    iget v4, v2, Landroidx/constraintlayout/core/SolverVariable;->strength:I
+    iget v4, v2, Landroidx/constraintlayout/core/SolverVariable;
+    ->strength:I
 
     .line 38
     .line 39
-    iget v5, v3, Landroidx/constraintlayout/core/SolverVariable;->strength:I
+    iget v5, v3, Landroidx/constraintlayout/core/SolverVariable;
+    ->strength:I
 
     .line 40
     .line 41
@@ -1382,7 +1532,8 @@ return-void
 
     .line 44
     :cond_1
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 45
     .line 46
@@ -1409,7 +1560,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 2
     .line 3
@@ -1420,7 +1572,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1435,7 +1588,8 @@ return-void
 
     .line 6
     .line 7
-    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 8
     .line 9
@@ -1447,15 +1601,18 @@ return-void
 
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;
+    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCache:Landroidx/constraintlayout/core/Cache;
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
+    iget-object p1, p1, Landroidx/constraintlayout/core/Cache;
+    ->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
 
     .line 16
     .line 17
-    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 18
     .line 19
@@ -1467,7 +1624,8 @@ return-void
 
     .line 24
     :cond_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 25
     .line 26
@@ -1492,7 +1650,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1507,7 +1666,8 @@ return-void
 
     .line 6
     .line 7
-    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 8
     .line 9
@@ -1519,7 +1679,8 @@ return-void
 
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 14
     .line 15
@@ -1527,7 +1688,8 @@ return-void
 
     .line 18
     :cond_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 19
     .line 20
@@ -1552,7 +1714,8 @@ return-void
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1570,7 +1733,8 @@ return-void
 
     .line 7
     .line 8
-    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 9
     .line 10
@@ -1578,7 +1742,8 @@ return-void
 
     .line 11
     .line 12
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 13
     .line 14
@@ -1603,7 +1768,8 @@ return-void
 
     .line 23
     :cond_0
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 24
     .line 25
@@ -1626,7 +1792,8 @@ return-void
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1645,7 +1812,8 @@ return-void
 
     .line 9
     .line 10
-    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 11
     .line 12
@@ -1653,7 +1821,8 @@ return-void
 
     .line 13
     .line 14
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 15
     .line 16
@@ -1661,7 +1830,8 @@ return-void
 
     .line 17
     .line 18
-    iget v4, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v4, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 19
     .line 20
@@ -1669,7 +1839,8 @@ return-void
 
     .line 23
     :cond_1
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 24
     .line 25
@@ -1692,7 +1863,8 @@ return-void
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -1707,7 +1879,8 @@ return-void
 
     .line 6
     .line 7
-    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 8
     .line 9
@@ -1715,7 +1888,8 @@ return-void
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 12
     .line 13
@@ -1735,7 +1909,8 @@ return-void
 
     .line 20
     .line 21
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 22
     .line 23
@@ -1772,11 +1947,14 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F    return-void
+    invoke-virtual {p0, p1, v1}, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F    
+    return-void
 
     .line 11
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 12
     .line 13
@@ -1790,11 +1968,13 @@ return-void
 
     .line 16
     .line 17
-    iput v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 20
     .line 21
@@ -1802,11 +1982,13 @@ return-void
 
     .line 22
     .line 23
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 24
     .line 25
-    iget v0, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v0, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 26
     .line 27
@@ -1814,7 +1996,8 @@ return-void
 
     .line 28
     .line 29
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 30
     .line 31
@@ -1822,38 +2005,45 @@ return-void
 
     .line 32
     .line 33
-    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 34
     .line 35
     add-int/2addr p2, v1
 
     .line 36
-    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 37
     .line 38
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 39
     .line 40
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;
+    ->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 41
     .line 42
     .line 43
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 44
     .line 45
     add-int/2addr p1, v1
 
     .line 46
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 47
     .line 48
-    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 49
     .line 50
@@ -1861,18 +2051,21 @@ return-void
 
     .line 51
     .line 52
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 53
     .line 54
     add-int/2addr p1, v1
 
     .line 55
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 56
     .line 57
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 58
     .line 59
@@ -1883,7 +2076,8 @@ return-void
 
     .line 61
     .line 62
-    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 63
     .line 64
@@ -1893,7 +2087,9 @@ return-void
     sub-int/2addr p1, v1
 
     .line 66
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I    
+    return-void
 
     .line 69
     :cond_1
@@ -1908,7 +2104,8 @@ return-void
 
     .line 72
     .line 73
-    iget v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 74
     .line 75
@@ -1916,7 +2113,8 @@ return-void
 
     .line 76
     .line 77
-    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 78
     .line 79
@@ -1924,7 +2122,8 @@ return-void
 
     .line 80
     .line 81
-    iget v7, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v7, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 82
     .line 83
@@ -1932,7 +2131,8 @@ return-void
 
     .line 84
     .line 85
-    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 86
     .line 87
@@ -1948,7 +2148,8 @@ return-void
 
     .line 93
     :cond_3
-    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 94
     .line 95
@@ -1964,7 +2165,8 @@ return-void
 
     .line 100
     :cond_4
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 101
     .line 102
@@ -1972,7 +2174,8 @@ return-void
 
     .line 103
     .line 104
-    iget-boolean v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 105
     .line 106
@@ -1980,7 +2183,8 @@ return-void
 
     .line 107
     .line 108
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 109
     .line 110
@@ -2007,7 +2211,8 @@ return-void
 
     .line 118
     :goto_1
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 119
     .line 120
@@ -2018,7 +2223,8 @@ return-void
 
     .line 122
     .line 123
-    iget v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 124
     .line 125
@@ -2033,7 +2239,8 @@ return-void
 
     .line 129
     :goto_2
-    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v6, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 130
     .line 131
@@ -2068,7 +2275,8 @@ return-void
     .line 143
     :cond_8
     :goto_3
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 144
     .line 145
@@ -2082,7 +2290,8 @@ return-void
     array-length v0, v4
 
     .line 149
-    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 150
     .line 151
@@ -2090,11 +2299,13 @@ return-void
 
     .line 152
     .line 153
-    iput v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iput v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 154
     .line 155
-    iput-boolean v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 156
     .line 157
@@ -2102,15 +2313,18 @@ return-void
 
     .line 158
     .line 159
-    iput v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 160
     .line 161
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 162
     .line 163
-    invoke-static {v2, v4}, Ljava/util/Arrays;->copyOf([FI)[F
+    invoke-static {v2, v4}, Ljava/util/Arrays;
+    ->copyOf([FI)[F
 
     .line 164
     .line 165
@@ -2118,19 +2332,23 @@ return-void
     move-result-object v2
 
     .line 167
-    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 168
     .line 169
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 170
     .line 171
-    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 172
     .line 173
-    invoke-static {v2, v4}, Ljava/util/Arrays;->copyOf([II)[I
+    invoke-static {v2, v4}, Ljava/util/Arrays;
+    ->copyOf([II)[I
 
     .line 174
     .line 175
@@ -2138,19 +2356,23 @@ return-void
     move-result-object v2
 
     .line 177
-    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 178
     .line 179
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 180
     .line 181
-    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRowSize:I
+    iget v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRowSize:I
 
     .line 182
     .line 183
-    invoke-static {v2, v4}, Ljava/util/Arrays;->copyOf([II)[I
+    invoke-static {v2, v4}, Ljava/util/Arrays;
+    ->copyOf([II)[I
 
     .line 184
     .line 185
@@ -2158,16 +2380,19 @@ return-void
     move-result-object v2
 
     .line 187
-    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iput-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 188
     .line 189
     :cond_9
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 190
     .line 191
-    iget v4, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v4, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 192
     .line 193
@@ -2175,7 +2400,8 @@ return-void
 
     .line 194
     .line 195
-    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 196
     .line 197
@@ -2187,7 +2413,8 @@ return-void
 
     .line 200
     .line 201
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 202
     .line 203
@@ -2207,11 +2434,13 @@ return-void
 
     .line 210
     :cond_a
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 211
     .line 212
-    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 213
     .line 214
@@ -2219,43 +2448,51 @@ return-void
 
     .line 215
     .line 216
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 217
     .line 218
     :goto_4
-    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 219
     .line 220
     add-int/2addr p2, v1
 
     .line 221
-    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 222
     .line 223
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 224
     .line 225
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;
+    ->addToRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 226
     .line 227
     .line 228
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 229
     .line 230
     add-int/2addr p1, v1
 
     .line 231
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 232
     .line 233
-    iget-boolean p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 234
     .line 235
@@ -2263,19 +2500,22 @@ return-void
 
     .line 236
     .line 237
-    iget p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 238
     .line 239
     add-int/2addr p2, v1
 
     .line 240
-    iput p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 241
     .line 242
     :cond_b
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 243
     .line 244
@@ -2286,12 +2526,14 @@ return-void
 
     .line 246
     .line 247
-    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 248
     .line 249
     :cond_c
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 250
     .line 251
@@ -2302,7 +2544,8 @@ return-void
 
     .line 253
     .line 254
-    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iput-boolean v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 255
     .line 256
@@ -2312,7 +2555,8 @@ return-void
     sub-int/2addr p1, v1
 
     .line 258
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 259
     .line 260
@@ -2324,7 +2568,8 @@ return-void
     .locals 8
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
 
     .line 2
     .line 3
@@ -2335,12 +2580,14 @@ return-void
     const/4 v0, 0x0
 
     .line 6
-    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
+    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCandidate:Landroidx/constraintlayout/core/SolverVariable;
 
     .line 7
     .line 8
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 9
     .line 10
@@ -2365,7 +2612,8 @@ return-void
 
     .line 18
     .line 19
-    iget v5, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v5, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 20
     .line 21
@@ -2373,7 +2621,8 @@ return-void
 
     .line 22
     .line 23
-    iget-object v5, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v5, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 24
     .line 25
@@ -2381,7 +2630,8 @@ return-void
 
     .line 26
     .line 27
-    iget v6, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
+    iget v6, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->id:I
 
     .line 28
     .line 29
@@ -2389,7 +2639,8 @@ return-void
 
     .line 30
     .line 31
-    iget v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 32
     .line 33
@@ -2397,7 +2648,8 @@ return-void
 
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 36
     .line 37
@@ -2405,7 +2657,8 @@ return-void
 
     .line 38
     .line 39
-    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iput v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 40
     .line 41
@@ -2413,7 +2666,8 @@ return-void
 
     .line 42
     :cond_2
-    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 43
     .line 44
@@ -2430,17 +2684,20 @@ return-void
 
     .line 49
     .line 50
-    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mRow:Landroidx/constraintlayout/core/ArrayRow;
+    iget-object p2, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mRow:Landroidx/constraintlayout/core/ArrayRow;
 
     .line 51
     .line 52
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;->removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/SolverVariable;
+    ->removeFromRow(Landroidx/constraintlayout/core/ArrayRow;)V
 
     .line 53
     .line 54
     .line 55
     :cond_3
-    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iget p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 56
     .line 57
@@ -2448,11 +2705,13 @@ return-void
 
     .line 58
     .line 59
-    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
+    iput p2, p1, Landroidx/constraintlayout/core/SolverVariable;
+    ->usageInRowCount:I
 
     .line 60
     .line 61
-    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 62
     .line 63
@@ -2460,11 +2719,13 @@ return-void
 
     .line 64
     .line 65
-    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iput p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 66
     .line 67
-    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 68
     .line 69
@@ -2472,7 +2733,8 @@ return-void
 
     .line 70
     .line 71
-    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mDidFillOnce:Z
+    iget-boolean p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mDidFillOnce:Z
 
     .line 72
     .line 73
@@ -2480,12 +2742,14 @@ return-void
 
     .line 74
     .line 75
-    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mLast:I
+    iput v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mLast:I
 
     .line 76
     .line 77
     :cond_4
-    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object p1, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 78
     .line 79
@@ -2493,7 +2757,8 @@ return-void
 
     .line 82
     :cond_5
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 83
     .line 84
@@ -2525,7 +2790,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 2
     .line 3
@@ -2543,7 +2809,8 @@ return-void
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mHead:I
+    iget v0, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mHead:I
 
     .line 2
     .line 3
@@ -2562,7 +2829,8 @@ return-void
 
     .line 8
     .line 9
-    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCurrentSize:I
+    iget v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCurrentSize:I
 
     .line 10
     .line 11
@@ -2574,7 +2842,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v1, v3}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v3}, LA/d;
+    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -2582,7 +2851,8 @@ return-void
     move-result-object v1
 
     .line 19
-    invoke-static {v1}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, LA/d;
+    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
@@ -2590,7 +2860,8 @@ return-void
     move-result-object v1
 
     .line 23
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayValues:[F
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayValues:[F
 
     .line 24
     .line 25
@@ -2598,7 +2869,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -2607,12 +2879,14 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -2620,7 +2894,8 @@ return-void
     move-result-object v1
 
     .line 39
-    invoke-static {v1}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, LA/d;
+    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -2628,15 +2903,18 @@ return-void
     move-result-object v1
 
     .line 43
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mCache:Landroidx/constraintlayout/core/Cache;
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mCache:Landroidx/constraintlayout/core/Cache;
 
     .line 44
     .line 45
-    iget-object v3, v3, Landroidx/constraintlayout/core/Cache;->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v3, v3, Landroidx/constraintlayout/core/Cache;
+    ->mIndexedVariables:[Landroidx/constraintlayout/core/SolverVariable;
 
     .line 46
     .line 47
-    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayIndices:[I
+    iget-object v4, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayIndices:[I
 
     .line 48
     .line 49
@@ -2648,12 +2926,14 @@ return-void
 
     .line 52
     .line 53
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -2661,7 +2941,8 @@ return-void
     move-result-object v1
 
     .line 60
-    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;->mArrayNextIndices:[I
+    iget-object v3, p0, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->mArrayNextIndices:[I
 
     .line 61
     .line 62
@@ -2684,11 +2965,13 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p1, Landroidx/constraintlayout/core/ArrayRow;->mVariable:Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v0, p1, Landroidx/constraintlayout/core/ArrayRow;
+    ->mVariable:Landroidx/constraintlayout/core/SolverVariable;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->get(Landroidx/constraintlayout/core/SolverVariable;)F
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->get(Landroidx/constraintlayout/core/SolverVariable;)F
 
     .line 4
     .line 5
@@ -2696,20 +2979,24 @@ return-void
     move-result v0
 
     .line 7
-    iget-object v1, p1, Landroidx/constraintlayout/core/ArrayRow;->mVariable:Landroidx/constraintlayout/core/SolverVariable;
+    iget-object v1, p1, Landroidx/constraintlayout/core/ArrayRow;
+    ->mVariable:Landroidx/constraintlayout/core/SolverVariable;
 
     .line 8
     .line 9
-    invoke-virtual {p0, v1, p2}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F
+    invoke-virtual {p0, v1, p2}, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->remove(Landroidx/constraintlayout/core/SolverVariable;Z)F
 
     .line 10
     .line 11
     .line 12
-    iget-object p1, p1, Landroidx/constraintlayout/core/ArrayRow;->variables:Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;
+    iget-object p1, p1, Landroidx/constraintlayout/core/ArrayRow;
+    ->variables:Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;
 
     .line 13
     .line 14
-    invoke-interface {p1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->getCurrentSize()I
+    invoke-interface {p1}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;
+    ->getCurrentSize()I
 
     .line 15
     .line 16
@@ -2725,7 +3012,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-interface {p1, v2}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->getVariable(I)Landroidx/constraintlayout/core/SolverVariable;
+    invoke-interface {p1, v2}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;
+    ->getVariable(I)Landroidx/constraintlayout/core/SolverVariable;
 
     .line 22
     .line 23
@@ -2733,7 +3021,8 @@ return-void
     move-result-object v3
 
     .line 25
-    invoke-interface {p1, v3}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;->get(Landroidx/constraintlayout/core/SolverVariable;)F
+    invoke-interface {p1, v3}, Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;
+    ->get(Landroidx/constraintlayout/core/SolverVariable;)F
 
     .line 26
     .line 27
@@ -2745,7 +3034,8 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {p0, v3, v4, p2}, Landroidx/constraintlayout/core/ArrayLinkedVariables;->add(Landroidx/constraintlayout/core/SolverVariable;FZ)V
+    invoke-virtual {p0, v3, v4, p2}, Landroidx/constraintlayout/core/ArrayLinkedVariables;
+    ->add(Landroidx/constraintlayout/core/SolverVariable;FZ)V
 
     .line 32
     .line 33

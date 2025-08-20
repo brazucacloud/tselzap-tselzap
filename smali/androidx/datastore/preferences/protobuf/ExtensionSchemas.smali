@@ -32,16 +32,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionSchemaLite;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionSchemaLite;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;
+    ->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;
 
     .line 7
     .line 8
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;->loadSchemaForFullRuntime()Landroidx/datastore/preferences/protobuf/ExtensionSchema;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;
+    ->loadSchemaForFullRuntime()Landroidx/datastore/preferences/protobuf/ExtensionSchema;
 
     .line 9
     .line 10
@@ -49,14 +52,16 @@
     move-result-object v0
 
     .line 12
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;
+    ->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -71,7 +76,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;
+    ->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;
 
     .line 2
     .line 3
@@ -87,7 +93,8 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -105,7 +112,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionSchemas;
+    ->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/ExtensionSchema;    return-object v0
 .end method
 
 .method private static loadSchemaForFullRuntime()Landroidx/datastore/preferences/protobuf/ExtensionSchema;
@@ -124,7 +132,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -139,7 +148,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v0, v2}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 11
     .line 12
@@ -151,7 +161,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18

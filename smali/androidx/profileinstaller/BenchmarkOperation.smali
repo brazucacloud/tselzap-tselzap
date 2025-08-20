@@ -17,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -29,7 +30,8 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
+    invoke-virtual {p0}, Ljava/io/File;
+    ->isDirectory()Z
 
     .line 2
     .line 3
@@ -44,7 +46,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
+    invoke-virtual {p0}, Ljava/io/File;
+    ->listFiles()[Ljava/io/File;
 
     .line 9
     .line 10
@@ -81,7 +84,8 @@
 
     .line 22
     .line 23
-    invoke-static {v5}, Landroidx/profileinstaller/BenchmarkOperation;->deleteFilesRecursively(Ljava/io/File;)Z
+    invoke-static {v5}, Landroidx/profileinstaller/BenchmarkOperation;
+    ->deleteFilesRecursively(Ljava/io/File;)Z
 
     .line 24
     .line 25
@@ -120,7 +124,8 @@
 
     .line 38
     :cond_3
-    invoke-virtual {p0}, Ljava/io/File;->delete()Z
+    invoke-virtual {p0}, Ljava/io/File;
+    ->delete()Z
 
     .line 39
     .line 40
@@ -140,7 +145,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -152,7 +158,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api24ContextHelper;->createDeviceProtectedStorageContext(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api24ContextHelper;
+    ->createDeviceProtectedStorageContext(Landroid/content/Context;)Landroid/content/Context;
 
     .line 8
     .line 9
@@ -160,7 +167,8 @@
     move-result-object p0
 
     .line 11
-    invoke-virtual {p0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getCacheDir()Ljava/io/File;
 
     .line 12
     .line 13
@@ -180,7 +188,8 @@
 
     .line 19
     .line 20
-    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api24ContextHelper;->createDeviceProtectedStorageContext(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api24ContextHelper;
+    ->createDeviceProtectedStorageContext(Landroid/content/Context;)Landroid/content/Context;
 
     .line 21
     .line 22
@@ -188,7 +197,8 @@
     move-result-object p0
 
     .line 24
-    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api21ContextHelper;->getCodeCacheDir(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api21ContextHelper;
+    ->getCodeCacheDir(Landroid/content/Context;)Ljava/io/File;
 
     .line 25
     .line 26
@@ -208,7 +218,8 @@
 
     .line 32
     .line 33
-    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api21ContextHelper;->getCodeCacheDir(Landroid/content/Context;)Ljava/io/File;
+    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation$Api21ContextHelper;
+    ->getCodeCacheDir(Landroid/content/Context;)Ljava/io/File;
 
     .line 34
     .line 35
@@ -220,7 +231,8 @@
 
     .line 38
     :cond_2
-    invoke-virtual {p0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getCacheDir()Ljava/io/File;
 
     .line 39
     .line 40
@@ -229,7 +241,8 @@
 
     .line 42
     :goto_0
-    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation;->deleteFilesRecursively(Ljava/io/File;)Z
+    invoke-static {p0}, Landroidx/profileinstaller/BenchmarkOperation;
+    ->deleteFilesRecursively(Ljava/io/File;)Z
 
     .line 43
     .line 44
@@ -248,7 +261,8 @@
 
     .line 50
     .line 51
-    invoke-virtual {p1, p0, v0}, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;->onResultReceived(ILjava/lang/Object;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;
+    ->onResultReceived(ILjava/lang/Object;)V
 
     .line 52
     .line 53
@@ -261,7 +275,8 @@
 
     .line 56
     .line 57
-    invoke-virtual {p1, p0, v0}, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;->onResultReceived(ILjava/lang/Object;)V
+    invoke-virtual {p1, p0, v0}, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;
+    ->onResultReceived(ILjava/lang/Object;)V
 
     .line 58
     .line 59

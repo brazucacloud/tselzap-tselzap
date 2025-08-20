@@ -28,9 +28,11 @@
 
     new-instance v0, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
 
-    invoke-direct {v0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;-><init>()V
+    invoke-direct {v0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
+    -><init>()V
 
-    sput-object v0, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->INSTANCE:Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
+    sput-object v0, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
+    ->INSTANCE:Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
 
     return-void
 .end method
@@ -39,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +50,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback$lambda$0(Lp1/a;)V
+    invoke-static {p0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
+    ->createOnBackInvokedCallback$lambda$0(Lp1/a;)V
 return-void
 .end method
 
@@ -59,12 +63,15 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Lp1/a;->invoke()Ljava/lang/Object;    return-void
+    invoke-interface {p0}, Lp1/a;
+    ->invoke()Ljava/lang/Object;    
+    return-void
 .end method
 
 
@@ -88,7 +95,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -97,7 +105,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0, p1}, Landroidx/activity/g;-><init>(Lp1/a;)V
+    invoke-direct {v0, p1}, Landroidx/activity/g;
+    -><init>(Lp1/a;)V
 return-object v0
 .end method
 
@@ -111,7 +120,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -120,7 +130,8 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -133,7 +144,8 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-interface {p1, p2, p3}, Landroid/window/OnBackInvokedDispatcher;->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p1, p2, p3}, Landroid/window/OnBackInvokedDispatcher;
+    ->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 
@@ -147,7 +159,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -156,7 +169,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -169,7 +183,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-interface {p1, p2}, Landroid/window/OnBackInvokedDispatcher;->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p1, p2}, Landroid/window/OnBackInvokedDispatcher;
+    ->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 

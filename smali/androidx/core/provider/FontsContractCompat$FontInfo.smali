@@ -46,7 +46,8 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -54,12 +55,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -71,23 +74,28 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mUri:Landroid/net/Uri;
+    iput-object p1, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mUri:Landroid/net/Uri;
 
     .line 11
     .line 12
-    iput p2, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mTtcIndex:I
+    iput p2, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mTtcIndex:I
 
     .line 13
     .line 14
-    iput p3, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mWeight:I
+    iput p3, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mWeight:I
 
     .line 15
     .line 16
-    iput-boolean p4, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mItalic:Z
+    iput-boolean p4, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mItalic:Z
 
     .line 17
     .line 18
-    iput p5, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mResultCode:I
+    iput p5, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mResultCode:I
 
     .line 19
     .line 20
@@ -132,7 +140,8 @@
     move v5, p4
 
     .line 8
-    invoke-direct/range {v0 .. v5}, Landroidx/core/provider/FontsContractCompat$FontInfo;-><init>(Landroid/net/Uri;IIZI)V
+    invoke-direct/range {v0 .. v5}, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    -><init>(Landroid/net/Uri;IIZI)V
 
     .line 9
     .line 10
@@ -146,7 +155,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mResultCode:I
+    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mResultCode:I
 
     .line 2
     .line 3
@@ -160,7 +170,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mTtcIndex:I
+    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mTtcIndex:I
 
     .line 2
     .line 3
@@ -173,7 +184,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mUri:Landroid/net/Uri;
+    iget-object v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mUri:Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -188,7 +200,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mWeight:I
+    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mWeight:I
 
     .line 2
     .line 3
@@ -199,7 +212,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;->mItalic:Z
+    iget-boolean v0, p0, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->mItalic:Z
 
     .line 2
     .line 3

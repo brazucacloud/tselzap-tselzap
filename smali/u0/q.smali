@@ -14,15 +14,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lu0/q;->c:Ljava/util/ArrayList;
+    iput-object p1, p0, Lu0/q;
+    ->c:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lu0/q;->d:Landroid/graphics/Matrix;
+    iput-object p2, p0, Lu0/q;
+    ->d:Landroid/graphics/Matrix;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Lu0/w;-><init>()V
+    invoke-direct {p0}, Lu0/w;
+    -><init>()V
 
     .line 6
     .line 7
@@ -36,11 +39,13 @@
     .locals 2
 
     .line 1
-    iget-object p1, p0, Lu0/q;->c:Ljava/util/ArrayList;
+    iget-object p1, p0, Lu0/q;
+    ->c:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -49,7 +54,8 @@
 
     .line 7
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -61,7 +67,8 @@
 
     .line 12
     .line 13
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -73,11 +80,13 @@
 
     .line 18
     .line 19
-    iget-object v1, p0, Lu0/q;->d:Landroid/graphics/Matrix;
+    iget-object v1, p0, Lu0/q;
+    ->d:Landroid/graphics/Matrix;
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1, p2, p3, p4}, Lu0/w;->a(Landroid/graphics/Matrix;Lt0/a;ILandroid/graphics/Canvas;)V
+    invoke-virtual {v0, v1, p2, p3, p4}, Lu0/w;
+    ->a(Landroid/graphics/Matrix;Lt0/a;ILandroid/graphics/Canvas;)V
 
     .line 22
     .line 23

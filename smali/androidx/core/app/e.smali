@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/core/app/e;->a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
+    iput-object p1, p0, Landroidx/core/app/e;
+    ->a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
 
     return-void
 .end method
@@ -28,7 +30,8 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/e;->a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
+    iget-object v0, p0, Landroidx/core/app/e;
+    ->a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
 
     move-object v1, p1
 
@@ -40,7 +43,8 @@
 
     move-object v5, p5
 
-    invoke-static/range {v0 .. v5}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->a(Landroidx/core/app/PendingIntentCompat$GatedCallback;Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
+    invoke-static/range {v0 .. v5}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
+    ->a(Landroidx/core/app/PendingIntentCompat$GatedCallback;Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
 return-void
 .end method
 

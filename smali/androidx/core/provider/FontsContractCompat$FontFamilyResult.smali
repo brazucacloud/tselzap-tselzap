@@ -37,7 +37,8 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -45,16 +46,19 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->mStatusCode:I
+    iput p1, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->mStatusCode:I
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->mFonts:[Landroidx/core/provider/FontsContractCompat$FontInfo;
+    iput-object p2, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->mFonts:[Landroidx/core/provider/FontsContractCompat$FontInfo;
 
     .line 7
     .line 8
@@ -73,7 +77,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;-><init>(I[Landroidx/core/provider/FontsContractCompat$FontInfo;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    -><init>(I[Landroidx/core/provider/FontsContractCompat$FontInfo;)V
 
     .line 4
     .line 5
@@ -87,7 +92,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->mFonts:[Landroidx/core/provider/FontsContractCompat$FontInfo;
+    iget-object v0, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->mFonts:[Landroidx/core/provider/FontsContractCompat$FontInfo;
 
     .line 2
     .line 3
@@ -98,7 +104,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->mStatusCode:I
+    iget v0, p0, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->mStatusCode:I
 
     .line 2
     .line 3

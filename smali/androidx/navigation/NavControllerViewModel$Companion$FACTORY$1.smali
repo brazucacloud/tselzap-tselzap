@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -42,12 +43,14 @@
 
     const-string v0, "modelClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     new-instance p1, Landroidx/navigation/NavControllerViewModel;
 
-    invoke-direct {p1}, Landroidx/navigation/NavControllerViewModel;-><init>()V
+    invoke-direct {p1}, Landroidx/navigation/NavControllerViewModel;
+    -><init>()V
     return-object p1
 .end method
 
@@ -55,7 +58,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;->b(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;
+    ->b(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -66,7 +70,8 @@
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;->c(Landroidx/lifecycle/ViewModelProvider$Factory;Lv1/c;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;
+    ->c(Landroidx/lifecycle/ViewModelProvider$Factory;Lv1/c;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 

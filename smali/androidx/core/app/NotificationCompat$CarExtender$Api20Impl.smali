@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;->addExtras(Landroid/os/Bundle;)Landroid/app/RemoteInput$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;
+    ->addExtras(Landroid/os/Bundle;)Landroid/app/RemoteInput$Builder;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput$Builder;->build()Landroid/app/RemoteInput;
+    invoke-virtual {p0}, Landroid/app/RemoteInput$Builder;
+    ->build()Landroid/app/RemoteInput;
 
     .line 2
     .line 3
@@ -81,7 +84,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/app/RemoteInput$Builder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Landroid/app/RemoteInput$Builder;
+    -><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -95,7 +99,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getAllowFreeFormInput()Z
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getAllowFreeFormInput()Z
 
     .line 2
     .line 3
@@ -111,7 +116,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getChoices()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getChoices()[Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -127,7 +133,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getExtras()Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -143,7 +150,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getLabel()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getLabel()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -159,7 +167,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getResultKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getResultKey()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -175,7 +184,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;->setAllowFreeFormInput(Z)Landroid/app/RemoteInput$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;
+    ->setAllowFreeFormInput(Z)Landroid/app/RemoteInput$Builder;
 
     .line 2
     .line 3
@@ -191,7 +201,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;->setChoices([Ljava/lang/CharSequence;)Landroid/app/RemoteInput$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;
+    ->setChoices([Ljava/lang/CharSequence;)Landroid/app/RemoteInput$Builder;
 
     .line 2
     .line 3
@@ -207,7 +218,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;->setLabel(Ljava/lang/CharSequence;)Landroid/app/RemoteInput$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/RemoteInput$Builder;
+    ->setLabel(Ljava/lang/CharSequence;)Landroid/app/RemoteInput$Builder;
 
     .line 2
     .line 3

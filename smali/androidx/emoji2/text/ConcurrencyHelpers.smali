@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -32,7 +33,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/emoji2/text/ConcurrencyHelpers;->lambda$createBackgroundPriorityExecutor$0(Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Thread;
+    invoke-static {p0, p1}, Landroidx/emoji2/text/ConcurrencyHelpers;
+    ->lambda$createBackgroundPriorityExecutor$0(Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Thread;
 
     move-result-object p0
 
@@ -52,7 +54,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -61,7 +64,8 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/emoji2/text/a;-><init>(Landroid/os/Handler;)V
+    invoke-direct {v0, p0}, Landroidx/emoji2/text/a;
+    -><init>(Landroid/os/Handler;)V
 
     .line 7
     .line 8
@@ -81,7 +85,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v7, p0}, Landroidx/emoji2/text/b;-><init>(Ljava/lang/String;)V
+    invoke-direct {v7, p0}, Landroidx/emoji2/text/b;
+    -><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -90,7 +95,8 @@
 
     .line 7
     .line 8
-    sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v5, Ljava/util/concurrent/TimeUnit;
+    ->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 9
     .line 10
@@ -98,7 +104,8 @@
 
     .line 11
     .line 12
-    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingDeque;-><init>()V
+    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingDeque;
+    -><init>()V
 
     .line 13
     .line 14
@@ -113,7 +120,8 @@
     const/4 v1, 0x0
 
     .line 19
-    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;
+    -><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
 
     .line 20
     .line 21
@@ -121,7 +129,8 @@
     const/4 p0, 0x1
 
     .line 23
-    invoke-virtual {v0, p0}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
+    invoke-virtual {v0, p0}, Ljava/util/concurrent/ThreadPoolExecutor;
+    ->allowCoreThreadTimeOut(Z)V
 
     .line 24
     .line 25
@@ -137,7 +146,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p0}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p0}, Ljava/lang/Thread;
+    -><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -146,7 +156,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0}, Ljava/lang/Thread;->setPriority(I)V
+    invoke-virtual {v0, p0}, Ljava/lang/Thread;
+    ->setPriority(I)V
 
     .line 9
     .line 10
@@ -158,7 +169,8 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -170,7 +182,8 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 8
     .line 9
@@ -178,7 +191,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Landroidx/emoji2/text/ConcurrencyHelpers$Handler28Impl;->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {v0}, Landroidx/emoji2/text/ConcurrencyHelpers$Handler28Impl;
+    ->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
 
     .line 12
     .line 13
@@ -193,7 +207,8 @@
 
     .line 17
     .line 18
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 19
     .line 20
@@ -201,7 +216,8 @@
     move-result-object v1
 
     .line 22
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 23
     .line 24

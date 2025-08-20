@@ -39,22 +39,26 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/preference/TwoStatePreference$SavedState$1;-><init>()V
+    invoke-direct {v0}, Landroidx/preference/TwoStatePreference$SavedState$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/preference/TwoStatePreference$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
+    sput-object v0, Landroidx/preference/TwoStatePreference$SavedState;
+    ->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;
+    -><init>(Landroid/os/Parcel;)V
 
     .line 2
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p1
 
@@ -68,7 +72,8 @@
     const/4 v0, 0x0
 
     :goto_0
-    iput-boolean v0, p0, Landroidx/preference/TwoStatePreference$SavedState;->mChecked:Z
+    iput-boolean v0, p0, Landroidx/preference/TwoStatePreference$SavedState;
+    ->mChecked:Z
 return-void
 .end method
 
@@ -76,7 +81,8 @@ return-void
     .locals 0
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 return-void
 .end method
 
@@ -86,16 +92,19 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroid/view/AbsSavedState;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean p2, p0, Landroidx/preference/TwoStatePreference$SavedState;->mChecked:Z
+    iget-boolean p2, p0, Landroidx/preference/TwoStatePreference$SavedState;
+    ->mChecked:Z
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 return-void
 .end method
 

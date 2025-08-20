@@ -14,7 +14,8 @@
         flagMapping = {}
         hasAttributeId = true
         name = ""
-        valueType = .enum Landroidx/annotation/InspectableProperty$ValueType;->INFERRED:Landroidx/annotation/InspectableProperty$ValueType;
+        valueType = .enum Landroidx/annotation/InspectableProperty$ValueType;
+    ->INFERRED:Landroidx/annotation/InspectableProperty$ValueType;
     .end subannotation
 .end annotation
 
@@ -27,12 +28,14 @@
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;
+    ->SOURCE:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Target;
     value = {
-        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+        .enum Ljava/lang/annotation/ElementType;
+    ->METHOD:Ljava/lang/annotation/ElementType;
     }
 .end annotation
 

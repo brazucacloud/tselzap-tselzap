@@ -52,7 +52,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -60,7 +61,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mResultReceived:Z
+    iput-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResultReceived:Z
 
     .line 6
     .line 7
@@ -82,7 +84,8 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mException:Lcom/android/volley/VolleyError;
+    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mException:Lcom/android/volley/VolleyError;
 
     .line 3
     .line 4
@@ -90,7 +93,8 @@
 
     .line 5
     .line 6
-    iget-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mResultReceived:Z
+    iget-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResultReceived:Z
 
     .line 7
     .line 8
@@ -98,7 +102,8 @@
 
     .line 9
     .line 10
-    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mResult:Ljava/lang/Object;
+    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResult:Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -127,7 +132,8 @@
     .line 20
     :goto_0
     :try_start_1
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;->isDone()Z
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;
+    ->isDone()Z
 
     .line 21
     .line 22
@@ -139,7 +145,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0, v0, v1}, Ljava/lang/Object;->wait(J)V
+    invoke-virtual {p0, v0, v1}, Ljava/lang/Object;
+    ->wait(J)V
 
     .line 27
     .line 28
@@ -148,7 +155,8 @@
 
     .line 30
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 31
     .line 32
@@ -164,7 +172,8 @@
 
     .line 37
     .line 38
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 39
     .line 40
@@ -172,7 +181,8 @@
     move-result-wide v0
 
     .line 42
-    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 43
     .line 44
@@ -184,7 +194,8 @@
 
     .line 47
     :goto_1
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;->isDone()Z
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;
+    ->isDone()Z
 
     .line 48
     .line 49
@@ -208,12 +219,14 @@
 
     .line 58
     .line 59
-    invoke-virtual {p0, v0, v1}, Ljava/lang/Object;->wait(J)V
+    invoke-virtual {p0, v0, v1}, Ljava/lang/Object;
+    ->wait(J)V
 
     .line 60
     .line 61
     .line 62
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->uptimeMillis()J
 
     .line 63
     .line 64
@@ -225,7 +238,8 @@
 
     .line 67
     :cond_2
-    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mException:Lcom/android/volley/VolleyError;
+    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mException:Lcom/android/volley/VolleyError;
 
     .line 68
     .line 69
@@ -233,7 +247,8 @@
 
     .line 70
     .line 71
-    iget-boolean p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mResultReceived:Z
+    iget-boolean p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResultReceived:Z
 
     .line 72
     .line 73
@@ -241,7 +256,8 @@
 
     .line 74
     .line 75
-    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mResult:Ljava/lang/Object;
+    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResult:Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -258,7 +274,8 @@
 
     .line 80
     .line 81
-    invoke-direct {p1}, Ljava/util/concurrent/TimeoutException;-><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/TimeoutException;
+    -><init>()V
 
     .line 82
     .line 83
@@ -271,11 +288,13 @@
 
     .line 86
     .line 87
-    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mException:Lcom/android/volley/VolleyError;
+    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mException:Lcom/android/volley/VolleyError;
 
     .line 88
     .line 89
-    invoke-direct {p1, v0}, Ljava/util/concurrent/ExecutionException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, v0}, Ljava/util/concurrent/ExecutionException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 90
     .line 91
@@ -288,11 +307,13 @@
 
     .line 94
     .line 95
-    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mException:Lcom/android/volley/VolleyError;
+    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mException:Lcom/android/volley/VolleyError;
 
     .line 96
     .line 97
-    invoke-direct {p1, v0}, Ljava/util/concurrent/ExecutionException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, v0}, Ljava/util/concurrent/ExecutionException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 98
     .line 99
@@ -467,7 +488,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/android/volley/toolbox/RequestFuture;-><init>()V
+    invoke-direct {v0}, Lcom/android/volley/toolbox/RequestFuture;
+    -><init>()V
 
     .line 4
     .line 5
@@ -485,7 +507,8 @@
 
     .line 2
     :try_start_0
-    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mRequest:Lcom/android/volley/Request;
+    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mRequest:Lcom/android/volley/Request;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -505,7 +528,8 @@
     .line 9
     :cond_0
     :try_start_1
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;->isDone()Z
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;
+    ->isDone()Z
 
     .line 10
     .line 11
@@ -517,11 +541,13 @@
 
     .line 14
     .line 15
-    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mRequest:Lcom/android/volley/Request;
+    iget-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Lcom/android/volley/Request;->cancel()V
+    invoke-virtual {p1}, Lcom/android/volley/Request;
+    ->cancel()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -627,7 +653,8 @@
 
     .line 1
     :try_start_0
-    invoke-direct {p0, v0}, Lcom/android/volley/toolbox/RequestFuture;->doGet(Ljava/lang/Long;)Ljava/lang/Object;
+    invoke-direct {p0, v0}, Lcom/android/volley/toolbox/RequestFuture;
+    ->doGet(Ljava/lang/Long;)Ljava/lang/Object;
 
     move-result-object v0
     :try_end_0
@@ -641,7 +668,8 @@
     .line 2
     new-instance v1, Ljava/lang/AssertionError;
 
-    invoke-direct {v1, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, v0}, Ljava/lang/AssertionError;
+    -><init>(Ljava/lang/Object;)V
 
     throw v1
 .end method
@@ -657,17 +685,21 @@
     .end annotation
 
     .line 3
-    sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v0, Ljava/util/concurrent/TimeUnit;
+    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/TimeUnit;->convert(JLjava/util/concurrent/TimeUnit;)J
+    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/TimeUnit;
+    ->convert(JLjava/util/concurrent/TimeUnit;)J
 
     move-result-wide p1
 
-    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {p1, p2}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/RequestFuture;->doGet(Ljava/lang/Long;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/RequestFuture;
+    ->doGet(Ljava/lang/Long;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -678,7 +710,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mRequest:Lcom/android/volley/Request;
+    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 2
     .line 3
@@ -692,7 +725,8 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Lcom/android/volley/Request;->isCanceled()Z
+    invoke-virtual {v0}, Lcom/android/volley/Request;
+    ->isCanceled()Z
 
     .line 8
     .line 9
@@ -710,7 +744,8 @@
 
     .line 2
     :try_start_0
-    iget-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mResultReceived:Z
+    iget-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResultReceived:Z
 
     .line 3
     .line 4
@@ -718,7 +753,8 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mException:Lcom/android/volley/VolleyError;
+    iget-object v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mException:Lcom/android/volley/VolleyError;
 
     .line 7
     .line 8
@@ -726,7 +762,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;->isCancelled()Z
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/RequestFuture;
+    ->isCancelled()Z
 
     .line 11
     .line 12
@@ -847,11 +884,13 @@
 
     .line 2
     :try_start_0
-    iput-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mException:Lcom/android/volley/VolleyError;
+    iput-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mException:Lcom/android/volley/VolleyError;
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->notifyAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -908,15 +947,18 @@
 
     .line 3
     :try_start_0
-    iput-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;->mResultReceived:Z
+    iput-boolean v0, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResultReceived:Z
 
     .line 4
     .line 5
-    iput-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mResult:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mResult:Ljava/lang/Object;
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->notifyAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -965,7 +1007,8 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;->mRequest:Lcom/android/volley/Request;
+    iput-object p1, p0, Lcom/android/volley/toolbox/RequestFuture;
+    ->mRequest:Lcom/android/volley/Request;
 
     .line 2
     .line 3

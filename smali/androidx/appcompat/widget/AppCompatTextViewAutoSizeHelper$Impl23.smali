@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl;-><init>()V
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl;
+    -><init>()V
     return-void
 .end method
 
@@ -37,11 +38,13 @@
 
     .line 2
     .line 3
-    sget-object v1, Landroid/text/TextDirectionHeuristics;->FIRSTSTRONG_LTR:Landroid/text/TextDirectionHeuristic;
+    sget-object v1, Landroid/text/TextDirectionHeuristics;
+    ->FIRSTSTRONG_LTR:Landroid/text/TextDirectionHeuristic;
 
     .line 4
     .line 5
-    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->invokeAndReturnWithDefault(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, v0, v1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;
+    ->invokeAndReturnWithDefault(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -53,7 +56,8 @@
 
     .line 10
     .line 11
-    invoke-static {p1, p2}, La0/c;->B(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)V
+    invoke-static {p1, p2}, La0/c;
+    ->B(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)V
 return-void
 .end method
 

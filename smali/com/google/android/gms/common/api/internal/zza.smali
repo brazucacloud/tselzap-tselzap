@@ -23,12 +23,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/common/api/internal/zza;->zza:Ljava/util/WeakHashMap;
+    sput-object v0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zza:Ljava/util/WeakHashMap;
 
     .line 7
     .line 8
@@ -39,7 +41,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Fragment;-><init>()V
+    invoke-direct {p0}, Landroid/app/Fragment;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,12 +51,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/zzc;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 10
     .line 11
@@ -68,11 +73,13 @@
 
     .line 2
     .line 3
-    sget-object v1, Lcom/google/android/gms/common/api/internal/zza;->zza:Ljava/util/WeakHashMap;
+    sget-object v1, Lcom/google/android/gms/common/api/internal/zza;
+    ->zza:Ljava/util/WeakHashMap;
 
     .line 4
     .line 5
-    invoke-virtual {v1, p0}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0}, Ljava/util/WeakHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -88,7 +95,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -114,7 +122,8 @@
     :cond_1
     :goto_0
     :try_start_0
-    invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getFragmentManager()Landroid/app/FragmentManager;
 
     .line 24
     .line 25
@@ -122,7 +131,8 @@
     move-result-object v2
 
     .line 27
-    invoke-virtual {v2, v0}, Landroid/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroid/app/Fragment;
+    invoke-virtual {v2, v0}, Landroid/app/FragmentManager;
+    ->findFragmentByTag(Ljava/lang/String;)Landroid/app/Fragment;
 
     .line 28
     .line 29
@@ -140,7 +150,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {v2}, Landroid/app/Fragment;->isRemoving()Z
+    invoke-virtual {v2}, Landroid/app/Fragment;
+    ->isRemoving()Z
 
     .line 36
     .line 37
@@ -157,12 +168,14 @@
 
     .line 42
     .line 43
-    invoke-direct {v2}, Lcom/google/android/gms/common/api/internal/zza;-><init>()V
+    invoke-direct {v2}, Lcom/google/android/gms/common/api/internal/zza;
+    -><init>()V
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getFragmentManager()Landroid/app/FragmentManager;
 
     .line 47
     .line 48
@@ -170,7 +183,8 @@
     move-result-object v3
 
     .line 50
-    invoke-virtual {v3}, Landroid/app/FragmentManager;->beginTransaction()Landroid/app/FragmentTransaction;
+    invoke-virtual {v3}, Landroid/app/FragmentManager;
+    ->beginTransaction()Landroid/app/FragmentTransaction;
 
     .line 51
     .line 52
@@ -178,7 +192,8 @@
     move-result-object v3
 
     .line 54
-    invoke-virtual {v3, v2, v0}, Landroid/app/FragmentTransaction;->add(Landroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;
+    invoke-virtual {v3, v2, v0}, Landroid/app/FragmentTransaction;
+    ->add(Landroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;
 
     .line 55
     .line 56
@@ -186,7 +201,8 @@
     move-result-object v0
 
     .line 58
-    invoke-virtual {v0}, Landroid/app/FragmentTransaction;->commitAllowingStateLoss()I
+    invoke-virtual {v0}, Landroid/app/FragmentTransaction;
+    ->commitAllowingStateLoss()I
 
     .line 59
     .line 60
@@ -196,12 +212,14 @@
 
     .line 62
     .line 63
-    invoke-direct {v0, v2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v2}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v1, p0, v0}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0, v0}, Ljava/util/WeakHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -221,7 +239,8 @@
 
     .line 74
     .line 75
-    invoke-direct {v0, v1, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, p0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 76
     .line 77
@@ -245,11 +264,13 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/zzc;->zzd(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzd(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
 
     .line 4
     .line 5
@@ -269,16 +290,19 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/app/Fragment;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/app/Fragment;
+    ->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/android/gms/common/api/internal/zzc;->zze(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zze(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
     .line 7
     .line 8
@@ -303,11 +327,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/zzc;->zzc(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzc(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     .line 4
     .line 5
@@ -323,7 +349,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;
+    ->getActivity()Landroid/app/Activity;
 
     .line 2
     .line 3
@@ -337,11 +364,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;->zzm()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzm()Z
 
     .line 4
     .line 5
@@ -355,11 +384,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;->zzn()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzn()Z
 
     .line 4
     .line 5
@@ -377,16 +408,19 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroid/app/Fragment;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Landroid/app/Fragment;
+    ->onActivityResult(IILandroid/content/Intent;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/zzc;->zzf(IILandroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzf(IILandroid/content/Intent;)V
 
     .line 7
     .line 8
@@ -402,16 +436,19 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroid/app/Fragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroid/app/Fragment;
+    ->onCreate(Landroid/os/Bundle;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/zzc;->zzg(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzg(Landroid/os/Bundle;)V
 
     .line 7
     .line 8
@@ -423,16 +460,19 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/app/Fragment;->onDestroy()V
+    invoke-super {p0}, Landroid/app/Fragment;
+    ->onDestroy()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;->zzh()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzh()V
 
     .line 7
     .line 8
@@ -444,16 +484,19 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/app/Fragment;->onResume()V
+    invoke-super {p0}, Landroid/app/Fragment;
+    ->onResume()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;->zzi()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzi()V
 
     .line 7
     .line 8
@@ -465,16 +508,19 @@
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Landroid/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroid/app/Fragment;
+    ->onSaveInstanceState(Landroid/os/Bundle;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/zzc;->zzj(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzj(Landroid/os/Bundle;)V
 
     .line 7
     .line 8
@@ -486,16 +532,19 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/app/Fragment;->onStart()V
+    invoke-super {p0}, Landroid/app/Fragment;
+    ->onStart()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;->zzk()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzk()V
 
     .line 7
     .line 8
@@ -507,16 +556,19 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/app/Fragment;->onStop()V
+    invoke-super {p0}, Landroid/app/Fragment;
+    ->onStop()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;->zzb:Lcom/google/android/gms/common/api/internal/zzc;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zza;
+    ->zzb:Lcom/google/android/gms/common/api/internal/zzc;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;->zzl()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zzc;
+    ->zzl()V
 
     .line 7
     .line 8

@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/core/location/c;->a:Landroid/location/LocationManager;
+    iput-object p1, p0, Landroidx/core/location/c;
+    ->a:Landroid/location/LocationManager;
 
-    iput-object p2, p0, Landroidx/core/location/c;->b:Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
+    iput-object p2, p0, Landroidx/core/location/c;
+    ->b:Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
 
     return-void
 .end method
@@ -32,11 +35,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/c;->b:Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
+    iget-object v0, p0, Landroidx/core/location/c;
+    ->b:Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;
 
-    iget-object v1, p0, Landroidx/core/location/c;->a:Landroid/location/LocationManager;
+    iget-object v1, p0, Landroidx/core/location/c;
+    ->a:Landroid/location/LocationManager;
 
-    invoke-static {v1, v0}, Landroidx/core/location/LocationManagerCompat;->b(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)Ljava/lang/Boolean;
+    invoke-static {v1, v0}, Landroidx/core/location/LocationManagerCompat;
+    ->b(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)Ljava/lang/Boolean;
 
     move-result-object v0
 

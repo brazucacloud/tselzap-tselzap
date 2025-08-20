@@ -37,12 +37,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, LK/b;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, LK/b;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    sput-object v0, LU/h;->g:LK/b;
+    sput-object v0, LU/h;
+    ->g:LK/b;
 
     .line 9
     .line 10
@@ -53,28 +55,34 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p4, p0, LU/h;->b:LU/j;
+    iput-object p4, p0, LU/h;
+    ->b:LU/j;
 
     .line 5
     .line 6
-    iput-object p1, p0, LU/h;->c:Lu0/f;
+    iput-object p1, p0, LU/h;
+    ->c:Lu0/f;
 
     .line 7
     .line 8
-    iput-object p2, p0, LU/h;->d:Lu0/f;
+    iput-object p2, p0, LU/h;
+    ->d:Lu0/f;
 
     .line 9
     .line 10
-    iput-object p3, p0, LU/h;->e:LU/a;
+    iput-object p3, p0, LU/h;
+    ->e:LU/a;
 
     .line 11
     .line 12
-    iput-object p5, p0, LU/h;->f:Lb1/a;
+    iput-object p5, p0, LU/h;
+    ->f:Lb1/a;
 
     .line 13
     .line 14
@@ -93,12 +101,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -108,7 +118,8 @@
     .line 12
     :cond_0
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -120,7 +131,8 @@
 
     .line 17
     .line 18
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -132,16 +144,19 @@
 
     .line 23
     .line 24
-    iget-wide v1, v1, LU/b;->a:J
+    iget-wide v1, v1, LU/b;
+    ->a:J
 
     .line 25
     .line 26
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
     .line 29
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 30
     .line 31
@@ -157,7 +172,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
@@ -170,12 +186,14 @@
 
     .line 42
     .line 43
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 47
     .line 48
@@ -190,7 +208,8 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p1, p0}, LU/f;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, LU/f;
+    ->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -200,7 +219,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 5
-    invoke-interface {p0}, Landroid/database/Cursor;->close()V
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->close()V
 
     .line 6
     .line 7
@@ -212,7 +232,8 @@
     move-exception p1
 
     .line 10
-    invoke-interface {p0}, Landroid/database/Cursor;->close()V
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->close()V
 
     .line 11
     .line 12
@@ -270,7 +291,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -283,15 +305,18 @@
 
     .line 11
     .line 12
-    iget-object v2, p1, LN/k;->a:Ljava/lang/String;
+    iget-object v2, p1, LN/k;
+    ->a:Ljava/lang/String;
 
     .line 13
     .line 14
-    iget-object v3, p1, LN/k;->c:LK/c;
+    iget-object v3, p1, LN/k;
+    ->c:LK/c;
 
     .line 15
     .line 16
-    invoke-static {v3}, LX/a;->a(LK/c;)I
+    invoke-static {v3}, LX/a;
+    ->a(LK/c;)I
 
     .line 17
     .line 18
@@ -299,7 +324,8 @@
     move-result v3
 
     .line 20
-    invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    invoke-static {v3}, Ljava/lang/String;
+    ->valueOf(I)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -315,7 +341,8 @@
     move-result-object v2
 
     .line 28
-    invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v2}, Ljava/util/Arrays;
+    ->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 29
     .line 30
@@ -323,7 +350,8 @@
     move-result-object v2
 
     .line 32
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 33
     .line 34
@@ -331,7 +359,8 @@
     const/4 v2, 0x0
 
     .line 36
-    iget-object p1, p1, LN/k;->b:[B
+    iget-object p1, p1, LN/k;
+    ->b:[B
 
     .line 37
     .line 38
@@ -343,12 +372,14 @@
 
     .line 41
     .line 42
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    invoke-static {p1, v2}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+    invoke-static {p1, v2}, Landroid/util/Base64;
+    ->encodeToString([BI)Ljava/lang/String;
 
     .line 46
     .line 47
@@ -356,7 +387,8 @@
     move-result-object p1
 
     .line 49
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 50
     .line 51
@@ -369,7 +401,8 @@
 
     .line 54
     .line 55
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
@@ -387,7 +420,8 @@
     move-result-object v5
 
     .line 64
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 65
     .line 66
@@ -399,7 +433,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 71
     .line 72
@@ -430,7 +465,8 @@
     move-object v3, p0
 
     .line 83
-    invoke-virtual/range {v3 .. v10}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v3 .. v10}, Landroid/database/sqlite/SQLiteDatabase;
+    ->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 84
     .line 85
@@ -439,7 +475,8 @@
 
     .line 87
     :try_start_0
-    invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->moveToNext()Z
 
     .line 88
     .line 89
@@ -458,7 +495,8 @@
 
     .line 95
     :cond_1
-    invoke-interface {p0, v2}, Landroid/database/Cursor;->getLong(I)J
+    invoke-interface {p0, v2}, Landroid/database/Cursor;
+    ->getLong(I)J
 
     .line 96
     .line 97
@@ -466,7 +504,8 @@
     move-result-wide v0
 
     .line 99
-    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 100
     .line 101
@@ -477,7 +516,8 @@
 
     .line 103
     :goto_1
-    invoke-interface {p0}, Landroid/database/Cursor;->close()V
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->close()V
 
     .line 104
     .line 105
@@ -492,7 +532,8 @@
     move-object p1, v0
 
     .line 109
-    invoke-interface {p0}, Landroid/database/Cursor;->close()V
+    invoke-interface {p0}, Landroid/database/Cursor;
+    ->close()V
 
     .line 110
     .line 111
@@ -632,20 +673,24 @@
     .locals 10
 
     .line 1
-    iget-object v0, p0, LU/h;->b:LU/j;
+    iget-object v0, p0, LU/h;
+    ->b:LU/j;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, LU/h;->d:Lu0/f;
+    iget-object v1, p0, LU/h;
+    ->d:Lu0/f;
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Lu0/f;->w()J
+    invoke-virtual {v1}, Lu0/f;
+    ->w()J
 
     .line 9
     .line 10
@@ -655,7 +700,8 @@
     .line 12
     :goto_0
     :try_start_0
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;
+    ->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 13
     .line 14
@@ -671,7 +717,8 @@
     move-exception v4
 
     .line 18
-    invoke-virtual {v1}, Lu0/f;->w()J
+    invoke-virtual {v1}, Lu0/f;
+    ->w()J
 
     .line 19
     .line 20
@@ -679,11 +726,13 @@
     move-result-wide v5
 
     .line 22
-    iget-object v7, p0, LU/h;->e:LU/a;
+    iget-object v7, p0, LU/h;
+    ->e:LU/a;
 
     .line 23
     .line 24
-    iget v7, v7, LU/a;->c:I
+    iget v7, v7, LU/a;
+    ->c:I
 
     .line 25
     .line 26
@@ -705,7 +754,8 @@
 
     .line 33
     .line 34
-    invoke-static {v4, v5}, Landroid/os/SystemClock;->sleep(J)V
+    invoke-static {v4, v5}, Landroid/os/SystemClock;
+    ->sleep(J)V
 
     .line 35
     .line 36
@@ -722,7 +772,8 @@
 
     .line 41
     .line 42
-    invoke-direct {v0, v1, v4}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, v4}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 43
     .line 44
@@ -775,11 +826,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LU/h;->b:LU/j;
+    iget-object v0, p0, LU/h;
+    ->b:LU/j;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->close()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;
+    ->close()V
 
     .line 4
     .line 5
@@ -791,7 +844,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, LU/h;->a()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {p0}, LU/h;
+    ->a()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 2
     .line 3
@@ -799,13 +853,15 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->beginTransaction()V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    invoke-interface {p1, v0}, LU/f;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, LU/f;
+    ->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -813,14 +869,16 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->endTransaction()V
 
     .line 16
     .line 17
@@ -832,7 +890,8 @@
     move-exception p1
 
     .line 20
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->endTransaction()V
 
     .line 21
     .line 22
@@ -852,12 +911,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static/range {p1 .. p2}, LU/h;->c(Landroid/database/sqlite/SQLiteDatabase;LN/t;)Ljava/lang/Long;
+    invoke-static/range {p1 .. p2}, LU/h;
+    ->c(Landroid/database/sqlite/SQLiteDatabase;LN/t;)Ljava/lang/Long;
 
     .line 7
     .line 8
@@ -929,7 +990,8 @@
     move-result-object v16
 
     .line 41
-    invoke-virtual {v1}, Ljava/lang/Long;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->toString()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -945,7 +1007,8 @@
     move-result-object v18
 
     .line 49
-    invoke-static/range {p3 .. p3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    invoke-static/range {p3 .. p3}, Ljava/lang/String;
+    ->valueOf(I)Ljava/lang/String;
 
     .line 50
     .line 51
@@ -977,7 +1040,8 @@
 
     .line 64
     .line 65
-    invoke-virtual/range {v14 .. v22}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v14 .. v22}, Landroid/database/sqlite/SQLiteDatabase;
+    ->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 66
     .line 67
@@ -1000,12 +1064,14 @@
 
     .line 75
     .line 76
-    invoke-direct {v2, v4, v0, v5, v3}, LS/b;-><init>(LU/h;Ljava/lang/Object;LN/k;I)V
+    invoke-direct {v2, v4, v0, v5, v3}, LS/b;
+    -><init>(LU/h;Ljava/lang/Object;LN/k;I)V
 
     .line 77
     .line 78
     .line 79
-    invoke-static {v1, v2}, LU/h;->K(Landroid/database/Cursor;LU/f;)Ljava/lang/Object;
+    invoke-static {v1, v2}, LU/h;
+    ->K(Landroid/database/Cursor;LU/f;)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -1021,12 +1087,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p4, p3, p1, p2}, LT/k;-><init>(Ljava/lang/Object;Ljava/lang/Object;J)V
+    invoke-direct {v0, p4, p3, p1, p2}, LT/k;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;J)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, LU/h;->e(LU/f;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, LU/h;
+    ->e(LU/f;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1038,7 +1106,8 @@
     .locals 10
 
     .line 1
-    invoke-virtual {p0}, LU/h;->a()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {p0}, LU/h;
+    ->a()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 2
     .line 3
@@ -1046,11 +1115,13 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, LU/h;->d:Lu0/f;
+    iget-object v1, p0, LU/h;
+    ->d:Lu0/f;
 
     .line 6
     .line 7
-    invoke-virtual {v1}, Lu0/f;->w()J
+    invoke-virtual {v1}, Lu0/f;
+    ->w()J
 
     .line 8
     .line 9
@@ -1060,7 +1131,8 @@
     .line 11
     :goto_0
     :try_start_0
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->beginTransaction()V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteDatabaseLockedException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1068,7 +1140,8 @@
     .line 13
     .line 14
     :try_start_1
-    invoke-interface {p1}, LV/b;->execute()Ljava/lang/Object;
+    invoke-interface {p1}, LV/b;
+    ->execute()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -1076,14 +1149,16 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->setTransactionSuccessful()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->endTransaction()V
 
     .line 22
     .line 23
@@ -1095,7 +1170,8 @@
     move-exception p1
 
     .line 26
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
+    ->endTransaction()V
 
     .line 27
     .line 28
@@ -1107,7 +1183,8 @@
     move-exception v4
 
     .line 31
-    invoke-virtual {v1}, Lu0/f;->w()J
+    invoke-virtual {v1}, Lu0/f;
+    ->w()J
 
     .line 32
     .line 33
@@ -1115,11 +1192,13 @@
     move-result-wide v5
 
     .line 35
-    iget-object v7, p0, LU/h;->e:LU/a;
+    iget-object v7, p0, LU/h;
+    ->e:LU/a;
 
     .line 36
     .line 37
-    iget v7, v7, LU/a;->c:I
+    iget v7, v7, LU/a;
+    ->c:I
 
     .line 38
     .line 39
@@ -1141,7 +1220,8 @@
 
     .line 46
     .line 47
-    invoke-static {v4, v5}, Landroid/os/SystemClock;->sleep(J)V
+    invoke-static {v4, v5}, Landroid/os/SystemClock;
+    ->sleep(J)V
 
     .line 48
     .line 49
@@ -1158,7 +1238,8 @@
 
     .line 54
     .line 55
-    invoke-direct {p1, v0, v4}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p1, v0, v4}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 56
     .line 57

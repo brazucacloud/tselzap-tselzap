@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/viewpager2/widget/ViewPager2;->enforceChildFillListener()Landroidx/recyclerview/widget/RecyclerView$OnChildAttachStateChangeListener;
+    value = Landroidx/viewpager2/widget/ViewPager2;
+    ->enforceChildFillListener()Landroidx/recyclerview/widget/RecyclerView$OnChildAttachStateChangeListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$4;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$4;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -44,7 +47,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 2
     .line 3
@@ -56,7 +60,8 @@
 
     .line 6
     .line 7
-    iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->width:I
+    iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->width:I
 
     .line 8
     .line 9
@@ -67,7 +72,8 @@
 
     .line 11
     .line 12
-    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->height:I
+    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->height:I
 
     .line 13
     .line 14
@@ -83,7 +89,8 @@
 
     .line 20
     .line 21
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23

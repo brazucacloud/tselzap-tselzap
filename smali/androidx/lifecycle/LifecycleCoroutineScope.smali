@@ -11,7 +11,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -39,7 +40,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -51,7 +53,8 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, p1, v1}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1;
+    -><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
 
     .line 10
     .line 11
@@ -59,7 +62,8 @@
     const/4 p1, 0x3
 
     .line 13
-    invoke-static {p0, v1, v0, p1}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {p0, v1, v0, p1}, Lz1/w;
+    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 14
     .line 15
@@ -85,7 +89,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -97,7 +102,8 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, p1, v1}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenResumed$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenResumed$1;
+    -><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
 
     .line 10
     .line 11
@@ -105,7 +111,8 @@
     const/4 p1, 0x3
 
     .line 13
-    invoke-static {p0, v1, v0, p1}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {p0, v1, v0, p1}, Lz1/w;
+    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 14
     .line 15
@@ -131,7 +138,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -143,7 +151,8 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, p1, v1}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenStarted$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenStarted$1;
+    -><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
 
     .line 10
     .line 11
@@ -151,7 +160,8 @@
     const/4 p1, 0x3
 
     .line 13
-    invoke-static {p0, v1, v0, p1}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {p0, v1, v0, p1}, Lz1/w;
+    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 14
     .line 15

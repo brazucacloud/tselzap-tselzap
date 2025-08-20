@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/emoji2/text/flatbuffer/Table;->sortTables([ILjava/nio/ByteBuffer;)V
+    value = Landroidx/emoji2/text/flatbuffer/Table;
+    ->sortTables([ILjava/nio/ByteBuffer;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,15 +38,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/Table$1;->this$0:Landroidx/emoji2/text/flatbuffer/Table;
+    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/Table$1;
+    ->this$0:Landroidx/emoji2/text/flatbuffer/Table;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/emoji2/text/flatbuffer/Table$1;->val$bb:Ljava/nio/ByteBuffer;
+    iput-object p2, p0, Landroidx/emoji2/text/flatbuffer/Table$1;
+    ->val$bb:Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 6
     .line 7
@@ -59,11 +63,14 @@
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/Table$1;->this$0:Landroidx/emoji2/text/flatbuffer/Table;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/Table$1;
+    ->this$0:Landroidx/emoji2/text/flatbuffer/Table;
 
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/Table$1;->val$bb:Ljava/nio/ByteBuffer;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/Table$1;
+    ->val$bb:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/emoji2/text/flatbuffer/Table;->keysCompare(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/nio/ByteBuffer;)I
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/emoji2/text/flatbuffer/Table;
+    ->keysCompare(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/nio/ByteBuffer;)I
 
     move-result p1
 
@@ -78,7 +85,8 @@
 
     check-cast p2, Ljava/lang/Integer;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Table$1;->compare(Ljava/lang/Integer;Ljava/lang/Integer;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Table$1;
+    ->compare(Ljava/lang/Integer;Ljava/lang/Integer;)I
 
     move-result p1
 

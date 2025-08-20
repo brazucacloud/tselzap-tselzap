@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/dynamicanimation/animation/DynamicAnimation;-><init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
+    value = Landroidx/dynamicanimation/animation/DynamicAnimation;
+    -><init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,15 +26,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;->this$0:Landroidx/dynamicanimation/animation/DynamicAnimation;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;
+    ->this$0:Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 2
     .line 3
-    iput-object p3, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;->val$floatValueHolder:Landroidx/dynamicanimation/animation/FloatValueHolder;
+    iput-object p3, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;
+    ->val$floatValueHolder:Landroidx/dynamicanimation/animation/FloatValueHolder;
 
     .line 4
     .line 5
-    invoke-direct {p0, p2}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p2}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;
+    -><init>(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -43,11 +47,13 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;->val$floatValueHolder:Landroidx/dynamicanimation/animation/FloatValueHolder;
+    iget-object p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;
+    ->val$floatValueHolder:Landroidx/dynamicanimation/animation/FloatValueHolder;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/dynamicanimation/animation/FloatValueHolder;->getValue()F
+    invoke-virtual {p1}, Landroidx/dynamicanimation/animation/FloatValueHolder;
+    ->getValue()F
 
     .line 4
     .line 5
@@ -61,11 +67,14 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;->val$floatValueHolder:Landroidx/dynamicanimation/animation/FloatValueHolder;
+    iget-object p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation$15;
+    ->val$floatValueHolder:Landroidx/dynamicanimation/animation/FloatValueHolder;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroidx/dynamicanimation/animation/FloatValueHolder;->setValue(F)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/dynamicanimation/animation/FloatValueHolder;
+    ->setValue(F)V    
+    return-void
 .end method
 
 .end class

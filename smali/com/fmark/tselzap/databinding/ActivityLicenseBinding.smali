@@ -103,48 +103,59 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->rootView:Landroidx/constraintlayout/widget/ConstraintLayout;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->rootView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->btnAtivar:Lcom/google/android/material/button/MaterialButton;
+    iput-object p2, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->btnAtivar:Lcom/google/android/material/button/MaterialButton;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->btnCadastrar:Lcom/google/android/material/button/MaterialButton;
+    iput-object p3, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->btnCadastrar:Lcom/google/android/material/button/MaterialButton;
 
     .line 9
     .line 10
-    iput-object p4, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->btnColar:Landroid/widget/Button;
+    iput-object p4, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->btnColar:Landroid/widget/Button;
 
     .line 11
     .line 12
-    iput-object p5, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->edtKeyPart1:Landroid/widget/EditText;
+    iput-object p5, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->edtKeyPart1:Landroid/widget/EditText;
 
     .line 13
     .line 14
-    iput-object p6, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->edtKeyPart2:Landroid/widget/EditText;
+    iput-object p6, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->edtKeyPart2:Landroid/widget/EditText;
 
     .line 15
     .line 16
-    iput-object p7, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->edtKeyPart3:Landroid/widget/EditText;
+    iput-object p7, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->edtKeyPart3:Landroid/widget/EditText;
 
     .line 17
     .line 18
-    iput-object p8, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->edtKeyPart4:Landroid/widget/EditText;
+    iput-object p8, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->edtKeyPart4:Landroid/widget/EditText;
 
     .line 19
     .line 20
-    iput-object p9, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->linearLayout3:Landroid/widget/LinearLayout;
+    iput-object p9, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->linearLayout3:Landroid/widget/LinearLayout;
 
     .line 21
     .line 22
-    iput-object p10, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->textView5:Landroid/widget/TextView;
+    iput-object p10, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->textView5:Landroid/widget/TextView;
 
     .line 23
     .line 24
@@ -166,7 +177,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -190,7 +202,8 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 17
     .line 18
@@ -214,7 +227,8 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 29
     .line 30
@@ -238,7 +252,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 41
     .line 42
@@ -262,7 +277,8 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 53
     .line 54
@@ -286,7 +302,8 @@
     .line 62
     .line 63
     .line 64
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 65
     .line 66
@@ -310,7 +327,8 @@
     .line 74
     .line 75
     .line 76
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 77
     .line 78
@@ -334,7 +352,8 @@
     .line 86
     .line 87
     .line 88
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 89
     .line 90
@@ -358,7 +377,8 @@
     .line 98
     .line 99
     .line 100
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
+    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 101
     .line 102
@@ -388,7 +408,8 @@
 
     .line 113
     .line 114
-    invoke-direct/range {v2 .. v12}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;-><init>(Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/button/MaterialButton;Landroid/widget/Button;Landroid/widget/EditText;Landroid/widget/EditText;Landroid/widget/EditText;Landroid/widget/EditText;Landroid/widget/LinearLayout;Landroid/widget/TextView;)V
+    invoke-direct/range {v2 .. v12}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    -><init>(Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/button/MaterialButton;Landroid/widget/Button;Landroid/widget/EditText;Landroid/widget/EditText;Landroid/widget/EditText;Landroid/widget/EditText;Landroid/widget/LinearLayout;Landroid/widget/TextView;)V
 
     .line 115
     .line 116
@@ -397,7 +418,8 @@
 
     .line 118
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 119
     .line 120
@@ -405,7 +427,8 @@
     move-result-object p0
 
     .line 122
-    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;
+    ->getResourceName(I)Ljava/lang/String;
 
     .line 123
     .line 124
@@ -421,7 +444,8 @@
 
     .line 129
     .line 130
-    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 131
     .line 132
@@ -429,7 +453,8 @@
     move-result-object p0
 
     .line 134
-    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 135
     .line 136
@@ -557,7 +582,8 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
 
     move-result-object p0
 
@@ -582,18 +608,21 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;
+    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;)V
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    invoke-static {p0}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
 
     move-result-object p0
 
@@ -608,7 +637,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->getRoot()Landroidx/constraintlayout/widget/ConstraintLayout;
+    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->getRoot()Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-result-object v0
 
@@ -621,7 +651,8 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;->rootView:Landroidx/constraintlayout/widget/ConstraintLayout;
+    iget-object v0, p0, Lcom/fmark/tselzap/databinding/ActivityLicenseBinding;
+    ->rootView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     return-object v0
 .end method

@@ -32,11 +32,13 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzfz$zza;->zza()Lcom/google/android/gms/internal/measurement/zzfz$zza;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzfz$zza;
+    ->zza()Lcom/google/android/gms/internal/measurement/zzfz$zza;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;-><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;
+    -><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
     return-void
 .end method
 
@@ -44,7 +46,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzfz$zza$zzb;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzfz$zza$zzb;
+    -><init>()V
     return-void
 .end method
 

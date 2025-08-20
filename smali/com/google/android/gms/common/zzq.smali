@@ -57,9 +57,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/zzr;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/zzr;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/zzr;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/zzq;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/zzq;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -90,20 +92,24 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p1, p0, Lcom/google/android/gms/common/zzq;->zza:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/zzq;
+    ->zza:Z
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/google/android/gms/common/zzq;->zzb:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/common/zzq;
+    ->zzb:Ljava/lang/String;
 
     .line 7
     .line 8
-    invoke-static {p3}, Lcom/google/android/gms/common/zzx;->zza(I)I
+    invoke-static {p3}, Lcom/google/android/gms/common/zzx;
+    ->zza(I)I
 
     .line 9
     .line 10
@@ -115,11 +121,13 @@
 
     .line 13
     .line 14
-    iput p1, p0, Lcom/google/android/gms/common/zzq;->zzc:I
+    iput p1, p0, Lcom/google/android/gms/common/zzq;
+    ->zzc:I
 
     .line 15
     .line 16
-    invoke-static {p4}, Lcom/google/android/gms/common/zzd;->zza(I)I
+    invoke-static {p4}, Lcom/google/android/gms/common/zzd;
+    ->zza(I)I
 
     .line 17
     .line 18
@@ -131,7 +139,8 @@
 
     .line 21
     .line 22
-    iput p1, p0, Lcom/google/android/gms/common/zzq;->zzd:I
+    iput p1, p0, Lcom/google/android/gms/common/zzq;
+    ->zzd:I
 
     .line 23
     .line 24
@@ -144,7 +153,8 @@
     .locals 3
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -155,16 +165,19 @@
     const/4 v0, 0x1
 
     .line 6
-    iget-boolean v1, p0, Lcom/google/android/gms/common/zzq;->zza:Z
+    iget-boolean v1, p0, Lcom/google/android/gms/common/zzq;
+    ->zza:Z
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeBoolean(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeBoolean(Landroid/os/Parcel;IZ)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/google/android/gms/common/zzq;->zzb:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/zzq;
+    ->zzb:Ljava/lang/String;
 
     .line 12
     .line 13
@@ -174,7 +187,8 @@
     const/4 v2, 0x2
 
     .line 15
-    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeString(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeString(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 16
     .line 17
@@ -182,11 +196,13 @@
     const/4 v0, 0x3
 
     .line 19
-    iget v1, p0, Lcom/google/android/gms/common/zzq;->zzc:I
+    iget v1, p0, Lcom/google/android/gms/common/zzq;
+    ->zzc:I
 
     .line 20
     .line 21
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 22
     .line 23
@@ -194,16 +210,19 @@
     const/4 v0, 0x4
 
     .line 25
-    iget v1, p0, Lcom/google/android/gms/common/zzq;->zzd:I
+    iget v1, p0, Lcom/google/android/gms/common/zzq;
+    ->zzd:I
 
     .line 26
     .line 27
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 31
     .line 32
@@ -214,7 +233,8 @@
 .method public final zza()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/common/zzq;->zzb:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/zzq;
+    ->zzb:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -222,7 +242,8 @@
 .method public final zzb()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/zzq;->zza:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/zzq;
+    ->zza:Z
 
     return v0
 .end method
@@ -231,11 +252,13 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/common/zzq;->zzd:I
+    iget v0, p0, Lcom/google/android/gms/common/zzq;
+    ->zzd:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/zzd;->zza(I)I
+    invoke-static {v0}, Lcom/google/android/gms/common/zzd;
+    ->zza(I)I
 
     .line 4
     .line 5
@@ -249,11 +272,13 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/common/zzq;->zzc:I
+    iget v0, p0, Lcom/google/android/gms/common/zzq;
+    ->zzc:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/zzx;->zza(I)I
+    invoke-static {v0}, Lcom/google/android/gms/common/zzx;
+    ->zza(I)I
 
     .line 4
     .line 5

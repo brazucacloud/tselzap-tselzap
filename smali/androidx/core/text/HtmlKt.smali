@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/text/HtmlCompat;->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/text/HtmlCompat;
+    ->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
 
     .line 2
     .line 3
@@ -61,7 +62,8 @@
 
     .line 17
     :cond_2
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/text/HtmlCompat;->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/text/HtmlCompat;
+    ->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
 
     .line 18
     .line 19
@@ -75,7 +77,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat;->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat;
+    ->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -101,7 +104,8 @@
 
     .line 6
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat;->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat;
+    ->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
 
     .line 7
     .line 8

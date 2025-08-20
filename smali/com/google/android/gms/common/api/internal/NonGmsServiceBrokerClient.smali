@@ -101,7 +101,8 @@
     move-object v7, p5
 
     .line 1
-    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;-><init>(Landroid/content/Context;Landroid/os/Looper;Ljava/lang/String;Ljava/lang/String;Landroid/content/ComponentName;Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;)V
+    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    -><init>(Landroid/content/Context;Landroid/os/Looper;Ljava/lang/String;Ljava/lang/String;Landroid/content/ComponentName;Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;)V
 return-void
 .end method
 
@@ -121,27 +122,35 @@ return-void
     .end param
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zak:Ljava/lang/String;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zak:Ljava/lang/String;
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zae:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zae:Landroid/content/Context;
 
     new-instance p1, Lcom/google/android/gms/internal/base/zau;
 
-    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/base/zau;
+    -><init>(Landroid/os/Looper;)V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zag:Landroid/os/Handler;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zag:Landroid/os/Handler;
 
-    iput-object p6, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaf:Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    iput-object p6, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaf:Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
 
-    iput-object p7, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zah:Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;
+    iput-object p7, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zah:Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;
 
     if-eqz p3, :cond_0
 
@@ -157,11 +166,14 @@ return-void
     if-eqz p5, :cond_1
 
     :goto_0
-    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zab:Ljava/lang/String;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zab:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zac:Ljava/lang/String;
+    iput-object p4, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zac:Ljava/lang/String;
 
-    iput-object p5, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad:Landroid/content/ComponentName;
+    iput-object p5, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad:Landroid/content/ComponentName;
 
     return-void
 
@@ -171,7 +183,8 @@ return-void
     const-string p2, "Must specify either package or component, but not both"
 
     .line 3
-    invoke-direct {p1, p2}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p2}, Ljava/lang/AssertionError;
+    -><init>(Ljava/lang/Object;)V
 
     throw p1
 .end method
@@ -222,7 +235,8 @@ return-void
     move-object v7, p6
 
     .line 4
-    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;-><init>(Landroid/content/Context;Landroid/os/Looper;Ljava/lang/String;Ljava/lang/String;Landroid/content/ComponentName;Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;)V
+    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    -><init>(Landroid/content/Context;Landroid/os/Looper;Ljava/lang/String;Ljava/lang/String;Landroid/content/ComponentName;Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;)V
 return-void
 .end method
 
@@ -232,11 +246,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zag:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zag:Landroid/os/Handler;
 
     .line 2
     .line 3
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;
+    ->currentThread()Ljava/lang/Thread;
 
     .line 4
     .line 5
@@ -244,7 +260,8 @@ return-void
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
+    invoke-virtual {v0}, Landroid/os/Handler;
+    ->getLooper()Landroid/os/Looper;
 
     .line 8
     .line 9
@@ -252,7 +269,8 @@ return-void
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0}, Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+    invoke-virtual {v0}, Landroid/os/Looper;
+    ->getThread()Ljava/lang/Thread;
 
     .line 12
     .line 13
@@ -276,7 +294,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -357,21 +376,25 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad()V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 5
     .line 6
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->isConnected()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->isConnected()Z
 
     .line 10
     .line 11
@@ -388,7 +411,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->disconnect(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->disconnect(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -405,12 +429,14 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;
+    -><init>()V
 
     .line 24
     .line 25
     .line 26
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad:Landroid/content/ComponentName;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad:Landroid/content/ComponentName;
 
     .line 27
     .line 28
@@ -418,7 +444,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     .line 31
     .line 32
@@ -434,11 +461,13 @@ return-void
 
     .line 36
     :cond_1
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zab:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zab:Ljava/lang/String;
 
     .line 37
     .line 38
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 39
     .line 40
@@ -446,21 +475,25 @@ return-void
     move-result-object v1
 
     .line 42
-    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zac:Ljava/lang/String;
+    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zac:Ljava/lang/String;
 
     .line 43
     .line 44
-    invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v2}, Landroid/content/Intent;
+    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 45
     .line 46
     .line 47
     :goto_0
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zae:Landroid/content/Context;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zae:Landroid/content/Context;
 
     .line 48
     .line 49
-    invoke-static {}, Lcom/google/android/gms/common/internal/GmsClientSupervisor;->getDefaultBindFlags()I
+    invoke-static {}, Lcom/google/android/gms/common/internal/GmsClientSupervisor;
+    ->getDefaultBindFlags()I
 
     .line 50
     .line 51
@@ -468,7 +501,8 @@ return-void
     move-result v2
 
     .line 53
-    invoke-virtual {v1, v0, p0, v2}, Landroid/content/Context;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
+    invoke-virtual {v1, v0, p0, v2}, Landroid/content/Context;
+    ->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
 
     .line 54
     .line 55
@@ -476,7 +510,8 @@ return-void
     move-result v0
 
     .line 57
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
     :try_end_1
     .catch Ljava/lang/SecurityException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -486,11 +521,13 @@ return-void
 
     .line 60
     .line 61
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 62
     .line 63
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zah:Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zah:Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;
 
     .line 64
     .line 65
@@ -502,22 +539,26 @@ return-void
 
     .line 68
     .line 69
-    invoke-direct {v0, v1}, Lcom/google/android/gms/common/ConnectionResult;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/common/ConnectionResult;
+    -><init>(I)V
 
     .line 70
     .line 71
     .line 72
-    invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;->onConnectionFailed(Lcom/google/android/gms/common/ConnectionResult;)V
+    invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;
+    ->onConnectionFailed(Lcom/google/android/gms/common/ConnectionResult;)V
 
     .line 73
     .line 74
     .line 75
     :cond_2
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 76
     .line 77
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -529,11 +570,13 @@ return-void
     const/4 v1, 0x0
 
     .line 82
-    iput-boolean v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iput-boolean v1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
 
     .line 83
     .line 84
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 85
     .line 86
@@ -703,29 +746,36 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad()V
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 2
-    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zae:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zae:Landroid/content/Context;
 
     .line 3
-    invoke-virtual {v0, p0}, Landroid/content/Context;->unbindService(Landroid/content/ServiceConnection;)V
+    invoke-virtual {v0, p0}, Landroid/content/Context;
+    ->unbindService(Landroid/content/ServiceConnection;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
     :catch_0
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     return-void
 .end method
@@ -740,12 +790,15 @@ return-void
     .end annotation
 
     .line 4
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zak:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zak:Ljava/lang/String;
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->disconnect()V
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->disconnect()V
     return-void
 .end method
 
@@ -795,12 +848,14 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 5
     .line 6
@@ -813,7 +868,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zab:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zab:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -825,20 +881,24 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad:Landroid/content/ComponentName;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad:Landroid/content/ComponentName;
 
     .line 7
     .line 8
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad:Landroid/content/ComponentName;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad:Landroid/content/ComponentName;
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/content/ComponentName;
+    ->getPackageName()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -853,7 +913,8 @@ return-void
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zak:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zak:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -916,7 +977,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
+    sget-object v0, Ljava/util/Collections;
+    ->EMPTY_SET:Ljava/util/Set;
 
     .line 2
     .line 3
@@ -943,7 +1005,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;
+    -><init>()V
 
     .line 4
     .line 5
@@ -957,12 +1020,14 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 5
     .line 6
@@ -987,12 +1052,14 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zad()V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
 
     .line 5
     .line 6
@@ -1015,16 +1082,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {p1, p0, p2}, Lcom/google/android/gms/common/api/internal/zacg;-><init>(Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;Landroid/os/IBinder;)V
+    invoke-direct {p1, p0, p2}, Lcom/google/android/gms/common/api/internal/zacg;
+    -><init>(Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;Landroid/os/IBinder;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p2, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zag:Landroid/os/Handler;
+    iget-object p2, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zag:Landroid/os/Handler;
 
     .line 7
     .line 8
-    invoke-virtual {p2, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p2, p1}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 9
     .line 10
@@ -1044,16 +1114,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {p1, p0}, Lcom/google/android/gms/common/api/internal/zacf;-><init>(Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;)V
+    invoke-direct {p1, p0}, Lcom/google/android/gms/common/api/internal/zacf;
+    -><init>(Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zag:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zag:Landroid/os/Handler;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p1}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 9
     .line 10
@@ -1110,15 +1183,18 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 5
     .line 6
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -1127,16 +1203,19 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p1}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaf:Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaf:Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
 
     .line 15
     .line 16
-    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnected(Landroid/os/Bundle;)V
+    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    ->onConnected(Landroid/os/Bundle;)V
 
     .line 17
     .line 18
@@ -1151,25 +1230,29 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaj:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaj:Z
 
     .line 3
     .line 4
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zai:Landroid/os/IBinder;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zai:Landroid/os/IBinder;
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaf:Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zaf:Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
 
     .line 8
     .line 9
     const/4 v1, 0x1
 
     .line 10
-    invoke-interface {v0, v1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnectionSuspended(I)V
+    invoke-interface {v0, v1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    ->onConnectionSuspended(I)V
 
     .line 11
     .line 12
@@ -1184,7 +1267,8 @@ return-void
         .end annotation
     .end param
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zal:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
+    ->zal:Ljava/lang/String;
 
     return-void
 .end method

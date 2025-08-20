@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    iput p3, p0, Landroidx/core/location/f;->b:I
+    iput p3, p0, Landroidx/core/location/f;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/core/location/f;->c:Landroidx/core/util/Consumer;
+    iput-object p1, p0, Landroidx/core/location/f;
+    ->c:Landroidx/core/util/Consumer;
 
-    iput-object p2, p0, Landroidx/core/location/f;->d:Landroid/location/Location;
+    iput-object p2, p0, Landroidx/core/location/f;
+    ->d:Landroid/location/Location;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -35,23 +39,30 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/location/f;->b:I
+    iget v0, p0, Landroidx/core/location/f;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/location/f;->d:Landroid/location/Location;
+    iget-object v0, p0, Landroidx/core/location/f;
+    ->d:Landroid/location/Location;
 
-    iget-object v1, p0, Landroidx/core/location/f;->c:Landroidx/core/util/Consumer;
+    iget-object v1, p0, Landroidx/core/location/f;
+    ->c:Landroidx/core/util/Consumer;
 
-    invoke-static {v1, v0}, Landroidx/core/location/LocationManagerCompat;->a(Landroidx/core/util/Consumer;Landroid/location/Location;)V
+    invoke-static {v1, v0}, Landroidx/core/location/LocationManagerCompat;
+    ->a(Landroidx/core/util/Consumer;Landroid/location/Location;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/location/f;->c:Landroidx/core/util/Consumer;
+    iget-object v0, p0, Landroidx/core/location/f;
+    ->c:Landroidx/core/util/Consumer;
 
-    iget-object v1, p0, Landroidx/core/location/f;->d:Landroid/location/Location;
+    iget-object v1, p0, Landroidx/core/location/f;
+    ->d:Landroid/location/Location;
 
-    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;->b(Landroidx/core/util/Consumer;Landroid/location/Location;)V
+    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;
+    ->b(Landroidx/core/util/Consumer;Landroid/location/Location;)V
 return-void
 
     nop

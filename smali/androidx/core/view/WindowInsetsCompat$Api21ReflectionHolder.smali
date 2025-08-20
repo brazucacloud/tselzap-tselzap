@@ -48,7 +48,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 6
     .line 7
@@ -56,14 +57,16 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sViewAttachInfoField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sViewAttachInfoField:Ljava/lang/reflect/Field;
 
     .line 10
     .line 11
     const/4 v1, 0x1
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 13
     .line 14
@@ -72,7 +75,8 @@
 
     .line 16
     .line 17
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -84,7 +88,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v2}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 24
     .line 25
@@ -92,11 +97,13 @@
     move-result-object v2
 
     .line 27
-    sput-object v2, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sStableInsets:Ljava/lang/reflect/Field;
+    sput-object v2, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sStableInsets:Ljava/lang/reflect/Field;
 
     .line 28
     .line 29
-    invoke-virtual {v2, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v2, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 30
     .line 31
@@ -105,7 +112,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v2}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 35
     .line 36
@@ -113,16 +121,19 @@
     move-result-object v0
 
     .line 38
-    sput-object v0, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sContentInsets:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sContentInsets:Ljava/lang/reflect/Field;
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
 
     .line 41
     .line 42
     .line 43
-    sput-boolean v1, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sReflectionSucceeded:Z
+    sput-boolean v1, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sReflectionSucceeded:Z
     :try_end_0
     .catch Ljava/lang/ReflectiveOperationException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -143,12 +154,14 @@
 
     .line 50
     .line 51
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 52
     .line 53
     .line 54
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -156,12 +169,14 @@
     move-result-object v2
 
     .line 58
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 62
     .line 63
@@ -173,7 +188,8 @@
 
     .line 66
     .line 67
-    invoke-static {v2, v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v1, v0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 68
     .line 69
@@ -185,7 +201,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -203,7 +220,8 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sReflectionSucceeded:Z
+    sget-boolean v0, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sReflectionSucceeded:Z
 
     .line 2
     .line 3
@@ -214,7 +232,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->isAttachedToWindow()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isAttachedToWindow()Z
 
     .line 7
     .line 8
@@ -230,7 +249,8 @@
 
     .line 13
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getRootView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRootView()Landroid/view/View;
 
     .line 14
     .line 15
@@ -239,11 +259,13 @@
 
     .line 17
     :try_start_0
-    sget-object v2, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sViewAttachInfoField:Ljava/lang/reflect/Field;
+    sget-object v2, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sViewAttachInfoField:Ljava/lang/reflect/Field;
 
     .line 18
     .line 19
-    invoke-virtual {v2, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -255,11 +277,13 @@
 
     .line 24
     .line 25
-    sget-object v2, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sStableInsets:Ljava/lang/reflect/Field;
+    sget-object v2, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sStableInsets:Ljava/lang/reflect/Field;
 
     .line 26
     .line 27
-    invoke-virtual {v2, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -271,11 +295,13 @@
 
     .line 32
     .line 33
-    sget-object v3, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->sContentInsets:Ljava/lang/reflect/Field;
+    sget-object v3, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->sContentInsets:Ljava/lang/reflect/Field;
 
     .line 34
     .line 35
-    invoke-virtual {v3, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -299,12 +325,14 @@
 
     .line 46
     .line 47
-    invoke-direct {v3}, Landroidx/core/view/WindowInsetsCompat$Builder;-><init>()V
+    invoke-direct {v3}, Landroidx/core/view/WindowInsetsCompat$Builder;
+    -><init>()V
 
     .line 48
     .line 49
     .line 50
-    invoke-static {v2}, Landroidx/core/graphics/Insets;->of(Landroid/graphics/Rect;)Landroidx/core/graphics/Insets;
+    invoke-static {v2}, Landroidx/core/graphics/Insets;
+    ->of(Landroid/graphics/Rect;)Landroidx/core/graphics/Insets;
 
     .line 51
     .line 52
@@ -312,7 +340,8 @@
     move-result-object v2
 
     .line 54
-    invoke-virtual {v3, v2}, Landroidx/core/view/WindowInsetsCompat$Builder;->setStableInsets(Landroidx/core/graphics/Insets;)Landroidx/core/view/WindowInsetsCompat$Builder;
+    invoke-virtual {v3, v2}, Landroidx/core/view/WindowInsetsCompat$Builder;
+    ->setStableInsets(Landroidx/core/graphics/Insets;)Landroidx/core/view/WindowInsetsCompat$Builder;
 
     .line 55
     .line 56
@@ -320,7 +349,8 @@
     move-result-object v2
 
     .line 58
-    invoke-static {v0}, Landroidx/core/graphics/Insets;->of(Landroid/graphics/Rect;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;
+    ->of(Landroid/graphics/Rect;)Landroidx/core/graphics/Insets;
 
     .line 59
     .line 60
@@ -328,7 +358,8 @@
     move-result-object v0
 
     .line 62
-    invoke-virtual {v2, v0}, Landroidx/core/view/WindowInsetsCompat$Builder;->setSystemWindowInsets(Landroidx/core/graphics/Insets;)Landroidx/core/view/WindowInsetsCompat$Builder;
+    invoke-virtual {v2, v0}, Landroidx/core/view/WindowInsetsCompat$Builder;
+    ->setSystemWindowInsets(Landroidx/core/graphics/Insets;)Landroidx/core/view/WindowInsetsCompat$Builder;
 
     .line 63
     .line 64
@@ -336,7 +367,8 @@
     move-result-object v0
 
     .line 66
-    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsCompat$Builder;->build()Landroidx/core/view/WindowInsetsCompat;
+    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsCompat$Builder;
+    ->build()Landroidx/core/view/WindowInsetsCompat;
 
     .line 67
     .line 68
@@ -344,12 +376,14 @@
     move-result-object v0
 
     .line 70
-    invoke-virtual {v0, v0}, Landroidx/core/view/WindowInsetsCompat;->setRootWindowInsets(Landroidx/core/view/WindowInsetsCompat;)V
+    invoke-virtual {v0, v0}, Landroidx/core/view/WindowInsetsCompat;
+    ->setRootWindowInsets(Landroidx/core/view/WindowInsetsCompat;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {p0}, Landroid/view/View;->getRootView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getRootView()Landroid/view/View;
 
     .line 74
     .line 75
@@ -357,7 +391,8 @@
     move-result-object p0
 
     .line 77
-    invoke-virtual {v0, p0}, Landroidx/core/view/WindowInsetsCompat;->copyRootViewBounds(Landroid/view/View;)V
+    invoke-virtual {v0, p0}, Landroidx/core/view/WindowInsetsCompat;
+    ->copyRootViewBounds(Landroid/view/View;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -379,12 +414,14 @@
 
     .line 85
     .line 86
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 90
     .line 91
@@ -392,12 +429,14 @@
     move-result-object v2
 
     .line 93
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 94
     .line 95
     .line 96
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 97
     .line 98
@@ -409,7 +448,8 @@
 
     .line 101
     .line 102
-    invoke-static {v2, v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v0, p0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 103
     .line 104

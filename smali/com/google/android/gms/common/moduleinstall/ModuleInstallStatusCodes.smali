@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/CommonStatusCodes;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/CommonStatusCodes;
+    -><init>()V
 
     .line 2
     .line 3
@@ -39,7 +40,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Lcom/google/android/gms/common/api/CommonStatusCodes;->getStatusCodeString(I)Ljava/lang/String;
+    invoke-static {p0}, Lcom/google/android/gms/common/api/CommonStatusCodes;
+    ->getStatusCodeString(I)Ljava/lang/String;
 
     .line 5
     .line 6

@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iput-object p1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +42,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 4
     .line 5
@@ -55,25 +59,30 @@
     const/4 v1, 0x0
 
     .line 8
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->setProgress(F)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 12
     .line 13
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$100(Landroidx/constraintlayout/helper/widget/Carousel;)V
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$100(Landroidx/constraintlayout/helper/widget/Carousel;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 17
     .line 18
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$300(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$300(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
 
     .line 19
     .line 20
@@ -81,11 +90,13 @@
     move-result-object v0
 
     .line 22
-    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 23
     .line 24
-    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 25
     .line 26
@@ -93,16 +104,19 @@
     move-result v1
 
     .line 28
-    invoke-interface {v0, v1}, Landroidx/constraintlayout/helper/widget/Carousel$Adapter;->onNewItem(I)V
+    invoke-interface {v0, v1}, Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
+    ->onNewItem(I)V
 
     .line 29
     .line 30
     .line 31
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 32
     .line 33
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 34
     .line 35
@@ -110,7 +124,8 @@
     move-result-object v0
 
     .line 37
-    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getVelocity()F
+    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getVelocity()F
 
     .line 38
     .line 39
@@ -118,11 +133,13 @@
     move-result v0
 
     .line 41
-    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 42
     .line 43
-    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;->access$400(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$400(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 44
     .line 45
@@ -137,11 +154,13 @@
 
     .line 49
     .line 50
-    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 51
     .line 52
-    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;->access$500(Landroidx/constraintlayout/helper/widget/Carousel;)F
+    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$500(Landroidx/constraintlayout/helper/widget/Carousel;)F
 
     .line 53
     .line 54
@@ -157,11 +176,13 @@
 
     .line 59
     .line 60
-    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 61
     .line 62
-    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 63
     .line 64
@@ -169,11 +190,13 @@
     move-result v1
 
     .line 66
-    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 67
     .line 68
-    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;->access$300(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
+    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$300(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
 
     .line 69
     .line 70
@@ -181,7 +204,8 @@
     move-result-object v2
 
     .line 72
-    invoke-interface {v2}, Landroidx/constraintlayout/helper/widget/Carousel$Adapter;->count()I
+    invoke-interface {v2}, Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
+    ->count()I
 
     .line 73
     .line 74
@@ -197,11 +221,13 @@
 
     .line 79
     .line 80
-    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v1, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 81
     .line 82
-    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;->access$600(Landroidx/constraintlayout/helper/widget/Carousel;)F
+    invoke-static {v1}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$600(Landroidx/constraintlayout/helper/widget/Carousel;)F
 
     .line 83
     .line 84
@@ -213,11 +239,13 @@
 
     .line 87
     .line 88
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 89
     .line 90
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 91
     .line 92
@@ -229,11 +257,13 @@
 
     .line 95
     .line 96
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 97
     .line 98
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$700(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$700(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 99
     .line 100
@@ -241,11 +271,13 @@
     move-result v0
 
     .line 102
-    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 103
     .line 104
-    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 105
     .line 106
@@ -261,11 +293,13 @@
 
     .line 111
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 112
     .line 113
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 114
     .line 115
@@ -273,11 +307,13 @@
     move-result v0
 
     .line 117
-    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 118
     .line 119
-    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;->access$300(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
+    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$300(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
 
     .line 120
     .line 121
@@ -285,7 +321,8 @@
     move-result-object v2
 
     .line 123
-    invoke-interface {v2}, Landroidx/constraintlayout/helper/widget/Carousel$Adapter;->count()I
+    invoke-interface {v2}, Landroidx/constraintlayout/helper/widget/Carousel$Adapter;
+    ->count()I
 
     .line 124
     .line 125
@@ -301,11 +338,13 @@
 
     .line 130
     .line 131
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 132
     .line 133
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$700(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$700(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 134
     .line 135
@@ -313,11 +352,13 @@
     move-result v0
 
     .line 137
-    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v2, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 138
     .line 139
-    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
+    invoke-static {v2}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
 
     .line 140
     .line 141
@@ -333,11 +374,13 @@
 
     .line 146
     :cond_1
-    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
+    iget-object v0, p0, Landroidx/constraintlayout/helper/widget/Carousel$1;
+    ->this$0:Landroidx/constraintlayout/helper/widget/Carousel;
 
     .line 147
     .line 148
-    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;->access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
+    invoke-static {v0}, Landroidx/constraintlayout/helper/widget/Carousel;
+    ->access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 149
     .line 150
@@ -349,12 +392,14 @@
 
     .line 153
     .line 154
-    invoke-direct {v2, p0, v1}, Landroidx/constraintlayout/helper/widget/Carousel$1$1;-><init>(Landroidx/constraintlayout/helper/widget/Carousel$1;F)V
+    invoke-direct {v2, p0, v1}, Landroidx/constraintlayout/helper/widget/Carousel$1$1;
+    -><init>(Landroidx/constraintlayout/helper/widget/Carousel$1;F)V
 
     .line 155
     .line 156
     .line 157
-    invoke-virtual {v0, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v2}, Landroid/view/View;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 158
     .line 159

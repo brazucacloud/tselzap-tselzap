@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/material/timepicker/j;->b:Lcom/google/android/material/timepicker/TimePickerView;
+    iput-object p1, p0, Lcom/google/android/material/timepicker/j;
+    ->b:Lcom/google/android/material/timepicker/TimePickerView;
 
     .line 5
     .line 6
@@ -33,15 +35,18 @@
     .locals 0
 
     .line 1
-    sget p1, Lcom/google/android/material/timepicker/TimePickerView;->c:I
+    sget p1, Lcom/google/android/material/timepicker/TimePickerView;
+    ->c:I
 
     .line 2
     .line 3
-    iget-object p1, p0, Lcom/google/android/material/timepicker/j;->b:Lcom/google/android/material/timepicker/TimePickerView;
+    iget-object p1, p0, Lcom/google/android/material/timepicker/j;
+    ->b:Lcom/google/android/material/timepicker/TimePickerView;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 6
     .line 7

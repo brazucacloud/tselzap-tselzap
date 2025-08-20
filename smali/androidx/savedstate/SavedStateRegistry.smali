@@ -59,9 +59,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/savedstate/SavedStateRegistry$Companion;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/savedstate/SavedStateRegistry$Companion;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/savedstate/SavedStateRegistry;->Companion:Landroidx/savedstate/SavedStateRegistry$Companion;
+    sput-object v0, Landroidx/savedstate/SavedStateRegistry;
+    ->Companion:Landroidx/savedstate/SavedStateRegistry$Companion;
 
     return-void
 .end method
@@ -70,7 +72,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -79,19 +82,22 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/arch/core/internal/SafeIterableMap;-><init>()V
+    invoke-direct {v0}, Landroidx/arch/core/internal/SafeIterableMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->components:Landroidx/arch/core/internal/SafeIterableMap;
+    iput-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->components:Landroidx/arch/core/internal/SafeIterableMap;
 
     .line 10
     .line 11
     const/4 v0, 0x1
 
     .line 12
-    iput-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+    iput-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isAllowingSavingState:Z
 return-void
 .end method
 
@@ -99,7 +105,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/savedstate/SavedStateRegistry;->performAttach$lambda$4(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-static {p0, p1, p2}, Landroidx/savedstate/SavedStateRegistry;
+    ->performAttach$lambda$4(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 return-void
 .end method
 
@@ -111,7 +118,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -120,7 +128,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -129,12 +138,14 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_START:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 17
     .line 18
@@ -145,12 +156,14 @@ return-void
     const/4 p1, 0x1
 
     .line 21
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isAllowingSavingState:Z
 return-void
 
     .line 24
     :cond_0
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 25
     .line 26
@@ -161,7 +174,8 @@ return-void
     const/4 p1, 0x0
 
     .line 29
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isAllowingSavingState:Z
 
     .line 30
     .line 31
@@ -181,12 +195,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isRestored:Z
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isRestored:Z
 
     .line 7
     .line 8
@@ -194,7 +210,8 @@ return-void
 
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->restoredState:Landroid/os/Bundle;
+    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->restoredState:Landroid/os/Bundle;
 
     .line 11
     .line 12
@@ -209,7 +226,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {v0, p1}, Landroid/os/Bundle;
+    ->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 18
     .line 19
@@ -225,7 +243,8 @@ return-void
 
     .line 23
     :goto_0
-    iget-object v2, p0, Landroidx/savedstate/SavedStateRegistry;->restoredState:Landroid/os/Bundle;
+    iget-object v2, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->restoredState:Landroid/os/Bundle;
 
     .line 24
     .line 25
@@ -233,13 +252,15 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v2, p1}, Landroid/os/Bundle;->remove(Ljava/lang/String;)V
+    invoke-virtual {v2, p1}, Landroid/os/Bundle;
+    ->remove(Ljava/lang/String;)V
 
     .line 28
     .line 29
     .line 30
     :cond_1
-    iget-object p1, p0, Landroidx/savedstate/SavedStateRegistry;->restoredState:Landroid/os/Bundle;
+    iget-object p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->restoredState:Landroid/os/Bundle;
 
     .line 31
     .line 32
@@ -247,7 +268,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Landroid/os/BaseBundle;->isEmpty()Z
+    invoke-virtual {p1}, Landroid/os/BaseBundle;
+    ->isEmpty()Z
 
     .line 35
     .line 36
@@ -259,7 +281,9 @@ return-void
 
     .line 41
     :cond_2
-    iput-object v1, p0, Landroidx/savedstate/SavedStateRegistry;->restoredState:Landroid/os/Bundle;    return-object v0
+    iput-object v1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->restoredState:Landroid/os/Bundle;    
+    return-object v0
 
     .line 44
     :cond_3
@@ -275,7 +299,8 @@ return-void
 
     .line 48
     .line 49
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -290,16 +315,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->components:Landroidx/arch/core/internal/SafeIterableMap;
+    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->components:Landroidx/arch/core/internal/SafeIterableMap;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/arch/core/internal/SafeIterableMap;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Landroidx/arch/core/internal/SafeIterableMap;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -308,7 +336,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -320,7 +349,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -336,12 +366,14 @@ return-void
 
     .line 25
     .line 26
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -353,7 +385,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -365,7 +398,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 42
     .line 43
@@ -386,7 +420,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z    return v0
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isAllowingSavingState:Z    return v0
 .end method
 
 .method public final isRestored()Z
@@ -395,7 +430,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isRestored:Z    return v0
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isRestored:Z    return v0
 .end method
 
 .method public final performAttach$savedstate_release(Landroidx/lifecycle/Lifecycle;)V
@@ -408,12 +444,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->attached:Z
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->attached:Z
 
     .line 7
     .line 8
@@ -428,12 +466,14 @@ return-void
     const/4 v1, 0x1
 
     .line 13
-    invoke-direct {v0, p0, v1}, Landroidx/navigation/a;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Landroidx/navigation/a;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 17
     .line 18
@@ -441,7 +481,8 @@ return-void
     const/4 p1, 0x1
 
     .line 20
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->attached:Z
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->attached:Z
 return-void
 
     .line 23
@@ -454,7 +495,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -467,7 +509,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->attached:Z
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->attached:Z
 
     .line 2
     .line 3
@@ -475,7 +518,8 @@ return-void
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isRestored:Z
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isRestored:Z
 
     .line 6
     .line 7
@@ -491,7 +535,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p1, v0}, Landroid/os/Bundle;
+    ->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 14
     .line 15
@@ -507,14 +552,16 @@ return-void
 
     .line 19
     :goto_0
-    iput-object p1, p0, Landroidx/savedstate/SavedStateRegistry;->restoredState:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->restoredState:Landroid/os/Bundle;
 
     .line 20
     .line 21
     const/4 p1, 0x1
 
     .line 22
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isRestored:Z
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isRestored:Z
 return-void
 
     .line 25
@@ -527,7 +574,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -544,7 +592,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -561,7 +610,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -570,12 +620,14 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/savedstate/SavedStateRegistry;->restoredState:Landroid/os/Bundle;
+    iget-object v1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->restoredState:Landroid/os/Bundle;
 
     .line 12
     .line 13
@@ -583,17 +635,20 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->putAll(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;
+    ->putAll(Landroid/os/Bundle;)V
 
     .line 16
     .line 17
     .line 18
     :cond_0
-    iget-object v1, p0, Landroidx/savedstate/SavedStateRegistry;->components:Landroidx/arch/core/internal/SafeIterableMap;
+    iget-object v1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->components:Landroidx/arch/core/internal/SafeIterableMap;
 
     .line 19
     .line 20
-    invoke-virtual {v1}, Landroidx/arch/core/internal/SafeIterableMap;->iteratorWithAdditions()Landroidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions;
+    invoke-virtual {v1}, Landroidx/arch/core/internal/SafeIterableMap;
+    ->iteratorWithAdditions()Landroidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions;
 
     .line 21
     .line 22
@@ -605,13 +660,15 @@ return-void
 
     .line 25
     .line 26
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 27
     .line 28
     .line 29
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 30
     .line 31
@@ -623,7 +680,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -635,7 +693,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -647,7 +706,8 @@ return-void
 
     .line 46
     .line 47
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -659,7 +719,8 @@ return-void
 
     .line 52
     .line 53
-    invoke-interface {v2}, Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;->saveState()Landroid/os/Bundle;
+    invoke-interface {v2}, Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
+    ->saveState()Landroid/os/Bundle;
 
     .line 54
     .line 55
@@ -667,7 +728,8 @@ return-void
     move-result-object v2
 
     .line 57
-    invoke-virtual {v0, v3, v2}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {v0, v3, v2}, Landroid/os/Bundle;
+    ->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 58
     .line 59
@@ -676,7 +738,8 @@ return-void
 
     .line 61
     :cond_1
-    invoke-virtual {v0}, Landroid/os/BaseBundle;->isEmpty()Z
+    invoke-virtual {v0}, Landroid/os/BaseBundle;
+    ->isEmpty()Z
 
     .line 62
     .line 63
@@ -692,7 +755,8 @@ return-void
 
     .line 68
     .line 69
-    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;
+    ->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 70
     .line 71
@@ -711,7 +775,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -720,16 +785,19 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->components:Landroidx/arch/core/internal/SafeIterableMap;
+    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->components:Landroidx/arch/core/internal/SafeIterableMap;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2}, Landroidx/arch/core/internal/SafeIterableMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Landroidx/arch/core/internal/SafeIterableMap;
+    ->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -753,7 +821,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -780,12 +849,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+    iget-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isAllowingSavingState:Z
 
     .line 7
     .line 8
@@ -793,7 +864,8 @@ return-void
 
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->recreatorProvider:Landroidx/savedstate/Recreator$SavedStateProvider;
+    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->recreatorProvider:Landroidx/savedstate/Recreator$SavedStateProvider;
 
     .line 11
     .line 12
@@ -805,13 +877,15 @@ return-void
 
     .line 15
     .line 16
-    invoke-direct {v0, p0}, Landroidx/savedstate/Recreator$SavedStateProvider;-><init>(Landroidx/savedstate/SavedStateRegistry;)V
+    invoke-direct {v0, p0}, Landroidx/savedstate/Recreator$SavedStateProvider;
+    -><init>(Landroidx/savedstate/SavedStateRegistry;)V
 
     .line 17
     .line 18
     .line 19
     :cond_0
-    iput-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->recreatorProvider:Landroidx/savedstate/Recreator$SavedStateProvider;
+    iput-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->recreatorProvider:Landroidx/savedstate/Recreator$SavedStateProvider;
 
     .line 20
     .line 21
@@ -823,14 +897,16 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, v0}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 25
     .line 26
     .line 27
-    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->recreatorProvider:Landroidx/savedstate/Recreator$SavedStateProvider;
+    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->recreatorProvider:Landroidx/savedstate/Recreator$SavedStateProvider;
 
     .line 28
     .line 29
@@ -838,7 +914,8 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -846,7 +923,8 @@ return-void
     move-result-object p1
 
     .line 35
-    invoke-virtual {v0, p1}, Landroidx/savedstate/Recreator$SavedStateProvider;->add(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Landroidx/savedstate/Recreator$SavedStateProvider;
+    ->add(Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -871,12 +949,14 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -884,7 +964,8 @@ return-void
     move-result-object p1
 
     .line 53
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
@@ -893,12 +974,14 @@ return-void
 
     .line 57
     .line 58
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 62
     .line 63
@@ -906,7 +989,8 @@ return-void
     move-result-object p1
 
     .line 65
-    invoke-direct {v1, p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 66
     .line 67
@@ -923,7 +1007,8 @@ return-void
 
     .line 72
     .line 73
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 74
     .line 75
@@ -934,7 +1019,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->isAllowingSavingState:Z
 return-void
 .end method
 
@@ -948,16 +1034,20 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;->components:Landroidx/arch/core/internal/SafeIterableMap;
+    iget-object v0, p0, Landroidx/savedstate/SavedStateRegistry;
+    ->components:Landroidx/arch/core/internal/SafeIterableMap;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/arch/core/internal/SafeIterableMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {v0, p1}, Landroidx/arch/core/internal/SafeIterableMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .end class

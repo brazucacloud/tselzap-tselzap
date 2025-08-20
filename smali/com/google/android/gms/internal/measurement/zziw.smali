@@ -23,7 +23,8 @@
 
     .line 2
     .line 3
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zziw;->zza:Ljava/lang/Class;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zziw;
+    ->zza:Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -41,7 +42,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zziw;->zza:Ljava/lang/Class;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zziw;
+    ->zza:Ljava/lang/Class;
 
     .line 2
     .line 3

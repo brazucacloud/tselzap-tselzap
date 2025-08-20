@@ -18,7 +18,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/Outline;->setConvexPath(Landroid/graphics/Path;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/Outline;
+    ->setConvexPath(Landroid/graphics/Path;)V
 
     .line 2
     .line 3

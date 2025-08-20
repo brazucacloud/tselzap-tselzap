@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->createNotificationChannel(Landroid/app/NotificationChannel;)V
 
     .line 2
     .line 3
@@ -51,7 +53,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->createNotificationChannelGroup(Landroid/app/NotificationChannelGroup;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->createNotificationChannelGroup(Landroid/app/NotificationChannelGroup;)V
 
     .line 2
     .line 3
@@ -75,7 +78,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->createNotificationChannelGroups(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->createNotificationChannelGroups(Ljava/util/List;)V
 
     .line 2
     .line 3
@@ -99,7 +103,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->createNotificationChannels(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->createNotificationChannels(Ljava/util/List;)V
 
     .line 2
     .line 3
@@ -113,7 +118,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->deleteNotificationChannel(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->deleteNotificationChannel(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -127,7 +133,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->deleteNotificationChannelGroup(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->deleteNotificationChannelGroup(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -141,7 +148,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;
+    ->getId()Ljava/lang/String;
 
     move-result-object p0
 
@@ -154,7 +162,8 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Landroid/app/NotificationChannelGroup;->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/NotificationChannelGroup;
+    ->getId()Ljava/lang/String;
 
     move-result-object p0
 
@@ -167,7 +176,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-virtual {p0, p1}, Landroid/app/NotificationManager;
+    ->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 2
     .line 3
@@ -194,7 +204,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationManager;->getNotificationChannelGroups()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/app/NotificationManager;
+    ->getNotificationChannelGroups()Ljava/util/List;
 
     .line 2
     .line 3
@@ -221,7 +232,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationManager;->getNotificationChannels()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/app/NotificationManager;
+    ->getNotificationChannels()Ljava/util/List;
 
     .line 2
     .line 3

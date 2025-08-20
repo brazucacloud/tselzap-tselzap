@@ -30,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/content/ContextCompat;-><init>()V
+    invoke-direct {p0}, Landroidx/core/content/ContextCompat;
+    -><init>()V
 
     .line 2
     .line 3
@@ -42,7 +43,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->lambda$recreate$0(Landroid/app/Activity;)V
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat;
+    ->lambda$recreate$0(Landroid/app/Activity;)V
 return-void
 .end method
 
@@ -54,7 +56,8 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->finishAffinity()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->finishAffinity()V
 
     .line 2
     .line 3
@@ -70,7 +73,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api21Impl;->finishAfterTransition(Landroid/app/Activity;)V
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api21Impl;
+    ->finishAfterTransition(Landroid/app/Activity;)V
 
     .line 2
     .line 3
@@ -85,12 +89,14 @@ return-void
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/app/ActivityCompat;->sDelegate:Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
+    sget-object v0, Landroidx/core/app/ActivityCompat;
+    ->sDelegate:Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
 
     .line 2
     .line 3
@@ -107,7 +113,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -119,7 +126,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api22Impl;->getReferrer(Landroid/app/Activity;)Landroid/net/Uri;
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api22Impl;
+    ->getReferrer(Landroid/app/Activity;)Landroid/net/Uri;
 
     .line 8
     .line 9
@@ -130,7 +138,8 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 13
     .line 14
@@ -142,7 +151,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p0, v0}, Landroid/content/Intent;
+    ->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 19
     .line 20
@@ -166,7 +176,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p0, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -178,7 +189,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 36
     .line 37
@@ -200,7 +212,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->invalidateOptionsMenu()V
 
     .line 2
     .line 3
@@ -218,7 +231,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -230,7 +244,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api31Impl;->isLaunchedFromBubble(Landroid/app/Activity;)Z
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api31Impl;
+    ->isLaunchedFromBubble(Landroid/app/Activity;)Z
 
     .line 8
     .line 9
@@ -255,7 +270,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api30Impl;->getDisplay(Landroid/content/ContextWrapper;)Landroid/view/Display;
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api30Impl;
+    ->getDisplay(Landroid/content/ContextWrapper;)Landroid/view/Display;
 
     .line 19
     .line 20
@@ -267,7 +283,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api30Impl;->getDisplay(Landroid/content/ContextWrapper;)Landroid/view/Display;
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api30Impl;
+    ->getDisplay(Landroid/content/ContextWrapper;)Landroid/view/Display;
 
     .line 25
     .line 26
@@ -275,7 +292,8 @@ return-void
     move-result-object p0
 
     .line 28
-    invoke-virtual {p0}, Landroid/view/Display;->getDisplayId()I
+    invoke-virtual {p0}, Landroid/view/Display;
+    ->getDisplayId()I
 
     .line 29
     .line 30
@@ -303,7 +321,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindowManager()Landroid/view/WindowManager;
 
     .line 41
     .line 42
@@ -311,7 +330,8 @@ return-void
     move-result-object v0
 
     .line 44
-    invoke-interface {v0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {v0}, Landroid/view/WindowManager;
+    ->getDefaultDisplay()Landroid/view/Display;
 
     .line 45
     .line 46
@@ -323,7 +343,8 @@ return-void
 
     .line 49
     .line 50
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindowManager()Landroid/view/WindowManager;
 
     .line 51
     .line 52
@@ -331,7 +352,8 @@ return-void
     move-result-object p0
 
     .line 54
-    invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {p0}, Landroid/view/WindowManager;
+    ->getDefaultDisplay()Landroid/view/Display;
 
     .line 55
     .line 56
@@ -339,7 +361,8 @@ return-void
     move-result-object p0
 
     .line 58
-    invoke-virtual {p0}, Landroid/view/Display;->getDisplayId()I
+    invoke-virtual {p0}, Landroid/view/Display;
+    ->getDisplayId()I
 
     .line 59
     .line 60
@@ -362,7 +385,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->isFinishing()Z
 
     .line 2
     .line 3
@@ -374,7 +398,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/ActivityRecreator;->recreate(Landroid/app/Activity;)Z
+    invoke-static {p0}, Landroidx/core/app/ActivityRecreator;
+    ->recreate(Landroid/app/Activity;)Z
 
     .line 8
     .line 9
@@ -386,7 +411,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/app/Activity;->recreate()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->recreate()V
 
     .line 14
     .line 15
@@ -403,7 +429,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api21Impl;->postponeEnterTransition(Landroid/app/Activity;)V
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api21Impl;
+    ->postponeEnterTransition(Landroid/app/Activity;)V
 
     .line 2
     .line 3
@@ -419,7 +446,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -431,7 +459,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/app/Activity;->recreate()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->recreate()V
 
     .line 8
     .line 9
@@ -444,7 +473,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/content/Context;->getMainLooper()Landroid/os/Looper;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 14
     .line 15
@@ -452,7 +482,8 @@ return-void
     move-result-object v1
 
     .line 17
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 18
     .line 19
@@ -461,12 +492,14 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {v1, p0}, Landroidx/core/app/a;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v1, p0}, Landroidx/core/app/a;
+    -><init>(Landroid/app/Activity;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 26
     .line 27
@@ -488,7 +521,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/DragAndDropPermissionsCompat;->request(Landroid/app/Activity;Landroid/view/DragEvent;)Landroidx/core/view/DragAndDropPermissionsCompat;
+    invoke-static {p0, p1}, Landroidx/core/view/DragAndDropPermissionsCompat;
+    ->request(Landroid/app/Activity;Landroid/view/DragEvent;)Landroidx/core/view/DragAndDropPermissionsCompat;
 
     .line 2
     .line 3
@@ -515,7 +549,8 @@ return-void
     .end param
 
     .line 1
-    sget-object v0, Landroidx/core/app/ActivityCompat;->sDelegate:Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
+    sget-object v0, Landroidx/core/app/ActivityCompat;
+    ->sDelegate:Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
 
     .line 2
     .line 3
@@ -523,7 +558,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-interface {v0, p0, p1, p2}, Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)Z
+    invoke-interface {v0, p0, p1, p2}, Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
+    ->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)Z
 
     .line 6
     .line 7
@@ -544,7 +580,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 16
     .line 17
@@ -567,7 +604,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v3}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 26
     .line 27
@@ -579,7 +617,8 @@ return-void
 
     .line 30
     .line 31
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 32
     .line 33
@@ -599,7 +638,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-static {v3, v4}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v3, v4}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 42
     .line 43
@@ -611,7 +651,8 @@ return-void
 
     .line 46
     .line 47
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 48
     .line 49
@@ -619,7 +660,8 @@ return-void
     move-result-object v3
 
     .line 51
-    invoke-virtual {v0, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/util/HashSet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 52
     .line 53
@@ -645,12 +687,14 @@ return-void
 
     .line 62
     .line 63
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-static {p1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/util/Arrays;
+    ->toString([Ljava/lang/Object;)Ljava/lang/String;
 
     .line 67
     .line 68
@@ -662,7 +706,8 @@ return-void
 
     .line 71
     .line 72
-    invoke-static {p2, p1, v0}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p1, v0}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 73
     .line 74
@@ -670,7 +715,8 @@ return-void
     move-result-object p1
 
     .line 76
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -679,7 +725,8 @@ return-void
 
     .line 80
     :cond_3
-    invoke-virtual {v0}, Ljava/util/HashSet;->size()I
+    invoke-virtual {v0}, Ljava/util/HashSet;
+    ->size()I
 
     .line 81
     .line 82
@@ -735,7 +782,8 @@ return-void
 
     .line 101
     .line 102
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 103
     .line 104
@@ -743,7 +791,8 @@ return-void
     move-result-object v4
 
     .line 106
-    invoke-virtual {v0, v4}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/util/HashSet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 107
     .line 108
@@ -779,7 +828,8 @@ return-void
 
     .line 122
     :cond_7
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 123
     .line 124
@@ -806,13 +856,15 @@ return-void
 
     .line 134
     .line 135
-    invoke-interface {v0, p2}, Landroidx/core/app/ActivityCompat$RequestPermissionsRequestCodeValidator;->validateRequestPermissionsRequestCode(I)V
+    invoke-interface {v0, p2}, Landroidx/core/app/ActivityCompat$RequestPermissionsRequestCodeValidator;
+    ->validateRequestPermissionsRequestCode(I)V
 
     .line 136
     .line 137
     .line 138
     :cond_8
-    invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityCompat$Api23Impl;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+    invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityCompat$Api23Impl;
+    ->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
 
     .line 139
     .line 140
@@ -833,7 +885,8 @@ return-void
 
     .line 147
     .line 148
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 149
     .line 150
@@ -841,7 +894,8 @@ return-void
     move-result-object v0
 
     .line 152
-    invoke-direct {p1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p1, v0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 153
     .line 154
@@ -850,12 +904,14 @@ return-void
 
     .line 156
     .line 157
-    invoke-direct {v0, v3, p0, p2}, Landroidx/core/app/ActivityCompat$1;-><init>([Ljava/lang/String;Landroid/app/Activity;I)V
+    invoke-direct {v0, v3, p0, p2}, Landroidx/core/app/ActivityCompat$1;
+    -><init>([Ljava/lang/String;Landroid/app/Activity;I)V
 
     .line 158
     .line 159
     .line 160
-    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, v0}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 161
     .line 162
@@ -889,7 +945,8 @@ return-void
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -901,7 +958,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api28Impl;->requireViewById(Landroid/app/Activity;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api28Impl;
+    ->requireViewById(Landroid/app/Activity;I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -917,7 +975,8 @@ return-void
 
     .line 14
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroid/app/Activity;
+    ->findViewById(I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -941,7 +1000,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -992,7 +1052,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, p1}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;-><init>(Landroidx/core/app/SharedElementCallback;)V
+    invoke-direct {v0, p1}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    -><init>(Landroidx/core/app/SharedElementCallback;)V
 
     .line 6
     .line 7
@@ -1005,7 +1066,8 @@ return-void
 
     .line 10
     :goto_0
-    invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat$Api21Impl;->setEnterSharedElementCallback(Landroid/app/Activity;Landroid/app/SharedElementCallback;)V
+    invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat$Api21Impl;
+    ->setEnterSharedElementCallback(Landroid/app/Activity;Landroid/app/SharedElementCallback;)V
 
     .line 11
     .line 12
@@ -1033,7 +1095,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, p1}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;-><init>(Landroidx/core/app/SharedElementCallback;)V
+    invoke-direct {v0, p1}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;
+    -><init>(Landroidx/core/app/SharedElementCallback;)V
 
     .line 6
     .line 7
@@ -1046,7 +1109,8 @@ return-void
 
     .line 10
     :goto_0
-    invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat$Api21Impl;->setExitSharedElementCallback(Landroid/app/Activity;Landroid/app/SharedElementCallback;)V
+    invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat$Api21Impl;
+    ->setExitSharedElementCallback(Landroid/app/Activity;Landroid/app/SharedElementCallback;)V
 
     .line 11
     .line 12
@@ -1070,7 +1134,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1082,7 +1147,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityCompat$Api30Impl;->setLocusContext(Landroid/app/Activity;Landroidx/core/content/LocusIdCompat;Landroid/os/Bundle;)V
+    invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityCompat$Api30Impl;
+    ->setLocusContext(Landroid/app/Activity;Landroidx/core/content/LocusIdCompat;Landroid/os/Bundle;)V
 
     .line 8
     .line 9
@@ -1099,7 +1165,8 @@ return-void
     .end param
 
     .line 1
-    sput-object p0, Landroidx/core/app/ActivityCompat;->sDelegate:Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
+    sput-object p0, Landroidx/core/app/ActivityCompat;
+    ->sDelegate:Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;
 
     .line 2
     .line 3
@@ -1118,7 +1185,8 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -1137,7 +1205,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {v1, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, p1}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 11
     .line 12
@@ -1161,7 +1230,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api32Impl;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api32Impl;
+    ->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     .line 22
     .line 23
@@ -1180,7 +1250,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api31Impl;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api31Impl;
+    ->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     .line 31
     .line 32
@@ -1199,7 +1270,8 @@ return-void
 
     .line 38
     .line 39
-    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api23Impl;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
+    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat$Api23Impl;
+    ->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     .line 40
     .line 41
@@ -1229,7 +1301,8 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/Activity;
+    ->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
 
     .line 2
     .line 3
@@ -1257,7 +1330,8 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual/range {p0 .. p7}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+    invoke-virtual/range {p0 .. p7}, Landroid/app/Activity;
+    ->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
 
     .line 2
     .line 3
@@ -1273,7 +1347,8 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api21Impl;->startPostponedEnterTransition(Landroid/app/Activity;)V
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat$Api21Impl;
+    ->startPostponedEnterTransition(Landroid/app/Activity;)V
 
     .line 2
     .line 3

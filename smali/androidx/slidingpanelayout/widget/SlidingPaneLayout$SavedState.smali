@@ -41,22 +41,26 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState$1;-><init>()V
+    invoke-direct {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
+    sput-object v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;
+    ->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
     .line 3
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p2
 
@@ -70,14 +74,17 @@
     const/4 p2, 0x0
 
     :goto_0
-    iput-boolean p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->isOpen:Z
+    iput-boolean p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;
+    ->isOpen:Z
 
     .line 4
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p1
 
-    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->mLockMode:I
+    iput p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;
+    ->mLockMode:I
 
     return-void
 .end method
@@ -86,7 +93,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 return-void
 .end method
 
@@ -96,25 +104,30 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->isOpen:Z
+    iget-boolean p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;
+    ->isOpen:Z
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 7
     .line 8
     .line 9
-    iget p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;->mLockMode:I
+    iget p2, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$SavedState;
+    ->mLockMode:I
 
     .line 10
     .line 11
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 return-void
 .end method
 

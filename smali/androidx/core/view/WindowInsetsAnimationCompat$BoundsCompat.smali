@@ -32,21 +32,26 @@
     .end annotation
 
     .line 4
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 5
-    invoke-static {p1}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;->getLowerBounds(Landroid/view/WindowInsetsAnimation$Bounds;)Landroidx/core/graphics/Insets;
+    invoke-static {p1}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;
+    ->getLowerBounds(Landroid/view/WindowInsetsAnimation$Bounds;)Landroidx/core/graphics/Insets;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mLowerBound:Landroidx/core/graphics/Insets;
+    iput-object v0, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mLowerBound:Landroidx/core/graphics/Insets;
 
     .line 6
-    invoke-static {p1}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;->getHigherBounds(Landroid/view/WindowInsetsAnimation$Bounds;)Landroidx/core/graphics/Insets;
+    invoke-static {p1}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;
+    ->getHigherBounds(Landroid/view/WindowInsetsAnimation$Bounds;)Landroidx/core/graphics/Insets;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mUpperBound:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mUpperBound:Landroidx/core/graphics/Insets;
 
     return-void
 .end method
@@ -63,13 +68,16 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mLowerBound:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mLowerBound:Landroidx/core/graphics/Insets;
 
     .line 3
-    iput-object p2, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mUpperBound:Landroidx/core/graphics/Insets;
+    iput-object p2, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mUpperBound:Landroidx/core/graphics/Insets;
 
     return-void
 .end method
@@ -92,7 +100,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;-><init>(Landroid/view/WindowInsetsAnimation$Bounds;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    -><init>(Landroid/view/WindowInsetsAnimation$Bounds;)V
 
     .line 4
     .line 5
@@ -108,7 +117,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mLowerBound:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mLowerBound:Landroidx/core/graphics/Insets;
 
     .line 2
     .line 3
@@ -121,7 +131,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mUpperBound:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mUpperBound:Landroidx/core/graphics/Insets;
 
     .line 2
     .line 3
@@ -142,27 +153,33 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mLowerBound:Landroidx/core/graphics/Insets;
+    iget-object v1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mLowerBound:Landroidx/core/graphics/Insets;
 
     .line 4
     .line 5
-    iget v2, p1, Landroidx/core/graphics/Insets;->left:I
+    iget v2, p1, Landroidx/core/graphics/Insets;
+    ->left:I
 
     .line 6
     .line 7
-    iget v3, p1, Landroidx/core/graphics/Insets;->top:I
+    iget v3, p1, Landroidx/core/graphics/Insets;
+    ->top:I
 
     .line 8
     .line 9
-    iget v4, p1, Landroidx/core/graphics/Insets;->right:I
+    iget v4, p1, Landroidx/core/graphics/Insets;
+    ->right:I
 
     .line 10
     .line 11
-    iget v5, p1, Landroidx/core/graphics/Insets;->bottom:I
+    iget v5, p1, Landroidx/core/graphics/Insets;
+    ->bottom:I
 
     .line 12
     .line 13
-    invoke-static {v1, v2, v3, v4, v5}, Landroidx/core/view/WindowInsetsCompat;->insetInsets(Landroidx/core/graphics/Insets;IIII)Landroidx/core/graphics/Insets;
+    invoke-static {v1, v2, v3, v4, v5}, Landroidx/core/view/WindowInsetsCompat;
+    ->insetInsets(Landroidx/core/graphics/Insets;IIII)Landroidx/core/graphics/Insets;
 
     .line 14
     .line 15
@@ -170,27 +187,33 @@
     move-result-object v1
 
     .line 17
-    iget-object v2, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mUpperBound:Landroidx/core/graphics/Insets;
+    iget-object v2, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mUpperBound:Landroidx/core/graphics/Insets;
 
     .line 18
     .line 19
-    iget v3, p1, Landroidx/core/graphics/Insets;->left:I
+    iget v3, p1, Landroidx/core/graphics/Insets;
+    ->left:I
 
     .line 20
     .line 21
-    iget v4, p1, Landroidx/core/graphics/Insets;->top:I
+    iget v4, p1, Landroidx/core/graphics/Insets;
+    ->top:I
 
     .line 22
     .line 23
-    iget v5, p1, Landroidx/core/graphics/Insets;->right:I
+    iget v5, p1, Landroidx/core/graphics/Insets;
+    ->right:I
 
     .line 24
     .line 25
-    iget p1, p1, Landroidx/core/graphics/Insets;->bottom:I
+    iget p1, p1, Landroidx/core/graphics/Insets;
+    ->bottom:I
 
     .line 26
     .line 27
-    invoke-static {v2, v3, v4, v5, p1}, Landroidx/core/view/WindowInsetsCompat;->insetInsets(Landroidx/core/graphics/Insets;IIII)Landroidx/core/graphics/Insets;
+    invoke-static {v2, v3, v4, v5, p1}, Landroidx/core/view/WindowInsetsCompat;
+    ->insetInsets(Landroidx/core/graphics/Insets;IIII)Landroidx/core/graphics/Insets;
 
     .line 28
     .line 29
@@ -198,7 +221,8 @@
     move-result-object p1
 
     .line 31
-    invoke-direct {v0, v1, p1}, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;-><init>(Landroidx/core/graphics/Insets;Landroidx/core/graphics/Insets;)V
+    invoke-direct {v0, v1, p1}, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    -><init>(Landroidx/core/graphics/Insets;Landroidx/core/graphics/Insets;)V
 
     .line 32
     .line 33
@@ -216,7 +240,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;->createPlatformBounds(Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;)Landroid/view/WindowInsetsAnimation$Bounds;
+    invoke-static {p0}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;
+    ->createPlatformBounds(Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;)Landroid/view/WindowInsetsAnimation$Bounds;
 
     .line 2
     .line 3
@@ -238,16 +263,19 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mLowerBound:Landroidx/core/graphics/Insets;
+    iget-object v1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mLowerBound:Landroidx/core/graphics/Insets;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -256,16 +284,19 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;->mUpperBound:Landroidx/core/graphics/Insets;
+    iget-object v1, p0, Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;
+    ->mUpperBound:Landroidx/core/graphics/Insets;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -274,12 +305,14 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 29
     .line 30

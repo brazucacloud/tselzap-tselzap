@@ -33,12 +33,14 @@
     move-object v0, p0
 
     .line 8
-    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/zzw;-><init>(ZIILjava/lang/String;Ljava/lang/Throwable;Lcom/google/android/gms/common/zzv;)V
+    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/zzw;
+    -><init>(ZIILjava/lang/String;Ljava/lang/Throwable;Lcom/google/android/gms/common/zzv;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, v0, Lcom/google/android/gms/common/zzu;->zze:Ljava/util/concurrent/Callable;
+    iput-object p1, v0, Lcom/google/android/gms/common/zzu;
+    ->zze:Ljava/util/concurrent/Callable;
 
     .line 12
     .line 13
@@ -52,11 +54,13 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/zzu;->zze:Ljava/util/concurrent/Callable;
+    iget-object v0, p0, Lcom/google/android/gms/common/zzu;
+    ->zze:Ljava/util/concurrent/Callable;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/concurrent/Callable;
+    ->call()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -81,7 +85,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 14
     .line 15

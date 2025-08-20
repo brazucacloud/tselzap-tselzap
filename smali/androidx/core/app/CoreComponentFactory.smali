@@ -10,7 +10,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -26,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/AppComponentFactory;-><init>()V
+    invoke-direct {p0}, Landroid/app/AppComponentFactory;
+    -><init>()V
 
     .line 2
     .line 3
@@ -60,7 +62,8 @@
 
     .line 7
     .line 8
-    invoke-interface {v0}, Landroidx/core/app/CoreComponentFactory$CompatWrapped;->getWrapper()Ljava/lang/Object;
+    invoke-interface {v0}, Landroidx/core/app/CoreComponentFactory$CompatWrapped;
+    ->getWrapper()Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -99,7 +102,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroid/app/AppComponentFactory;->instantiateActivity(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Activity;
+    invoke-super {p0, p1, p2, p3}, Landroid/app/AppComponentFactory;
+    ->instantiateActivity(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Activity;
 
     .line 2
     .line 3
@@ -107,7 +111,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
+    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -136,7 +141,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/app/AppComponentFactory;->instantiateApplication(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/app/Application;
+    invoke-super {p0, p1, p2}, Landroid/app/AppComponentFactory;
+    ->instantiateApplication(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/app/Application;
 
     .line 2
     .line 3
@@ -144,7 +150,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
+    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -173,7 +180,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/app/AppComponentFactory;->instantiateProvider(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/content/ContentProvider;
+    invoke-super {p0, p1, p2}, Landroid/app/AppComponentFactory;
+    ->instantiateProvider(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/content/ContentProvider;
 
     .line 2
     .line 3
@@ -181,7 +189,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
+    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -214,7 +223,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroid/app/AppComponentFactory;->instantiateReceiver(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/content/BroadcastReceiver;
+    invoke-super {p0, p1, p2, p3}, Landroid/app/AppComponentFactory;
+    ->instantiateReceiver(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/content/BroadcastReceiver;
 
     .line 2
     .line 3
@@ -222,7 +232,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
+    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -255,7 +266,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroid/app/AppComponentFactory;->instantiateService(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Service;
+    invoke-super {p0, p1, p2, p3}, Landroid/app/AppComponentFactory;
+    ->instantiateService(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Service;
 
     .line 2
     .line 3
@@ -263,7 +275,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
+    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7

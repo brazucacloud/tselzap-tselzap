@@ -20,7 +20,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Landroidx/lifecycle/LiveData;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/LiveData;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/lifecycle/LiveData;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Landroidx/lifecycle/LiveData;
+    -><init>(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -48,7 +50,9 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;->postValue(Ljava/lang/Object;)V    return-void
+    invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;
+    ->postValue(Ljava/lang/Object;)V    
+    return-void
 .end method
 
 .method public setValue(Ljava/lang/Object;)V
@@ -60,7 +64,9 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;->setValue(Ljava/lang/Object;)V    return-void
+    invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;
+    ->setValue(Ljava/lang/Object;)V    
+    return-void
 .end method
 
 .end class

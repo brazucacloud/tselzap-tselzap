@@ -30,11 +30,13 @@
     .locals 1
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
+    ->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
+    invoke-direct {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
 return-void
 .end method
 
@@ -42,7 +44,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
 return-void
 .end method
 
@@ -64,14 +67,16 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
+    ->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 4
     .line 5
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntryIterator;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
+    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntryIterator;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
 return-object v0
 .end method
 

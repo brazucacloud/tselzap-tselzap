@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, LH/a;->b:I
+    iput p2, p0, LH/a;
+    ->b:I
 
-    iput-object p1, p0, LH/a;->c:Ljava/lang/Object;
+    iput-object p1, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +34,8 @@
     .locals 3
 
     .line 1
-    iget v0, p0, LH/a;->b:I
+    iget v0, p0, LH/a;
+    ->b:I
 
     .line 2
     .line 3
@@ -40,7 +44,8 @@
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object p1, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -48,7 +53,8 @@
 
     .line 9
     .line 10
-    iget-object v0, p1, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v0, p1, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 11
     .line 12
@@ -60,7 +66,8 @@
 
     .line 15
     :cond_0
-    invoke-virtual {v0}, Landroid/widget/TextView;->getSelectionEnd()I
+    invoke-virtual {v0}, Landroid/widget/TextView;
+    ->getSelectionEnd()I
 
     .line 16
     .line 17
@@ -68,7 +75,8 @@
     move-result v0
 
     .line 19
-    iget-object v1, p1, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v1, p1, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 20
     .line 21
@@ -76,7 +84,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Landroid/widget/TextView;->getTransformationMethod()Landroid/text/method/TransformationMethod;
+    invoke-virtual {v1}, Landroid/widget/TextView;
+    ->getTransformationMethod()Landroid/text/method/TransformationMethod;
 
     .line 24
     .line 25
@@ -92,14 +101,16 @@
 
     .line 30
     .line 31
-    iget-object v1, p1, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v1, p1, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 32
     .line 33
     const/4 v2, 0x0
 
     .line 34
-    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;
+    ->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
     .line 35
     .line 36
@@ -108,11 +119,13 @@
 
     .line 38
     :cond_1
-    iget-object v1, p1, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v1, p1, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 39
     .line 40
-    invoke-static {}, Landroid/text/method/PasswordTransformationMethod;->getInstance()Landroid/text/method/PasswordTransformationMethod;
+    invoke-static {}, Landroid/text/method/PasswordTransformationMethod;
+    ->getInstance()Landroid/text/method/PasswordTransformationMethod;
 
     .line 41
     .line 42
@@ -120,7 +133,8 @@
     move-result-object v2
 
     .line 44
-    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;
+    ->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
     .line 45
     .line 46
@@ -130,17 +144,20 @@
 
     .line 48
     .line 49
-    iget-object v1, p1, Lx0/x;->f:Landroid/widget/EditText;
+    iget-object v1, p1, Lx0/x;
+    ->f:Landroid/widget/EditText;
 
     .line 50
     .line 51
-    invoke-virtual {v1, v0}, Landroid/widget/EditText;->setSelection(I)V
+    invoke-virtual {v1, v0}, Landroid/widget/EditText;
+    ->setSelection(I)V
 
     .line 52
     .line 53
     .line 54
     :cond_2
-    invoke-virtual {p1}, Lx0/q;->q()V
+    invoke-virtual {p1}, Lx0/q;
+    ->q()V
 
     .line 55
     .line 56
@@ -150,7 +167,8 @@
 
     .line 58
     :pswitch_0
-    iget-object p1, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object p1, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -158,7 +176,8 @@
 
     .line 61
     .line 62
-    invoke-virtual {p1}, Lx0/k;->u()V
+    invoke-virtual {p1}, Lx0/k;
+    ->u()V
 
     .line 63
     .line 64
@@ -167,7 +186,8 @@
 
     .line 66
     :pswitch_1
-    iget-object p1, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object p1, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -175,7 +195,8 @@
 
     .line 69
     .line 70
-    iget-object v0, p1, Lx0/d;->i:Landroid/widget/EditText;
+    iget-object v0, p1, Lx0/d;
+    ->i:Landroid/widget/EditText;
 
     .line 71
     .line 72
@@ -187,7 +208,8 @@
 
     .line 75
     :cond_3
-    invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
+    invoke-virtual {v0}, Landroid/widget/EditText;
+    ->getText()Landroid/text/Editable;
 
     .line 76
     .line 77
@@ -199,13 +221,15 @@
 
     .line 80
     .line 81
-    invoke-interface {v0}, Landroid/text/Editable;->clear()V
+    invoke-interface {v0}, Landroid/text/Editable;
+    ->clear()V
 
     .line 82
     .line 83
     .line 84
     :cond_4
-    invoke-virtual {p1}, Lx0/q;->q()V
+    invoke-virtual {p1}, Lx0/q;
+    ->q()V
 
     .line 85
     .line 86
@@ -215,7 +239,8 @@
 
     .line 88
     :pswitch_2
-    iget-object p1, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object p1, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -223,7 +248,8 @@
 
     .line 91
     .line 92
-    invoke-virtual {p1}, Lcom/google/android/material/datepicker/r;->b()V
+    invoke-virtual {p1}, Lcom/google/android/material/datepicker/r;
+    ->b()V
 
     .line 93
     .line 94
@@ -235,7 +261,8 @@
 
     .line 97
     :pswitch_3
-    iget-object v0, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -243,7 +270,8 @@
 
     .line 100
     .line 101
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;->c(Lcom/fmark/tselzap/fragments/Sender_coder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;
+    ->c(Lcom/fmark/tselzap/fragments/Sender_coder;Landroid/view/View;)V
 
     .line 102
     .line 103
@@ -252,7 +280,8 @@
 
     .line 105
     :pswitch_4
-    iget-object v0, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 106
     .line 107
@@ -260,7 +289,8 @@
 
     .line 108
     .line 109
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;->b(Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;
+    ->b(Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
 
     .line 110
     .line 111
@@ -269,7 +299,8 @@
 
     .line 113
     :pswitch_5
-    iget-object v0, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -277,7 +308,8 @@
 
     .line 116
     .line 117
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->b(Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->b(Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;Landroid/view/View;)V
 
     .line 118
     .line 119
@@ -286,7 +318,8 @@
 
     .line 121
     :pswitch_6
-    iget-object v0, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 122
     .line 123
@@ -294,7 +327,8 @@
 
     .line 124
     .line 125
-    invoke-static {v0, p1}, Landroidx/navigation/Navigation;->a(Landroidx/navigation/NavDirections;Landroid/view/View;)V
+    invoke-static {v0, p1}, Landroidx/navigation/Navigation;
+    ->a(Landroidx/navigation/NavDirections;Landroid/view/View;)V
 
     .line 126
     .line 127
@@ -303,7 +337,8 @@
 
     .line 129
     :pswitch_7
-    iget-object v0, p0, LH/a;->c:Ljava/lang/Object;
+    iget-object v0, p0, LH/a;
+    ->c:Ljava/lang/Object;
 
     .line 130
     .line 131
@@ -311,7 +346,8 @@
 
     .line 132
     .line 133
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/dialogs/HelpDialog;->a(Landroid/app/AlertDialog;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/dialogs/HelpDialog;
+    ->a(Landroid/app/AlertDialog;Landroid/view/View;)V
 
     .line 134
     .line 135

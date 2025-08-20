@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDeepLinkBuilder;-><init>(Landroid/content/Context;)V
+    value = Landroidx/navigation/NavDeepLinkBuilder;
+    -><init>(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/navigation/NavDeepLinkBuilder$activity$1;
 
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLinkBuilder$activity$1;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLinkBuilder$activity$1;
+    -><init>()V
 
-    sput-object v0, Landroidx/navigation/NavDeepLinkBuilder$activity$1;->INSTANCE:Landroidx/navigation/NavDeepLinkBuilder$activity$1;
+    sput-object v0, Landroidx/navigation/NavDeepLinkBuilder$activity$1;
+    ->INSTANCE:Landroidx/navigation/NavDeepLinkBuilder$activity$1;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -57,7 +61,8 @@ return-void
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p1, Landroid/content/ContextWrapper;
@@ -76,7 +81,8 @@ return-void
     :goto_0
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;
+    ->getBaseContext()Landroid/content/Context;
 
     move-result-object p1
 
@@ -92,7 +98,8 @@ return-void
     .line 2
     check-cast p1, Landroid/content/Context;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavDeepLinkBuilder$activity$1;->invoke(Landroid/content/Context;)Landroid/content/Context;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavDeepLinkBuilder$activity$1;
+    ->invoke(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 

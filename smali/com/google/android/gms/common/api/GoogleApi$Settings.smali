@@ -54,12 +54,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/GoogleApi$Settings$Builder;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/GoogleApi$Settings$Builder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApi$Settings$Builder;->build()Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApi$Settings$Builder;
+    ->build()Lcom/google/android/gms/common/api/GoogleApi$Settings;
 
     .line 7
     .line 8
@@ -67,7 +69,8 @@
     move-result-object v0
 
     .line 10
-    sput-object v0, Lcom/google/android/gms/common/api/GoogleApi$Settings;->DEFAULT_SETTINGS:Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    sput-object v0, Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    ->DEFAULT_SETTINGS:Lcom/google/android/gms/common/api/GoogleApi$Settings;
 
     .line 11
     .line 12
@@ -80,11 +83,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/GoogleApi$Settings;->zaa:Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    ->zaa:Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
 
-    iput-object p3, p0, Lcom/google/android/gms/common/api/GoogleApi$Settings;->zab:Landroid/os/Looper;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    ->zab:Landroid/os/Looper;
 
     return-void
 .end method
@@ -95,7 +101,8 @@
     .line 2
     const/4 p2, 0x0
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/GoogleApi$Settings;-><init>(Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;Landroid/accounts/Account;Landroid/os/Looper;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    -><init>(Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;Landroid/accounts/Account;Landroid/os/Looper;)V
 return-void
 .end method
 

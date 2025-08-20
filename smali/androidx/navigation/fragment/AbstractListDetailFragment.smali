@@ -24,7 +24,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;
+    -><init>()V
     return-void
 .end method
 
@@ -32,7 +33,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;    return-object p0
+    iget-object p0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;    return-object p0
 .end method
 
 
@@ -41,7 +43,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->_detailPaneNavHostFragment:Landroidx/navigation/fragment/NavHostFragment;
+    iget-object v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->_detailPaneNavHostFragment:Landroidx/navigation/fragment/NavHostFragment;
 
     .line 2
     .line 3
@@ -53,7 +56,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 
     .line 11
@@ -66,12 +70,14 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -80,12 +86,14 @@ return-object v0
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -97,7 +105,8 @@ return-object v0
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -105,7 +114,8 @@ return-object v0
     move-result-object v0
 
     .line 36
-    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -116,7 +126,8 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireView()Landroid/view/View;
 
     .line 2
     .line 3
@@ -128,7 +139,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -140,7 +152,8 @@ return-object v0
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->graphId:I
+    iget v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->graphId:I
 
     .line 2
     .line 3
@@ -148,7 +161,8 @@ return-object v0
 
     .line 4
     .line 5
-    sget-object v1, Landroidx/navigation/fragment/NavHostFragment;->Companion:Landroidx/navigation/fragment/NavHostFragment$Companion;
+    sget-object v1, Landroidx/navigation/fragment/NavHostFragment;
+    ->Companion:Landroidx/navigation/fragment/NavHostFragment$Companion;
 
     .line 6
     .line 7
@@ -158,7 +172,8 @@ return-object v0
     const/4 v3, 0x0
 
     .line 9
-    invoke-static {v1, v0, v3, v2, v3}, Landroidx/navigation/fragment/NavHostFragment$Companion;->create$default(Landroidx/navigation/fragment/NavHostFragment$Companion;ILandroid/os/Bundle;ILjava/lang/Object;)Landroidx/navigation/fragment/NavHostFragment;
+    invoke-static {v1, v0, v3, v2, v3}, Landroidx/navigation/fragment/NavHostFragment$Companion;
+    ->create$default(Landroidx/navigation/fragment/NavHostFragment$Companion;ILandroid/os/Bundle;ILjava/lang/Object;)Landroidx/navigation/fragment/NavHostFragment;
 
     .line 10
     .line 11
@@ -173,7 +188,8 @@ return-object v0
 
     .line 15
     .line 16
-    invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;
+    -><init>()V
     return-object v0
 .end method
 
@@ -190,7 +206,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -203,7 +220,8 @@ return-object v0
 
     .line 9
     .line 10
-    invoke-virtual {p3, p2}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+    invoke-virtual {p3, p2}, Landroid/os/BaseBundle;
+    ->getInt(Ljava/lang/String;)I
 
     .line 11
     .line 12
@@ -211,7 +229,8 @@ return-object v0
     move-result p2
 
     .line 14
-    iput p2, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->graphId:I
+    iput p2, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->graphId:I
 
     .line 15
     .line 16
@@ -220,7 +239,8 @@ return-object v0
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Landroid/view/LayoutInflater;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/LayoutInflater;
+    ->getContext()Landroid/content/Context;
 
     .line 19
     .line 20
@@ -228,21 +248,25 @@ return-object v0
     move-result-object v0
 
     .line 22
-    invoke-direct {p2, v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;-><init>(Landroid/content/Context;)V
+    invoke-direct {p2, v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    -><init>(Landroid/content/Context;)V
 
     .line 23
     .line 24
     .line 25
-    sget v0, Landroidx/navigation/fragment/R$id;->sliding_pane_layout:I
+    sget v0, Landroidx/navigation/fragment/R$id;
+    ->sliding_pane_layout:I
 
     .line 26
     .line 27
-    invoke-virtual {p2, v0}, Landroid/view/View;->setId(I)V
+    invoke-virtual {p2, v0}, Landroid/view/View;
+    ->setId(I)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/fragment/AbstractListDetailFragment;->onCreateListPaneView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onCreateListPaneView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     .line 31
     .line 32
@@ -250,7 +274,8 @@ return-object v0
     move-result-object p3
 
     .line 34
-    invoke-static {p3, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, p2}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 35
     .line 36
@@ -262,7 +287,8 @@ return-object v0
 
     .line 39
     .line 40
-    invoke-virtual {p3}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p3}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 41
     .line 42
@@ -270,7 +296,8 @@ return-object v0
     move-result-object v0
 
     .line 44
-    invoke-static {v0, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p2}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -282,7 +309,8 @@ return-object v0
 
     .line 49
     .line 50
-    invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual {p2, p3}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;)V
 
     .line 51
     .line 52
@@ -292,7 +320,8 @@ return-object v0
 
     .line 54
     .line 55
-    invoke-virtual {p1}, Landroid/view/LayoutInflater;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/LayoutInflater;
+    ->getContext()Landroid/content/Context;
 
     .line 56
     .line 57
@@ -304,26 +333,31 @@ return-object v0
 
     .line 60
     .line 61
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 62
     .line 63
     .line 64
-    invoke-direct {p3, v0}, Landroidx/fragment/app/FragmentContainerView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p3, v0}, Landroidx/fragment/app/FragmentContainerView;
+    -><init>(Landroid/content/Context;)V
 
     .line 65
     .line 66
     .line 67
-    sget v0, Landroidx/navigation/fragment/R$id;->sliding_pane_detail_container:I
+    sget v0, Landroidx/navigation/fragment/R$id;
+    ->sliding_pane_detail_container:I
 
     .line 68
     .line 69
-    invoke-virtual {p3, v0}, Landroid/view/View;->setId(I)V
+    invoke-virtual {p3, v0}, Landroid/view/View;
+    ->setId(I)V
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p1}, Landroid/view/LayoutInflater;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/LayoutInflater;
+    ->getContext()Landroid/content/Context;
 
     .line 73
     .line 74
@@ -331,7 +365,8 @@ return-object v0
     move-result-object p1
 
     .line 76
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 77
     .line 78
@@ -339,11 +374,13 @@ return-object v0
     move-result-object p1
 
     .line 80
-    sget v1, Landroidx/navigation/fragment/R$dimen;->sliding_pane_detail_pane_width:I
+    sget v1, Landroidx/navigation/fragment/R$dimen;
+    ->sliding_pane_detail_pane_width:I
 
     .line 81
     .line 82
-    invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {p1, v1}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 83
     .line 84
@@ -358,7 +395,8 @@ return-object v0
     const/4 v2, -0x1
 
     .line 89
-    invoke-direct {v1, p1, v2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;-><init>(II)V
+    invoke-direct {v1, p1, v2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;
+    -><init>(II)V
 
     .line 90
     .line 91
@@ -367,16 +405,19 @@ return-object v0
 
     .line 93
     .line 94
-    iput p1, v1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;->weight:F
+    iput p1, v1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;
+    ->weight:F
 
     .line 95
     .line 96
-    invoke-virtual {p2, p3, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p2, p3, v1}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 97
     .line 98
     .line 99
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     .line 100
     .line 101
@@ -384,7 +425,8 @@ return-object v0
     move-result-object p1
 
     .line 103
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;
+    ->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
     .line 104
     .line 105
@@ -407,7 +449,8 @@ return-object v0
 
     .line 113
     :cond_2
-    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;->onCreateDetailPaneNavHostFragment()Landroidx/navigation/fragment/NavHostFragment;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onCreateDetailPaneNavHostFragment()Landroidx/navigation/fragment/NavHostFragment;
 
     .line 114
     .line 115
@@ -415,7 +458,8 @@ return-object v0
     move-result-object p1
 
     .line 117
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     .line 118
     .line 119
@@ -427,12 +471,14 @@ return-object v0
 
     .line 122
     .line 123
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 124
     .line 125
     .line 126
-    invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;
+    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 127
     .line 128
@@ -444,28 +490,33 @@ return-object v0
 
     .line 131
     .line 132
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 133
     .line 134
     .line 135
-    invoke-virtual {v1, p3}, Landroidx/fragment/app/FragmentTransaction;->setReorderingAllowed(Z)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {v1, p3}, Landroidx/fragment/app/FragmentTransaction;
+    ->setReorderingAllowed(Z)Landroidx/fragment/app/FragmentTransaction;
 
     .line 136
     .line 137
     .line 138
-    invoke-virtual {v1, v0, p1}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {v1, v0, p1}, Landroidx/fragment/app/FragmentTransaction;
+    ->add(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 139
     .line 140
     .line 141
-    invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commit()I
+    invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;
+    ->commit()I
 
     .line 142
     .line 143
     .line 144
     :goto_0
-    iput-object p1, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->_detailPaneNavHostFragment:Landroidx/navigation/fragment/NavHostFragment;
+    iput-object p1, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->_detailPaneNavHostFragment:Landroidx/navigation/fragment/NavHostFragment;
 
     .line 145
     .line 146
@@ -473,16 +524,19 @@ return-object v0
 
     .line 147
     .line 148
-    invoke-direct {p1, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment$InnerOnBackPressedCallback;-><init>(Landroidx/slidingpanelayout/widget/SlidingPaneLayout;)V
+    invoke-direct {p1, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment$InnerOnBackPressedCallback;
+    -><init>(Landroidx/slidingpanelayout/widget/SlidingPaneLayout;)V
 
     .line 149
     .line 150
     .line 151
-    iput-object p1, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
+    iput-object p1, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
     .line 152
     .line 153
-    invoke-static {p2}, Landroidx/core/view/ViewCompat;->isLaidOut(Landroid/view/View;)Z
+    invoke-static {p2}, Landroidx/core/view/ViewCompat;
+    ->isLaidOut(Landroid/view/View;)Z
 
     .line 154
     .line 155
@@ -494,7 +548,8 @@ return-object v0
 
     .line 158
     .line 159
-    invoke-virtual {p2}, Landroid/view/View;->isLayoutRequested()Z
+    invoke-virtual {p2}, Landroid/view/View;
+    ->isLayoutRequested()Z
 
     .line 160
     .line 161
@@ -506,7 +561,8 @@ return-object v0
 
     .line 164
     .line 165
-    invoke-static {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;->access$getOnBackPressedCallback$p(Landroidx/navigation/fragment/AbstractListDetailFragment;)Landroidx/activity/OnBackPressedCallback;
+    invoke-static {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->access$getOnBackPressedCallback$p(Landroidx/navigation/fragment/AbstractListDetailFragment;)Landroidx/activity/OnBackPressedCallback;
 
     .line 166
     .line 167
@@ -514,12 +570,14 @@ return-object v0
     move-result-object p1
 
     .line 169
-    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 170
     .line 171
     .line 172
-    invoke-virtual {p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->isSlideable()Z
+    invoke-virtual {p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    ->isSlideable()Z
 
     .line 173
     .line 174
@@ -531,7 +589,8 @@ return-object v0
 
     .line 177
     .line 178
-    invoke-virtual {p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->isOpen()Z
+    invoke-virtual {p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    ->isOpen()Z
 
     .line 179
     .line 180
@@ -551,7 +610,8 @@ return-object v0
 
     .line 186
     :goto_1
-    invoke-virtual {p1, p3}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+    invoke-virtual {p1, p3}, Landroidx/activity/OnBackPressedCallback;
+    ->setEnabled(Z)V
 
     .line 187
     .line 188
@@ -564,18 +624,21 @@ return-object v0
 
     .line 191
     .line 192
-    invoke-direct {p1, p0, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment$onCreateView$$inlined$doOnLayout$1;-><init>(Landroidx/navigation/fragment/AbstractListDetailFragment;Landroidx/slidingpanelayout/widget/SlidingPaneLayout;)V
+    invoke-direct {p1, p0, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment$onCreateView$$inlined$doOnLayout$1;
+    -><init>(Landroidx/navigation/fragment/AbstractListDetailFragment;Landroidx/slidingpanelayout/widget/SlidingPaneLayout;)V
 
     .line 193
     .line 194
     .line 195
-    invoke-virtual {p2, p1}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+    invoke-virtual {p2, p1}, Landroid/view/View;
+    ->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     .line 196
     .line 197
     .line 198
     :goto_2
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 199
     .line 200
@@ -583,7 +646,8 @@ return-object v0
     move-result-object p1
 
     .line 202
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;
+    ->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
 
     .line 203
     .line 204
@@ -591,7 +655,8 @@ return-object v0
     move-result-object p1
 
     .line 206
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     .line 207
     .line 208
@@ -603,21 +668,25 @@ return-object v0
 
     .line 211
     .line 212
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 213
     .line 214
     .line 215
-    iget-object v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
+    iget-object v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
     .line 216
     .line 217
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 218
     .line 219
     .line 220
-    invoke-virtual {p1, p3, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
+    invoke-virtual {p1, p3, v0}, Landroidx/activity/OnBackPressedDispatcher;
+    ->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
 return-object p2
 .end method
 
@@ -631,7 +700,8 @@ return-object p2
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -640,21 +710,25 @@ return-object p2
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onInflate(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;
+    ->onInflate(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
 
     .line 12
     .line 13
     .line 14
-    sget-object p3, Landroidx/navigation/R$styleable;->NavHost:[I
+    sget-object p3, Landroidx/navigation/R$styleable;
+    ->NavHost:[I
 
     .line 15
     .line 16
-    invoke-virtual {p1, p2, p3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, p3}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 17
     .line 18
@@ -666,19 +740,22 @@ return-object p2
 
     .line 21
     .line 22
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    sget p2, Landroidx/navigation/R$styleable;->NavHost_navGraph:I
+    sget p2, Landroidx/navigation/R$styleable;
+    ->NavHost_navGraph:I
 
     .line 26
     .line 27
     const/4 p3, 0x0
 
     .line 28
-    invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getResourceId(II)I
+    invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;
+    ->getResourceId(II)I
 
     .line 29
     .line 30
@@ -690,12 +767,14 @@ return-object p2
 
     .line 33
     .line 34
-    iput p2, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->graphId:I
+    iput p2, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->graphId:I
 
     .line 35
     .line 36
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;
+    ->recycle()V
     return-void
 .end method
 
@@ -704,7 +783,8 @@ return-object p2
 
     const-string p2, "view"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -718,17 +798,20 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;
+    ->onSaveInstanceState(Landroid/os/Bundle;)V
 
     .line 7
     .line 8
     .line 9
-    iget v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->graphId:I
+    iget v0, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->graphId:I
 
     .line 10
     .line 11
@@ -740,7 +823,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;
+    ->putInt(Ljava/lang/String;I)V
 
     .line 16
     .line 17
@@ -759,17 +843,20 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;
+    ->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;->getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 10
     .line 11
@@ -780,7 +867,8 @@ return-void
     const/4 v0, 0x0
 
     .line 14
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -792,12 +880,15 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment;->onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V    
+    return-void
 .end method
 
 .method public onViewStateRestored(Landroid/os/Bundle;)V
@@ -806,21 +897,25 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onViewStateRestored(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;
+    ->onViewStateRestored(Landroid/os/Bundle;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
+    iget-object p1, p0, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
     .line 5
     .line 6
-    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;->getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 10
     .line 11
@@ -828,7 +923,8 @@ return-void
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->isSlideable()Z
+    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    ->isSlideable()Z
 
     .line 14
     .line 15
@@ -840,7 +936,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;->getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/AbstractListDetailFragment;
+    ->getSlidingPaneLayout()Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 20
     .line 21
@@ -848,7 +945,8 @@ return-void
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->isOpen()Z
+    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    ->isOpen()Z
 
     .line 24
     .line 25
@@ -871,7 +969,8 @@ return-void
 
     .line 32
     :goto_0
-    invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+    invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;
+    ->setEnabled(Z)V
     return-void
 .end method
 

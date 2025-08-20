@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/provider/FontRequestWorker;->requestFontAsync(Landroid/content/Context;Landroidx/core/provider/FontRequest;ILjava/util/concurrent/Executor;Landroidx/core/provider/CallbackWithHandler;)Landroid/graphics/Typeface;
+    value = Landroidx/core/provider/FontRequestWorker;
+    ->requestFontAsync(Landroid/content/Context;Landroidx/core/provider/FontRequest;ILjava/util/concurrent/Executor;Landroidx/core/provider/CallbackWithHandler;)Landroid/graphics/Typeface;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -40,11 +41,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/provider/FontRequestWorker$4;->val$id:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/provider/FontRequestWorker$4;
+    ->val$id:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -58,17 +61,21 @@
     .locals 4
 
     .line 2
-    sget-object v0, Landroidx/core/provider/FontRequestWorker;->LOCK:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->LOCK:Ljava/lang/Object;
 
     monitor-enter v0
 
     .line 3
     :try_start_0
-    sget-object v1, Landroidx/core/provider/FontRequestWorker;->PENDING_REPLIES:Landroidx/collection/SimpleArrayMap;
+    sget-object v1, Landroidx/core/provider/FontRequestWorker;
+    ->PENDING_REPLIES:Landroidx/collection/SimpleArrayMap;
 
-    iget-object v2, p0, Landroidx/core/provider/FontRequestWorker$4;->val$id:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/core/provider/FontRequestWorker$4;
+    ->val$id:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -88,9 +95,11 @@
 
     .line 5
     :cond_0
-    iget-object v3, p0, Landroidx/core/provider/FontRequestWorker$4;->val$id:Ljava/lang/String;
+    iget-object v3, p0, Landroidx/core/provider/FontRequestWorker$4;
+    ->val$id:Ljava/lang/String;
 
-    invoke-virtual {v1, v3}, Landroidx/collection/SimpleArrayMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Landroidx/collection/SimpleArrayMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     monitor-exit v0
@@ -101,20 +110,23 @@
 
     .line 7
     :goto_0
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_1
 
     .line 8
-    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/core/util/Consumer;
 
-    invoke-interface {v1, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -139,7 +151,8 @@
     .line 1
     check-cast p1, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
-    invoke-virtual {p0, p1}, Landroidx/core/provider/FontRequestWorker$4;->accept(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p0, p1}, Landroidx/core/provider/FontRequestWorker$4;
+    ->accept(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 return-void
 .end method
 

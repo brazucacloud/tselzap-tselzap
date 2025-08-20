@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -34,7 +35,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;->getImageTintList(Landroid/widget/ImageView;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;
+    ->getImageTintList(Landroid/widget/ImageView;)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -54,7 +56,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;->getImageTintMode(Landroid/widget/ImageView;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;
+    ->getImageTintMode(Landroid/widget/ImageView;)Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -76,11 +79,13 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Landroidx/core/widget/ImageViewCompat$Api21Impl;->setImageTintList(Landroid/widget/ImageView;Landroid/content/res/ColorStateList;)V
+    invoke-static {p0, p1}, Landroidx/core/widget/ImageViewCompat$Api21Impl;
+    ->setImageTintList(Landroid/widget/ImageView;Landroid/content/res/ColorStateList;)V
 
     .line 4
     .line 5
@@ -93,7 +98,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/widget/ImageView;
+    ->getDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 11
     .line 12
@@ -105,7 +111,8 @@
 
     .line 15
     .line 16
-    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;->getImageTintList(Landroid/widget/ImageView;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;
+    ->getImageTintList(Landroid/widget/ImageView;)Landroid/content/res/ColorStateList;
 
     .line 17
     .line 18
@@ -117,7 +124,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->isStateful()Z
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;
+    ->isStateful()Z
 
     .line 23
     .line 24
@@ -129,7 +137,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {p0}, Landroid/view/View;->getDrawableState()[I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getDrawableState()[I
 
     .line 29
     .line 30
@@ -137,13 +146,15 @@
     move-result-object v0
 
     .line 32
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setState([I)Z
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;
+    ->setState([I)Z
 
     .line 33
     .line 34
     .line 35
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Landroid/widget/ImageView;
+    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 36
     .line 37
@@ -164,11 +175,13 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Landroidx/core/widget/ImageViewCompat$Api21Impl;->setImageTintMode(Landroid/widget/ImageView;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p0, p1}, Landroidx/core/widget/ImageViewCompat$Api21Impl;
+    ->setImageTintMode(Landroid/widget/ImageView;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 4
     .line 5
@@ -181,7 +194,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/widget/ImageView;
+    ->getDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 11
     .line 12
@@ -193,7 +207,8 @@
 
     .line 15
     .line 16
-    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;->getImageTintList(Landroid/widget/ImageView;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/widget/ImageViewCompat$Api21Impl;
+    ->getImageTintList(Landroid/widget/ImageView;)Landroid/content/res/ColorStateList;
 
     .line 17
     .line 18
@@ -205,7 +220,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->isStateful()Z
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;
+    ->isStateful()Z
 
     .line 23
     .line 24
@@ -217,7 +233,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {p0}, Landroid/view/View;->getDrawableState()[I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getDrawableState()[I
 
     .line 29
     .line 30
@@ -225,13 +242,15 @@
     move-result-object v0
 
     .line 32
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setState([I)Z
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;
+    ->setState([I)Z
 
     .line 33
     .line 34
     .line 35
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Landroid/widget/ImageView;
+    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 36
     .line 37

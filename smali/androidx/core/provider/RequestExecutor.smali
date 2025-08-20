@@ -18,7 +18,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -43,7 +44,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v7, p0, p1}, Landroidx/core/provider/RequestExecutor$DefaultThreadFactory;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v7, p0, p1}, Landroidx/core/provider/RequestExecutor$DefaultThreadFactory;
+    -><init>(Ljava/lang/String;I)V
 
     .line 4
     .line 5
@@ -55,7 +57,8 @@
     int-to-long v3, p2
 
     .line 9
-    sget-object v5, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v5, Ljava/util/concurrent/TimeUnit;
+    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 10
     .line 11
@@ -63,7 +66,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingDeque;-><init>()V
+    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingDeque;
+    -><init>()V
 
     .line 14
     .line 15
@@ -74,7 +78,8 @@
     const/4 v2, 0x1
 
     .line 18
-    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;
+    -><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
 
     .line 19
     .line 20
@@ -82,7 +87,8 @@
     const/4 p0, 0x1
 
     .line 22
-    invoke-virtual {v0, p0}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
+    invoke-virtual {v0, p0}, Ljava/util/concurrent/ThreadPoolExecutor;
+    ->allowCoreThreadTimeOut(Z)V
 
     .line 23
     .line 24
@@ -102,7 +108,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/provider/RequestExecutor$HandlerExecutor;-><init>(Landroid/os/Handler;)V
+    invoke-direct {v0, p0}, Landroidx/core/provider/RequestExecutor$HandlerExecutor;
+    -><init>(Landroid/os/Handler;)V
 
     .line 4
     .line 5
@@ -138,7 +145,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/provider/CalleeHandler;->create()Landroid/os/Handler;
+    invoke-static {}, Landroidx/core/provider/CalleeHandler;
+    ->create()Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -150,12 +158,14 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v0, p1, p2}, Landroidx/core/provider/RequestExecutor$ReplyRunnable;-><init>(Landroid/os/Handler;Ljava/util/concurrent/Callable;Landroidx/core/util/Consumer;)V
+    invoke-direct {v1, v0, p1, p2}, Landroidx/core/provider/RequestExecutor$ReplyRunnable;
+    -><init>(Landroid/os/Handler;Ljava/util/concurrent/Callable;Landroidx/core/util/Consumer;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-interface {p0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 11
     .line 12
@@ -190,7 +200,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;
+    ->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
 
     .line 2
     .line 3
@@ -202,11 +213,13 @@
 
     .line 6
     :try_start_0
-    sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v0, Ljava/util/concurrent/TimeUnit;
+    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 7
     .line 8
-    invoke-interface {p0, p1, p2, v0}, Ljava/util/concurrent/Future;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2, v0}, Ljava/util/concurrent/Future;
+    ->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -229,7 +242,8 @@
 
     .line 16
     .line 17
-    invoke-direct {p0, p1}, Ljava/lang/InterruptedException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/InterruptedException;
+    -><init>(Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -252,7 +266,8 @@
 
     .line 25
     .line 26
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 27
     .line 28

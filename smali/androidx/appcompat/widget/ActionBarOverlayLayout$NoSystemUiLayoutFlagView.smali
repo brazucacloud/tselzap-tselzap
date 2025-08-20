@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroid/view/View;
+    -><init>(Landroid/content/Context;)V
 
     .line 2
     .line 3
@@ -27,7 +28,9 @@
     const/4 p1, 0x1
 
     .line 5
-    invoke-virtual {p0, p1}, Landroid/view/View;->setWillNotDraw(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setWillNotDraw(Z)V    
+    return-void
 .end method
 
 

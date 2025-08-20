@@ -25,7 +25,8 @@
     .line 6
     .line 7
     .line 8
-    sput-object v0, Landroidx/interpolator/view/animation/FastOutSlowInInterpolator;->VALUES:[F
+    sput-object v0, Landroidx/interpolator/view/animation/FastOutSlowInInterpolator;
+    ->VALUES:[F
 
     .line 9
     .line 10
@@ -253,11 +254,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/interpolator/view/animation/FastOutSlowInInterpolator;->VALUES:[F
+    sget-object v0, Landroidx/interpolator/view/animation/FastOutSlowInInterpolator;
+    ->VALUES:[F
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Landroidx/interpolator/view/animation/LookupTableInterpolator;-><init>([F)V
+    invoke-direct {p0, v0}, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    -><init>([F)V
 
     .line 4
     .line 5
@@ -271,7 +274,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/interpolator/view/animation/LookupTableInterpolator;->getInterpolation(F)F
+    invoke-super {p0, p1}, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    ->getInterpolation(F)F
 
     .line 2
     .line 3

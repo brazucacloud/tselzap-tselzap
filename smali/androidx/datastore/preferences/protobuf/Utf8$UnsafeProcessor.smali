@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->hasUnsafeArrayOperations()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->hasUnsafeArrayOperations()Z
 
     .line 2
     .line 3
@@ -39,7 +41,8 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->hasUnsafeByteBufferOperations()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->hasUnsafeByteBufferOperations()Z
 
     .line 8
     .line 9
@@ -66,7 +69,8 @@
     .locals 10
 
     .line 24
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->unsafeEstimateConsecutiveAscii(JI)I
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->unsafeEstimateConsecutiveAscii(JI)I
 
     move-result v0
 
@@ -90,7 +94,8 @@
     add-long v4, p0, v2
 
     .line 25
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result v1
 
@@ -135,7 +140,8 @@
     add-long/2addr v2, p0
 
     .line 26
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result p0
 
@@ -164,7 +170,8 @@
     if-ge v0, v7, :cond_8
 
     .line 27
-    invoke-static {p0, p1, v1, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->unsafeIncompleteStateFor(JII)I
+    invoke-static {p0, p1, v1, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->unsafeIncompleteStateFor(JII)I
 
     move-result p0
 
@@ -176,7 +183,8 @@
     add-long/2addr v2, p0
 
     .line 28
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result v0
 
@@ -199,7 +207,8 @@
     add-long/2addr p0, v8
 
     .line 29
-    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result v0
 
@@ -214,7 +223,8 @@
     if-ge v0, v4, :cond_d
 
     .line 30
-    invoke-static {p0, p1, v1, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->unsafeIncompleteStateFor(JII)I
+    invoke-static {p0, p1, v1, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->unsafeIncompleteStateFor(JII)I
 
     move-result p0
 
@@ -226,7 +236,8 @@
     add-long/2addr v2, p0
 
     .line 31
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result v0
 
@@ -245,7 +256,8 @@
     add-long/2addr v8, p0
 
     .line 32
-    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result v0
 
@@ -256,7 +268,8 @@
     add-long/2addr p0, v0
 
     .line 33
-    invoke-static {v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result v0
 
@@ -270,7 +283,8 @@
     .locals 10
 
     .line 14
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->unsafeEstimateConsecutiveAscii([BJI)I
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->unsafeEstimateConsecutiveAscii([BJI)I
 
     move-result v0
 
@@ -294,7 +308,8 @@
     add-long v4, p1, v2
 
     .line 15
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v1
 
@@ -339,7 +354,8 @@
     add-long/2addr v2, p1
 
     .line 16
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p1
 
@@ -368,7 +384,8 @@
     if-ge v0, v7, :cond_8
 
     .line 17
-    invoke-static {p0, v1, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->unsafeIncompleteStateFor([BIJI)I
+    invoke-static {p0, v1, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->unsafeIncompleteStateFor([BIJI)I
 
     move-result p0
 
@@ -380,7 +397,8 @@
     add-long/2addr v2, p1
 
     .line 18
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v0
 
@@ -403,7 +421,8 @@
     add-long/2addr p1, v8
 
     .line 19
-    invoke-static {p0, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v0
 
@@ -418,7 +437,8 @@
     if-ge v0, v4, :cond_d
 
     .line 20
-    invoke-static {p0, v1, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->unsafeIncompleteStateFor([BIJI)I
+    invoke-static {p0, v1, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->unsafeIncompleteStateFor([BIJI)I
 
     move-result p0
 
@@ -430,7 +450,8 @@
     add-long/2addr v2, p1
 
     .line 21
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v0
 
@@ -449,7 +470,8 @@
     add-long/2addr v8, p1
 
     .line 22
-    invoke-static {p0, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v0
 
@@ -460,7 +482,8 @@
     add-long/2addr p1, v0
 
     .line 23
-    invoke-static {p0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v0
 
@@ -500,7 +523,8 @@
     add-long/2addr v3, p0
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result p0
 
@@ -524,7 +548,8 @@
     if-lt v0, v1, :cond_3
 
     .line 3
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getLong(J)J
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getLong(J)J
 
     move-result-wide v2
 
@@ -572,7 +597,8 @@
     add-long/2addr v2, p1
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p1
 
@@ -605,7 +631,8 @@
     if-ne p3, v0, :cond_0
 
     .line 6
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result p3
 
@@ -613,12 +640,14 @@
 
     add-long/2addr p0, v0
 
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result p0
 
     .line 7
-    invoke-static {p2, p3, p0}, Landroidx/datastore/preferences/protobuf/Utf8;->access$100(III)I
+    invoke-static {p2, p3, p0}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$100(III)I
 
     move-result p0
 
@@ -628,17 +657,20 @@
     :cond_0
     new-instance p0, Ljava/lang/AssertionError;
 
-    invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
+    invoke-direct {p0}, Ljava/lang/AssertionError;
+    -><init>()V
 
     throw p0
 
     .line 9
     :cond_1
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     move-result p0
 
-    invoke-static {p2, p0}, Landroidx/datastore/preferences/protobuf/Utf8;->access$000(II)I
+    invoke-static {p2, p0}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$000(II)I
 
     move-result p0
 
@@ -646,7 +678,8 @@
 
     .line 10
     :cond_2
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8;->access$1200(I)I
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$1200(I)I
 
     move-result p0
 
@@ -667,7 +700,8 @@
     if-ne p4, v0, :cond_0
 
     .line 1
-    invoke-static {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p4
 
@@ -675,12 +709,14 @@
 
     add-long/2addr p2, v0
 
-    invoke-static {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p0
 
     .line 2
-    invoke-static {p1, p4, p0}, Landroidx/datastore/preferences/protobuf/Utf8;->access$100(III)I
+    invoke-static {p1, p4, p0}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$100(III)I
 
     move-result p0
 
@@ -690,17 +726,20 @@
     :cond_0
     new-instance p0, Ljava/lang/AssertionError;
 
-    invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
+    invoke-direct {p0}, Ljava/lang/AssertionError;
+    -><init>()V
 
     throw p0
 
     .line 4
     :cond_1
-    invoke-static {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p0
 
-    invoke-static {p1, p0}, Landroidx/datastore/preferences/protobuf/Utf8;->access$000(II)I
+    invoke-static {p1, p0}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$000(II)I
 
     move-result p0
 
@@ -708,7 +747,8 @@
 
     .line 5
     :cond_2
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8;->access$1200(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$1200(I)I
 
     move-result p0
 
@@ -785,7 +825,8 @@
     int-to-long v8, v1
 
     .line 28
-    invoke-static {v0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 29
     .line 30
@@ -793,7 +834,8 @@
     move-result v8
 
     .line 32
-    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$400(B)Z
+    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$400(B)Z
 
     .line 33
     .line 34
@@ -816,7 +858,8 @@
 
     .line 41
     .line 42
-    invoke-static {v8, v11, v7}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$500(B[CI)V
+    invoke-static {v8, v11, v7}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$500(B[CI)V
 
     .line 43
     .line 44
@@ -844,7 +887,8 @@
     int-to-long v8, v1
 
     .line 53
-    invoke-static {v0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 54
     .line 55
@@ -852,7 +896,8 @@
     move-result v8
 
     .line 57
-    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$400(B)Z
+    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$400(B)Z
 
     .line 58
     .line 59
@@ -868,7 +913,8 @@
 
     .line 64
     .line 65
-    invoke-static {v8, v11, v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$500(B[CI)V
+    invoke-static {v8, v11, v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$500(B[CI)V
 
     .line 66
     .line 67
@@ -881,7 +927,8 @@
     int-to-long v8, v7
 
     .line 71
-    invoke-static {v0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v8, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 72
     .line 73
@@ -889,7 +936,8 @@
     move-result v8
 
     .line 75
-    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$400(B)Z
+    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$400(B)Z
 
     .line 76
     .line 77
@@ -912,7 +960,8 @@
 
     .line 84
     .line 85
-    invoke-static {v8, v11, v1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$500(B[CI)V
+    invoke-static {v8, v11, v1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$500(B[CI)V
 
     .line 86
     .line 87
@@ -935,7 +984,8 @@
 
     .line 93
     :cond_4
-    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$600(B)Z
+    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$600(B)Z
 
     .line 94
     .line 95
@@ -957,7 +1007,8 @@
     int-to-long v9, v7
 
     .line 103
-    invoke-static {v0, v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 104
     .line 105
@@ -969,7 +1020,8 @@
 
     .line 108
     .line 109
-    invoke-static {v8, v7, v11, v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$700(BB[CI)V
+    invoke-static {v8, v7, v11, v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$700(BB[CI)V
 
     .line 110
     .line 111
@@ -981,7 +1033,8 @@
 
     .line 114
     :cond_5
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 115
     .line 116
@@ -993,7 +1046,8 @@
 
     .line 119
     :cond_6
-    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$800(B)Z
+    invoke-static {v8}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$800(B)Z
 
     .line 120
     .line 121
@@ -1020,7 +1074,8 @@
     int-to-long v13, v7
 
     .line 132
-    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 133
     .line 134
@@ -1034,7 +1089,8 @@
     int-to-long v9, v9
 
     .line 138
-    invoke-static {v0, v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 139
     .line 140
@@ -1046,7 +1102,8 @@
 
     .line 143
     .line 144
-    invoke-static {v8, v7, v9, v11, v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$900(BBB[CI)V
+    invoke-static {v8, v7, v9, v11, v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$900(BBB[CI)V
 
     .line 145
     .line 146
@@ -1058,7 +1115,8 @@
 
     .line 149
     :cond_7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 150
     .line 151
@@ -1085,7 +1143,8 @@
     int-to-long v13, v7
 
     .line 161
-    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 162
     .line 163
@@ -1100,7 +1159,8 @@
     int-to-long v13, v9
 
     .line 168
-    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 169
     .line 170
@@ -1115,7 +1175,8 @@
     int-to-long v13, v10
 
     .line 175
-    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {v0, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     .line 176
     .line 177
@@ -1132,7 +1193,8 @@
     move v7, v15
 
     .line 182
-    invoke-static/range {v7 .. v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$1000(BBBB[CI)V
+    invoke-static/range {v7 .. v12}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$1000(BBBB[CI)V
 
     .line 183
     .line 184
@@ -1145,7 +1207,8 @@
     .line 187
     .line 188
     :cond_9
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 189
     .line 190
@@ -1161,7 +1224,8 @@
 
     .line 194
     .line 195
-    invoke-direct {v0, v11, v2, v12}, Ljava/lang/String;-><init>([CII)V
+    invoke-direct {v0, v11, v2, v12}, Ljava/lang/String;
+    -><init>([CII)V
     return-object v0
 
     .line 199
@@ -1173,7 +1237,8 @@
     array-length v0, v0
 
     .line 202
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 203
     .line 204
@@ -1181,7 +1246,8 @@
     move-result-object v0
 
     .line 206
-    invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p2 .. p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 207
     .line 208
@@ -1189,7 +1255,8 @@
     move-result-object v7
 
     .line 210
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 211
     .line 212
@@ -1217,7 +1284,8 @@
 
     .line 223
     .line 224
-    invoke-static {v0, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v3}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 225
     .line 226
@@ -1225,7 +1293,8 @@
     move-result-object v0
 
     .line 228
-    invoke-direct {v6, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 229
     .line 230
@@ -1257,7 +1326,8 @@
 
     .line 9
     .line 10
-    invoke-virtual/range {p1 .. p1}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual/range {p1 .. p1}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 11
     .line 12
@@ -1278,7 +1348,8 @@
 
     .line 18
     .line 19
-    invoke-static/range {p1 .. p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->addressOffset(Ljava/nio/ByteBuffer;)J
+    invoke-static/range {p1 .. p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->addressOffset(Ljava/nio/ByteBuffer;)J
 
     .line 20
     .line 21
@@ -1318,7 +1389,8 @@
 
     .line 35
     .line 36
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 37
     .line 38
@@ -1326,7 +1398,8 @@
     move-result v1
 
     .line 40
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$400(B)Z
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$400(B)Z
 
     .line 41
     .line 42
@@ -1349,7 +1422,8 @@
 
     .line 49
     .line 50
-    invoke-static {v1, v13, v0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$500(B[CI)V
+    invoke-static {v1, v13, v0}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$500(B[CI)V
 
     .line 51
     .line 52
@@ -1378,7 +1452,8 @@
 
     .line 61
     .line 62
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 63
     .line 64
@@ -1386,7 +1461,8 @@
     move-result v9
 
     .line 66
-    invoke-static {v9}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$400(B)Z
+    invoke-static {v9}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$400(B)Z
 
     .line 67
     .line 68
@@ -1402,7 +1478,8 @@
 
     .line 73
     .line 74
-    invoke-static {v9, v13, v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$500(B[CI)V
+    invoke-static {v9, v13, v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$500(B[CI)V
 
     .line 75
     .line 76
@@ -1416,7 +1493,8 @@
 
     .line 80
     .line 81
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 82
     .line 83
@@ -1424,7 +1502,8 @@
     move-result v6
 
     .line 85
-    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$400(B)Z
+    invoke-static {v6}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$400(B)Z
 
     .line 86
     .line 87
@@ -1447,7 +1526,8 @@
 
     .line 94
     .line 95
-    invoke-static {v6, v13, v5}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$500(B[CI)V
+    invoke-static {v6, v13, v5}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$500(B[CI)V
 
     .line 96
     .line 97
@@ -1470,7 +1550,8 @@
 
     .line 103
     :cond_4
-    invoke-static {v9}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$600(B)Z
+    invoke-static {v9}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$600(B)Z
 
     .line 104
     .line 105
@@ -1497,7 +1578,8 @@
     add-long/2addr v5, v11
 
     .line 116
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 117
     .line 118
@@ -1509,7 +1591,8 @@
 
     .line 121
     .line 122
-    invoke-static {v9, v0, v13, v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$700(BB[CI)V
+    invoke-static {v9, v0, v13, v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$700(BB[CI)V
 
     .line 123
     .line 124
@@ -1521,7 +1604,8 @@
 
     .line 127
     :cond_5
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 128
     .line 129
@@ -1533,7 +1617,8 @@
 
     .line 132
     :cond_6
-    invoke-static {v9}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$800(B)Z
+    invoke-static {v9}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$800(B)Z
 
     .line 133
     .line 134
@@ -1564,7 +1649,8 @@
     add-long/2addr v11, v5
 
     .line 147
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 148
     .line 149
@@ -1576,7 +1662,8 @@
 
     .line 152
     .line 153
-    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 154
     .line 155
@@ -1588,7 +1675,8 @@
 
     .line 158
     .line 159
-    invoke-static {v9, v0, v1, v13, v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$900(BBB[CI)V
+    invoke-static {v9, v0, v1, v13, v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$900(BBB[CI)V
 
     .line 160
     .line 161
@@ -1600,7 +1688,8 @@
 
     .line 164
     :cond_7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 165
     .line 166
@@ -1627,7 +1716,8 @@
     add-long/2addr v11, v5
 
     .line 176
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 177
     .line 178
@@ -1639,7 +1729,8 @@
 
     .line 181
     .line 182
-    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 183
     .line 184
@@ -1654,7 +1745,8 @@
     add-long/2addr v5, v0
 
     .line 189
-    invoke-static/range {v17 .. v18}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static/range {v17 .. v18}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 190
     .line 191
@@ -1662,7 +1754,8 @@
     move-result v12
 
     .line 193
-    invoke-static/range {v9 .. v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;->access$1000(BBBB[CI)V
+    invoke-static/range {v9 .. v14}, Landroidx/datastore/preferences/protobuf/Utf8$DecodeUtil;
+    ->access$1000(BBBB[CI)V
 
     .line 194
     .line 195
@@ -1675,7 +1768,8 @@
     .line 198
     .line 199
     :cond_9
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 200
     .line 201
@@ -1691,7 +1785,8 @@
 
     .line 205
     .line 206
-    invoke-direct {v0, v13, v3, v14}, Ljava/lang/String;-><init>([CII)V
+    invoke-direct {v0, v13, v3, v14}, Ljava/lang/String;
+    -><init>([CII)V
     return-object v0
 
     .line 210
@@ -1700,7 +1795,8 @@
 
     .line 211
     .line 212
-    invoke-virtual/range {p1 .. p1}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual/range {p1 .. p1}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 213
     .line 214
@@ -1708,7 +1804,8 @@
     move-result v6
 
     .line 216
-    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v6}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 217
     .line 218
@@ -1716,7 +1813,8 @@
     move-result-object v6
 
     .line 220
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 221
     .line 222
@@ -1724,7 +1822,8 @@
     move-result-object v0
 
     .line 224
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 225
     .line 226
@@ -1755,7 +1854,8 @@
 
     .line 238
     .line 239
-    invoke-static {v0, v7}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v7}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 240
     .line 241
@@ -1763,7 +1863,8 @@
     move-result-object v0
 
     .line 243
-    invoke-direct {v5, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v5, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 244
     .line 245
@@ -1799,7 +1900,8 @@
     add-long/2addr v6, v4
 
     .line 12
-    invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 13
     .line 14
@@ -1845,7 +1947,8 @@
 
     .line 32
     .line 33
-    invoke-interface {v0, v2}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v2}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 34
     .line 35
@@ -1863,7 +1966,8 @@
     int-to-byte v3, v13
 
     .line 41
-    invoke-static {v1, v4, v5, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v4, v5, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 42
     .line 43
@@ -1894,7 +1998,8 @@
 
     .line 53
     .line 54
-    invoke-interface {v0, v2}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v2}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 55
     .line 56
@@ -1921,7 +2026,8 @@
     int-to-byte v13, v13
 
     .line 67
-    invoke-static {v1, v4, v5, v13}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v4, v5, v13}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 68
     .line 69
@@ -1985,7 +2091,8 @@
     int-to-byte v14, v14
 
     .line 98
-    invoke-static {v1, v4, v5, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v4, v5, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 99
     .line 100
@@ -2003,7 +2110,8 @@
     int-to-byte v13, v13
 
     .line 106
-    invoke-static {v1, v11, v12, v13}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v11, v12, v13}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 107
     .line 108
@@ -2083,7 +2191,8 @@
     int-to-byte v14, v14
 
     .line 144
-    invoke-static {v1, v4, v5, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v4, v5, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 145
     .line 146
@@ -2110,7 +2219,8 @@
     int-to-byte v14, v14
 
     .line 157
-    invoke-static {v1, v11, v12, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v11, v12, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 158
     .line 159
@@ -2129,7 +2239,8 @@
     int-to-byte v11, v11
 
     .line 166
-    invoke-static {v1, v6, v7, v11}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v6, v7, v11}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 167
     .line 168
@@ -2162,7 +2273,8 @@
 
     .line 181
     .line 182
-    invoke-interface {v0, v11}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v11}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 183
     .line 184
@@ -2170,7 +2282,8 @@
     move-result v2
 
     .line 186
-    invoke-static {v13, v2}, Ljava/lang/Character;->isSurrogatePair(CC)Z
+    invoke-static {v13, v2}, Ljava/lang/Character;
+    ->isSurrogatePair(CC)Z
 
     .line 187
     .line 188
@@ -2182,7 +2295,8 @@
 
     .line 191
     .line 192
-    invoke-static {v13, v2}, Ljava/lang/Character;->toCodePoint(CC)I
+    invoke-static {v13, v2}, Ljava/lang/Character;
+    ->toCodePoint(CC)I
 
     .line 193
     .line 194
@@ -2205,7 +2319,8 @@
     int-to-byte v14, v14
 
     .line 203
-    invoke-static {v1, v4, v5, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v4, v5, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 204
     .line 205
@@ -2232,7 +2347,8 @@
     int-to-byte v14, v14
 
     .line 216
-    invoke-static {v1, v12, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v12, v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 217
     .line 218
@@ -2255,7 +2371,8 @@
     int-to-byte v14, v14
 
     .line 227
-    invoke-static {v1, v6, v7, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v6, v7, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 228
     .line 229
@@ -2274,7 +2391,8 @@
     int-to-byte v2, v2
 
     .line 236
-    invoke-static {v1, v12, v13, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
+    invoke-static {v1, v12, v13, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte([BJB)V
 
     .line 237
     .line 238
@@ -2312,7 +2430,8 @@
 
     .line 252
     .line 253
-    invoke-direct {v0, v2, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;-><init>(II)V
+    invoke-direct {v0, v2, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;
+    -><init>(II)V
 
     .line 254
     .line 255
@@ -2337,7 +2456,8 @@
 
     .line 264
     .line 265
-    invoke-interface {v0, v1}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v1}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 266
     .line 267
@@ -2345,7 +2465,8 @@
     move-result v0
 
     .line 269
-    invoke-static {v13, v0}, Ljava/lang/Character;->isSurrogatePair(CC)Z
+    invoke-static {v13, v0}, Ljava/lang/Character;
+    ->isSurrogatePair(CC)Z
 
     .line 270
     .line 271
@@ -2362,7 +2483,8 @@
 
     .line 276
     .line 277
-    invoke-direct {v0, v2, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;-><init>(II)V
+    invoke-direct {v0, v2, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;
+    -><init>(II)V
 
     .line 278
     .line 279
@@ -2379,27 +2501,32 @@
 
     .line 284
     .line 285
-    invoke-direct {v1, v10}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v10}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 286
     .line 287
     .line 288
-    invoke-virtual {v1, v13}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v13}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 289
     .line 290
     .line 291
-    invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 292
     .line 293
     .line 294
-    invoke-virtual {v1, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4, v5}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 295
     .line 296
     .line 297
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 298
     .line 299
@@ -2407,7 +2534,8 @@
     move-result-object v1
 
     .line 301
-    invoke-direct {v0, v1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 302
     .line 303
@@ -2430,7 +2558,8 @@
 
     .line 310
     .line 311
-    invoke-direct {v4, v10}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v10}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 312
     .line 313
@@ -2439,7 +2568,8 @@
 
     .line 315
     .line 316
-    invoke-interface {v0, v8}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v8}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 317
     .line 318
@@ -2447,12 +2577,14 @@
     move-result v0
 
     .line 320
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 321
     .line 322
     .line 323
-    invoke-virtual {v4, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v9}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 324
     .line 325
@@ -2461,12 +2593,14 @@
 
     .line 327
     .line 328
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 329
     .line 330
     .line 331
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 332
     .line 333
@@ -2474,7 +2608,8 @@
     move-result-object v0
 
     .line 335
-    invoke-direct {v1, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 336
     .line 337
@@ -2493,7 +2628,8 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->addressOffset(Ljava/nio/ByteBuffer;)J
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->addressOffset(Ljava/nio/ByteBuffer;)J
 
     .line 6
     .line 7
@@ -2501,7 +2637,8 @@
     move-result-wide v2
 
     .line 9
-    invoke-virtual {v1}, Ljava/nio/Buffer;->position()I
+    invoke-virtual {v1}, Ljava/nio/Buffer;
+    ->position()I
 
     .line 10
     .line 11
@@ -2515,7 +2652,8 @@
     add-long/2addr v4, v2
 
     .line 15
-    invoke-virtual {v1}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual {v1}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 16
     .line 17
@@ -2529,7 +2667,8 @@
     add-long/2addr v6, v2
 
     .line 21
-    invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {v0}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 22
     .line 23
@@ -2576,7 +2715,8 @@
 
     .line 42
     .line 43
-    invoke-interface {v0, v9}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v9}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 44
     .line 45
@@ -2594,7 +2734,8 @@
     int-to-byte v12, v15
 
     .line 51
-    invoke-static {v4, v5, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v4, v5, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 52
     .line 53
@@ -2620,7 +2761,9 @@
     long-to-int v0, v4
 
     .line 62
-    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;    return-void
+    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;
+    ->position(I)Ljava/nio/Buffer;    
+    return-void
 
     .line 66
     :cond_1
@@ -2629,7 +2772,8 @@
 
     .line 67
     .line 68
-    invoke-interface {v0, v9}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v9}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 69
     .line 70
@@ -2656,7 +2800,8 @@
     int-to-byte v15, v15
 
     .line 81
-    invoke-static {v4, v5, v15}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v4, v5, v15}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 82
     .line 83
@@ -2729,7 +2874,8 @@
     int-to-byte v12, v12
 
     .line 117
-    invoke-static {v4, v5, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v4, v5, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 118
     .line 119
@@ -2752,7 +2898,8 @@
     int-to-byte v12, v12
 
     .line 128
-    invoke-static {v10, v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v10, v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 129
     .line 130
@@ -2841,7 +2988,8 @@
     int-to-byte v12, v12
 
     .line 170
-    invoke-static {v4, v5, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v4, v5, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 171
     .line 172
@@ -2877,7 +3025,8 @@
     int-to-byte v7, v7
 
     .line 188
-    invoke-static {v10, v11, v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v10, v11, v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 189
     .line 190
@@ -2896,7 +3045,8 @@
     int-to-byte v6, v7
 
     .line 197
-    invoke-static {v2, v3, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v2, v3, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 198
     .line 199
@@ -2929,7 +3079,8 @@
 
     .line 212
     .line 213
-    invoke-interface {v0, v6}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v6}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 214
     .line 215
@@ -2937,7 +3088,8 @@
     move-result v7
 
     .line 217
-    invoke-static {v15, v7}, Ljava/lang/Character;->isSurrogatePair(CC)Z
+    invoke-static {v15, v7}, Ljava/lang/Character;
+    ->isSurrogatePair(CC)Z
 
     .line 218
     .line 219
@@ -2949,7 +3101,8 @@
 
     .line 222
     .line 223
-    invoke-static {v15, v7}, Ljava/lang/Character;->toCodePoint(CC)I
+    invoke-static {v15, v7}, Ljava/lang/Character;
+    ->toCodePoint(CC)I
 
     .line 224
     .line 225
@@ -2972,7 +3125,8 @@
     int-to-byte v9, v9
 
     .line 234
-    invoke-static {v4, v5, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v4, v5, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 235
     .line 236
@@ -3003,7 +3157,8 @@
     int-to-byte v9, v9
 
     .line 249
-    invoke-static {v10, v11, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v10, v11, v9}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 250
     .line 251
@@ -3026,7 +3181,8 @@
     int-to-byte v11, v11
 
     .line 260
-    invoke-static {v2, v3, v11}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v2, v3, v11}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 261
     .line 262
@@ -3045,7 +3201,8 @@
     int-to-byte v2, v2
 
     .line 269
-    invoke-static {v9, v10, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
+    invoke-static {v9, v10, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->putByte(JB)V
 
     .line 270
     .line 271
@@ -3091,7 +3248,8 @@
 
     .line 289
     .line 290
-    invoke-direct {v0, v9, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;-><init>(II)V
+    invoke-direct {v0, v9, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;
+    -><init>(II)V
 
     .line 291
     .line 292
@@ -3116,7 +3274,8 @@
 
     .line 301
     .line 302
-    invoke-interface {v0, v1}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v1}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 303
     .line 304
@@ -3124,7 +3283,8 @@
     move-result v0
 
     .line 306
-    invoke-static {v15, v0}, Ljava/lang/Character;->isSurrogatePair(CC)Z
+    invoke-static {v15, v0}, Ljava/lang/Character;
+    ->isSurrogatePair(CC)Z
 
     .line 307
     .line 308
@@ -3141,7 +3301,8 @@
 
     .line 313
     .line 314
-    invoke-direct {v0, v9, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;-><init>(II)V
+    invoke-direct {v0, v9, v8}, Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;
+    -><init>(II)V
 
     .line 315
     .line 316
@@ -3158,27 +3319,32 @@
 
     .line 321
     .line 322
-    invoke-direct {v1, v14}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v14}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 323
     .line 324
     .line 325
-    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 326
     .line 327
     .line 328
-    invoke-virtual {v1, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v13}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 329
     .line 330
     .line 331
-    invoke-virtual {v1, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4, v5}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 332
     .line 333
     .line 334
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 335
     .line 336
@@ -3186,7 +3352,8 @@
     move-result-object v1
 
     .line 338
-    invoke-direct {v0, v1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 339
     .line 340
@@ -3206,7 +3373,9 @@
     long-to-int v0, v4
 
     .line 347
-    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;    return-void
+    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;
+    ->position(I)Ljava/nio/Buffer;    
+    return-void
 
     .line 351
     :cond_c
@@ -3218,7 +3387,8 @@
 
     .line 354
     .line 355
-    invoke-direct {v3, v14}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v14}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 356
     .line 357
@@ -3227,7 +3397,8 @@
 
     .line 359
     .line 360
-    invoke-interface {v0, v8}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {v0, v8}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 361
     .line 362
@@ -3235,17 +3406,20 @@
     move-result v0
 
     .line 364
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 365
     .line 366
     .line 367
-    invoke-virtual {v3, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v13}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 368
     .line 369
     .line 370
-    invoke-virtual {v1}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual {v1}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 371
     .line 372
@@ -3253,12 +3427,14 @@
     move-result v0
 
     .line 374
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 375
     .line 376
     .line 377
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 378
     .line 379
@@ -3266,7 +3442,8 @@
     move-result-object v0
 
     .line 381
-    invoke-direct {v2, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 382
     .line 383
@@ -3321,7 +3498,8 @@
     add-long/2addr v7, v1
 
     .line 2
-    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p1
 
@@ -3354,7 +3532,8 @@
     add-long v9, v1, v7
 
     .line 3
-    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p1
 
@@ -3363,7 +3542,8 @@
     if-ltz v0, :cond_4
 
     .line 4
-    invoke-static {v3, p1}, Landroidx/datastore/preferences/protobuf/Utf8;->access$000(II)I
+    invoke-static {v3, p1}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$000(II)I
 
     move-result p1
 
@@ -3392,7 +3572,8 @@
     add-long v3, v1, v7
 
     .line 5
-    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p1
 
@@ -3421,7 +3602,8 @@
     add-long v9, v1, v7
 
     .line 6
-    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v4
 
@@ -3430,7 +3612,8 @@
     if-ltz p1, :cond_b
 
     .line 7
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/Utf8;->access$000(II)I
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$000(II)I
 
     move-result p1
 
@@ -3452,7 +3635,8 @@
     add-long v9, v1, v7
 
     .line 8
-    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result v0
 
@@ -3461,7 +3645,8 @@
     if-ltz p1, :cond_d
 
     .line 9
-    invoke-static {v3, v4, v0}, Landroidx/datastore/preferences/protobuf/Utf8;->access$100(III)I
+    invoke-static {v3, v4, v0}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$100(III)I
 
     move-result p1
 
@@ -3488,7 +3673,8 @@
     add-long v3, v1, v7
 
     .line 10
-    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte([BJ)B
+    invoke-static {p2, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte([BJ)B
 
     move-result p1
 
@@ -3504,7 +3690,8 @@
     long-to-int p1, p3
 
     .line 11
-    invoke-static {p2, v1, v2, p1}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->partialIsValidUtf8([BJI)I
+    invoke-static {p2, v1, v2, p1}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->partialIsValidUtf8([BJI)I
 
     move-result p1
 
@@ -3517,15 +3704,18 @@
     array-length p2, p2
 
     .line 13
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
-    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
 
-    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p4
 
@@ -3545,11 +3735,13 @@
 
     const-string p2, "Array length=%d, index=%d, limit=%d"
 
-    invoke-static {p2, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v1}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -3565,7 +3757,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {p2}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual {p2}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 5
     .line 6
@@ -3583,7 +3776,8 @@
 
     .line 11
     .line 12
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->addressOffset(Ljava/nio/ByteBuffer;)J
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->addressOffset(Ljava/nio/ByteBuffer;)J
 
     .line 13
     .line 14
@@ -3651,7 +3845,8 @@
     add-long/2addr v6, v1
 
     .line 43
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 44
     .line 45
@@ -3706,7 +3901,8 @@
 
     .line 65
     .line 66
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 67
     .line 68
@@ -3722,7 +3918,8 @@
 
     .line 73
     .line 74
-    invoke-static {p4, p1}, Landroidx/datastore/preferences/protobuf/Utf8;->access$000(II)I
+    invoke-static {p4, p1}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$000(II)I
 
     .line 75
     .line 76
@@ -3770,7 +3967,8 @@
     add-long/2addr v6, v1
 
     .line 95
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 96
     .line 97
@@ -3805,7 +4003,8 @@
 
     .line 109
     .line 110
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 111
     .line 112
@@ -3821,7 +4020,8 @@
 
     .line 117
     .line 118
-    invoke-static {p4, v3}, Landroidx/datastore/preferences/protobuf/Utf8;->access$000(II)I
+    invoke-static {p4, v3}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$000(II)I
 
     .line 119
     .line 120
@@ -3855,7 +4055,8 @@
 
     .line 131
     .line 132
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 133
     .line 134
@@ -3871,7 +4072,8 @@
 
     .line 139
     .line 140
-    invoke-static {p4, v3, v0}, Landroidx/datastore/preferences/protobuf/Utf8;->access$100(III)I
+    invoke-static {p4, v3, v0}, Landroidx/datastore/preferences/protobuf/Utf8;
+    ->access$100(III)I
 
     .line 141
     .line 142
@@ -3916,7 +4118,8 @@
     add-long/2addr v6, v1
 
     .line 160
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
+    ->getByte(J)B
 
     .line 161
     .line 162
@@ -3940,7 +4143,8 @@
     long-to-int p1, p2
 
     .line 169
-    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;->partialIsValidUtf8(JI)I
+    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor;
+    ->partialIsValidUtf8(JI)I
 
     .line 170
     .line 171
@@ -3955,7 +4159,8 @@
 
     .line 175
     .line 176
-    invoke-virtual {p2}, Ljava/nio/Buffer;->limit()I
+    invoke-virtual {p2}, Ljava/nio/Buffer;
+    ->limit()I
 
     .line 177
     .line 178
@@ -3963,7 +4168,8 @@
     move-result p2
 
     .line 180
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 181
     .line 182
@@ -3971,7 +4177,8 @@
     move-result-object p2
 
     .line 184
-    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 185
     .line 186
@@ -3979,7 +4186,8 @@
     move-result-object p3
 
     .line 188
-    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 189
     .line 190
@@ -4016,7 +4224,8 @@
 
     .line 204
     .line 205
-    invoke-static {p2, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v1}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 206
     .line 207
@@ -4024,7 +4233,8 @@
     move-result-object p2
 
     .line 209
-    invoke-direct {p1, p2}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>(Ljava/lang/String;)V
 
     .line 210
     .line 211

@@ -16,20 +16,25 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzav;->zzc:Lcom/google/android/gms/measurement/internal/zzap;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzap;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
 
     .line 3
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzav;->zza:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zza:Ljava/lang/String;
 
     const-wide/16 p1, -0x1
 
     .line 4
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzav;->zzb:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzb:J
 
     return-void
 .end method
@@ -38,18 +43,23 @@
     .locals 1
 
     .line 5
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzav;->zzc:Lcom/google/android/gms/measurement/internal/zzap;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzap;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 6
-    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
 
     .line 7
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzav;->zza:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zza:Ljava/lang/String;
 
     .line 8
-    invoke-static {p3, p4}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+    invoke-static {p3, p4}, Ljava/lang/String;
+    ->valueOf(J)Ljava/lang/String;
 
     move-result-object p3
 
@@ -62,11 +72,13 @@
     .line 9
     const-string v0, "select rowid from raw_events where app_id = ? and timestamp < ? order by rowid desc limit 1"
 
-    invoke-static {p1, v0, p2, p3, p4}, Lcom/google/android/gms/measurement/internal/zzap;->zza(Lcom/google/android/gms/measurement/internal/zzap;Ljava/lang/String;[Ljava/lang/String;J)J
+    invoke-static {p1, v0, p2, p3, p4}, Lcom/google/android/gms/measurement/internal/zzap;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzap;Ljava/lang/String;[Ljava/lang/String;J)J
 
     move-result-wide p1
 
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzav;->zzb:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzb:J
 
     return-void
 .end method
@@ -93,7 +105,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 6
     .line 7
@@ -102,15 +115,18 @@
 
     .line 9
     .line 10
-    iget-object v0, v1, Lcom/google/android/gms/measurement/internal/zzav;->zza:Ljava/lang/String;
+    iget-object v0, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zza:Ljava/lang/String;
 
     .line 11
     .line 12
-    iget-wide v3, v1, Lcom/google/android/gms/measurement/internal/zzav;->zzb:J
+    iget-wide v3, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzb:J
 
     .line 13
     .line 14
-    invoke-static {v3, v4}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Ljava/lang/String;
+    ->valueOf(J)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -130,11 +146,13 @@
 
     .line 23
     :try_start_0
-    iget-object v0, v1, Lcom/google/android/gms/measurement/internal/zzav;->zzc:Lcom/google/android/gms/measurement/internal/zzap;
+    iget-object v0, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzap;
 
     .line 24
     .line 25
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->f_()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;
+    ->f_()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 26
     .line 27
@@ -192,7 +210,8 @@
     const/4 v9, 0x0
 
     .line 53
-    invoke-virtual/range {v3 .. v11}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v3 .. v11}, Landroid/database/sqlite/SQLiteDatabase;
+    ->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 54
     .line 55
@@ -200,7 +219,8 @@
     move-result-object v12
 
     .line 57
-    invoke-interface {v12}, Landroid/database/Cursor;->moveToFirst()Z
+    invoke-interface {v12}, Landroid/database/Cursor;
+    ->moveToFirst()Z
 
     .line 58
     .line 59
@@ -212,14 +232,16 @@
 
     .line 62
     .line 63
-    sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+    sget-object v0, Ljava/util/Collections;
+    ->EMPTY_LIST:Ljava/util/List;
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 64
     .line 65
-    invoke-interface {v12}, Landroid/database/Cursor;->close()V
+    invoke-interface {v12}, Landroid/database/Cursor;
+    ->close()V
 
     .line 66
     .line 67
@@ -248,7 +270,8 @@
 
     .line 76
     :try_start_1
-    invoke-interface {v12, v0}, Landroid/database/Cursor;->getLong(I)J
+    invoke-interface {v12, v0}, Landroid/database/Cursor;
+    ->getLong(I)J
 
     .line 77
     .line 78
@@ -259,7 +282,8 @@
     const/4 v3, 0x3
 
     .line 81
-    invoke-interface {v12, v3}, Landroid/database/Cursor;->getLong(I)J
+    invoke-interface {v12, v3}, Landroid/database/Cursor;
+    ->getLong(I)J
 
     .line 82
     .line 83
@@ -270,7 +294,8 @@
     const/4 v3, 0x5
 
     .line 86
-    invoke-interface {v12, v3}, Landroid/database/Cursor;->getLong(I)J
+    invoke-interface {v12, v3}, Landroid/database/Cursor;
+    ->getLong(I)J
 
     .line 87
     .line 88
@@ -307,7 +332,8 @@
     const/4 v0, 0x4
 
     .line 101
-    invoke-interface {v12, v0}, Landroid/database/Cursor;->getBlob(I)[B
+    invoke-interface {v12, v0}, Landroid/database/Cursor;
+    ->getBlob(I)[B
 
     .line 102
     .line 103
@@ -315,7 +341,8 @@
     move-result-object v0
 
     .line 105
-    iget-wide v9, v1, Lcom/google/android/gms/measurement/internal/zzav;->zzb:J
+    iget-wide v9, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzb:J
 
     .line 106
     .line 107
@@ -327,7 +354,8 @@
 
     .line 110
     .line 111
-    iput-wide v4, v1, Lcom/google/android/gms/measurement/internal/zzav;->zzb:J
+    iput-wide v4, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzb:J
     :try_end_1
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -336,7 +364,8 @@
     .line 113
     :cond_2
     :try_start_2
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzgg$zzf;->zze()Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzgg$zzf;
+    ->zze()Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
 
     .line 114
     .line 115
@@ -344,7 +373,8 @@
     move-result-object v9
 
     .line 117
-    invoke-static {v9, v0}, Lcom/google/android/gms/measurement/internal/zzpz;->zza(Lcom/google/android/gms/internal/measurement/zzlq;[B)Lcom/google/android/gms/internal/measurement/zzlq;
+    invoke-static {v9, v0}, Lcom/google/android/gms/measurement/internal/zzpz;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzlq;[B)Lcom/google/android/gms/internal/measurement/zzlq;
 
     .line 118
     .line 119
@@ -361,7 +391,8 @@
     .line 122
     .line 123
     :try_start_3
-    invoke-interface {v12, v3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {v12, v3}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 124
     .line 125
@@ -382,7 +413,8 @@
     .line 131
     .line 132
     :goto_1
-    invoke-virtual {v0, v3}, Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
+    invoke-virtual {v0, v3}, Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
+    ->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
 
     .line 133
     .line 134
@@ -393,7 +425,8 @@
     const/4 v9, 0x2
 
     .line 137
-    invoke-interface {v12, v9}, Landroid/database/Cursor;->getLong(I)J
+    invoke-interface {v12, v9}, Landroid/database/Cursor;
+    ->getLong(I)J
 
     .line 138
     .line 139
@@ -401,7 +434,8 @@
     move-result-wide v9
 
     .line 141
-    invoke-virtual {v3, v9, v10}, Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;->zzb(J)Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
+    invoke-virtual {v3, v9, v10}, Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
+    ->zzb(J)Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;
 
     .line 142
     .line 143
@@ -410,7 +444,8 @@
 
     .line 145
     .line 146
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;->zzaj()Lcom/google/android/gms/internal/measurement/zzlr;
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;
+    ->zzaj()Lcom/google/android/gms/internal/measurement/zzlr;
 
     .line 147
     .line 148
@@ -429,12 +464,14 @@
 
     .line 154
     .line 155
-    invoke-direct/range {v3 .. v9}, Lcom/google/android/gms/measurement/internal/zzat;-><init>(JJZLcom/google/android/gms/internal/measurement/zzgg$zzf;)V
+    invoke-direct/range {v3 .. v9}, Lcom/google/android/gms/measurement/internal/zzat;
+    -><init>(JJZLcom/google/android/gms/internal/measurement/zzgg$zzf;)V
 
     .line 156
     .line 157
     .line 158
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 159
     .line 160
@@ -446,11 +483,13 @@
     move-exception v0
 
     .line 163
-    iget-object v3, v1, Lcom/google/android/gms/measurement/internal/zzav;->zzc:Lcom/google/android/gms/measurement/internal/zzap;
+    iget-object v3, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzap;
 
     .line 164
     .line 165
-    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     .line 166
     .line 167
@@ -458,7 +497,8 @@
     move-result-object v3
 
     .line 169
-    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     .line 170
     .line 171
@@ -470,11 +510,13 @@
 
     .line 174
     .line 175
-    iget-object v5, v1, Lcom/google/android/gms/measurement/internal/zzav;->zza:Ljava/lang/String;
+    iget-object v5, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zza:Ljava/lang/String;
 
     .line 176
     .line 177
-    invoke-static {v5}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v5}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zza(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 178
     .line 179
@@ -482,13 +524,15 @@
     move-result-object v5
 
     .line 181
-    invoke-virtual {v3, v4, v5, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v3, v4, v5, v0}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 182
     .line 183
     .line 184
     :goto_2
-    invoke-interface {v12}, Landroid/database/Cursor;->moveToNext()Z
+    invoke-interface {v12}, Landroid/database/Cursor;
+    ->moveToNext()Z
 
     .line 185
     .line 186
@@ -503,7 +547,8 @@
 
     .line 189
     .line 190
-    invoke-interface {v12}, Landroid/database/Cursor;->close()V
+    invoke-interface {v12}, Landroid/database/Cursor;
+    ->close()V
 
     .line 191
     .line 192
@@ -513,11 +558,13 @@
     .line 194
     :goto_3
     :try_start_4
-    iget-object v3, v1, Lcom/google/android/gms/measurement/internal/zzav;->zzc:Lcom/google/android/gms/measurement/internal/zzap;
+    iget-object v3, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzap;
 
     .line 195
     .line 196
-    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     .line 197
     .line 198
@@ -525,7 +572,8 @@
     move-result-object v3
 
     .line 200
-    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     .line 201
     .line 202
@@ -537,11 +585,13 @@
 
     .line 205
     .line 206
-    iget-object v5, v1, Lcom/google/android/gms/measurement/internal/zzav;->zza:Ljava/lang/String;
+    iget-object v5, v1, Lcom/google/android/gms/measurement/internal/zzav;
+    ->zza:Ljava/lang/String;
 
     .line 207
     .line 208
-    invoke-static {v5}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v5}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zza(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 209
     .line 210
@@ -549,7 +599,8 @@
     move-result-object v5
 
     .line 212
-    invoke-virtual {v3, v4, v5, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v3, v4, v5, v0}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -560,7 +611,8 @@
 
     .line 216
     .line 217
-    invoke-interface {v12}, Landroid/database/Cursor;->close()V
+    invoke-interface {v12}, Landroid/database/Cursor;
+    ->close()V
 
     .line 218
     .line 219
@@ -575,7 +627,8 @@
 
     .line 222
     .line 223
-    invoke-interface {v12}, Landroid/database/Cursor;->close()V
+    invoke-interface {v12}, Landroid/database/Cursor;
+    ->close()V
 
     .line 224
     .line 225

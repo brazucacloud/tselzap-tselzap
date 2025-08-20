@@ -29,12 +29,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, v2, v1}, LB0/r;-><init>([Ljava/lang/Object;I)V
+    invoke-direct {v0, v2, v1}, LB0/r;
+    -><init>([Ljava/lang/Object;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, LB0/r;->f:LB0/r;
+    sput-object v0, LB0/r;
+    ->f:LB0/r;
 
     .line 10
     .line 11
@@ -45,16 +47,19 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractCollection;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LB0/r;->d:[Ljava/lang/Object;
+    iput-object p1, p0, LB0/r;
+    ->d:[Ljava/lang/Object;
 
     .line 5
     .line 6
-    iput p2, p0, LB0/r;->e:I
+    iput p2, p0, LB0/r;
+    ->e:I
 
     .line 7
     .line 8
@@ -67,18 +72,21 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, LB0/r;->d:[Ljava/lang/Object;
+    iget-object v0, p0, LB0/r;
+    ->d:[Ljava/lang/Object;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    iget v2, p0, LB0/r;->e:I
+    iget v2, p0, LB0/r;
+    ->e:I
 
     .line 5
     .line 6
-    invoke-static {v0, v1, p1, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v1, p1, v1, v2}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 7
     .line 8
@@ -90,7 +98,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/r;->d:[Ljava/lang/Object;
+    iget-object v0, p0, LB0/r;
+    ->d:[Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -101,7 +110,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/r;->e:I
+    iget v0, p0, LB0/r;
+    ->e:I
 
     .line 2
     .line 3
@@ -130,16 +140,19 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/r;->e:I
+    iget v0, p0, LB0/r;
+    ->e:I
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/bumptech/glide/b;->h(II)V
+    invoke-static {p1, v0}, Lcom/bumptech/glide/b;
+    ->h(II)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, LB0/r;->d:[Ljava/lang/Object;
+    iget-object v0, p0, LB0/r;
+    ->d:[Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -147,7 +160,8 @@
 
     .line 9
     .line 10
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -159,7 +173,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/r;->e:I
+    iget v0, p0, LB0/r;
+    ->e:I
 
     .line 2
     .line 3

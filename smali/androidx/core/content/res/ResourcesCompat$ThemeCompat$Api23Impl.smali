@@ -35,12 +35,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethodLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethodLock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -51,7 +53,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -72,7 +75,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethodLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethodLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -80,7 +84,8 @@
 
     .line 4
     :try_start_0
-    sget-boolean v1, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethodFetched:Z
+    sget-boolean v1, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethodFetched:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -109,7 +114,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 17
     .line 18
@@ -117,11 +123,13 @@
     move-result-object v3
 
     .line 20
-    sput-object v3, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethod:Ljava/lang/reflect/Method;
 
     .line 21
     .line 22
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -152,18 +160,21 @@
 
     .line 32
     .line 33
-    invoke-static {v4, v5, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v5, v3}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 34
     .line 35
     .line 36
     :goto_0
-    sput-boolean v1, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethodFetched:Z
+    sput-boolean v1, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethodFetched:Z
 
     .line 37
     .line 38
     :cond_0
-    sget-object v1, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethod:Ljava/lang/reflect/Method;
+    sget-object v1, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethod:Ljava/lang/reflect/Method;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -178,7 +189,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {v1, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0, v2}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_3
     .catch Ljava/lang/IllegalAccessException; {:try_start_3 .. :try_end_3} :catch_2
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_3 .. :try_end_3} :catch_1
@@ -211,7 +223,8 @@
 
     .line 54
     .line 55
-    invoke-static {v1, v2, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, p0}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 56
     .line 57
@@ -219,7 +232,8 @@
     const/4 p0, 0x0
 
     .line 59
-    sput-object p0, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;->sRebaseMethod:Ljava/lang/reflect/Method;
+    sput-object p0, Landroidx/core/content/res/ResourcesCompat$ThemeCompat$Api23Impl;
+    ->sRebaseMethod:Ljava/lang/reflect/Method;
 
     .line 60
     .line 61

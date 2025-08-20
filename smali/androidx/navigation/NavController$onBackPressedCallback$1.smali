@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavController;-><init>(Landroid/content/Context;)V
+    value = Landroidx/navigation/NavController;
+    -><init>(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,14 +24,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavController$onBackPressedCallback$1;->this$0:Landroidx/navigation/NavController;
+    iput-object p1, p0, Landroidx/navigation/NavController$onBackPressedCallback$1;
+    ->this$0:Landroidx/navigation/NavController;
 
     .line 2
     .line 3
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
+    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;
+    -><init>(Z)V
 return-void
 .end method
 
@@ -40,11 +43,14 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavController$onBackPressedCallback$1;->this$0:Landroidx/navigation/NavController;
+    iget-object v0, p0, Landroidx/navigation/NavController$onBackPressedCallback$1;
+    ->this$0:Landroidx/navigation/NavController;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/navigation/NavController;->popBackStack()Z    return-void
+    invoke-virtual {v0}, Landroidx/navigation/NavController;
+    ->popBackStack()Z    
+    return-void
 .end method
 
 .end class

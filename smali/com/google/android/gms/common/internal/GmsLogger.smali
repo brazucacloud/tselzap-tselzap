@@ -30,7 +30,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/internal/GmsLogger;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -48,21 +49,25 @@ return-void
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const-string v0, "log tag cannot be null"
 
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->length()I
 
     move-result v0
 
     const/16 v1, 0x17
 
     .line 4
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
@@ -86,15 +91,18 @@ return-void
     const-string v0, "tag \"%s\" is longer than the %d character maximum"
 
     .line 5
-    invoke-static {v4, v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/GmsLogger;->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza:Ljava/lang/String;
 
     const/4 p1, 0x0
 
     if-eqz p2, :cond_1
 
-    invoke-virtual {p2}, Ljava/lang/String;->length()I
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->length()I
 
     move-result v0
 
@@ -104,7 +112,8 @@ return-void
     move-object p2, p1
 
     :cond_2
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/GmsLogger;->zzb:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zzb:Ljava/lang/String;
 
     return-void
 .end method
@@ -113,7 +122,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/GmsLogger;->zzb:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zzb:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -125,7 +135,8 @@ return-void
 
     .line 6
     :cond_0
-    invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -139,11 +150,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/GmsLogger;->zzb:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zzb:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Ljava/lang/String;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -159,7 +172,8 @@ return-void
 
     .line 10
     :cond_0
-    invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -177,11 +191,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/GmsLogger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 4
     .line 5
@@ -217,18 +233,21 @@ return-void
     const/4 v0, 0x3
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     return-void
@@ -254,18 +273,21 @@ return-void
     const/4 v0, 0x3
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p3}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
     return-void
@@ -287,18 +309,21 @@ return-void
     const/4 v0, 0x6
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     return-void
@@ -324,18 +349,21 @@ return-void
     const/4 v0, 0x6
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p3}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
     return-void
@@ -362,7 +390,8 @@ return-void
     const/4 v0, 0x6
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     .line 3
     .line 4
@@ -374,7 +403,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {p0, p2, p3}, Lcom/google/android/gms/common/internal/GmsLogger;->zzb(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-direct {p0, p2, p3}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zzb(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -382,7 +412,8 @@ return-void
     move-result-object p2
 
     .line 12
-    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 13
     .line 14
@@ -407,18 +438,21 @@ return-void
     const/4 v0, 0x4
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     return-void
@@ -444,18 +478,21 @@ return-void
     const/4 v0, 0x4
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p3}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
     return-void
@@ -513,18 +550,21 @@ return-void
     const/4 v0, 0x2
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     return-void
@@ -550,18 +590,21 @@ return-void
     const/4 v0, 0x2
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p3}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
     return-void
@@ -583,18 +626,21 @@ return-void
     const/4 v0, 0x5
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     return-void
@@ -620,18 +666,21 @@ return-void
     const/4 v0, 0x5
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p3}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
     return-void
@@ -658,7 +707,8 @@ return-void
     const/4 p1, 0x5
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     .line 3
     .line 4
@@ -670,11 +720,13 @@ return-void
 
     .line 7
     .line 8
-    iget-object p1, p0, Lcom/google/android/gms/common/internal/GmsLogger;->zza:Ljava/lang/String;
+    iget-object p1, p0, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza:Ljava/lang/String;
 
     .line 9
     .line 10
-    invoke-direct {p0, p2, p3}, Lcom/google/android/gms/common/internal/GmsLogger;->zzb(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-direct {p0, p2, p3}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zzb(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -682,7 +734,8 @@ return-void
     move-result-object p2
 
     .line 14
-    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 15
     .line 16
@@ -712,7 +765,8 @@ return-void
     const/4 v0, 0x7
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;->canLog(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->canLog(I)Z
 
     .line 3
     .line 4
@@ -724,7 +778,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -732,12 +787,14 @@ return-void
     move-result-object v0
 
     .line 12
-    invoke-static {p1, v0, p3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, v0, p3}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 13
     .line 14
     .line 15
-    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/GmsLogger;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -745,7 +802,8 @@ return-void
     move-result-object p2
 
     .line 19
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p3}, Landroid/util/Log;
+    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 20
     .line 21

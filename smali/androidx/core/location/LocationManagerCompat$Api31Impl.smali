@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->hasProvider(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
+    ->hasProvider(Ljava/lang/String;)Z
 
     .line 2
     .line 3
@@ -73,7 +75,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/location/LocationManager;->registerGnssMeasurementsCallback(Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
+    invoke-virtual {p0, p1, p2}, Landroid/location/LocationManager;
+    ->registerGnssMeasurementsCallback(Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent$Callback;)Z
 
     .line 2
     .line 3
@@ -112,7 +115,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/location/LocationManager;
+    ->requestLocationUpdates(Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
 
     .line 2
     .line 3

@@ -30,7 +30,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/ResultCallbacks;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/ResultCallbacks;
+    -><init>()V
 
     .line 2
     .line 3
@@ -39,16 +40,19 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;->zza:Landroid/app/Activity;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;
+    ->zza:Landroid/app/Activity;
 
     .line 10
     .line 11
-    iput p2, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;->zzb:I
+    iput p2, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;
+    ->zzb:I
 
     .line 12
     .line 13
@@ -67,7 +71,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->hasResolution()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->hasResolution()Z
 
     .line 2
     .line 3
@@ -80,15 +85,18 @@
     .line 6
     .line 7
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;->zza:Landroid/app/Activity;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;
+    ->zza:Landroid/app/Activity;
 
     .line 8
     .line 9
-    iget v1, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;->zzb:I
+    iget v1, p0, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;
+    ->zzb:I
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/common/api/Status;->startResolutionForResult(Landroid/app/Activity;I)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/common/api/Status;
+    ->startResolutionForResult(Landroid/app/Activity;I)V
     :try_end_0
     .catch Landroid/content/IntentSender$SendIntentException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -110,7 +118,8 @@
 
     .line 19
     .line 20
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 21
     .line 22
@@ -123,12 +132,14 @@
 
     .line 26
     .line 27
-    invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
+    invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/Status;
+    -><init>(I)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;->onUnresolvableFailure(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;
+    ->onUnresolvableFailure(Lcom/google/android/gms/common/api/Status;)V
 
     .line 31
     .line 32
@@ -137,7 +148,8 @@
 
     .line 34
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;->onUnresolvableFailure(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/ResolvingResultCallbacks;
+    ->onUnresolvableFailure(Lcom/google/android/gms/common/api/Status;)V
 
     .line 35
     .line 36

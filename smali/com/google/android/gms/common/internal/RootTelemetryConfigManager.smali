@@ -40,9 +40,11 @@
 
     const/4 v3, 0x0
 
-    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;-><init>(IZZII)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    -><init>(IZZII)V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zzb:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    sput-object v0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zzb:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     return-void
 .end method
@@ -50,7 +52,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -67,15 +70,18 @@
     monitor-enter v0
 
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    sget-object v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
 
     if-nez v1, :cond_0
 
     new-instance v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
 
-    invoke-direct {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    -><init>()V
 
-    sput-object v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    sput-object v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
 
     goto :goto_0
 
@@ -86,7 +92,8 @@
 
     :cond_0
     :goto_0
-    sget-object v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    sget-object v1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zza:Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -113,7 +120,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     return-object v0
 .end method
@@ -136,11 +144,13 @@
     .line 3
     .line 4
     :try_start_0
-    sget-object p1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zzb:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    sget-object p1, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zzb:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -160,7 +170,8 @@
     .line 12
     :cond_0
     :try_start_1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     .line 13
     .line 14
@@ -168,7 +179,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getVersion()I
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    ->getVersion()I
 
     .line 17
     .line 18
@@ -176,7 +188,8 @@
     move-result v0
 
     .line 20
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getVersion()I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    ->getVersion()I
 
     .line 21
     .line 22
@@ -202,7 +215,8 @@
     :cond_2
     :goto_0
     :try_start_2
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    ->zzc:Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;->getAllowSystemGeneratedContextualActions()Z
+    invoke-virtual {p0}, Landroid/app/Notification;
+    ->getAllowSystemGeneratedContextualActions()Z
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;->getBubbleMetadata()Landroid/app/Notification$BubbleMetadata;
+    invoke-virtual {p0}, Landroid/app/Notification;
+    ->getBubbleMetadata()Landroid/app/Notification$BubbleMetadata;
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getEditChoicesBeforeSending()I
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getEditChoicesBeforeSending()I
 
     .line 2
     .line 3
@@ -85,7 +89,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;->getLocusId()Landroid/content/LocusId;
+    invoke-virtual {p0}, Landroid/app/Notification;
+    ->getLocusId()Landroid/content/LocusId;
 
     .line 2
     .line 3
@@ -101,7 +106,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Action;->isContextual()Z
+    invoke-virtual {p0}, Landroid/app/Notification$Action;
+    ->isContextual()Z
 
     .line 2
     .line 3

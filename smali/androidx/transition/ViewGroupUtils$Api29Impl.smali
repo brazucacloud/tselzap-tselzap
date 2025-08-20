@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->getChildDrawingOrder(I)I
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
+    ->getChildDrawingOrder(I)I
 
     .line 2
     .line 3
@@ -49,7 +51,9 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->suppressLayout(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
+    ->suppressLayout(Z)V    
+    return-void
 .end method
 
 .end class

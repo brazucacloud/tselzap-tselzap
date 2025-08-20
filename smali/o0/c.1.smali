@@ -136,7 +136,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -145,11 +146,13 @@
 
     .line 5
     .line 6
-    iput v0, p0, Lo0/c;->f:I
+    iput v0, p0, Lo0/c;
+    ->f:I
 
     .line 7
     .line 8
-    iput v0, p0, Lo0/c;->g:I
+    iput v0, p0, Lo0/c;
+    ->g:I
 
     .line 9
     .line 10
@@ -157,34 +160,41 @@
 
     .line 11
     .line 12
-    iput v0, p0, Lo0/c;->h:F
+    iput v0, p0, Lo0/c;
+    ->h:F
 
     .line 13
     .line 14
-    iput v0, p0, Lo0/c;->i:F
+    iput v0, p0, Lo0/c;
+    ->i:F
 
     .line 15
     .line 16
-    sget-object v0, Landroid/text/TextUtils$TruncateAt;->END:Landroid/text/TextUtils$TruncateAt;
+    sget-object v0, Landroid/text/TextUtils$TruncateAt;
+    ->END:Landroid/text/TextUtils$TruncateAt;
 
     .line 17
     .line 18
-    iput-object v0, p0, Lo0/c;->A:Landroid/text/TextUtils$TruncateAt;
+    iput-object v0, p0, Lo0/c;
+    ->A:Landroid/text/TextUtils$TruncateAt;
 
     .line 19
     .line 20
     const/4 v0, 0x1
 
     .line 21
-    iput-boolean v0, p0, Lo0/c;->E:Z
+    iput-boolean v0, p0, Lo0/c;
+    ->E:Z
 
     .line 22
     .line 23
-    iput v0, p0, Lo0/c;->e0:I
+    iput v0, p0, Lo0/c;
+    ->e0:I
 
     .line 24
     .line 25
-    iput v0, p0, Lo0/c;->f0:I
+    iput v0, p0, Lo0/c;
+    ->f0:I
 
     .line 26
     .line 27
@@ -192,30 +202,36 @@
 
     .line 28
     .line 29
-    iput v0, p0, Lo0/c;->g0:F
+    iput v0, p0, Lo0/c;
+    ->g0:F
 
     .line 30
     .line 31
-    sget v0, Lo0/y;->n:I
+    sget v0, Lo0/y;
+    ->n:I
 
     .line 32
     .line 33
-    iput v0, p0, Lo0/c;->h0:I
+    iput v0, p0, Lo0/c;
+    ->h0:I
 
     .line 34
     .line 35
     const/4 v0, -0x1
 
     .line 36
-    iput v0, p0, Lo0/c;->i0:I
+    iput v0, p0, Lo0/c;
+    ->i0:I
 
     .line 37
     .line 38
-    iput v0, p0, Lo0/c;->j0:I
+    iput v0, p0, Lo0/c;
+    ->j0:I
 
     .line 39
     .line 40
-    iput-object p1, p0, Lo0/c;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iput-object p1, p0, Lo0/c;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 41
     .line 42
@@ -227,12 +243,14 @@
 
     .line 45
     .line 46
-    invoke-direct {v0, v1}, Landroid/text/TextPaint;-><init>(I)V
+    invoke-direct {v0, v1}, Landroid/text/TextPaint;
+    -><init>(I)V
 
     .line 47
     .line 48
     .line 49
-    iput-object v0, p0, Lo0/c;->O:Landroid/text/TextPaint;
+    iput-object v0, p0, Lo0/c;
+    ->O:Landroid/text/TextPaint;
 
     .line 50
     .line 51
@@ -240,12 +258,14 @@
 
     .line 52
     .line 53
-    invoke-direct {v1, v0}, Landroid/text/TextPaint;-><init>(Landroid/graphics/Paint;)V
+    invoke-direct {v1, v0}, Landroid/text/TextPaint;
+    -><init>(Landroid/graphics/Paint;)V
 
     .line 54
     .line 55
     .line 56
-    iput-object v1, p0, Lo0/c;->P:Landroid/text/TextPaint;
+    iput-object v1, p0, Lo0/c;
+    ->P:Landroid/text/TextPaint;
 
     .line 57
     .line 58
@@ -253,12 +273,14 @@
 
     .line 59
     .line 60
-    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 61
     .line 62
     .line 63
-    iput-object v0, p0, Lo0/c;->d:Landroid/graphics/Rect;
+    iput-object v0, p0, Lo0/c;
+    ->d:Landroid/graphics/Rect;
 
     .line 64
     .line 65
@@ -266,12 +288,14 @@
 
     .line 66
     .line 67
-    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 68
     .line 69
     .line 70
-    iput-object v0, p0, Lo0/c;->c:Landroid/graphics/Rect;
+    iput-object v0, p0, Lo0/c;
+    ->c:Landroid/graphics/Rect;
 
     .line 71
     .line 72
@@ -279,16 +303,19 @@
 
     .line 73
     .line 74
-    invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/RectF;
+    -><init>()V
 
     .line 75
     .line 76
     .line 77
-    iput-object v0, p0, Lo0/c;->e:Landroid/graphics/RectF;
+    iput-object v0, p0, Lo0/c;
+    ->e:Landroid/graphics/RectF;
 
     .line 78
     .line 79
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 80
     .line 81
@@ -296,7 +323,8 @@
     move-result-object p1
 
     .line 83
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 84
     .line 85
@@ -304,7 +332,8 @@
     move-result-object p1
 
     .line 87
-    invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {p1}, Landroid/content/res/Resources;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 88
     .line 89
@@ -312,7 +341,8 @@
     move-result-object p1
 
     .line 91
-    invoke-virtual {p0, p1}, Lo0/c;->i(Landroid/content/res/Configuration;)V
+    invoke-virtual {p0, p1}, Lo0/c;
+    ->i(Landroid/content/res/Configuration;)V
 
     .line 92
     .line 93
@@ -331,7 +361,8 @@
     sub-float/2addr v0, p2
 
     .line 4
-    invoke-static {p0}, Landroid/graphics/Color;->alpha(I)I
+    invoke-static {p0}, Landroid/graphics/Color;
+    ->alpha(I)I
 
     .line 5
     .line 6
@@ -346,7 +377,8 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;
+    ->alpha(I)I
 
     .line 12
     .line 13
@@ -364,7 +396,8 @@
     add-float/2addr v2, v1
 
     .line 19
-    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;
+    ->red(I)I
 
     .line 20
     .line 21
@@ -379,7 +412,8 @@
 
     .line 25
     .line 26
-    invoke-static {p1}, Landroid/graphics/Color;->red(I)I
+    invoke-static {p1}, Landroid/graphics/Color;
+    ->red(I)I
 
     .line 27
     .line 28
@@ -397,7 +431,8 @@
     add-float/2addr v3, v1
 
     .line 34
-    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;
+    ->green(I)I
 
     .line 35
     .line 36
@@ -412,7 +447,8 @@
 
     .line 40
     .line 41
-    invoke-static {p1}, Landroid/graphics/Color;->green(I)I
+    invoke-static {p1}, Landroid/graphics/Color;
+    ->green(I)I
 
     .line 42
     .line 43
@@ -430,7 +466,8 @@
     add-float/2addr v4, v1
 
     .line 49
-    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;
+    ->blue(I)I
 
     .line 50
     .line 51
@@ -445,7 +482,8 @@
 
     .line 55
     .line 56
-    invoke-static {p1}, Landroid/graphics/Color;->blue(I)I
+    invoke-static {p1}, Landroid/graphics/Color;
+    ->blue(I)I
 
     .line 57
     .line 58
@@ -463,7 +501,8 @@
     add-float/2addr p1, p0
 
     .line 64
-    invoke-static {v2}, Ljava/lang/Math;->round(F)I
+    invoke-static {v2}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 65
     .line 66
@@ -471,7 +510,8 @@
     move-result p0
 
     .line 68
-    invoke-static {v3}, Ljava/lang/Math;->round(F)I
+    invoke-static {v3}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 69
     .line 70
@@ -479,7 +519,8 @@
     move-result p2
 
     .line 72
-    invoke-static {v4}, Ljava/lang/Math;->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 73
     .line 74
@@ -487,7 +528,8 @@
     move-result v0
 
     .line 76
-    invoke-static {p1}, Ljava/lang/Math;->round(F)I
+    invoke-static {p1}, Ljava/lang/Math;
+    ->round(F)I
 
     .line 77
     .line 78
@@ -495,7 +537,8 @@
     move-result p1
 
     .line 80
-    invoke-static {p0, p2, v0, p1}, Landroid/graphics/Color;->argb(IIII)I
+    invoke-static {p0, p2, v0, p1}, Landroid/graphics/Color;
+    ->argb(IIII)I
 
     .line 81
     .line 82
@@ -513,7 +556,8 @@
 
     .line 2
     .line 3
-    invoke-interface {p3, p2}, Landroid/animation/TimeInterpolator;->getInterpolation(F)F
+    invoke-interface {p3, p2}, Landroid/animation/TimeInterpolator;
+    ->getInterpolation(F)F
 
     .line 4
     .line 5
@@ -522,7 +566,8 @@
 
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2}, LZ/a;->a(FFF)F
+    invoke-static {p0, p1, p2}, LZ/a;
+    ->a(FFF)F
 
     .line 8
     .line 9
@@ -538,37 +583,44 @@
     .locals 9
 
     .line 1
-    iget v0, p0, Lo0/c;->b:F
+    iget v0, p0, Lo0/c;
+    ->b:F
 
     .line 2
     .line 3
-    iget-object v1, p0, Lo0/c;->c:Landroid/graphics/Rect;
+    iget-object v1, p0, Lo0/c;
+    ->c:Landroid/graphics/Rect;
 
     .line 4
     .line 5
-    iget v2, v1, Landroid/graphics/Rect;->left:I
+    iget v2, v1, Landroid/graphics/Rect;
+    ->left:I
 
     .line 6
     .line 7
     int-to-float v2, v2
 
     .line 8
-    iget-object v3, p0, Lo0/c;->d:Landroid/graphics/Rect;
+    iget-object v3, p0, Lo0/c;
+    ->d:Landroid/graphics/Rect;
 
     .line 9
     .line 10
-    iget v4, v3, Landroid/graphics/Rect;->left:I
+    iget v4, v3, Landroid/graphics/Rect;
+    ->left:I
 
     .line 11
     .line 12
     int-to-float v4, v4
 
     .line 13
-    iget-object v5, p0, Lo0/c;->Q:Landroid/view/animation/LinearInterpolator;
+    iget-object v5, p0, Lo0/c;
+    ->Q:Landroid/view/animation/LinearInterpolator;
 
     .line 14
     .line 15
-    invoke-static {v2, v4, v0, v5}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v2, v4, v0, v5}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 16
     .line 17
@@ -576,27 +628,33 @@
     move-result v2
 
     .line 19
-    iget-object v4, p0, Lo0/c;->e:Landroid/graphics/RectF;
+    iget-object v4, p0, Lo0/c;
+    ->e:Landroid/graphics/RectF;
 
     .line 20
     .line 21
-    iput v2, v4, Landroid/graphics/RectF;->left:F
+    iput v2, v4, Landroid/graphics/RectF;
+    ->left:F
 
     .line 22
     .line 23
-    iget v2, p0, Lo0/c;->m:F
+    iget v2, p0, Lo0/c;
+    ->m:F
 
     .line 24
     .line 25
-    iget v5, p0, Lo0/c;->n:F
+    iget v5, p0, Lo0/c;
+    ->n:F
 
     .line 26
     .line 27
-    iget-object v6, p0, Lo0/c;->Q:Landroid/view/animation/LinearInterpolator;
+    iget-object v6, p0, Lo0/c;
+    ->Q:Landroid/view/animation/LinearInterpolator;
 
     .line 28
     .line 29
-    invoke-static {v2, v5, v0, v6}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v2, v5, v0, v6}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 30
     .line 31
@@ -604,29 +662,34 @@
     move-result v2
 
     .line 33
-    iput v2, v4, Landroid/graphics/RectF;->top:F
+    iput v2, v4, Landroid/graphics/RectF;
+    ->top:F
 
     .line 34
     .line 35
-    iget v2, v1, Landroid/graphics/Rect;->right:I
+    iget v2, v1, Landroid/graphics/Rect;
+    ->right:I
 
     .line 36
     .line 37
     int-to-float v2, v2
 
     .line 38
-    iget v5, v3, Landroid/graphics/Rect;->right:I
+    iget v5, v3, Landroid/graphics/Rect;
+    ->right:I
 
     .line 39
     .line 40
     int-to-float v5, v5
 
     .line 41
-    iget-object v6, p0, Lo0/c;->Q:Landroid/view/animation/LinearInterpolator;
+    iget-object v6, p0, Lo0/c;
+    ->Q:Landroid/view/animation/LinearInterpolator;
 
     .line 42
     .line 43
-    invoke-static {v2, v5, v0, v6}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v2, v5, v0, v6}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 44
     .line 45
@@ -634,29 +697,34 @@
     move-result v2
 
     .line 47
-    iput v2, v4, Landroid/graphics/RectF;->right:F
+    iput v2, v4, Landroid/graphics/RectF;
+    ->right:F
 
     .line 48
     .line 49
-    iget v1, v1, Landroid/graphics/Rect;->bottom:I
+    iget v1, v1, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 50
     .line 51
     int-to-float v1, v1
 
     .line 52
-    iget v2, v3, Landroid/graphics/Rect;->bottom:I
+    iget v2, v3, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 53
     .line 54
     int-to-float v2, v2
 
     .line 55
-    iget-object v3, p0, Lo0/c;->Q:Landroid/view/animation/LinearInterpolator;
+    iget-object v3, p0, Lo0/c;
+    ->Q:Landroid/view/animation/LinearInterpolator;
 
     .line 56
     .line 57
-    invoke-static {v1, v2, v0, v3}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v1, v2, v0, v3}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 58
     .line 59
@@ -664,23 +732,28 @@
     move-result v1
 
     .line 61
-    iput v1, v4, Landroid/graphics/RectF;->bottom:F
+    iput v1, v4, Landroid/graphics/RectF;
+    ->bottom:F
 
     .line 62
     .line 63
-    iget v1, p0, Lo0/c;->o:F
+    iget v1, p0, Lo0/c;
+    ->o:F
 
     .line 64
     .line 65
-    iget v2, p0, Lo0/c;->p:F
+    iget v2, p0, Lo0/c;
+    ->p:F
 
     .line 66
     .line 67
-    iget-object v3, p0, Lo0/c;->Q:Landroid/view/animation/LinearInterpolator;
+    iget-object v3, p0, Lo0/c;
+    ->Q:Landroid/view/animation/LinearInterpolator;
 
     .line 68
     .line 69
-    invoke-static {v1, v2, v0, v3}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v1, v2, v0, v3}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 70
     .line 71
@@ -688,23 +761,28 @@
     move-result v1
 
     .line 73
-    iput v1, p0, Lo0/c;->q:F
+    iput v1, p0, Lo0/c;
+    ->q:F
 
     .line 74
     .line 75
-    iget v1, p0, Lo0/c;->m:F
+    iget v1, p0, Lo0/c;
+    ->m:F
 
     .line 76
     .line 77
-    iget v2, p0, Lo0/c;->n:F
+    iget v2, p0, Lo0/c;
+    ->n:F
 
     .line 78
     .line 79
-    iget-object v3, p0, Lo0/c;->Q:Landroid/view/animation/LinearInterpolator;
+    iget-object v3, p0, Lo0/c;
+    ->Q:Landroid/view/animation/LinearInterpolator;
 
     .line 80
     .line 81
-    invoke-static {v1, v2, v0, v3}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v1, v2, v0, v3}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 82
     .line 83
@@ -712,23 +790,27 @@
     move-result v1
 
     .line 85
-    iput v1, p0, Lo0/c;->r:F
+    iput v1, p0, Lo0/c;
+    ->r:F
 
     .line 86
     .line 87
     const/4 v1, 0x0
 
     .line 88
-    invoke-virtual {p0, v0, v1}, Lo0/c;->d(FZ)V
+    invoke-virtual {p0, v0, v1}, Lo0/c;
+    ->d(FZ)V
 
     .line 89
     .line 90
     .line 91
-    iget-object v2, p0, Lo0/c;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v2, p0, Lo0/c;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 92
     .line 93
-    invoke-virtual {v2}, Landroid/view/View;->postInvalidateOnAnimation()V
+    invoke-virtual {v2}, Landroid/view/View;
+    ->postInvalidateOnAnimation()V
 
     .line 94
     .line 95
@@ -741,14 +823,16 @@
 
     .line 99
     .line 100
-    sget-object v5, LZ/a;->b:Landroidx/interpolator/view/animation/FastOutSlowInInterpolator;
+    sget-object v5, LZ/a;
+    ->b:Landroidx/interpolator/view/animation/FastOutSlowInInterpolator;
 
     .line 101
     .line 102
     const/4 v6, 0x0
 
     .line 103
-    invoke-static {v6, v3, v4, v5}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v6, v3, v4, v5}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 104
     .line 105
@@ -760,16 +844,19 @@
 
     .line 108
     .line 109
-    iput v4, p0, Lo0/c;->b0:F
+    iput v4, p0, Lo0/c;
+    ->b0:F
 
     .line 110
     .line 111
-    invoke-virtual {v2}, Landroid/view/View;->postInvalidateOnAnimation()V
+    invoke-virtual {v2}, Landroid/view/View;
+    ->postInvalidateOnAnimation()V
 
     .line 112
     .line 113
     .line 114
-    invoke-static {v3, v6, v0, v5}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v3, v6, v0, v5}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 115
     .line 116
@@ -777,24 +864,29 @@
     move-result v3
 
     .line 118
-    iput v3, p0, Lo0/c;->c0:F
+    iput v3, p0, Lo0/c;
+    ->c0:F
 
     .line 119
     .line 120
-    invoke-virtual {v2}, Landroid/view/View;->postInvalidateOnAnimation()V
+    invoke-virtual {v2}, Landroid/view/View;
+    ->postInvalidateOnAnimation()V
 
     .line 121
     .line 122
     .line 123
-    iget-object v3, p0, Lo0/c;->k:Landroid/content/res/ColorStateList;
+    iget-object v3, p0, Lo0/c;
+    ->k:Landroid/content/res/ColorStateList;
 
     .line 124
     .line 125
-    iget-object v4, p0, Lo0/c;->j:Landroid/content/res/ColorStateList;
+    iget-object v4, p0, Lo0/c;
+    ->j:Landroid/content/res/ColorStateList;
 
     .line 126
     .line 127
-    iget-object v7, p0, Lo0/c;->O:Landroid/text/TextPaint;
+    iget-object v7, p0, Lo0/c;
+    ->O:Landroid/text/TextPaint;
 
     .line 128
     .line 129
@@ -802,7 +894,8 @@
 
     .line 130
     .line 131
-    invoke-virtual {p0, v4}, Lo0/c;->g(Landroid/content/res/ColorStateList;)I
+    invoke-virtual {p0, v4}, Lo0/c;
+    ->g(Landroid/content/res/ColorStateList;)I
 
     .line 132
     .line 133
@@ -810,11 +903,13 @@
     move-result v3
 
     .line 135
-    iget-object v4, p0, Lo0/c;->k:Landroid/content/res/ColorStateList;
+    iget-object v4, p0, Lo0/c;
+    ->k:Landroid/content/res/ColorStateList;
 
     .line 136
     .line 137
-    invoke-virtual {p0, v4}, Lo0/c;->g(Landroid/content/res/ColorStateList;)I
+    invoke-virtual {p0, v4}, Lo0/c;
+    ->g(Landroid/content/res/ColorStateList;)I
 
     .line 138
     .line 139
@@ -822,7 +917,8 @@
     move-result v4
 
     .line 141
-    invoke-static {v3, v4, v0}, Lo0/c;->a(IIF)I
+    invoke-static {v3, v4, v0}, Lo0/c;
+    ->a(IIF)I
 
     .line 142
     .line 143
@@ -830,7 +926,8 @@
     move-result v3
 
     .line 145
-    invoke-virtual {v7, v3}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v7, v3}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 146
     .line 147
@@ -839,7 +936,8 @@
 
     .line 149
     :cond_0
-    invoke-virtual {p0, v3}, Lo0/c;->g(Landroid/content/res/ColorStateList;)I
+    invoke-virtual {p0, v3}, Lo0/c;
+    ->g(Landroid/content/res/ColorStateList;)I
 
     .line 150
     .line 151
@@ -847,17 +945,20 @@
     move-result v3
 
     .line 153
-    invoke-virtual {v7, v3}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v7, v3}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 154
     .line 155
     .line 156
     :goto_0
-    iget v3, p0, Lo0/c;->W:F
+    iget v3, p0, Lo0/c;
+    ->W:F
 
     .line 157
     .line 158
-    iget v4, p0, Lo0/c;->X:F
+    iget v4, p0, Lo0/c;
+    ->X:F
 
     .line 159
     .line 160
@@ -869,7 +970,8 @@
 
     .line 163
     .line 164
-    invoke-static {v4, v3, v0, v5}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v4, v3, v0, v5}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 165
     .line 166
@@ -877,7 +979,8 @@
     move-result v3
 
     .line 168
-    invoke-virtual {v7, v3}, Landroid/graphics/Paint;->setLetterSpacing(F)V
+    invoke-virtual {v7, v3}, Landroid/graphics/Paint;
+    ->setLetterSpacing(F)V
 
     .line 169
     .line 170
@@ -886,17 +989,20 @@
 
     .line 172
     :cond_1
-    invoke-virtual {v7, v3}, Landroid/graphics/Paint;->setLetterSpacing(F)V
+    invoke-virtual {v7, v3}, Landroid/graphics/Paint;
+    ->setLetterSpacing(F)V
 
     .line 173
     .line 174
     .line 175
     :goto_1
-    iget v3, p0, Lo0/c;->S:F
+    iget v3, p0, Lo0/c;
+    ->S:F
 
     .line 176
     .line 177
-    invoke-static {v6, v3, v0}, LZ/a;->a(FFF)F
+    invoke-static {v6, v3, v0}, LZ/a;
+    ->a(FFF)F
 
     .line 178
     .line 179
@@ -904,15 +1010,18 @@
     move-result v3
 
     .line 181
-    iput v3, p0, Lo0/c;->H:F
+    iput v3, p0, Lo0/c;
+    ->H:F
 
     .line 182
     .line 183
-    iget v3, p0, Lo0/c;->T:F
+    iget v3, p0, Lo0/c;
+    ->T:F
 
     .line 184
     .line 185
-    invoke-static {v6, v3, v0}, LZ/a;->a(FFF)F
+    invoke-static {v6, v3, v0}, LZ/a;
+    ->a(FFF)F
 
     .line 186
     .line 187
@@ -920,15 +1029,18 @@
     move-result v3
 
     .line 189
-    iput v3, p0, Lo0/c;->I:F
+    iput v3, p0, Lo0/c;
+    ->I:F
 
     .line 190
     .line 191
-    iget v3, p0, Lo0/c;->U:F
+    iget v3, p0, Lo0/c;
+    ->U:F
 
     .line 192
     .line 193
-    invoke-static {v6, v3, v0}, LZ/a;->a(FFF)F
+    invoke-static {v6, v3, v0}, LZ/a;
+    ->a(FFF)F
 
     .line 194
     .line 195
@@ -936,15 +1048,18 @@
     move-result v3
 
     .line 197
-    iput v3, p0, Lo0/c;->J:F
+    iput v3, p0, Lo0/c;
+    ->J:F
 
     .line 198
     .line 199
-    iget-object v3, p0, Lo0/c;->V:Landroid/content/res/ColorStateList;
+    iget-object v3, p0, Lo0/c;
+    ->V:Landroid/content/res/ColorStateList;
 
     .line 200
     .line 201
-    invoke-virtual {p0, v3}, Lo0/c;->g(Landroid/content/res/ColorStateList;)I
+    invoke-virtual {p0, v3}, Lo0/c;
+    ->g(Landroid/content/res/ColorStateList;)I
 
     .line 202
     .line 203
@@ -952,7 +1067,8 @@
     move-result v3
 
     .line 205
-    invoke-static {v1, v3, v0}, Lo0/c;->a(IIF)I
+    invoke-static {v1, v3, v0}, Lo0/c;
+    ->a(IIF)I
 
     .line 206
     .line 207
@@ -960,28 +1076,34 @@
     move-result v0
 
     .line 209
-    iput v0, p0, Lo0/c;->K:I
+    iput v0, p0, Lo0/c;
+    ->K:I
 
     .line 210
     .line 211
-    iget v1, p0, Lo0/c;->H:F
+    iget v1, p0, Lo0/c;
+    ->H:F
 
     .line 212
     .line 213
-    iget v3, p0, Lo0/c;->I:F
+    iget v3, p0, Lo0/c;
+    ->I:F
 
     .line 214
     .line 215
-    iget v4, p0, Lo0/c;->J:F
+    iget v4, p0, Lo0/c;
+    ->J:F
 
     .line 216
     .line 217
-    invoke-virtual {v7, v1, v3, v4, v0}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
+    invoke-virtual {v7, v1, v3, v4, v0}, Landroid/graphics/Paint;
+    ->setShadowLayer(FFFI)V
 
     .line 218
     .line 219
     .line 220
-    invoke-virtual {v2}, Landroid/view/View;->postInvalidateOnAnimation()V
+    invoke-virtual {v2}, Landroid/view/View;
+    ->postInvalidateOnAnimation()V
 
     .line 221
     .line 222
@@ -993,11 +1115,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lo0/c;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v0, p0, Lo0/c;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->getLayoutDirection()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getLayoutDirection()I
 
     .line 4
     .line 5
@@ -1023,7 +1147,8 @@
 
     .line 13
     :goto_0
-    iget-boolean v0, p0, Lo0/c;->E:Z
+    iget-boolean v0, p0, Lo0/c;
+    ->E:Z
 
     .line 14
     .line 15
@@ -1035,7 +1160,8 @@
 
     .line 18
     .line 19
-    sget-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->FIRSTSTRONG_RTL:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sget-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->FIRSTSTRONG_RTL:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 20
     .line 21
@@ -1043,12 +1169,14 @@
 
     .line 22
     :cond_1
-    sget-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->FIRSTSTRONG_LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sget-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->FIRSTSTRONG_LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 23
     .line 24
     :goto_1
-    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 25
     .line 26
@@ -1056,7 +1184,8 @@
     move-result v2
 
     .line 28
-    invoke-interface {v0, p1, v1, v2}, Landroidx/core/text/TextDirectionHeuristicCompat;->isRtl(Ljava/lang/CharSequence;II)Z
+    invoke-interface {v0, p1, v1, v2}, Landroidx/core/text/TextDirectionHeuristicCompat;
+    ->isRtl(Ljava/lang/CharSequence;II)Z
 
     .line 29
     .line 30
@@ -1078,7 +1207,8 @@
 
     .line 2
     .line 3
-    iget-object v2, p0, Lo0/c;->B:Ljava/lang/CharSequence;
+    iget-object v2, p0, Lo0/c;
+    ->B:Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -1091,11 +1221,13 @@
     .line 8
     .line 9
     :cond_0
-    iget-object v2, p0, Lo0/c;->d:Landroid/graphics/Rect;
+    iget-object v2, p0, Lo0/c;
+    ->d:Landroid/graphics/Rect;
 
     .line 10
     .line 11
-    invoke-virtual {v2}, Landroid/graphics/Rect;->width()I
+    invoke-virtual {v2}, Landroid/graphics/Rect;
+    ->width()I
 
     .line 12
     .line 13
@@ -1106,11 +1238,13 @@
     int-to-float v2, v2
 
     .line 16
-    iget-object v3, p0, Lo0/c;->c:Landroid/graphics/Rect;
+    iget-object v3, p0, Lo0/c;
+    ->c:Landroid/graphics/Rect;
 
     .line 17
     .line 18
-    invoke-virtual {v3}, Landroid/graphics/Rect;->width()I
+    invoke-virtual {v3}, Landroid/graphics/Rect;
+    ->width()I
 
     .line 19
     .line 20
@@ -1129,7 +1263,8 @@
 
     .line 26
     .line 27
-    invoke-static {v5}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v5}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 28
     .line 29
@@ -1174,7 +1309,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 47
     .line 48
@@ -1186,7 +1322,8 @@
 
     .line 51
     .line 52
-    iget v5, p0, Lo0/c;->i:F
+    iget v5, p0, Lo0/c;
+    ->i:F
 
     .line 53
     .line 54
@@ -1194,12 +1331,14 @@
 
     .line 55
     :cond_2
-    iget v5, p0, Lo0/c;->h:F
+    iget v5, p0, Lo0/c;
+    ->h:F
 
     .line 56
     .line 57
     :goto_1
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 58
     .line 59
@@ -1211,7 +1350,8 @@
 
     .line 62
     .line 63
-    iget v7, p0, Lo0/c;->W:F
+    iget v7, p0, Lo0/c;
+    ->W:F
 
     .line 64
     .line 65
@@ -1219,12 +1359,14 @@
 
     .line 66
     :cond_3
-    iget v7, p0, Lo0/c;->X:F
+    iget v7, p0, Lo0/c;
+    ->X:F
 
     .line 67
     .line 68
     :goto_2
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 69
     .line 70
@@ -1244,19 +1386,23 @@
 
     .line 77
     :cond_4
-    iget v10, p0, Lo0/c;->h:F
+    iget v10, p0, Lo0/c;
+    ->h:F
 
     .line 78
     .line 79
-    iget v11, p0, Lo0/c;->i:F
+    iget v11, p0, Lo0/c;
+    ->i:F
 
     .line 80
     .line 81
-    iget-object v12, p0, Lo0/c;->R:Landroid/view/animation/LinearInterpolator;
+    iget-object v12, p0, Lo0/c;
+    ->R:Landroid/view/animation/LinearInterpolator;
 
     .line 82
     .line 83
-    invoke-static {v10, v11, v1, v12}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v10, v11, v1, v12}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 84
     .line 85
@@ -1264,7 +1410,8 @@
     move-result v10
 
     .line 87
-    iget v11, p0, Lo0/c;->h:F
+    iget v11, p0, Lo0/c;
+    ->h:F
 
     .line 88
     .line 89
@@ -1272,11 +1419,13 @@
 
     .line 90
     :goto_3
-    iput v10, p0, Lo0/c;->F:F
+    iput v10, p0, Lo0/c;
+    ->F:F
 
     .line 91
     .line 92
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 93
     .line 94
@@ -1296,7 +1445,8 @@
 
     .line 100
     :goto_4
-    iget-object v3, p0, Lo0/c;->s:Landroid/graphics/Typeface;
+    iget-object v3, p0, Lo0/c;
+    ->s:Landroid/graphics/Typeface;
 
     .line 101
     .line 102
@@ -1310,15 +1460,18 @@
 
     .line 105
     :cond_6
-    iget v5, p0, Lo0/c;->h:F
+    iget v5, p0, Lo0/c;
+    ->h:F
 
     .line 106
     .line 107
-    iget v10, p0, Lo0/c;->X:F
+    iget v10, p0, Lo0/c;
+    ->X:F
 
     .line 108
     .line 109
-    iget-object v11, p0, Lo0/c;->v:Landroid/graphics/Typeface;
+    iget-object v11, p0, Lo0/c;
+    ->v:Landroid/graphics/Typeface;
 
     .line 110
     .line 111
@@ -1326,7 +1479,8 @@
 
     .line 112
     .line 113
-    invoke-static {v12}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v12}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 114
     .line 115
@@ -1342,7 +1496,8 @@
 
     .line 120
     .line 121
-    iput v4, p0, Lo0/c;->F:F
+    iput v4, p0, Lo0/c;
+    ->F:F
 
     .line 122
     .line 123
@@ -1350,19 +1505,23 @@
 
     .line 124
     :cond_7
-    iget v7, p0, Lo0/c;->h:F
+    iget v7, p0, Lo0/c;
+    ->h:F
 
     .line 125
     .line 126
-    iget v12, p0, Lo0/c;->i:F
+    iget v12, p0, Lo0/c;
+    ->i:F
 
     .line 127
     .line 128
-    iget-object v13, p0, Lo0/c;->R:Landroid/view/animation/LinearInterpolator;
+    iget-object v13, p0, Lo0/c;
+    ->R:Landroid/view/animation/LinearInterpolator;
 
     .line 129
     .line 130
-    invoke-static {v7, v12, v1, v13}, Lo0/c;->h(FFFLandroid/animation/TimeInterpolator;)F
+    invoke-static {v7, v12, v1, v13}, Lo0/c;
+    ->h(FFFLandroid/animation/TimeInterpolator;)F
 
     .line 131
     .line 132
@@ -1370,23 +1529,27 @@
     move-result v7
 
     .line 134
-    iget v12, p0, Lo0/c;->h:F
+    iget v12, p0, Lo0/c;
+    ->h:F
 
     .line 135
     .line 136
     div-float/2addr v7, v12
 
     .line 137
-    iput v7, p0, Lo0/c;->F:F
+    iput v7, p0, Lo0/c;
+    ->F:F
 
     .line 138
     .line 139
     :goto_5
-    iget v7, p0, Lo0/c;->i:F
+    iget v7, p0, Lo0/c;
+    ->i:F
 
     .line 140
     .line 141
-    iget v12, p0, Lo0/c;->h:F
+    iget v12, p0, Lo0/c;
+    ->h:F
 
     .line 142
     .line 143
@@ -1409,7 +1572,8 @@
 
     .line 151
     .line 152
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 153
     .line 154
@@ -1424,7 +1588,8 @@
     div-float/2addr v2, v7
 
     .line 159
-    invoke-static {v2, v3}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v2, v3}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 160
     .line 161
@@ -1449,7 +1614,8 @@
 
     .line 169
     .line 170
-    iget v1, p0, Lo0/c;->e0:I
+    iget v1, p0, Lo0/c;
+    ->e0:I
 
     .line 171
     .line 172
@@ -1457,12 +1623,14 @@
 
     .line 173
     :cond_9
-    iget v1, p0, Lo0/c;->f0:I
+    iget v1, p0, Lo0/c;
+    ->f0:I
 
     .line 174
     .line 175
     :goto_7
-    iget-object v2, p0, Lo0/c;->O:Landroid/text/TextPaint;
+    iget-object v2, p0, Lo0/c;
+    ->O:Landroid/text/TextPaint;
 
     .line 176
     .line 177
@@ -1474,7 +1642,8 @@
 
     .line 180
     .line 181
-    iget v9, p0, Lo0/c;->G:F
+    iget v9, p0, Lo0/c;
+    ->G:F
 
     .line 182
     .line 183
@@ -1497,7 +1666,8 @@
 
     .line 190
     :goto_8
-    iget v10, p0, Lo0/c;->Y:F
+    iget v10, p0, Lo0/c;
+    ->Y:F
 
     .line 191
     .line 192
@@ -1520,7 +1690,8 @@
 
     .line 199
     :goto_9
-    iget-object v12, p0, Lo0/c;->y:Landroid/graphics/Typeface;
+    iget-object v12, p0, Lo0/c;
+    ->y:Landroid/graphics/Typeface;
 
     .line 200
     .line 201
@@ -1539,7 +1710,8 @@
 
     .line 206
     :goto_a
-    iget-object v13, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iget-object v13, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 207
     .line 208
@@ -1547,7 +1719,8 @@
 
     .line 209
     .line 210
-    invoke-virtual {v13}, Landroid/text/Layout;->getWidth()I
+    invoke-virtual {v13}, Landroid/text/Layout;
+    ->getWidth()I
 
     .line 211
     .line 212
@@ -1577,7 +1750,8 @@
 
     .line 222
     :goto_b
-    iget v14, p0, Lo0/c;->L:I
+    iget v14, p0, Lo0/c;
+    ->L:I
 
     .line 223
     .line 224
@@ -1616,7 +1790,8 @@
 
     .line 238
     .line 239
-    iget-boolean v9, p0, Lo0/c;->N:Z
+    iget-boolean v9, p0, Lo0/c;
+    ->N:Z
 
     .line 240
     .line 241
@@ -1640,27 +1815,33 @@
 
     .line 247
     :goto_e
-    iput v5, p0, Lo0/c;->G:F
+    iput v5, p0, Lo0/c;
+    ->G:F
 
     .line 248
     .line 249
-    iput v7, p0, Lo0/c;->Y:F
+    iput v7, p0, Lo0/c;
+    ->Y:F
 
     .line 250
     .line 251
-    iput-object v11, p0, Lo0/c;->y:Landroid/graphics/Typeface;
+    iput-object v11, p0, Lo0/c;
+    ->y:Landroid/graphics/Typeface;
 
     .line 252
     .line 253
-    iput-boolean v6, p0, Lo0/c;->N:Z
+    iput-boolean v6, p0, Lo0/c;
+    ->N:Z
 
     .line 254
     .line 255
-    iput v1, p0, Lo0/c;->L:I
+    iput v1, p0, Lo0/c;
+    ->L:I
 
     .line 256
     .line 257
-    iget v5, p0, Lo0/c;->F:F
+    iget v5, p0, Lo0/c;
+    ->F:F
 
     .line 258
     .line 259
@@ -1676,7 +1857,8 @@
 
     .line 264
     :cond_11
-    invoke-virtual {v2, v6}, Landroid/graphics/Paint;->setLinearText(Z)V
+    invoke-virtual {v2, v6}, Landroid/graphics/Paint;
+    ->setLinearText(Z)V
 
     .line 265
     .line 266
@@ -1685,7 +1867,8 @@
 
     .line 268
     :cond_12
-    iget-object v5, p0, Lo0/c;->C:Ljava/lang/CharSequence;
+    iget-object v5, p0, Lo0/c;
+    ->C:Ljava/lang/CharSequence;
 
     .line 269
     .line 270
@@ -1707,38 +1890,46 @@
     .line 276
     :cond_14
     :goto_10
-    iget v5, p0, Lo0/c;->G:F
+    iget v5, p0, Lo0/c;
+    ->G:F
 
     .line 277
     .line 278
-    invoke-virtual {v2, v5}, Landroid/graphics/Paint;->setTextSize(F)V
+    invoke-virtual {v2, v5}, Landroid/graphics/Paint;
+    ->setTextSize(F)V
 
     .line 279
     .line 280
     .line 281
-    iget-object v5, p0, Lo0/c;->y:Landroid/graphics/Typeface;
+    iget-object v5, p0, Lo0/c;
+    ->y:Landroid/graphics/Typeface;
 
     .line 282
     .line 283
-    invoke-virtual {v2, v5}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-virtual {v2, v5}, Landroid/graphics/Paint;
+    ->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 284
     .line 285
     .line 286
-    iget v5, p0, Lo0/c;->Y:F
+    iget v5, p0, Lo0/c;
+    ->Y:F
 
     .line 287
     .line 288
-    invoke-virtual {v2, v5}, Landroid/graphics/Paint;->setLetterSpacing(F)V
+    invoke-virtual {v2, v5}, Landroid/graphics/Paint;
+    ->setLetterSpacing(F)V
 
     .line 289
     .line 290
     .line 291
-    iget-object v5, p0, Lo0/c;->B:Ljava/lang/CharSequence;
+    iget-object v5, p0, Lo0/c;
+    ->B:Ljava/lang/CharSequence;
 
     .line 292
     .line 293
-    invoke-virtual {p0, v5}, Lo0/c;->c(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p0, v5}, Lo0/c;
+    ->c(Ljava/lang/CharSequence;)Z
 
     .line 294
     .line 295
@@ -1746,11 +1937,13 @@
     move-result v5
 
     .line 297
-    iput-boolean v5, p0, Lo0/c;->D:Z
+    iput-boolean v5, p0, Lo0/c;
+    ->D:Z
 
     .line 298
     .line 299
-    iget v6, p0, Lo0/c;->e0:I
+    iget v6, p0, Lo0/c;
+    ->e0:I
 
     .line 300
     .line 301
@@ -1758,7 +1951,8 @@
 
     .line 302
     .line 303
-    iget v6, p0, Lo0/c;->f0:I
+    iget v6, p0, Lo0/c;
+    ->f0:I
 
     .line 304
     .line 305
@@ -1779,11 +1973,13 @@
     move v5, v3
 
     .line 311
-    iget-object v3, p0, Lo0/c;->B:Ljava/lang/CharSequence;
+    iget-object v3, p0, Lo0/c;
+    ->B:Ljava/lang/CharSequence;
 
     .line 312
     .line 313
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 314
     .line 315
@@ -1799,7 +1995,8 @@
 
     .line 320
     :cond_18
-    iget v4, p0, Lo0/c;->F:F
+    iget v4, p0, Lo0/c;
+    ->F:F
 
     .line 321
     .line 322
@@ -1808,14 +2005,16 @@
 
     .line 323
     .line 324
-    iget-boolean v5, p0, Lo0/c;->D:Z
+    iget-boolean v5, p0, Lo0/c;
+    ->D:Z
 
     .line 325
     .line 326
     move-object v0, p0
 
     .line 327
-    invoke-virtual/range {v0 .. v5}, Lo0/c;->e(ILandroid/text/TextPaint;Ljava/lang/CharSequence;FZ)Landroid/text/StaticLayout;
+    invoke-virtual/range {v0 .. v5}, Lo0/c;
+    ->e(ILandroid/text/TextPaint;Ljava/lang/CharSequence;FZ)Landroid/text/StaticLayout;
 
     .line 328
     .line 329
@@ -1823,11 +2022,13 @@
     move-result-object v1
 
     .line 331
-    iput-object v1, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iput-object v1, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 332
     .line 333
-    invoke-virtual {v1}, Landroid/text/Layout;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v1}, Landroid/text/Layout;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 334
     .line 335
@@ -1835,7 +2036,8 @@
     move-result-object v1
 
     .line 337
-    iput-object v1, p0, Lo0/c;->C:Ljava/lang/CharSequence;
+    iput-object v1, p0, Lo0/c;
+    ->C:Ljava/lang/CharSequence;
 
     .line 338
     .line 339
@@ -1857,7 +2059,8 @@
     .line 4
     .line 5
     :try_start_0
-    sget-object v0, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
+    sget-object v0, Landroid/text/Layout$Alignment;
+    ->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
     .line 6
     .line 7
@@ -1872,15 +2075,18 @@
 
     .line 10
     :cond_0
-    iget v2, p0, Lo0/c;->f:I
+    iget v2, p0, Lo0/c;
+    ->f:I
 
     .line 11
     .line 12
-    iget-boolean v3, p0, Lo0/c;->D:Z
+    iget-boolean v3, p0, Lo0/c;
+    ->D:Z
 
     .line 13
     .line 14
-    invoke-static {v2, v3}, Landroid/view/Gravity;->getAbsoluteGravity(II)I
+    invoke-static {v2, v3}, Landroid/view/Gravity;
+    ->getAbsoluteGravity(II)I
 
     .line 15
     .line 16
@@ -1903,7 +2109,8 @@
 
     .line 24
     .line 25
-    iget-boolean v0, p0, Lo0/c;->D:Z
+    iget-boolean v0, p0, Lo0/c;
+    ->D:Z
 
     .line 26
     .line 27
@@ -1911,7 +2118,8 @@
 
     .line 28
     .line 29
-    sget-object v0, Landroid/text/Layout$Alignment;->ALIGN_OPPOSITE:Landroid/text/Layout$Alignment;
+    sget-object v0, Landroid/text/Layout$Alignment;
+    ->ALIGN_OPPOSITE:Landroid/text/Layout$Alignment;
 
     .line 30
     .line 31
@@ -1919,7 +2127,8 @@
 
     .line 32
     :cond_1
-    sget-object v0, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
+    sget-object v0, Landroid/text/Layout$Alignment;
+    ->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
     .line 33
     .line 34
@@ -1927,7 +2136,8 @@
 
     .line 35
     :cond_2
-    iget-boolean v0, p0, Lo0/c;->D:Z
+    iget-boolean v0, p0, Lo0/c;
+    ->D:Z
 
     .line 36
     .line 37
@@ -1935,7 +2145,8 @@
 
     .line 38
     .line 39
-    sget-object v0, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
+    sget-object v0, Landroid/text/Layout$Alignment;
+    ->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
     .line 40
     .line 41
@@ -1943,7 +2154,8 @@
 
     .line 42
     :cond_3
-    sget-object v0, Landroid/text/Layout$Alignment;->ALIGN_OPPOSITE:Landroid/text/Layout$Alignment;
+    sget-object v0, Landroid/text/Layout$Alignment;
+    ->ALIGN_OPPOSITE:Landroid/text/Layout$Alignment;
 
     .line 43
     .line 44
@@ -1951,7 +2163,8 @@
 
     .line 45
     :cond_4
-    sget-object v0, Landroid/text/Layout$Alignment;->ALIGN_CENTER:Landroid/text/Layout$Alignment;
+    sget-object v0, Landroid/text/Layout$Alignment;
+    ->ALIGN_CENTER:Landroid/text/Layout$Alignment;
 
     .line 46
     .line 47
@@ -1963,66 +2176,80 @@
 
     .line 49
     .line 50
-    invoke-direct {v2, p4, p2, p3}, Lo0/y;-><init>(ILandroid/text/TextPaint;Ljava/lang/CharSequence;)V
+    invoke-direct {v2, p4, p2, p3}, Lo0/y;
+    -><init>(ILandroid/text/TextPaint;Ljava/lang/CharSequence;)V
 
     .line 51
     .line 52
     .line 53
-    iget-object p2, p0, Lo0/c;->A:Landroid/text/TextUtils$TruncateAt;
+    iget-object p2, p0, Lo0/c;
+    ->A:Landroid/text/TextUtils$TruncateAt;
 
     .line 54
     .line 55
-    iput-object p2, v2, Lo0/y;->l:Landroid/text/TextUtils$TruncateAt;
+    iput-object p2, v2, Lo0/y;
+    ->l:Landroid/text/TextUtils$TruncateAt;
 
     .line 56
     .line 57
-    iput-boolean p5, v2, Lo0/y;->k:Z
+    iput-boolean p5, v2, Lo0/y;
+    ->k:Z
 
     .line 58
     .line 59
-    iput-object v0, v2, Lo0/y;->e:Landroid/text/Layout$Alignment;
+    iput-object v0, v2, Lo0/y;
+    ->e:Landroid/text/Layout$Alignment;
 
     .line 60
     .line 61
     const/4 p2, 0x0
 
     .line 62
-    iput-boolean p2, v2, Lo0/y;->j:Z
+    iput-boolean p2, v2, Lo0/y;
+    ->j:Z
 
     .line 63
     .line 64
-    iput p1, v2, Lo0/y;->f:I
+    iput p1, v2, Lo0/y;
+    ->f:I
 
     .line 65
     .line 66
-    iget p1, p0, Lo0/c;->g0:F
+    iget p1, p0, Lo0/c;
+    ->g0:F
 
     .line 67
     .line 68
     const/4 p2, 0x0
 
     .line 69
-    iput p2, v2, Lo0/y;->g:F
+    iput p2, v2, Lo0/y;
+    ->g:F
 
     .line 70
     .line 71
-    iput p1, v2, Lo0/y;->h:F
+    iput p1, v2, Lo0/y;
+    ->h:F
 
     .line 72
     .line 73
-    iget p1, p0, Lo0/c;->h0:I
+    iget p1, p0, Lo0/c;
+    ->h0:I
 
     .line 74
     .line 75
-    iput p1, v2, Lo0/y;->i:I
+    iput p1, v2, Lo0/y;
+    ->i:I
 
     .line 76
     .line 77
-    iput-object v1, v2, Lo0/y;->m:LL/b;
+    iput-object v1, v2, Lo0/y;
+    ->m:LL/b;
 
     .line 78
     .line 79
-    invoke-virtual {v2}, Lo0/y;->a()Landroid/text/StaticLayout;
+    invoke-virtual {v2}, Lo0/y;
+    ->a()Landroid/text/StaticLayout;
 
     .line 80
     .line 81
@@ -2036,7 +2263,8 @@
 
     .line 84
     :goto_1
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 85
     .line 86
@@ -2044,7 +2272,8 @@
     move-result-object p2
 
     .line 88
-    invoke-virtual {p2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 89
     .line 90
@@ -2056,13 +2285,15 @@
 
     .line 93
     .line 94
-    invoke-static {p3, p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p3, p2, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 95
     .line 96
     .line 97
     :goto_2
-    invoke-static {v1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -2081,7 +2312,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lo0/c;->i0:I
+    iget v0, p0, Lo0/c;
+    ->i0:I
 
     .line 2
     .line 3
@@ -2098,38 +2330,46 @@
 
     .line 8
     :cond_0
-    iget-object v0, p0, Lo0/c;->P:Landroid/text/TextPaint;
+    iget-object v0, p0, Lo0/c;
+    ->P:Landroid/text/TextPaint;
 
     .line 9
     .line 10
-    iget v1, p0, Lo0/c;->i:F
+    iget v1, p0, Lo0/c;
+    ->i:F
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setTextSize(F)V
 
     .line 13
     .line 14
     .line 15
-    iget-object v1, p0, Lo0/c;->s:Landroid/graphics/Typeface;
+    iget-object v1, p0, Lo0/c;
+    ->s:Landroid/graphics/Typeface;
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 18
     .line 19
     .line 20
-    iget v1, p0, Lo0/c;->W:F
+    iget v1, p0, Lo0/c;
+    ->W:F
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setLetterSpacing(F)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setLetterSpacing(F)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0}, Landroid/graphics/Paint;->ascent()F
+    invoke-virtual {v0}, Landroid/graphics/Paint;
+    ->ascent()F
 
     .line 26
     .line 27
@@ -2157,7 +2397,8 @@
 
     .line 5
     :cond_0
-    iget-object v1, p0, Lo0/c;->M:[I
+    iget-object v1, p0, Lo0/c;
+    ->M:[I
 
     .line 6
     .line 7
@@ -2165,7 +2406,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, v1, v0}, Landroid/content/res/ColorStateList;->getColorForState([II)I
+    invoke-virtual {p1, v1, v0}, Landroid/content/res/ColorStateList;
+    ->getColorForState([II)I
 
     .line 10
     .line 11
@@ -2176,7 +2418,8 @@
 
     .line 14
     :cond_1
-    invoke-virtual {p1}, Landroid/content/res/ColorStateList;->getDefaultColor()I
+    invoke-virtual {p1}, Landroid/content/res/ColorStateList;
+    ->getDefaultColor()I
 
     .line 15
     .line 16
@@ -2190,7 +2433,8 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -2202,7 +2446,8 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lo0/c;->u:Landroid/graphics/Typeface;
+    iget-object v0, p0, Lo0/c;
+    ->u:Landroid/graphics/Typeface;
 
     .line 8
     .line 9
@@ -2210,7 +2455,8 @@
 
     .line 10
     .line 11
-    invoke-static {p1, v0}, Lr0/h;->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-static {p1, v0}, Lr0/h;
+    ->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 12
     .line 13
@@ -2218,12 +2464,14 @@
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Lo0/c;->t:Landroid/graphics/Typeface;
+    iput-object v0, p0, Lo0/c;
+    ->t:Landroid/graphics/Typeface;
 
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Lo0/c;->x:Landroid/graphics/Typeface;
+    iget-object v0, p0, Lo0/c;
+    ->x:Landroid/graphics/Typeface;
 
     .line 18
     .line 19
@@ -2231,7 +2479,8 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0}, Lr0/h;->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-static {p1, v0}, Lr0/h;
+    ->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 22
     .line 23
@@ -2239,12 +2488,14 @@
     move-result-object p1
 
     .line 25
-    iput-object p1, p0, Lo0/c;->w:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->w:Landroid/graphics/Typeface;
 
     .line 26
     .line 27
     :cond_1
-    iget-object p1, p0, Lo0/c;->t:Landroid/graphics/Typeface;
+    iget-object p1, p0, Lo0/c;
+    ->t:Landroid/graphics/Typeface;
 
     .line 28
     .line 29
@@ -2256,16 +2507,19 @@
 
     .line 32
     :cond_2
-    iget-object p1, p0, Lo0/c;->u:Landroid/graphics/Typeface;
+    iget-object p1, p0, Lo0/c;
+    ->u:Landroid/graphics/Typeface;
 
     .line 33
     .line 34
     :goto_0
-    iput-object p1, p0, Lo0/c;->s:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->s:Landroid/graphics/Typeface;
 
     .line 35
     .line 36
-    iget-object p1, p0, Lo0/c;->w:Landroid/graphics/Typeface;
+    iget-object p1, p0, Lo0/c;
+    ->w:Landroid/graphics/Typeface;
 
     .line 37
     .line 38
@@ -2277,19 +2531,22 @@
 
     .line 41
     :cond_3
-    iget-object p1, p0, Lo0/c;->x:Landroid/graphics/Typeface;
+    iget-object p1, p0, Lo0/c;
+    ->x:Landroid/graphics/Typeface;
 
     .line 42
     .line 43
     :goto_1
-    iput-object p1, p0, Lo0/c;->v:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->v:Landroid/graphics/Typeface;
 
     .line 44
     .line 45
     const/4 p1, 0x1
 
     .line 46
-    invoke-virtual {p0, p1}, Lo0/c;->j(Z)V
+    invoke-virtual {p0, p1}, Lo0/c;
+    ->j(Z)V
 
     .line 47
     .line 48
@@ -2302,11 +2559,13 @@
     .locals 14
 
     .line 1
-    iget-object v0, p0, Lo0/c;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v0, p0, Lo0/c;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getHeight()I
 
     .line 4
     .line 5
@@ -2318,7 +2577,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/view/View;->getWidth()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getWidth()I
 
     .line 10
     .line 11
@@ -2340,16 +2600,19 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v1, p1}, Lo0/c;->d(FZ)V
+    invoke-virtual {p0, v1, p1}, Lo0/c;
+    ->d(FZ)V
 
     .line 20
     .line 21
     .line 22
-    iget-object v1, p0, Lo0/c;->C:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lo0/c;
+    ->C:Ljava/lang/CharSequence;
 
     .line 23
     .line 24
-    iget-object v2, p0, Lo0/c;->O:Landroid/text/TextPaint;
+    iget-object v2, p0, Lo0/c;
+    ->O:Landroid/text/TextPaint;
 
     .line 25
     .line 26
@@ -2357,7 +2620,8 @@
 
     .line 27
     .line 28
-    iget-object v1, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iget-object v1, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 29
     .line 30
@@ -2365,7 +2629,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0}, Lo0/c;->o()Z
+    invoke-virtual {p0}, Lo0/c;
+    ->o()Z
 
     .line 33
     .line 34
@@ -2377,15 +2642,18 @@
 
     .line 37
     .line 38
-    iget-object v1, p0, Lo0/c;->C:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lo0/c;
+    ->C:Ljava/lang/CharSequence;
 
     .line 39
     .line 40
-    iget-object v3, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iget-object v3, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 41
     .line 42
-    invoke-virtual {v3}, Landroid/text/Layout;->getWidth()I
+    invoke-virtual {v3}, Landroid/text/Layout;
+    ->getWidth()I
 
     .line 43
     .line 44
@@ -2396,11 +2664,13 @@
     int-to-float v3, v3
 
     .line 47
-    iget-object v4, p0, Lo0/c;->A:Landroid/text/TextUtils$TruncateAt;
+    iget-object v4, p0, Lo0/c;
+    ->A:Landroid/text/TextUtils$TruncateAt;
 
     .line 48
     .line 49
-    invoke-static {v1, v2, v3, v4}, Landroid/text/TextUtils;->ellipsize(Ljava/lang/CharSequence;Landroid/text/TextPaint;FLandroid/text/TextUtils$TruncateAt;)Ljava/lang/CharSequence;
+    invoke-static {v1, v2, v3, v4}, Landroid/text/TextUtils;
+    ->ellipsize(Ljava/lang/CharSequence;Landroid/text/TextPaint;FLandroid/text/TextUtils$TruncateAt;)Ljava/lang/CharSequence;
 
     .line 50
     .line 51
@@ -2412,17 +2682,20 @@
 
     .line 54
     :cond_2
-    iget-object v1, p0, Lo0/c;->C:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lo0/c;
+    ->C:Ljava/lang/CharSequence;
 
     .line 55
     .line 56
     :goto_0
-    iput-object v1, p0, Lo0/c;->d0:Ljava/lang/CharSequence;
+    iput-object v1, p0, Lo0/c;
+    ->d0:Ljava/lang/CharSequence;
 
     .line 57
     .line 58
     :cond_3
-    iget-object v1, p0, Lo0/c;->d0:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lo0/c;
+    ->d0:Ljava/lang/CharSequence;
 
     .line 59
     .line 60
@@ -2436,7 +2709,8 @@
 
     .line 63
     .line 64
-    invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {v1}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 65
     .line 66
@@ -2444,7 +2718,8 @@
     move-result v5
 
     .line 68
-    invoke-virtual {v2, v1, v3, v5}, Landroid/graphics/Paint;->measureText(Ljava/lang/CharSequence;II)F
+    invoke-virtual {v2, v1, v3, v5}, Landroid/graphics/Paint;
+    ->measureText(Ljava/lang/CharSequence;II)F
 
     .line 69
     .line 70
@@ -2452,7 +2727,8 @@
     move-result v1
 
     .line 72
-    iput v1, p0, Lo0/c;->a0:F
+    iput v1, p0, Lo0/c;
+    ->a0:F
 
     .line 73
     .line 74
@@ -2460,20 +2736,24 @@
 
     .line 75
     :cond_4
-    iput v4, p0, Lo0/c;->a0:F
+    iput v4, p0, Lo0/c;
+    ->a0:F
 
     .line 76
     .line 77
     :goto_1
-    iget v1, p0, Lo0/c;->g:I
+    iget v1, p0, Lo0/c;
+    ->g:I
 
     .line 78
     .line 79
-    iget-boolean v5, p0, Lo0/c;->D:Z
+    iget-boolean v5, p0, Lo0/c;
+    ->D:Z
 
     .line 80
     .line 81
-    invoke-static {v1, v5}, Landroid/view/Gravity;->getAbsoluteGravity(II)I
+    invoke-static {v1, v5}, Landroid/view/Gravity;
+    ->getAbsoluteGravity(II)I
 
     .line 82
     .line 83
@@ -2497,7 +2777,8 @@
 
     .line 92
     .line 93
-    iget-object v9, p0, Lo0/c;->d:Landroid/graphics/Rect;
+    iget-object v9, p0, Lo0/c;
+    ->d:Landroid/graphics/Rect;
 
     .line 94
     .line 95
@@ -2509,7 +2790,8 @@
 
     .line 98
     .line 99
-    invoke-virtual {v2}, Landroid/graphics/Paint;->descent()F
+    invoke-virtual {v2}, Landroid/graphics/Paint;
+    ->descent()F
 
     .line 100
     .line 101
@@ -2517,7 +2799,8 @@
     move-result v5
 
     .line 103
-    invoke-virtual {v2}, Landroid/graphics/Paint;->ascent()F
+    invoke-virtual {v2}, Landroid/graphics/Paint;
+    ->ascent()F
 
     .line 104
     .line 105
@@ -2531,7 +2814,8 @@
     div-float/2addr v5, v8
 
     .line 109
-    invoke-virtual {v9}, Landroid/graphics/Rect;->centerY()I
+    invoke-virtual {v9}, Landroid/graphics/Rect;
+    ->centerY()I
 
     .line 110
     .line 111
@@ -2545,7 +2829,8 @@
     sub-float/2addr v10, v5
 
     .line 115
-    iput v10, p0, Lo0/c;->n:F
+    iput v10, p0, Lo0/c;
+    ->n:F
 
     .line 116
     .line 117
@@ -2553,14 +2838,16 @@
 
     .line 118
     :cond_5
-    iget v5, v9, Landroid/graphics/Rect;->bottom:I
+    iget v5, v9, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 119
     .line 120
     int-to-float v5, v5
 
     .line 121
-    invoke-virtual {v2}, Landroid/graphics/Paint;->ascent()F
+    invoke-virtual {v2}, Landroid/graphics/Paint;
+    ->ascent()F
 
     .line 122
     .line 123
@@ -2571,7 +2858,8 @@
     add-float/2addr v10, v5
 
     .line 126
-    iput v10, p0, Lo0/c;->n:F
+    iput v10, p0, Lo0/c;
+    ->n:F
 
     .line 127
     .line 128
@@ -2579,14 +2867,16 @@
 
     .line 129
     :cond_6
-    iget v5, v9, Landroid/graphics/Rect;->top:I
+    iget v5, v9, Landroid/graphics/Rect;
+    ->top:I
 
     .line 130
     .line 131
     int-to-float v5, v5
 
     .line 132
-    iput v5, p0, Lo0/c;->n:F
+    iput v5, p0, Lo0/c;
+    ->n:F
 
     .line 133
     .line 134
@@ -2613,14 +2903,16 @@
 
     .line 143
     .line 144
-    iget v1, v9, Landroid/graphics/Rect;->left:I
+    iget v1, v9, Landroid/graphics/Rect;
+    ->left:I
 
     .line 145
     .line 146
     int-to-float v1, v1
 
     .line 147
-    iput v1, p0, Lo0/c;->p:F
+    iput v1, p0, Lo0/c;
+    ->p:F
 
     .line 148
     .line 149
@@ -2628,21 +2920,24 @@
 
     .line 150
     :cond_7
-    iget v1, v9, Landroid/graphics/Rect;->right:I
+    iget v1, v9, Landroid/graphics/Rect;
+    ->right:I
 
     .line 151
     .line 152
     int-to-float v1, v1
 
     .line 153
-    iget v9, p0, Lo0/c;->a0:F
+    iget v9, p0, Lo0/c;
+    ->a0:F
 
     .line 154
     .line 155
     sub-float/2addr v1, v9
 
     .line 156
-    iput v1, p0, Lo0/c;->p:F
+    iput v1, p0, Lo0/c;
+    ->p:F
 
     .line 157
     .line 158
@@ -2650,7 +2945,8 @@
 
     .line 159
     :cond_8
-    invoke-virtual {v9}, Landroid/graphics/Rect;->centerX()I
+    invoke-virtual {v9}, Landroid/graphics/Rect;
+    ->centerX()I
 
     .line 160
     .line 161
@@ -2661,7 +2957,8 @@
     int-to-float v1, v1
 
     .line 164
-    iget v9, p0, Lo0/c;->a0:F
+    iget v9, p0, Lo0/c;
+    ->a0:F
 
     .line 165
     .line 166
@@ -2671,17 +2968,20 @@
     sub-float/2addr v1, v9
 
     .line 168
-    iput v1, p0, Lo0/c;->p:F
+    iput v1, p0, Lo0/c;
+    ->p:F
 
     .line 169
     .line 170
     :goto_3
-    invoke-virtual {p0, v4, p1}, Lo0/c;->d(FZ)V
+    invoke-virtual {p0, v4, p1}, Lo0/c;
+    ->d(FZ)V
 
     .line 171
     .line 172
     .line 173
-    iget-object p1, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iget-object p1, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 174
     .line 175
@@ -2689,7 +2989,8 @@
 
     .line 176
     .line 177
-    invoke-virtual {p1}, Landroid/text/Layout;->getHeight()I
+    invoke-virtual {p1}, Landroid/text/Layout;
+    ->getHeight()I
 
     .line 178
     .line 179
@@ -2708,7 +3009,8 @@
 
     .line 184
     :goto_4
-    iget-object v1, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iget-object v1, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 185
     .line 186
@@ -2716,7 +3018,8 @@
 
     .line 187
     .line 188
-    iget v9, p0, Lo0/c;->e0:I
+    iget v9, p0, Lo0/c;
+    ->e0:I
 
     .line 189
     .line 190
@@ -2724,7 +3027,8 @@
 
     .line 191
     .line 192
-    invoke-virtual {v1}, Landroid/text/Layout;->getWidth()I
+    invoke-virtual {v1}, Landroid/text/Layout;
+    ->getWidth()I
 
     .line 193
     .line 194
@@ -2739,7 +3043,8 @@
 
     .line 198
     :cond_a
-    iget-object v1, p0, Lo0/c;->C:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lo0/c;
+    ->C:Ljava/lang/CharSequence;
 
     .line 199
     .line 200
@@ -2747,7 +3052,8 @@
 
     .line 201
     .line 202
-    invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {v1}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 203
     .line 204
@@ -2755,7 +3061,8 @@
     move-result v9
 
     .line 206
-    invoke-virtual {v2, v1, v3, v9}, Landroid/graphics/Paint;->measureText(Ljava/lang/CharSequence;II)F
+    invoke-virtual {v2, v1, v3, v9}, Landroid/graphics/Paint;
+    ->measureText(Ljava/lang/CharSequence;II)F
 
     .line 207
     .line 208
@@ -2771,7 +3078,8 @@
 
     .line 212
     :goto_5
-    iget-object v9, p0, Lo0/c;->Z:Landroid/text/StaticLayout;
+    iget-object v9, p0, Lo0/c;
+    ->Z:Landroid/text/StaticLayout;
 
     .line 213
     .line 214
@@ -2779,7 +3087,8 @@
 
     .line 215
     .line 216
-    invoke-virtual {v9}, Landroid/text/StaticLayout;->getLineCount()I
+    invoke-virtual {v9}, Landroid/text/StaticLayout;
+    ->getLineCount()I
 
     .line 217
     .line 218
@@ -2795,19 +3104,23 @@
 
     .line 222
     :goto_6
-    iput v9, p0, Lo0/c;->l:I
+    iput v9, p0, Lo0/c;
+    ->l:I
 
     .line 223
     .line 224
-    iget v9, p0, Lo0/c;->f:I
+    iget v9, p0, Lo0/c;
+    ->f:I
 
     .line 225
     .line 226
-    iget-boolean v12, p0, Lo0/c;->D:Z
+    iget-boolean v12, p0, Lo0/c;
+    ->D:Z
 
     .line 227
     .line 228
-    invoke-static {v9, v12}, Landroid/view/Gravity;->getAbsoluteGravity(II)I
+    invoke-static {v9, v12}, Landroid/view/Gravity;
+    ->getAbsoluteGravity(II)I
 
     .line 229
     .line 230
@@ -2819,7 +3132,8 @@
 
     .line 233
     .line 234
-    iget-object v13, p0, Lo0/c;->c:Landroid/graphics/Rect;
+    iget-object v13, p0, Lo0/c;
+    ->c:Landroid/graphics/Rect;
 
     .line 235
     .line 236
@@ -2834,7 +3148,8 @@
     div-float/2addr p1, v8
 
     .line 241
-    invoke-virtual {v13}, Landroid/graphics/Rect;->centerY()I
+    invoke-virtual {v13}, Landroid/graphics/Rect;
+    ->centerY()I
 
     .line 242
     .line 243
@@ -2848,7 +3163,8 @@
     sub-float/2addr v2, p1
 
     .line 247
-    iput v2, p0, Lo0/c;->m:F
+    iput v2, p0, Lo0/c;
+    ->m:F
 
     .line 248
     .line 249
@@ -2856,7 +3172,8 @@
 
     .line 250
     :cond_d
-    iget v6, v13, Landroid/graphics/Rect;->bottom:I
+    iget v6, v13, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 251
     .line 252
@@ -2866,7 +3183,8 @@
     sub-float/2addr v6, p1
 
     .line 254
-    iget-boolean p1, p0, Lo0/c;->k0:Z
+    iget-boolean p1, p0, Lo0/c;
+    ->k0:Z
 
     .line 255
     .line 256
@@ -2874,7 +3192,8 @@
 
     .line 257
     .line 258
-    invoke-virtual {v2}, Landroid/graphics/Paint;->descent()F
+    invoke-virtual {v2}, Landroid/graphics/Paint;
+    ->descent()F
 
     .line 259
     .line 260
@@ -2886,7 +3205,8 @@
     add-float/2addr v6, v4
 
     .line 263
-    iput v6, p0, Lo0/c;->m:F
+    iput v6, p0, Lo0/c;
+    ->m:F
 
     .line 264
     .line 265
@@ -2894,14 +3214,16 @@
 
     .line 266
     :cond_f
-    iget p1, v13, Landroid/graphics/Rect;->top:I
+    iget p1, v13, Landroid/graphics/Rect;
+    ->top:I
 
     .line 267
     .line 268
     int-to-float p1, p1
 
     .line 269
-    iput p1, p0, Lo0/c;->m:F
+    iput p1, p0, Lo0/c;
+    ->m:F
 
     .line 270
     .line 271
@@ -2918,14 +3240,16 @@
 
     .line 276
     .line 277
-    iget p1, v13, Landroid/graphics/Rect;->left:I
+    iget p1, v13, Landroid/graphics/Rect;
+    ->left:I
 
     .line 278
     .line 279
     int-to-float p1, p1
 
     .line 280
-    iput p1, p0, Lo0/c;->o:F
+    iput p1, p0, Lo0/c;
+    ->o:F
 
     .line 281
     .line 282
@@ -2933,7 +3257,8 @@
 
     .line 283
     :cond_10
-    iget p1, v13, Landroid/graphics/Rect;->right:I
+    iget p1, v13, Landroid/graphics/Rect;
+    ->right:I
 
     .line 284
     .line 285
@@ -2943,7 +3268,8 @@
     sub-float/2addr p1, v1
 
     .line 287
-    iput p1, p0, Lo0/c;->o:F
+    iput p1, p0, Lo0/c;
+    ->o:F
 
     .line 288
     .line 289
@@ -2951,7 +3277,8 @@
 
     .line 290
     :cond_11
-    invoke-virtual {v13}, Landroid/graphics/Rect;->centerX()I
+    invoke-virtual {v13}, Landroid/graphics/Rect;
+    ->centerX()I
 
     .line 291
     .line 292
@@ -2968,26 +3295,31 @@
     sub-float/2addr p1, v1
 
     .line 297
-    iput p1, p0, Lo0/c;->o:F
+    iput p1, p0, Lo0/c;
+    ->o:F
 
     .line 298
     .line 299
     :goto_8
-    iget p1, p0, Lo0/c;->b:F
+    iget p1, p0, Lo0/c;
+    ->b:F
 
     .line 300
     .line 301
-    invoke-virtual {p0, p1, v3}, Lo0/c;->d(FZ)V
+    invoke-virtual {p0, p1, v3}, Lo0/c;
+    ->d(FZ)V
 
     .line 302
     .line 303
     .line 304
-    invoke-virtual {v0}, Landroid/view/View;->postInvalidateOnAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;
+    ->postInvalidateOnAnimation()V
 
     .line 305
     .line 306
     .line 307
-    invoke-virtual {p0}, Lo0/c;->b()V
+    invoke-virtual {p0}, Lo0/c;
+    ->b()V
 
     .line 308
     .line 309
@@ -3000,7 +3332,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lo0/c;->k:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lo0/c;
+    ->k:Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -3008,7 +3341,8 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lo0/c;->j:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lo0/c;
+    ->j:Landroid/content/res/ColorStateList;
 
     .line 6
     .line 7
@@ -3025,18 +3359,21 @@
     .line 11
     :cond_1
     :goto_0
-    iput-object p1, p0, Lo0/c;->k:Landroid/content/res/ColorStateList;
+    iput-object p1, p0, Lo0/c;
+    ->k:Landroid/content/res/ColorStateList;
 
     .line 12
     .line 13
-    iput-object p1, p0, Lo0/c;->j:Landroid/content/res/ColorStateList;
+    iput-object p1, p0, Lo0/c;
+    ->j:Landroid/content/res/ColorStateList;
 
     .line 14
     .line 15
     const/4 p1, 0x0
 
     .line 16
-    invoke-virtual {p0, p1}, Lo0/c;->j(Z)V
+    invoke-virtual {p0, p1}, Lo0/c;
+    ->j(Z)V
 
     .line 17
     .line 18
@@ -3048,7 +3385,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lo0/c;->z:Lr0/a;
+    iget-object v0, p0, Lo0/c;
+    ->z:Lr0/a;
 
     .line 2
     .line 3
@@ -3059,12 +3397,14 @@
 
     .line 5
     .line 6
-    iput-boolean v1, v0, Lr0/a;->c:Z
+    iput-boolean v1, v0, Lr0/a;
+    ->c:Z
 
     .line 7
     .line 8
     :cond_0
-    iget-object v0, p0, Lo0/c;->u:Landroid/graphics/Typeface;
+    iget-object v0, p0, Lo0/c;
+    ->u:Landroid/graphics/Typeface;
 
     .line 9
     .line 10
@@ -3072,15 +3412,18 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Lo0/c;->u:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->u:Landroid/graphics/Typeface;
 
     .line 13
     .line 14
-    iget-object v0, p0, Lo0/c;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v0, p0, Lo0/c;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 17
     .line 18
@@ -3088,7 +3431,8 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 21
     .line 22
@@ -3096,7 +3440,8 @@
     move-result-object v0
 
     .line 24
-    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v0}, Landroid/content/res/Resources;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 25
     .line 26
@@ -3104,7 +3449,8 @@
     move-result-object v0
 
     .line 28
-    invoke-static {v0, p1}, Lr0/h;->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-static {v0, p1}, Lr0/h;
+    ->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 29
     .line 30
@@ -3112,7 +3458,8 @@
     move-result-object p1
 
     .line 32
-    iput-object p1, p0, Lo0/c;->t:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->t:Landroid/graphics/Typeface;
 
     .line 33
     .line 34
@@ -3120,12 +3467,14 @@
 
     .line 35
     .line 36
-    iget-object p1, p0, Lo0/c;->u:Landroid/graphics/Typeface;
+    iget-object p1, p0, Lo0/c;
+    ->u:Landroid/graphics/Typeface;
 
     .line 37
     .line 38
     :cond_1
-    iput-object p1, p0, Lo0/c;->s:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->s:Landroid/graphics/Typeface;
 
     .line 39
     .line 40
@@ -3149,7 +3498,8 @@
 
     .line 3
     .line 4
-    invoke-static {p1, v0, v1}, Landroidx/core/math/MathUtils;->clamp(FFF)F
+    invoke-static {p1, v0, v1}, Landroidx/core/math/MathUtils;
+    ->clamp(FFF)F
 
     .line 5
     .line 6
@@ -3157,7 +3507,8 @@
     move-result p1
 
     .line 8
-    iget v0, p0, Lo0/c;->b:F
+    iget v0, p0, Lo0/c;
+    ->b:F
 
     .line 9
     .line 10
@@ -3169,11 +3520,13 @@
 
     .line 13
     .line 14
-    iput p1, p0, Lo0/c;->b:F
+    iput p1, p0, Lo0/c;
+    ->b:F
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Lo0/c;->b()V
+    invoke-virtual {p0}, Lo0/c;
+    ->b()V
 
     .line 17
     .line 18
@@ -3186,7 +3539,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1}, Lo0/c;->l(Landroid/graphics/Typeface;)Z
+    invoke-virtual {p0, p1}, Lo0/c;
+    ->l(Landroid/graphics/Typeface;)Z
 
     .line 2
     .line 3
@@ -3194,7 +3548,8 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lo0/c;->x:Landroid/graphics/Typeface;
+    iget-object v1, p0, Lo0/c;
+    ->x:Landroid/graphics/Typeface;
 
     .line 6
     .line 7
@@ -3205,15 +3560,18 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Lo0/c;->x:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->x:Landroid/graphics/Typeface;
 
     .line 11
     .line 12
-    iget-object v1, p0, Lo0/c;->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v1, p0, Lo0/c;
+    ->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 13
     .line 14
-    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 15
     .line 16
@@ -3221,7 +3579,8 @@
     move-result-object v1
 
     .line 18
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 19
     .line 20
@@ -3229,7 +3588,8 @@
     move-result-object v1
 
     .line 22
-    invoke-virtual {v1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v1}, Landroid/content/res/Resources;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 23
     .line 24
@@ -3237,7 +3597,8 @@
     move-result-object v1
 
     .line 26
-    invoke-static {v1, p1}, Lr0/h;->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-static {v1, p1}, Lr0/h;
+    ->a(Landroid/content/res/Configuration;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 27
     .line 28
@@ -3245,7 +3606,8 @@
     move-result-object p1
 
     .line 30
-    iput-object p1, p0, Lo0/c;->w:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->w:Landroid/graphics/Typeface;
 
     .line 31
     .line 32
@@ -3253,12 +3615,14 @@
 
     .line 33
     .line 34
-    iget-object p1, p0, Lo0/c;->x:Landroid/graphics/Typeface;
+    iget-object p1, p0, Lo0/c;
+    ->x:Landroid/graphics/Typeface;
 
     .line 35
     .line 36
     :cond_0
-    iput-object p1, p0, Lo0/c;->v:Landroid/graphics/Typeface;
+    iput-object p1, p0, Lo0/c;
+    ->v:Landroid/graphics/Typeface;
 
     .line 37
     .line 38
@@ -3290,7 +3654,8 @@
     .line 47
     :cond_3
     :goto_1
-    invoke-virtual {p0, v2}, Lo0/c;->j(Z)V
+    invoke-virtual {p0, v2}, Lo0/c;
+    ->j(Z)V
 
     .line 48
     .line 49
@@ -3302,7 +3667,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lo0/c;->f0:I
+    iget v0, p0, Lo0/c;
+    ->f0:I
 
     .line 2
     .line 3

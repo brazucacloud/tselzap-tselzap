@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDestinationBuilder;->deepLinkSafeArgs(Ljava/lang/String;)V
+    value = Landroidx/navigation/NavDestinationBuilder;
+    ->deepLinkSafeArgs(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/navigation/NavDestinationBuilder$deepLink$1;
 
-    invoke-direct {v0}, Landroidx/navigation/NavDestinationBuilder$deepLink$1;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDestinationBuilder$deepLink$1;
+    -><init>()V
 
-    sput-object v0, Landroidx/navigation/NavDestinationBuilder$deepLink$1;->INSTANCE:Landroidx/navigation/NavDestinationBuilder$deepLink$1;
+    sput-object v0, Landroidx/navigation/NavDestinationBuilder$deepLink$1;
+    ->INSTANCE:Landroidx/navigation/NavDestinationBuilder$deepLink$1;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -58,9 +62,11 @@ return-void
     .line 2
     check-cast p1, Landroidx/navigation/NavDeepLinkDslBuilder;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestinationBuilder$deepLink$1;->invoke(Landroidx/navigation/NavDeepLinkDslBuilder;)V
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestinationBuilder$deepLink$1;
+    ->invoke(Landroidx/navigation/NavDeepLinkDslBuilder;)V
 
-    sget-object p1, Lc1/v;->a:Lc1/v;
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;
 
     return-object p1
 .end method
@@ -71,7 +77,8 @@ return-void
     .line 1
     const-string v0, "$this$deepLink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 

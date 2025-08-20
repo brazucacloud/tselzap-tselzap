@@ -13,9 +13,11 @@
 
     new-instance v0, Lcom/google/firebase/Firebase;
 
-    invoke-direct {v0}, Lcom/google/firebase/Firebase;-><init>()V
+    invoke-direct {v0}, Lcom/google/firebase/Firebase;
+    -><init>()V
 
-    sput-object v0, Lcom/google/firebase/Firebase;->INSTANCE:Lcom/google/firebase/Firebase;
+    sput-object v0, Lcom/google/firebase/Firebase;
+    ->INSTANCE:Lcom/google/firebase/Firebase;
 
     return-void
 .end method
@@ -24,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3

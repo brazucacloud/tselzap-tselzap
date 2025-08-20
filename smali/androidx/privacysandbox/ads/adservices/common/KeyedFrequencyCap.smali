@@ -25,25 +25,31 @@
 
     .line 2
     .line 3
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput p1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I
+    iput p1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I
 
     .line 10
     .line 11
-    iput p2, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I
+    iput p2, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I
 
     .line 12
     .line 13
-    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;    return-void
+    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;    
+    return-void
 .end method
 
 
@@ -65,29 +71,35 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/privacysandbox/ads/adservices/adselection/b;->z()V
+    invoke-static {}, Landroidx/privacysandbox/ads/adservices/adselection/b;
+    ->z()V
 
     .line 2
     .line 3
     .line 4
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I
 
     .line 5
     .line 6
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I
 
     .line 7
     .line 8
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;
 
     .line 9
     .line 10
-    invoke-static {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/adselection/b;->j(IILjava/time/Duration;)Landroid/adservices/common/KeyedFrequencyCap$Builder;
+    invoke-static {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/adselection/b;
+    ->j(IILjava/time/Duration;)Landroid/adservices/common/KeyedFrequencyCap$Builder;
 
     .line 11
     .line 12
@@ -95,7 +107,8 @@
     move-result-object v0
 
     .line 14
-    invoke-static {v0}, Landroidx/privacysandbox/ads/adservices/adselection/b;->k(Landroid/adservices/common/KeyedFrequencyCap$Builder;)Landroid/adservices/common/KeyedFrequencyCap;
+    invoke-static {v0}, Landroidx/privacysandbox/ads/adservices/adselection/b;
+    ->k(Landroid/adservices/common/KeyedFrequencyCap$Builder;)Landroid/adservices/common/KeyedFrequencyCap;
 
     .line 15
     .line 16
@@ -107,7 +120,8 @@
 
     .line 19
     .line 20
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -133,7 +147,8 @@ return-object v0
 
     .line 11
     :cond_1
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I
 
     .line 12
     .line 13
@@ -141,7 +156,8 @@ return-object v0
 
     .line 14
     .line 15
-    iget v3, p1, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I
+    iget v3, p1, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I
 
     .line 16
     .line 17
@@ -149,11 +165,13 @@ return-object v0
 
     .line 18
     .line 19
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I
 
     .line 20
     .line 21
-    iget v3, p1, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I
+    iget v3, p1, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I
 
     .line 22
     .line 23
@@ -161,15 +179,18 @@ return-object v0
 
     .line 24
     .line 25
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;
 
     .line 26
     .line 27
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;
 
     .line 28
     .line 29
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -188,28 +209,32 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I    return v0
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I    return v0
 .end method
 
 .method public final getInterval()Ljava/time/Duration;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;    return-object v0
 .end method
 
 .method public final getMaxCount()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I    return v0
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I    return v0
 .end method
 
 .method public hashCode()I
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I
 
     .line 2
     .line 3
@@ -217,7 +242,8 @@ return-object v0
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I
 
     .line 6
     .line 7
@@ -228,11 +254,13 @@ return-object v0
 
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;
 
     .line 11
     .line 12
-    invoke-static {v1}, Landroidx/core/graphics/a;->d(Ljava/time/Duration;)I
+    invoke-static {v1}, Landroidx/core/graphics/a;
+    ->d(Ljava/time/Duration;)I
 
     .line 13
     .line 14
@@ -257,16 +285,19 @@ return-object v0
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->adCounterKey:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->adCounterKey:I
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -275,16 +306,19 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->maxCount:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->maxCount:I
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -293,21 +327,25 @@ return-object v0
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;->interval:Ljava/time/Duration;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/common/KeyedFrequencyCap;
+    ->interval:Ljava/time/Duration;
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 34
     .line 35

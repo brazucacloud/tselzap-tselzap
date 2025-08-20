@@ -38,7 +38,8 @@
 
     .line 4
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/dynamite/zzb;->zza:Ljava/lang/ClassLoader;
+    sget-object v1, Lcom/google/android/gms/dynamite/zzb;
+    ->zza:Ljava/lang/ClassLoader;
 
     .line 5
     .line 6
@@ -46,7 +47,8 @@
 
     .line 7
     .line 8
-    sget-object v1, Lcom/google/android/gms/dynamite/zzb;->zzb:Ljava/lang/Thread;
+    sget-object v1, Lcom/google/android/gms/dynamite/zzb;
+    ->zzb:Ljava/lang/Thread;
 
     .line 9
     .line 10
@@ -57,7 +59,8 @@
 
     .line 12
     .line 13
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 14
     .line 15
@@ -65,7 +68,8 @@
     move-result-object v1
 
     .line 17
-    invoke-virtual {v1}, Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+    invoke-virtual {v1}, Landroid/os/Looper;
+    ->getThread()Ljava/lang/Thread;
 
     .line 18
     .line 19
@@ -73,7 +77,8 @@
     move-result-object v1
 
     .line 21
-    invoke-virtual {v1}, Ljava/lang/Thread;->getThreadGroup()Ljava/lang/ThreadGroup;
+    invoke-virtual {v1}, Ljava/lang/Thread;
+    ->getThreadGroup()Ljava/lang/ThreadGroup;
 
     .line 22
     .line 23
@@ -103,7 +108,8 @@
 
     .line 33
     :try_start_1
-    invoke-virtual {v1}, Ljava/lang/ThreadGroup;->activeGroupCount()I
+    invoke-virtual {v1}, Ljava/lang/ThreadGroup;
+    ->activeGroupCount()I
 
     .line 34
     .line 35
@@ -115,7 +121,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, v5}, Ljava/lang/ThreadGroup;->enumerate([Ljava/lang/ThreadGroup;)I
+    invoke-virtual {v1, v5}, Ljava/lang/ThreadGroup;
+    ->enumerate([Ljava/lang/ThreadGroup;)I
 
     .line 40
     .line 41
@@ -139,7 +146,8 @@
 
     .line 49
     .line 50
-    invoke-virtual {v8}, Ljava/lang/ThreadGroup;->getName()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/ThreadGroup;
+    ->getName()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -147,7 +155,8 @@
     move-result-object v10
 
     .line 54
-    invoke-virtual {v9, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v10}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 55
     .line 56
@@ -202,13 +211,15 @@
 
     .line 75
     .line 76
-    invoke-direct {v8, v1, v4}, Ljava/lang/ThreadGroup;-><init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+    invoke-direct {v8, v1, v4}, Ljava/lang/ThreadGroup;
+    -><init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
 
     .line 77
     .line 78
     .line 79
     :cond_3
-    invoke-virtual {v8}, Ljava/lang/ThreadGroup;->activeCount()I
+    invoke-virtual {v8}, Ljava/lang/ThreadGroup;
+    ->activeCount()I
 
     .line 80
     .line 81
@@ -220,7 +231,8 @@
 
     .line 84
     .line 85
-    invoke-virtual {v8, v4}, Ljava/lang/ThreadGroup;->enumerate([Ljava/lang/Thread;)I
+    invoke-virtual {v8, v4}, Ljava/lang/ThreadGroup;
+    ->enumerate([Ljava/lang/Thread;)I
 
     .line 86
     .line 87
@@ -238,7 +250,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {v5}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/Thread;
+    ->getName()Ljava/lang/String;
 
     .line 95
     .line 96
@@ -246,7 +259,8 @@
     move-result-object v9
 
     .line 98
-    invoke-virtual {v7, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v7, v9}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 99
     .line 100
@@ -290,7 +304,8 @@
 
     .line 114
     .line 115
-    invoke-direct {v1, v8, v4}, Lcom/google/android/gms/dynamite/zza;-><init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+    invoke-direct {v1, v8, v4}, Lcom/google/android/gms/dynamite/zza;
+    -><init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -299,12 +314,14 @@
     .line 117
     .line 118
     :try_start_3
-    invoke-virtual {v1, v2}, Ljava/lang/Thread;->setContextClassLoader(Ljava/lang/ClassLoader;)V
+    invoke-virtual {v1, v2}, Ljava/lang/Thread;
+    ->setContextClassLoader(Ljava/lang/ClassLoader;)V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v1}, Ljava/lang/Thread;->start()V
+    invoke-virtual {v1}, Ljava/lang/Thread;
+    ->start()V
     :try_end_3
     .catch Ljava/lang/SecurityException; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -351,7 +368,8 @@
 
     .line 135
     .line 136
-    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 137
     .line 138
@@ -363,7 +381,8 @@
 
     .line 141
     .line 142
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v6}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 143
     .line 144
@@ -372,17 +391,20 @@
 
     .line 146
     .line 147
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v6, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 151
     .line 152
     .line 153
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 154
     .line 155
@@ -390,7 +412,8 @@
     move-result-object v4
 
     .line 157
-    invoke-static {v1, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v4}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 158
     .line 159
@@ -407,7 +430,8 @@
     .line 162
     :goto_7
     :try_start_5
-    sput-object v1, Lcom/google/android/gms/dynamite/zzb;->zzb:Ljava/lang/Thread;
+    sput-object v1, Lcom/google/android/gms/dynamite/zzb;
+    ->zzb:Ljava/lang/Thread;
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
@@ -445,11 +469,13 @@
 
     .line 172
     :try_start_8
-    sget-object v3, Lcom/google/android/gms/dynamite/zzb;->zzb:Ljava/lang/Thread;
+    sget-object v3, Lcom/google/android/gms/dynamite/zzb;
+    ->zzb:Ljava/lang/Thread;
 
     .line 173
     .line 174
-    invoke-virtual {v3}, Ljava/lang/Thread;->getContextClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v3}, Ljava/lang/Thread;
+    ->getContextClassLoader()Ljava/lang/ClassLoader;
 
     .line 175
     .line 176
@@ -479,7 +505,8 @@
 
     .line 183
     .line 184
-    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 185
     .line 186
@@ -491,7 +518,8 @@
 
     .line 189
     .line 190
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v5}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 191
     .line 192
@@ -500,17 +528,20 @@
 
     .line 194
     .line 195
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 196
     .line 197
     .line 198
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 199
     .line 200
     .line 201
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 202
     .line 203
@@ -518,7 +549,8 @@
     move-result-object v3
 
     .line 205
-    invoke-static {v4, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v3}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 206
     .line 207
@@ -531,7 +563,8 @@
     .line 209
     :goto_a
     :try_start_a
-    sput-object v2, Lcom/google/android/gms/dynamite/zzb;->zza:Ljava/lang/ClassLoader;
+    sput-object v2, Lcom/google/android/gms/dynamite/zzb;
+    ->zza:Ljava/lang/ClassLoader;
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_1
 
@@ -553,7 +586,8 @@
     .line 214
     :cond_8
     :goto_c
-    sget-object v1, Lcom/google/android/gms/dynamite/zzb;->zza:Ljava/lang/ClassLoader;
+    sget-object v1, Lcom/google/android/gms/dynamite/zzb;
+    ->zza:Ljava/lang/ClassLoader;
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_1
 

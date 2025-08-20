@@ -37,12 +37,14 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;-><init>(Z)V
+    invoke-direct {v0, v1}, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    -><init>(Z)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;->INSTANCE_RTL:Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    ->INSTANCE_RTL:Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
 
     .line 8
     .line 9
@@ -53,12 +55,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;->mLookForRtl:Z
+    iput-boolean p1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    ->mLookForRtl:Z
 
     .line 5
     .line 6
@@ -85,7 +89,8 @@
 
     .line 5
     .line 6
-    invoke-interface {p1, p2}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {p1, p2}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 7
     .line 8
@@ -93,7 +98,8 @@
     move-result v2
 
     .line 10
-    invoke-static {v2}, Ljava/lang/Character;->getDirectionality(C)B
+    invoke-static {v2}, Ljava/lang/Character;
+    ->getDirectionality(C)B
 
     .line 11
     .line 12
@@ -101,7 +107,8 @@
     move-result v2
 
     .line 14
-    invoke-static {v2}, Landroidx/core/text/TextDirectionHeuristicsCompat;->isRtlText(I)I
+    invoke-static {v2}, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->isRtlText(I)I
 
     .line 15
     .line 16
@@ -124,7 +131,8 @@
 
     .line 24
     :cond_0
-    iget-boolean v1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;->mLookForRtl:Z
+    iget-boolean v1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    ->mLookForRtl:Z
 
     .line 25
     .line 26
@@ -143,7 +151,8 @@
 
     .line 31
     :cond_2
-    iget-boolean v1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;->mLookForRtl:Z
+    iget-boolean v1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    ->mLookForRtl:Z
 
     .line 32
     .line 33
@@ -167,7 +176,8 @@
 
     .line 40
     .line 41
-    iget-boolean p1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;->mLookForRtl:Z
+    iget-boolean p1, p0, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    ->mLookForRtl:Z
 
     .line 42
     .line 43

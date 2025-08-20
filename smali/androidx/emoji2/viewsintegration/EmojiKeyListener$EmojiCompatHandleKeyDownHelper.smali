@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2, p3}, Landroidx/emoji2/text/EmojiCompat;->handleOnKeyDown(Landroid/text/Editable;ILandroid/view/KeyEvent;)Z
+    invoke-static {p1, p2, p3}, Landroidx/emoji2/text/EmojiCompat;
+    ->handleOnKeyDown(Landroid/text/Editable;ILandroid/view/KeyEvent;)Z
 
     .line 2
     .line 3

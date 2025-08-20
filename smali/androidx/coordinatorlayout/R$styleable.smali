@@ -50,7 +50,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/coordinatorlayout/R$styleable;->CoordinatorLayout:[I
+    sput-object v0, Landroidx/coordinatorlayout/R$styleable;
+    ->CoordinatorLayout:[I
 
     const/4 v0, 0x7
 
@@ -58,7 +59,8 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Landroidx/coordinatorlayout/R$styleable;->CoordinatorLayout_Layout:[I
+    sput-object v0, Landroidx/coordinatorlayout/R$styleable;
+    ->CoordinatorLayout_Layout:[I
 
     return-void
 
@@ -79,7 +81,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,11 +46,13 @@
     .end annotation
 
     .line 1
-    sget v0, Landroidx/core/R$id;->tag_window_insets_animation_callback:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_window_insets_animation_callback:I
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -65,7 +68,8 @@
 
     .line 10
     .line 11
-    invoke-interface {v0, p1, p0}, Landroid/view/View$OnApplyWindowInsetsListener;->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+    invoke-interface {v0, p1, p0}, Landroid/view/View$OnApplyWindowInsetsListener;
+    ->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
 
     .line 12
     .line 13
@@ -92,7 +96,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 2
     .line 3
@@ -104,7 +109,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0, p2}, Landroid/view/View;->computeSystemWindowInsets(Landroid/view/WindowInsets;Landroid/graphics/Rect;)Landroid/view/WindowInsets;
+    invoke-virtual {p0, v0, p2}, Landroid/view/View;
+    ->computeSystemWindowInsets(Landroid/view/WindowInsets;Landroid/graphics/Rect;)Landroid/view/WindowInsets;
 
     .line 8
     .line 9
@@ -112,7 +118,8 @@
     move-result-object p1
 
     .line 11
-    invoke-static {p1, p0}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p1, p0}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 12
     .line 13
@@ -123,7 +130,8 @@
 
     .line 16
     :cond_0
-    invoke-virtual {p2}, Landroid/graphics/Rect;->setEmpty()V
+    invoke-virtual {p2}, Landroid/graphics/Rect;
+    ->setEmpty()V
 
     .line 17
     .line 18
@@ -141,7 +149,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/view/View;->dispatchNestedFling(FFZ)Z
+    invoke-virtual {p0, p1, p2, p3}, Landroid/view/View;
+    ->dispatchNestedFling(FFZ)Z
 
     .line 2
     .line 3
@@ -161,7 +170,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->dispatchNestedPreFling(FF)Z
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->dispatchNestedPreFling(FF)Z
 
     .line 2
     .line 3
@@ -177,7 +187,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;->dispatchNestedPreScroll(II[I[I)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/View;
+    ->dispatchNestedPreScroll(II[I[I)Z
 
     .line 2
     .line 3
@@ -193,7 +204,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual/range {p0 .. p5}, Landroid/view/View;->dispatchNestedScroll(IIII[I)Z
+    invoke-virtual/range {p0 .. p5}, Landroid/view/View;
+    ->dispatchNestedScroll(IIII[I)Z
 
     .line 2
     .line 3
@@ -209,7 +221,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getBackgroundTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBackgroundTintList()Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -225,7 +238,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -241,7 +255,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getElevation()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getElevation()F
 
     .line 2
     .line 3
@@ -264,7 +279,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;->getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p0}, Landroidx/core/view/WindowInsetsCompat$Api21ReflectionHolder;
+    ->getRootWindowInsets(Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 2
     .line 3
@@ -280,7 +296,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getTransitionName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTransitionName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -296,7 +313,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getTranslationZ()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getTranslationZ()F
 
     .line 2
     .line 3
@@ -316,7 +334,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getZ()F
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getZ()F
 
     .line 2
     .line 3
@@ -332,7 +351,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->hasNestedScrollingParent()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->hasNestedScrollingParent()Z
 
     .line 2
     .line 3
@@ -348,7 +368,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isImportantForAccessibility()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isImportantForAccessibility()Z
 
     .line 2
     .line 3
@@ -364,7 +385,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isNestedScrollingEnabled()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isNestedScrollingEnabled()Z
 
     .line 2
     .line 3
@@ -380,7 +402,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -394,7 +417,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3
@@ -408,7 +432,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setElevation(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setElevation(F)V
 
     .line 2
     .line 3
@@ -422,7 +447,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setNestedScrollingEnabled(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setNestedScrollingEnabled(Z)V
 
     .line 2
     .line 3
@@ -444,7 +470,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -456,11 +483,13 @@
 
     .line 6
     .line 7
-    sget v0, Landroidx/core/R$id;->tag_on_apply_window_listener:I
+    sget v0, Landroidx/core/R$id;
+    ->tag_on_apply_window_listener:I
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 10
     .line 11
@@ -470,11 +499,13 @@
 
     .line 13
     .line 14
-    sget p1, Landroidx/core/R$id;->tag_window_insets_animation_callback:I
+    sget p1, Landroidx/core/R$id;
+    ->tag_window_insets_animation_callback:I
 
     .line 15
     .line 16
-    invoke-virtual {p0, p1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -486,7 +517,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, p1}, Landroid/view/View;->setOnApplyWindowInsetsListener(Landroid/view/View$OnApplyWindowInsetsListener;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setOnApplyWindowInsetsListener(Landroid/view/View$OnApplyWindowInsetsListener;)V
 
     .line 23
     .line 24
@@ -499,12 +531,14 @@
 
     .line 27
     .line 28
-    invoke-direct {v0, p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl$1;-><init>(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/view/ViewCompat$Api21Impl$1;
+    -><init>(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {p0, v0}, Landroid/view/View;->setOnApplyWindowInsetsListener(Landroid/view/View$OnApplyWindowInsetsListener;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setOnApplyWindowInsetsListener(Landroid/view/View$OnApplyWindowInsetsListener;)V
 
     .line 32
     .line 33
@@ -518,7 +552,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setTransitionName(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setTransitionName(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -532,7 +567,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setTranslationZ(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setTranslationZ(F)V
 
     .line 2
     .line 3
@@ -550,7 +586,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setZ(F)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setZ(F)V
 
     .line 2
     .line 3
@@ -564,7 +601,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->startNestedScroll(I)Z
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->startNestedScroll(I)Z
 
     .line 2
     .line 3
@@ -580,7 +618,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->stopNestedScroll()V
+    invoke-virtual {p0}, Landroid/view/View;
+    ->stopNestedScroll()V
 
     .line 2
     .line 3

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -56,7 +57,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;I)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/Service;
+    ->startForeground(ILandroid/app/Notification;I)V
 
     .line 10
     .line 11
@@ -66,7 +68,8 @@
     .line 13
     :cond_1
     :goto_0
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;I)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/Service;
+    ->startForeground(ILandroid/app/Notification;I)V
 
     .line 14
     .line 15

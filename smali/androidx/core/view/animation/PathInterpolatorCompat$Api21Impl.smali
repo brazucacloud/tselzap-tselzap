@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -39,7 +40,8 @@
     .line 2
     new-instance v0, Landroid/view/animation/PathInterpolator;
 
-    invoke-direct {v0, p0, p1}, Landroid/view/animation/PathInterpolator;-><init>(FF)V
+    invoke-direct {v0, p0, p1}, Landroid/view/animation/PathInterpolator;
+    -><init>(FF)V
 return-object v0
 .end method
 
@@ -51,7 +53,8 @@ return-object v0
     .line 3
     new-instance v0, Landroid/view/animation/PathInterpolator;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Landroid/view/animation/PathInterpolator;-><init>(FFFF)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroid/view/animation/PathInterpolator;
+    -><init>(FFFF)V
 return-object v0
 .end method
 
@@ -63,7 +66,8 @@ return-object v0
     .line 1
     new-instance v0, Landroid/view/animation/PathInterpolator;
 
-    invoke-direct {v0, p0}, Landroid/view/animation/PathInterpolator;-><init>(Landroid/graphics/Path;)V
+    invoke-direct {v0, p0}, Landroid/view/animation/PathInterpolator;
+    -><init>(Landroid/graphics/Path;)V
 return-object v0
 .end method
 

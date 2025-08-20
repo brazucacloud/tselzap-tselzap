@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -53,7 +54,8 @@
 
     .line 6
     .line 7
-    invoke-virtual/range {p0 .. p5}, Landroid/hardware/fingerprint/FingerprintManager;->authenticate(Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;Landroid/os/CancellationSignal;ILandroid/hardware/fingerprint/FingerprintManager$AuthenticationCallback;Landroid/os/Handler;)V
+    invoke-virtual/range {p0 .. p5}, Landroid/hardware/fingerprint/FingerprintManager;
+    ->authenticate(Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;Landroid/os/CancellationSignal;ILandroid/hardware/fingerprint/FingerprintManager$AuthenticationCallback;Landroid/os/Handler;)V
 
     .line 8
     .line 9
@@ -71,7 +73,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$AuthenticationResult;->getCryptoObject()Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$AuthenticationResult;
+    ->getCryptoObject()Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
 
     .line 4
     .line 5
@@ -87,7 +90,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -103,7 +107,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -123,7 +128,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 19
     .line 20
@@ -135,7 +141,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Landroid/content/pm/PackageManager;
+    ->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 25
     .line 26
@@ -151,7 +158,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -186,7 +194,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager;->hasEnrolledFingerprints()Z
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager;
+    ->hasEnrolledFingerprints()Z
 
     .line 4
     .line 5
@@ -210,7 +219,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager;->isHardwareDetected()Z
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager;
+    ->isHardwareDetected()Z
 
     .line 4
     .line 5
@@ -241,7 +251,8 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;->getCipher()Ljavax/crypto/Cipher;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    ->getCipher()Ljavax/crypto/Cipher;
 
     .line 8
     .line 9
@@ -257,7 +268,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;->getCipher()Ljavax/crypto/Cipher;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    ->getCipher()Ljavax/crypto/Cipher;
 
     .line 16
     .line 17
@@ -265,7 +277,8 @@
     move-result-object p0
 
     .line 19
-    invoke-direct {v0, p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;-><init>(Ljavax/crypto/Cipher;)V
+    invoke-direct {v0, p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    -><init>(Ljavax/crypto/Cipher;)V
 
     .line 20
     .line 21
@@ -274,7 +287,8 @@
 
     .line 23
     :cond_1
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;->getSignature()Ljava/security/Signature;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    ->getSignature()Ljava/security/Signature;
 
     .line 24
     .line 25
@@ -290,7 +304,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;->getSignature()Ljava/security/Signature;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    ->getSignature()Ljava/security/Signature;
 
     .line 32
     .line 33
@@ -298,7 +313,8 @@
     move-result-object p0
 
     .line 35
-    invoke-direct {v0, p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;-><init>(Ljava/security/Signature;)V
+    invoke-direct {v0, p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    -><init>(Ljava/security/Signature;)V
 
     .line 36
     .line 37
@@ -307,7 +323,8 @@
 
     .line 39
     :cond_2
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;->getMac()Ljavax/crypto/Mac;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    ->getMac()Ljavax/crypto/Mac;
 
     .line 40
     .line 41
@@ -323,7 +340,8 @@
 
     .line 46
     .line 47
-    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;->getMac()Ljavax/crypto/Mac;
+    invoke-virtual {p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    ->getMac()Ljavax/crypto/Mac;
 
     .line 48
     .line 49
@@ -331,7 +349,8 @@
     move-result-object p0
 
     .line 51
-    invoke-direct {v0, p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;-><init>(Ljavax/crypto/Mac;)V
+    invoke-direct {v0, p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    -><init>(Ljavax/crypto/Mac;)V
 
     .line 52
     .line 53
@@ -357,7 +376,8 @@
 
     .line 5
     :cond_0
-    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;->getCipher()Ljavax/crypto/Cipher;
+    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    ->getCipher()Ljavax/crypto/Cipher;
 
     .line 6
     .line 7
@@ -373,7 +393,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;->getCipher()Ljavax/crypto/Cipher;
+    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    ->getCipher()Ljavax/crypto/Cipher;
 
     .line 14
     .line 15
@@ -381,7 +402,8 @@
     move-result-object p0
 
     .line 17
-    invoke-direct {v0, p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;-><init>(Ljavax/crypto/Cipher;)V
+    invoke-direct {v0, p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    -><init>(Ljavax/crypto/Cipher;)V
 
     .line 18
     .line 19
@@ -390,7 +412,8 @@
 
     .line 21
     :cond_1
-    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;->getSignature()Ljava/security/Signature;
+    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    ->getSignature()Ljava/security/Signature;
 
     .line 22
     .line 23
@@ -406,7 +429,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;->getSignature()Ljava/security/Signature;
+    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    ->getSignature()Ljava/security/Signature;
 
     .line 30
     .line 31
@@ -414,7 +438,8 @@
     move-result-object p0
 
     .line 33
-    invoke-direct {v0, p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;-><init>(Ljava/security/Signature;)V
+    invoke-direct {v0, p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    -><init>(Ljava/security/Signature;)V
 
     .line 34
     .line 35
@@ -423,7 +448,8 @@
 
     .line 37
     :cond_2
-    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;->getMac()Ljavax/crypto/Mac;
+    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    ->getMac()Ljavax/crypto/Mac;
 
     .line 38
     .line 39
@@ -439,7 +465,8 @@
 
     .line 44
     .line 45
-    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;->getMac()Ljavax/crypto/Mac;
+    invoke-virtual {p0}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;
+    ->getMac()Ljavax/crypto/Mac;
 
     .line 46
     .line 47
@@ -447,7 +474,8 @@
     move-result-object p0
 
     .line 49
-    invoke-direct {v0, p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;-><init>(Ljavax/crypto/Mac;)V
+    invoke-direct {v0, p0}, Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
+    -><init>(Ljavax/crypto/Mac;)V
 
     .line 50
     .line 51

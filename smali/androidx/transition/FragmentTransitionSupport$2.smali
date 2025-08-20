@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/transition/FragmentTransitionSupport;->scheduleHideFragmentView(Ljava/lang/Object;Landroid/view/View;Ljava/util/ArrayList;)V
+    value = Landroidx/transition/FragmentTransitionSupport;
+    ->scheduleHideFragmentView(Ljava/lang/Object;Landroid/view/View;Ljava/util/ArrayList;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,19 +36,23 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/FragmentTransitionSupport$2;->this$0:Landroidx/transition/FragmentTransitionSupport;
+    iput-object p1, p0, Landroidx/transition/FragmentTransitionSupport$2;
+    ->this$0:Landroidx/transition/FragmentTransitionSupport;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/transition/FragmentTransitionSupport$2;->val$fragmentView:Landroid/view/View;
+    iput-object p2, p0, Landroidx/transition/FragmentTransitionSupport$2;
+    ->val$fragmentView:Landroid/view/View;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/transition/FragmentTransitionSupport$2;->val$exitingViews:Ljava/util/ArrayList;
+    iput-object p3, p0, Landroidx/transition/FragmentTransitionSupport$2;
+    ->val$exitingViews:Ljava/util/ArrayList;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -71,19 +76,24 @@
     .end param
 
     .line 2
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
+    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
 
     .line 3
-    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$2;->val$fragmentView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$2;
+    ->val$fragmentView:Landroid/view/View;
 
     const/16 v0, 0x8
 
-    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 4
-    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$2;->val$exitingViews:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$2;
+    ->val$exitingViews:Ljava/util/ArrayList;
 
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result p1
 
@@ -95,15 +105,18 @@
     if-ge v1, p1, :cond_0
 
     .line 5
-    iget-object v2, p0, Landroidx/transition/FragmentTransitionSupport$2;->val$exitingViews:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/transition/FragmentTransitionSupport$2;
+    ->val$exitingViews:Ljava/util/ArrayList;
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroid/view/View;
 
-    invoke-virtual {v2, v0}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v2, v0}, Landroid/view/View;
+    ->setVisibility(I)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -117,7 +130,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 
@@ -149,10 +163,12 @@ return-void
     .end param
 
     .line 2
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
+    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
 
     .line 3
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
+    ->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
 
     return-void
 .end method
@@ -161,7 +177,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 

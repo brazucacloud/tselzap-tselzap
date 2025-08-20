@@ -23,9 +23,11 @@
 
     new-instance v0, Landroidx/lifecycle/LegacySavedStateHandleController;
 
-    invoke-direct {v0}, Landroidx/lifecycle/LegacySavedStateHandleController;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/LegacySavedStateHandleController;
+    -><init>()V
 
-    sput-object v0, Landroidx/lifecycle/LegacySavedStateHandleController;->INSTANCE:Landroidx/lifecycle/LegacySavedStateHandleController;
+    sput-object v0, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->INSTANCE:Landroidx/lifecycle/LegacySavedStateHandleController;
 
     return-void
 .end method
@@ -34,7 +36,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -46,7 +49,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -55,7 +59,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -64,7 +69,8 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -73,7 +79,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroidx/lifecycle/ViewModel;->getCloseable(Ljava/lang/String;)Ljava/lang/AutoCloseable;
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/ViewModel;
+    ->getCloseable(Ljava/lang/String;)Ljava/lang/AutoCloseable;
 
     .line 19
     .line 20
@@ -89,7 +96,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/lifecycle/SavedStateHandleController;->isAttached()Z
+    invoke-virtual {p0}, Landroidx/lifecycle/SavedStateHandleController;
+    ->isAttached()Z
 
     .line 27
     .line 28
@@ -101,16 +109,19 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/SavedStateHandleController;->attachToLifecycle(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/SavedStateHandleController;
+    ->attachToLifecycle(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
 
     .line 33
     .line 34
     .line 35
-    sget-object p0, Landroidx/lifecycle/LegacySavedStateHandleController;->INSTANCE:Landroidx/lifecycle/LegacySavedStateHandleController;
+    sget-object p0, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->INSTANCE:Landroidx/lifecycle/LegacySavedStateHandleController;
 
     .line 36
     .line 37
-    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/LegacySavedStateHandleController;->tryToAddRecreator(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
+    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->tryToAddRecreator(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
 
     .line 38
     .line 39
@@ -127,7 +138,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -136,17 +148,20 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0, p2}, Landroidx/savedstate/SavedStateRegistry;->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, p2}, Landroidx/savedstate/SavedStateRegistry;
+    ->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 15
     .line 16
@@ -154,11 +169,13 @@
     move-result-object v0
 
     .line 18
-    sget-object v1, Landroidx/lifecycle/SavedStateHandle;->Companion:Landroidx/lifecycle/SavedStateHandle$Companion;
+    sget-object v1, Landroidx/lifecycle/SavedStateHandle;
+    ->Companion:Landroidx/lifecycle/SavedStateHandle$Companion;
 
     .line 19
     .line 20
-    invoke-virtual {v1, v0, p3}, Landroidx/lifecycle/SavedStateHandle$Companion;->createHandle(Landroid/os/Bundle;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
+    invoke-virtual {v1, v0, p3}, Landroidx/lifecycle/SavedStateHandle$Companion;
+    ->createHandle(Landroid/os/Bundle;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
 
     .line 21
     .line 22
@@ -170,21 +187,25 @@
 
     .line 25
     .line 26
-    invoke-direct {v0, p2, p3}, Landroidx/lifecycle/SavedStateHandleController;-><init>(Ljava/lang/String;Landroidx/lifecycle/SavedStateHandle;)V
+    invoke-direct {v0, p2, p3}, Landroidx/lifecycle/SavedStateHandleController;
+    -><init>(Ljava/lang/String;Landroidx/lifecycle/SavedStateHandle;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v0, p0, p1}, Landroidx/lifecycle/SavedStateHandleController;->attachToLifecycle(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
+    invoke-virtual {v0, p0, p1}, Landroidx/lifecycle/SavedStateHandleController;
+    ->attachToLifecycle(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
 
     .line 30
     .line 31
     .line 32
-    sget-object p2, Landroidx/lifecycle/LegacySavedStateHandleController;->INSTANCE:Landroidx/lifecycle/LegacySavedStateHandleController;
+    sget-object p2, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->INSTANCE:Landroidx/lifecycle/LegacySavedStateHandleController;
 
     .line 33
     .line 34
-    invoke-direct {p2, p0, p1}, Landroidx/lifecycle/LegacySavedStateHandleController;->tryToAddRecreator(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
+    invoke-direct {p2, p0, p1}, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->tryToAddRecreator(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
 return-object v0
 .end method
 
@@ -192,7 +213,8 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle;
+    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 2
     .line 3
@@ -200,7 +222,8 @@ return-object v0
     move-result-object v0
 
     .line 5
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
+    ->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 6
     .line 7
@@ -208,11 +231,13 @@ return-object v0
 
     .line 8
     .line 9
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->STARTED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
+    ->STARTED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle$State;->isAtLeast(Landroidx/lifecycle/Lifecycle$State;)Z
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle$State;
+    ->isAtLeast(Landroidx/lifecycle/Lifecycle$State;)Z
 
     .line 12
     .line 13
@@ -232,12 +257,14 @@ return-object v0
 
     .line 19
     .line 20
-    invoke-direct {v0, p2, p1}, Landroidx/lifecycle/LegacySavedStateHandleController$tryToAddRecreator$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/savedstate/SavedStateRegistry;)V
+    invoke-direct {v0, p2, p1}, Landroidx/lifecycle/LegacySavedStateHandleController$tryToAddRecreator$1;
+    -><init>(Landroidx/lifecycle/Lifecycle;Landroidx/savedstate/SavedStateRegistry;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p2, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p2, v0}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 return-void
 
     .line 27
@@ -247,7 +274,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p1, p2}, Landroidx/savedstate/SavedStateRegistry;->runOnNextRecreation(Ljava/lang/Class;)V
+    invoke-virtual {p1, p2}, Landroidx/savedstate/SavedStateRegistry;
+    ->runOnNextRecreation(Ljava/lang/Class;)V
 return-void
 .end method
 

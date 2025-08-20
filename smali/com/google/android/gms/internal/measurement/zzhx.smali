@@ -10,7 +10,8 @@
 .method public synthetic constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -19,7 +20,8 @@
 .method public final run()V
     .locals 0
 
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhu;->zzc()V
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhu;
+    ->zzc()V
     return-void
 .end method
 

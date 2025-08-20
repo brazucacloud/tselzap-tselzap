@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/ActivityNavigator$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/ActivityNavigator$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -41,12 +43,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 7
     .line 8
@@ -69,7 +73,8 @@
     const/4 v2, -0x1
 
     .line 16
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
+    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;
+    ->getIntExtra(Ljava/lang/String;I)I
 
     .line 17
     .line 18
@@ -81,7 +86,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0, v3, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
+    invoke-virtual {v0, v3, v2}, Landroid/content/Intent;
+    ->getIntExtra(Ljava/lang/String;I)I
 
     .line 23
     .line 24
@@ -134,7 +140,8 @@
 
     .line 41
     :goto_3
-    invoke-virtual {p1, v1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
+    invoke-virtual {p1, v1, v0}, Landroid/app/Activity;
+    ->overridePendingTransition(II)V
     return-void
 .end method
 

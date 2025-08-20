@@ -25,7 +25,8 @@
     .end annotation
 
     .line 2
-    iget-object p0, p0, Landroid/util/Pair;->first:Ljava/lang/Object;
+    iget-object p0, p0, Landroid/util/Pair;
+    ->first:Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -51,7 +52,8 @@
     .end annotation
 
     .line 1
-    iget-object p0, p0, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
+    iget-object p0, p0, Landroidx/core/util/Pair;
+    ->first:Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -77,7 +79,8 @@
     .end annotation
 
     .line 2
-    iget-object p0, p0, Landroid/util/Pair;->second:Ljava/lang/Object;
+    iget-object p0, p0, Landroid/util/Pair;
+    ->second:Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -103,7 +106,8 @@
     .end annotation
 
     .line 1
-    iget-object p0, p0, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
+    iget-object p0, p0, Landroidx/core/util/Pair;
+    ->second:Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -129,15 +133,18 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lc1/f;->b:Ljava/lang/Object;
+    iget-object v1, p0, Lc1/f;
+    ->b:Ljava/lang/Object;
 
     .line 4
     .line 5
-    iget-object p0, p0, Lc1/f;->c:Ljava/lang/Object;
+    iget-object p0, p0, Lc1/f;
+    ->c:Ljava/lang/Object;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, p0}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0}, Landroid/util/Pair;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 8
     .line 9
@@ -166,15 +173,18 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lc1/f;->b:Ljava/lang/Object;
+    iget-object v1, p0, Lc1/f;
+    ->b:Ljava/lang/Object;
 
     .line 4
     .line 5
-    iget-object p0, p0, Lc1/f;->c:Ljava/lang/Object;
+    iget-object p0, p0, Lc1/f;
+    ->c:Ljava/lang/Object;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, p0}, Landroidx/core/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0}, Landroidx/core/util/Pair;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 8
     .line 9
@@ -200,11 +210,14 @@
     .line 2
     new-instance v0, Lc1/f;
 
-    iget-object v1, p0, Landroid/util/Pair;->first:Ljava/lang/Object;
+    iget-object v1, p0, Landroid/util/Pair;
+    ->first:Ljava/lang/Object;
 
-    iget-object p0, p0, Landroid/util/Pair;->second:Ljava/lang/Object;
+    iget-object p0, p0, Landroid/util/Pair;
+    ->second:Ljava/lang/Object;
 
-    invoke-direct {v0, v1, p0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0}, Lc1/f;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 return-object v0
 .end method
 
@@ -226,11 +239,14 @@ return-object v0
     .line 1
     new-instance v0, Lc1/f;
 
-    iget-object v1, p0, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/util/Pair;
+    ->first:Ljava/lang/Object;
 
-    iget-object p0, p0, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
+    iget-object p0, p0, Landroidx/core/util/Pair;
+    ->second:Ljava/lang/Object;
 
-    invoke-direct {v0, v1, p0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0}, Lc1/f;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 return-object v0
 .end method
 

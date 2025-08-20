@@ -15,7 +15,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/common/zza;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/common/zza;
+    -><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     .line 4
     .line 5

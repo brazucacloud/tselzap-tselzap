@@ -23,7 +23,8 @@
     array-length v1, p0
 
     .line 4
-    invoke-direct {v0, v1}, Landroid/content/ContentValues;-><init>(I)V
+    invoke-direct {v0, v1}, Landroid/content/ContentValues;
+    -><init>(I)V
 
     .line 5
     .line 6
@@ -43,7 +44,8 @@
 
     .line 12
     .line 13
-    iget-object v4, v3, Lc1/f;->b:Ljava/lang/Object;
+    iget-object v4, v3, Lc1/f;
+    ->b:Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -51,7 +53,8 @@
 
     .line 16
     .line 17
-    iget-object v3, v3, Lc1/f;->c:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;
+    ->c:Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -59,7 +62,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v4}, Landroid/content/ContentValues;->putNull(Ljava/lang/String;)V
+    invoke-virtual {v0, v4}, Landroid/content/ContentValues;
+    ->putNull(Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -80,7 +84,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -101,7 +106,8 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 42
     .line 43
@@ -122,7 +128,8 @@
 
     .line 50
     .line 51
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 52
     .line 53
@@ -143,7 +150,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Boolean;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Boolean;)V
 
     .line 62
     .line 63
@@ -164,7 +172,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Float;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Float;)V
 
     .line 72
     .line 73
@@ -185,7 +194,8 @@
 
     .line 80
     .line 81
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Double;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Double;)V
 
     .line 82
     .line 83
@@ -206,7 +216,8 @@
 
     .line 90
     .line 91
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;[B)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;[B)V
 
     .line 92
     .line 93
@@ -227,7 +238,8 @@
 
     .line 100
     .line 101
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Byte;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Byte;)V
 
     .line 102
     .line 103
@@ -248,7 +260,8 @@
 
     .line 110
     .line 111
-    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Short;)V
+    invoke-virtual {v0, v4, v3}, Landroid/content/ContentValues;
+    ->put(Ljava/lang/String;Ljava/lang/Short;)V
 
     .line 112
     .line 113
@@ -262,7 +275,8 @@
 
     .line 117
     :cond_9
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 118
     .line 119
@@ -270,7 +284,8 @@
     move-result-object p0
 
     .line 121
-    invoke-virtual {p0}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;
+    ->getCanonicalName()Ljava/lang/String;
 
     .line 122
     .line 123
@@ -290,12 +305,14 @@
 
     .line 130
     .line 131
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 132
     .line 133
     .line 134
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 135
     .line 136
@@ -304,12 +321,14 @@
 
     .line 138
     .line 139
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 140
     .line 141
     .line 142
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 143
     .line 144
@@ -318,12 +337,14 @@
 
     .line 146
     .line 147
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 151
     .line 152
@@ -331,7 +352,8 @@
     move-result-object p0
 
     .line 154
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 155
     .line 156

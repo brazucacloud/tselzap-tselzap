@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getDisplayId()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
+    ->getDisplayId()I
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;->getRegionInScreen(Landroid/graphics/Region;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;
+    ->getRegionInScreen(Landroid/graphics/Region;)V
 
     .line 2
     .line 3
@@ -71,7 +74,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;->getRoot(I)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;
+    ->getRoot(I)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 4
     .line 5
@@ -79,7 +83,8 @@
     move-result-object p0
 
     .line 7
-    invoke-static {p0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrapNonNullInstance(Ljava/lang/Object;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {p0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrapNonNullInstance(Ljava/lang/Object;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 8
     .line 9

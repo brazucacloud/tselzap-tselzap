@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/activity/h;->a:LB1/r;
+    iput-object p1, p0, Landroidx/activity/h;
+    ->a:LB1/r;
 
     return-void
 .end method
@@ -28,7 +30,8 @@
     .locals 10
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/h;->a:LB1/r;
+    iget-object v0, p0, Landroidx/activity/h;
+    ->a:LB1/r;
 
     move-object v1, p1
 
@@ -48,7 +51,8 @@
 
     move/from16 v9, p9
 
-    invoke-static/range {v0 .. v9}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->a(LB1/r;Landroid/view/View;IIIIIIII)V
+    invoke-static/range {v0 .. v9}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
+    ->a(LB1/r;Landroid/view/View;IIIIIIII)V
 
     return-void
 .end method

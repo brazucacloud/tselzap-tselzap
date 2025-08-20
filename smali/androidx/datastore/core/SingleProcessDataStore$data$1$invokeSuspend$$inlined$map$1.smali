@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/SingleProcessDataStore$data$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/SingleProcessDataStore$data$1;
+    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,11 +34,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1;->$this_unsafeTransform$inlined:LC1/g;
+    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1;
+    ->$this_unsafeTransform$inlined:LC1/g;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -51,7 +54,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1;->$this_unsafeTransform$inlined:LC1/g;
+    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1;
+    ->$this_unsafeTransform$inlined:LC1/g;
 
     .line 2
     .line 3
@@ -59,12 +63,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Landroidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1$2;-><init>(LC1/h;)V
+    invoke-direct {v1, p1}, Landroidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1$2;
+    -><init>(LC1/h;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-interface {v0, v1, p2}, LC1/g;->collect(LC1/h;Lg1/d;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p2}, LC1/g;
+    ->collect(LC1/h;Lg1/d;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -72,7 +78,8 @@
     move-result-object p1
 
     .line 12
-    sget-object p2, Lh1/a;->b:Lh1/a;
+    sget-object p2, Lh1/a;
+    ->b:Lh1/a;
 
     .line 13
     .line 14
@@ -84,7 +91,8 @@
 
     .line 17
     :cond_0
-    sget-object p1, Lc1/v;->a:Lc1/v;
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;
 
     .line 18
     .line 19

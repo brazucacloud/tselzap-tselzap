@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/ui/AppBarConfigurationKt;->AppBarConfiguration$default(Ljava/util/Set;Landroidx/customview/widget/Openable;Lp1/a;ILjava/lang/Object;)Landroidx/navigation/ui/AppBarConfiguration;
+    value = Landroidx/navigation/ui/AppBarConfigurationKt;
+    ->AppBarConfiguration$default(Ljava/util/Set;Landroidx/customview/widget/Openable;Lp1/a;ILjava/lang/Object;)Landroidx/navigation/ui/AppBarConfiguration;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;
 
-    invoke-direct {v0}, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;
+    -><init>()V
 
-    sput-object v0, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;->INSTANCE:Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;
+    sput-object v0, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;
+    ->INSTANCE:Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -56,7 +60,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;
+    ->FALSE:Ljava/lang/Boolean;
 
     return-object v0
 .end method
@@ -65,7 +70,8 @@ return-void
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;->invoke()Ljava/lang/Boolean;
+    invoke-virtual {p0}, Landroidx/navigation/ui/AppBarConfigurationKt$AppBarConfiguration$3;
+    ->invoke()Ljava/lang/Boolean;
 
     move-result-object v0
 

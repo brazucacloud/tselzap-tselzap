@@ -107,7 +107,8 @@
     move-result-object v0
 
     .line 21
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->ON_TOUCH_UP_ENUM:[Ljava/lang/String;
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;
+    ->ON_TOUCH_UP_ENUM:[Ljava/lang/String;
 
     .line 22
     .line 23
@@ -135,7 +136,8 @@
     move-result-object v0
 
     .line 35
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->SPRING_BOUNDARY_ENUM:[Ljava/lang/String;
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;
+    ->SPRING_BOUNDARY_ENUM:[Ljava/lang/String;
 
     .line 36
     .line 37
@@ -155,7 +157,8 @@
     move-result-object v0
 
     .line 45
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->AUTOCOMPLETE_MODE_ENUM:[Ljava/lang/String;
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;
+    ->AUTOCOMPLETE_MODE_ENUM:[Ljava/lang/String;
 
     .line 46
     .line 47
@@ -183,7 +186,8 @@
     move-result-object v0
 
     .line 59
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->NESTED_SCROLL_FLAGS_ENUM:[Ljava/lang/String;    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;
+    ->NESTED_SCROLL_FLAGS_ENUM:[Ljava/lang/String;    return-void
 .end method
 
 .end class

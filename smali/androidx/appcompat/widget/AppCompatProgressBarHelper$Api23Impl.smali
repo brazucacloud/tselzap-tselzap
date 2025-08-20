@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +32,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerGravity(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerGravity(I)I
 
     .line 2
     .line 3
@@ -39,12 +41,14 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerGravity(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerGravity(II)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerWidth(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerWidth(I)I
 
     .line 9
     .line 10
@@ -52,12 +56,14 @@
     move-result v0
 
     .line 12
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerWidth(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerWidth(II)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerHeight(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerHeight(I)I
 
     .line 16
     .line 17
@@ -65,12 +71,14 @@
     move-result v0
 
     .line 19
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerHeight(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerHeight(II)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerInsetLeft(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerInsetLeft(I)I
 
     .line 23
     .line 24
@@ -78,12 +86,14 @@
     move-result v0
 
     .line 26
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetLeft(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerInsetLeft(II)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerInsetRight(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerInsetRight(I)I
 
     .line 30
     .line 31
@@ -91,12 +101,14 @@
     move-result v0
 
     .line 33
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetRight(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerInsetRight(II)V
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerInsetTop(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerInsetTop(I)I
 
     .line 37
     .line 38
@@ -104,12 +116,14 @@
     move-result v0
 
     .line 40
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetTop(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerInsetTop(II)V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerInsetBottom(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerInsetBottom(I)I
 
     .line 44
     .line 45
@@ -117,12 +131,14 @@
     move-result v0
 
     .line 47
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetBottom(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerInsetBottom(II)V
 
     .line 48
     .line 49
     .line 50
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerInsetStart(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerInsetStart(I)I
 
     .line 51
     .line 52
@@ -130,12 +146,14 @@
     move-result v0
 
     .line 54
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetStart(II)V
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerInsetStart(II)V
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;->getLayerInsetEnd(I)I
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/LayerDrawable;
+    ->getLayerInsetEnd(I)I
 
     .line 58
     .line 59
@@ -143,7 +161,8 @@
     move-result p0
 
     .line 61
-    invoke-virtual {p1, p2, p0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetEnd(II)V
+    invoke-virtual {p1, p2, p0}, Landroid/graphics/drawable/LayerDrawable;
+    ->setLayerInsetEnd(II)V
 return-void
 .end method
 

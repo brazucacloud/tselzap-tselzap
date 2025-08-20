@@ -12,7 +12,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -20,17 +21,20 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p2, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
+    invoke-direct {p2, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    -><init>(Landroid/content/Context;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->setTargetPosition(I)V
+    invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->setTargetPosition(I)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->startSmoothScroll(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;)V
+    invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->startSmoothScroll(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;)V
 
     .line 14
     .line 15

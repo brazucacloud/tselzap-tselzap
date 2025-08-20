@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/fragment/app/h;->b:I
+    iput p2, p0, Landroidx/fragment/app/h;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/fragment/app/h;->c:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/h;
+    ->c:Landroidx/fragment/app/FragmentManager;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,39 +34,48 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/fragment/app/h;->b:I
+    iget v0, p0, Landroidx/fragment/app/h;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/fragment/app/h;->c:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/h;
+    ->c:Landroidx/fragment/app/FragmentManager;
 
     check-cast p1, Landroidx/core/app/PictureInPictureModeChangedInfo;
 
-    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;->c(Landroidx/fragment/app/FragmentManager;Landroidx/core/app/PictureInPictureModeChangedInfo;)V
+    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;
+    ->c(Landroidx/fragment/app/FragmentManager;Landroidx/core/app/PictureInPictureModeChangedInfo;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/fragment/app/h;->c:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/h;
+    ->c:Landroidx/fragment/app/FragmentManager;
 
     check-cast p1, Landroidx/core/app/MultiWindowModeChangedInfo;
 
-    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;->d(Landroidx/fragment/app/FragmentManager;Landroidx/core/app/MultiWindowModeChangedInfo;)V
+    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;
+    ->d(Landroidx/fragment/app/FragmentManager;Landroidx/core/app/MultiWindowModeChangedInfo;)V
 return-void
 
     :pswitch_1
-    iget-object v0, p0, Landroidx/fragment/app/h;->c:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/h;
+    ->c:Landroidx/fragment/app/FragmentManager;
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;->a(Landroidx/fragment/app/FragmentManager;Ljava/lang/Integer;)V
+    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;
+    ->a(Landroidx/fragment/app/FragmentManager;Ljava/lang/Integer;)V
 return-void
 
     :pswitch_2
-    iget-object v0, p0, Landroidx/fragment/app/h;->c:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/h;
+    ->c:Landroidx/fragment/app/FragmentManager;
 
     check-cast p1, Landroid/content/res/Configuration;
 
-    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;->e(Landroidx/fragment/app/FragmentManager;Landroid/content/res/Configuration;)V
+    invoke-static {v0, p1}, Landroidx/fragment/app/FragmentManager;
+    ->e(Landroidx/fragment/app/FragmentManager;Landroid/content/res/Configuration;)V
 return-void
 
     nop

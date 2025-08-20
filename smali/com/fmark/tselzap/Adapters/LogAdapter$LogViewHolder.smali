@@ -31,11 +31,13 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iput-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    -><init>(Landroid/view/View;)V
 
     .line 4
     .line 5
@@ -45,7 +47,8 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p2, p1}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 10
     .line 11
@@ -57,7 +60,8 @@
 
     .line 14
     .line 15
-    iput-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->logTextView:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->logTextView:Landroid/widget/TextView;
 
     .line 16
     .line 17
@@ -66,7 +70,8 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p2, p1}, Landroid/view/View;
+    ->findViewById(I)Landroid/view/View;
 
     .line 21
     .line 22
@@ -78,7 +83,8 @@
 
     .line 25
     .line 26
-    iput-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->cardView:Lcom/google/android/material/card/MaterialCardView;
+    iput-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->cardView:Lcom/google/android/material/card/MaterialCardView;
 
     .line 27
     .line 28
@@ -89,12 +95,14 @@
     const/4 v0, 0x2
 
     .line 31
-    invoke-direct {p1, p0, v0}, LH/a;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, p0, v0}, LH/a;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p2, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p1}, Landroid/view/View;
+    ->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 35
     .line 36
@@ -103,12 +111,14 @@
 
     .line 38
     .line 39
-    invoke-direct {p1, p0}, Lcom/fmark/tselzap/Adapters/a;-><init>(Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;)V
+    invoke-direct {p1, p0}, Lcom/fmark/tselzap/Adapters/a;
+    -><init>(Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {p2, p1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {p2, p1}, Landroid/view/View;
+    ->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     .line 43
     .line 44
@@ -120,7 +130,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->lambda$new$1(Landroid/view/View;)Z
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->lambda$new$1(Landroid/view/View;)Z
 
     move-result p0
 
@@ -131,7 +142,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->lambda$new$0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->lambda$new$0(Landroid/view/View;)V
 
     return-void
 .end method
@@ -140,7 +152,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->getAdapterPosition()I
 
     .line 2
     .line 3
@@ -155,11 +168,13 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 9
     .line 10
-    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
+    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
 
     .line 11
     .line 12
@@ -171,11 +186,13 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 17
     .line 18
-    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
+    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
 
     .line 19
     .line 20
@@ -183,11 +200,13 @@
     move-result-object v0
 
     .line 22
-    iget-object v1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 23
     .line 24
-    invoke-static {v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter;->access$100(Lcom/fmark/tselzap/Adapters/LogAdapter;I)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->access$100(Lcom/fmark/tselzap/Adapters/LogAdapter;I)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -199,7 +218,8 @@
 
     .line 29
     .line 30
-    invoke-interface {v0, v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;->onLogClick(Ljava/lang/String;I)V
+    invoke-interface {v0, v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
+    ->onLogClick(Ljava/lang/String;I)V
 
     .line 31
     .line 32
@@ -212,7 +232,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    ->getAdapterPosition()I
 
     .line 2
     .line 3
@@ -227,11 +248,13 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 9
     .line 10
-    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
+    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
 
     .line 11
     .line 12
@@ -243,11 +266,13 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 17
     .line 18
-    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
+    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->a(Lcom/fmark/tselzap/Adapters/LogAdapter;)Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
 
     .line 19
     .line 20
@@ -255,11 +280,13 @@
     move-result-object v0
 
     .line 22
-    iget-object v1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 23
     .line 24
-    invoke-static {v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter;->access$000(Lcom/fmark/tselzap/Adapters/LogAdapter;I)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->access$000(Lcom/fmark/tselzap/Adapters/LogAdapter;I)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -271,7 +298,8 @@
 
     .line 29
     .line 30
-    invoke-interface {v0, v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;->onLogLongClick(Ljava/lang/String;I)V
+    invoke-interface {v0, v1, p1}, Lcom/fmark/tselzap/Adapters/LogAdapter$OnLogClickListener;
+    ->onLogLongClick(Ljava/lang/String;I)V
 
     .line 31
     .line 32
@@ -293,11 +321,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->logTextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->logTextView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -310,15 +340,18 @@
 
     .line 9
     .line 10
-    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->cardView:Lcom/google/android/material/card/MaterialCardView;
+    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->cardView:Lcom/google/android/material/card/MaterialCardView;
 
     .line 11
     .line 12
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 13
     .line 14
-    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
 
     .line 15
     .line 16
@@ -331,7 +364,8 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 22
     .line 23
@@ -339,7 +373,8 @@
     move-result v0
 
     .line 25
-    invoke-virtual {p2, v0}, Lcom/google/android/material/card/MaterialCardView;->setCardBackgroundColor(I)V
+    invoke-virtual {p2, v0}, Lcom/google/android/material/card/MaterialCardView;
+    ->setCardBackgroundColor(I)V
 
     .line 26
     .line 27
@@ -348,15 +383,18 @@
 
     .line 29
     :cond_0
-    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->cardView:Lcom/google/android/material/card/MaterialCardView;
+    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->cardView:Lcom/google/android/material/card/MaterialCardView;
 
     .line 30
     .line 31
-    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object v0, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 32
     .line 33
-    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
 
     .line 34
     .line 35
@@ -369,7 +407,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 41
     .line 42
@@ -377,7 +416,8 @@
     move-result v0
 
     .line 44
-    invoke-virtual {p2, v0}, Lcom/google/android/material/card/MaterialCardView;->setCardBackgroundColor(I)V
+    invoke-virtual {p2, v0}, Lcom/google/android/material/card/MaterialCardView;
+    ->setCardBackgroundColor(I)V
 
     .line 45
     .line 46
@@ -387,7 +427,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {p1, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 50
     .line 51
@@ -403,7 +444,8 @@
 
     .line 56
     .line 57
-    invoke-virtual {p1, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 58
     .line 59
@@ -423,7 +465,8 @@
 
     .line 65
     .line 66
-    invoke-virtual {p1, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 67
     .line 68
@@ -435,15 +478,18 @@
 
     .line 71
     .line 72
-    iget-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->logTextView:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->logTextView:Landroid/widget/TextView;
 
     .line 73
     .line 74
-    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 75
     .line 76
-    invoke-static {p2}, Lcom/fmark/tselzap/Adapters/LogAdapter;->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
+    invoke-static {p2}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
 
     .line 77
     .line 78
@@ -456,7 +502,8 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 84
     .line 85
@@ -464,7 +511,8 @@
     move-result p2
 
     .line 87
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;
+    ->setTextColor(I)V
 
     .line 88
     .line 89
@@ -473,15 +521,18 @@
 
     .line 91
     :cond_2
-    iget-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->logTextView:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->logTextView:Landroid/widget/TextView;
 
     .line 92
     .line 93
-    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 94
     .line 95
-    invoke-static {p2}, Lcom/fmark/tselzap/Adapters/LogAdapter;->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
+    invoke-static {p2}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
 
     .line 96
     .line 97
@@ -494,7 +545,8 @@
     .line 100
     .line 101
     .line 102
-    invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 103
     .line 104
@@ -502,7 +554,8 @@
     move-result p2
 
     .line 106
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;
+    ->setTextColor(I)V
 
     .line 107
     .line 108
@@ -512,15 +565,18 @@
     .line 110
     :cond_3
     :goto_1
-    iget-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->logTextView:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->logTextView:Landroid/widget/TextView;
 
     .line 111
     .line 112
-    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
+    iget-object p2, p0, Lcom/fmark/tselzap/Adapters/LogAdapter$LogViewHolder;
+    ->this$0:Lcom/fmark/tselzap/Adapters/LogAdapter;
 
     .line 113
     .line 114
-    invoke-static {p2}, Lcom/fmark/tselzap/Adapters/LogAdapter;->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
+    invoke-static {p2}, Lcom/fmark/tselzap/Adapters/LogAdapter;
+    ->b(Lcom/fmark/tselzap/Adapters/LogAdapter;)Landroid/content/Context;
 
     .line 115
     .line 116
@@ -533,7 +589,8 @@
     .line 119
     .line 120
     .line 121
-    invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+    invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;
+    ->getColor(Landroid/content/Context;I)I
 
     .line 122
     .line 123
@@ -541,7 +598,8 @@
     move-result p2
 
     .line 125
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;
+    ->setTextColor(I)V
 
     .line 126
     .line 127

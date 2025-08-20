@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Activity;-><init>()V
+    invoke-direct {p0}, Landroid/app/Activity;
+    -><init>()V
 
     .line 2
     .line 3
@@ -26,12 +27,14 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroid/app/Activity;
+    ->onCreate(Landroid/os/Bundle;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Landroid/content/Context;)Lcom/google/android/gms/internal/measurement/zzed;
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzed;
+    ->zza(Landroid/content/Context;)Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 5
     .line 6
@@ -39,7 +42,8 @@
     move-result-object p1
 
     .line 8
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 9
     .line 10
@@ -47,12 +51,14 @@
     move-result-object v0
 
     .line 12
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Landroid/content/Intent;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/measurement/zzed;
+    ->zza(Landroid/content/Intent;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->finish()V
 
     .line 16
     .line 17

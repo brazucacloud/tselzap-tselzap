@@ -31,12 +31,14 @@
     const/4 v1, 0x5
 
     .line 4
-    invoke-direct {v0, v1}, Ld0/f;-><init>(I)V
+    invoke-direct {v0, v1}, Ld0/f;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lv0/e;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lv0/e;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 8
     .line 9
@@ -47,14 +49,17 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
     .line 2
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p1
 
-    iput p1, p0, Lv0/e;->b:I
+    iput p1, p0, Lv0/e;
+    ->b:I
 
     return-void
 .end method
@@ -63,13 +68,16 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 
     .line 4
-    iget p1, p2, Lcom/google/android/material/sidesheet/SideSheetBehavior;->i:I
+    iget p1, p2, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->i:I
 
     .line 5
-    iput p1, p0, Lv0/e;->b:I
+    iput p1, p0, Lv0/e;
+    ->b:I
 
     return-void
 .end method
@@ -80,16 +88,19 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget p2, p0, Lv0/e;->b:I
+    iget p2, p0, Lv0/e;
+    ->b:I
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 7
     .line 8

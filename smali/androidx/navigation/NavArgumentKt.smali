@@ -26,7 +26,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -35,7 +36,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -44,12 +46,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 17
     .line 18
@@ -57,7 +61,8 @@
     move-result-object p0
 
     .line 20
-    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 21
     .line 22
@@ -67,7 +72,8 @@
     .line 24
     :cond_0
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 25
     .line 26
@@ -79,7 +85,8 @@
 
     .line 29
     .line 30
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -91,7 +98,8 @@
 
     .line 35
     .line 36
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -107,7 +115,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {v2}, Landroidx/navigation/NavArgument;->isNullable()Z
+    invoke-virtual {v2}, Landroidx/navigation/NavArgument;
+    ->isNullable()Z
 
     .line 45
     .line 46
@@ -115,7 +124,8 @@
     move-result v3
 
     .line 48
-    invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v3}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 49
     .line 50
@@ -131,12 +141,14 @@
 
     .line 54
     :goto_1
-    invoke-static {v3}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v3}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 58
     .line 59
@@ -148,7 +160,8 @@
 
     .line 62
     .line 63
-    invoke-virtual {v2}, Landroidx/navigation/NavArgument;->isDefaultValuePresent()Z
+    invoke-virtual {v2}, Landroidx/navigation/NavArgument;
+    ->isDefaultValuePresent()Z
 
     .line 64
     .line 65
@@ -160,7 +173,8 @@
 
     .line 68
     .line 69
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -168,7 +182,8 @@
     move-result-object v2
 
     .line 73
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -176,7 +191,8 @@
     move-result-object v1
 
     .line 77
-    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v1}, Ljava/util/AbstractMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 78
     .line 79
@@ -185,7 +201,8 @@
 
     .line 81
     :cond_2
-    invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     .line 82
     .line 83
@@ -197,12 +214,14 @@
 
     .line 86
     .line 87
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 88
     .line 89
     .line 90
-    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 91
     .line 92
@@ -212,7 +231,8 @@
     .line 94
     :cond_3
     :goto_2
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 95
     .line 96
@@ -224,7 +244,8 @@
 
     .line 99
     .line 100
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 101
     .line 102
@@ -239,7 +260,8 @@
 
     .line 106
     .line 107
-    invoke-interface {p1, v2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 108
     .line 109
@@ -251,7 +273,8 @@
 
     .line 112
     .line 113
-    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 114
     .line 115
@@ -263,7 +286,8 @@
 
     .line 118
     .line 119
-    invoke-interface {v0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 120
     .line 121

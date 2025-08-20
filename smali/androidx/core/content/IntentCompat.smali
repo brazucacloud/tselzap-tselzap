@@ -40,7 +40,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -62,7 +63,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -70,7 +72,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Landroidx/core/content/PackageManagerCompat;->areUnusedAppRestrictionsAvailable(Landroid/content/pm/PackageManager;)Z
+    invoke-static {v0}, Landroidx/core/content/PackageManagerCompat;
+    ->areUnusedAppRestrictionsAvailable(Landroid/content/pm/PackageManager;)Z
 
     .line 6
     .line 7
@@ -82,7 +85,8 @@
 
     .line 10
     .line 11
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 12
     .line 13
@@ -109,12 +113,14 @@
 
     .line 23
     .line 24
-    invoke-direct {p0, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-static {v3, p1, v2}, Landroid/net/Uri;->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v3, p1, v2}, Landroid/net/Uri;
+    ->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 28
     .line 29
@@ -122,7 +128,8 @@
     move-result-object p1
 
     .line 31
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     .line 32
     .line 33
@@ -141,12 +148,14 @@
 
     .line 39
     .line 40
-    invoke-direct {v1, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v4}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
     .line 43
-    invoke-static {v3, p1, v2}, Landroid/net/Uri;->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v3, p1, v2}, Landroid/net/Uri;
+    ->fromParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 44
     .line 45
@@ -154,7 +163,8 @@
     move-result-object p1
 
     .line 47
-    invoke-virtual {v1, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    invoke-virtual {v1, p1}, Landroid/content/Intent;
+    ->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     .line 48
     .line 49
@@ -174,7 +184,8 @@
 
     .line 56
     :cond_1
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 57
     .line 58
@@ -182,7 +193,8 @@
     move-result-object p0
 
     .line 60
-    invoke-static {p0}, Landroidx/core/content/PackageManagerCompat;->getPermissionRevocationVerifierApp(Landroid/content/pm/PackageManager;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/content/PackageManagerCompat;
+    ->getPermissionRevocationVerifierApp(Landroid/content/pm/PackageManager;)Ljava/lang/String;
 
     .line 61
     .line 62
@@ -190,7 +202,8 @@
     move-result-object p0
 
     .line 64
-    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -202,7 +215,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {p1, p0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {p1, p0}, Landroid/content/Intent;
+    ->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 71
     .line 72
@@ -221,7 +235,8 @@
 
     .line 78
     .line 79
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -423,7 +438,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -435,7 +451,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;->getParcelableArrayExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)[Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;
+    ->getParcelableArrayExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)[Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -451,7 +468,8 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getParcelableArrayExtra(Ljava/lang/String;)[Landroid/os/Parcelable;
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getParcelableArrayExtra(Ljava/lang/String;)[Landroid/os/Parcelable;
 
     .line 15
     .line 16
@@ -500,7 +518,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -512,7 +531,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;->getParcelableArrayListExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;
+    ->getParcelableArrayListExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
 
     .line 8
     .line 9
@@ -523,7 +543,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getParcelableArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getParcelableArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 13
     .line 14
@@ -563,7 +584,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -575,7 +597,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;->getParcelableExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;
+    ->getParcelableExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -586,7 +609,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 13
     .line 14
@@ -594,7 +618,8 @@
     move-result-object p0
 
     .line 16
-    invoke-virtual {p2, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p0}, Ljava/lang/Class;
+    ->isInstance(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -645,7 +670,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -657,7 +683,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;->getSerializableExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
+    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentCompat$Api33Impl;
+    ->getSerializableExtra(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
 
     .line 8
     .line 9
@@ -668,7 +695,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1}, Landroid/content/Intent;
+    ->getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
 
     .line 13
     .line 14
@@ -676,7 +704,8 @@
     move-result-object p0
 
     .line 16
-    invoke-virtual {p2, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p0}, Ljava/lang/Class;
+    ->isInstance(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -711,7 +740,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/content/Intent;->makeMainSelectorActivity(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-static {p0, p1}, Landroid/content/Intent;
+    ->makeMainSelectorActivity(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 2
     .line 3

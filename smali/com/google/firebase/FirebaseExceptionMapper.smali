@@ -15,7 +15,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +32,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->getStatusCode()I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->getStatusCode()I
 
     .line 2
     .line 3
@@ -51,7 +53,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->zza()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->zza()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -59,7 +62,8 @@
     move-result-object p1
 
     .line 15
-    invoke-direct {v0, p1}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Lcom/google/firebase/FirebaseException;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -72,7 +76,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->zza()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
+    ->zza()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -80,7 +85,8 @@
     move-result-object p1
 
     .line 25
-    invoke-direct {v0, p1}, Lcom/google/firebase/FirebaseApiNotAvailableException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Lcom/google/firebase/FirebaseApiNotAvailableException;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27

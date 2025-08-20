@@ -74,7 +74,8 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Landroidx/appcompat/resources/R$styleable;->AnimatedStateListDrawableCompat:[I
+    sput-object v1, Landroidx/appcompat/resources/R$styleable;
+    ->AnimatedStateListDrawableCompat:[I
 
     const v1, 0x10100d0
 
@@ -84,7 +85,8 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/appcompat/resources/R$styleable;->AnimatedStateListDrawableItem:[I
+    sput-object v1, Landroidx/appcompat/resources/R$styleable;
+    ->AnimatedStateListDrawableItem:[I
 
     const v1, 0x101044a
 
@@ -96,19 +98,22 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/appcompat/resources/R$styleable;->AnimatedStateListDrawableTransition:[I
+    sput-object v1, Landroidx/appcompat/resources/R$styleable;
+    ->AnimatedStateListDrawableTransition:[I
 
     new-array v0, v0, [I
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Landroidx/appcompat/resources/R$styleable;->StateListDrawable:[I
+    sput-object v0, Landroidx/appcompat/resources/R$styleable;
+    ->StateListDrawable:[I
 
     filled-new-array {v2}, [I
 
     move-result-object v0
 
-    sput-object v0, Landroidx/appcompat/resources/R$styleable;->StateListDrawableItem:[I
+    sput-object v0, Landroidx/appcompat/resources/R$styleable;
+    ->StateListDrawableItem:[I
 
     return-void
 
@@ -138,7 +143,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

@@ -19,12 +19,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/zzdd;-><init>(Lcom/google/android/gms/internal/measurement/zzdg;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/zzdd;
+    -><init>(Lcom/google/android/gms/internal/measurement/zzdg;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzde;->zza:Lcom/google/android/gms/internal/measurement/zzdb;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzde;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzdb;
 
     .line 8
     .line 9
@@ -35,7 +37,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzde;->zza:Lcom/google/android/gms/internal/measurement/zzdb;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzde;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzdb;
 
     .line 2
     .line 3

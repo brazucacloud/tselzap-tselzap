@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzna$zzb;-><init>(Lsun/misc/Unsafe;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzna$zzb;
+    -><init>(Lsun/misc/Unsafe;)V
 
     .line 2
     .line 3
@@ -33,11 +34,13 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zze(Ljava/lang/Object;J)J
+    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;
+    ->zze(Ljava/lang/Object;J)J
 
     move-result-wide p1
 
-    invoke-static {p1, p2}, Ljava/lang/Double;->longBitsToDouble(J)D
+    invoke-static {p1, p2}, Ljava/lang/Double;
+    ->longBitsToDouble(J)D
 
     move-result-wide p1
 
@@ -48,17 +51,20 @@
     .locals 1
 
     .line 5
-    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzna;->zza:Z
+    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zza:Z
 
     if-eqz v0, :cond_0
 
     .line 6
-    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JB)V
+    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zza(Ljava/lang/Object;JB)V
 return-void
 
     .line 7
     :cond_0
-    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zzb(Ljava/lang/Object;JB)V
+    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zzb(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -66,7 +72,8 @@ return-void
     .locals 6
 
     .line 8
-    invoke-static {p4, p5}, Ljava/lang/Double;->doubleToLongBits(D)J
+    invoke-static {p4, p5}, Ljava/lang/Double;
+    ->doubleToLongBits(D)J
 
     move-result-wide v4
 
@@ -76,7 +83,8 @@ return-void
 
     move-wide v2, p2
 
-    invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JJ)V
+    invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzna$zzb;
+    ->zza(Ljava/lang/Object;JJ)V
 return-void
 .end method
 
@@ -84,11 +92,13 @@ return-void
     .locals 0
 
     .line 9
-    invoke-static {p4}, Ljava/lang/Float;->floatToIntBits(F)I
+    invoke-static {p4}, Ljava/lang/Float;
+    ->floatToIntBits(F)I
 
     move-result p4
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JI)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna$zzb;
+    ->zza(Ljava/lang/Object;JI)V
 return-void
 .end method
 
@@ -96,17 +106,20 @@ return-void
     .locals 1
 
     .line 2
-    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzna;->zza:Z
+    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zza:Z
 
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JZ)V
+    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zza(Ljava/lang/Object;JZ)V
 return-void
 
     .line 4
     :cond_0
-    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zzb(Ljava/lang/Object;JZ)V
+    invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zzb(Ljava/lang/Object;JZ)V
 return-void
 .end method
 
@@ -114,7 +127,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zzd(Ljava/lang/Object;J)I
+    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;
+    ->zzd(Ljava/lang/Object;J)I
 
     .line 2
     .line 3
@@ -122,7 +136,8 @@ return-void
     move-result p1
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Float;->intBitsToFloat(I)F
+    invoke-static {p1}, Ljava/lang/Float;
+    ->intBitsToFloat(I)F
 
     .line 6
     .line 7
@@ -136,7 +151,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzna;->zza:Z
+    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zza:Z
 
     .line 2
     .line 3
@@ -144,7 +160,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;->zzf(Ljava/lang/Object;J)Z
+    invoke-static {p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zzf(Ljava/lang/Object;J)Z
 
     .line 6
     .line 7
@@ -155,7 +172,8 @@ return-void
 
     .line 10
     :cond_0
-    invoke-static {p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;->zzg(Ljava/lang/Object;J)Z
+    invoke-static {p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;
+    ->zzg(Ljava/lang/Object;J)Z
 
     .line 11
     .line 12

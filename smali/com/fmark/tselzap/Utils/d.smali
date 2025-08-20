@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/fmark/tselzap/Utils/d;->a:Ljava/lang/StringBuilder;
+    iput-object p1, p0, Lcom/fmark/tselzap/Utils/d;
+    ->a:Ljava/lang/StringBuilder;
 
     return-void
 .end method
@@ -28,9 +30,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Utils/d;->a:Ljava/lang/StringBuilder;
+    iget-object v0, p0, Lcom/fmark/tselzap/Utils/d;
+    ->a:Ljava/lang/StringBuilder;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/Utils/Tools;->a(Ljava/lang/StringBuilder;I)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->a(Ljava/lang/StringBuilder;I)V
 return-void
 .end method
 

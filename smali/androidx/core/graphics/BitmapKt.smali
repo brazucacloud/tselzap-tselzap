@@ -21,12 +21,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -38,21 +40,25 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     move-result v0
 
-    iget v1, p1, Landroid/graphics/Point;->x:I
+    iget v1, p1, Landroid/graphics/Point;
+    ->x:I
 
     if-ltz v1, :cond_0
 
     if-ge v1, v0, :cond_0
 
-    iget p1, p1, Landroid/graphics/Point;->y:I
+    iget p1, p1, Landroid/graphics/Point;
+    ->y:I
 
     if-ltz p1, :cond_0
 
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     move-result p0
 
@@ -72,7 +78,8 @@
     .locals 3
 
     .line 2
-    iget v0, p1, Landroid/graphics/PointF;->x:F
+    iget v0, p1, Landroid/graphics/PointF;
+    ->x:F
 
     const/4 v1, 0x0
 
@@ -80,7 +87,8 @@
 
     if-ltz v2, :cond_0
 
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     move-result v2
 
@@ -90,13 +98,15 @@
 
     if-gez v0, :cond_0
 
-    iget p1, p1, Landroid/graphics/PointF;->y:F
+    iget p1, p1, Landroid/graphics/PointF;
+    ->y:F
 
     cmpl-float v0, p1, v1
 
     if-ltz v0, :cond_0
 
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     move-result p0
 
@@ -120,7 +130,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;
+    ->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -140,7 +151,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1, p2, p3, p4}, LS1/b;->m(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3, p4}, LS1/b;
+    ->m(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -155,11 +167,13 @@
     if-eqz p3, :cond_0
 
     .line 1
-    sget-object p2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object p2, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 2
     :cond_0
-    invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;
+    ->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -174,7 +188,8 @@
     if-eqz p6, :cond_0
 
     .line 3
-    sget-object p2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object p2, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     :cond_0
     and-int/lit8 p6, p5, 0x8
@@ -189,15 +204,18 @@
     if-eqz p5, :cond_2
 
     .line 4
-    invoke-static {}, LS1/b;->o()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, LS1/b;
+    ->o()Landroid/graphics/ColorSpace$Named;
 
-    invoke-static {}, LS1/b;->p()Landroid/graphics/ColorSpace;
+    invoke-static {}, LS1/b;
+    ->p()Landroid/graphics/ColorSpace;
 
     move-result-object p4
 
     .line 5
     :cond_2
-    invoke-static {p0, p1, p2, p3, p4}, LS1/b;->m(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3, p4}, LS1/b;
+    ->m(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -208,7 +226,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/Bitmap;->getPixel(II)I
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/Bitmap;
+    ->getPixel(II)I
 
     .line 2
     .line 3
@@ -222,7 +241,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;
+    ->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     .line 2
     .line 3
@@ -248,7 +268,8 @@
 
     .line 6
     :cond_0
-    invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;
+    ->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     .line 7
     .line 8
@@ -266,7 +287,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->setPixel(III)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Bitmap;
+    ->setPixel(III)V
 
     .line 2
     .line 3

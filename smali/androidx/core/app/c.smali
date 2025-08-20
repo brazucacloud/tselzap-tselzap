@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/text/PrecomputedText;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Landroid/text/PrecomputedText;
+    ->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object p0
 
@@ -19,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getHyphenationFrequency()I
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;
+    ->getHyphenationFrequency()I
 
     move-result p0
 
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;->getParagraphStart(I)I
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;
+    ->getParagraphStart(I)I
 
     move-result p0
 
@@ -41,7 +44,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;->setHyphenationFrequency(I)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;
+    ->setHyphenationFrequency(I)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object p0
 
@@ -52,7 +56,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getDisabledReason()I
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
+    ->getDisabledReason()I
 
     move-result p0
 
@@ -63,7 +68,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getBreakStrategy()I
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;
+    ->getBreakStrategy()I
 
     move-result p0
 
@@ -74,7 +80,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/PrecomputedText;->getParagraphCount()I
+    invoke-virtual {p0}, Landroid/text/PrecomputedText;
+    ->getParagraphCount()I
 
     move-result p0
 
@@ -85,7 +92,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;->getParagraphEnd(I)I
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;
+    ->getParagraphEnd(I)I
 
     move-result p0
 
@@ -96,7 +104,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;->hashCode()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;
+    ->hashCode()I
 
     move-result p0
 
@@ -125,7 +134,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroid/content/pm/PackageInfo;->signingInfo:Landroid/content/pm/SigningInfo;
+    iget-object p0, p0, Landroid/content/pm/PackageInfo;
+    ->signingInfo:Landroid/content/pm/SigningInfo;
 
     return-object p0
 .end method
@@ -134,7 +144,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/ImageDecoder;->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1}, Landroid/graphics/ImageDecoder;
+    ->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -145,7 +156,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/ImageDecoder;->decodeDrawable(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, p1}, Landroid/graphics/ImageDecoder;
+    ->decodeDrawable(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
 
@@ -156,7 +168,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;->setBreakStrategy(I)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;
+    ->setBreakStrategy(I)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object p0
 
@@ -167,7 +180,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText$Params$Builder;
+    ->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object p0
 
@@ -180,7 +194,8 @@
     .line 1
     new-instance v0, Landroid/text/PrecomputedText$Params$Builder;
 
-    invoke-direct {v0, p0}, Landroid/text/PrecomputedText$Params$Builder;-><init>(Landroid/text/TextPaint;)V
+    invoke-direct {v0, p0}, Landroid/text/PrecomputedText$Params$Builder;
+    -><init>(Landroid/text/TextPaint;)V
     return-object v0
 .end method
 
@@ -188,7 +203,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params$Builder;->build()Landroid/text/PrecomputedText$Params;
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params$Builder;
+    ->build()Landroid/text/PrecomputedText$Params;
 
     move-result-object p0
 
@@ -199,7 +215,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/text/PrecomputedText;->create(Ljava/lang/CharSequence;Landroid/text/PrecomputedText$Params;)Landroid/text/PrecomputedText;
+    invoke-static {p0, p1}, Landroid/text/PrecomputedText;
+    ->create(Ljava/lang/CharSequence;Landroid/text/PrecomputedText$Params;)Landroid/text/PrecomputedText;
 
     move-result-object p0
 
@@ -219,7 +236,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getTextDirection()Landroid/text/TextDirectionHeuristic;
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;
+    ->getTextDirection()Landroid/text/TextDirectionHeuristic;
 
     move-result-object p0
 
@@ -230,7 +248,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;->getTextPaint()Landroid/text/TextPaint;
+    invoke-virtual {p0}, Landroid/text/PrecomputedText$Params;
+    ->getTextPaint()Landroid/text/TextPaint;
 
     move-result-object p0
 
@@ -241,7 +260,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/WindowInsets;->getDisplayCutout()Landroid/view/DisplayCutout;
+    invoke-virtual {p0}, Landroid/view/WindowInsets;
+    ->getDisplayCutout()Landroid/view/DisplayCutout;
 
     move-result-object p0
 
@@ -252,7 +272,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/WindowInsets;->consumeDisplayCutout()Landroid/view/WindowInsets;
+    invoke-virtual {p0}, Landroid/view/WindowInsets;
+    ->consumeDisplayCutout()Landroid/view/WindowInsets;
 
     move-result-object p0
 
@@ -263,7 +284,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;->removeSpan(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;
+    ->removeSpan(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -271,7 +293,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/text/PrecomputedText;->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/text/PrecomputedText;
+    ->setSpan(Ljava/lang/Object;III)V
 return-void
 .end method
 
@@ -279,7 +302,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setPaneTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setPaneTitle(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -287,7 +311,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setScreenReaderFocusable(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setScreenReaderFocusable(Z)V
 return-void
 .end method
 
@@ -295,7 +320,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->isHeading()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isHeading()Z
 
     move-result p0
 

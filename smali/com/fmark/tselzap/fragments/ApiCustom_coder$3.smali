@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;
+    -><init>()V
 
     .line 4
     .line 5
@@ -51,7 +53,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p2, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, v1}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -63,7 +66,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2, v2}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, v2}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -71,7 +75,8 @@
     move-result-object p2
 
     .line 15
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 16
     .line 17
@@ -79,7 +84,8 @@
     const/4 v2, -0x1
 
     .line 19
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 20
     .line 21
@@ -100,7 +106,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -127,7 +134,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 41
     .line 42
@@ -154,7 +162,8 @@
 
     .line 50
     .line 51
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 52
     .line 53
@@ -183,11 +192,13 @@
 
     .line 63
     :pswitch_0
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
 
     .line 64
     .line 65
-    invoke-static {p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->g(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)Landroid/widget/Button;
+    invoke-static {p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    ->g(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)Landroid/widget/Button;
 
     .line 66
     .line 67
@@ -199,7 +210,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 72
     .line 73
@@ -226,7 +238,8 @@
     .line 83
     .line 84
     :goto_1
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;
+    ->setText(I)V
 
     .line 85
     .line 86
@@ -235,11 +248,13 @@
 
     .line 88
     :pswitch_1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
 
     .line 89
     .line 90
-    invoke-static {p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->l(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)V
+    invoke-static {p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    ->l(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)V
 
     .line 91
     .line 92
@@ -248,7 +263,8 @@
 
     .line 94
     :pswitch_2
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
 
     .line 95
     .line 96
@@ -265,7 +281,8 @@
 
     .line 102
     .line 103
-    invoke-virtual {v1, v2, p1}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v1, v2, p1}, Landroidx/fragment/app/Fragment;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 104
     .line 105
@@ -273,11 +290,13 @@
     move-result-object p1
 
     .line 107
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/ApiCustom_coder$3;
+    ->this$0:Lcom/fmark/tselzap/fragments/ApiCustom_coder;
 
     .line 108
     .line 109
-    invoke-static {p2}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->i(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)Landroid/widget/TextView;
+    invoke-static {p2}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    ->i(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)Landroid/widget/TextView;
 
     .line 110
     .line 111
@@ -285,7 +304,8 @@
     move-result-object p2
 
     .line 113
-    invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, p1}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 114
     .line 115

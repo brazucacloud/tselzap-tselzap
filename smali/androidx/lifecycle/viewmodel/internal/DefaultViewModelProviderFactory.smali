@@ -16,9 +16,11 @@
 
     new-instance v0, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;
 
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;
+    -><init>()V
 
-    sput-object v0, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;->INSTANCE:Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;
+    sput-object v0, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;
 
     return-void
 .end method
@@ -27,7 +29,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +40,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/i;->a(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1}, Landroidx/lifecycle/i;
+    ->a(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -48,7 +52,8 @@
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;->b(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;
+    ->b(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -70,20 +75,25 @@
 
     const-string v0, "modelClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "extras"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    sget-object p2, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;->INSTANCE:Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
+    sget-object p2, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
 
-    invoke-static {p1}, Lcom/bumptech/glide/b;->B(Lv1/c;)Ljava/lang/Class;
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->B(Lv1/c;)Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;->createViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-virtual {p2, p1}, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
+    ->createViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 

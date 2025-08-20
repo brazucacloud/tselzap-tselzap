@@ -26,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -40,7 +41,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -56,7 +58,8 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/core/app/ActivityOptionsCompat$Api23Impl;->makeBasic()Landroid/app/ActivityOptions;
+    invoke-static {}, Landroidx/core/app/ActivityOptionsCompat$Api23Impl;
+    ->makeBasic()Landroid/app/ActivityOptions;
 
     .line 10
     .line 11
@@ -64,7 +67,8 @@
     move-result-object v1
 
     .line 13
-    invoke-direct {v0, v1}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, v1}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 
     .line 14
     .line 15
@@ -77,7 +81,8 @@
 
     .line 18
     .line 19
-    invoke-direct {v0}, Landroidx/core/app/ActivityOptionsCompat;-><init>()V
+    invoke-direct {v0}, Landroidx/core/app/ActivityOptionsCompat;
+    -><init>()V
 
     .line 20
     .line 21
@@ -95,7 +100,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -111,7 +117,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/ActivityOptionsCompat$Api23Impl;->makeClipRevealAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/ActivityOptionsCompat$Api23Impl;
+    ->makeClipRevealAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
 
     .line 10
     .line 11
@@ -119,7 +126,8 @@
     move-result-object p0
 
     .line 13
-    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 
     .line 14
     .line 15
@@ -132,7 +140,8 @@
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/core/app/ActivityOptionsCompat;-><init>()V
+    invoke-direct {p0}, Landroidx/core/app/ActivityOptionsCompat;
+    -><init>()V
 
     .line 20
     .line 21
@@ -154,7 +163,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1, p2}, Landroid/app/ActivityOptions;->makeCustomAnimation(Landroid/content/Context;II)Landroid/app/ActivityOptions;
+    invoke-static {p0, p1, p2}, Landroid/app/ActivityOptions;
+    ->makeCustomAnimation(Landroid/content/Context;II)Landroid/app/ActivityOptions;
 
     .line 4
     .line 5
@@ -162,7 +172,8 @@
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 
     .line 8
     .line 9
@@ -184,7 +195,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/ActivityOptions;->makeScaleUpAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
+    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/ActivityOptions;
+    ->makeScaleUpAnimation(Landroid/view/View;IIII)Landroid/app/ActivityOptions;
 
     .line 4
     .line 5
@@ -192,7 +204,8 @@
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 
     .line 8
     .line 9
@@ -221,11 +234,13 @@
     new-instance v0, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityOptionsCompat$Api21Impl;->makeSceneTransitionAnimation(Landroid/app/Activity;Landroid/view/View;Ljava/lang/String;)Landroid/app/ActivityOptions;
+    invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityOptionsCompat$Api21Impl;
+    ->makeSceneTransitionAnimation(Landroid/app/Activity;Landroid/view/View;Ljava/lang/String;)Landroid/app/ActivityOptions;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 return-object v0
 .end method
 
@@ -273,15 +288,18 @@ return-object v0
     .line 5
     aget-object v2, p1, v1
 
-    iget-object v3, v2, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
+    iget-object v3, v2, Landroidx/core/util/Pair;
+    ->first:Ljava/lang/Object;
 
     check-cast v3, Landroid/view/View;
 
-    iget-object v2, v2, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
+    iget-object v2, v2, Landroidx/core/util/Pair;
+    ->second:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-static {v3, v2}, Landroid/util/Pair;->create(Ljava/lang/Object;Ljava/lang/Object;)Landroid/util/Pair;
+    invoke-static {v3, v2}, Landroid/util/Pair;
+    ->create(Ljava/lang/Object;Ljava/lang/Object;)Landroid/util/Pair;
 
     move-result-object v2
 
@@ -299,11 +317,13 @@ return-object v0
     new-instance p1, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
 
     .line 7
-    invoke-static {p0, v0}, Landroidx/core/app/ActivityOptionsCompat$Api21Impl;->makeSceneTransitionAnimation(Landroid/app/Activity;[Landroid/util/Pair;)Landroid/app/ActivityOptions;
+    invoke-static {p0, v0}, Landroidx/core/app/ActivityOptionsCompat$Api21Impl;
+    ->makeSceneTransitionAnimation(Landroid/app/Activity;[Landroid/util/Pair;)Landroid/app/ActivityOptions;
 
     move-result-object p0
 
-    invoke-direct {p1, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {p1, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 return-object p1
 .end method
 
@@ -317,7 +337,8 @@ return-object p1
 
     .line 2
     .line 3
-    invoke-static {}, Landroidx/core/app/ActivityOptionsCompat$Api21Impl;->makeTaskLaunchBehind()Landroid/app/ActivityOptions;
+    invoke-static {}, Landroidx/core/app/ActivityOptionsCompat$Api21Impl;
+    ->makeTaskLaunchBehind()Landroid/app/ActivityOptions;
 
     .line 4
     .line 5
@@ -325,7 +346,8 @@ return-object p1
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, v1}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 
     .line 8
     .line 9
@@ -351,7 +373,8 @@ return-object p1
 
     .line 2
     .line 3
-    invoke-static {p0, p1, p2, p3}, Landroid/app/ActivityOptions;->makeThumbnailScaleUpAnimation(Landroid/view/View;Landroid/graphics/Bitmap;II)Landroid/app/ActivityOptions;
+    invoke-static {p0, p1, p2, p3}, Landroid/app/ActivityOptions;
+    ->makeThumbnailScaleUpAnimation(Landroid/view/View;Landroid/graphics/Bitmap;II)Landroid/app/ActivityOptions;
 
     .line 4
     .line 5
@@ -359,7 +382,8 @@ return-object p1
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;
+    -><init>(Landroid/app/ActivityOptions;)V
 
     .line 8
     .line 9

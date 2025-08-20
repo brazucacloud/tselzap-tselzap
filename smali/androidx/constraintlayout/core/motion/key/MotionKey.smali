@@ -58,27 +58,33 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget v0, Landroidx/constraintlayout/core/motion/key/MotionKey;->UNSET:I
+    sget v0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->UNSET:I
 
     .line 5
     .line 6
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mFramePosition:I
 
     .line 7
     .line 8
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetId:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetId:I
 
     .line 9
     .line 10
     const/4 v0, 0x0
 
     .line 11
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;    return-void
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetString:Ljava/lang/String;    
+    return-void
 .end method
 
 
@@ -102,7 +108,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/key/MotionKey;->clone()Landroidx/constraintlayout/core/motion/key/MotionKey;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->clone()Landroidx/constraintlayout/core/motion/key/MotionKey;
 
     move-result-object v0
 
@@ -113,35 +120,44 @@
     .locals 1
 
     .line 1
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mFramePosition:I
 
     .line 2
     .line 3
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mFramePosition:I
 
     .line 4
     .line 5
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetId:I
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetId:I
 
     .line 6
     .line 7
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetId:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetId:I
 
     .line 8
     .line 9
-    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;
+    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetString:Ljava/lang/String;
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetString:Ljava/lang/String;
 
     .line 12
     .line 13
-    iget p1, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;->mType:I
+    iget p1, p1, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mType:I
 
     .line 14
     .line 15
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mType:I    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mType:I    
+    return-object p0
 .end method
 
 .method public abstract getAttributeNames(Ljava/util/HashSet;)V
@@ -159,14 +175,16 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mFramePosition:I    return v0
 .end method
 
 .method public matches(Ljava/lang/String;)Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetString:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -182,7 +200,8 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p1, v0}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->matches(Ljava/lang/String;)Z
 
     .line 9
     .line 10
@@ -203,13 +222,16 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mCustom:Ljava/util/HashMap;
 
     new-instance v1, Landroidx/constraintlayout/core/motion/CustomVariable;
 
-    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;-><init>(Ljava/lang/String;IF)V
+    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;
+    -><init>(Ljava/lang/String;IF)V
 
-    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -218,13 +240,16 @@
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mCustom:Ljava/util/HashMap;
 
     new-instance v1, Landroidx/constraintlayout/core/motion/CustomVariable;
 
-    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;
+    -><init>(Ljava/lang/String;II)V
 
-    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -233,13 +258,16 @@
     .locals 2
 
     .line 4
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mCustom:Ljava/util/HashMap;
 
     new-instance v1, Landroidx/constraintlayout/core/motion/CustomVariable;
 
-    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;
+    -><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -248,13 +276,16 @@
     .locals 2
 
     .line 3
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mCustom:Ljava/util/HashMap;
 
     new-instance v1, Landroidx/constraintlayout/core/motion/CustomVariable;
 
-    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;-><init>(Ljava/lang/String;IZ)V
+    invoke-direct {v1, p1, p2, p3}, Landroidx/constraintlayout/core/motion/CustomVariable;
+    -><init>(Ljava/lang/String;IZ)V
 
-    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -263,7 +294,9 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mFramePosition:I    
+    return-void
 .end method
 
 .method public setInterpolation(Ljava/util/HashMap;)V
@@ -303,7 +336,8 @@
 
     .line 3
     :cond_0
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mFramePosition:I
 
     const/4 p1, 0x1
 
@@ -323,7 +357,8 @@
 
     .line 4
     :cond_0
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetString:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetString:Ljava/lang/String;
 
     const/4 p1, 0x1
 
@@ -343,7 +378,9 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mTargetId:I    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
+    ->mTargetId:I    
+    return-object p0
 .end method
 
 .method public toBoolean(Ljava/lang/Object;)Z
@@ -362,7 +399,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p1}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 8
     .line 9
@@ -373,7 +411,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -381,7 +420,8 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->parseBoolean(Ljava/lang/String;)Z
 
     .line 17
     .line 18
@@ -407,7 +447,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 8
     .line 9
@@ -418,7 +459,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -426,7 +468,8 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+    invoke-static {p1}, Ljava/lang/Float;
+    ->parseFloat(Ljava/lang/String;)F
 
     .line 17
     .line 18
@@ -452,7 +495,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 8
     .line 9
@@ -463,7 +507,8 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -471,7 +516,8 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 17
     .line 18

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/LifecycleKt;->getEventFlow(Landroidx/lifecycle/Lifecycle;)LC1/g;
+    value = Landroidx/lifecycle/LifecycleKt;
+    ->getEventFlow(Landroidx/lifecycle/Lifecycle;)LC1/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -56,14 +57,16 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;
+    -><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -71,7 +74,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->invokeSuspend$lambda$0(LB1/r;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->invokeSuspend$lambda$0(LB1/r;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 return-void
 .end method
 
@@ -83,7 +87,9 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0, p2}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {p0, p2}, LB1/q;
+    ->h(Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 
@@ -107,16 +113,20 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;-><init>(Landroidx/lifecycle/Lifecycle;Lg1/d;)V
+    invoke-direct {v0, v1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    -><init>(Landroidx/lifecycle/Lifecycle;Lg1/d;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->L$0:Ljava/lang/Object;    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->L$0:Ljava/lang/Object;    
+    return-object v0
 .end method
 
 .method public final invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
@@ -134,15 +144,18 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
 
-    sget-object p2, Lc1/v;->a:Lc1/v;
+    sget-object p2, Lc1/v;
+    ->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -157,7 +170,8 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -168,11 +182,13 @@ return-void
     .locals 5
 
     .line 1
-    sget-object v0, Lh1/a;->b:Lh1/a;
+    sget-object v0, Lh1/a;
+    ->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->label:I
+    iget v1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->label:I
 
     .line 4
     .line 5
@@ -187,7 +203,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -204,7 +221,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -213,12 +231,14 @@ return-void
 
     .line 22
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -233,16 +253,19 @@ return-void
     const/4 v3, 0x0
 
     .line 32
-    invoke-direct {v1, p1, v3}, Landroidx/lifecycle/f;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p1, v3}, Landroidx/lifecycle/f;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 33
     .line 34
     .line 35
-    iget-object v3, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
+    iget-object v3, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
 
     .line 36
     .line 37
-    invoke-virtual {v3, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v3, v1}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 38
     .line 39
@@ -251,20 +274,24 @@ return-void
 
     .line 41
     .line 42
-    iget-object v4, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
+    iget-object v4, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
 
     .line 43
     .line 44
-    invoke-direct {v3, v4, v1}, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/LifecycleEventObserver;)V
+    invoke-direct {v3, v4, v1}, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;
+    -><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/LifecycleEventObserver;)V
 
     .line 45
     .line 46
     .line 47
-    iput v2, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;->label:I
+    iput v2, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1;
+    ->label:I
 
     .line 48
     .line 49
-    invoke-static {p1, v3, p0}, Lcom/bumptech/glide/b;->c(LB1/r;Lp1/a;Li1/c;)Ljava/lang/Object;
+    invoke-static {p1, v3, p0}, Lcom/bumptech/glide/b;
+    ->c(LB1/r;Lp1/a;Li1/c;)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -277,7 +304,8 @@ return-void
     .line 56
     :cond_2
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;    return-object p1
 .end method
 
 .end class

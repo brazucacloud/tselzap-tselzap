@@ -27,7 +27,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Landroidx/core/view/GestureDetectorCompat;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;Landroid/os/Handler;)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/core/view/GestureDetectorCompat;
+    -><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;Landroid/os/Handler;)V
 return-void
 .end method
 
@@ -47,14 +48,17 @@ return-void
     .end param
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
     new-instance v0, Landroid/view/GestureDetector;
 
-    invoke-direct {v0, p1, p2, p3}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;Landroid/os/Handler;)V
+    invoke-direct {v0, p1, p2, p3}, Landroid/view/GestureDetector;
+    -><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;Landroid/os/Handler;)V
 
-    iput-object v0, p0, Landroidx/core/view/GestureDetectorCompat;->mDetector:Landroid/view/GestureDetector;
+    iput-object v0, p0, Landroidx/core/view/GestureDetectorCompat;
+    ->mDetector:Landroid/view/GestureDetector;
 
     return-void
 .end method
@@ -65,11 +69,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;->mDetector:Landroid/view/GestureDetector;
+    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;
+    ->mDetector:Landroid/view/GestureDetector;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/GestureDetector;->isLongpressEnabled()Z
+    invoke-virtual {v0}, Landroid/view/GestureDetector;
+    ->isLongpressEnabled()Z
 
     .line 4
     .line 5
@@ -87,11 +93,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;->mDetector:Landroid/view/GestureDetector;
+    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;
+    ->mDetector:Landroid/view/GestureDetector;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;
+    ->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 4
     .line 5
@@ -110,11 +118,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;->mDetector:Landroid/view/GestureDetector;
+    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;
+    ->mDetector:Landroid/view/GestureDetector;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;->setIsLongpressEnabled(Z)V
+    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;
+    ->setIsLongpressEnabled(Z)V
 
     .line 4
     .line 5
@@ -130,11 +140,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;->mDetector:Landroid/view/GestureDetector;
+    iget-object v0, p0, Landroidx/core/view/GestureDetectorCompat;
+    ->mDetector:Landroid/view/GestureDetector;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;->setOnDoubleTapListener(Landroid/view/GestureDetector$OnDoubleTapListener;)V
+    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;
+    ->setOnDoubleTapListener(Landroid/view/GestureDetector$OnDoubleTapListener;)V
 
     .line 4
     .line 5

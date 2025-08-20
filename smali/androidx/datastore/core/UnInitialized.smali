@@ -23,9 +23,11 @@
 
     new-instance v0, Landroidx/datastore/core/UnInitialized;
 
-    invoke-direct {v0}, Landroidx/datastore/core/UnInitialized;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/core/UnInitialized;
+    -><init>()V
 
-    sput-object v0, Landroidx/datastore/core/UnInitialized;->INSTANCE:Landroidx/datastore/core/UnInitialized;
+    sput-object v0, Landroidx/datastore/core/UnInitialized;
+    ->INSTANCE:Landroidx/datastore/core/UnInitialized;
 
     return-void
 .end method
@@ -37,7 +39,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/core/State;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/core/State;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     .line 3
     .line 4

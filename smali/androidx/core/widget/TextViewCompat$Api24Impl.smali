@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/icu/text/DecimalFormatSymbols;->getInstance(Ljava/util/Locale;)Landroid/icu/text/DecimalFormatSymbols;
+    invoke-static {p0}, Landroid/icu/text/DecimalFormatSymbols;
+    ->getInstance(Ljava/util/Locale;)Landroid/icu/text/DecimalFormatSymbols;
 
     .line 2
     .line 3

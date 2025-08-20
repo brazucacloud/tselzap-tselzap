@@ -51,22 +51,26 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/fragment/app/Fragment$SavedState$1;-><init>()V
+    invoke-direct {v0}, Landroidx/fragment/app/Fragment$SavedState$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/fragment/app/Fragment$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
+    sput-object v0, Landroidx/fragment/app/Fragment$SavedState;
+    ->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/fragment/app/Fragment$SavedState;->mState:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/fragment/app/Fragment$SavedState;
+    ->mState:Landroid/os/Bundle;
 
     return-void
 .end method
@@ -83,21 +87,25 @@
     .end param
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
-    invoke-virtual {p1}, Landroid/os/Parcel;->readBundle()Landroid/os/Bundle;
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readBundle()Landroid/os/Bundle;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/fragment/app/Fragment$SavedState;->mState:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/fragment/app/Fragment$SavedState;
+    ->mState:Landroid/os/Bundle;
 
     if-eqz p2, :cond_0
 
     if-eqz p1, :cond_0
 
     .line 5
-    invoke-virtual {p1, p2}, Landroid/os/Bundle;->setClassLoader(Ljava/lang/ClassLoader;)V
+    invoke-virtual {p1, p2}, Landroid/os/Bundle;
+    ->setClassLoader(Ljava/lang/ClassLoader;)V
 
     :cond_0
     return-void
@@ -121,11 +129,13 @@
     .end param
 
     .line 1
-    iget-object p2, p0, Landroidx/fragment/app/Fragment$SavedState;->mState:Landroid/os/Bundle;
+    iget-object p2, p0, Landroidx/fragment/app/Fragment$SavedState;
+    ->mState:Landroid/os/Bundle;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeBundle(Landroid/os/Bundle;)V
 return-void
 .end method
 

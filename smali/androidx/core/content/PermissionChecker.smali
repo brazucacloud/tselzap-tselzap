@@ -24,7 +24,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -44,7 +45,8 @@
     .end param
 
     .line 1
-    invoke-static {}, Landroid/os/Binder;->getCallingPid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingPid()I
 
     .line 2
     .line 3
@@ -52,7 +54,8 @@
     move-result v0
 
     .line 5
-    invoke-static {}, Landroid/os/Process;->myPid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myPid()I
 
     .line 6
     .line 7
@@ -64,7 +67,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -80,7 +84,8 @@
 
     .line 17
     :goto_0
-    invoke-static {}, Landroid/os/Binder;->getCallingPid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingPid()I
 
     .line 18
     .line 19
@@ -88,7 +93,8 @@
     move-result v1
 
     .line 21
-    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingUid()I
 
     .line 22
     .line 23
@@ -96,7 +102,8 @@
     move-result v2
 
     .line 25
-    invoke-static {p0, p1, v1, v2, v0}, Landroidx/core/content/PermissionChecker;->checkPermission(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)I
+    invoke-static {p0, p1, v1, v2, v0}, Landroidx/core/content/PermissionChecker;
+    ->checkPermission(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)I
 
     .line 26
     .line 27
@@ -122,7 +129,8 @@
     .end param
 
     .line 1
-    invoke-static {}, Landroid/os/Binder;->getCallingPid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingPid()I
 
     .line 2
     .line 3
@@ -130,7 +138,8 @@
     move-result v0
 
     .line 5
-    invoke-static {}, Landroid/os/Process;->myPid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myPid()I
 
     .line 6
     .line 7
@@ -148,7 +157,8 @@
 
     .line 13
     :cond_0
-    invoke-static {}, Landroid/os/Binder;->getCallingPid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingPid()I
 
     .line 14
     .line 15
@@ -156,7 +166,8 @@
     move-result v0
 
     .line 17
-    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingUid()I
 
     .line 18
     .line 19
@@ -164,7 +175,8 @@
     move-result v1
 
     .line 21
-    invoke-static {p0, p1, v0, v1, p2}, Landroidx/core/content/PermissionChecker;->checkPermission(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)I
+    invoke-static {p0, p1, v0, v1, p2}, Landroidx/core/content/PermissionChecker;
+    ->checkPermission(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)I
 
     .line 22
     .line 23
@@ -190,7 +202,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/content/Context;->checkPermission(Ljava/lang/String;II)I
+    invoke-virtual {p0, p1, p2, p3}, Landroid/content/Context;
+    ->checkPermission(Ljava/lang/String;II)I
 
     .line 2
     .line 3
@@ -209,7 +222,8 @@
 
     .line 9
     :cond_0
-    invoke-static {p1}, Landroidx/core/app/AppOpsManagerCompat;->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/core/app/AppOpsManagerCompat;
+    ->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -232,7 +246,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 20
     .line 21
@@ -240,7 +255,8 @@
     move-result-object p4
 
     .line 23
-    invoke-virtual {p4, p3}, Landroid/content/pm/PackageManager;->getPackagesForUid(I)[Ljava/lang/String;
+    invoke-virtual {p4, p3}, Landroid/content/pm/PackageManager;
+    ->getPackagesForUid(I)[Ljava/lang/String;
 
     .line 24
     .line 25
@@ -277,7 +293,8 @@
     .line 37
     :cond_4
     :goto_1
-    invoke-static {}, Landroid/os/Process;->myUid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myUid()I
 
     .line 38
     .line 39
@@ -285,7 +302,8 @@
     move-result v0
 
     .line 41
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -297,7 +315,8 @@
 
     .line 46
     .line 47
-    invoke-static {v1, p4}, Landroidx/core/util/ObjectsCompat;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p4}, Landroidx/core/util/ObjectsCompat;
+    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 48
     .line 49
@@ -309,7 +328,8 @@
 
     .line 52
     .line 53
-    invoke-static {p0, p3, p1, p4}, Landroidx/core/app/AppOpsManagerCompat;->checkOrNoteProxyOp(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p3, p1, p4}, Landroidx/core/app/AppOpsManagerCompat;
+    ->checkOrNoteProxyOp(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)I
 
     .line 54
     .line 55
@@ -321,7 +341,8 @@
 
     .line 58
     :cond_5
-    invoke-static {p0, p1, p4}, Landroidx/core/app/AppOpsManagerCompat;->noteProxyOpNoThrow(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1, p4}, Landroidx/core/app/AppOpsManagerCompat;
+    ->noteProxyOpNoThrow(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 59
     .line 60
@@ -355,7 +376,8 @@
     .end param
 
     .line 1
-    invoke-static {}, Landroid/os/Process;->myPid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myPid()I
 
     .line 2
     .line 3
@@ -363,7 +385,8 @@
     move-result v0
 
     .line 5
-    invoke-static {}, Landroid/os/Process;->myUid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myUid()I
 
     .line 6
     .line 7
@@ -371,7 +394,8 @@
     move-result v1
 
     .line 9
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -379,7 +403,8 @@
     move-result-object v2
 
     .line 13
-    invoke-static {p0, p1, v0, v1, v2}, Landroidx/core/content/PermissionChecker;->checkPermission(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)I
+    invoke-static {p0, p1, v0, v1, v2}, Landroidx/core/content/PermissionChecker;
+    ->checkPermission(Landroid/content/Context;Ljava/lang/String;IILjava/lang/String;)I
 
     .line 14
     .line 15

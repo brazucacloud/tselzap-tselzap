@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -29,7 +30,8 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 12
     .line 13

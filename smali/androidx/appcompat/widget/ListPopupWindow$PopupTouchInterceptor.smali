@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iput-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +42,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;
+    ->getAction()I
 
     .line 2
     .line 3
@@ -48,7 +51,8 @@
     move-result p1
 
     .line 5
-    invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
+    invoke-virtual {p2}, Landroid/view/MotionEvent;
+    ->getX()F
 
     .line 6
     .line 7
@@ -59,7 +63,8 @@
     float-to-int v0, v0
 
     .line 10
-    invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
+    invoke-virtual {p2}, Landroid/view/MotionEvent;
+    ->getY()F
 
     .line 11
     .line 12
@@ -74,11 +79,13 @@
 
     .line 16
     .line 17
-    iget-object v1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object v1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 18
     .line 19
-    iget-object v1, v1, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
+    iget-object v1, v1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mPopup:Landroid/widget/PopupWindow;
 
     .line 20
     .line 21
@@ -86,7 +93,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Landroid/widget/PopupWindow;->isShowing()Z
+    invoke-virtual {v1}, Landroid/widget/PopupWindow;
+    ->isShowing()Z
 
     .line 24
     .line 25
@@ -102,15 +110,18 @@
 
     .line 30
     .line 31
-    iget-object v1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object v1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 32
     .line 33
-    iget-object v1, v1, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
+    iget-object v1, v1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mPopup:Landroid/widget/PopupWindow;
 
     .line 34
     .line 35
-    invoke-virtual {v1}, Landroid/widget/PopupWindow;->getWidth()I
+    invoke-virtual {v1}, Landroid/widget/PopupWindow;
+    ->getWidth()I
 
     .line 36
     .line 37
@@ -126,15 +137,18 @@
 
     .line 42
     .line 43
-    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 44
     .line 45
-    iget-object v0, v0, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
+    iget-object v0, v0, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mPopup:Landroid/widget/PopupWindow;
 
     .line 46
     .line 47
-    invoke-virtual {v0}, Landroid/widget/PopupWindow;->getHeight()I
+    invoke-virtual {v0}, Landroid/widget/PopupWindow;
+    ->getHeight()I
 
     .line 48
     .line 49
@@ -146,15 +160,18 @@
 
     .line 52
     .line 53
-    iget-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 54
     .line 55
-    iget-object p2, p1, Landroidx/appcompat/widget/ListPopupWindow;->mHandler:Landroid/os/Handler;
+    iget-object p2, p1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mHandler:Landroid/os/Handler;
 
     .line 56
     .line 57
-    iget-object p1, p1, Landroidx/appcompat/widget/ListPopupWindow;->mResizePopupRunnable:Landroidx/appcompat/widget/ListPopupWindow$ResizePopupRunnable;
+    iget-object p1, p1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mResizePopupRunnable:Landroidx/appcompat/widget/ListPopupWindow$ResizePopupRunnable;
 
     .line 58
     .line 59
@@ -162,7 +179,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {p2, p1, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p2, p1, v0, v1}, Landroid/os/Handler;
+    ->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 62
     .line 63
@@ -178,19 +196,23 @@
 
     .line 67
     .line 68
-    iget-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;->this$0:Landroidx/appcompat/widget/ListPopupWindow;
+    iget-object p1, p0, Landroidx/appcompat/widget/ListPopupWindow$PopupTouchInterceptor;
+    ->this$0:Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 69
     .line 70
-    iget-object p2, p1, Landroidx/appcompat/widget/ListPopupWindow;->mHandler:Landroid/os/Handler;
+    iget-object p2, p1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mHandler:Landroid/os/Handler;
 
     .line 71
     .line 72
-    iget-object p1, p1, Landroidx/appcompat/widget/ListPopupWindow;->mResizePopupRunnable:Landroidx/appcompat/widget/ListPopupWindow$ResizePopupRunnable;
+    iget-object p1, p1, Landroidx/appcompat/widget/ListPopupWindow;
+    ->mResizePopupRunnable:Landroidx/appcompat/widget/ListPopupWindow$ResizePopupRunnable;
 
     .line 73
     .line 74
-    invoke-virtual {p2, p1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {p2, p1}, Landroid/os/Handler;
+    ->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 75
     .line 76

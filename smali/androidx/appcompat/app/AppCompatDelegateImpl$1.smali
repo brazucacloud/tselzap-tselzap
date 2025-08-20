@@ -31,11 +31,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$1;->val$defHandler:Ljava/lang/Thread$UncaughtExceptionHandler;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$1;
+    ->val$defHandler:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -54,7 +56,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -70,7 +73,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 15
     .line 16
@@ -86,7 +90,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->contains(Ljava/lang/CharSequence;)Z
 
     .line 23
     .line 24
@@ -122,7 +127,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl$1;->shouldWrapException(Ljava/lang/Throwable;)Z
+    invoke-direct {p0, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl$1;
+    ->shouldWrapException(Ljava/lang/Throwable;)Z
 
     .line 2
     .line 3
@@ -142,12 +148,14 @@
 
     .line 10
     .line 11
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -155,7 +163,8 @@
     move-result-object v2
 
     .line 18
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -164,12 +173,14 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -177,12 +188,14 @@
     move-result-object v1
 
     .line 30
-    invoke-direct {v0, v1}, Landroid/content/res/Resources$NotFoundException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/res/Resources$NotFoundException;
+    -><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p2}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p2}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 34
     .line 35
@@ -190,12 +203,14 @@
     move-result-object v1
 
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    invoke-virtual {v0, v1}, Ljava/lang/Throwable;
+    ->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p2}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+    invoke-virtual {p2}, Ljava/lang/Throwable;
+    ->getStackTrace()[Ljava/lang/StackTraceElement;
 
     .line 41
     .line 42
@@ -203,25 +218,30 @@
     move-result-object p2
 
     .line 44
-    invoke-virtual {v0, p2}, Ljava/lang/Throwable;->setStackTrace([Ljava/lang/StackTraceElement;)V
+    invoke-virtual {v0, p2}, Ljava/lang/Throwable;
+    ->setStackTrace([Ljava/lang/StackTraceElement;)V
 
     .line 45
     .line 46
     .line 47
-    iget-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$1;->val$defHandler:Ljava/lang/Thread$UncaughtExceptionHandler;
+    iget-object p2, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$1;
+    ->val$defHandler:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     .line 48
     .line 49
-    invoke-interface {p2, p1, v0}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
+    invoke-interface {p2, p1, v0}, Ljava/lang/Thread$UncaughtExceptionHandler;
+    ->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 return-void
 
     .line 53
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$1;->val$defHandler:Ljava/lang/Thread$UncaughtExceptionHandler;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$1;
+    ->val$defHandler:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     .line 54
     .line 55
-    invoke-interface {v0, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;
+    ->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 return-void
 .end method
 

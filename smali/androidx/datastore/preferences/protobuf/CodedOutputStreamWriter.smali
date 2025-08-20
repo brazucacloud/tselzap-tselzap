@@ -15,7 +15,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -24,7 +25,8 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -36,18 +38,22 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 13
     .line 14
-    iput-object p0, p1, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->wrapper:Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;    return-void
+    iput-object p0, p1, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->wrapper:Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;    
+    return-void
 .end method
 
 .method public static forCodedOutput(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->wrapper:Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->wrapper:Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
 
     .line 2
     .line 3
@@ -59,7 +65,8 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;-><init>(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    -><init>(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 return-object v0
 .end method
 
@@ -77,23 +84,27 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
     const/4 v1, 0x2
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 5
     .line 6
     .line 7
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 8
     .line 9
-    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 10
     .line 11
@@ -101,7 +112,8 @@ return-object v0
     move-result-object v0
 
     .line 13
-    invoke-static {p4, v0, p3}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {p4, v0, p3}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 14
     .line 15
@@ -109,16 +121,19 @@ return-object v0
     move-result v0
 
     .line 17
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 18
     .line 19
     .line 20
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 21
     .line 22
-    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 23
     .line 24
@@ -126,7 +141,8 @@ return-object v0
     move-result-object p2
 
     .line 26
-    invoke-static {p1, p4, p2, p3}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {p1, p4, p2, p3}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -147,7 +163,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p3}, Ljava/util/Map;->size()I
+    invoke-interface {p3}, Ljava/util/Map;
+    ->size()I
 
     .line 2
     .line 3
@@ -159,7 +176,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-interface {p3}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     .line 8
     .line 9
@@ -167,7 +185,8 @@ return-void
     move-result-object v2
 
     .line 11
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 12
     .line 13
@@ -182,7 +201,8 @@ return-void
 
     .line 17
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 18
     .line 19
@@ -194,7 +214,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -206,7 +227,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v5}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 30
     .line 31
@@ -229,7 +251,8 @@ return-void
 
     .line 39
     :cond_0
-    invoke-static {v1}, Ljava/util/Arrays;->sort([I)V
+    invoke-static {v1}, Ljava/util/Arrays;
+    ->sort([I)V
 
     .line 40
     .line 41
@@ -243,7 +266,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 47
     .line 48
@@ -251,7 +275,8 @@ return-void
     move-result-object v4
 
     .line 50
-    invoke-interface {p3, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v4}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -259,23 +284,27 @@ return-void
     move-result-object v4
 
     .line 54
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 55
     .line 56
     const/4 v6, 0x2
 
     .line 57
-    invoke-virtual {v5, p1, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v5, p1, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 58
     .line 59
     .line 60
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 61
     .line 62
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 63
     .line 64
@@ -283,7 +312,8 @@ return-void
     move-result-object v6
 
     .line 66
-    invoke-static {p2, v6, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {p2, v6, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 67
     .line 68
@@ -291,16 +321,19 @@ return-void
     move-result v6
 
     .line 70
-    invoke-virtual {v5, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {v5, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 71
     .line 72
     .line 73
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 74
     .line 75
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 76
     .line 77
@@ -308,7 +341,8 @@ return-void
     move-result-object v2
 
     .line 79
-    invoke-static {v5, p2, v2, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v5, p2, v2, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 80
     .line 81
@@ -341,7 +375,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p3}, Ljava/util/Map;->size()I
+    invoke-interface {p3}, Ljava/util/Map;
+    ->size()I
 
     .line 2
     .line 3
@@ -353,7 +388,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-interface {p3}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     .line 8
     .line 9
@@ -361,7 +397,8 @@ return-void
     move-result-object v2
 
     .line 11
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 12
     .line 13
@@ -376,7 +413,8 @@ return-void
 
     .line 17
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 18
     .line 19
@@ -388,7 +426,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -400,7 +439,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {v5}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v5}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 30
     .line 31
@@ -423,7 +463,8 @@ return-void
 
     .line 39
     :cond_0
-    invoke-static {v1}, Ljava/util/Arrays;->sort([J)V
+    invoke-static {v1}, Ljava/util/Arrays;
+    ->sort([J)V
 
     .line 40
     .line 41
@@ -437,7 +478,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v4, v5}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 47
     .line 48
@@ -445,7 +487,8 @@ return-void
     move-result-object v2
 
     .line 50
-    invoke-interface {p3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v2}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -453,23 +496,27 @@ return-void
     move-result-object v2
 
     .line 54
-    iget-object v6, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v6, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 55
     .line 56
     const/4 v7, 0x2
 
     .line 57
-    invoke-virtual {v6, p1, v7}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v6, p1, v7}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 58
     .line 59
     .line 60
-    iget-object v6, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v6, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 61
     .line 62
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v4, v5}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 63
     .line 64
@@ -477,7 +524,8 @@ return-void
     move-result-object v7
 
     .line 66
-    invoke-static {p2, v7, v2}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {p2, v7, v2}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 67
     .line 68
@@ -485,16 +533,19 @@ return-void
     move-result v7
 
     .line 70
-    invoke-virtual {v6, v7}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {v6, v7}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 71
     .line 72
     .line 73
-    iget-object v6, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v6, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 74
     .line 75
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v4, v5}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 76
     .line 77
@@ -502,7 +553,8 @@ return-void
     move-result-object v4
 
     .line 79
-    invoke-static {v6, p2, v4, v2}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v6, p2, v4, v2}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 80
     .line 81
@@ -535,15 +587,18 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter$1;
+    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 2
     .line 3
-    iget-object v1, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->keyType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    iget-object v1, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
+    ->keyType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 6
     .line 7
@@ -572,21 +627,25 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    iget-object p2, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->keyType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    iget-object p2, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
+    ->keyType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 24
     .line 25
-    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -594,7 +653,8 @@ return-void
     move-result-object p2
 
     .line 32
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -603,26 +663,31 @@ return-void
 
     .line 36
     :pswitch_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicStringMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeDeterministicStringMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
 return-void
 
     .line 40
     :pswitch_1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicLongMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeDeterministicLongMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
 return-void
 
     .line 44
     :pswitch_2
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicIntegerMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeDeterministicIntegerMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
 return-void
 
     .line 48
     :pswitch_3
-    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;
+    ->FALSE:Ljava/lang/Boolean;
 
     .line 49
     .line 50
-    invoke-interface {p3, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -637,17 +702,20 @@ return-void
     const/4 v1, 0x0
 
     .line 57
-    invoke-direct {p0, p1, v1, v0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicBooleanMapEntry(IZLjava/lang/Object;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;)V
+    invoke-direct {p0, p1, v1, v0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeDeterministicBooleanMapEntry(IZLjava/lang/Object;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;)V
 
     .line 58
     .line 59
     .line 60
     :cond_0
-    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;
+    ->TRUE:Ljava/lang/Boolean;
 
     .line 61
     .line 62
-    invoke-interface {p3, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -662,7 +730,8 @@ return-void
     const/4 v0, 0x1
 
     .line 69
-    invoke-direct {p0, p1, v0, p3, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicBooleanMapEntry(IZLjava/lang/Object;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;)V
+    invoke-direct {p0, p1, v0, p3, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeDeterministicBooleanMapEntry(IZLjava/lang/Object;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;)V
 
     .line 70
     .line 71
@@ -685,7 +754,8 @@ return-void
         :pswitch_1
         :pswitch_1
         :pswitch_0
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 .method private writeDeterministicStringMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
     .locals 7
@@ -704,7 +774,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p3}, Ljava/util/Map;->size()I
+    invoke-interface {p3}, Ljava/util/Map;
+    ->size()I
 
     .line 2
     .line 3
@@ -716,7 +787,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-interface {p3}, Ljava/util/Map;->keySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->keySet()Ljava/util/Set;
 
     .line 8
     .line 9
@@ -724,7 +796,8 @@ return-void
     move-result-object v2
 
     .line 11
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 12
     .line 13
@@ -739,7 +812,8 @@ return-void
 
     .line 17
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 18
     .line 19
@@ -751,7 +825,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -778,7 +853,8 @@ return-void
 
     .line 35
     :cond_0
-    invoke-static {v1}, Ljava/util/Arrays;->sort([Ljava/lang/Object;)V
+    invoke-static {v1}, Ljava/util/Arrays;
+    ->sort([Ljava/lang/Object;)V
 
     .line 36
     .line 37
@@ -792,7 +868,8 @@ return-void
 
     .line 41
     .line 42
-    invoke-interface {p3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v2}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -800,23 +877,27 @@ return-void
     move-result-object v4
 
     .line 46
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 47
     .line 48
     const/4 v6, 0x2
 
     .line 49
-    invoke-virtual {v5, p1, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v5, p1, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 50
     .line 51
     .line 52
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 53
     .line 54
-    invoke-static {p2, v2, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {p2, v2, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 55
     .line 56
@@ -824,16 +905,19 @@ return-void
     move-result v6
 
     .line 58
-    invoke-virtual {v5, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {v5, v6}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 59
     .line 60
     .line 61
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 62
     .line 63
-    invoke-static {v5, p2, v2, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v5, p2, v2, v4}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 64
     .line 65
@@ -861,7 +945,8 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 6
     .line 7
@@ -869,12 +954,14 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeString(ILjava/lang/String;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeString(ILjava/lang/String;)V
 return-void
 
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 14
     .line 15
@@ -882,7 +969,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -892,18 +980,21 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Writer$FieldOrder;->ASCENDING:Landroidx/datastore/preferences/protobuf/Writer$FieldOrder;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Writer$FieldOrder;
+    ->ASCENDING:Landroidx/datastore/preferences/protobuf/Writer$FieldOrder;    return-object v0
 .end method
 
 .method public getTotalBytesWritten()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->getTotalBytesWritten()I
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->getTotalBytesWritten()I
 
     .line 4
     .line 5
@@ -917,11 +1008,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBool(IZ)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeBool(IZ)V
 return-void
 .end method
 
@@ -944,14 +1037,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -963,7 +1058,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -975,7 +1071,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -987,7 +1084,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v1}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 25
     .line 26
@@ -995,7 +1093,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeBoolSizeNoTag(Z)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeBoolSizeNoTag(Z)I
 
     .line 29
     .line 30
@@ -1014,17 +1113,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -1036,11 +1138,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1052,7 +1156,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p3}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 56
     .line 57
@@ -1060,7 +1165,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBoolNoTag(Z)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeBoolNoTag(Z)V
 
     .line 60
     .line 61
@@ -1074,7 +1180,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -1086,11 +1193,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -1102,7 +1211,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v1}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 80
     .line 81
@@ -1110,7 +1220,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBool(IZ)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeBool(IZ)V
 
     .line 84
     .line 85
@@ -1130,11 +1241,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -1154,7 +1267,8 @@ return-void
 
     .line 2
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 3
     .line 4
@@ -1166,11 +1280,13 @@ return-void
 
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 9
     .line 10
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -1182,7 +1298,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {v1, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {v1, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 17
     .line 18
@@ -1202,11 +1319,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeDouble(ID)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeDouble(ID)V
 return-void
 .end method
 
@@ -1229,14 +1348,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -1248,7 +1369,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -1260,7 +1382,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -1272,7 +1395,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {v1}, Ljava/lang/Double;
+    ->doubleValue()D
 
     .line 25
     .line 26
@@ -1280,7 +1404,8 @@ return-void
     move-result-wide v1
 
     .line 28
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeDoubleSizeNoTag(D)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeDoubleSizeNoTag(D)I
 
     .line 29
     .line 30
@@ -1299,17 +1424,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -1321,11 +1449,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1337,7 +1467,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {p3}, Ljava/lang/Double;
+    ->doubleValue()D
 
     .line 56
     .line 57
@@ -1345,7 +1476,8 @@ return-void
     move-result-wide v1
 
     .line 59
-    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeDoubleNoTag(D)V
+    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeDoubleNoTag(D)V
 
     .line 60
     .line 61
@@ -1359,7 +1491,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -1371,11 +1504,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -1387,7 +1522,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {v1}, Ljava/lang/Double;
+    ->doubleValue()D
 
     .line 80
     .line 81
@@ -1395,7 +1531,8 @@ return-void
     move-result-wide v1
 
     .line 83
-    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeDouble(ID)V
+    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeDouble(ID)V
 
     .line 84
     .line 85
@@ -1415,14 +1552,16 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
     const/4 v1, 0x4
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 return-void
 .end method
 
@@ -1430,11 +1569,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeEnum(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeEnum(II)V
 return-void
 .end method
 
@@ -1457,14 +1598,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -1476,7 +1619,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -1488,7 +1632,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -1500,7 +1645,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 25
     .line 26
@@ -1508,7 +1654,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeEnumSizeNoTag(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeEnumSizeNoTag(I)I
 
     .line 29
     .line 30
@@ -1527,17 +1674,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -1549,11 +1699,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1565,7 +1717,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 56
     .line 57
@@ -1573,7 +1726,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeEnumNoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeEnumNoTag(I)V
 
     .line 60
     .line 61
@@ -1587,7 +1741,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -1599,11 +1754,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -1615,7 +1772,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 80
     .line 81
@@ -1623,7 +1781,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeEnum(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeEnum(II)V
 
     .line 84
     .line 85
@@ -1643,11 +1802,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed32(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFixed32(II)V
 return-void
 .end method
 
@@ -1670,14 +1831,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -1689,7 +1852,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -1701,7 +1865,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -1713,7 +1878,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 25
     .line 26
@@ -1721,7 +1887,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeFixed32SizeNoTag(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeFixed32SizeNoTag(I)I
 
     .line 29
     .line 30
@@ -1740,17 +1907,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -1762,11 +1932,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1778,7 +1950,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 56
     .line 57
@@ -1786,7 +1959,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFixed32NoTag(I)V
 
     .line 60
     .line 61
@@ -1800,7 +1974,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -1812,11 +1987,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -1828,7 +2005,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 80
     .line 81
@@ -1836,7 +2014,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed32(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFixed32(II)V
 
     .line 84
     .line 85
@@ -1856,11 +2035,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed64(IJ)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFixed64(IJ)V
 return-void
 .end method
 
@@ -1883,14 +2064,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -1902,7 +2085,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -1914,7 +2098,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -1926,7 +2111,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 25
     .line 26
@@ -1934,7 +2120,8 @@ return-void
     move-result-wide v1
 
     .line 28
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeFixed64SizeNoTag(J)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeFixed64SizeNoTag(J)I
 
     .line 29
     .line 30
@@ -1953,17 +2140,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -1975,11 +2165,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1991,7 +2183,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p3}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 56
     .line 57
@@ -1999,7 +2192,8 @@ return-void
     move-result-wide v1
 
     .line 59
-    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed64NoTag(J)V
+    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFixed64NoTag(J)V
 
     .line 60
     .line 61
@@ -2013,7 +2207,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -2025,11 +2220,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -2041,7 +2238,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 80
     .line 81
@@ -2049,7 +2247,8 @@ return-void
     move-result-wide v1
 
     .line 83
-    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed64(IJ)V
+    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFixed64(IJ)V
 
     .line 84
     .line 85
@@ -2069,11 +2268,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFloat(IF)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFloat(IF)V
 return-void
 .end method
 
@@ -2096,14 +2297,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -2115,7 +2318,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -2127,7 +2331,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -2139,7 +2344,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {v1}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 25
     .line 26
@@ -2147,7 +2353,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeFloatSizeNoTag(F)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeFloatSizeNoTag(F)I
 
     .line 29
     .line 30
@@ -2166,17 +2373,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -2188,11 +2398,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -2204,7 +2416,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p3}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 56
     .line 57
@@ -2212,7 +2425,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFloatNoTag(F)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFloatNoTag(F)V
 
     .line 60
     .line 61
@@ -2226,7 +2440,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -2238,11 +2453,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -2254,7 +2471,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {v1}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 80
     .line 81
@@ -2262,7 +2480,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFloat(IF)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeFloat(IF)V
 
     .line 84
     .line 85
@@ -2282,11 +2501,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     check-cast p2, Landroidx/datastore/preferences/protobuf/MessageLite;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeGroup(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeGroup(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
 return-void
 .end method
 
@@ -2294,11 +2515,13 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     check-cast p2, Landroidx/datastore/preferences/protobuf/MessageLite;
 
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeGroup(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeGroup(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
 return-void
 .end method
 
@@ -2316,18 +2539,21 @@ return-void
 
     .line 1
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
     .line 2
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {p0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeGroup(ILjava/lang/Object;)V
+    invoke-virtual {p0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeGroup(ILjava/lang/Object;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -2353,18 +2579,21 @@ return-void
 
     .line 3
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
     .line 4
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {p0, p1, v1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeGroup(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
+    invoke-virtual {p0, p1, v1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeGroup(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -2378,11 +2607,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeInt32(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeInt32(II)V
 return-void
 .end method
 
@@ -2405,14 +2636,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -2424,7 +2657,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -2436,7 +2670,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -2448,7 +2683,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 25
     .line 26
@@ -2456,7 +2692,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeInt32SizeNoTag(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeInt32SizeNoTag(I)I
 
     .line 29
     .line 30
@@ -2475,17 +2712,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -2497,11 +2737,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -2513,7 +2755,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 56
     .line 57
@@ -2521,7 +2764,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeInt32NoTag(I)V
 
     .line 60
     .line 61
@@ -2535,7 +2779,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -2547,11 +2792,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -2563,7 +2810,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 80
     .line 81
@@ -2571,7 +2819,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeInt32(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeInt32(II)V
 
     .line 84
     .line 85
@@ -2591,11 +2840,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeInt64(IJ)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeInt64(IJ)V
 return-void
 .end method
 
@@ -2618,14 +2869,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -2637,7 +2890,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -2649,7 +2903,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -2661,7 +2916,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 25
     .line 26
@@ -2669,7 +2925,8 @@ return-void
     move-result-wide v1
 
     .line 28
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeInt64SizeNoTag(J)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeInt64SizeNoTag(J)I
 
     .line 29
     .line 30
@@ -2688,17 +2945,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -2710,11 +2970,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -2726,7 +2988,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p3}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 56
     .line 57
@@ -2734,7 +2997,8 @@ return-void
     move-result-wide v1
 
     .line 59
-    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeInt64NoTag(J)V
+    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeInt64NoTag(J)V
 
     .line 60
     .line 61
@@ -2748,7 +3012,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -2760,11 +3025,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -2776,7 +3043,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 80
     .line 81
@@ -2784,7 +3052,8 @@ return-void
     move-result-wide v1
 
     .line 83
-    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeInt64(IJ)V
+    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeInt64(IJ)V
 
     .line 84
     .line 85
@@ -2817,11 +3086,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->isSerializationDeterministic()Z
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->isSerializationDeterministic()Z
 
     .line 4
     .line 5
@@ -2833,12 +3104,14 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeDeterministicMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
     return-void
 
     .line 13
     :cond_0
-    invoke-interface {p3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 14
     .line 15
@@ -2846,7 +3119,8 @@ return-void
     move-result-object p3
 
     .line 17
-    invoke-interface {p3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 18
     .line 19
@@ -2855,7 +3129,8 @@ return-void
 
     .line 21
     :goto_0
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 22
     .line 23
@@ -2867,7 +3142,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -2879,23 +3155,27 @@ return-void
 
     .line 32
     .line 33
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 34
     .line 35
     const/4 v2, 0x2
 
     .line 36
-    invoke-virtual {v1, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v1, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 37
     .line 38
     .line 39
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 40
     .line 41
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -2903,7 +3183,8 @@ return-void
     move-result-object v2
 
     .line 45
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -2911,7 +3192,8 @@ return-void
     move-result-object v3
 
     .line 49
-    invoke-static {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->computeSerializedSize(Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 50
     .line 51
@@ -2919,16 +3201,19 @@ return-void
     move-result v2
 
     .line 53
-    invoke-virtual {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 54
     .line 55
     .line 56
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 57
     .line 58
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -2936,7 +3221,8 @@ return-void
     move-result-object v2
 
     .line 62
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -2944,7 +3230,8 @@ return-void
     move-result-object v0
 
     .line 66
-    invoke-static {v1, p2, v2, v0}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v1, p2, v2, v0}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 67
     .line 68
@@ -2960,11 +3247,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     check-cast p2, Landroidx/datastore/preferences/protobuf/MessageLite;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
 return-void
 .end method
 
@@ -2972,11 +3261,13 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     check-cast p2, Landroidx/datastore/preferences/protobuf/MessageLite;
 
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
 return-void
 .end method
 
@@ -2994,18 +3285,21 @@ return-void
 
     .line 1
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
     .line 2
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {p0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeMessage(ILjava/lang/Object;)V
+    invoke-virtual {p0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeMessage(ILjava/lang/Object;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -3031,18 +3325,21 @@ return-void
 
     .line 3
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
     .line 4
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {p0, p1, v1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeMessage(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
+    invoke-virtual {p0, p1, v1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeMessage(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -3064,7 +3361,8 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 6
     .line 7
@@ -3072,12 +3370,14 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawMessageSetExtension(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeRawMessageSetExtension(ILandroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 14
     .line 15
@@ -3085,7 +3385,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeMessageSetExtension(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeMessageSetExtension(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
 return-void
 .end method
 
@@ -3093,11 +3394,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSFixed32(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSFixed32(II)V
 return-void
 .end method
 
@@ -3120,14 +3423,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -3139,7 +3444,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -3151,7 +3457,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -3163,7 +3470,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 25
     .line 26
@@ -3171,7 +3479,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeSFixed32SizeNoTag(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeSFixed32SizeNoTag(I)I
 
     .line 29
     .line 30
@@ -3190,17 +3499,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -3212,11 +3524,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -3228,7 +3542,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 56
     .line 57
@@ -3236,7 +3551,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSFixed32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSFixed32NoTag(I)V
 
     .line 60
     .line 61
@@ -3250,7 +3566,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -3262,11 +3579,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -3278,7 +3597,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 80
     .line 81
@@ -3286,7 +3606,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSFixed32(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSFixed32(II)V
 
     .line 84
     .line 85
@@ -3306,11 +3627,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSFixed64(IJ)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSFixed64(IJ)V
 return-void
 .end method
 
@@ -3333,14 +3656,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -3352,7 +3677,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -3364,7 +3690,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -3376,7 +3703,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 25
     .line 26
@@ -3384,7 +3712,8 @@ return-void
     move-result-wide v1
 
     .line 28
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeSFixed64SizeNoTag(J)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeSFixed64SizeNoTag(J)I
 
     .line 29
     .line 30
@@ -3403,17 +3732,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -3425,11 +3757,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -3441,7 +3775,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p3}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 56
     .line 57
@@ -3449,7 +3784,8 @@ return-void
     move-result-wide v1
 
     .line 59
-    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSFixed64NoTag(J)V
+    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSFixed64NoTag(J)V
 
     .line 60
     .line 61
@@ -3463,7 +3799,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -3475,11 +3812,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -3491,7 +3830,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 80
     .line 81
@@ -3499,7 +3839,8 @@ return-void
     move-result-wide v1
 
     .line 83
-    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSFixed64(IJ)V
+    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSFixed64(IJ)V
 
     .line 84
     .line 85
@@ -3519,11 +3860,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSInt32(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSInt32(II)V
 return-void
 .end method
 
@@ -3546,14 +3889,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -3565,7 +3910,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -3577,7 +3923,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -3589,7 +3936,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 25
     .line 26
@@ -3597,7 +3945,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeSInt32SizeNoTag(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeSInt32SizeNoTag(I)I
 
     .line 29
     .line 30
@@ -3616,17 +3965,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -3638,11 +3990,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -3654,7 +4008,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 56
     .line 57
@@ -3662,7 +4017,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSInt32NoTag(I)V
 
     .line 60
     .line 61
@@ -3676,7 +4032,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -3688,11 +4045,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -3704,7 +4063,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 80
     .line 81
@@ -3712,7 +4072,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSInt32(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSInt32(II)V
 
     .line 84
     .line 85
@@ -3732,11 +4093,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSInt64(IJ)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSInt64(IJ)V
 return-void
 .end method
 
@@ -3759,14 +4122,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -3778,7 +4143,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -3790,7 +4156,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -3802,7 +4169,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 25
     .line 26
@@ -3810,7 +4178,8 @@ return-void
     move-result-wide v1
 
     .line 28
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeSInt64SizeNoTag(J)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeSInt64SizeNoTag(J)I
 
     .line 29
     .line 30
@@ -3829,17 +4198,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -3851,11 +4223,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -3867,7 +4241,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p3}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 56
     .line 57
@@ -3875,7 +4250,8 @@ return-void
     move-result-wide v1
 
     .line 59
-    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSInt64NoTag(J)V
+    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSInt64NoTag(J)V
 
     .line 60
     .line 61
@@ -3889,7 +4265,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -3901,11 +4278,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -3917,7 +4296,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 80
     .line 81
@@ -3925,7 +4305,8 @@ return-void
     move-result-wide v1
 
     .line 83
-    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeSInt64(IJ)V
+    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeSInt64(IJ)V
 
     .line 84
     .line 85
@@ -3945,14 +4326,16 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
     const/4 v1, 0x3
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 return-void
 .end method
 
@@ -3960,11 +4343,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeString(ILjava/lang/String;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeString(ILjava/lang/String;)V
 return-void
 .end method
 
@@ -3999,7 +4384,8 @@ return-void
     .line 8
     .line 9
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 10
     .line 11
@@ -4011,7 +4397,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-interface {v0, v1}, Landroidx/datastore/preferences/protobuf/LazyStringList;->getRaw(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Landroidx/datastore/preferences/protobuf/LazyStringList;
+    ->getRaw(I)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -4019,7 +4406,8 @@ return-void
     move-result-object v2
 
     .line 19
-    invoke-direct {p0, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeLazyString(ILjava/lang/Object;)V
+    invoke-direct {p0, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->writeLazyString(ILjava/lang/Object;)V
 
     .line 20
     .line 21
@@ -4033,7 +4421,8 @@ return-void
     .line 25
     :cond_0
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 26
     .line 27
@@ -4045,11 +4434,13 @@ return-void
 
     .line 30
     .line 31
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 32
     .line 33
-    invoke-interface {p2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -4061,7 +4452,8 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {v0, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeString(ILjava/lang/String;)V
+    invoke-virtual {v0, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeString(ILjava/lang/String;)V
 
     .line 40
     .line 41
@@ -4081,11 +4473,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32(II)V
 return-void
 .end method
 
@@ -4108,14 +4502,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -4127,7 +4523,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -4139,7 +4536,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -4151,7 +4549,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 25
     .line 26
@@ -4159,7 +4558,8 @@ return-void
     move-result v1
 
     .line 28
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeUInt32SizeNoTag(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeUInt32SizeNoTag(I)I
 
     .line 29
     .line 30
@@ -4178,17 +4578,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -4200,11 +4603,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -4216,7 +4621,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 56
     .line 57
@@ -4224,7 +4630,8 @@ return-void
     move-result p3
 
     .line 59
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 60
     .line 61
@@ -4238,7 +4645,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -4250,11 +4658,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -4266,7 +4676,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 80
     .line 81
@@ -4274,7 +4685,8 @@ return-void
     move-result v1
 
     .line 83
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32(II)V
 
     .line 84
     .line 85
@@ -4294,11 +4706,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt64(IJ)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt64(IJ)V
 return-void
 .end method
 
@@ -4321,14 +4735,16 @@ return-void
 
     .line 3
     .line 4
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 5
     .line 6
     const/4 v1, 0x2
 
     .line 7
-    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeTag(II)V
+    invoke-virtual {p3, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeTag(II)V
 
     .line 8
     .line 9
@@ -4340,7 +4756,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 13
     .line 14
@@ -4352,7 +4769,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -4364,7 +4782,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 25
     .line 26
@@ -4372,7 +4791,8 @@ return-void
     move-result-wide v1
 
     .line 28
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeUInt64SizeNoTag(J)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->computeUInt64SizeNoTag(J)I
 
     .line 29
     .line 30
@@ -4391,17 +4811,20 @@ return-void
 
     .line 36
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 37
     .line 38
-    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt32NoTag(I)V
+    invoke-virtual {p1, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt32NoTag(I)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 42
     .line 43
@@ -4413,11 +4836,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 48
     .line 49
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -4429,7 +4854,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {p3}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 56
     .line 57
@@ -4437,7 +4863,8 @@ return-void
     move-result-wide v1
 
     .line 59
-    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt64NoTag(J)V
+    invoke-virtual {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt64NoTag(J)V
 
     .line 60
     .line 61
@@ -4451,7 +4878,8 @@ return-void
     .line 65
     :cond_1
     :goto_2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     .line 66
     .line 67
@@ -4463,11 +4891,13 @@ return-void
 
     .line 70
     .line 71
-    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    iget-object p3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    ->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;
 
     .line 72
     .line 73
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -4479,7 +4909,8 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+    invoke-virtual {v1}, Ljava/lang/Long;
+    ->longValue()J
 
     .line 80
     .line 81
@@ -4487,7 +4918,8 @@ return-void
     move-result-wide v1
 
     .line 83
-    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt64(IJ)V
+    invoke-virtual {p3, p1, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
+    ->writeUInt64(IJ)V
 
     .line 84
     .line 85

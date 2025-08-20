@@ -15,11 +15,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzd;->zza:Lcom/google/firebase/analytics/connector/internal/zze;
+    iput-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzd;
+    ->zza:Lcom/google/firebase/analytics/connector/internal/zze;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -33,15 +35,18 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzd;->zza:Lcom/google/firebase/analytics/connector/internal/zze;
+    iget-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzd;
+    ->zza:Lcom/google/firebase/analytics/connector/internal/zze;
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/google/firebase/analytics/connector/internal/zze;->zza:Ljava/util/Set;
+    iget-object p1, p1, Lcom/google/firebase/analytics/connector/internal/zze;
+    ->zza:Ljava/util/Set;
 
     .line 4
     .line 5
-    invoke-interface {p1, p2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {p1, p2}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -61,7 +66,8 @@
 
     .line 13
     .line 14
-    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p1}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 15
     .line 16
@@ -70,7 +76,8 @@
 
     .line 18
     .line 19
-    invoke-static {p2}, Lcom/google/firebase/analytics/connector/internal/zzb;->zza(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/google/firebase/analytics/connector/internal/zzb;
+    ->zza(Ljava/lang/String;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -78,16 +85,19 @@
     move-result-object p2
 
     .line 23
-    invoke-virtual {p1, p3, p2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, p3, p2}, Landroid/os/BaseBundle;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
     .line 26
-    iget-object p2, p0, Lcom/google/firebase/analytics/connector/internal/zzd;->zza:Lcom/google/firebase/analytics/connector/internal/zze;
+    iget-object p2, p0, Lcom/google/firebase/analytics/connector/internal/zzd;
+    ->zza:Lcom/google/firebase/analytics/connector/internal/zze;
 
     .line 27
     .line 28
-    invoke-static {p2}, Lcom/google/firebase/analytics/connector/internal/zze;->zza(Lcom/google/firebase/analytics/connector/internal/zze;)Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
+    invoke-static {p2}, Lcom/google/firebase/analytics/connector/internal/zze;
+    ->zza(Lcom/google/firebase/analytics/connector/internal/zze;)Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
 
     .line 29
     .line 30
@@ -98,7 +108,8 @@
     const/4 p3, 0x2
 
     .line 33
-    invoke-interface {p2, p3, p1}, Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;->onMessageTriggered(ILandroid/os/Bundle;)V
+    invoke-interface {p2, p3, p1}, Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
+    ->onMessageTriggered(ILandroid/os/Bundle;)V
 
     .line 34
     .line 35

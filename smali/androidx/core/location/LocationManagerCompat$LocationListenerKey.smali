@@ -25,7 +25,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -34,7 +35,8 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Landroidx/core/util/ObjectsCompat;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/ObjectsCompat;
+    ->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -46,7 +48,8 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mProvider:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mProvider:Ljava/lang/String;
 
     .line 13
     .line 14
@@ -54,7 +57,8 @@
 
     .line 15
     .line 16
-    invoke-static {p2, p1}, Landroidx/core/util/ObjectsCompat;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, p1}, Landroidx/core/util/ObjectsCompat;
+    ->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -66,7 +70,8 @@
 
     .line 21
     .line 22
-    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 23
     .line 24
@@ -98,15 +103,18 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mProvider:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mProvider:Ljava/lang/String;
 
     .line 10
     .line 11
-    iget-object v2, p1, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mProvider:Ljava/lang/String;
+    iget-object v2, p1, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mProvider:Ljava/lang/String;
 
     .line 12
     .line 13
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -118,15 +126,18 @@
 
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 20
     .line 21
-    iget-object p1, p1, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object p1, p1, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 22
     .line 23
-    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -151,11 +162,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mProvider:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mProvider:Ljava/lang/String;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;->mListener:Landroidx/core/location/LocationListenerCompat;
+    iget-object v1, p0, Landroidx/core/location/LocationManagerCompat$LocationListenerKey;
+    ->mListener:Landroidx/core/location/LocationListenerCompat;
 
     .line 4
     .line 5
@@ -180,7 +193,8 @@
 
     .line 13
     .line 14
-    invoke-static {v2}, Landroidx/core/util/ObjectsCompat;->hash([Ljava/lang/Object;)I
+    invoke-static {v2}, Landroidx/core/util/ObjectsCompat;
+    ->hash([Ljava/lang/Object;)I
 
     .line 15
     .line 16

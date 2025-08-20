@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Service;-><init>()V
+    invoke-direct {p0}, Landroid/app/Service;
+    -><init>()V
 
     .line 2
     .line 3
@@ -36,7 +37,8 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -44,7 +46,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;->getPackagesForUid(I)[Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;
+    ->getPackagesForUid(I)[Ljava/lang/String;
 
     .line 6
     .line 7
@@ -67,7 +70,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v3, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, p2}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -103,12 +107,14 @@
 
     .line 30
     .line 31
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 35
     .line 36
@@ -117,17 +123,20 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -135,7 +144,8 @@
     move-result-object p1
 
     .line 49
-    invoke-direct {v0, p1}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/SecurityException;
+    -><init>(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -340,7 +350,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Intent;
+    ->getAction()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -352,7 +363,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 8
     .line 9

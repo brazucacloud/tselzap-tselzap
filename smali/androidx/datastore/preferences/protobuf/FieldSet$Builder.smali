@@ -49,11 +49,13 @@
     const/16 v0, 0x10
 
     .line 2
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->newFieldMap(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->newFieldMap(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
 return-void
 .end method
 
@@ -61,7 +63,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    -><init>()V
     return-void
 .end method
 
@@ -78,15 +81,18 @@ return-void
     .end annotation
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->isMutable:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->isMutable:Z
 return-void
 .end method
 
@@ -94,7 +100,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->isMutable:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->isMutable:Z
 
     .line 2
     .line 3
@@ -102,14 +109,16 @@ return-void
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 6
     .line 7
     const/4 v1, 0x1
 
     .line 8
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 9
     .line 10
@@ -117,11 +126,13 @@ return-void
     move-result-object v0
 
     .line 12
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 13
     .line 14
-    iput-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->isMutable:Z
+    iput-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->isMutable:Z
 
     .line 15
     .line 16
@@ -148,7 +159,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 4
     .line 5
@@ -159,7 +171,8 @@ return-void
     const/4 v2, 0x1
 
     .line 8
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 9
     .line 10
@@ -167,12 +180,14 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$300(Landroidx/datastore/preferences/protobuf/FieldSet;)Z
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$300(Landroidx/datastore/preferences/protobuf/FieldSet;)Z
 
     .line 16
     .line 17
@@ -180,7 +195,8 @@ return-void
     move-result p0
 
     .line 19
-    iput-boolean p0, v0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z
+    iput-boolean p0, v0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasLazyField:Z
 return-object v0
 .end method
 
@@ -197,7 +213,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -209,7 +226,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -229,7 +247,8 @@ return-object v0
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 18
     .line 19
@@ -238,7 +257,8 @@ return-object v0
 
     .line 21
     :cond_0
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 22
     .line 23
@@ -250,7 +270,8 @@ return-object v0
 
     .line 26
     .line 27
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -266,7 +287,8 @@ return-object v0
 
     .line 34
     .line 35
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 36
     .line 37
@@ -276,7 +298,8 @@ return-object v0
 
     .line 39
     .line 40
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 41
     .line 42
@@ -285,7 +308,8 @@ return-object v0
 
     .line 44
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 45
     .line 46
@@ -297,7 +321,8 @@ return-object v0
 
     .line 49
     .line 50
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -312,7 +337,8 @@ return-object v0
 
     .line 56
     .line 57
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$700(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$700(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -320,7 +346,8 @@ return-object v0
     move-result-object v2
 
     .line 61
-    invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, v2}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 62
     .line 63
@@ -329,15 +356,19 @@ return-object v0
 
     .line 65
     :cond_2
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 66
     .line 67
-    invoke-virtual {p1, v0, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {p1, v0, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 
     .line 71
     :cond_3
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->getLiteJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->getLiteJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 72
     .line 73
@@ -345,7 +376,8 @@ return-object v0
     move-result-object v1
 
     .line 75
-    sget-object v2, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v2, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    ->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 76
     .line 77
@@ -353,7 +385,8 @@ return-object v0
 
     .line 78
     .line 79
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -365,11 +398,13 @@ return-object v0
 
     .line 84
     .line 85
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 86
     .line 87
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$700(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$700(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 88
     .line 89
@@ -377,7 +412,9 @@ return-object v0
     move-result-object p1
 
     .line 91
-    invoke-virtual {v1, v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {v1, v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 
     .line 95
     :cond_4
@@ -397,7 +434,9 @@ return-object v0
 
     .line 102
     .line 103
-    invoke-interface {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;    
+    return-void
 
     .line 107
     :cond_5
@@ -405,7 +444,8 @@ return-object v0
 
     .line 108
     .line 109
-    invoke-interface {v1}, Landroidx/datastore/preferences/protobuf/MessageLite;->toBuilder()Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
+    invoke-interface {v1}, Landroidx/datastore/preferences/protobuf/MessageLite;
+    ->toBuilder()Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
 
     .line 110
     .line 111
@@ -417,7 +457,8 @@ return-object v0
 
     .line 114
     .line 115
-    invoke-interface {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
+    invoke-interface {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
 
     .line 116
     .line 117
@@ -425,7 +466,8 @@ return-object v0
     move-result-object p1
 
     .line 119
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 120
     .line 121
@@ -433,19 +475,24 @@ return-object v0
     move-result-object p1
 
     .line 123
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 124
     .line 125
-    invoke-virtual {v1, v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {v1, v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 
     .line 129
     :cond_6
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 130
     .line 131
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$700(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$700(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 132
     .line 133
@@ -453,7 +500,9 @@ return-object v0
     move-result-object p1
 
     .line 135
-    invoke-virtual {v1, v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {v1, v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .method private static replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
@@ -472,7 +521,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
+    ->build()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 8
     .line 9
@@ -503,16 +553,19 @@ return-object v0
 
     .line 6
     :cond_0
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->getLiteJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->getLiteJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     move-result-object v0
 
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    ->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     if-ne v0, v1, :cond_6
 
     .line 7
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     move-result p0
 
@@ -532,19 +585,22 @@ return-object v0
 
     .line 10
     :goto_0
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     move-result v1
 
     if-ge v0, v1, :cond_3
 
     .line 11
-    invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     .line 12
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -555,13 +611,15 @@ return-object v0
     .line 13
     new-instance v1, Ljava/util/ArrayList;
 
-    invoke-direct {v1, p0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, p0}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     move-object p0, v1
 
     .line 14
     :cond_1
-    invoke-interface {p0, v0, v2}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0, v2}, Ljava/util/List;
+    ->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
     add-int/lit8 v0, v0, 0x1
@@ -579,26 +637,32 @@ return-object v0
 
     const-string v1, "Repeated field should contains a List but actually contains type: "
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
     .line 17
     :cond_5
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -626,18 +690,21 @@ return-object v0
 
     .line 1
     :goto_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getNumArrayEntries()I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getArrayEntryAt(I)Ljava/util/Map$Entry;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getArrayEntryAt(I)Ljava/util/Map$Entry;
 
     move-result-object v1
 
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Ljava/util/Map$Entry;)V
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilders(Ljava/util/Map$Entry;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -645,29 +712,34 @@ return-object v0
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntries()Ljava/lang/Iterable;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getOverflowEntries()Ljava/lang/Iterable;
 
     move-result-object p0
 
-    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
     :goto_1
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Map$Entry;
 
     .line 4
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Ljava/util/Map$Entry;)V
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilders(Ljava/util/Map$Entry;)V
 
     goto :goto_1
 
@@ -690,21 +762,25 @@ return-object v0
     .end annotation
 
     .line 5
-    invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
 
-    invoke-interface {p0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-interface {p0, v0}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Ljava/util/Map$Entry;
+    ->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -713,7 +789,8 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$500(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$500(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -725,7 +802,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->getJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    ->getJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 8
     .line 9
@@ -733,7 +811,8 @@ return-object v0
     move-result-object p0
 
     .line 11
-    sget-object v0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    ->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 12
     .line 13
@@ -757,7 +836,8 @@ return-object v0
 
     .line 23
     .line 24
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -782,12 +862,14 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->ensureIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 5
     .line 6
@@ -799,7 +881,8 @@ return-object v0
 
     .line 9
     .line 10
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 11
     .line 12
@@ -831,11 +914,13 @@ return-object v0
 
     .line 22
     :goto_1
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 23
     .line 24
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 25
     .line 26
@@ -843,12 +928,14 @@ return-object v0
     move-result-object v0
 
     .line 28
-    invoke-static {v0, p2}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
+    invoke-static {v0, p2}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -864,16 +951,19 @@ return-object v0
 
     .line 38
     .line 39
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 40
     .line 41
     .line 42
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 43
     .line 44
-    invoke-virtual {v1, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -887,7 +977,9 @@ return-object v0
     .line 49
     .line 50
     :goto_2
-    invoke-interface {v0, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p2}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 
     .line 54
     :cond_3
@@ -899,7 +991,8 @@ return-object v0
 
     .line 57
     .line 58
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -917,11 +1010,13 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/AbstractMap;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/AbstractMap;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -933,7 +1028,8 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/FieldSet;->emptySet()Landroidx/datastore/preferences/protobuf/FieldSet;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->emptySet()Landroidx/datastore/preferences/protobuf/FieldSet;
 
     .line 10
     .line 11
@@ -947,15 +1043,18 @@ return-object v0
     const/4 v0, 0x0
 
     .line 15
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->isMutable:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->isMutable:Z
 
     .line 16
     .line 17
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 18
     .line 19
-    iget-boolean v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iget-boolean v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 20
     .line 21
@@ -963,7 +1062,8 @@ return-object v0
 
     .line 22
     .line 23
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 24
     .line 25
@@ -971,7 +1071,8 @@ return-object v0
     move-result-object v1
 
     .line 27
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilders(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
 
     .line 28
     .line 29
@@ -984,16 +1085,20 @@ return-object v0
     const/4 v2, 0x0
 
     .line 33
-    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/FieldSet;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/FieldSet$1;)V
+    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/FieldSet$1;)V
 
     .line 34
     .line 35
     .line 36
-    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z
+    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasLazyField:Z
 
     .line 37
     .line 38
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$302(Landroidx/datastore/preferences/protobuf/FieldSet;Z)Z    return-object v0
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$302(Landroidx/datastore/preferences/protobuf/FieldSet;Z)Z    
+    return-object v0
 .end method
 
 .method public clearField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)V
@@ -1005,25 +1110,30 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->ensureIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/util/AbstractMap;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractMap;
+    ->isEmpty()Z
 
     .line 12
     .line 13
@@ -1038,7 +1148,8 @@ return-object v0
     const/4 p1, 0x0
 
     .line 18
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasLazyField:Z
 
     .line 19
     .line 20
@@ -1059,7 +1170,8 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasLazyField:Z
 
     .line 2
     .line 3
@@ -1067,14 +1179,16 @@ return-object v0
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 6
     .line 7
     const/4 v1, 0x0
 
     .line 8
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 9
     .line 10
@@ -1082,11 +1196,13 @@ return-object v0
     move-result-object v0
 
     .line 12
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 13
     .line 14
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable()Z
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->isImmutable()Z
 
     .line 15
     .line 16
@@ -1098,21 +1214,25 @@ return-object v0
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->makeImmutable()V
     return-object v0
 
     .line 24
     :cond_0
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilders(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
 return-object v0
 
     .line 28
     :cond_1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable()Z
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->isImmutable()Z
 
     .line 31
     .line 32
@@ -1124,15 +1244,18 @@ return-object v0
 
     .line 35
     .line 36
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;    return-object v0
 
     .line 39
     :cond_2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 40
     .line 41
-    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;
+    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 42
     .line 43
@@ -1152,7 +1275,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getFieldAllowBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getFieldAllowBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1160,7 +1284,8 @@ return-object v0
     move-result-object v0
 
     .line 5
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -1180,11 +1305,13 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1204,7 +1331,8 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 14
     .line 15
@@ -1226,7 +1354,8 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 2
     .line 3
@@ -1234,13 +1363,15 @@ return-object v0
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->ensureIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->ensureIsMutable()V
 
     .line 6
     .line 7
     .line 8
     :cond_0
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getRepeatedFieldAllowBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;I)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getRepeatedFieldAllowBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;I)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -1248,7 +1379,8 @@ return-object v0
     move-result-object p1
 
     .line 12
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->replaceBuilder(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1268,7 +1400,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 2
     .line 3
@@ -1280,7 +1413,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getFieldAllowBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getFieldAllowBuilders(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -1296,7 +1430,8 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -1311,7 +1446,8 @@ return-object v0
 
     .line 21
     .line 22
-    invoke-direct {p1}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>()V
 
     .line 23
     .line 24
@@ -1328,7 +1464,8 @@ return-object v0
 
     .line 29
     .line 30
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -1344,7 +1481,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 2
     .line 3
@@ -1356,7 +1494,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -1378,7 +1517,8 @@ return-object v0
 
     .line 16
     .line 17
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 18
     .line 19
@@ -1397,7 +1537,8 @@ return-object v0
 
     .line 25
     .line 26
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -1413,7 +1554,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 2
     .line 3
@@ -1425,11 +1567,13 @@ return-object v0
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -1461,7 +1605,8 @@ return-object v0
 
     .line 22
     .line 23
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -1479,11 +1624,13 @@ return-object v0
 
     .line 3
     :goto_0
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 4
     .line 5
-    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
+    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getNumArrayEntries()I
 
     .line 6
     .line 7
@@ -1495,11 +1642,13 @@ return-object v0
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 12
     .line 13
-    invoke-virtual {v2, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getArrayEntryAt(I)Ljava/util/Map$Entry;
+    invoke-virtual {v2, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getArrayEntryAt(I)Ljava/util/Map$Entry;
 
     .line 14
     .line 15
@@ -1507,7 +1656,8 @@ return-object v0
     move-result-object v2
 
     .line 17
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$600(Ljava/util/Map$Entry;)Z
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$600(Ljava/util/Map$Entry;)Z
 
     .line 18
     .line 19
@@ -1527,11 +1677,13 @@ return-object v0
 
     .line 27
     :cond_1
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntries()Ljava/lang/Iterable;
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getOverflowEntries()Ljava/lang/Iterable;
 
     .line 30
     .line 31
@@ -1539,7 +1691,8 @@ return-object v0
     move-result-object v1
 
     .line 33
-    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 34
     .line 35
@@ -1548,7 +1701,8 @@ return-object v0
 
     .line 37
     :cond_2
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 38
     .line 39
@@ -1560,7 +1714,8 @@ return-object v0
 
     .line 42
     .line 43
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -1572,7 +1727,8 @@ return-object v0
 
     .line 48
     .line 49
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$600(Ljava/util/Map$Entry;)Z
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$600(Ljava/util/Map$Entry;)Z
 
     .line 50
     .line 51
@@ -1600,7 +1756,8 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->ensureIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
@@ -1609,7 +1766,8 @@ return-object v0
 
     .line 5
     :goto_0
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 6
     .line 7
@@ -1617,7 +1775,8 @@ return-object v0
     move-result-object v1
 
     .line 9
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getNumArrayEntries()I
 
     .line 10
     .line 11
@@ -1629,7 +1788,8 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 16
     .line 17
@@ -1637,7 +1797,8 @@ return-object v0
     move-result-object v1
 
     .line 19
-    invoke-virtual {v1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getArrayEntryAt(I)Ljava/util/Map$Entry;
+    invoke-virtual {v1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getArrayEntryAt(I)Ljava/util/Map$Entry;
 
     .line 20
     .line 21
@@ -1645,7 +1806,8 @@ return-object v0
     move-result-object v1
 
     .line 23
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->mergeFromField(Ljava/util/Map$Entry;)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->mergeFromField(Ljava/util/Map$Entry;)V
 
     .line 24
     .line 25
@@ -1658,7 +1820,8 @@ return-object v0
 
     .line 29
     :cond_0
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/FieldSet;
+    ->access$400(Landroidx/datastore/preferences/protobuf/FieldSet;)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 30
     .line 31
@@ -1666,7 +1829,8 @@ return-object v0
     move-result-object p1
 
     .line 33
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntries()Ljava/lang/Iterable;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->getOverflowEntries()Ljava/lang/Iterable;
 
     .line 34
     .line 35
@@ -1674,7 +1838,8 @@ return-object v0
     move-result-object p1
 
     .line 37
-    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 38
     .line 39
@@ -1683,7 +1848,8 @@ return-object v0
 
     .line 41
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 42
     .line 43
@@ -1695,7 +1861,8 @@ return-object v0
 
     .line 46
     .line 47
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -1707,7 +1874,8 @@ return-object v0
 
     .line 52
     .line 53
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->mergeFromField(Ljava/util/Map$Entry;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->mergeFromField(Ljava/util/Map$Entry;)V
 
     .line 54
     .line 55
@@ -1730,12 +1898,14 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->ensureIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 5
     .line 6
@@ -1765,7 +1935,8 @@ return-object v0
 
     .line 17
     .line 18
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 19
     .line 20
@@ -1774,12 +1945,14 @@ return-object v0
 
     .line 22
     .line 23
-    invoke-virtual {v0, p2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v0, p2}, Ljava/util/ArrayList;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 27
     .line 28
@@ -1788,7 +1961,8 @@ return-object v0
 
     .line 30
     :goto_0
-    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 31
     .line 32
@@ -1800,7 +1974,8 @@ return-object v0
 
     .line 35
     .line 36
-    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -1808,7 +1983,8 @@ return-object v0
     move-result-object v3
 
     .line 40
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 41
     .line 42
@@ -1816,12 +1992,14 @@ return-object v0
     move-result-object v4
 
     .line 44
-    invoke-static {v4, v3}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
+    invoke-static {v4, v3}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
 
     .line 45
     .line 46
     .line 47
-    iget-boolean v4, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iget-boolean v4, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 48
     .line 49
@@ -1853,7 +2031,8 @@ return-object v0
 
     .line 59
     :goto_2
-    iput-boolean v3, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iput-boolean v3, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 60
     .line 61
@@ -1876,7 +2055,8 @@ return-object v0
 
     .line 67
     .line 68
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -1885,7 +2065,8 @@ return-object v0
 
     .line 72
     :cond_4
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 73
     .line 74
@@ -1893,7 +2074,8 @@ return-object v0
     move-result-object v0
 
     .line 76
-    invoke-static {v0, p2}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
+    invoke-static {v0, p2}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
 
     .line 77
     .line 78
@@ -1907,12 +2089,14 @@ return-object v0
 
     .line 82
     .line 83
-    iput-boolean v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z
+    iput-boolean v2, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasLazyField:Z
 
     .line 84
     .line 85
     :cond_5
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 86
     .line 87
@@ -1933,15 +2117,19 @@ return-object v0
 
     .line 94
     :cond_7
-    iput-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iput-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 95
     .line 96
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->fields:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     .line 97
     .line 98
-    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .method public setRepeatedField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;ILjava/lang/Object;)V
@@ -1955,12 +2143,14 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->ensureIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->ensureIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->isRepeated()Z
 
     .line 5
     .line 6
@@ -1972,7 +2162,8 @@ return-object v0
 
     .line 9
     .line 10
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 11
     .line 12
@@ -2004,11 +2195,13 @@ return-object v0
 
     .line 22
     :goto_1
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasNestedBuilders:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->hasNestedBuilders:Z
 
     .line 23
     .line 24
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->getField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -2020,7 +2213,8 @@ return-object v0
 
     .line 29
     .line 30
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
+    ->getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 31
     .line 32
@@ -2028,7 +2222,8 @@ return-object v0
     move-result-object p1
 
     .line 34
-    invoke-static {p1, p3}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
+    invoke-static {p1, p3}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;
+    ->verifyType(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
 
     .line 35
     .line 36
@@ -2037,7 +2232,9 @@ return-object v0
 
     .line 38
     .line 39
-    invoke-interface {v0, p2, p3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-interface {v0, p2, p3}, Ljava/util/List;
+    ->set(ILjava/lang/Object;)Ljava/lang/Object;    
+    return-void
 
     .line 43
     :cond_2
@@ -2045,7 +2242,8 @@ return-object v0
 
     .line 44
     .line 45
-    invoke-direct {p1}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/IndexOutOfBoundsException;
+    -><init>()V
 
     .line 46
     .line 47
@@ -2062,7 +2260,8 @@ return-object v0
 
     .line 52
     .line 53
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 54
     .line 55

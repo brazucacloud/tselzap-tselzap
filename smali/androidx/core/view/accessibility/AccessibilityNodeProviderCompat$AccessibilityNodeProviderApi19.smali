@@ -23,12 +23,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/view/accessibility/AccessibilityNodeProvider;-><init>()V
+    invoke-direct {p0}, Landroid/view/accessibility/AccessibilityNodeProvider;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
+    ->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
 
     .line 5
     .line 6
@@ -41,11 +43,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
+    ->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->createAccessibilityNodeInfo(I)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-virtual {v0, p1}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->createAccessibilityNodeInfo(I)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 4
     .line 5
@@ -63,7 +67,8 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 12
     .line 13
@@ -87,11 +92,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
+    ->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->findAccessibilityNodeInfosByText(Ljava/lang/String;I)Ljava/util/List;
+    invoke-virtual {v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->findAccessibilityNodeInfosByText(Ljava/lang/String;I)Ljava/util/List;
 
     .line 4
     .line 5
@@ -113,12 +120,14 @@
 
     .line 12
     .line 13
-    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 17
     .line 18
@@ -134,7 +143,8 @@
 
     .line 22
     .line 23
-    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -146,7 +156,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {v2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 30
     .line 31
@@ -154,7 +165,8 @@
     move-result-object v2
 
     .line 33
-    invoke-virtual {p2, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -174,11 +186,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
+    ->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->findFocus(I)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-virtual {v0, p1}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->findFocus(I)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 4
     .line 5
@@ -196,7 +210,8 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->unwrap()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 12
     .line 13
@@ -210,11 +225,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
+    ->mCompat:Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->performAction(IILandroid/os/Bundle;)Z
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->performAction(IILandroid/os/Bundle;)Z
 
     .line 4
     .line 5

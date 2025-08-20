@@ -25,7 +25,8 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, LL1/f;->a()Ljava/lang/String;
+    invoke-interface {p0}, LL1/f;
+    ->a()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1, v2}, Lx1/m;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lx1/m;
+    ->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -50,7 +52,8 @@
 
     .line 13
     :try_start_0
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 14
     .line 15
@@ -70,7 +73,8 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v0}, Lx1/d;->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, v0}, Lx1/d;
+    ->p(Ljava/lang/String;Ljava/lang/CharSequence;)Z
 
     .line 22
     .line 23
@@ -86,7 +90,8 @@
 
     .line 28
     .line 29
-    invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v1}, Ljava/util/regex/Pattern;
+    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 30
     .line 31
@@ -98,7 +103,8 @@
 
     .line 34
     .line 35
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -107,7 +113,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;
+    ->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     .line 41
     .line 42
@@ -115,7 +122,8 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {v0, v2}, Ljava/util/regex/Matcher;->replaceAll(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v2}, Ljava/util/regex/Matcher;
+    ->replaceAll(Ljava/lang/String;)Ljava/lang/String;
 
     .line 45
     .line 46
@@ -127,13 +135,15 @@
 
     .line 49
     .line 50
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 51
     .line 52
     .line 53
     :try_start_1
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 54
     .line 55
@@ -158,12 +168,14 @@
 
     .line 63
     .line 64
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-interface {p0}, LL1/f;->a()Ljava/lang/String;
+    invoke-interface {p0}, LL1/f;
+    ->a()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -171,7 +183,8 @@
     move-result-object p0
 
     .line 71
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 72
     .line 73
@@ -180,12 +193,14 @@
 
     .line 75
     .line 76
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 77
     .line 78
     .line 79
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 80
     .line 81
@@ -193,7 +208,8 @@
     move-result-object p0
 
     .line 83
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -217,12 +233,14 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;->toInternalType(LL1/f;)Landroidx/navigation/serialization/InternalType;
+    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->toInternalType(LL1/f;)Landroidx/navigation/serialization/InternalType;
 
     .line 7
     .line 8
@@ -230,11 +248,13 @@
     move-result-object v0
 
     .line 10
-    sget-object v1, Landroidx/navigation/serialization/NavTypeConverterKt$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v1, Landroidx/navigation/serialization/NavTypeConverterKt$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -254,11 +274,13 @@
     .line 20
     .line 21
     .line 22
-    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;
+    ->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
 
     .line 25
     :pswitch_0
-    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;->getClass(LL1/f;)Ljava/lang/Class;
+    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->getClass(LL1/f;)Ljava/lang/Class;
 
     .line 26
     .line 27
@@ -270,7 +292,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 32
     .line 33
@@ -290,21 +313,25 @@
 
     .line 40
     .line 41
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 42
     .line 43
     .line 44
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    -><init>(Ljava/lang/Class;)V
 return-object v0
 
     .line 48
     :cond_0
-    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;
+    ->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
 
     .line 51
     :pswitch_1
-    invoke-interface {p0, v2}, LL1/f;->f(I)LL1/f;
+    invoke-interface {p0, v2}, LL1/f;
+    ->f(I)LL1/f;
 
     .line 52
     .line 53
@@ -312,7 +339,8 @@ return-object v0
     move-result-object v0
 
     .line 55
-    invoke-static {v0}, Landroidx/navigation/serialization/NavTypeConverterKt;->toInternalType(LL1/f;)Landroidx/navigation/serialization/InternalType;
+    invoke-static {v0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->toInternalType(LL1/f;)Landroidx/navigation/serialization/InternalType;
 
     .line 56
     .line 57
@@ -320,7 +348,8 @@ return-object v0
     move-result-object v0
 
     .line 59
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 60
     .line 61
@@ -337,7 +366,8 @@ return-object v0
     .line 66
     .line 67
     .line 68
-    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;
+    ->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
 
     .line 71
     :pswitch_2
@@ -345,7 +375,8 @@ return-object v0
 
     .line 72
     .line 73
-    invoke-interface {p0, v2}, LL1/f;->f(I)LL1/f;
+    invoke-interface {p0, v2}, LL1/f;
+    ->f(I)LL1/f;
 
     .line 74
     .line 75
@@ -353,7 +384,8 @@ return-object v0
     move-result-object p0
 
     .line 77
-    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;->getClass(LL1/f;)Ljava/lang/Class;
+    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->getClass(LL1/f;)Ljava/lang/Class;
 
     .line 78
     .line 79
@@ -365,21 +397,25 @@ return-object v0
 
     .line 82
     .line 83
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;
+    ->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 84
     .line 85
     .line 86
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumListType;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
+    -><init>(Ljava/lang/Class;)V
 return-object v0
 
     .line 90
     :pswitch_3
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 91
     .line 92
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getStringNullableListType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getStringNullableListType()Landroidx/navigation/NavType;
 
     .line 93
     .line 94
@@ -390,27 +426,33 @@ return-object v0
 
     .line 97
     :pswitch_4
-    sget-object p0, Landroidx/navigation/NavType;->StringListType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->StringListType:Landroidx/navigation/NavType;    return-object p0
 
     .line 100
     :pswitch_5
-    sget-object p0, Landroidx/navigation/NavType;->LongListType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->LongListType:Landroidx/navigation/NavType;    return-object p0
 
     .line 103
     :pswitch_6
-    sget-object p0, Landroidx/navigation/NavType;->FloatListType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->FloatListType:Landroidx/navigation/NavType;    return-object p0
 
     .line 106
     :pswitch_7
-    sget-object p0, Landroidx/navigation/NavType;->BoolListType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->BoolListType:Landroidx/navigation/NavType;    return-object p0
 
     .line 109
     :pswitch_8
-    sget-object p0, Landroidx/navigation/NavType;->IntListType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->IntListType:Landroidx/navigation/NavType;    return-object p0
 
     .line 112
     :pswitch_9
-    invoke-interface {p0, v2}, LL1/f;->f(I)LL1/f;
+    invoke-interface {p0, v2}, LL1/f;
+    ->f(I)LL1/f;
 
     .line 113
     .line 114
@@ -418,7 +460,8 @@ return-object v0
     move-result-object p0
 
     .line 116
-    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;->toInternalType(LL1/f;)Landroidx/navigation/serialization/InternalType;
+    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->toInternalType(LL1/f;)Landroidx/navigation/serialization/InternalType;
 
     .line 117
     .line 118
@@ -426,7 +469,8 @@ return-object v0
     move-result-object p0
 
     .line 120
-    sget-object v0, Landroidx/navigation/serialization/InternalType;->STRING:Landroidx/navigation/serialization/InternalType;
+    sget-object v0, Landroidx/navigation/serialization/InternalType;
+    ->STRING:Landroidx/navigation/serialization/InternalType;
 
     .line 121
     .line 122
@@ -434,27 +478,33 @@ return-object v0
 
     .line 123
     .line 124
-    sget-object p0, Landroidx/navigation/NavType;->StringArrayType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->StringArrayType:Landroidx/navigation/NavType;    return-object p0
 
     .line 127
     :cond_1
-    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;
+    ->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;    return-object p0
 
     .line 130
     :pswitch_a
-    sget-object p0, Landroidx/navigation/NavType;->LongArrayType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->LongArrayType:Landroidx/navigation/NavType;    return-object p0
 
     .line 133
     :pswitch_b
-    sget-object p0, Landroidx/navigation/NavType;->FloatArrayType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->FloatArrayType:Landroidx/navigation/NavType;    return-object p0
 
     .line 136
     :pswitch_c
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 137
     .line 138
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getDoubleArrayType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getDoubleArrayType()Landroidx/navigation/NavType;
 
     .line 139
     .line 140
@@ -465,19 +515,23 @@ return-object v0
 
     .line 143
     :pswitch_d
-    sget-object p0, Landroidx/navigation/NavType;->BoolArrayType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->BoolArrayType:Landroidx/navigation/NavType;    return-object p0
 
     .line 146
     :pswitch_e
-    sget-object p0, Landroidx/navigation/NavType;->IntArrayType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->IntArrayType:Landroidx/navigation/NavType;    return-object p0
 
     .line 149
     :pswitch_f
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 150
     .line 151
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getLongNullableType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getLongNullableType()Landroidx/navigation/NavType;
 
     .line 152
     .line 153
@@ -488,11 +542,13 @@ return-object v0
 
     .line 156
     :pswitch_10
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 157
     .line 158
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getFloatNullableType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getFloatNullableType()Landroidx/navigation/NavType;
 
     .line 159
     .line 160
@@ -503,11 +559,13 @@ return-object v0
 
     .line 163
     :pswitch_11
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 164
     .line 165
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getDoubleNullableType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getDoubleNullableType()Landroidx/navigation/NavType;
 
     .line 166
     .line 167
@@ -518,11 +576,13 @@ return-object v0
 
     .line 170
     :pswitch_12
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 171
     .line 172
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getDoubleType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getDoubleType()Landroidx/navigation/NavType;
 
     .line 173
     .line 174
@@ -533,11 +593,13 @@ return-object v0
 
     .line 177
     :pswitch_13
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 178
     .line 179
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getBoolNullableType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getBoolNullableType()Landroidx/navigation/NavType;
 
     .line 180
     .line 181
@@ -548,11 +610,13 @@ return-object v0
 
     .line 184
     :pswitch_14
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 185
     .line 186
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getIntNullableType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getIntNullableType()Landroidx/navigation/NavType;
 
     .line 187
     .line 188
@@ -563,11 +627,13 @@ return-object v0
 
     .line 191
     :pswitch_15
-    sget-object v0, Landroidx/navigation/NavType;->Companion:Landroidx/navigation/NavType$Companion;
+    sget-object v0, Landroidx/navigation/NavType;
+    ->Companion:Landroidx/navigation/NavType$Companion;
 
     .line 192
     .line 193
-    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;->getClass(LL1/f;)Ljava/lang/Class;
+    invoke-static {p0}, Landroidx/navigation/serialization/NavTypeConverterKt;
+    ->getClass(LL1/f;)Ljava/lang/Class;
 
     .line 194
     .line 195
@@ -575,7 +641,8 @@ return-object v0
     move-result-object p0
 
     .line 197
-    invoke-virtual {v0, p0, v2}, Landroidx/navigation/NavType$Companion;->parseSerializableOrParcelableType$navigation_common_release(Ljava/lang/Class;Z)Landroidx/navigation/NavType;
+    invoke-virtual {v0, p0, v2}, Landroidx/navigation/NavType$Companion;
+    ->parseSerializableOrParcelableType$navigation_common_release(Ljava/lang/Class;Z)Landroidx/navigation/NavType;
 
     .line 198
     .line 199
@@ -587,7 +654,8 @@ return-object v0
 
     .line 202
     .line 203
-    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;
+    sget-object p0, Landroidx/navigation/serialization/UNKNOWN;
+    ->INSTANCE:Landroidx/navigation/serialization/UNKNOWN;
 
     .line 204
     .line 205
@@ -596,15 +664,18 @@ return-object v0
 
     .line 206
     :pswitch_16
-    sget-object p0, Landroidx/navigation/NavType;->StringType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->StringType:Landroidx/navigation/NavType;    return-object p0
 
     .line 209
     :pswitch_17
-    sget-object p0, Landroidx/navigation/serialization/InternalNavType;->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
+    sget-object p0, Landroidx/navigation/serialization/InternalNavType;
+    ->INSTANCE:Landroidx/navigation/serialization/InternalNavType;
 
     .line 210
     .line 211
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;->getStringNonNullableType()Landroidx/navigation/NavType;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType;
+    ->getStringNonNullableType()Landroidx/navigation/NavType;
 
     .line 212
     .line 213
@@ -615,19 +686,23 @@ return-object v0
 
     .line 216
     :pswitch_18
-    sget-object p0, Landroidx/navigation/NavType;->LongType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->LongType:Landroidx/navigation/NavType;    return-object p0
 
     .line 219
     :pswitch_19
-    sget-object p0, Landroidx/navigation/NavType;->FloatType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->FloatType:Landroidx/navigation/NavType;    return-object p0
 
     .line 222
     :pswitch_1a
-    sget-object p0, Landroidx/navigation/NavType;->BoolType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->BoolType:Landroidx/navigation/NavType;    return-object p0
 
     .line 225
     :pswitch_1b
-    sget-object p0, Landroidx/navigation/NavType;->IntType:Landroidx/navigation/NavType;    return-object p0
+    sget-object p0, Landroidx/navigation/NavType;
+    ->IntType:Landroidx/navigation/NavType;    return-object p0
 
     .line 228
     nop
@@ -692,7 +767,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -701,12 +777,14 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 12
     .line 13
@@ -721,7 +799,8 @@ return-object v0
 
     .line 17
     .line 18
-    invoke-virtual {v2}, LN1/N;->c()Z
+    invoke-virtual {v2}, LN1/N;
+    ->c()Z
 
     .line 19
     .line 20
@@ -736,16 +815,19 @@ return-object v0
 
     .line 26
     :cond_0
-    sget-object v1, LO1/c;->a:LO1/a;
+    sget-object v1, LO1/c;
+    ->a:LO1/a;
 
     .line 27
     .line 28
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-static {v1, p1, v3}, Lcom/bumptech/glide/b;->W(LO1/a;Lv1/k;Z)LJ1/b;
+    invoke-static {v1, p1, v3}, Lcom/bumptech/glide/b;
+    ->W(LO1/a;Lv1/k;Z)LJ1/b;
 
     .line 32
     .line 33
@@ -757,7 +839,8 @@ return-object v0
 
     .line 36
     .line 37
-    invoke-interface {p1}, LJ1/h;->a()LL1/f;
+    invoke-interface {p1}, LJ1/h;
+    ->a()LL1/f;
 
     .line 38
     .line 39
@@ -765,7 +848,8 @@ return-object v0
     move-result-object p1
 
     .line 41
-    invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 42
     .line 43
@@ -784,7 +868,8 @@ return-object v0
 
     .line 49
     .line 50
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -795,7 +880,8 @@ return-object v0
     .locals 3
 
     .line 1
-    invoke-interface {p0}, LL1/f;->a()Ljava/lang/String;
+    invoke-interface {p0}, LL1/f;
+    ->a()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -811,7 +897,8 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-static {v0, v1, v2}, Lx1/m;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lx1/m;
+    ->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -819,7 +906,8 @@ return-object v0
     move-result-object v0
 
     .line 13
-    invoke-interface {p0}, LL1/f;->getKind()Lcom/bumptech/glide/b;
+    invoke-interface {p0}, LL1/f;
+    ->getKind()Lcom/bumptech/glide/b;
 
     .line 14
     .line 15
@@ -827,11 +915,13 @@ return-object v0
     move-result-object v1
 
     .line 17
-    sget-object v2, LL1/c;->e:LL1/c;
+    sget-object v2, LL1/c;
+    ->e:LL1/c;
 
     .line 18
     .line 19
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -843,7 +933,8 @@ return-object v0
 
     .line 24
     .line 25
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 26
     .line 27
@@ -855,11 +946,13 @@ return-object v0
 
     .line 30
     .line 31
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 34
     :cond_0
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->ENUM:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->ENUM:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 37
     :cond_1
@@ -867,7 +960,8 @@ return-object v0
 
     .line 38
     .line 39
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 40
     .line 41
@@ -879,7 +973,8 @@ return-object v0
 
     .line 44
     .line 45
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 46
     .line 47
@@ -891,11 +986,13 @@ return-object v0
 
     .line 50
     .line 51
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 54
     :cond_2
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->INT:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->INT:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 57
     :cond_3
@@ -903,7 +1000,8 @@ return-object v0
 
     .line 58
     .line 59
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 60
     .line 61
@@ -915,7 +1013,8 @@ return-object v0
 
     .line 64
     .line 65
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 66
     .line 67
@@ -927,11 +1026,13 @@ return-object v0
 
     .line 70
     .line 71
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 74
     :cond_4
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->BOOL:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->BOOL:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 77
     :cond_5
@@ -939,7 +1040,8 @@ return-object v0
 
     .line 78
     .line 79
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 80
     .line 81
@@ -951,7 +1053,8 @@ return-object v0
 
     .line 84
     .line 85
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 86
     .line 87
@@ -963,15 +1066,18 @@ return-object v0
 
     .line 90
     .line 91
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 94
     :cond_6
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->DOUBLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->DOUBLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 97
     :cond_7
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 98
     .line 99
@@ -983,7 +1089,8 @@ return-object v0
 
     .line 102
     .line 103
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->DOUBLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->DOUBLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 106
     :cond_8
@@ -991,7 +1098,8 @@ return-object v0
 
     .line 107
     .line 108
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 109
     .line 110
@@ -1003,7 +1111,8 @@ return-object v0
 
     .line 113
     .line 114
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 115
     .line 116
@@ -1015,11 +1124,13 @@ return-object v0
 
     .line 119
     .line 120
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 123
     :cond_9
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->FLOAT:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->FLOAT:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 126
     :cond_a
@@ -1027,7 +1138,8 @@ return-object v0
 
     .line 127
     .line 128
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 129
     .line 130
@@ -1039,7 +1151,8 @@ return-object v0
 
     .line 133
     .line 134
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 135
     .line 136
@@ -1051,11 +1164,13 @@ return-object v0
 
     .line 139
     .line 140
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 143
     :cond_b
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->LONG:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->LONG:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 146
     :cond_c
@@ -1063,7 +1178,8 @@ return-object v0
 
     .line 147
     .line 148
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 149
     .line 150
@@ -1075,7 +1191,8 @@ return-object v0
 
     .line 153
     .line 154
-    invoke-interface {p0}, LL1/f;->e()Z
+    invoke-interface {p0}, LL1/f;
+    ->e()Z
 
     .line 155
     .line 156
@@ -1087,11 +1204,13 @@ return-object v0
 
     .line 159
     .line 160
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 163
     :cond_d
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->STRING:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->STRING:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 166
     :cond_e
@@ -1099,7 +1218,8 @@ return-object v0
 
     .line 167
     .line 168
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 169
     .line 170
@@ -1111,7 +1231,8 @@ return-object v0
 
     .line 173
     .line 174
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->INT_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->INT_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 177
     :cond_f
@@ -1119,7 +1240,8 @@ return-object v0
 
     .line 178
     .line 179
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 180
     .line 181
@@ -1131,7 +1253,8 @@ return-object v0
 
     .line 184
     .line 185
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 188
     :cond_10
@@ -1139,7 +1262,8 @@ return-object v0
 
     .line 189
     .line 190
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 191
     .line 192
@@ -1151,7 +1275,8 @@ return-object v0
 
     .line 195
     .line 196
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 199
     :cond_11
@@ -1159,7 +1284,8 @@ return-object v0
 
     .line 200
     .line 201
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 202
     .line 203
@@ -1171,7 +1297,8 @@ return-object v0
 
     .line 206
     .line 207
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 210
     :cond_12
@@ -1179,7 +1306,8 @@ return-object v0
 
     .line 211
     .line 212
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 213
     .line 214
@@ -1191,7 +1319,8 @@ return-object v0
 
     .line 217
     .line 218
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 221
     :cond_13
@@ -1199,7 +1328,8 @@ return-object v0
 
     .line 222
     .line 223
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 224
     .line 225
@@ -1211,7 +1341,8 @@ return-object v0
 
     .line 228
     .line 229
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->ARRAY:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 232
     :cond_14
@@ -1222,7 +1353,8 @@ return-object v0
 
     .line 234
     .line 235
-    invoke-static {v0, v1, p0}, Lx1/m;->n(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v0, v1, p0}, Lx1/m;
+    ->n(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     .line 236
     .line 237
@@ -1234,11 +1366,13 @@ return-object v0
 
     .line 240
     .line 241
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->LIST:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->LIST:Landroidx/navigation/serialization/InternalType;    return-object p0
 
     .line 244
     :cond_15
-    sget-object p0, Landroidx/navigation/serialization/InternalType;->UNKNOWN:Landroidx/navigation/serialization/InternalType;    return-object p0
+    sget-object p0, Landroidx/navigation/serialization/InternalType;
+    ->UNKNOWN:Landroidx/navigation/serialization/InternalType;    return-object p0
 .end method
 
 .end class

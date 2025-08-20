@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity;-><init>()V
+    value = Landroidx/activity/ComponentActivity;
+    -><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ComponentActivity$2;->this$0:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$2;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -48,7 +51,8 @@
     .end param
 
     .line 1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
@@ -56,11 +60,13 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$2;->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$2;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 8
     .line 9
@@ -72,7 +78,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroid/view/Window;->peekDecorView()Landroid/view/View;
+    invoke-virtual {p1}, Landroid/view/Window;
+    ->peekDecorView()Landroid/view/View;
 
     .line 14
     .line 15
@@ -92,7 +99,8 @@
 
     .line 20
     .line 21
-    invoke-static {p1}, Landroidx/activity/ComponentActivity$Api19Impl;->cancelPendingInputEvents(Landroid/view/View;)V
+    invoke-static {p1}, Landroidx/activity/ComponentActivity$Api19Impl;
+    ->cancelPendingInputEvents(Landroid/view/View;)V
 
     .line 22
     .line 23

@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/view/accessibility/AccessibilityViewCommand$CommandArguments;-><init>()V
+    invoke-direct {p0}, Landroidx/core/view/accessibility/AccessibilityViewCommand$CommandArguments;
+    -><init>()V
 
     .line 2
     .line 3
@@ -33,7 +34,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityViewCommand$CommandArguments;->mBundle:Landroid/os/Bundle;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityViewCommand$CommandArguments;
+    ->mBundle:Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -41,7 +43,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;
+    ->getFloat(Ljava/lang/String;)F
 
     .line 6
     .line 7

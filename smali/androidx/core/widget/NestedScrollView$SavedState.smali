@@ -39,12 +39,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/core/widget/NestedScrollView$SavedState$1;-><init>()V
+    invoke-direct {v0}, Landroidx/core/widget/NestedScrollView$SavedState$1;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/widget/NestedScrollView$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Landroidx/core/widget/NestedScrollView$SavedState;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 7
     .line 8
@@ -55,14 +57,17 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;
+    -><init>(Landroid/os/Parcel;)V
 
     .line 3
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p1
 
-    iput p1, p0, Landroidx/core/widget/NestedScrollView$SavedState;->scrollPosition:I
+    iput p1, p0, Landroidx/core/widget/NestedScrollView$SavedState;
+    ->scrollPosition:I
 
     return-void
 .end method
@@ -71,7 +76,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 
     return-void
 .end method
@@ -92,12 +98,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
+    invoke-static {p0}, Ljava/lang/System;
+    ->identityHashCode(Ljava/lang/Object;)I
 
     .line 9
     .line 10
@@ -105,7 +113,8 @@
     move-result v1
 
     .line 12
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -113,7 +122,8 @@
     move-result-object v1
 
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -122,12 +132,14 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    iget v1, p0, Landroidx/core/widget/NestedScrollView$SavedState;->scrollPosition:I
+    iget v1, p0, Landroidx/core/widget/NestedScrollView$SavedState;
+    ->scrollPosition:I
 
     .line 25
     .line 26
@@ -135,7 +147,8 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v2, v1}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v2, v1}, LA/d;
+    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -149,16 +162,19 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget p2, p0, Landroidx/core/widget/NestedScrollView$SavedState;->scrollPosition:I
+    iget p2, p0, Landroidx/core/widget/NestedScrollView$SavedState;
+    ->scrollPosition:I
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 7
     .line 8

@@ -39,12 +39,15 @@
 
     const-string v0, "topics"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    sget-object v0, Ld1/t;->b:Ld1/t;
+    sget-object v0, Ld1/t;
+    ->b:Ld1/t;
 
-    invoke-direct {p0, p1, v0}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;-><init>(Ljava/util/List;Ljava/util/List;)V
+    invoke-direct {p0, p1, v0}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    -><init>(Ljava/util/List;Ljava/util/List;)V
 return-void
 .end method
 
@@ -67,20 +70,25 @@ return-void
 
     const-string v0, "topics"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "encryptedTopics"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 3
-    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     return-void
 .end method
@@ -109,11 +117,13 @@ return-void
 
     .line 11
     :cond_1
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v1}, Ljava/util/List;->size()I
+    invoke-interface {v1}, Ljava/util/List;
+    ->size()I
 
     .line 14
     .line 15
@@ -125,11 +135,13 @@ return-void
 
     .line 18
     .line 19
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 20
     .line 21
-    invoke-interface {v3}, Ljava/util/List;->size()I
+    invoke-interface {v3}, Ljava/util/List;
+    ->size()I
 
     .line 22
     .line 23
@@ -141,11 +153,13 @@ return-void
 
     .line 26
     .line 27
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     .line 28
     .line 29
-    invoke-interface {v1}, Ljava/util/List;->size()I
+    invoke-interface {v1}, Ljava/util/List;
+    ->size()I
 
     .line 30
     .line 31
@@ -153,11 +167,13 @@ return-void
     move-result v1
 
     .line 33
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     .line 34
     .line 35
-    invoke-interface {v3}, Ljava/util/List;->size()I
+    invoke-interface {v3}, Ljava/util/List;
+    ->size()I
 
     .line 36
     .line 37
@@ -177,7 +193,8 @@ return-void
 
     .line 43
     .line 44
-    iget-object v3, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iget-object v3, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 45
     .line 46
@@ -185,7 +202,8 @@ return-void
 
     .line 47
     .line 48
-    invoke-direct {v1, v3}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v3}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 49
     .line 50
@@ -194,7 +212,8 @@ return-void
 
     .line 52
     .line 53
-    iget-object v4, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iget-object v4, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 54
     .line 55
@@ -202,12 +221,14 @@ return-void
 
     .line 56
     .line 57
-    invoke-direct {v3, v4}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v3, v4}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -223,7 +244,8 @@ return-void
 
     .line 67
     .line 68
-    iget-object v3, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iget-object v3, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     .line 69
     .line 70
@@ -231,7 +253,8 @@ return-void
 
     .line 71
     .line 72
-    invoke-direct {v1, v3}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v3}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 73
     .line 74
@@ -240,7 +263,8 @@ return-void
 
     .line 76
     .line 77
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     .line 78
     .line 79
@@ -248,12 +272,14 @@ return-void
 
     .line 80
     .line 81
-    invoke-direct {v3, p1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v3, p1}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 85
     .line 86
@@ -281,7 +307,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;    return-object v0
 .end method
 
 .method public final getTopics()Ljava/util/List;
@@ -296,18 +323,21 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     .line 4
     .line 5
@@ -332,7 +362,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-static {v2}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
+    invoke-static {v2}, Ljava/util/Objects;
+    ->hash([Ljava/lang/Object;)I
 
     .line 15
     .line 16
@@ -354,16 +385,19 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->topics:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->topics:Ljava/util/List;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -372,21 +406,25 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;->encryptedTopics:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;
+    ->encryptedTopics:Ljava/util/List;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 24
     .line 25

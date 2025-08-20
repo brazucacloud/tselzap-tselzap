@@ -43,7 +43,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,23 +52,28 @@
     const/4 v0, 0x1
 
     .line 5
-    iput v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mState:I
+    iput v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mState:I
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 10
     .line 11
-    iput-boolean p2, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mUseEmojiAsDefaultStyle:Z
+    iput-boolean p2, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mUseEmojiAsDefaultStyle:Z
 
     .line 12
     .line 13
-    iput-object p3, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mEmojiAsDefaultStyleExceptions:[I
+    iput-object p3, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
     .line 14
     .line 15
@@ -115,22 +121,26 @@
     const/4 v0, 0x1
 
     .line 2
-    iput v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mState:I
+    iput v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mState:I
 
     .line 3
     .line 4
-    iget-object v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mRootNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 5
     .line 6
-    iput-object v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 7
     .line 8
     const/4 v1, 0x0
 
     .line 9
-    iput v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentDepth:I
+    iput v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentDepth:I
 
     .line 10
     .line 11
@@ -141,11 +151,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 4
     .line 5
@@ -153,7 +165,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->isDefaultEmoji()Z
+    invoke-virtual {v0}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    ->isDefaultEmoji()Z
 
     .line 8
     .line 9
@@ -172,11 +185,13 @@
 
     .line 15
     :cond_0
-    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mLastCodepoint:I
+    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mLastCodepoint:I
 
     .line 16
     .line 17
-    invoke-static {v0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->isEmojiStyle(I)Z
+    invoke-static {v0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->isEmojiStyle(I)Z
 
     .line 18
     .line 19
@@ -192,7 +207,8 @@
 
     .line 24
     :cond_1
-    iget-boolean v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mUseEmojiAsDefaultStyle:Z
+    iget-boolean v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mUseEmojiAsDefaultStyle:Z
 
     .line 25
     .line 26
@@ -203,7 +219,8 @@
 
     .line 28
     .line 29
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mEmojiAsDefaultStyleExceptions:[I
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
     .line 30
     .line 31
@@ -215,11 +232,13 @@
 
     .line 34
     :cond_2
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 37
     .line 38
@@ -227,7 +246,8 @@
     move-result-object v0
 
     .line 40
-    invoke-virtual {v0, v2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->getCodepointAt(I)I
+    invoke-virtual {v0, v2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    ->getCodepointAt(I)I
 
     .line 41
     .line 42
@@ -235,11 +255,13 @@
     move-result v0
 
     .line 44
-    iget-object v3, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mEmojiAsDefaultStyleExceptions:[I
+    iget-object v3, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mEmojiAsDefaultStyleExceptions:[I
 
     .line 45
     .line 46
-    invoke-static {v3, v0}, Ljava/util/Arrays;->binarySearch([II)I
+    invoke-static {v3, v0}, Ljava/util/Arrays;
+    ->binarySearch([II)I
 
     .line 47
     .line 48
@@ -264,11 +286,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/text/MetadataRepo$Node;->get(I)Landroidx/emoji2/text/MetadataRepo$Node;
+    invoke-virtual {v0, p1}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->get(I)Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 4
     .line 5
@@ -276,7 +300,8 @@
     move-result-object v0
 
     .line 7
-    iget v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mState:I
+    iget v1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mState:I
 
     .line 8
     .line 9
@@ -294,7 +319,8 @@
 
     .line 14
     .line 15
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->reset()I
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->reset()I
 
     .line 16
     .line 17
@@ -306,15 +332,18 @@
 
     .line 20
     :cond_0
-    iput v3, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mState:I
+    iput v3, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mState:I
 
     .line 21
     .line 22
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 23
     .line 24
-    iput v2, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentDepth:I
+    iput v2, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentDepth:I
 
     .line 25
     .line 26
@@ -326,18 +355,21 @@
 
     .line 28
     .line 29
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 30
     .line 31
-    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentDepth:I
+    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentDepth:I
 
     .line 32
     .line 33
     add-int/2addr v0, v2
 
     .line 34
-    iput v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentDepth:I
+    iput v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentDepth:I
 
     .line 35
     .line 36
@@ -345,7 +377,8 @@
 
     .line 37
     :cond_2
-    invoke-static {p1}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->isTextStyle(I)Z
+    invoke-static {p1}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->isTextStyle(I)Z
 
     .line 38
     .line 39
@@ -357,7 +390,8 @@
 
     .line 42
     .line 43
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->reset()I
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->reset()I
 
     .line 44
     .line 45
@@ -369,7 +403,8 @@
 
     .line 48
     :cond_3
-    invoke-static {p1}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->isEmojiStyle(I)Z
+    invoke-static {p1}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->isEmojiStyle(I)Z
 
     .line 49
     .line 50
@@ -385,11 +420,13 @@
 
     .line 55
     :cond_4
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 56
     .line 57
-    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 58
     .line 59
@@ -401,7 +438,8 @@
 
     .line 62
     .line 63
-    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentDepth:I
+    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentDepth:I
 
     .line 64
     .line 65
@@ -412,7 +450,8 @@
 
     .line 67
     .line 68
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->shouldUseEmojiPresentationStyleForSingleCodepoint()Z
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->shouldUseEmojiPresentationStyleForSingleCodepoint()Z
 
     .line 69
     .line 70
@@ -424,15 +463,18 @@
 
     .line 73
     .line 74
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 75
     .line 76
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mFlushNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mFlushNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 77
     .line 78
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->reset()I
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->reset()I
 
     .line 79
     .line 80
@@ -441,7 +483,8 @@
 
     .line 82
     :cond_5
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->reset()I
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->reset()I
 
     .line 83
     .line 84
@@ -453,15 +496,18 @@
 
     .line 87
     :cond_6
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 88
     .line 89
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mFlushNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mFlushNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 90
     .line 91
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->reset()I
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->reset()I
 
     .line 92
     .line 93
@@ -470,7 +516,8 @@
 
     .line 95
     :cond_7
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->reset()I
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->reset()I
 
     .line 96
     .line 97
@@ -479,7 +526,8 @@
 
     .line 99
     :goto_0
-    iput p1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mLastCodepoint:I
+    iput p1, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mLastCodepoint:I
 
     .line 100
     .line 101
@@ -490,11 +538,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 4
     .line 5
@@ -508,11 +558,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mFlushNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mFlushNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 4
     .line 5
@@ -526,7 +578,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mState:I
+    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mState:I
 
     .line 2
     .line 3
@@ -537,11 +590,13 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentNode:Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
+    ->getData()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 9
     .line 10
@@ -553,7 +608,8 @@
 
     .line 13
     .line 14
-    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->mCurrentDepth:I
+    iget v0, p0, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->mCurrentDepth:I
 
     .line 15
     .line 16
@@ -564,7 +620,8 @@
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;->shouldUseEmojiPresentationStyleForSingleCodepoint()Z
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiProcessor$ProcessorSm;
+    ->shouldUseEmojiPresentationStyleForSingleCodepoint()Z
 
     .line 20
     .line 21

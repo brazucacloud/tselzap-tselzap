@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setupForInsets()V
+    value = Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    ->setupForInsets()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$1;->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iput-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$1;
+    ->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +43,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$1;->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iget-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$1;
+    ->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setWindowInsets(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-virtual {p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    ->setWindowInsets(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 4
     .line 5

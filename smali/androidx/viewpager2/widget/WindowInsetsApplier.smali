@@ -11,7 +11,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -23,11 +24,13 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/core/view/WindowInsetsCompat;->CONSUMED:Landroidx/core/view/WindowInsetsCompat;
+    sget-object v0, Landroidx/core/view/WindowInsetsCompat;
+    ->CONSUMED:Landroidx/core/view/WindowInsetsCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsCompat;
+    ->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 4
     .line 5
@@ -39,7 +42,8 @@
 
     .line 10
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;->consumeSystemWindowInsets()Landroidx/core/view/WindowInsetsCompat;
+    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;
+    ->consumeSystemWindowInsets()Landroidx/core/view/WindowInsetsCompat;
 
     .line 11
     .line 12
@@ -47,7 +51,8 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;->consumeStableInsets()Landroidx/core/view/WindowInsetsCompat;
+    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;
+    ->consumeStableInsets()Landroidx/core/view/WindowInsetsCompat;
 
     .line 15
     .line 16
@@ -65,7 +70,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -73,7 +79,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     .line 6
     .line 7
@@ -81,7 +88,8 @@
     move-result-object v0
 
     .line 9
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 10
     .line 11
@@ -93,7 +101,8 @@
 
     .line 14
     .line 15
-    iget v0, v0, Landroid/content/pm/ApplicationInfo;->targetSdkVersion:I
+    iget v0, v0, Landroid/content/pm/ApplicationInfo;
+    ->targetSdkVersion:I
 
     .line 16
     .line 17
@@ -111,12 +120,14 @@
 
     .line 22
     .line 23
-    invoke-direct {v0}, Landroidx/viewpager2/widget/WindowInsetsApplier;-><init>()V
+    invoke-direct {v0}, Landroidx/viewpager2/widget/WindowInsetsApplier;
+    -><init>()V
 
     .line 24
     .line 25
     .line 26
-    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat;->setOnApplyWindowInsetsListener(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
+    invoke-static {p0, v0}, Landroidx/core/view/ViewCompat;
+    ->setOnApplyWindowInsetsListener(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
 
     .line 27
     .line 28
@@ -146,7 +157,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat;->onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat;
+    ->onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 4
     .line 5
@@ -154,7 +166,8 @@
     move-result-object p2
 
     .line 7
-    invoke-virtual {p2}, Landroidx/core/view/WindowInsetsCompat;->isConsumed()Z
+    invoke-virtual {p2}, Landroidx/core/view/WindowInsetsCompat;
+    ->isConsumed()Z
 
     .line 8
     .line 9
@@ -166,11 +179,13 @@
 
     .line 14
     :cond_0
-    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p1, Landroidx/viewpager2/widget/ViewPager2;
+    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p1}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 17
     .line 18
@@ -186,7 +201,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 24
     .line 25
@@ -198,12 +214,14 @@
 
     .line 28
     .line 29
-    invoke-direct {v3, p2}, Landroidx/core/view/WindowInsetsCompat;-><init>(Landroidx/core/view/WindowInsetsCompat;)V
+    invoke-direct {v3, p2}, Landroidx/core/view/WindowInsetsCompat;
+    -><init>(Landroidx/core/view/WindowInsetsCompat;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-static {v2, v3}, Landroidx/core/view/ViewCompat;->dispatchApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {v2, v3}, Landroidx/core/view/ViewCompat;
+    ->dispatchApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 33
     .line 34
@@ -216,7 +234,8 @@
 
     .line 38
     :cond_1
-    invoke-direct {p0, p2}, Landroidx/viewpager2/widget/WindowInsetsApplier;->consumeAllInsets(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-direct {p0, p2}, Landroidx/viewpager2/widget/WindowInsetsApplier;
+    ->consumeAllInsets(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 39
     .line 40

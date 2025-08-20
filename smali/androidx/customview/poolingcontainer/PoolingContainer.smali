@@ -14,19 +14,23 @@
     .locals 1
 
     .line 1
-    sget v0, Landroidx/customview/poolingcontainer/R$id;->pooling_container_listener_holder_tag:I
+    sget v0, Landroidx/customview/poolingcontainer/R$id;
+    ->pooling_container_listener_holder_tag:I
 
     .line 2
     .line 3
-    sput v0, Landroidx/customview/poolingcontainer/PoolingContainer;->PoolingContainerListenerHolderTag:I
+    sput v0, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->PoolingContainerListenerHolderTag:I
 
     .line 4
     .line 5
-    sget v0, Landroidx/customview/poolingcontainer/R$id;->is_pooling_container_tag:I
+    sget v0, Landroidx/customview/poolingcontainer/R$id;
+    ->is_pooling_container_tag:I
 
     .line 6
     .line 7
-    sput v0, Landroidx/customview/poolingcontainer/PoolingContainer;->IsPoolingContainerTag:I    return-void
+    sput v0, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->IsPoolingContainerTag:I    return-void
 .end method
 
 .method public static final addPoolingContainerListener(Landroid/view/View;Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
@@ -42,7 +46,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -51,12 +56,14 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/customview/poolingcontainer/PoolingContainer;->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    invoke-static {p0}, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
 
     .line 12
     .line 13
@@ -64,7 +71,8 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->addListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
+    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->addListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
 return-void
 .end method
 
@@ -76,12 +84,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Landroidx/core/view/ViewKt;->getAllViews(Landroid/view/View;)Lw1/h;
+    invoke-static {p0}, Landroidx/core/view/ViewKt;
+    ->getAllViews(Landroid/view/View;)Lw1/h;
 
     .line 7
     .line 8
@@ -89,7 +99,8 @@ return-void
     move-result-object p0
 
     .line 10
-    invoke-interface {p0}, Lw1/h;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lw1/h;
+    ->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -98,7 +109,8 @@ return-void
 
     .line 14
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 15
     .line 16
@@ -110,7 +122,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -122,7 +135,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-static {v0}, Landroidx/customview/poolingcontainer/PoolingContainer;->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    invoke-static {v0}, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
 
     .line 27
     .line 28
@@ -130,7 +144,8 @@ return-void
     move-result-object v0
 
     .line 30
-    invoke-virtual {v0}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->onRelease()V
+    invoke-virtual {v0}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->onRelease()V
 
     .line 31
     .line 32
@@ -150,12 +165,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lw1/h;
+    invoke-static {p0}, Landroidx/core/view/ViewGroupKt;
+    ->getChildren(Landroid/view/ViewGroup;)Lw1/h;
 
     .line 7
     .line 8
@@ -163,7 +180,8 @@ return-void
     move-result-object p0
 
     .line 10
-    invoke-interface {p0}, Lw1/h;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lw1/h;
+    ->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -172,7 +190,8 @@ return-void
 
     .line 14
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 15
     .line 16
@@ -184,7 +203,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -196,7 +216,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-static {v0}, Landroidx/customview/poolingcontainer/PoolingContainer;->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    invoke-static {v0}, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
 
     .line 27
     .line 28
@@ -204,7 +225,8 @@ return-void
     move-result-object v0
 
     .line 30
-    invoke-virtual {v0}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->onRelease()V
+    invoke-virtual {v0}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->onRelease()V
 
     .line 31
     .line 32
@@ -220,11 +242,13 @@ return-void
     .locals 2
 
     .line 1
-    sget v0, Landroidx/customview/poolingcontainer/PoolingContainer;->PoolingContainerListenerHolderTag:I
+    sget v0, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->PoolingContainerListenerHolderTag:I
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -244,12 +268,14 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;-><init>()V
+    invoke-direct {v1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 17
     .line 18
@@ -266,16 +292,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroidx/customview/poolingcontainer/PoolingContainer;->IsPoolingContainerTag:I
+    sget v0, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->IsPoolingContainerTag:I
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -307,7 +336,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 23
     .line 24
@@ -331,12 +361,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Landroidx/core/view/ViewKt;->getAncestors(Landroid/view/View;)Lw1/h;
+    invoke-static {p0}, Landroidx/core/view/ViewKt;
+    ->getAncestors(Landroid/view/View;)Lw1/h;
 
     .line 7
     .line 8
@@ -344,7 +376,8 @@ return-void
     move-result-object p0
 
     .line 10
-    invoke-interface {p0}, Lw1/h;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lw1/h;
+    ->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -353,7 +386,8 @@ return-void
 
     .line 14
     :cond_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 15
     .line 16
@@ -365,7 +399,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -389,7 +424,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-static {v0}, Landroidx/customview/poolingcontainer/PoolingContainer;->isPoolingContainer(Landroid/view/View;)Z
+    invoke-static {v0}, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->isPoolingContainer(Landroid/view/View;)Z
 
     .line 33
     .line 34
@@ -425,7 +461,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -434,12 +471,14 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/customview/poolingcontainer/PoolingContainer;->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    invoke-static {p0}, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->getPoolingContainerListenerHolder(Landroid/view/View;)Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
 
     .line 12
     .line 13
@@ -447,7 +486,8 @@ return-void
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->removeListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
+    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->removeListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
 return-void
 .end method
 
@@ -459,16 +499,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroidx/customview/poolingcontainer/PoolingContainer;->IsPoolingContainerTag:I
+    sget v0, Landroidx/customview/poolingcontainer/PoolingContainer;
+    ->IsPoolingContainerTag:I
 
     .line 7
     .line 8
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 9
     .line 10
@@ -476,7 +519,9 @@ return-void
     move-result-object p1
 
     .line 12
-    invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p0, v0, p1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V    
+    return-void
 .end method
 
 .end class

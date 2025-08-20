@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p2, p0, Landroidx/navigation/ui/b;->b:Landroidx/navigation/NavController;
+    iput-object p2, p0, Landroidx/navigation/ui/b;
+    ->b:Landroidx/navigation/NavController;
 
-    iput-boolean p3, p0, Landroidx/navigation/ui/b;->c:Z
+    iput-boolean p3, p0, Landroidx/navigation/ui/b;
+    ->c:Z
 
-    iput-object p1, p0, Landroidx/navigation/ui/b;->d:Lcom/google/android/material/navigation/NavigationView;
+    iput-object p1, p0, Landroidx/navigation/ui/b;
+    ->d:Lcom/google/android/material/navigation/NavigationView;
 
     return-void
 .end method
@@ -36,13 +40,17 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/ui/b;->d:Lcom/google/android/material/navigation/NavigationView;
+    iget-object v0, p0, Landroidx/navigation/ui/b;
+    ->d:Lcom/google/android/material/navigation/NavigationView;
 
-    iget-object v1, p0, Landroidx/navigation/ui/b;->b:Landroidx/navigation/NavController;
+    iget-object v1, p0, Landroidx/navigation/ui/b;
+    ->b:Landroidx/navigation/NavController;
 
-    iget-boolean v2, p0, Landroidx/navigation/ui/b;->c:Z
+    iget-boolean v2, p0, Landroidx/navigation/ui/b;
+    ->c:Z
 
-    invoke-static {v1, v2, v0, p1}, Landroidx/navigation/ui/NavigationUI;->b(Landroidx/navigation/NavController;ZLcom/google/android/material/navigation/NavigationView;Landroid/view/MenuItem;)Z
+    invoke-static {v1, v2, v0, p1}, Landroidx/navigation/ui/NavigationUI;
+    ->b(Landroidx/navigation/NavController;ZLcom/google/android/material/navigation/NavigationView;Landroid/view/MenuItem;)Z
 
     move-result p1
 

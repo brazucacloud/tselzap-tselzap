@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lv0/b;->a:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iput-object p1, p0, Lv0/b;
+    ->a:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
-    iput p2, p0, Lv0/b;->b:I
+    iput p2, p0, Lv0/b;
+    ->b:I
 
     return-void
 .end method
@@ -32,15 +35,18 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lv0/b;->a:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object p1, p0, Lv0/b;
+    ->a:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 2
     .line 3
-    iget p2, p0, Lv0/b;->b:I
+    iget p2, p0, Lv0/b;
+    ->b:I
 
     .line 4
     .line 5
-    invoke-virtual {p1, p2}, Lcom/google/android/material/sidesheet/SideSheetBehavior;->e(I)V
+    invoke-virtual {p1, p2}, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->e(I)V
 
     .line 6
     .line 7

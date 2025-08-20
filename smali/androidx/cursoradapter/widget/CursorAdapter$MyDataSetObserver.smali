@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroidx/cursoradapter/widget/CursorAdapter;
+    iput-object p1, p0, Landroidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver;
+    ->this$0:Landroidx/cursoradapter/widget/CursorAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
+    invoke-direct {p0}, Landroid/database/DataSetObserver;
+    -><init>()V
     return-void
 .end method
 
@@ -37,18 +39,21 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroidx/cursoradapter/widget/CursorAdapter;
+    iget-object v0, p0, Landroidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver;
+    ->this$0:Landroidx/cursoradapter/widget/CursorAdapter;
 
     .line 2
     .line 3
     const/4 v1, 0x1
 
     .line 4
-    iput-boolean v1, v0, Landroidx/cursoradapter/widget/CursorAdapter;->mDataValid:Z
+    iput-boolean v1, v0, Landroidx/cursoradapter/widget/CursorAdapter;
+    ->mDataValid:Z
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Landroid/widget/BaseAdapter;
+    ->notifyDataSetChanged()V
     return-void
 .end method
 
@@ -56,18 +61,21 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver;->this$0:Landroidx/cursoradapter/widget/CursorAdapter;
+    iget-object v0, p0, Landroidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver;
+    ->this$0:Landroidx/cursoradapter/widget/CursorAdapter;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    iput-boolean v1, v0, Landroidx/cursoradapter/widget/CursorAdapter;->mDataValid:Z
+    iput-boolean v1, v0, Landroidx/cursoradapter/widget/CursorAdapter;
+    ->mDataValid:Z
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V
+    invoke-virtual {v0}, Landroid/widget/BaseAdapter;
+    ->notifyDataSetInvalidated()V
     return-void
 .end method
 

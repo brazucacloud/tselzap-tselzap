@@ -18,21 +18,25 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotEmpty(Ljava/lang/String;)Ljava/lang/String;
 
     .line 7
     .line 8
     .line 9
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zza:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zza:Ljava/lang/String;
 
     .line 10
     .line 11
@@ -40,12 +44,14 @@
 
     .line 12
     .line 13
-    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p1}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzb:Landroid/os/Bundle;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzb:Landroid/os/Bundle;
 
     .line 17
     .line 18
@@ -60,12 +66,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
+    invoke-direct {v0}, Lorg/json/JSONArray;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
+    invoke-virtual {p1}, Landroid/os/BaseBundle;
+    ->keySet()Ljava/util/Set;
 
     .line 7
     .line 8
@@ -73,7 +81,8 @@
     move-result-object v1
 
     .line 10
-    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -83,7 +92,8 @@
     .line 14
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 15
     .line 16
@@ -95,7 +105,8 @@
 
     .line 19
     .line 20
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -107,7 +118,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1, v2}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, v2}, Landroid/os/BaseBundle;
+    ->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -124,7 +136,8 @@
 
     .line 33
     .line 34
-    invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
+    invoke-direct {v4}, Lorg/json/JSONObject;
+    -><init>()V
 
     .line 35
     .line 36
@@ -133,12 +146,14 @@
 
     .line 38
     .line 39
-    invoke-virtual {v4, v5, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v5, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 40
     .line 41
     .line 42
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpf;->zza()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpf;
+    ->zza()Z
 
     .line 43
     .line 44
@@ -177,11 +192,13 @@
     .line 59
     .line 60
     :try_start_1
-    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 61
     .line 62
-    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzjq;->zze()Lcom/google/android/gms/measurement/internal/zzak;
+    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zze()Lcom/google/android/gms/measurement/internal/zzak;
 
     .line 63
     .line 64
@@ -189,11 +206,13 @@
     move-result-object v2
 
     .line 66
-    sget-object v11, Lcom/google/android/gms/measurement/internal/zzbl;->zzcv:Lcom/google/android/gms/measurement/internal/zzgi;
+    sget-object v11, Lcom/google/android/gms/measurement/internal/zzbl;
+    ->zzcv:Lcom/google/android/gms/measurement/internal/zzgi;
 
     .line 67
     .line 68
-    invoke-virtual {v2, v11}, Lcom/google/android/gms/measurement/internal/zzak;->zza(Lcom/google/android/gms/measurement/internal/zzgi;)Z
+    invoke-virtual {v2, v11}, Lcom/google/android/gms/measurement/internal/zzak;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzgi;)Z
 
     .line 69
     .line 70
@@ -213,7 +232,8 @@
 
     .line 77
     .line 78
-    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 79
     .line 80
@@ -221,12 +241,14 @@
     move-result-object v2
 
     .line 82
-    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {v4, v10, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v8}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 86
     .line 87
@@ -252,7 +274,8 @@
 
     .line 96
     .line 97
-    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 98
     .line 99
@@ -260,12 +283,14 @@
     move-result-object v2
 
     .line 101
-    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 102
     .line 103
     .line 104
-    invoke-virtual {v4, v10, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v7}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 105
     .line 106
@@ -286,7 +311,8 @@
 
     .line 113
     .line 114
-    invoke-static {v3}, Ljava/util/Arrays;->toString([I)Ljava/lang/String;
+    invoke-static {v3}, Ljava/util/Arrays;
+    ->toString([I)Ljava/lang/String;
 
     .line 115
     .line 116
@@ -294,7 +320,8 @@
     move-result-object v2
 
     .line 118
-    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 119
     .line 120
@@ -303,7 +330,8 @@
 
     .line 122
     .line 123
-    invoke-virtual {v4, v10, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 124
     .line 125
@@ -324,7 +352,8 @@
 
     .line 132
     .line 133
-    invoke-static {v3}, Ljava/util/Arrays;->toString([J)Ljava/lang/String;
+    invoke-static {v3}, Ljava/util/Arrays;
+    ->toString([J)Ljava/lang/String;
 
     .line 134
     .line 135
@@ -332,7 +361,8 @@
     move-result-object v2
 
     .line 137
-    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 138
     .line 139
@@ -341,7 +371,8 @@
 
     .line 141
     .line 142
-    invoke-virtual {v4, v10, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 143
     .line 144
@@ -358,7 +389,8 @@
 
     .line 149
     .line 150
-    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 151
     .line 152
@@ -366,12 +398,14 @@
     move-result-object v2
 
     .line 154
-    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 155
     .line 156
     .line 157
-    invoke-virtual {v4, v10, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v6}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 158
     .line 159
@@ -380,11 +414,13 @@
 
     .line 161
     :cond_5
-    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 162
     .line 163
-    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     .line 164
     .line 165
@@ -392,7 +428,8 @@
     move-result-object v2
 
     .line 167
-    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     .line 168
     .line 169
@@ -400,7 +437,8 @@
     move-result-object v2
 
     .line 171
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 172
     .line 173
@@ -408,7 +446,8 @@
     move-result-object v3
 
     .line 175
-    invoke-virtual {v2, v5, v3}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v2, v5, v3}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 176
     .line 177
@@ -418,7 +457,8 @@
     .line 179
     .line 180
     :cond_6
-    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 181
     .line 182
@@ -426,7 +466,8 @@
     move-result-object v2
 
     .line 184
-    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v9, v2}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 185
     .line 186
@@ -439,7 +480,8 @@
 
     .line 190
     .line 191
-    invoke-virtual {v4, v10, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v8}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 192
     .line 193
@@ -456,7 +498,8 @@
 
     .line 198
     .line 199
-    invoke-virtual {v4, v10, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v7}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 200
     .line 201
@@ -473,13 +516,15 @@
 
     .line 206
     .line 207
-    invoke-virtual {v4, v10, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v4, v10, v6}, Lorg/json/JSONObject;
+    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 208
     .line 209
     .line 210
     :goto_1
-    invoke-virtual {v0, v4}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+    invoke-virtual {v0, v4}, Lorg/json/JSONArray;
+    ->put(Ljava/lang/Object;)Lorg/json/JSONArray;
 
     .line 211
     .line 212
@@ -489,11 +534,13 @@
     .line 214
     .line 215
     :cond_9
-    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 216
     .line 217
-    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     .line 218
     .line 219
@@ -501,7 +548,8 @@
     move-result-object v2
 
     .line 221
-    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     .line 222
     .line 223
@@ -509,7 +557,8 @@
     move-result-object v2
 
     .line 225
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 226
     .line 227
@@ -517,7 +566,8 @@
     move-result-object v3
 
     .line 229
-    invoke-virtual {v2, v5, v3}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v2, v5, v3}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;Ljava/lang/Object;)V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -529,11 +579,13 @@
     .line 233
     .line 234
     :goto_2
-    iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 235
     .line 236
-    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     .line 237
     .line 238
@@ -541,7 +593,8 @@
     move-result-object v3
 
     .line 240
-    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     .line 241
     .line 242
@@ -553,7 +606,8 @@
 
     .line 245
     .line 246
-    invoke-virtual {v3, v4, v2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v3, v4, v2}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 247
     .line 248
@@ -563,7 +617,8 @@
     .line 250
     .line 251
     :cond_a
-    invoke-virtual {v0}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lorg/json/JSONArray;
+    ->toString()Ljava/lang/String;
 
     .line 252
     .line 253
@@ -581,22 +636,27 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzc:Landroid/os/Bundle;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzc:Landroid/os/Bundle;
 
     if-nez v0, :cond_10
 
     .line 2
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzho;->zzg()Landroid/content/SharedPreferences;
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzho;
+    ->zzg()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zza:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zza:Ljava/lang/String;
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -606,12 +666,14 @@
     :try_start_0
     new-instance v1, Landroid/os/Bundle;
 
-    invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v1}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 4
     new-instance v2, Lorg/json/JSONArray;
 
-    invoke-direct {v2, v0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Lorg/json/JSONArray;
+    -><init>(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -619,7 +681,8 @@
 
     .line 5
     :goto_0
-    invoke-virtual {v2}, Lorg/json/JSONArray;->length()I
+    invoke-virtual {v2}, Lorg/json/JSONArray;
+    ->length()I
 
     move-result v4
     :try_end_0
@@ -629,26 +692,30 @@
 
     .line 6
     :try_start_1
-    invoke-virtual {v2, v3}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+    invoke-virtual {v2, v3}, Lorg/json/JSONArray;
+    ->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v4
 
     .line 7
     const-string v5, "n"
 
-    invoke-virtual {v4, v5}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v5}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
     .line 8
     const-string v6, "t"
 
-    invoke-virtual {v4, v6}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v6}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
     .line 9
-    invoke-virtual {v6}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v6}, Ljava/lang/String;
+    ->hashCode()I
 
     move-result v7
 
@@ -685,7 +752,8 @@
     :cond_0
     const-string v7, "la"
 
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -698,7 +766,8 @@
     :cond_1
     const-string v7, "ia"
 
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -711,7 +780,8 @@
     :cond_2
     const-string v7, "s"
 
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -724,7 +794,8 @@
     :cond_3
     const-string v7, "l"
 
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -737,7 +808,8 @@
     :cond_4
     const-string v7, "d"
 
-    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v7
     :try_end_1
@@ -769,40 +841,49 @@
 
     .line 10
     :try_start_2
-    iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
-    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     move-result-object v4
 
     const-string v5, "Unrecognized persisted bundle type. Type"
 
-    invoke-virtual {v4, v5, v6}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v4, v5, v6}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;Ljava/lang/Object;)V
 
     goto/16 :goto_5
 
     .line 11
     :cond_6
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpf;->zza()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpf;
+    ->zza()Z
 
     move-result v6
 
     if-eqz v6, :cond_d
 
-    iget-object v6, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v6, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 12
-    invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/zzjq;->zze()Lcom/google/android/gms/measurement/internal/zzak;
+    invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zze()Lcom/google/android/gms/measurement/internal/zzak;
 
     move-result-object v6
 
-    sget-object v7, Lcom/google/android/gms/measurement/internal/zzbl;->zzcv:Lcom/google/android/gms/measurement/internal/zzgi;
+    sget-object v7, Lcom/google/android/gms/measurement/internal/zzbl;
+    ->zzcv:Lcom/google/android/gms/measurement/internal/zzgi;
 
-    invoke-virtual {v6, v7}, Lcom/google/android/gms/measurement/internal/zzak;->zza(Lcom/google/android/gms/measurement/internal/zzgi;)Z
+    invoke-virtual {v6, v7}, Lcom/google/android/gms/measurement/internal/zzak;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzgi;)Z
 
     move-result v6
 
@@ -811,14 +892,17 @@
     .line 13
     new-instance v6, Lorg/json/JSONArray;
 
-    invoke-virtual {v4, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v8}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-direct {v6, v4}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v4}, Lorg/json/JSONArray;
+    -><init>(Ljava/lang/String;)V
 
     .line 14
-    invoke-virtual {v6}, Lorg/json/JSONArray;->length()I
+    invoke-virtual {v6}, Lorg/json/JSONArray;
+    ->length()I
 
     move-result v4
 
@@ -830,7 +914,8 @@
     if-ge v8, v4, :cond_7
 
     .line 15
-    invoke-virtual {v6, v8}, Lorg/json/JSONArray;->optLong(I)J
+    invoke-virtual {v6, v8}, Lorg/json/JSONArray;
+    ->optLong(I)J
 
     move-result-wide v9
 
@@ -842,28 +927,34 @@
 
     .line 16
     :cond_7
-    invoke-virtual {v1, v5, v7}, Landroid/os/BaseBundle;->putLongArray(Ljava/lang/String;[J)V
+    invoke-virtual {v1, v5, v7}, Landroid/os/BaseBundle;
+    ->putLongArray(Ljava/lang/String;[J)V
 
     goto :goto_5
 
     .line 17
     :cond_8
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpf;->zza()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzpf;
+    ->zza()Z
 
     move-result v6
 
     if-eqz v6, :cond_d
 
-    iget-object v6, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v6, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
     .line 18
-    invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/zzjq;->zze()Lcom/google/android/gms/measurement/internal/zzak;
+    invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zze()Lcom/google/android/gms/measurement/internal/zzak;
 
     move-result-object v6
 
-    sget-object v7, Lcom/google/android/gms/measurement/internal/zzbl;->zzcv:Lcom/google/android/gms/measurement/internal/zzgi;
+    sget-object v7, Lcom/google/android/gms/measurement/internal/zzbl;
+    ->zzcv:Lcom/google/android/gms/measurement/internal/zzgi;
 
-    invoke-virtual {v6, v7}, Lcom/google/android/gms/measurement/internal/zzak;->zza(Lcom/google/android/gms/measurement/internal/zzgi;)Z
+    invoke-virtual {v6, v7}, Lcom/google/android/gms/measurement/internal/zzak;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzgi;)Z
 
     move-result v6
 
@@ -872,14 +963,17 @@
     .line 19
     new-instance v6, Lorg/json/JSONArray;
 
-    invoke-virtual {v4, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v8}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-direct {v6, v4}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v4}, Lorg/json/JSONArray;
+    -><init>(Ljava/lang/String;)V
 
     .line 20
-    invoke-virtual {v6}, Lorg/json/JSONArray;->length()I
+    invoke-virtual {v6}, Lorg/json/JSONArray;
+    ->length()I
 
     move-result v4
 
@@ -891,7 +985,8 @@
     if-ge v8, v4, :cond_9
 
     .line 21
-    invoke-virtual {v6, v8}, Lorg/json/JSONArray;->optInt(I)I
+    invoke-virtual {v6, v8}, Lorg/json/JSONArray;
+    ->optInt(I)I
 
     move-result v9
 
@@ -903,48 +998,57 @@
 
     .line 22
     :cond_9
-    invoke-virtual {v1, v5, v7}, Landroid/os/BaseBundle;->putIntArray(Ljava/lang/String;[I)V
+    invoke-virtual {v1, v5, v7}, Landroid/os/BaseBundle;
+    ->putIntArray(Ljava/lang/String;[I)V
 
     goto :goto_5
 
     .line 23
     :cond_a
-    invoke-virtual {v4, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v8}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-static {v4}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    invoke-static {v4}, Ljava/lang/Long;
+    ->parseLong(Ljava/lang/String;)J
 
     move-result-wide v6
 
     .line 24
-    invoke-virtual {v1, v5, v6, v7}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
+    invoke-virtual {v1, v5, v6, v7}, Landroid/os/BaseBundle;
+    ->putLong(Ljava/lang/String;J)V
 
     goto :goto_5
 
     .line 25
     :cond_b
-    invoke-virtual {v4, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v8}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-static {v4}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+    invoke-static {v4}, Ljava/lang/Double;
+    ->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v6
 
     .line 26
-    invoke-virtual {v1, v5, v6, v7}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
+    invoke-virtual {v1, v5, v6, v7}, Landroid/os/BaseBundle;
+    ->putDouble(Ljava/lang/String;D)V
 
     goto :goto_5
 
     .line 27
     :cond_c
-    invoke-virtual {v4, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v8}, Lorg/json/JSONObject;
+    ->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     .line 28
-    invoke-virtual {v1, v5, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v5, v4}, Landroid/os/BaseBundle;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/NumberFormatException; {:try_start_2 .. :try_end_2} :catch_0
@@ -954,19 +1058,23 @@
     .line 29
     :catch_0
     :try_start_3
-    iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
-    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     move-result-object v4
 
     const-string v5, "Error reading value from SharedPreferences. Value dropped"
 
-    invoke-virtual {v4, v5}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;)V
 
     :cond_d
     :goto_5
@@ -976,7 +1084,8 @@
 
     .line 30
     :cond_e
-    iput-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzc:Landroid/os/Bundle;
+    iput-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzc:Landroid/os/Bundle;
     :try_end_3
     .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -984,47 +1093,57 @@
 
     .line 31
     :catch_1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzjq;->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzjq;
+    ->zzj()Lcom/google/android/gms/measurement/internal/zzhc;
 
     move-result-object v0
 
     .line 32
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzhc;->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzhc;
+    ->zzg()Lcom/google/android/gms/measurement/internal/zzhe;
 
     move-result-object v0
 
     const-string v1, "Error loading bundle from SharedPreferences. Values will be lost"
 
     .line 33
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzhe;
+    ->zza(Ljava/lang/String;)V
 
     .line 34
     :cond_f
     :goto_6
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzc:Landroid/os/Bundle;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzc:Landroid/os/Bundle;
 
     if-nez v0, :cond_10
 
     .line 35
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzb:Landroid/os/Bundle;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzb:Landroid/os/Bundle;
 
-    iput-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzc:Landroid/os/Bundle;
+    iput-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzc:Landroid/os/Bundle;
 
     .line 36
     :cond_10
     new-instance v0, Landroid/os/Bundle;
 
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzc:Landroid/os/Bundle;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzc:Landroid/os/Bundle;
 
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/os/Bundle;
 
-    invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, v1}, Landroid/os/Bundle;
+    -><init>(Landroid/os/Bundle;)V
 return-object v0
 .end method
 
@@ -1038,7 +1157,8 @@ return-object v0
     .line 37
     new-instance p1, Landroid/os/Bundle;
 
-    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p1}, Landroid/os/Bundle;
+    -><init>()V
 
     goto :goto_0
 
@@ -1046,52 +1166,64 @@ return-object v0
     :cond_0
     new-instance v0, Landroid/os/Bundle;
 
-    invoke-direct {v0, p1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p1}, Landroid/os/Bundle;
+    -><init>(Landroid/os/Bundle;)V
 
     move-object p1, v0
 
     .line 39
     :goto_0
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzd:Lcom/google/android/gms/measurement/internal/zzho;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzd:Lcom/google/android/gms/measurement/internal/zzho;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzho;->zzg()Landroid/content/SharedPreferences;
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzho;
+    ->zzg()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
     .line 40
-    invoke-virtual {p1}, Landroid/os/BaseBundle;->size()I
+    invoke-virtual {p1}, Landroid/os/BaseBundle;
+    ->size()I
 
     move-result v1
 
     if-nez v1, :cond_1
 
     .line 41
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zza:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zza:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, v1}, Landroid/content/SharedPreferences$Editor;
+    ->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     goto :goto_1
 
     .line 42
     :cond_1
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zza:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zza:Ljava/lang/String;
 
-    invoke-direct {p0, p1}, Lcom/google/android/gms/measurement/internal/zzhq;->zzb(Landroid/os/Bundle;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzb(Landroid/os/Bundle;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 43
     :goto_1
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 44
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhq;->zzc:Landroid/os/Bundle;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzhq;
+    ->zzc:Landroid/os/Bundle;
 
     return-void
 .end method

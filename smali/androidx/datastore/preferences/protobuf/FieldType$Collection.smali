@@ -54,12 +54,14 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2, v2}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;-><init>(Ljava/lang/String;IZ)V
+    invoke-direct {v0, v1, v2, v2}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    -><init>(Ljava/lang/String;IZ)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->SCALAR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->SCALAR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 10
     .line 11
@@ -74,12 +76,14 @@
     const/4 v4, 0x1
 
     .line 16
-    invoke-direct {v1, v3, v4, v4}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;-><init>(Ljava/lang/String;IZ)V
+    invoke-direct {v1, v3, v4, v4}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    -><init>(Ljava/lang/String;IZ)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v1, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->VECTOR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sput-object v1, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->VECTOR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 20
     .line 21
@@ -94,12 +98,14 @@
     const/4 v6, 0x2
 
     .line 26
-    invoke-direct {v3, v5, v6, v4}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;-><init>(Ljava/lang/String;IZ)V
+    invoke-direct {v3, v5, v6, v4}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    -><init>(Ljava/lang/String;IZ)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v3, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->PACKED_VECTOR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sput-object v3, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->PACKED_VECTOR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 30
     .line 31
@@ -114,12 +120,14 @@
     const/4 v8, 0x3
 
     .line 36
-    invoke-direct {v5, v7, v8, v2}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;-><init>(Ljava/lang/String;IZ)V
+    invoke-direct {v5, v7, v8, v2}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    -><init>(Ljava/lang/String;IZ)V
 
     .line 37
     .line 38
     .line 39
-    sput-object v5, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->MAP:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sput-object v5, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->MAP:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 40
     .line 41
@@ -146,7 +154,8 @@
 
     .line 51
     .line 52
-    sput-object v7, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->$VALUES:[Landroidx/datastore/preferences/protobuf/FieldType$Collection;    return-void
+    sput-object v7, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->$VALUES:[Landroidx/datastore/preferences/protobuf/FieldType$Collection;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;IZ)V
@@ -158,12 +167,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
+    -><init>(Ljava/lang/String;I)V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z
+    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->isList:Z
 return-void
 .end method
 
@@ -175,7 +186,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;
+    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -190,11 +202,13 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->$VALUES:[Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->$VALUES:[Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [Landroidx/datastore/preferences/protobuf/FieldType$Collection;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->clone()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -211,7 +225,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    ->isList:Z    return v0
 .end method
 
 .end class

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/graphics/shapes/FeatureMappingKt;->featureMapper(Ljava/util/List;Ljava/util/List;)Landroidx/graphics/shapes/DoubleMapper;
+    value = Landroidx/graphics/shapes/FeatureMappingKt;
+    ->featureMapper(Ljava/util/List;Ljava/util/List;)Landroidx/graphics/shapes/DoubleMapper;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;
 
-    invoke-direct {v0}, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;-><init>()V
+    invoke-direct {v0}, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;
+    -><init>()V
 
-    sput-object v0, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;->INSTANCE:Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;
+    sput-object v0, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;
+    ->INSTANCE:Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -65,38 +69,48 @@ return-void
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    iget-object v1, p1, Lc1/f;->b:Ljava/lang/Object;
+    iget-object v1, p1, Lc1/f;
+    ->b:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Number;
 
-    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
+    invoke-virtual {v1}, Ljava/lang/Number;
+    ->floatValue()F
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     const-string v1, " -> "
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object p1, p1, Lc1/f;->c:Ljava/lang/Object;
+    iget-object p1, p1, Lc1/f;
+    ->c:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Number;
 
-    invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->floatValue()F
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
@@ -109,7 +123,8 @@ return-void
     .line 2
     check-cast p1, Lc1/f;
 
-    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;->invoke(Lc1/f;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/FeatureMappingKt$featureMapper$1$1;
+    ->invoke(Lc1/f;)Ljava/lang/CharSequence;
 
     move-result-object p1
 

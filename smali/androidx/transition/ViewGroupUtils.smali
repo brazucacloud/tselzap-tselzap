@@ -24,7 +24,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -45,7 +46,8 @@
     const/4 v2, 0x1
 
     .line 4
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 5
     .line 6
@@ -57,7 +59,8 @@
 
     .line 9
     .line 10
-    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils$Api29Impl;->getChildDrawingOrder(Landroid/view/ViewGroup;I)I
+    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils$Api29Impl;
+    ->getChildDrawingOrder(Landroid/view/ViewGroup;I)I
 
     .line 11
     .line 12
@@ -68,7 +71,8 @@
 
     .line 15
     :cond_0
-    sget-boolean v3, Landroidx/transition/ViewGroupUtils;->sGetChildDrawingOrderMethodFetched:Z
+    sget-boolean v3, Landroidx/transition/ViewGroupUtils;
+    ->sGetChildDrawingOrderMethodFetched:Z
 
     .line 16
     .line 17
@@ -89,7 +93,8 @@
 
     .line 24
     .line 25
-    sget-object v6, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Integer;
+    ->TYPE:Ljava/lang/Class;
 
     .line 26
     .line 27
@@ -101,7 +106,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 32
     .line 33
@@ -109,11 +115,13 @@
     move-result-object v3
 
     .line 35
-    sput-object v3, Landroidx/transition/ViewGroupUtils;->sGetChildDrawingOrderMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/transition/ViewGroupUtils;
+    ->sGetChildDrawingOrderMethod:Ljava/lang/reflect/Method;
 
     .line 36
     .line 37
-    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -121,12 +129,14 @@
     .line 39
     .line 40
     :catch_0
-    sput-boolean v2, Landroidx/transition/ViewGroupUtils;->sGetChildDrawingOrderMethodFetched:Z
+    sput-boolean v2, Landroidx/transition/ViewGroupUtils;
+    ->sGetChildDrawingOrderMethodFetched:Z
 
     .line 41
     .line 42
     :cond_1
-    sget-object v3, Landroidx/transition/ViewGroupUtils;->sGetChildDrawingOrderMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/transition/ViewGroupUtils;
+    ->sGetChildDrawingOrderMethod:Ljava/lang/reflect/Method;
 
     .line 43
     .line 44
@@ -135,7 +145,8 @@
     .line 45
     .line 46
     :try_start_1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 47
     .line 48
@@ -143,7 +154,8 @@
     move-result v4
 
     .line 50
-    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 51
     .line 52
@@ -151,7 +163,8 @@
     move-result-object v4
 
     .line 54
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 55
     .line 56
@@ -171,7 +184,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -183,7 +197,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 71
     .line 72
@@ -214,7 +229,8 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ViewGroupUtils;->sTryHiddenSuppressLayout:Z
+    sget-boolean v0, Landroidx/transition/ViewGroupUtils;
+    ->sTryHiddenSuppressLayout:Z
 
     .line 2
     .line 3
@@ -223,7 +239,8 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils$Api29Impl;->suppressLayout(Landroid/view/ViewGroup;Z)V
+    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils$Api29Impl;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -232,7 +249,8 @@
     const/4 p0, 0x0
 
     .line 10
-    sput-boolean p0, Landroidx/transition/ViewGroupUtils;->sTryHiddenSuppressLayout:Z
+    sput-boolean p0, Landroidx/transition/ViewGroupUtils;
+    ->sTryHiddenSuppressLayout:Z
 
     .line 11
     .line 12
@@ -248,7 +266,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -260,11 +279,15 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils$Api29Impl;->suppressLayout(Landroid/view/ViewGroup;Z)V    return-void
+    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils$Api29Impl;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V    
+    return-void
 
     .line 11
     :cond_0
-    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils;->hiddenSuppressLayout(Landroid/view/ViewGroup;Z)V    return-void
+    invoke-static {p0, p1}, Landroidx/transition/ViewGroupUtils;
+    ->hiddenSuppressLayout(Landroid/view/ViewGroup;Z)V    
+    return-void
 .end method
 
 .end class

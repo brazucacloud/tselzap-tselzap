@@ -17,15 +17,20 @@
 .method public constructor <init>(Lcom/google/android/gms/common/internal/MethodInvocation;IJI)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zace;->zaa:Lcom/google/android/gms/common/internal/MethodInvocation;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zace;
+    ->zaa:Lcom/google/android/gms/common/internal/MethodInvocation;
 
-    iput p2, p0, Lcom/google/android/gms/common/api/internal/zace;->zab:I
+    iput p2, p0, Lcom/google/android/gms/common/api/internal/zace;
+    ->zab:I
 
-    iput-wide p3, p0, Lcom/google/android/gms/common/api/internal/zace;->zac:J
+    iput-wide p3, p0, Lcom/google/android/gms/common/api/internal/zace;
+    ->zac:J
 
-    iput p5, p0, Lcom/google/android/gms/common/api/internal/zace;->zad:I
+    iput p5, p0, Lcom/google/android/gms/common/api/internal/zace;
+    ->zad:I
 
     return-void
 .end method

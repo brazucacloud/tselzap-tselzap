@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/SparseArrayKt;->keyIterator(Landroid/util/SparseArray;)Ld1/y;
+    value = Landroidx/core/util/SparseArrayKt;
+    ->keyIterator(Landroid/util/SparseArray;)Ld1/y;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,11 +40,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->$this_keyIterator:Landroid/util/SparseArray;
+    iput-object p1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->$this_keyIterator:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -57,7 +60,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->index:I
+    iget v0, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->index:I
 
     .line 2
     .line 3
@@ -68,15 +72,18 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->index:I
+    iget v0, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->index:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->$this_keyIterator:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->$this_keyIterator:Landroid/util/SparseArray;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {v1}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 6
     .line 7
@@ -103,11 +110,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->$this_keyIterator:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->$this_keyIterator:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->index:I
+    iget v1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->index:I
 
     .line 4
     .line 5
@@ -115,11 +124,13 @@
 
     .line 6
     .line 7
-    iput v2, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->index:I
+    iput v2, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->index:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/util/SparseArray;->keyAt(I)I
+    invoke-virtual {v0, v1}, Landroid/util/SparseArray;
+    ->keyAt(I)I
 
     .line 10
     .line 11
@@ -133,7 +144,8 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;->index:I
+    iput p1, p0, Landroidx/core/util/SparseArrayKt$keyIterator$1;
+    ->index:I
 
     .line 2
     .line 3

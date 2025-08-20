@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/developer/kalert/KAlertDialog;->setURLImage1(Ljava/lang/String;I)Lcom/developer/kalert/KAlertDialog;
+    value = Lcom/developer/kalert/KAlertDialog;
+    ->setURLImage1(Ljava/lang/String;I)Lcom/developer/kalert/KAlertDialog;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,11 +34,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/developer/kalert/KAlertDialog$3;->this$0:Lcom/developer/kalert/KAlertDialog;
+    iput-object p1, p0, Lcom/developer/kalert/KAlertDialog$3;
+    ->this$0:Lcom/developer/kalert/KAlertDialog;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -64,11 +67,13 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/developer/kalert/KAlertDialog$3;->this$0:Lcom/developer/kalert/KAlertDialog;
+    iget-object p1, p0, Lcom/developer/kalert/KAlertDialog$3;
+    ->this$0:Lcom/developer/kalert/KAlertDialog;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/developer/kalert/KAlertDialog;->access$400(Lcom/developer/kalert/KAlertDialog;)Lcom/developer/progressx/ProgressWheel;
+    invoke-static {p1}, Lcom/developer/kalert/KAlertDialog;
+    ->access$400(Lcom/developer/kalert/KAlertDialog;)Lcom/developer/progressx/ProgressWheel;
 
     .line 4
     .line 5
@@ -80,7 +85,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 10
     .line 11
@@ -104,15 +110,18 @@
     .end annotation
 
     .line 2
-    iget-object p1, p0, Lcom/developer/kalert/KAlertDialog$3;->this$0:Lcom/developer/kalert/KAlertDialog;
+    iget-object p1, p0, Lcom/developer/kalert/KAlertDialog$3;
+    ->this$0:Lcom/developer/kalert/KAlertDialog;
 
-    invoke-static {p1}, Lcom/developer/kalert/KAlertDialog;->access$400(Lcom/developer/kalert/KAlertDialog;)Lcom/developer/progressx/ProgressWheel;
+    invoke-static {p1}, Lcom/developer/kalert/KAlertDialog;
+    ->access$400(Lcom/developer/kalert/KAlertDialog;)Lcom/developer/progressx/ProgressWheel;
 
     move-result-object p1
 
     const/16 p2, 0x8
 
-    invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setVisibility(I)V
 
     const/4 p1, 0x0
 
@@ -125,7 +134,8 @@
     .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual/range {p0 .. p5}, Lcom/developer/kalert/KAlertDialog$3;->onResourceReady(Landroid/graphics/drawable/Drawable;Ljava/lang/Object;LB/e;Li/a;Z)Z
+    invoke-virtual/range {p0 .. p5}, Lcom/developer/kalert/KAlertDialog$3;
+    ->onResourceReady(Landroid/graphics/drawable/Drawable;Ljava/lang/Object;LB/e;Li/a;Z)Z
 
     move-result p1
 

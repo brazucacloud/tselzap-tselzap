@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->show(II)V
+    value = Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    ->show(II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;
+    ->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,15 +43,18 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;
+    ->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
+    iget-object v1, v0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    ->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->isVisibleToUser(Landroid/view/View;)Z
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    ->isVisibleToUser(Landroid/view/View;)Z
 
     .line 6
     .line 7
@@ -60,29 +66,35 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;
+    ->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;->dismiss()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;
+    ->dismiss()V
     return-void
 
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;
+    ->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
     .line 18
     .line 19
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->computeContentWidth()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    ->computeContentWidth()V
 
     .line 20
     .line 21
     .line 22
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;
+    ->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
     .line 23
     .line 24
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->access$001(Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;)V
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    ->access$001(Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;)V
 return-void
 .end method
 

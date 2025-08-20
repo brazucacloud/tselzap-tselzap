@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;->startPostponedEnterTransition()V
+    value = Landroidx/fragment/app/Fragment;
+    ->startPostponedEnterTransition()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/Fragment$3;->this$0:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/fragment/app/Fragment$3;
+    ->this$0:Landroidx/fragment/app/Fragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,14 +43,16 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/Fragment$3;->this$0:Landroidx/fragment/app/Fragment;
+    iget-object v0, p0, Landroidx/fragment/app/Fragment$3;
+    ->this$0:Landroidx/fragment/app/Fragment;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->callStartTransitionListener(Z)V
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;
+    ->callStartTransitionListener(Z)V
 return-void
 .end method
 

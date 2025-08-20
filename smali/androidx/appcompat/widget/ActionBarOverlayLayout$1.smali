@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout$1;->this$0:Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    iput-object p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout$1;
+    ->this$0:Landroidx/appcompat/widget/ActionBarOverlayLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
+    -><init>()V
     return-void
 .end method
 
@@ -37,21 +39,24 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout$1;->this$0:Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    iget-object p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout$1;
+    ->this$0:Landroidx/appcompat/widget/ActionBarOverlayLayout;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    iput-object v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;
+    iput-object v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    ->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;
 
     .line 5
     .line 6
     const/4 v0, 0x0
 
     .line 7
-    iput-boolean v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mAnimatingForFling:Z
+    iput-boolean v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    ->mAnimatingForFling:Z
 return-void
 .end method
 
@@ -59,21 +64,24 @@ return-void
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout$1;->this$0:Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    iget-object p1, p0, Landroidx/appcompat/widget/ActionBarOverlayLayout$1;
+    ->this$0:Landroidx/appcompat/widget/ActionBarOverlayLayout;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    iput-object v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;
+    iput-object v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    ->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;
 
     .line 5
     .line 6
     const/4 v0, 0x0
 
     .line 7
-    iput-boolean v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mAnimatingForFling:Z
+    iput-boolean v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;
+    ->mAnimatingForFling:Z
 return-void
 .end method
 

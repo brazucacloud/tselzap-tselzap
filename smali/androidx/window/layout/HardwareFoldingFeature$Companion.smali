@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/layout/HardwareFoldingFeature$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/window/layout/HardwareFoldingFeature$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -41,12 +43,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/window/core/Bounds;->getWidth()I
+    invoke-virtual {p1}, Landroidx/window/core/Bounds;
+    ->getWidth()I
 
     .line 7
     .line 8
@@ -58,7 +62,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroidx/window/core/Bounds;->getHeight()I
+    invoke-virtual {p1}, Landroidx/window/core/Bounds;
+    ->getHeight()I
 
     .line 13
     .line 14
@@ -82,7 +87,8 @@
 
     .line 22
     .line 23
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -92,7 +98,8 @@
     .line 27
     :cond_1
     :goto_0
-    invoke-virtual {p1}, Landroidx/window/core/Bounds;->getLeft()I
+    invoke-virtual {p1}, Landroidx/window/core/Bounds;
+    ->getLeft()I
 
     .line 28
     .line 29
@@ -104,7 +111,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {p1}, Landroidx/window/core/Bounds;->getTop()I
+    invoke-virtual {p1}, Landroidx/window/core/Bounds;
+    ->getTop()I
 
     .line 34
     .line 35
@@ -128,7 +136,8 @@
 
     .line 43
     .line 44
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 45
     .line 46

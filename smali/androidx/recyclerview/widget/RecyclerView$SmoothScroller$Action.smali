@@ -51,7 +51,8 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-direct {p0, p1, p2, v0, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;-><init>(IIILandroid/view/animation/Interpolator;)V
+    invoke-direct {p0, p1, p2, v0, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    -><init>(IIILandroid/view/animation/Interpolator;)V
 
     return-void
 .end method
@@ -70,7 +71,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, p2, p3, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;-><init>(IIILandroid/view/animation/Interpolator;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    -><init>(IIILandroid/view/animation/Interpolator;)V
 
     return-void
 .end method
@@ -91,32 +93,40 @@
     .end param
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, -0x1
 
     .line 4
-    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mJumpToPosition:I
+    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mJumpToPosition:I
 
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 
     .line 6
-    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mConsecutiveUpdates:I
+    iput v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mConsecutiveUpdates:I
 
     .line 7
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDx:I
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDx:I
 
     .line 8
-    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDy:I
+    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDy:I
 
     .line 9
-    iput p3, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I
+    iput p3, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I
 
     .line 10
-    iput-object p4, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mInterpolator:Landroid/view/animation/Interpolator;
+    iput-object p4, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mInterpolator:Landroid/view/animation/Interpolator;
 
     return-void
 .end method
@@ -125,7 +135,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mInterpolator:Landroid/view/animation/Interpolator;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mInterpolator:Landroid/view/animation/Interpolator;
 
     .line 2
     .line 3
@@ -136,7 +147,8 @@
 
     .line 5
     .line 6
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I
 
     .line 7
     .line 8
@@ -156,7 +168,8 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -166,7 +179,8 @@
     .line 19
     :cond_1
     :goto_0
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I
 
     .line 20
     .line 21
@@ -182,7 +196,8 @@
 
     .line 27
     .line 28
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -195,7 +210,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I    return v0
 .end method
 
 .method public getDx()I
@@ -204,7 +220,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDx:I    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDx:I    return v0
 .end method
 
 .method public getDy()I
@@ -213,7 +230,8 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDy:I    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDy:I    return v0
 .end method
 
 .method public getInterpolator()Landroid/view/animation/Interpolator;
@@ -222,14 +240,16 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mInterpolator:Landroid/view/animation/Interpolator;    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mInterpolator:Landroid/view/animation/Interpolator;    return-object v0
 .end method
 
 .method public hasJumpTarget()Z
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mJumpToPosition:I
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mJumpToPosition:I
 
     .line 2
     .line 3
@@ -252,14 +272,17 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mJumpToPosition:I    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mJumpToPosition:I    
+    return-void
 .end method
 
 .method public runIfNecessary(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mJumpToPosition:I
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mJumpToPosition:I
 
     .line 2
     .line 3
@@ -273,21 +296,25 @@
     const/4 v2, -0x1
 
     .line 7
-    iput v2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mJumpToPosition:I
+    iput v2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mJumpToPosition:I
 
     .line 8
     .line 9
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->jumpToPositionForSmoothScroller(I)V
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;
+    ->jumpToPositionForSmoothScroller(I)V
 
     .line 10
     .line 11
     .line 12
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 return-void
 
     .line 15
     :cond_0
-    iget-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iget-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 
     .line 16
     .line 17
@@ -295,37 +322,45 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->validate()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->validate()V
 
     .line 20
     .line 21
     .line 22
-    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView;->mViewFlinger:Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;
+    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mViewFlinger:Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;
 
     .line 23
     .line 24
-    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDx:I
+    iget v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDx:I
 
     .line 25
     .line 26
-    iget v2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDy:I
+    iget v2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDy:I
 
     .line 27
     .line 28
-    iget v3, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I
+    iget v3, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I
 
     .line 29
     .line 30
-    iget-object v4, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mInterpolator:Landroid/view/animation/Interpolator;
+    iget-object v4, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mInterpolator:Landroid/view/animation/Interpolator;
 
     .line 31
     .line 32
-    invoke-virtual {p1, v0, v2, v3, v4}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->smoothScrollBy(IIILandroid/view/animation/Interpolator;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;
+    ->smoothScrollBy(IIILandroid/view/animation/Interpolator;)V
 
     .line 33
     .line 34
     .line 35
-    iget p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mConsecutiveUpdates:I
+    iget p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mConsecutiveUpdates:I
 
     .line 36
     .line 37
@@ -333,7 +368,8 @@ return-void
 
     .line 38
     .line 39
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mConsecutiveUpdates:I
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mConsecutiveUpdates:I
 
     .line 40
     .line 41
@@ -353,18 +389,22 @@ return-void
 
     .line 48
     .line 49
-    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 50
     .line 51
     .line 52
     :cond_1
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 return-void
 
     .line 55
     :cond_2
-    iput v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mConsecutiveUpdates:I    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mConsecutiveUpdates:I    
+    return-void
 .end method
 
 .method public setDuration(I)V
@@ -374,11 +414,14 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 
     .line 3
     .line 4
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I    
+    return-void
 .end method
 
 .method public setDx(I)V
@@ -392,11 +435,14 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 
     .line 3
     .line 4
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDx:I    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDx:I    
+    return-void
 .end method
 
 .method public setDy(I)V
@@ -410,11 +456,14 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 
     .line 3
     .line 4
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDy:I    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDy:I    
+    return-void
 .end method
 
 .method public setInterpolator(Landroid/view/animation/Interpolator;)V
@@ -428,11 +477,14 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mInterpolator:Landroid/view/animation/Interpolator;    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mInterpolator:Landroid/view/animation/Interpolator;    
+    return-void
 .end method
 
 .method public update(IIILandroid/view/animation/Interpolator;)V
@@ -451,26 +503,31 @@ return-void
     .end param
 
     .line 1
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDx:I
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDx:I
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDy:I
+    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDy:I
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mDuration:I
+    iput p3, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mDuration:I
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mInterpolator:Landroid/view/animation/Interpolator;
+    iput-object p4, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mInterpolator:Landroid/view/animation/Interpolator;
 
     .line 8
     .line 9
     const/4 p1, 0x1
 
     .line 10
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->mChanged:Z
 return-void
 .end method
 

@@ -26,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -54,7 +55,8 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;->mCallback:Landroid/graphics/drawable/Drawable$Callback;
+    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;
+    ->mCallback:Landroid/graphics/drawable/Drawable$Callback;
 
     .line 2
     .line 3
@@ -62,7 +64,8 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable$Callback;->scheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;J)V
+    invoke-interface {v0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable$Callback;
+    ->scheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;J)V
 
     .line 6
     .line 7
@@ -83,7 +86,8 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;->mCallback:Landroid/graphics/drawable/Drawable$Callback;
+    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;
+    ->mCallback:Landroid/graphics/drawable/Drawable$Callback;
 
     .line 2
     .line 3
@@ -91,7 +95,8 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, p1, p2}, Landroid/graphics/drawable/Drawable$Callback;->unscheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;)V
+    invoke-interface {v0, p1, p2}, Landroid/graphics/drawable/Drawable$Callback;
+    ->unscheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;)V
 
     .line 6
     .line 7
@@ -104,21 +109,26 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;->mCallback:Landroid/graphics/drawable/Drawable$Callback;
+    iget-object v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;
+    ->mCallback:Landroid/graphics/drawable/Drawable$Callback;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    iput-object v1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;->mCallback:Landroid/graphics/drawable/Drawable$Callback;    return-object v0
+    iput-object v1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;
+    ->mCallback:Landroid/graphics/drawable/Drawable$Callback;    
+    return-object v0
 .end method
 
 .method public wrap(Landroid/graphics/drawable/Drawable$Callback;)Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;->mCallback:Landroid/graphics/drawable/Drawable$Callback;    return-object p0
+    iput-object p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;
+    ->mCallback:Landroid/graphics/drawable/Drawable$Callback;    
+    return-object p0
 .end method
 
 .end class

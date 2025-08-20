@@ -23,7 +23,8 @@
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;
+    ->CLASS:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
 
 
@@ -43,9 +44,11 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    sget-object v0, Landroidx/annotation/VisibleForTesting$Companion;->$$INSTANCE:Landroidx/annotation/VisibleForTesting$Companion;
+    sget-object v0, Landroidx/annotation/VisibleForTesting$Companion;
+    ->$$INSTANCE:Landroidx/annotation/VisibleForTesting$Companion;
 
-    sput-object v0, Landroidx/annotation/VisibleForTesting;->Companion:Landroidx/annotation/VisibleForTesting$Companion;
+    sput-object v0, Landroidx/annotation/VisibleForTesting;
+    ->Companion:Landroidx/annotation/VisibleForTesting$Companion;
 
     return-void
 .end method

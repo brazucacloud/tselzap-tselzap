@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LiveData$1;->this$0:Landroidx/lifecycle/LiveData;
+    iput-object p1, p0, Landroidx/lifecycle/LiveData$1;
+    ->this$0:Landroidx/lifecycle/LiveData;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +42,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LiveData$1;->this$0:Landroidx/lifecycle/LiveData;
+    iget-object v0, p0, Landroidx/lifecycle/LiveData$1;
+    ->this$0:Landroidx/lifecycle/LiveData;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/lifecycle/LiveData;->mDataLock:Ljava/lang/Object;
+    iget-object v0, v0, Landroidx/lifecycle/LiveData;
+    ->mDataLock:Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -52,23 +56,28 @@
 
     .line 6
     :try_start_0
-    iget-object v1, p0, Landroidx/lifecycle/LiveData$1;->this$0:Landroidx/lifecycle/LiveData;
+    iget-object v1, p0, Landroidx/lifecycle/LiveData$1;
+    ->this$0:Landroidx/lifecycle/LiveData;
 
     .line 7
     .line 8
-    iget-object v1, v1, Landroidx/lifecycle/LiveData;->mPendingData:Ljava/lang/Object;
+    iget-object v1, v1, Landroidx/lifecycle/LiveData;
+    ->mPendingData:Ljava/lang/Object;
 
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/lifecycle/LiveData$1;->this$0:Landroidx/lifecycle/LiveData;
+    iget-object v2, p0, Landroidx/lifecycle/LiveData$1;
+    ->this$0:Landroidx/lifecycle/LiveData;
 
     .line 11
     .line 12
-    sget-object v3, Landroidx/lifecycle/LiveData;->NOT_SET:Ljava/lang/Object;
+    sget-object v3, Landroidx/lifecycle/LiveData;
+    ->NOT_SET:Ljava/lang/Object;
 
     .line 13
     .line 14
-    iput-object v3, v2, Landroidx/lifecycle/LiveData;->mPendingData:Ljava/lang/Object;
+    iput-object v3, v2, Landroidx/lifecycle/LiveData;
+    ->mPendingData:Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -77,11 +86,14 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
-    iget-object v0, p0, Landroidx/lifecycle/LiveData$1;->this$0:Landroidx/lifecycle/LiveData;
+    iget-object v0, p0, Landroidx/lifecycle/LiveData$1;
+    ->this$0:Landroidx/lifecycle/LiveData;
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LiveData;->setValue(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LiveData;
+    ->setValue(Ljava/lang/Object;)V    
+    return-void
 
     .line 23
     :catchall_0

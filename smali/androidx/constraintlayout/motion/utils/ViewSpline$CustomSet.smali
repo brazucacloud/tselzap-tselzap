@@ -44,7 +44,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline;
+    -><init>()V
 
     .line 2
     .line 3
@@ -53,7 +54,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->split(Ljava/lang/String;)[Ljava/lang/String;
 
     .line 7
     .line 8
@@ -68,11 +70,14 @@
 
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mAttributeName:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mAttributeName:Ljava/lang/String;
 
     .line 14
     .line 15
-    iput-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;    return-void
+    iput-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;    
+    return-void
 .end method
 
 
@@ -85,7 +90,8 @@
 
     const-string p2, "call of custom attribute setPoint"
 
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -94,9 +100,11 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;
 
-    invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;->append(ILjava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;
+    ->append(ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -104,30 +112,35 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;
 
     .line 2
     .line 3
     float-to-double v1, p2
 
     .line 4
-    iget-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mTempValues:[F
+    iget-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mTempValues:[F
 
     .line 5
     .line 6
-    invoke-virtual {v0, v1, v2, p2}, Landroidx/constraintlayout/core/motion/utils/CurveFit;->getPos(D[F)V
+    invoke-virtual {v0, v1, v2, p2}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    ->getPos(D[F)V
 
     .line 7
     .line 8
     .line 9
-    iget-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
+    iget-object p2, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;
 
     .line 10
     .line 11
     const/4 v0, 0x0
 
     .line 12
-    invoke-virtual {p2, v0}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Landroid/util/SparseArray;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -139,22 +152,27 @@ return-void
 
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mTempValues:[F
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mTempValues:[F
 
     .line 19
     .line 20
-    invoke-static {p2, p1, v0}, Landroidx/constraintlayout/motion/utils/CustomSupport;->setInterpolatedValue(Landroidx/constraintlayout/widget/ConstraintAttribute;Landroid/view/View;[F)V    return-void
+    invoke-static {p2, p1, v0}, Landroidx/constraintlayout/motion/utils/CustomSupport;
+    ->setInterpolatedValue(Landroidx/constraintlayout/widget/ConstraintAttribute;Landroid/view/View;[F)V    
+    return-void
 .end method
 
 .method public setup(I)V
     .locals 11
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
+    invoke-virtual {v0}, Landroid/util/SparseArray;
+    ->size()I
 
     .line 4
     .line 5
@@ -162,14 +180,16 @@ return-void
     move-result v0
 
     .line 7
-    iget-object v1, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;
 
     .line 8
     .line 9
     const/4 v2, 0x0
 
     .line 10
-    invoke-virtual {v1, v2}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Landroid/util/SparseArray;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -181,7 +201,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {v1}, Landroidx/constraintlayout/widget/ConstraintAttribute;->numberOfInterpolatedValues()I
+    invoke-virtual {v1}, Landroidx/constraintlayout/widget/ConstraintAttribute;
+    ->numberOfInterpolatedValues()I
 
     .line 17
     .line 18
@@ -197,7 +218,8 @@ return-void
 
     .line 23
     .line 24
-    iput-object v4, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mTempValues:[F
+    iput-object v4, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mTempValues:[F
 
     .line 25
     .line 26
@@ -219,11 +241,13 @@ return-void
 
     .line 33
     .line 34
-    sget-object v1, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
+    sget-object v1, Ljava/lang/Double;
+    ->TYPE:Ljava/lang/Class;
 
     .line 35
     .line 36
-    invoke-static {v1, v4}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+    invoke-static {v1, v4}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -243,11 +267,13 @@ return-void
 
     .line 44
     .line 45
-    iget-object v5, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
+    iget-object v5, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;
 
     .line 46
     .line 47
-    invoke-virtual {v5, v4}, Landroid/util/SparseArray;->keyAt(I)I
+    invoke-virtual {v5, v4}, Landroid/util/SparseArray;
+    ->keyAt(I)I
 
     .line 48
     .line 49
@@ -255,11 +281,13 @@ return-void
     move-result v5
 
     .line 51
-    iget-object v6, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
+    iget-object v6, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mConstraintAttributeList:Landroid/util/SparseArray;
 
     .line 52
     .line 53
-    invoke-virtual {v6, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v6, v4}, Landroid/util/SparseArray;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -289,11 +317,13 @@ return-void
 
     .line 68
     .line 69
-    iget-object v5, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mTempValues:[F
+    iget-object v5, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mTempValues:[F
 
     .line 70
     .line 71
-    invoke-virtual {v6, v5}, Landroidx/constraintlayout/widget/ConstraintAttribute;->getValuesToInterpolate([F)V
+    invoke-virtual {v6, v5}, Landroidx/constraintlayout/widget/ConstraintAttribute;
+    ->getValuesToInterpolate([F)V
 
     .line 72
     .line 73
@@ -302,7 +332,8 @@ return-void
 
     .line 75
     :goto_1
-    iget-object v6, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mTempValues:[F
+    iget-object v6, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;
+    ->mTempValues:[F
 
     .line 76
     .line 77
@@ -344,7 +375,8 @@ return-void
 
     .line 93
     :cond_1
-    invoke-static {p1, v3, v1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;->get(I[D[[D)Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    invoke-static {p1, v3, v1}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
+    ->get(I[D[[D)Landroidx/constraintlayout/core/motion/utils/CurveFit;
 
     .line 94
     .line 95
@@ -352,7 +384,9 @@ return-void
     move-result-object p1
 
     .line 97
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet;
+    ->mCurveFit:Landroidx/constraintlayout/core/motion/utils/CurveFit;    
+    return-void
 .end method
 
 .end class

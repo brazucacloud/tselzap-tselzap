@@ -30,22 +30,26 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;-><init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
+    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    -><init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
 
     const/4 p1, 0x0
 
     .line 2
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     const p1, 0x7f7fffff    # Float.MAX_VALUE
 
     .line 3
-    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     const/4 p1, 0x0
 
     .line 4
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mEndRequested:Z
 return-void
 .end method
 
@@ -62,22 +66,26 @@ return-void
     .end annotation
 
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/dynamicanimation/animation/DynamicAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;)V
+    invoke-direct {p0, p1, p2}, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    -><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;)V
 
     const/4 p1, 0x0
 
     .line 6
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     const p1, 0x7f7fffff    # Float.MAX_VALUE
 
     .line 7
-    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     const/4 p1, 0x0
 
     .line 8
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mEndRequested:Z
 return-void
 .end method
 
@@ -94,29 +102,35 @@ return-void
     .end annotation
 
     .line 9
-    invoke-direct {p0, p1, p2}, Landroidx/dynamicanimation/animation/DynamicAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;)V
+    invoke-direct {p0, p1, p2}, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    -><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;)V
 
     const/4 p1, 0x0
 
     .line 10
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     const p1, 0x7f7fffff    # Float.MAX_VALUE
 
     .line 11
-    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     const/4 p1, 0x0
 
     .line 12
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mEndRequested:Z
 
     .line 13
     new-instance p1, Landroidx/dynamicanimation/animation/SpringForce;
 
-    invoke-direct {p1, p3}, Landroidx/dynamicanimation/animation/SpringForce;-><init>(F)V
+    invoke-direct {p1, p3}, Landroidx/dynamicanimation/animation/SpringForce;
+    -><init>(F)V
 
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     return-void
 .end method
@@ -125,7 +139,8 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 2
     .line 3
@@ -133,7 +148,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/dynamicanimation/animation/SpringForce;->getFinalPosition()F
+    invoke-virtual {v0}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->getFinalPosition()F
 
     .line 6
     .line 7
@@ -144,7 +160,8 @@ return-void
     float-to-double v0, v0
 
     .line 10
-    iget v2, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMaxValue:F
+    iget v2, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mMaxValue:F
 
     .line 11
     .line 12
@@ -159,7 +176,8 @@ return-void
 
     .line 16
     .line 17
-    iget v2, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMinValue:F
+    iget v2, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mMinValue:F
 
     .line 18
     .line 19
@@ -182,7 +200,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -199,7 +218,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -216,7 +236,8 @@ return-void
 
     .line 44
     .line 45
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -229,7 +250,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;->isRunning()Z
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->isRunning()Z
 
     .line 2
     .line 3
@@ -241,11 +263,14 @@ return-void
 
     .line 6
     .line 7
-    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F    return-void
+    iput p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F    
+    return-void
 
     .line 10
     :cond_0
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 11
     .line 12
@@ -257,26 +282,31 @@ return-void
 
     .line 15
     .line 16
-    invoke-direct {v0, p1}, Landroidx/dynamicanimation/animation/SpringForce;-><init>(F)V
+    invoke-direct {v0, p1}, Landroidx/dynamicanimation/animation/SpringForce;
+    -><init>(F)V
 
     .line 17
     .line 18
     .line 19
-    iput-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iput-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 20
     .line 21
     :cond_1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 22
     .line 23
-    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/SpringForce;->setFinalPosition(F)Landroidx/dynamicanimation/animation/SpringForce;
+    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->setFinalPosition(F)Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->start()V
     return-void
 .end method
 
@@ -284,11 +314,13 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 2
     .line 3
-    iget-wide v0, v0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
+    iget-wide v0, v0, Landroidx/dynamicanimation/animation/SpringForce;
+    ->mDampingRatio:D
 
     .line 4
     .line 5
@@ -319,11 +351,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/dynamicanimation/animation/SpringForce;->getAcceleration(FF)F
+    invoke-virtual {v0, p1, p2}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->getAcceleration(FF)F
 
     .line 4
     .line 5
@@ -337,18 +371,21 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;    return-object v0
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;    return-object v0
 .end method
 
 .method public isAtEquilibrium(FF)Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/dynamicanimation/animation/SpringForce;->isAtEquilibrium(FF)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->isAtEquilibrium(FF)Z
 
     .line 4
     .line 5
@@ -362,7 +399,9 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;    return-object p0
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;    
+    return-object p0
 .end method
 
 .method public setValueThreshold(F)V
@@ -375,7 +414,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;->canSkipToEnd()Z
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->canSkipToEnd()Z
 
     .line 2
     .line 3
@@ -387,7 +427,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     .line 8
     .line 9
@@ -395,7 +436,8 @@ return-void
     move-result-object v0
 
     .line 11
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 12
     .line 13
@@ -407,7 +449,8 @@ return-void
 
     .line 16
     .line 17
-    iget-boolean v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mRunning:Z
+    iget-boolean v0, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mRunning:Z
 
     .line 18
     .line 19
@@ -418,7 +461,8 @@ return-void
     const/4 v0, 0x1
 
     .line 22
-    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
+    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mEndRequested:Z
 
     .line 23
     .line 24
@@ -435,7 +479,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v0, v1}, Landroid/util/AndroidRuntimeException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/util/AndroidRuntimeException;
+    -><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -452,7 +497,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -463,16 +509,19 @@ return-void
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;->sanityCheck()V
+    invoke-direct {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->sanityCheck()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;->getValueThreshold()F
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->getValueThreshold()F
 
     .line 7
     .line 8
@@ -483,12 +532,14 @@ return-void
     float-to-double v1, v1
 
     .line 11
-    invoke-virtual {v0, v1, v2}, Landroidx/dynamicanimation/animation/SpringForce;->setValueThreshold(D)V
+    invoke-virtual {v0, v1, v2}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->setValueThreshold(D)V
 
     .line 12
     .line 13
     .line 14
-    invoke-super {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;->start()V
+    invoke-super {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->start()V
 return-void
 .end method
 
@@ -500,7 +551,8 @@ return-void
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
+    iget-boolean v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mEndRequested:Z
 
     .line 4
     .line 5
@@ -522,7 +574,8 @@ return-void
 
     .line 12
     .line 13
-    iget v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     .line 14
     .line 15
@@ -534,25 +587,30 @@ return-void
 
     .line 18
     .line 19
-    iget-object v6, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v6, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 20
     .line 21
-    invoke-virtual {v6, v1}, Landroidx/dynamicanimation/animation/SpringForce;->setFinalPosition(F)Landroidx/dynamicanimation/animation/SpringForce;
+    invoke-virtual {v6, v1}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->setFinalPosition(F)Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 22
     .line 23
     .line 24
-    iput v5, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iput v5, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     .line 25
     .line 26
     :cond_0
-    iget-object v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 27
     .line 28
-    invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringForce;->getFinalPosition()F
+    invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->getFinalPosition()F
 
     .line 29
     .line 30
@@ -560,19 +618,24 @@ return-void
     move-result v1
 
     .line 32
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 33
     .line 34
-    iput v4, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
+    iput v4, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F
 
     .line 35
     .line 36
-    iput-boolean v3, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z    return v2
+    iput-boolean v3, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mEndRequested:Z    
+    return v2
 
     .line 39
     :cond_1
-    iget v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     .line 40
     .line 41
@@ -584,27 +647,32 @@ return-void
 
     .line 44
     .line 45
-    iget-object v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 46
     .line 47
-    invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringForce;->getFinalPosition()F
+    invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->getFinalPosition()F
 
     .line 48
     .line 49
     .line 50
-    iget-object v6, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v6, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 51
     .line 52
-    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 53
     .line 54
     float-to-double v7, v1
 
     .line 55
-    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F
 
     .line 56
     .line 57
@@ -623,7 +691,8 @@ return-void
 
     .line 63
     .line 64
-    invoke-virtual/range {v6 .. v12}, Landroidx/dynamicanimation/animation/SpringForce;->updateValues(DDJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    invoke-virtual/range {v6 .. v12}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->updateValues(DDJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 65
     .line 66
@@ -631,35 +700,42 @@ return-void
     move-result-object v1
 
     .line 68
-    iget-object v6, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v6, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 69
     .line 70
-    iget v7, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iget v7, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     .line 71
     .line 72
-    invoke-virtual {v6, v7}, Landroidx/dynamicanimation/animation/SpringForce;->setFinalPosition(F)Landroidx/dynamicanimation/animation/SpringForce;
+    invoke-virtual {v6, v7}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->setFinalPosition(F)Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 73
     .line 74
     .line 75
-    iput v5, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mPendingPosition:F
+    iput v5, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mPendingPosition:F
 
     .line 76
     .line 77
-    iget-object v13, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v13, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 78
     .line 79
-    iget v5, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mValue:F
+    iget v5, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    ->mValue:F
 
     .line 80
     .line 81
     float-to-double v14, v5
 
     .line 82
-    iget v1, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
+    iget v1, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    ->mVelocity:F
 
     .line 83
     .line 84
@@ -670,7 +746,8 @@ return-void
 
     .line 86
     .line 87
-    invoke-virtual/range {v13 .. v19}, Landroidx/dynamicanimation/animation/SpringForce;->updateValues(DDJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    invoke-virtual/range {v13 .. v19}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->updateValues(DDJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 88
     .line 89
@@ -678,19 +755,23 @@ return-void
     move-result-object v1
 
     .line 91
-    iget v5, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mValue:F
+    iget v5, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    ->mValue:F
 
     .line 92
     .line 93
-    iput v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iput v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 94
     .line 95
-    iget v1, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
+    iget v1, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    ->mVelocity:F
 
     .line 96
     .line 97
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F
 
     .line 98
     .line 99
@@ -698,18 +779,21 @@ return-void
 
     .line 100
     :cond_2
-    iget-object v5, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v5, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 101
     .line 102
-    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 103
     .line 104
     float-to-double v6, v1
 
     .line 105
-    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F
 
     .line 106
     .line 107
@@ -720,7 +804,8 @@ return-void
 
     .line 109
     .line 110
-    invoke-virtual/range {v5 .. v11}, Landroidx/dynamicanimation/animation/SpringForce;->updateValues(DDJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    invoke-virtual/range {v5 .. v11}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->updateValues(DDJ)Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 111
     .line 112
@@ -728,32 +813,39 @@ return-void
     move-result-object v1
 
     .line 114
-    iget v5, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mValue:F
+    iget v5, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    ->mValue:F
 
     .line 115
     .line 116
-    iput v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iput v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 117
     .line 118
-    iget v1, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
+    iget v1, v1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    ->mVelocity:F
 
     .line 119
     .line 120
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F
 
     .line 121
     .line 122
     :goto_0
-    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iget v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 123
     .line 124
-    iget v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMinValue:F
+    iget v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mMinValue:F
 
     .line 125
     .line 126
-    invoke-static {v1, v5}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v1, v5}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 127
     .line 128
@@ -761,15 +853,18 @@ return-void
     move-result v1
 
     .line 130
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 131
     .line 132
-    iget v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mMaxValue:F
+    iget v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mMaxValue:F
 
     .line 133
     .line 134
-    invoke-static {v1, v5}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v1, v5}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 135
     .line 136
@@ -777,15 +872,18 @@ return-void
     move-result v1
 
     .line 138
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 139
     .line 140
-    iget v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F
+    iget v5, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F
 
     .line 141
     .line 142
-    invoke-virtual {v0, v1, v5}, Landroidx/dynamicanimation/animation/SpringAnimation;->isAtEquilibrium(FF)Z
+    invoke-virtual {v0, v1, v5}, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->isAtEquilibrium(FF)Z
 
     .line 143
     .line 144
@@ -797,11 +895,13 @@ return-void
 
     .line 147
     .line 148
-    iget-object v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
+    iget-object v1, v0, Landroidx/dynamicanimation/animation/SpringAnimation;
+    ->mSpring:Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 149
     .line 150
-    invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringForce;->getFinalPosition()F
+    invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringForce;
+    ->getFinalPosition()F
 
     .line 151
     .line 152
@@ -809,11 +909,14 @@ return-void
     move-result v1
 
     .line 154
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mValue:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mValue:F
 
     .line 155
     .line 156
-    iput v4, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mVelocity:F    return v2
+    iput v4, v0, Landroidx/dynamicanimation/animation/DynamicAnimation;
+    ->mVelocity:F    
+    return v2
 
     .line 159
     :cond_3

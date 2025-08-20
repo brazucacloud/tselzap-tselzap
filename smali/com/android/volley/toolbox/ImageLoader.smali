@@ -53,7 +53,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -62,7 +63,8 @@
 
     .line 5
     .line 6
-    iput v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchResponseDelayMs:I
+    iput v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchResponseDelayMs:I
 
     .line 7
     .line 8
@@ -70,12 +72,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mInFlightRequests:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mInFlightRequests:Ljava/util/HashMap;
 
     .line 14
     .line 15
@@ -83,12 +87,14 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    iput-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchedResponses:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchedResponses:Ljava/util/HashMap;
 
     .line 21
     .line 22
@@ -96,7 +102,8 @@
 
     .line 23
     .line 24
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 25
     .line 26
@@ -104,20 +111,24 @@
     move-result-object v1
 
     .line 28
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 29
     .line 30
     .line 31
-    iput-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mHandler:Landroid/os/Handler;
+    iput-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mHandler:Landroid/os/Handler;
 
     .line 32
     .line 33
-    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;->mRequestQueue:Lcom/android/volley/RequestQueue;
+    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mRequestQueue:Lcom/android/volley/RequestQueue;
 
     .line 34
     .line 35
-    iput-object p2, p0, Lcom/android/volley/toolbox/ImageLoader;->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    iput-object p2, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
 
     .line 36
     .line 37
@@ -128,7 +139,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/android/volley/toolbox/ImageLoader;->mInFlightRequests:Ljava/util/HashMap;
+    iget-object p0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mInFlightRequests:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -139,7 +151,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchedResponses:Ljava/util/HashMap;
+    iget-object p0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchedResponses:Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -150,7 +163,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;->mRunnable:Ljava/lang/Runnable;
+    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mRunnable:Ljava/lang/Runnable;
 
     .line 2
     .line 3
@@ -161,16 +175,19 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchedResponses:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchedResponses:Ljava/util/HashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;->mRunnable:Ljava/lang/Runnable;
+    iget-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mRunnable:Ljava/lang/Runnable;
 
     .line 7
     .line 8
@@ -182,27 +199,32 @@
 
     .line 11
     .line 12
-    invoke-direct {p1, p0}, Lcom/android/volley/toolbox/ImageLoader$4;-><init>(Lcom/android/volley/toolbox/ImageLoader;)V
+    invoke-direct {p1, p0}, Lcom/android/volley/toolbox/ImageLoader$4;
+    -><init>(Lcom/android/volley/toolbox/ImageLoader;)V
 
     .line 13
     .line 14
     .line 15
-    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;->mRunnable:Ljava/lang/Runnable;
+    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mRunnable:Ljava/lang/Runnable;
 
     .line 16
     .line 17
-    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader;->mHandler:Landroid/os/Handler;
+    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mHandler:Landroid/os/Handler;
 
     .line 18
     .line 19
-    iget v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchResponseDelayMs:I
+    iget v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchResponseDelayMs:I
 
     .line 20
     .line 21
     int-to-long v0, v0
 
     .line 22
-    invoke-virtual {p2, p1, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p2, p1, v0, v1}, Landroid/os/Handler;
+    ->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 23
     .line 24
@@ -219,7 +241,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 4
     .line 5
@@ -231,7 +254,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
     .line 10
     .line 11
@@ -240,12 +264,14 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
@@ -254,12 +280,14 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
@@ -268,12 +296,14 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p3}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p3}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 34
     .line 35
@@ -281,17 +311,20 @@
     move-result p1
 
     .line 37
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -309,7 +342,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p2, p0, p1}, Lcom/android/volley/toolbox/ImageLoader$1;-><init>(ILandroid/widget/ImageView;I)V
+    invoke-direct {v0, p2, p0, p1}, Lcom/android/volley/toolbox/ImageLoader$1;
+    -><init>(ILandroid/widget/ImageView;I)V
 
     .line 4
     .line 5
@@ -325,7 +359,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, p2, v0, v0}, Lcom/android/volley/toolbox/ImageLoader;->get(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;II)Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
+    invoke-virtual {p0, p1, p2, v0, v0}, Lcom/android/volley/toolbox/ImageLoader;
+    ->get(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;II)Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
 
     move-result-object p1
 
@@ -336,7 +371,8 @@
     .locals 6
 
     .line 2
-    sget-object v5, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
+    sget-object v5, Landroid/widget/ImageView$ScaleType;
+    ->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
 
     move-object v0, p0
 
@@ -348,7 +384,8 @@
 
     move v4, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader;->get(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;IILandroid/widget/ImageView$ScaleType;)Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
+    invoke-virtual/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader;
+    ->get(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;IILandroid/widget/ImageView$ScaleType;)Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
 
     move-result-object p1
 
@@ -361,19 +398,23 @@
     .end annotation
 
     .line 3
-    invoke-static {}, Lcom/android/volley/toolbox/Threads;->throwIfNotOnMainThread()V
+    invoke-static {}, Lcom/android/volley/toolbox/Threads;
+    ->throwIfNotOnMainThread()V
 
     move-object v7, p5
 
     .line 4
-    invoke-static {p1, p3, p4, p5}, Lcom/android/volley/toolbox/ImageLoader;->getCacheKey(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;)Ljava/lang/String;
+    invoke-static {p1, p3, p4, p5}, Lcom/android/volley/toolbox/ImageLoader;
+    ->getCacheKey(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;)Ljava/lang/String;
 
     move-result-object v4
 
     .line 5
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
 
-    invoke-interface {v0, v4}, Lcom/android/volley/toolbox/ImageLoader$ImageCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-interface {v0, v4}, Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    ->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -392,10 +433,12 @@
 
     move-object v3, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;-><init>(Lcom/android/volley/toolbox/ImageLoader;Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;)V
+    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
+    -><init>(Lcom/android/volley/toolbox/ImageLoader;Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;)V
 
     .line 7
-    invoke-interface {p2, v0, v8}, Lcom/android/volley/toolbox/ImageLoader$ImageListener;->onResponse(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;Z)V
+    invoke-interface {p2, v0, v8}, Lcom/android/volley/toolbox/ImageLoader$ImageListener;
+    ->onResponse(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;Z)V
 return-object v0
 
     .line 8
@@ -410,17 +453,21 @@ return-object v0
 
     move-object v5, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;-><init>(Lcom/android/volley/toolbox/ImageLoader;Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;)V
+    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader$ImageContainer;
+    -><init>(Lcom/android/volley/toolbox/ImageLoader;Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$ImageListener;)V
 
     move-object v6, v0
 
     .line 9
-    invoke-interface {p2, v6, v8}, Lcom/android/volley/toolbox/ImageLoader$ImageListener;->onResponse(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;Z)V
+    invoke-interface {p2, v6, v8}, Lcom/android/volley/toolbox/ImageLoader$ImageListener;
+    ->onResponse(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;Z)V
 
     .line 10
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mInFlightRequests:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mInFlightRequests:Ljava/util/HashMap;
 
-    invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -429,9 +476,11 @@ return-object v0
     if-nez v0, :cond_1
 
     .line 11
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchedResponses:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchedResponses:Ljava/util/HashMap;
 
-    invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -441,7 +490,8 @@ return-object v0
     if-eqz v0, :cond_2
 
     .line 12
-    invoke-virtual {v0, v6}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;->addContainer(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;)V
+    invoke-virtual {v0, v6}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;
+    ->addContainer(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;)V
 return-object v6
 
     :cond_2
@@ -458,25 +508,31 @@ return-object v6
     move-object v4, v7
 
     .line 13
-    invoke-virtual/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader;->makeImageRequest(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;Ljava/lang/String;)Lcom/android/volley/Request;
+    invoke-virtual/range {v0 .. v5}, Lcom/android/volley/toolbox/ImageLoader;
+    ->makeImageRequest(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;Ljava/lang/String;)Lcom/android/volley/Request;
 
     move-result-object v1
 
     move-object v4, v5
 
     .line 14
-    iget-object v2, p0, Lcom/android/volley/toolbox/ImageLoader;->mRequestQueue:Lcom/android/volley/RequestQueue;
+    iget-object v2, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mRequestQueue:Lcom/android/volley/RequestQueue;
 
-    invoke-virtual {v2, v1}, Lcom/android/volley/RequestQueue;->add(Lcom/android/volley/Request;)Lcom/android/volley/Request;
+    invoke-virtual {v2, v1}, Lcom/android/volley/RequestQueue;
+    ->add(Lcom/android/volley/Request;)Lcom/android/volley/Request;
 
     .line 15
-    iget-object v2, p0, Lcom/android/volley/toolbox/ImageLoader;->mInFlightRequests:Ljava/util/HashMap;
+    iget-object v2, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mInFlightRequests:Ljava/util/HashMap;
 
     new-instance v3, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;
 
-    invoke-direct {v3, v1, v6}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;-><init>(Lcom/android/volley/Request;Lcom/android/volley/toolbox/ImageLoader$ImageContainer;)V
+    invoke-direct {v3, v1, v6}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;
+    -><init>(Lcom/android/volley/Request;Lcom/android/volley/toolbox/ImageLoader$ImageContainer;)V
 
-    invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object v6
 .end method
@@ -485,9 +541,11 @@ return-object v6
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
+    sget-object v0, Landroid/widget/ImageView$ScaleType;
+    ->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p0, p1, p2, p3, v0}, Lcom/android/volley/toolbox/ImageLoader;->isCached(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;)Z
+    invoke-virtual {p0, p1, p2, p3, v0}, Lcom/android/volley/toolbox/ImageLoader;
+    ->isCached(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;)Z
 
     move-result p1
 
@@ -500,17 +558,21 @@ return-object v6
     .end annotation
 
     .line 2
-    invoke-static {}, Lcom/android/volley/toolbox/Threads;->throwIfNotOnMainThread()V
+    invoke-static {}, Lcom/android/volley/toolbox/Threads;
+    ->throwIfNotOnMainThread()V
 
     .line 3
-    invoke-static {p1, p2, p3, p4}, Lcom/android/volley/toolbox/ImageLoader;->getCacheKey(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;)Ljava/lang/String;
+    invoke-static {p1, p2, p3, p4}, Lcom/android/volley/toolbox/ImageLoader;
+    ->getCacheKey(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;)Ljava/lang/String;
 
     move-result-object p1
 
     .line 4
-    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader;->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    iget-object p2, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
 
-    invoke-interface {p2, p1}, Lcom/android/volley/toolbox/ImageLoader$ImageCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-interface {p2, p1}, Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    ->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
@@ -551,12 +613,14 @@ return-object v6
 
     .line 4
     .line 5
-    invoke-direct {v2, p0, p5}, Lcom/android/volley/toolbox/ImageLoader$2;-><init>(Lcom/android/volley/toolbox/ImageLoader;Ljava/lang/String;)V
+    invoke-direct {v2, p0, p5}, Lcom/android/volley/toolbox/ImageLoader$2;
+    -><init>(Lcom/android/volley/toolbox/ImageLoader;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    sget-object v6, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
+    sget-object v6, Landroid/graphics/Bitmap$Config;
+    ->RGB_565:Landroid/graphics/Bitmap$Config;
 
     .line 9
     .line 10
@@ -564,7 +628,8 @@ return-object v6
 
     .line 11
     .line 12
-    invoke-direct {v7, p0, p5}, Lcom/android/volley/toolbox/ImageLoader$3;-><init>(Lcom/android/volley/toolbox/ImageLoader;Ljava/lang/String;)V
+    invoke-direct {v7, p0, p5}, Lcom/android/volley/toolbox/ImageLoader$3;
+    -><init>(Lcom/android/volley/toolbox/ImageLoader;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -581,7 +646,8 @@ return-object v6
     move-object v5, p4
 
     .line 19
-    invoke-direct/range {v0 .. v7}, Lcom/android/volley/toolbox/ImageRequest;-><init>(Ljava/lang/String;Lcom/android/volley/Response$Listener;IILandroid/widget/ImageView$ScaleType;Landroid/graphics/Bitmap$Config;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct/range {v0 .. v7}, Lcom/android/volley/toolbox/ImageRequest;
+    -><init>(Ljava/lang/String;Lcom/android/volley/Response$Listener;IILandroid/widget/ImageView$ScaleType;Landroid/graphics/Bitmap$Config;Lcom/android/volley/Response$ErrorListener;)V
 
     .line 20
     .line 21
@@ -593,11 +659,13 @@ return-object v6
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mInFlightRequests:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mInFlightRequests:Ljava/util/HashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -613,12 +681,14 @@ return-object v6
 
     .line 10
     .line 11
-    invoke-virtual {v0, p2}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;->setError(Lcom/android/volley/VolleyError;)V
+    invoke-virtual {v0, p2}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;
+    ->setError(Lcom/android/volley/VolleyError;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/ImageLoader;->batchResponse(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;)V
+    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/ImageLoader;
+    ->batchResponse(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;)V
 
     .line 15
     .line 16
@@ -631,20 +701,24 @@ return-object v6
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mCache:Lcom/android/volley/toolbox/ImageLoader$ImageCache;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Lcom/android/volley/toolbox/ImageLoader$ImageCache;->putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
+    invoke-interface {v0, p1, p2}, Lcom/android/volley/toolbox/ImageLoader$ImageCache;
+    ->putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;->mInFlightRequests:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mInFlightRequests:Ljava/util/HashMap;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -660,12 +734,14 @@ return-object v6
 
     .line 15
     .line 16
-    invoke-static {v0, p2}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;->access$002(Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v0, p2}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;
+    ->access$002(Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 17
     .line 18
     .line 19
-    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/ImageLoader;->batchResponse(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;)V
+    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/ImageLoader;
+    ->batchResponse(Ljava/lang/String;Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;)V
 
     .line 20
     .line 21
@@ -678,7 +754,8 @@ return-object v6
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/android/volley/toolbox/ImageLoader;->mBatchResponseDelayMs:I
+    iput p1, p0, Lcom/android/volley/toolbox/ImageLoader;
+    ->mBatchResponseDelayMs:I
 
     .line 2
     .line 3

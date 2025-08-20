@@ -14,7 +14,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi23;-><init>()V
+    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi23;
+    -><init>()V
     return-void
 .end method
 
@@ -28,7 +29,8 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Landroidx/core/view/o;->a(Landroid/view/View;)F
+    invoke-static {p1}, Landroidx/core/view/o;
+    ->a(Landroid/view/View;)F
 
     .line 2
     .line 3
@@ -50,7 +52,9 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/core/view/o;->q(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
+    invoke-static {p1, p2}, Landroidx/core/view/o;
+    ->q(Landroid/view/View;Landroid/graphics/Matrix;)V    
+    return-void
 .end method
 
 .method public setLeftTopRightBottom(Landroid/view/View;IIII)V
@@ -61,7 +65,9 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2, p3, p4, p5}, Landroidx/core/view/o;->p(Landroid/view/View;IIII)V    return-void
+    invoke-static {p1, p2, p3, p4, p5}, Landroidx/core/view/o;
+    ->p(Landroid/view/View;IIII)V    
+    return-void
 .end method
 
 .method public setTransitionAlpha(Landroid/view/View;F)V
@@ -72,7 +78,9 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/core/view/o;->n(Landroid/view/View;F)V    return-void
+    invoke-static {p1, p2}, Landroidx/core/view/o;
+    ->n(Landroid/view/View;F)V    
+    return-void
 .end method
 
 .method public setTransitionVisibility(Landroid/view/View;I)V
@@ -83,7 +91,9 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/core/view/o;->o(Landroid/view/View;I)V    return-void
+    invoke-static {p1, p2}, Landroidx/core/view/o;
+    ->o(Landroid/view/View;I)V    
+    return-void
 .end method
 
 .method public transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -98,7 +108,9 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/core/view/o;->z(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
+    invoke-static {p1, p2}, Landroidx/core/view/o;
+    ->z(Landroid/view/View;Landroid/graphics/Matrix;)V    
+    return-void
 .end method
 
 .method public transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V
@@ -113,7 +125,9 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/core/view/o;->C(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
+    invoke-static {p1, p2}, Landroidx/core/view/o;
+    ->C(Landroid/view/View;Landroid/graphics/Matrix;)V    
+    return-void
 .end method
 
 .end class

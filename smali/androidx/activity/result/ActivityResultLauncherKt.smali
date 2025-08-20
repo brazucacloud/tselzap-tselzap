@@ -21,7 +21,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
+    invoke-virtual {p0, v0, p1}, Landroidx/activity/result/ActivityResultLauncher;
+    ->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
 return-void
 .end method
 
@@ -41,7 +42,8 @@ return-void
 
     .line 6
     :cond_0
-    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultLauncherKt;->launch(Landroidx/activity/result/ActivityResultLauncher;Landroidx/core/app/ActivityOptionsCompat;)V
+    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultLauncherKt;
+    ->launch(Landroidx/activity/result/ActivityResultLauncher;Landroidx/core/app/ActivityOptionsCompat;)V
 return-void
 .end method
 
@@ -59,11 +61,13 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Lc1/v;->a:Lc1/v;
+    sget-object v0, Lc1/v;
+    ->a:Lc1/v;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0, p1}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
+    invoke-virtual {p0, v0, p1}, Landroidx/activity/result/ActivityResultLauncher;
+    ->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
 return-void
 .end method
 
@@ -83,7 +87,8 @@ return-void
 
     .line 6
     :cond_0
-    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultLauncherKt;->launchUnit(Landroidx/activity/result/ActivityResultLauncher;Landroidx/core/app/ActivityOptionsCompat;)V
+    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultLauncherKt;
+    ->launchUnit(Landroidx/activity/result/ActivityResultLauncher;Landroidx/core/app/ActivityOptionsCompat;)V
 return-void
 .end method
 

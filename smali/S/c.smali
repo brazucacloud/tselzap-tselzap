@@ -31,7 +31,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -39,7 +40,8 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+    invoke-static {v0}, Ljava/util/logging/Logger;
+    ->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     .line 8
     .line 9
@@ -47,7 +49,8 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, LS/c;->f:Ljava/util/logging/Logger;
+    sput-object v0, LS/c;
+    ->f:Ljava/util/logging/Logger;
 
     .line 12
     .line 13
@@ -58,28 +61,34 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LS/c;->b:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, LS/c;
+    ->b:Ljava/util/concurrent/Executor;
 
     .line 5
     .line 6
-    iput-object p2, p0, LS/c;->c:LO/f;
+    iput-object p2, p0, LS/c;
+    ->c:LO/f;
 
     .line 7
     .line 8
-    iput-object p3, p0, LS/c;->a:LT/d;
+    iput-object p3, p0, LS/c;
+    ->a:LT/d;
 
     .line 9
     .line 10
-    iput-object p4, p0, LS/c;->d:LU/d;
+    iput-object p4, p0, LS/c;
+    ->d:LU/d;
 
     .line 11
     .line 12
-    iput-object p5, p0, LS/c;->e:LV/c;
+    iput-object p5, p0, LS/c;
+    ->e:LV/c;
 
     .line 13
     .line 14

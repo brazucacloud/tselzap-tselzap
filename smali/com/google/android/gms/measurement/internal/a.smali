@@ -10,7 +10,8 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Landroid/app/BroadcastOptions;->setShareIdentityEnabled(Z)Landroid/app/BroadcastOptions;
+    invoke-virtual {p0, v0}, Landroid/app/BroadcastOptions;
+    ->setShareIdentityEnabled(Z)Landroid/app/BroadcastOptions;
 
     move-result-object p0
 
@@ -21,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/BroadcastOptions;->toBundle()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/app/BroadcastOptions;
+    ->toBundle()Landroid/os/Bundle;
 
     move-result-object p0
 
@@ -34,7 +36,8 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0, p2}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {p0, p1, v0, p2}, Landroid/content/Context;
+    ->sendBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/os/Bundle;)V
 return-void
 .end method
 

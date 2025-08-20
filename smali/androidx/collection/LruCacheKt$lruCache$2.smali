@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/collection/LruCacheKt;->lruCache$default(ILp1/p;Lp1/l;Lp1/r;ILjava/lang/Object;)Landroidx/collection/LruCache;
+    value = Landroidx/collection/LruCacheKt;
+    ->lruCache$default(ILp1/p;Lp1/l;Lp1/r;ILjava/lang/Object;)Landroidx/collection/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,9 +28,11 @@
 
     new-instance v0, Landroidx/collection/LruCacheKt$lruCache$2;
 
-    invoke-direct {v0}, Landroidx/collection/LruCacheKt$lruCache$2;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/LruCacheKt$lruCache$2;
+    -><init>()V
 
-    sput-object v0, Landroidx/collection/LruCacheKt$lruCache$2;->INSTANCE:Landroidx/collection/LruCacheKt$lruCache$2;
+    sput-object v0, Landroidx/collection/LruCacheKt$lruCache$2;
+    ->INSTANCE:Landroidx/collection/LruCacheKt$lruCache$2;
 
     return-void
 .end method
@@ -39,7 +42,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -50,7 +54,8 @@ return-void
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

@@ -62,12 +62,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1, p2}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {p1, p2}, Ljava/lang/reflect/Array;
+    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -79,7 +81,9 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/recyclerview/widget/TileList$Tile;->mItems:[Ljava/lang/Object;    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/TileList$Tile;
+    ->mItems:[Ljava/lang/Object;    
+    return-void
 .end method
 
 
@@ -88,7 +92,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/TileList$Tile;->mStartPosition:I
+    iget v0, p0, Landroidx/recyclerview/widget/TileList$Tile;
+    ->mStartPosition:I
 
     .line 2
     .line 3
@@ -96,7 +101,8 @@
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/recyclerview/widget/TileList$Tile;->mItemCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/TileList$Tile;
+    ->mItemCount:I
 
     .line 6
     .line 7
@@ -127,11 +133,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/TileList$Tile;->mItems:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/recyclerview/widget/TileList$Tile;
+    ->mItems:[Ljava/lang/Object;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/recyclerview/widget/TileList$Tile;->mStartPosition:I
+    iget v1, p0, Landroidx/recyclerview/widget/TileList$Tile;
+    ->mStartPosition:I
 
     .line 4
     .line 5

@@ -11,7 +11,8 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
+    invoke-direct {p0, p1}, Landroid/database/ContentObserver;
+    -><init>(Landroid/os/Handler;)V
 
     .line 3
     .line 4
@@ -25,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhu;->zzc()V
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhu;
+    ->zzc()V
 
     .line 2
     .line 3

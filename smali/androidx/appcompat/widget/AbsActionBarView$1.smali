@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/AbsActionBarView;->postShowOverflowMenu()V
+    value = Landroidx/appcompat/widget/AbsActionBarView;
+    ->postShowOverflowMenu()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$1;->this$0:Landroidx/appcompat/widget/AbsActionBarView;
+    iput-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$1;
+    ->this$0:Landroidx/appcompat/widget/AbsActionBarView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +43,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AbsActionBarView$1;->this$0:Landroidx/appcompat/widget/AbsActionBarView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AbsActionBarView$1;
+    ->this$0:Landroidx/appcompat/widget/AbsActionBarView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AbsActionBarView;->showOverflowMenu()Z
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AbsActionBarView;
+    ->showOverflowMenu()Z
 return-void
 .end method
 

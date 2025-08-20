@@ -37,12 +37,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhj;->zza:Landroidx/collection/SimpleArrayMap;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhj;
+    ->zza:Landroidx/collection/SimpleArrayMap;
 
     .line 5
     .line 6
@@ -62,7 +64,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;
+    ->toString()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -79,7 +82,8 @@
     .line 10
     .line 11
     :goto_0
-    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhj;->zza:Landroidx/collection/SimpleArrayMap;
+    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhj;
+    ->zza:Landroidx/collection/SimpleArrayMap;
 
     .line 12
     .line 13
@@ -95,7 +99,8 @@
 
     .line 17
     :cond_2
-    invoke-virtual {p1, p2}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -120,7 +125,8 @@
 
     .line 27
     .line 28
-    invoke-static {p3, p4}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p3, p4}, LA/d;
+    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -129,7 +135,8 @@
 
     .line 32
     :cond_4
-    invoke-virtual {p1, p4}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p4}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34

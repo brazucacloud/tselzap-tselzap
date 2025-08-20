@@ -44,16 +44,19 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->mSpanFactory:Landroidx/emoji2/text/EmojiCompat$SpanFactory;
+    iput-object p2, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->mSpanFactory:Landroidx/emoji2/text/EmojiCompat$SpanFactory;
 
     .line 7
     .line 8
@@ -66,7 +69,8 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
 
     return-object v0
 .end method
@@ -75,7 +79,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->getResult()Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->getResult()Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
 
     move-result-object v0
 
@@ -90,7 +95,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p4}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->isPreferredSystemRender()Z
+    invoke-virtual {p4}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    ->isPreferredSystemRender()Z
 
     .line 2
     .line 3
@@ -109,7 +115,8 @@
 
     .line 9
     :cond_0
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
 
     .line 10
     .line 11
@@ -141,7 +148,8 @@
 
     .line 23
     .line 24
-    invoke-direct {v2, p1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
+    invoke-direct {v2, p1}, Landroid/text/SpannableString;
+    -><init>(Ljava/lang/CharSequence;)V
 
     .line 25
     .line 26
@@ -150,21 +158,25 @@
 
     .line 28
     :goto_0
-    invoke-direct {v0, p1}, Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;-><init>(Landroid/text/Spannable;)V
+    invoke-direct {v0, p1}, Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    -><init>(Landroid/text/Spannable;)V
 
     .line 29
     .line 30
     .line 31
-    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    iput-object v0, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
 
     .line 32
     .line 33
     :cond_2
-    iget-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->mSpanFactory:Landroidx/emoji2/text/EmojiCompat$SpanFactory;
+    iget-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->mSpanFactory:Landroidx/emoji2/text/EmojiCompat$SpanFactory;
 
     .line 34
     .line 35
-    invoke-interface {p1, p4}, Landroidx/emoji2/text/EmojiCompat$SpanFactory;->createSpan(Landroidx/emoji2/text/TypefaceEmojiRasterizer;)Landroidx/emoji2/text/EmojiSpan;
+    invoke-interface {p1, p4}, Landroidx/emoji2/text/EmojiCompat$SpanFactory;
+    ->createSpan(Landroidx/emoji2/text/TypefaceEmojiRasterizer;)Landroidx/emoji2/text/EmojiSpan;
 
     .line 36
     .line 37
@@ -172,7 +184,8 @@
     move-result-object p1
 
     .line 39
-    iget-object p4, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    iget-object p4, p0, Landroidx/emoji2/text/EmojiProcessor$EmojiProcessAddSpanCallback;
+    ->spannable:Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
 
     .line 40
     .line 41
@@ -180,7 +193,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {p4, p1, p2, p3, v0}, Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p4, p1, p2, p3, v0}, Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable;
+    ->setSpan(Ljava/lang/Object;III)V
 
     .line 44
     .line 45

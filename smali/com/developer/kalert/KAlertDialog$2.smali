@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/developer/kalert/KAlertDialog;-><init>(Landroid/content/Context;IZ)V
+    value = Lcom/developer/kalert/KAlertDialog;
+    -><init>(Landroid/content/Context;IZ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +24,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/developer/kalert/KAlertDialog$2;->this$0:Lcom/developer/kalert/KAlertDialog;
+    iput-object p1, p0, Lcom/developer/kalert/KAlertDialog$2;
+    ->this$0:Lcom/developer/kalert/KAlertDialog;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
+    invoke-direct {p0}, Landroid/view/animation/Animation;
+    -><init>()V
 
     .line 4
     .line 5
@@ -41,11 +44,13 @@
     .locals 1
 
     .line 1
-    iget-object p2, p0, Lcom/developer/kalert/KAlertDialog$2;->this$0:Lcom/developer/kalert/KAlertDialog;
+    iget-object p2, p0, Lcom/developer/kalert/KAlertDialog$2;
+    ->this$0:Lcom/developer/kalert/KAlertDialog;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {p2}, Landroid/app/Dialog;
+    ->getWindow()Landroid/view/Window;
 
     .line 4
     .line 5
@@ -53,12 +58,14 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p2}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
+    invoke-virtual {p2}, Landroid/view/Window;
+    ->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     .line 11
     .line 12
@@ -73,15 +80,18 @@
     sub-float/2addr v0, p1
 
     .line 17
-    iput v0, p2, Landroid/view/WindowManager$LayoutParams;->alpha:F
+    iput v0, p2, Landroid/view/WindowManager$LayoutParams;
+    ->alpha:F
 
     .line 18
     .line 19
-    iget-object p1, p0, Lcom/developer/kalert/KAlertDialog$2;->this$0:Lcom/developer/kalert/KAlertDialog;
+    iget-object p1, p0, Lcom/developer/kalert/KAlertDialog$2;
+    ->this$0:Lcom/developer/kalert/KAlertDialog;
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Dialog;
+    ->getWindow()Landroid/view/Window;
 
     .line 22
     .line 23
@@ -89,7 +99,8 @@
     move-result-object p1
 
     .line 25
-    invoke-virtual {p1, p2}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
+    invoke-virtual {p1, p2}, Landroid/view/Window;
+    ->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
     .line 26
     .line 27

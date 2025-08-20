@@ -23,7 +23,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;-><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    -><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;)V
 
     .line 2
     .line 3
@@ -35,12 +36,14 @@
     const/4 v0, 0x0
 
     .line 7
-    invoke-direct {p1, v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 11
     .line 12
@@ -48,7 +51,8 @@
 
     .line 13
     .line 14
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 15
     .line 16
@@ -56,16 +60,19 @@
     move-result-object v0
 
     .line 18
-    invoke-direct {p1, v0}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p1, v0}, Lcom/google/android/gms/internal/base/zau;
+    -><init>(Landroid/os/Looper;)V
 
     .line 19
     .line 20
     .line 21
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;->zad:Landroid/os/Handler;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zad:Landroid/os/Handler;
 
     .line 22
     .line 23
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zap;->zac:Lcom/google/android/gms/common/GoogleApiAvailability;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zac:Lcom/google/android/gms/common/GoogleApiAvailability;
 
     .line 24
     .line 25
@@ -76,19 +83,22 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->set(Ljava/lang/Object;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;->zab(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 8
     .line 9
@@ -100,19 +110,22 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->set(Ljava/lang/Object;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zap;->zac()V
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zac()V
 
     .line 8
     .line 9
@@ -134,7 +147,8 @@
     return p0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zam;->zaa()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zaa()I
 
     move-result p0
 
@@ -144,14 +158,16 @@
 .method public static bridge synthetic zaf(Lcom/google/android/gms/common/api/internal/zap;Lcom/google/android/gms/common/ConnectionResult;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
 return-void
 .end method
 
 .method public static bridge synthetic zag(Lcom/google/android/gms/common/api/internal/zap;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zad()V
     return-void
 .end method
 
@@ -161,11 +177,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -195,11 +213,13 @@ return-void
 
     .line 16
     :cond_0
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;->zac:Lcom/google/android/gms/common/GoogleApiAvailability;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zac:Lcom/google/android/gms/common/GoogleApiAvailability;
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->getActivity()Landroid/app/Activity;
 
     .line 19
     .line 20
@@ -207,7 +227,8 @@ return-void
     move-result-object p2
 
     .line 22
-    invoke-virtual {p1, p2}, Lcom/google/android/gms/common/GoogleApiAvailability;->isGooglePlayServicesAvailable(Landroid/content/Context;)I
+    invoke-virtual {p1, p2}, Lcom/google/android/gms/common/GoogleApiAvailability;
+    ->isGooglePlayServicesAvailable(Landroid/content/Context;)I
 
     .line 23
     .line 24
@@ -219,7 +240,8 @@ return-void
 
     .line 27
     .line 28
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zad()V
 
     .line 29
     .line 30
@@ -232,7 +254,8 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zab()Lcom/google/android/gms/common/ConnectionResult;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab()Lcom/google/android/gms/common/ConnectionResult;
 
     .line 35
     .line 36
@@ -240,7 +263,8 @@ return-void
     move-result-object p2
 
     .line 38
-    invoke-virtual {p2}, Lcom/google/android/gms/common/ConnectionResult;->getErrorCode()I
+    invoke-virtual {p2}, Lcom/google/android/gms/common/ConnectionResult;
+    ->getErrorCode()I
 
     .line 39
     .line 40
@@ -271,7 +295,8 @@ return-void
 
     .line 51
     .line 52
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;->zad()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zad()V
 
     .line 53
     .line 54
@@ -300,7 +325,8 @@ return-void
 
     .line 65
     .line 66
-    invoke-virtual {p3, p2, p1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
+    invoke-virtual {p3, p2, p1}, Landroid/content/Intent;
+    ->getIntExtra(Ljava/lang/String;I)I
 
     .line 67
     .line 68
@@ -313,7 +339,8 @@ return-void
 
     .line 71
     .line 72
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zab()Lcom/google/android/gms/common/ConnectionResult;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab()Lcom/google/android/gms/common/ConnectionResult;
 
     .line 73
     .line 74
@@ -321,7 +348,8 @@ return-void
     move-result-object p3
 
     .line 76
-    invoke-virtual {p3}, Lcom/google/android/gms/common/ConnectionResult;->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/google/android/gms/common/ConnectionResult;
+    ->toString()Ljava/lang/String;
 
     .line 77
     .line 78
@@ -332,12 +360,14 @@ return-void
     const/4 v1, 0x0
 
     .line 81
-    invoke-direct {p2, p1, v1, p3}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
+    invoke-direct {p2, p1, v1, p3}, Lcom/google/android/gms/common/ConnectionResult;
+    -><init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
 
     .line 82
     .line 83
     .line 84
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zap;->zae(Lcom/google/android/gms/common/api/internal/zam;)I
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zae(Lcom/google/android/gms/common/api/internal/zam;)I
 
     .line 85
     .line 86
@@ -345,7 +375,8 @@ return-void
     move-result p1
 
     .line 88
-    invoke-direct {p0, p2, p1}, Lcom/google/android/gms/common/api/internal/zap;->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-direct {p0, p2, p1}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 89
     .line 90
@@ -359,7 +390,8 @@ return-void
 
     .line 93
     .line 94
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zab()Lcom/google/android/gms/common/ConnectionResult;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab()Lcom/google/android/gms/common/ConnectionResult;
 
     .line 95
     .line 96
@@ -367,7 +399,8 @@ return-void
     move-result-object p1
 
     .line 98
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zaa()I
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zaa()I
 
     .line 99
     .line 100
@@ -375,7 +408,8 @@ return-void
     move-result p2
 
     .line 102
-    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 103
     .line 104
@@ -400,16 +434,19 @@ return-void
     const/4 v1, 0x0
 
     .line 6
-    invoke-direct {p1, v0, v1}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;)V
+    invoke-direct {p1, v0, v1}, Lcom/google/android/gms/common/ConnectionResult;
+    -><init>(ILandroid/app/PendingIntent;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -421,7 +458,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zap;->zae(Lcom/google/android/gms/common/api/internal/zam;)I
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zae(Lcom/google/android/gms/common/api/internal/zam;)I
 
     .line 18
     .line 19
@@ -429,7 +467,8 @@ return-void
     move-result v0
 
     .line 21
-    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/zap;->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/zap;
+    ->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 22
     .line 23
@@ -445,7 +484,8 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->onCreate(Landroid/os/Bundle;)V
 
     .line 2
     .line 3
@@ -454,7 +494,8 @@ return-void
 
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 7
     .line 8
@@ -465,7 +506,8 @@ return-void
     const/4 v2, 0x0
 
     .line 11
-    invoke-virtual {p1, v1, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-virtual {p1, v1, v2}, Landroid/os/Bundle;
+    ->getBoolean(Ljava/lang/String;Z)Z
 
     .line 12
     .line 13
@@ -485,7 +527,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {p1, v2}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+    invoke-virtual {p1, v2}, Landroid/os/BaseBundle;
+    ->getInt(Ljava/lang/String;)I
 
     .line 22
     .line 23
@@ -497,7 +540,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {p1, v3}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v3}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 28
     .line 29
@@ -509,7 +553,8 @@ return-void
 
     .line 32
     .line 33
-    invoke-direct {v1, v2, v3}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;)V
+    invoke-direct {v1, v2, v3}, Lcom/google/android/gms/common/ConnectionResult;
+    -><init>(ILandroid/app/PendingIntent;)V
 
     .line 34
     .line 35
@@ -521,7 +566,8 @@ return-void
     const/4 v3, -0x1
 
     .line 39
-    invoke-virtual {p1, v2, v3}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {p1, v2, v3}, Landroid/os/BaseBundle;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 40
     .line 41
@@ -533,7 +579,8 @@ return-void
 
     .line 44
     .line 45
-    invoke-direct {v2, v1, p1}, Lcom/google/android/gms/common/api/internal/zam;-><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-direct {v2, v1, p1}, Lcom/google/android/gms/common/api/internal/zam;
+    -><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 46
     .line 47
@@ -546,7 +593,8 @@ return-void
 
     .line 50
     :goto_0
-    invoke-virtual {v0, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->set(Ljava/lang/Object;)V
 
     .line 51
     .line 52
@@ -559,16 +607,19 @@ return-void
     .locals 3
 
     .line 1
-    invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->onSaveInstanceState(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->onSaveInstanceState(Landroid/os/Bundle;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -595,7 +646,8 @@ return-void
     const/4 v2, 0x1
 
     .line 18
-    invoke-virtual {p1, v1, v2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {p1, v1, v2}, Landroid/os/Bundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 
     .line 19
     .line 20
@@ -604,7 +656,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zaa()I
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zaa()I
 
     .line 24
     .line 25
@@ -612,12 +665,14 @@ return-void
     move-result v2
 
     .line 27
-    invoke-virtual {p1, v1, v2}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    invoke-virtual {p1, v1, v2}, Landroid/os/BaseBundle;
+    ->putInt(Ljava/lang/String;I)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zab()Lcom/google/android/gms/common/ConnectionResult;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab()Lcom/google/android/gms/common/ConnectionResult;
 
     .line 31
     .line 32
@@ -625,7 +680,8 @@ return-void
     move-result-object v1
 
     .line 34
-    invoke-virtual {v1}, Lcom/google/android/gms/common/ConnectionResult;->getErrorCode()I
+    invoke-virtual {v1}, Lcom/google/android/gms/common/ConnectionResult;
+    ->getErrorCode()I
 
     .line 35
     .line 36
@@ -637,12 +693,14 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p1, v2, v1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    invoke-virtual {p1, v2, v1}, Landroid/os/BaseBundle;
+    ->putInt(Ljava/lang/String;I)V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;->zab()Lcom/google/android/gms/common/ConnectionResult;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zam;
+    ->zab()Lcom/google/android/gms/common/ConnectionResult;
 
     .line 44
     .line 45
@@ -650,7 +708,8 @@ return-void
     move-result-object v0
 
     .line 47
-    invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;->getResolution()Landroid/app/PendingIntent;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;
+    ->getResolution()Landroid/app/PendingIntent;
 
     .line 48
     .line 49
@@ -662,7 +721,8 @@ return-void
 
     .line 52
     .line 53
-    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;
+    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 54
     .line 55
@@ -674,7 +734,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->onStart()V
+    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->onStart()V
 
     .line 2
     .line 3
@@ -682,7 +743,8 @@ return-void
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zaa:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zaa:Z
 
     .line 6
     .line 7
@@ -693,7 +755,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->onStop()V
+    invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    ->onStop()V
 
     .line 2
     .line 3
@@ -701,7 +764,8 @@ return-void
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/zap;->zaa:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zaa:Z
 
     .line 6
     .line 7
@@ -722,13 +786,15 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/zam;-><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/zam;
+    -><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     .line 4
     .line 5
     .line 6
     :cond_0
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;->zab:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zab:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 7
     .line 8
@@ -736,7 +802,8 @@ return-void
     const/4 p2, 0x0
 
     .line 9
-    invoke-virtual {p1, p2, v0}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2, v0}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -748,7 +815,8 @@ return-void
 
     .line 14
     .line 15
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;->zad:Landroid/os/Handler;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zap;
+    ->zad:Landroid/os/Handler;
 
     .line 16
     .line 17
@@ -756,12 +824,14 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p2, p0, v0}, Lcom/google/android/gms/common/api/internal/zao;-><init>(Lcom/google/android/gms/common/api/internal/zap;Lcom/google/android/gms/common/api/internal/zam;)V
+    invoke-direct {p2, p0, v0}, Lcom/google/android/gms/common/api/internal/zao;
+    -><init>(Lcom/google/android/gms/common/api/internal/zap;Lcom/google/android/gms/common/api/internal/zam;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, p2}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 23
     .line 24
@@ -770,7 +840,8 @@ return-void
 
     .line 26
     :cond_2
-    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -782,7 +853,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicReference;
+    ->get()Ljava/lang/Object;
 
     .line 33
     .line 34

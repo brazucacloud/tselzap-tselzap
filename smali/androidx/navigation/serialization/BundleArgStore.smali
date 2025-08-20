@@ -38,7 +38,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -47,21 +48,26 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Landroidx/navigation/serialization/ArgStore;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/serialization/ArgStore;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/navigation/serialization/BundleArgStore;->bundle:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/navigation/serialization/BundleArgStore;
+    ->bundle:Landroid/os/Bundle;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/navigation/serialization/BundleArgStore;->typeMap:Ljava/util/Map;    return-void
+    iput-object p2, p0, Landroidx/navigation/serialization/BundleArgStore;
+    ->typeMap:Ljava/util/Map;    
+    return-void
 .end method
 
 
@@ -74,16 +80,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/navigation/serialization/BundleArgStore;->bundle:Landroid/os/Bundle;
+    iget-object v0, p0, Landroidx/navigation/serialization/BundleArgStore;
+    ->bundle:Landroid/os/Bundle;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Landroid/os/BaseBundle;
+    ->containsKey(Ljava/lang/String;)Z
 
     .line 9
     .line 10
@@ -101,16 +110,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/navigation/serialization/BundleArgStore;->typeMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/serialization/BundleArgStore;
+    ->typeMap:Ljava/util/Map;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -126,11 +138,13 @@
 
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/navigation/serialization/BundleArgStore;->bundle:Landroid/os/Bundle;
+    iget-object v1, p0, Landroidx/navigation/serialization/BundleArgStore;
+    ->bundle:Landroid/os/Bundle;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1, p1}, Landroidx/navigation/NavType;->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, p1}, Landroidx/navigation/NavType;
+    ->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 19
     .line 20

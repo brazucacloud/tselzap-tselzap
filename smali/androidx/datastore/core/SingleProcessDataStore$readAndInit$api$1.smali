@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/SingleProcessDataStore;->readAndInit(Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/SingleProcessDataStore;
+    ->readAndInit(Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -63,23 +64,28 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->$updateLock:LH1/a;
+    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->$updateLock:LH1/a;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->$initializationComplete:Lkotlin/jvm/internal/q;
+    iput-object p2, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->$initializationComplete:Lkotlin/jvm/internal/q;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->$initData:Lkotlin/jvm/internal/s;
+    iput-object p3, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->$initData:Lkotlin/jvm/internal/s;
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->this$0:Landroidx/datastore/core/SingleProcessDataStore;
+    iput-object p4, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->this$0:Landroidx/datastore/core/SingleProcessDataStore;
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 10
     .line 11
@@ -117,7 +123,8 @@
 
     .line 7
     .line 8
-    iget v1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
+    iget v1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->label:I
 
     .line 9
     .line 10
@@ -136,7 +143,8 @@
     sub-int/2addr v1, v2
 
     .line 17
-    iput v1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
+    iput v1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->label:I
 
     .line 18
     .line 19
@@ -148,21 +156,25 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;-><init>(Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;Lg1/d;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    -><init>(Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;Lg1/d;)V
 
     .line 23
     .line 24
     .line 25
     :goto_0
-    iget-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->result:Ljava/lang/Object;
+    iget-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->result:Ljava/lang/Object;
 
     .line 26
     .line 27
-    sget-object v1, Lh1/a;->b:Lh1/a;
+    sget-object v1, Lh1/a;
+    ->b:Lh1/a;
 
     .line 28
     .line 29
-    iget v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
+    iget v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->label:I
 
     .line 30
     .line 31
@@ -194,11 +206,13 @@
 
     .line 42
     .line 43
-    iget-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$2:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$2:Ljava/lang/Object;
 
     .line 44
     .line 45
-    iget-object v1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$1:Ljava/lang/Object;
+    iget-object v1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$1:Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -206,7 +220,8 @@
 
     .line 48
     .line 49
-    iget-object v0, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -215,7 +230,8 @@
     .line 52
     .line 53
     :try_start_0
-    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -243,7 +259,8 @@
 
     .line 64
     .line 65
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -252,7 +269,8 @@
 
     .line 69
     :cond_2
-    iget-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$2:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$2:Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -260,7 +278,8 @@
 
     .line 72
     .line 73
-    iget-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$1:Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$1:Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -268,7 +287,8 @@
 
     .line 76
     .line 77
-    iget-object v4, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$0:Ljava/lang/Object;
+    iget-object v4, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 78
     .line 79
@@ -277,7 +297,8 @@
     .line 80
     .line 81
     :try_start_1
-    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -299,7 +320,8 @@
     .line 88
     .line 89
     :cond_3
-    iget-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$4:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$4:Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -307,7 +329,8 @@
 
     .line 92
     .line 93
-    iget-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$3:Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$3:Ljava/lang/Object;
 
     .line 94
     .line 95
@@ -315,7 +338,8 @@
 
     .line 96
     .line 97
-    iget-object v5, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$2:Ljava/lang/Object;
+    iget-object v5, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$2:Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -323,7 +347,8 @@
 
     .line 100
     .line 101
-    iget-object v7, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$1:Ljava/lang/Object;
+    iget-object v7, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$1:Ljava/lang/Object;
 
     .line 102
     .line 103
@@ -331,7 +356,8 @@
 
     .line 104
     .line 105
-    iget-object v8, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$0:Ljava/lang/Object;
+    iget-object v8, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 106
     .line 107
@@ -339,7 +365,8 @@
 
     .line 108
     .line 109
-    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 110
     .line 111
@@ -360,48 +387,59 @@
 
     .line 117
     :cond_4
-    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 118
     .line 119
     .line 120
-    iget-object p2, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->$updateLock:LH1/a;
+    iget-object p2, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->$updateLock:LH1/a;
 
     .line 121
     .line 122
-    iget-object v2, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->$initializationComplete:Lkotlin/jvm/internal/q;
+    iget-object v2, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->$initializationComplete:Lkotlin/jvm/internal/q;
 
     .line 123
     .line 124
-    iget-object v7, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->$initData:Lkotlin/jvm/internal/s;
+    iget-object v7, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->$initData:Lkotlin/jvm/internal/s;
 
     .line 125
     .line 126
-    iget-object v8, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->this$0:Landroidx/datastore/core/SingleProcessDataStore;
+    iget-object v8, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    ->this$0:Landroidx/datastore/core/SingleProcessDataStore;
 
     .line 127
     .line 128
-    iput-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$0:Ljava/lang/Object;
+    iput-object p1, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 129
     .line 130
-    iput-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$1:Ljava/lang/Object;
+    iput-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$1:Ljava/lang/Object;
 
     .line 131
     .line 132
-    iput-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$2:Ljava/lang/Object;
+    iput-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$2:Ljava/lang/Object;
 
     .line 133
     .line 134
-    iput-object v7, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$3:Ljava/lang/Object;
+    iput-object v7, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$3:Ljava/lang/Object;
 
     .line 135
     .line 136
-    iput-object v8, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$4:Ljava/lang/Object;
+    iput-object v8, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$4:Ljava/lang/Object;
 
     .line 137
     .line 138
-    iput v5, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
+    iput v5, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->label:I
 
     .line 139
     .line 140
@@ -409,7 +447,8 @@
 
     .line 141
     .line 142
-    invoke-virtual {p2, v0}, LH1/d;->d(Li1/c;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, LH1/d;
+    ->d(Li1/c;)Ljava/lang/Object;
 
     .line 143
     .line 144
@@ -433,7 +472,8 @@
     .line 151
     :goto_1
     :try_start_2
-    iget-boolean v5, v5, Lkotlin/jvm/internal/q;->b:Z
+    iget-boolean v5, v5, Lkotlin/jvm/internal/q;
+    ->b:Z
 
     .line 152
     .line 153
@@ -441,35 +481,43 @@
 
     .line 154
     .line 155
-    iget-object v5, v2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
+    iget-object v5, v2, Lkotlin/jvm/internal/s;
+    ->b:Ljava/lang/Object;
 
     .line 156
     .line 157
-    iput-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$0:Ljava/lang/Object;
+    iput-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 158
     .line 159
-    iput-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$1:Ljava/lang/Object;
+    iput-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$1:Ljava/lang/Object;
 
     .line 160
     .line 161
-    iput-object v8, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$2:Ljava/lang/Object;
+    iput-object v8, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$2:Ljava/lang/Object;
 
     .line 162
     .line 163
-    iput-object v6, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$3:Ljava/lang/Object;
+    iput-object v6, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$3:Ljava/lang/Object;
 
     .line 164
     .line 165
-    iput-object v6, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$4:Ljava/lang/Object;
+    iput-object v6, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$4:Ljava/lang/Object;
 
     .line 166
     .line 167
-    iput v4, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
+    iput v4, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->label:I
 
     .line 168
     .line 169
-    invoke-interface {p1, v5, v0}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v5, v0}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 170
     .line 171
@@ -498,11 +546,13 @@
     .line 179
     :goto_2
     :try_start_3
-    iget-object v5, v2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
+    iget-object v5, v2, Lkotlin/jvm/internal/s;
+    ->b:Ljava/lang/Object;
 
     .line 180
     .line 181
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 182
     .line 183
@@ -514,23 +564,28 @@
 
     .line 186
     .line 187
-    iput-object v4, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$0:Ljava/lang/Object;
+    iput-object v4, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 188
     .line 189
-    iput-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$1:Ljava/lang/Object;
+    iput-object v2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$1:Ljava/lang/Object;
 
     .line 190
     .line 191
-    iput-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->L$2:Ljava/lang/Object;
+    iput-object p2, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->L$2:Ljava/lang/Object;
 
     .line 192
     .line 193
-    iput v3, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
+    iput v3, v0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
+    ->label:I
 
     .line 194
     .line 195
-    invoke-virtual {p1, p2, v0}, Landroidx/datastore/core/SingleProcessDataStore;->writeData$datastore_core(Ljava/lang/Object;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p1, p2, v0}, Landroidx/datastore/core/SingleProcessDataStore;
+    ->writeData$datastore_core(Ljava/lang/Object;Lg1/d;)Ljava/lang/Object;
 
     .line 196
     .line 197
@@ -560,7 +615,8 @@
     .line 205
     :goto_4
     :try_start_4
-    iput-object p1, v1, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
+    iput-object p1, v1, Lkotlin/jvm/internal/s;
+    ->b:Ljava/lang/Object;
 
     .line 206
     .line 207
@@ -575,7 +631,8 @@
 
     .line 210
     :goto_5
-    iget-object p1, v2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
+    iget-object p1, v2, Lkotlin/jvm/internal/s;
+    ->b:Ljava/lang/Object;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -585,7 +642,8 @@
 
     .line 213
     .line 214
-    invoke-virtual {v0, v6}, LH1/d;->e(Ljava/lang/Object;)V
+    invoke-virtual {v0, v6}, LH1/d;
+    ->e(Ljava/lang/Object;)V
 
     .line 215
     .line 216
@@ -613,7 +671,8 @@
 
     .line 224
     .line 225
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 226
     .line 227
@@ -628,7 +687,8 @@
 
     .line 230
     .line 231
-    invoke-virtual {v0, v6}, LH1/d;->e(Ljava/lang/Object;)V
+    invoke-virtual {v0, v6}, LH1/d;
+    ->e(Ljava/lang/Object;)V
 
     .line 232
     .line 233

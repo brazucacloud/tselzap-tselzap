@@ -18,7 +18,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/p;->l(Landroid/graphics/Outline;Landroid/graphics/Path;)V
+    invoke-static {p0, p1}, Landroidx/core/view/p;
+    ->l(Landroid/graphics/Outline;Landroid/graphics/Path;)V
 
     .line 2
     .line 3

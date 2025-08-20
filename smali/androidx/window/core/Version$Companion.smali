@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/core/Version$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/window/core/Version$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +39,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/window/core/Version;->access$getCURRENT$cp()Landroidx/window/core/Version;
+    invoke-static {}, Landroidx/window/core/Version;
+    ->access$getCURRENT$cp()Landroidx/window/core/Version;
 
     .line 2
     .line 3
@@ -51,7 +54,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/window/core/Version;->access$getUNKNOWN$cp()Landroidx/window/core/Version;
+    invoke-static {}, Landroidx/window/core/Version;
+    ->access$getUNKNOWN$cp()Landroidx/window/core/Version;
 
     .line 2
     .line 3
@@ -65,7 +69,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/window/core/Version;->access$getVERSION_0_1$cp()Landroidx/window/core/Version;
+    invoke-static {}, Landroidx/window/core/Version;
+    ->access$getVERSION_0_1$cp()Landroidx/window/core/Version;
 
     .line 2
     .line 3
@@ -79,7 +84,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/window/core/Version;->access$getVERSION_1_0$cp()Landroidx/window/core/Version;
+    invoke-static {}, Landroidx/window/core/Version;
+    ->access$getVERSION_1_0$cp()Landroidx/window/core/Version;
 
     .line 2
     .line 3
@@ -100,7 +106,8 @@
 
     .line 3
     .line 4
-    invoke-static {p1}, Lx1/m;->j(Ljava/lang/CharSequence;)Z
+    invoke-static {p1}, Lx1/m;
+    ->j(Ljava/lang/CharSequence;)Z
 
     .line 5
     .line 6
@@ -121,7 +128,8 @@
 
     .line 13
     .line 14
-    invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v1}, Ljava/util/regex/Pattern;
+    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 15
     .line 16
@@ -129,7 +137,8 @@
     move-result-object v1
 
     .line 18
-    invoke-virtual {v1, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    invoke-virtual {v1, p1}, Ljava/util/regex/Pattern;
+    ->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     .line 19
     .line 20
@@ -137,7 +146,8 @@
     move-result-object p1
 
     .line 22
-    invoke-virtual {p1}, Ljava/util/regex/Matcher;->matches()Z
+    invoke-virtual {p1}, Ljava/util/regex/Matcher;
+    ->matches()Z
 
     .line 23
     .line 24
@@ -156,7 +166,8 @@
     const/4 v1, 0x1
 
     .line 30
-    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;
+    ->group(I)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -175,7 +186,8 @@
 
     .line 38
     :cond_2
-    invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 39
     .line 40
@@ -183,7 +195,8 @@
     move-result v1
 
     .line 42
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 43
     .line 44
@@ -200,7 +213,8 @@
 
     .line 49
     :cond_3
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 50
     .line 51
@@ -211,7 +225,8 @@
     const/4 v1, 0x2
 
     .line 54
-    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;
+    ->group(I)Ljava/lang/String;
 
     .line 55
     .line 56
@@ -230,7 +245,8 @@
 
     .line 62
     :cond_4
-    invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 63
     .line 64
@@ -238,7 +254,8 @@
     move-result v1
 
     .line 66
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 67
     .line 68
@@ -255,7 +272,8 @@
 
     .line 73
     :cond_5
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 74
     .line 75
@@ -266,7 +284,8 @@
     const/4 v1, 0x3
 
     .line 78
-    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;
+    ->group(I)Ljava/lang/String;
 
     .line 79
     .line 80
@@ -285,7 +304,8 @@
 
     .line 86
     :cond_6
-    invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     .line 87
     .line 88
@@ -293,7 +313,8 @@
     move-result v1
 
     .line 90
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 91
     .line 92
@@ -310,7 +331,8 @@
 
     .line 97
     :cond_7
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 98
     .line 99
@@ -321,7 +343,8 @@
     const/4 v0, 0x4
 
     .line 102
-    invoke-virtual {p1, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Ljava/util/regex/Matcher;
+    ->group(I)Ljava/lang/String;
 
     .line 103
     .line 104
@@ -333,7 +356,8 @@
 
     .line 107
     .line 108
-    invoke-virtual {p1, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Ljava/util/regex/Matcher;
+    ->group(I)Ljava/lang/String;
 
     .line 109
     .line 110
@@ -365,7 +389,8 @@
 
     .line 120
     .line 121
-    invoke-static {v6, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, p1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 122
     .line 123
@@ -373,7 +398,8 @@
     const/4 v7, 0x0
 
     .line 125
-    invoke-direct/range {v2 .. v7}, Landroidx/window/core/Version;-><init>(IIILjava/lang/String;Lkotlin/jvm/internal/e;)V
+    invoke-direct/range {v2 .. v7}, Landroidx/window/core/Version;
+    -><init>(IIILjava/lang/String;Lkotlin/jvm/internal/e;)V
 
     .line 126
     .line 127

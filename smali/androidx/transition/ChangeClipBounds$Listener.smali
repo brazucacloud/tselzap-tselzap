@@ -30,20 +30,25 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iput-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/transition/ChangeClipBounds$Listener;->mStart:Landroid/graphics/Rect;
+    iput-object p2, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mStart:Landroid/graphics/Rect;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/transition/ChangeClipBounds$Listener;->mEnd:Landroid/graphics/Rect;    return-void
+    iput-object p3, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mEnd:Landroid/graphics/Rect;    
+    return-void
 .end method
 
 
@@ -54,7 +59,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/transition/ChangeClipBounds$Listener;->onAnimationEnd(Landroid/animation/Animator;Z)V
+    invoke-virtual {p0, p1, v0}, Landroidx/transition/ChangeClipBounds$Listener;
+    ->onAnimationEnd(Landroid/animation/Animator;Z)V
 return-void
 .end method
 
@@ -64,21 +70,27 @@ return-void
     if-nez p2, :cond_0
 
     .line 2
-    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
-    iget-object p2, p0, Landroidx/transition/ChangeClipBounds$Listener;->mEnd:Landroid/graphics/Rect;
+    iget-object p2, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mEnd:Landroid/graphics/Rect;
 
-    invoke-virtual {p1, p2}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setClipBounds(Landroid/graphics/Rect;)V
 
     return-void
 
     .line 3
     :cond_0
-    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
-    iget-object p2, p0, Landroidx/transition/ChangeClipBounds$Listener;->mStart:Landroid/graphics/Rect;
+    iget-object p2, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mStart:Landroid/graphics/Rect;
 
-    invoke-virtual {p1, p2}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {p1, p2}, Landroid/view/View;
+    ->setClipBounds(Landroid/graphics/Rect;)V
 
     return-void
 .end method
@@ -107,7 +119,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 
@@ -119,11 +132,13 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;->getClipBounds()Landroid/graphics/Rect;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getClipBounds()Landroid/graphics/Rect;
 
     .line 4
     .line 5
@@ -135,33 +150,41 @@ return-void
 
     .line 8
     .line 9
-    sget-object p1, Landroidx/transition/ChangeClipBounds;->NULL_SENTINEL:Landroid/graphics/Rect;
+    sget-object p1, Landroidx/transition/ChangeClipBounds;
+    ->NULL_SENTINEL:Landroid/graphics/Rect;
 
     .line 10
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 12
     .line 13
-    sget v1, Landroidx/transition/R$id;->transition_clip:I
+    sget v1, Landroidx/transition/R$id;
+    ->transition_clip:I
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, p1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 16
     .line 17
     .line 18
-    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 19
     .line 20
-    iget-object v0, p0, Landroidx/transition/ChangeClipBounds$Listener;->mEnd:Landroid/graphics/Rect;
+    iget-object v0, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mEnd:Landroid/graphics/Rect;
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->setClipBounds(Landroid/graphics/Rect;)V    
+    return-void
 .end method
 
 .method public onTransitionResume(Landroidx/transition/Transition;)V
@@ -172,15 +195,18 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 2
     .line 3
-    sget v0, Landroidx/transition/R$id;->transition_clip:I
+    sget v0, Landroidx/transition/R$id;
+    ->transition_clip:I
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -192,23 +218,28 @@ return-void
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 12
     .line 13
-    invoke-virtual {v1, p1}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v1, p1}, Landroid/view/View;
+    ->setClipBounds(Landroid/graphics/Rect;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/ChangeClipBounds$Listener;
+    ->mView:Landroid/view/View;
 
     .line 17
     .line 18
     const/4 v1, 0x0
 
     .line 19
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V    
+    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -225,7 +256,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 

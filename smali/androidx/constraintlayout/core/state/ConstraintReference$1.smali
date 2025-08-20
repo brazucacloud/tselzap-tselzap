@@ -23,7 +23,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/constraintlayout/core/state/State$Constraint;->values()[Landroidx/constraintlayout/core/state/State$Constraint;
+    invoke-static {}, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->values()[Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 2
     .line 3
@@ -38,16 +39,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sput-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->LEFT_TO_LEFT:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->LEFT_TO_LEFT:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -66,15 +70,18 @@
     .line 19
     :catch_0
     :try_start_1
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 20
     .line 21
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->LEFT_TO_RIGHT:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->LEFT_TO_RIGHT:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 24
     .line 25
@@ -93,15 +100,18 @@
     .line 30
     :catch_1
     :try_start_2
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 31
     .line 32
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->RIGHT_TO_LEFT:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->RIGHT_TO_LEFT:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 35
     .line 36
@@ -120,15 +130,18 @@
     .line 41
     :catch_2
     :try_start_3
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 42
     .line 43
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->RIGHT_TO_RIGHT:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->RIGHT_TO_RIGHT:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 44
     .line 45
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 46
     .line 47
@@ -147,15 +160,18 @@
     .line 52
     :catch_3
     :try_start_4
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 53
     .line 54
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->START_TO_START:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->START_TO_START:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 55
     .line 56
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 57
     .line 58
@@ -174,15 +190,18 @@
     .line 63
     :catch_4
     :try_start_5
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 64
     .line 65
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->START_TO_END:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->START_TO_END:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 66
     .line 67
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 68
     .line 69
@@ -201,15 +220,18 @@
     .line 74
     :catch_5
     :try_start_6
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 75
     .line 76
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->END_TO_START:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->END_TO_START:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 77
     .line 78
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 79
     .line 80
@@ -228,15 +250,18 @@
     .line 85
     :catch_6
     :try_start_7
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 86
     .line 87
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->END_TO_END:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->END_TO_END:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 88
     .line 89
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 90
     .line 91
@@ -256,15 +281,18 @@
     .line 97
     :catch_7
     :try_start_8
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 98
     .line 99
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->TOP_TO_TOP:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->TOP_TO_TOP:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 100
     .line 101
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 102
     .line 103
@@ -284,15 +312,18 @@
     .line 109
     :catch_8
     :try_start_9
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 110
     .line 111
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->TOP_TO_BOTTOM:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->TOP_TO_BOTTOM:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 112
     .line 113
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 114
     .line 115
@@ -312,15 +343,18 @@
     .line 121
     :catch_9
     :try_start_a
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 122
     .line 123
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->TOP_TO_BASELINE:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->TOP_TO_BASELINE:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 124
     .line 125
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 126
     .line 127
@@ -340,15 +374,18 @@
     .line 133
     :catch_a
     :try_start_b
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 134
     .line 135
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->BOTTOM_TO_TOP:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->BOTTOM_TO_TOP:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 136
     .line 137
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 138
     .line 139
@@ -368,15 +405,18 @@
     .line 145
     :catch_b
     :try_start_c
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 146
     .line 147
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->BOTTOM_TO_BOTTOM:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->BOTTOM_TO_BOTTOM:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 148
     .line 149
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 150
     .line 151
@@ -396,15 +436,18 @@
     .line 157
     :catch_c
     :try_start_d
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 158
     .line 159
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->BOTTOM_TO_BASELINE:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->BOTTOM_TO_BASELINE:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 160
     .line 161
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 162
     .line 163
@@ -424,15 +467,18 @@
     .line 169
     :catch_d
     :try_start_e
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 170
     .line 171
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->BASELINE_TO_BOTTOM:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->BASELINE_TO_BOTTOM:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 172
     .line 173
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 174
     .line 175
@@ -452,15 +498,18 @@
     .line 181
     :catch_e
     :try_start_f
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 182
     .line 183
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->BASELINE_TO_TOP:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->BASELINE_TO_TOP:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 184
     .line 185
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 186
     .line 187
@@ -480,15 +529,18 @@
     .line 193
     :catch_f
     :try_start_10
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 194
     .line 195
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->BASELINE_TO_BASELINE:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->BASELINE_TO_BASELINE:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 196
     .line 197
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 198
     .line 199
@@ -508,15 +560,18 @@
     .line 205
     :catch_10
     :try_start_11
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 206
     .line 207
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->CIRCULAR_CONSTRAINT:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->CIRCULAR_CONSTRAINT:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 208
     .line 209
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 210
     .line 211
@@ -536,15 +591,18 @@
     .line 217
     :catch_11
     :try_start_12
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 218
     .line 219
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->CENTER_HORIZONTALLY:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->CENTER_HORIZONTALLY:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 220
     .line 221
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 222
     .line 223
@@ -564,15 +622,18 @@
     .line 229
     :catch_12
     :try_start_13
-    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/ConstraintReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Constraint:[I
 
     .line 230
     .line 231
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;->CENTER_VERTICALLY:Landroidx/constraintlayout/core/state/State$Constraint;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Constraint;
+    ->CENTER_VERTICALLY:Landroidx/constraintlayout/core/state/State$Constraint;
 
     .line 232
     .line 233
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 234
     .line 235

@@ -36,7 +36,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
+    -><init>()V
 
     .line 2
     .line 3
@@ -44,19 +45,23 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z
+    iput-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mCanceled:Z
 
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/transition/Visibility$DisappearListener;->mView:Landroid/view/View;
+    iput-object p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mView:Landroid/view/View;
 
     .line 8
     .line 9
-    iput p2, p0, Landroidx/transition/Visibility$DisappearListener;->mFinalVisibility:I
+    iput p2, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mFinalVisibility:I
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 12
     .line 13
@@ -68,25 +73,30 @@
 
     .line 16
     .line 17
-    iput-object p1, p0, Landroidx/transition/Visibility$DisappearListener;->mParent:Landroid/view/ViewGroup;
+    iput-object p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 18
     .line 19
-    iput-boolean p3, p0, Landroidx/transition/Visibility$DisappearListener;->mSuppressLayout:Z
+    iput-boolean p3, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mSuppressLayout:Z
 
     .line 20
     .line 21
     const/4 p1, 0x1
 
     .line 22
-    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;
+    ->suppressLayout(Z)V    
+    return-void
 .end method
 
 .method private hideViewWhenNotCanceled()V
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z
+    iget-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mCanceled:Z
 
     .line 2
     .line 3
@@ -94,20 +104,24 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/transition/Visibility$DisappearListener;->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mView:Landroid/view/View;
 
     .line 6
     .line 7
-    iget v1, p0, Landroidx/transition/Visibility$DisappearListener;->mFinalVisibility:I
+    iget v1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mFinalVisibility:I
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Landroidx/transition/ViewUtils;->setTransitionVisibility(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Landroidx/transition/ViewUtils;
+    ->setTransitionVisibility(Landroid/view/View;I)V
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, p0, Landroidx/transition/Visibility$DisappearListener;->mParent:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 13
     .line 14
@@ -115,7 +129,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+    invoke-virtual {v0}, Landroid/view/View;
+    ->invalidate()V
 
     .line 17
     .line 18
@@ -124,14 +139,17 @@
     const/4 v0, 0x0
 
     .line 20
-    invoke-direct {p0, v0}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/transition/Visibility$DisappearListener;
+    ->suppressLayout(Z)V    
+    return-void
 .end method
 
 .method private suppressLayout(Z)V
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;->mSuppressLayout:Z
+    iget-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mSuppressLayout:Z
 
     .line 2
     .line 3
@@ -139,7 +157,8 @@
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;->mLayoutSuppressed:Z
+    iget-boolean v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mLayoutSuppressed:Z
 
     .line 6
     .line 7
@@ -147,7 +166,8 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/transition/Visibility$DisappearListener;->mParent:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     .line 10
     .line 11
@@ -155,11 +175,13 @@
 
     .line 12
     .line 13
-    iput-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;->mLayoutSuppressed:Z
+    iput-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mLayoutSuppressed:Z
 
     .line 14
     .line 15
-    invoke-static {v0, p1}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V
+    invoke-static {v0, p1}, Landroidx/transition/ViewGroupUtils;
+    ->suppressLayout(Landroid/view/ViewGroup;Z)V
 
     .line 16
     .line 17
@@ -177,7 +199,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z
+    iput-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mCanceled:Z
 return-void
 .end method
 
@@ -185,7 +208,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/Visibility$DisappearListener;->hideViewWhenNotCanceled()V
+    invoke-direct {p0}, Landroidx/transition/Visibility$DisappearListener;
+    ->hideViewWhenNotCanceled()V
     return-void
 .end method
 
@@ -199,7 +223,8 @@ return-void
     if-nez p2, :cond_0
 
     .line 2
-    invoke-direct {p0}, Landroidx/transition/Visibility$DisappearListener;->hideViewWhenNotCanceled()V
+    invoke-direct {p0}, Landroidx/transition/Visibility$DisappearListener;
+    ->hideViewWhenNotCanceled()V
 
     :cond_0
     return-void
@@ -227,19 +252,23 @@ return-void
     if-eqz p2, :cond_0
 
     .line 2
-    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mView:Landroid/view/View;
 
     const/4 p2, 0x0
 
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtils;->setTransitionVisibility(Landroid/view/View;I)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtils;
+    ->setTransitionVisibility(Landroid/view/View;I)V
 
     .line 3
-    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;->mParent:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mParent:Landroid/view/ViewGroup;
 
     if-eqz p1, :cond_0
 
     .line 4
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;
+    ->invalidate()V
 
     :cond_0
     return-void
@@ -263,7 +292,8 @@ return-void
     .end param
 
     .line 2
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
+    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
 
     return-void
 .end method
@@ -272,7 +302,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 
@@ -287,12 +318,14 @@ return-void
     const/4 p1, 0x0
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V
+    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;
+    ->suppressLayout(Z)V
 
     .line 3
     .line 4
     .line 5
-    iget-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z
+    iget-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mCanceled:Z
 
     .line 6
     .line 7
@@ -300,15 +333,18 @@ return-void
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mView:Landroid/view/View;
 
     .line 10
     .line 11
-    iget v0, p0, Landroidx/transition/Visibility$DisappearListener;->mFinalVisibility:I
+    iget v0, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mFinalVisibility:I
 
     .line 12
     .line 13
-    invoke-static {p1, v0}, Landroidx/transition/ViewUtils;->setTransitionVisibility(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Landroidx/transition/ViewUtils;
+    ->setTransitionVisibility(Landroid/view/View;I)V
 
     .line 14
     .line 15
@@ -328,12 +364,14 @@ return-void
     const/4 p1, 0x1
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;->suppressLayout(Z)V
+    invoke-direct {p0, p1}, Landroidx/transition/Visibility$DisappearListener;
+    ->suppressLayout(Z)V
 
     .line 3
     .line 4
     .line 5
-    iget-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;->mCanceled:Z
+    iget-boolean p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mCanceled:Z
 
     .line 6
     .line 7
@@ -341,14 +379,16 @@ return-void
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;->mView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Visibility$DisappearListener;
+    ->mView:Landroid/view/View;
 
     .line 10
     .line 11
     const/4 v0, 0x0
 
     .line 12
-    invoke-static {p1, v0}, Landroidx/transition/ViewUtils;->setTransitionVisibility(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Landroidx/transition/ViewUtils;
+    ->setTransitionVisibility(Landroid/view/View;I)V
 
     .line 13
     .line 14
@@ -371,7 +411,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;
+    ->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 

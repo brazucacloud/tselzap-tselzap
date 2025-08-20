@@ -36,24 +36,30 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->this$0:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mName:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mName:Ljava/lang/String;
 
     .line 7
     .line 8
-    iput p3, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mId:I
+    iput p3, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mId:I
 
     .line 9
     .line 10
-    iput p4, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mFlags:I    return-void
+    iput p4, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mFlags:I    
+    return-void
 .end method
 
 
@@ -81,11 +87,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/fragment/app/FragmentManager;->mPrimaryNav:Landroidx/fragment/app/Fragment;
+    iget-object v0, v0, Landroidx/fragment/app/FragmentManager;
+    ->mPrimaryNav:Landroidx/fragment/app/Fragment;
 
     .line 4
     .line 5
@@ -93,7 +101,8 @@
 
     .line 6
     .line 7
-    iget v1, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mId:I
+    iget v1, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mId:I
 
     .line 8
     .line 9
@@ -101,7 +110,8 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mName:Ljava/lang/String;
 
     .line 12
     .line 13
@@ -109,7 +119,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;
+    ->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     .line 16
     .line 17
@@ -117,7 +128,8 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->popBackStackImmediate()Z
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
+    ->popBackStackImmediate()Z
 
     .line 20
     .line 21
@@ -135,19 +147,23 @@
 
     .line 27
     :cond_0
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 28
     .line 29
-    iget-object v3, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mName:Ljava/lang/String;
+    iget-object v3, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mName:Ljava/lang/String;
 
     .line 30
     .line 31
-    iget v4, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mId:I
+    iget v4, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mId:I
 
     .line 32
     .line 33
-    iget v5, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;->mFlags:I
+    iget v5, p0, Landroidx/fragment/app/FragmentManager$PopBackStackState;
+    ->mFlags:I
 
     .line 34
     .line 35
@@ -157,7 +173,8 @@
     move-object v2, p2
 
     .line 37
-    invoke-virtual/range {v0 .. v5}, Landroidx/fragment/app/FragmentManager;->popBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;II)Z
+    invoke-virtual/range {v0 .. v5}, Landroidx/fragment/app/FragmentManager;
+    ->popBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;II)Z
 
     .line 38
     .line 39

@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/layout/SidecarCompat$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/window/layout/SidecarCompat$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -48,7 +50,8 @@
 
     .line 5
     :cond_0
-    invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 6
     .line 7
@@ -64,7 +67,8 @@
 
     .line 12
     :cond_1
-    invoke-virtual {p1}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/Window;
+    ->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     .line 13
     .line 14
@@ -80,7 +84,8 @@
 
     .line 19
     :cond_2
-    iget-object p1, p1, Landroid/view/WindowManager$LayoutParams;->token:Landroid/os/IBinder;
+    iget-object p1, p1, Landroid/view/WindowManager$LayoutParams;
+    ->token:Landroid/os/IBinder;
 
     .line 20
     .line 21
@@ -95,12 +100,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 7
     .line 8
@@ -108,7 +115,8 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p1}, Landroidx/window/sidecar/SidecarProvider;->getSidecarImpl(Landroid/content/Context;)Landroidx/window/sidecar/SidecarInterface;
+    invoke-static {p1}, Landroidx/window/sidecar/SidecarProvider;
+    ->getSidecarImpl(Landroid/content/Context;)Landroidx/window/sidecar/SidecarInterface;
 
     .line 11
     .line 12
@@ -126,7 +134,8 @@
 
     .line 2
     :try_start_0
-    invoke-static {}, Landroidx/window/sidecar/SidecarProvider;->getApiVersion()Ljava/lang/String;
+    invoke-static {}, Landroidx/window/sidecar/SidecarProvider;
+    ->getApiVersion()Ljava/lang/String;
 
     .line 3
     .line 4
@@ -134,7 +143,8 @@
     move-result-object v1
 
     .line 6
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 7
     .line 8
@@ -146,11 +156,13 @@
 
     .line 11
     .line 12
-    sget-object v2, Landroidx/window/core/Version;->Companion:Landroidx/window/core/Version$Companion;
+    sget-object v2, Landroidx/window/core/Version;
+    ->Companion:Landroidx/window/core/Version$Companion;
 
     .line 13
     .line 14
-    invoke-virtual {v2, v1}, Landroidx/window/core/Version$Companion;->parse(Ljava/lang/String;)Landroidx/window/core/Version;
+    invoke-virtual {v2, v1}, Landroidx/window/core/Version$Companion;
+    ->parse(Ljava/lang/String;)Landroidx/window/core/Version;
 
     .line 15
     .line 16

@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/StableIdStorage$NoStableIdStorage$1;->this$0:Landroidx/recyclerview/widget/StableIdStorage$NoStableIdStorage;
+    iput-object p1, p0, Landroidx/recyclerview/widget/StableIdStorage$NoStableIdStorage$1;
+    ->this$0:Landroidx/recyclerview/widget/StableIdStorage$NoStableIdStorage;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

@@ -15,7 +15,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
+    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;
+    -><init>()V
 
     .line 4
     .line 5
@@ -47,7 +48,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
+    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;
+    -><init>()V
 
     .line 4
     .line 5
@@ -79,7 +81,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
+    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;
+    -><init>()V
 
     .line 4
     .line 5

@@ -14,7 +14,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;->currentThreadTimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->currentThreadTimeMillis()J
 
     .line 2
     .line 3

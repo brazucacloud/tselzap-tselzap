@@ -21,27 +21,32 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->info:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->info:Ljava/lang/String;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->objects:[Ljava/lang/Object;
+    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->objects:[Ljava/lang/Object;
 
     .line 9
     .line 10
     const/4 p1, 0x0
 
     .line 11
-    invoke-virtual {p2, p1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p2, p1}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 12
     .line 13
@@ -58,7 +63,9 @@
 
     .line 19
     .line 20
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->flags:I    return-void
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->flags:I    
+    return-void
 
     .line 23
     :cond_0
@@ -78,7 +85,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {p2, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p2, v1}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 31
     .line 32
@@ -118,7 +126,9 @@
     or-int/2addr p1, p2
 
     .line 47
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->flags:I    return-void
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->flags:I    
+    return-void
 .end method
 
 
@@ -127,28 +137,32 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    return-object v0
 .end method
 
 .method public getObjects()[Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->objects:[Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->objects:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getStringInfo()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->info:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->info:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getSyntax()Landroidx/datastore/preferences/protobuf/ProtoSyntax;
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->flags:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->flags:I
 
     .line 2
     .line 3
@@ -162,18 +176,21 @@
 
     .line 6
     .line 7
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ProtoSyntax;->PROTO2:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ProtoSyntax;
+    ->PROTO2:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
 
     .line 10
     :cond_0
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ProtoSyntax;->PROTO3:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ProtoSyntax;
+    ->PROTO3:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
 .end method
 
 .method public isMessageSetWireFormat()Z
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;->flags:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
+    ->flags:I
 
     .line 2
     .line 3

@@ -23,7 +23,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/constraintlayout/core/state/State$Chain;->values()[Landroidx/constraintlayout/core/state/State$Chain;
+    invoke-static {}, Landroidx/constraintlayout/core/state/State$Chain;
+    ->values()[Landroidx/constraintlayout/core/state/State$Chain;
 
     .line 2
     .line 3
@@ -38,16 +39,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/constraintlayout/core/state/helpers/HorizontalChainReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Chain:[I
+    sput-object v0, Landroidx/constraintlayout/core/state/helpers/HorizontalChainReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Chain:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Chain;->SPREAD:Landroidx/constraintlayout/core/state/State$Chain;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Chain;
+    ->SPREAD:Landroidx/constraintlayout/core/state/State$Chain;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -66,15 +70,18 @@
     .line 19
     :catch_0
     :try_start_1
-    sget-object v0, Landroidx/constraintlayout/core/state/helpers/HorizontalChainReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Chain:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/helpers/HorizontalChainReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Chain:[I
 
     .line 20
     .line 21
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Chain;->SPREAD_INSIDE:Landroidx/constraintlayout/core/state/State$Chain;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Chain;
+    ->SPREAD_INSIDE:Landroidx/constraintlayout/core/state/State$Chain;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 24
     .line 25
@@ -93,15 +100,18 @@
     .line 30
     :catch_1
     :try_start_2
-    sget-object v0, Landroidx/constraintlayout/core/state/helpers/HorizontalChainReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Chain:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/helpers/HorizontalChainReference$1;
+    ->$SwitchMap$androidx$constraintlayout$core$state$State$Chain:[I
 
     .line 31
     .line 32
-    sget-object v1, Landroidx/constraintlayout/core/state/State$Chain;->PACKED:Landroidx/constraintlayout/core/state/State$Chain;
+    sget-object v1, Landroidx/constraintlayout/core/state/State$Chain;
+    ->PACKED:Landroidx/constraintlayout/core/state/State$Chain;
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 35
     .line 36

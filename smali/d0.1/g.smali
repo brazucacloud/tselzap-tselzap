@@ -39,12 +39,14 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Ld0/f;-><init>(I)V
+    invoke-direct {v0, v1}, Ld0/f;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Ld0/g;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Ld0/g;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 8
     .line 9
@@ -55,24 +57,30 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
+    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
     .line 2
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p2
 
-    iput p2, p0, Ld0/g;->b:I
+    iput p2, p0, Ld0/g;
+    ->b:I
 
     .line 3
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p2
 
-    iput p2, p0, Ld0/g;->c:I
+    iput p2, p0, Ld0/g;
+    ->c:I
 
     .line 4
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p2
 
@@ -90,10 +98,12 @@
     const/4 p2, 0x0
 
     :goto_0
-    iput-boolean p2, p0, Ld0/g;->d:Z
+    iput-boolean p2, p0, Ld0/g;
+    ->d:Z
 
     .line 5
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p2
 
@@ -107,10 +117,12 @@
     const/4 p2, 0x0
 
     :goto_1
-    iput-boolean p2, p0, Ld0/g;->e:Z
+    iput-boolean p2, p0, Ld0/g;
+    ->e:Z
 
     .line 6
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;
+    ->readInt()I
 
     move-result p1
 
@@ -119,7 +131,8 @@
     const/4 v0, 0x1
 
     :cond_2
-    iput-boolean v0, p0, Ld0/g;->f:Z
+    iput-boolean v0, p0, Ld0/g;
+    ->f:Z
 return-void
 .end method
 
@@ -127,35 +140,46 @@ return-void
     .locals 0
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;
+    -><init>(Landroid/os/Parcelable;)V
 
     .line 8
-    iget p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->O:I
+    iget p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    ->O:I
 
-    iput p1, p0, Ld0/g;->b:I
+    iput p1, p0, Ld0/g;
+    ->b:I
 
     .line 9
-    iget p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->f:I
+    iget p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    ->f:I
 
     .line 10
-    iput p1, p0, Ld0/g;->c:I
+    iput p1, p0, Ld0/g;
+    ->c:I
 
     .line 11
-    iget-boolean p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->c:Z
+    iget-boolean p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    ->c:Z
 
     .line 12
-    iput-boolean p1, p0, Ld0/g;->d:Z
+    iput-boolean p1, p0, Ld0/g;
+    ->d:Z
 
     .line 13
-    iget-boolean p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->J:Z
+    iget-boolean p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    ->J:Z
 
-    iput-boolean p1, p0, Ld0/g;->e:Z
+    iput-boolean p1, p0, Ld0/g;
+    ->e:Z
 
     .line 14
-    iget-boolean p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->K:Z
+    iget-boolean p1, p2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    ->K:Z
 
     .line 15
-    iput-boolean p1, p0, Ld0/g;->f:Z
+    iput-boolean p1, p0, Ld0/g;
+    ->f:Z
 return-void
 .end method
 
@@ -165,52 +189,63 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget p2, p0, Ld0/g;->b:I
+    iget p2, p0, Ld0/g;
+    ->b:I
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 7
     .line 8
     .line 9
-    iget p2, p0, Ld0/g;->c:I
+    iget p2, p0, Ld0/g;
+    ->c:I
 
     .line 10
     .line 11
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 12
     .line 13
     .line 14
-    iget-boolean p2, p0, Ld0/g;->d:Z
+    iget-boolean p2, p0, Ld0/g;
+    ->d:Z
 
     .line 15
     .line 16
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 17
     .line 18
     .line 19
-    iget-boolean p2, p0, Ld0/g;->e:Z
+    iget-boolean p2, p0, Ld0/g;
+    ->e:Z
 
     .line 20
     .line 21
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 22
     .line 23
     .line 24
-    iget-boolean p2, p0, Ld0/g;->f:Z
+    iget-boolean p2, p0, Ld0/g;
+    ->f:Z
 
     .line 25
     .line 26
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeInt(I)V
 
     .line 27
     .line 28

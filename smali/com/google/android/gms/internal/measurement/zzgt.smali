@@ -22,7 +22,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 4
     .line 5
@@ -30,7 +31,8 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;->zza:Landroid/net/Uri;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;
+    ->zza:Landroid/net/Uri;
 
     .line 8
     .line 9
@@ -38,7 +40,8 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 12
     .line 13
@@ -46,7 +49,8 @@
     move-result-object v0
 
     .line 15
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;->zzb:Landroid/net/Uri;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;
+    ->zzb:Landroid/net/Uri;
 
     .line 16
     .line 17
@@ -57,7 +61,8 @@
     const/4 v1, 0x2
 
     .line 20
-    invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
+    invoke-static {v0, v1}, Ljava/util/regex/Pattern;
+    ->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     .line 21
     .line 22
@@ -65,7 +70,8 @@
     move-result-object v0
 
     .line 24
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;->zzc:Ljava/util/regex/Pattern;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;
+    ->zzc:Ljava/util/regex/Pattern;
 
     .line 25
     .line 26
@@ -73,7 +79,8 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
+    invoke-static {v0, v1}, Ljava/util/regex/Pattern;
+    ->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     .line 29
     .line 30
@@ -81,7 +88,8 @@
     move-result-object v0
 
     .line 32
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;->zzd:Ljava/util/regex/Pattern;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgt;
+    ->zzd:Ljava/util/regex/Pattern;
 
     .line 33
     .line 34

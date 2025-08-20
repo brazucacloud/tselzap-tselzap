@@ -21,15 +21,20 @@
     .locals 0
 
     .line 1
-    iput p4, p0, Landroidx/profileinstaller/a;->b:I
+    iput p4, p0, Landroidx/profileinstaller/a;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/profileinstaller/a;->d:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/profileinstaller/a;
+    ->d:Ljava/lang/Object;
 
-    iput p2, p0, Landroidx/profileinstaller/a;->c:I
+    iput p2, p0, Landroidx/profileinstaller/a;
+    ->c:I
 
-    iput-object p3, p0, Landroidx/profileinstaller/a;->e:Ljava/lang/Object;
+    iput-object p3, p0, Landroidx/profileinstaller/a;
+    ->e:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -39,33 +44,42 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/profileinstaller/a;->b:I
+    iget v0, p0, Landroidx/profileinstaller/a;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/profileinstaller/a;->d:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/profileinstaller/a;
+    ->d:Ljava/lang/Object;
 
     check-cast v0, Lcom/fmark/tselzap/fragments/ApiContact_coder;
 
-    iget v1, p0, Landroidx/profileinstaller/a;->c:I
+    iget v1, p0, Landroidx/profileinstaller/a;
+    ->c:I
 
-    iget-object v2, p0, Landroidx/profileinstaller/a;->e:Ljava/lang/Object;
+    iget-object v2, p0, Landroidx/profileinstaller/a;
+    ->e:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->e(Lcom/fmark/tselzap/fragments/ApiContact_coder;ILjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    ->e(Lcom/fmark/tselzap/fragments/ApiContact_coder;ILjava/lang/String;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/profileinstaller/a;->d:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/profileinstaller/a;
+    ->d:Ljava/lang/Object;
 
     check-cast v0, Landroidx/profileinstaller/DeviceProfileWriter;
 
-    iget v1, p0, Landroidx/profileinstaller/a;->c:I
+    iget v1, p0, Landroidx/profileinstaller/a;
+    ->c:I
 
-    iget-object v2, p0, Landroidx/profileinstaller/a;->e:Ljava/lang/Object;
+    iget-object v2, p0, Landroidx/profileinstaller/a;
+    ->e:Ljava/lang/Object;
 
-    invoke-static {v0, v1, v2}, Landroidx/profileinstaller/DeviceProfileWriter;->a(Landroidx/profileinstaller/DeviceProfileWriter;ILjava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Landroidx/profileinstaller/DeviceProfileWriter;
+    ->a(Landroidx/profileinstaller/DeviceProfileWriter;ILjava/lang/Object;)V
 return-void
 
     nop

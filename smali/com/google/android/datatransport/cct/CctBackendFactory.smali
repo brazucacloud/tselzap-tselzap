@@ -13,7 +13,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -35,19 +36,23 @@
 
     .line 4
     .line 5
-    iget-object v1, p1, LO/b;->a:Landroid/content/Context;
+    iget-object v1, p1, LO/b;
+    ->a:Landroid/content/Context;
 
     .line 6
     .line 7
-    iget-object v2, p1, LO/b;->b:Lu0/f;
+    iget-object v2, p1, LO/b;
+    ->b:Lu0/f;
 
     .line 8
     .line 9
-    iget-object p1, p1, LO/b;->c:Lu0/f;
+    iget-object p1, p1, LO/b;
+    ->c:Lu0/f;
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v2, p1}, LL/d;-><init>(Landroid/content/Context;Lu0/f;Lu0/f;)V
+    invoke-direct {v0, v1, v2, p1}, LL/d;
+    -><init>(Landroid/content/Context;Lu0/f;Lu0/f;)V
 
     .line 12
     .line 13

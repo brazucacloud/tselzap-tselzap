@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/LruCache;
+    -><init>(I)V
 return-void
 .end method
 
@@ -47,7 +48,8 @@ return-void
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 7
     .line 8
@@ -66,7 +68,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/appcompat/widget/ResourceManagerInternal$ColorFilterLruCache;->generateCacheKey(ILandroid/graphics/PorterDuff$Mode;)I
+    invoke-static {p1, p2}, Landroidx/appcompat/widget/ResourceManagerInternal$ColorFilterLruCache;
+    ->generateCacheKey(ILandroid/graphics/PorterDuff$Mode;)I
 
     .line 2
     .line 3
@@ -74,7 +77,8 @@ return-void
     move-result p1
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -82,7 +86,8 @@ return-void
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -97,7 +102,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/appcompat/widget/ResourceManagerInternal$ColorFilterLruCache;->generateCacheKey(ILandroid/graphics/PorterDuff$Mode;)I
+    invoke-static {p1, p2}, Landroidx/appcompat/widget/ResourceManagerInternal$ColorFilterLruCache;
+    ->generateCacheKey(ILandroid/graphics/PorterDuff$Mode;)I
 
     .line 2
     .line 3
@@ -105,7 +111,8 @@ return-void
     move-result p1
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -113,7 +120,8 @@ return-void
     move-result-object p1
 
     .line 9
-    invoke-virtual {p0, p1, p3}, Landroidx/collection/LruCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p3}, Landroidx/collection/LruCache;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11

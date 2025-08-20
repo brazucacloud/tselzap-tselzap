@@ -12,7 +12,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Landroidx/core/view/DifferentialMotionFlingController;->a(Landroid/content/Context;[ILandroid/view/MotionEvent;I)V
+    invoke-static {p1, p2, p3, p4}, Landroidx/core/view/DifferentialMotionFlingController;
+    ->a(Landroid/content/Context;[ILandroid/view/MotionEvent;I)V
 return-void
 .end method
 
@@ -20,7 +21,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, Landroidx/core/view/DifferentialMotionFlingController;->b(Landroid/view/VelocityTracker;Landroid/view/MotionEvent;I)F
+    invoke-static {p1, p2, p3}, Landroidx/core/view/DifferentialMotionFlingController;
+    ->b(Landroid/view/VelocityTracker;Landroid/view/MotionEvent;I)F
 
     move-result p1
 

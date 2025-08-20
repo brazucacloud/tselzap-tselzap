@@ -35,7 +35,8 @@
 
     .line 7
     .line 8
-    iget v1, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->label:I
+    iget v1, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->label:I
 
     .line 9
     .line 10
@@ -54,7 +55,8 @@
     sub-int/2addr v1, v2
 
     .line 17
-    iput v1, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->label:I
+    iput v1, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->label:I
 
     .line 18
     .line 19
@@ -66,25 +68,30 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p2}, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;-><init>(Lg1/d;)V
+    invoke-direct {v0, p2}, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    -><init>(Lg1/d;)V
 
     .line 23
     .line 24
     .line 25
     :goto_0
-    iget-object p2, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->result:Ljava/lang/Object;
+    iget-object p2, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->result:Ljava/lang/Object;
 
     .line 26
     .line 27
-    sget-object v1, Lh1/a;->b:Lh1/a;
+    sget-object v1, Lh1/a;
+    ->b:Lh1/a;
 
     .line 28
     .line 29
-    iget v2, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->label:I
+    iget v2, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->label:I
 
     .line 30
     .line 31
-    sget-object v3, Lc1/v;->a:Lc1/v;
+    sget-object v3, Lc1/v;
+    ->a:Lc1/v;
 
     .line 32
     .line 33
@@ -99,7 +106,8 @@
 
     .line 37
     .line 38
-    iget-object p0, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -108,7 +116,8 @@
     .line 41
     .line 42
     :try_start_0
-    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -134,7 +143,8 @@
 
     .line 51
     .line 52
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -143,17 +153,20 @@
 
     .line 56
     :cond_2
-    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->addReporter()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->addReporter()V
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->isFullyDrawnReported()Z
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->isFullyDrawnReported()Z
 
     .line 63
     .line 64
@@ -166,15 +179,18 @@
     .line 69
     :cond_3
     :try_start_1
-    iput-object p0, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 70
     .line 71
-    iput v4, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->label:I
+    iput v4, v0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
+    ->label:I
 
     .line 72
     .line 73
-    invoke-interface {p1, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -189,12 +205,14 @@
     .line 80
     :cond_4
     :goto_1
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->removeReporter()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->removeReporter()V
     return-object v3
 
     .line 84
     :goto_2
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->removeReporter()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->removeReporter()V
 
     .line 85
     .line 86
@@ -217,12 +235,14 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->addReporter()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->addReporter()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->isFullyDrawnReported()Z
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->isFullyDrawnReported()Z
 
     .line 5
     .line 6
@@ -230,7 +250,8 @@
     move-result v0
 
     .line 8
-    sget-object v1, Lc1/v;->a:Lc1/v;
+    sget-object v1, Lc1/v;
+    ->a:Lc1/v;
 
     .line 9
     .line 10
@@ -239,14 +260,16 @@
     .line 13
     :cond_0
     :try_start_0
-    invoke-interface {p1, p2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->removeReporter()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->removeReporter()V
     return-object v1
 
     .line 20
@@ -254,7 +277,8 @@
     move-exception p1
 
     .line 21
-    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->removeReporter()V
+    invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;
+    ->removeReporter()V
 
     .line 22
     .line 23

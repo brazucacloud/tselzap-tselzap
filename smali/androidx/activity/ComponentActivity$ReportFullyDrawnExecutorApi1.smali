@@ -26,12 +26,14 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;->createHandler()Landroid/os/Handler;
+    invoke-direct {p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;
+    ->createHandler()Landroid/os/Handler;
 
     .line 5
     .line 6
@@ -39,7 +41,9 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;->mHandler:Landroid/os/Handler;    return-void
+    iput-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;
+    ->mHandler:Landroid/os/Handler;    
+    return-void
 .end method
 
 .method private createHandler()Landroid/os/Handler;
@@ -48,7 +52,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     .line 2
     .line 3
@@ -64,7 +69,8 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 10
     .line 11
@@ -73,7 +79,8 @@
 
     .line 13
     :cond_0
-    invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v1, v0}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
     return-object v1
 .end method
 
@@ -89,11 +96,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;->mHandler:Landroid/os/Handler;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1;
+    ->mHandler:Landroid/os/Handler;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p1}, Landroid/os/Handler;
+    ->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
 return-void
 .end method
 

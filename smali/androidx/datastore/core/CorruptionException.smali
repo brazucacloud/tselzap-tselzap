@@ -9,10 +9,12 @@
 
     const-string v0, "message"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-direct {p0, p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1, p2}, Ljava/io/IOException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 return-void
 .end method
 
@@ -27,7 +29,8 @@ return-void
 
     .line 1
     :cond_0
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/CorruptionException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/CorruptionException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 return-void
 .end method
 

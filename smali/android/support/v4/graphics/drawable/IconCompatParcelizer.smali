@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -16,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/graphics/drawable/IconCompatParcelizer;-><init>()V
+    invoke-direct {p0}, Landroidx/core/graphics/drawable/IconCompatParcelizer;
+    -><init>()V
 
     .line 2
     .line 3
@@ -28,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompatParcelizer;->read(Landroidx/versionedparcelable/VersionedParcel;)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/IconCompatParcelizer;
+    ->read(Landroidx/versionedparcelable/VersionedParcel;)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 2
     .line 3
@@ -42,7 +45,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/IconCompatParcelizer;->write(Landroidx/core/graphics/drawable/IconCompat;Landroidx/versionedparcelable/VersionedParcel;)V
+    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/IconCompatParcelizer;
+    ->write(Landroidx/core/graphics/drawable/IconCompat;Landroidx/versionedparcelable/VersionedParcel;)V
 
     .line 2
     .line 3

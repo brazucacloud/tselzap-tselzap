@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->register()V
+    value = Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    ->register()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -54,14 +55,16 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;
+    -><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -86,16 +89,20 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    iget-object v1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScopeImpl;Lg1/d;)V
+    invoke-direct {v0, v1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    -><init>(Landroidx/lifecycle/LifecycleCoroutineScopeImpl;Lg1/d;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->L$0:Ljava/lang/Object;    return-object v0
+    iput-object p1, v0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->L$0:Ljava/lang/Object;    
+    return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -106,7 +113,8 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -128,15 +136,18 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
 
-    sget-object p2, Lc1/v;->a:Lc1/v;
+    sget-object p2, Lc1/v;
+    ->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -147,11 +158,13 @@ return-void
     .locals 2
 
     .line 1
-    sget-object v0, Lh1/a;->b:Lh1/a;
+    sget-object v0, Lh1/a;
+    ->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->label:I
+    iget v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->label:I
 
     .line 4
     .line 5
@@ -159,12 +172,14 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;
+    ->c0(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->L$0:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -172,11 +187,13 @@ return-void
 
     .line 13
     .line 14
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    ->getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
 
     .line 17
     .line 18
@@ -184,7 +201,8 @@ return-void
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;
+    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 21
     .line 22
@@ -192,11 +210,13 @@ return-void
     move-result-object v0
 
     .line 24
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
+    ->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
+    invoke-virtual {v0, v1}, Ljava/lang/Enum;
+    ->compareTo(Ljava/lang/Enum;)I
 
     .line 27
     .line 28
@@ -208,11 +228,13 @@ return-void
 
     .line 31
     .line 32
-    iget-object p1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    iget-object p1, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p1}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    ->getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
 
     .line 35
     .line 36
@@ -220,11 +242,13 @@ return-void
     move-result-object p1
 
     .line 38
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;
+    ->this$0:Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
 
     .line 39
     .line 40
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 41
     .line 42
@@ -233,7 +257,8 @@ return-void
 
     .line 44
     :cond_0
-    invoke-interface {p1}, Lz1/v;->getCoroutineContext()Lg1/i;
+    invoke-interface {p1}, Lz1/v;
+    ->getCoroutineContext()Lg1/i;
 
     .line 45
     .line 46
@@ -241,11 +266,13 @@ return-void
     move-result-object p1
 
     .line 48
-    sget-object v0, Lz1/u;->c:Lz1/u;
+    sget-object v0, Lz1/u;
+    ->c:Lz1/u;
 
     .line 49
     .line 50
-    invoke-interface {p1, v0}, Lg1/i;->get(Lg1/h;)Lg1/g;
+    invoke-interface {p1, v0}, Lg1/i;
+    ->get(Lg1/h;)Lg1/g;
 
     .line 51
     .line 52
@@ -264,14 +291,16 @@ return-void
     const/4 v0, 0x0
 
     .line 59
-    invoke-interface {p1, v0}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, v0}, Lz1/V;
+    ->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 60
     .line 61
     .line 62
     :cond_1
     :goto_0
-    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;    return-object p1
 
     .line 65
     :cond_2
@@ -283,7 +312,8 @@ return-void
 
     .line 68
     .line 69
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 70
     .line 71

@@ -27,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -63,7 +65,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;->getSystemService(Landroid/content/Context;)Landroid/app/AppOpsManager;
+    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;
+    ->getSystemService(Landroid/content/Context;)Landroid/app/AppOpsManager;
 
     .line 8
     .line 9
@@ -71,7 +74,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingUid()I
 
     .line 12
     .line 13
@@ -79,7 +83,8 @@
     move-result v1
 
     .line 15
-    invoke-static {v0, p2, v1, p3}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;->checkOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static {v0, p2, v1, p3}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;
+    ->checkOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
 
     .line 16
     .line 17
@@ -95,7 +100,8 @@
 
     .line 22
     :cond_0
-    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;->getOpPackageName(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;
+    ->getOpPackageName(Landroid/content/Context;)Ljava/lang/String;
 
     .line 23
     .line 24
@@ -103,7 +109,8 @@
     move-result-object p0
 
     .line 26
-    invoke-static {v0, p2, p1, p0}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;->checkOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static {v0, p2, p1, p0}, Landroidx/core/app/AppOpsManagerCompat$Api29Impl;
+    ->checkOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
 
     .line 27
     .line 28
@@ -114,7 +121,8 @@
 
     .line 31
     :cond_1
-    invoke-static {p0, p2, p3}, Landroidx/core/app/AppOpsManagerCompat;->noteProxyOpNoThrow(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p2, p3}, Landroidx/core/app/AppOpsManagerCompat;
+    ->noteProxyOpNoThrow(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 32
     .line 33
@@ -144,7 +152,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -156,7 +165,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;->noteOp(Ljava/lang/String;ILjava/lang/String;)I
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;
+    ->noteOp(Ljava/lang/String;ILjava/lang/String;)I
 
     .line 10
     .line 11
@@ -186,7 +196,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -198,7 +209,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;->noteOpNoThrow(Ljava/lang/String;ILjava/lang/String;)I
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;
+    ->noteOpNoThrow(Ljava/lang/String;ILjava/lang/String;)I
 
     .line 10
     .line 11
@@ -224,7 +236,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -240,7 +253,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0, v0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->getSystemService(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;
+    ->getSystemService(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -252,7 +266,8 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p1, p2}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->noteProxyOp(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1, p2}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;
+    ->noteProxyOp(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 16
     .line 17
@@ -284,7 +299,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -300,7 +316,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0, v0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->getSystemService(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;
+    ->getSystemService(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -312,7 +329,8 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p1, p2}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->noteProxyOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1, p2}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;
+    ->noteProxyOpNoThrow(Landroid/app/AppOpsManager;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 16
     .line 17
@@ -338,7 +356,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -350,7 +369,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/app/AppOpsManagerCompat$Api23Impl;
+    ->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
 
     .line 8
     .line 9

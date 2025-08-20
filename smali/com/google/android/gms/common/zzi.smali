@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/zzl;-><init>([B)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/zzl;
+    -><init>([B)V
 
     .line 2
     .line 3
@@ -26,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/zzj;->zze(Ljava/lang/String;)[B
+    invoke-static {v0}, Lcom/google/android/gms/common/zzj;
+    ->zze(Ljava/lang/String;)[B
 
     .line 4
     .line 5

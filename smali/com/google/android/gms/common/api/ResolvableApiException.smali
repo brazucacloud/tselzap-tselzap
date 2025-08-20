@@ -12,7 +12,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/ApiException;-><init>(Lcom/google/android/gms/common/api/Status;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/ApiException;
+    -><init>(Lcom/google/android/gms/common/api/Status;)V
 
     .line 2
     .line 3
@@ -28,7 +29,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/ApiException;->getStatus()Lcom/google/android/gms/common/api/Status;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/ApiException;
+    ->getStatus()Lcom/google/android/gms/common/api/Status;
 
     .line 2
     .line 3
@@ -36,7 +38,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->getResolution()Landroid/app/PendingIntent;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;
+    ->getResolution()Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -54,7 +57,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/ApiException;->getStatus()Lcom/google/android/gms/common/api/Status;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/ApiException;
+    ->getStatus()Lcom/google/android/gms/common/api/Status;
 
     .line 2
     .line 3
@@ -62,7 +66,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/Status;->startResolutionForResult(Landroid/app/Activity;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/Status;
+    ->startResolutionForResult(Landroid/app/Activity;I)V
 
     .line 6
     .line 7

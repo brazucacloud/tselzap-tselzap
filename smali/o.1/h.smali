@@ -12,12 +12,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lo/h;->a:Ljava/lang/String;
+    iput-object p1, p0, Lo/h;
+    ->a:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -42,15 +44,18 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lo/h;->a:Ljava/lang/String;
+    iget-object v0, p0, Lo/h;
+    ->a:Ljava/lang/String;
 
     .line 8
     .line 9
-    iget-object p1, p1, Lo/h;->a:Ljava/lang/String;
+    iget-object p1, p1, Lo/h;
+    ->a:Ljava/lang/String;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -70,11 +75,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lo/h;->a:Ljava/lang/String;
+    iget-object v0, p0, Lo/h;
+    ->a:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -96,12 +103,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lo/h;->a:Ljava/lang/String;
+    iget-object v1, p0, Lo/h;
+    ->a:Ljava/lang/String;
 
     .line 9
     .line 10
@@ -109,7 +118,8 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14

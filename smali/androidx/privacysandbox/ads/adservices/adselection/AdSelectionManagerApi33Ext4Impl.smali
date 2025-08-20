@@ -18,7 +18,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -32,12 +33,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, LN1/p;->C()Ljava/lang/Class;
+    invoke-static {}, LN1/p;
+    ->C()Ljava/lang/Class;
 
     .line 7
     .line 8
@@ -45,7 +48,8 @@
     move-result-object v0
 
     .line 10
-    invoke-static {p1, v0}, La0/c;->A(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1, v0}, La0/c;
+    ->A(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -57,12 +61,14 @@
 
     .line 15
     .line 16
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, LN1/p;->m(Ljava/lang/Object;)Landroid/adservices/adselection/AdSelectionManager;
+    invoke-static {p1}, LN1/p;
+    ->m(Ljava/lang/Object;)Landroid/adservices/adselection/AdSelectionManager;
 
     .line 20
     .line 21
@@ -70,7 +76,8 @@
     move-result-object p1
 
     .line 23
-    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManagerImplCommon;-><init>(Landroid/adservices/adselection/AdSelectionManager;)V
+    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManagerImplCommon;
+    -><init>(Landroid/adservices/adselection/AdSelectionManager;)V
 return-void
 .end method
 

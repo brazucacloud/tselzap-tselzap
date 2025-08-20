@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     const/high16 v0, 0x3f000000    # 0.5f
 
     .line 1
-    invoke-static {p0, v0}, Landroidx/core/graphics/PathUtils;->flatten(Landroid/graphics/Path;F)Ljava/util/Collection;
+    invoke-static {p0, v0}, Landroidx/core/graphics/PathUtils;
+    ->flatten(Landroid/graphics/Path;F)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -88,7 +90,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/graphics/PathUtils$Api26Impl;->approximate(Landroid/graphics/Path;F)[F
+    invoke-static {p0, p1}, Landroidx/core/graphics/PathUtils$Api26Impl;
+    ->approximate(Landroid/graphics/Path;F)[F
 
     move-result-object p0
 
@@ -100,7 +103,8 @@
     .line 4
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {v0, p1}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     const/4 v1, 0x1
 
@@ -157,15 +161,19 @@
 
     new-instance v9, Landroid/graphics/PointF;
 
-    invoke-direct {v9, v7, v3}, Landroid/graphics/PointF;-><init>(FF)V
+    invoke-direct {v9, v7, v3}, Landroid/graphics/PointF;
+    -><init>(FF)V
 
     new-instance v3, Landroid/graphics/PointF;
 
-    invoke-direct {v3, v5, v2}, Landroid/graphics/PointF;-><init>(FF)V
+    invoke-direct {v3, v5, v2}, Landroid/graphics/PointF;
+    -><init>(FF)V
 
-    invoke-direct {v8, v9, v6, v3, v4}, Landroidx/core/graphics/PathSegment;-><init>(Landroid/graphics/PointF;FLandroid/graphics/PointF;F)V
+    invoke-direct {v8, v9, v6, v3, v4}, Landroidx/core/graphics/PathSegment;
+    -><init>(Landroid/graphics/PointF;FLandroid/graphics/PointF;F)V
 
-    invoke-virtual {v0, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v8}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     :cond_1
     add-int/lit8 v1, v1, 0x1

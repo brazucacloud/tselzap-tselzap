@@ -28,10 +28,12 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1a
 
@@ -40,9 +42,11 @@
     .line 3
     new-instance v0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi26;
 
-    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi26;-><init>(Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi26;
+    -><init>(Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;)V
 
-    iput-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->mProvider:Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->mProvider:Ljava/lang/Object;
 
     return-void
 
@@ -50,9 +54,11 @@
     :cond_0
     new-instance v0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
 
-    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;-><init>(Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19;
+    -><init>(Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;)V
 
-    iput-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->mProvider:Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->mProvider:Ljava/lang/Object;
 
     return-void
 .end method
@@ -65,10 +71,12 @@
     .end param
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 6
-    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->mProvider:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->mProvider:Ljava/lang/Object;
 
     return-void
 .end method
@@ -144,7 +152,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;->mProvider:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
+    ->mProvider:Ljava/lang/Object;
 
     .line 2
     .line 3

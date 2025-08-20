@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDestination;->setRoute(Ljava/lang/String;)V
+    value = Landroidx/navigation/NavDestination;
+    ->setRoute(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavDestination$route$3;->$tempRoute:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/NavDestination$route$3;
+    ->$tempRoute:Ljava/lang/String;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -48,15 +51,19 @@ return-void
     .line 1
     new-instance v0, Landroidx/navigation/NavDeepLink$Builder;
 
-    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavDeepLink$Builder;
+    -><init>()V
 
-    iget-object v1, p0, Landroidx/navigation/NavDestination$route$3;->$tempRoute:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/NavDestination$route$3;
+    ->$tempRoute:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Landroidx/navigation/NavDeepLink$Builder;->setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
+    invoke-virtual {v0, v1}, Landroidx/navigation/NavDeepLink$Builder;
+    ->setUriPattern(Ljava/lang/String;)Landroidx/navigation/NavDeepLink$Builder;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink$Builder;->build()Landroidx/navigation/NavDeepLink;
+    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink$Builder;
+    ->build()Landroidx/navigation/NavDeepLink;
 
     move-result-object v0
 
@@ -67,7 +74,8 @@ return-void
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/navigation/NavDestination$route$3;->invoke()Landroidx/navigation/NavDeepLink;
+    invoke-virtual {p0}, Landroidx/navigation/NavDestination$route$3;
+    ->invoke()Landroidx/navigation/NavDeepLink;
 
     move-result-object v0
 

@@ -154,7 +154,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->ColorStateListItem:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->ColorStateListItem:[I
 
     const v0, 0x7f04031e
 
@@ -164,7 +165,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->CoordinatorLayout:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->CoordinatorLayout:[I
 
     const/4 v0, 0x7
 
@@ -172,13 +174,15 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Lcom/google/firebase/appcheck/interop/R$styleable;->CoordinatorLayout_Layout:[I
+    sput-object v1, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->CoordinatorLayout_Layout:[I
 
     new-array v0, v0, [I
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->FontFamily:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->FontFamily:[I
 
     const/16 v0, 0xa
 
@@ -186,7 +190,8 @@
 
     fill-array-data v0, :array_2
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->FontFamilyFont:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->FontFamilyFont:[I
 
     const/16 v0, 0xc
 
@@ -194,7 +199,8 @@
 
     fill-array-data v0, :array_3
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->GradientColor:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->GradientColor:[I
 
     const v0, 0x1010514
 
@@ -202,7 +208,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->GradientColorItem:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->GradientColorItem:[I
 
     const v0, 0x7f0402df
 
@@ -214,7 +221,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->LoadingImageView:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->LoadingImageView:[I
 
     const v0, 0x7f040173
 
@@ -226,7 +234,8 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;->SignInButton:[I
+    sput-object v0, Lcom/google/firebase/appcheck/interop/R$styleable;
+    ->SignInButton:[I
 
     return-void
 
@@ -286,7 +295,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -16,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +39,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroidx/arch/core/executor/TaskExecutor;->isMainThread()Z
+    invoke-virtual {p0}, Landroidx/arch/core/executor/TaskExecutor;
+    ->isMainThread()Z
 
     .line 2
     .line 3
@@ -49,12 +52,14 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+    invoke-interface {p1}, Ljava/lang/Runnable;
+    ->run()V
     return-void
 
     .line 11
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/arch/core/executor/TaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, p1}, Landroidx/arch/core/executor/TaskExecutor;
+    ->postToMainThread(Ljava/lang/Runnable;)V
 return-void
 .end method
 

@@ -133,14 +133,17 @@
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/app/ComponentActivity;-><init>()V
+    invoke-direct {p0}, Landroidx/core/app/ComponentActivity;
+    -><init>()V
 
     .line 2
     new-instance v0, Landroidx/activity/contextaware/ContextAwareHelper;
 
-    invoke-direct {v0}, Landroidx/activity/contextaware/ContextAwareHelper;-><init>()V
+    invoke-direct {v0}, Landroidx/activity/contextaware/ContextAwareHelper;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
 
     .line 3
     new-instance v0, Landroidx/core/view/MenuHostHelper;
@@ -149,190 +152,240 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, v2}, Landroidx/activity/d;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, Landroidx/activity/d;
+    -><init>(Ljava/lang/Object;I)V
 
-    invoke-direct {v0, v1}, Landroidx/core/view/MenuHostHelper;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v0, v1}, Landroidx/core/view/MenuHostHelper;
+    -><init>(Ljava/lang/Runnable;)V
 
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 4
     new-instance v0, Landroidx/lifecycle/LifecycleRegistry;
 
-    invoke-direct {v0, p0}, Landroidx/lifecycle/LifecycleRegistry;-><init>(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-direct {v0, p0}, Landroidx/lifecycle/LifecycleRegistry;
+    -><init>(Landroidx/lifecycle/LifecycleOwner;)V
 
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;
 
     .line 5
-    invoke-static {p0}, Landroidx/savedstate/SavedStateRegistryController;->create(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/savedstate/SavedStateRegistryController;
+    invoke-static {p0}, Landroidx/savedstate/SavedStateRegistryController;
+    ->create(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/savedstate/SavedStateRegistryController;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
 
     const/4 v1, 0x0
 
     .line 6
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
 
     .line 7
-    invoke-direct {p0}, Landroidx/activity/ComponentActivity;->createFullyDrawnExecutor()Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    invoke-direct {p0}, Landroidx/activity/ComponentActivity;
+    ->createFullyDrawnExecutor()Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
     move-result-object v1
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
     .line 8
     new-instance v2, Landroidx/activity/FullyDrawnReporter;
 
     new-instance v3, Landroidx/activity/a;
 
-    invoke-direct {v3, p0}, Landroidx/activity/a;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v3, p0}, Landroidx/activity/a;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
-    invoke-direct {v2, v1, v3}, Landroidx/activity/FullyDrawnReporter;-><init>(Ljava/util/concurrent/Executor;Lp1/a;)V
+    invoke-direct {v2, v1, v3}, Landroidx/activity/FullyDrawnReporter;
+    -><init>(Ljava/util/concurrent/Executor;Lp1/a;)V
 
-    iput-object v2, p0, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;
+    iput-object v2, p0, Landroidx/activity/ComponentActivity;
+    ->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;
 
     .line 9
     new-instance v1, Ljava/util/concurrent/atomic/AtomicInteger;
 
-    invoke-direct {v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+    invoke-direct {v1}, Ljava/util/concurrent/atomic/AtomicInteger;
+    -><init>()V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mNextLocalRequestCode:Ljava/util/concurrent/atomic/AtomicInteger;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mNextLocalRequestCode:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 10
     new-instance v1, Landroidx/activity/ComponentActivity$1;
 
-    invoke-direct {v1, p0}, Landroidx/activity/ComponentActivity$1;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v1, p0}, Landroidx/activity/ComponentActivity$1;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
 
     .line 11
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 12
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 13
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 14
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 15
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    -><init>()V
 
-    iput-object v1, p0, Landroidx/activity/ComponentActivity;->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iput-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     const/4 v1, 0x0
 
     .line 16
-    iput-boolean v1, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnMultiWindowModeChanged:Z
+    iput-boolean v1, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnMultiWindowModeChanged:Z
 
     .line 17
-    iput-boolean v1, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnPictureInPictureModeChanged:Z
+    iput-boolean v1, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnPictureInPictureModeChanged:Z
 
     .line 18
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
     .line 19
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 20
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v2
 
     new-instance v3, Landroidx/activity/ComponentActivity$2;
 
-    invoke-direct {v3, p0}, Landroidx/activity/ComponentActivity$2;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v3, p0}, Landroidx/activity/ComponentActivity$2;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
-    invoke-virtual {v2, v3}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v2, v3}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 21
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v2
 
     new-instance v3, Landroidx/activity/ComponentActivity$3;
 
-    invoke-direct {v3, p0}, Landroidx/activity/ComponentActivity$3;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v3, p0}, Landroidx/activity/ComponentActivity$3;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
-    invoke-virtual {v2, v3}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v2, v3}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 22
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v2
 
     new-instance v3, Landroidx/activity/ComponentActivity$4;
 
-    invoke-direct {v3, p0}, Landroidx/activity/ComponentActivity$4;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v3, p0}, Landroidx/activity/ComponentActivity$4;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
-    invoke-virtual {v2, v3}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v2, v3}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 23
-    invoke-virtual {v0}, Landroidx/savedstate/SavedStateRegistryController;->performAttach()V
+    invoke-virtual {v0}, Landroidx/savedstate/SavedStateRegistryController;
+    ->performAttach()V
 
     .line 24
-    invoke-static {p0}, Landroidx/lifecycle/SavedStateHandleSupport;->enableSavedStateHandles(Landroidx/savedstate/SavedStateRegistryOwner;)V
+    invoke-static {p0}, Landroidx/lifecycle/SavedStateHandleSupport;
+    ->enableSavedStateHandles(Landroidx/savedstate/SavedStateRegistryOwner;)V
 
     const/16 v0, 0x17
 
     if-gt v1, v0, :cond_0
 
     .line 25
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v0
 
     new-instance v1, Landroidx/activity/ImmLeaksCleaner;
 
-    invoke-direct {v1, p0}, Landroidx/activity/ImmLeaksCleaner;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v1, p0}, Landroidx/activity/ImmLeaksCleaner;
+    -><init>(Landroid/app/Activity;)V
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 26
     :cond_0
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     move-result-object v0
 
     new-instance v1, Landroidx/activity/b;
 
-    invoke-direct {v1, p0}, Landroidx/activity/b;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v1, p0}, Landroidx/activity/b;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     const-string v2, "android:support:activity-result"
 
-    invoke-virtual {v0, v2, v1}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
+    invoke-virtual {v0, v2, v1}, Landroidx/savedstate/SavedStateRegistry;
+    ->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
 
     .line 27
     new-instance v0, Landroidx/activity/c;
 
-    invoke-direct {v0, p0}, Landroidx/activity/c;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v0, p0}, Landroidx/activity/c;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
-    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;
+    ->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
 return-void
 
     .line 28
@@ -341,7 +394,8 @@ return-void
 
     const-string v1, "getLifecycle() returned null in ComponentActivity\'s constructor. Please make sure you are lazily constructing your Lifecycle in the first call to getLifecycle() rather than relying on field initialization."
 
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -356,10 +410,12 @@ return-void
     .end annotation
 
     .line 29
-    invoke-direct {p0}, Landroidx/activity/ComponentActivity;-><init>()V
+    invoke-direct {p0}, Landroidx/activity/ComponentActivity;
+    -><init>()V
 
     .line 30
-    iput p1, p0, Landroidx/activity/ComponentActivity;->mContentLayoutId:I
+    iput p1, p0, Landroidx/activity/ComponentActivity;
+    ->mContentLayoutId:I
 
     return-void
 .end method
@@ -368,7 +424,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/activity/ComponentActivity;->lambda$new$2(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/activity/ComponentActivity;
+    ->lambda$new$2(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -376,7 +433,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
+    invoke-super {p0}, Landroid/app/Activity;
+    ->onBackPressed()V
 return-void
 .end method
 
@@ -384,14 +442,16 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object p0
+    iget-object p0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object p0
 .end method
 
 .method public static synthetic b(Landroidx/activity/ComponentActivity;)Landroid/os/Bundle;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/ComponentActivity;->lambda$new$1()Landroid/os/Bundle;
+    invoke-direct {p0}, Landroidx/activity/ComponentActivity;
+    ->lambda$new$1()Landroid/os/Bundle;
 
     move-result-object p0
 
@@ -402,7 +462,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/ComponentActivity;->lambda$new$0()Lc1/v;
+    invoke-direct {p0}, Landroidx/activity/ComponentActivity;
+    ->lambda$new$0()Lc1/v;
 
     move-result-object p0
 
@@ -417,7 +478,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;
+    -><init>(Landroidx/activity/ComponentActivity;)V
     return-object v0
 .end method
 
@@ -425,7 +487,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->reportFullyDrawn()V
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->reportFullyDrawn()V
 
     .line 2
     .line 3
@@ -443,16 +506,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
+    iget-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Landroidx/activity/result/ActivityResultRegistry;->onSaveInstanceState(Landroid/os/Bundle;)V
+    invoke-virtual {v1, v0}, Landroidx/activity/result/ActivityResultRegistry;
+    ->onSaveInstanceState(Landroid/os/Bundle;)V
 return-object v0
 .end method
 
@@ -460,7 +526,8 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 2
     .line 3
@@ -472,7 +539,8 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Landroidx/savedstate/SavedStateRegistry;->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p1, v0}, Landroidx/savedstate/SavedStateRegistry;
+    ->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 8
     .line 9
@@ -484,11 +552,13 @@ return-object v0
 
     .line 12
     .line 13
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/activity/result/ActivityResultRegistry;->onRestoreInstanceState(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/result/ActivityResultRegistry;
+    ->onRestoreInstanceState(Landroid/os/Bundle;)V
 
     .line 16
     .line 17
@@ -519,16 +589,19 @@ return-object v0
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->initializeViewTreeOwners()V
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->initializeViewTreeOwners()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 7
     .line 8
@@ -536,7 +609,8 @@ return-object v0
     move-result-object v1
 
     .line 10
-    invoke-virtual {v1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v1}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 11
     .line 12
@@ -544,12 +618,15 @@ return-object v0
     move-result-object v1
 
     .line 14
-    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;->viewCreated(Landroid/view/View;)V
+    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    ->viewCreated(Landroid/view/View;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-void
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    
+    return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;)V
@@ -560,9 +637,11 @@ return-object v0
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
-    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->addMenuProvider(Landroidx/core/view/MenuProvider;)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;
+    ->addMenuProvider(Landroidx/core/view/MenuProvider;)V
 return-void
 .end method
 
@@ -578,9 +657,11 @@ return-void
     .end param
 
     .line 2
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/core/view/MenuHostHelper;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/core/view/MenuHostHelper;
+    ->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -605,9 +686,11 @@ return-void
     .end annotation
 
     .line 3
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/view/MenuHostHelper;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/core/view/MenuHostHelper;
+    ->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
 return-void
 .end method
 
@@ -627,11 +710,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -643,11 +728,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;
+    ->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
 return-void
 .end method
 
@@ -667,11 +754,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final addOnNewIntentListener(Landroidx/core/util/Consumer;)V
@@ -690,11 +780,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -713,11 +806,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
@@ -736,18 +832,22 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->add(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public ensureViewModelStore()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 2
     .line 3
@@ -755,7 +855,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/app/Activity;->getLastNonConfigurationInstance()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getLastNonConfigurationInstance()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -771,16 +872,19 @@ return-void
 
     .line 12
     .line 13
-    iget-object v0, v0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iget-object v0, v0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;
+    ->viewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 18
     .line 19
@@ -792,12 +896,14 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v0}, Landroidx/lifecycle/ViewModelStore;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/ViewModelStore;
+    -><init>()V
 
     .line 24
     .line 25
     .line 26
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 27
     .line 28
@@ -811,7 +917,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;    return-object v0
 .end method
 
 .method public getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
@@ -827,12 +934,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getApplication()Landroid/app/Application;
 
     .line 7
     .line 8
@@ -844,11 +953,13 @@ return-void
 
     .line 11
     .line 12
-    sget-object v1, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->APPLICATION_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v1, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
+    ->APPLICATION_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getApplication()Landroid/app/Application;
 
     .line 15
     .line 16
@@ -856,31 +967,37 @@ return-void
     move-result-object v2
 
     .line 18
-    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    ->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
 
     .line 19
     .line 20
     .line 21
     :cond_0
-    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;
+    ->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, p0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, p0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    ->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
 
     .line 24
     .line 25
     .line 26
-    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;->VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;
+    ->VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1, p0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, p0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    ->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 32
     .line 33
@@ -892,7 +1009,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 38
     .line 39
@@ -900,7 +1018,8 @@ return-void
     move-result-object v1
 
     .line 41
-    invoke-virtual {v1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {v1}, Landroid/content/Intent;
+    ->getExtras()Landroid/os/Bundle;
 
     .line 42
     .line 43
@@ -912,11 +1031,13 @@ return-void
 
     .line 46
     .line 47
-    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;
+    ->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
     .line 48
     .line 49
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 50
     .line 51
@@ -924,7 +1045,8 @@ return-void
     move-result-object v2
 
     .line 53
-    invoke-virtual {v2}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {v2}, Landroid/content/Intent;
+    ->getExtras()Landroid/os/Bundle;
 
     .line 54
     .line 55
@@ -932,7 +1054,8 @@ return-void
     move-result-object v2
 
     .line 57
-    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    ->set(Landroidx/lifecycle/viewmodel/CreationExtras$Key;Ljava/lang/Object;)V
 
     .line 58
     .line 59
@@ -947,7 +1070,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
 
     .line 2
     .line 3
@@ -959,7 +1083,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getApplication()Landroid/app/Application;
 
     .line 8
     .line 9
@@ -967,7 +1092,8 @@ return-void
     move-result-object v1
 
     .line 11
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 12
     .line 13
@@ -979,7 +1105,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getIntent()Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -987,7 +1114,8 @@ return-void
     move-result-object v2
 
     .line 21
-    invoke-virtual {v2}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {v2}, Landroid/content/Intent;
+    ->getExtras()Landroid/os/Bundle;
 
     .line 22
     .line 23
@@ -1003,17 +1131,20 @@ return-void
 
     .line 27
     :goto_0
-    invoke-direct {v0, v1, p0, v2}, Landroidx/lifecycle/SavedStateViewModelFactory;-><init>(Landroid/app/Application;Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V
+    invoke-direct {v0, v1, p0, v2}, Landroidx/lifecycle/SavedStateViewModelFactory;
+    -><init>(Landroid/app/Application;Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V
 
     .line 28
     .line 29
     .line 30
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;
 
     .line 31
     .line 32
     :cond_1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDefaultFactory:Landroidx/lifecycle/ViewModelProvider$Factory;    return-object v0
 .end method
 
 .method public getFullyDrawnReporter()Landroidx/activity/FullyDrawnReporter;
@@ -1022,7 +1153,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;    return-object v0
 .end method
 
 .method public getLastCustomNonConfigurationInstance()Ljava/lang/Object;
@@ -1034,7 +1166,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->getLastNonConfigurationInstance()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getLastNonConfigurationInstance()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1050,7 +1183,8 @@ return-void
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->custom:Ljava/lang/Object;    return-object v0
+    iget-object v0, v0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;
+    ->custom:Ljava/lang/Object;    return-object v0
 
     .line 12
     :cond_0
@@ -1065,7 +1199,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
 .end method
 
 .method public final getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
@@ -1074,7 +1209,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
 
     .line 2
     .line 3
@@ -1090,21 +1226,25 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v1, p0}, Landroidx/activity/ComponentActivity$5;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v1, p0}, Landroidx/activity/ComponentActivity$5;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-direct {v0, v1}, Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v0, v1}, Landroidx/activity/OnBackPressedDispatcher;
+    -><init>(Ljava/lang/Runnable;)V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
+    iput-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 18
     .line 19
@@ -1116,18 +1256,21 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v1, p0}, Landroidx/activity/ComponentActivity$6;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v1, p0}, Landroidx/activity/ComponentActivity$6;
+    -><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 27
     .line 28
     .line 29
     :cond_0
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;    return-object v0
 .end method
 
 .method public final getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
@@ -1136,11 +1279,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/savedstate/SavedStateRegistryController;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-virtual {v0}, Landroidx/savedstate/SavedStateRegistryController;
+    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 4
     .line 5
@@ -1156,7 +1301,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getApplication()Landroid/app/Application;
 
     .line 2
     .line 3
@@ -1168,12 +1314,14 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->ensureViewModelStore()V
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->ensureViewModelStore()V
 
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;    return-object v0
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mViewModelStore:Landroidx/lifecycle/ViewModelStore;    return-object v0
 
     .line 13
     :cond_0
@@ -1185,7 +1333,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -1198,7 +1347,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 2
     .line 3
@@ -1206,7 +1356,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 6
     .line 7
@@ -1214,12 +1365,14 @@ return-void
     move-result-object v0
 
     .line 9
-    invoke-static {v0, p0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;->set(Landroid/view/View;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-static {v0, p0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;
+    ->set(Landroid/view/View;Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 13
     .line 14
@@ -1227,7 +1380,8 @@ return-void
     move-result-object v0
 
     .line 16
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 17
     .line 18
@@ -1235,12 +1389,14 @@ return-void
     move-result-object v0
 
     .line 20
-    invoke-static {v0, p0}, Landroidx/lifecycle/ViewTreeViewModelStoreOwner;->set(Landroid/view/View;Landroidx/lifecycle/ViewModelStoreOwner;)V
+    invoke-static {v0, p0}, Landroidx/lifecycle/ViewTreeViewModelStoreOwner;
+    ->set(Landroid/view/View;Landroidx/lifecycle/ViewModelStoreOwner;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 24
     .line 25
@@ -1248,7 +1404,8 @@ return-void
     move-result-object v0
 
     .line 27
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 28
     .line 29
@@ -1256,12 +1413,14 @@ return-void
     move-result-object v0
 
     .line 31
-    invoke-static {v0, p0}, Landroidx/savedstate/ViewTreeSavedStateRegistryOwner;->set(Landroid/view/View;Landroidx/savedstate/SavedStateRegistryOwner;)V
+    invoke-static {v0, p0}, Landroidx/savedstate/ViewTreeSavedStateRegistryOwner;
+    ->set(Landroid/view/View;Landroidx/savedstate/SavedStateRegistryOwner;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 35
     .line 36
@@ -1269,7 +1428,8 @@ return-void
     move-result-object v0
 
     .line 38
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 39
     .line 40
@@ -1277,12 +1437,14 @@ return-void
     move-result-object v0
 
     .line 42
-    invoke-static {v0, p0}, Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner;->set(Landroid/view/View;Landroidx/activity/OnBackPressedDispatcherOwner;)V
+    invoke-static {v0, p0}, Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner;
+    ->set(Landroid/view/View;Landroidx/activity/OnBackPressedDispatcherOwner;)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     .line 46
     .line 47
@@ -1290,7 +1452,8 @@ return-void
     move-result-object v0
 
     .line 49
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 50
     .line 51
@@ -1298,14 +1461,17 @@ return-void
     move-result-object v0
 
     .line 53
-    invoke-static {v0, p0}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner;->set(Landroid/view/View;Landroidx/activity/FullyDrawnReporterOwner;)V    return-void
+    invoke-static {v0, p0}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner;
+    ->set(Landroid/view/View;Landroidx/activity/FullyDrawnReporterOwner;)V    
+    return-void
 .end method
 
 .method public invalidateMenu()V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->invalidateOptionsMenu()V
     return-void
 .end method
 
@@ -1322,11 +1488,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/activity/result/ActivityResultRegistry;->dispatchResult(IILandroid/content/Intent;)Z
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/activity/result/ActivityResultRegistry;
+    ->dispatchResult(IILandroid/content/Intent;)Z
 
     .line 4
     .line 5
@@ -1338,7 +1506,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;
+    ->onActivityResult(IILandroid/content/Intent;)V
 
     .line 10
     .line 11
@@ -1359,7 +1528,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
 
     .line 2
     .line 3
@@ -1367,7 +1537,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;
+    ->onBackPressed()V
     return-void
 .end method
 
@@ -1381,16 +1552,19 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Landroid/app/Activity;
+    ->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -1399,7 +1573,8 @@ return-void
 
     .line 10
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -1411,7 +1586,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -1423,7 +1599,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-interface {v1, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 23
     .line 24
@@ -1443,35 +1620,42 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performRestore(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;
+    ->performRestore(Landroid/os/Bundle;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0}, Landroidx/activity/contextaware/ContextAwareHelper;->dispatchOnContextAvailable(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Landroidx/activity/contextaware/ContextAwareHelper;
+    ->dispatchOnContextAvailable(Landroid/content/Context;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-super {p0, p1}, Landroidx/core/app/ComponentActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/core/app/ComponentActivity;
+    ->onCreate(Landroid/os/Bundle;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p0}, Landroidx/lifecycle/ReportFragment;->injectIfNeededIn(Landroid/app/Activity;)V
+    invoke-static {p0}, Landroidx/lifecycle/ReportFragment;
+    ->injectIfNeededIn(Landroid/app/Activity;)V
 
     .line 15
     .line 16
     .line 17
-    iget p1, p0, Landroidx/activity/ComponentActivity;->mContentLayoutId:I
+    iget p1, p0, Landroidx/activity/ComponentActivity;
+    ->mContentLayoutId:I
 
     .line 18
     .line 19
@@ -1479,7 +1663,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
+    invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;
+    ->setContentView(I)V
 
     .line 22
     .line 23
@@ -1500,16 +1685,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onCreatePanelMenu(ILandroid/view/Menu;)Z
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->onCreatePanelMenu(ILandroid/view/Menu;)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getMenuInflater()Landroid/view/MenuInflater;
 
     .line 9
     .line 10
@@ -1517,7 +1705,8 @@ return-void
     move-result-object v0
 
     .line 12
-    invoke-virtual {p1, p2, v0}, Landroidx/core/view/MenuHostHelper;->onCreateMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
+    invoke-virtual {p1, p2, v0}, Landroidx/core/view/MenuHostHelper;
+    ->onCreateMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
 
     .line 13
     .line 14
@@ -1536,7 +1725,8 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onMenuItemSelected(ILandroid/view/MenuItem;)Z
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->onMenuItemSelected(ILandroid/view/MenuItem;)Z
 
     .line 2
     .line 3
@@ -1558,11 +1748,13 @@ return-void
 
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Landroidx/core/view/MenuHostHelper;->onMenuItemSelected(Landroid/view/MenuItem;)Z
+    invoke-virtual {p1, p2}, Landroidx/core/view/MenuHostHelper;
+    ->onMenuItemSelected(Landroid/view/MenuItem;)Z
 
     .line 14
     .line 15
@@ -1584,7 +1776,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnMultiWindowModeChanged:Z
+    iget-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnMultiWindowModeChanged:Z
 
     if-eqz v0, :cond_0
 
@@ -1592,20 +1785,24 @@ return-void
 
     .line 2
     :cond_0
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1614,9 +1811,11 @@ return-void
     .line 3
     new-instance v2, Landroidx/core/app/MultiWindowModeChangedInfo;
 
-    invoke-direct {v2, p1}, Landroidx/core/app/MultiWindowModeChangedInfo;-><init>(Z)V
+    invoke-direct {v2, p1}, Landroidx/core/app/MultiWindowModeChangedInfo;
+    -><init>(Z)V
 
-    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -1641,34 +1840,41 @@ return-void
     const/4 v0, 0x1
 
     .line 4
-    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnMultiWindowModeChanged:Z
+    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnMultiWindowModeChanged:Z
 
     const/4 v0, 0x0
 
     .line 5
     :try_start_0
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onMultiWindowModeChanged(ZLandroid/content/res/Configuration;)V
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->onMultiWindowModeChanged(ZLandroid/content/res/Configuration;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 6
-    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnMultiWindowModeChanged:Z
+    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnMultiWindowModeChanged:Z
 
     .line 7
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1677,9 +1883,11 @@ return-void
     .line 8
     new-instance v2, Landroidx/core/app/MultiWindowModeChangedInfo;
 
-    invoke-direct {v2, p1, p2}, Landroidx/core/app/MultiWindowModeChangedInfo;-><init>(ZLandroid/content/res/Configuration;)V
+    invoke-direct {v2, p1, p2}, Landroidx/core/app/MultiWindowModeChangedInfo;
+    -><init>(ZLandroid/content/res/Configuration;)V
 
-    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -1690,7 +1898,8 @@ return-void
     move-exception p1
 
     .line 9
-    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnMultiWindowModeChanged:Z
+    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnMultiWindowModeChanged:Z
 
     .line 10
     throw p1
@@ -1710,16 +1919,19 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroid/app/Activity;->onNewIntent(Landroid/content/Intent;)V
+    invoke-super {p0, p1}, Landroid/app/Activity;
+    ->onNewIntent(Landroid/content/Intent;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -1728,7 +1940,8 @@ return-void
 
     .line 10
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -1740,7 +1953,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -1752,7 +1966,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-interface {v1, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, p1}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 23
     .line 24
@@ -1772,16 +1987,19 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p2}, Landroidx/core/view/MenuHostHelper;->onMenuClosed(Landroid/view/Menu;)V
+    invoke-virtual {v0, p2}, Landroidx/core/view/MenuHostHelper;
+    ->onMenuClosed(Landroid/view/Menu;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onPanelClosed(ILandroid/view/Menu;)V
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->onPanelClosed(ILandroid/view/Menu;)V
 return-void
 .end method
 
@@ -1791,7 +2009,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnPictureInPictureModeChanged:Z
+    iget-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnPictureInPictureModeChanged:Z
 
     if-eqz v0, :cond_0
 
@@ -1799,20 +2018,24 @@ return-void
 
     .line 2
     :cond_0
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1821,9 +2044,11 @@ return-void
     .line 3
     new-instance v2, Landroidx/core/app/PictureInPictureModeChangedInfo;
 
-    invoke-direct {v2, p1}, Landroidx/core/app/PictureInPictureModeChangedInfo;-><init>(Z)V
+    invoke-direct {v2, p1}, Landroidx/core/app/PictureInPictureModeChangedInfo;
+    -><init>(Z)V
 
-    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -1848,34 +2073,41 @@ return-void
     const/4 v0, 0x1
 
     .line 4
-    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnPictureInPictureModeChanged:Z
+    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnPictureInPictureModeChanged:Z
 
     const/4 v0, 0x0
 
     .line 5
     :try_start_0
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onPictureInPictureModeChanged(ZLandroid/content/res/Configuration;)V
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->onPictureInPictureModeChanged(ZLandroid/content/res/Configuration;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 6
-    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnPictureInPictureModeChanged:Z
+    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnPictureInPictureModeChanged:Z
 
     .line 7
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1884,9 +2116,11 @@ return-void
     .line 8
     new-instance v2, Landroidx/core/app/PictureInPictureModeChangedInfo;
 
-    invoke-direct {v2, p1, p2}, Landroidx/core/app/PictureInPictureModeChangedInfo;-><init>(ZLandroid/content/res/Configuration;)V
+    invoke-direct {v2, p1, p2}, Landroidx/core/app/PictureInPictureModeChangedInfo;
+    -><init>(ZLandroid/content/res/Configuration;)V
 
-    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -1897,7 +2131,8 @@ return-void
     move-exception p1
 
     .line 9
-    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;->mDispatchingOnPictureInPictureModeChanged:Z
+    iput-boolean v0, p0, Landroidx/activity/ComponentActivity;
+    ->mDispatchingOnPictureInPictureModeChanged:Z
 
     .line 10
     throw p1
@@ -1919,16 +2154,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
+    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;
+    ->onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 7
     .line 8
-    invoke-virtual {p1, p3}, Landroidx/core/view/MenuHostHelper;->onPrepareMenu(Landroid/view/Menu;)V
+    invoke-virtual {p1, p3}, Landroidx/core/view/MenuHostHelper;
+    ->onPrepareMenu(Landroid/view/Menu;)V
 
     .line 9
     .line 10
@@ -1956,7 +2194,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
 
     .line 2
     .line 3
@@ -1964,7 +2203,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
+    invoke-direct {v1}, Landroid/content/Intent;
+    -><init>()V
 
     .line 6
     .line 7
@@ -1973,7 +2213,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {v1, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v2, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     .line 11
     .line 12
@@ -1985,7 +2226,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {v1, v2, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[I)Landroid/content/Intent;
+    invoke-virtual {v1, v2, p3}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[I)Landroid/content/Intent;
 
     .line 17
     .line 18
@@ -1996,7 +2238,8 @@ return-void
     const/4 v2, -0x1
 
     .line 21
-    invoke-virtual {v0, p1, v2, v1}, Landroidx/activity/result/ActivityResultRegistry;->dispatchResult(IILandroid/content/Intent;)Z
+    invoke-virtual {v0, p1, v2, v1}, Landroidx/activity/result/ActivityResultRegistry;
+    ->dispatchResult(IILandroid/content/Intent;)Z
 
     .line 22
     .line 23
@@ -2008,7 +2251,8 @@ return-void
 
     .line 26
     .line 27
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 28
     .line 29
@@ -2020,7 +2264,8 @@ return-void
 
     .line 32
     .line 33
-    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;
+    ->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
     .line 34
     .line 35
@@ -2048,7 +2293,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->onRetainCustomNonConfigurationInstance()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->onRetainCustomNonConfigurationInstance()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -2056,7 +2302,8 @@ return-void
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Landroidx/activity/ComponentActivity;->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iget-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mViewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 6
     .line 7
@@ -2064,7 +2311,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroid/app/Activity;->getLastNonConfigurationInstance()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getLastNonConfigurationInstance()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -2080,7 +2328,8 @@ return-void
 
     .line 16
     .line 17
-    iget-object v1, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;
+    iget-object v1, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;
+    ->viewModelStore:Landroidx/lifecycle/ViewModelStore;
 
     .line 18
     .line 19
@@ -2103,16 +2352,20 @@ return-void
 
     .line 26
     .line 27
-    invoke-direct {v2}, Landroidx/activity/ComponentActivity$NonConfigurationInstances;-><init>()V
+    invoke-direct {v2}, Landroidx/activity/ComponentActivity$NonConfigurationInstances;
+    -><init>()V
 
     .line 28
     .line 29
     .line 30
-    iput-object v0, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->custom:Ljava/lang/Object;
+    iput-object v0, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;
+    ->custom:Ljava/lang/Object;
 
     .line 31
     .line 32
-    iput-object v1, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;    return-object v2
+    iput-object v1, v2, Landroidx/activity/ComponentActivity$NonConfigurationInstances;
+    ->viewModelStore:Landroidx/lifecycle/ViewModelStore;    
+    return-object v2
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -2125,7 +2378,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 2
     .line 3
@@ -2145,26 +2399,31 @@ return-void
 
     .line 10
     .line 11
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
+    ->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;
+    ->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
 
     .line 14
     .line 15
     .line 16
     :cond_0
-    invoke-super {p0, p1}, Landroidx/core/app/ComponentActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroidx/core/app/ComponentActivity;
+    ->onSaveInstanceState(Landroid/os/Bundle;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mSavedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
 
     .line 20
     .line 21
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;
+    ->performSave(Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -2174,16 +2433,19 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroid/app/Activity;->onTrimMemory(I)V
+    invoke-super {p0, p1}, Landroid/app/Activity;
+    ->onTrimMemory(I)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -2192,7 +2454,8 @@ return-void
 
     .line 10
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 11
     .line 12
@@ -2204,7 +2467,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -2216,7 +2480,8 @@ return-void
 
     .line 21
     .line 22
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -2224,7 +2489,8 @@ return-void
     move-result-object v2
 
     .line 26
-    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Landroidx/core/util/Consumer;
+    ->accept(Ljava/lang/Object;)V
 
     .line 27
     .line 28
@@ -2242,11 +2508,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/contextaware/ContextAwareHelper;->peekAvailableContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroidx/activity/contextaware/ContextAwareHelper;
+    ->peekAvailableContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -2286,9 +2554,11 @@ return-void
     .end annotation
 
     .line 4
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mActivityResultRegistry:Landroidx/activity/result/ActivityResultRegistry;
 
-    invoke-virtual {p0, p1, v0, p2}, Landroidx/activity/ComponentActivity;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
+    invoke-virtual {p0, p1, v0, p2}, Landroidx/activity/ComponentActivity;
+    ->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p1
 
@@ -2334,23 +2604,29 @@ return-void
 
     const-string v1, "activity_rq#"
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Landroidx/activity/ComponentActivity;->mNextLocalRequestCode:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v1, p0, Landroidx/activity/ComponentActivity;
+    ->mNextLocalRequestCode:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 2
-    invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+    invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->getAndIncrement()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     .line 3
-    invoke-virtual {p2, v0, p0, p1, p3}, Landroidx/activity/result/ActivityResultRegistry;->register(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
+    invoke-virtual {p2, v0, p0, p1, p3}, Landroidx/activity/result/ActivityResultRegistry;
+    ->register(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p1
 
@@ -2365,11 +2641,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;
+    ->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
 return-void
 .end method
 
@@ -2389,11 +2667,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnConfigurationChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
@@ -2404,11 +2685,13 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;
+    ->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
 return-void
 .end method
 
@@ -2428,11 +2711,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnMultiWindowModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final removeOnNewIntentListener(Landroidx/core/util/Consumer;)V
@@ -2451,11 +2737,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnNewIntentListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -2474,11 +2763,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnPictureInPictureModeChangedListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public final removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
@@ -2497,11 +2789,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mOnTrimMemoryListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .method public reportFullyDrawn()V
@@ -2509,7 +2804,8 @@ return-void
 
     .line 1
     :try_start_0
-    invoke-static {}, Landroidx/tracing/Trace;->isEnabled()Z
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->isEnabled()Z
 
     .line 2
     .line 3
@@ -2525,7 +2821,8 @@ return-void
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/tracing/Trace;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/tracing/Trace;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -2542,28 +2839,33 @@ return-void
     .line 15
     :cond_0
     :goto_0
-    invoke-super {p0}, Landroid/app/Activity;->reportFullyDrawn()V
+    invoke-super {p0}, Landroid/app/Activity;
+    ->reportFullyDrawn()V
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mFullyDrawnReporter:Landroidx/activity/FullyDrawnReporter;
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/activity/FullyDrawnReporter;->fullyDrawnReported()V
+    invoke-virtual {v0}, Landroidx/activity/FullyDrawnReporter;
+    ->fullyDrawnReported()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 21
     .line 22
     .line 23
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->endSection()V
     return-void
 
     .line 27
     :goto_1
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->endSection()V
 
     .line 28
     .line 29
@@ -2578,23 +2880,29 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->initializeViewTreeOwners()V
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->initializeViewTreeOwners()V
 
     .line 2
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;->viewCreated(Landroid/view/View;)V
+    invoke-virtual {v1}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    ->viewCreated(Landroid/view/View;)V
 
     .line 3
-    invoke-super {p0, p1}, Landroid/app/Activity;->setContentView(I)V
+    invoke-super {p0, p1}, Landroid/app/Activity;
+    ->setContentView(I)V
 
     return-void
 .end method
@@ -2611,23 +2919,29 @@ return-void
     .end param
 
     .line 4
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->initializeViewTreeOwners()V
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->initializeViewTreeOwners()V
 
     .line 5
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;->viewCreated(Landroid/view/View;)V
+    invoke-virtual {v1}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    ->viewCreated(Landroid/view/View;)V
 
     .line 6
-    invoke-super {p0, p1}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Landroid/app/Activity;
+    ->setContentView(Landroid/view/View;)V
 
     return-void
 .end method
@@ -2652,23 +2966,29 @@ return-void
     .end param
 
     .line 7
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->initializeViewTreeOwners()V
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;
+    ->initializeViewTreeOwners()V
 
     .line 8
-    iget-object v0, p0, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;
+    ->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;->viewCreated(Landroid/view/View;)V
+    invoke-virtual {v1}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    ->viewCreated(Landroid/view/View;)V
 
     .line 9
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 .end method
@@ -2683,7 +3003,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;
+    ->startActivityForResult(Landroid/content/Intent;I)V
 return-void
 .end method
 
@@ -2701,7 +3022,8 @@ return-void
     .end annotation
 
     .line 2
-    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
+    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;
+    ->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
 return-void
 .end method
 
@@ -2719,7 +3041,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super/range {p0 .. p6}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
+    invoke-super/range {p0 .. p6}, Landroid/app/Activity;
+    ->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
 return-void
 .end method
 
@@ -2741,7 +3064,8 @@ return-void
     .end annotation
 
     .line 2
-    invoke-super/range {p0 .. p7}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+    invoke-super/range {p0 .. p7}, Landroid/app/Activity;
+    ->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
 return-void
 .end method
 

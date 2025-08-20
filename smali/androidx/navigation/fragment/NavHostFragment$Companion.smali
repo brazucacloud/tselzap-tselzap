@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/fragment/NavHostFragment$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/fragment/NavHostFragment$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +49,8 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/fragment/NavHostFragment$Companion;->create(ILandroid/os/Bundle;)Landroidx/navigation/fragment/NavHostFragment;
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/fragment/NavHostFragment$Companion;
+    ->create(ILandroid/os/Bundle;)Landroidx/navigation/fragment/NavHostFragment;
 
     .line 7
     .line 8
@@ -71,7 +74,8 @@
 
     const/4 v1, 0x2
 
-    invoke-static {p0, p1, v0, v1, v0}, Landroidx/navigation/fragment/NavHostFragment$Companion;->create$default(Landroidx/navigation/fragment/NavHostFragment$Companion;ILandroid/os/Bundle;ILjava/lang/Object;)Landroidx/navigation/fragment/NavHostFragment;
+    invoke-static {p0, p1, v0, v1, v0}, Landroidx/navigation/fragment/NavHostFragment$Companion;
+    ->create$default(Landroidx/navigation/fragment/NavHostFragment$Companion;ILandroid/os/Bundle;ILjava/lang/Object;)Landroidx/navigation/fragment/NavHostFragment;
 
     move-result-object p1
 
@@ -90,12 +94,14 @@
     .line 2
     new-instance v0, Landroid/os/Bundle;
 
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 3
     const-string v1, "android-support-nav:fragment:graphId"
 
-    invoke-virtual {v0, v1, p1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, p1}, Landroid/os/BaseBundle;
+    ->putInt(Ljava/lang/String;I)V
 
     goto :goto_0
 
@@ -110,24 +116,28 @@
     .line 4
     new-instance v0, Landroid/os/Bundle;
 
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 5
     :cond_1
     const-string p1, "android-support-nav:fragment:startDestinationArgs"
 
-    invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;
+    ->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 6
     :cond_2
     new-instance p1, Landroidx/navigation/fragment/NavHostFragment;
 
-    invoke-direct {p1}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V
+    invoke-direct {p1}, Landroidx/navigation/fragment/NavHostFragment;
+    -><init>()V
 
     if-eqz v0, :cond_3
 
     .line 7
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;
+    ->setArguments(Landroid/os/Bundle;)V
 
     :cond_3
     return-object p1
@@ -141,7 +151,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -166,7 +177,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/navigation/fragment/NavHostFragment;->getNavHostController$navigation_fragment_release()Landroidx/navigation/NavHostController;
+    invoke-virtual {v0}, Landroidx/navigation/fragment/NavHostFragment;
+    ->getNavHostController$navigation_fragment_release()Landroidx/navigation/NavHostController;
 
     .line 16
     .line 17
@@ -177,7 +189,8 @@
 
     .line 20
     :cond_0
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getParentFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;
+    ->getParentFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     .line 21
     .line 22
@@ -185,7 +198,8 @@
     move-result-object v1
 
     .line 24
-    invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->getPrimaryNavigationFragment()Landroidx/fragment/app/Fragment;
+    invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;
+    ->getPrimaryNavigationFragment()Landroidx/fragment/app/Fragment;
 
     .line 25
     .line 26
@@ -205,7 +219,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Landroidx/navigation/fragment/NavHostFragment;->getNavHostController$navigation_fragment_release()Landroidx/navigation/NavHostController;
+    invoke-virtual {v1}, Landroidx/navigation/fragment/NavHostFragment;
+    ->getNavHostController$navigation_fragment_release()Landroidx/navigation/NavHostController;
 
     .line 35
     .line 36
@@ -216,7 +231,8 @@
 
     .line 39
     :cond_1
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getParentFragment()Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;
+    ->getParentFragment()Landroidx/fragment/app/Fragment;
 
     .line 40
     .line 41
@@ -228,7 +244,8 @@
 
     .line 44
     :cond_2
-    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;
+    ->getView()Landroid/view/View;
 
     .line 45
     .line 46
@@ -240,7 +257,8 @@
 
     .line 49
     .line 50
-    invoke-static {v0}, Landroidx/navigation/Navigation;->findNavController(Landroid/view/View;)Landroidx/navigation/NavController;
+    invoke-static {v0}, Landroidx/navigation/Navigation;
+    ->findNavController(Landroid/view/View;)Landroidx/navigation/NavController;
 
     .line 51
     .line 52
@@ -281,7 +299,8 @@
 
     .line 66
     .line 67
-    invoke-virtual {v0}, Landroidx/fragment/app/DialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {v0}, Landroidx/fragment/app/DialogFragment;
+    ->getDialog()Landroid/app/Dialog;
 
     .line 68
     .line 69
@@ -293,7 +312,8 @@
 
     .line 72
     .line 73
-    invoke-virtual {v0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v0}, Landroid/app/Dialog;
+    ->getWindow()Landroid/view/Window;
 
     .line 74
     .line 75
@@ -305,7 +325,8 @@
 
     .line 78
     .line 79
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 80
     .line 81
@@ -318,7 +339,8 @@
 
     .line 84
     .line 85
-    invoke-static {v1}, Landroidx/navigation/Navigation;->findNavController(Landroid/view/View;)Landroidx/navigation/NavController;
+    invoke-static {v1}, Landroidx/navigation/Navigation;
+    ->findNavController(Landroid/view/View;)Landroidx/navigation/NavController;
 
     .line 86
     .line 87
@@ -341,7 +363,8 @@
 
     .line 95
     .line 96
-    invoke-static {v1, p1, v2}, Landroidx/constraintlayout/core/parser/a;->f(Ljava/lang/String;Landroidx/fragment/app/Fragment;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, v2}, Landroidx/constraintlayout/core/parser/a;
+    ->f(Ljava/lang/String;Landroidx/fragment/app/Fragment;Ljava/lang/String;)Ljava/lang/String;
 
     .line 97
     .line 98
@@ -349,7 +372,8 @@
     move-result-object p1
 
     .line 100
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 101
     .line 102

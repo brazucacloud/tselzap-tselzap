@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -38,7 +39,8 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
     :try_end_0
     .catch Ljava/lang/AbstractMethodError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -49,7 +51,8 @@
 
     .line 5
     :catch_0
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 6
     .line 7

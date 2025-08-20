@@ -38,7 +38,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -56,7 +57,8 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I
+    iget v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I
 
     .line 6
     .line 7
@@ -64,7 +66,8 @@
 
     .line 8
     .line 9
-    iget-object v2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iget-object v2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 10
     .line 11
@@ -79,14 +82,16 @@
 
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iput-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 17
     .line 18
     const/4 v2, -0x1
 
     .line 19
-    invoke-static {v0, v2}, Ljava/util/Arrays;->fill([II)V
+    invoke-static {v0, v2}, Ljava/util/Arrays;
+    ->fill([II)V
 
     .line 20
     .line 21
@@ -110,7 +115,8 @@
 
     .line 29
     .line 30
-    iput-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iput-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 31
     .line 32
@@ -120,14 +126,16 @@
     const/4 v4, 0x0
 
     .line 34
-    invoke-static {v2, v4, v0, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v2, v4, v0, v4, v3}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 35
     .line 36
     .line 37
     :cond_1
     :goto_0
-    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 38
     .line 39
@@ -143,7 +151,8 @@
 
     .line 44
     .line 45
-    iget p1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I
+    iget p1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I
 
     .line 46
     .line 47
@@ -151,7 +160,9 @@
 
     .line 48
     .line 49
-    iput p1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I    return-void
+    iput p1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I    
+    return-void
 
     .line 52
     :cond_2
@@ -163,7 +174,8 @@
 
     .line 55
     .line 56
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -180,7 +192,8 @@
 
     .line 63
     .line 64
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -191,7 +204,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 2
     .line 3
@@ -202,7 +216,8 @@
     const/4 v1, -0x1
 
     .line 6
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([II)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->fill([II)V
 
     .line 7
     .line 8
@@ -211,7 +226,9 @@
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I    
+    return-void
 .end method
 
 .method public collectPrefetchPositionsFromView(Landroidx/recyclerview/widget/RecyclerView;Z)V
@@ -221,11 +238,13 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I
+    iput v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 5
     .line 6
@@ -236,17 +255,20 @@
     const/4 v1, -0x1
 
     .line 9
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([II)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->fill([II)V
 
     .line 10
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView;->mLayout:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mLayout:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 13
     .line 14
-    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 15
     .line 16
@@ -258,7 +280,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->isItemPrefetchEnabled()Z
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->isItemPrefetchEnabled()Z
 
     .line 21
     .line 22
@@ -274,11 +297,13 @@
 
     .line 27
     .line 28
-    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
 
     .line 29
     .line 30
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/AdapterHelper;->hasPendingUpdates()Z
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->hasPendingUpdates()Z
 
     .line 31
     .line 32
@@ -290,11 +315,13 @@
 
     .line 35
     .line 36
-    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 37
     .line 38
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    ->getItemCount()I
 
     .line 39
     .line 40
@@ -302,7 +329,8 @@
     move-result v1
 
     .line 42
-    invoke-virtual {v0, v1, p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->collectInitialPrefetchPositions(ILandroidx/recyclerview/widget/RecyclerView$LayoutManager$LayoutPrefetchRegistry;)V
+    invoke-virtual {v0, v1, p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->collectInitialPrefetchPositions(ILandroidx/recyclerview/widget/RecyclerView$LayoutManager$LayoutPrefetchRegistry;)V
 
     .line 43
     .line 44
@@ -311,7 +339,8 @@
 
     .line 46
     :cond_1
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->hasPendingAdapterUpdates()Z
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->hasPendingAdapterUpdates()Z
 
     .line 47
     .line 48
@@ -323,30 +352,36 @@
 
     .line 51
     .line 52
-    iget v1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchDx:I
+    iget v1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchDx:I
 
     .line 53
     .line 54
-    iget v2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchDy:I
+    iget v2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchDy:I
 
     .line 55
     .line 56
-    iget-object v3, p1, Landroidx/recyclerview/widget/RecyclerView;->mState:Landroidx/recyclerview/widget/RecyclerView$State;
+    iget-object v3, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mState:Landroidx/recyclerview/widget/RecyclerView$State;
 
     .line 57
     .line 58
-    invoke-virtual {v0, v1, v2, v3, p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->collectAdjacentPrefetchPositions(IILandroidx/recyclerview/widget/RecyclerView$State;Landroidx/recyclerview/widget/RecyclerView$LayoutManager$LayoutPrefetchRegistry;)V
+    invoke-virtual {v0, v1, v2, v3, p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->collectAdjacentPrefetchPositions(IILandroidx/recyclerview/widget/RecyclerView$State;Landroidx/recyclerview/widget/RecyclerView$LayoutManager$LayoutPrefetchRegistry;)V
 
     .line 59
     .line 60
     .line 61
     :cond_2
     :goto_0
-    iget v1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I
 
     .line 62
     .line 63
-    iget v2, v0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mPrefetchMaxCountObserved:I
+    iget v2, v0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->mPrefetchMaxCountObserved:I
 
     .line 64
     .line 65
@@ -354,19 +389,23 @@
 
     .line 66
     .line 67
-    iput v1, v0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mPrefetchMaxCountObserved:I
+    iput v1, v0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->mPrefetchMaxCountObserved:I
 
     .line 68
     .line 69
-    iput-boolean p2, v0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mPrefetchMaxObservedInInitialPrefetch:Z
+    iput-boolean p2, v0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->mPrefetchMaxObservedInInitialPrefetch:Z
 
     .line 70
     .line 71
-    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView;->mRecycler:Landroidx/recyclerview/widget/RecyclerView$Recycler;
+    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView;
+    ->mRecycler:Landroidx/recyclerview/widget/RecyclerView$Recycler;
 
     .line 72
     .line 73
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->updateViewCacheSize()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Recycler;
+    ->updateViewCacheSize()V
 
     .line 74
     .line 75
@@ -379,7 +418,8 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 2
     .line 3
@@ -390,7 +430,8 @@
 
     .line 5
     .line 6
-    iget v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mCount:I
+    iget v0, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mCount:I
 
     .line 7
     .line 8
@@ -406,7 +447,8 @@
 
     .line 12
     .line 13
-    iget-object v3, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchArray:[I
+    iget-object v3, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchArray:[I
 
     .line 14
     .line 15
@@ -439,11 +481,14 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchDx:I
+    iput p1, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchDx:I
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchDy:I    return-void
+    iput p2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;
+    ->mPrefetchDy:I    
+    return-void
 .end method
 
 .end class

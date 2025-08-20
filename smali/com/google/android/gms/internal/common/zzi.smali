@@ -11,7 +11,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/internal/common/zzj;-><init>(Ljava/lang/Class;Ljava/lang/Object;Lcom/google/android/gms/internal/common/zzk;)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/internal/common/zzj;
+    -><init>(Ljava/lang/Class;Ljava/lang/Object;Lcom/google/android/gms/internal/common/zzk;)V
 
     .line 3
     .line 4
@@ -27,7 +28,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 4
     .line 5
@@ -35,11 +37,13 @@
     move-result-object p0
 
     .line 7
-    sget-object p1, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+    sget-object p1, Ljava/lang/Long;
+    ->TYPE:Ljava/lang/Class;
 
     .line 8
     .line 9
-    invoke-direct {v0, p1, p0}, Lcom/google/android/gms/internal/common/zzi;-><init>(Ljava/lang/Class;Ljava/lang/Object;)V
+    invoke-direct {v0, p1, p0}, Lcom/google/android/gms/internal/common/zzi;
+    -><init>(Ljava/lang/Class;Ljava/lang/Object;)V
 
     .line 10
     .line 11

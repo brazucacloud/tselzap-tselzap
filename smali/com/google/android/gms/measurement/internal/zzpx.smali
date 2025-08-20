@@ -36,7 +36,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -48,27 +49,37 @@
     .line 7
     new-instance v0, Lcom/google/android/gms/measurement/internal/zzpu;
 
-    iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zza:J
+    iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zza:J
 
-    iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzb:Lcom/google/android/gms/internal/measurement/zzgg$zzj;
+    iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzgg$zzj;
 
-    iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzc:Ljava/lang/String;
+    iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzc:Ljava/lang/String;
 
-    iget-object v5, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzd:Ljava/util/Map;
+    iget-object v5, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzd:Ljava/util/Map;
 
-    iget-object v6, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zze:Lcom/google/android/gms/measurement/internal/zzmf;
+    iget-object v6, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zze:Lcom/google/android/gms/measurement/internal/zzmf;
 
-    iget-wide v7, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzf:J
+    iget-wide v7, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzf:J
 
-    iget-wide v9, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzg:J
+    iget-wide v9, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzg:J
 
-    iget-wide v11, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzh:J
+    iget-wide v11, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzh:J
 
-    iget v13, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzi:I
+    iget v13, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzi:I
 
     const/4 v14, 0x0
 
-    invoke-direct/range {v0 .. v14}, Lcom/google/android/gms/measurement/internal/zzpu;-><init>(JLcom/google/android/gms/internal/measurement/zzgg$zzj;Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;JJJILcom/google/android/gms/measurement/internal/zzpw;)V
+    invoke-direct/range {v0 .. v14}, Lcom/google/android/gms/measurement/internal/zzpu;
+    -><init>(JLcom/google/android/gms/internal/measurement/zzgg$zzj;Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;JJJILcom/google/android/gms/measurement/internal/zzpw;)V
 return-object v0
 .end method
 
@@ -76,7 +87,8 @@ return-object v0
     .locals 0
 
     .line 3
-    iput p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzi:I
+    iput p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzi:I
 
     return-object p0
 .end method
@@ -85,7 +97,8 @@ return-object v0
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzg:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzg:J
 
     return-object p0
 .end method
@@ -94,7 +107,8 @@ return-object v0
     .locals 0
 
     .line 2
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzb:Lcom/google/android/gms/internal/measurement/zzgg$zzj;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzgg$zzj;
 
     return-object p0
 .end method
@@ -103,7 +117,8 @@ return-object v0
     .locals 0
 
     .line 5
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zze:Lcom/google/android/gms/measurement/internal/zzmf;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zze:Lcom/google/android/gms/measurement/internal/zzmf;
 
     return-object p0
 .end method
@@ -112,7 +127,8 @@ return-object v0
     .locals 0
 
     .line 6
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzc:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzc:Ljava/lang/String;
 
     return-object p0
 .end method
@@ -131,7 +147,8 @@ return-object v0
     .end annotation
 
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzd:Ljava/util/Map;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzd:Ljava/util/Map;
 
     return-object p0
 .end method
@@ -140,7 +157,8 @@ return-object v0
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzf:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzf:J
 
     .line 2
     .line 3
@@ -151,7 +169,8 @@ return-object v0
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zzh:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zzh:J
 
     .line 2
     .line 3
@@ -162,7 +181,8 @@ return-object v0
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;->zza:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzpx;
+    ->zza:J
 
     .line 2
     .line 3

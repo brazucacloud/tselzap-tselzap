@@ -29,7 +29,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -38,7 +39,8 @@
 
     .line 5
     .line 6
-    iput-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iput-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 7
     .line 8
@@ -49,11 +51,14 @@
     .line 11
     .line 12
     .line 13
-    iput-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iput-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C    
+    return-void
 .end method
 
 
@@ -74,7 +79,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 7
     .line 8
@@ -97,7 +103,8 @@
 
     .line 2
     :try_start_0
-    invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
+    invoke-super {p0}, Ljava/lang/Object;
+    ->clone()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -111,7 +118,8 @@
     :catch_0
     new-instance v0, Ljava/lang/AssertionError;
 
-    invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
+    invoke-direct {v0}, Ljava/lang/AssertionError;
+    -><init>()V
 
     throw v0
 .end method
@@ -122,7 +130,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->clone()Landroidx/constraintlayout/core/parser/CLElement;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
+    ->clone()Landroidx/constraintlayout/core/parser/CLElement;
 
     move-result-object v0
 
@@ -137,16 +146,19 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C
+    iget-object v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/String;-><init>([C)V
+    invoke-direct {v0, v1}, Ljava/lang/String;
+    -><init>([C)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 9
     .line 10
@@ -165,7 +177,8 @@
 
     .line 18
     :cond_0
-    iget-wide v3, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v3, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 19
     .line 20
@@ -184,7 +197,8 @@
 
     .line 28
     .line 29
-    iget-wide v5, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v5, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 30
     .line 31
@@ -209,7 +223,8 @@
     add-int/2addr v4, v2
 
     .line 39
-    invoke-virtual {v0, v1, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v0, v1, v4}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -221,7 +236,8 @@
     .line 44
     :cond_2
     :goto_0
-    iget-wide v3, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v3, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 45
     .line 46
@@ -234,7 +250,8 @@
     add-int/2addr v4, v2
 
     .line 49
-    invoke-virtual {v0, v1, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v0, v1, v4}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 50
     .line 51
@@ -273,11 +290,13 @@
 
     .line 12
     .line 13
-    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 14
     .line 15
-    iget-wide v4, p1, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v4, p1, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 16
     .line 17
@@ -289,11 +308,13 @@
 
     .line 22
     :cond_2
-    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 23
     .line 24
-    iget-wide v4, p1, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v4, p1, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 25
     .line 26
@@ -305,11 +326,13 @@
 
     .line 31
     :cond_3
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mLine:I
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mLine:I
 
     .line 32
     .line 33
-    iget v2, p1, Landroidx/constraintlayout/core/parser/CLElement;->mLine:I
+    iget v2, p1, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mLine:I
 
     .line 34
     .line 35
@@ -317,15 +340,18 @@
 
     .line 38
     :cond_4
-    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C
+    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C
 
     .line 39
     .line 40
-    iget-object v2, p1, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C
+    iget-object v2, p1, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C
 
     .line 41
     .line 42
-    invoke-static {v0, v2}, Ljava/util/Arrays;->equals([C[C)Z
+    invoke-static {v0, v2}, Ljava/util/Arrays;
+    ->equals([C[C)Z
 
     .line 43
     .line 44
@@ -337,15 +363,18 @@
 
     .line 49
     :cond_5
-    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
+    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
 
     .line 50
     .line 51
-    iget-object p1, p1, Landroidx/constraintlayout/core/parser/CLElement;->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
+    iget-object p1, p1, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
 
     .line 52
     .line 53
-    invoke-static {v0, p1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Ljava/util/Objects;
+    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 54
     .line 55
@@ -359,14 +388,16 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;    return-object v0
 .end method
 
 .method public getDebugName()Ljava/lang/String;
     .locals 2
 
     .line 1
-    sget-boolean v0, Landroidx/constraintlayout/core/parser/CLParser;->sDebug:Z
+    sget-boolean v0, Landroidx/constraintlayout/core/parser/CLParser;
+    ->sDebug:Z
 
     .line 2
     .line 3
@@ -378,12 +409,14 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->getStrClass()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
+    ->getStrClass()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -391,7 +424,8 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -400,12 +434,14 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -423,7 +459,8 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J    return-wide v0
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J    return-wide v0
 .end method
 
 .method public getFloat()F
@@ -445,7 +482,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/parser/CLNumber;->getFloat()F
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/parser/CLNumber;
+    ->getFloat()F
 
     .line 9
     .line 10
@@ -478,7 +516,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/parser/CLNumber;->getInt()I
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/parser/CLNumber;
+    ->getInt()I
 
     .line 9
     .line 10
@@ -498,21 +537,24 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mLine:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mLine:I    return v0
 .end method
 
 .method public getStart()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J    return-wide v0
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J    return-wide v0
 .end method
 
 .method public getStrClass()Ljava/lang/String;
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -520,7 +562,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Ljava/lang/Class;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->toString()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -532,7 +575,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1}, Ljava/lang/String;->lastIndexOf(I)I
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->lastIndexOf(I)I
 
     .line 12
     .line 13
@@ -544,7 +588,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -558,7 +603,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C
+    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C
 
     .line 2
     .line 3
@@ -585,11 +631,13 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C
+    iget-object v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Arrays;->hashCode([C)I
+    invoke-static {v0}, Ljava/util/Arrays;
+    ->hashCode([C)I
 
     .line 4
     .line 5
@@ -601,7 +649,8 @@
 
     .line 8
     .line 9
-    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 10
     .line 11
@@ -626,7 +675,8 @@
 
     .line 19
     .line 20
-    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 21
     .line 22
@@ -647,7 +697,8 @@
 
     .line 28
     .line 29
-    iget-object v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
+    iget-object v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
 
     .line 30
     .line 31
@@ -655,7 +706,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v1}, Landroidx/constraintlayout/core/parser/CLContainer;->hashCode()I
+    invoke-virtual {v1}, Landroidx/constraintlayout/core/parser/CLContainer;
+    ->hashCode()I
 
     .line 34
     .line 35
@@ -678,7 +730,8 @@
 
     .line 41
     .line 42
-    iget v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mLine:I
+    iget v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mLine:I
 
     .line 43
     .line 44
@@ -691,7 +744,8 @@
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 2
     .line 3
@@ -725,7 +779,8 @@
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 2
     .line 3
@@ -756,7 +811,8 @@
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 2
     .line 3
@@ -787,14 +843,17 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;    
+    return-void
 .end method
 
 .method public setEnd(J)V
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 2
     .line 3
@@ -817,11 +876,13 @@
 
     .line 13
     :cond_0
-    iput-wide p1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iput-wide p1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 14
     .line 15
-    sget-boolean p1, Landroidx/constraintlayout/core/parser/CLParser;->sDebug:Z
+    sget-boolean p1, Landroidx/constraintlayout/core/parser/CLParser;
+    ->sDebug:Z
 
     .line 16
     .line 17
@@ -829,7 +890,8 @@
 
     .line 18
     .line 19
-    sget-object p1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object p1, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 20
     .line 21
@@ -841,12 +903,14 @@
 
     .line 24
     .line 25
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->hashCode()I
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
+    ->hashCode()I
 
     .line 29
     .line 30
@@ -854,7 +918,8 @@
     move-result v0
 
     .line 32
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -863,17 +928,20 @@
 
     .line 36
     .line 37
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -881,13 +949,15 @@
     move-result-object p2
 
     .line 47
-    invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 48
     .line 49
     .line 50
     :cond_1
-    iget-object p1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
+    iget-object p1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContainer:Landroidx/constraintlayout/core/parser/CLContainer;
 
     .line 51
     .line 52
@@ -895,7 +965,8 @@
 
     .line 53
     .line 54
-    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/parser/CLContainer;->add(Landroidx/constraintlayout/core/parser/CLElement;)V
+    invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/parser/CLContainer;
+    ->add(Landroidx/constraintlayout/core/parser/CLElement;)V
 
     .line 55
     .line 56
@@ -909,14 +980,18 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mLine:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mLine:I    
+    return-void
 .end method
 
 .method public setStart(J)V
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J    return-void
+    iput-wide p1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J    
+    return-void
 .end method
 
 .method public toFormattedJSON(II)Ljava/lang/String;
@@ -937,11 +1012,13 @@
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v0, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 4
     .line 5
@@ -976,23 +1053,27 @@
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mContent:[C
+    iget-object v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mContent:[C
 
     .line 22
     .line 23
-    invoke-direct {v0, v1}, Ljava/lang/String;-><init>([C)V
+    invoke-direct {v0, v1}, Ljava/lang/String;
+    -><init>([C)V
 
     .line 24
     .line 25
     .line 26
-    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 27
     .line 28
     long-to-int v2, v1
 
     .line 29
-    iget-wide v3, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v3, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 30
     .line 31
@@ -1003,7 +1084,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {v0, v2, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v0, v2, v1}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -1015,12 +1097,14 @@
 
     .line 39
     .line 40
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->getStrClass()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
+    ->getStrClass()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -1028,7 +1112,8 @@
     move-result-object v2
 
     .line 47
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
@@ -1037,16 +1122,19 @@
 
     .line 51
     .line 52
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
     .line 55
-    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 56
     .line 57
-    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
@@ -1055,16 +1143,19 @@
 
     .line 61
     .line 62
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 63
     .line 64
     .line 65
-    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v2, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 66
     .line 67
-    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
@@ -1073,12 +1164,14 @@
 
     .line 71
     .line 72
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 76
     .line 77
@@ -1087,12 +1180,14 @@
 
     .line 79
     .line 80
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 84
     .line 85
@@ -1108,12 +1203,14 @@
 
     .line 89
     .line 90
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 91
     .line 92
     .line 93
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 94
     .line 95
@@ -1121,7 +1218,8 @@
     move-result-object v1
 
     .line 97
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 98
     .line 99
@@ -1130,16 +1228,19 @@
 
     .line 101
     .line 102
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 103
     .line 104
     .line 105
-    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mStart:J
+    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mStart:J
 
     .line 106
     .line 107
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 108
     .line 109
@@ -1148,12 +1249,14 @@
 
     .line 111
     .line 112
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 113
     .line 114
     .line 115
-    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;->mEnd:J
+    iget-wide v1, p0, Landroidx/constraintlayout/core/parser/CLElement;
+    ->mEnd:J
 
     .line 116
     .line 117
@@ -1161,7 +1264,8 @@
 
     .line 118
     .line 119
-    invoke-static {v0, v1, v2, v3}, LA/d;->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2, v3}, LA/d;
+    ->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     .line 120
     .line 121

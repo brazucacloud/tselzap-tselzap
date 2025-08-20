@@ -15,7 +15,8 @@
 
     check-cast p2, Landroidx/core/text/util/LinkifyCompat$LinkSpec;
 
-    invoke-static {p1, p2}, Landroidx/core/text/util/LinkifyCompat;->a(Landroidx/core/text/util/LinkifyCompat$LinkSpec;Landroidx/core/text/util/LinkifyCompat$LinkSpec;)I
+    invoke-static {p1, p2}, Landroidx/core/text/util/LinkifyCompat;
+    ->a(Landroidx/core/text/util/LinkifyCompat$LinkSpec;Landroidx/core/text/util/LinkifyCompat$LinkSpec;)I
 
     move-result p1
 

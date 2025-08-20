@@ -32,11 +32,13 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/StringValue;->access$000()Landroidx/datastore/preferences/protobuf/StringValue;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/StringValue;
+    ->access$000()Landroidx/datastore/preferences/protobuf/StringValue;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    -><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
 return-void
 .end method
 
@@ -44,7 +46,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/StringValue$Builder;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/StringValue$Builder;
+    -><init>()V
     return-void
 .end method
 
@@ -54,12 +57,14 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -67,14 +72,17 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/StringValue;->access$200(Landroidx/datastore/preferences/protobuf/StringValue;)V    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/StringValue;
+    ->access$200(Landroidx/datastore/preferences/protobuf/StringValue;)V    
+    return-object p0
 .end method
 
 .method public getValue()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 2
     .line 3
@@ -82,7 +90,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/StringValue;->getValue()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/StringValue;
+    ->getValue()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -96,7 +105,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 2
     .line 3
@@ -104,7 +114,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/StringValue;->getValueBytes()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/StringValue;
+    ->getValueBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 6
     .line 7
@@ -118,12 +129,14 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -131,19 +144,23 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/StringValue;->access$100(Landroidx/datastore/preferences/protobuf/StringValue;Ljava/lang/String;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/StringValue;
+    ->access$100(Landroidx/datastore/preferences/protobuf/StringValue;Ljava/lang/String;)V    
+    return-object p0
 .end method
 
 .method public setValueBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/StringValue$Builder;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -151,7 +168,9 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/StringValue;->access$300(Landroidx/datastore/preferences/protobuf/StringValue;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/StringValue;
+    ->access$300(Landroidx/datastore/preferences/protobuf/StringValue;Landroidx/datastore/preferences/protobuf/ByteString;)V    
+    return-object p0
 .end method
 
 .end class

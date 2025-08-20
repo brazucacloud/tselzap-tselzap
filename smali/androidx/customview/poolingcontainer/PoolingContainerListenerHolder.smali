@@ -20,7 +20,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -29,12 +30,15 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->listeners:Ljava/util/ArrayList;    return-void
+    iput-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->listeners:Ljava/util/ArrayList;    
+    return-void
 .end method
 
 
@@ -47,16 +51,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->listeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->listeners:Ljava/util/ArrayList;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -64,11 +71,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->listeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->listeners:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ld1/l;->f0(Ljava/util/List;)I
+    invoke-static {v0}, Ld1/l;
+    ->f0(Ljava/util/List;)I
 
     .line 4
     .line 5
@@ -84,11 +93,13 @@ return-void
 
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->listeners:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->listeners:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -100,7 +111,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {v1}, Landroidx/customview/poolingcontainer/PoolingContainerListener;->onRelease()V
+    invoke-interface {v1}, Landroidx/customview/poolingcontainer/PoolingContainerListener;
+    ->onRelease()V
 
     .line 19
     .line 20
@@ -124,16 +136,20 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->listeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;
+    ->listeners:Ljava/util/ArrayList;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .end class

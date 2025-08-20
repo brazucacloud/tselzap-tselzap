@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContracts$PickMultipleVisualMedia$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContracts$PickMultipleVisualMedia$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -43,11 +45,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
+    sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;
+    ->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;->isSystemPickerAvailable$activity_release()Z
+    invoke-virtual {v0}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
+    ->isSystemPickerAvailable$activity_release()Z
 
     .line 4
     .line 5
@@ -59,7 +63,8 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/activity/e;->w()I
+    invoke-static {}, Landroidx/activity/e;
+    ->w()I
 
     .line 10
     .line 11

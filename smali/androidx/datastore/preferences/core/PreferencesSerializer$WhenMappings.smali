@@ -22,7 +22,8 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->values()[Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    invoke-static {}, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->values()[Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
     move-result-object v0
 
@@ -30,9 +31,11 @@
 
     new-array v0, v0, [I
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->BOOLEAN:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->BOOLEAN:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -40,9 +43,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->FLOAT:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->FLOAT:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -50,9 +55,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->DOUBLE:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->DOUBLE:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -60,9 +67,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->INTEGER:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->INTEGER:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -70,9 +79,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->LONG:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->LONG:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -80,9 +91,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->STRING:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->STRING:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -90,9 +103,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->STRING_SET:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->STRING_SET:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -100,9 +115,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;->VALUE_NOT_SET:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    sget-object v1, Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
+    ->VALUE_NOT_SET:Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -110,7 +127,8 @@
 
     aput v2, v0, v1
 
-    sput-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer$WhenMappings;->$EnumSwitchMapping$0:[I
+    sput-object v0, Landroidx/datastore/preferences/core/PreferencesSerializer$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

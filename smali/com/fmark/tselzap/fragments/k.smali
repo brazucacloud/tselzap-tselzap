@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    iput p3, p0, Lcom/fmark/tselzap/fragments/k;->b:I
+    iput p3, p0, Lcom/fmark/tselzap/fragments/k;
+    ->b:I
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/k;->c:Lcom/fmark/tselzap/fragments/Sender_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/k;
+    ->c:Lcom/fmark/tselzap/fragments/Sender_coder;
 
-    iput-object p2, p0, Lcom/fmark/tselzap/fragments/k;->d:Lcom/fmark/tselzap/Activity/Sender;
+    iput-object p2, p0, Lcom/fmark/tselzap/fragments/k;
+    ->d:Lcom/fmark/tselzap/Activity/Sender;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -35,24 +39,31 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lcom/fmark/tselzap/fragments/k;->b:I
+    iget v0, p0, Lcom/fmark/tselzap/fragments/k;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/k;->c:Lcom/fmark/tselzap/fragments/Sender_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/k;
+    ->c:Lcom/fmark/tselzap/fragments/Sender_coder;
 
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/k;->d:Lcom/fmark/tselzap/Activity/Sender;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/k;
+    ->d:Lcom/fmark/tselzap/Activity/Sender;
 
-    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;->d(Lcom/fmark/tselzap/fragments/Sender_coder;Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;
+    ->d(Lcom/fmark/tselzap/fragments/Sender_coder;Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
 
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/k;->c:Lcom/fmark/tselzap/fragments/Sender_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/k;
+    ->c:Lcom/fmark/tselzap/fragments/Sender_coder;
 
-    iget-object v1, p0, Lcom/fmark/tselzap/fragments/k;->d:Lcom/fmark/tselzap/Activity/Sender;
+    iget-object v1, p0, Lcom/fmark/tselzap/fragments/k;
+    ->d:Lcom/fmark/tselzap/Activity/Sender;
 
-    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;->f(Lcom/fmark/tselzap/fragments/Sender_coder;Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;
+    ->f(Lcom/fmark/tselzap/fragments/Sender_coder;Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
 
     return-void
 

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -49,12 +50,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/view/WindowInsets$Builder;-><init>()V
+    invoke-direct {v0}, Landroid/view/WindowInsets$Builder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroid/graphics/Insets;->of(Landroid/graphics/Rect;)Landroid/graphics/Insets;
+    invoke-static {p1}, Landroid/graphics/Insets;
+    ->of(Landroid/graphics/Rect;)Landroid/graphics/Insets;
 
     .line 7
     .line 8
@@ -62,7 +65,8 @@
     move-result-object v1
 
     .line 10
-    invoke-virtual {v0, v1}, Landroid/view/WindowInsets$Builder;->setSystemWindowInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {v0, v1}, Landroid/view/WindowInsets$Builder;
+    ->setSystemWindowInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     .line 11
     .line 12
@@ -70,7 +74,8 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0}, Landroid/view/WindowInsets$Builder;->build()Landroid/view/WindowInsets;
+    invoke-virtual {v0}, Landroid/view/WindowInsets$Builder;
+    ->build()Landroid/view/WindowInsets;
 
     .line 15
     .line 16
@@ -78,7 +83,8 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p0, v0, p2}, Landroid/view/View;->computeSystemWindowInsets(Landroid/view/WindowInsets;Landroid/graphics/Rect;)Landroid/view/WindowInsets;
+    invoke-virtual {p0, v0, p2}, Landroid/view/View;
+    ->computeSystemWindowInsets(Landroid/view/WindowInsets;Landroid/graphics/Rect;)Landroid/view/WindowInsets;
 
     .line 19
     .line 20
@@ -86,7 +92,8 @@
     move-result-object p0
 
     .line 22
-    invoke-virtual {p0}, Landroid/view/WindowInsets;->getSystemWindowInsets()Landroid/graphics/Insets;
+    invoke-virtual {p0}, Landroid/view/WindowInsets;
+    ->getSystemWindowInsets()Landroid/graphics/Insets;
 
     .line 23
     .line 24
@@ -94,23 +101,28 @@
     move-result-object p0
 
     .line 26
-    iget p2, p0, Landroid/graphics/Insets;->left:I
+    iget p2, p0, Landroid/graphics/Insets;
+    ->left:I
 
     .line 27
     .line 28
-    iget v0, p0, Landroid/graphics/Insets;->top:I
+    iget v0, p0, Landroid/graphics/Insets;
+    ->top:I
 
     .line 29
     .line 30
-    iget v1, p0, Landroid/graphics/Insets;->right:I
+    iget v1, p0, Landroid/graphics/Insets;
+    ->right:I
 
     .line 31
     .line 32
-    iget p0, p0, Landroid/graphics/Insets;->bottom:I
+    iget p0, p0, Landroid/graphics/Insets;
+    ->bottom:I
 
     .line 33
     .line 34
-    invoke-virtual {p1, p2, v0, v1, p0}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {p1, p2, v0, v1, p0}, Landroid/graphics/Rect;
+    ->set(IIII)V
     return-void
 .end method
 

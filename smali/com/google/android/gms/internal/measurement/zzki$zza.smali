@@ -34,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zziu;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zziu;
+    -><init>()V
 
     .line 2
     .line 3

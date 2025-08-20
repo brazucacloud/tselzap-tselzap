@@ -32,11 +32,13 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Struct;->access$000()Landroidx/datastore/preferences/protobuf/Struct;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->access$000()Landroidx/datastore/preferences/protobuf/Struct;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    -><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
     return-void
 .end method
 
@@ -44,7 +46,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Struct$Builder;-><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Struct$Builder;
+    -><init>()V
     return-void
 .end method
 
@@ -54,12 +57,14 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -67,7 +72,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
 
     .line 9
     .line 10
@@ -75,7 +81,8 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0}, Ljava/util/Map;->clear()V
+    invoke-interface {v0}, Ljava/util/Map;
+    ->clear()V
 return-object p0
 .end method
 
@@ -83,12 +90,14 @@ return-object p0
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -96,7 +105,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;->getFieldsMap()Ljava/util/Map;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->getFieldsMap()Ljava/util/Map;
 
     .line 9
     .line 10
@@ -104,7 +114,8 @@ return-object p0
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -130,7 +141,8 @@ return-object p0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Struct$Builder;->getFieldsMap()Ljava/util/Map;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Struct$Builder;
+    ->getFieldsMap()Ljava/util/Map;
 
     .line 2
     .line 3
@@ -144,7 +156,8 @@ return-object p0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 2
     .line 3
@@ -152,7 +165,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;->getFieldsMap()Ljava/util/Map;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->getFieldsMap()Ljava/util/Map;
 
     .line 6
     .line 7
@@ -160,7 +174,8 @@ return-object p0
     move-result-object v0
 
     .line 9
-    invoke-interface {v0}, Ljava/util/Map;->size()I
+    invoke-interface {v0}, Ljava/util/Map;
+    ->size()I
 
     .line 10
     .line 11
@@ -183,7 +198,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 2
     .line 3
@@ -191,7 +207,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;->getFieldsMap()Ljava/util/Map;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->getFieldsMap()Ljava/util/Map;
 
     .line 6
     .line 7
@@ -199,7 +216,8 @@ return-object p0
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;
+    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 10
     .line 11
@@ -213,12 +231,14 @@ return-object p0
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -226,7 +246,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;->getFieldsMap()Ljava/util/Map;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->getFieldsMap()Ljava/util/Map;
 
     .line 9
     .line 10
@@ -234,7 +255,8 @@ return-object p0
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -246,7 +268,8 @@ return-object p0
 
     .line 17
     .line 18
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -265,12 +288,14 @@ return-object p0
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -278,7 +303,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;->getFieldsMap()Ljava/util/Map;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->getFieldsMap()Ljava/util/Map;
 
     .line 9
     .line 10
@@ -286,7 +312,8 @@ return-object p0
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -298,7 +325,8 @@ return-object p0
 
     .line 17
     .line 18
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -314,7 +342,8 @@ return-object p0
 
     .line 26
     .line 27
-    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;
+    -><init>()V
 
     .line 28
     .line 29
@@ -335,12 +364,14 @@ return-object p0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 5
     .line 6
@@ -348,7 +379,8 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
 
     .line 9
     .line 10
@@ -356,7 +388,8 @@ return-object p0
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->putAll(Ljava/util/Map;)V
 return-object p0
 .end method
 
@@ -364,22 +397,26 @@ return-object p0
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 11
     .line 12
@@ -387,7 +424,8 @@ return-object p0
 
     .line 13
     .line 14
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
 
     .line 15
     .line 16
@@ -395,24 +433,29 @@ return-object p0
     move-result-object v0
 
     .line 18
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-object p0
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-object p0
 .end method
 
 .method public removeFields(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Struct$Builder;
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->copyOnWrite()V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    ->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     .line 8
     .line 9
@@ -420,7 +463,8 @@ return-object p0
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Struct;
+    ->access$100(Landroidx/datastore/preferences/protobuf/Struct;)Ljava/util/Map;
 
     .line 12
     .line 13
@@ -428,7 +472,9 @@ return-object p0
     move-result-object v0
 
     .line 15
-    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-object p0
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;    
+    return-object p0
 .end method
 
 .end class

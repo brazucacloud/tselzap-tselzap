@@ -7,7 +7,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -21,12 +22,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/internal/service/zac;-><init>(Lcom/google/android/gms/common/internal/service/zae;Lcom/google/android/gms/common/api/GoogleApiClient;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/internal/service/zac;
+    -><init>(Lcom/google/android/gms/common/internal/service/zae;Lcom/google/android/gms/common/api/GoogleApiClient;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/GoogleApiClient;->execute(Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;)Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/GoogleApiClient;
+    ->execute(Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;)Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 7
     .line 8

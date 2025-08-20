@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceFragment$1;->this$0:Landroidx/preference/PreferenceFragment;
+    iput-object p1, p0, Landroidx/preference/PreferenceFragment$1;
+    ->this$0:Landroidx/preference/PreferenceFragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
+    invoke-direct {p0}, Landroid/os/Handler;
+    -><init>()V
     return-void
 .end method
 
@@ -41,7 +43,8 @@
     .end param
 
     .line 1
-    iget p1, p1, Landroid/os/Message;->what:I
+    iget p1, p1, Landroid/os/Message;
+    ->what:I
 
     .line 2
     .line 3
@@ -52,11 +55,13 @@
 
     .line 7
     :cond_0
-    iget-object p1, p0, Landroidx/preference/PreferenceFragment$1;->this$0:Landroidx/preference/PreferenceFragment;
+    iget-object p1, p0, Landroidx/preference/PreferenceFragment$1;
+    ->this$0:Landroidx/preference/PreferenceFragment;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;->bindPreferences()V
+    invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;
+    ->bindPreferences()V
     return-void
 .end method
 

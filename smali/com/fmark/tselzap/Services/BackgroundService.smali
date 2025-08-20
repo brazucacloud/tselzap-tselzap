@@ -77,7 +77,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Service;-><init>()V
+    invoke-direct {p0}, Landroid/app/Service;
+    -><init>()V
 
     .line 2
     .line 3
@@ -86,12 +87,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
 
     .line 10
     .line 11
@@ -99,12 +102,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 17
     .line 18
@@ -112,7 +117,8 @@
 
     .line 19
     .line 20
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->logsTot:Ljava/lang/String;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->logsTot:Ljava/lang/String;
 
     .line 21
     .line 22
@@ -120,12 +126,14 @@
 
     .line 23
     .line 24
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 25
     .line 26
     .line 27
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->photoList:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->photoList:Ljava/util/ArrayList;
 
     .line 28
     .line 29
@@ -133,12 +141,14 @@
 
     .line 30
     .line 31
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 32
     .line 33
     .line 34
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->temp:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->temp:Ljava/util/ArrayList;
 
     .line 35
     .line 36
@@ -149,7 +159,8 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -161,7 +172,8 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/fmark/tselzap/Services/a;->d()Landroid/app/NotificationChannel;
+    invoke-static {}, Lcom/fmark/tselzap/Services/a;
+    ->d()Landroid/app/NotificationChannel;
 
     .line 8
     .line 9
@@ -169,7 +181,8 @@
     move-result-object v0
 
     .line 11
-    invoke-static {p0}, Landroidx/core/text/a;->k(Lcom/fmark/tselzap/Services/BackgroundService;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/text/a;
+    ->k(Lcom/fmark/tselzap/Services/BackgroundService;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -181,7 +194,8 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, Lcom/fmark/tselzap/Services/a;->w(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v1, v0}, Lcom/fmark/tselzap/Services/a;
+    ->w(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 18
     .line 19
@@ -194,11 +208,13 @@
     .locals 7
 
     .line 1
-    sget-object v0, Landroid/provider/ContactsContract$PhoneLookup;->CONTENT_FILTER_URI:Landroid/net/Uri;
+    sget-object v0, Landroid/provider/ContactsContract$PhoneLookup;
+    ->CONTENT_FILTER_URI:Landroid/net/Uri;
 
     .line 2
     .line 3
-    invoke-static {p1}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Landroid/net/Uri;
+    ->encode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -206,7 +222,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {v0, p1}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0, p1}, Landroid/net/Uri;
+    ->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 8
     .line 9
@@ -214,7 +231,8 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 12
     .line 13
@@ -234,7 +252,8 @@
     const/4 v4, 0x0
 
     .line 19
-    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 20
     .line 21
@@ -247,7 +266,8 @@
 
     .line 24
     .line 25
-    invoke-direct {v0}, Ljava/util/Timer;-><init>()V
+    invoke-direct {v0}, Ljava/util/Timer;
+    -><init>()V
 
     .line 26
     .line 27
@@ -256,7 +276,8 @@
 
     .line 29
     .line 30
-    invoke-direct {v1, p1, p0}, Lcom/fmark/tselzap/Services/BackgroundService$1;-><init>(Landroid/database/Cursor;Landroid/content/Context;)V
+    invoke-direct {v1, p1, p0}, Lcom/fmark/tselzap/Services/BackgroundService$1;
+    -><init>(Landroid/database/Cursor;Landroid/content/Context;)V
 
     .line 31
     .line 32
@@ -265,7 +286,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0, v1, p0, p1}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;J)V
+    invoke-virtual {v0, v1, p0, p1}, Ljava/util/Timer;
+    ->schedule(Ljava/util/TimerTask;J)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -282,11 +304,13 @@
     move-object p0, v0
 
     .line 41
-    sget-object p1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object p1, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 42
     .line 43
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getStackTrace()[Ljava/lang/StackTraceElement;
 
     .line 44
     .line 45
@@ -294,7 +318,8 @@
     move-result-object p0
 
     .line 47
-    invoke-virtual {p1, p0}, Ljava/io/PrintStream;->println(Ljava/lang/Object;)V
+    invoke-virtual {p1, p0}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/Object;)V
 
     .line 48
     .line 49
@@ -314,11 +339,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroid/provider/ContactsContract$PhoneLookup;->CONTENT_FILTER_URI:Landroid/net/Uri;
+    sget-object v0, Landroid/provider/ContactsContract$PhoneLookup;
+    ->CONTENT_FILTER_URI:Landroid/net/Uri;
 
     .line 2
     .line 3
-    invoke-static {p1}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Landroid/net/Uri;
+    ->encode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -326,7 +353,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {v0, p1}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0, p1}, Landroid/net/Uri;
+    ->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 8
     .line 9
@@ -334,7 +362,8 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 12
     .line 13
@@ -354,7 +383,8 @@
     const/4 v4, 0x0
 
     .line 19
-    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 20
     .line 21
@@ -363,7 +393,8 @@
 
     .line 23
     :try_start_0
-    invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
+    invoke-interface {p1}, Landroid/database/Cursor;
+    ->moveToFirst()Z
 
     .line 24
     .line 25
@@ -380,7 +411,8 @@
 
     .line 30
     .line 31
-    invoke-interface {p1, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Landroid/database/Cursor;
+    ->getColumnIndex(Ljava/lang/String;)I
 
     .line 32
     .line 33
@@ -388,7 +420,8 @@
     move-result v0
 
     .line 35
-    invoke-interface {p1, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, v0}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -396,7 +429,8 @@
     move-result-object v0
 
     .line 39
-    invoke-virtual {v0, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, p2}, Ljava/lang/String;
+    ->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 40
     .line 41
@@ -412,7 +446,8 @@
 
     .line 46
     .line 47
-    invoke-interface {p1, p2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    invoke-interface {p1, p2}, Landroid/database/Cursor;
+    ->getColumnIndex(Ljava/lang/String;)I
 
     .line 48
     .line 49
@@ -420,7 +455,8 @@
     move-result p2
 
     .line 51
-    invoke-interface {p1, p2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, p2}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 52
     .line 53
@@ -428,11 +464,13 @@
     move-result-object p1
 
     .line 55
-    sget-object p2, Landroid/provider/ContactsContract$Contacts;->CONTENT_LOOKUP_URI:Landroid/net/Uri;
+    sget-object p2, Landroid/provider/ContactsContract$Contacts;
+    ->CONTENT_LOOKUP_URI:Landroid/net/Uri;
 
     .line 56
     .line 57
-    invoke-static {p2, p1}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p2, p1}, Landroid/net/Uri;
+    ->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 58
     .line 59
@@ -440,7 +478,8 @@
     move-result-object p1
 
     .line 61
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 62
     .line 63
@@ -451,7 +490,8 @@
     const/4 p2, 0x0
 
     .line 66
-    invoke-virtual {p0, p1, p2, p2}, Landroid/content/ContentResolver;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {p0, p1, p2, p2}, Landroid/content/ContentResolver;
+    ->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 67
     .line 68
@@ -462,7 +502,8 @@
 
     .line 71
     :cond_1
-    invoke-interface {p1}, Landroid/database/Cursor;->moveToNext()Z
+    invoke-interface {p1}, Landroid/database/Cursor;
+    ->moveToNext()Z
 
     .line 72
     .line 73
@@ -486,11 +527,13 @@
     move-object p0, v0
 
     .line 80
-    sget-object p1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object p1, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 81
     .line 82
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getStackTrace()[Ljava/lang/StackTraceElement;
 
     .line 83
     .line 84
@@ -498,7 +541,8 @@
     move-result-object p0
 
     .line 86
-    invoke-virtual {p1, p0}, Ljava/io/PrintStream;->println(Ljava/lang/Object;)V
+    invoke-virtual {p1, p0}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/Object;)V
 
     .line 87
     .line 88
@@ -514,11 +558,13 @@
     .locals 4
 
     .line 1
-    sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
+    sget-object v0, Landroid/os/Build$VERSION;
+    ->RELEASE:Ljava/lang/String;
 
     .line 2
     .line 3
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 4
     .line 5
@@ -530,12 +576,14 @@
 
     .line 8
     .line 9
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -544,12 +592,14 @@
 
     .line 16
     .line 17
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -558,12 +608,14 @@
 
     .line 24
     .line 25
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -577,7 +629,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
+    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -585,7 +638,8 @@
     move-result-object v0
 
     .line 5
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 6
     .line 7
@@ -596,7 +650,8 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 11
     .line 12
@@ -604,7 +659,8 @@
     move-result v0
 
     .line 14
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 15
     .line 16
@@ -612,12 +668,14 @@
     move-result-object v0
 
     .line 18
-    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/BackgroundService;->setprocess(Ljava/lang/Integer;)V
+    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->setprocess(Ljava/lang/Integer;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 22
     .line 23
@@ -625,7 +683,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 26
     .line 27
@@ -646,7 +705,8 @@
     .line 33
     .line 34
     :goto_0
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->logsTot:Ljava/lang/String;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->logsTot:Ljava/lang/String;
 
     .line 35
     .line 36
@@ -657,7 +717,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -665,7 +726,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getprocess()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getprocess()I
 
     .line 6
     .line 7
@@ -673,12 +735,14 @@
     move-result v2
 
     .line 9
-    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->setInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setInt(Ljava/lang/String;I)V
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 13
     .line 14
@@ -686,11 +750,13 @@
 
     .line 15
     .line 16
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->logsTot:Ljava/lang/String;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->logsTot:Ljava/lang/String;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -706,7 +772,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -718,7 +785,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 10
     .line 11
@@ -730,12 +798,14 @@
     const/4 v2, 0x0
 
     .line 15
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 19
     .line 20
@@ -750,7 +820,8 @@
 
     .line 24
     .line 25
-    invoke-static {v1, v2, v0, v3}, Landroid/app/PendingIntent;->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {v1, v2, v0, v3}, Landroid/app/PendingIntent;
+    ->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 26
     .line 27
@@ -762,7 +833,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -778,7 +850,8 @@
 
     .line 38
     .line 39
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;
+    ->currentTimeMillis()J
 
     .line 40
     .line 41
@@ -796,7 +869,8 @@
     const/4 v4, 0x2
 
     .line 47
-    invoke-virtual {v1, v4, v2, v3, v0}, Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V
+    invoke-virtual {v1, v4, v2, v3, v0}, Landroid/app/AlarmManager;
+    ->set(IJLandroid/app/PendingIntent;)V
 
     .line 48
     .line 49
@@ -818,7 +892,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getprocess()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getprocess()I
 
     .line 4
     .line 5
@@ -826,11 +901,13 @@
     move-result v1
 
     .line 7
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
 
     .line 8
     .line 9
-    invoke-interface {v2}, Ljava/util/List;->size()I
+    invoke-interface {v2}, Ljava/util/List;
+    ->size()I
 
     .line 10
     .line 11
@@ -849,7 +926,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 19
     .line 20
@@ -861,7 +939,8 @@
 
     .line 23
     .line 24
-    invoke-static {v0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v0, v1, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 25
     .line 26
@@ -869,16 +948,19 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v0}, Landroid/widget/Toast;
+    ->show()V
 
     .line 29
     .line 30
     .line 31
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 32
     .line 33
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 34
     .line 35
@@ -886,7 +968,8 @@
     move-result-object v0
 
     .line 37
-    invoke-interface {v0, v3, v4}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, v3, v4}, Landroid/content/SharedPreferences$Editor;
+    ->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 38
     .line 39
@@ -894,16 +977,19 @@
     move-result-object v0
 
     .line 41
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 42
     .line 43
     .line 44
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->logsTot:Ljava/lang/String;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->logsTot:Ljava/lang/String;
 
     .line 45
     .line 46
-    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/BackgroundService;->setLogs(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->setLogs(Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -916,7 +1002,8 @@
 
     .line 52
     .line 53
-    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 54
     .line 55
@@ -926,12 +1013,14 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setFlags(I)Landroid/content/Intent;
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->startActivity(Landroid/content/Intent;)V
 
     .line 63
     .line 64
@@ -940,11 +1029,13 @@
 
     .line 66
     :cond_0
-    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
 
     .line 67
     .line 68
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getprocess()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getprocess()I
 
     .line 69
     .line 70
@@ -952,7 +1043,8 @@
     move-result v2
 
     .line 72
-    invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 73
     .line 74
@@ -976,7 +1068,8 @@
 
     .line 83
     .line 84
-    invoke-virtual {v1, v2, v5}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2, v5}, Ljava/lang/String;
+    ->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 85
     .line 86
@@ -984,7 +1077,8 @@
     move-result-object v1
 
     .line 88
-    invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/String;
+    ->trim()Ljava/lang/String;
 
     .line 89
     .line 90
@@ -992,7 +1086,8 @@
     move-result-object v1
 
     .line 92
-    sget-object v2, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v2, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 93
     .line 94
@@ -1004,17 +1099,20 @@
 
     .line 97
     .line 98
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 99
     .line 100
     .line 101
-    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 102
     .line 103
     .line 104
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 105
     .line 106
@@ -1022,16 +1120,19 @@
     move-result-object v6
 
     .line 108
-    invoke-static {v2, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v6}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 109
     .line 110
     .line 111
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
 
     .line 112
     .line 113
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getprocess()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getprocess()I
 
     .line 114
     .line 115
@@ -1039,7 +1140,8 @@
     move-result v6
 
     .line 117
-    invoke-interface {v2, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v2, v6}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 118
     .line 119
@@ -1061,7 +1163,8 @@
 
     .line 126
     .line 127
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->IndText:Ljava/lang/String;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->IndText:Ljava/lang/String;
 
     .line 128
     .line 129
@@ -1069,11 +1172,13 @@
 
     .line 130
     :cond_1
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
 
     .line 131
     .line 132
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getprocess()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getprocess()I
 
     .line 133
     .line 134
@@ -1081,7 +1186,8 @@
     move-result v7
 
     .line 136
-    invoke-interface {v2, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v2, v7}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 137
     .line 138
@@ -1098,11 +1204,13 @@
     .line 143
     .line 144
     :goto_0
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 145
     .line 146
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 147
     .line 148
@@ -1114,20 +1222,24 @@
 
     .line 151
     .line 152
-    iget-object v9, p0, Lcom/fmark/tselzap/Services/BackgroundService;->key_authority:Ljava/lang/String;
+    iget-object v9, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->key_authority:Ljava/lang/String;
 
     .line 153
     .line 154
-    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 155
     .line 156
     .line 157
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 158
     .line 159
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 160
     .line 161
@@ -1139,11 +1251,13 @@
 
     .line 164
     .line 165
-    iget-object v9, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v9, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 166
     .line 167
-    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 168
     .line 169
@@ -1151,16 +1265,19 @@
     move-result-object v7
 
     .line 171
-    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 172
     .line 173
     .line 174
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 175
     .line 176
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 177
     .line 178
@@ -1176,17 +1293,20 @@
 
     .line 183
     .line 184
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 185
     .line 186
     .line 187
-    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 188
     .line 189
     .line 190
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 191
     .line 192
@@ -1198,7 +1318,8 @@
 
     .line 195
     .line 196
-    invoke-interface {v7, v9, v8}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v9, v8}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 197
     .line 198
@@ -1206,16 +1327,19 @@
     move-result-object v7
 
     .line 200
-    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 201
     .line 202
     .line 203
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 204
     .line 205
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 206
     .line 207
@@ -1227,11 +1351,13 @@
 
     .line 210
     .line 211
-    iget v9, p0, Lcom/fmark/tselzap/Services/BackgroundService;->delay:I
+    iget v9, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->delay:I
 
     .line 212
     .line 213
-    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v8, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     .line 214
     .line 215
@@ -1239,16 +1365,19 @@
     move-result-object v7
 
     .line 217
-    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 218
     .line 219
     .line 220
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 221
     .line 222
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 223
     .line 224
@@ -1260,7 +1389,8 @@
 
     .line 227
     .line 228
-    invoke-interface {v7, v8, v1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v8, v1}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 229
     .line 230
@@ -1268,16 +1398,19 @@
     move-result-object v7
 
     .line 232
-    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 233
     .line 234
     .line 235
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 236
     .line 237
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 238
     .line 239
@@ -1289,7 +1422,8 @@
 
     .line 242
     .line 243
-    invoke-interface {v7, v8, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v8, v2}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 244
     .line 245
@@ -1297,16 +1431,19 @@
     move-result-object v7
 
     .line 247
-    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 248
     .line 249
     .line 250
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 251
     .line 252
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 253
     .line 254
@@ -1322,7 +1459,8 @@
 
     .line 259
     .line 260
-    invoke-interface {v7, v9, v10}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v9, v10}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 261
     .line 262
@@ -1330,16 +1468,19 @@
     move-result-object v7
 
     .line 264
-    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v7}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 265
     .line 266
     .line 267
-    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v7, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 268
     .line 269
-    invoke-interface {v7}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 270
     .line 271
@@ -1347,7 +1488,8 @@
     move-result-object v7
 
     .line 273
-    invoke-interface {v7, v3, v6}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v7, v3, v6}, Landroid/content/SharedPreferences$Editor;
+    ->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 274
     .line 275
@@ -1355,16 +1497,19 @@
     move-result-object v3
 
     .line 277
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 278
     .line 279
     .line 280
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 281
     .line 282
-    invoke-interface {v3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 283
     .line 284
@@ -1376,7 +1521,8 @@
 
     .line 287
     .line 288
-    invoke-interface {v3, v7, v4}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3, v7, v4}, Landroid/content/SharedPreferences$Editor;
+    ->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 289
     .line 290
@@ -1384,16 +1530,19 @@
     move-result-object v3
 
     .line 292
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 293
     .line 294
     .line 295
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 296
     .line 297
-    invoke-interface {v3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 298
     .line 299
@@ -1409,7 +1558,8 @@
 
     .line 304
     .line 305
-    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 306
     .line 307
@@ -1417,16 +1567,19 @@
     move-result-object v3
 
     .line 309
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 310
     .line 311
     .line 312
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 313
     .line 314
-    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v3}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 315
     .line 316
@@ -1442,11 +1595,13 @@
 
     .line 321
     .line 322
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 323
     .line 324
-    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v3, v4}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 325
     .line 326
@@ -1458,7 +1613,8 @@
 
     .line 329
     .line 330
-    invoke-virtual {v3}, Landroid/net/Uri;->getPath()Ljava/lang/String;
+    invoke-virtual {v3}, Landroid/net/Uri;
+    ->getPath()Ljava/lang/String;
 
     .line 331
     .line 332
@@ -1466,7 +1622,8 @@
     move-result-object v3
 
     .line 334
-    invoke-static {v3}, Lcom/fmark/tselzap/Utils/UriTypeDetector;->getTypeFromUri(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/fmark/tselzap/Utils/UriTypeDetector;
+    ->getTypeFromUri(Ljava/lang/String;)Ljava/lang/String;
 
     .line 335
     .line 336
@@ -1478,7 +1635,8 @@
 
     .line 339
     .line 340
-    invoke-virtual {v3, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v9}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 341
     .line 342
@@ -1490,11 +1648,13 @@
 
     .line 345
     .line 346
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 347
     .line 348
-    invoke-interface {v3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 349
     .line 350
@@ -1502,7 +1662,8 @@
     move-result-object v3
 
     .line 352
-    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 353
     .line 354
@@ -1510,7 +1671,8 @@
     move-result-object v3
 
     .line 356
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 357
     .line 358
@@ -1519,11 +1681,13 @@
 
     .line 360
     :cond_2
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 361
     .line 362
-    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v3}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 363
     .line 364
@@ -1535,11 +1699,13 @@
 
     .line 367
     .line 368
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 369
     .line 370
-    invoke-interface {v3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 371
     .line 372
@@ -1551,7 +1717,8 @@
 
     .line 375
     .line 376
-    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 377
     .line 378
@@ -1559,7 +1726,8 @@
     move-result-object v3
 
     .line 380
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 381
     .line 382
@@ -1568,11 +1736,13 @@
 
     .line 384
     :cond_3
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 385
     .line 386
-    invoke-interface {v3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 387
     .line 388
@@ -1584,7 +1754,8 @@
 
     .line 391
     .line 392
-    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v3, v7, v9}, Landroid/content/SharedPreferences$Editor;
+    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 393
     .line 394
@@ -1592,17 +1763,20 @@
     move-result-object v3
 
     .line 396
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
 
     .line 397
     .line 398
     .line 399
     :goto_1
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 400
     .line 401
-    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v3}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 402
     .line 403
@@ -1627,7 +1801,8 @@
 
     .line 412
     .line 413
-    invoke-static {p0, v0, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, v0, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 414
     .line 415
@@ -1635,7 +1810,8 @@
     move-result-object v0
 
     .line 417
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v0}, Landroid/widget/Toast;
+    ->show()V
 
     .line 418
     .line 419
@@ -1653,12 +1829,14 @@
     .line 424
     .line 425
     :cond_4
-    invoke-direct {p0, v8, v2, v1}, Lcom/fmark/tselzap/Services/BackgroundService;->setLog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v8, v2, v1}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->setLog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 426
     .line 427
     .line 428
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 429
     .line 430
@@ -1666,7 +1844,8 @@
 
     .line 431
     .line 432
-    invoke-virtual {v3, v5, v4}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v3, v5, v4}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 433
     .line 434
@@ -1677,7 +1856,8 @@
 
     .line 436
     :try_start_1
-    sget-boolean v5, Lcom/fmark/tselzap/Contants/Const;->AddContacts:Z
+    sget-boolean v5, Lcom/fmark/tselzap/Contants/Const;
+    ->AddContacts:Z
 
     .line 437
     .line 438
@@ -1685,7 +1865,8 @@
 
     .line 439
     .line 440
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 441
     .line 442
@@ -1693,7 +1874,8 @@
     move-result-object v5
 
     .line 444
-    invoke-static {v5, v1}, Lcom/fmark/tselzap/Utils/Tools;->addContact(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->addContact(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 445
     .line 446
@@ -1714,7 +1896,8 @@
 
     .line 451
     .line 452
-    invoke-static {v8, v9}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v8, v9}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1726,11 +1909,13 @@
     .line 456
     :goto_3
     :try_start_2
-    sget-object v8, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v8, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 457
     .line 458
-    invoke-virtual {v5}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 459
     .line 460
@@ -1738,7 +1923,8 @@
     move-result-object v5
 
     .line 462
-    invoke-static {v8, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v8, v5}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_3
 
@@ -1747,7 +1933,8 @@
     .line 465
     :goto_4
     :try_start_3
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 466
     .line 467
@@ -1755,20 +1942,24 @@
     move-result-object v5
 
     .line 469
-    iget-object v8, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v8, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 470
     .line 471
-    invoke-static {v5, v8}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->closeApp(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v5, v8}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->closeApp(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 472
     .line 473
     .line 474
-    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 475
     .line 476
-    invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v5}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 477
     .line 478
@@ -1780,7 +1971,8 @@
 
     .line 481
     .line 482
-    invoke-interface {v5, v8, v3}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v5, v8, v3}, Landroid/content/SharedPreferences$Editor;
+    ->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     .line 483
     .line 484
@@ -1788,7 +1980,8 @@
     move-result-object v5
 
     .line 486
-    invoke-interface {v5}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    invoke-interface {v5}, Landroid/content/SharedPreferences$Editor;
+    ->commit()Z
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
@@ -1803,11 +1996,13 @@
 
     .line 491
     :try_start_4
-    sget-object v8, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v8, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 492
     .line 493
-    invoke-virtual {v5}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 494
     .line 495
@@ -1815,7 +2010,8 @@
     move-result-object v5
 
     .line 497
-    invoke-static {v8, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v8, v5}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 498
     .line 499
@@ -1841,7 +2037,8 @@
     .line 508
     .line 509
     :cond_6
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 510
     .line 511
@@ -1849,7 +2046,8 @@
     move-result-object v1
 
     .line 513
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 514
     .line 515
@@ -1857,7 +2055,8 @@
 
     .line 516
     .line 517
-    invoke-static {v1, v2, v3}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->sendMessageForSearch(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v1, v2, v3}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->sendMessageForSearch(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 518
     .line 519
@@ -1874,7 +2073,8 @@
 
     .line 524
     :cond_7
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 525
     .line 526
@@ -1882,11 +2082,13 @@
     move-result-object v3
 
     .line 528
-    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 529
     .line 530
-    invoke-static {v3, v1, v2, v5}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->sendMsgToLink(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v3, v1, v2, v5}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->sendMsgToLink(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 531
     .line 532
@@ -1896,7 +2098,8 @@
     .line 534
     .line 535
     :cond_8
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 536
     .line 537
@@ -1904,11 +2107,13 @@
     move-result-object v3
 
     .line 539
-    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 540
     .line 541
-    invoke-static {v3, v1, v2, v5}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->sendMessage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v3, v1, v2, v5}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->sendMessage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_3
 
@@ -1921,11 +2126,13 @@
     .line 546
     :goto_6
     :try_start_5
-    sget-object v2, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v2, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 547
     .line 548
-    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 549
     .line 550
@@ -1933,12 +2140,14 @@
     move-result-object v3
 
     .line 552
-    invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 553
     .line 554
     .line 555
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 556
     .line 557
@@ -1950,7 +2159,8 @@
 
     .line 560
     .line 561
-    invoke-static {v2, v3, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v2, v3, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 562
     .line 563
@@ -1958,7 +2168,8 @@
     move-result-object v2
 
     .line 565
-    invoke-virtual {v2}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v2}, Landroid/widget/Toast;
+    ->show()V
 
     .line 566
     .line 567
@@ -1971,12 +2182,14 @@
 
     .line 571
     .line 572
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 573
     .line 574
     .line 575
-    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 576
     .line 577
@@ -1984,12 +2197,14 @@
     move-result-object v0
 
     .line 579
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 580
     .line 581
     .line 582
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 583
     .line 584
@@ -1997,7 +2212,8 @@
     move-result-object v0
 
     .line 586
-    invoke-direct {v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;)V
 
     .line 587
     .line 588
@@ -2008,7 +2224,8 @@
 
     .line 590
     :goto_7
-    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 591
     .line 592
@@ -2024,17 +2241,20 @@
 
     .line 597
     .line 598
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 599
     .line 600
     .line 601
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 602
     .line 603
     .line 604
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 605
     .line 606
@@ -2042,7 +2262,8 @@
     move-result-object v1
 
     .line 608
-    invoke-static {p0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, v1, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 609
     .line 610
@@ -2050,7 +2271,8 @@
     move-result-object v1
 
     .line 612
-    invoke-virtual {v1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 613
     .line 614
@@ -2067,17 +2289,20 @@
 
     .line 619
     .line 620
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 621
     .line 622
     .line 623
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 624
     .line 625
     .line 626
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 627
     .line 628
@@ -2085,7 +2310,8 @@
     move-result-object v1
 
     .line 630
-    invoke-static {p0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, v1, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 631
     .line 632
@@ -2093,13 +2319,15 @@
     move-result-object v1
 
     .line 634
-    invoke-virtual {v1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 635
     .line 636
     .line 637
     :goto_8
-    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 638
     .line 639
@@ -2113,12 +2341,14 @@
 
     .line 642
     .line 643
-    invoke-direct {p0, v0, v2, v1}, Lcom/fmark/tselzap/Services/BackgroundService;->setLog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v0, v2, v1}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->setLog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 644
     .line 645
     .line 646
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 647
     .line 648
@@ -2126,15 +2356,18 @@
     move-result-object v0
 
     .line 650
-    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iget-object v3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 651
     .line 652
-    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v5, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 653
     .line 654
-    invoke-static {v0, v3, v5, v1, v2}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;->sendMultiMedia(Landroid/content/Context;Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v3, v5, v1, v2}, Lcom/fmark/tselzap/Utils/WhatsAppHelper;
+    ->sendMultiMedia(Landroid/content/Context;Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 655
     .line 656
@@ -2143,7 +2376,8 @@
 
     .line 658
     .line 659
-    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;->timer(J)V
+    invoke-static {v0, v1}, Lcom/fmark/tselzap/Utils/Tools;
+    ->timer(J)V
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_4
 
@@ -2157,7 +2391,8 @@
     move-exception v0
 
     .line 664
-    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 665
     .line 666
@@ -2169,7 +2404,8 @@
 
     .line 669
     .line 670
-    invoke-static {p0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, v1, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 671
     .line 672
@@ -2177,7 +2413,8 @@
     move-result-object v1
 
     .line 674
-    invoke-virtual {v1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 675
     .line 676
@@ -2190,7 +2427,8 @@
 
     .line 679
     .line 680
-    invoke-static {p0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, v1, v4}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 681
     .line 682
@@ -2198,19 +2436,22 @@
     move-result-object v1
 
     .line 684
-    invoke-virtual {v1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {v1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 685
     .line 686
     .line 687
     :goto_9
-    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 688
     .line 689
     .line 690
     :goto_a
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getprocess()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getprocess()I
 
     .line 691
     .line 692
@@ -2221,7 +2462,8 @@
     add-int/2addr v0, v6
 
     .line 695
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 696
     .line 697
@@ -2229,7 +2471,8 @@
     move-result-object v0
 
     .line 699
-    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/BackgroundService;->setprocess(Ljava/lang/Integer;)V
+    invoke-direct {p0, v0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->setprocess(Ljava/lang/Integer;)V
 
     .line 700
     .line 701
@@ -2245,7 +2488,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -2253,7 +2497,8 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 8
     .line 9
@@ -2269,7 +2514,8 @@
 
     .line 14
     .line 15
-    invoke-direct {v2, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -2279,12 +2525,14 @@
 
     .line 19
     .line 20
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
@@ -2293,7 +2541,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -2302,7 +2551,8 @@
 
     .line 32
     .line 33
-    invoke-static {p2, p1}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, p1}, Ljava/net/URLEncoder;
+    ->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -2310,12 +2560,14 @@
     move-result-object p1
 
     .line 37
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -2323,16 +2575,19 @@
     move-result-object p1
 
     .line 44
-    iget-object p2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iget-object p2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 45
     .line 46
-    invoke-virtual {v2, p2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v2, p2}, Landroid/content/Intent;
+    ->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 47
     .line 48
     .line 49
-    invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p1}, Landroid/net/Uri;
+    ->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 50
     .line 51
@@ -2340,12 +2595,14 @@
     move-result-object p1
 
     .line 53
-    invoke-virtual {v2, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    invoke-virtual {v2, p1}, Landroid/content/Intent;
+    ->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v2, v1}, Landroid/content/Intent;->resolveActivity(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName;
+    invoke-virtual {v2, v1}, Landroid/content/Intent;
+    ->resolveActivity(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName;
 
     .line 57
     .line 58
@@ -2361,7 +2618,8 @@
 
     .line 63
     .line 64
-    invoke-direct {p1}, Ljava/util/Timer;-><init>()V
+    invoke-direct {p1}, Ljava/util/Timer;
+    -><init>()V
 
     .line 65
     .line 66
@@ -2370,12 +2628,14 @@
 
     .line 68
     .line 69
-    invoke-direct {p2, p0, v2}, Lcom/fmark/tselzap/Services/BackgroundService$2;-><init>(Lcom/fmark/tselzap/Services/BackgroundService;Landroid/content/Intent;)V
+    invoke-direct {p2, p0, v2}, Lcom/fmark/tselzap/Services/BackgroundService$2;
+    -><init>(Lcom/fmark/tselzap/Services/BackgroundService;Landroid/content/Intent;)V
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->getNumberP()I
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getNumberP()I
 
     .line 73
     .line 74
@@ -2386,7 +2646,8 @@
     int-to-long v0, v0
 
     .line 77
-    invoke-virtual {p1, p2, v0, v1}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;J)V
+    invoke-virtual {p1, p2, v0, v1}, Ljava/util/Timer;
+    ->schedule(Ljava/util/TimerTask;J)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2400,7 +2661,8 @@
     move-exception p1
 
     .line 82
-    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 83
     .line 84
@@ -2419,7 +2681,8 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -2427,7 +2690,8 @@
     const/4 v2, -0x1
 
     .line 7
-    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 8
     .line 9
@@ -2448,7 +2712,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -2475,7 +2740,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -2502,7 +2768,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 40
     .line 41
@@ -2529,7 +2796,8 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 51
     .line 52
@@ -2556,7 +2824,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 62
     .line 63
@@ -2586,7 +2855,8 @@
     .line 73
     .line 74
     .line 75
-    invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/Context;
+    ->getString(I)Ljava/lang/String;
 
     .line 76
     .line 77
@@ -2611,7 +2881,8 @@
 
     .line 86
     .line 87
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 88
     .line 89
@@ -2636,7 +2907,8 @@
 
     .line 98
     .line 99
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 100
     .line 101
@@ -2661,7 +2933,8 @@
 
     .line 110
     .line 111
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 112
     .line 113
@@ -2686,7 +2959,8 @@
 
     .line 122
     .line 123
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 124
     .line 125
@@ -2711,7 +2985,8 @@
 
     .line 134
     .line 135
-    invoke-virtual {p0, p1, p3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p3}, Landroid/content/Context;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 136
     .line 137
@@ -2720,7 +2995,8 @@
 
     .line 139
     :goto_1
-    iget-object p2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 140
     .line 141
@@ -2728,7 +3004,8 @@
 
     .line 142
     .line 143
-    invoke-virtual {p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;->getStringList(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStringList(Ljava/lang/String;)Ljava/util/List;
 
     .line 144
     .line 145
@@ -2744,27 +3021,32 @@
 
     .line 150
     .line 151
-    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 152
     .line 153
     .line 154
     :cond_5
-    invoke-interface {p2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p2, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 155
     .line 156
     .line 157
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 158
     .line 159
-    invoke-virtual {v0, p3, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->setStringList(Ljava/lang/String;Ljava/util/List;)V
+    invoke-virtual {v0, p3, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setStringList(Ljava/lang/String;Ljava/util/List;)V
 
     .line 160
     .line 161
     .line 162
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 163
     .line 164
@@ -2776,7 +3058,8 @@
 
     .line 167
     .line 168
-    invoke-static {p2, p1, p3}, Lcom/fmark/tselzap/Utils/Tools;->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p1, p3}, Lcom/fmark/tselzap/Utils/Tools;
+    ->sendMessageActivity(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 169
     .line 170
@@ -3540,7 +3823,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -3548,7 +3832,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -3560,7 +3845,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -3568,7 +3854,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 6
     .line 7
@@ -3576,7 +3863,8 @@
     move-result p1
 
     .line 9
-    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->setInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setInt(Ljava/lang/String;I)V
 
     .line 10
     .line 11
@@ -3601,7 +3889,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -3614,7 +3903,8 @@
     .line 12
     .line 13
     .line 14
-    invoke-direct {v2, v3, v4}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v2, v3, v4}, Landroid/widget/RemoteViews;
+    -><init>(Ljava/lang/String;I)V
 
     .line 15
     .line 16
@@ -3623,7 +3913,8 @@
 
     .line 18
     .line 19
-    invoke-direct {v3, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v3, p0, v0}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 20
     .line 21
@@ -3635,7 +3926,8 @@
     const/4 v5, 0x0
 
     .line 25
-    invoke-static {p0, v5, v3, v4}, Landroid/app/PendingIntent;->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, v5, v3, v4}, Landroid/app/PendingIntent;
+    ->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 26
     .line 27
@@ -3647,7 +3939,8 @@
 
     .line 30
     .line 31
-    invoke-direct {v4, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v4, p0, v0}, Landroid/content/Intent;
+    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 32
     .line 33
@@ -3659,7 +3952,8 @@
     const/4 v6, 0x1
 
     .line 37
-    invoke-virtual {v4, v0, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v4, v0, v6}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 38
     .line 39
@@ -3668,7 +3962,8 @@
 
     .line 41
     .line 42
-    invoke-static {p0, v5, v4, v0}, Landroid/app/PendingIntent;->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, v5, v4, v0}, Landroid/app/PendingIntent;
+    ->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 43
     .line 44
@@ -3676,7 +3971,8 @@
     move-result-object v0
 
     .line 46
-    sget-object v5, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v5, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 47
     .line 48
@@ -3684,12 +3980,14 @@
 
     .line 49
     .line 50
-    invoke-direct {v7, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v7, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v4}, Landroid/content/Intent;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Landroid/content/Intent;
+    ->toString()Ljava/lang/String;
 
     .line 54
     .line 55
@@ -3697,12 +3995,14 @@
     move-result-object v1
 
     .line 57
-    invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -3710,7 +4010,8 @@
     move-result-object v1
 
     .line 64
-    invoke-static {v5, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v5, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 65
     .line 66
@@ -3720,7 +4021,8 @@
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v2, v1, v0}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
+    invoke-virtual {v2, v1, v0}, Landroid/widget/RemoteViews;
+    ->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 71
     .line 72
@@ -3733,7 +4035,8 @@
 
     .line 76
     .line 77
-    invoke-direct {v0, p0, v1}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    -><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -3743,7 +4046,8 @@
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 84
     .line 85
@@ -3751,7 +4055,8 @@
     move-result-object v0
 
     .line 87
-    invoke-virtual {v0, v2}, Landroidx/core/app/NotificationCompat$Builder;->setContent(Landroid/widget/RemoteViews;)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v2}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setContent(Landroid/widget/RemoteViews;)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 88
     .line 89
@@ -3764,7 +4069,8 @@
     .line 92
     .line 93
     .line 94
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Landroid/content/Context;
+    ->getString(I)Ljava/lang/String;
 
     .line 95
     .line 96
@@ -3772,7 +4078,8 @@
     move-result-object v1
 
     .line 98
-    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 99
     .line 100
@@ -3780,7 +4087,8 @@
     move-result-object v0
 
     .line 102
-    invoke-virtual {v0, v3}, Landroidx/core/app/NotificationCompat$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v3}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setContentIntent(Landroid/app/PendingIntent;)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 103
     .line 104
@@ -3788,7 +4096,8 @@
     move-result-object v0
 
     .line 106
-    invoke-virtual {v0, v6}, Landroidx/core/app/NotificationCompat$Builder;->setOngoing(Z)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v6}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setOngoing(Z)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 107
     .line 108
@@ -3796,7 +4105,8 @@
     move-result-object v0
 
     .line 110
-    invoke-virtual {v0}, Landroidx/core/app/NotificationCompat$Builder;->build()Landroid/app/Notification;
+    invoke-virtual {v0}, Landroidx/core/app/NotificationCompat$Builder;
+    ->build()Landroid/app/Notification;
 
     .line 111
     .line 112
@@ -3808,7 +4118,8 @@
 
     .line 115
     .line 116
-    invoke-virtual {p0, v1, v0}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
+    invoke-virtual {p0, v1, v0}, Landroid/app/Service;
+    ->startForeground(ILandroid/app/Notification;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3822,11 +4133,13 @@
     move-exception v0
 
     .line 121
-    sget-object v1, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v1, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 122
     .line 123
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 124
     .line 125
@@ -3834,7 +4147,8 @@
     move-result-object v0
 
     .line 127
-    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 128
     .line 129
@@ -3849,7 +4163,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/fmark/tselzap/Services/a;->B()Landroid/app/NotificationChannel;
+    invoke-static {}, Lcom/fmark/tselzap/Services/a;
+    ->B()Landroid/app/NotificationChannel;
 
     .line 2
     .line 3
@@ -3857,12 +4172,14 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/fmark/tselzap/Services/a;->u(Landroid/app/NotificationChannel;)V
+    invoke-static {v0}, Lcom/fmark/tselzap/Services/a;
+    ->u(Landroid/app/NotificationChannel;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {v0}, Lcom/fmark/tselzap/Services/a;->D(Landroid/app/NotificationChannel;)V
+    invoke-static {v0}, Lcom/fmark/tselzap/Services/a;
+    ->D(Landroid/app/NotificationChannel;)V
 
     .line 9
     .line 10
@@ -3871,7 +4188,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -3883,7 +4201,8 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v0}, Lcom/fmark/tselzap/Services/a;->w(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v1, v0}, Lcom/fmark/tselzap/Services/a;
+    ->w(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 20
     .line 21
@@ -3896,7 +4215,8 @@
 
     .line 25
     .line 26
-    invoke-direct {v0, p0, v1}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    -><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -3904,7 +4224,8 @@
     const/4 v1, 0x1
 
     .line 30
-    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;->setOngoing(Z)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setOngoing(Z)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 31
     .line 32
@@ -3916,7 +4237,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v2}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 37
     .line 38
@@ -3928,7 +4250,8 @@
 
     .line 41
     .line 42
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 43
     .line 44
@@ -3938,7 +4261,8 @@
     .line 46
     .line 47
     .line 48
-    invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Landroid/content/Context;
+    ->getString(I)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -3946,7 +4270,8 @@
     move-result-object v3
 
     .line 52
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
@@ -3955,12 +4280,14 @@
 
     .line 56
     .line 57
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -3968,7 +4295,8 @@
     move-result-object v2
 
     .line 64
-    invoke-virtual {v0, v2}, Landroidx/core/app/NotificationCompat$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v2}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 65
     .line 66
@@ -3976,7 +4304,8 @@
     move-result-object v0
 
     .line 68
-    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;->setPriority(I)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setPriority(I)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 69
     .line 70
@@ -3988,7 +4317,8 @@
 
     .line 73
     .line 74
-    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;->setCategory(Ljava/lang/String;)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-virtual {v0, v1}, Landroidx/core/app/NotificationCompat$Builder;
+    ->setCategory(Ljava/lang/String;)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 75
     .line 76
@@ -3996,7 +4326,8 @@
     move-result-object v0
 
     .line 78
-    invoke-virtual {v0}, Landroidx/core/app/NotificationCompat$Builder;->build()Landroid/app/Notification;
+    invoke-virtual {v0}, Landroidx/core/app/NotificationCompat$Builder;
+    ->build()Landroid/app/Notification;
 
     .line 79
     .line 80
@@ -4008,7 +4339,8 @@
 
     .line 83
     .line 84
-    invoke-virtual {p0, v1, v0}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
+    invoke-virtual {p0, v1, v0}, Landroid/app/Service;
+    ->startForeground(ILandroid/app/Notification;)V
 
     .line 85
     .line 86
@@ -4022,7 +4354,8 @@
     .locals 6
 
     .line 1
-    sget-object v1, Landroid/provider/ContactsContract$CommonDataKinds$Phone;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v1, Landroid/provider/ContactsContract$CommonDataKinds$Phone;
+    ->CONTENT_URI:Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -4042,7 +4375,8 @@
     move-object v0, p3
 
     .line 9
-    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;
+    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 10
     .line 11
@@ -4051,7 +4385,8 @@
 
     .line 13
     :cond_0
-    invoke-interface {p1}, Landroid/database/Cursor;->moveToNext()Z
+    invoke-interface {p1}, Landroid/database/Cursor;
+    ->moveToNext()Z
 
     .line 14
     .line 15
@@ -4067,7 +4402,8 @@
 
     .line 20
     .line 21
-    invoke-interface {p1, p3}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    invoke-interface {p1, p3}, Landroid/database/Cursor;
+    ->getColumnIndex(Ljava/lang/String;)I
 
     .line 22
     .line 23
@@ -4075,7 +4411,8 @@
     move-result p3
 
     .line 25
-    invoke-interface {p1, p3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+    invoke-interface {p1, p3}, Landroid/database/Cursor;
+    ->getString(I)Ljava/lang/String;
 
     .line 26
     .line 27
@@ -4083,7 +4420,8 @@
     move-result-object p3
 
     .line 29
-    invoke-static {p2, p3}, Landroid/telephony/PhoneNumberUtils;->compare(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {p2, p3}, Landroid/telephony/PhoneNumberUtils;
+    ->compare(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 30
     .line 31
@@ -4110,7 +4448,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -4121,7 +4460,8 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 7
     .line 8
@@ -4143,7 +4483,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->photoList:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->photoList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -4154,7 +4495,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -4165,7 +4507,8 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v0, v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 7
     .line 8
@@ -4187,7 +4530,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -4218,12 +4562,14 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroid/app/Service;->onCreate()V
+    invoke-super {p0}, Landroid/app/Service;
+    ->onCreate()V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->createNotificationChannel()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->createNotificationChannel()V
 
     .line 5
     .line 6
@@ -4235,12 +4581,14 @@
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroid/app/Service;->onDestroy()V
+    invoke-super {p0}, Landroid/app/Service;
+    ->onDestroy()V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -4248,12 +4596,14 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->saveServiceState()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->saveServiceState()V
 
     .line 12
     .line 13
@@ -4262,7 +4612,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -4278,13 +4629,15 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0}, Landroid/app/NotificationManager;->cancelAll()V
+    invoke-virtual {v0}, Landroid/app/NotificationManager;
+    ->cancelAll()V
 
     .line 25
     .line 26
     .line 27
     :cond_0
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->scheduleRestart()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->scheduleRestart()V
 
     .line 28
     .line 29
@@ -4300,12 +4653,14 @@
 
     .line 2
     :try_start_0
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->restoreServiceState()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->restoreServiceState()V
 
     .line 3
     .line 4
     .line 5
-    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
+    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 6
     .line 7
@@ -4313,7 +4668,8 @@
     move-result-object p3
 
     .line 9
-    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->storage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->storage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 10
     .line 11
@@ -4324,7 +4680,8 @@
     const/4 v0, 0x0
 
     .line 14
-    invoke-virtual {p1, p3, v0}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+    invoke-virtual {p1, p3, v0}, Landroid/content/Intent;
+    ->getBooleanExtra(Ljava/lang/String;Z)Z
 
     .line 15
     .line 16
@@ -4336,11 +4693,13 @@
 
     .line 19
     .line 20
-    iget-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iget-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 21
     .line 22
-    invoke-interface {p3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {p3}, Landroid/content/SharedPreferences;
+    ->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 23
     .line 24
@@ -4352,7 +4711,8 @@
 
     .line 27
     .line 28
-    invoke-interface {p3, v1, v0}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {p3, v1, v0}, Landroid/content/SharedPreferences$Editor;
+    ->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 29
     .line 30
@@ -4360,12 +4720,14 @@
     move-result-object p3
 
     .line 32
-    invoke-interface {p3}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p3}, Landroid/content/SharedPreferences$Editor;
+    ->apply()V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroid/app/Service;->stopSelf()V
+    invoke-virtual {p0}, Landroid/app/Service;
+    ->stopSelf()V
 
     .line 36
     .line 37
@@ -4387,7 +4749,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, p3, p2}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+    invoke-virtual {p1, p3, p2}, Landroid/content/Intent;
+    ->getBooleanExtra(Ljava/lang/String;Z)Z
 
     .line 45
     .line 46
@@ -4395,12 +4758,14 @@
     move-result p3
 
     .line 48
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->showNotification()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->showNotification()V
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 52
     .line 53
@@ -4408,7 +4773,8 @@
     move-result-object v1
 
     .line 55
-    invoke-static {v1}, Landroidx/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    invoke-static {v1}, Landroidx/preference/PreferenceManager;
+    ->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     .line 56
     .line 57
@@ -4416,7 +4782,8 @@
     move-result-object v1
 
     .line 59
-    iput-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->sp:Landroid/content/SharedPreferences;
+    iput-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->sp:Landroid/content/SharedPreferences;
 
     .line 60
     .line 61
@@ -4424,7 +4791,8 @@
 
     .line 62
     .line 63
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 64
     .line 65
@@ -4432,16 +4800,19 @@
     move-result-object p3
 
     .line 67
-    invoke-direct {p0, p3}, Lcom/fmark/tselzap/Services/BackgroundService;->setprocess(Ljava/lang/Integer;)V
+    invoke-direct {p0, p3}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->setprocess(Ljava/lang/Integer;)V
 
     .line 68
     .line 69
     .line 70
-    iget-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iget-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
 
     .line 71
     .line 72
-    invoke-interface {p3}, Ljava/util/List;->clear()V
+    invoke-interface {p3}, Ljava/util/List;
+    ->clear()V
 
     .line 73
     .line 74
@@ -4450,7 +4821,8 @@
 
     .line 76
     .line 77
-    invoke-virtual {p1, p3}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p3}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -4458,7 +4830,8 @@
     move-result-object p3
 
     .line 81
-    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->key_authority:Ljava/lang/String;
+    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->key_authority:Ljava/lang/String;
 
     .line 82
     .line 83
@@ -4469,7 +4842,8 @@
     const/4 v1, 0x3
 
     .line 86
-    invoke-virtual {p1, p3, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
+    invoke-virtual {p1, p3, v1}, Landroid/content/Intent;
+    ->getIntExtra(Ljava/lang/String;I)I
 
     .line 87
     .line 88
@@ -4477,7 +4851,8 @@
     move-result p3
 
     .line 90
-    iput p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->delay:I
+    iput p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->delay:I
 
     .line 91
     .line 92
@@ -4485,7 +4860,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {p1, p3}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p3}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 95
     .line 96
@@ -4493,7 +4869,8 @@
     move-result-object p3
 
     .line 98
-    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->whats2:Ljava/lang/String;
+    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->whats2:Ljava/lang/String;
 
     .line 99
     .line 100
@@ -4501,7 +4878,8 @@
 
     .line 101
     .line 102
-    invoke-virtual {p1, p3}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, p3}, Landroid/content/Intent;
+    ->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 103
     .line 104
@@ -4513,11 +4891,13 @@
 
     .line 107
     .line 108
-    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->uri:Landroid/net/Uri;
+    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->uri:Landroid/net/Uri;
 
     .line 109
     .line 110
-    invoke-static {p3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 111
     .line 112
@@ -4525,7 +4905,8 @@
     move-result-object p3
 
     .line 114
-    sput-object p3, Lcom/fmark/tselzap/Services/BackgroundService;->uritemp:Ljava/lang/String;
+    sput-object p3, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->uritemp:Ljava/lang/String;
 
     .line 115
     .line 116
@@ -4533,7 +4914,8 @@
 
     .line 117
     .line 118
-    invoke-virtual {p1, p3}, Landroid/content/Intent;->getParcelableArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p1, p3}, Landroid/content/Intent;
+    ->getParcelableArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 119
     .line 120
@@ -4541,7 +4923,8 @@
     move-result-object p3
 
     .line 122
-    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->allArrayList:Ljava/util/ArrayList;
+    iput-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->allArrayList:Ljava/util/ArrayList;
 
     .line 123
     .line 124
@@ -4549,7 +4932,8 @@
 
     .line 125
     .line 126
-    invoke-virtual {p1, p3}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p3}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 127
     .line 128
@@ -4557,15 +4941,18 @@
     move-result-object p1
 
     .line 130
-    iput-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->IndText:Ljava/lang/String;
+    iput-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->IndText:Ljava/lang/String;
 
     .line 131
     .line 132
-    iget-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->temp:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->temp:Ljava/util/ArrayList;
 
     .line 133
     .line 134
-    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->clear()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4577,7 +4964,8 @@
 
     .line 138
     .line 139
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 140
     .line 141
@@ -4585,7 +4973,8 @@
     move-result-object p3
 
     .line 143
-    invoke-static {p1, p3}, Lcom/fmark/tselzap/Activity/Sender;->fetchWhatsAppContacts(Ljava/lang/String;Landroid/content/Context;)Ljava/util/ArrayList;
+    invoke-static {p1, p3}, Lcom/fmark/tselzap/Activity/Sender;
+    ->fetchWhatsAppContacts(Ljava/lang/String;Landroid/content/Context;)Ljava/util/ArrayList;
 
     .line 144
     .line 145
@@ -4593,7 +4982,8 @@
     move-result-object p1
 
     .line 147
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 148
     .line 149
@@ -4602,7 +4992,8 @@
 
     .line 151
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 152
     .line 153
@@ -4621,7 +5012,8 @@
     .line 158
     .line 159
     :try_start_2
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 160
     .line 161
@@ -4633,11 +5025,13 @@
 
     .line 164
     .line 165
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->temp:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->temp:Ljava/util/ArrayList;
 
     .line 166
     .line 167
-    invoke-interface {p3, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 168
     .line 169
@@ -4649,7 +5043,8 @@
 
     .line 172
     .line 173
-    invoke-virtual {v2, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 174
     .line 175
@@ -4669,7 +5064,8 @@
 
     .line 180
     .line 181
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 182
     .line 183
@@ -4677,7 +5073,8 @@
     move-result-object p3
 
     .line 185
-    invoke-static {p1, p3}, Lcom/fmark/tselzap/Activity/Sender;->fetchWhatsAppContacts(Ljava/lang/String;Landroid/content/Context;)Ljava/util/ArrayList;
+    invoke-static {p1, p3}, Lcom/fmark/tselzap/Activity/Sender;
+    ->fetchWhatsAppContacts(Ljava/lang/String;Landroid/content/Context;)Ljava/util/ArrayList;
 
     .line 186
     .line 187
@@ -4685,7 +5082,8 @@
     move-result-object p1
 
     .line 189
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 190
     .line 191
@@ -4695,7 +5093,8 @@
     .line 193
     :cond_2
     :goto_2
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 194
     .line 195
@@ -4707,7 +5106,8 @@
 
     .line 198
     .line 199
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 200
     .line 201
@@ -4719,11 +5119,13 @@
 
     .line 204
     .line 205
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->temp:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->temp:Ljava/util/ArrayList;
 
     .line 206
     .line 207
-    invoke-interface {p3, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 208
     .line 209
@@ -4731,7 +5133,8 @@
     move-result-object v3
 
     .line 211
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 212
     .line 213
@@ -4743,11 +5146,13 @@
 
     .line 216
     .line 217
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;->temp:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->temp:Ljava/util/ArrayList;
 
     .line 218
     .line 219
-    invoke-interface {p3, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 220
     .line 221
@@ -4759,7 +5164,8 @@
 
     .line 224
     .line 225
-    invoke-virtual {v2, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -4771,7 +5177,8 @@
     .line 229
     :goto_3
     :try_start_3
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 230
     .line 231
@@ -4783,7 +5190,8 @@
 
     .line 234
     .line 235
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 236
     .line 237
@@ -4792,17 +5200,20 @@
 
     .line 239
     .line 240
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 241
     .line 242
     .line 243
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 244
     .line 245
     .line 246
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 247
     .line 248
@@ -4810,7 +5221,8 @@
     move-result-object p1
 
     .line 250
-    invoke-static {p3, p1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p3, p1, v0}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 251
     .line 252
@@ -4818,12 +5230,14 @@
     move-result-object p1
 
     .line 254
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 255
     .line 256
     .line 257
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 258
     .line 259
@@ -4831,7 +5245,8 @@
     move-result-object p1
 
     .line 261
-    invoke-static {}, Lcom/fmark/tselzap/Services/BackgroundService;->getAndroidVersion()Ljava/lang/String;
+    invoke-static {}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->getAndroidVersion()Ljava/lang/String;
 
     .line 262
     .line 263
@@ -4839,7 +5254,8 @@
     move-result-object p3
 
     .line 265
-    invoke-static {p1, p3, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p1, p3, v0}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 266
     .line 267
@@ -4847,7 +5263,8 @@
     move-result-object p1
 
     .line 269
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
 
@@ -4856,7 +5273,8 @@
     .line 272
     :cond_3
     :try_start_4
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getContentResolver()Landroid/content/ContentResolver;
 
     .line 273
     .line 274
@@ -4864,11 +5282,13 @@
     move-result-object p1
 
     .line 276
-    iget-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;->uri:Landroid/net/Uri;
+    iget-object p3, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->uri:Landroid/net/Uri;
 
     .line 277
     .line 278
-    invoke-virtual {p1, p3}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+    invoke-virtual {p1, p3}, Landroid/content/ContentResolver;
+    ->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
 
     .line 279
     .line 280
@@ -4884,12 +5304,14 @@
 
     .line 285
     .line 286
-    invoke-direct {v1, p1}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {v1, p1}, Ljava/io/InputStreamReader;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 287
     .line 288
     .line 289
-    invoke-direct {p3, v1}, LI0/c;-><init>(Ljava/io/InputStreamReader;)V
+    invoke-direct {p3, v1}, LI0/c;
+    -><init>(Ljava/io/InputStreamReader;)V
 
     .line 290
     .line 291
@@ -4898,14 +5320,16 @@
 
     .line 293
     .line 294
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 295
     .line 296
     .line 297
     :cond_4
     :goto_4
-    iget-boolean v1, p3, LI0/c;->e:Z
+    iget-boolean v1, p3, LI0/c;
+    ->e:Z
 
     .line 298
     .line 299
@@ -4913,7 +5337,8 @@
 
     .line 300
     .line 301
-    invoke-virtual {p3}, LI0/c;->a()[Ljava/lang/String;
+    invoke-virtual {p3}, LI0/c;
+    ->a()[Ljava/lang/String;
 
     .line 302
     .line 303
@@ -4925,7 +5350,8 @@
 
     .line 306
     .line 307
-    invoke-virtual {p1, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 308
     .line 309
@@ -4934,7 +5360,8 @@
 
     .line 311
     :cond_5
-    iput-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundService;->recipientList:Ljava/util/List;
+    iput-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->recipientList:Ljava/util/List;
     :try_end_4
     .catch Ljava/io/FileNotFoundException; {:try_start_4 .. :try_end_4} :catch_3
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_2
@@ -4961,7 +5388,8 @@
     .line 318
     :goto_5
     :try_start_5
-    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 319
     .line 320
@@ -4970,7 +5398,8 @@
 
     .line 322
     .line 323
-    invoke-static {p0, p1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, p1, v0}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 324
     .line 325
@@ -4978,7 +5407,8 @@
     move-result-object p1
 
     .line 327
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p1}, Landroid/widget/Toast;
+    ->show()V
 
     .line 328
     .line 329
@@ -4991,7 +5421,8 @@
 
     .line 332
     .line 333
-    invoke-static {p0, p3, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, p3, v0}, Landroid/widget/Toast;
+    ->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     .line 334
     .line 335
@@ -4999,18 +5430,21 @@
     move-result-object p3
 
     .line 337
-    invoke-virtual {p3}, Landroid/widget/Toast;->show()V
+    invoke-virtual {p3}, Landroid/widget/Toast;
+    ->show()V
 
     .line 338
     .line 339
     .line 340
-    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 341
     .line 342
     .line 343
     :goto_7
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->send()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->send()V
 
     .line 344
     .line 345
@@ -5019,7 +5453,8 @@
 
     .line 347
     :cond_6
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;->send()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->send()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_0
 
@@ -5030,11 +5465,13 @@
 
     .line 351
     :goto_8
-    sget-object p3, Lcom/fmark/tselzap/Services/BackgroundService;->TAG:Ljava/lang/String;
+    sget-object p3, Lcom/fmark/tselzap/Services/BackgroundService;
+    ->TAG:Ljava/lang/String;
 
     .line 352
     .line 353
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 354
     .line 355
@@ -5042,7 +5479,8 @@
     move-result-object p1
 
     .line 357
-    invoke-static {p3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p3, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 358
     .line 359
@@ -5064,7 +5502,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -5081,12 +5520,14 @@
 
     .line 13
     .line 14
-    invoke-direct {v1, v2, v3}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3}, Landroid/content/ComponentName;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -5095,12 +5536,14 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->addFlags(I)Landroid/content/Intent;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/content/Context;
+    ->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -5122,12 +5565,14 @@
 
     .line 33
     .line 34
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -5135,12 +5580,14 @@
     move-result-object v0
 
     .line 41
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -5152,7 +5599,8 @@
 
     .line 49
     .line 50
-    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 51
     .line 52

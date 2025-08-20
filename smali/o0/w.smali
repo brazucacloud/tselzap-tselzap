@@ -24,12 +24,14 @@
     .locals 8
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->draw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getWidth()I
 
     .line 5
     .line 6
@@ -37,7 +39,8 @@
     move-result v0
 
     .line 8
-    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getHeight()I
 
     .line 9
     .line 10
@@ -45,7 +48,8 @@
     move-result v1
 
     .line 12
-    iget-object v2, p0, Lo0/w;->c:Landroid/graphics/Rect;
+    iget-object v2, p0, Lo0/w;
+    ->c:Landroid/graphics/Rect;
 
     .line 13
     .line 14
@@ -53,7 +57,8 @@
 
     .line 15
     .line 16
-    iget-object v2, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v2, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 17
     .line 18
@@ -61,7 +66,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
+    invoke-virtual {p1}, Landroid/graphics/Canvas;
+    ->save()I
 
     .line 21
     .line 22
@@ -69,7 +75,8 @@
     move-result v2
 
     .line 24
-    invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getScrollX()I
 
     .line 25
     .line 26
@@ -80,7 +87,8 @@
     int-to-float v3, v3
 
     .line 29
-    invoke-virtual {p0}, Landroid/view/View;->getScrollY()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getScrollY()I
 
     .line 30
     .line 31
@@ -91,19 +99,22 @@
     int-to-float v4, v4
 
     .line 34
-    invoke-virtual {p1, v3, v4}, Landroid/graphics/Canvas;->translate(FF)V
+    invoke-virtual {p1, v3, v4}, Landroid/graphics/Canvas;
+    ->translate(FF)V
 
     .line 35
     .line 36
     .line 37
-    iget-boolean v3, p0, Lo0/w;->e:Z
+    iget-boolean v3, p0, Lo0/w;
+    ->e:Z
 
     .line 38
     .line 39
     const/4 v4, 0x0
 
     .line 40
-    iget-object v5, p0, Lo0/w;->d:Landroid/graphics/Rect;
+    iget-object v5, p0, Lo0/w;
+    ->d:Landroid/graphics/Rect;
 
     .line 41
     .line 42
@@ -111,39 +122,47 @@
 
     .line 43
     .line 44
-    iget-object v3, p0, Lo0/w;->c:Landroid/graphics/Rect;
+    iget-object v3, p0, Lo0/w;
+    ->c:Landroid/graphics/Rect;
 
     .line 45
     .line 46
-    iget v3, v3, Landroid/graphics/Rect;->top:I
+    iget v3, v3, Landroid/graphics/Rect;
+    ->top:I
 
     .line 47
     .line 48
-    invoke-virtual {v5, v4, v4, v0, v3}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v5, v4, v4, v0, v3}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 49
     .line 50
     .line 51
-    iget-object v3, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 52
     .line 53
-    invoke-virtual {v3, v5}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v3, v5}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(Landroid/graphics/Rect;)V
 
     .line 54
     .line 55
     .line 56
-    iget-object v3, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 57
     .line 58
-    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 59
     .line 60
     .line 61
     :cond_0
-    iget-boolean v3, p0, Lo0/w;->f:Z
+    iget-boolean v3, p0, Lo0/w;
+    ->f:Z
 
     .line 62
     .line 63
@@ -151,11 +170,13 @@
 
     .line 64
     .line 65
-    iget-object v3, p0, Lo0/w;->c:Landroid/graphics/Rect;
+    iget-object v3, p0, Lo0/w;
+    ->c:Landroid/graphics/Rect;
 
     .line 66
     .line 67
-    iget v3, v3, Landroid/graphics/Rect;->bottom:I
+    iget v3, v3, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 68
     .line 69
@@ -163,31 +184,37 @@
 
     .line 70
     .line 71
-    invoke-virtual {v5, v4, v3, v0, v1}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v5, v4, v3, v0, v1}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 72
     .line 73
     .line 74
-    iget-object v3, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 75
     .line 76
-    invoke-virtual {v3, v5}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v3, v5}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(Landroid/graphics/Rect;)V
 
     .line 77
     .line 78
     .line 79
-    iget-object v3, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 80
     .line 81
-    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 82
     .line 83
     .line 84
     :cond_1
-    iget-boolean v3, p0, Lo0/w;->g:Z
+    iget-boolean v3, p0, Lo0/w;
+    ->g:Z
 
     .line 85
     .line 86
@@ -195,19 +222,23 @@
 
     .line 87
     .line 88
-    iget-object v3, p0, Lo0/w;->c:Landroid/graphics/Rect;
+    iget-object v3, p0, Lo0/w;
+    ->c:Landroid/graphics/Rect;
 
     .line 89
     .line 90
-    iget v6, v3, Landroid/graphics/Rect;->top:I
+    iget v6, v3, Landroid/graphics/Rect;
+    ->top:I
 
     .line 91
     .line 92
-    iget v7, v3, Landroid/graphics/Rect;->left:I
+    iget v7, v3, Landroid/graphics/Rect;
+    ->left:I
 
     .line 93
     .line 94
-    iget v3, v3, Landroid/graphics/Rect;->bottom:I
+    iget v3, v3, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 95
     .line 96
@@ -215,31 +246,37 @@
 
     .line 97
     .line 98
-    invoke-virtual {v5, v4, v6, v7, v3}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v5, v4, v6, v7, v3}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 99
     .line 100
     .line 101
-    iget-object v3, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 102
     .line 103
-    invoke-virtual {v3, v5}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v3, v5}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(Landroid/graphics/Rect;)V
 
     .line 104
     .line 105
     .line 106
-    iget-object v3, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 107
     .line 108
-    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 109
     .line 110
     .line 111
     :cond_2
-    iget-boolean v3, p0, Lo0/w;->h:Z
+    iget-boolean v3, p0, Lo0/w;
+    ->h:Z
 
     .line 112
     .line 113
@@ -247,11 +284,13 @@
 
     .line 114
     .line 115
-    iget-object v3, p0, Lo0/w;->c:Landroid/graphics/Rect;
+    iget-object v3, p0, Lo0/w;
+    ->c:Landroid/graphics/Rect;
 
     .line 116
     .line 117
-    iget v4, v3, Landroid/graphics/Rect;->right:I
+    iget v4, v3, Landroid/graphics/Rect;
+    ->right:I
 
     .line 118
     .line 119
@@ -259,42 +298,50 @@
 
     .line 120
     .line 121
-    iget v6, v3, Landroid/graphics/Rect;->top:I
+    iget v6, v3, Landroid/graphics/Rect;
+    ->top:I
 
     .line 122
     .line 123
-    iget v3, v3, Landroid/graphics/Rect;->bottom:I
+    iget v3, v3, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 124
     .line 125
     sub-int/2addr v1, v3
 
     .line 126
-    invoke-virtual {v5, v4, v6, v0, v1}, Landroid/graphics/Rect;->set(IIII)V
+    invoke-virtual {v5, v4, v6, v0, v1}, Landroid/graphics/Rect;
+    ->set(IIII)V
 
     .line 127
     .line 128
     .line 129
-    iget-object v0, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 130
     .line 131
-    invoke-virtual {v0, v5}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v0, v5}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(Landroid/graphics/Rect;)V
 
     .line 132
     .line 133
     .line 134
-    iget-object v0, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 135
     .line 136
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 137
     .line 138
     .line 139
     :cond_3
-    invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->restoreToCount(I)V
+    invoke-virtual {p1, v2}, Landroid/graphics/Canvas;
+    ->restoreToCount(I)V
 
     .line 140
     .line 141
@@ -307,12 +354,14 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/widget/FrameLayout;->onAttachedToWindow()V
+    invoke-super {p0}, Landroid/widget/FrameLayout;
+    ->onAttachedToWindow()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 5
     .line 6
@@ -320,7 +369,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
+    invoke-virtual {v0, p0}, Landroid/graphics/drawable/Drawable;
+    ->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
     .line 9
     .line 10
@@ -333,12 +383,14 @@
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroid/widget/FrameLayout;->onDetachedFromWindow()V
+    invoke-super {p0}, Landroid/widget/FrameLayout;
+    ->onDetachedFromWindow()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 5
     .line 6
@@ -349,7 +401,8 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
+    invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;
+    ->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
     .line 10
     .line 11
@@ -362,7 +415,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lo0/w;->f:Z
+    iput-boolean p1, p0, Lo0/w;
+    ->f:Z
 
     .line 2
     .line 3
@@ -373,7 +427,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lo0/w;->g:Z
+    iput-boolean p1, p0, Lo0/w;
+    ->g:Z
 
     .line 2
     .line 3
@@ -384,7 +439,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lo0/w;->h:Z
+    iput-boolean p1, p0, Lo0/w;
+    ->h:Z
 
     .line 2
     .line 3
@@ -395,7 +451,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lo0/w;->e:Z
+    iput-boolean p1, p0, Lo0/w;
+    ->e:Z
 
     .line 2
     .line 3
@@ -410,7 +467,8 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Lo0/w;->b:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Lo0/w;
+    ->b:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3

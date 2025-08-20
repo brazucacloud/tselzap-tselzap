@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -49,7 +50,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readArray(Ljava/lang/ClassLoader;Ljava/lang/Class;)[Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readArray(Ljava/lang/ClassLoader;Ljava/lang/Class;)[Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -79,7 +81,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readArrayList(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readArrayList(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -113,7 +116,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/os/Parcel;->readHashMap(Ljava/lang/ClassLoader;Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/HashMap;
+    invoke-virtual {p0, p1, p2, p3}, Landroid/os/Parcel;
+    ->readHashMap(Ljava/lang/ClassLoader;Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/HashMap;
 
     .line 2
     .line 3
@@ -159,7 +163,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/os/Parcel;->readList(Ljava/util/List;Ljava/lang/ClassLoader;Ljava/lang/Class;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/os/Parcel;
+    ->readList(Ljava/util/List;Ljava/lang/ClassLoader;Ljava/lang/Class;)V
 
     .line 2
     .line 3
@@ -181,7 +186,8 @@
             ">(",
             "Landroid/os/Parcel;",
             "Ljava/util/Map<",
-            "-TK;-TV;>;",
+            "-TK;
+    -TV;>;",
             "Ljava/lang/ClassLoader;",
             "Ljava/lang/Class<",
             "TK;>;",
@@ -191,7 +197,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/os/Parcel;->readMap(Ljava/util/Map;Ljava/lang/ClassLoader;Ljava/lang/Class;Ljava/lang/Class;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/os/Parcel;
+    ->readMap(Ljava/util/Map;Ljava/lang/ClassLoader;Ljava/lang/Class;Ljava/lang/Class;)V
 
     .line 2
     .line 3
@@ -229,7 +236,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readParcelable(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -274,7 +282,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readParcelableArray(Ljava/lang/ClassLoader;Ljava/lang/Class;)[Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readParcelableArray(Ljava/lang/ClassLoader;Ljava/lang/Class;)[Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -304,7 +313,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readParcelableCreator(Ljava/lang/ClassLoader;Ljava/lang/Class;)Landroid/os/Parcelable$Creator;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readParcelableCreator(Ljava/lang/ClassLoader;Ljava/lang/Class;)Landroid/os/Parcelable$Creator;
 
     .line 2
     .line 3
@@ -352,7 +362,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/os/Parcel;->readParcelableList(Ljava/util/List;Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2, p3}, Landroid/os/Parcel;
+    ->readParcelableList(Ljava/util/List;Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/util/List;
 
     .line 2
     .line 3
@@ -392,7 +403,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readSerializable(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readSerializable(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -427,7 +439,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;->readSparseArray(Ljava/lang/ClassLoader;Ljava/lang/Class;)Landroid/util/SparseArray;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Parcel;
+    ->readSparseArray(Ljava/lang/ClassLoader;Ljava/lang/Class;)Landroid/util/SparseArray;
 
     .line 2
     .line 3

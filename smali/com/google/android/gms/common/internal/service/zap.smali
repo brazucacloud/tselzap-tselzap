@@ -34,12 +34,14 @@
     move-object v6, p6
 
     .line 9
-    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/GmsClient;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/ClientSettings;Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;)V
+    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/GmsClient;
+    -><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/ClientSettings;Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;)V
 
     .line 10
     .line 11
     .line 12
-    iput-object p4, v0, Lcom/google/android/gms/common/internal/service/zap;->zaa:Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
+    iput-object p4, v0, Lcom/google/android/gms/common/internal/service/zap;
+    ->zaa:Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
 
     .line 13
     .line 14
@@ -68,7 +70,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p1, v0}, Landroid/os/IBinder;
+    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -96,7 +99,8 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p1}, Lcom/google/android/gms/common/internal/service/zai;-><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, p1}, Lcom/google/android/gms/common/internal/service/zai;
+    -><init>(Landroid/os/IBinder;)V
 
     .line 21
     .line 22
@@ -108,7 +112,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/internal/base/zaf;->zab:[Lcom/google/android/gms/common/Feature;
+    sget-object v0, Lcom/google/android/gms/internal/base/zaf;
+    ->zab:[Lcom/google/android/gms/common/Feature;
 
     .line 2
     .line 3
@@ -119,11 +124,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/service/zap;->zaa:Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/service/zap;
+    ->zaa:Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zaa()Landroid/os/Bundle;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
+    ->zaa()Landroid/os/Bundle;
 
     .line 4
     .line 5

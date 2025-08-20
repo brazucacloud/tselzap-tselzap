@@ -16,12 +16,14 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/zaag;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/zaag;
+    -><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabv;->zaa:Lcom/google/android/gms/common/api/GoogleApi;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabv;
+    ->zaa:Lcom/google/android/gms/common/api/GoogleApi;
 
     .line 7
     .line 8
@@ -49,11 +51,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;->zaa:Lcom/google/android/gms/common/api/GoogleApi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;
+    ->zaa:Lcom/google/android/gms/common/api/GoogleApi;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/GoogleApi;->doRead(Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;)Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/GoogleApi;
+    ->doRead(Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;)Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 4
     .line 5
@@ -82,11 +86,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;->zaa:Lcom/google/android/gms/common/api/GoogleApi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;
+    ->zaa:Lcom/google/android/gms/common/api/GoogleApi;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/GoogleApi;->doWrite(Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;)Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/GoogleApi;
+    ->doWrite(Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;)Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;
 
     .line 4
     .line 5
@@ -100,11 +106,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;->zaa:Lcom/google/android/gms/common/api/GoogleApi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;
+    ->zaa:Lcom/google/android/gms/common/api/GoogleApi;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApi;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApi;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -118,11 +126,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;->zaa:Lcom/google/android/gms/common/api/GoogleApi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabv;
+    ->zaa:Lcom/google/android/gms/common/api/GoogleApi;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApi;->getLooper()Landroid/os/Looper;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApi;
+    ->getLooper()Landroid/os/Looper;
 
     .line 4
     .line 5

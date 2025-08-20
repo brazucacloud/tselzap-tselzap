@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -72,7 +73,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -145,7 +147,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -251,7 +254,8 @@
 
     const-string v0, "integer overflow"
 
-    invoke-direct {p0, v0}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -277,7 +281,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -299,7 +304,8 @@
 
     const-string v0, "integer overflow"
 
-    invoke-direct {p0, v0}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -325,7 +331,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -356,7 +363,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -401,7 +409,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -427,7 +436,8 @@
 
     const-string v0, "integer overflow"
 
-    invoke-direct {p0, v0}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -451,7 +461,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -512,7 +523,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -585,7 +597,8 @@
 
     const-string p1, "integer overflow"
 
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -638,7 +651,8 @@
 
     .line 20
     .line 21
-    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/ArithmeticException;
+    -><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23

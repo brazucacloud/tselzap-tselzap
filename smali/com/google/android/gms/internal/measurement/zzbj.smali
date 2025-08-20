@@ -12,7 +12,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzbv;->values()[Lcom/google/android/gms/internal/measurement/zzbv;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzbv;
+    ->values()[Lcom/google/android/gms/internal/measurement/zzbv;
 
     .line 2
     .line 3
@@ -27,16 +28,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzbj;->zza:[I
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzbj;
+    ->zza:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzbv;->zzb:Lcom/google/android/gms/internal/measurement/zzbv;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzbv;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzbv;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -55,15 +59,18 @@
     .line 19
     :catch_0
     :try_start_1
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzbj;->zza:[I
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzbj;
+    ->zza:[I
 
     .line 20
     .line 21
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzbv;->zzas:Lcom/google/android/gms/internal/measurement/zzbv;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzbv;
+    ->zzas:Lcom/google/android/gms/internal/measurement/zzbv;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 24
     .line 25
@@ -82,15 +89,18 @@
     .line 30
     :catch_1
     :try_start_2
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzbj;->zza:[I
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzbj;
+    ->zza:[I
 
     .line 31
     .line 32
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzbv;->zzav:Lcom/google/android/gms/internal/measurement/zzbv;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzbv;
+    ->zzav:Lcom/google/android/gms/internal/measurement/zzbv;
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 35
     .line 36

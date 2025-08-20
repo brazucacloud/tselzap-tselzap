@@ -20,7 +20,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p3, p2, v0}, Lu0/x;->d(FFF)V
+    invoke-virtual {p1, p3, p2, v0}, Lu0/x;
+    ->d(FFF)V
 
     .line 8
     .line 9
@@ -28,7 +29,8 @@
     float-to-double v0, v0
 
     .line 11
-    invoke-static {v0, v1}, Ljava/lang/Math;->toRadians(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->toRadians(D)D
 
     .line 12
     .line 13
@@ -36,7 +38,8 @@
     move-result-wide v0
 
     .line 15
-    invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->sin(D)D
 
     .line 16
     .line 17
@@ -60,7 +63,8 @@
     float-to-double v1, v1
 
     .line 25
-    invoke-static {v1, v2}, Ljava/lang/Math;->toRadians(D)D
+    invoke-static {v1, v2}, Ljava/lang/Math;
+    ->toRadians(D)D
 
     .line 26
     .line 27
@@ -68,7 +72,8 @@
     move-result-wide v1
 
     .line 29
-    invoke-static {v1, v2}, Ljava/lang/Math;->sin(D)D
+    invoke-static {v1, v2}, Ljava/lang/Math;
+    ->sin(D)D
 
     .line 30
     .line 31
@@ -83,7 +88,8 @@
     double-to-float p2, v1
 
     .line 36
-    invoke-virtual {p1, v0, p2}, Lu0/x;->c(FF)V
+    invoke-virtual {p1, v0, p2}, Lu0/x;
+    ->c(FF)V
 
     .line 37
     .line 38

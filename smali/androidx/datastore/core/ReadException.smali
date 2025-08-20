@@ -28,7 +28,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -36,12 +37,14 @@
     const/4 v0, 0x0
 
     .line 7
-    invoke-direct {p0, v0}, Landroidx/datastore/core/State;-><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/core/State;
+    -><init>(Lkotlin/jvm/internal/e;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/datastore/core/ReadException;->readException:Ljava/lang/Throwable;
+    iput-object p1, p0, Landroidx/datastore/core/ReadException;
+    ->readException:Ljava/lang/Throwable;
 
     .line 11
     .line 12
@@ -54,7 +57,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/ReadException;->readException:Ljava/lang/Throwable;
+    iget-object v0, p0, Landroidx/datastore/core/ReadException;
+    ->readException:Ljava/lang/Throwable;
 
     .line 2
     .line 3

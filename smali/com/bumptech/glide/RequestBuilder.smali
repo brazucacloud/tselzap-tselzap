@@ -53,16 +53,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, LA/a;-><init>()V
+    invoke-direct {v0}, LA/a;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sget-object v1, Lk/k;->c:Lk/k;
+    sget-object v1, Lk/k;
+    ->c:Lk/k;
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, LA/a;->d(Lk/k;)LA/a;
+    invoke-virtual {v0, v1}, LA/a;
+    ->d(Lk/k;)LA/a;
 
     .line 9
     .line 10
@@ -74,7 +77,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0}, LA/a;->h()LA/a;
+    invoke-virtual {v0}, LA/a;
+    ->h()LA/a;
 
     .line 15
     .line 16
@@ -86,7 +90,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, LA/a;->l()LA/a;
+    invoke-virtual {v0}, LA/a;
+    ->l()LA/a;
 
     .line 21
     .line 22
@@ -105,7 +110,8 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, LA/a;-><init>()V
+    invoke-direct {p0}, LA/a;
+    -><init>()V
 
     .line 2
     .line 3
@@ -113,35 +119,43 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Lcom/bumptech/glide/RequestBuilder;->z:Z
+    iput-boolean v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->z:Z
 
     .line 6
     .line 7
-    iput-object p2, p0, Lcom/bumptech/glide/RequestBuilder;->r:Lcom/bumptech/glide/RequestManager;
+    iput-object p2, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->r:Lcom/bumptech/glide/RequestManager;
 
     .line 8
     .line 9
-    iput-object p3, p0, Lcom/bumptech/glide/RequestBuilder;->s:Ljava/lang/Class;
+    iput-object p3, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->s:Ljava/lang/Class;
 
     .line 10
     .line 11
-    iput-object p4, p0, Lcom/bumptech/glide/RequestBuilder;->q:Landroid/content/Context;
+    iput-object p4, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->q:Landroid/content/Context;
 
     .line 12
     .line 13
-    iget-object p4, p2, Lcom/bumptech/glide/RequestManager;->b:Lcom/bumptech/glide/a;
+    iget-object p4, p2, Lcom/bumptech/glide/RequestManager;
+    ->b:Lcom/bumptech/glide/a;
 
     .line 14
     .line 15
-    iget-object p4, p4, Lcom/bumptech/glide/a;->d:Lcom/bumptech/glide/c;
+    iget-object p4, p4, Lcom/bumptech/glide/a;
+    ->d:Lcom/bumptech/glide/c;
 
     .line 16
     .line 17
-    iget-object p4, p4, Lcom/bumptech/glide/c;->f:Landroidx/collection/ArrayMap;
+    iget-object p4, p4, Lcom/bumptech/glide/c;
+    ->f:Landroidx/collection/ArrayMap;
 
     .line 18
     .line 19
-    invoke-interface {p4, p3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p3}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -157,7 +171,8 @@
 
     .line 26
     .line 27
-    invoke-interface {p4}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p4}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 28
     .line 29
@@ -165,7 +180,8 @@
     move-result-object p4
 
     .line 31
-    invoke-interface {p4}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p4}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 32
     .line 33
@@ -175,7 +191,8 @@
     .line 35
     :cond_0
     :goto_0
-    invoke-interface {p4}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p4}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 36
     .line 37
@@ -187,7 +204,8 @@
 
     .line 40
     .line 41
-    invoke-interface {p4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p4}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -199,7 +217,8 @@
 
     .line 46
     .line 47
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -211,7 +230,8 @@
 
     .line 52
     .line 53
-    invoke-virtual {v2, p3}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v2, p3}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 54
     .line 55
@@ -223,7 +243,8 @@
 
     .line 58
     .line 59
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -243,28 +264,34 @@
 
     .line 67
     .line 68
-    sget-object v0, Lcom/bumptech/glide/c;->k:Lcom/bumptech/glide/GenericTransitionOptions;
+    sget-object v0, Lcom/bumptech/glide/c;
+    ->k:Lcom/bumptech/glide/GenericTransitionOptions;
 
     .line 69
     .line 70
     :cond_2
-    iput-object v0, p0, Lcom/bumptech/glide/RequestBuilder;->u:Lcom/bumptech/glide/j;
+    iput-object v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->u:Lcom/bumptech/glide/j;
 
     .line 71
     .line 72
-    iget-object p1, p1, Lcom/bumptech/glide/a;->d:Lcom/bumptech/glide/c;
+    iget-object p1, p1, Lcom/bumptech/glide/a;
+    ->d:Lcom/bumptech/glide/c;
 
     .line 73
     .line 74
-    iput-object p1, p0, Lcom/bumptech/glide/RequestBuilder;->t:Lcom/bumptech/glide/c;
+    iput-object p1, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->t:Lcom/bumptech/glide/c;
 
     .line 75
     .line 76
-    iget-object p1, p2, Lcom/bumptech/glide/RequestManager;->j:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object p1, p2, Lcom/bumptech/glide/RequestManager;
+    ->j:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 77
     .line 78
-    invoke-virtual {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 79
     .line 80
@@ -273,7 +300,8 @@
 
     .line 82
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 83
     .line 84
@@ -285,7 +313,8 @@
 
     .line 87
     .line 88
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -297,7 +326,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {p0, p3}, Lcom/bumptech/glide/RequestBuilder;->q(LA/f;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0, p3}, Lcom/bumptech/glide/RequestBuilder;
+    ->q(LA/f;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 95
     .line 96
@@ -310,7 +340,8 @@
 
     .line 99
     :try_start_0
-    iget-object p1, p2, Lcom/bumptech/glide/RequestManager;->k:LA/g;
+    iget-object p1, p2, Lcom/bumptech/glide/RequestManager;
+    ->k:LA/g;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -319,7 +350,8 @@
     monitor-exit p2
 
     .line 102
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/RequestBuilder;->r(LA/a;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/RequestBuilder;
+    ->r(LA/a;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 103
     .line 104
@@ -455,7 +487,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/RequestBuilder;->r(LA/a;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/RequestBuilder;
+    ->r(LA/a;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 2
     .line 3
@@ -469,7 +502,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 2
     .line 3
@@ -483,7 +517,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 2
     .line 3
@@ -497,7 +532,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, LA/a;->n:Z
+    iget-boolean v0, p0, LA/a;
+    ->n:Z
 
     .line 2
     .line 3
@@ -505,7 +541,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 6
     .line 7
@@ -513,7 +550,8 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestBuilder;->q(LA/f;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestBuilder;
+    ->q(LA/f;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 10
     .line 11
@@ -528,7 +566,8 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 17
     .line 18
@@ -540,27 +579,32 @@
 
     .line 21
     .line 22
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 23
     .line 24
     .line 25
-    iput-object v0, p0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 26
     .line 27
     :cond_1
-    iget-object v0, p0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 28
     .line 29
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
     .line 32
     :cond_2
-    invoke-virtual {p0}, LA/a;->i()V
+    invoke-virtual {p0}, LA/a;
+    ->i()V
 
     .line 33
     .line 34
@@ -572,12 +616,14 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, LE/h;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, LE/h;
+    ->b(Ljava/lang/Object;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-super {p0, p1}, LA/a;->a(LA/a;)LA/a;
+    invoke-super {p0, p1}, LA/a;
+    ->a(LA/a;)LA/a;
 
     .line 5
     .line 6
@@ -608,7 +654,8 @@
 
     .line 6
     .line 7
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->y:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->y:Lcom/bumptech/glide/RequestBuilder;
 
     .line 8
     .line 9
@@ -624,7 +671,8 @@
 
     .line 14
     .line 15
-    invoke-direct {v1, v2, v3}, LA/b;-><init>(Ljava/lang/Object;LA/e;)V
+    invoke-direct {v1, v2, v3}, LA/b;
+    -><init>(Ljava/lang/Object;LA/e;)V
 
     .line 16
     .line 17
@@ -653,7 +701,8 @@
 
     .line 26
     :goto_0
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 27
     .line 28
@@ -661,7 +710,8 @@
 
     .line 29
     .line 30
-    iget-boolean v3, v0, Lcom/bumptech/glide/RequestBuilder;->B:Z
+    iget-boolean v3, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->B:Z
 
     .line 31
     .line 32
@@ -669,11 +719,13 @@
 
     .line 33
     .line 34
-    iget-object v3, v1, Lcom/bumptech/glide/RequestBuilder;->u:Lcom/bumptech/glide/j;
+    iget-object v3, v1, Lcom/bumptech/glide/RequestBuilder;
+    ->u:Lcom/bumptech/glide/j;
 
     .line 35
     .line 36
-    iget-boolean v4, v1, Lcom/bumptech/glide/RequestBuilder;->z:Z
+    iget-boolean v4, v1, Lcom/bumptech/glide/RequestBuilder;
+    ->z:Z
 
     .line 37
     .line 38
@@ -694,7 +746,8 @@
     .line 44
     .line 45
     :goto_1
-    iget v1, v1, LA/a;->b:I
+    iget v1, v1, LA/a;
+    ->b:I
 
     .line 46
     .line 47
@@ -702,7 +755,8 @@
 
     .line 48
     .line 49
-    invoke-static {v1, v3}, LA/a;->e(II)Z
+    invoke-static {v1, v3}, LA/a;
+    ->e(II)Z
 
     .line 50
     .line 51
@@ -717,11 +771,13 @@
 
     .line 55
     .line 56
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 57
     .line 58
-    iget-object v1, v1, LA/a;->d:Lcom/bumptech/glide/f;
+    iget-object v1, v1, LA/a;
+    ->d:Lcom/bumptech/glide/f;
 
     .line 59
     .line 60
@@ -734,7 +790,8 @@
 
     .line 63
     :cond_2
-    invoke-virtual/range {p5 .. p5}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual/range {p5 .. p5}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 64
     .line 65
@@ -764,7 +821,8 @@
 
     .line 76
     .line 77
-    sget-object v1, Lcom/bumptech/glide/f;->d:Lcom/bumptech/glide/f;
+    sget-object v1, Lcom/bumptech/glide/f;
+    ->d:Lcom/bumptech/glide/f;
 
     .line 78
     .line 79
@@ -784,21 +842,25 @@
 
     .line 85
     .line 86
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 87
     .line 88
     .line 89
-    iget-object v3, v0, LA/a;->d:Lcom/bumptech/glide/f;
+    iget-object v3, v0, LA/a;
+    ->d:Lcom/bumptech/glide/f;
 
     .line 90
     .line 91
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 92
     .line 93
     .line 94
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 95
     .line 96
@@ -806,7 +868,8 @@
     move-result-object v2
 
     .line 98
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 99
     .line 100
@@ -815,7 +878,8 @@
 
     .line 102
     :cond_4
-    sget-object v1, Lcom/bumptech/glide/f;->c:Lcom/bumptech/glide/f;
+    sget-object v1, Lcom/bumptech/glide/f;
+    ->c:Lcom/bumptech/glide/f;
 
     .line 103
     .line 104
@@ -823,7 +887,8 @@
 
     .line 105
     :cond_5
-    sget-object v1, Lcom/bumptech/glide/f;->b:Lcom/bumptech/glide/f;
+    sget-object v1, Lcom/bumptech/glide/f;
+    ->b:Lcom/bumptech/glide/f;
 
     .line 106
     .line 107
@@ -831,19 +896,23 @@
 
     .line 108
     :goto_3
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 109
     .line 110
-    iget v4, v1, LA/a;->g:I
+    iget v4, v1, LA/a;
+    ->g:I
 
     .line 111
     .line 112
-    iget v1, v1, LA/a;->f:I
+    iget v1, v1, LA/a;
+    ->f:I
 
     .line 113
     .line 114
-    invoke-static/range {p6 .. p7}, LE/o;->i(II)Z
+    invoke-static/range {p6 .. p7}, LE/o;
+    ->i(II)Z
 
     .line 115
     .line 116
@@ -855,19 +924,23 @@
 
     .line 119
     .line 120
-    iget-object v5, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v5, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 121
     .line 122
-    iget v6, v5, LA/a;->g:I
+    iget v6, v5, LA/a;
+    ->g:I
 
     .line 123
     .line 124
-    iget v5, v5, LA/a;->f:I
+    iget v5, v5, LA/a;
+    ->f:I
 
     .line 125
     .line 126
-    invoke-static {v6, v5}, LE/o;->i(II)Z
+    invoke-static {v6, v5}, LE/o;
+    ->i(II)Z
 
     .line 127
     .line 128
@@ -879,11 +952,13 @@
 
     .line 131
     .line 132
-    iget v4, v7, LA/a;->g:I
+    iget v4, v7, LA/a;
+    ->g:I
 
     .line 133
     .line 134
-    iget v1, v7, LA/a;->f:I
+    iget v1, v7, LA/a;
+    ->f:I
 
     .line 135
     .line 136
@@ -900,31 +975,37 @@
 
     .line 141
     .line 142
-    invoke-direct {v4, v2, v13}, LA/i;-><init>(Ljava/lang/Object;LA/e;)V
+    invoke-direct {v4, v2, v13}, LA/i;
+    -><init>(Ljava/lang/Object;LA/e;)V
 
     .line 143
     .line 144
     .line 145
-    iget-object v5, v0, Lcom/bumptech/glide/RequestBuilder;->v:Ljava/lang/Object;
+    iget-object v5, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->v:Ljava/lang/Object;
 
     .line 146
     .line 147
-    iget-object v12, v0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iget-object v12, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 148
     .line 149
     const/4 v1, 0x1
 
     .line 150
-    iget-object v3, v0, Lcom/bumptech/glide/RequestBuilder;->t:Lcom/bumptech/glide/c;
+    iget-object v3, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->t:Lcom/bumptech/glide/c;
 
     .line 151
     .line 152
-    iget-object v14, v3, Lcom/bumptech/glide/c;->g:Lk/q;
+    iget-object v14, v3, Lcom/bumptech/glide/c;
+    ->g:Lk/q;
 
     .line 153
     .line 154
-    invoke-virtual/range {p4 .. p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual/range {p4 .. p4}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 155
     .line 156
@@ -936,14 +1017,16 @@
 
     .line 159
     .line 160
-    iget-object v2, v0, Lcom/bumptech/glide/RequestBuilder;->q:Landroid/content/Context;
+    iget-object v2, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->q:Landroid/content/Context;
 
     .line 161
     .line 162
     const/4 v8, 0x1
 
     .line 163
-    iget-object v6, v0, Lcom/bumptech/glide/RequestBuilder;->s:Ljava/lang/Class;
+    iget-object v6, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->s:Ljava/lang/Class;
 
     .line 164
     .line 165
@@ -977,7 +1060,8 @@
 
     .line 178
     .line 179
-    invoke-direct/range {v1 .. v14}, LA/h;-><init>(Landroid/content/Context;Lcom/bumptech/glide/c;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class;LA/a;IILcom/bumptech/glide/f;LB/e;Ljava/util/ArrayList;LA/e;Lk/q;)V
+    invoke-direct/range {v1 .. v14}, LA/h;
+    -><init>(Landroid/content/Context;Lcom/bumptech/glide/c;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class;LA/a;IILcom/bumptech/glide/f;LB/e;Ljava/util/ArrayList;LA/e;Lk/q;)V
 
     .line 180
     .line 181
@@ -985,11 +1069,13 @@
     move-object v10, v1
 
     .line 183
-    iput-boolean v15, v0, Lcom/bumptech/glide/RequestBuilder;->B:Z
+    iput-boolean v15, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->B:Z
 
     .line 184
     .line 185
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 186
     .line 187
@@ -1023,7 +1109,8 @@
 
     .line 200
     .line 201
-    invoke-virtual/range {v1 .. v9}, Lcom/bumptech/glide/RequestBuilder;->s(Ljava/lang/Object;LB/e;LA/e;Lcom/bumptech/glide/j;Lcom/bumptech/glide/f;IILA/a;)LA/c;
+    invoke-virtual/range {v1 .. v9}, Lcom/bumptech/glide/RequestBuilder;
+    ->s(Ljava/lang/Object;LB/e;LA/e;Lcom/bumptech/glide/j;Lcom/bumptech/glide/f;IILA/a;)LA/c;
 
     .line 202
     .line 203
@@ -1034,15 +1121,18 @@
     const/4 v2, 0x0
 
     .line 206
-    iput-boolean v2, v0, Lcom/bumptech/glide/RequestBuilder;->B:Z
+    iput-boolean v2, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->B:Z
 
     .line 207
     .line 208
-    iput-object v10, v13, LA/i;->c:LA/h;
+    iput-object v10, v13, LA/i;
+    ->c:LA/h;
 
     .line 209
     .line 210
-    iput-object v1, v13, LA/i;->d:LA/c;
+    iput-object v1, v13, LA/i;
+    ->d:LA/c;
 
     .line 211
     .line 212
@@ -1062,7 +1152,8 @@
 
     .line 218
     .line 219
-    invoke-direct {v1, v2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 220
     .line 221
@@ -1075,23 +1166,28 @@
 
     .line 224
     .line 225
-    iget-object v5, v0, Lcom/bumptech/glide/RequestBuilder;->v:Ljava/lang/Object;
+    iget-object v5, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->v:Ljava/lang/Object;
 
     .line 226
     .line 227
-    iget-object v12, v0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iget-object v12, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 228
     .line 229
-    iget-object v3, v0, Lcom/bumptech/glide/RequestBuilder;->t:Lcom/bumptech/glide/c;
+    iget-object v3, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->t:Lcom/bumptech/glide/c;
 
     .line 230
     .line 231
-    iget-object v14, v3, Lcom/bumptech/glide/c;->g:Lk/q;
+    iget-object v14, v3, Lcom/bumptech/glide/c;
+    ->g:Lk/q;
 
     .line 232
     .line 233
-    invoke-virtual/range {p4 .. p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual/range {p4 .. p4}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 234
     .line 235
@@ -1100,11 +1196,13 @@
 
     .line 237
     .line 238
-    iget-object v2, v0, Lcom/bumptech/glide/RequestBuilder;->q:Landroid/content/Context;
+    iget-object v2, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->q:Landroid/content/Context;
 
     .line 239
     .line 240
-    iget-object v6, v0, Lcom/bumptech/glide/RequestBuilder;->s:Ljava/lang/Class;
+    iget-object v6, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->s:Ljava/lang/Class;
 
     .line 241
     .line 242
@@ -1132,7 +1230,8 @@
 
     .line 253
     .line 254
-    invoke-direct/range {v1 .. v14}, LA/h;-><init>(Landroid/content/Context;Lcom/bumptech/glide/c;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class;LA/a;IILcom/bumptech/glide/f;LB/e;Ljava/util/ArrayList;LA/e;Lk/q;)V
+    invoke-direct/range {v1 .. v14}, LA/h;
+    -><init>(Landroid/content/Context;Lcom/bumptech/glide/c;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class;LA/a;IILcom/bumptech/glide/f;LB/e;Ljava/util/ArrayList;LA/e;Lk/q;)V
 
     .line 255
     .line 256
@@ -1149,19 +1248,23 @@
 
     .line 261
     :cond_9
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->y:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->y:Lcom/bumptech/glide/RequestBuilder;
 
     .line 262
     .line 263
-    iget v2, v1, LA/a;->g:I
+    iget v2, v1, LA/a;
+    ->g:I
 
     .line 264
     .line 265
-    iget v1, v1, LA/a;->f:I
+    iget v1, v1, LA/a;
+    ->f:I
 
     .line 266
     .line 267
-    invoke-static/range {p6 .. p7}, LE/o;->i(II)Z
+    invoke-static/range {p6 .. p7}, LE/o;
+    ->i(II)Z
 
     .line 268
     .line 269
@@ -1173,19 +1276,23 @@
 
     .line 272
     .line 273
-    iget-object v3, v0, Lcom/bumptech/glide/RequestBuilder;->y:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v3, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->y:Lcom/bumptech/glide/RequestBuilder;
 
     .line 274
     .line 275
-    iget v4, v3, LA/a;->g:I
+    iget v4, v3, LA/a;
+    ->g:I
 
     .line 276
     .line 277
-    iget v3, v3, LA/a;->f:I
+    iget v3, v3, LA/a;
+    ->f:I
 
     .line 278
     .line 279
-    invoke-static {v4, v3}, LE/o;->i(II)Z
+    invoke-static {v4, v3}, LE/o;
+    ->i(II)Z
 
     .line 280
     .line 281
@@ -1197,11 +1304,13 @@
 
     .line 284
     .line 285
-    iget v2, v7, LA/a;->g:I
+    iget v2, v7, LA/a;
+    ->g:I
 
     .line 286
     .line 287
-    iget v1, v7, LA/a;->f:I
+    iget v1, v7, LA/a;
+    ->f:I
 
     .line 288
     .line 289
@@ -1212,15 +1321,18 @@
     move v7, v2
 
     .line 291
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->y:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->y:Lcom/bumptech/glide/RequestBuilder;
 
     .line 292
     .line 293
-    iget-object v5, v1, Lcom/bumptech/glide/RequestBuilder;->u:Lcom/bumptech/glide/j;
+    iget-object v5, v1, Lcom/bumptech/glide/RequestBuilder;
+    ->u:Lcom/bumptech/glide/j;
 
     .line 294
     .line 295
-    iget-object v6, v1, LA/a;->d:Lcom/bumptech/glide/f;
+    iget-object v6, v1, LA/a;
+    ->d:Lcom/bumptech/glide/f;
 
     .line 296
     .line 297
@@ -1239,7 +1351,8 @@
 
     .line 303
     .line 304
-    invoke-virtual/range {v1 .. v9}, Lcom/bumptech/glide/RequestBuilder;->s(Ljava/lang/Object;LB/e;LA/e;Lcom/bumptech/glide/j;Lcom/bumptech/glide/f;IILA/a;)LA/c;
+    invoke-virtual/range {v1 .. v9}, Lcom/bumptech/glide/RequestBuilder;
+    ->s(Ljava/lang/Object;LB/e;LA/e;Lcom/bumptech/glide/j;Lcom/bumptech/glide/f;IILA/a;)LA/c;
 
     .line 305
     .line 306
@@ -1247,11 +1360,13 @@
     move-result-object v1
 
     .line 308
-    iput-object v13, v4, LA/b;->c:LA/c;
+    iput-object v13, v4, LA/b;
+    ->c:LA/c;
 
     .line 309
     .line 310
-    iput-object v1, v4, LA/b;->d:LA/c;
+    iput-object v1, v4, LA/b;
+    ->d:LA/c;
 
     .line 311
     .line 312
@@ -1262,7 +1377,8 @@
     .locals 3
 
     .line 1
-    invoke-super {p0}, LA/a;->b()LA/a;
+    invoke-super {p0}, LA/a;
+    ->b()LA/a;
 
     .line 2
     .line 3
@@ -1274,11 +1390,13 @@
 
     .line 6
     .line 7
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->u:Lcom/bumptech/glide/j;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->u:Lcom/bumptech/glide/j;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Lcom/bumptech/glide/j;->a()Lcom/bumptech/glide/j;
+    invoke-virtual {v1}, Lcom/bumptech/glide/j;
+    ->a()Lcom/bumptech/glide/j;
 
     .line 10
     .line 11
@@ -1286,11 +1404,13 @@
     move-result-object v1
 
     .line 13
-    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->u:Lcom/bumptech/glide/j;
+    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->u:Lcom/bumptech/glide/j;
 
     .line 14
     .line 15
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 16
     .line 17
@@ -1302,21 +1422,25 @@
 
     .line 20
     .line 21
-    iget-object v2, v0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iget-object v2, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 24
     .line 25
     .line 26
-    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 27
     .line 28
     :cond_0
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 29
     .line 30
@@ -1324,7 +1448,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v1}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {v1}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 33
     .line 34
@@ -1332,12 +1457,14 @@
     move-result-object v1
 
     .line 36
-    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->x:Lcom/bumptech/glide/RequestBuilder;
+    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->x:Lcom/bumptech/glide/RequestBuilder;
 
     .line 37
     .line 38
     :cond_1
-    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->y:Lcom/bumptech/glide/RequestBuilder;
+    iget-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->y:Lcom/bumptech/glide/RequestBuilder;
 
     .line 39
     .line 40
@@ -1345,7 +1472,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {v1}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 43
     .line 44
@@ -1353,7 +1481,8 @@
     move-result-object v1
 
     .line 46
-    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;->y:Lcom/bumptech/glide/RequestBuilder;
+    iput-object v1, v0, Lcom/bumptech/glide/RequestBuilder;
+    ->y:Lcom/bumptech/glide/RequestBuilder;
 
     .line 47
     .line 48
@@ -1365,12 +1494,14 @@
     .locals 10
 
     .line 1
-    invoke-static {p1}, LE/h;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, LE/h;
+    ->b(Ljava/lang/Object;)V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean v0, p0, Lcom/bumptech/glide/RequestBuilder;->A:Z
+    iget-boolean v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->A:Z
 
     .line 5
     .line 6
@@ -1382,24 +1513,29 @@
 
     .line 9
     .line 10
-    invoke-direct {v2}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v2}, Ljava/lang/Object;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    iget-object v5, p0, Lcom/bumptech/glide/RequestBuilder;->u:Lcom/bumptech/glide/j;
+    iget-object v5, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->u:Lcom/bumptech/glide/j;
 
     .line 14
     .line 15
-    iget-object v6, p2, LA/a;->d:Lcom/bumptech/glide/f;
+    iget-object v6, p2, LA/a;
+    ->d:Lcom/bumptech/glide/f;
 
     .line 16
     .line 17
-    iget v7, p2, LA/a;->g:I
+    iget v7, p2, LA/a;
+    ->g:I
 
     .line 18
     .line 19
-    iget v8, p2, LA/a;->f:I
+    iget v8, p2, LA/a;
+    ->f:I
 
     .line 20
     .line 21
@@ -1415,7 +1551,8 @@
     move-object v9, p2
 
     .line 25
-    invoke-virtual/range {v1 .. v9}, Lcom/bumptech/glide/RequestBuilder;->s(Ljava/lang/Object;LB/e;LA/e;Lcom/bumptech/glide/j;Lcom/bumptech/glide/f;IILA/a;)LA/c;
+    invoke-virtual/range {v1 .. v9}, Lcom/bumptech/glide/RequestBuilder;
+    ->s(Ljava/lang/Object;LB/e;LA/e;Lcom/bumptech/glide/j;Lcom/bumptech/glide/f;IILA/a;)LA/c;
 
     .line 26
     .line 27
@@ -1423,7 +1560,8 @@
     move-result-object p1
 
     .line 29
-    invoke-interface {v3}, LB/e;->getRequest()LA/c;
+    invoke-interface {v3}, LB/e;
+    ->getRequest()LA/c;
 
     .line 30
     .line 31
@@ -1431,7 +1569,8 @@
     move-result-object p2
 
     .line 33
-    invoke-interface {p1, p2}, LA/c;->h(LA/c;)Z
+    invoke-interface {p1, p2}, LA/c;
+    ->h(LA/c;)Z
 
     .line 34
     .line 35
@@ -1443,7 +1582,8 @@
 
     .line 38
     .line 39
-    iget-boolean v0, v9, LA/a;->e:Z
+    iget-boolean v0, v9, LA/a;
+    ->e:Z
 
     .line 40
     .line 41
@@ -1451,7 +1591,8 @@
 
     .line 42
     .line 43
-    invoke-interface {p2}, LA/c;->j()Z
+    invoke-interface {p2}, LA/c;
+    ->j()Z
 
     .line 44
     .line 45
@@ -1471,12 +1612,14 @@
 
     .line 51
     .line 52
-    invoke-static {p2, p1}, LE/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, LE/h;
+    ->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 53
     .line 54
     .line 55
-    invoke-interface {p2}, LA/c;->isRunning()Z
+    invoke-interface {p2}, LA/c;
+    ->isRunning()Z
 
     .line 56
     .line 57
@@ -1488,7 +1631,8 @@
 
     .line 60
     .line 61
-    invoke-interface {p2}, LA/c;->f()V
+    invoke-interface {p2}, LA/c;
+    ->f()V
 
     .line 62
     .line 63
@@ -1499,21 +1643,25 @@
     .line 65
     :cond_2
     :goto_0
-    iget-object p2, v1, Lcom/bumptech/glide/RequestBuilder;->r:Lcom/bumptech/glide/RequestManager;
+    iget-object p2, v1, Lcom/bumptech/glide/RequestBuilder;
+    ->r:Lcom/bumptech/glide/RequestManager;
 
     .line 66
     .line 67
-    invoke-virtual {p2, v3}, Lcom/bumptech/glide/RequestManager;->a(LB/e;)V
+    invoke-virtual {p2, v3}, Lcom/bumptech/glide/RequestManager;
+    ->a(LB/e;)V
 
     .line 68
     .line 69
     .line 70
-    invoke-interface {v3, p1}, LB/e;->setRequest(LA/c;)V
+    invoke-interface {v3, p1}, LB/e;
+    ->setRequest(LA/c;)V
 
     .line 71
     .line 72
     .line 73
-    iget-object p2, v1, Lcom/bumptech/glide/RequestBuilder;->r:Lcom/bumptech/glide/RequestManager;
+    iget-object p2, v1, Lcom/bumptech/glide/RequestBuilder;
+    ->r:Lcom/bumptech/glide/RequestManager;
 
     .line 74
     .line 75
@@ -1521,33 +1669,40 @@
 
     .line 76
     :try_start_0
-    iget-object v0, p2, Lcom/bumptech/glide/RequestManager;->g:Lx/p;
+    iget-object v0, p2, Lcom/bumptech/glide/RequestManager;
+    ->g:Lx/p;
 
     .line 77
     .line 78
-    iget-object v0, v0, Lx/p;->b:Ljava/util/Set;
+    iget-object v0, v0, Lx/p;
+    ->b:Ljava/util/Set;
 
     .line 79
     .line 80
-    invoke-interface {v0, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v3}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
 
     .line 81
     .line 82
     .line 83
-    iget-object v0, p2, Lcom/bumptech/glide/RequestManager;->e:Lx/n;
+    iget-object v0, p2, Lcom/bumptech/glide/RequestManager;
+    ->e:Lx/n;
 
     .line 84
     .line 85
-    iget-object v2, v0, Lx/n;->a:Ljava/util/Set;
+    iget-object v2, v0, Lx/n;
+    ->a:Ljava/util/Set;
 
     .line 86
     .line 87
-    invoke-interface {v2, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {v2, p1}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
 
     .line 88
     .line 89
     .line 90
-    iget-boolean v2, v0, Lx/n;->c:Z
+    iget-boolean v2, v0, Lx/n;
+    ->c:Z
 
     .line 91
     .line 92
@@ -1555,7 +1710,8 @@
 
     .line 93
     .line 94
-    invoke-interface {p1}, LA/c;->f()V
+    invoke-interface {p1}, LA/c;
+    ->f()V
 
     .line 95
     .line 96
@@ -1564,7 +1720,8 @@
 
     .line 98
     :cond_3
-    invoke-interface {p1}, LA/c;->clear()V
+    invoke-interface {p1}, LA/c;
+    ->clear()V
 
     .line 99
     .line 100
@@ -1576,7 +1733,8 @@
     const/4 v3, 0x2
 
     .line 104
-    invoke-static {v2, v3}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v3}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 105
     .line 106
@@ -1592,17 +1750,20 @@
 
     .line 111
     .line 112
-    invoke-static {v2, v3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 113
     .line 114
     .line 115
     :cond_4
-    iget-object v0, v0, Lx/n;->b:Ljava/util/ArrayList;
+    iget-object v0, v0, Lx/n;
+    ->b:Ljava/util/ArrayList;
 
     .line 116
     .line 117
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1643,7 +1804,8 @@
 
     .line 130
     .line 131
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 132
     .line 133
@@ -1762,11 +1924,13 @@
     const/4 v0, 0x1
 
     .line 2
-    sget-object v1, LE/o;->a:[C
+    sget-object v1, LE/o;
+    ->a:[C
 
     .line 3
     .line 4
-    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->myLooper()Landroid/os/Looper;
 
     .line 5
     .line 6
@@ -1774,7 +1938,8 @@
     move-result-object v1
 
     .line 8
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 9
     .line 10
@@ -1786,12 +1951,14 @@
 
     .line 13
     .line 14
-    invoke-static {p1}, LE/h;->b(Ljava/lang/Object;)V
+    invoke-static {p1}, LE/h;
+    ->b(Ljava/lang/Object;)V
 
     .line 15
     .line 16
     .line 17
-    iget v1, p0, LA/a;->b:I
+    iget v1, p0, LA/a;
+    ->b:I
 
     .line 18
     .line 19
@@ -1799,7 +1966,8 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v2}, LA/a;->e(II)Z
+    invoke-static {v1, v2}, LA/a;
+    ->e(II)Z
 
     .line 22
     .line 23
@@ -1811,7 +1979,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Landroid/widget/ImageView;->getScaleType()Landroid/widget/ImageView$ScaleType;
+    invoke-virtual {p1}, Landroid/widget/ImageView;
+    ->getScaleType()Landroid/widget/ImageView$ScaleType;
 
     .line 28
     .line 29
@@ -1823,11 +1992,13 @@
 
     .line 32
     .line 33
-    sget-object v1, Lcom/bumptech/glide/i;->a:[I
+    sget-object v1, Lcom/bumptech/glide/i;
+    ->a:[I
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Landroid/widget/ImageView;->getScaleType()Landroid/widget/ImageView$ScaleType;
+    invoke-virtual {p1}, Landroid/widget/ImageView;
+    ->getScaleType()Landroid/widget/ImageView$ScaleType;
 
     .line 36
     .line 37
@@ -1835,7 +2006,8 @@
     move-result-object v2
 
     .line 39
-    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 40
     .line 41
@@ -1856,7 +2028,8 @@
 
     .line 49
     :pswitch_0
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 50
     .line 51
@@ -1864,7 +2037,8 @@
     move-result-object v1
 
     .line 53
-    sget-object v2, Lr/o;->c:Lr/o;
+    sget-object v2, Lr/o;
+    ->c:Lr/o;
 
     .line 54
     .line 55
@@ -1872,12 +2046,14 @@
 
     .line 56
     .line 57
-    invoke-direct {v3}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v3}, Ljava/lang/Object;
+    -><init>()V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v1, v2, v3}, LA/a;->f(Lr/o;Lr/d;)LA/a;
+    invoke-virtual {v1, v2, v3}, LA/a;
+    ->f(Lr/o;Lr/d;)LA/a;
 
     .line 61
     .line 62
@@ -1885,7 +2061,8 @@
     move-result-object v1
 
     .line 64
-    iput-boolean v0, v1, LA/a;->o:Z
+    iput-boolean v0, v1, LA/a;
+    ->o:Z
 
     .line 65
     .line 66
@@ -1893,7 +2070,8 @@
 
     .line 67
     :pswitch_1
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 68
     .line 69
@@ -1901,7 +2079,8 @@
     move-result-object v1
 
     .line 71
-    sget-object v2, Lr/o;->b:Lr/o;
+    sget-object v2, Lr/o;
+    ->b:Lr/o;
 
     .line 72
     .line 73
@@ -1909,12 +2088,14 @@
 
     .line 74
     .line 75
-    invoke-direct {v3}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v3}, Ljava/lang/Object;
+    -><init>()V
 
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v1, v2, v3}, LA/a;->f(Lr/o;Lr/d;)LA/a;
+    invoke-virtual {v1, v2, v3}, LA/a;
+    ->f(Lr/o;Lr/d;)LA/a;
 
     .line 79
     .line 80
@@ -1922,7 +2103,8 @@
     move-result-object v1
 
     .line 82
-    iput-boolean v0, v1, LA/a;->o:Z
+    iput-boolean v0, v1, LA/a;
+    ->o:Z
 
     .line 83
     .line 84
@@ -1930,7 +2112,8 @@
 
     .line 85
     :pswitch_2
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 86
     .line 87
@@ -1938,7 +2121,8 @@
     move-result-object v1
 
     .line 89
-    sget-object v2, Lr/o;->c:Lr/o;
+    sget-object v2, Lr/o;
+    ->c:Lr/o;
 
     .line 90
     .line 91
@@ -1946,12 +2130,14 @@
 
     .line 92
     .line 93
-    invoke-direct {v3}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v3}, Ljava/lang/Object;
+    -><init>()V
 
     .line 94
     .line 95
     .line 96
-    invoke-virtual {v1, v2, v3}, LA/a;->f(Lr/o;Lr/d;)LA/a;
+    invoke-virtual {v1, v2, v3}, LA/a;
+    ->f(Lr/o;Lr/d;)LA/a;
 
     .line 97
     .line 98
@@ -1959,7 +2145,8 @@
     move-result-object v1
 
     .line 100
-    iput-boolean v0, v1, LA/a;->o:Z
+    iput-boolean v0, v1, LA/a;
+    ->o:Z
 
     .line 101
     .line 102
@@ -1967,7 +2154,8 @@
 
     .line 103
     :pswitch_3
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 104
     .line 105
@@ -1975,7 +2163,8 @@
     move-result-object v1
 
     .line 107
-    sget-object v2, Lr/o;->d:Lr/o;
+    sget-object v2, Lr/o;
+    ->d:Lr/o;
 
     .line 108
     .line 109
@@ -1983,12 +2172,14 @@
 
     .line 110
     .line 111
-    invoke-direct {v3}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v3}, Ljava/lang/Object;
+    -><init>()V
 
     .line 112
     .line 113
     .line 114
-    invoke-virtual {v1, v2, v3}, LA/a;->f(Lr/o;Lr/d;)LA/a;
+    invoke-virtual {v1, v2, v3}, LA/a;
+    ->f(Lr/o;Lr/d;)LA/a;
 
     .line 115
     .line 116
@@ -2005,15 +2196,18 @@
 
     .line 120
     :goto_1
-    iget-object v2, p0, Lcom/bumptech/glide/RequestBuilder;->t:Lcom/bumptech/glide/c;
+    iget-object v2, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->t:Lcom/bumptech/glide/c;
 
     .line 121
     .line 122
-    iget-object v2, v2, Lcom/bumptech/glide/c;->c:Lu0/f;
+    iget-object v2, v2, Lcom/bumptech/glide/c;
+    ->c:Lu0/f;
 
     .line 123
     .line 124
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 125
     .line 126
@@ -2022,11 +2216,13 @@
 
     .line 128
     .line 129
-    iget-object v3, p0, Lcom/bumptech/glide/RequestBuilder;->s:Ljava/lang/Class;
+    iget-object v3, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->s:Ljava/lang/Class;
 
     .line 130
     .line 131
-    invoke-virtual {v2, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 132
     .line 133
@@ -2045,7 +2241,8 @@
     const/4 v2, 0x0
 
     .line 140
-    invoke-direct {v0, p1, v2}, LB/b;-><init>(Landroid/widget/ImageView;I)V
+    invoke-direct {v0, p1, v2}, LB/b;
+    -><init>(Landroid/widget/ImageView;I)V
 
     .line 141
     .line 142
@@ -2058,7 +2255,8 @@
 
     .line 145
     .line 146
-    invoke-virtual {v2, v3}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 147
     .line 148
@@ -2074,7 +2272,8 @@
 
     .line 153
     .line 154
-    invoke-direct {v2, p1, v0}, LB/b;-><init>(Landroid/widget/ImageView;I)V
+    invoke-direct {v2, p1, v0}, LB/b;
+    -><init>(Landroid/widget/ImageView;I)V
 
     .line 155
     .line 156
@@ -2083,7 +2282,8 @@
 
     .line 158
     :goto_2
-    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/RequestBuilder;->u(LB/e;LA/a;)V
+    invoke-virtual {p0, v0, v1}, Lcom/bumptech/glide/RequestBuilder;
+    ->u(LB/e;LA/a;)V
 
     .line 159
     .line 160
@@ -2104,12 +2304,14 @@
 
     .line 167
     .line 168
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 169
     .line 170
     .line 171
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 172
     .line 173
@@ -2118,12 +2320,14 @@
 
     .line 175
     .line 176
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 177
     .line 178
     .line 179
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 180
     .line 181
@@ -2131,7 +2335,8 @@
     move-result-object v0
 
     .line 183
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 184
     .line 185
@@ -2148,7 +2353,8 @@
 
     .line 190
     .line 191
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 192
     .line 193
@@ -2219,7 +2425,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, LA/a;->n:Z
+    iget-boolean v0, p0, LA/a;
+    ->n:Z
 
     .line 2
     .line 3
@@ -2227,7 +2434,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 6
     .line 7
@@ -2235,7 +2443,8 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestBuilder;->w(LA/f;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestBuilder;
+    ->w(LA/f;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 10
     .line 11
@@ -2249,11 +2458,13 @@
     const/4 v0, 0x0
 
     .line 15
-    iput-object v0, p0, Lcom/bumptech/glide/RequestBuilder;->w:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->w:Ljava/util/ArrayList;
 
     .line 16
     .line 17
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/RequestBuilder;->q(LA/f;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/RequestBuilder;
+    ->q(LA/f;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 18
     .line 19
@@ -2267,7 +2478,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, LA/a;->n:Z
+    iget-boolean v0, p0, LA/a;
+    ->n:Z
 
     .line 2
     .line 3
@@ -2275,7 +2487,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;->t()Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {p0}, Lcom/bumptech/glide/RequestBuilder;
+    ->t()Lcom/bumptech/glide/RequestBuilder;
 
     .line 6
     .line 7
@@ -2283,7 +2496,8 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestBuilder;->x(Ljava/lang/Object;)Lcom/bumptech/glide/RequestBuilder;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestBuilder;
+    ->x(Ljava/lang/Object;)Lcom/bumptech/glide/RequestBuilder;
 
     .line 10
     .line 11
@@ -2294,18 +2508,21 @@
 
     .line 14
     :cond_0
-    iput-object p1, p0, Lcom/bumptech/glide/RequestBuilder;->v:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->v:Ljava/lang/Object;
 
     .line 15
     .line 16
     const/4 p1, 0x1
 
     .line 17
-    iput-boolean p1, p0, Lcom/bumptech/glide/RequestBuilder;->A:Z
+    iput-boolean p1, p0, Lcom/bumptech/glide/RequestBuilder;
+    ->A:Z
 
     .line 18
     .line 19
-    invoke-virtual {p0}, LA/a;->i()V
+    invoke-virtual {p0}, LA/a;
+    ->i()V
 
     .line 20
     .line 21

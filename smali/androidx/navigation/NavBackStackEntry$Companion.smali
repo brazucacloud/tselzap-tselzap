@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavBackStackEntry$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavBackStackEntry$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -58,7 +60,8 @@
 
     .line 10
     .line 11
-    sget-object p4, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object p4, Landroidx/lifecycle/Lifecycle$State;
+    ->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 12
     .line 13
@@ -83,7 +86,8 @@
 
     .line 21
     .line 22
-    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+    invoke-static {}, Ljava/util/UUID;
+    ->randomUUID()Ljava/util/UUID;
 
     .line 23
     .line 24
@@ -91,7 +95,8 @@
     move-result-object p6
 
     .line 26
-    invoke-virtual {p6}, Ljava/util/UUID;->toString()Ljava/lang/String;
+    invoke-virtual {p6}, Ljava/util/UUID;
+    ->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -103,7 +108,8 @@
 
     .line 31
     .line 32
-    invoke-static {p6, p9}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, p9}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -121,7 +127,8 @@
 
     .line 40
     :cond_4
-    invoke-virtual/range {p0 .. p7}, Landroidx/navigation/NavBackStackEntry$Companion;->create(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavViewModelStoreProvider;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/navigation/NavBackStackEntry;
+    invoke-virtual/range {p0 .. p7}, Landroidx/navigation/NavBackStackEntry$Companion;
+    ->create(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavViewModelStoreProvider;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/navigation/NavBackStackEntry;
 
     .line 41
     .line 42
@@ -137,7 +144,8 @@
     .locals 10
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -146,7 +154,8 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -155,7 +164,8 @@
 
     .line 7
     .line 8
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -168,7 +178,8 @@
 
     .line 14
     .line 15
-    invoke-static {v7, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -199,7 +210,9 @@
 
     .line 27
     .line 28
-    invoke-direct/range {v1 .. v9}, Landroidx/navigation/NavBackStackEntry;-><init>(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavViewModelStoreProvider;Ljava/lang/String;Landroid/os/Bundle;Lkotlin/jvm/internal/e;)V    return-object v1
+    invoke-direct/range {v1 .. v9}, Landroidx/navigation/NavBackStackEntry;
+    -><init>(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavViewModelStoreProvider;Ljava/lang/String;Landroid/os/Bundle;Lkotlin/jvm/internal/e;)V    
+    return-object v1
 .end method
 
 .end class

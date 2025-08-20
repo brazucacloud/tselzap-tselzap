@@ -19,9 +19,11 @@
 
     new-instance v0, Landroidx/activity/Api19Impl;
 
-    invoke-direct {v0}, Landroidx/activity/Api19Impl;-><init>()V
+    invoke-direct {v0}, Landroidx/activity/Api19Impl;
+    -><init>()V
 
-    sput-object v0, Landroidx/activity/Api19Impl;->INSTANCE:Landroidx/activity/Api19Impl;
+    sput-object v0, Landroidx/activity/Api19Impl;
+    ->INSTANCE:Landroidx/activity/Api19Impl;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +43,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;->isAttachedToWindow()Z
+    invoke-virtual {p1}, Landroid/view/View;
+    ->isAttachedToWindow()Z
 
     .line 2
     .line 3

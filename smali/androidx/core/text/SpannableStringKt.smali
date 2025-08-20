@@ -8,7 +8,8 @@
     .locals 4
 
     .line 1
-    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 2
     .line 3
@@ -23,7 +24,8 @@
     const/4 v2, 0x0
 
     .line 8
-    invoke-interface {p0, v2, v0, v1}, Landroid/text/Spanned;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-interface {p0, v2, v0, v1}, Landroid/text/Spanned;
+    ->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -43,7 +45,8 @@
 
     .line 16
     .line 17
-    invoke-interface {p0, v3}, Landroid/text/Spannable;->removeSpan(Ljava/lang/Object;)V
+    invoke-interface {p0, v3}, Landroid/text/Spannable;
+    ->removeSpan(Ljava/lang/Object;)V
 
     .line 18
     .line 19
@@ -65,7 +68,8 @@
     const/16 v0, 0x11
 
     .line 1
-    invoke-interface {p0, p3, p1, p2, v0}, Landroid/text/Spannable;->setSpan(Ljava/lang/Object;III)V
+    invoke-interface {p0, p3, p1, p2, v0}, Landroid/text/Spannable;
+    ->setSpan(Ljava/lang/Object;III)V
 return-void
 .end method
 
@@ -73,14 +77,17 @@ return-void
     .locals 2
 
     .line 2
-    iget v0, p1, Lu1/e;->b:I
+    iget v0, p1, Lu1/e;
+    ->b:I
 
     const/16 v1, 0x11
 
     .line 3
-    iget p1, p1, Lu1/e;->c:I
+    iget p1, p1, Lu1/e;
+    ->c:I
 
-    invoke-interface {p0, p2, v0, p1, v1}, Landroid/text/Spannable;->setSpan(Ljava/lang/Object;III)V
+    invoke-interface {p0, p2, v0, p1, v1}, Landroid/text/Spannable;
+    ->setSpan(Ljava/lang/Object;III)V
 return-void
 .end method
 
@@ -88,7 +95,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/text/SpannableString;->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {p0}, Landroid/text/SpannableString;
+    ->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     .line 2
     .line 3

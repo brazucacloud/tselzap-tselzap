@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lq0/e;->b:Lcom/google/android/material/navigation/NavigationView;
+    iput-object p1, p0, Lq0/e;
+    ->b:Lcom/google/android/material/navigation/NavigationView;
 
     .line 5
     .line 6
@@ -33,11 +35,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lq0/e;->b:Lcom/google/android/material/navigation/NavigationView;
+    iget-object p1, p0, Lq0/e;
+    ->b:Lcom/google/android/material/navigation/NavigationView;
 
     .line 2
     .line 3
-    iget-object p1, p1, Lcom/google/android/material/navigation/NavigationView;->k:Lq0/f;
+    iget-object p1, p1, Lcom/google/android/material/navigation/NavigationView;
+    ->k:Lq0/f;
 
     .line 4
     .line 5
@@ -45,7 +49,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p2}, Lq0/f;->onNavigationItemSelected(Landroid/view/MenuItem;)Z
+    invoke-interface {p1, p2}, Lq0/f;
+    ->onNavigationItemSelected(Landroid/view/MenuItem;)Z
 
     .line 8
     .line 9

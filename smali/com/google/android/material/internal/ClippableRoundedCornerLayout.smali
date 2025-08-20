@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -28,7 +29,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2
     .line 3
@@ -46,7 +48,8 @@
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Lcom/google/android/material/internal/ClippableRoundedCornerLayout;->b:[F
+    iput-object p1, p0, Lcom/google/android/material/internal/ClippableRoundedCornerLayout;
+    ->b:[F
 
     .line 12
     .line 13
@@ -111,7 +114,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;
+    ->dispatchDraw(Landroid/graphics/Canvas;)V
 
     .line 2
     .line 3
@@ -125,7 +129,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/internal/ClippableRoundedCornerLayout;->b:[F
+    iget-object v0, p0, Lcom/google/android/material/internal/ClippableRoundedCornerLayout;
+    ->b:[F
 
     .line 2
     .line 3

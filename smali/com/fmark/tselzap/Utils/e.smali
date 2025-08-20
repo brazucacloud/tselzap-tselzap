@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p3, p0, Lcom/fmark/tselzap/Utils/e;->b:Ljava/util/concurrent/TimeUnit;
+    iput-object p3, p0, Lcom/fmark/tselzap/Utils/e;
+    ->b:Ljava/util/concurrent/TimeUnit;
 
-    iput-wide p1, p0, Lcom/fmark/tselzap/Utils/e;->c:J
+    iput-wide p1, p0, Lcom/fmark/tselzap/Utils/e;
+    ->c:J
 
     return-void
 .end method
@@ -32,11 +35,14 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Utils/e;->b:Ljava/util/concurrent/TimeUnit;
+    iget-object v0, p0, Lcom/fmark/tselzap/Utils/e;
+    ->b:Ljava/util/concurrent/TimeUnit;
 
-    iget-wide v1, p0, Lcom/fmark/tselzap/Utils/e;->c:J
+    iget-wide v1, p0, Lcom/fmark/tselzap/Utils/e;
+    ->c:J
 
-    invoke-static {v1, v2, v0}, Lcom/fmark/tselzap/Utils/Tools;->b(JLjava/util/concurrent/TimeUnit;)V
+    invoke-static {v1, v2, v0}, Lcom/fmark/tselzap/Utils/Tools;
+    ->b(JLjava/util/concurrent/TimeUnit;)V
 return-void
 .end method
 

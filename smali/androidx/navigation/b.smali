@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput p1, p0, Landroidx/navigation/b;->b:I
+    iput p1, p0, Landroidx/navigation/b;
+    ->b:I
 
-    iput-object p2, p0, Landroidx/navigation/b;->c:Landroid/os/Bundle;
+    iput-object p2, p0, Landroidx/navigation/b;
+    ->c:Landroid/os/Bundle;
 
     return-void
 .end method
@@ -32,11 +35,14 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/navigation/b;->b:I
+    iget v0, p0, Landroidx/navigation/b;
+    ->b:I
 
-    iget-object v1, p0, Landroidx/navigation/b;->c:Landroid/os/Bundle;
+    iget-object v1, p0, Landroidx/navigation/b;
+    ->c:Landroid/os/Bundle;
 
-    invoke-static {v0, v1, p1}, Landroidx/navigation/Navigation;->b(ILandroid/os/Bundle;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Landroidx/navigation/Navigation;
+    ->b(ILandroid/os/Bundle;Landroid/view/View;)V
 
     return-void
 .end method

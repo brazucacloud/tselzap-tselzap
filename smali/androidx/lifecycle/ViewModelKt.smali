@@ -16,12 +16,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/SynchronizedObject;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/SynchronizedObject;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/lifecycle/ViewModelKt;->VIEW_MODEL_SCOPE_LOCK:Landroidx/lifecycle/viewmodel/internal/SynchronizedObject;    return-void
+    sput-object v0, Landroidx/lifecycle/ViewModelKt;
+    ->VIEW_MODEL_SCOPE_LOCK:Landroidx/lifecycle/viewmodel/internal/SynchronizedObject;    return-void
 .end method
 
 .method public static final getViewModelScope(Landroidx/lifecycle/ViewModel;)Lz1/v;
@@ -32,12 +34,14 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/ViewModelKt;->VIEW_MODEL_SCOPE_LOCK:Landroidx/lifecycle/viewmodel/internal/SynchronizedObject;
+    sget-object v0, Landroidx/lifecycle/ViewModelKt;
+    ->VIEW_MODEL_SCOPE_LOCK:Landroidx/lifecycle/viewmodel/internal/SynchronizedObject;
 
     .line 7
     .line 8
@@ -49,7 +53,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v1}, Landroidx/lifecycle/ViewModel;->getCloseable(Ljava/lang/String;)Ljava/lang/AutoCloseable;
+    invoke-virtual {p0, v1}, Landroidx/lifecycle/ViewModel;
+    ->getCloseable(Ljava/lang/String;)Ljava/lang/AutoCloseable;
 
     .line 12
     .line 13
@@ -65,7 +70,8 @@
 
     .line 18
     .line 19
-    invoke-static {}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScopeKt;->createViewModelScope()Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;
+    invoke-static {}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScopeKt;
+    ->createViewModelScope()Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;
 
     .line 20
     .line 21
@@ -77,7 +83,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0, v2, v1}, Landroidx/lifecycle/ViewModel;->addCloseable(Ljava/lang/String;Ljava/lang/AutoCloseable;)V
+    invoke-virtual {p0, v2, v1}, Landroidx/lifecycle/ViewModel;
+    ->addCloseable(Ljava/lang/String;Ljava/lang/AutoCloseable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

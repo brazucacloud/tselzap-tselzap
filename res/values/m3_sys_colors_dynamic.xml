@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M3 Dynamic Light Colors -->
+    <color name="m3_sys_color_dynamic_light_primary">#6750A4</color>
+    <color name="m3_sys_color_dynamic_light_on_surface">#1C1B1F</color>
+    <color name="m3_sys_color_dynamic_light_on_surface_variant">#49454F</color>
+    <color name="m3_sys_color_dynamic_light_on_background">#1C1B1F</color>
+    
+    <!-- M3 Dynamic Dark Colors -->
+    <color name="m3_sys_color_dynamic_dark_primary">#D0BCFF</color>
+    <color name="m3_sys_color_dynamic_dark_on_surface">#E6E1E5</color>
+    <color name="m3_sys_color_dynamic_dark_on_surface_variant">#CAC4D0</color>
+    <color name="m3_sys_color_dynamic_dark_on_background">#E6E1E5</color>
+</resources>

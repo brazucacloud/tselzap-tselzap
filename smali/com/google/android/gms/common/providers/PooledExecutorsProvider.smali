@@ -25,7 +25,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -45,15 +46,18 @@
     monitor-enter v0
 
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/common/providers/PooledExecutorsProvider;->zza:Lcom/google/android/gms/common/providers/PooledExecutorsProvider$PooledExecutorFactory;
+    sget-object v1, Lcom/google/android/gms/common/providers/PooledExecutorsProvider;
+    ->zza:Lcom/google/android/gms/common/providers/PooledExecutorsProvider$PooledExecutorFactory;
 
     if-nez v1, :cond_0
 
     new-instance v1, Lcom/google/android/gms/common/providers/zza;
 
-    invoke-direct {v1}, Lcom/google/android/gms/common/providers/zza;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/common/providers/zza;
+    -><init>()V
 
-    sput-object v1, Lcom/google/android/gms/common/providers/PooledExecutorsProvider;->zza:Lcom/google/android/gms/common/providers/PooledExecutorsProvider$PooledExecutorFactory;
+    sput-object v1, Lcom/google/android/gms/common/providers/PooledExecutorsProvider;
+    ->zza:Lcom/google/android/gms/common/providers/PooledExecutorsProvider$PooledExecutorFactory;
 
     goto :goto_0
 
@@ -64,7 +68,8 @@
 
     :cond_0
     :goto_0
-    sget-object v1, Lcom/google/android/gms/common/providers/PooledExecutorsProvider;->zza:Lcom/google/android/gms/common/providers/PooledExecutorsProvider$PooledExecutorFactory;
+    sget-object v1, Lcom/google/android/gms/common/providers/PooledExecutorsProvider;
+    ->zza:Lcom/google/android/gms/common/providers/PooledExecutorsProvider$PooledExecutorFactory;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

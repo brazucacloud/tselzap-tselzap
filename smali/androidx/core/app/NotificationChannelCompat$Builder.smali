@@ -27,7 +27,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -36,12 +37,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1, p2}, Landroidx/core/app/NotificationChannelCompat;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, p2}, Landroidx/core/app/NotificationChannelCompat;
+    -><init>(Ljava/lang/String;I)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iput-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 10
     .line 11
@@ -56,7 +59,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
@@ -77,7 +81,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -89,15 +94,18 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 8
     .line 9
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;->mParentId:Ljava/lang/String;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mParentId:Ljava/lang/String;
 
     .line 10
     .line 11
-    iput-object p2, v0, Landroidx/core/app/NotificationChannelCompat;->mConversationId:Ljava/lang/String;
+    iput-object p2, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mConversationId:Ljava/lang/String;
 
     .line 12
     .line 13
@@ -115,11 +123,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;->mDescription:Ljava/lang/String;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mDescription:Ljava/lang/String;
 
     .line 4
     .line 5
@@ -136,11 +146,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;->mGroupId:Ljava/lang/String;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mGroupId:Ljava/lang/String;
 
     .line 4
     .line 5
@@ -153,11 +165,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput p1, v0, Landroidx/core/app/NotificationChannelCompat;->mImportance:I
+    iput p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mImportance:I
 
     .line 4
     .line 5
@@ -170,11 +184,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput p1, v0, Landroidx/core/app/NotificationChannelCompat;->mLightColor:I
+    iput p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mLightColor:I
 
     .line 4
     .line 5
@@ -187,11 +203,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/core/app/NotificationChannelCompat;->mLights:Z
+    iput-boolean p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mLights:Z
 
     .line 4
     .line 5
@@ -208,11 +226,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;->mName:Ljava/lang/CharSequence;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mName:Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -225,11 +245,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/core/app/NotificationChannelCompat;->mShowBadge:Z
+    iput-boolean p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mShowBadge:Z
 
     .line 4
     .line 5
@@ -250,15 +272,18 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;->mSound:Landroid/net/Uri;
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mSound:Landroid/net/Uri;
 
     .line 4
     .line 5
-    iput-object p2, v0, Landroidx/core/app/NotificationChannelCompat;->mAudioAttributes:Landroid/media/AudioAttributes;
+    iput-object p2, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mAudioAttributes:Landroid/media/AudioAttributes;
 
     .line 6
     .line 7
@@ -271,11 +296,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/core/app/NotificationChannelCompat;->mVibrationEnabled:Z
+    iput-boolean p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mVibrationEnabled:Z
 
     .line 4
     .line 5
@@ -292,7 +319,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;->mChannel:Landroidx/core/app/NotificationChannelCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationChannelCompat$Builder;
+    ->mChannel:Landroidx/core/app/NotificationChannelCompat;
 
     .line 2
     .line 3
@@ -318,11 +346,13 @@
 
     .line 11
     :goto_0
-    iput-boolean v1, v0, Landroidx/core/app/NotificationChannelCompat;->mVibrationEnabled:Z
+    iput-boolean v1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mVibrationEnabled:Z
 
     .line 12
     .line 13
-    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;->mVibrationPattern:[J
+    iput-object p1, v0, Landroidx/core/app/NotificationChannelCompat;
+    ->mVibrationPattern:[J
 
     .line 14
     .line 15

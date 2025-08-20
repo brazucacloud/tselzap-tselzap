@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getAllowFreeFormInput()Z
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getAllowFreeFormInput()Z
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getChoices()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getChoices()[Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -69,7 +72,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Action;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/app/Notification$Action;
+    ->getExtras()Landroid/os/Bundle;
 
     move-result-object p0
 
@@ -82,7 +86,8 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getExtras()Landroid/os/Bundle;
 
     move-result-object p0
 
@@ -95,7 +100,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;->getGroup()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/Notification;
+    ->getGroup()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -111,7 +117,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getLabel()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getLabel()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -127,7 +134,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Action;->getRemoteInputs()[Landroid/app/RemoteInput;
+    invoke-virtual {p0}, Landroid/app/Notification$Action;
+    ->getRemoteInputs()[Landroid/app/RemoteInput;
 
     .line 2
     .line 3
@@ -143,7 +151,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteInput;->getResultKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;
+    ->getResultKey()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -159,7 +168,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;->getSortKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/Notification;
+    ->getSortKey()Ljava/lang/String;
 
     .line 2
     .line 3

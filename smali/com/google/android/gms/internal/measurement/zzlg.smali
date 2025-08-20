@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzlg;->zza:[Lcom/google/android/gms/internal/measurement/zzlo;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzlg;
+    ->zza:[Lcom/google/android/gms/internal/measurement/zzlo;
 
     .line 5
     .line 6
@@ -41,7 +43,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzlg;->zza:[Lcom/google/android/gms/internal/measurement/zzlo;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzlg;
+    ->zza:[Lcom/google/android/gms/internal/measurement/zzlo;
 
     .line 2
     .line 3
@@ -60,7 +63,8 @@
 
     .line 8
     .line 9
-    invoke-interface {v3, p1}, Lcom/google/android/gms/internal/measurement/zzlo;->zzb(Ljava/lang/Class;)Z
+    invoke-interface {v3, p1}, Lcom/google/android/gms/internal/measurement/zzlo;
+    ->zzb(Ljava/lang/Class;)Z
 
     .line 10
     .line 11
@@ -72,7 +76,8 @@
 
     .line 14
     .line 15
-    invoke-interface {v3, p1}, Lcom/google/android/gms/internal/measurement/zzlo;->zza(Ljava/lang/Class;)Lcom/google/android/gms/internal/measurement/zzlp;
+    invoke-interface {v3, p1}, Lcom/google/android/gms/internal/measurement/zzlo;
+    ->zza(Ljava/lang/Class;)Lcom/google/android/gms/internal/measurement/zzlp;
 
     .line 16
     .line 17
@@ -95,7 +100,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -107,7 +113,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v1, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 32
     .line 33
@@ -115,7 +122,8 @@
     move-result-object p1
 
     .line 35
-    invoke-direct {v0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -180,7 +188,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzlg;->zza:[Lcom/google/android/gms/internal/measurement/zzlo;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzlg;
+    ->zza:[Lcom/google/android/gms/internal/measurement/zzlo;
 
     .line 2
     .line 3
@@ -202,7 +211,8 @@
 
     .line 9
     .line 10
-    invoke-interface {v4, p1}, Lcom/google/android/gms/internal/measurement/zzlo;->zzb(Ljava/lang/Class;)Z
+    invoke-interface {v4, p1}, Lcom/google/android/gms/internal/measurement/zzlo;
+    ->zzb(Ljava/lang/Class;)Z
 
     .line 11
     .line 12

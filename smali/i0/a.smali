@@ -14,11 +14,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Li0/a;->a:I
+    iput p2, p0, Li0/a;
+    ->a:I
 
-    iput-object p1, p0, Li0/a;->b:Ljava/lang/Object;
+    iput-object p1, p0, Li0/a;
+    ->b:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -34,7 +37,8 @@
     .locals 1
 
     .line 1
-    iget p1, p0, Li0/a;->a:I
+    iget p1, p0, Li0/a;
+    ->a:I
 
     .line 2
     .line 3
@@ -46,7 +50,8 @@
     const/4 p1, 0x1
 
     .line 7
-    iget-object v0, p0, Li0/a;->b:Ljava/lang/Object;
+    iget-object v0, p0, Li0/a;
+    ->b:Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -54,15 +59,18 @@
 
     .line 10
     .line 11
-    iput-boolean p1, v0, Lo0/A;->d:Z
+    iput-boolean p1, v0, Lo0/A;
+    ->d:Z
 
     .line 12
     .line 13
-    iget-object p1, v0, Lo0/A;->e:Ljava/lang/ref/WeakReference;
+    iget-object p1, v0, Lo0/A;
+    ->e:Ljava/lang/ref/WeakReference;
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -82,12 +90,14 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Li0/e;->D()V
+    invoke-virtual {p1}, Li0/e;
+    ->D()V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1}, Lu0/j;->invalidateSelf()V
+    invoke-virtual {p1}, Lu0/j;
+    ->invalidateSelf()V
 
     .line 29
     .line 30
@@ -161,7 +171,8 @@
     .locals 1
 
     .line 1
-    iget p1, p0, Li0/a;->a:I
+    iget p1, p0, Li0/a;
+    ->a:I
 
     .line 2
     .line 3
@@ -181,7 +192,8 @@
     const/4 p1, 0x1
 
     .line 10
-    iget-object p2, p0, Li0/a;->b:Ljava/lang/Object;
+    iget-object p2, p0, Li0/a;
+    ->b:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -189,15 +201,18 @@
 
     .line 13
     .line 14
-    iput-boolean p1, p2, Lo0/A;->d:Z
+    iput-boolean p1, p2, Lo0/A;
+    ->d:Z
 
     .line 15
     .line 16
-    iget-object p1, p2, Lo0/A;->e:Ljava/lang/ref/WeakReference;
+    iget-object p1, p2, Lo0/A;
+    ->e:Ljava/lang/ref/WeakReference;
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -217,12 +232,14 @@
 
     .line 27
     .line 28
-    invoke-virtual {p1}, Li0/e;->D()V
+    invoke-virtual {p1}, Li0/e;
+    ->D()V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {p1}, Lu0/j;->invalidateSelf()V
+    invoke-virtual {p1}, Lu0/j;
+    ->invalidateSelf()V
 
     .line 32
     .line 33
@@ -233,7 +250,8 @@
 
     .line 35
     :pswitch_0
-    iget-object p1, p0, Li0/a;->b:Ljava/lang/Object;
+    iget-object p1, p0, Li0/a;
+    ->b:Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -241,11 +259,13 @@
 
     .line 38
     .line 39
-    iget-object p2, p1, Lcom/google/android/material/chip/Chip;->b:Li0/e;
+    iget-object p2, p1, Lcom/google/android/material/chip/Chip;
+    ->b:Li0/e;
 
     .line 40
     .line 41
-    iget-boolean v0, p2, Li0/e;->M0:Z
+    iget-boolean v0, p2, Li0/e;
+    ->M0:Z
 
     .line 42
     .line 43
@@ -253,7 +273,8 @@
 
     .line 44
     .line 45
-    iget-object p2, p2, Li0/e;->O:Ljava/lang/CharSequence;
+    iget-object p2, p2, Li0/e;
+    ->O:Ljava/lang/CharSequence;
 
     .line 46
     .line 47
@@ -261,7 +282,8 @@
 
     .line 48
     :cond_2
-    invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/widget/TextView;
+    ->getText()Ljava/lang/CharSequence;
 
     .line 49
     .line 50
@@ -270,17 +292,20 @@
 
     .line 52
     :goto_1
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;
+    ->setText(Ljava/lang/CharSequence;)V
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
+    invoke-virtual {p1}, Landroid/view/View;
+    ->requestLayout()V
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;
+    ->invalidate()V
 
     .line 59
     .line 60

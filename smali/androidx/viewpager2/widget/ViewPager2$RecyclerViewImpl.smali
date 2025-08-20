@@ -27,11 +27,14 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;)V    return-void
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView;
+    -><init>(Landroid/content/Context;)V    
+    return-void
 .end method
 
 
@@ -43,15 +46,18 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->handlesRvGetAccessibilityClassName()Z
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->handlesRvGetAccessibilityClassName()Z
 
     .line 6
     .line 7
@@ -63,15 +69,18 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 12
     .line 13
-    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onRvGetAccessibilityClassName()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->onRvGetAccessibilityClassName()Ljava/lang/CharSequence;
 
     .line 16
     .line 17
@@ -82,7 +91,8 @@
 
     .line 20
     :cond_0
-    invoke-super {p0}, Landroidx/recyclerview/widget/RecyclerView;->getAccessibilityClassName()Ljava/lang/CharSequence;
+    invoke-super {p0}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getAccessibilityClassName()Ljava/lang/CharSequence;
 
     .line 21
     .line 22
@@ -100,57 +110,70 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroid/view/ViewGroup;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;
+    ->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 5
     .line 6
-    iget v0, v0, Landroidx/viewpager2/widget/ViewPager2;->mCurrentItem:I
+    iget v0, v0, Landroidx/viewpager2/widget/ViewPager2;
+    ->mCurrentItem:I
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setFromIndex(I)V
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;
+    ->setFromIndex(I)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 12
     .line 13
-    iget v0, v0, Landroidx/viewpager2/widget/ViewPager2;->mCurrentItem:I
+    iget v0, v0, Landroidx/viewpager2/widget/ViewPager2;
+    ->mCurrentItem:I
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setToIndex(I)V
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;
+    ->setToIndex(I)V
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 19
     .line 20
-    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object v0, v0, Landroidx/viewpager2/widget/ViewPager2;
+    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onRvInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    ->onRvInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V    
+    return-void
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->isUserInputEnabled()Z
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;
+    ->isUserInputEnabled()Z
 
     .line 4
     .line 5
@@ -162,7 +185,8 @@
 
     .line 8
     .line 9
-    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 10
     .line 11
@@ -194,11 +218,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$RecyclerViewImpl;
+    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;->isUserInputEnabled()Z
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2;
+    ->isUserInputEnabled()Z
 
     .line 4
     .line 5
@@ -210,7 +236,8 @@
 
     .line 8
     .line 9
-    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;
+    ->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 10
     .line 11

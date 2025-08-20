@@ -27,13 +27,15 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Lcom/google/android/gms/common/util/Hex;->zza:[C
+    sput-object v1, Lcom/google/android/gms/common/util/Hex;
+    ->zza:[C
 
     new-array v0, v0, [C
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Lcom/google/android/gms/common/util/Hex;->zzb:[C
+    sput-object v0, Lcom/google/android/gms/common/util/Hex;
+    ->zzb:[C
 
     return-void
 
@@ -83,7 +85,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -136,7 +139,8 @@
 
     .line 15
     .line 16
-    sget-object v6, Lcom/google/android/gms/common/util/Hex;->zzb:[C
+    sget-object v6, Lcom/google/android/gms/common/util/Hex;
+    ->zzb:[C
 
     .line 17
     .line 18
@@ -180,7 +184,8 @@
 
     .line 36
     .line 37
-    invoke-direct {p0, v0}, Ljava/lang/String;-><init>([C)V
+    invoke-direct {p0, v0}, Ljava/lang/String;
+    -><init>([C)V
 
     .line 38
     .line 39
@@ -203,7 +208,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/util/Hex;->bytesToStringUppercase([BZ)Ljava/lang/String;
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/util/Hex;
+    ->bytesToStringUppercase([BZ)Ljava/lang/String;
 
     move-result-object p0
 
@@ -230,7 +236,8 @@
     new-instance v2, Ljava/lang/StringBuilder;
 
     .line 3
-    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
     const/4 v1, 0x0
 
@@ -251,7 +258,8 @@
     if-eqz v3, :cond_1
 
     :cond_0
-    sget-object v3, Lcom/google/android/gms/common/util/Hex;->zza:[C
+    sget-object v3, Lcom/google/android/gms/common/util/Hex;
+    ->zza:[C
 
     .line 5
     aget-byte v4, p0, v1
@@ -262,7 +270,8 @@
 
     aget-char v4, v3, v4
 
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 6
     aget-byte v4, p0, v1
@@ -271,14 +280,16 @@
 
     aget-char v3, v3, v4
 
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
@@ -298,7 +309,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->length()I
 
     .line 2
     .line 3
@@ -338,7 +350,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v2, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v2, v4}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -350,7 +363,8 @@
 
     .line 25
     .line 26
-    invoke-static {v2, v5}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
+    invoke-static {v2, v5}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;I)I
 
     .line 27
     .line 28
@@ -384,7 +398,8 @@
 
     .line 39
     .line 40
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42

@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/DefaultSpecialEffectsController;->startAnimations(Ljava/util/List;Ljava/util/List;ZLjava/util/Map;)V
+    value = Landroidx/fragment/app/DefaultSpecialEffectsController;
+    ->startAnimations(Ljava/util/List;Ljava/util/List;ZLjava/util/Map;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,27 +32,33 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->this$0:Landroidx/fragment/app/DefaultSpecialEffectsController;
+    iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->this$0:Landroidx/fragment/app/DefaultSpecialEffectsController;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$viewToAnimate:Landroid/view/View;
+    iput-object p2, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$viewToAnimate:Landroid/view/View;
 
     .line 4
     .line 5
-    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$isHideOperation:Z
+    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$isHideOperation:Z
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
+    iput-object p4, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     .line 8
     .line 9
-    iput-object p5, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$animationInfo:Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    iput-object p5, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$animationInfo:Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
 
     .line 10
     .line 11
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
+    -><init>()V
     return-void
 .end method
 
@@ -65,16 +72,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->this$0:Landroidx/fragment/app/DefaultSpecialEffectsController;
+    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->this$0:Landroidx/fragment/app/DefaultSpecialEffectsController;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController;->getContainer()Landroid/view/ViewGroup;
+    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController;
+    ->getContainer()Landroid/view/ViewGroup;
 
     .line 9
     .line 10
@@ -82,16 +92,19 @@
     move-result-object p1
 
     .line 12
-    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$viewToAnimate:Landroid/view/View;
+    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$viewToAnimate:Landroid/view/View;
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->endViewTransition(Landroid/view/View;)V
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;
+    ->endViewTransition(Landroid/view/View;)V
 
     .line 15
     .line 16
     .line 17
-    iget-boolean p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$isHideOperation:Z
+    iget-boolean p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$isHideOperation:Z
 
     .line 18
     .line 19
@@ -99,11 +112,13 @@
 
     .line 20
     .line 21
-    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
+    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->getFinalState()Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController$Operation;
+    ->getFinalState()Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
     .line 24
     .line 25
@@ -111,7 +126,8 @@
     move-result-object p1
 
     .line 27
-    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$viewToAnimate:Landroid/view/View;
+    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$viewToAnimate:Landroid/view/View;
 
     .line 28
     .line 29
@@ -119,22 +135,26 @@
 
     .line 30
     .line 31
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->applyState(Landroid/view/View;)V
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    ->applyState(Landroid/view/View;)V
 
     .line 35
     .line 36
     .line 37
     :cond_0
-    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$animationInfo:Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
+    iget-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$animationInfo:Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
 
     .line 38
     .line 39
-    invoke-virtual {p1}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->completeSpecialEffect()V
+    invoke-virtual {p1}, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;
+    ->completeSpecialEffect()V
 
     .line 40
     .line 41
@@ -142,7 +162,8 @@
     const/4 p1, 0x2
 
     .line 43
-    invoke-static {p1}, Landroidx/fragment/app/FragmentManager;->isLoggingEnabled(I)Z
+    invoke-static {p1}, Landroidx/fragment/app/FragmentManager;
+    ->isLoggingEnabled(I)Z
 
     .line 44
     .line 45
@@ -162,16 +183,19 @@
 
     .line 52
     .line 53
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 54
     .line 55
     .line 56
-    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;->$operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
+    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1;
+    ->$operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     .line 57
     .line 58
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
@@ -180,12 +204,14 @@
 
     .line 62
     .line 63
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -197,7 +223,8 @@
 
     .line 71
     .line 72
-    invoke-static {v0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 73
     .line 74

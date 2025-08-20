@@ -8,7 +8,8 @@
     .locals 4
 
     .line 1
-    invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
+    invoke-static {p0, p1}, Ljava/lang/Double;
+    ->isNaN(D)Z
 
     move-result v0
 
@@ -20,7 +21,8 @@
 
     .line 2
     :cond_0
-    invoke-static {p0, p1}, Ljava/lang/Double;->isInfinite(D)Z
+    invoke-static {p0, p1}, Ljava/lang/Double;
+    ->isInfinite(D)Z
 
     move-result v0
 
@@ -52,11 +54,13 @@
     int-to-double v0, v0
 
     .line 3
-    invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;
+    ->abs(D)D
 
     move-result-wide p0
 
-    invoke-static {p0, p1}, Ljava/lang/Math;->floor(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;
+    ->floor(D)D
 
     move-result-wide p0
 
@@ -73,15 +77,18 @@
     .line 4
     const-string v0, "runtime.counter"
 
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/measurement/zzh;->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzaq;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/measurement/zzh;
+    ->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzaq;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {v1}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {v1}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v1
 
@@ -89,7 +96,8 @@
 
     add-double/2addr v1, v3
 
-    invoke-static {v1, v2}, Lcom/google/android/gms/internal/measurement/zzg;->zzb(D)I
+    invoke-static {v1, v2}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zzb(D)I
 
     move-result v1
 
@@ -102,13 +110,16 @@
 
     int-to-double v3, v1
 
-    invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {v3, v4}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
 
-    invoke-direct {v2, v3}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
+    invoke-direct {v2, v3}, Lcom/google/android/gms/internal/measurement/zzai;
+    -><init>(Ljava/lang/Double;)V
 
-    invoke-virtual {p0, v0, v2}, Lcom/google/android/gms/internal/measurement/zzh;->zzc(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
+    invoke-virtual {p0, v0, v2}, Lcom/google/android/gms/internal/measurement/zzh;
+    ->zzc(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
 
     return v1
 
@@ -118,7 +129,8 @@
 
     const-string v0, "Instructions allowed exceeded"
 
-    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -129,18 +141,21 @@
     if-eqz p0, :cond_0
 
     .line 7
-    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {p0}, Ljava/lang/String;
+    ->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 8
-    invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    invoke-static {p0}, Ljava/lang/Integer;
+    ->parseInt(Ljava/lang/String;)I
 
     move-result v0
 
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzbv;->zza(I)Lcom/google/android/gms/internal/measurement/zzbv;
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzbv;
+    ->zza(I)Lcom/google/android/gms/internal/measurement/zzbv;
 
     move-result-object v0
 
@@ -161,12 +176,14 @@
     const-string v1, "Unsupported commandId "
 
     .line 10
-    invoke-static {v1, p0}, LA/d;->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p0}, LA/d;
+    ->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     .line 11
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -175,9 +192,11 @@
     .locals 2
 
     .line 16
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzaq;->zzd:Lcom/google/android/gms/internal/measurement/zzaq;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzd:Lcom/google/android/gms/internal/measurement/zzaq;
 
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -189,9 +208,11 @@
 
     .line 17
     :cond_0
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzaq;->zzc:Lcom/google/android/gms/internal/measurement/zzaq;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzaq;
 
-    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -211,7 +232,8 @@
     .line 20
     check-cast p0, Lcom/google/android/gms/internal/measurement/zzap;
 
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzg;->zza(Lcom/google/android/gms/internal/measurement/zzap;)Ljava/util/Map;
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzap;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -226,38 +248,44 @@
     .line 22
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 23
     check-cast p0, Lcom/google/android/gms/internal/measurement/zzaf;
 
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzaf;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzaf;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
     :cond_3
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/google/android/gms/internal/measurement/zzaq;
 
     .line 24
-    invoke-static {v1}, Lcom/google/android/gms/internal/measurement/zzg;->zza(Lcom/google/android/gms/internal/measurement/zzaq;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzaq;)Ljava/lang/Object;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
     .line 25
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -266,18 +294,21 @@
 
     .line 26
     :cond_5
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Double;->isNaN()Z
+    invoke-virtual {v0}, Ljava/lang/Double;
+    ->isNaN()Z
 
     move-result v0
 
     if-nez v0, :cond_6
 
     .line 27
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object p0
 
@@ -285,7 +316,8 @@
 
     .line 28
     :cond_6
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zzf()Ljava/lang/String;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzf()Ljava/lang/String;
 
     move-result-object p0
 
@@ -309,44 +341,52 @@
     .line 29
     new-instance v0, Ljava/util/HashMap;
 
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 30
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzap;->zza()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzap;
+    ->zza()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
     .line 31
-    invoke-virtual {p0, v2}, Lcom/google/android/gms/internal/measurement/zzap;->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzaq;
+    invoke-virtual {p0, v2}, Lcom/google/android/gms/internal/measurement/zzap;
+    ->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzaq;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/google/android/gms/internal/measurement/zzg;->zza(Lcom/google/android/gms/internal/measurement/zzaq;)Ljava/lang/Object;
+    invoke-static {v3}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzaq;)Ljava/lang/Object;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
     .line 32
-    invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -368,11 +408,13 @@
     .end annotation
 
     .line 33
-    invoke-virtual {p0}, Ljava/lang/Enum;->name()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Enum;
+    ->name()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzg;->zza(Ljava/lang/String;ILjava/util/List;)V
+    invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zza(Ljava/lang/String;ILjava/util/List;)V
     return-void
 .end method
 
@@ -390,7 +432,8 @@
     .end annotation
 
     .line 34
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v0
 
@@ -403,38 +446,47 @@
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     .line 36
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result p2
 
     .line 37
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     const-string p0, " operation requires "
 
     .line 39
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 40
     const-string p0, " parameters found "
 
     .line 41
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -443,15 +495,18 @@
     .locals 4
 
     .line 42
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -482,29 +537,35 @@
     if-eqz v0, :cond_4
 
     .line 45
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {v0}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v2
 
-    invoke-static {v2, v3}, Ljava/lang/Double;->isNaN(D)Z
+    invoke-static {v2, v3}, Ljava/lang/Double;
+    ->isNaN(D)Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {v0}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v2
 
-    invoke-static {v2, v3}, Ljava/lang/Double;->isNaN(D)Z
+    invoke-static {v2, v3}, Ljava/lang/Double;
+    ->isNaN(D)Z
 
     move-result v0
 
@@ -514,15 +575,18 @@
 
     .line 46
     :cond_2
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object p0
 
-    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Ljava/lang/Double;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/Double;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -539,15 +603,18 @@
     if-eqz v0, :cond_5
 
     .line 48
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zzf()Ljava/lang/String;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzf()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;->zzf()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzf()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -560,15 +627,18 @@
     if-eqz v0, :cond_6
 
     .line 50
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zzd()Ljava/lang/Boolean;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzd()Ljava/lang/Boolean;
 
     move-result-object p0
 
-    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;->zzd()Ljava/lang/Boolean;
+    invoke-interface {p1}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzd()Ljava/lang/Boolean;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/Boolean;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -591,13 +661,15 @@
     .locals 3
 
     .line 1
-    invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
+    invoke-static {p0, p1}, Ljava/lang/Double;
+    ->isNaN(D)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    invoke-static {p0, p1}, Ljava/lang/Double;->isInfinite(D)Z
+    invoke-static {p0, p1}, Ljava/lang/Double;
+    ->isInfinite(D)Z
 
     move-result v0
 
@@ -625,11 +697,13 @@
     int-to-double v0, v0
 
     .line 2
-    invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;
+    ->abs(D)D
 
     move-result-wide p0
 
-    invoke-static {p0, p1}, Ljava/lang/Math;->floor(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;
+    ->floor(D)D
 
     move-result-wide p0
 
@@ -666,11 +740,13 @@
     .end annotation
 
     .line 3
-    invoke-virtual {p0}, Ljava/lang/Enum;->name()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Enum;
+    ->name()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzg;->zzb(Ljava/lang/String;ILjava/util/List;)V
+    invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zzb(Ljava/lang/String;ILjava/util/List;)V
     return-void
 .end method
 
@@ -688,7 +764,8 @@
     .end annotation
 
     .line 4
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v0
 
@@ -701,38 +778,47 @@
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     .line 6
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result p2
 
     .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 8
     const-string p0, " operation requires at least "
 
     .line 9
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 10
     const-string p0, " parameters found "
 
     .line 11
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -748,18 +834,21 @@
 
     .line 12
     :cond_0
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;->zze()Ljava/lang/Double;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zze()Ljava/lang/Double;
 
     move-result-object p0
 
     .line 13
-    invoke-virtual {p0}, Ljava/lang/Double;->isNaN()Z
+    invoke-virtual {p0}, Ljava/lang/Double;
+    ->isNaN()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    invoke-virtual {p0}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {p0}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v1
 
@@ -769,19 +858,23 @@
 
     if-ltz v5, :cond_1
 
-    invoke-virtual {p0}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {p0}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v1
 
-    invoke-static {v1, v2}, Ljava/lang/Math;->floor(D)D
+    invoke-static {v1, v2}, Ljava/lang/Math;
+    ->floor(D)D
 
     move-result-wide v1
 
-    invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    invoke-static {v1, v2}, Ljava/lang/Double;
+    ->valueOf(D)Ljava/lang/Double;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Ljava/lang/Double;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/Double;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -799,7 +892,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzg;->zzb(D)I
+    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzg;
+    ->zzb(D)I
 
     move-result p0
 
@@ -826,7 +920,8 @@
     .end annotation
 
     .line 2
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result v0
 
@@ -839,38 +934,47 @@
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     .line 4
-    invoke-interface {p2}, Ljava/util/List;->size()I
+    invoke-interface {p2}, Ljava/util/List;
+    ->size()I
 
     move-result p2
 
     .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     const-string p0, " operation requires at most "
 
     .line 7
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 8
     const-string p0, " parameters found "
 
     .line 9
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method

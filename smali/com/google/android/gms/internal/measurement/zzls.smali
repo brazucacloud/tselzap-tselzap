@@ -20,7 +20,8 @@
 
     .line 4
     .line 5
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzls;->zza:[C
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza:[C
 
     .line 6
     .line 7
@@ -28,7 +29,8 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([CC)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->fill([CC)V
 
     .line 10
     .line 11
@@ -43,17 +45,20 @@
     const-string v0, "# "
 
     .line 2
-    invoke-static {v0, p1}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1}, LA/d;
+    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
     .line 3
-    invoke-static {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Lcom/google/android/gms/internal/measurement/zzlr;Ljava/lang/StringBuilder;I)V
+    invoke-static {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzlr;Ljava/lang/StringBuilder;I)V
 
     .line 4
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
@@ -67,7 +72,8 @@
     if-lez p0, :cond_1
 
     .line 9
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzls;->zza:[C
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza:[C
 
     array-length v1, v0
 
@@ -85,7 +91,8 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-virtual {p1, v0, v2, v1}, Ljava/lang/StringBuilder;->append([CII)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0, v2, v1}, Ljava/lang/StringBuilder;
+    ->append([CII)Ljava/lang/StringBuilder;
 
     sub-int/2addr p0, v1
 
@@ -107,24 +114,29 @@
     .line 53
     new-instance v3, Ljava/util/HashSet;
 
-    invoke-direct {v3}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v3}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 54
     new-instance v4, Ljava/util/HashMap;
 
-    invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v4}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 55
     new-instance v5, Ljava/util/TreeMap;
 
-    invoke-direct {v5}, Ljava/util/TreeMap;-><init>()V
+    invoke-direct {v5}, Ljava/util/TreeMap;
+    -><init>()V
 
     .line 56
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Ljava/lang/Class;->getDeclaredMethods()[Ljava/lang/reflect/Method;
+    invoke-virtual {v6}, Ljava/lang/Class;
+    ->getDeclaredMethods()[Ljava/lang/reflect/Method;
 
     move-result-object v6
 
@@ -148,61 +160,72 @@
     aget-object v14, v6, v9
 
     .line 57
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getModifiers()I
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getModifiers()I
 
     move-result v15
 
-    invoke-static {v15}, Ljava/lang/reflect/Modifier;->isStatic(I)Z
+    invoke-static {v15}, Ljava/lang/reflect/Modifier;
+    ->isStatic(I)Z
 
     move-result v15
 
     if-nez v15, :cond_2
 
     .line 58
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v15
 
-    invoke-virtual {v15}, Ljava/lang/String;->length()I
+    invoke-virtual {v15}, Ljava/lang/String;
+    ->length()I
 
     move-result v15
 
     if-lt v15, v13, :cond_2
 
     .line 59
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v13
 
-    invoke-virtual {v13, v12}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v13, v12}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     move-result v12
 
     if-eqz v12, :cond_0
 
     .line 60
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-virtual {v3, v10}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v10}, Ljava/util/HashSet;
+    ->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
     .line 61
     :cond_0
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getModifiers()I
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getModifiers()I
 
     move-result v12
 
-    invoke-static {v12}, Ljava/lang/reflect/Modifier;->isPublic(I)Z
+    invoke-static {v12}, Ljava/lang/reflect/Modifier;
+    ->isPublic(I)Z
 
     move-result v12
 
     if-eqz v12, :cond_2
 
     .line 62
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v12
 
@@ -211,43 +234,51 @@
     if-nez v12, :cond_2
 
     .line 63
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v12
 
-    invoke-virtual {v12, v11}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v12, v11}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     move-result v11
 
     if-eqz v11, :cond_1
 
     .line 64
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-virtual {v4, v10, v14}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v10, v14}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     .line 65
     :cond_1
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v11
 
-    invoke-virtual {v11, v10}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v11, v10}, Ljava/lang/String;
+    ->startsWith(Ljava/lang/String;)Z
 
     move-result v10
 
     if-eqz v10, :cond_2
 
     .line 66
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getName()Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-virtual {v5, v10, v14}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v5, v10, v14}, Ljava/util/TreeMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
     :goto_1
@@ -257,42 +288,49 @@
 
     .line 67
     :cond_3
-    invoke-virtual {v5}, Ljava/util/TreeMap;->entrySet()Ljava/util/Set;
+    invoke-virtual {v5}, Ljava/util/TreeMap;
+    ->entrySet()Ljava/util/Set;
 
     move-result-object v6
 
-    invoke-interface {v6}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v6}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v6
 
     :goto_2
-    invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v6}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v7
 
     if-eqz v7, :cond_13
 
-    invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v6}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/util/Map$Entry;
 
     .line 68
-    invoke-interface {v7}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v7}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Ljava/lang/String;
 
-    invoke-virtual {v9, v13}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v9, v13}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     move-result-object v9
 
     .line 69
     const-string v14, "List"
 
-    invoke-virtual {v9, v14}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v9, v14}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     move-result v15
 
@@ -301,21 +339,24 @@
     const-string v15, "OrBuilderList"
 
     .line 70
-    invoke-virtual {v9, v15}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v9, v15}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     move-result v15
 
     if-nez v15, :cond_5
 
     .line 71
-    invoke-virtual {v9, v14}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v14}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v14
 
     if-nez v14, :cond_5
 
     .line 72
-    invoke-interface {v7}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v7}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object v14
 
@@ -324,7 +365,8 @@
     if-eqz v14, :cond_5
 
     .line 73
-    invoke-virtual {v14}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v14}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     move-result-object v15
 
@@ -332,32 +374,37 @@
 
     const-class v13, Ljava/util/List;
 
-    invoke-virtual {v15, v13}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v15, v13}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v13
 
     if-eqz v13, :cond_6
 
     .line 74
-    invoke-virtual {v9}, Ljava/lang/String;->length()I
+    invoke-virtual {v9}, Ljava/lang/String;
+    ->length()I
 
     move-result v7
 
     add-int/lit8 v7, v7, -0x4
 
-    invoke-virtual {v9, v8, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v9, v8, v7}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     move-result-object v7
 
     new-array v9, v8, [Ljava/lang/Object;
 
     .line 75
-    invoke-static {v14, v0, v9}, Lcom/google/android/gms/internal/measurement/zzki;->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v14, v0, v9}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
     .line 76
-    invoke-static {v1, v2, v7, v9}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v1, v2, v7, v9}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     :cond_4
     :goto_3
@@ -372,21 +419,24 @@
     :cond_6
     const-string v13, "Map"
 
-    invoke-virtual {v9, v13}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v9, v13}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     move-result v14
 
     if-eqz v14, :cond_7
 
     .line 78
-    invoke-virtual {v9, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v13}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v13
 
     if-nez v13, :cond_7
 
     .line 79
-    invoke-interface {v7}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v7}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object v13
 
@@ -395,13 +445,15 @@
     if-eqz v13, :cond_7
 
     .line 80
-    invoke-virtual {v13}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
+    invoke-virtual {v13}, Ljava/lang/reflect/Method;
+    ->getReturnType()Ljava/lang/Class;
 
     move-result-object v14
 
     const-class v15, Ljava/util/Map;
 
-    invoke-virtual {v14, v15}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v14, v15}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v14
 
@@ -410,53 +462,62 @@
     const-class v14, Ljava/lang/Deprecated;
 
     .line 81
-    invoke-virtual {v13, v14}, Ljava/lang/reflect/AccessibleObject;->isAnnotationPresent(Ljava/lang/Class;)Z
+    invoke-virtual {v13, v14}, Ljava/lang/reflect/AccessibleObject;
+    ->isAnnotationPresent(Ljava/lang/Class;)Z
 
     move-result v14
 
     if-nez v14, :cond_7
 
     .line 82
-    invoke-virtual {v13}, Ljava/lang/reflect/Method;->getModifiers()I
+    invoke-virtual {v13}, Ljava/lang/reflect/Method;
+    ->getModifiers()I
 
     move-result v14
 
-    invoke-static {v14}, Ljava/lang/reflect/Modifier;->isPublic(I)Z
+    invoke-static {v14}, Ljava/lang/reflect/Modifier;
+    ->isPublic(I)Z
 
     move-result v14
 
     if-eqz v14, :cond_7
 
     .line 83
-    invoke-virtual {v9}, Ljava/lang/String;->length()I
+    invoke-virtual {v9}, Ljava/lang/String;
+    ->length()I
 
     move-result v7
 
     add-int/lit8 v7, v7, -0x3
 
-    invoke-virtual {v9, v8, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v9, v8, v7}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     move-result-object v7
 
     new-array v9, v8, [Ljava/lang/Object;
 
     .line 84
-    invoke-static {v13, v0, v9}, Lcom/google/android/gms/internal/measurement/zzki;->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v13, v0, v9}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
     .line 85
-    invoke-static {v1, v2, v7, v9}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v1, v2, v7, v9}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     goto :goto_3
 
     .line 86
     :cond_7
-    invoke-virtual {v12, v9}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v12, v9}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
-    invoke-virtual {v3, v13}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v13}, Ljava/util/HashSet;
+    ->contains(Ljava/lang/Object;)Z
 
     move-result v13
 
@@ -465,34 +526,41 @@
     .line 87
     const-string v13, "Bytes"
 
-    invoke-virtual {v9, v13}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    invoke-virtual {v9, v13}, Ljava/lang/String;
+    ->endsWith(Ljava/lang/String;)Z
 
     move-result v13
 
     if-eqz v13, :cond_8
 
     .line 88
-    invoke-virtual {v9}, Ljava/lang/String;->length()I
+    invoke-virtual {v9}, Ljava/lang/String;
+    ->length()I
 
     move-result v13
 
     add-int/lit8 v13, v13, -0x5
 
-    invoke-virtual {v9, v8, v13}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v9, v8, v13}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     move-result-object v13
 
     new-instance v14, Ljava/lang/StringBuilder;
 
-    invoke-direct {v14, v10}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v14, v10}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v14, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v13}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v13
 
-    invoke-virtual {v5, v13}, Ljava/util/TreeMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v13}, Ljava/util/TreeMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     move-result v13
 
@@ -500,18 +568,21 @@
 
     .line 89
     :cond_8
-    invoke-interface {v7}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v7}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/lang/reflect/Method;
 
     .line 90
-    invoke-virtual {v11, v9}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v11, v9}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
-    invoke-virtual {v4, v13}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v13}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
@@ -522,7 +593,8 @@
     .line 91
     new-array v14, v8, [Ljava/lang/Object;
 
-    invoke-static {v7, v0, v14}, Lcom/google/android/gms/internal/measurement/zzki;->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v7, v0, v14}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
 
@@ -540,7 +612,8 @@
 
     check-cast v13, Ljava/lang/Boolean;
 
-    invoke-virtual {v13}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v13}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result v13
 
@@ -567,7 +640,8 @@
 
     check-cast v13, Ljava/lang/Integer;
 
-    invoke-virtual {v13}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v13}, Ljava/lang/Integer;
+    ->intValue()I
 
     move-result v13
 
@@ -586,11 +660,13 @@
 
     check-cast v13, Ljava/lang/Float;
 
-    invoke-virtual {v13}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {v13}, Ljava/lang/Float;
+    ->floatValue()F
 
     move-result v13
 
-    invoke-static {v13}, Ljava/lang/Float;->floatToRawIntBits(F)I
+    invoke-static {v13}, Ljava/lang/Float;
+    ->floatToRawIntBits(F)I
 
     move-result v13
 
@@ -609,11 +685,13 @@
 
     check-cast v13, Ljava/lang/Double;
 
-    invoke-virtual {v13}, Ljava/lang/Double;->doubleValue()D
+    invoke-virtual {v13}, Ljava/lang/Double;
+    ->doubleValue()D
 
     move-result-wide v17
 
-    invoke-static/range {v17 .. v18}, Ljava/lang/Double;->doubleToRawLongBits(D)J
+    invoke-static/range {v17 .. v18}, Ljava/lang/Double;
+    ->doubleToRawLongBits(D)J
 
     move-result-wide v17
 
@@ -634,7 +712,8 @@
     .line 101
     const-string v13, ""
 
-    invoke-virtual {v7, v13}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v7, v13}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v13
 
@@ -647,9 +726,11 @@
     if-eqz v13, :cond_f
 
     .line 103
-    sget-object v13, Lcom/google/android/gms/internal/measurement/zziz;->zza:Lcom/google/android/gms/internal/measurement/zziz;
+    sget-object v13, Lcom/google/android/gms/internal/measurement/zziz;
+    ->zza:Lcom/google/android/gms/internal/measurement/zziz;
 
-    invoke-virtual {v7, v13}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v7, v13}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v13
 
@@ -666,7 +747,8 @@
 
     check-cast v13, Lcom/google/android/gms/internal/measurement/zzlr;
 
-    invoke-interface {v13}, Lcom/google/android/gms/internal/measurement/zzlt;->zzco()Lcom/google/android/gms/internal/measurement/zzlr;
+    invoke-interface {v13}, Lcom/google/android/gms/internal/measurement/zzlt;
+    ->zzco()Lcom/google/android/gms/internal/measurement/zzlr;
 
     move-result-object v13
 
@@ -685,7 +767,8 @@
 
     check-cast v13, Ljava/lang/Enum;
 
-    invoke-virtual {v13}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v13}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v13
 
@@ -707,13 +790,15 @@
     :cond_12
     new-array v14, v8, [Ljava/lang/Object;
 
-    invoke-static {v13, v0, v14}, Lcom/google/android/gms/internal/measurement/zzki;->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v13, v0, v14}, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zza(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
     check-cast v13, Ljava/lang/Boolean;
 
-    invoke-virtual {v13}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v13}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result v14
 
@@ -721,7 +806,8 @@
     if-eqz v14, :cond_4
 
     .line 109
-    invoke-static {v1, v2, v9, v7}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v1, v2, v9, v7}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     goto/16 :goto_3
 
@@ -736,15 +822,18 @@
 
     check-cast v3, Lcom/google/android/gms/internal/measurement/zzki$zzd;
 
-    iget-object v3, v3, Lcom/google/android/gms/internal/measurement/zzki$zzd;->zzc:Lcom/google/android/gms/internal/measurement/zzkb;
+    iget-object v3, v3, Lcom/google/android/gms/internal/measurement/zzki$zzd;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzkb;
 
     .line 112
-    invoke-virtual {v3}, Lcom/google/android/gms/internal/measurement/zzkb;->zzd()Ljava/util/Iterator;
+    invoke-virtual {v3}, Lcom/google/android/gms/internal/measurement/zzkb;
+    ->zzd()Ljava/util/Iterator;
 
     move-result-object v3
 
     .line 113
-    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v4
 
@@ -754,14 +843,16 @@
 
     .line 114
     :cond_14
-    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Map$Entry;
 
     .line 115
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -770,7 +861,8 @@
     .line 116
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
-    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
+    invoke-direct {v0}, Ljava/lang/NoSuchMethodError;
+    -><init>()V
 
     throw v0
 
@@ -779,12 +871,14 @@
     :goto_7
     check-cast v0, Lcom/google/android/gms/internal/measurement/zzki;
 
-    iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzki;->zzb:Lcom/google/android/gms/internal/measurement/zzmy;
+    iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzki;
+    ->zzb:Lcom/google/android/gms/internal/measurement/zzmy;
 
     if-eqz v0, :cond_16
 
     .line 118
-    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/zzmy;->zza(Ljava/lang/StringBuilder;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/zzmy;
+    ->zza(Ljava/lang/StringBuilder;I)V
 
     :cond_16
     return-void
@@ -802,23 +896,27 @@
     check-cast p3, Ljava/util/List;
 
     .line 14
-    invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p3
 
     :goto_0
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 15
-    invoke-static {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -832,29 +930,34 @@
     check-cast p3, Ljava/util/Map;
 
     .line 18
-    invoke-interface {p3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     move-result-object p3
 
-    invoke-interface {p3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p3
 
     :goto_1
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Map$Entry;
 
     .line 19
-    invoke-static {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -865,13 +968,16 @@
     const/16 v0, 0xa
 
     .line 20
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 21
-    invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zzls;->zza(ILjava/lang/StringBuilder;)V
+    invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(ILjava/lang/StringBuilder;)V
 
     .line 22
-    invoke-virtual {p2}, Ljava/lang/String;->isEmpty()Z
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->isEmpty()Z
 
     move-result v0
 
@@ -883,38 +989,45 @@
     :cond_3
     new-instance v0, Ljava/lang/StringBuilder;
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     const/4 v1, 0x0
 
     .line 24
-    invoke-virtual {p2, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p2, v1}, Ljava/lang/String;
+    ->charAt(I)C
 
     move-result v1
 
-    invoke-static {v1}, Ljava/lang/Character;->toLowerCase(C)C
+    invoke-static {v1}, Ljava/lang/Character;
+    ->toLowerCase(C)C
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     const/4 v1, 0x1
 
     .line 25
     :goto_2
-    invoke-virtual {p2}, Ljava/lang/String;->length()I
+    invoke-virtual {p2}, Ljava/lang/String;
+    ->length()I
 
     move-result v2
 
     if-ge v1, v2, :cond_5
 
     .line 26
-    invoke-virtual {p2, v1}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {p2, v1}, Ljava/lang/String;
+    ->charAt(I)C
 
     move-result v2
 
     .line 27
-    invoke-static {v2}, Ljava/lang/Character;->isUpperCase(C)Z
+    invoke-static {v2}, Ljava/lang/Character;
+    ->isUpperCase(C)Z
 
     move-result v3
 
@@ -923,15 +1036,18 @@
     .line 28
     const-string v3, "_"
 
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     :cond_4
-    invoke-static {v2}, Ljava/lang/Character;->toLowerCase(C)C
+    invoke-static {v2}, Ljava/lang/Character;
+    ->toLowerCase(C)C
 
     move-result v2
 
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -939,13 +1055,15 @@
 
     .line 30
     :cond_5
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p2
 
     .line 31
     :goto_3
-    invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     instance-of p2, p3, Ljava/lang/String;
@@ -957,23 +1075,28 @@
     if-eqz p2, :cond_6
 
     .line 33
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     check-cast p3, Ljava/lang/String;
 
     .line 34
-    invoke-static {p3}, Lcom/google/android/gms/internal/measurement/zziz;->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zziz;
+    invoke-static {p3}, Lcom/google/android/gms/internal/measurement/zziz;
+    ->zza(Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zziz;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzmv;->zza(Lcom/google/android/gms/internal/measurement/zziz;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzmv;
+    ->zza(Lcom/google/android/gms/internal/measurement/zziz;)Ljava/lang/String;
 
     move-result-object p1
 
     .line 35
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     return-void
 
@@ -984,17 +1107,21 @@
     if-eqz p2, :cond_7
 
     .line 37
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     check-cast p3, Lcom/google/android/gms/internal/measurement/zziz;
 
-    invoke-static {p3}, Lcom/google/android/gms/internal/measurement/zzmv;->zza(Lcom/google/android/gms/internal/measurement/zziz;)Ljava/lang/String;
+    invoke-static {p3}, Lcom/google/android/gms/internal/measurement/zzmv;
+    ->zza(Lcom/google/android/gms/internal/measurement/zziz;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     return-void
 
@@ -1011,23 +1138,28 @@
     if-eqz p2, :cond_8
 
     .line 39
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     check-cast p3, Lcom/google/android/gms/internal/measurement/zzki;
 
     add-int/lit8 p2, p1, 0x2
 
-    invoke-static {p3, p0, p2}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Lcom/google/android/gms/internal/measurement/zzlr;Ljava/lang/StringBuilder;I)V
+    invoke-static {p3, p0, p2}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Lcom/google/android/gms/internal/measurement/zzlr;Ljava/lang/StringBuilder;I)V
 
     .line 41
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
-    invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zzls;->zza(ILjava/lang/StringBuilder;)V
+    invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(ILjava/lang/StringBuilder;)V
 
     .line 43
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     return-void
 
@@ -1038,7 +1170,8 @@
     if-eqz p2, :cond_9
 
     .line 45
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     check-cast p3, Ljava/util/Map$Entry;
@@ -1046,31 +1179,38 @@
     add-int/lit8 p2, p1, 0x2
 
     .line 47
-    invoke-interface {p3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     const-string v3, "key"
 
-    invoke-static {p0, p2, v3, v2}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p2, v3, v2}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 48
     const-string v2, "value"
 
-    invoke-interface {p3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     move-result-object p3
 
-    invoke-static {p0, p2, v2, p3}, Lcom/google/android/gms/internal/measurement/zzls;->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, p2, v2, p3}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 49
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 50
-    invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zzls;->zza(ILjava/lang/StringBuilder;)V
+    invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zzls;
+    ->zza(ILjava/lang/StringBuilder;)V
 
     .line 51
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     return-void
 
@@ -1078,9 +1218,11 @@
     :cond_9
     const-string p1, ": "
 
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     return-void
 .end method

@@ -35,7 +35,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +48,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -67,7 +69,8 @@
 
     .line 11
     .line 12
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushNougats(Landroid/content/res/Resources;)V
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;
+    ->flushNougats(Landroid/content/res/Resources;)V
 return-void
 
     .line 16
@@ -80,12 +83,14 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushMarshmallows(Landroid/content/res/Resources;)V
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;
+    ->flushMarshmallows(Landroid/content/res/Resources;)V
 return-void
 
     .line 24
     :cond_2
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushLollipops(Landroid/content/res/Resources;)V
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;
+    ->flushLollipops(Landroid/content/res/Resources;)V
 return-void
 .end method
 
@@ -100,7 +105,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheFieldFetched:Z
+    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheFieldFetched:Z
 
     .line 2
     .line 3
@@ -124,7 +130,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v2, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v2, v3}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 13
     .line 14
@@ -132,11 +139,13 @@ return-void
     move-result-object v2
 
     .line 16
-    sput-object v2, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheField:Ljava/lang/reflect/Field;
+    sput-object v2, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheField:Ljava/lang/reflect/Field;
 
     .line 17
     .line 18
-    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -154,18 +163,21 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {v1, v3, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v3, v2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 26
     .line 27
     .line 28
     :goto_0
-    sput-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheFieldFetched:Z
+    sput-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheFieldFetched:Z
 
     .line 29
     .line 30
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheField:Ljava/lang/reflect/Field;
 
     .line 31
     .line 32
@@ -174,7 +186,8 @@ return-void
     .line 33
     .line 34
     :try_start_1
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -199,7 +212,8 @@ return-void
 
     .line 43
     .line 44
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 45
     .line 46
@@ -212,7 +226,8 @@ return-void
 
     .line 49
     .line 50
-    invoke-interface {p0}, Ljava/util/Map;->clear()V
+    invoke-interface {p0}, Ljava/util/Map;
+    ->clear()V
 
     .line 51
     .line 52
@@ -232,7 +247,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheFieldFetched:Z
+    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheFieldFetched:Z
 
     .line 2
     .line 3
@@ -256,7 +272,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v2, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v2, v3}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 13
     .line 14
@@ -264,11 +281,13 @@ return-void
     move-result-object v2
 
     .line 16
-    sput-object v2, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheField:Ljava/lang/reflect/Field;
+    sput-object v2, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheField:Ljava/lang/reflect/Field;
 
     .line 17
     .line 18
-    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -286,18 +305,21 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {v1, v3, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v3, v2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 26
     .line 27
     .line 28
     :goto_0
-    sput-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheFieldFetched:Z
+    sput-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheFieldFetched:Z
 
     .line 29
     .line 30
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheField:Ljava/lang/reflect/Field;
 
     .line 31
     .line 32
@@ -306,7 +328,8 @@ return-void
     .line 33
     .line 34
     :try_start_1
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -327,7 +350,8 @@ return-void
 
     .line 41
     .line 42
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 43
     .line 44
@@ -341,7 +365,8 @@ return-void
 
     .line 49
     :cond_2
-    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;->flushThemedResourcesCache(Ljava/lang/Object;)V
+    invoke-static {p0}, Landroidx/appcompat/app/ResourcesFlusher;
+    ->flushThemedResourcesCache(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -356,7 +381,8 @@ return-void
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sResourcesImplFieldFetched:Z
+    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sResourcesImplFieldFetched:Z
 
     .line 2
     .line 3
@@ -380,7 +406,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v0, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v3}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 13
     .line 14
@@ -388,11 +415,13 @@ return-void
     move-result-object v0
 
     .line 16
-    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sResourcesImplField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sResourcesImplField:Ljava/lang/reflect/Field;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -410,18 +439,21 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {v1, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v3, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 26
     .line 27
     .line 28
     :goto_0
-    sput-boolean v2, Landroidx/appcompat/app/ResourcesFlusher;->sResourcesImplFieldFetched:Z
+    sput-boolean v2, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sResourcesImplFieldFetched:Z
 
     .line 29
     .line 30
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sResourcesImplField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sResourcesImplField:Ljava/lang/reflect/Field;
 
     .line 31
     .line 32
@@ -437,7 +469,8 @@ return-void
 
     .line 36
     :try_start_1
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -458,7 +491,8 @@ return-void
 
     .line 43
     .line 44
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 45
     .line 46
@@ -475,7 +509,8 @@ return-void
 
     .line 51
     :cond_2
-    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheFieldFetched:Z
+    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheFieldFetched:Z
 
     .line 52
     .line 53
@@ -484,7 +519,8 @@ return-void
     .line 54
     .line 55
     :try_start_2
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 56
     .line 57
@@ -496,7 +532,8 @@ return-void
 
     .line 60
     .line 61
-    invoke-virtual {v0, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v4}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 62
     .line 63
@@ -504,11 +541,13 @@ return-void
     move-result-object v0
 
     .line 65
-    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheField:Ljava/lang/reflect/Field;
 
     .line 66
     .line 67
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_2
     .catch Ljava/lang/NoSuchFieldException; {:try_start_2 .. :try_end_2} :catch_2
 
@@ -526,18 +565,21 @@ return-void
 
     .line 73
     .line 74
-    invoke-static {v1, v4, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v4, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 75
     .line 76
     .line 77
     :goto_2
-    sput-boolean v2, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheFieldFetched:Z
+    sput-boolean v2, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheFieldFetched:Z
 
     .line 78
     .line 79
     :cond_3
-    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sDrawableCacheField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sDrawableCacheField:Ljava/lang/reflect/Field;
 
     .line 80
     .line 81
@@ -546,7 +588,8 @@ return-void
     .line 82
     .line 83
     :try_start_3
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 84
     .line 85
@@ -567,7 +610,8 @@ return-void
 
     .line 90
     .line 91
-    invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 92
     .line 93
@@ -578,7 +622,8 @@ return-void
 
     .line 95
     .line 96
-    invoke-static {v3}, Landroidx/appcompat/app/ResourcesFlusher;->flushThemedResourcesCache(Ljava/lang/Object;)V
+    invoke-static {v3}, Landroidx/appcompat/app/ResourcesFlusher;
+    ->flushThemedResourcesCache(Ljava/lang/Object;)V
 
     .line 97
     .line 98
@@ -596,7 +641,8 @@ return-void
     .end param
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCacheClazzFetched:Z
+    sget-boolean v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCacheClazzFetched:Z
 
     .line 2
     .line 3
@@ -616,7 +662,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 11
     .line 12
@@ -624,7 +671,8 @@ return-void
     move-result-object v0
 
     .line 14
-    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCacheClazz:Ljava/lang/Class;
+    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCacheClazz:Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -641,18 +689,21 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v3, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 21
     .line 22
     .line 23
     :goto_0
-    sput-boolean v1, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCacheClazzFetched:Z
+    sput-boolean v1, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCacheClazzFetched:Z
 
     .line 24
     .line 25
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCacheClazz:Ljava/lang/Class;
+    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCacheClazz:Ljava/lang/Class;
 
     .line 26
     .line 27
@@ -664,7 +715,8 @@ return-void
 
     .line 30
     :cond_1
-    sget-boolean v3, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCache_mUnthemedEntriesFieldFetched:Z
+    sget-boolean v3, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCache_mUnthemedEntriesFieldFetched:Z
 
     .line 31
     .line 32
@@ -677,7 +729,8 @@ return-void
 
     .line 35
     .line 36
-    invoke-virtual {v0, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v3}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 37
     .line 38
@@ -685,11 +738,13 @@ return-void
     move-result-object v0
 
     .line 40
-    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCache_mUnthemedEntriesField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCache_mUnthemedEntriesField:Ljava/lang/reflect/Field;
 
     .line 41
     .line 42
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -707,18 +762,21 @@ return-void
 
     .line 48
     .line 49
-    invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v3, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 50
     .line 51
     .line 52
     :goto_1
-    sput-boolean v1, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCache_mUnthemedEntriesFieldFetched:Z
+    sput-boolean v1, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCache_mUnthemedEntriesFieldFetched:Z
 
     .line 53
     .line 54
     :cond_2
-    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;->sThemedResourceCache_mUnthemedEntriesField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/appcompat/app/ResourcesFlusher;
+    ->sThemedResourceCache_mUnthemedEntriesField:Ljava/lang/reflect/Field;
 
     .line 55
     .line 56
@@ -731,7 +789,8 @@ return-void
     .line 59
     :cond_3
     :try_start_2
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -756,7 +815,8 @@ return-void
 
     .line 68
     .line 69
-    invoke-static {v2, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v0, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 70
     .line 71
@@ -769,7 +829,8 @@ return-void
 
     .line 74
     .line 75
-    invoke-virtual {p0}, Landroid/util/LongSparseArray;->clear()V
+    invoke-virtual {p0}, Landroid/util/LongSparseArray;
+    ->clear()V
 
     .line 76
     .line 77

@@ -14,9 +14,11 @@
 .method public constructor <init>(Ljava/util/Collection;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzaa;->zza:Ljava/util/Collection;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzaa;
+    ->zza:Ljava/util/Collection;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -34,16 +36,19 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzaa;->zza:Ljava/util/Collection;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzaa;
+    ->zza:Ljava/util/Collection;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -52,7 +57,8 @@
 
     .line 12
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -64,7 +70,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -76,7 +83,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcom/google/android/gms/tasks/Task;
+    ->getResult()Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -84,7 +92,8 @@
     move-result-object v1
 
     .line 28
-    invoke-virtual {p1, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 29
     .line 30

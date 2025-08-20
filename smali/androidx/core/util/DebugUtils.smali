@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -16,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -36,7 +38,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     .line 7
@@ -45,7 +48,8 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -53,7 +57,8 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -61,7 +66,8 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 18
     .line 19
@@ -73,7 +79,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 24
     .line 25
@@ -81,7 +88,8 @@
     move-result-object v0
 
     .line 27
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -93,7 +101,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Ljava/lang/String;->lastIndexOf(I)I
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->lastIndexOf(I)I
 
     .line 34
     .line 35
@@ -109,7 +118,8 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -118,7 +128,8 @@
 
     .line 45
     :cond_1
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -127,12 +138,14 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
+    invoke-static {p0}, Ljava/lang/System;
+    ->identityHashCode(Ljava/lang/Object;)I
 
     .line 54
     .line 55
@@ -140,7 +153,8 @@
     move-result p0
 
     .line 57
-    invoke-static {p0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {p0}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 58
     .line 59
@@ -148,7 +162,8 @@
     move-result-object p0
 
     .line 61
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 62
     .line 63

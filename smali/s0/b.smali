@@ -32,7 +32,8 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Ls0/b;->a:[I
+    sput-object v0, Ls0/b;
+    ->a:[I
 
     .line 12
     .line 13
@@ -40,7 +41,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -48,7 +50,8 @@
     move-result-object v0
 
     .line 19
-    sput-object v0, Ls0/b;->b:Ljava/lang/String;
+    sput-object v0, Ls0/b;
+    ->b:Ljava/lang/String;
 
     .line 20
     .line 21
@@ -66,7 +69,8 @@
 
     .line 3
     .line 4
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 5
     .line 6
@@ -86,7 +90,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/content/res/ColorStateList;->getDefaultColor()I
+    invoke-virtual {p0}, Landroid/content/res/ColorStateList;
+    ->getDefaultColor()I
 
     .line 15
     .line 16
@@ -94,7 +99,8 @@
     move-result v1
 
     .line 18
-    invoke-static {v1}, Landroid/graphics/Color;->alpha(I)I
+    invoke-static {v1}, Landroid/graphics/Color;
+    ->alpha(I)I
 
     .line 19
     .line 20
@@ -106,11 +112,13 @@
 
     .line 23
     .line 24
-    sget-object v1, Ls0/b;->a:[I
+    sget-object v1, Ls0/b;
+    ->a:[I
 
     .line 25
     .line 26
-    invoke-virtual {p0, v1, v0}, Landroid/content/res/ColorStateList;->getColorForState([II)I
+    invoke-virtual {p0, v1, v0}, Landroid/content/res/ColorStateList;
+    ->getColorForState([II)I
 
     .line 27
     .line 28
@@ -118,7 +126,8 @@
     move-result v0
 
     .line 30
-    invoke-static {v0}, Landroid/graphics/Color;->alpha(I)I
+    invoke-static {v0}, Landroid/graphics/Color;
+    ->alpha(I)I
 
     .line 31
     .line 32
@@ -130,7 +139,8 @@
 
     .line 35
     .line 36
-    sget-object v0, Ls0/b;->b:Ljava/lang/String;
+    sget-object v0, Ls0/b;
+    ->b:Ljava/lang/String;
 
     .line 37
     .line 38
@@ -138,7 +148,8 @@
 
     .line 39
     .line 40
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -148,7 +159,8 @@
 
     .line 44
     :cond_1
-    invoke-static {v0}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
+    invoke-static {v0}, Landroid/content/res/ColorStateList;
+    ->valueOf(I)Landroid/content/res/ColorStateList;
 
     .line 45
     .line 46

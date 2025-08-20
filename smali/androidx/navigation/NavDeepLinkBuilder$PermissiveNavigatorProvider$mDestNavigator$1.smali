@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider;-><init>()V
+    value = Landroidx/navigation/NavDeepLinkBuilder$PermissiveNavigatorProvider;
+    -><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/Navigator;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/Navigator;
+    -><init>()V
     return-void
 .end method
 
@@ -45,7 +47,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/navigation/NavDestination;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroidx/navigation/NavDestination;
+    -><init>(Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -57,7 +60,8 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -70,7 +74,8 @@ return-object v0
 
     .line 9
     .line 10
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -89,7 +94,8 @@ return-object v0
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

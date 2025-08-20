@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$OnRequeryFactory;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$OnRequeryFactory;
+    -><init>()V
     return-void
 .end method
 
@@ -28,27 +29,34 @@
 
     const-string v0, "owner"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$OnRequeryFactory;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$OnRequeryFactory;
+    -><init>()V
 
     .line 3
-    invoke-interface {p1}, Landroidx/savedstate/SavedStateRegistryOwner;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-interface {p1}, Landroidx/savedstate/SavedStateRegistryOwner;
+    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
+    iput-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
 
     .line 4
-    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->lifecycle:Landroidx/lifecycle/Lifecycle;
+    iput-object p1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 5
-    iput-object p2, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->defaultArgs:Landroid/os/Bundle;
+    iput-object p2, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->defaultArgs:Landroid/os/Bundle;
 
     return-void
 .end method
@@ -67,33 +75,42 @@
     .end annotation
 
     .line 9
-    iget-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
+    iget-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
-    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->lifecycle:Landroidx/lifecycle/Lifecycle;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
-    iget-object v2, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->defaultArgs:Landroid/os/Bundle;
+    iget-object v2, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->defaultArgs:Landroid/os/Bundle;
 
-    invoke-static {v0, v1, p1, v2}, Landroidx/lifecycle/LegacySavedStateHandleController;->create(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandleController;
+    invoke-static {v0, v1, p1, v2}, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->create(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandleController;
 
     move-result-object v0
 
     .line 10
-    invoke-virtual {v0}, Landroidx/lifecycle/SavedStateHandleController;->getHandle()Landroidx/lifecycle/SavedStateHandle;
+    invoke-virtual {v0}, Landroidx/lifecycle/SavedStateHandleController;
+    ->getHandle()Landroidx/lifecycle/SavedStateHandle;
 
     move-result-object v1
 
-    invoke-virtual {p0, p1, p2, v1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->create(Ljava/lang/String;Ljava/lang/Class;Landroidx/lifecycle/SavedStateHandle;)Landroidx/lifecycle/ViewModel;
+    invoke-virtual {p0, p1, p2, v1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->create(Ljava/lang/String;Ljava/lang/Class;Landroidx/lifecycle/SavedStateHandle;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
     .line 11
     const-string p2, "androidx.lifecycle.savedstate.vm.tag"
 
-    invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/ViewModel;->addCloseable(Ljava/lang/String;Ljava/lang/AutoCloseable;)V
+    invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/ViewModel;
+    ->addCloseable(Ljava/lang/String;Ljava/lang/AutoCloseable;)V
 
     return-object p1
 .end method
@@ -114,22 +131,26 @@
 
     const-string v0, "modelClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
-    invoke-virtual {p1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getCanonicalName()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
     .line 13
-    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->lifecycle:Landroidx/lifecycle/Lifecycle;
 
     if-eqz v1, :cond_0
 
     .line 14
-    invoke-direct {p0, v0, p1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->create(Ljava/lang/String;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-direct {p0, v0, p1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->create(Ljava/lang/String;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -143,7 +164,8 @@
     const-string v0, "AbstractSavedStateViewModelFactory constructed with empty constructor supports only calls to create(modelClass: Class<T>, extras: CreationExtras)."
 
     .line 17
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -153,7 +175,8 @@
 
     const-string v0, "Local and anonymous classes can not be ViewModels"
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -174,16 +197,20 @@
 
     const-string v0, "modelClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "extras"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    sget-object v0, Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory;->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v0, Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory;
+    ->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
-    invoke-virtual {p2, v0}, Landroidx/lifecycle/viewmodel/CreationExtras;->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    ->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -192,12 +219,14 @@
     if-eqz v0, :cond_1
 
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
+    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
 
     if-eqz v1, :cond_0
 
     .line 4
-    invoke-direct {p0, v0, p1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->create(Ljava/lang/String;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-direct {p0, v0, p1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->create(Ljava/lang/String;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -205,11 +234,13 @@
 
     .line 5
     :cond_0
-    invoke-static {p2}, Landroidx/lifecycle/SavedStateHandleSupport;->createSavedStateHandle(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/SavedStateHandle;
+    invoke-static {p2}, Landroidx/lifecycle/SavedStateHandleSupport;
+    ->createSavedStateHandle(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/SavedStateHandle;
 
     move-result-object p2
 
-    invoke-virtual {p0, v0, p1, p2}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->create(Ljava/lang/String;Ljava/lang/Class;Landroidx/lifecycle/SavedStateHandle;)Landroidx/lifecycle/ViewModel;
+    invoke-virtual {p0, v0, p1, p2}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->create(Ljava/lang/String;Ljava/lang/Class;Landroidx/lifecycle/SavedStateHandle;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -223,7 +254,8 @@
     const-string p2, "VIEW_MODEL_KEY must always be provided by ViewModelProvider"
 
     .line 8
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -247,7 +279,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;->c(Landroidx/lifecycle/ViewModelProvider$Factory;Lv1/c;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;
+    ->c(Landroidx/lifecycle/ViewModelProvider$Factory;Lv1/c;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -258,7 +291,8 @@
     .locals 2
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -267,12 +301,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
+    iget-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
 
     .line 7
     .line 8
@@ -280,21 +316,25 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 11
     .line 12
     .line 13
-    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;
+    ->lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 14
     .line 15
-    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, v0, v1}, Landroidx/lifecycle/LegacySavedStateHandleController;->attachHandleIfNeeded(Landroidx/lifecycle/ViewModel;Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
+    invoke-static {p1, v0, v1}, Landroidx/lifecycle/LegacySavedStateHandleController;
+    ->attachHandleIfNeeded(Landroidx/lifecycle/ViewModel;Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/Lifecycle;)V
 
     .line 19
     .line 20

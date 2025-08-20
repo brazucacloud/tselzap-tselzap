@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;->disableZ()V
+    invoke-virtual {p0}, Landroid/graphics/Canvas;
+    ->disableZ()V
     return-void
 .end method
 
@@ -43,7 +45,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;->enableZ()V
+    invoke-virtual {p0}, Landroid/graphics/Canvas;
+    ->enableZ()V
     return-void
 .end method
 

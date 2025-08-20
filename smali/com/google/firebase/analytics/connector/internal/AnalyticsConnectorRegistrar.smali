@@ -18,7 +18,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -30,7 +31,8 @@
 
     .line 2
     .line 3
-    invoke-interface {p0, v0}, Lcom/google/firebase/components/ComponentContainer;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lcom/google/firebase/components/ComponentContainer;
+    ->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -46,7 +48,8 @@
 
     .line 10
     .line 11
-    invoke-interface {p0, v1}, Lcom/google/firebase/components/ComponentContainer;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Lcom/google/firebase/components/ComponentContainer;
+    ->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -62,7 +65,8 @@
 
     .line 18
     .line 19
-    invoke-interface {p0, v2}, Lcom/google/firebase/components/ComponentContainer;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p0, v2}, Lcom/google/firebase/components/ComponentContainer;
+    ->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -74,7 +78,8 @@
 
     .line 24
     .line 25
-    invoke-static {v0, v1, p0}, Lcom/google/firebase/analytics/connector/AnalyticsConnectorImpl;->getInstance(Lcom/google/firebase/FirebaseApp;Landroid/content/Context;Lcom/google/firebase/events/Subscriber;)Lcom/google/firebase/analytics/connector/AnalyticsConnector;
+    invoke-static {v0, v1, p0}, Lcom/google/firebase/analytics/connector/AnalyticsConnectorImpl;
+    ->getInstance(Lcom/google/firebase/FirebaseApp;Landroid/content/Context;Lcom/google/firebase/events/Subscriber;)Lcom/google/firebase/analytics/connector/AnalyticsConnector;
 
     .line 26
     .line 27
@@ -117,7 +122,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/firebase/components/Component;->builder(Ljava/lang/Class;)Lcom/google/firebase/components/Component$Builder;
+    invoke-static {v0}, Lcom/google/firebase/components/Component;
+    ->builder(Ljava/lang/Class;)Lcom/google/firebase/components/Component$Builder;
 
     .line 4
     .line 5
@@ -129,7 +135,8 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/google/firebase/components/Dependency;->required(Ljava/lang/Class;)Lcom/google/firebase/components/Dependency;
+    invoke-static {v1}, Lcom/google/firebase/components/Dependency;
+    ->required(Ljava/lang/Class;)Lcom/google/firebase/components/Dependency;
 
     .line 10
     .line 11
@@ -137,7 +144,8 @@
     move-result-object v1
 
     .line 13
-    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;->add(Lcom/google/firebase/components/Dependency;)Lcom/google/firebase/components/Component$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;
+    ->add(Lcom/google/firebase/components/Dependency;)Lcom/google/firebase/components/Component$Builder;
 
     .line 14
     .line 15
@@ -149,7 +157,8 @@
 
     .line 18
     .line 19
-    invoke-static {v1}, Lcom/google/firebase/components/Dependency;->required(Ljava/lang/Class;)Lcom/google/firebase/components/Dependency;
+    invoke-static {v1}, Lcom/google/firebase/components/Dependency;
+    ->required(Ljava/lang/Class;)Lcom/google/firebase/components/Dependency;
 
     .line 20
     .line 21
@@ -157,7 +166,8 @@
     move-result-object v1
 
     .line 23
-    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;->add(Lcom/google/firebase/components/Dependency;)Lcom/google/firebase/components/Component$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;
+    ->add(Lcom/google/firebase/components/Dependency;)Lcom/google/firebase/components/Component$Builder;
 
     .line 24
     .line 25
@@ -169,7 +179,8 @@
 
     .line 28
     .line 29
-    invoke-static {v1}, Lcom/google/firebase/components/Dependency;->required(Ljava/lang/Class;)Lcom/google/firebase/components/Dependency;
+    invoke-static {v1}, Lcom/google/firebase/components/Dependency;
+    ->required(Ljava/lang/Class;)Lcom/google/firebase/components/Dependency;
 
     .line 30
     .line 31
@@ -177,7 +188,8 @@
     move-result-object v1
 
     .line 33
-    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;->add(Lcom/google/firebase/components/Dependency;)Lcom/google/firebase/components/Component$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;
+    ->add(Lcom/google/firebase/components/Dependency;)Lcom/google/firebase/components/Component$Builder;
 
     .line 34
     .line 35
@@ -189,12 +201,14 @@
 
     .line 38
     .line 39
-    invoke-direct {v1}, Lcom/google/firebase/analytics/connector/internal/zzc;-><init>()V
+    invoke-direct {v1}, Lcom/google/firebase/analytics/connector/internal/zzc;
+    -><init>()V
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;->factory(Lcom/google/firebase/components/ComponentFactory;)Lcom/google/firebase/components/Component$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/components/Component$Builder;
+    ->factory(Lcom/google/firebase/components/ComponentFactory;)Lcom/google/firebase/components/Component$Builder;
 
     .line 43
     .line 44
@@ -202,7 +216,8 @@
     move-result-object v0
 
     .line 46
-    invoke-virtual {v0}, Lcom/google/firebase/components/Component$Builder;->eagerInDefaultApp()Lcom/google/firebase/components/Component$Builder;
+    invoke-virtual {v0}, Lcom/google/firebase/components/Component$Builder;
+    ->eagerInDefaultApp()Lcom/google/firebase/components/Component$Builder;
 
     .line 47
     .line 48
@@ -210,7 +225,8 @@
     move-result-object v0
 
     .line 50
-    invoke-virtual {v0}, Lcom/google/firebase/components/Component$Builder;->build()Lcom/google/firebase/components/Component;
+    invoke-virtual {v0}, Lcom/google/firebase/components/Component$Builder;
+    ->build()Lcom/google/firebase/components/Component;
 
     .line 51
     .line 52
@@ -226,7 +242,8 @@
 
     .line 57
     .line 58
-    invoke-static {v1, v2}, Lcom/google/firebase/platforminfo/LibraryVersionComponent;->create(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/components/Component;
+    invoke-static {v1, v2}, Lcom/google/firebase/platforminfo/LibraryVersionComponent;
+    ->create(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/components/Component;
 
     .line 59
     .line 60
@@ -255,7 +272,8 @@
 
     .line 70
     .line 71
-    invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v2}, Ljava/util/Arrays;
+    ->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 72
     .line 73

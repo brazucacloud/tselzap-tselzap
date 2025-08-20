@@ -50,12 +50,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/measurement/internal/zzaf;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/measurement/internal/zzaf;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/measurement/internal/zzag;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 7
     .line 8
@@ -83,20 +85,24 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzag;->zza:J
+    iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->zza:J
 
     .line 5
     .line 6
-    iput p3, p0, Lcom/google/android/gms/measurement/internal/zzag;->zzb:I
+    iput p3, p0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->zzb:I
 
     .line 7
     .line 8
-    iput-wide p4, p0, Lcom/google/android/gms/measurement/internal/zzag;->zzc:J
+    iput-wide p4, p0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->zzc:J
 
     .line 9
     .line 10
@@ -109,7 +115,8 @@
     .locals 3
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -120,11 +127,13 @@
     const/4 v0, 0x1
 
     .line 6
-    iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzag;->zza:J
+    iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->zza:J
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeLong(Landroid/os/Parcel;IJ)V
+    invoke-static {p1, v0, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeLong(Landroid/os/Parcel;IJ)V
 
     .line 9
     .line 10
@@ -132,11 +141,13 @@
     const/4 v0, 0x2
 
     .line 12
-    iget v1, p0, Lcom/google/android/gms/measurement/internal/zzag;->zzb:I
+    iget v1, p0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->zzb:I
 
     .line 13
     .line 14
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 15
     .line 16
@@ -144,16 +155,19 @@
     const/4 v0, 0x3
 
     .line 18
-    iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzag;->zzc:J
+    iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzag;
+    ->zzc:J
 
     .line 19
     .line 20
-    invoke-static {p1, v0, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeLong(Landroid/os/Parcel;IJ)V
+    invoke-static {p1, v0, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeLong(Landroid/os/Parcel;IJ)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 24
     .line 25

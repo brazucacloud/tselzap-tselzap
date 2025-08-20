@@ -12,7 +12,8 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;-><init>(Landroidx/lifecycle/viewmodel/CreationExtras;ILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0, v1, v0}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    -><init>(Landroidx/lifecycle/viewmodel/CreationExtras;ILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -21,21 +22,26 @@ return-void
 
     const-string v0, "initialExtras"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-direct {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    -><init>()V
 
     .line 3
-    invoke-virtual {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
+    invoke-virtual {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    ->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Landroidx/lifecycle/viewmodel/CreationExtras;->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
+    invoke-virtual {p1}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    ->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->putAll(Ljava/util/Map;)V
     return-void
 .end method
 
@@ -47,10 +53,12 @@ return-void
     if-eqz p2, :cond_0
 
     .line 4
-    sget-object p1, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    sget-object p1, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
 
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;-><init>(Landroidx/lifecycle/viewmodel/CreationExtras;)V
+    invoke-direct {p0, p1}, Landroidx/lifecycle/viewmodel/MutableCreationExtras;
+    -><init>(Landroidx/lifecycle/viewmodel/CreationExtras;)V
 return-void
 .end method
 
@@ -73,12 +81,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
+    invoke-virtual {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    ->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
 
     .line 7
     .line 8
@@ -86,7 +96,8 @@ return-void
     move-result-object v0
 
     .line 10
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -113,12 +124,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
+    invoke-virtual {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;
+    ->getMap$lifecycle_viewmodel_release()Ljava/util/Map;
 
     .line 7
     .line 8
@@ -126,7 +139,9 @@ return-void
     move-result-object v0
 
     .line 10
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .end class

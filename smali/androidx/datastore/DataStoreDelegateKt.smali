@@ -28,7 +28,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -37,7 +38,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -46,7 +48,8 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -55,7 +58,8 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -79,7 +83,8 @@
     move-object v6, p4
 
     .line 28
-    invoke-direct/range {v1 .. v6}, Landroidx/datastore/DataStoreSingletonDelegate;-><init>(Ljava/lang/String;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/datastore/DataStoreSingletonDelegate;
+    -><init>(Ljava/lang/String;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)V
 return-object v1
 .end method
 
@@ -107,7 +112,8 @@ return-object v1
 
     .line 9
     .line 10
-    sget-object p3, Landroidx/datastore/DataStoreDelegateKt$dataStore$1;->INSTANCE:Landroidx/datastore/DataStoreDelegateKt$dataStore$1;
+    sget-object p3, Landroidx/datastore/DataStoreDelegateKt$dataStore$1;
+    ->INSTANCE:Landroidx/datastore/DataStoreDelegateKt$dataStore$1;
 
     .line 11
     .line 12
@@ -120,11 +126,13 @@ return-object v1
 
     .line 15
     .line 16
-    sget-object p4, Lz1/F;->b:LG1/c;
+    sget-object p4, Lz1/F;
+    ->b:LG1/c;
 
     .line 17
     .line 18
-    invoke-static {}, Lz1/w;->b()Lz1/l0;
+    invoke-static {}, Lz1/w;
+    ->b()Lz1/l0;
 
     .line 19
     .line 20
@@ -132,7 +140,8 @@ return-object v1
     move-result-object p5
 
     .line 22
-    invoke-virtual {p4, p5}, Lg1/a;->plus(Lg1/i;)Lg1/i;
+    invoke-virtual {p4, p5}, Lg1/a;
+    ->plus(Lg1/i;)Lg1/i;
 
     .line 23
     .line 24
@@ -140,7 +149,8 @@ return-object v1
     move-result-object p4
 
     .line 26
-    invoke-static {p4}, Lz1/w;->a(Lg1/i;)LE1/e;
+    invoke-static {p4}, Lz1/w;
+    ->a(Lg1/i;)LE1/e;
 
     .line 27
     .line 28
@@ -149,7 +159,8 @@ return-object v1
 
     .line 30
     :cond_2
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/datastore/DataStoreDelegateKt;->dataStore(Ljava/lang/String;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)Lr1/a;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/datastore/DataStoreDelegateKt;
+    ->dataStore(Ljava/lang/String;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)Lr1/a;
 
     .line 31
     .line 32

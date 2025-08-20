@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/viewpager2/adapter/FragmentStateAdapter;->placeFragmentInViewHolder(Landroidx/viewpager2/adapter/FragmentViewHolder;)V
+    value = Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    ->placeFragmentInViewHolder(Landroidx/viewpager2/adapter/FragmentViewHolder;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,15 +34,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    iput-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;
+    ->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;->val$holder:Landroidx/viewpager2/adapter/FragmentViewHolder;
+    iput-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;
+    ->val$holder:Landroidx/viewpager2/adapter/FragmentViewHolder;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -59,11 +63,13 @@
     .end param
 
     .line 1
-    iget-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    iget-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;
+    ->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->shouldDelayFragmentTransactions()Z
+    invoke-virtual {p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    ->shouldDelayFragmentTransactions()Z
 
     .line 4
     .line 5
@@ -79,7 +85,8 @@
 
     .line 10
     :cond_0
-    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 11
     .line 12
@@ -87,16 +94,19 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;
+    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 15
     .line 16
     .line 17
-    iget-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;->val$holder:Landroidx/viewpager2/adapter/FragmentViewHolder;
+    iget-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;
+    ->val$holder:Landroidx/viewpager2/adapter/FragmentViewHolder;
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroidx/viewpager2/adapter/FragmentViewHolder;->getContainer()Landroid/widget/FrameLayout;
+    invoke-virtual {p1}, Landroidx/viewpager2/adapter/FragmentViewHolder;
+    ->getContainer()Landroid/widget/FrameLayout;
 
     .line 20
     .line 21
@@ -104,7 +114,8 @@
     move-result-object p1
 
     .line 23
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;->isAttachedToWindow(Landroid/view/View;)Z
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;
+    ->isAttachedToWindow(Landroid/view/View;)Z
 
     .line 24
     .line 25
@@ -116,15 +127,18 @@
 
     .line 28
     .line 29
-    iget-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    iget-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;
+    ->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
 
     .line 30
     .line 31
-    iget-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;->val$holder:Landroidx/viewpager2/adapter/FragmentViewHolder;
+    iget-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$1;
+    ->val$holder:Landroidx/viewpager2/adapter/FragmentViewHolder;
 
     .line 32
     .line 33
-    invoke-virtual {p1, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->placeFragmentInViewHolder(Landroidx/viewpager2/adapter/FragmentViewHolder;)V
+    invoke-virtual {p1, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    ->placeFragmentInViewHolder(Landroidx/viewpager2/adapter/FragmentViewHolder;)V
 
     .line 34
     .line 35

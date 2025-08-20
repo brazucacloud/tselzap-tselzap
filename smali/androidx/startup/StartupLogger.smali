@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -22,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -42,7 +44,9 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I    return-void
+    invoke-static {v0, p0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I    
+    return-void
 .end method
 
 .method public static i(Ljava/lang/String;)V
@@ -57,7 +61,9 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I    return-void
+    invoke-static {v0, p0}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;)I    
+    return-void
 .end method
 
 .method public static w(Ljava/lang/String;)V
@@ -72,7 +78,9 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I    return-void
+    invoke-static {v0, p0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I    
+    return-void
 .end method
 
 .end class

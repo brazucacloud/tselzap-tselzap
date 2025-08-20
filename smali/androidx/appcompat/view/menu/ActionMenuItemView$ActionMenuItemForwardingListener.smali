@@ -23,11 +23,14 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Landroidx/appcompat/view/menu/ActionMenuItemView;
+    iput-object p1, p0, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;
+    ->this$0:Landroidx/appcompat/view/menu/ActionMenuItemView;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/appcompat/widget/ForwardingListener;-><init>(Landroid/view/View;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/ForwardingListener;
+    -><init>(Landroid/view/View;)V    
+    return-void
 .end method
 
 
@@ -36,11 +39,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Landroidx/appcompat/view/menu/ActionMenuItemView;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;
+    ->this$0:Landroidx/appcompat/view/menu/ActionMenuItemView;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mPopupCallback:Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;
+    iget-object v0, v0, Landroidx/appcompat/view/menu/ActionMenuItemView;
+    ->mPopupCallback:Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;
 
     .line 4
     .line 5
@@ -48,7 +53,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;->getPopup()Landroidx/appcompat/view/menu/ShowableListMenu;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/ActionMenuItemView$PopupCallback;
+    ->getPopup()Landroidx/appcompat/view/menu/ShowableListMenu;
 
     .line 8
     .line 9
@@ -68,11 +74,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Landroidx/appcompat/view/menu/ActionMenuItemView;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;
+    ->this$0:Landroidx/appcompat/view/menu/ActionMenuItemView;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mItemInvoker:Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;
+    iget-object v1, v0, Landroidx/appcompat/view/menu/ActionMenuItemView;
+    ->mItemInvoker:Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;
 
     .line 4
     .line 5
@@ -83,11 +91,13 @@
 
     .line 7
     .line 8
-    iget-object v0, v0, Landroidx/appcompat/view/menu/ActionMenuItemView;->mItemData:Landroidx/appcompat/view/menu/MenuItemImpl;
+    iget-object v0, v0, Landroidx/appcompat/view/menu/ActionMenuItemView;
+    ->mItemData:Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 9
     .line 10
-    invoke-interface {v1, v0}, Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;->invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
+    invoke-interface {v1, v0}, Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;
+    ->invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
 
     .line 11
     .line 12
@@ -99,7 +109,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;->getPopup()Landroidx/appcompat/view/menu/ShowableListMenu;
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener;
+    ->getPopup()Landroidx/appcompat/view/menu/ShowableListMenu;
 
     .line 17
     .line 18
@@ -111,7 +122,8 @@
 
     .line 21
     .line 22
-    invoke-interface {v0}, Landroidx/appcompat/view/menu/ShowableListMenu;->isShowing()Z
+    invoke-interface {v0}, Landroidx/appcompat/view/menu/ShowableListMenu;
+    ->isShowing()Z
 
     .line 23
     .line 24

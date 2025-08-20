@@ -22,12 +22,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p1, p0, Lcom/google/firebase/DataCollectionDefaultChange;->enabled:Z
+    iput-boolean p1, p0, Lcom/google/firebase/DataCollectionDefaultChange;
+    ->enabled:Z
 
     .line 5
     .line 6

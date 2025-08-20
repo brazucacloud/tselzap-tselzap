@@ -23,7 +23,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;->values()[Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    invoke-static {}, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    ->values()[Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
 
     .line 2
     .line 3
@@ -38,16 +39,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
+    sput-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;
+    ->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;->TEXT:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    ->TEXT:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -66,15 +70,18 @@
     .line 19
     :catch_0
     :try_start_1
-    sget-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
+    sget-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;
+    ->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
 
     .line 20
     .line 21
-    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;->VIDEO:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    ->VIDEO:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 24
     .line 25
@@ -93,15 +100,18 @@
     .line 30
     :catch_1
     :try_start_2
-    sget-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
+    sget-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;
+    ->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
 
     .line 31
     .line 32
-    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;->IMAGE:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    ->IMAGE:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 35
     .line 36
@@ -120,15 +130,18 @@
     .line 41
     :catch_2
     :try_start_3
-    sget-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
+    sget-object v0, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$3;
+    ->$SwitchMap$com$fmark$TselZap$ApiWA$sender$model$WMessage$MessageType:[I
 
     .line 42
     .line 43
-    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;->AUDIO:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    sget-object v1, Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
+    ->AUDIO:Lcom/fmark/tselzap/ApiWA/sender/model/WMessage$MessageType;
 
     .line 44
     .line 45
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 46
     .line 47

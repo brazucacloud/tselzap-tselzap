@@ -54,16 +54,19 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
+    sget-object v0, Ljava/util/Collections;
+    ->EMPTY_MAP:Ljava/util/Map;
 
     .line 5
     .line 6
-    iput-object v0, p0, Lcom/android/volley/Cache$Entry;->responseHeaders:Ljava/util/Map;
+    iput-object v0, p0, Lcom/android/volley/Cache$Entry;
+    ->responseHeaders:Ljava/util/Map;
 
     .line 7
     .line 8
@@ -76,11 +79,13 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;
+    ->currentTimeMillis()J
 
     move-result-wide v0
 
-    invoke-virtual {p0, v0, v1}, Lcom/android/volley/Cache$Entry;->isExpired(J)Z
+    invoke-virtual {p0, v0, v1}, Lcom/android/volley/Cache$Entry;
+    ->isExpired(J)Z
 
     move-result v0
 
@@ -91,7 +96,8 @@
     .locals 3
 
     .line 2
-    iget-wide v0, p0, Lcom/android/volley/Cache$Entry;->ttl:J
+    iget-wide v0, p0, Lcom/android/volley/Cache$Entry;
+    ->ttl:J
 
     cmp-long v2, v0, p1
 
@@ -111,11 +117,13 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;
+    ->currentTimeMillis()J
 
     move-result-wide v0
 
-    invoke-virtual {p0, v0, v1}, Lcom/android/volley/Cache$Entry;->refreshNeeded(J)Z
+    invoke-virtual {p0, v0, v1}, Lcom/android/volley/Cache$Entry;
+    ->refreshNeeded(J)Z
 
     move-result v0
 
@@ -126,7 +134,8 @@
     .locals 3
 
     .line 2
-    iget-wide v0, p0, Lcom/android/volley/Cache$Entry;->softTtl:J
+    iget-wide v0, p0, Lcom/android/volley/Cache$Entry;
+    ->softTtl:J
 
     cmp-long v2, v0, p1
 

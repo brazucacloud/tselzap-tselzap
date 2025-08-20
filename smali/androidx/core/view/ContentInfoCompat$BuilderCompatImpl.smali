@@ -47,13 +47,16 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mClip:Landroid/content/ClipData;
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mClip:Landroid/content/ClipData;
 
     .line 3
-    iput p2, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mSource:I
+    iput p2, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mSource:I
 
     return-void
 .end method
@@ -66,42 +69,53 @@
     .end param
 
     .line 4
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 5
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->getClip()Landroid/content/ClipData;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->getClip()Landroid/content/ClipData;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mClip:Landroid/content/ClipData;
+    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mClip:Landroid/content/ClipData;
 
     .line 6
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->getSource()I
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->getSource()I
 
     move-result v0
 
-    iput v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mSource:I
+    iput v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mSource:I
 
     .line 7
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->getFlags()I
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->getFlags()I
 
     move-result v0
 
-    iput v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mFlags:I
+    iput v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mFlags:I
 
     .line 8
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->getLinkUri()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->getLinkUri()Landroid/net/Uri;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mLinkUri:Landroid/net/Uri;
+    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mLinkUri:Landroid/net/Uri;
 
     .line 9
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
+    ->getExtras()Landroid/os/Bundle;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mExtras:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mExtras:Landroid/os/Bundle;
 
     return-void
 .end method
@@ -122,12 +136,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Landroidx/core/view/ContentInfoCompat$CompatImpl;-><init>(Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;)V
+    invoke-direct {v1, p0}, Landroidx/core/view/ContentInfoCompat$CompatImpl;
+    -><init>(Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-direct {v0, v1}, Landroidx/core/view/ContentInfoCompat;-><init>(Landroidx/core/view/ContentInfoCompat$Compat;)V
+    invoke-direct {v0, v1}, Landroidx/core/view/ContentInfoCompat;
+    -><init>(Landroidx/core/view/ContentInfoCompat$Compat;)V
 
     .line 9
     .line 10
@@ -143,7 +159,8 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mClip:Landroid/content/ClipData;
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mClip:Landroid/content/ClipData;
 
     .line 2
     .line 3
@@ -158,7 +175,8 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mExtras:Landroid/os/Bundle;
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mExtras:Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -169,7 +187,8 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mFlags:I
+    iput p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mFlags:I
 
     .line 2
     .line 3
@@ -184,7 +203,8 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mLinkUri:Landroid/net/Uri;
+    iput-object p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mLinkUri:Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -195,7 +215,8 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;->mSource:I
+    iput p1, p0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    ->mSource:I
 
     .line 2
     .line 3

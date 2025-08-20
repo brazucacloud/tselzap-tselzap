@@ -52,7 +52,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 10
     .line 11
@@ -61,7 +62,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -78,7 +80,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->length()I
 
     .line 23
     .line 24
@@ -97,13 +100,15 @@
 
     .line 30
     .line 31
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
     :cond_1
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 35
     .line 36
@@ -120,12 +125,14 @@
 
     .line 41
     .line 42
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -134,16 +141,19 @@
 
     .line 49
     :goto_1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 50
     .line 51
     .line 52
-    iput-object p2, p0, Lcom/google/android/gms/common/logging/Logger;->zzb:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zzb:Ljava/lang/String;
 
     .line 53
     .line 54
-    iput-object p1, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 55
     .line 56
@@ -151,12 +161,14 @@
 
     .line 57
     .line 58
-    invoke-direct {p2, p1}, Lcom/google/android/gms/common/internal/GmsLogger;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Lcom/google/android/gms/common/internal/GmsLogger;
+    -><init>(Ljava/lang/String;)V
 
     .line 59
     .line 60
     .line 61
-    iput-object p2, p0, Lcom/google/android/gms/common/logging/Logger;->zzc:Lcom/google/android/gms/common/internal/GmsLogger;
+    iput-object p2, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zzc:Lcom/google/android/gms/common/internal/GmsLogger;
 
     .line 62
     .line 63
@@ -171,11 +183,13 @@
 
     .line 66
     .line 67
-    iget-object p2, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object p2, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 68
     .line 69
-    invoke-static {p2, p1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {p2, p1}, Landroid/util/Log;
+    ->isLoggable(Ljava/lang/String;I)Z
 
     .line 70
     .line 71
@@ -195,7 +209,8 @@
 
     .line 78
     :cond_3
-    iput p1, p0, Lcom/google/android/gms/common/logging/Logger;->zzd:I
+    iput p1, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zzd:I
 
     .line 79
     .line 80
@@ -221,7 +236,8 @@
     const/4 v0, 0x3
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/logging/Logger;->isLoggable(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/logging/Logger;
+    ->isLoggable(I)Z
 
     .line 3
     .line 4
@@ -233,11 +249,13 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 9
     .line 10
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -245,7 +263,8 @@
     move-result-object p1
 
     .line 14
-    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 15
     .line 16
@@ -272,13 +291,16 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p3}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p3}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1, p2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
 .end method
@@ -297,13 +319,16 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 .end method
@@ -336,11 +361,13 @@
 
     .line 5
     .line 6
-    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
+    sget-object v0, Ljava/util/Locale;
+    ->US:Ljava/util/Locale;
 
     .line 7
     .line 8
-    invoke-static {v0, p1, p2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Ljava/lang/String;
+    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -349,11 +376,13 @@
 
     .line 12
     :cond_0
-    iget-object p2, p0, Lcom/google/android/gms/common/logging/Logger;->zzb:Ljava/lang/String;
+    iget-object p2, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zzb:Ljava/lang/String;
 
     .line 13
     .line 14
-    invoke-virtual {p2, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -371,7 +400,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -390,11 +420,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -402,7 +434,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {v0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 8
     .line 9
@@ -415,7 +448,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget v0, p0, Lcom/google/android/gms/common/logging/Logger;->zzd:I
+    iget v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zzd:I
 
     if-gt v0, p1, :cond_0
 
@@ -449,20 +483,24 @@
     const/4 v0, 0x2
 
     .line 1
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/logging/Logger;->isLoggable(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/logging/Logger;
+    ->isLoggable(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 2
-    invoke-virtual {p0, p1, p3}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p3}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1, p2}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
     return-void
@@ -484,20 +522,24 @@
     const/4 v0, 0x2
 
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/logging/Logger;->isLoggable(I)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/logging/Logger;
+    ->isLoggable(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 4
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->v(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     return-void
@@ -517,11 +559,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -529,7 +573,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 8
     .line 9
@@ -555,13 +600,16 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p3}, Lcom/google/android/gms/common/logging/Logger;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p3}, Lcom/google/android/gms/common/logging/Logger;
+    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1, p2}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1, p2}, Landroid/util/Log;
+    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
 .end method
@@ -576,9 +624,11 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/logging/Logger;
+    ->zza:Ljava/lang/String;
 
-    invoke-static {v0, p1}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->wtf(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
 .end method

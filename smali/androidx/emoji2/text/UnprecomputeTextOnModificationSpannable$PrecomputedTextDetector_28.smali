@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable$PrecomputedTextDetector;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/UnprecomputeTextOnModificationSpannable$PrecomputedTextDetector;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;->v(Ljava/lang/CharSequence;)Z
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;
+    ->v(Ljava/lang/CharSequence;)Z
 
     .line 2
     .line 3

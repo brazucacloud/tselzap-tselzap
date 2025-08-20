@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;
+    ->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +42,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;
+    ->getAnimatedValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -52,7 +55,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 8
     .line 9
@@ -71,37 +75,45 @@
     float-to-int p1, p1
 
     .line 16
-    iget-object v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;
+    ->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 17
     .line 18
-    iget-object v0, v0, Landroidx/recyclerview/widget/FastScroller;->mVerticalThumbDrawable:Landroid/graphics/drawable/StateListDrawable;
+    iget-object v0, v0, Landroidx/recyclerview/widget/FastScroller;
+    ->mVerticalThumbDrawable:Landroid/graphics/drawable/StateListDrawable;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
+    ->setAlpha(I)V
 
     .line 21
     .line 22
     .line 23
-    iget-object v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;
+    ->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 24
     .line 25
-    iget-object v0, v0, Landroidx/recyclerview/widget/FastScroller;->mVerticalTrackDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, v0, Landroidx/recyclerview/widget/FastScroller;
+    ->mVerticalTrackDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 26
     .line 27
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
+    ->setAlpha(I)V
 
     .line 28
     .line 29
     .line 30
-    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorUpdater;
+    ->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 31
     .line 32
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;
+    ->requestRedraw()V
     return-void
 .end method
 

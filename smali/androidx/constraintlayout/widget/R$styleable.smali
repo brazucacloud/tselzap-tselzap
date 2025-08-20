@@ -1770,7 +1770,8 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->Carousel:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->Carousel:[I
 
     const v0, 0x10100d0
 
@@ -1786,7 +1787,8 @@
 
     fill-array-data v4, :array_1
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->Constraint:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->Constraint:[I
 
     const/16 v4, 0x73
 
@@ -1794,7 +1796,8 @@
 
     fill-array-data v4, :array_2
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_Layout:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_Layout:[I
 
     const v4, 0x7f04049e
 
@@ -1808,7 +1811,8 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_ReactiveGuide:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_ReactiveGuide:[I
 
     const v4, 0x7f0401a4
 
@@ -1818,7 +1822,8 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_placeholder:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_placeholder:[I
 
     const/16 v4, 0x6c
 
@@ -1826,7 +1831,8 @@
 
     fill-array-data v4, :array_3
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintOverride:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintOverride:[I
 
     const/16 v4, 0x7b
 
@@ -1834,7 +1840,8 @@
 
     fill-array-data v4, :array_4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintSet:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintSet:[I
 
     const/16 v4, 0xb
 
@@ -1842,7 +1849,8 @@
 
     fill-array-data v4, :array_5
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->CustomAttribute:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->CustomAttribute:[I
 
     const/16 v4, 0xb
 
@@ -1850,7 +1858,8 @@
 
     fill-array-data v4, :array_6
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->Grid:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->Grid:[I
 
     const/16 v4, 0xe
 
@@ -1858,7 +1867,8 @@
 
     fill-array-data v4, :array_7
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->ImageFilterView:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->ImageFilterView:[I
 
     const/16 v4, 0x13
 
@@ -1866,7 +1876,8 @@
 
     fill-array-data v4, :array_8
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->KeyAttribute:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyAttribute:[I
 
     const/16 v4, 0x15
 
@@ -1874,21 +1885,25 @@
 
     fill-array-data v4, :array_9
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->KeyCycle:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyCycle:[I
 
     const/4 v4, 0x0
 
     new-array v5, v4, [I
 
-    sput-object v5, Landroidx/constraintlayout/widget/R$styleable;->KeyFrame:[I
+    sput-object v5, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyFrame:[I
 
     new-array v5, v4, [I
 
-    sput-object v5, Landroidx/constraintlayout/widget/R$styleable;->KeyFramesAcceleration:[I
+    sput-object v5, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyFramesAcceleration:[I
 
     new-array v4, v4, [I
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->KeyFramesVelocity:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyFramesVelocity:[I
 
     const/16 v4, 0xc
 
@@ -1896,7 +1911,8 @@
 
     fill-array-data v4, :array_a
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->KeyPosition:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyPosition:[I
 
     const/16 v4, 0x15
 
@@ -1904,7 +1920,8 @@
 
     fill-array-data v4, :array_b
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->KeyTimeCycle:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyTimeCycle:[I
 
     const/16 v4, 0xd
 
@@ -1912,7 +1929,8 @@
 
     fill-array-data v4, :array_c
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->KeyTrigger:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyTrigger:[I
 
     const/16 v4, 0x4c
 
@@ -1920,7 +1938,8 @@
 
     fill-array-data v4, :array_d
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->Layout:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->Layout:[I
 
     const/4 v4, 0x6
 
@@ -1928,7 +1947,8 @@
 
     fill-array-data v4, :array_e
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MockView:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MockView:[I
 
     const/16 v4, 0xa
 
@@ -1936,7 +1956,8 @@
 
     fill-array-data v4, :array_f
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->Motion:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->Motion:[I
 
     const/16 v4, 0x8
 
@@ -1944,7 +1965,8 @@
 
     fill-array-data v4, :array_10
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MotionEffect:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MotionEffect:[I
 
     const v4, 0x7f040449
 
@@ -1954,7 +1976,8 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MotionHelper:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MotionHelper:[I
 
     const/16 v4, 0x19
 
@@ -1962,7 +1985,8 @@
 
     fill-array-data v4, :array_11
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MotionLabel:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MotionLabel:[I
 
     const/4 v4, 0x6
 
@@ -1970,7 +1994,8 @@
 
     fill-array-data v4, :array_12
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MotionLayout:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MotionLayout:[I
 
     const v4, 0x7f0401e0
 
@@ -1980,7 +2005,8 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MotionScene:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MotionScene:[I
 
     const v4, 0x7f04058f
 
@@ -1992,7 +2018,8 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->MotionTelltales:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->MotionTelltales:[I
 
     const v4, 0x7f04012a
 
@@ -2002,7 +2029,8 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->OnClick:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->OnClick:[I
 
     const/16 v4, 0x13
 
@@ -2010,7 +2038,8 @@
 
     fill-array-data v4, :array_13
 
-    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;->OnSwipe:[I
+    sput-object v4, Landroidx/constraintlayout/widget/R$styleable;
+    ->OnSwipe:[I
 
     const v4, 0x7f040653
 
@@ -2020,7 +2049,8 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/constraintlayout/widget/R$styleable;->PropertySet:[I
+    sput-object v1, Landroidx/constraintlayout/widget/R$styleable;
+    ->PropertySet:[I
 
     const v1, 0x7f040192
 
@@ -2028,7 +2058,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->State:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->State:[I
 
     const v0, 0x7f0401e5
 
@@ -2036,7 +2067,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->StateSet:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->StateSet:[I
 
     const/16 v0, 0xe
 
@@ -2044,7 +2076,8 @@
 
     fill-array-data v0, :array_14
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->TextEffects:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->TextEffects:[I
 
     const/16 v0, 0xc
 
@@ -2052,7 +2085,8 @@
 
     fill-array-data v0, :array_15
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->Transform:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->Transform:[I
 
     const/16 v0, 0xb
 
@@ -2060,7 +2094,8 @@
 
     fill-array-data v0, :array_16
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->Transition:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->Transition:[I
 
     const v0, 0x7f0404a3
 
@@ -2074,7 +2109,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->Variant:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->Variant:[I
 
     const/16 v0, 0xf
 
@@ -2082,7 +2118,8 @@
 
     fill-array-data v0, :array_17
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->ViewTransition:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->ViewTransition:[I
 
     const v0, 0x7f04018d
 
@@ -2090,7 +2127,8 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;->include:[I
+    sput-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->include:[I
 
     return-void
 
@@ -2999,7 +3037,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

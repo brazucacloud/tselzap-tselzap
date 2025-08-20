@@ -17,12 +17,14 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;->mValues:[F
+    iput-object p1, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    ->mValues:[F
 
     .line 5
     .line 6
@@ -43,7 +45,8 @@
     div-float/2addr v0, p1
 
     .line 13
-    iput v0, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;->mStepSize:F
+    iput v0, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    ->mStepSize:F
 
     .line 14
     .line 15
@@ -87,7 +90,8 @@
 
     .line 14
     :cond_1
-    iget-object v0, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;->mValues:[F
+    iget-object v0, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    ->mValues:[F
 
     .line 15
     .line 16
@@ -115,7 +119,8 @@
 
     .line 25
     .line 26
-    invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
+    invoke-static {v1, v0}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 27
     .line 28
@@ -126,7 +131,8 @@
     int-to-float v1, v0
 
     .line 31
-    iget v2, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;->mStepSize:F
+    iget v2, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    ->mStepSize:F
 
     .line 32
     .line 33
@@ -140,7 +146,8 @@
     div-float/2addr p1, v2
 
     .line 37
-    iget-object v1, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;->mValues:[F
+    iget-object v1, p0, Landroidx/interpolator/view/animation/LookupTableInterpolator;
+    ->mValues:[F
 
     .line 38
     .line 39
@@ -156,7 +163,8 @@
 
     .line 44
     .line 45
-    invoke-static {v0, v2, p1, v2}, LA/d;->b(FFFF)F
+    invoke-static {v0, v2, p1, v2}, LA/d;
+    ->b(FFFF)F
 
     .line 46
     .line 47

@@ -30,12 +30,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;-><init>()V
+    invoke-direct {v0}, Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
+    ->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
 
     .line 7
     .line 8
@@ -46,7 +48,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -78,7 +81,8 @@
 
     .line 7
     .line 8
-    invoke-interface {p1, p2}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {p1, p2}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 9
     .line 10
@@ -86,7 +90,8 @@
     move-result v1
 
     .line 12
-    invoke-static {v1}, Ljava/lang/Character;->getDirectionality(C)B
+    invoke-static {v1}, Ljava/lang/Character;
+    ->getDirectionality(C)B
 
     .line 13
     .line 14
@@ -94,7 +99,8 @@
     move-result v1
 
     .line 16
-    invoke-static {v1}, Landroidx/core/text/TextDirectionHeuristicsCompat;->isRtlTextOrFormat(I)I
+    invoke-static {v1}, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->isRtlTextOrFormat(I)I
 
     .line 17
     .line 18

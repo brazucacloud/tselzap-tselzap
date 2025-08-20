@@ -57,12 +57,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/startup/AppInitializer;->sLock:Ljava/lang/Object;    return-void
+    sput-object v0, Landroidx/startup/AppInitializer;
+    ->sLock:Ljava/lang/Object;    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -73,12 +75,14 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -86,7 +90,8 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/startup/AppInitializer;->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/startup/AppInitializer;
+    ->mContext:Landroid/content/Context;
 
     .line 9
     .line 10
@@ -94,12 +99,14 @@
 
     .line 11
     .line 12
-    invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 13
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/startup/AppInitializer;->mDiscovered:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/startup/AppInitializer;
+    ->mDiscovered:Ljava/util/Set;
 
     .line 16
     .line 17
@@ -107,12 +114,15 @@
 
     .line 18
     .line 19
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 20
     .line 21
     .line 22
-    iput-object p1, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;    return-void
+    iput-object p1, p0, Landroidx/startup/AppInitializer;
+    ->mInitialized:Ljava/util/Map;    
+    return-void
 .end method
 
 .method private doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
@@ -146,7 +156,8 @@
     .line 5
     const-string v0, "Cannot initialize "
 
-    invoke-static {}, Landroidx/tracing/Trace;->isEnabled()Z
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->isEnabled()Z
 
     move-result v1
 
@@ -154,11 +165,13 @@
 
     .line 6
     :try_start_0
-    invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1}, Landroidx/tracing/Trace;->beginSection(Ljava/lang/String;)V
+    invoke-static {v1}, Landroidx/tracing/Trace;
+    ->beginSection(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -170,23 +183,27 @@
     .line 7
     :cond_0
     :goto_0
-    invoke-interface {p2, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {p2, p1}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-nez v1, :cond_4
 
     .line 8
-    iget-object v0, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/startup/AppInitializer;
+    ->mInitialized:Ljava/util/Map;
 
-    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
     .line 9
-    invoke-interface {p2, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {p2, p1}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -196,13 +213,15 @@
     :try_start_1
     new-array v1, v0, [Ljava/lang/Class;
 
-    invoke-virtual {p1, v1}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, v1}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v1
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    invoke-virtual {v1, v0}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -210,47 +229,55 @@
     check-cast v0, Landroidx/startup/Initializer;
 
     .line 12
-    invoke-interface {v0}, Landroidx/startup/Initializer;->dependencies()Ljava/util/List;
+    invoke-interface {v0}, Landroidx/startup/Initializer;
+    ->dependencies()Ljava/util/List;
 
     move-result-object v1
 
     .line 13
-    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v1}, Ljava/util/List;
+    ->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
     .line 14
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
     :cond_1
     :goto_1
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/Class;
 
     .line 15
-    iget-object v3, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;
+    iget-object v3, p0, Landroidx/startup/AppInitializer;
+    ->mInitialized:Ljava/util/Map;
 
-    invoke-interface {v3, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v3, v2}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
     .line 16
-    invoke-direct {p0, v2, p2}, Landroidx/startup/AppInitializer;->doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
+    invoke-direct {p0, v2, p2}, Landroidx/startup/AppInitializer;
+    ->doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
 
     goto :goto_1
 
@@ -261,19 +288,24 @@
 
     .line 17
     :cond_2
-    iget-object v1, p0, Landroidx/startup/AppInitializer;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/startup/AppInitializer;
+    ->mContext:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Landroidx/startup/Initializer;->create(Landroid/content/Context;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Landroidx/startup/Initializer;
+    ->create(Landroid/content/Context;)Ljava/lang/Object;
 
     move-result-object v0
 
     .line 18
-    invoke-interface {p2, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+    invoke-interface {p2, p1}, Ljava/util/Set;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 19
-    iget-object p2, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;
+    iget-object p2, p0, Landroidx/startup/AppInitializer;
+    ->mInitialized:Ljava/util/Map;
 
-    invoke-interface {p2, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -284,15 +316,18 @@
     :try_start_2
     new-instance p2, Landroidx/startup/StartupException;
 
-    invoke-direct {p2, p1}, Landroidx/startup/StartupException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p2, p1}, Landroidx/startup/StartupException;
+    -><init>(Ljava/lang/Throwable;)V
 
     throw p2
 
     .line 21
     :cond_3
-    iget-object p2, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;
+    iget-object p2, p0, Landroidx/startup/AppInitializer;
+    ->mInitialized:Ljava/util/Map;
 
-    invoke-interface {p2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
     :try_end_2
@@ -300,35 +335,42 @@
 
     .line 22
     :goto_3
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->endSection()V
     return-object v0
 
     .line 23
     :cond_4
     :try_start_3
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     move-result-object p1
 
     .line 24
     new-instance p2, Ljava/lang/StringBuilder;
 
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p1, ". Cycle detected."
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
     .line 25
     new-instance p2, Ljava/lang/IllegalStateException;
 
-    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p2
     :try_end_3
@@ -336,7 +378,8 @@
 
     .line 26
     :goto_4
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->endSection()V
 
     .line 27
     throw p1
@@ -352,7 +395,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;
+    sget-object v0, Landroidx/startup/AppInitializer;
+    ->sInstance:Landroidx/startup/AppInitializer;
 
     .line 2
     .line 3
@@ -360,7 +404,8 @@
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/startup/AppInitializer;->sLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/startup/AppInitializer;
+    ->sLock:Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -368,7 +413,8 @@
 
     .line 8
     :try_start_0
-    sget-object v1, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;
+    sget-object v1, Landroidx/startup/AppInitializer;
+    ->sInstance:Landroidx/startup/AppInitializer;
 
     .line 9
     .line 10
@@ -380,12 +426,14 @@
 
     .line 13
     .line 14
-    invoke-direct {v1, p0}, Landroidx/startup/AppInitializer;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Landroidx/startup/AppInitializer;
+    -><init>(Landroid/content/Context;)V
 
     .line 15
     .line 16
     .line 17
-    sput-object v1, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;
+    sput-object v1, Landroidx/startup/AppInitializer;
+    ->sInstance:Landroidx/startup/AppInitializer;
 
     .line 18
     .line 19
@@ -418,7 +466,8 @@
     .line 26
     :cond_1
     :goto_2
-    sget-object p0, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;    return-object p0
+    sget-object p0, Landroidx/startup/AppInitializer;
+    ->sInstance:Landroidx/startup/AppInitializer;    return-object p0
 .end method
 
 .method public static setDelegate(Landroidx/startup/AppInitializer;)V
@@ -429,7 +478,8 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/startup/AppInitializer;->sLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/startup/AppInitializer;
+    ->sLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -437,7 +487,8 @@
 
     .line 4
     :try_start_0
-    sput-object p0, Landroidx/startup/AppInitializer;->sInstance:Landroidx/startup/AppInitializer;
+    sput-object p0, Landroidx/startup/AppInitializer;
+    ->sInstance:Landroidx/startup/AppInitializer;
 
     .line 5
     .line 6
@@ -466,51 +517,62 @@
     :try_start_0
     const-string v0, "Startup"
 
-    invoke-static {v0}, Landroidx/tracing/Trace;->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroidx/tracing/Trace;
+    ->beginSection(Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroid/content/ComponentName;
 
-    iget-object v1, p0, Landroidx/startup/AppInitializer;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/startup/AppInitializer;
+    ->mContext:Landroid/content/Context;
 
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
     const-class v2, Landroidx/startup/InitializationProvider;
 
     .line 3
-    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Landroid/content/ComponentName;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
-    iget-object v1, p0, Landroidx/startup/AppInitializer;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/startup/AppInitializer;
+    ->mContext:Landroid/content/Context;
 
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
     const/16 v2, 0x80
 
     .line 5
-    invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;->getProviderInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ProviderInfo;
+    invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;
+    ->getProviderInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ProviderInfo;
 
     move-result-object v0
 
     .line 6
-    iget-object v0, v0, Landroid/content/pm/ProviderInfo;->metaData:Landroid/os/Bundle;
+    iget-object v0, v0, Landroid/content/pm/ProviderInfo;
+    ->metaData:Landroid/os/Bundle;
 
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/startup/AppInitializer;->discoverAndInitialize(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Landroidx/startup/AppInitializer;
+    ->discoverAndInitialize(Landroid/os/Bundle;)V
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 8
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->endSection()V
     return-void
 
     :catchall_0
@@ -525,7 +587,8 @@
     :try_start_1
     new-instance v1, Landroidx/startup/StartupException;
 
-    invoke-direct {v1, v0}, Landroidx/startup/StartupException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Landroidx/startup/StartupException;
+    -><init>(Ljava/lang/Throwable;)V
 
     throw v1
     :try_end_1
@@ -533,7 +596,8 @@
 
     .line 10
     :goto_0
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+    invoke-static {}, Landroidx/tracing/Trace;
+    ->endSection()V
 
     .line 11
     throw v0
@@ -547,11 +611,14 @@
     .end param
 
     .line 12
-    iget-object v0, p0, Landroidx/startup/AppInitializer;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/startup/AppInitializer;
+    ->mContext:Landroid/content/Context;
 
-    sget v1, Landroidx/startup/R$string;->androidx_startup:I
+    sget v1, Landroidx/startup/R$string;
+    ->androidx_startup:I
 
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/content/Context;
+    ->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -561,27 +628,32 @@
     :try_start_0
     new-instance v1, Ljava/util/HashSet;
 
-    invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v1}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 14
-    invoke-virtual {p1}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
+    invoke-virtual {p1}, Landroid/os/BaseBundle;
+    ->keySet()Ljava/util/Set;
 
     move-result-object v2
 
     .line 15
-    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 
     :cond_0
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -590,35 +662,41 @@
     const/4 v4, 0x0
 
     .line 16
-    invoke-virtual {p1, v3, v4}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v3, v4}, Landroid/os/BaseBundle;
+    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     .line 17
-    invoke-virtual {v0, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
     .line 18
-    invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v3}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v3
 
     .line 19
     const-class v4, Landroidx/startup/Initializer;
 
-    invoke-virtual {v4, v3}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v4, v3}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
     .line 20
-    iget-object v4, p0, Landroidx/startup/AppInitializer;->mDiscovered:Ljava/util/Set;
+    iget-object v4, p0, Landroidx/startup/AppInitializer;
+    ->mDiscovered:Ljava/util/Set;
 
-    invoke-interface {v4, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {v4, v3}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -629,27 +707,32 @@
 
     .line 21
     :cond_1
-    iget-object p1, p0, Landroidx/startup/AppInitializer;->mDiscovered:Ljava/util/Set;
+    iget-object p1, p0, Landroidx/startup/AppInitializer;
+    ->mDiscovered:Ljava/util/Set;
 
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Class;
 
     .line 22
-    invoke-direct {p0, v0, v1}, Landroidx/startup/AppInitializer;->doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
+    invoke-direct {p0, v0, v1}, Landroidx/startup/AppInitializer;
+    ->doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -659,7 +742,8 @@
     :goto_2
     new-instance v0, Landroidx/startup/StartupException;
 
-    invoke-direct {v0, p1}, Landroidx/startup/StartupException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Landroidx/startup/StartupException;
+    -><init>(Ljava/lang/Throwable;)V
 
     throw v0
 
@@ -689,15 +773,18 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/startup/AppInitializer;->sLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/startup/AppInitializer;
+    ->sLock:Ljava/lang/Object;
 
     monitor-enter v0
 
     .line 2
     :try_start_0
-    iget-object v1, p0, Landroidx/startup/AppInitializer;->mInitialized:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/startup/AppInitializer;
+    ->mInitialized:Ljava/util/Map;
 
-    invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -706,9 +793,11 @@
     .line 3
     new-instance v1, Ljava/util/HashSet;
 
-    invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v1}, Ljava/util/HashSet;
+    -><init>()V
 
-    invoke-direct {p0, p1, v1}, Landroidx/startup/AppInitializer;->doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
+    invoke-direct {p0, p1, v1}, Landroidx/startup/AppInitializer;
+    ->doInitialize(Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -756,7 +845,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/startup/AppInitializer;->doInitialize(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/startup/AppInitializer;
+    ->doInitialize(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -783,11 +873,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/startup/AppInitializer;->mDiscovered:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/startup/AppInitializer;
+    ->mDiscovered:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 4
     .line 5

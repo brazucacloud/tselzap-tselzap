@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -42,7 +43,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ResourcesWrapper;-><init>(Landroid/content/res/Resources;)V
+    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    -><init>(Landroid/content/res/Resources;)V
 
     .line 2
     .line 3
@@ -51,33 +53,39 @@
 
     .line 5
     .line 6
-    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/appcompat/widget/VectorEnabledTintResources;->mContextRef:Ljava/lang/ref/WeakReference;    return-void
+    iput-object p2, p0, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->mContextRef:Ljava/lang/ref/WeakReference;    
+    return-void
 .end method
 
 .method public static isCompatVectorFromResourcesEnabled()Z
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/widget/VectorEnabledTintResources;->sCompatVectorFromResourcesEnabled:Z    return v0
+    sget-boolean v0, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->sCompatVectorFromResourcesEnabled:Z    return v0
 .end method
 
 .method public static setCompatVectorFromResourcesEnabled(Z)V
     .locals 0
 
     .line 1
-    sput-boolean p0, Landroidx/appcompat/widget/VectorEnabledTintResources;->sCompatVectorFromResourcesEnabled:Z    return-void
+    sput-boolean p0, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->sCompatVectorFromResourcesEnabled:Z    return-void
 .end method
 
 .method public static shouldBeUsed()Z
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/appcompat/widget/VectorEnabledTintResources;->isCompatVectorFromResourcesEnabled()Z
+    invoke-static {}, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->isCompatVectorFromResourcesEnabled()Z
 
     .line 2
     .line 3
@@ -93,7 +101,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getAnimation(I)Landroid/content/res/XmlResourceParser;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getAnimation(I)Landroid/content/res/XmlResourceParser;
 
     .line 2
     .line 3
@@ -107,7 +116,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getBoolean(I)Z
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getBoolean(I)Z
 
     .line 2
     .line 3
@@ -121,7 +131,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getColor(I)I
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getColor(I)I
 
     .line 2
     .line 3
@@ -135,7 +146,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -149,7 +161,8 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/appcompat/widget/ResourcesWrapper;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-super {p0}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getConfiguration()Landroid/content/res/Configuration;
 
     .line 2
     .line 3
@@ -163,7 +176,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getDimension(I)F
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDimension(I)F
 
     .line 2
     .line 3
@@ -177,7 +191,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getDimensionPixelOffset(I)I
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDimensionPixelOffset(I)I
 
     .line 2
     .line 3
@@ -191,7 +206,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getDimensionPixelSize(I)I
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDimensionPixelSize(I)I
 
     .line 2
     .line 3
@@ -205,7 +221,8 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/appcompat/widget/ResourcesWrapper;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-super {p0}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 2
     .line 3
@@ -219,9 +236,11 @@
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/appcompat/widget/VectorEnabledTintResources;->mContextRef:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/appcompat/widget/VectorEnabledTintResources;
+    ->mContextRef:Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -230,11 +249,13 @@
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-static {}, Landroidx/appcompat/widget/ResourceManagerInternal;->get()Landroidx/appcompat/widget/ResourceManagerInternal;
+    invoke-static {}, Landroidx/appcompat/widget/ResourceManagerInternal;
+    ->get()Landroidx/appcompat/widget/ResourceManagerInternal;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, p0, p1}, Landroidx/appcompat/widget/ResourceManagerInternal;->onDrawableLoadedFromResources(Landroid/content/Context;Landroidx/appcompat/widget/VectorEnabledTintResources;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1, v0, p0, p1}, Landroidx/appcompat/widget/ResourceManagerInternal;
+    ->onDrawableLoadedFromResources(Landroid/content/Context;Landroidx/appcompat/widget/VectorEnabledTintResources;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -242,7 +263,8 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getDrawableCanonical(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDrawableCanonical(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -256,7 +278,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->getDrawable(ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDrawable(ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -267,7 +290,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->getDrawableForDensity(II)Landroid/graphics/drawable/Drawable;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDrawableForDensity(II)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -281,7 +305,8 @@
     .end annotation
 
     .line 2
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->getDrawableForDensity(IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getDrawableForDensity(IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
@@ -292,7 +317,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->getFraction(III)F
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getFraction(III)F
 
     .line 2
     .line 3
@@ -306,7 +332,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 2
     .line 3
@@ -320,7 +347,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getIntArray(I)[I
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getIntArray(I)[I
 
     .line 2
     .line 3
@@ -334,7 +362,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getInteger(I)I
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getInteger(I)I
 
     .line 2
     .line 3
@@ -348,7 +377,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getLayout(I)Landroid/content/res/XmlResourceParser;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getLayout(I)Landroid/content/res/XmlResourceParser;
 
     .line 2
     .line 3
@@ -362,7 +392,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getMovie(I)Landroid/graphics/Movie;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getMovie(I)Landroid/graphics/Movie;
 
     .line 2
     .line 3
@@ -376,7 +407,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->getQuantityString(II)Ljava/lang/String;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getQuantityString(II)Ljava/lang/String;
 
     move-result-object p1
 
@@ -387,7 +419,8 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -398,7 +431,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->getQuantityText(II)Ljava/lang/CharSequence;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getQuantityText(II)Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -412,7 +446,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getResourceEntryName(I)Ljava/lang/String;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getResourceEntryName(I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -426,7 +461,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getResourceName(I)Ljava/lang/String;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getResourceName(I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -440,7 +476,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getResourcePackageName(I)Ljava/lang/String;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getResourcePackageName(I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -454,7 +491,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getResourceTypeName(I)Ljava/lang/String;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getResourceTypeName(I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -468,7 +506,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getString(I)Ljava/lang/String;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -479,7 +518,8 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -490,7 +530,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getStringArray(I)[Ljava/lang/String;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getStringArray(I)[Ljava/lang/String;
 
     .line 2
     .line 3
@@ -504,7 +545,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getText(I)Ljava/lang/CharSequence;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getText(I)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -515,7 +557,8 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->getText(ILjava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getText(ILjava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -526,7 +569,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getTextArray(I)[Ljava/lang/CharSequence;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getTextArray(I)[Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -540,7 +584,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->getValue(ILandroid/util/TypedValue;Z)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getValue(ILandroid/util/TypedValue;Z)V
 
     return-void
 .end method
@@ -549,7 +594,8 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->getValue(Ljava/lang/String;Landroid/util/TypedValue;Z)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getValue(Ljava/lang/String;Landroid/util/TypedValue;Z)V
 
     return-void
 .end method
@@ -558,14 +604,17 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroidx/appcompat/widget/ResourcesWrapper;->getValueForDensity(IILandroid/util/TypedValue;Z)V    return-void
+    invoke-super {p0, p1, p2, p3, p4}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getValueForDensity(IILandroid/util/TypedValue;Z)V    
+    return-void
 .end method
 
 .method public bridge synthetic getXml(I)Landroid/content/res/XmlResourceParser;
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->getXml(I)Landroid/content/res/XmlResourceParser;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->getXml(I)Landroid/content/res/XmlResourceParser;
 
     .line 2
     .line 3
@@ -579,7 +628,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 2
     .line 3
@@ -593,7 +643,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->obtainTypedArray(I)Landroid/content/res/TypedArray;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->obtainTypedArray(I)Landroid/content/res/TypedArray;
 
     .line 2
     .line 3
@@ -607,7 +658,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->openRawResource(I)Ljava/io/InputStream;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->openRawResource(I)Ljava/io/InputStream;
 
     move-result-object p1
 
@@ -618,7 +670,8 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->openRawResource(ILandroid/util/TypedValue;)Ljava/io/InputStream;
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->openRawResource(ILandroid/util/TypedValue;)Ljava/io/InputStream;
 
     move-result-object p1
 
@@ -629,7 +682,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;->openRawResourceFd(I)Landroid/content/res/AssetFileDescriptor;
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->openRawResourceFd(I)Landroid/content/res/AssetFileDescriptor;
 
     .line 2
     .line 3
@@ -643,7 +697,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;->parseBundleExtra(Ljava/lang/String;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->parseBundleExtra(Ljava/lang/String;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -651,7 +706,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->parseBundleExtras(Landroid/content/res/XmlResourceParser;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->parseBundleExtras(Landroid/content/res/XmlResourceParser;Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -659,7 +715,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;
+    ->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 return-void
 .end method
 

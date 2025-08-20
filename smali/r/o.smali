@@ -35,12 +35,14 @@
     const/4 v1, 0x2
 
     .line 4
-    invoke-direct {v0, v1}, Lr/o;-><init>(I)V
+    invoke-direct {v0, v1}, Lr/o;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lr/o;->b:Lr/o;
+    sput-object v0, Lr/o;
+    ->b:Lr/o;
 
     .line 8
     .line 9
@@ -51,12 +53,14 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-direct {v0, v1}, Lr/o;-><init>(I)V
+    invoke-direct {v0, v1}, Lr/o;
+    -><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v0, Lr/o;->c:Lr/o;
+    sput-object v0, Lr/o;
+    ->c:Lr/o;
 
     .line 16
     .line 17
@@ -67,12 +71,14 @@
     const/4 v1, 0x1
 
     .line 20
-    invoke-direct {v0, v1}, Lr/o;-><init>(I)V
+    invoke-direct {v0, v1}, Lr/o;
+    -><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    sput-object v0, Lr/o;->d:Lr/o;
+    sput-object v0, Lr/o;
+    ->d:Lr/o;
 
     .line 24
     .line 25
@@ -83,16 +89,19 @@
     const/4 v2, 0x3
 
     .line 28
-    invoke-direct {v1, v2}, Lr/o;-><init>(I)V
+    invoke-direct {v1, v2}, Lr/o;
+    -><init>(I)V
 
     .line 29
     .line 30
     .line 31
-    sput-object v1, Lr/o;->e:Lr/o;
+    sput-object v1, Lr/o;
+    ->e:Lr/o;
 
     .line 32
     .line 33
-    sput-object v0, Lr/o;->f:Lr/o;
+    sput-object v0, Lr/o;
+    ->f:Lr/o;
 
     .line 34
     .line 35
@@ -100,7 +109,8 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Li/h;->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
+    invoke-static {v0, v1}, Li/h;
+    ->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
 
     .line 38
     .line 39
@@ -108,14 +118,16 @@
     move-result-object v0
 
     .line 41
-    sput-object v0, Lr/o;->g:Li/h;
+    sput-object v0, Lr/o;
+    ->g:Li/h;
 
     .line 42
     .line 43
     const/4 v0, 0x1
 
     .line 44
-    sput-boolean v0, Lr/o;->h:Z
+    sput-boolean v0, Lr/o;
+    ->h:Z
 
     .line 45
     .line 46
@@ -126,9 +138,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lr/o;->a:I
+    iput p1, p0, Lr/o;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -138,7 +152,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lr/o;->a:I
+    iget v0, p0, Lr/o;
+    ->a:I
 
     .line 2
     .line 3
@@ -153,7 +168,8 @@
 
     .line 8
     :pswitch_0
-    sget-boolean p1, Lr/o;->h:Z
+    sget-boolean p1, Lr/o;
+    ->h:Z
 
     .line 9
     .line 10
@@ -182,7 +198,8 @@
 
     .line 18
     :pswitch_2
-    invoke-virtual {p0, p1, p2, p3, p4}, Lr/o;->b(IIII)F
+    invoke-virtual {p0, p1, p2, p3, p4}, Lr/o;
+    ->b(IIII)F
 
     .line 19
     .line 20
@@ -209,11 +226,13 @@
 
     .line 30
     :cond_1
-    sget-object v0, Lr/o;->b:Lr/o;
+    sget-object v0, Lr/o;
+    ->b:Lr/o;
 
     .line 31
     .line 32
-    invoke-virtual {v0, p1, p2, p3, p4}, Lr/o;->a(IIII)I
+    invoke-virtual {v0, p1, p2, p3, p4}, Lr/o;
+    ->a(IIII)I
 
     .line 33
     .line 34
@@ -417,7 +436,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lr/o;->a:I
+    iget v0, p0, Lr/o;
+    ->a:I
 
     .line 2
     .line 3
@@ -434,7 +454,8 @@
 
     .line 9
     :pswitch_0
-    sget-boolean v0, Lr/o;->h:Z
+    sget-boolean v0, Lr/o;
+    ->h:Z
 
     .line 10
     .line 11
@@ -460,7 +481,8 @@
     div-float/2addr p1, p2
 
     .line 19
-    invoke-static {p3, p1}, Ljava/lang/Math;->min(FF)F
+    invoke-static {p3, p1}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 20
     .line 21
@@ -478,7 +500,8 @@
     div-int/2addr p1, p3
 
     .line 26
-    invoke-static {p2, p1}, Ljava/lang/Math;->max(II)I
+    invoke-static {p2, p1}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 27
     .line 28
@@ -502,7 +525,8 @@
 
     .line 37
     :cond_1
-    invoke-static {p1}, Ljava/lang/Integer;->highestOneBit(I)I
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->highestOneBit(I)I
 
     .line 38
     .line 39
@@ -540,7 +564,8 @@
     div-float/2addr p1, p2
 
     .line 51
-    invoke-static {p3, p1}, Ljava/lang/Math;->max(FF)F
+    invoke-static {p3, p1}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 52
     .line 53
@@ -551,11 +576,13 @@
 
     .line 56
     :pswitch_2
-    sget-object v0, Lr/o;->b:Lr/o;
+    sget-object v0, Lr/o;
+    ->b:Lr/o;
 
     .line 57
     .line 58
-    invoke-virtual {v0, p1, p2, p3, p4}, Lr/o;->b(IIII)F
+    invoke-virtual {v0, p1, p2, p3, p4}, Lr/o;
+    ->b(IIII)F
 
     .line 59
     .line 60
@@ -567,7 +594,8 @@
 
     .line 63
     .line 64
-    invoke-static {p2, p1}, Ljava/lang/Math;->min(FF)F
+    invoke-static {p2, p1}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 65
     .line 66

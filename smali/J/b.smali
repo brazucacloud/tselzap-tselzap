@@ -14,7 +14,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, LJ/b;->b:LC1/s;
+    iget-object v0, p0, LJ/b;
+    ->b:LC1/s;
 
     .line 2
     .line 3
@@ -33,7 +34,8 @@
 
     .line 9
     .line 10
-    iget-object v0, v0, LJ/a;->c:Landroid/view/View;
+    iget-object v0, v0, LJ/a;
+    ->c:Landroid/view/View;
 
     .line 11
     .line 12
@@ -41,7 +43,8 @@
 
     .line 13
     .line 14
-    invoke-direct {v2, v0}, LA0/d;-><init>(Landroid/view/View;)V
+    invoke-direct {v2, v0}, LA0/d;
+    -><init>(Landroid/view/View;)V
 
     .line 15
     .line 16
@@ -49,17 +52,20 @@
     const/4 v0, 0x3
 
     .line 18
-    invoke-direct {v1, v2, v0}, LC1/s;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, v2, v0}, LC1/s;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 19
     .line 20
     .line 21
-    iput-object v1, p0, LJ/b;->b:LC1/s;
+    iput-object v1, p0, LJ/b;
+    ->b:LC1/s;
 
     .line 22
     .line 23
     :cond_0
-    iget-object v0, p0, LJ/b;->b:LC1/s;
+    iget-object v0, p0, LJ/b;
+    ->b:LC1/s;
 
     .line 24
     .line 25

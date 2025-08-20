@@ -14,7 +14,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
+    -><init>()V
 
     .line 2
     .line 3
@@ -23,12 +24,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Paint;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lg0/c;->a:Landroid/graphics/Paint;
+    iput-object v0, p0, Lg0/c;
+    ->a:Landroid/graphics/Paint;
 
     .line 10
     .line 11
@@ -36,12 +39,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {v1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, Ljava/util/Collections;
+    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 17
     .line 18
@@ -49,7 +54,8 @@
     move-result-object v1
 
     .line 20
-    iput-object v1, p0, Lg0/c;->b:Ljava/util/List;
+    iput-object v1, p0, Lg0/c;
+    ->b:Ljava/util/List;
 
     .line 21
     .line 22
@@ -57,7 +63,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setStrokeWidth(F)V
 
     .line 25
     .line 26
@@ -67,7 +74,8 @@
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 31
     .line 32
@@ -81,16 +89,19 @@
     .locals 6
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
+    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
+    ->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v5, p0, Lg0/c;->a:Landroid/graphics/Paint;
+    iget-object v5, p0, Lg0/c;
+    ->a:Landroid/graphics/Paint;
 
     .line 5
     .line 6
-    invoke-virtual {p2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p2}, Landroid/view/View;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 7
     .line 8
@@ -103,7 +114,8 @@
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimension(I)F
+    invoke-virtual {p3, v0}, Landroid/content/res/Resources;
+    ->getDimension(I)F
 
     .line 14
     .line 15
@@ -111,16 +123,19 @@
     move-result p3
 
     .line 17
-    invoke-virtual {v5, p3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    invoke-virtual {v5, p3}, Landroid/graphics/Paint;
+    ->setStrokeWidth(F)V
 
     .line 18
     .line 19
     .line 20
-    iget-object p3, p0, Lg0/c;->b:Ljava/util/List;
+    iget-object p3, p0, Lg0/c;
+    ->b:Ljava/util/List;
 
     .line 21
     .line 22
-    invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 23
     .line 24
@@ -129,7 +144,8 @@
 
     .line 26
     :goto_0
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 27
     .line 28
@@ -141,7 +157,8 @@
 
     .line 31
     .line 32
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -156,7 +173,8 @@
     const/4 v1, 0x0
 
     .line 39
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 40
     .line 41
@@ -171,7 +189,8 @@
     .line 46
     .line 47
     .line 48
-    invoke-static {v0, v2, v1}, Landroidx/core/graphics/ColorUtils;->blendARGB(IIF)I
+    invoke-static {v0, v2, v1}, Landroidx/core/graphics/ColorUtils;
+    ->blendARGB(IIF)I
 
     .line 49
     .line 50
@@ -179,12 +198,14 @@
     move-result v0
 
     .line 52
-    invoke-virtual {v5, v0}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {v5, v0}, Landroid/graphics/Paint;
+    ->setColor(I)V
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 56
     .line 57
@@ -196,7 +217,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0}, Lcom/google/android/material/carousel/CarouselLayoutManager;->b()Z
+    invoke-virtual {v0}, Lcom/google/android/material/carousel/CarouselLayoutManager;
+    ->b()Z
 
     .line 62
     .line 63
@@ -208,7 +230,8 @@
 
     .line 66
     .line 67
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 68
     .line 69
@@ -220,11 +243,13 @@
 
     .line 72
     .line 73
-    iget-object v0, v0, Lcom/google/android/material/carousel/CarouselLayoutManager;->b:Lg0/f;
+    iget-object v0, v0, Lcom/google/android/material/carousel/CarouselLayoutManager;
+    ->b:Lg0/f;
 
     .line 74
     .line 75
-    invoke-virtual {v0}, Lg0/f;->e()I
+    invoke-virtual {v0}, Lg0/f;
+    ->e()I
 
     .line 76
     .line 77
@@ -235,7 +260,8 @@
     int-to-float v2, v0
 
     .line 80
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 81
     .line 82
@@ -247,11 +273,13 @@
 
     .line 85
     .line 86
-    iget-object v0, v0, Lcom/google/android/material/carousel/CarouselLayoutManager;->b:Lg0/f;
+    iget-object v0, v0, Lcom/google/android/material/carousel/CarouselLayoutManager;
+    ->b:Lg0/f;
 
     .line 87
     .line 88
-    invoke-virtual {v0}, Lg0/f;->a()I
+    invoke-virtual {v0}, Lg0/f;
+    ->a()I
 
     .line 89
     .line 90
@@ -271,7 +299,8 @@
     move-object v0, p1
 
     .line 96
-    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;
+    ->drawLine(FFFFLandroid/graphics/Paint;)V
 
     .line 97
     .line 98
@@ -283,7 +312,8 @@
     move-object v0, p1
 
     .line 101
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 102
     .line 103
@@ -295,11 +325,13 @@
 
     .line 106
     .line 107
-    iget-object p1, p1, Lcom/google/android/material/carousel/CarouselLayoutManager;->b:Lg0/f;
+    iget-object p1, p1, Lcom/google/android/material/carousel/CarouselLayoutManager;
+    ->b:Lg0/f;
 
     .line 108
     .line 109
-    invoke-virtual {p1}, Lg0/f;->b()I
+    invoke-virtual {p1}, Lg0/f;
+    ->b()I
 
     .line 110
     .line 111
@@ -310,7 +342,8 @@
     int-to-float v1, p1
 
     .line 114
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 115
     .line 116
@@ -322,11 +355,13 @@
 
     .line 119
     .line 120
-    iget-object p1, p1, Lcom/google/android/material/carousel/CarouselLayoutManager;->b:Lg0/f;
+    iget-object p1, p1, Lcom/google/android/material/carousel/CarouselLayoutManager;
+    ->b:Lg0/f;
 
     .line 121
     .line 122
-    invoke-virtual {p1}, Lg0/f;->c()I
+    invoke-virtual {p1}, Lg0/f;
+    ->c()I
 
     .line 123
     .line 124
@@ -343,7 +378,8 @@
     move v4, v2
 
     .line 129
-    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;
+    ->drawLine(FFFFLandroid/graphics/Paint;)V
 
     .line 130
     .line 131

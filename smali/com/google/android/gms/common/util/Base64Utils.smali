@@ -12,7 +12,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -42,7 +43,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-static {p0, v0}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+    invoke-static {p0, v0}, Landroid/util/Base64;
+    ->decode(Ljava/lang/String;I)[B
 
     .line 7
     .line 8
@@ -79,7 +81,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, v0}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+    invoke-static {p0, v0}, Landroid/util/Base64;
+    ->decode(Ljava/lang/String;I)[B
 
     .line 8
     .line 9
@@ -116,7 +119,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, v0}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+    invoke-static {p0, v0}, Landroid/util/Base64;
+    ->decode(Ljava/lang/String;I)[B
 
     .line 8
     .line 9
@@ -152,7 +156,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-static {p0, v0}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroid/util/Base64;
+    ->encodeToString([BI)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -189,7 +194,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, v0}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroid/util/Base64;
+    ->encodeToString([BI)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -226,7 +232,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, v0}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroid/util/Base64;
+    ->encodeToString([BI)Ljava/lang/String;
 
     .line 8
     .line 9

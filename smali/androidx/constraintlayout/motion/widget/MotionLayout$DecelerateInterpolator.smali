@@ -29,11 +29,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionInterpolator;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionInterpolator;
+    -><init>()V
 
     .line 4
     .line 5
@@ -41,11 +43,14 @@
     const/4 p1, 0x0
 
     .line 7
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mInitialV:F
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mInitialV:F
 
     .line 8
     .line 9
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mCurrentP:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mCurrentP:F    
+    return-void
 .end method
 
 
@@ -54,22 +59,27 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mInitialV:F
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mInitialV:F
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mCurrentP:F
+    iput p2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mCurrentP:F
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mMaxA:F    return-void
+    iput p3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mMaxA:F    
+    return-void
 .end method
 
 .method public getInterpolation(F)F
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mInitialV:F
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mInitialV:F
 
     .line 2
     .line 3
@@ -88,7 +98,8 @@
 
     .line 9
     .line 10
-    iget v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mMaxA:F
+    iget v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mMaxA:F
 
     .line 11
     .line 12
@@ -109,7 +120,8 @@
     .line 19
     .line 20
     :cond_0
-    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 21
     .line 22
@@ -121,7 +133,8 @@
 
     .line 25
     .line 26
-    iput v4, v3, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F
+    iput v4, v3, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->mLastVelocity:F
 
     .line 27
     .line 28
@@ -143,7 +156,8 @@
     sub-float/2addr v0, v1
 
     .line 36
-    iget p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mCurrentP:F
+    iget p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mCurrentP:F
 
     .line 37
     .line 38
@@ -156,7 +170,8 @@
     neg-float v1, v0
 
     .line 41
-    iget v3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mMaxA:F
+    iget v3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mMaxA:F
 
     .line 42
     .line 43
@@ -178,7 +193,8 @@
 
     .line 50
     :cond_2
-    iget-object v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 51
     .line 52
@@ -189,7 +205,8 @@
     add-float/2addr v4, v0
 
     .line 55
-    iput v4, v1, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F
+    iput v4, v1, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->mLastVelocity:F
 
     .line 56
     .line 57
@@ -211,7 +228,8 @@
     add-float/2addr v3, v0
 
     .line 65
-    iget p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->mCurrentP:F
+    iget p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->mCurrentP:F
 
     .line 66
     .line 67
@@ -224,11 +242,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DecelerateInterpolator;
+    ->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 2
     .line 3
-    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F    return v0
+    iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->mLastVelocity:F    return v0
 .end method
 
 .end class

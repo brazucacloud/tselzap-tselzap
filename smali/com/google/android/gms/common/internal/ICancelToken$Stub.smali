@@ -26,7 +26,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/common/zzb;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/common/zzb;
+    -><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -58,7 +59,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p0, v0}, Landroid/os/IBinder;
+    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -86,7 +88,8 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/zzx;-><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/zzx;
+    -><init>(Landroid/os/IBinder;)V
 
     .line 21
     .line 22
@@ -115,7 +118,8 @@
 
     .line 3
     .line 4
-    invoke-interface {p0}, Lcom/google/android/gms/common/internal/ICancelToken;->cancel()V
+    invoke-interface {p0}, Lcom/google/android/gms/common/internal/ICancelToken;
+    ->cancel()V
 
     .line 5
     .line 6

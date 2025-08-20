@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/view/Window;
+    ->getDecorView()Landroid/view/View;
 
     .line 2
     .line 3
@@ -45,7 +47,8 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Landroid/view/View;->getWindowInsetsController()Landroid/view/WindowInsetsController;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getWindowInsetsController()Landroid/view/WindowInsetsController;
 
     .line 6
     .line 7
@@ -53,7 +56,8 @@
     move-result-object p0
 
     .line 9
-    invoke-static {}, Landroid/view/WindowInsets$Type;->ime()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->ime()I
 
     .line 10
     .line 11
@@ -61,7 +65,8 @@
     move-result v0
 
     .line 13
-    invoke-interface {p0, v0}, Landroid/view/WindowInsetsController;->show(I)V
+    invoke-interface {p0, v0}, Landroid/view/WindowInsetsController;
+    ->show(I)V
     return-void
 .end method
 

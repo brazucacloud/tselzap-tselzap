@@ -23,7 +23,8 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroid/widget/ImageView$ScaleType;->values()[Landroid/widget/ImageView$ScaleType;
+    invoke-static {}, Landroid/widget/ImageView$ScaleType;
+    ->values()[Landroid/widget/ImageView$ScaleType;
 
     .line 2
     .line 3
@@ -38,16 +39,19 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/transition/ChangeImageTransform$3;->$SwitchMap$android$widget$ImageView$ScaleType:[I
+    sput-object v0, Landroidx/transition/ChangeImageTransform$3;
+    ->$SwitchMap$android$widget$ImageView$ScaleType:[I
 
     .line 9
     .line 10
     :try_start_0
-    sget-object v1, Landroid/widget/ImageView$ScaleType;->FIT_XY:Landroid/widget/ImageView$ScaleType;
+    sget-object v1, Landroid/widget/ImageView$ScaleType;
+    ->FIT_XY:Landroid/widget/ImageView$ScaleType;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 13
     .line 14
@@ -66,15 +70,18 @@
     .line 19
     :catch_0
     :try_start_1
-    sget-object v0, Landroidx/transition/ChangeImageTransform$3;->$SwitchMap$android$widget$ImageView$ScaleType:[I
+    sget-object v0, Landroidx/transition/ChangeImageTransform$3;
+    ->$SwitchMap$android$widget$ImageView$ScaleType:[I
 
     .line 20
     .line 21
-    sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
+    sget-object v1, Landroid/widget/ImageView$ScaleType;
+    ->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 24
     .line 25

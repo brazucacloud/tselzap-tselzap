@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/flatbuffer/BaseVector;-><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/flatbuffer/BaseVector;
+    -><init>()V
 
     .line 2
     .line 3
@@ -25,7 +26,8 @@
     const/4 v0, 0x4
 
     .line 2
-    invoke-virtual {p0, p1, v0, p2}, Landroidx/emoji2/text/flatbuffer/BaseVector;->__reset(IILjava/nio/ByteBuffer;)V
+    invoke-virtual {p0, p1, v0, p2}, Landroidx/emoji2/text/flatbuffer/BaseVector;
+    ->__reset(IILjava/nio/ByteBuffer;)V
 
     .line 3
     .line 4
@@ -37,11 +39,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/BaseVector;->bb:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/BaseVector;
+    ->bb:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/BaseVector;->__element(I)I
+    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/BaseVector;
+    ->__element(I)I
 
     .line 4
     .line 5
@@ -49,7 +53,8 @@
     move-result p1
 
     .line 7
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->getInt(I)I
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
+    ->getInt(I)I
 
     .line 8
     .line 9
@@ -63,7 +68,8 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/IntVector;->get(I)I
+    invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/IntVector;
+    ->get(I)I
 
     .line 2
     .line 3

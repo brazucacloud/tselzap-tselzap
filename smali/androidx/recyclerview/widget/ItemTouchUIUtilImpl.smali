@@ -19,19 +19,22 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;-><init>()V
+    invoke-direct {v0}, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;->INSTANCE:Landroidx/recyclerview/widget/ItemTouchUIUtil;    return-void
+    sput-object v0, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;
+    ->INSTANCE:Landroidx/recyclerview/widget/ItemTouchUIUtil;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -39,7 +42,8 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 2
     .line 3
@@ -58,7 +62,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 10
     .line 11
@@ -74,7 +79,8 @@
 
     .line 16
     :cond_0
-    invoke-static {v3}, Landroidx/core/view/ViewCompat;->getElevation(Landroid/view/View;)F
+    invoke-static {v3}, Landroidx/core/view/ViewCompat;
+    ->getElevation(Landroid/view/View;)F
 
     .line 17
     .line 18
@@ -116,11 +122,13 @@
     .end param
 
     .line 1
-    sget v0, Landroidx/recyclerview/R$id;->item_touch_helper_previous_elevation:I
+    sget v0, Landroidx/recyclerview/R$id;
+    ->item_touch_helper_previous_elevation:I
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -140,7 +148,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {v1}, Ljava/lang/Float;
+    ->floatValue()F
 
     .line 14
     .line 15
@@ -148,7 +157,8 @@
     move-result v1
 
     .line 17
-    invoke-static {p1, v1}, Landroidx/core/view/ViewCompat;->setElevation(Landroid/view/View;F)V
+    invoke-static {p1, v1}, Landroidx/core/view/ViewCompat;
+    ->setElevation(Landroid/view/View;F)V
 
     .line 18
     .line 19
@@ -157,7 +167,8 @@
     const/4 v1, 0x0
 
     .line 21
-    invoke-virtual {p1, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p1, v0, v1}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 22
     .line 23
@@ -165,12 +176,15 @@
     const/4 v0, 0x0
 
     .line 25
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->setTranslationX(F)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V    return-void
+    invoke-virtual {p1, v0}, Landroid/view/View;
+    ->setTranslationY(F)V    
+    return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V
@@ -193,11 +207,13 @@
 
     .line 2
     .line 3
-    sget p1, Landroidx/recyclerview/R$id;->item_touch_helper_previous_elevation:I
+    sget p1, Landroidx/recyclerview/R$id;
+    ->item_touch_helper_previous_elevation:I
 
     .line 4
     .line 5
-    invoke-virtual {p3, p1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p3, p1}, Landroid/view/View;
+    ->getTag(I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -209,7 +225,8 @@
 
     .line 10
     .line 11
-    invoke-static {p3}, Landroidx/core/view/ViewCompat;->getElevation(Landroid/view/View;)F
+    invoke-static {p3}, Landroidx/core/view/ViewCompat;
+    ->getElevation(Landroid/view/View;)F
 
     .line 12
     .line 13
@@ -217,7 +234,8 @@
     move-result p6
 
     .line 15
-    invoke-static {p6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {p6}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 16
     .line 17
@@ -229,7 +247,8 @@
 
     .line 20
     .line 21
-    invoke-static {p2, p3}, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;->findMaxElevation(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;)F
+    invoke-static {p2, p3}, Landroidx/recyclerview/widget/ItemTouchUIUtilImpl;
+    ->findMaxElevation(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;)F
 
     .line 22
     .line 23
@@ -240,23 +259,28 @@
     add-float/2addr p2, p7
 
     .line 26
-    invoke-static {p3, p2}, Landroidx/core/view/ViewCompat;->setElevation(Landroid/view/View;F)V
+    invoke-static {p3, p2}, Landroidx/core/view/ViewCompat;
+    ->setElevation(Landroid/view/View;F)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p3, p1, p6}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p3, p1, p6}, Landroid/view/View;
+    ->setTag(ILjava/lang/Object;)V
 
     .line 30
     .line 31
     .line 32
     :cond_0
-    invoke-virtual {p3, p4}, Landroid/view/View;->setTranslationX(F)V
+    invoke-virtual {p3, p4}, Landroid/view/View;
+    ->setTranslationX(F)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p3, p5}, Landroid/view/View;->setTranslationY(F)V    return-void
+    invoke-virtual {p3, p5}, Landroid/view/View;
+    ->setTranslationY(F)V    
+    return-void
 .end method
 
 .method public onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;FFIZ)V

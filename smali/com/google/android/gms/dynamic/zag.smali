@@ -14,9 +14,11 @@
 .method public constructor <init>(Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/dynamic/zag;->zaa:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
+    iput-object p1, p0, Lcom/google/android/gms/dynamic/zag;
+    ->zaa:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -34,11 +36,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/dynamic/zag;->zaa:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
+    iget-object p1, p0, Lcom/google/android/gms/dynamic/zag;
+    ->zaa:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;->zaa(Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;)Lcom/google/android/gms/dynamic/LifecycleDelegate;
+    invoke-static {p1}, Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
+    ->zaa(Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;)Lcom/google/android/gms/dynamic/LifecycleDelegate;
 
     .line 4
     .line 5
@@ -46,7 +50,8 @@
     move-result-object p1
 
     .line 7
-    invoke-interface {p1}, Lcom/google/android/gms/dynamic/LifecycleDelegate;->onResume()V
+    invoke-interface {p1}, Lcom/google/android/gms/dynamic/LifecycleDelegate;
+    ->onResume()V
 
     .line 8
     .line 9

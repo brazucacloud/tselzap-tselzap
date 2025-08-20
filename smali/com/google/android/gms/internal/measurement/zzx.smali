@@ -29,12 +29,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzal;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzal;
+    -><init>(Ljava/lang/String;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzx;->zzk:Ljava/util/concurrent/Callable;
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzx;
+    ->zzk:Ljava/util/concurrent/Callable;
 
     .line 5
     .line 6
@@ -58,11 +60,13 @@
 
     .line 1
     :try_start_0
-    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzx;->zzk:Ljava/util/concurrent/Callable;
+    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzx;
+    ->zzk:Ljava/util/concurrent/Callable;
 
     .line 2
     .line 3
-    invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/concurrent/Callable;
+    ->call()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -70,7 +74,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzj;->zza(Ljava/lang/Object;)Lcom/google/android/gms/internal/measurement/zzaq;
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzj;
+    ->zza(Ljava/lang/Object;)Lcom/google/android/gms/internal/measurement/zzaq;
 
     .line 8
     .line 9
@@ -83,7 +88,8 @@
 
     .line 12
     :catch_0
-    sget-object p1, Lcom/google/android/gms/internal/measurement/zzaq;->zzc:Lcom/google/android/gms/internal/measurement/zzaq;
+    sget-object p1, Lcom/google/android/gms/internal/measurement/zzaq;
+    ->zzc:Lcom/google/android/gms/internal/measurement/zzaq;
 
     .line 13
     .line 14

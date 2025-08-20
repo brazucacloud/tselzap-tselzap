@@ -19,26 +19,30 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/collection/MutableFloatLongMap;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/FloatLongMapKt;->EmptyFloatLongMap:Landroidx/collection/MutableFloatLongMap;    return-void
+    sput-object v0, Landroidx/collection/FloatLongMapKt;
+    ->EmptyFloatLongMap:Landroidx/collection/MutableFloatLongMap;    return-void
 .end method
 
 .method public static final emptyFloatLongMap()Landroidx/collection/FloatLongMap;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/FloatLongMapKt;->EmptyFloatLongMap:Landroidx/collection/MutableFloatLongMap;    return-object v0
+    sget-object v0, Landroidx/collection/FloatLongMapKt;
+    ->EmptyFloatLongMap:Landroidx/collection/MutableFloatLongMap;    return-object v0
 .end method
 
 .method public static final floatLongMapOf()Landroidx/collection/FloatLongMap;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/FloatLongMapKt;->EmptyFloatLongMap:Landroidx/collection/MutableFloatLongMap;
+    sget-object v0, Landroidx/collection/FloatLongMapKt;
+    ->EmptyFloatLongMap:Landroidx/collection/MutableFloatLongMap;
 
     return-object v0
 .end method
@@ -55,10 +59,12 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 3
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -74,13 +80,16 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 5
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 6
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -96,16 +105,20 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 8
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 9
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 10
-    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -121,19 +134,24 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 12
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 13
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 14
-    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 15
-    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -149,26 +167,32 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 17
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 18
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 19
-    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 20
-    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     move/from16 p0, p12
 
     move-wide/from16 p1, p13
 
     .line 21
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -184,7 +208,8 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 
@@ -200,10 +225,12 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 3
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -219,13 +246,16 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 5
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 6
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -241,16 +271,20 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 8
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 9
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 10
-    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -266,19 +300,24 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 12
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 13
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 14
-    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 15
-    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 
@@ -294,26 +333,32 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatLongMap;
+    -><init>(IILkotlin/jvm/internal/e;)V
 
     .line 17
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 18
-    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 19
-    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     .line 20
-    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 
     move/from16 p0, p12
 
     move-wide/from16 p1, p13
 
     .line 21
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;->set(FJ)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableFloatLongMap;
+    ->set(FJ)V
 return-object v0
 .end method
 

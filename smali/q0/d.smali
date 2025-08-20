@@ -12,11 +12,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lq0/d;->a:Lcom/google/android/material/navigation/NavigationView;
+    iput-object p1, p0, Lq0/d;
+    ->a:Lcom/google/android/material/navigation/NavigationView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener;-><init>()V
+    invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener;
+    -><init>()V
 
     .line 4
     .line 5
@@ -30,7 +32,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lq0/d;->a:Lcom/google/android/material/navigation/NavigationView;
+    iget-object v0, p0, Lq0/d;
+    ->a:Lcom/google/android/material/navigation/NavigationView;
 
     .line 2
     .line 3
@@ -38,11 +41,13 @@
 
     .line 4
     .line 5
-    iget-object p1, v0, Lcom/google/android/material/navigation/NavigationView;->y:Lp0/g;
+    iget-object p1, v0, Lcom/google/android/material/navigation/NavigationView;
+    ->y:Lp0/g;
 
     .line 6
     .line 7
-    iget-object v1, p1, Lp0/g;->a:Lp0/d;
+    iget-object v1, p1, Lp0/g;
+    ->a:Lp0/d;
 
     .line 8
     .line 9
@@ -50,17 +55,20 @@
 
     .line 10
     .line 11
-    iget-object p1, p1, Lp0/g;->c:Lcom/google/android/material/navigation/NavigationView;
+    iget-object p1, p1, Lp0/g;
+    ->c:Lcom/google/android/material/navigation/NavigationView;
 
     .line 12
     .line 13
-    invoke-virtual {v1, p1}, Lp0/d;->c(Landroid/view/View;)V
+    invoke-virtual {v1, p1}, Lp0/d;
+    ->c(Landroid/view/View;)V
 
     .line 14
     .line 15
     .line 16
     :cond_0
-    iget-boolean p1, v0, Lcom/google/android/material/navigation/NavigationView;->u:Z
+    iget-boolean p1, v0, Lcom/google/android/material/navigation/NavigationView;
+    ->u:Z
 
     .line 17
     .line 18
@@ -68,7 +76,8 @@
 
     .line 19
     .line 20
-    iget p1, v0, Lcom/google/android/material/navigation/NavigationView;->t:I
+    iget p1, v0, Lcom/google/android/material/navigation/NavigationView;
+    ->t:I
 
     .line 21
     .line 22
@@ -79,11 +88,13 @@
     const/4 p1, 0x0
 
     .line 25
-    iput p1, v0, Lcom/google/android/material/navigation/NavigationView;->t:I
+    iput p1, v0, Lcom/google/android/material/navigation/NavigationView;
+    ->t:I
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroid/view/View;->getWidth()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getWidth()I
 
     .line 28
     .line 29
@@ -91,7 +102,8 @@
     move-result p1
 
     .line 31
-    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getHeight()I
 
     .line 32
     .line 33
@@ -99,7 +111,8 @@
     move-result v1
 
     .line 35
-    invoke-virtual {v0, p1, v1}, Lcom/google/android/material/navigation/NavigationView;->g(II)V
+    invoke-virtual {v0, p1, v1}, Lcom/google/android/material/navigation/NavigationView;
+    ->g(II)V
 
     .line 36
     .line 37
@@ -112,7 +125,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lq0/d;->a:Lcom/google/android/material/navigation/NavigationView;
+    iget-object v0, p0, Lq0/d;
+    ->a:Lcom/google/android/material/navigation/NavigationView;
 
     .line 2
     .line 3
@@ -120,11 +134,13 @@
 
     .line 4
     .line 5
-    iget-object v0, v0, Lcom/google/android/material/navigation/NavigationView;->y:Lp0/g;
+    iget-object v0, v0, Lcom/google/android/material/navigation/NavigationView;
+    ->y:Lp0/g;
 
     .line 6
     .line 7
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -137,12 +153,14 @@
 
     .line 13
     .line 14
-    invoke-direct {v1, v0, v2}, LT/o;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, v0, v2}, LT/o;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, v1}, Landroid/view/View;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 18
     .line 19

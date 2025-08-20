@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -52,7 +53,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p1, v0}, Landroidx/fragment/app/FragmentManagerViewModel;-><init>(Z)V
+    invoke-direct {p1, v0}, Landroidx/fragment/app/FragmentManagerViewModel;
+    -><init>(Z)V
 
     return-object p1
 .end method
@@ -61,7 +63,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;->b(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;
+    ->b(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 
@@ -72,7 +75,8 @@
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;->c(Landroidx/lifecycle/ViewModelProvider$Factory;Lv1/c;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/i;
+    ->c(Landroidx/lifecycle/ViewModelProvider$Factory;Lv1/c;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
 
     move-result-object p1
 

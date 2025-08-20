@@ -27,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -39,7 +40,8 @@
     .locals 5
 
     .line 1
-    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 2
     .line 3
@@ -106,7 +108,8 @@
 
     .line 27
     :cond_4
-    invoke-interface {p0, p1}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {p0, p1}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 28
     .line 29
@@ -118,7 +121,8 @@
 
     .line 32
     .line 33
-    invoke-static {v3}, Ljava/lang/Character;->isHighSurrogate(C)Z
+    invoke-static {v3}, Ljava/lang/Character;
+    ->isHighSurrogate(C)Z
 
     .line 34
     .line 35
@@ -142,7 +146,8 @@
 
     .line 43
     :cond_6
-    invoke-static {v3}, Ljava/lang/Character;->isSurrogate(C)Z
+    invoke-static {v3}, Ljava/lang/Character;
+    ->isSurrogate(C)Z
 
     .line 44
     .line 45
@@ -162,7 +167,8 @@
 
     .line 52
     :cond_7
-    invoke-static {v3}, Ljava/lang/Character;->isHighSurrogate(C)Z
+    invoke-static {v3}, Ljava/lang/Character;
+    ->isHighSurrogate(C)Z
 
     .line 53
     .line 54
@@ -193,7 +199,8 @@
     .locals 6
 
     .line 1
-    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;
+    ->length()I
 
     .line 2
     .line 3
@@ -256,7 +263,8 @@
 
     .line 25
     :cond_4
-    invoke-interface {p0, p1}, Ljava/lang/CharSequence;->charAt(I)C
+    invoke-interface {p0, p1}, Ljava/lang/CharSequence;
+    ->charAt(I)C
 
     .line 26
     .line 27
@@ -268,7 +276,8 @@
 
     .line 30
     .line 31
-    invoke-static {v4}, Ljava/lang/Character;->isLowSurrogate(C)Z
+    invoke-static {v4}, Ljava/lang/Character;
+    ->isLowSurrogate(C)Z
 
     .line 32
     .line 33
@@ -296,7 +305,8 @@
 
     .line 43
     :cond_6
-    invoke-static {v4}, Ljava/lang/Character;->isSurrogate(C)Z
+    invoke-static {v4}, Ljava/lang/Character;
+    ->isSurrogate(C)Z
 
     .line 44
     .line 45
@@ -320,7 +330,8 @@
 
     .line 54
     :cond_7
-    invoke-static {v4}, Ljava/lang/Character;->isLowSurrogate(C)Z
+    invoke-static {v4}, Ljava/lang/Character;
+    ->isLowSurrogate(C)Z
 
     .line 55
     .line 56

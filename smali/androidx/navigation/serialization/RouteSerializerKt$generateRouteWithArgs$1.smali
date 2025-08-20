@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/serialization/RouteSerializerKt;->generateRouteWithArgs(Ljava/lang/Object;Ljava/util/Map;)Ljava/lang/String;
+    value = Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateRouteWithArgs(Ljava/lang/Object;Ljava/util/Map;)Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -64,13 +65,16 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;->$argMap:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;
+    ->$argMap:Ljava/util/Map;
 
-    iput-object p2, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;->$builder:Landroidx/navigation/serialization/RouteBuilder;
+    iput-object p2, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;
+    ->$builder:Landroidx/navigation/serialization/RouteBuilder;
 
     const/4 p1, 0x3
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -82,7 +86,8 @@ return-void
     .line 1
     check-cast p1, Ljava/lang/Number;
 
-    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->intValue()I
 
     move-result p1
 
@@ -90,9 +95,11 @@ return-void
 
     check-cast p3, Landroidx/navigation/NavType;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;->invoke(ILjava/lang/String;Landroidx/navigation/NavType;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;
+    ->invoke(ILjava/lang/String;Landroidx/navigation/NavType;)V
 
-    sget-object p1, Lc1/v;->a:Lc1/v;
+    sget-object p1, Lc1/v;
+    ->a:Lc1/v;
 
     return-object p1
 .end method
@@ -111,27 +118,34 @@ return-void
 
     const-string v0, "argName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "navType"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;->$argMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;
+    ->$argMap:Ljava/util/Map;
 
-    invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     check-cast v0, Ljava/util/List;
 
     .line 3
-    iget-object v1, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;->$builder:Landroidx/navigation/serialization/RouteBuilder;
+    iget-object v1, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;
+    ->$builder:Landroidx/navigation/serialization/RouteBuilder;
 
-    invoke-virtual {v1, p1, p2, p3, v0}, Landroidx/navigation/serialization/RouteBuilder;->appendArg(ILjava/lang/String;Landroidx/navigation/NavType;Ljava/util/List;)V
+    invoke-virtual {v1, p1, p2, p3, v0}, Landroidx/navigation/serialization/RouteBuilder;
+    ->appendArg(ILjava/lang/String;Landroidx/navigation/NavType;Ljava/util/List;)V
 return-void
 .end method
 

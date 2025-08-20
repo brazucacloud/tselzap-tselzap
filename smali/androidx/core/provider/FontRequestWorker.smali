@@ -58,12 +58,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/LruCache;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/LruCache;
+    -><init>(I)V
 
     .line 6
     .line 7
     .line 8
-    sput-object v0, Landroidx/core/provider/FontRequestWorker;->sTypefaceCache:Landroidx/collection/LruCache;
+    sput-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 9
     .line 10
@@ -79,7 +81,8 @@
 
     .line 15
     .line 16
-    invoke-static {v2, v0, v1}, Landroidx/core/provider/RequestExecutor;->createDefaultExecutor(Ljava/lang/String;II)Ljava/util/concurrent/ThreadPoolExecutor;
+    invoke-static {v2, v0, v1}, Landroidx/core/provider/RequestExecutor;
+    ->createDefaultExecutor(Ljava/lang/String;II)Ljava/util/concurrent/ThreadPoolExecutor;
 
     .line 17
     .line 18
@@ -87,7 +90,8 @@
     move-result-object v0
 
     .line 20
-    sput-object v0, Landroidx/core/provider/FontRequestWorker;->DEFAULT_EXECUTOR_SERVICE:Ljava/util/concurrent/ExecutorService;
+    sput-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->DEFAULT_EXECUTOR_SERVICE:Ljava/util/concurrent/ExecutorService;
 
     .line 21
     .line 22
@@ -95,12 +99,14 @@
 
     .line 23
     .line 24
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 25
     .line 26
     .line 27
-    sput-object v0, Landroidx/core/provider/FontRequestWorker;->LOCK:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->LOCK:Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -108,12 +114,14 @@
 
     .line 30
     .line 31
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
+    -><init>()V
 
     .line 32
     .line 33
     .line 34
-    sput-object v0, Landroidx/core/provider/FontRequestWorker;->PENDING_REPLIES:Landroidx/collection/SimpleArrayMap;
+    sput-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->PENDING_REPLIES:Landroidx/collection/SimpleArrayMap;
 
     .line 35
     .line 36
@@ -124,7 +132,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -144,12 +153,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/core/provider/FontRequest;->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/core/provider/FontRequest;
+    ->getId()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -157,7 +168,8 @@
     move-result-object p0
 
     .line 10
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -166,17 +178,20 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -199,7 +214,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->getStatusCode()I
+    invoke-virtual {p0}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->getStatusCode()I
 
     .line 2
     .line 3
@@ -217,7 +233,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->getStatusCode()I
+    invoke-virtual {p0}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->getStatusCode()I
 
     .line 10
     .line 11
@@ -239,7 +256,8 @@
 
     .line 18
     :cond_1
-    invoke-virtual {p0}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->getFonts()[Landroidx/core/provider/FontsContractCompat$FontInfo;
+    invoke-virtual {p0}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->getFonts()[Landroidx/core/provider/FontsContractCompat$FontInfo;
 
     .line 19
     .line 20
@@ -280,7 +298,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {v4}, Landroidx/core/provider/FontsContractCompat$FontInfo;->getResultCode()I
+    invoke-virtual {v4}, Landroidx/core/provider/FontsContractCompat$FontInfo;
+    ->getResultCode()I
 
     .line 36
     .line 37
@@ -334,11 +353,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/provider/FontRequestWorker;->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/collection/LruCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/collection/LruCache;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -358,7 +379,8 @@
 
     .line 12
     .line 13
-    invoke-direct {p0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(Landroid/graphics/Typeface;)V
 
     .line 14
     .line 15
@@ -371,7 +393,8 @@
 
     .line 18
     :try_start_0
-    invoke-static {p1, p2, v1}, Landroidx/core/provider/FontProvider;->getFontFamilyResult(Landroid/content/Context;Landroidx/core/provider/FontRequest;Landroid/os/CancellationSignal;)Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    invoke-static {p1, p2, v1}, Landroidx/core/provider/FontProvider;
+    ->getFontFamilyResult(Landroid/content/Context;Landroidx/core/provider/FontRequest;Landroid/os/CancellationSignal;)Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
 
     .line 19
     .line 20
@@ -381,7 +404,8 @@
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 22
-    invoke-static {p2}, Landroidx/core/provider/FontRequestWorker;->getFontFamilyResultStatus(Landroidx/core/provider/FontsContractCompat$FontFamilyResult;)I
+    invoke-static {p2}, Landroidx/core/provider/FontRequestWorker;
+    ->getFontFamilyResultStatus(Landroidx/core/provider/FontsContractCompat$FontFamilyResult;)I
 
     .line 23
     .line 24
@@ -397,7 +421,8 @@
 
     .line 29
     .line 30
-    invoke-direct {p0, v2}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(I)V
+    invoke-direct {p0, v2}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(I)V
 
     .line 31
     .line 32
@@ -406,7 +431,8 @@
 
     .line 34
     :cond_1
-    invoke-virtual {p2}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;->getFonts()[Landroidx/core/provider/FontsContractCompat$FontInfo;
+    invoke-virtual {p2}, Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
+    ->getFonts()[Landroidx/core/provider/FontsContractCompat$FontInfo;
 
     .line 35
     .line 36
@@ -414,7 +440,8 @@
     move-result-object p2
 
     .line 38
-    invoke-static {p1, v1, p2, p3}, Landroidx/core/graphics/TypefaceCompat;->createFromFontInfo(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;I)Landroid/graphics/Typeface;
+    invoke-static {p1, v1, p2, p3}, Landroidx/core/graphics/TypefaceCompat;
+    ->createFromFontInfo(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;I)Landroid/graphics/Typeface;
 
     .line 39
     .line 40
@@ -426,7 +453,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/LruCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/LruCache;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -435,7 +463,8 @@
 
     .line 48
     .line 49
-    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(Landroid/graphics/Typeface;)V
 
     .line 50
     .line 51
@@ -451,7 +480,8 @@
     const/4 p1, -0x3
 
     .line 56
-    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(I)V
 
     .line 57
     .line 58
@@ -467,7 +497,8 @@
     const/4 p1, -0x1
 
     .line 63
-    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(I)V
 
     .line 64
     .line 65
@@ -495,7 +526,8 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/core/provider/FontRequestWorker;->createCacheId(Landroidx/core/provider/FontRequest;I)Ljava/lang/String;
+    invoke-static {p1, p2}, Landroidx/core/provider/FontRequestWorker;
+    ->createCacheId(Landroidx/core/provider/FontRequest;I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -503,11 +535,13 @@
     move-result-object v0
 
     .line 5
-    sget-object v1, Landroidx/core/provider/FontRequestWorker;->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object v1, Landroidx/core/provider/FontRequestWorker;
+    ->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Landroidx/collection/LruCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroidx/collection/LruCache;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -527,12 +561,14 @@
 
     .line 16
     .line 17
-    invoke-direct {p0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(Landroid/graphics/Typeface;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p4, p0}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p4, p0}, Landroidx/core/provider/CallbackWithHandler;
+    ->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 
     .line 21
     .line 22
@@ -545,12 +581,14 @@
 
     .line 25
     .line 26
-    invoke-direct {v1, p4}, Landroidx/core/provider/FontRequestWorker$2;-><init>(Landroidx/core/provider/CallbackWithHandler;)V
+    invoke-direct {v1, p4}, Landroidx/core/provider/FontRequestWorker$2;
+    -><init>(Landroidx/core/provider/CallbackWithHandler;)V
 
     .line 27
     .line 28
     .line 29
-    sget-object p4, Landroidx/core/provider/FontRequestWorker;->LOCK:Ljava/lang/Object;
+    sget-object p4, Landroidx/core/provider/FontRequestWorker;
+    ->LOCK:Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -558,11 +596,13 @@
 
     .line 32
     :try_start_0
-    sget-object v2, Landroidx/core/provider/FontRequestWorker;->PENDING_REPLIES:Landroidx/collection/SimpleArrayMap;
+    sget-object v2, Landroidx/core/provider/FontRequestWorker;
+    ->PENDING_REPLIES:Landroidx/collection/SimpleArrayMap;
 
     .line 33
     .line 34
-    invoke-virtual {v2, v0}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Landroidx/collection/SimpleArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -581,7 +621,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {v3, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -603,17 +644,20 @@
 
     .line 51
     .line 52
-    invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v3}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v3, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v2, v0, v3}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v0, v3}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -627,7 +671,8 @@
 
     .line 63
     .line 64
-    invoke-direct {p4, v0, p0, p1, p2}, Landroidx/core/provider/FontRequestWorker$3;-><init>(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)V
+    invoke-direct {p4, v0, p0, p1, p2}, Landroidx/core/provider/FontRequestWorker$3;
+    -><init>(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)V
 
     .line 65
     .line 66
@@ -636,7 +681,8 @@
 
     .line 68
     .line 69
-    sget-object p3, Landroidx/core/provider/FontRequestWorker;->DEFAULT_EXECUTOR_SERVICE:Ljava/util/concurrent/ExecutorService;
+    sget-object p3, Landroidx/core/provider/FontRequestWorker;
+    ->DEFAULT_EXECUTOR_SERVICE:Ljava/util/concurrent/ExecutorService;
 
     .line 70
     .line 71
@@ -645,12 +691,14 @@
 
     .line 72
     .line 73
-    invoke-direct {p0, v0}, Landroidx/core/provider/FontRequestWorker$4;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Landroidx/core/provider/FontRequestWorker$4;
+    -><init>(Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-static {p3, p4, p0}, Landroidx/core/provider/RequestExecutor;->execute(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;Landroidx/core/util/Consumer;)V
+    invoke-static {p3, p4, p0}, Landroidx/core/provider/RequestExecutor;
+    ->execute(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;Landroidx/core/util/Consumer;)V
 
     .line 77
     .line 78
@@ -1111,7 +1159,8 @@
     .end param
 
     .line 1
-    invoke-static {p1, p3}, Landroidx/core/provider/FontRequestWorker;->createCacheId(Landroidx/core/provider/FontRequest;I)Ljava/lang/String;
+    invoke-static {p1, p3}, Landroidx/core/provider/FontRequestWorker;
+    ->createCacheId(Landroidx/core/provider/FontRequest;I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -1119,11 +1168,13 @@
     move-result-object v0
 
     .line 5
-    sget-object v1, Landroidx/core/provider/FontRequestWorker;->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object v1, Landroidx/core/provider/FontRequestWorker;
+    ->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Landroidx/collection/LruCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroidx/collection/LruCache;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -1143,12 +1194,14 @@
 
     .line 16
     .line 17
-    invoke-direct {p0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(Landroid/graphics/Typeface;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;
+    ->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 
     .line 21
     .line 22
@@ -1164,7 +1217,8 @@
 
     .line 26
     .line 27
-    invoke-static {v0, p0, p1, p3}, Landroidx/core/provider/FontRequestWorker;->getFontSync(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    invoke-static {v0, p0, p1, p3}, Landroidx/core/provider/FontRequestWorker;
+    ->getFontSync(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
     .line 28
     .line 29
@@ -1172,12 +1226,14 @@
     move-result-object p0
 
     .line 31
-    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;
+    ->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 
     .line 32
     .line 33
     .line 34
-    iget-object p0, p0, Landroidx/core/provider/FontRequestWorker$TypefaceResult;->mTypeface:Landroid/graphics/Typeface;
+    iget-object p0, p0, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    ->mTypeface:Landroid/graphics/Typeface;
 
     .line 35
     .line 36
@@ -1189,17 +1245,20 @@
 
     .line 38
     .line 39
-    invoke-direct {v1, v0, p0, p1, p3}, Landroidx/core/provider/FontRequestWorker$1;-><init>(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)V
+    invoke-direct {v1, v0, p0, p1, p3}, Landroidx/core/provider/FontRequestWorker$1;
+    -><init>(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)V
 
     .line 40
     .line 41
     .line 42
     :try_start_0
-    sget-object p0, Landroidx/core/provider/FontRequestWorker;->DEFAULT_EXECUTOR_SERVICE:Ljava/util/concurrent/ExecutorService;
+    sget-object p0, Landroidx/core/provider/FontRequestWorker;
+    ->DEFAULT_EXECUTOR_SERVICE:Ljava/util/concurrent/ExecutorService;
 
     .line 43
     .line 44
-    invoke-static {p0, v1, p4}, Landroidx/core/provider/RequestExecutor;->submit(Ljava/util/concurrent/ExecutorService;Ljava/util/concurrent/Callable;I)Ljava/lang/Object;
+    invoke-static {p0, v1, p4}, Landroidx/core/provider/RequestExecutor;
+    ->submit(Ljava/util/concurrent/ExecutorService;Ljava/util/concurrent/Callable;I)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -1211,12 +1270,14 @@
 
     .line 49
     .line 50
-    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;
+    ->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 
     .line 51
     .line 52
     .line 53
-    iget-object p0, p0, Landroidx/core/provider/FontRequestWorker$TypefaceResult;->mTypeface:Landroid/graphics/Typeface;
+    iget-object p0, p0, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    ->mTypeface:Landroid/graphics/Typeface;
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1233,12 +1294,14 @@
     const/4 p1, -0x3
 
     .line 59
-    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    -><init>(I)V
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p2, p0}, Landroidx/core/provider/CallbackWithHandler;
+    ->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 
     .line 63
     .line 64
@@ -1252,11 +1315,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/core/provider/FontRequestWorker;->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object v0, Landroidx/core/provider/FontRequestWorker;
+    ->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/LruCache;->evictAll()V
+    invoke-virtual {v0}, Landroidx/collection/LruCache;
+    ->evictAll()V
 
     .line 4
     .line 5

@@ -53,7 +53,8 @@
     const/high16 v0, 0x500000
 
     .line 12
-    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;I)V
+    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    -><init>(Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;I)V
 return-void
 .end method
 
@@ -61,7 +62,8 @@ return-void
     .locals 4
 
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -72,20 +74,25 @@ return-void
 
     const/16 v3, 0x10
 
-    invoke-direct {v0, v3, v1, v2}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
+    invoke-direct {v0, v3, v1, v2}, Ljava/util/LinkedHashMap;
+    -><init>(IFZ)V
 
-    iput-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iput-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     const-wide/16 v0, 0x0
 
     .line 8
-    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 9
-    iput-object p1, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    iput-object p1, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
 
     .line 10
-    iput p2, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mMaxCacheSizeInBytes:I
+    iput p2, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mMaxCacheSizeInBytes:I
 
     return-void
 .end method
@@ -96,7 +103,8 @@ return-void
     const/high16 v0, 0x500000
 
     .line 11
-    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Ljava/io/File;I)V
+    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    -><init>(Ljava/io/File;I)V
 return-void
 .end method
 
@@ -104,7 +112,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -115,24 +124,30 @@ return-void
 
     const/16 v3, 0x10
 
-    invoke-direct {v0, v3, v1, v2}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
+    invoke-direct {v0, v3, v1, v2}, Ljava/util/LinkedHashMap;
+    -><init>(IFZ)V
 
-    iput-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iput-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     const-wide/16 v0, 0x0
 
     .line 3
-    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 4
     new-instance v0, Lcom/android/volley/toolbox/DiskBasedCache$1;
 
-    invoke-direct {v0, p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache$1;-><init>(Lcom/android/volley/toolbox/DiskBasedCache;Ljava/io/File;)V
+    invoke-direct {v0, p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache$1;
+    -><init>(Lcom/android/volley/toolbox/DiskBasedCache;Ljava/io/File;)V
 
-    iput-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    iput-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
 
     .line 5
-    iput p2, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mMaxCacheSizeInBytes:I
+    iput p2, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mMaxCacheSizeInBytes:I
 
     return-void
 .end method
@@ -141,7 +156,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->length()I
 
     .line 2
     .line 3
@@ -156,7 +172,8 @@ return-void
     const/4 v1, 0x0
 
     .line 8
-    invoke-virtual {p1, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v1, v0}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 9
     .line 10
@@ -164,7 +181,8 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 13
     .line 14
@@ -172,7 +190,8 @@ return-void
     move-result v1
 
     .line 16
-    invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/String;
+    ->valueOf(I)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -180,7 +199,8 @@ return-void
     move-result-object v1
 
     .line 20
-    invoke-static {v1}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, LA/d;
+    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -188,7 +208,8 @@ return-void
     move-result-object v1
 
     .line 24
-    invoke-virtual {p1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->substring(I)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -196,7 +217,8 @@ return-void
     move-result-object p1
 
     .line 28
-    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 29
     .line 30
@@ -204,7 +226,8 @@ return-void
     move-result p1
 
     .line 32
-    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(I)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -212,12 +235,14 @@ return-void
     move-result-object p1
 
     .line 36
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 40
     .line 41
@@ -231,11 +256,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;->get()Ljava/io/File;
+    invoke-interface {v0}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    ->get()Ljava/io/File;
 
     .line 4
     .line 5
@@ -243,7 +270,8 @@ return-void
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;
+    ->exists()Z
 
     .line 8
     .line 9
@@ -266,16 +294,19 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {v1, v0}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 22
     .line 23
-    invoke-interface {v0}, Ljava/util/Map;->clear()V
+    invoke-interface {v0}, Ljava/util/Map;
+    ->clear()V
 
     .line 24
     .line 25
@@ -284,11 +315,13 @@ return-void
 
     .line 27
     .line 28
-    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->initialize()V
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->initialize()V
 
     .line 31
     .line 32
@@ -310,11 +343,13 @@ return-void
     const/4 v2, 0x0
 
     .line 4
-    iget-wide v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 5
     .line 6
-    iget v5, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mMaxCacheSizeInBytes:I
+    iget v5, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mMaxCacheSizeInBytes:I
 
     .line 7
     .line 8
@@ -334,7 +369,8 @@ return-void
     .line 14
     .line 15
     :cond_0
-    sget-boolean v3, Lcom/android/volley/VolleyLog;->DEBUG:Z
+    sget-boolean v3, Lcom/android/volley/VolleyLog;
+    ->DEBUG:Z
 
     .line 16
     .line 17
@@ -350,17 +386,20 @@ return-void
 
     .line 22
     .line 23
-    invoke-static {v3, v4}, Lcom/android/volley/VolleyLog;->v(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4}, Lcom/android/volley/VolleyLog;
+    ->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 24
     .line 25
     .line 26
     :cond_1
-    iget-wide v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 27
     .line 28
-    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->elapsedRealtime()J
 
     .line 29
     .line 30
@@ -368,11 +407,13 @@ return-void
     move-result-wide v5
 
     .line 32
-    iget-object v7, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v7, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 33
     .line 34
-    invoke-interface {v7}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {v7}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 35
     .line 36
@@ -380,7 +421,8 @@ return-void
     move-result-object v7
 
     .line 38
-    invoke-interface {v7}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v7}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 39
     .line 40
@@ -392,7 +434,8 @@ return-void
 
     .line 43
     :cond_2
-    invoke-interface {v7}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v7}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 44
     .line 45
@@ -404,7 +447,8 @@ return-void
 
     .line 48
     .line 49
-    invoke-interface {v7}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v7}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -416,7 +460,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-interface {v9}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v9}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -428,11 +473,13 @@ return-void
 
     .line 60
     .line 61
-    iget-object v10, v9, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->key:Ljava/lang/String;
+    iget-object v10, v9, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->key:Ljava/lang/String;
 
     .line 62
     .line 63
-    invoke-virtual {p0, v10}, Lcom/android/volley/toolbox/DiskBasedCache;->getFileForKey(Ljava/lang/String;)Ljava/io/File;
+    invoke-virtual {p0, v10}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFileForKey(Ljava/lang/String;)Ljava/io/File;
 
     .line 64
     .line 65
@@ -440,7 +487,8 @@ return-void
     move-result-object v10
 
     .line 67
-    invoke-virtual {v10}, Ljava/io/File;->delete()Z
+    invoke-virtual {v10}, Ljava/io/File;
+    ->delete()Z
 
     .line 68
     .line 69
@@ -452,18 +500,21 @@ return-void
 
     .line 72
     .line 73
-    iget-wide v10, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v10, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 74
     .line 75
-    iget-wide v12, v9, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iget-wide v12, v9, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 76
     .line 77
     sub-long/2addr v10, v12
 
     .line 78
-    iput-wide v10, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v10, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 79
     .line 80
@@ -471,11 +522,13 @@ return-void
 
     .line 81
     :cond_3
-    iget-object v9, v9, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->key:Ljava/lang/String;
+    iget-object v9, v9, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->key:Ljava/lang/String;
 
     .line 82
     .line 83
-    invoke-direct {p0, v9}, Lcom/android/volley/toolbox/DiskBasedCache;->getFilenameForKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v9}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFilenameForKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 84
     .line 85
@@ -499,13 +552,15 @@ return-void
 
     .line 94
     .line 95
-    invoke-static {v9, v11}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v9, v11}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 96
     .line 97
     .line 98
     :goto_0
-    invoke-interface {v7}, Ljava/util/Iterator;->remove()V
+    invoke-interface {v7}, Ljava/util/Iterator;
+    ->remove()V
 
     .line 99
     .line 100
@@ -513,14 +568,16 @@ return-void
     add-int/2addr v8, v1
 
     .line 102
-    iget-wide v9, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v9, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 103
     .line 104
     long-to-float v9, v9
 
     .line 105
-    iget v10, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mMaxCacheSizeInBytes:I
+    iget v10, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mMaxCacheSizeInBytes:I
 
     .line 106
     .line 107
@@ -545,7 +602,8 @@ return-void
     .line 116
     .line 117
     :cond_4
-    sget-boolean v7, Lcom/android/volley/VolleyLog;->DEBUG:Z
+    sget-boolean v7, Lcom/android/volley/VolleyLog;
+    ->DEBUG:Z
 
     .line 118
     .line 119
@@ -553,7 +611,8 @@ return-void
 
     .line 120
     .line 121
-    invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v8}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 122
     .line 123
@@ -561,14 +620,16 @@ return-void
     move-result-object v7
 
     .line 125
-    iget-wide v8, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v8, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 126
     .line 127
     sub-long/2addr v8, v3
 
     .line 128
-    invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v8, v9}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 129
     .line 130
@@ -576,7 +637,8 @@ return-void
     move-result-object v3
 
     .line 132
-    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;
+    ->elapsedRealtime()J
 
     .line 133
     .line 134
@@ -587,7 +649,8 @@ return-void
     sub-long/2addr v8, v5
 
     .line 137
-    invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v8, v9}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 138
     .line 139
@@ -618,7 +681,8 @@ return-void
 
     .line 151
     .line 152
-    invoke-static {v0, v5}, Lcom/android/volley/VolleyLog;->v(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5}, Lcom/android/volley/VolleyLog;
+    ->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 153
     .line 154
@@ -632,11 +696,13 @@ return-void
     .locals 7
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -648,18 +714,21 @@ return-void
 
     .line 8
     .line 9
-    iget-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 10
     .line 11
-    iget-wide v2, p2, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iget-wide v2, p2, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 12
     .line 13
     add-long/2addr v0, v2
 
     .line 14
-    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 15
     .line 16
@@ -667,11 +736,13 @@ return-void
 
     .line 17
     :cond_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -683,15 +754,18 @@ return-void
 
     .line 24
     .line 25
-    iget-wide v1, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v1, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 26
     .line 27
-    iget-wide v3, p2, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iget-wide v3, p2, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 28
     .line 29
-    iget-wide v5, v0, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iget-wide v5, v0, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 30
     .line 31
@@ -701,16 +775,19 @@ return-void
     add-long/2addr v3, v1
 
     .line 33
-    iput-wide v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 34
     .line 35
     :goto_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 36
     .line 37
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -722,7 +799,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/io/InputStream;->read()I
+    invoke-virtual {p0}, Ljava/io/InputStream;
+    ->read()I
 
     .line 2
     .line 3
@@ -745,7 +823,8 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/io/EOFException;-><init>()V
+    invoke-direct {p0}, Ljava/io/EOFException;
+    -><init>()V
 
     .line 12
     .line 13
@@ -780,7 +859,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->readInt(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->readInt(Ljava/io/InputStream;)I
 
     .line 2
     .line 3
@@ -796,7 +876,8 @@ return-void
 
     .line 8
     .line 9
-    sget-object v1, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+    sget-object v1, Ljava/util/Collections;
+    ->EMPTY_LIST:Ljava/util/List;
 
     .line 10
     .line 11
@@ -808,7 +889,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 15
     .line 16
@@ -822,7 +904,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->readString(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->readString(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -830,7 +913,8 @@ return-void
     move-result-object v3
 
     .line 24
-    invoke-virtual {v3}, Ljava/lang/String;->intern()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/String;
+    ->intern()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -838,7 +922,8 @@ return-void
     move-result-object v3
 
     .line 28
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->readString(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->readString(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -846,7 +931,8 @@ return-void
     move-result-object v4
 
     .line 32
-    invoke-virtual {v4}, Ljava/lang/String;->intern()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/String;
+    ->intern()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -858,12 +944,14 @@ return-void
 
     .line 37
     .line 38
-    invoke-direct {v5, v3, v4}, Lcom/android/volley/Header;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v5, v3, v4}, Lcom/android/volley/Header;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-interface {v1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, v5}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 42
     .line 43
@@ -888,7 +976,8 @@ return-void
 
     .line 51
     .line 52
-    invoke-static {v0, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, LA/d;
+    ->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -896,7 +985,8 @@ return-void
     move-result-object v0
 
     .line 56
-    invoke-direct {p0, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/io/IOException;
+    -><init>(Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -933,7 +1023,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 2
     .line 3
@@ -941,7 +1032,8 @@ return-void
     move-result v0
 
     .line 5
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 6
     .line 7
@@ -956,7 +1048,8 @@ return-void
     or-int/2addr v0, v1
 
     .line 12
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 13
     .line 14
@@ -971,7 +1064,8 @@ return-void
     or-int/2addr v0, v1
 
     .line 19
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 20
     .line 21
@@ -992,7 +1086,8 @@ return-void
     .locals 7
 
     .line 1
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 2
     .line 3
@@ -1010,7 +1105,8 @@ return-void
     and-long/2addr v0, v2
 
     .line 9
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 10
     .line 11
@@ -1034,7 +1130,8 @@ return-void
     or-long/2addr v0, v4
 
     .line 19
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 20
     .line 21
@@ -1058,7 +1155,8 @@ return-void
     or-long/2addr v0, v4
 
     .line 29
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 30
     .line 31
@@ -1082,7 +1180,8 @@ return-void
     or-long/2addr v0, v4
 
     .line 39
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 40
     .line 41
@@ -1106,7 +1205,8 @@ return-void
     or-long/2addr v0, v4
 
     .line 49
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 50
     .line 51
@@ -1130,7 +1230,8 @@ return-void
     or-long/2addr v0, v4
 
     .line 59
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 60
     .line 61
@@ -1154,7 +1255,8 @@ return-void
     or-long/2addr v0, v4
 
     .line 69
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->read(Ljava/io/InputStream;)I
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->read(Ljava/io/InputStream;)I
 
     .line 70
     .line 71
@@ -1184,7 +1286,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->readLong(Ljava/io/InputStream;)J
+    invoke-static {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->readLong(Ljava/io/InputStream;)J
 
     .line 2
     .line 3
@@ -1192,7 +1295,8 @@ return-void
     move-result-wide v0
 
     .line 5
-    invoke-static {p0, v0, v1}, Lcom/android/volley/toolbox/DiskBasedCache;->streamToBytes(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;J)[B
+    invoke-static {p0, v0, v1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->streamToBytes(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;J)[B
 
     .line 6
     .line 7
@@ -1208,7 +1312,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Ljava/lang/String;
+    -><init>([BLjava/lang/String;)V
 
     .line 14
     .line 15
@@ -1220,11 +1325,13 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1240,18 +1347,21 @@ return-void
 
     .line 10
     .line 11
-    iget-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 12
     .line 13
-    iget-wide v2, p1, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iget-wide v2, p1, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 14
     .line 15
     sub-long/2addr v0, v2
 
     .line 16
-    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 17
     .line 18
@@ -1265,7 +1375,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;->bytesRemaining()J
+    invoke-virtual {p0}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;
+    ->bytesRemaining()J
 
     .line 2
     .line 3
@@ -1315,12 +1426,14 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {p2, p0}, Ljava/io/DataInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p2, p0}, Ljava/io/DataInputStream;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p2, p1}, Ljava/io/DataInputStream;->readFully([B)V
+    invoke-virtual {p2, p1}, Ljava/io/DataInputStream;
+    ->readFully([B)V
 
     .line 29
     .line 30
@@ -1341,12 +1454,14 @@ return-void
 
     .line 37
     .line 38
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v2, p1, p2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1, p2}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
@@ -1355,17 +1470,20 @@ return-void
 
     .line 45
     .line 46
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -1373,7 +1491,8 @@ return-void
     move-result-object p1
 
     .line 56
-    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/io/IOException;
+    -><init>(Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -1578,7 +1697,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    invoke-interface {p0}, Ljava/util/List;
+    ->size()I
 
     .line 4
     .line 5
@@ -1586,12 +1706,14 @@ return-void
     move-result v0
 
     .line 7
-    invoke-static {p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;->writeInt(Ljava/io/OutputStream;I)V
+    invoke-static {p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->writeInt(Ljava/io/OutputStream;I)V
 
     .line 8
     .line 9
     .line 10
-    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/List;
+    ->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -1600,7 +1722,8 @@ return-void
 
     .line 14
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 15
     .line 16
@@ -1612,7 +1735,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -1624,7 +1748,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Lcom/android/volley/Header;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/android/volley/Header;
+    ->getName()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -1632,12 +1757,14 @@ return-void
     move-result-object v1
 
     .line 30
-    invoke-static {p1, v1}, Lcom/android/volley/toolbox/DiskBasedCache;->writeString(Ljava/io/OutputStream;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->writeString(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v0}, Lcom/android/volley/Header;->getValue()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/android/volley/Header;
+    ->getValue()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -1645,7 +1772,8 @@ return-void
     move-result-object v0
 
     .line 37
-    invoke-static {p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;->writeString(Ljava/io/OutputStream;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->writeString(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -1661,7 +1789,8 @@ return-void
     const/4 p0, 0x0
 
     .line 43
-    invoke-static {p1, p0}, Lcom/android/volley/toolbox/DiskBasedCache;->writeInt(Ljava/io/OutputStream;I)V
+    invoke-static {p1, p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->writeInt(Ljava/io/OutputStream;I)V
 
     .line 44
     .line 45
@@ -1677,7 +1806,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 4
     .line 5
@@ -1690,7 +1820,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 11
     .line 12
@@ -1703,7 +1834,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 18
     .line 19
@@ -1716,7 +1848,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {p0, p1}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, p1}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 25
     .line 26
@@ -1734,7 +1867,8 @@ return-void
     int-to-byte v0, v0
 
     .line 3
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 4
     .line 5
@@ -1753,7 +1887,8 @@ return-void
     int-to-byte v0, v1
 
     .line 12
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 13
     .line 14
@@ -1772,7 +1907,8 @@ return-void
     int-to-byte v0, v1
 
     .line 21
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 22
     .line 23
@@ -1791,7 +1927,8 @@ return-void
     int-to-byte v0, v1
 
     .line 30
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 31
     .line 32
@@ -1810,7 +1947,8 @@ return-void
     int-to-byte v0, v1
 
     .line 39
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 40
     .line 41
@@ -1829,7 +1967,8 @@ return-void
     int-to-byte v0, v1
 
     .line 48
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 49
     .line 50
@@ -1848,7 +1987,8 @@ return-void
     int-to-byte v0, v1
 
     .line 57
-    invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, v0}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 58
     .line 59
@@ -1866,7 +2006,8 @@ return-void
     int-to-byte p1, p2
 
     .line 65
-    invoke-virtual {p0, p1}, Ljava/io/OutputStream;->write(I)V
+    invoke-virtual {p0, p1}, Ljava/io/OutputStream;
+    ->write(I)V
 
     .line 66
     .line 67
@@ -1882,7 +2023,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->getBytes(Ljava/lang/String;)[B
 
     .line 4
     .line 5
@@ -1896,7 +2038,8 @@ return-void
     int-to-long v0, v0
 
     .line 9
-    invoke-static {p0, v0, v1}, Lcom/android/volley/toolbox/DiskBasedCache;->writeLong(Ljava/io/OutputStream;J)V
+    invoke-static {p0, v0, v1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->writeLong(Ljava/io/OutputStream;J)V
 
     .line 10
     .line 11
@@ -1907,7 +2050,8 @@ return-void
     array-length v1, p1
 
     .line 14
-    invoke-virtual {p0, p1, v0, v1}, Ljava/io/OutputStream;->write([BII)V
+    invoke-virtual {p0, p1, v0, v1}, Ljava/io/OutputStream;
+    ->write([BII)V
 
     .line 15
     .line 16
@@ -1925,11 +2069,13 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
 
     .line 3
     .line 4
-    invoke-interface {v0}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;->get()Ljava/io/File;
+    invoke-interface {v0}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    ->get()Ljava/io/File;
 
     .line 5
     .line 6
@@ -1937,7 +2083,8 @@ return-void
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
+    invoke-virtual {v0}, Ljava/io/File;
+    ->listFiles()[Ljava/io/File;
 
     .line 9
     .line 10
@@ -1967,7 +2114,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v4}, Ljava/io/File;->delete()Z
+    invoke-virtual {v4}, Ljava/io/File;
+    ->delete()Z
 
     .line 22
     .line 23
@@ -1987,11 +2135,13 @@ return-void
 
     .line 29
     :cond_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 30
     .line 31
-    invoke-interface {v0}, Ljava/util/Map;->clear()V
+    invoke-interface {v0}, Ljava/util/Map;
+    ->clear()V
 
     .line 32
     .line 33
@@ -2000,7 +2150,8 @@ return-void
 
     .line 35
     .line 36
-    iput-wide v2, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iput-wide v2, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 37
     .line 38
@@ -2012,7 +2163,8 @@ return-void
 
     .line 41
     .line 42
-    invoke-static {v0, v1}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2082,7 +2234,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+    invoke-direct {v0, p1}, Ljava/io/FileInputStream;
+    -><init>(Ljava/io/File;)V
 
     .line 4
     .line 5
@@ -2100,7 +2253,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+    invoke-direct {v0, p1}, Ljava/io/FileOutputStream;
+    -><init>(Ljava/io/File;)V
 
     .line 4
     .line 5
@@ -2125,11 +2279,13 @@ return-void
 
     .line 5
     :try_start_0
-    iget-object v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mEntries:Ljava/util/Map;
+    iget-object v3, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mEntries:Ljava/util/Map;
 
     .line 6
     .line 7
-    invoke-interface {v3, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -2157,7 +2313,8 @@ return-void
     .line 18
     :cond_0
     :try_start_1
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->getFileForKey(Ljava/lang/String;)Ljava/io/File;
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFileForKey(Ljava/lang/String;)Ljava/io/File;
 
     .line 19
     .line 20
@@ -2176,7 +2333,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p0, v5}, Lcom/android/volley/toolbox/DiskBasedCache;->createInputStream(Ljava/io/File;)Ljava/io/InputStream;
+    invoke-virtual {p0, v5}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->createInputStream(Ljava/io/File;)Ljava/io/InputStream;
 
     .line 27
     .line 28
@@ -2184,12 +2342,14 @@ return-void
     move-result-object v8
 
     .line 30
-    invoke-direct {v7, v8}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {v7, v8}, Ljava/io/BufferedInputStream;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v5}, Ljava/io/File;->length()J
+    invoke-virtual {v5}, Ljava/io/File;
+    ->length()J
 
     .line 34
     .line 35
@@ -2197,7 +2357,8 @@ return-void
     move-result-wide v8
 
     .line 37
-    invoke-direct {v6, v7, v8, v9}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;-><init>(Ljava/io/InputStream;J)V
+    invoke-direct {v6, v7, v8, v9}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;
+    -><init>(Ljava/io/InputStream;J)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -2206,7 +2367,8 @@ return-void
     .line 39
     .line 40
     :try_start_3
-    invoke-static {v6}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->readHeader(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    invoke-static {v6}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->readHeader(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
 
     .line 41
     .line 42
@@ -2214,11 +2376,13 @@ return-void
     move-result-object v7
 
     .line 44
-    iget-object v8, v7, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->key:Ljava/lang/String;
+    iget-object v8, v7, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->key:Ljava/lang/String;
 
     .line 45
     .line 46
-    invoke-static {p1, v8}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {p1, v8}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 47
     .line 48
@@ -2234,7 +2398,8 @@ return-void
 
     .line 53
     .line 54
-    invoke-virtual {v5}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/io/File;
+    ->getAbsolutePath()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -2242,7 +2407,8 @@ return-void
     move-result-object v8
 
     .line 58
-    iget-object v7, v7, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->key:Ljava/lang/String;
+    iget-object v7, v7, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->key:Ljava/lang/String;
 
     .line 59
     .line 60
@@ -2265,12 +2431,14 @@ return-void
 
     .line 68
     .line 69
-    invoke-static {v3, v9}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v9}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 70
     .line 71
     .line 72
-    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->removeEntry(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->removeEntry(Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -2278,7 +2446,8 @@ return-void
     .line 74
     .line 75
     :try_start_4
-    invoke-virtual {v6}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v6}, Ljava/io/InputStream;
+    ->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -2314,7 +2483,8 @@ return-void
     .line 86
     :cond_1
     :try_start_5
-    invoke-virtual {v6}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;->bytesRemaining()J
+    invoke-virtual {v6}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;
+    ->bytesRemaining()J
 
     .line 87
     .line 88
@@ -2322,7 +2492,8 @@ return-void
     move-result-wide v7
 
     .line 90
-    invoke-static {v6, v7, v8}, Lcom/android/volley/toolbox/DiskBasedCache;->streamToBytes(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;J)[B
+    invoke-static {v6, v7, v8}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->streamToBytes(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;J)[B
 
     .line 91
     .line 92
@@ -2330,7 +2501,8 @@ return-void
     move-result-object v7
 
     .line 94
-    invoke-virtual {v3, v7}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->toCacheEntry([B)Lcom/android/volley/Cache$Entry;
+    invoke-virtual {v3, v7}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->toCacheEntry([B)Lcom/android/volley/Cache$Entry;
 
     .line 95
     .line 96
@@ -2341,7 +2513,8 @@ return-void
 
     .line 98
     :try_start_6
-    invoke-virtual {v6}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v6}, Ljava/io/InputStream;
+    ->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_0
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
@@ -2356,7 +2529,8 @@ return-void
     .line 103
     :goto_0
     :try_start_7
-    invoke-virtual {v6}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v6}, Ljava/io/InputStream;
+    ->close()V
 
     .line 104
     .line 105
@@ -2373,7 +2547,8 @@ return-void
 
     .line 108
     .line 109
-    invoke-virtual {v5}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/io/File;
+    ->getAbsolutePath()Ljava/lang/String;
 
     .line 110
     .line 111
@@ -2381,7 +2556,8 @@ return-void
     move-result-object v5
 
     .line 113
-    invoke-virtual {v3}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -2401,12 +2577,14 @@ return-void
 
     .line 122
     .line 123
-    invoke-static {v6, v0}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v0}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 124
     .line 125
     .line 126
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->remove(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->remove(Ljava/lang/String;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_0
 
@@ -2547,11 +2725,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    iget-object v1, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
 
     .line 4
     .line 5
-    invoke-interface {v1}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;->get()Ljava/io/File;
+    invoke-interface {v1}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    ->get()Ljava/io/File;
 
     .line 6
     .line 7
@@ -2559,7 +2739,8 @@ return-void
     move-result-object v1
 
     .line 9
-    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->getFilenameForKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFilenameForKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -2567,7 +2748,8 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, v1, p1}, Ljava/io/File;
+    -><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -2589,11 +2771,13 @@ return-void
 
     .line 4
     :try_start_0
-    iget-object v2, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    iget-object v2, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mRootDirectorySupplier:Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
 
     .line 5
     .line 6
-    invoke-interface {v2}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;->get()Ljava/io/File;
+    invoke-interface {v2}, Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;
+    ->get()Ljava/io/File;
 
     .line 7
     .line 8
@@ -2601,7 +2785,8 @@ return-void
     move-result-object v2
 
     .line 10
-    invoke-virtual {v2}, Ljava/io/File;->exists()Z
+    invoke-virtual {v2}, Ljava/io/File;
+    ->exists()Z
 
     .line 11
     .line 12
@@ -2613,7 +2798,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
+    invoke-virtual {v2}, Ljava/io/File;
+    ->mkdirs()Z
 
     .line 17
     .line 18
@@ -2629,7 +2815,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/io/File;
+    ->getAbsolutePath()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -2645,7 +2832,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-static {v3, v1}, Lcom/android/volley/VolleyLog;->e(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v1}, Lcom/android/volley/VolleyLog;
+    ->e(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2671,7 +2859,8 @@ return-void
     .line 40
     :cond_1
     :try_start_1
-    invoke-virtual {v2}, Ljava/io/File;->listFiles()[Ljava/io/File;
+    invoke-virtual {v2}, Ljava/io/File;
+    ->listFiles()[Ljava/io/File;
 
     .line 41
     .line 42
@@ -2707,7 +2896,8 @@ return-void
     .line 52
     .line 53
     :try_start_3
-    invoke-virtual {v4}, Ljava/io/File;->length()J
+    invoke-virtual {v4}, Ljava/io/File;
+    ->length()J
 
     .line 54
     .line 55
@@ -2723,7 +2913,8 @@ return-void
 
     .line 60
     .line 61
-    invoke-virtual {p0, v4}, Lcom/android/volley/toolbox/DiskBasedCache;->createInputStream(Ljava/io/File;)Ljava/io/InputStream;
+    invoke-virtual {p0, v4}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->createInputStream(Ljava/io/File;)Ljava/io/InputStream;
 
     .line 62
     .line 63
@@ -2731,12 +2922,14 @@ return-void
     move-result-object v9
 
     .line 65
-    invoke-direct {v8, v9}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {v8, v9}, Ljava/io/BufferedInputStream;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 66
     .line 67
     .line 68
-    invoke-direct {v7, v8, v5, v6}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;-><init>(Ljava/io/InputStream;J)V
+    invoke-direct {v7, v8, v5, v6}, Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;
+    -><init>(Ljava/io/InputStream;J)V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -2745,7 +2938,8 @@ return-void
     .line 70
     .line 71
     :try_start_4
-    invoke-static {v7}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->readHeader(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    invoke-static {v7}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->readHeader(Lcom/android/volley/toolbox/DiskBasedCache$CountingInputStream;)Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
 
     .line 72
     .line 73
@@ -2753,15 +2947,18 @@ return-void
     move-result-object v8
 
     .line 75
-    iput-wide v5, v8, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iput-wide v5, v8, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 76
     .line 77
-    iget-object v5, v8, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->key:Ljava/lang/String;
+    iget-object v5, v8, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->key:Ljava/lang/String;
 
     .line 78
     .line 79
-    invoke-direct {p0, v5, v8}, Lcom/android/volley/toolbox/DiskBasedCache;->putEntry(Ljava/lang/String;Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;)V
+    invoke-direct {p0, v5, v8}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->putEntry(Ljava/lang/String;Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
@@ -2769,7 +2966,8 @@ return-void
     .line 81
     .line 82
     :try_start_5
-    invoke-virtual {v7}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v7}, Ljava/io/InputStream;
+    ->close()V
 
     .line 83
     .line 84
@@ -2781,7 +2979,8 @@ return-void
     move-exception v5
 
     .line 87
-    invoke-virtual {v7}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v7}, Ljava/io/InputStream;
+    ->close()V
 
     .line 88
     .line 89
@@ -2794,7 +2993,8 @@ return-void
     .line 91
     :catch_0
     :try_start_6
-    invoke-virtual {v4}, Ljava/io/File;->delete()Z
+    invoke-virtual {v4}, Ljava/io/File;
+    ->delete()Z
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -3074,7 +3274,8 @@ return-void
 
     .line 2
     :try_start_0
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->get(Ljava/lang/String;)Lcom/android/volley/Cache$Entry;
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->get(Ljava/lang/String;)Lcom/android/volley/Cache$Entry;
 
     .line 3
     .line 4
@@ -3090,7 +3291,8 @@ return-void
 
     .line 9
     .line 10
-    iput-wide v1, v0, Lcom/android/volley/Cache$Entry;->softTtl:J
+    iput-wide v1, v0, Lcom/android/volley/Cache$Entry;
+    ->softTtl:J
 
     .line 11
     .line 12
@@ -3098,7 +3300,8 @@ return-void
 
     .line 13
     .line 14
-    iput-wide v1, v0, Lcom/android/volley/Cache$Entry;->ttl:J
+    iput-wide v1, v0, Lcom/android/volley/Cache$Entry;
+    ->ttl:J
 
     .line 15
     .line 16
@@ -3114,7 +3317,8 @@ return-void
     .line 19
     :cond_0
     :goto_0
-    invoke-virtual {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;->put(Ljava/lang/String;Lcom/android/volley/Cache$Entry;)V
+    invoke-virtual {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->put(Ljava/lang/String;Lcom/android/volley/Cache$Entry;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -3177,11 +3381,13 @@ return-void
 
     .line 4
     :try_start_0
-    iget-wide v2, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mTotalSize:J
+    iget-wide v2, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mTotalSize:J
 
     .line 5
     .line 6
-    iget-object v4, p2, Lcom/android/volley/Cache$Entry;->data:[B
+    iget-object v4, p2, Lcom/android/volley/Cache$Entry;
+    ->data:[B
 
     .line 7
     .line 8
@@ -3194,7 +3400,8 @@ return-void
     add-long/2addr v2, v5
 
     .line 11
-    iget v5, p0, Lcom/android/volley/toolbox/DiskBasedCache;->mMaxCacheSizeInBytes:I
+    iget v5, p0, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->mMaxCacheSizeInBytes:I
 
     .line 12
     .line 13
@@ -3251,7 +3458,8 @@ return-void
     .line 34
     :cond_0
     :try_start_1
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->getFileForKey(Ljava/lang/String;)Ljava/io/File;
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFileForKey(Ljava/lang/String;)Ljava/io/File;
 
     .line 35
     .line 36
@@ -3266,7 +3474,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p0, v2}, Lcom/android/volley/toolbox/DiskBasedCache;->createOutputStream(Ljava/io/File;)Ljava/io/OutputStream;
+    invoke-virtual {p0, v2}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->createOutputStream(Ljava/io/File;)Ljava/io/OutputStream;
 
     .line 41
     .line 42
@@ -3274,7 +3483,8 @@ return-void
     move-result-object v4
 
     .line 44
-    invoke-direct {v3, v4}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+    invoke-direct {v3, v4}, Ljava/io/BufferedOutputStream;
+    -><init>(Ljava/io/OutputStream;)V
 
     .line 45
     .line 46
@@ -3283,12 +3493,14 @@ return-void
 
     .line 48
     .line 49
-    invoke-direct {v4, p1, p2}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;-><init>(Ljava/lang/String;Lcom/android/volley/Cache$Entry;)V
+    invoke-direct {v4, p1, p2}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    -><init>(Ljava/lang/String;Lcom/android/volley/Cache$Entry;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v4, v3}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->writeHeader(Ljava/io/OutputStream;)Z
+    invoke-virtual {v4, v3}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->writeHeader(Ljava/io/OutputStream;)Z
 
     .line 53
     .line 54
@@ -3300,21 +3512,25 @@ return-void
 
     .line 57
     .line 58
-    iget-object p2, p2, Lcom/android/volley/Cache$Entry;->data:[B
+    iget-object p2, p2, Lcom/android/volley/Cache$Entry;
+    ->data:[B
 
     .line 59
     .line 60
-    invoke-virtual {v3, p2}, Ljava/io/OutputStream;->write([B)V
+    invoke-virtual {v3, p2}, Ljava/io/OutputStream;
+    ->write([B)V
 
     .line 61
     .line 62
     .line 63
-    invoke-virtual {v3}, Ljava/io/OutputStream;->close()V
+    invoke-virtual {v3}, Ljava/io/OutputStream;
+    ->close()V
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v2}, Ljava/io/File;->length()J
+    invoke-virtual {v2}, Ljava/io/File;
+    ->length()J
 
     .line 67
     .line 68
@@ -3322,16 +3538,19 @@ return-void
     move-result-wide v5
 
     .line 70
-    iput-wide v5, v4, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;->size:J
+    iput-wide v5, v4, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;
+    ->size:J
 
     .line 71
     .line 72
-    invoke-direct {p0, p1, v4}, Lcom/android/volley/toolbox/DiskBasedCache;->putEntry(Ljava/lang/String;Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;)V
+    invoke-direct {p0, p1, v4}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->putEntry(Ljava/lang/String;Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;)V
 
     .line 73
     .line 74
     .line 75
-    invoke-direct {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->pruneIfNeeded()V
+    invoke-direct {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->pruneIfNeeded()V
 
     .line 76
     .line 77
@@ -3340,7 +3559,8 @@ return-void
 
     .line 79
     :cond_1
-    invoke-virtual {v3}, Ljava/io/OutputStream;->close()V
+    invoke-virtual {v3}, Ljava/io/OutputStream;
+    ->close()V
 
     .line 80
     .line 81
@@ -3349,7 +3569,8 @@ return-void
 
     .line 83
     .line 84
-    invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/io/File;
+    ->getAbsolutePath()Ljava/lang/String;
 
     .line 85
     .line 86
@@ -3365,7 +3586,8 @@ return-void
 
     .line 91
     .line 92
-    invoke-static {p1, v3}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {p1, v3}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 93
     .line 94
@@ -3374,7 +3596,8 @@ return-void
 
     .line 96
     .line 97
-    invoke-direct {p1}, Ljava/io/IOException;-><init>()V
+    invoke-direct {p1}, Ljava/io/IOException;
+    -><init>()V
 
     .line 98
     .line 99
@@ -3387,7 +3610,8 @@ return-void
     .line 101
     :catch_0
     :try_start_3
-    invoke-virtual {v2}, Ljava/io/File;->delete()Z
+    invoke-virtual {v2}, Ljava/io/File;
+    ->delete()Z
 
     .line 102
     .line 103
@@ -3403,7 +3627,8 @@ return-void
 
     .line 108
     .line 109
-    invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/io/File;
+    ->getAbsolutePath()Ljava/lang/String;
 
     .line 110
     .line 111
@@ -3419,13 +3644,15 @@ return-void
 
     .line 116
     .line 117
-    invoke-static {p1, v1}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {p1, v1}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 118
     .line 119
     .line 120
     :cond_2
-    invoke-direct {p0}, Lcom/android/volley/toolbox/DiskBasedCache;->initializeIfRootDirectoryDeleted()V
+    invoke-direct {p0}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->initializeIfRootDirectoryDeleted()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -3568,7 +3795,8 @@ return-void
 
     .line 2
     :try_start_0
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->getFileForKey(Ljava/lang/String;)Ljava/io/File;
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFileForKey(Ljava/lang/String;)Ljava/io/File;
 
     .line 3
     .line 4
@@ -3576,7 +3804,8 @@ return-void
     move-result-object v0
 
     .line 6
-    invoke-virtual {v0}, Ljava/io/File;->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;
+    ->delete()Z
 
     .line 7
     .line 8
@@ -3584,7 +3813,8 @@ return-void
     move-result v0
 
     .line 10
-    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->removeEntry(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->removeEntry(Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -3597,7 +3827,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;->getFilenameForKey(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/android/volley/toolbox/DiskBasedCache;
+    ->getFilenameForKey(Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -3626,7 +3857,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-static {v0, v2}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2}, Lcom/android/volley/VolleyLog;
+    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

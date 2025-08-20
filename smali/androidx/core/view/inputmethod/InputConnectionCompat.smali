@@ -61,7 +61,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -73,7 +74,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/inputmethod/InputConnectionCompat;->lambda$createOnCommitContentListenerUsingPerformReceiveContent$0(Landroid/view/View;Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/inputmethod/InputConnectionCompat;
+    ->lambda$createOnCommitContentListenerUsingPerformReceiveContent$0(Landroid/view/View;Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
 
     move-result p0
 
@@ -100,7 +102,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -112,7 +115,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->unwrap()Ljava/lang/Object;
+    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->unwrap()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -120,7 +124,8 @@
     move-result-object p1
 
     .line 11
-    invoke-static {p1}, Landroidx/core/content/pm/b;->c(Ljava/lang/Object;)Landroid/view/inputmethod/InputContentInfo;
+    invoke-static {p1}, Landroidx/core/content/pm/b;
+    ->c(Ljava/lang/Object;)Landroid/view/inputmethod/InputContentInfo;
 
     .line 12
     .line 13
@@ -128,7 +133,8 @@
     move-result-object p1
 
     .line 15
-    invoke-static {p0, p1, p3, p4}, Landroidx/core/view/inputmethod/InputConnectionCompat$Api25Impl;->commitContent(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/InputContentInfo;ILandroid/os/Bundle;)Z
+    invoke-static {p0, p1, p3, p4}, Landroidx/core/view/inputmethod/InputConnectionCompat$Api25Impl;
+    ->commitContent(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/InputContentInfo;ILandroid/os/Bundle;)Z
 
     .line 16
     .line 17
@@ -139,7 +145,8 @@
 
     .line 20
     :cond_0
-    invoke-static {p1}, Landroidx/core/view/inputmethod/EditorInfoCompat;->getProtocol(Landroid/view/inputmethod/EditorInfo;)I
+    invoke-static {p1}, Landroidx/core/view/inputmethod/EditorInfoCompat;
+    ->getProtocol(Landroid/view/inputmethod/EditorInfo;)I
 
     .line 21
     .line 22
@@ -183,7 +190,8 @@
 
     .line 37
     .line 38
-    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p1}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 39
     .line 40
@@ -205,7 +213,8 @@
     .line 47
     .line 48
     :goto_0
-    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->getContentUri()Landroid/net/Uri;
+    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->getContentUri()Landroid/net/Uri;
 
     .line 49
     .line 50
@@ -213,7 +222,8 @@
     move-result-object v2
 
     .line 52
-    invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;
+    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 53
     .line 54
@@ -235,7 +245,8 @@
     .line 61
     .line 62
     :goto_1
-    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->getDescription()Landroid/content/ClipDescription;
+    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->getDescription()Landroid/content/ClipDescription;
 
     .line 63
     .line 64
@@ -243,7 +254,8 @@
     move-result-object v2
 
     .line 66
-    invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;
+    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 67
     .line 68
@@ -265,7 +277,8 @@
     .line 75
     .line 76
     :goto_2
-    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->getLinkUri()Landroid/net/Uri;
+    invoke-virtual {p2}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->getLinkUri()Landroid/net/Uri;
 
     .line 77
     .line 78
@@ -273,7 +286,8 @@
     move-result-object p2
 
     .line 80
-    invoke-virtual {p1, v0, p2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {p1, v0, p2}, Landroid/os/Bundle;
+    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 81
     .line 82
@@ -295,7 +309,8 @@
     .line 89
     .line 90
     :goto_3
-    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;
+    ->putInt(Ljava/lang/String;I)V
 
     .line 91
     .line 92
@@ -317,7 +332,8 @@
     .line 99
     .line 100
     :goto_4
-    invoke-virtual {p1, p2, p4}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {p1, p2, p4}, Landroid/os/Bundle;
+    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 101
     .line 102
@@ -339,7 +355,8 @@
     .line 109
     .line 110
     :goto_5
-    invoke-interface {p0, p2, p1}, Landroid/view/inputmethod/InputConnection;->performPrivateCommand(Ljava/lang/String;Landroid/os/Bundle;)Z
+    invoke-interface {p0, p2, p1}, Landroid/view/inputmethod/InputConnection;
+    ->performPrivateCommand(Ljava/lang/String;Landroid/os/Bundle;)Z
 
     .line 111
     .line 112
@@ -359,7 +376,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -371,7 +389,8 @@
     const/4 v1, 0x7
 
     .line 7
-    invoke-direct {v0, p0, v1}, LL/b;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, LL/b;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 8
     .line 9
@@ -397,12 +416,14 @@
     .end annotation
 
     .line 9
-    invoke-static {p0}, Landroidx/core/view/inputmethod/InputConnectionCompat;->createOnCommitContentListenerUsingPerformReceiveContent(Landroid/view/View;)Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;
+    invoke-static {p0}, Landroidx/core/view/inputmethod/InputConnectionCompat;
+    ->createOnCommitContentListenerUsingPerformReceiveContent(Landroid/view/View;)Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;
 
     move-result-object p0
 
     .line 10
-    invoke-static {p1, p2, p0}, Landroidx/core/view/inputmethod/InputConnectionCompat;->createWrapper(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)Landroid/view/inputmethod/InputConnection;
+    invoke-static {p1, p2, p0}, Landroidx/core/view/inputmethod/InputConnectionCompat;
+    ->createWrapper(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)Landroid/view/inputmethod/InputConnection;
 
     move-result-object p0
 
@@ -432,20 +453,24 @@
     .line 1
     const-string v0, "inputConnection must be non-null"
 
-    invoke-static {p0, v0}, Landroidx/core/util/ObjectsCompat;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p0, v0}, Landroidx/core/util/ObjectsCompat;
+    ->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 2
     const-string v0, "editorInfo must be non-null"
 
-    invoke-static {p1, v0}, Landroidx/core/util/ObjectsCompat;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/ObjectsCompat;
+    ->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 3
     const-string v0, "onCommitContentListener must be non-null"
 
-    invoke-static {p2, v0}, Landroidx/core/util/ObjectsCompat;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Landroidx/core/util/ObjectsCompat;
+    ->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x19
 
@@ -456,12 +481,14 @@
     .line 5
     new-instance p1, Landroidx/core/view/inputmethod/InputConnectionCompat$1;
 
-    invoke-direct {p1, p0, v2, p2}, Landroidx/core/view/inputmethod/InputConnectionCompat$1;-><init>(Landroid/view/inputmethod/InputConnection;ZLandroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)V
+    invoke-direct {p1, p0, v2, p2}, Landroidx/core/view/inputmethod/InputConnectionCompat$1;
+    -><init>(Landroid/view/inputmethod/InputConnection;ZLandroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)V
 return-object p1
 
     .line 6
     :cond_0
-    invoke-static {p1}, Landroidx/core/view/inputmethod/EditorInfoCompat;->getContentMimeTypes(Landroid/view/inputmethod/EditorInfo;)[Ljava/lang/String;
+    invoke-static {p1}, Landroidx/core/view/inputmethod/EditorInfoCompat;
+    ->getContentMimeTypes(Landroid/view/inputmethod/EditorInfo;)[Ljava/lang/String;
 
     move-result-object p1
 
@@ -476,7 +503,8 @@ return-object p1
     :cond_1
     new-instance p1, Landroidx/core/view/inputmethod/InputConnectionCompat$2;
 
-    invoke-direct {p1, p0, v2, p2}, Landroidx/core/view/inputmethod/InputConnectionCompat$2;-><init>(Landroid/view/inputmethod/InputConnection;ZLandroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)V
+    invoke-direct {p1, p0, v2, p2}, Landroidx/core/view/inputmethod/InputConnectionCompat$2;
+    -><init>(Landroid/view/inputmethod/InputConnection;ZLandroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)V
 return-object p1
 .end method
 
@@ -512,7 +540,8 @@ return-object p1
 
     .line 7
     .line 8
-    invoke-static {v1, p0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, p0}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 9
     .line 10
@@ -535,7 +564,8 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-static {v1, p0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, p0}, Landroid/text/TextUtils;
+    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 19
     .line 20
@@ -582,7 +612,8 @@ return-object p1
     .line 35
     .line 36
     :goto_1
-    invoke-virtual {p1, v2}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v2}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 37
     .line 38
@@ -621,7 +652,8 @@ return-object p1
     .line 50
     .line 51
     :goto_2
-    invoke-virtual {p1, v3}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v3}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 52
     .line 53
@@ -650,7 +682,8 @@ return-object p1
     .line 63
     .line 64
     :goto_3
-    invoke-virtual {p1, v4}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v4}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 65
     .line 66
@@ -679,7 +712,8 @@ return-object p1
     .line 76
     .line 77
     :goto_4
-    invoke-virtual {p1, v5}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v5}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 78
     .line 79
@@ -708,7 +742,8 @@ return-object p1
     .line 89
     .line 90
     :goto_5
-    invoke-virtual {p1, v6}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+    invoke-virtual {p1, v6}, Landroid/os/BaseBundle;
+    ->getInt(Ljava/lang/String;)I
 
     .line 91
     .line 92
@@ -733,7 +768,8 @@ return-object p1
     .line 100
     .line 101
     :goto_6
-    invoke-virtual {p1, p0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, p0}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 102
     .line 103
@@ -757,12 +793,14 @@ return-object p1
 
     .line 112
     .line 113
-    invoke-direct {p1, v3, v4, v5}, Landroidx/core/view/inputmethod/InputContentInfoCompat;-><init>(Landroid/net/Uri;Landroid/content/ClipDescription;Landroid/net/Uri;)V
+    invoke-direct {p1, v3, v4, v5}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    -><init>(Landroid/net/Uri;Landroid/content/ClipDescription;Landroid/net/Uri;)V
 
     .line 114
     .line 115
     .line 116
-    invoke-interface {p2, p1, v6, p0}, Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;->onCommitContent(Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
+    invoke-interface {p2, p1, v6, p0}, Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;
+    ->onCommitContent(Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
 
     .line 117
     .line 118
@@ -777,7 +815,8 @@ return-object p1
 
     .line 121
     .line 122
-    invoke-virtual {v2, v0, v1}, Landroid/os/ResultReceiver;->send(ILandroid/os/Bundle;)V
+    invoke-virtual {v2, v0, v1}, Landroid/os/ResultReceiver;
+    ->send(ILandroid/os/Bundle;)V
 
     .line 123
     .line 124
@@ -791,7 +830,8 @@ return-object p1
 
     .line 127
     .line 128
-    invoke-virtual {v2, v0, v1}, Landroid/os/ResultReceiver;->send(ILandroid/os/Bundle;)V
+    invoke-virtual {v2, v0, v1}, Landroid/os/ResultReceiver;
+    ->send(ILandroid/os/Bundle;)V
 
     .line 129
     .line 130
@@ -809,7 +849,8 @@ return-object p1
     .locals 5
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -835,14 +876,16 @@ return-object p1
     .line 11
     .line 12
     :try_start_0
-    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->requestPermission()V
+    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->requestPermission()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->unwrap()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->unwrap()Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -862,7 +905,8 @@ return-object p1
 
     .line 24
     .line 25
-    invoke-direct {p3}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p3}, Landroid/os/Bundle;
+    -><init>()V
 
     .line 26
     .line 27
@@ -875,7 +919,8 @@ return-object p1
 
     .line 30
     .line 31
-    invoke-direct {v0, p3}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p3}, Landroid/os/Bundle;
+    -><init>(Landroid/os/Bundle;)V
 
     .line 32
     .line 33
@@ -888,7 +933,8 @@ return-object p1
 
     .line 36
     .line 37
-    invoke-virtual {p3, v0, p2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {p3, v0, p2}, Landroid/os/Bundle;
+    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 38
     .line 39
@@ -908,7 +954,8 @@ return-object p1
 
     .line 45
     .line 46
-    invoke-static {p1, p2, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 47
     .line 48
@@ -922,7 +969,8 @@ return-object p1
 
     .line 51
     .line 52
-    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->getDescription()Landroid/content/ClipDescription;
+    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->getDescription()Landroid/content/ClipDescription;
 
     .line 53
     .line 54
@@ -934,7 +982,8 @@ return-object p1
 
     .line 57
     .line 58
-    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->getContentUri()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->getContentUri()Landroid/net/Uri;
 
     .line 59
     .line 60
@@ -942,12 +991,14 @@ return-object p1
     move-result-object v4
 
     .line 62
-    invoke-direct {v1, v4}, Landroid/content/ClipData$Item;-><init>(Landroid/net/Uri;)V
+    invoke-direct {v1, v4}, Landroid/content/ClipData$Item;
+    -><init>(Landroid/net/Uri;)V
 
     .line 63
     .line 64
     .line 65
-    invoke-direct {p2, v0, v1}, Landroid/content/ClipData;-><init>(Landroid/content/ClipDescription;Landroid/content/ClipData$Item;)V
+    invoke-direct {p2, v0, v1}, Landroid/content/ClipData;
+    -><init>(Landroid/content/ClipDescription;Landroid/content/ClipData$Item;)V
 
     .line 66
     .line 67
@@ -959,12 +1010,14 @@ return-object p1
     const/4 v1, 0x2
 
     .line 71
-    invoke-direct {v0, p2, v1}, Landroidx/core/view/ContentInfoCompat$Builder;-><init>(Landroid/content/ClipData;I)V
+    invoke-direct {v0, p2, v1}, Landroidx/core/view/ContentInfoCompat$Builder;
+    -><init>(Landroid/content/ClipData;I)V
 
     .line 72
     .line 73
     .line 74
-    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;->getLinkUri()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroidx/core/view/inputmethod/InputContentInfoCompat;
+    ->getLinkUri()Landroid/net/Uri;
 
     .line 75
     .line 76
@@ -972,7 +1025,8 @@ return-object p1
     move-result-object p1
 
     .line 78
-    invoke-virtual {v0, p1}, Landroidx/core/view/ContentInfoCompat$Builder;->setLinkUri(Landroid/net/Uri;)Landroidx/core/view/ContentInfoCompat$Builder;
+    invoke-virtual {v0, p1}, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->setLinkUri(Landroid/net/Uri;)Landroidx/core/view/ContentInfoCompat$Builder;
 
     .line 79
     .line 80
@@ -980,7 +1034,8 @@ return-object p1
     move-result-object p1
 
     .line 82
-    invoke-virtual {p1, p3}, Landroidx/core/view/ContentInfoCompat$Builder;->setExtras(Landroid/os/Bundle;)Landroidx/core/view/ContentInfoCompat$Builder;
+    invoke-virtual {p1, p3}, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->setExtras(Landroid/os/Bundle;)Landroidx/core/view/ContentInfoCompat$Builder;
 
     .line 83
     .line 84
@@ -988,7 +1043,8 @@ return-object p1
     move-result-object p1
 
     .line 86
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat$Builder;->build()Landroidx/core/view/ContentInfoCompat;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->build()Landroidx/core/view/ContentInfoCompat;
 
     .line 87
     .line 88
@@ -996,7 +1052,8 @@ return-object p1
     move-result-object p1
 
     .line 90
-    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p0, p1}, Landroidx/core/view/ViewCompat;
+    ->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 91
     .line 92

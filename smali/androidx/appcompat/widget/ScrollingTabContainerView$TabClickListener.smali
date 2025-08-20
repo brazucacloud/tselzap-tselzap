@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$TabClickListener;->this$0:Landroidx/appcompat/widget/ScrollingTabContainerView;
+    iput-object p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$TabClickListener;
+    ->this$0:Landroidx/appcompat/widget/ScrollingTabContainerView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +49,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->getTab()Landroidx/appcompat/app/ActionBar$Tab;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;
+    ->getTab()Landroidx/appcompat/app/ActionBar$Tab;
 
     .line 5
     .line 6
@@ -55,20 +58,24 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar$Tab;->select()V
+    invoke-virtual {v0}, Landroidx/appcompat/app/ActionBar$Tab;
+    ->select()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$TabClickListener;->this$0:Landroidx/appcompat/widget/ScrollingTabContainerView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$TabClickListener;
+    ->this$0:Landroidx/appcompat/widget/ScrollingTabContainerView;
 
     .line 12
     .line 13
-    iget-object v0, v0, Landroidx/appcompat/widget/ScrollingTabContainerView;->mTabLayout:Landroidx/appcompat/widget/LinearLayoutCompat;
+    iget-object v0, v0, Landroidx/appcompat/widget/ScrollingTabContainerView;
+    ->mTabLayout:Landroidx/appcompat/widget/LinearLayoutCompat;
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 16
     .line 17
@@ -87,15 +94,18 @@
 
     .line 22
     .line 23
-    iget-object v3, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$TabClickListener;->this$0:Landroidx/appcompat/widget/ScrollingTabContainerView;
+    iget-object v3, p0, Landroidx/appcompat/widget/ScrollingTabContainerView$TabClickListener;
+    ->this$0:Landroidx/appcompat/widget/ScrollingTabContainerView;
 
     .line 24
     .line 25
-    iget-object v3, v3, Landroidx/appcompat/widget/ScrollingTabContainerView;->mTabLayout:Landroidx/appcompat/widget/LinearLayoutCompat;
+    iget-object v3, v3, Landroidx/appcompat/widget/ScrollingTabContainerView;
+    ->mTabLayout:Landroidx/appcompat/widget/LinearLayoutCompat;
 
     .line 26
     .line 27
-    invoke-virtual {v3, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v3, v2}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 28
     .line 29
@@ -118,7 +128,8 @@
 
     .line 36
     :goto_1
-    invoke-virtual {v3, v4}, Landroid/view/View;->setSelected(Z)V
+    invoke-virtual {v3, v4}, Landroid/view/View;
+    ->setSelected(Z)V
 
     .line 37
     .line 38

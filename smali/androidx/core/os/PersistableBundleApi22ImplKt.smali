@@ -19,9 +19,11 @@
 
     new-instance v0, Landroidx/core/os/PersistableBundleApi22ImplKt;
 
-    invoke-direct {v0}, Landroidx/core/os/PersistableBundleApi22ImplKt;-><init>()V
+    invoke-direct {v0}, Landroidx/core/os/PersistableBundleApi22ImplKt;
+    -><init>()V
 
-    sput-object v0, Landroidx/core/os/PersistableBundleApi22ImplKt;->INSTANCE:Landroidx/core/os/PersistableBundleApi22ImplKt;
+    sput-object v0, Landroidx/core/os/PersistableBundleApi22ImplKt;
+    ->INSTANCE:Landroidx/core/os/PersistableBundleApi22ImplKt;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -44,7 +47,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/PersistableBundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {p0, p1, p2}, Landroid/os/PersistableBundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 
     .line 2
     .line 3
@@ -58,7 +62,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/PersistableBundle;->putBooleanArray(Ljava/lang/String;[Z)V
+    invoke-virtual {p0, p1, p2}, Landroid/os/PersistableBundle;
+    ->putBooleanArray(Ljava/lang/String;[Z)V
 
     .line 2
     .line 3

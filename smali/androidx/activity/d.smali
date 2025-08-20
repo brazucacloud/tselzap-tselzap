@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/activity/d;->b:I
+    iput p2, p0, Landroidx/activity/d;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/activity/d;->c:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/activity/d;
+    ->c:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,39 +34,48 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/d;->b:I
+    iget v0, p0, Landroidx/activity/d;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/activity/d;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/d;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/activity/FullyDrawnReporter;
 
-    invoke-static {v0}, Landroidx/activity/FullyDrawnReporter;->a(Landroidx/activity/FullyDrawnReporter;)V
+    invoke-static {v0}, Landroidx/activity/FullyDrawnReporter;
+    ->a(Landroidx/activity/FullyDrawnReporter;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/activity/d;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/d;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/activity/ComponentDialog;
 
-    invoke-static {v0}, Landroidx/activity/ComponentDialog;->a(Landroidx/activity/ComponentDialog;)V
+    invoke-static {v0}, Landroidx/activity/ComponentDialog;
+    ->a(Landroidx/activity/ComponentDialog;)V
 return-void
 
     :pswitch_1
-    iget-object v0, p0, Landroidx/activity/d;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/d;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/activity/ComponentActivity;
 
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
+    ->invalidateMenu()V
     return-void
 
     :pswitch_2
-    iget-object v0, p0, Landroidx/activity/d;->c:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/activity/d;
+    ->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;
 
-    invoke-static {v0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;->a(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;)V
+    invoke-static {v0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;
+    ->a(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;)V
 return-void
 
     nop

@@ -21,7 +21,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->reflectExtensionRegistry()Ljava/lang/Class;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->reflectExtensionRegistry()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -29,7 +30,8 @@
     move-result-object v0
 
     .line 5
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -40,7 +42,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -52,7 +55,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -65,7 +69,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->invokeSubclassFactory(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->invokeSubclassFactory(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 8
     .line 9
@@ -83,7 +88,8 @@
 
     .line 13
     .line 14
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    -><init>()V
 
     .line 15
     .line 16
@@ -95,7 +101,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -108,7 +115,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->invokeSubclassFactory(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->invokeSubclassFactory(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 8
     .line 9
@@ -122,7 +130,8 @@
     .line 12
     :catch_0
     :cond_0
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    ->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 13
     .line 14
@@ -133,7 +142,8 @@
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -144,7 +154,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0, p0, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, p0, v2}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 7
     .line 8
@@ -159,7 +170,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -178,7 +190,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
+    ->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -186,7 +199,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -194,7 +208,8 @@
     move-result-object p0
 
     .line 9
-    invoke-virtual {v0, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/Class;
+    ->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 10
     .line 11
@@ -233,7 +248,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5

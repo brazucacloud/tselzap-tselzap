@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/CoroutineLiveData;-><init>(Lg1/i;JLp1/p;)V
+    value = Landroidx/lifecycle/CoroutineLiveData;
+    -><init>(Lg1/i;JLp1/p;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,11 +47,13 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/lifecycle/CoroutineLiveData$1;->this$0:Landroidx/lifecycle/CoroutineLiveData;
+    iput-object p1, p0, Landroidx/lifecycle/CoroutineLiveData$1;
+    ->this$0:Landroidx/lifecycle/CoroutineLiveData;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -60,9 +63,11 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/lifecycle/CoroutineLiveData$1;->invoke()V
+    invoke-virtual {p0}, Landroidx/lifecycle/CoroutineLiveData$1;
+    ->invoke()V
 
-    sget-object v0, Lc1/v;->a:Lc1/v;
+    sget-object v0, Lc1/v;
+    ->a:Lc1/v;
 
     return-object v0
 .end method
@@ -71,11 +76,13 @@ return-void
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/CoroutineLiveData$1;->this$0:Landroidx/lifecycle/CoroutineLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/CoroutineLiveData$1;
+    ->this$0:Landroidx/lifecycle/CoroutineLiveData;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Landroidx/lifecycle/CoroutineLiveData;->access$setBlockRunner$p(Landroidx/lifecycle/CoroutineLiveData;Landroidx/lifecycle/BlockRunner;)V
+    invoke-static {v0, v1}, Landroidx/lifecycle/CoroutineLiveData;
+    ->access$setBlockRunner$p(Landroidx/lifecycle/CoroutineLiveData;Landroidx/lifecycle/BlockRunner;)V
 return-void
 .end method
 

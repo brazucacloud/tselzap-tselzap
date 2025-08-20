@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +48,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/ActionMode;->mTag:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/ActionMode;
+    ->mTag:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public abstract getTitle()Ljava/lang/CharSequence;
@@ -57,7 +59,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/ActionMode;->mTitleOptionalHint:Z    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/ActionMode;
+    ->mTitleOptionalHint:Z    return v0
 .end method
 
 .method public abstract invalidate()V
@@ -75,7 +78,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -97,7 +101,9 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/ActionMode;->mTag:Ljava/lang/Object;    return-void
+    iput-object p1, p0, Landroidx/appcompat/view/ActionMode;
+    ->mTag:Ljava/lang/Object;    
+    return-void
 .end method
 
 .method public abstract setTitle(I)V
@@ -110,7 +116,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/ActionMode;->mTitleOptionalHint:Z
+    iput-boolean p1, p0, Landroidx/appcompat/view/ActionMode;
+    ->mTitleOptionalHint:Z
 return-void
 .end method
 

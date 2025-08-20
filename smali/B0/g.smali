@@ -16,16 +16,19 @@
 
     .line 2
     .line 3
-    sget-object v1, LB0/w;->h:LB0/w;
+    sget-object v1, LB0/w;
+    ->h:LB0/w;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, LB0/p;-><init>(LB0/w;)V
+    invoke-direct {v0, v1}, LB0/p;
+    -><init>(LB0/w;)V
 
     .line 6
     .line 7
     .line 8
-    sput-object v0, LB0/g;->c:LB0/g;
+    sput-object v0, LB0/g;
+    ->c:LB0/g;
 
     .line 9
     .line 10

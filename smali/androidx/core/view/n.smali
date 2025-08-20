@@ -10,7 +10,8 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;->setSystemBarsAppearance(II)V
+    invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;
+    ->setSystemBarsAppearance(II)V
 return-void
 .end method
 
@@ -18,7 +19,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->mandatorySystemGestures()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->mandatorySystemGestures()I
 
     move-result v0
 
@@ -29,7 +31,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->tappableElement()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->tappableElement()I
 
     move-result v0
 
@@ -40,7 +43,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->displayCutout()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->displayCutout()I
 
     move-result v0
 
@@ -51,7 +55,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->statusBars()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->statusBars()I
 
     move-result v0
 
@@ -62,7 +67,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowInsetsController;->getSystemBarsAppearance()I
+    invoke-interface {p0}, Landroid/view/WindowInsetsController;
+    ->getSystemBarsAppearance()I
 
     move-result p0
 
@@ -73,7 +79,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets;->getInsetsIgnoringVisibility(I)Landroid/graphics/Insets;
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets;
+    ->getInsetsIgnoringVisibility(I)Landroid/graphics/Insets;
 
     move-result-object p0
 
@@ -84,7 +91,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowInsetsAnimationController;->getCurrentInsets()Landroid/graphics/Insets;
+    invoke-interface {p0}, Landroid/view/WindowInsetsAnimationController;
+    ->getCurrentInsets()Landroid/graphics/Insets;
 
     move-result-object p0
 
@@ -95,7 +103,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets;
+    sget-object v0, Landroid/view/WindowInsets;
+    ->CONSUMED:Landroid/view/WindowInsets;
 
     return-object v0
 .end method
@@ -113,7 +122,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/Window;->getInsetsController()Landroid/view/WindowInsetsController;
+    invoke-virtual {p0}, Landroid/view/Window;
+    ->getInsetsController()Landroid/view/WindowInsetsController;
 
     move-result-object p0
 
@@ -124,7 +134,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/WindowInsets$Builder;->setInsets(ILandroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/view/WindowInsets$Builder;
+    ->setInsets(ILandroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -133,7 +144,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/WindowInsets$Builder;->setVisible(IZ)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/view/WindowInsets$Builder;
+    ->setVisible(IZ)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -142,7 +154,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroid/view/WindowInsetsAnimationController;->setInsetsAndAlpha(Landroid/graphics/Insets;FF)V
+    invoke-interface {p0, p1, p2, p3}, Landroid/view/WindowInsetsAnimationController;
+    ->setInsetsAndAlpha(Landroid/graphics/Insets;FF)V
 return-void
 .end method
 
@@ -154,7 +167,8 @@ return-void
 
     const/16 v1, 0x8
 
-    invoke-interface {p0, v0, v1}, Landroid/view/WindowInsetsController;->setSystemBarsAppearance(II)V
+    invoke-interface {p0, v0, v1}, Landroid/view/WindowInsetsController;
+    ->setSystemBarsAppearance(II)V
 return-void
 .end method
 
@@ -162,7 +176,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/WindowInsetsController;->setSystemBarsBehavior(I)V
+    invoke-interface {p0, p1}, Landroid/view/WindowInsetsController;
+    ->setSystemBarsBehavior(I)V
 return-void
 .end method
 
@@ -170,7 +185,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface/range {p0 .. p6}, Landroid/view/WindowInsetsController;->controlWindowInsetsAnimation(IJLandroid/view/animation/Interpolator;Landroid/os/CancellationSignal;Landroid/view/WindowInsetsAnimationControlListener;)V
+    invoke-interface/range {p0 .. p6}, Landroid/view/WindowInsetsController;
+    ->controlWindowInsetsAnimation(IJLandroid/view/animation/Interpolator;Landroid/os/CancellationSignal;Landroid/view/WindowInsetsAnimationControlListener;)V
 return-void
 .end method
 
@@ -178,7 +194,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/WindowInsetsController;->removeOnControllableInsetsChangedListener(Landroid/view/WindowInsetsController$OnControllableInsetsChangedListener;)V
+    invoke-interface {p0, p1}, Landroid/view/WindowInsetsController;
+    ->removeOnControllableInsetsChangedListener(Landroid/view/WindowInsetsController$OnControllableInsetsChangedListener;)V
 return-void
 .end method
 
@@ -186,7 +203,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/WindowInsetsController;->addOnControllableInsetsChangedListener(Landroid/view/WindowInsetsController$OnControllableInsetsChangedListener;)V
+    invoke-interface {p0, p1}, Landroid/view/WindowInsetsController;
+    ->addOnControllableInsetsChangedListener(Landroid/view/WindowInsetsController$OnControllableInsetsChangedListener;)V
 return-void
 .end method
 
@@ -194,7 +212,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets;->isVisible(I)Z
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets;
+    ->isVisible(I)Z
 
     move-result p0
 
@@ -205,7 +224,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowInsetsAnimationController;->isCancelled()Z
+    invoke-interface {p0}, Landroid/view/WindowInsetsAnimationController;
+    ->isCancelled()Z
 
     move-result p0
 
@@ -216,7 +236,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->navigationBars()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->navigationBars()I
 
     move-result v0
 
@@ -227,7 +248,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowInsetsController;->getSystemBarsBehavior()I
+    invoke-interface {p0}, Landroid/view/WindowInsetsController;
+    ->getSystemBarsBehavior()I
 
     move-result p0
 
@@ -238,7 +260,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets;->getInsets(I)Landroid/graphics/Insets;
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets;
+    ->getInsets(I)Landroid/graphics/Insets;
 
     move-result-object p0
 
@@ -249,7 +272,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowInsetsAnimationController;->getHiddenStateInsets()Landroid/graphics/Insets;
+    invoke-interface {p0}, Landroid/view/WindowInsetsAnimationController;
+    ->getHiddenStateInsets()Landroid/graphics/Insets;
 
     move-result-object p0
 
@@ -260,7 +284,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/WindowInsets$Builder;->setInsetsIgnoringVisibility(ILandroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/view/WindowInsets$Builder;
+    ->setInsetsIgnoringVisibility(ILandroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -271,7 +296,8 @@ return-void
     .line 1
     const/16 v0, 0x10
 
-    invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;->setSystemBarsAppearance(II)V
+    invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;
+    ->setSystemBarsAppearance(II)V
 return-void
 .end method
 
@@ -279,7 +305,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->captionBar()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->captionBar()I
 
     move-result v0
 
@@ -294,7 +321,8 @@ return-void
 
     const/16 v1, 0x10
 
-    invoke-interface {p0, v0, v1}, Landroid/view/WindowInsetsController;->setSystemBarsAppearance(II)V
+    invoke-interface {p0, v0, v1}, Landroid/view/WindowInsetsController;
+    ->setSystemBarsAppearance(II)V
 return-void
 .end method
 
@@ -302,7 +330,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/view/WindowInsets$Type;->systemGestures()I
+    invoke-static {}, Landroid/view/WindowInsets$Type;
+    ->systemGestures()I
 
     move-result v0
 

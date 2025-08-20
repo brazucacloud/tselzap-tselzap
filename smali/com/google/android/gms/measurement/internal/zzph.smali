@@ -27,11 +27,13 @@
     .locals 2
 
     .line 1
-    sget-object v0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
+    sget-object v0, Ljava/util/Collections;
+    ->EMPTY_MAP:Ljava/util/Map;
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, p1, v0, p2, v1}, Lcom/google/android/gms/measurement/internal/zzph;-><init>(Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;Lcom/google/android/gms/internal/measurement/zzgg$zzo;)V
+    invoke-direct {p0, p1, v0, p2, v1}, Lcom/google/android/gms/measurement/internal/zzph;
+    -><init>(Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;Lcom/google/android/gms/internal/measurement/zzgg$zzo;)V
 return-void
 .end method
 
@@ -53,7 +55,8 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/measurement/internal/zzph;-><init>(Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;Lcom/google/android/gms/internal/measurement/zzgg$zzo;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/measurement/internal/zzph;
+    -><init>(Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;Lcom/google/android/gms/internal/measurement/zzgg$zzo;)V
 return-void
 .end method
 
@@ -74,19 +77,24 @@ return-void
     .end annotation
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzph;->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zza:Ljava/lang/String;
 
     .line 5
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzph;->zzb:Ljava/util/Map;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zzb:Ljava/util/Map;
 
     .line 6
-    iput-object p3, p0, Lcom/google/android/gms/measurement/internal/zzph;->zzc:Lcom/google/android/gms/measurement/internal/zzmf;
+    iput-object p3, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzmf;
 
     .line 7
-    iput-object p4, p0, Lcom/google/android/gms/measurement/internal/zzph;->zzd:Lcom/google/android/gms/internal/measurement/zzgg$zzo;
+    iput-object p4, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zzd:Lcom/google/android/gms/internal/measurement/zzgg$zzo;
 
     return-void
 .end method
@@ -97,7 +105,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;->zzc:Lcom/google/android/gms/measurement/internal/zzmf;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zzc:Lcom/google/android/gms/measurement/internal/zzmf;
 
     .line 2
     .line 3
@@ -108,7 +117,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;->zzd:Lcom/google/android/gms/internal/measurement/zzgg$zzo;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zzd:Lcom/google/android/gms/internal/measurement/zzgg$zzo;
 
     .line 2
     .line 3
@@ -119,7 +129,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zza:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -139,7 +150,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;->zzb:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzph;
+    ->zzb:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -147,7 +159,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
+    sget-object v0, Ljava/util/Collections;
+    ->EMPTY_MAP:Ljava/util/Map;
 
     .line 6
     .line 7

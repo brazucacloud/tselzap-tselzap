@@ -19,7 +19,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/a;->k(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, Landroidx/core/graphics/a;
+    ->k(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 2
     .line 3
@@ -36,7 +37,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, La0/c;->u(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, La0/c;
+    ->u(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 
@@ -50,7 +52,8 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, La0/c;->v(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, La0/c;
+    ->v(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 
@@ -66,7 +69,8 @@
     .line 3
     array-length v0, p0
 
-    invoke-static {p0, v0}, La0/c;->x([BI)Landroid/graphics/drawable/Icon;
+    invoke-static {p0, v0}, La0/c;
+    ->x([BI)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 

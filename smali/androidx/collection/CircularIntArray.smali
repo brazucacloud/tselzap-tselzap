@@ -24,7 +24,8 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularIntArray;-><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularIntArray;
+    -><init>(IILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -32,7 +33,8 @@ return-void
     .locals 2
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x1
 
@@ -43,7 +45,8 @@ return-void
     if-gt p1, v1, :cond_1
 
     .line 3
-    invoke-static {p1}, Ljava/lang/Integer;->bitCount(I)I
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->bitCount(I)I
 
     move-result v1
 
@@ -52,7 +55,8 @@ return-void
     add-int/lit8 p1, p1, -0x1
 
     .line 4
-    invoke-static {p1}, Ljava/lang/Integer;->highestOneBit(I)I
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->highestOneBit(I)I
 
     move-result p1
 
@@ -62,12 +66,14 @@ return-void
     add-int/lit8 v0, p1, -0x1
 
     .line 5
-    iput v0, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iput v0, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 6
     new-array p1, p1, [I
 
-    iput-object p1, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iput-object p1, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     return-void
 
@@ -77,7 +83,8 @@ return-void
 
     const-string v0, "capacity must be <= 2^30"
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -87,7 +94,8 @@ return-void
 
     const-string v0, "capacity must be >= 1"
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -103,7 +111,8 @@ return-void
 
     .line 9
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/collection/CircularIntArray;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/CircularIntArray;
+    -><init>(I)V
 return-void
 .end method
 
@@ -111,14 +120,16 @@ return-void
     .locals 7
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v0, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 2
     .line 3
     array-length v1, v0
 
     .line 4
-    iget v2, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v2, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 5
     .line 6
@@ -141,33 +152,40 @@ return-void
     const/4 v6, 0x0
 
     .line 15
-    invoke-static {v6, v2, v0, v5, v1}, Ld1/i;->X(II[I[II)V
+    invoke-static {v6, v2, v0, v5, v1}, Ld1/i;
+    ->X(II[I[II)V
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v0, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 19
     .line 20
-    iget v2, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v2, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 21
     .line 22
-    invoke-static {v3, v6, v0, v5, v2}, Ld1/i;->X(II[I[II)V
+    invoke-static {v3, v6, v0, v5, v2}, Ld1/i;
+    ->X(II[I[II)V
 
     .line 23
     .line 24
     .line 25
-    iput-object v5, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iput-object v5, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 26
     .line 27
-    iput v6, p0, Landroidx/collection/CircularIntArray;->head:I
+    iput v6, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 28
     .line 29
-    iput v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iput v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 30
     .line 31
@@ -175,7 +193,9 @@ return-void
 
     .line 32
     .line 33
-    iput v4, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I    return-void
+    iput v4, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I    
+    return-void
 
     .line 36
     :cond_0
@@ -187,7 +207,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -200,7 +221,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
@@ -208,18 +230,21 @@ return-void
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 6
     .line 7
     and-int/2addr v0, v1
 
     .line 8
-    iput v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iput v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v1, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 11
     .line 12
@@ -227,7 +252,8 @@ return-void
 
     .line 13
     .line 14
-    iget p1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget p1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 15
     .line 16
@@ -235,7 +261,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {p0}, Landroidx/collection/CircularIntArray;->doubleCapacity()V
+    invoke-direct {p0}, Landroidx/collection/CircularIntArray;
+    ->doubleCapacity()V
 
     .line 19
     .line 20
@@ -248,11 +275,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v0, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 4
     .line 5
@@ -264,18 +293,21 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget p1, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 10
     .line 11
     and-int/2addr p1, v1
 
     .line 12
-    iput p1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iput p1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 13
     .line 14
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 15
     .line 16
@@ -283,7 +315,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {p0}, Landroidx/collection/CircularIntArray;->doubleCapacity()V
+    invoke-direct {p0}, Landroidx/collection/CircularIntArray;
+    ->doubleCapacity()V
 
     .line 19
     .line 20
@@ -296,11 +329,14 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
-    iput v0, p0, Landroidx/collection/CircularIntArray;->tail:I    return-void
+    iput v0, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I    
+    return-void
 .end method
 
 .method public final get(I)I
@@ -311,7 +347,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/collection/CircularIntArray;->size()I
+    invoke-virtual {p0}, Landroidx/collection/CircularIntArray;
+    ->size()I
 
     .line 4
     .line 5
@@ -323,18 +360,21 @@ return-void
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v0, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 10
     .line 11
-    iget v1, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 12
     .line 13
     add-int/2addr v1, p1
 
     .line 14
-    iget p1, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget p1, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 15
     .line 16
@@ -345,7 +385,8 @@ return-void
 
     .line 20
     :cond_0
-    sget-object p1, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object p1, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 21
     .line 22
@@ -353,7 +394,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {p1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 25
     .line 26
@@ -365,11 +407,13 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 4
     .line 5
@@ -377,7 +421,8 @@ return-void
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v1, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 8
     .line 9
@@ -385,7 +430,8 @@ return-void
 
     .line 12
     :cond_0
-    sget-object v0, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object v0, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 13
     .line 14
@@ -393,7 +439,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 17
     .line 18
@@ -404,11 +451,13 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 4
     .line 5
@@ -416,7 +465,8 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v0, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 8
     .line 9
@@ -424,7 +474,8 @@ return-void
 
     .line 10
     .line 11
-    iget v2, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget v2, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 12
     .line 13
@@ -435,7 +486,8 @@ return-void
 
     .line 17
     :cond_0
-    sget-object v0, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object v0, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 18
     .line 19
@@ -443,7 +495,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 22
     .line 23
@@ -454,11 +507,13 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 4
     .line 5
@@ -481,11 +536,13 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 4
     .line 5
@@ -493,7 +550,8 @@ return-void
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v1, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 8
     .line 9
@@ -505,18 +563,22 @@ return-void
 
     .line 12
     .line 13
-    iget v2, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget v2, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 14
     .line 15
     and-int/2addr v0, v2
 
     .line 16
-    iput v0, p0, Landroidx/collection/CircularIntArray;->head:I    return v1
+    iput v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I    
+    return v1
 
     .line 19
     :cond_0
-    sget-object v0, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object v0, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 20
     .line 21
@@ -524,7 +586,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 24
     .line 25
@@ -535,11 +598,13 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 4
     .line 5
@@ -551,14 +616,16 @@ return-void
 
     .line 8
     .line 9
-    iget v0, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 10
     .line 11
     and-int/2addr v0, v1
 
     .line 12
-    iget-object v1, p0, Landroidx/collection/CircularIntArray;->elements:[I
+    iget-object v1, p0, Landroidx/collection/CircularIntArray;
+    ->elements:[I
 
     .line 13
     .line 14
@@ -566,11 +633,14 @@ return-void
 
     .line 15
     .line 16
-    iput v0, p0, Landroidx/collection/CircularIntArray;->tail:I    return v1
+    iput v0, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I    
+    return v1
 
     .line 19
     :cond_0
-    sget-object v0, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object v0, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 20
     .line 21
@@ -578,7 +648,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 24
     .line 25
@@ -593,7 +664,8 @@ return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Landroidx/collection/CircularIntArray;->size()I
+    invoke-virtual {p0}, Landroidx/collection/CircularIntArray;
+    ->size()I
 
     .line 5
     .line 6
@@ -605,25 +677,30 @@ return-void
 
     .line 9
     .line 10
-    iget v0, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 11
     .line 12
     sub-int/2addr v0, p1
 
     .line 13
-    iget p1, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget p1, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 14
     .line 15
     and-int/2addr p1, v0
 
     .line 16
-    iput p1, p0, Landroidx/collection/CircularIntArray;->tail:I    return-void
+    iput p1, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I    
+    return-void
 
     .line 19
     :cond_1
-    sget-object p1, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object p1, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 20
     .line 21
@@ -631,7 +708,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 24
     .line 25
@@ -646,7 +724,8 @@ return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Landroidx/collection/CircularIntArray;->size()I
+    invoke-virtual {p0}, Landroidx/collection/CircularIntArray;
+    ->size()I
 
     .line 5
     .line 6
@@ -658,25 +737,30 @@ return-void
 
     .line 9
     .line 10
-    iget v0, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 11
     .line 12
     add-int/2addr v0, p1
 
     .line 13
-    iget p1, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget p1, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 14
     .line 15
     and-int/2addr p1, v0
 
     .line 16
-    iput p1, p0, Landroidx/collection/CircularIntArray;->head:I    return-void
+    iput p1, p0, Landroidx/collection/CircularIntArray;
+    ->head:I    
+    return-void
 
     .line 19
     :cond_1
-    sget-object p1, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sget-object p1, Landroidx/collection/CollectionPlatformUtils;
+    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     .line 20
     .line 21
@@ -684,7 +768,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ArrayIndexOutOfBoundsException;
+    -><init>()V
 
     .line 24
     .line 25
@@ -695,18 +780,21 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/CircularIntArray;->tail:I
+    iget v0, p0, Landroidx/collection/CircularIntArray;
+    ->tail:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/CircularIntArray;->head:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->head:I
 
     .line 4
     .line 5
     sub-int/2addr v0, v1
 
     .line 6
-    iget v1, p0, Landroidx/collection/CircularIntArray;->capacityBitmask:I
+    iget v1, p0, Landroidx/collection/CircularIntArray;
+    ->capacityBitmask:I
 
     .line 7
     .line 8

@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/collection/LruCacheKt;->lruCache(ILp1/p;Lp1/l;Lp1/r;)Landroidx/collection/LruCache;
+    value = Landroidx/collection/LruCacheKt;
+    ->lruCache(ILp1/p;Lp1/l;Lp1/r;)Landroidx/collection/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -61,19 +62,23 @@
     .end annotation
 
     .line 1
-    iput-object p2, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$sizeOf:Lp1/p;
+    iput-object p2, p0, Landroidx/collection/LruCacheKt$lruCache$4;
+    ->$sizeOf:Lp1/p;
 
     .line 2
     .line 3
-    iput-object p3, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$create:Lp1/l;
+    iput-object p3, p0, Landroidx/collection/LruCacheKt$lruCache$4;
+    ->$create:Lp1/l;
 
     .line 4
     .line 5
-    iput-object p4, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$onEntryRemoved:Lp1/r;
+    iput-object p4, p0, Landroidx/collection/LruCacheKt$lruCache$4;
+    ->$onEntryRemoved:Lp1/r;
 
     .line 6
     .line 7
-    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/LruCache;
+    -><init>(I)V
 return-void
 .end method
 
@@ -92,16 +97,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$create:Lp1/l;
+    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;
+    ->$create:Lp1/l;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -124,7 +132,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -133,16 +142,19 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$onEntryRemoved:Lp1/r;
+    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;
+    ->$onEntryRemoved:Lp1/r;
 
     .line 12
     .line 13
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 14
     .line 15
@@ -150,7 +162,9 @@ return-void
     move-result-object p1
 
     .line 17
-    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .method public sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -166,7 +180,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -175,16 +190,19 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$sizeOf:Lp1/p;
+    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;
+    ->$sizeOf:Lp1/p;
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -196,7 +214,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Number;
+    ->intValue()I
 
     .line 20
     .line 21

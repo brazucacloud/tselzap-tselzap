@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lc0/a;->a:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
+    iput-object p1, p0, Lc0/a;
+    ->a:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
 
     .line 5
     .line 6
@@ -33,15 +35,18 @@
     .locals 0
 
     .line 1
-    iget-object p2, p0, Lc0/a;->a:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
+    iget-object p2, p0, Lc0/a;
+    ->a:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
 
     .line 2
     .line 3
-    iget-object p2, p2, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->j:Ljava/lang/ref/WeakReference;
+    iget-object p2, p2, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
+    ->j:Ljava/lang/ref/WeakReference;
 
     .line 4
     .line 5
-    invoke-virtual {p2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -53,7 +58,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, p0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/View;
+    ->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     .line 12
     .line 13
@@ -66,7 +72,8 @@
 
     .line 16
     .line 17
-    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;
+    -><init>()V
 
     .line 18
     .line 19

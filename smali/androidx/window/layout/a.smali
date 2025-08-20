@@ -8,7 +8,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowInfoTracker;->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
+    sget-object v0, Landroidx/window/layout/WindowInfoTracker;
+    ->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
 
     return-void
 .end method
@@ -17,11 +18,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowInfoTracker;->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
+    sget-object v0, Landroidx/window/layout/WindowInfoTracker;
+    ->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/window/layout/WindowInfoTracker$Companion;->getOrCreate(Landroid/content/Context;)Landroidx/window/layout/WindowInfoTracker;
+    invoke-virtual {v0, p0}, Landroidx/window/layout/WindowInfoTracker$Companion;
+    ->getOrCreate(Landroid/content/Context;)Landroidx/window/layout/WindowInfoTracker;
 
     .line 4
     .line 5
@@ -35,11 +38,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowInfoTracker;->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
+    sget-object v0, Landroidx/window/layout/WindowInfoTracker;
+    ->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/window/layout/WindowInfoTracker$Companion;->overrideDecorator(Landroidx/window/layout/WindowInfoTrackerDecorator;)V
+    invoke-virtual {v0, p0}, Landroidx/window/layout/WindowInfoTracker$Companion;
+    ->overrideDecorator(Landroidx/window/layout/WindowInfoTrackerDecorator;)V
 
     .line 4
     .line 5
@@ -51,11 +56,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowInfoTracker;->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
+    sget-object v0, Landroidx/window/layout/WindowInfoTracker;
+    ->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/layout/WindowInfoTracker$Companion;->reset()V
+    invoke-virtual {v0}, Landroidx/window/layout/WindowInfoTracker$Companion;
+    ->reset()V
 
     .line 4
     .line 5

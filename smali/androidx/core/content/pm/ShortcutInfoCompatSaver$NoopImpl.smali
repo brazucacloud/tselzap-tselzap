@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -33,7 +34,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/content/pm/ShortcutInfoCompatSaver;-><init>()V
+    invoke-direct {p0}, Landroidx/core/content/pm/ShortcutInfoCompatSaver;
+    -><init>()V
 
     .line 2
     .line 3
@@ -47,7 +49,8 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/core/content/pm/ShortcutInfoCompatSaver$NoopImpl;->addShortcuts(Ljava/util/List;)Ljava/lang/Void;
+    invoke-virtual {p0, p1}, Landroidx/core/content/pm/ShortcutInfoCompatSaver$NoopImpl;
+    ->addShortcuts(Ljava/util/List;)Ljava/lang/Void;
 
     move-result-object p1
 
@@ -76,7 +79,8 @@
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/core/content/pm/ShortcutInfoCompatSaver$NoopImpl;->removeAllShortcuts()Ljava/lang/Void;
+    invoke-virtual {p0}, Landroidx/core/content/pm/ShortcutInfoCompatSaver$NoopImpl;
+    ->removeAllShortcuts()Ljava/lang/Void;
 
     move-result-object v0
 
@@ -96,7 +100,8 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/core/content/pm/ShortcutInfoCompatSaver$NoopImpl;->removeShortcuts(Ljava/util/List;)Ljava/lang/Void;
+    invoke-virtual {p0, p1}, Landroidx/core/content/pm/ShortcutInfoCompatSaver$NoopImpl;
+    ->removeShortcuts(Ljava/util/List;)Ljava/lang/Void;
 
     move-result-object p1
 

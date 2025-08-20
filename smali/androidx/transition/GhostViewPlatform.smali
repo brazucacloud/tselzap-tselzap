@@ -48,12 +48,15 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/GhostViewPlatform;->mGhostView:Landroid/view/View;    return-void
+    iput-object p1, p0, Landroidx/transition/GhostViewPlatform;
+    ->mGhostView:Landroid/view/View;    
+    return-void
 .end method
 
 .method public static addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostView;
@@ -65,12 +68,14 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/transition/GhostViewPlatform;->fetchAddGhostMethod()V
+    invoke-static {}, Landroidx/transition/GhostViewPlatform;
+    ->fetchAddGhostMethod()V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Landroidx/transition/GhostViewPlatform;->sAddGhostMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/transition/GhostViewPlatform;
+    ->sAddGhostMethod:Ljava/lang/reflect/Method;
 
     .line 5
     .line 6
@@ -114,7 +119,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v3}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -126,7 +132,8 @@
 
     .line 28
     .line 29
-    invoke-direct {v2, p0}, Landroidx/transition/GhostViewPlatform;-><init>(Landroid/view/View;)V
+    invoke-direct {v2, p0}, Landroidx/transition/GhostViewPlatform;
+    -><init>(Landroid/view/View;)V
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-object v2
@@ -140,7 +147,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 37
     .line 38
@@ -148,7 +156,8 @@
     move-result-object p0
 
     .line 40
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 41
     .line 42
@@ -168,7 +177,8 @@
     const/4 v0, 0x1
 
     .line 2
-    sget-boolean v1, Landroidx/transition/GhostViewPlatform;->sAddGhostMethodFetched:Z
+    sget-boolean v1, Landroidx/transition/GhostViewPlatform;
+    ->sAddGhostMethodFetched:Z
 
     .line 3
     .line 4
@@ -177,12 +187,14 @@
     .line 5
     .line 6
     :try_start_0
-    invoke-static {}, Landroidx/transition/GhostViewPlatform;->fetchGhostViewClass()V
+    invoke-static {}, Landroidx/transition/GhostViewPlatform;
+    ->fetchGhostViewClass()V
 
     .line 7
     .line 8
     .line 9
-    sget-object v1, Landroidx/transition/GhostViewPlatform;->sGhostViewClass:Ljava/lang/Class;
+    sget-object v1, Landroidx/transition/GhostViewPlatform;
+    ->sGhostViewClass:Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -227,7 +239,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 31
     .line 32
@@ -235,11 +248,13 @@
     move-result-object v1
 
     .line 34
-    sput-object v1, Landroidx/transition/GhostViewPlatform;->sAddGhostMethod:Ljava/lang/reflect/Method;
+    sput-object v1, Landroidx/transition/GhostViewPlatform;
+    ->sAddGhostMethod:Ljava/lang/reflect/Method;
 
     .line 35
     .line 36
-    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -261,13 +276,15 @@
 
     .line 44
     .line 45
-    invoke-static {v2, v3, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v3, v1}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 46
     .line 47
     .line 48
     :goto_0
-    sput-boolean v0, Landroidx/transition/GhostViewPlatform;->sAddGhostMethodFetched:Z
+    sput-boolean v0, Landroidx/transition/GhostViewPlatform;
+    ->sAddGhostMethodFetched:Z
 
     .line 49
     .line 50
@@ -279,7 +296,8 @@
     .locals 3
 
     .line 1
-    sget-boolean v0, Landroidx/transition/GhostViewPlatform;->sGhostViewClassFetched:Z
+    sget-boolean v0, Landroidx/transition/GhostViewPlatform;
+    ->sGhostViewClassFetched:Z
 
     .line 2
     .line 3
@@ -292,7 +310,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 8
     .line 9
@@ -300,7 +319,8 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroidx/transition/GhostViewPlatform;->sGhostViewClass:Ljava/lang/Class;
+    sput-object v0, Landroidx/transition/GhostViewPlatform;
+    ->sGhostViewClass:Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -321,7 +341,8 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 20
     .line 21
@@ -330,7 +351,8 @@
     const/4 v0, 0x1
 
     .line 23
-    sput-boolean v0, Landroidx/transition/GhostViewPlatform;->sGhostViewClassFetched:Z
+    sput-boolean v0, Landroidx/transition/GhostViewPlatform;
+    ->sGhostViewClassFetched:Z
 
     .line 24
     .line 25
@@ -345,7 +367,8 @@
     const/4 v0, 0x1
 
     .line 2
-    sget-boolean v1, Landroidx/transition/GhostViewPlatform;->sRemoveGhostMethodFetched:Z
+    sget-boolean v1, Landroidx/transition/GhostViewPlatform;
+    ->sRemoveGhostMethodFetched:Z
 
     .line 3
     .line 4
@@ -354,12 +377,14 @@
     .line 5
     .line 6
     :try_start_0
-    invoke-static {}, Landroidx/transition/GhostViewPlatform;->fetchGhostViewClass()V
+    invoke-static {}, Landroidx/transition/GhostViewPlatform;
+    ->fetchGhostViewClass()V
 
     .line 7
     .line 8
     .line 9
-    sget-object v1, Landroidx/transition/GhostViewPlatform;->sGhostViewClass:Ljava/lang/Class;
+    sget-object v1, Landroidx/transition/GhostViewPlatform;
+    ->sGhostViewClass:Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -382,7 +407,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 21
     .line 22
@@ -390,11 +416,13 @@
     move-result-object v1
 
     .line 24
-    sput-object v1, Landroidx/transition/GhostViewPlatform;->sRemoveGhostMethod:Ljava/lang/reflect/Method;
+    sput-object v1, Landroidx/transition/GhostViewPlatform;
+    ->sRemoveGhostMethod:Ljava/lang/reflect/Method;
 
     .line 25
     .line 26
-    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -416,13 +444,15 @@
 
     .line 34
     .line 35
-    invoke-static {v2, v3, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v3, v1}, Landroid/util/Log;
+    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 36
     .line 37
     .line 38
     :goto_0
-    sput-boolean v0, Landroidx/transition/GhostViewPlatform;->sRemoveGhostMethodFetched:Z
+    sput-boolean v0, Landroidx/transition/GhostViewPlatform;
+    ->sRemoveGhostMethodFetched:Z
 
     .line 39
     .line 40
@@ -439,12 +469,14 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/transition/GhostViewPlatform;->fetchRemoveGhostMethod()V
+    invoke-static {}, Landroidx/transition/GhostViewPlatform;
+    ->fetchRemoveGhostMethod()V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Landroidx/transition/GhostViewPlatform;->sRemoveGhostMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/transition/GhostViewPlatform;
+    ->sRemoveGhostMethod:Ljava/lang/reflect/Method;
 
     .line 5
     .line 6
@@ -470,7 +502,8 @@
     const/4 p0, 0x0
 
     .line 15
-    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-void
@@ -484,7 +517,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 23
     .line 24
@@ -492,7 +526,8 @@
     move-result-object p0
 
     .line 26
-    invoke-direct {v0, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 27
     .line 28
@@ -517,11 +552,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/GhostViewPlatform;->mGhostView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/GhostViewPlatform;
+    ->mGhostView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/view/View;
+    ->setVisibility(I)V    
+    return-void
 .end method
 
 .end class

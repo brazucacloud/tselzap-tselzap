@@ -74,7 +74,8 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/AdapterHelper;-><init>(Landroidx/recyclerview/widget/AdapterHelper$Callback;Z)V
+    invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    -><init>(Landroidx/recyclerview/widget/AdapterHelper$Callback;Z)V
 return-void
 .end method
 
@@ -82,48 +83,60 @@ return-void
     .locals 2
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
     new-instance v0, Landroidx/core/util/Pools$SimplePool;
 
     const/16 v1, 0x1e
 
-    invoke-direct {v0, v1}, Landroidx/core/util/Pools$SimplePool;-><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/util/Pools$SimplePool;
+    -><init>(I)V
 
-    iput-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mUpdateOpPool:Landroidx/core/util/Pools$Pool;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mUpdateOpPool:Landroidx/core/util/Pools$Pool;
 
     .line 4
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 5
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     const/4 v0, 0x0
 
     .line 6
-    iput v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iput v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 7
-    iput-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 8
-    iput-boolean p2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mDisableRecycler:Z
+    iput-boolean p2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mDisableRecycler:Z
 
     .line 9
     new-instance p1, Landroidx/recyclerview/widget/OpReorderer;
 
-    invoke-direct {p1, p0}, Landroidx/recyclerview/widget/OpReorderer;-><init>(Landroidx/recyclerview/widget/OpReorderer$Callback;)V
+    invoke-direct {p1, p0}, Landroidx/recyclerview/widget/OpReorderer;
+    -><init>(Landroidx/recyclerview/widget/OpReorderer$Callback;)V
 
-    iput-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mOpReorderer:Landroidx/recyclerview/widget/OpReorderer;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mOpReorderer:Landroidx/recyclerview/widget/OpReorderer;
 
     return-void
 .end method
@@ -132,25 +145,31 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    
+    return-void
 .end method
 
 .method private applyMove(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    
+    return-void
 .end method
 
 .method private applyRemove(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
     .locals 10
 
     .line 1
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 2
     .line 3
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 4
     .line 5
@@ -180,11 +199,13 @@ return-void
 
     .line 13
     .line 14
-    iget-object v8, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v8, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 15
     .line 16
-    invoke-interface {v8, v4}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->findViewHolder(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    invoke-interface {v8, v4}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->findViewHolder(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 17
     .line 18
@@ -199,7 +220,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p0, v4}, Landroidx/recyclerview/widget/AdapterHelper;->canFindInPreLayout(I)Z
+    invoke-direct {p0, v4}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->canFindInPreLayout(I)Z
 
     .line 24
     .line 25
@@ -219,7 +241,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p0, v7, v0, v5, v6}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v7, v0, v5, v6}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 33
     .line 34
@@ -227,7 +250,8 @@ return-void
     move-result-object v3
 
     .line 36
-    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 37
     .line 38
@@ -255,7 +279,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-virtual {p0, v7, v0, v5, v6}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v7, v0, v5, v6}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 47
     .line 48
@@ -263,7 +288,8 @@ return-void
     move-result-object v3
 
     .line 50
-    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 51
     .line 52
@@ -315,7 +341,8 @@ return-void
 
     .line 68
     :cond_5
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 69
     .line 70
@@ -323,12 +350,14 @@ return-void
 
     .line 71
     .line 72
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {p0, v7, v0, v5, v6}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v7, v0, v5, v6}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 76
     .line 77
@@ -341,22 +370,28 @@ return-void
 
     .line 80
     .line 81
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    
+    return-void
 
     .line 85
     :cond_7
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    
+    return-void
 .end method
 
 .method private applyUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
     .locals 9
 
     .line 1
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 2
     .line 3
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 4
     .line 5
@@ -386,11 +421,13 @@ return-void
 
     .line 13
     .line 14
-    iget-object v7, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v7, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 15
     .line 16
-    invoke-interface {v7, v0}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->findViewHolder(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    invoke-interface {v7, v0}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->findViewHolder(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 17
     .line 18
@@ -405,7 +442,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->canFindInPreLayout(I)Z
+    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->canFindInPreLayout(I)Z
 
     .line 24
     .line 25
@@ -425,11 +463,13 @@ return-void
 
     .line 31
     .line 32
-    iget-object v4, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object v4, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 33
     .line 34
-    invoke-virtual {p0, v6, v3, v5, v4}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v6, v3, v5, v4}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 35
     .line 36
@@ -437,7 +477,8 @@ return-void
     move-result-object v3
 
     .line 38
-    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 39
     .line 40
@@ -461,11 +502,13 @@ return-void
 
     .line 46
     .line 47
-    iget-object v4, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object v4, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 48
     .line 49
-    invoke-virtual {p0, v6, v3, v5, v4}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v6, v3, v5, v4}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 50
     .line 51
@@ -473,7 +516,8 @@ return-void
     move-result-object v3
 
     .line 53
-    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 54
     .line 55
@@ -500,7 +544,8 @@ return-void
 
     .line 63
     :cond_4
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 64
     .line 65
@@ -508,16 +553,19 @@ return-void
 
     .line 66
     .line 67
-    iget-object v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 68
     .line 69
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p0, v6, v3, v5, v0}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v6, v3, v5, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 73
     .line 74
@@ -530,22 +578,28 @@ return-void
 
     .line 77
     .line 78
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->dispatchAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    
+    return-void
 
     .line 82
     :cond_6
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->postponeAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    
+    return-void
 .end method
 
 .method private canFindInPreLayout(I)Z
     .locals 7
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -564,11 +618,13 @@ return-void
 
     .line 10
     .line 11
-    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -580,7 +636,8 @@ return-void
 
     .line 18
     .line 19
-    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 20
     .line 21
@@ -595,7 +652,8 @@ return-void
 
     .line 25
     .line 26
-    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 27
     .line 28
@@ -603,7 +661,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p0, v3, v4}, Landroidx/recyclerview/widget/AdapterHelper;->findPositionOffset(II)I
+    invoke-virtual {p0, v3, v4}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->findPositionOffset(II)I
 
     .line 31
     .line 32
@@ -619,11 +678,13 @@ return-void
 
     .line 38
     .line 39
-    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 40
     .line 41
-    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 42
     .line 43
@@ -639,7 +700,8 @@ return-void
 
     .line 47
     .line 48
-    invoke-virtual {p0, v4, v5}, Landroidx/recyclerview/widget/AdapterHelper;->findPositionOffset(II)I
+    invoke-virtual {p0, v4, v5}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->findPositionOffset(II)I
 
     .line 49
     .line 50
@@ -674,7 +736,8 @@ return-void
     .locals 11
 
     .line 1
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 2
     .line 3
@@ -693,11 +756,13 @@ return-void
 
     .line 9
     .line 10
-    iget v2, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v2, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 11
     .line 12
-    invoke-direct {p0, v2, v0}, Landroidx/recyclerview/widget/AdapterHelper;->updatePositionWithPostponed(II)I
+    invoke-direct {p0, v2, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->updatePositionWithPostponed(II)I
 
     .line 13
     .line 14
@@ -705,11 +770,13 @@ return-void
     move-result v0
 
     .line 16
-    iget v2, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v2, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 17
     .line 18
-    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 19
     .line 20
@@ -746,17 +813,20 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -764,7 +834,8 @@ return-void
     move-result-object p1
 
     .line 44
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 45
     .line 46
@@ -784,7 +855,8 @@ return-void
 
     .line 51
     :goto_1
-    iget v8, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v8, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 52
     .line 53
@@ -792,7 +864,8 @@ return-void
 
     .line 54
     .line 55
-    iget v8, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v8, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 56
     .line 57
@@ -803,11 +876,13 @@ return-void
     add-int/2addr v9, v8
 
     .line 60
-    iget v8, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v8, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 61
     .line 62
-    invoke-direct {p0, v9, v8}, Landroidx/recyclerview/widget/AdapterHelper;->updatePositionWithPostponed(II)I
+    invoke-direct {p0, v9, v8}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->updatePositionWithPostponed(II)I
 
     .line 63
     .line 64
@@ -815,7 +890,8 @@ return-void
     move-result v8
 
     .line 66
-    iget v9, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v9, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 67
     .line 68
@@ -857,11 +933,13 @@ return-void
     .line 83
     :cond_4
     :goto_3
-    iget-object v10, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object v10, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 84
     .line 85
-    invoke-virtual {p0, v9, v0, v7, v10}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v9, v0, v7, v10}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 86
     .line 87
@@ -869,17 +947,20 @@ return-void
     move-result-object v0
 
     .line 89
-    invoke-virtual {p0, v0, v2}, Landroidx/recyclerview/widget/AdapterHelper;->dispatchFirstPassAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;I)V
+    invoke-virtual {p0, v0, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->dispatchFirstPassAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;I)V
 
     .line 90
     .line 91
     .line 92
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 93
     .line 94
     .line 95
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 96
     .line 97
@@ -906,11 +987,13 @@ return-void
 
     .line 105
     :cond_6
-    iget-object v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 106
     .line 107
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 108
     .line 109
@@ -919,11 +1002,13 @@ return-void
 
     .line 111
     .line 112
-    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 113
     .line 114
-    invoke-virtual {p0, p1, v0, v7, v1}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, p1, v0, v7, v1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 115
     .line 116
@@ -931,12 +1016,14 @@ return-void
     move-result-object p1
 
     .line 118
-    invoke-virtual {p0, p1, v2}, Landroidx/recyclerview/widget/AdapterHelper;->dispatchFirstPassAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;I)V
+    invoke-virtual {p0, p1, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->dispatchFirstPassAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;I)V
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 122
     .line 123
@@ -954,7 +1041,8 @@ return-void
 
     .line 128
     .line 129
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 130
     .line 131
@@ -965,16 +1053,19 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
     .line 6
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 7
     .line 8
@@ -1007,19 +1098,23 @@ return-void
 
     .line 20
     .line 21
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 22
     .line 23
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 24
     .line 25
-    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 26
     .line 27
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForMove(II)V
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForMove(II)V
 return-void
 
     .line 31
@@ -1036,17 +1131,20 @@ return-void
 
     .line 36
     .line 37
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -1054,7 +1152,8 @@ return-void
     move-result-object p1
 
     .line 47
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -1063,55 +1162,70 @@ return-void
 
     .line 51
     :cond_1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 52
     .line 53
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 54
     .line 55
-    iget v2, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v2, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 56
     .line 57
-    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 58
     .line 59
-    invoke-interface {v0, v1, v2, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->markViewHoldersUpdated(IILjava/lang/Object;)V    return-void
+    invoke-interface {v0, v1, v2, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->markViewHoldersUpdated(IILjava/lang/Object;)V    
+    return-void
 
     .line 63
     :cond_2
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 64
     .line 65
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 66
     .line 67
-    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 68
     .line 69
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForRemovingLaidOutOrNewView(II)V    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForRemovingLaidOutOrNewView(II)V    
+    return-void
 
     .line 73
     :cond_3
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 74
     .line 75
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 76
     .line 77
-    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 78
     .line 79
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForAdd(II)V
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForAdd(II)V
 return-void
 .end method
 
@@ -1119,11 +1233,13 @@ return-void
     .locals 8
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -1146,11 +1262,13 @@ return-void
 
     .line 12
     .line 13
-    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 14
     .line 15
-    invoke-virtual {v3, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v3, v0}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -1162,7 +1280,8 @@ return-void
 
     .line 20
     .line 21
-    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 22
     .line 23
@@ -1173,11 +1292,13 @@ return-void
 
     .line 25
     .line 26
-    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 27
     .line 28
-    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 29
     .line 30
@@ -1222,7 +1343,8 @@ return-void
 
     .line 46
     .line 47
-    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 48
     .line 49
@@ -1238,7 +1360,8 @@ return-void
 
     .line 53
     .line 54
-    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 55
     .line 56
@@ -1260,7 +1383,8 @@ return-void
 
     .line 62
     .line 63
-    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 64
     .line 65
@@ -1276,7 +1400,8 @@ return-void
 
     .line 69
     .line 70
-    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 71
     .line 72
@@ -1302,7 +1427,8 @@ return-void
 
     .line 80
     .line 81
-    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 82
     .line 83
@@ -1310,7 +1436,8 @@ return-void
 
     .line 84
     .line 85
-    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 86
     .line 87
@@ -1326,7 +1453,8 @@ return-void
 
     .line 91
     .line 92
-    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 93
     .line 94
@@ -1334,7 +1462,8 @@ return-void
 
     .line 95
     .line 96
-    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iput v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 97
     .line 98
@@ -1342,7 +1471,8 @@ return-void
 
     .line 99
     :cond_8
-    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 100
     .line 101
@@ -1354,7 +1484,8 @@ return-void
 
     .line 104
     .line 105
-    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 106
     .line 107
@@ -1369,7 +1500,8 @@ return-void
 
     .line 110
     .line 111
-    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 112
     .line 113
@@ -1388,7 +1520,8 @@ return-void
 
     .line 118
     .line 119
-    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 120
     .line 121
@@ -1404,7 +1537,8 @@ return-void
 
     .line 125
     .line 126
-    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput v2, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 127
     .line 128
@@ -1418,11 +1552,13 @@ return-void
 
     .line 131
     :cond_d
-    iget-object p2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object p2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 132
     .line 133
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 134
     .line 135
@@ -1438,11 +1574,13 @@ return-void
 
     .line 139
     .line 140
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 141
     .line 142
-    invoke-virtual {v0, p2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 143
     .line 144
@@ -1454,7 +1592,8 @@ return-void
 
     .line 147
     .line 148
-    iget v1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 149
     .line 150
@@ -1462,11 +1601,13 @@ return-void
 
     .line 151
     .line 152
-    iget v1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 153
     .line 154
-    iget v3, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v3, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 155
     .line 156
@@ -1479,16 +1620,19 @@ return-void
     .line 159
     .line 160
     :cond_e
-    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 161
     .line 162
-    invoke-virtual {v1, p2}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+    invoke-virtual {v1, p2}, Ljava/util/ArrayList;
+    ->remove(I)Ljava/lang/Object;
 
     .line 163
     .line 164
     .line 165
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 166
     .line 167
@@ -1497,7 +1641,8 @@ return-void
 
     .line 169
     :cond_f
-    iget v1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 170
     .line 171
@@ -1505,16 +1650,19 @@ return-void
 
     .line 172
     .line 173
-    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 174
     .line 175
-    invoke-virtual {v1, p2}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+    invoke-virtual {v1, p2}, Ljava/util/ArrayList;
+    ->remove(I)Ljava/lang/Object;
 
     .line 176
     .line 177
     .line 178
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 179
     .line 180
@@ -1538,11 +1686,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Ljava/util/Collections;
+    ->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 return-object p0
 .end method
 
@@ -1550,11 +1700,13 @@ return-object p0
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -1570,11 +1722,13 @@ return-object p0
 
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1586,7 +1740,8 @@ return-object p0
 
     .line 17
     .line 18
-    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 19
     .line 20
@@ -1616,7 +1771,8 @@ return-object p0
 
     .line 31
     :cond_0
-    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 32
     .line 33
@@ -1624,7 +1780,8 @@ return-object p0
 
     .line 34
     .line 35
-    iget p1, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget p1, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 36
     .line 37
@@ -1641,7 +1798,8 @@ return-object p0
     .line 41
     .line 42
     :cond_2
-    iget v2, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v2, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 43
     .line 44
@@ -1657,7 +1815,8 @@ return-object p0
 
     .line 49
     :cond_3
-    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 50
     .line 51
@@ -1665,7 +1824,8 @@ return-object p0
 
     .line 52
     .line 53
-    iget v2, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v2, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 54
     .line 55
@@ -1689,7 +1849,8 @@ return-object p0
 
     .line 62
     :cond_5
-    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 63
     .line 64
@@ -1697,7 +1858,8 @@ return-object p0
 
     .line 65
     .line 66
-    iget v2, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v2, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 67
     .line 68
@@ -1721,11 +1883,13 @@ return-object p0
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -1744,15 +1908,18 @@ return-object p0
 
     .line 10
     .line 11
-    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 12
     .line 13
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 14
     .line 15
-    invoke-virtual {v4, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v4, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -1764,7 +1931,8 @@ return-object p0
 
     .line 20
     .line 21
-    invoke-interface {v3, v4}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {v3, v4}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 22
     .line 23
@@ -1777,32 +1945,39 @@ return-object p0
 
     .line 27
     :cond_0
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 28
     .line 29
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOpsAndClearList(Ljava/util/List;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOpsAndClearList(Ljava/util/List;)V
 
     .line 30
     .line 31
     .line 32
-    iput v1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I    
+    return-void
 .end method
 
 .method public consumeUpdatesInOnePass()V
     .locals 7
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/AdapterHelper;->consumePostponedUpdates()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->consumePostponedUpdates()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 7
     .line 8
@@ -1821,11 +1996,13 @@ return-object p0
 
     .line 13
     .line 14
-    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 15
     .line 16
-    invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -1837,7 +2014,8 @@ return-object p0
 
     .line 21
     .line 22
-    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v4, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 23
     .line 24
@@ -1874,28 +2052,34 @@ return-object p0
 
     .line 38
     :cond_0
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 39
     .line 40
-    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 41
     .line 42
     .line 43
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 44
     .line 45
-    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 46
     .line 47
-    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 48
     .line 49
-    invoke-interface {v4, v5, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForMove(II)V
+    invoke-interface {v4, v5, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForMove(II)V
 
     .line 50
     .line 51
@@ -1904,32 +2088,39 @@ return-object p0
 
     .line 53
     :cond_1
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 54
     .line 55
-    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 56
     .line 57
     .line 58
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 59
     .line 60
-    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 61
     .line 62
-    iget v6, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v6, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 63
     .line 64
-    iget-object v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 65
     .line 66
-    invoke-interface {v4, v5, v6, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->markViewHoldersUpdated(IILjava/lang/Object;)V
+    invoke-interface {v4, v5, v6, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->markViewHoldersUpdated(IILjava/lang/Object;)V
 
     .line 67
     .line 68
@@ -1938,28 +2129,34 @@ return-object p0
 
     .line 70
     :cond_2
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 71
     .line 72
-    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 73
     .line 74
     .line 75
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 76
     .line 77
-    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 78
     .line 79
-    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 80
     .line 81
-    invoke-interface {v4, v5, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForRemovingInvisible(II)V
+    invoke-interface {v4, v5, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForRemovingInvisible(II)V
 
     .line 82
     .line 83
@@ -1968,34 +2165,41 @@ return-object p0
 
     .line 85
     :cond_3
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 86
     .line 87
-    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {v4, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->onDispatchSecondPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 88
     .line 89
     .line 90
-    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 91
     .line 92
-    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v5, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 93
     .line 94
-    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 95
     .line 96
-    invoke-interface {v4, v5, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForAdd(II)V
+    invoke-interface {v4, v5, v3}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForAdd(II)V
 
     .line 97
     .line 98
     .line 99
     :goto_1
-    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;->mOnItemProcessedCallback:Ljava/lang/Runnable;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mOnItemProcessedCallback:Ljava/lang/Runnable;
 
     .line 100
     .line 101
@@ -2003,7 +2207,8 @@ return-object p0
 
     .line 102
     .line 103
-    invoke-interface {v3}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v3}, Ljava/lang/Runnable;
+    ->run()V
 
     .line 104
     .line 105
@@ -2017,32 +2222,39 @@ return-object p0
 
     .line 109
     :cond_5
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 110
     .line 111
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOpsAndClearList(Ljava/util/List;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOpsAndClearList(Ljava/util/List;)V
 
     .line 112
     .line 113
     .line 114
-    iput v1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I    return-void
+    iput v1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I    
+    return-void
 .end method
 
 .method public dispatchFirstPassAndUpdateViewHolders(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;I)V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->onDispatchFirstPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {v0, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->onDispatchFirstPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 4
     .line 5
     .line 6
-    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 7
     .line 8
@@ -2060,19 +2272,24 @@ return-object p0
 
     .line 13
     .line 14
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 15
     .line 16
-    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 17
     .line 18
-    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 19
     .line 20
-    invoke-interface {v0, p2, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->markViewHoldersUpdated(IILjava/lang/Object;)V    return-void
+    invoke-interface {v0, p2, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->markViewHoldersUpdated(IILjava/lang/Object;)V    
+    return-void
 
     .line 24
     :cond_0
@@ -2084,7 +2301,8 @@ return-object p0
 
     .line 27
     .line 28
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -2093,15 +2311,18 @@ return-object p0
 
     .line 32
     :cond_1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mCallback:Landroidx/recyclerview/widget/AdapterHelper$Callback;
 
     .line 33
     .line 34
-    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 35
     .line 36
-    invoke-interface {v0, p2, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForRemovingInvisible(II)V
+    invoke-interface {v0, p2, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;
+    ->offsetPositionsForRemovingInvisible(II)V
 return-void
 .end method
 
@@ -2111,7 +2332,8 @@ return-void
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/AdapterHelper;->findPositionOffset(II)I
+    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->findPositionOffset(II)I
 
     move-result p1
 
@@ -2122,9 +2344,11 @@ return-void
     .locals 5
 
     .line 2
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result v0
 
@@ -2132,28 +2356,33 @@ return-void
     if-ge p2, v0, :cond_6
 
     .line 3
-    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
-    invoke-virtual {v1, p2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, p2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 4
-    iget v2, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v2, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     const/16 v3, 0x8
 
     if-ne v2, v3, :cond_2
 
     .line 5
-    iget v2, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v2, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     if-ne v2, p1, :cond_0
 
     .line 6
-    iget p1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget p1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     goto :goto_1
 
@@ -2164,7 +2393,8 @@ return-void
 
     .line 7
     :cond_1
-    iget v1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     if-gt v1, p1, :cond_5
 
@@ -2174,7 +2404,8 @@ return-void
 
     .line 8
     :cond_2
-    iget v3, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iget v3, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     if-gt v3, p1, :cond_5
 
@@ -2183,7 +2414,8 @@ return-void
     if-ne v2, v4, :cond_4
 
     .line 9
-    iget v1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     add-int/2addr v3, v1
 
@@ -2204,7 +2436,8 @@ return-void
     if-ne v2, v3, :cond_5
 
     .line 10
-    iget v1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iget v1, v1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     add-int/2addr p1, v1
 
@@ -2222,7 +2455,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iget v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 2
     .line 3
@@ -2248,11 +2482,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 4
     .line 5
@@ -2279,11 +2515,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -2295,11 +2533,13 @@ return-void
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 12
     .line 13
@@ -2326,11 +2566,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mUpdateOpPool:Landroidx/core/util/Pools$Pool;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mUpdateOpPool:Landroidx/core/util/Pools$Pool;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/core/util/Pools$Pool;->acquire()Ljava/lang/Object;
+    invoke-interface {v0}, Landroidx/core/util/Pools$Pool;
+    ->acquire()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2350,24 +2592,30 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;-><init>(IIILjava/lang/Object;)V
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    -><init>(IIILjava/lang/Object;)V
     return-object v0
 
     .line 17
     :cond_0
-    iput p1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iput p1, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 18
     .line 19
-    iput p2, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
+    iput p2, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->positionStart:I
 
     .line 20
     .line 21
-    iput p3, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
+    iput p3, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->itemCount:I
 
     .line 22
     .line 23
-    iput-object p4, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;    return-object v0
+    iput-object p4, v0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;    
+    return-object v0
 .end method
 
 .method public onItemRangeChanged(IILjava/lang/Object;)Z
@@ -2384,14 +2632,16 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 7
     .line 8
     const/4 v3, 0x4
 
     .line 9
-    invoke-virtual {p0, v3, p1, p2, p3}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v3, p1, p2, p3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 10
     .line 11
@@ -2399,27 +2649,32 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
     .line 16
-    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 17
     .line 18
     or-int/2addr p1, v3
 
     .line 19
-    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 20
     .line 21
-    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 24
     .line 25
@@ -2448,14 +2703,16 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 7
     .line 8
     const/4 v3, 0x0
 
     .line 9
-    invoke-virtual {p0, v1, p1, p2, v3}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v1, p1, p2, v3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 10
     .line 11
@@ -2463,27 +2720,32 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
     .line 16
-    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 17
     .line 18
     or-int/2addr p1, v1
 
     .line 19
-    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 20
     .line 21
-    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 24
     .line 25
@@ -2516,7 +2778,8 @@ return-void
 
     .line 7
     .line 8
-    iget-object p3, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object p3, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 9
     .line 10
@@ -2527,7 +2790,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0, v3, p1, p2, v2}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v3, p1, p2, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 14
     .line 15
@@ -2535,27 +2799,32 @@ return-void
     move-result-object p1
 
     .line 17
-    invoke-virtual {p3, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
     .line 20
-    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 21
     .line 22
     or-int/2addr p1, v3
 
     .line 23
-    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 24
     .line 25
-    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 28
     .line 29
@@ -2579,7 +2848,8 @@ return-void
 
     .line 38
     .line 39
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -2600,7 +2870,8 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 7
     .line 8
@@ -2610,7 +2881,8 @@ return-void
     const/4 v4, 0x2
 
     .line 10
-    invoke-virtual {p0, v4, p1, p2, v3}, Landroidx/recyclerview/widget/AdapterHelper;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-virtual {p0, v4, p1, p2, v3}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 11
     .line 12
@@ -2618,27 +2890,32 @@ return-void
     move-result-object p1
 
     .line 14
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
     .line 17
-    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iget p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 18
     .line 19
     or-int/2addr p1, v4
 
     .line 20
-    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I
+    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I
 
     .line 21
     .line 22
-    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 25
     .line 26
@@ -2657,24 +2934,29 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mOpReorderer:Landroidx/recyclerview/widget/OpReorderer;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mOpReorderer:Landroidx/recyclerview/widget/OpReorderer;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/OpReorderer;->reorderOps(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/OpReorderer;
+    ->reorderOps(Ljava/util/List;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 11
     .line 12
@@ -2690,11 +2972,13 @@ return-void
 
     .line 16
     .line 17
-    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 18
     .line 19
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -2706,7 +2990,8 @@ return-void
 
     .line 24
     .line 25
-    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
+    iget v3, v2, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->cmd:I
 
     .line 26
     .line 27
@@ -2743,7 +3028,8 @@ return-void
 
     .line 41
     :cond_0
-    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;->applyMove(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->applyMove(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 42
     .line 43
@@ -2752,7 +3038,8 @@ return-void
 
     .line 45
     :cond_1
-    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;->applyUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->applyUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 46
     .line 47
@@ -2761,7 +3048,8 @@ return-void
 
     .line 49
     :cond_2
-    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;->applyRemove(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->applyRemove(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 50
     .line 51
@@ -2770,13 +3058,15 @@ return-void
 
     .line 53
     :cond_3
-    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;->applyAdd(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->applyAdd(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 54
     .line 55
     .line 56
     :goto_1
-    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;->mOnItemProcessedCallback:Ljava/lang/Runnable;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mOnItemProcessedCallback:Ljava/lang/Runnable;
 
     .line 57
     .line 58
@@ -2784,7 +3074,8 @@ return-void
 
     .line 59
     .line 60
-    invoke-interface {v2}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v2}, Ljava/lang/Runnable;
+    ->run()V
 
     .line 61
     .line 62
@@ -2798,11 +3089,13 @@ return-void
 
     .line 66
     :cond_5
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 67
     .line 68
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->clear()V
     return-void
 .end method
 
@@ -2810,7 +3103,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mDisableRecycler:Z
+    iget-boolean v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mDisableRecycler:Z
 
     .line 2
     .line 3
@@ -2821,15 +3115,18 @@ return-void
     const/4 v0, 0x0
 
     .line 6
-    iput-object v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
+    iput-object v0, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    ->payload:Ljava/lang/Object;
 
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mUpdateOpPool:Landroidx/core/util/Pools$Pool;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mUpdateOpPool:Landroidx/core/util/Pools$Pool;
 
     .line 9
     .line 10
-    invoke-interface {v0, p1}, Landroidx/core/util/Pools$Pool;->release(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Landroidx/core/util/Pools$Pool;
+    ->release(Ljava/lang/Object;)Z
 
     .line 11
     .line 12
@@ -2850,7 +3147,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 2
     .line 3
@@ -2866,7 +3164,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -2878,7 +3177,8 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 15
     .line 16
@@ -2891,7 +3191,8 @@ return-void
 
     .line 20
     :cond_0
-    invoke-interface {p1}, Ljava/util/List;->clear()V
+    invoke-interface {p1}, Ljava/util/List;
+    ->clear()V
 return-void
 .end method
 
@@ -2899,20 +3200,24 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPendingUpdates:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPendingUpdates:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOpsAndClearList(Ljava/util/List;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOpsAndClearList(Ljava/util/List;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mPostponedList:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mPostponedList:Ljava/util/ArrayList;
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;->recycleUpdateOpsAndClearList(Ljava/util/List;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/AdapterHelper;
+    ->recycleUpdateOpsAndClearList(Ljava/util/List;)V
 
     .line 9
     .line 10
@@ -2920,7 +3225,9 @@ return-void
     const/4 v0, 0x0
 
     .line 12
-    iput v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I    return-void
+    iput v0, p0, Landroidx/recyclerview/widget/AdapterHelper;
+    ->mExistingUpdateTypes:I    
+    return-void
 .end method
 
 .end class

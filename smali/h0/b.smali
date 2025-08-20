@@ -34,12 +34,14 @@
     const/4 v1, 0x3
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/google/android/material/datepicker/a;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/google/android/material/datepicker/a;
+    -><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lh0/b;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lh0/b;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 8
     .line 9
@@ -60,12 +62,14 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
+    invoke-static {p0}, Ljava/lang/System;
+    ->identityHashCode(Ljava/lang/Object;)I
 
     .line 9
     .line 10
@@ -73,7 +77,8 @@
     move-result v1
 
     .line 12
-    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;
+    ->toHexString(I)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -81,7 +86,8 @@
     move-result-object v1
 
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -90,12 +96,14 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    iget v1, p0, Lh0/b;->b:I
+    iget v1, p0, Lh0/b;
+    ->b:I
 
     .line 25
     .line 26
@@ -138,7 +146,8 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1, v2}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, LA/d;
+    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -152,16 +161,19 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;
+    ->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget p2, p0, Lh0/b;->b:I
+    iget p2, p0, Lh0/b;
+    ->b:I
 
     .line 5
     .line 6
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 7
     .line 8
@@ -169,7 +181,8 @@
     move-result-object p2
 
     .line 10
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeValue(Ljava/lang/Object;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;
+    ->writeValue(Ljava/lang/Object;)V
 
     .line 11
     .line 12

@@ -23,11 +23,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$1;->this$0:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$1;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
+    invoke-direct {p0, p2}, Landroidx/activity/OnBackPressedCallback;
+    -><init>(Z)V
 return-void
 .end method
 
@@ -37,11 +39,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$1;->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$1;
+    ->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->handleOnBackPressed()V
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
+    ->handleOnBackPressed()V
     return-void
 .end method
 

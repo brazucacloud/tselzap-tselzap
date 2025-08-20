@@ -33,7 +33,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/util/Pools$SimplePool;-><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/core/util/Pools$SimplePool;
+    -><init>(I)V
 
     .line 2
     .line 3
@@ -42,12 +43,14 @@
 
     .line 5
     .line 6
-    invoke-direct {p1}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p1}, Ljava/lang/Object;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/core/util/Pools$SynchronizedPool;->lock:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/util/Pools$SynchronizedPool;
+    ->lock:Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -65,7 +68,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/Pools$SynchronizedPool;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/util/Pools$SynchronizedPool;
+    ->lock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -73,7 +77,8 @@
 
     .line 4
     :try_start_0
-    invoke-super {p0}, Landroidx/core/util/Pools$SimplePool;->acquire()Ljava/lang/Object;
+    invoke-super {p0}, Landroidx/core/util/Pools$SimplePool;
+    ->acquire()Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -121,12 +126,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/core/util/Pools$SynchronizedPool;->lock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/util/Pools$SynchronizedPool;
+    ->lock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -134,7 +141,8 @@
 
     .line 9
     :try_start_0
-    invoke-super {p0, p1}, Landroidx/core/util/Pools$SimplePool;->release(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Landroidx/core/util/Pools$SimplePool;
+    ->release(Ljava/lang/Object;)Z
 
     .line 10
     .line 11

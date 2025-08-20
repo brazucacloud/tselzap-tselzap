@@ -31,24 +31,31 @@
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    sget-object v0, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
+    sget-object v0, Landroidx/collection/ScatterMapKt;
+    ->EmptyGroup:[J
 
-    iput-object v0, p0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iput-object v0, p0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 4
-    invoke-static {}, Landroidx/collection/LongSetKt;->getEmptyLongArray()[J
+    invoke-static {}, Landroidx/collection/LongSetKt;
+    ->getEmptyLongArray()[J
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/collection/LongObjectMap;->keys:[J
+    iput-object v0, p0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 5
-    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;
+    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;
+    ->EMPTY_OBJECTS:[Ljava/lang/Object;
 
-    iput-object v0, p0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -57,7 +64,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/collection/LongObjectMap;-><init>()V
+    invoke-direct {p0}, Landroidx/collection/LongObjectMap;
+    -><init>()V
     return-void
 .end method
 
@@ -149,7 +157,8 @@
     move-object p3, p1
 
     .line 4
-    invoke-virtual/range {p2 .. p7}, Landroidx/collection/LongObjectMap;->joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;)Ljava/lang/String;
+    invoke-virtual/range {p2 .. p7}, Landroidx/collection/LongObjectMap;
+    ->joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -160,7 +169,8 @@
 
     const-string p1, "Super calls with default arguments not supported in this target, function: joinToString"
 
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -240,33 +250,40 @@
     :goto_4
     const-string v7, "separator"
 
-    invoke-static {v2, v7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v7}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v7, "prefix"
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v7, "postfix"
 
-    invoke-static {v4, v7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v7}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v7, "truncated"
 
     const-string v8, "transform"
 
     .line 9
-    invoke-static {v6, v7, v1, v8, v3}, LA/d;->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v6, v7, v1, v8, v3}, LA/d;
+    ->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
     .line 10
-    iget-object v7, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v7, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 11
-    iget-object v8, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v8, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 12
-    iget-object v0, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v0, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 13
     array-length v9, v0
@@ -340,7 +357,8 @@
     if-ne v12, v5, :cond_5
 
     .line 16
-    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_a
 
@@ -348,23 +366,27 @@
     if-eqz v12, :cond_6
 
     .line 17
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     :cond_6
     move-object/from16 v16, v0
 
     .line 18
-    invoke-static/range {v17 .. v18}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v17 .. v18}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    invoke-interface {v1, v0, v11}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0, v11}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v12, v12, 0x1
 
@@ -414,17 +436,20 @@
 
     .line 19
     :cond_a
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 20
     :goto_a
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 
     .line 21
@@ -433,7 +458,8 @@
 
     const-string v1, "Super calls with default arguments not supported in this target, function: joinToString"
 
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -463,20 +489,24 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 13
     .line 14
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 15
     .line 16
@@ -593,7 +623,8 @@
 
     .line 66
     .line 67
-    invoke-static {v14, v15}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v14, v15}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 68
     .line 69
@@ -601,7 +632,8 @@
     move-result-object v14
 
     .line 71
-    invoke-interface {v1, v14, v13}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v13}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -613,7 +645,8 @@
 
     .line 76
     .line 77
-    invoke-virtual {v13}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v13}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 78
     .line 79
@@ -662,7 +695,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongObjectMap;->_size:I
+    iget v0, p0, Landroidx/collection/LongObjectMap;
+    ->_size:I
 
     if-eqz v0, :cond_0
 
@@ -692,16 +726,20 @@
 
     const-string v2, "predicate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 3
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 4
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 5
     array-length v5, v4
@@ -769,17 +807,20 @@
     aget-object v13, v3, v13
 
     .line 8
-    invoke-static {v14, v15}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v14, v15}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v14
 
-    invoke-interface {v1, v14, v13}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v13}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
     check-cast v13, Ljava/lang/Boolean;
 
-    invoke-virtual {v13}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v13}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result v13
 
@@ -853,7 +894,8 @@
 
     .line 19
     .line 20
-    iget v3, v0, Landroidx/collection/LongObjectMap;->_capacity:I
+    iget v3, v0, Landroidx/collection/LongObjectMap;
+    ->_capacity:I
 
     .line 21
     .line 22
@@ -871,7 +913,8 @@
 
     .line 27
     :goto_0
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 28
     .line 29
@@ -981,7 +1024,8 @@
 
     .line 77
     .line 78
-    invoke-static {v8, v9}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v8, v9}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 79
     .line 80
@@ -999,7 +1043,8 @@
     and-int/2addr v10, v3
 
     .line 86
-    iget-object v14, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v14, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 87
     .line 88
@@ -1124,7 +1169,8 @@
 
     .line 19
     .line 20
-    iget v3, v0, Landroidx/collection/LongObjectMap;->_capacity:I
+    iget v3, v0, Landroidx/collection/LongObjectMap;
+    ->_capacity:I
 
     .line 21
     .line 22
@@ -1142,7 +1188,8 @@
 
     .line 27
     :goto_0
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 28
     .line 29
@@ -1252,7 +1299,8 @@
 
     .line 77
     .line 78
-    invoke-static {v8, v9}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v8, v9}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 79
     .line 80
@@ -1270,7 +1318,8 @@
     and-int/2addr v10, v3
 
     .line 86
-    iget-object v14, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v14, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 87
     .line 88
@@ -1365,11 +1414,13 @@
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v1, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 4
     .line 5
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 6
     .line 7
@@ -1486,7 +1537,8 @@
 
     .line 57
     .line 58
-    invoke-static {v12, v11}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v12, v11}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 59
     .line 60
@@ -1556,7 +1608,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/LongObjectMap;->getSize()I
+    invoke-virtual {p0}, Landroidx/collection/LongObjectMap;
+    ->getSize()I
 
     move-result v0
 
@@ -1579,16 +1632,20 @@
 
     const-string v2, "predicate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 3
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 4
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 5
     array-length v5, v4
@@ -1658,17 +1715,20 @@
     aget-object v14, v3, v14
 
     .line 8
-    invoke-static/range {v15 .. v16}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v15 .. v16}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v15
 
-    invoke-interface {v1, v15, v14}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v15, v14}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
     check-cast v14, Ljava/lang/Boolean;
 
-    invoke-virtual {v14}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v14}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result v14
 
@@ -1740,7 +1800,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1}, Landroidx/collection/LongObjectMap;->getSize()I
+    invoke-virtual {v1}, Landroidx/collection/LongObjectMap;
+    ->getSize()I
 
     .line 18
     .line 19
@@ -1748,7 +1809,8 @@
     move-result v3
 
     .line 21
-    invoke-virtual {v0}, Landroidx/collection/LongObjectMap;->getSize()I
+    invoke-virtual {v0}, Landroidx/collection/LongObjectMap;
+    ->getSize()I
 
     .line 22
     .line 23
@@ -1760,15 +1822,18 @@
 
     .line 28
     :cond_2
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 29
     .line 30
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 31
     .line 32
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 33
     .line 34
@@ -1893,7 +1958,8 @@
 
     .line 88
     .line 89
-    invoke-virtual {v1, v2, v3}, Landroidx/collection/LongObjectMap;->get(J)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Landroidx/collection/LongObjectMap;
+    ->get(J)Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -1905,7 +1971,8 @@
 
     .line 94
     .line 95
-    invoke-virtual {v1, v2, v3}, Landroidx/collection/LongObjectMap;->containsKey(J)Z
+    invoke-virtual {v1, v2, v3}, Landroidx/collection/LongObjectMap;
+    ->containsKey(J)Z
 
     .line 96
     .line 97
@@ -1922,7 +1989,8 @@
 
     .line 102
     :cond_4
-    invoke-virtual {v1, v2, v3}, Landroidx/collection/LongObjectMap;->get(J)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Landroidx/collection/LongObjectMap;
+    ->get(J)Ljava/lang/Object;
 
     .line 103
     .line 104
@@ -1930,7 +1998,8 @@
     move-result-object v2
 
     .line 106
-    invoke-virtual {v14, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v14, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 107
     .line 108
@@ -2055,7 +2124,8 @@
 
     .line 16
     .line 17
-    iget v2, p0, Landroidx/collection/LongObjectMap;->_capacity:I
+    iget v2, p0, Landroidx/collection/LongObjectMap;
+    ->_capacity:I
 
     .line 18
     .line 19
@@ -2070,7 +2140,8 @@
 
     .line 23
     :goto_0
-    iget-object v4, p0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, p0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 24
     .line 25
@@ -2178,7 +2249,8 @@
 
     .line 73
     .line 74
-    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 75
     .line 76
@@ -2196,7 +2268,8 @@
     and-int/2addr v10, v2
 
     .line 82
-    iget-object v11, p0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v11, p0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 83
     .line 84
@@ -2291,20 +2364,24 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 13
     .line 14
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 15
     .line 16
@@ -2417,7 +2494,8 @@
 
     .line 64
     .line 65
-    invoke-static {v14, v15}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v14, v15}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 66
     .line 67
@@ -2429,7 +2507,8 @@
 
     .line 70
     .line 71
-    invoke-interface {v1, v14, v13}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v13}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -2481,12 +2560,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v0, p0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 7
     .line 8
@@ -2592,7 +2673,8 @@
 
     .line 53
     .line 54
-    invoke-static {v9, v8, p1}, LA/d;->u(IILp1/l;)V
+    invoke-static {v9, v8, p1}, LA/d;
+    ->u(IILp1/l;)V
 
     .line 55
     .line 56
@@ -2656,16 +2738,19 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 13
     .line 14
@@ -2778,7 +2863,8 @@
 
     .line 62
     .line 63
-    invoke-static {v12, v13}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v12, v13}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     .line 64
     .line 65
@@ -2786,7 +2872,8 @@
     move-result-object v12
 
     .line 67
-    invoke-interface {v1, v12}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v12}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 68
     .line 69
@@ -2846,16 +2933,19 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 13
     .line 14
@@ -2968,7 +3058,8 @@
 
     .line 62
     .line 63
-    invoke-interface {v1, v12}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v12}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -3048,7 +3139,8 @@
 
     .line 16
     .line 17
-    iget v2, p0, Landroidx/collection/LongObjectMap;->_capacity:I
+    iget v2, p0, Landroidx/collection/LongObjectMap;
+    ->_capacity:I
 
     .line 18
     .line 19
@@ -3063,7 +3155,8 @@
 
     .line 23
     :goto_0
-    iget-object v4, p0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, p0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 24
     .line 25
@@ -3171,7 +3264,8 @@
 
     .line 73
     .line 74
-    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 75
     .line 76
@@ -3189,7 +3283,8 @@
     and-int/2addr v10, v2
 
     .line 82
-    iget-object v11, p0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v11, p0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 83
     .line 84
@@ -3255,7 +3350,8 @@
 
     .line 108
     .line 109
-    iget-object v0, p0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 110
     .line 111
@@ -3285,7 +3381,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongObjectMap;->_capacity:I    return v0
+    iget v0, p0, Landroidx/collection/LongObjectMap;
+    ->_capacity:I    return v0
 .end method
 
 .method public final getOrDefault(JLjava/lang/Object;)Ljava/lang/Object;
@@ -3331,7 +3428,8 @@
 
     .line 16
     .line 17
-    iget v2, p0, Landroidx/collection/LongObjectMap;->_capacity:I
+    iget v2, p0, Landroidx/collection/LongObjectMap;
+    ->_capacity:I
 
     .line 18
     .line 19
@@ -3346,7 +3444,8 @@
 
     .line 23
     :goto_0
-    iget-object v4, p0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, p0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 24
     .line 25
@@ -3454,7 +3553,8 @@
 
     .line 73
     .line 74
-    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;
+    ->numberOfTrailingZeros(J)I
 
     .line 75
     .line 76
@@ -3472,7 +3572,8 @@
     and-int/2addr v10, v2
 
     .line 82
-    iget-object v11, p0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v11, p0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 83
     .line 84
@@ -3538,7 +3639,8 @@
 
     .line 108
     .line 109
-    iget-object v0, p0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 110
     .line 111
@@ -3577,12 +3679,14 @@
 
     .line 2
     .line 3
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/LongObjectMap;->get(J)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/LongObjectMap;
+    ->get(J)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -3594,7 +3698,8 @@
 
     .line 11
     .line 12
-    invoke-interface {p3}, Lp1/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p3}, Lp1/a;
+    ->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -3610,7 +3715,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongObjectMap;->_size:I    return v0
+    iget v0, p0, Landroidx/collection/LongObjectMap;
+    ->_size:I    return v0
 .end method
 
 .method public hashCode()I
@@ -3621,15 +3727,18 @@
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v1, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 4
     .line 5
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 6
     .line 7
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 8
     .line 9
@@ -3768,7 +3877,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {v13}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v13}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 71
     .line 72
@@ -3838,7 +3948,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongObjectMap;->_size:I
+    iget v0, p0, Landroidx/collection/LongObjectMap;
+    ->_size:I
 
     .line 2
     .line 3
@@ -3861,7 +3972,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongObjectMap;->_size:I
+    iget v0, p0, Landroidx/collection/LongObjectMap;
+    ->_size:I
 
     .line 2
     .line 3
@@ -3900,7 +4012,8 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Landroidx/collection/LongObjectMap;->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v0 .. v7}, Landroidx/collection/LongObjectMap;
+    ->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -3913,7 +4026,8 @@
     .line 2
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1e
 
@@ -3931,7 +4045,8 @@
 
     move-object v2, p1
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;
+    ->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -3944,11 +4059,13 @@
     .line 3
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1c
 
@@ -3966,7 +4083,8 @@
 
     move-object v3, p2
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;
+    ->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -3979,15 +4097,18 @@
     .line 4
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x18
 
@@ -4005,7 +4126,8 @@
 
     move-object v4, p3
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;
+    ->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4018,15 +4140,18 @@
     .line 5
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x10
 
@@ -4044,7 +4169,8 @@
 
     move v5, p4
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/LongObjectMap;
+    ->joinToString$default(Landroidx/collection/LongObjectMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4066,29 +4192,35 @@
 
     const-string v5, "separator"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "prefix"
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "postfix"
 
     const-string v6, "truncated"
 
     .line 6
-    invoke-static {v3, v5, v4, v6, v2}, LA/d;->l(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v5, v4, v6, v2}, LA/d;
+    ->l(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
     .line 7
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 8
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 9
-    iget-object v7, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v7, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 10
     array-length v8, v7
@@ -4166,7 +4298,8 @@
     if-ne v11, v0, :cond_0
 
     .line 13
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_4
 
@@ -4174,19 +4307,23 @@
     if-eqz v11, :cond_1
 
     .line 14
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 15
     :cond_1
-    invoke-virtual {v2, v6, v7}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v6, v7}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     const/16 v6, 0x3d
 
     .line 16
-    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 17
-    invoke-virtual {v2, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v15}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v11, v11, 0x1
 
@@ -4251,17 +4388,20 @@
 
     .line 18
     :cond_5
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 19
     :goto_4
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -4295,33 +4435,40 @@
 
     const-string v6, "separator"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v6, "prefix"
 
-    invoke-static {v2, v6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v6, "postfix"
 
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v6, "truncated"
 
     const-string v7, "transform"
 
     .line 25
-    invoke-static {v4, v6, v5, v7, v2}, LA/d;->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v6, v5, v7, v2}, LA/d;
+    ->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
     .line 26
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 27
-    iget-object v7, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v7, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 28
-    iget-object v8, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v8, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 29
     array-length v9, v8
@@ -4399,7 +4546,8 @@
     if-ne v12, v6, :cond_0
 
     .line 32
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_4
 
@@ -4407,21 +4555,25 @@
     if-eqz v12, :cond_1
 
     .line 33
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 34
     :cond_1
-    invoke-static/range {v18 .. v19}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v18 .. v19}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
 
-    invoke-interface {v5, v1, v0}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v5, v1, v0}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v12, v12, 0x1
 
@@ -4476,17 +4628,20 @@
 
     .line 35
     :cond_5
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 36
     :goto_4
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -4517,29 +4672,35 @@
 
     const-string v5, "separator"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "prefix"
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "postfix"
 
     const-string v6, "transform"
 
     .line 42
-    invoke-static {v3, v5, v4, v6, v2}, LA/d;->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v5, v4, v6, v2}, LA/d;
+    ->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
     .line 43
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 44
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 45
-    iget-object v7, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v7, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 46
     array-length v8, v7
@@ -4615,7 +4776,8 @@
     .line 49
     const-string v0, "..."
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
@@ -4623,21 +4785,25 @@
     if-eqz v11, :cond_1
 
     .line 50
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 51
     :cond_1
-    invoke-static/range {v17 .. v18}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v17 .. v18}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    invoke-interface {v4, v0, v15}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v4, v0, v15}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v11, v11, 0x1
 
@@ -4673,17 +4839,20 @@
 
     .line 52
     :cond_5
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 53
     :goto_3
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -4713,29 +4882,35 @@
 
     const-string v5, "separator"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "prefix"
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "postfix"
 
     const-string v6, "transform"
 
     .line 59
-    invoke-static {v3, v5, v4, v6, v2}, LA/d;->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v5, v4, v6, v2}, LA/d;
+    ->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
     .line 60
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 61
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 62
-    iget-object v7, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v7, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 63
     array-length v8, v7
@@ -4811,7 +4986,8 @@
     .line 66
     const-string v0, "..."
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
@@ -4819,21 +4995,25 @@
     if-eqz v11, :cond_1
 
     .line 67
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 68
     :cond_1
-    invoke-static/range {v17 .. v18}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v17 .. v18}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    invoke-interface {v4, v0, v15}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v4, v0, v15}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v11, v11, 0x1
 
@@ -4869,17 +5049,20 @@
 
     .line 69
     :cond_5
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 70
     :goto_3
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -4904,7 +5087,8 @@
 
     const-string v3, "separator"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "prefix"
 
@@ -4913,18 +5097,22 @@
     move-object/from16 v5, p2
 
     .line 76
-    invoke-static {v5, v3, v2, v4, v5}, LA/d;->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v3, v2, v4, v5}, LA/d;
+    ->n(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/p;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
     .line 77
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 78
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 79
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 80
     array-length v7, v6
@@ -5000,7 +5188,8 @@
     .line 83
     const-string v1, "..."
 
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
@@ -5008,21 +5197,25 @@
     if-eqz v10, :cond_1
 
     .line 84
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 85
     :cond_1
-    invoke-static/range {v17 .. v18}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v17 .. v18}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v14
 
-    invoke-interface {v2, v14, v8}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v14, v8}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Ljava/lang/CharSequence;
 
-    invoke-virtual {v3, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v8}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v10, v10, 0x1
 
@@ -5056,17 +5249,20 @@
     :cond_5
     const-string v1, ""
 
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 87
     :goto_3
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v1
 .end method
 
@@ -5090,27 +5286,33 @@
 
     const-string v3, "separator"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "transform"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 93
     new-instance v3, Ljava/lang/StringBuilder;
 
     const-string v4, ""
 
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 94
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 95
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 96
-    iget-object v7, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v7, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 97
     array-length v8, v7
@@ -5186,7 +5388,8 @@
     .line 100
     const-string v0, "..."
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
@@ -5194,21 +5397,25 @@
     if-eqz v11, :cond_1
 
     .line 101
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 102
     :cond_1
-    invoke-static/range {v18 .. v19}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v18 .. v19}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    invoke-interface {v2, v0, v15}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v0, v15}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v11, v11, 0x1
 
@@ -5244,17 +5451,20 @@
 
     .line 103
     :cond_5
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 104
     :goto_3
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -5275,23 +5485,28 @@
 
     const-string v2, "transform"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 105
     new-instance v2, Ljava/lang/StringBuilder;
 
     const-string v3, ""
 
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 106
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 107
-    iget-object v5, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v5, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 108
-    iget-object v6, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v6, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 109
     array-length v7, v6
@@ -5367,7 +5582,8 @@
     .line 112
     const-string v1, "..."
 
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
@@ -5377,21 +5593,25 @@
     .line 113
     const-string v14, ", "
 
-    invoke-virtual {v2, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v14}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 114
     :cond_1
-    invoke-static/range {v17 .. v18}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static/range {v17 .. v18}, Ljava/lang/Long;
+    ->valueOf(J)Ljava/lang/Long;
 
     move-result-object v14
 
-    invoke-interface {v1, v14, v8}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v8}, Lp1/p;
+    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v10, v10, 0x1
 
@@ -5423,17 +5643,20 @@
 
     .line 115
     :cond_5
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 116
     :goto_3
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v1
 .end method
 
@@ -5441,7 +5664,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/LongObjectMap;->_size:I
+    iget v0, p0, Landroidx/collection/LongObjectMap;
+    ->_size:I
 
     .line 2
     .line 3
@@ -5468,7 +5692,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/LongObjectMap;->isEmpty()Z
+    invoke-virtual {v0}, Landroidx/collection/LongObjectMap;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -5492,20 +5717,24 @@
 
     .line 15
     .line 16
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v2, v0, Landroidx/collection/LongObjectMap;->keys:[J
+    iget-object v2, v0, Landroidx/collection/LongObjectMap;
+    ->keys:[J
 
     .line 20
     .line 21
-    iget-object v3, v0, Landroidx/collection/LongObjectMap;->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/LongObjectMap;
+    ->values:[Ljava/lang/Object;
 
     .line 22
     .line 23
-    iget-object v4, v0, Landroidx/collection/LongObjectMap;->metadata:[J
+    iget-object v4, v0, Landroidx/collection/LongObjectMap;
+    ->metadata:[J
 
     .line 24
     .line 25
@@ -5626,7 +5855,8 @@
 
     .line 77
     .line 78
-    invoke-virtual {v1, v6, v7}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v6, v7}, Ljava/lang/StringBuilder;
+    ->append(J)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
@@ -5635,7 +5865,8 @@
 
     .line 82
     .line 83
-    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
@@ -5649,7 +5880,8 @@
     .line 89
     .line 90
     :cond_1
-    invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 91
     .line 92
@@ -5658,7 +5890,8 @@
 
     .line 94
     .line 95
-    iget v6, v0, Landroidx/collection/LongObjectMap;->_size:I
+    iget v6, v0, Landroidx/collection/LongObjectMap;
+    ->_size:I
 
     .line 96
     .line 97
@@ -5670,7 +5903,8 @@
 
     .line 100
     .line 101
-    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 102
     .line 103
@@ -5740,7 +5974,8 @@
 
     .line 129
     .line 130
-    invoke-static {v1, v2, v3}, LA/d;->h(Ljava/lang/StringBuilder;CLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3}, LA/d;
+    ->h(Ljava/lang/StringBuilder;CLjava/lang/String;)Ljava/lang/String;
 
     .line 131
     .line 132

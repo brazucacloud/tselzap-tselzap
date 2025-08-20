@@ -16,7 +16,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Ljava/lang/System;
+    ->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -24,7 +25,8 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 8
     .line 9
@@ -40,7 +42,8 @@
 
     .line 14
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 15
     .line 16
@@ -52,7 +55,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->length()I
 
     .line 21
     .line 22
@@ -60,7 +64,8 @@
     move-result v3
 
     .line 24
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
     .line 25
     .line 26
@@ -73,7 +78,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0, v3}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {v0, v3}, Ljava/lang/String;
+    ->charAt(I)C
 
     .line 31
     .line 32
@@ -106,7 +112,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
@@ -119,7 +126,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
@@ -133,7 +141,8 @@
 
     .line 58
     :cond_3
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 59
     .line 60
@@ -149,12 +158,14 @@
     const/4 v2, 0x2
 
     .line 65
-    invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
+    invoke-direct {v1, v2}, Ljava/util/HashMap;
+    -><init>(I)V
 
     .line 66
     .line 67
     .line 68
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 69
     .line 70
@@ -170,12 +181,14 @@
 
     .line 75
     .line 76
-    invoke-direct {v2, v0}, Lo/h;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Lo/h;
+    -><init>(Ljava/lang/String;)V
 
     .line 77
     .line 78
     .line 79
-    invoke-static {v2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v2}, Ljava/util/Collections;
+    ->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     .line 80
     .line 81
@@ -187,13 +200,15 @@
 
     .line 84
     .line 85
-    invoke-virtual {v1, v2, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v0}, Ljava/util/HashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 86
     .line 87
     .line 88
     :cond_4
-    invoke-static {v1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v1}, Ljava/util/Collections;
+    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 89
     .line 90
@@ -201,7 +216,8 @@
     move-result-object v0
 
     .line 92
-    sput-object v0, Lo/g;->a:Ljava/util/Map;
+    sput-object v0, Lo/g;
+    ->a:Ljava/util/Map;
 
     .line 93
     .line 94

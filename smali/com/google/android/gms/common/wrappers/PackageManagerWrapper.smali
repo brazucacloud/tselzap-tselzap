@@ -23,9 +23,11 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     return-void
 .end method
@@ -42,11 +44,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/content/Context;->checkCallingOrSelfPermission(Ljava/lang/String;)I
+    invoke-virtual {v0, p1}, Landroid/content/Context;
+    ->checkCallingOrSelfPermission(Ljava/lang/String;)I
 
     .line 4
     .line 5
@@ -70,11 +74,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -82,7 +88,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1, p2}, Landroid/content/pm/PackageManager;->checkPermission(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {v0, p1, p2}, Landroid/content/pm/PackageManager;
+    ->checkPermission(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 8
     .line 9
@@ -105,11 +112,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -117,7 +126,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1, p2}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {v0, p1, p2}, Landroid/content/pm/PackageManager;
+    ->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     .line 8
     .line 9
@@ -140,11 +150,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -152,7 +164,8 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 8
     .line 9
@@ -163,7 +176,8 @@
     const/4 v2, 0x0
 
     .line 12
-    invoke-virtual {v0, p1, v2}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {v0, p1, v2}, Landroid/content/pm/PackageManager;
+    ->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     .line 13
     .line 14
@@ -171,7 +185,8 @@
     move-result-object p1
 
     .line 16
-    invoke-virtual {v1, p1}, Landroid/content/pm/PackageManager;->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
+    invoke-virtual {v1, p1}, Landroid/content/pm/PackageManager;
+    ->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
 
     .line 17
     .line 18
@@ -206,11 +221,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -221,7 +238,8 @@
     const/4 v1, 0x0
 
     .line 8
-    invoke-virtual {v0, p1, v1}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {v0, p1, v1}, Landroid/content/pm/PackageManager;
+    ->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     .line 9
     .line 10
@@ -229,11 +247,13 @@
     move-result-object p1
 
     .line 12
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 15
     .line 16
@@ -241,7 +261,8 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
+    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;
+    ->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
 
     .line 19
     .line 20
@@ -249,11 +270,13 @@
     move-result-object v0
 
     .line 22
-    iget-object v1, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v1, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 25
     .line 26
@@ -261,7 +284,8 @@
     move-result-object v1
 
     .line 28
-    invoke-virtual {v1, p1}, Landroid/content/pm/PackageManager;->getApplicationIcon(Landroid/content/pm/ApplicationInfo;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v1, p1}, Landroid/content/pm/PackageManager;
+    ->getApplicationIcon(Landroid/content/pm/ApplicationInfo;)Landroid/graphics/drawable/Drawable;
 
     .line 29
     .line 30
@@ -269,7 +293,8 @@
     move-result-object p1
 
     .line 32
-    invoke-static {v0, p1}, Landroidx/core/util/Pair;->create(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/core/util/Pair;
+    invoke-static {v0, p1}, Landroidx/core/util/Pair;
+    ->create(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/core/util/Pair;
 
     .line 33
     .line 34
@@ -292,11 +317,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -304,7 +331,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1, p2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {v0, p1, p2}, Landroid/content/pm/PackageManager;
+    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 8
     .line 9
@@ -323,11 +351,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -335,7 +365,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;->getPackagesForUid(I)[Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;
+    ->getPackagesForUid(I)[Ljava/lang/String;
 
     .line 8
     .line 9
@@ -351,7 +382,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingUid()I
 
     .line 2
     .line 3
@@ -359,7 +391,8 @@
     move-result v0
 
     .line 5
-    invoke-static {}, Landroid/os/Process;->myUid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myUid()I
 
     .line 6
     .line 7
@@ -371,11 +404,13 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 12
     .line 13
-    invoke-static {v0}, Lcom/google/android/gms/common/wrappers/InstantApps;->isInstantApp(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/google/android/gms/common/wrappers/InstantApps;
+    ->isInstantApp(Landroid/content/Context;)Z
 
     .line 14
     .line 15
@@ -386,7 +421,8 @@
 
     .line 18
     :cond_0
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastO()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
+    ->isAtLeastO()Z
 
     .line 19
     .line 20
@@ -398,11 +434,13 @@
 
     .line 23
     .line 24
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 27
     .line 28
@@ -410,7 +448,8 @@
     move-result-object v0
 
     .line 30
-    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;
+    ->getCallingUid()I
 
     .line 31
     .line 32
@@ -418,7 +457,8 @@
     move-result v1
 
     .line 34
-    invoke-virtual {v0, v1}, Landroid/content/pm/PackageManager;->getNameForUid(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/content/pm/PackageManager;
+    ->getNameForUid(I)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -430,11 +470,13 @@
 
     .line 39
     .line 40
-    iget-object v1, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v1, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v1}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 43
     .line 44
@@ -442,7 +484,8 @@
     move-result-object v1
 
     .line 46
-    invoke-static {v1, v0}, Lcom/fmark/tselzap/Services/a;->A(Landroid/content/pm/PackageManager;Ljava/lang/String;)Z
+    invoke-static {v1, v0}, Lcom/fmark/tselzap/Services/a;
+    ->A(Landroid/content/pm/PackageManager;Ljava/lang/String;)Z
 
     .line 47
     .line 48
@@ -470,7 +513,8 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    ->zza:Landroid/content/Context;
 
     .line 2
     .line 3
@@ -478,7 +522,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -494,7 +539,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2}, Landroid/app/AppOpsManager;->checkPackage(ILjava/lang/String;)V
+    invoke-virtual {v0, p1, p2}, Landroid/app/AppOpsManager;
+    ->checkPackage(ILjava/lang/String;)V
 
     .line 14
     .line 15
@@ -513,7 +559,8 @@
 
     .line 21
     .line 22
-    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24

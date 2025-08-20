@@ -20,7 +20,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -29,12 +30,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lo0/a;->a:Ljava/util/HashMap;
+    iput-object v0, p0, Lo0/a;
+    ->a:Ljava/util/HashMap;
 
     .line 10
     .line 11
@@ -42,12 +45,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lo0/a;->b:Ljava/util/HashSet;
+    iput-object v0, p0, Lo0/a;
+    ->b:Ljava/util/HashSet;
 
     .line 17
     .line 18
@@ -60,7 +65,8 @@
     .locals 5
 
     .line 1
-    invoke-interface {p1}, Lo0/h;->getId()I
+    invoke-interface {p1}, Lo0/h;
+    ->getId()I
 
     .line 2
     .line 3
@@ -68,11 +74,13 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lo0/a;->b:Ljava/util/HashSet;
+    iget-object v1, p0, Lo0/a;
+    ->b:Ljava/util/HashSet;
 
     .line 6
     .line 7
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9
@@ -80,7 +88,8 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {v1, v2}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/util/HashSet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -99,11 +108,13 @@
 
     .line 19
     :cond_0
-    iget-object v2, p0, Lo0/a;->a:Ljava/util/HashMap;
+    iget-object v2, p0, Lo0/a;
+    ->a:Ljava/util/HashMap;
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Lo0/a;->c()I
+    invoke-virtual {p0}, Lo0/a;
+    ->c()I
 
     .line 22
     .line 23
@@ -111,7 +122,8 @@
     move-result v4
 
     .line 25
-    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 26
     .line 27
@@ -119,7 +131,8 @@
     move-result-object v4
 
     .line 29
-    invoke-virtual {v2, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v4}, Ljava/util/HashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -135,13 +148,15 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0, v2, v3}, Lo0/a;->e(Lo0/h;Z)Z
+    invoke-virtual {p0, v2, v3}, Lo0/a;
+    ->e(Lo0/h;Z)Z
 
     .line 38
     .line 39
     .line 40
     :cond_1
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 41
     .line 42
@@ -149,7 +164,8 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {v1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/util/HashSet;
+    ->add(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -157,7 +173,8 @@
     move-result v0
 
     .line 48
-    invoke-interface {p1}, Landroid/widget/Checkable;->isChecked()Z
+    invoke-interface {p1}, Landroid/widget/Checkable;
+    ->isChecked()Z
 
     .line 49
     .line 50
@@ -172,7 +189,8 @@
     const/4 v1, 0x1
 
     .line 55
-    invoke-interface {p1, v1}, Landroid/widget/Checkable;->setChecked(Z)V
+    invoke-interface {p1, v1}, Landroid/widget/Checkable;
+    ->setChecked(Z)V
 
     .line 56
     .line 57
@@ -189,11 +207,13 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lo0/a;->b:Ljava/util/HashSet;
+    iget-object v1, p0, Lo0/a;
+    ->b:Ljava/util/HashSet;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 6
     .line 7
@@ -202,7 +222,8 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 11
     .line 12
@@ -211,7 +232,8 @@
 
     .line 14
     :goto_0
-    invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
+    invoke-virtual {p1}, Landroid/view/ViewGroup;
+    ->getChildCount()I
 
     .line 15
     .line 16
@@ -223,7 +245,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p1, v2}, Landroid/view/ViewGroup;
+    ->getChildAt(I)Landroid/view/View;
 
     .line 21
     .line 22
@@ -239,7 +262,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v3}, Landroid/view/View;->getId()I
+    invoke-virtual {v3}, Landroid/view/View;
+    ->getId()I
 
     .line 29
     .line 30
@@ -247,7 +271,8 @@
     move-result v4
 
     .line 32
-    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v4}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 33
     .line 34
@@ -255,7 +280,8 @@
     move-result-object v4
 
     .line 36
-    invoke-virtual {v0, v4}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/util/HashSet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 37
     .line 38
@@ -267,7 +293,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {v3}, Landroid/view/View;->getId()I
+    invoke-virtual {v3}, Landroid/view/View;
+    ->getId()I
 
     .line 43
     .line 44
@@ -275,7 +302,8 @@
     move-result v3
 
     .line 46
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 47
     .line 48
@@ -283,7 +311,8 @@
     move-result-object v3
 
     .line 50
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 51
     .line 52
@@ -304,7 +333,8 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Lo0/a;->d:Z
+    iget-boolean v0, p0, Lo0/a;
+    ->d:Z
 
     .line 2
     .line 3
@@ -312,11 +342,13 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lo0/a;->b:Ljava/util/HashSet;
+    iget-object v0, p0, Lo0/a;
+    ->b:Ljava/util/HashSet;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Ljava/util/HashSet;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/HashSet;
+    ->isEmpty()Z
 
     .line 8
     .line 9
@@ -328,7 +360,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/HashSet;
+    ->iterator()Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -336,7 +369,8 @@
     move-result-object v0
 
     .line 17
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -348,7 +382,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 24
     .line 25
@@ -368,7 +403,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lo0/a;->c:Li0/f;
+    iget-object v0, p0, Lo0/a;
+    ->c:Li0/f;
 
     .line 2
     .line 3
@@ -380,20 +416,24 @@
 
     .line 6
     .line 7
-    iget-object v2, p0, Lo0/a;->b:Ljava/util/HashSet;
+    iget-object v2, p0, Lo0/a;
+    ->b:Ljava/util/HashSet;
 
     .line 8
     .line 9
-    invoke-direct {v1, v2}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/HashSet;
+    -><init>(Ljava/util/Collection;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, v0, Li0/f;->a:Lcom/google/android/material/chip/ChipGroup;
+    iget-object v0, v0, Li0/f;
+    ->a:Lcom/google/android/material/chip/ChipGroup;
 
     .line 13
     .line 14
-    iget-object v1, v0, Lcom/google/android/material/chip/ChipGroup;->h:Li0/i;
+    iget-object v1, v0, Lcom/google/android/material/chip/ChipGroup;
+    ->h:Li0/i;
 
     .line 15
     .line 16
@@ -401,11 +441,13 @@
 
     .line 17
     .line 18
-    iget-object v2, v0, Lcom/google/android/material/chip/ChipGroup;->i:Lo0/a;
+    iget-object v2, v0, Lcom/google/android/material/chip/ChipGroup;
+    ->i:Lo0/a;
 
     .line 19
     .line 20
-    invoke-virtual {v2, v0}, Lo0/a;->b(Landroid/view/ViewGroup;)Ljava/util/ArrayList;
+    invoke-virtual {v2, v0}, Lo0/a;
+    ->b(Landroid/view/ViewGroup;)Ljava/util/ArrayList;
 
     .line 21
     .line 22
@@ -414,15 +456,18 @@
 
     .line 24
     .line 25
-    iget-object v0, v1, Li0/f;->a:Lcom/google/android/material/chip/ChipGroup;
+    iget-object v0, v1, Li0/f;
+    ->a:Lcom/google/android/material/chip/ChipGroup;
 
     .line 26
     .line 27
-    iget-object v1, v0, Lcom/google/android/material/chip/ChipGroup;->i:Lo0/a;
+    iget-object v1, v0, Lcom/google/android/material/chip/ChipGroup;
+    ->i:Lo0/a;
 
     .line 28
     .line 29
-    iget-boolean v1, v1, Lo0/a;->d:Z
+    iget-boolean v1, v1, Lo0/a;
+    ->d:Z
 
     .line 30
     .line 31
@@ -434,7 +479,8 @@
 
     .line 34
     :cond_0
-    invoke-virtual {v0}, Lcom/google/android/material/chip/ChipGroup;->getCheckedChipId()I
+    invoke-virtual {v0}, Lcom/google/android/material/chip/ChipGroup;
+    ->getCheckedChipId()I
 
     .line 35
     .line 36
@@ -454,7 +500,8 @@
     .locals 4
 
     .line 1
-    invoke-interface {p1}, Lo0/h;->getId()I
+    invoke-interface {p1}, Lo0/h;
+    ->getId()I
 
     .line 2
     .line 3
@@ -462,11 +509,13 @@
     move-result v0
 
     .line 5
-    iget-object v1, p0, Lo0/a;->b:Ljava/util/HashSet;
+    iget-object v1, p0, Lo0/a;
+    ->b:Ljava/util/HashSet;
 
     .line 6
     .line 7
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9
@@ -474,7 +523,8 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {v1, v2}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/util/HashSet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -497,7 +547,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Ljava/util/HashSet;->size()I
+    invoke-virtual {v1}, Ljava/util/HashSet;
+    ->size()I
 
     .line 22
     .line 23
@@ -512,7 +563,8 @@
 
     .line 27
     .line 28
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 29
     .line 30
@@ -520,7 +572,8 @@
     move-result-object p2
 
     .line 32
-    invoke-virtual {v1, p2}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p2}, Ljava/util/HashSet;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -532,7 +585,8 @@
 
     .line 37
     .line 38
-    invoke-interface {p1, v2}, Landroid/widget/Checkable;->setChecked(Z)V
+    invoke-interface {p1, v2}, Landroid/widget/Checkable;
+    ->setChecked(Z)V
 
     .line 39
     .line 40
@@ -541,7 +595,8 @@
 
     .line 42
     :cond_1
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 43
     .line 44
@@ -549,7 +604,8 @@
     move-result-object p2
 
     .line 46
-    invoke-virtual {v1, p2}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p2}, Ljava/util/HashSet;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -557,7 +613,8 @@
     move-result p2
 
     .line 50
-    invoke-interface {p1}, Landroid/widget/Checkable;->isChecked()Z
+    invoke-interface {p1}, Landroid/widget/Checkable;
+    ->isChecked()Z
 
     .line 51
     .line 52
@@ -569,7 +626,8 @@
 
     .line 55
     .line 56
-    invoke-interface {p1, v3}, Landroid/widget/Checkable;->setChecked(Z)V
+    invoke-interface {p1, v3}, Landroid/widget/Checkable;
+    ->setChecked(Z)V
 
     .line 57
     .line 58

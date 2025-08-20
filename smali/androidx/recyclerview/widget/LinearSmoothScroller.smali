@@ -53,7 +53,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;-><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    -><init>()V
 
     .line 2
     .line 3
@@ -62,12 +63,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/view/animation/LinearInterpolator;-><init>()V
+    invoke-direct {v0}, Landroid/view/animation/LinearInterpolator;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mLinearInterpolator:Landroid/view/animation/LinearInterpolator;
+    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mLinearInterpolator:Landroid/view/animation/LinearInterpolator;
 
     .line 10
     .line 11
@@ -75,31 +78,37 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
+    invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
+    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
 
     .line 17
     .line 18
     const/4 v0, 0x0
 
     .line 19
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mHasCalculatedMillisPerPixel:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mHasCalculatedMillisPerPixel:Z
 
     .line 20
     .line 21
-    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 22
     .line 23
-    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDy:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDy:I
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 26
     .line 27
@@ -107,7 +116,8 @@
     move-result-object p1
 
     .line 29
-    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {p1}, Landroid/content/res/Resources;
+    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 30
     .line 31
@@ -115,7 +125,9 @@
     move-result-object p1
 
     .line 33
-    iput-object p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mDisplayMetrics:Landroid/util/DisplayMetrics;    return-void
+    iput-object p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mDisplayMetrics:Landroid/util/DisplayMetrics;    
+    return-void
 .end method
 
 .method private clampApplyScroll(II)I
@@ -139,7 +151,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mHasCalculatedMillisPerPixel:Z
+    iget-boolean v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mHasCalculatedMillisPerPixel:Z
 
     .line 2
     .line 3
@@ -147,11 +160,13 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mDisplayMetrics:Landroid/util/DisplayMetrics;
+    iget-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mDisplayMetrics:Landroid/util/DisplayMetrics;
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateSpeedPerPixel(Landroid/util/DisplayMetrics;)F
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateSpeedPerPixel(Landroid/util/DisplayMetrics;)F
 
     .line 8
     .line 9
@@ -159,19 +174,22 @@
     move-result v0
 
     .line 11
-    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mMillisPerPixel:F
+    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mMillisPerPixel:F
 
     .line 12
     .line 13
     const/4 v0, 0x1
 
     .line 14
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mHasCalculatedMillisPerPixel:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mHasCalculatedMillisPerPixel:Z
 
     .line 15
     .line 16
     :cond_0
-    iget v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mMillisPerPixel:F    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mMillisPerPixel:F    return v0
 .end method
 
 
@@ -212,7 +230,8 @@
 
     .line 14
     .line 15
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -255,7 +274,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 2
     .line 3
@@ -267,7 +287,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->canScrollHorizontally()Z
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->canScrollHorizontally()Z
 
     .line 8
     .line 9
@@ -283,7 +304,8 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 15
     .line 16
@@ -295,7 +317,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedLeft(Landroid/view/View;)I
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getDecoratedLeft(Landroid/view/View;)I
 
     .line 21
     .line 22
@@ -303,7 +326,8 @@
     move-result v2
 
     .line 24
-    iget v3, v1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iget v3, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 25
     .line 26
@@ -311,7 +335,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedRight(Landroid/view/View;)I
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getDecoratedRight(Landroid/view/View;)I
 
     .line 29
     .line 30
@@ -319,7 +344,8 @@
     move-result p1
 
     .line 32
-    iget v1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iget v1, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 33
     .line 34
@@ -327,7 +353,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingLeft()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getPaddingLeft()I
 
     .line 37
     .line 38
@@ -335,7 +362,8 @@
     move-result v7
 
     .line 40
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getWidth()I
 
     .line 41
     .line 42
@@ -343,7 +371,8 @@
     move-result p1
 
     .line 44
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingRight()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getPaddingRight()I
 
     .line 45
     .line 46
@@ -361,7 +390,8 @@
     move v9, p2
 
     .line 52
-    invoke-virtual/range {v4 .. v9}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateDtToFit(IIIII)I
+    invoke-virtual/range {v4 .. v9}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateDtToFit(IIIII)I
 
     .line 53
     .line 54
@@ -387,7 +417,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 2
     .line 3
@@ -399,7 +430,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->canScrollVertically()Z
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->canScrollVertically()Z
 
     .line 8
     .line 9
@@ -415,7 +447,8 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 15
     .line 16
@@ -427,7 +460,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedTop(Landroid/view/View;)I
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getDecoratedTop(Landroid/view/View;)I
 
     .line 21
     .line 22
@@ -435,7 +469,8 @@
     move-result v2
 
     .line 24
-    iget v3, v1, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+    iget v3, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->topMargin:I
 
     .line 25
     .line 26
@@ -443,7 +478,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedBottom(Landroid/view/View;)I
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getDecoratedBottom(Landroid/view/View;)I
 
     .line 29
     .line 30
@@ -451,7 +487,8 @@
     move-result p1
 
     .line 32
-    iget v1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iget v1, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 33
     .line 34
@@ -459,7 +496,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingTop()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getPaddingTop()I
 
     .line 37
     .line 38
@@ -467,7 +505,8 @@
     move-result v7
 
     .line 40
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getHeight()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getHeight()I
 
     .line 41
     .line 42
@@ -475,7 +514,8 @@
     move-result p1
 
     .line 44
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingBottom()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    ->getPaddingBottom()I
 
     .line 45
     .line 46
@@ -493,7 +533,8 @@
     move v9, p2
 
     .line 52
-    invoke-virtual/range {v4 .. v9}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateDtToFit(IIIII)I
+    invoke-virtual/range {v4 .. v9}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateDtToFit(IIIII)I
 
     .line 53
     .line 54
@@ -519,7 +560,8 @@
     .end annotation
 
     .line 1
-    iget p1, p1, Landroid/util/DisplayMetrics;->densityDpi:I
+    iget p1, p1, Landroid/util/DisplayMetrics;
+    ->densityDpi:I
 
     .line 2
     .line 3
@@ -539,7 +581,8 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForScrolling(I)I
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateTimeForScrolling(I)I
 
     .line 2
     .line 3
@@ -560,7 +603,8 @@
     div-double/2addr v0, v2
 
     .line 12
-    invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->ceil(D)D
 
     .line 13
     .line 14
@@ -577,7 +621,8 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(I)I
 
     .line 2
     .line 3
@@ -588,7 +633,8 @@
     int-to-float p1, p1
 
     .line 6
-    invoke-direct {p0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->getSpeedPerPixel()F
+    invoke-direct {p0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->getSpeedPerPixel()F
 
     .line 7
     .line 8
@@ -603,7 +649,8 @@
     float-to-double v0, p1
 
     .line 13
-    invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->ceil(D)D
 
     .line 14
     .line 15
@@ -620,7 +667,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mTargetVector:Landroid/graphics/PointF;
+    iget-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mTargetVector:Landroid/graphics/PointF;
 
     .line 2
     .line 3
@@ -628,7 +676,8 @@
 
     .line 4
     .line 5
-    iget v0, v0, Landroid/graphics/PointF;->x:F
+    iget v0, v0, Landroid/graphics/PointF;
+    ->x:F
 
     .line 6
     .line 7
@@ -677,7 +726,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mTargetVector:Landroid/graphics/PointF;
+    iget-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mTargetVector:Landroid/graphics/PointF;
 
     .line 2
     .line 3
@@ -685,7 +735,8 @@
 
     .line 4
     .line 5
-    iget v0, v0, Landroid/graphics/PointF;->y:F
+    iget v0, v0, Landroid/graphics/PointF;
+    ->y:F
 
     .line 6
     .line 7
@@ -739,7 +790,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getChildCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->getChildCount()I
 
     .line 2
     .line 3
@@ -751,16 +803,19 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->stop()V
     return-void
 
     .line 11
     :cond_0
-    iget p3, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iget p3, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 12
     .line 13
-    invoke-direct {p0, p3, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;->clampApplyScroll(II)I
+    invoke-direct {p0, p3, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->clampApplyScroll(II)I
 
     .line 14
     .line 15
@@ -768,15 +823,18 @@
     move-result p1
 
     .line 17
-    iput p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iput p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 18
     .line 19
-    iget p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDy:I
+    iget p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDy:I
 
     .line 20
     .line 21
-    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;->clampApplyScroll(II)I
+    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->clampApplyScroll(II)I
 
     .line 22
     .line 23
@@ -784,11 +842,13 @@
     move-result p1
 
     .line 25
-    iput p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDy:I
+    iput p1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDy:I
 
     .line 26
     .line 27
-    iget p2, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iget p2, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 28
     .line 29
@@ -800,7 +860,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {p0, p4}, Landroidx/recyclerview/widget/LinearSmoothScroller;->updateActionForInterimTarget(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;)V
+    invoke-virtual {p0, p4}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->updateActionForInterimTarget(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;)V
 
     .line 34
     .line 35
@@ -822,18 +883,22 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDy:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDy:I
 
     .line 3
     .line 4
-    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 5
     .line 6
     const/4 v0, 0x0
 
     .line 7
-    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mTargetVector:Landroid/graphics/PointF;    return-void
+    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mTargetVector:Landroid/graphics/PointF;    
+    return-void
 .end method
 
 .method public onTargetFound(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$State;Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;)V
@@ -845,7 +910,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->getHorizontalSnapPreference()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->getHorizontalSnapPreference()I
 
     .line 2
     .line 3
@@ -853,7 +919,8 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateDxToMakeVisible(Landroid/view/View;I)I
+    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateDxToMakeVisible(Landroid/view/View;I)I
 
     .line 6
     .line 7
@@ -861,7 +928,8 @@
     move-result p2
 
     .line 9
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->getVerticalSnapPreference()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->getVerticalSnapPreference()I
 
     .line 10
     .line 11
@@ -869,7 +937,8 @@
     move-result v0
 
     .line 13
-    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateDyToMakeVisible(Landroid/view/View;I)I
+    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateDyToMakeVisible(Landroid/view/View;I)I
 
     .line 14
     .line 15
@@ -891,7 +960,8 @@
     int-to-double v0, v1
 
     .line 23
-    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 24
     .line 25
@@ -902,7 +972,8 @@
     double-to-int v0, v0
 
     .line 28
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForDeceleration(I)I
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateTimeForDeceleration(I)I
 
     .line 29
     .line 30
@@ -920,11 +991,13 @@
     neg-int p1, p1
 
     .line 36
-    iget-object v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
+    iget-object v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
 
     .line 37
     .line 38
-    invoke-virtual {p3, p2, p1, v0, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->update(IIILandroid/view/animation/Interpolator;)V
+    invoke-virtual {p3, p2, p1, v0, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->update(IIILandroid/view/animation/Interpolator;)V
 
     .line 39
     .line 40
@@ -942,7 +1015,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getTargetPosition()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->getTargetPosition()I
 
     .line 2
     .line 3
@@ -950,7 +1024,8 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->computeScrollVectorForPosition(I)Landroid/graphics/PointF;
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->computeScrollVectorForPosition(I)Landroid/graphics/PointF;
 
     .line 6
     .line 7
@@ -962,7 +1037,8 @@
 
     .line 10
     .line 11
-    iget v1, v0, Landroid/graphics/PointF;->x:F
+    iget v1, v0, Landroid/graphics/PointF;
+    ->x:F
 
     .line 12
     .line 13
@@ -977,7 +1053,8 @@
 
     .line 17
     .line 18
-    iget v1, v0, Landroid/graphics/PointF;->y:F
+    iget v1, v0, Landroid/graphics/PointF;
+    ->y:F
 
     .line 19
     .line 20
@@ -993,16 +1070,19 @@
 
     .line 25
     :cond_0
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->normalize(Landroid/graphics/PointF;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->normalize(Landroid/graphics/PointF;)V
 
     .line 26
     .line 27
     .line 28
-    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mTargetVector:Landroid/graphics/PointF;
+    iput-object v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mTargetVector:Landroid/graphics/PointF;
 
     .line 29
     .line 30
-    iget v1, v0, Landroid/graphics/PointF;->x:F
+    iget v1, v0, Landroid/graphics/PointF;
+    ->x:F
 
     .line 31
     .line 32
@@ -1018,11 +1098,13 @@
     float-to-int v1, v1
 
     .line 38
-    iput v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iput v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 39
     .line 40
-    iget v0, v0, Landroid/graphics/PointF;->y:F
+    iget v0, v0, Landroid/graphics/PointF;
+    ->y:F
 
     .line 41
     .line 42
@@ -1033,7 +1115,8 @@
     float-to-int v0, v0
 
     .line 45
-    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDy:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDy:I
 
     .line 46
     .line 47
@@ -1041,7 +1124,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForScrolling(I)I
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->calculateTimeForScrolling(I)I
 
     .line 50
     .line 51
@@ -1049,7 +1133,8 @@
     move-result v0
 
     .line 53
-    iget v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDx:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDx:I
 
     .line 54
     .line 55
@@ -1068,7 +1153,8 @@
     float-to-int v1, v1
 
     .line 62
-    iget v3, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mInterimTargetDy:I
+    iget v3, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mInterimTargetDy:I
 
     .line 63
     .line 64
@@ -1092,16 +1178,20 @@
     float-to-int v0, v0
 
     .line 72
-    iget-object v2, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mLinearInterpolator:Landroid/view/animation/LinearInterpolator;
+    iget-object v2, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
+    ->mLinearInterpolator:Landroid/view/animation/LinearInterpolator;
 
     .line 73
     .line 74
-    invoke-virtual {p1, v1, v3, v0, v2}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->update(IIILandroid/view/animation/Interpolator;)V    return-void
+    invoke-virtual {p1, v1, v3, v0, v2}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->update(IIILandroid/view/animation/Interpolator;)V    
+    return-void
 
     .line 78
     :cond_1
     :goto_0
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getTargetPosition()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->getTargetPosition()I
 
     .line 79
     .line 80
@@ -1109,12 +1199,14 @@
     move-result v0
 
     .line 82
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->jumpTo(I)V
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
+    ->jumpTo(I)V
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+    ->stop()V
     return-void
 .end method
 

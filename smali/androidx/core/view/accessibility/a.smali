@@ -10,7 +10,8 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;->setAllocator(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;
+    ->setAllocator(I)V
 return-void
 .end method
 
@@ -18,7 +19,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetLeft()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;
+    ->getSafeInsetLeft()I
 
     move-result p0
 
@@ -31,7 +33,8 @@ return-void
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;->setMemorySizePolicy(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;
+    ->setMemorySizePolicy(I)V
 return-void
 .end method
 
@@ -39,7 +42,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetTop()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;
+    ->getSafeInsetTop()I
 
     move-result p0
 
@@ -50,7 +54,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetRight()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;
+    ->getSafeInsetRight()I
 
     move-result p0
 
@@ -61,7 +66,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/PackageInfo;->getLongVersionCode()J
+    invoke-virtual {p0}, Landroid/content/pm/PackageInfo;
+    ->getLongVersionCode()J
 
     move-result-wide v0
 
@@ -72,7 +78,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/graphics/ImageDecoder;->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1}, Landroid/graphics/ImageDecoder;
+    ->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -83,7 +90,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/ImageDecoder$ImageInfo;->getColorSpace()Landroid/graphics/ColorSpace;
+    invoke-virtual {p0}, Landroid/graphics/ImageDecoder$ImageInfo;
+    ->getColorSpace()Landroid/graphics/ColorSpace;
 
     move-result-object p0
 
@@ -103,7 +111,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/os/Handler;->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {p0}, Landroid/os/Handler;
+    ->createAsync(Landroid/os/Looper;)Landroid/os/Handler;
 
     move-result-object p0
 
@@ -114,7 +123,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/ImageDecoder$ImageInfo;->getSize()Landroid/util/Size;
+    invoke-virtual {p0}, Landroid/graphics/ImageDecoder$ImageInfo;
+    ->getSize()Landroid/util/Size;
 
     move-result-object p0
 
@@ -134,7 +144,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SHOW_TOOLTIP:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    ->ACTION_SHOW_TOOLTIP:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -143,7 +154,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getTooltipText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getTooltipText()Ljava/lang/CharSequence;
 
     move-result-object p0
 
@@ -154,7 +166,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/app/Application;->getProcessName()Ljava/lang/String;
+    invoke-static {}, Landroid/app/Application;
+    ->getProcessName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -167,7 +180,8 @@ return-void
     .line 1
     const/4 v0, 0x3
 
-    invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;->setAllocator(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;
+    ->setAllocator(I)V
 return-void
 .end method
 
@@ -175,7 +189,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/ImageDecoder;->setTargetSize(II)V
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/ImageDecoder;
+    ->setTargetSize(II)V
 return-void
 .end method
 
@@ -183,7 +198,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/ImageDecoder;->setTargetColorSpace(Landroid/graphics/ColorSpace;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/ImageDecoder;
+    ->setTargetColorSpace(Landroid/graphics/ColorSpace;)V
 return-void
 .end method
 
@@ -191,7 +207,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/ImageDecoder;->setOnPartialImageListener(Landroid/graphics/ImageDecoder$OnPartialImageListener;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/ImageDecoder;
+    ->setOnPartialImageListener(Landroid/graphics/ImageDecoder$OnPartialImageListener;)V
 return-void
 .end method
 
@@ -201,7 +218,8 @@ return-void
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Landroid/view/View;->setAccessibilityHeading(Z)V
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setAccessibilityHeading(Z)V
 
     return-void
 .end method
@@ -210,7 +228,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTooltipText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setTooltipText(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -218,7 +237,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setHeading(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setHeading(Z)V
 return-void
 .end method
 
@@ -235,7 +255,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/os/Process;->isIsolated()Z
+    invoke-static {}, Landroid/os/Process;
+    ->isIsolated()Z
 
     move-result v0
 
@@ -246,7 +267,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->isScreenReaderFocusable()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->isScreenReaderFocusable()Z
 
     move-result p0
 
@@ -275,7 +297,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetBottom()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;
+    ->getSafeInsetBottom()I
 
     move-result p0
 
@@ -286,7 +309,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_HIDE_TOOLTIP:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    ->ACTION_HIDE_TOOLTIP:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -295,7 +319,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getPaneTitle()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getPaneTitle()Ljava/lang/CharSequence;
 
     move-result-object p0
 

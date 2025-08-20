@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +39,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/window/layout/HardwareFoldingFeature$Type;->access$getFOLD$cp()Landroidx/window/layout/HardwareFoldingFeature$Type;
+    invoke-static {}, Landroidx/window/layout/HardwareFoldingFeature$Type;
+    ->access$getFOLD$cp()Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 2
     .line 3
@@ -51,7 +54,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/window/layout/HardwareFoldingFeature$Type;->access$getHINGE$cp()Landroidx/window/layout/HardwareFoldingFeature$Type;
+    invoke-static {}, Landroidx/window/layout/HardwareFoldingFeature$Type;
+    ->access$getHINGE$cp()Landroidx/window/layout/HardwareFoldingFeature$Type;
 
     .line 2
     .line 3

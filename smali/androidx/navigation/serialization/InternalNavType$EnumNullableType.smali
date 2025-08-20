@@ -51,17 +51,20 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;-><init>(Ljava/lang/Class;)V
+    invoke-direct {p0, p1}, Landroidx/navigation/serialization/InternalNavType$SerializableNullableType;
+    -><init>(Ljava/lang/Class;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p1}, Ljava/lang/Class;->isEnum()Z
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->isEnum()Z
 
     .line 10
     .line 11
@@ -73,7 +76,9 @@
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;->type:Ljava/lang/Class;    return-void
+    iput-object p1, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    ->type:Ljava/lang/Class;    
+    return-void
 
     .line 18
     :cond_0
@@ -81,12 +86,14 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
@@ -95,12 +102,14 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -112,7 +121,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -120,7 +130,8 @@
     move-result-object p1
 
     .line 41
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -133,11 +144,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;->type:Ljava/lang/Class;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    ->type:Ljava/lang/Class;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -151,7 +164,8 @@
     .locals 0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;->parseValue(Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    ->parseValue(Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p1
 
@@ -170,12 +184,14 @@
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     const-string v0, "null"
 
-    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -187,13 +203,16 @@
 
     .line 2
     :cond_0
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;->type:Ljava/lang/Class;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    ->type:Ljava/lang/Class;
 
-    invoke-virtual {v0}, Ljava/lang/Class;->getEnumConstants()[Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getEnumConstants()[Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
     .line 3
     array-length v2, v0
@@ -210,15 +229,18 @@
     check-cast v5, Ljava/lang/Enum;
 
     .line 4
-    invoke-static {v5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+    invoke-static {v5}, Lkotlin/jvm/internal/j;
+    ->c(Ljava/lang/Object;)V
 
-    invoke-virtual {v5}, Ljava/lang/Enum;->name()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/Enum;
+    ->name()Ljava/lang/String;
 
     move-result-object v5
 
     const/4 v6, 0x1
 
-    invoke-static {v5, p1, v6}, Lx1/m;->i(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v5, p1, v6}, Lx1/m;
+    ->i(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v5
 
@@ -252,29 +274,36 @@
     const-string v2, " not found for type "
 
     .line 8
-    invoke-static {v1, p1, v2}, LA/d;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, LA/d;
+    ->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
     .line 9
-    iget-object v1, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;->type:Ljava/lang/Class;
+    iget-object v1, p0, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    ->type:Ljava/lang/Class;
 
-    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x2e
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
+    ->append(C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
     .line 10
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -283,7 +312,8 @@
     .locals 0
 
     .line 16
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;->parseValue(Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;
+    ->parseValue(Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p1
 

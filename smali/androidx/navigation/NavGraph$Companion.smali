@@ -19,7 +19,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -27,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavGraph$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavGraph$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -37,7 +39,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -55,16 +58,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/navigation/NavGraph$Companion$childHierarchy$1;->INSTANCE:Landroidx/navigation/NavGraph$Companion$childHierarchy$1;
+    sget-object v0, Landroidx/navigation/NavGraph$Companion$childHierarchy$1;
+    ->INSTANCE:Landroidx/navigation/NavGraph$Companion$childHierarchy$1;
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lw1/k;->X(Ljava/lang/Object;Lp1/l;)Lw1/h;
+    invoke-static {p1, v0}, Lw1/k;
+    ->X(Ljava/lang/Object;Lp1/l;)Lw1/h;
 
     .line 9
     .line 10
@@ -82,12 +88,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph$Companion;->childHierarchy(Landroidx/navigation/NavGraph;)Lw1/h;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph$Companion;
+    ->childHierarchy(Landroidx/navigation/NavGraph;)Lw1/h;
 
     .line 7
     .line 8
@@ -95,12 +103,14 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-interface {p1}, Lw1/h;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lw1/h;
+    ->iterator()Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -108,7 +118,8 @@
     move-result-object p1
 
     .line 17
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 18
     .line 19
@@ -120,7 +131,8 @@
 
     .line 22
     .line 23
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -129,7 +141,8 @@
 
     .line 27
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 28
     .line 29
@@ -141,7 +154,8 @@
 
     .line 32
     .line 33
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -165,7 +179,8 @@
 
     .line 44
     .line 45
-    invoke-direct {p1, v0}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/util/NoSuchElementException;
+    -><init>(Ljava/lang/String;)V
 
     .line 46
     .line 47

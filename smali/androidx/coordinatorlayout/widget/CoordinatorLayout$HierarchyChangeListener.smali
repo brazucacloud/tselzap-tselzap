@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iput-object p1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;
+    ->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +42,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iget-object v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;
+    ->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mOnHierarchyChangeListener:Landroid/view/ViewGroup$OnHierarchyChangeListener;
+    iget-object v0, v0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    ->mOnHierarchyChangeListener:Landroid/view/ViewGroup$OnHierarchyChangeListener;
 
     .line 4
     .line 5
@@ -52,7 +56,8 @@
 
     .line 6
     .line 7
-    invoke-interface {v0, p1, p2}, Landroid/view/ViewGroup$OnHierarchyChangeListener;->onChildViewAdded(Landroid/view/View;Landroid/view/View;)V
+    invoke-interface {v0, p1, p2}, Landroid/view/ViewGroup$OnHierarchyChangeListener;
+    ->onChildViewAdded(Landroid/view/View;Landroid/view/View;)V
 
     .line 8
     .line 9
@@ -65,23 +70,27 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iget-object v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;
+    ->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 2
     .line 3
     const/4 v1, 0x2
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->onChildViewsChanged(I)V
+    invoke-virtual {v0, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    ->onChildViewsChanged(I)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iget-object v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$HierarchyChangeListener;
+    ->this$0:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mOnHierarchyChangeListener:Landroid/view/ViewGroup$OnHierarchyChangeListener;
+    iget-object v0, v0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    ->mOnHierarchyChangeListener:Landroid/view/ViewGroup$OnHierarchyChangeListener;
 
     .line 10
     .line 11
@@ -89,7 +98,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Landroid/view/ViewGroup$OnHierarchyChangeListener;->onChildViewRemoved(Landroid/view/View;Landroid/view/View;)V
+    invoke-interface {v0, p1, p2}, Landroid/view/ViewGroup$OnHierarchyChangeListener;
+    ->onChildViewRemoved(Landroid/view/View;Landroid/view/View;)V
 
     .line 14
     .line 15

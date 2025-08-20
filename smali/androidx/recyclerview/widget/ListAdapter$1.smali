@@ -34,11 +34,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/ListAdapter$1;->this$0:Landroidx/recyclerview/widget/ListAdapter;
+    iput-object p1, p0, Landroidx/recyclerview/widget/ListAdapter$1;
+    ->this$0:Landroidx/recyclerview/widget/ListAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -65,11 +67,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ListAdapter$1;->this$0:Landroidx/recyclerview/widget/ListAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ListAdapter$1;
+    ->this$0:Landroidx/recyclerview/widget/ListAdapter;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/ListAdapter;->onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/ListAdapter;
+    ->onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V
 return-void
 .end method
 

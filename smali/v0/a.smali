@@ -14,13 +14,16 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lv0/a;->c:I
+    iput p2, p0, Lv0/a;
+    ->c:I
 
     const/16 p2, 0x1b
 
-    invoke-direct {p0, p2}, Lcom/bumptech/glide/b;-><init>(I)V
+    invoke-direct {p0, p2}, Lcom/bumptech/glide/b;
+    -><init>(I)V
 
-    iput-object p1, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iput-object p1, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     return-void
 .end method
@@ -31,7 +34,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -40,11 +44,13 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 7
     .line 8
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 9
     .line 10
@@ -52,18 +58,21 @@
 
     .line 11
     :pswitch_0
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 12
     .line 13
-    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->m:I
+    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->m:I
 
     .line 14
     .line 15
     neg-int v1, v1
 
     .line 16
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->p:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->p:I
 
     .line 17
     .line 18
@@ -86,7 +95,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -95,11 +105,13 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 7
     .line 8
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 9
     .line 10
@@ -107,11 +119,13 @@
 
     .line 11
     :pswitch_0
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 12
     .line 13
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->p:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->p:I
 
     .line 14
     .line 15
@@ -136,7 +150,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -145,7 +160,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Lv0/a;->z()I
+    invoke-virtual {p0}, Lv0/a;
+    ->z()I
 
     .line 7
     .line 8
@@ -156,11 +172,13 @@
 
     .line 11
     :pswitch_0
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 12
     .line 13
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->m:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->m:I
 
     .line 14
     .line 15
@@ -184,7 +202,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -193,7 +212,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 7
     .line 8
@@ -201,11 +221,13 @@
     move-result p1
 
     .line 10
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 11
     .line 12
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->p:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->p:I
 
     .line 13
     .line 14
@@ -215,7 +237,8 @@
 
     .line 16
     :pswitch_0
-    invoke-virtual {p1}, Landroid/view/View;->getRight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getRight()I
 
     .line 17
     .line 18
@@ -223,11 +246,13 @@
     move-result p1
 
     .line 20
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 21
     .line 22
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->p:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->p:I
 
     .line 23
     .line 24
@@ -249,7 +274,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -258,7 +284,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;->getRight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getRight()I
 
     .line 7
     .line 8
@@ -269,7 +296,8 @@
 
     .line 11
     :pswitch_0
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 12
     .line 13
@@ -302,7 +330,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -327,7 +356,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -376,7 +406,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -385,7 +416,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 7
     .line 8
@@ -393,15 +425,18 @@
     move-result p1
 
     .line 10
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 11
     .line 12
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Lv0/a;->z()I
+    invoke-virtual {p0}, Lv0/a;
+    ->z()I
 
     .line 15
     .line 16
@@ -435,7 +470,8 @@
 
     .line 27
     :pswitch_0
-    invoke-virtual {p1}, Landroid/view/View;->getRight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getRight()I
 
     .line 28
     .line 29
@@ -443,7 +479,8 @@
     move-result p1
 
     .line 31
-    invoke-virtual {p0}, Lv0/a;->z()I
+    invoke-virtual {p0}, Lv0/a;
+    ->z()I
 
     .line 32
     .line 33
@@ -451,7 +488,8 @@
     move-result v0
 
     .line 35
-    invoke-virtual {p0}, Lv0/a;->A()I
+    invoke-virtual {p0}, Lv0/a;
+    ->A()I
 
     .line 36
     .line 37
@@ -532,7 +570,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -541,7 +580,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 7
     .line 8
@@ -549,7 +589,8 @@
     move-result v0
 
     .line 10
-    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 11
     .line 12
@@ -565,7 +606,8 @@
 
     .line 17
     .line 18
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 19
     .line 20
@@ -603,7 +645,8 @@
 
     .line 33
     :pswitch_0
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 34
     .line 35
@@ -611,7 +654,8 @@
     move-result v0
 
     .line 37
-    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 38
     .line 39
@@ -627,7 +671,8 @@
 
     .line 44
     .line 45
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 46
     .line 47
@@ -854,7 +899,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -863,7 +909,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;->getRight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getRight()I
 
     .line 7
     .line 8
@@ -874,11 +921,13 @@
     int-to-float p1, p1
 
     .line 11
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 12
     .line 13
-    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->l:F
+    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->l:F
 
     .line 14
     .line 15
@@ -889,7 +938,8 @@
     add-float/2addr p2, p1
 
     .line 18
-    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 19
     .line 20
@@ -897,7 +947,8 @@
     move-result p1
 
     .line 22
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 23
     .line 24
@@ -929,7 +980,8 @@
 
     .line 35
     :pswitch_0
-    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getLeft()I
 
     .line 36
     .line 37
@@ -940,11 +992,13 @@
     int-to-float p1, p1
 
     .line 40
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 41
     .line 42
-    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->l:F
+    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->l:F
 
     .line 43
     .line 44
@@ -955,7 +1009,8 @@
     add-float/2addr p2, p1
 
     .line 47
-    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 48
     .line 49
@@ -963,7 +1018,8 @@
     move-result p1
 
     .line 51
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 52
     .line 53
@@ -1180,7 +1236,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -1189,7 +1246,8 @@
     .line 4
     .line 5
     .line 6
-    iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 7
     .line 8
@@ -1197,7 +1255,8 @@
 
     .line 9
     :pswitch_0
-    iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iput p2, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 10
     .line 11
@@ -1255,7 +1314,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -1264,11 +1324,13 @@
     .line 4
     .line 5
     .line 6
-    iget-object p3, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object p3, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 7
     .line 8
-    iget p3, p3, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget p3, p3, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 9
     .line 10
@@ -1279,7 +1341,8 @@
     sub-int/2addr p3, p2
 
     .line 13
-    iput p3, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iput p3, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 14
     .line 15
@@ -1288,11 +1351,13 @@
 
     .line 16
     :pswitch_0
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 17
     .line 18
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 19
     .line 20
@@ -1300,7 +1365,8 @@
 
     .line 21
     .line 22
-    iput p3, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iput p3, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 23
     .line 24
@@ -1410,7 +1476,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -1419,7 +1486,8 @@
     .line 4
     .line 5
     .line 6
-    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 7
     .line 8
@@ -1427,7 +1495,8 @@
 
     .line 9
     :pswitch_0
-    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 10
     .line 11
@@ -1461,7 +1530,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -1470,18 +1540,21 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 7
     .line 8
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 9
     .line 10
     int-to-float v0, v0
 
     .line 11
-    invoke-virtual {p0}, Lv0/a;->z()I
+    invoke-virtual {p0}, Lv0/a;
+    ->z()I
 
     .line 12
     .line 13
@@ -1508,7 +1581,8 @@
 
     .line 22
     :pswitch_0
-    invoke-virtual {p0}, Lv0/a;->A()I
+    invoke-virtual {p0}, Lv0/a;
+    ->A()I
 
     .line 23
     .line 24
@@ -1519,7 +1593,8 @@
     int-to-float v0, v0
 
     .line 27
-    invoke-virtual {p0}, Lv0/a;->z()I
+    invoke-virtual {p0}, Lv0/a;
+    ->z()I
 
     .line 28
     .line 29
@@ -1601,7 +1676,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -1610,7 +1686,8 @@
     .line 4
     .line 5
     .line 6
-    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->rightMargin:I
 
     .line 7
     .line 8
@@ -1618,7 +1695,8 @@
 
     .line 9
     :pswitch_0
-    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->leftMargin:I
 
     .line 10
     .line 11
@@ -1652,7 +1730,8 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lv0/a;->c:I
+    iget v0, p0, Lv0/a;
+    ->c:I
 
     .line 2
     .line 3
@@ -1661,22 +1740,26 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 7
     .line 8
-    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->n:I
+    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->n:I
 
     .line 9
     .line 10
-    iget v2, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->m:I
+    iget v2, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->m:I
 
     .line 11
     .line 12
     sub-int/2addr v1, v2
 
     .line 13
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->p:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->p:I
 
     .line 14
     .line 15
@@ -1686,7 +1769,8 @@
     const/4 v0, 0x0
 
     .line 17
-    invoke-static {v0, v1}, Ljava/lang/Math;->max(II)I
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 18
     .line 19
@@ -1697,15 +1781,18 @@
 
     .line 22
     :pswitch_0
-    iget-object v0, p0, Lv0/a;->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    iget-object v0, p0, Lv0/a;
+    ->d:Lcom/google/android/material/sidesheet/SideSheetBehavior;
 
     .line 23
     .line 24
-    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->o:I
+    iget v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->o:I
 
     .line 25
     .line 26
-    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->p:I
+    iget v0, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
+    ->p:I
 
     .line 27
     .line 28
@@ -1715,7 +1802,8 @@
     const/4 v0, 0x0
 
     .line 30
-    invoke-static {v0, v1}, Ljava/lang/Math;->max(II)I
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 31
     .line 32

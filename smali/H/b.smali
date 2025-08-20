@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    iput p3, p0, LH/b;->b:I
+    iput p3, p0, LH/b;
+    ->b:I
 
-    iput-object p1, p0, LH/b;->c:Lcom/fmark/tselzap/dialogs/HelpDialog;
+    iput-object p1, p0, LH/b;
+    ->c:Lcom/fmark/tselzap/dialogs/HelpDialog;
 
-    iput-object p2, p0, LH/b;->d:Lorg/json/JSONObject;
+    iput-object p2, p0, LH/b;
+    ->d:Lorg/json/JSONObject;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -35,24 +39,31 @@
     .locals 2
 
     .line 1
-    iget v0, p0, LH/b;->b:I
+    iget v0, p0, LH/b;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, LH/b;->c:Lcom/fmark/tselzap/dialogs/HelpDialog;
+    iget-object v0, p0, LH/b;
+    ->c:Lcom/fmark/tselzap/dialogs/HelpDialog;
 
-    iget-object v1, p0, LH/b;->d:Lorg/json/JSONObject;
+    iget-object v1, p0, LH/b;
+    ->d:Lorg/json/JSONObject;
 
-    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/dialogs/HelpDialog;->b(Lcom/fmark/tselzap/dialogs/HelpDialog;Lorg/json/JSONObject;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/dialogs/HelpDialog;
+    ->b(Lcom/fmark/tselzap/dialogs/HelpDialog;Lorg/json/JSONObject;Landroid/view/View;)V
 
     return-void
 
     :pswitch_0
-    iget-object v0, p0, LH/b;->c:Lcom/fmark/tselzap/dialogs/HelpDialog;
+    iget-object v0, p0, LH/b;
+    ->c:Lcom/fmark/tselzap/dialogs/HelpDialog;
 
-    iget-object v1, p0, LH/b;->d:Lorg/json/JSONObject;
+    iget-object v1, p0, LH/b;
+    ->d:Lorg/json/JSONObject;
 
-    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/dialogs/HelpDialog;->c(Lcom/fmark/tselzap/dialogs/HelpDialog;Lorg/json/JSONObject;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/fmark/tselzap/dialogs/HelpDialog;
+    ->c(Lcom/fmark/tselzap/dialogs/HelpDialog;Lorg/json/JSONObject;Landroid/view/View;)V
 
     return-void
 

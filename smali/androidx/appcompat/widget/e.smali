@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/appcompat/widget/e;->b:I
+    iput p2, p0, Landroidx/appcompat/widget/e;
+    ->b:I
 
-    iput-object p1, p0, Landroidx/appcompat/widget/e;->c:Landroidx/appcompat/widget/TooltipCompatHandler;
+    iput-object p1, p0, Landroidx/appcompat/widget/e;
+    ->c:Landroidx/appcompat/widget/TooltipCompatHandler;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,19 +34,24 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/widget/e;->b:I
+    iget v0, p0, Landroidx/appcompat/widget/e;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/appcompat/widget/e;->c:Landroidx/appcompat/widget/TooltipCompatHandler;
+    iget-object v0, p0, Landroidx/appcompat/widget/e;
+    ->c:Landroidx/appcompat/widget/TooltipCompatHandler;
 
-    invoke-virtual {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;
+    ->hide()V
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/appcompat/widget/e;->c:Landroidx/appcompat/widget/TooltipCompatHandler;
+    iget-object v0, p0, Landroidx/appcompat/widget/e;
+    ->c:Landroidx/appcompat/widget/TooltipCompatHandler;
 
-    invoke-static {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->a(Landroidx/appcompat/widget/TooltipCompatHandler;)V
+    invoke-static {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;
+    ->a(Landroidx/appcompat/widget/TooltipCompatHandler;)V
 return-void
 
     nop

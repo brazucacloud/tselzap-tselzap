@@ -30,7 +30,8 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -38,7 +39,8 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->spin:Z
+    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spin:Z
 
     .line 6
     .line 7
@@ -46,11 +48,13 @@
 
     .line 8
     .line 9
-    iput v1, p0, Lcom/developer/kalert/ProgressHelper;->spinSpeed:F
+    iput v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spinSpeed:F
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 12
     .line 13
@@ -58,11 +62,13 @@
     move-result-object v1
 
     .line 15
-    sget v2, Lcom/developer/kalert/R$dimen;->common_circle_width:I
+    sget v2, Lcom/developer/kalert/R$dimen;
+    ->common_circle_width:I
 
     .line 16
     .line 17
-    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;
+    ->getDimensionPixelSize(I)I
 
     .line 18
     .line 19
@@ -73,11 +79,13 @@
     add-int/2addr v1, v0
 
     .line 22
-    iput v1, p0, Lcom/developer/kalert/ProgressHelper;->barWidth:I
+    iput v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barWidth:I
 
     .line 23
     .line 24
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 25
     .line 26
@@ -89,7 +97,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 31
     .line 32
@@ -97,11 +106,13 @@
     move-result-object v0
 
     .line 34
-    sget v1, Lcom/developer/kalert/R$color;->success_stroke_color:I
+    sget v1, Lcom/developer/kalert/R$color;
+    ->success_stroke_color:I
 
     .line 35
     .line 36
-    invoke-virtual {p1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 37
     .line 38
@@ -109,7 +120,8 @@
     move-result-object v2
 
     .line 40
-    invoke-static {v0, v1, v2}, Landroidx/core/text/a;->b(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)I
+    invoke-static {v0, v1, v2}, Landroidx/core/text/a;
+    ->b(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)I
 
     .line 41
     .line 42
@@ -117,7 +129,8 @@
     move-result v0
 
     .line 44
-    iput v0, p0, Lcom/developer/kalert/ProgressHelper;->barColor:I
+    iput v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barColor:I
 
     .line 45
     .line 46
@@ -125,7 +138,8 @@
 
     .line 47
     :cond_0
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 48
     .line 49
@@ -133,11 +147,13 @@
     move-result-object v0
 
     .line 51
-    sget v1, Lcom/developer/kalert/R$color;->success_stroke_color:I
+    sget v1, Lcom/developer/kalert/R$color;
+    ->success_stroke_color:I
 
     .line 52
     .line 53
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;
+    ->getColor(I)I
 
     .line 54
     .line 55
@@ -145,7 +161,8 @@
     move-result v0
 
     .line 57
-    iput v0, p0, Lcom/developer/kalert/ProgressHelper;->barColor:I
+    iput v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barColor:I
 
     .line 58
     .line 59
@@ -153,15 +170,18 @@
     const/4 v0, 0x0
 
     .line 60
-    iput v0, p0, Lcom/developer/kalert/ProgressHelper;->rimWidth:I
+    iput v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimWidth:I
 
     .line 61
     .line 62
-    iput v0, p0, Lcom/developer/kalert/ProgressHelper;->rimColor:I
+    iput v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimColor:I
 
     .line 63
     .line 64
-    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->progress:Z
+    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progress:Z
 
     .line 65
     .line 66
@@ -169,11 +189,13 @@
 
     .line 67
     .line 68
-    iput v0, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iput v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 69
     .line 70
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getResources()Landroid/content/res/Resources;
 
     .line 71
     .line 72
@@ -181,11 +203,13 @@
     move-result-object p1
 
     .line 74
-    sget v0, Lcom/developer/kalert/R$dimen;->progress_circle_radius:I
+    sget v0, Lcom/developer/kalert/R$dimen;
+    ->progress_circle_radius:I
 
     .line 75
     .line 76
-    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;
+    ->getDimensionPixelOffset(I)I
 
     .line 77
     .line 78
@@ -193,7 +217,8 @@
     move-result p1
 
     .line 80
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->circleRadius:I
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->circleRadius:I
 
     .line 81
     .line 82
@@ -204,7 +229,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 2
     .line 3
@@ -212,7 +238,8 @@
 
     .line 4
     .line 5
-    iget-boolean v1, p0, Lcom/developer/kalert/ProgressHelper;->spin:Z
+    iget-boolean v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spin:Z
 
     .line 6
     .line 7
@@ -220,7 +247,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;->isSpinning()Z
+    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning()Z
 
     .line 10
     .line 11
@@ -232,11 +260,13 @@
 
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;->stopSpinning()V
+    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;
+    ->stopSpinning()V
 
     .line 18
     .line 19
@@ -245,7 +275,8 @@
 
     .line 21
     :cond_0
-    iget-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->spin:Z
+    iget-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spin:Z
 
     .line 22
     .line 23
@@ -253,11 +284,13 @@
 
     .line 24
     .line 25
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;->isSpinning()Z
+    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;
+    ->isSpinning()Z
 
     .line 28
     .line 29
@@ -269,26 +302,31 @@
 
     .line 32
     .line 33
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 34
     .line 35
-    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;->spin()V
+    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;
+    ->spin()V
 
     .line 36
     .line 37
     .line 38
     :cond_1
     :goto_0
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->spinSpeed:F
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spinSpeed:F
 
     .line 39
     .line 40
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getSpinSpeed()F
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getSpinSpeed()F
 
     .line 43
     .line 44
@@ -304,29 +342,35 @@
 
     .line 49
     .line 50
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 51
     .line 52
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->spinSpeed:F
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spinSpeed:F
 
     .line 53
     .line 54
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setSpinSpeed(F)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setSpinSpeed(F)V
 
     .line 55
     .line 56
     .line 57
     :cond_2
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->barWidth:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barWidth:I
 
     .line 58
     .line 59
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 60
     .line 61
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getBarWidth()I
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getBarWidth()I
 
     .line 62
     .line 63
@@ -338,29 +382,35 @@
 
     .line 66
     .line 67
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 68
     .line 69
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->barWidth:I
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barWidth:I
 
     .line 70
     .line 71
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setBarWidth(I)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setBarWidth(I)V
 
     .line 72
     .line 73
     .line 74
     :cond_3
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->barColor:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barColor:I
 
     .line 75
     .line 76
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 77
     .line 78
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getBarColor()I
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getBarColor()I
 
     .line 79
     .line 80
@@ -372,29 +422,35 @@
 
     .line 83
     .line 84
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 85
     .line 86
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->barColor:I
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barColor:I
 
     .line 87
     .line 88
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setBarColor(I)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setBarColor(I)V
 
     .line 89
     .line 90
     .line 91
     :cond_4
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->rimWidth:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimWidth:I
 
     .line 92
     .line 93
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 94
     .line 95
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getRimWidth()I
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getRimWidth()I
 
     .line 96
     .line 97
@@ -406,29 +462,35 @@
 
     .line 100
     .line 101
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 102
     .line 103
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->rimWidth:I
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimWidth:I
 
     .line 104
     .line 105
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setRimWidth(I)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setRimWidth(I)V
 
     .line 106
     .line 107
     .line 108
     :cond_5
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->rimColor:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimColor:I
 
     .line 109
     .line 110
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 111
     .line 112
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getRimColor()I
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getRimColor()I
 
     .line 113
     .line 114
@@ -440,29 +502,35 @@
 
     .line 117
     .line 118
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 119
     .line 120
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->rimColor:I
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimColor:I
 
     .line 121
     .line 122
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setRimColor(I)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setRimColor(I)V
 
     .line 123
     .line 124
     .line 125
     :cond_6
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 126
     .line 127
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 128
     .line 129
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getProgress()F
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getProgress()F
 
     .line 130
     .line 131
@@ -478,7 +546,8 @@
 
     .line 136
     .line 137
-    iget-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->progress:Z
+    iget-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progress:Z
 
     .line 138
     .line 139
@@ -486,15 +555,18 @@
 
     .line 140
     .line 141
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 142
     .line 143
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 144
     .line 145
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setInstantProgress(F)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setInstantProgress(F)V
 
     .line 146
     .line 147
@@ -503,30 +575,36 @@
 
     .line 149
     :cond_7
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 150
     .line 151
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 152
     .line 153
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setProgress(F)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setProgress(F)V
 
     .line 154
     .line 155
     .line 156
     :cond_8
     :goto_1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->circleRadius:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->circleRadius:I
 
     .line 157
     .line 158
-    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 159
     .line 160
-    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;->getCircleRadius()I
+    invoke-virtual {v1}, Lcom/developer/progressx/ProgressWheel;
+    ->getCircleRadius()I
 
     .line 161
     .line 162
@@ -538,15 +616,18 @@
 
     .line 165
     .line 166
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 167
     .line 168
-    iget v1, p0, Lcom/developer/kalert/ProgressHelper;->circleRadius:I
+    iget v1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->circleRadius:I
 
     .line 169
     .line 170
-    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;->setCircleRadius(I)V
+    invoke-virtual {v0, v1}, Lcom/developer/progressx/ProgressWheel;
+    ->setCircleRadius(I)V
 
     .line 171
     .line 172
@@ -561,7 +642,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->barColor:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barColor:I
 
     .line 2
     .line 3
@@ -572,7 +654,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->barWidth:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barWidth:I
 
     .line 2
     .line 3
@@ -583,7 +666,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->circleRadius:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->circleRadius:I
 
     .line 2
     .line 3
@@ -594,7 +678,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 2
     .line 3
@@ -605,7 +690,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 2
     .line 3
@@ -616,7 +702,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->rimColor:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimColor:I
 
     .line 2
     .line 3
@@ -627,7 +714,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->rimWidth:I
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimWidth:I
 
     .line 2
     .line 3
@@ -638,7 +726,8 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/developer/kalert/ProgressHelper;->spinSpeed:F
+    iget v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spinSpeed:F
 
     .line 2
     .line 3
@@ -649,7 +738,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->spin:Z
+    iget-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spin:Z
 
     .line 2
     .line 3
@@ -660,7 +750,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iget-object v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 2
     .line 3
@@ -668,7 +759,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;->resetCount()V
+    invoke-virtual {v0}, Lcom/developer/progressx/ProgressWheel;
+    ->resetCount()V
 
     .line 6
     .line 7
@@ -681,11 +773,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->barColor:I
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barColor:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -697,11 +791,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->barWidth:I
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->barWidth:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -713,11 +809,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->circleRadius:I
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->circleRadius:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -729,18 +827,21 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 2
     .line 3
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Lcom/developer/kalert/ProgressHelper;->progress:Z
+    iput-boolean p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progress:Z
 
     .line 5
     .line 6
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 7
     .line 8
@@ -755,15 +856,18 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->progress:Z
+    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progress:Z
 
     .line 3
     .line 4
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->progressValue:F
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressValue:F
 
     .line 5
     .line 6
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 7
     .line 8
@@ -775,11 +879,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/developer/kalert/ProgressHelper;->progressWheel:Lcom/developer/progressx/ProgressWheel;
+    iput-object p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->progressWheel:Lcom/developer/progressx/ProgressWheel;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -791,11 +897,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->rimColor:I
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimColor:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -807,11 +915,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->rimWidth:I
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->rimWidth:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -823,11 +933,13 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/developer/kalert/ProgressHelper;->spinSpeed:F
+    iput p1, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spinSpeed:F
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 4
     .line 5
@@ -842,11 +954,13 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->spin:Z
+    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spin:Z
 
     .line 3
     .line 4
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 5
     .line 6
@@ -861,11 +975,13 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;->spin:Z
+    iput-boolean v0, p0, Lcom/developer/kalert/ProgressHelper;
+    ->spin:Z
 
     .line 3
     .line 4
-    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;->updatePropsIfNeed()V
+    invoke-direct {p0}, Lcom/developer/kalert/ProgressHelper;
+    ->updatePropsIfNeed()V
 
     .line 5
     .line 6

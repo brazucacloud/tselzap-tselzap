@@ -12,14 +12,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhh;->zza:Lcom/google/android/gms/internal/measurement/zzhf;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhh;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzhf;
 
     .line 2
     .line 3
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
+    invoke-direct {p0, p1}, Landroid/database/ContentObserver;
+    -><init>(Landroid/os/Handler;)V
 
     .line 5
     .line 6
@@ -33,11 +35,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhh;->zza:Lcom/google/android/gms/internal/measurement/zzhf;
+    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhh;
+    ->zza:Lcom/google/android/gms/internal/measurement/zzhf;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zzhf;->zzc()V
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zzhf;
+    ->zzc()V
 
     .line 4
     .line 5

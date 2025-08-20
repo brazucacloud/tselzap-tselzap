@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lu0/a;->a:F
+    iput p1, p0, Lu0/a;
+    ->a:F
 
     .line 5
     .line 6
@@ -33,7 +35,8 @@
     .locals 0
 
     .line 1
-    iget p1, p0, Lu0/a;->a:F
+    iget p1, p0, Lu0/a;
+    ->a:F
 
     .line 2
     .line 3
@@ -74,11 +77,13 @@
 
     .line 12
     .line 13
-    iget v1, p0, Lu0/a;->a:F
+    iget v1, p0, Lu0/a;
+    ->a:F
 
     .line 14
     .line 15
-    iget p1, p1, Lu0/a;->a:F
+    iget p1, p1, Lu0/a;
+    ->a:F
 
     .line 16
     .line 17
@@ -101,11 +106,13 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lu0/a;->a:F
+    iget v0, p0, Lu0/a;
+    ->a:F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    invoke-static {v0}, Ljava/lang/Float;
+    ->valueOf(F)Ljava/lang/Float;
 
     .line 4
     .line 5
@@ -127,7 +134,8 @@
 
     .line 12
     .line 13
-    invoke-static {v1}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
+    invoke-static {v1}, Ljava/util/Arrays;
+    ->hashCode([Ljava/lang/Object;)I
 
     .line 14
     .line 15
@@ -145,16 +153,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget v1, p0, Lu0/a;->a:F
+    iget v1, p0, Lu0/a;
+    ->a:F
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
@@ -163,12 +174,14 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 17
     .line 18

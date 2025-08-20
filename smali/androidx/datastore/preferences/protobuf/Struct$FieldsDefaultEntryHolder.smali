@@ -32,15 +32,18 @@
     .locals 4
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->STRING:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    ->STRING:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    ->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 4
     .line 5
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Value;->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Value;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Value;
+    ->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Value;
 
     .line 6
     .line 7
@@ -52,7 +55,8 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v3, v1, v2}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->newDefaultInstance(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    invoke-static {v0, v3, v1, v2}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
+    ->newDefaultInstance(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapEntryLite;
 
     .line 12
     .line 13
@@ -60,14 +64,16 @@
     move-result-object v0
 
     .line 15
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Struct$FieldsDefaultEntryHolder;->defaultEntry:Landroidx/datastore/preferences/protobuf/MapEntryLite;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Struct$FieldsDefaultEntryHolder;
+    ->defaultEntry:Landroidx/datastore/preferences/protobuf/MapEntryLite;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

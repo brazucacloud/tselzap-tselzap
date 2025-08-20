@@ -92,12 +92,14 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -109,7 +111,8 @@
 
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mContext:Landroid/content/Context;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mContext:Landroid/content/Context;
 
     .line 11
     .line 12
@@ -117,7 +120,8 @@
 
     .line 13
     .line 14
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;
+    -><init>()V
 
     .line 15
     .line 16
@@ -126,7 +130,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 20
     .line 21
@@ -134,11 +139,13 @@
     move-result-object v0
 
     .line 23
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -150,7 +157,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 32
     .line 33
@@ -159,7 +167,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -167,7 +176,8 @@
     move-result-object v2
 
     .line 40
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 41
     .line 42
@@ -176,7 +186,8 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->addFlags(I)Landroid/content/Intent;
 
     .line 46
     .line 47
@@ -210,7 +221,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;
+    ->getBaseContext()Landroid/content/Context;
 
     .line 62
     .line 63
@@ -230,7 +242,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1}, Landroid/app/Activity;->getComponentName()Landroid/content/ComponentName;
+    invoke-virtual {p1}, Landroid/app/Activity;
+    ->getComponentName()Landroid/content/ComponentName;
 
     .line 70
     .line 71
@@ -238,7 +251,8 @@
     move-result-object p1
 
     .line 73
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 74
     .line 75
@@ -246,12 +260,14 @@
 
     .line 76
     .line 77
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 78
     .line 79
     .line 80
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 81
     .line 82
@@ -259,7 +275,8 @@
 
     .line 83
     .line 84
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 85
     .line 86
@@ -281,9 +298,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
-    invoke-virtual {v0, p1}, Landroid/content/Intent;->getStringArrayExtra(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/Intent;
+    ->getStringArrayExtra(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
@@ -301,7 +320,8 @@
 
     .line 3
     :goto_0
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result v3
 
@@ -310,22 +330,27 @@
     new-array v3, v3, [Ljava/lang/String;
 
     .line 4
-    invoke-virtual {p2, v3}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {p2, v3}, Ljava/util/ArrayList;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     if-eqz v0, :cond_1
 
     .line 5
-    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;
+    ->size()I
 
     move-result p2
 
-    invoke-static {v0, v1, v3, p2, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v1, v3, p2, v2}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 6
     :cond_1
-    iget-object p2, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object p2, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
-    invoke-virtual {p2, p1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {p2, p1, v3}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     return-void
 .end method
@@ -342,12 +367,14 @@
     .end param
 
     .line 7
-    invoke-virtual {p0}, Landroidx/core/app/ShareCompat$IntentBuilder;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0, p1}, Landroid/content/Intent;->getStringArrayExtra(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/Intent;
+    ->getStringArrayExtra(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
@@ -374,16 +401,19 @@
     if-eqz v1, :cond_1
 
     .line 11
-    invoke-static {v1, v2, v4, v2, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v1, v2, v4, v2, v3}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 12
     :cond_1
     array-length v1, p2
 
-    invoke-static {p2, v2, v4, v3, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p2, v2, v4, v3, v1}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 13
-    invoke-virtual {v0, p1, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, p1, v4}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     return-void
 .end method
@@ -405,7 +435,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/app/ShareCompat$IntentBuilder;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    -><init>(Landroid/content/Context;)V
 
     .line 4
     .line 5
@@ -425,22 +456,27 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mBccAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mBccAddresses:Ljava/util/ArrayList;
 
     if-nez v0, :cond_0
 
     .line 2
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mBccAddresses:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mBccAddresses:Ljava/util/ArrayList;
 
     .line 3
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mBccAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mBccAddresses:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-object p0
 .end method
 
@@ -456,7 +492,8 @@ return-object p0
     .line 4
     const-string v0, "android.intent.extra.BCC"
 
-    invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;->combineArrayExtra(Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->combineArrayExtra(Ljava/lang/String;[Ljava/lang/String;)V
 return-object p0
 .end method
 
@@ -470,22 +507,27 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mCcAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mCcAddresses:Ljava/util/ArrayList;
 
     if-nez v0, :cond_0
 
     .line 2
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mCcAddresses:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mCcAddresses:Ljava/util/ArrayList;
 
     .line 3
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mCcAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mCcAddresses:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-object p0
 .end method
 
@@ -501,7 +543,8 @@ return-object p0
     .line 4
     const-string v0, "android.intent.extra.CC"
 
-    invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;->combineArrayExtra(Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->combineArrayExtra(Ljava/lang/String;[Ljava/lang/String;)V
 return-object p0
 .end method
 
@@ -515,22 +558,27 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
     if-nez v0, :cond_0
 
     .line 2
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
     .line 3
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 return-object p0
 .end method
 
@@ -546,7 +594,8 @@ return-object p0
     .line 4
     const-string v0, "android.intent.extra.EMAIL"
 
-    invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;->combineArrayExtra(Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->combineArrayExtra(Ljava/lang/String;[Ljava/lang/String;)V
 return-object p0
 .end method
 
@@ -560,7 +609,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -572,21 +622,25 @@ return-object p0
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -600,7 +654,8 @@ return-object p0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/app/ShareCompat$IntentBuilder;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->getIntent()Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -608,11 +663,13 @@ return-object p0
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mChooserTitle:Ljava/lang/CharSequence;
+    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mChooserTitle:Ljava/lang/CharSequence;
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
+    invoke-static {v0, v1}, Landroid/content/Intent;
+    ->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     .line 8
     .line 9
@@ -628,7 +685,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
@@ -641,7 +699,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -656,17 +715,20 @@ return-object p0
 
     .line 7
     .line 8
-    invoke-direct {p0, v2, v0}, Landroidx/core/app/ShareCompat$IntentBuilder;->combineArrayExtra(Ljava/lang/String;Ljava/util/ArrayList;)V
+    invoke-direct {p0, v2, v0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->combineArrayExtra(Ljava/lang/String;Ljava/util/ArrayList;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iput-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mCcAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mCcAddresses:Ljava/util/ArrayList;
 
     .line 14
     .line 15
@@ -678,17 +740,20 @@ return-object p0
 
     .line 18
     .line 19
-    invoke-direct {p0, v2, v0}, Landroidx/core/app/ShareCompat$IntentBuilder;->combineArrayExtra(Ljava/lang/String;Ljava/util/ArrayList;)V
+    invoke-direct {p0, v2, v0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->combineArrayExtra(Ljava/lang/String;Ljava/util/ArrayList;)V
 
     .line 20
     .line 21
     .line 22
-    iput-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mCcAddresses:Ljava/util/ArrayList;
+    iput-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mCcAddresses:Ljava/util/ArrayList;
 
     .line 23
     .line 24
     :cond_1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mBccAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mBccAddresses:Ljava/util/ArrayList;
 
     .line 25
     .line 26
@@ -700,17 +765,20 @@ return-object p0
 
     .line 29
     .line 30
-    invoke-direct {p0, v2, v0}, Landroidx/core/app/ShareCompat$IntentBuilder;->combineArrayExtra(Ljava/lang/String;Ljava/util/ArrayList;)V
+    invoke-direct {p0, v2, v0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->combineArrayExtra(Ljava/lang/String;Ljava/util/ArrayList;)V
 
     .line 31
     .line 32
     .line 33
-    iput-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mBccAddresses:Ljava/util/ArrayList;
+    iput-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mBccAddresses:Ljava/util/ArrayList;
 
     .line 34
     .line 35
     :cond_2
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 36
     .line 37
@@ -722,7 +790,8 @@ return-object p0
 
     .line 40
     .line 41
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 42
     .line 43
@@ -737,7 +806,8 @@ return-object p0
 
     .line 47
     .line 48
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 49
     .line 50
@@ -745,33 +815,40 @@ return-object p0
 
     .line 51
     .line 52
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 53
     .line 54
     .line 55
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 56
     .line 57
-    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 58
     .line 59
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putParcelableArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
+    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;
+    ->putParcelableArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
 
     .line 60
     .line 61
     .line 62
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 63
     .line 64
-    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 65
     .line 66
-    invoke-static {v0, v1}, Landroidx/core/app/ShareCompat;->migrateExtraStreamToClipData(Landroid/content/Intent;Ljava/util/ArrayList;)V
+    invoke-static {v0, v1}, Landroidx/core/app/ShareCompat;
+    ->migrateExtraStreamToClipData(Landroid/content/Intent;Ljava/util/ArrayList;)V
 
     .line 67
     .line 68
@@ -780,7 +857,8 @@ return-object p0
 
     .line 70
     :cond_3
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 71
     .line 72
@@ -788,12 +866,14 @@ return-object p0
 
     .line 73
     .line 74
-    invoke-virtual {v0, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v3}, Landroid/content/Intent;
+    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 75
     .line 76
     .line 77
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 78
     .line 79
@@ -801,7 +881,8 @@ return-object p0
 
     .line 80
     .line 81
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 82
     .line 83
@@ -813,18 +894,21 @@ return-object p0
 
     .line 86
     .line 87
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 88
     .line 89
-    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 90
     .line 91
     const/4 v3, 0x0
 
     .line 92
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 93
     .line 94
@@ -836,20 +920,24 @@ return-object p0
 
     .line 97
     .line 98
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
+    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 99
     .line 100
     .line 101
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 102
     .line 103
-    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 104
     .line 105
-    invoke-static {v0, v1}, Landroidx/core/app/ShareCompat;->migrateExtraStreamToClipData(Landroid/content/Intent;Ljava/util/ArrayList;)V
+    invoke-static {v0, v1}, Landroidx/core/app/ShareCompat;
+    ->migrateExtraStreamToClipData(Landroid/content/Intent;Ljava/util/ArrayList;)V
 
     .line 106
     .line 107
@@ -858,29 +946,35 @@ return-object p0
 
     .line 109
     :cond_4
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 110
     .line 111
-    invoke-virtual {v0, v2}, Landroid/content/Intent;->removeExtra(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Landroid/content/Intent;
+    ->removeExtra(Ljava/lang/String;)V
 
     .line 112
     .line 113
     .line 114
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 115
     .line 116
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setClipData(Landroid/content/ClipData;)V
 
     .line 117
     .line 118
     .line 119
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 120
     .line 121
-    invoke-virtual {v0}, Landroid/content/Intent;->getFlags()I
+    invoke-virtual {v0}, Landroid/content/Intent;
+    ->getFlags()I
 
     .line 122
     .line 123
@@ -892,13 +986,15 @@ return-object p0
 
     .line 126
     .line 127
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->setFlags(I)Landroid/content/Intent;
 
     .line 128
     .line 129
     .line 130
     :goto_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 131
     .line 132
@@ -915,13 +1011,16 @@ return-object p0
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mContext:Landroid/content/Context;
 
-    invoke-virtual {v0, p1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v0, p1}, Landroid/content/Context;
+    ->getText(I)Ljava/lang/CharSequence;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;->setChooserTitle(Ljava/lang/CharSequence;)Landroidx/core/app/ShareCompat$IntentBuilder;
+    invoke-virtual {p0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->setChooserTitle(Ljava/lang/CharSequence;)Landroidx/core/app/ShareCompat$IntentBuilder;
 
     move-result-object p1
 
@@ -938,7 +1037,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mChooserTitle:Ljava/lang/CharSequence;
+    iput-object p1, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mChooserTitle:Ljava/lang/CharSequence;
 
     return-object p0
 .end method
@@ -953,7 +1053,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -961,7 +1062,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     .line 6
     .line 7
@@ -979,7 +1081,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -987,7 +1090,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     .line 6
     .line 7
@@ -1005,7 +1109,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -1016,12 +1121,14 @@ return-object p0
     const/4 v0, 0x0
 
     .line 6
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mToAddresses:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mToAddresses:Ljava/util/ArrayList;
 
     .line 7
     .line 8
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 9
     .line 10
@@ -1029,7 +1136,8 @@ return-object p0
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     .line 13
     .line 14
@@ -1047,7 +1155,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -1055,12 +1164,14 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 9
     .line 10
@@ -1068,7 +1179,8 @@ return-object p0
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Landroid/content/Intent;
+    ->hasExtra(Ljava/lang/String;)Z
 
     .line 13
     .line 14
@@ -1080,7 +1192,8 @@ return-object p0
 
     .line 17
     .line 18
-    invoke-static {p1}, Landroid/text/Html;->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
+    invoke-static {p1}, Landroid/text/Html;
+    ->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
 
     .line 19
     .line 20
@@ -1088,7 +1201,8 @@ return-object p0
     move-result-object p1
 
     .line 22
-    invoke-virtual {p0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;->setText(Ljava/lang/CharSequence;)Landroidx/core/app/ShareCompat$IntentBuilder;
+    invoke-virtual {p0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->setText(Ljava/lang/CharSequence;)Landroidx/core/app/ShareCompat$IntentBuilder;
 
     .line 23
     .line 24
@@ -1110,7 +1224,8 @@ return-object p0
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mStreams:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mStreams:Ljava/util/ArrayList;
 
     .line 3
     .line 4
@@ -1118,7 +1233,8 @@ return-object p0
 
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;->addStream(Landroid/net/Uri;)Landroidx/core/app/ShareCompat$IntentBuilder;
+    invoke-virtual {p0, p1}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->addStream(Landroid/net/Uri;)Landroidx/core/app/ShareCompat$IntentBuilder;
 
     .line 7
     .line 8
@@ -1137,7 +1253,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -1145,7 +1262,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 6
     .line 7
@@ -1163,7 +1281,8 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -1171,7 +1290,8 @@ return-object p0
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/CharSequence;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     .line 6
     .line 7
@@ -1189,11 +1309,13 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, p1}, Landroid/content/Intent;
+    ->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -1205,11 +1327,13 @@ return-object p0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/core/app/ShareCompat$IntentBuilder;->createChooserIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroidx/core/app/ShareCompat$IntentBuilder;
+    ->createChooserIntent()Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -1217,7 +1341,8 @@ return-object p0
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v0, v1}, Landroid/content/Context;
+    ->startActivity(Landroid/content/Intent;)V
 
     .line 8
     .line 9

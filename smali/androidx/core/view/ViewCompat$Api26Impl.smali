@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -51,7 +52,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->addKeyboardNavigationClusters(Ljava/util/Collection;I)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->addKeyboardNavigationClusters(Ljava/util/Collection;I)V
 
     .line 2
     .line 3
@@ -65,7 +67,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getAutofillId()Landroid/view/autofill/AutofillId;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getAutofillId()Landroid/view/autofill/AutofillId;
 
     .line 2
     .line 3
@@ -81,7 +84,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getImportantForAutofill()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getImportantForAutofill()I
 
     .line 2
     .line 3
@@ -101,7 +105,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getNextClusterForwardId()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getNextClusterForwardId()I
 
     .line 2
     .line 3
@@ -121,7 +126,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->hasExplicitFocusable()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->hasExplicitFocusable()Z
 
     .line 2
     .line 3
@@ -141,7 +147,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isFocusedByDefault()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isFocusedByDefault()Z
 
     .line 2
     .line 3
@@ -157,7 +164,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isImportantForAutofill()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isImportantForAutofill()Z
 
     .line 2
     .line 3
@@ -177,7 +185,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->isKeyboardNavigationCluster()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->isKeyboardNavigationCluster()Z
 
     .line 2
     .line 3
@@ -197,7 +206,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;->keyboardNavigationClusterSearch(Landroid/view/View;I)Landroid/view/View;
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;
+    ->keyboardNavigationClusterSearch(Landroid/view/View;I)Landroid/view/View;
 
     .line 2
     .line 3
@@ -217,7 +227,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->restoreDefaultFocus()Z
+    invoke-virtual {p0}, Landroid/view/View;
+    ->restoreDefaultFocus()Z
 
     .line 2
     .line 3
@@ -237,7 +248,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setAutofillHints([Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setAutofillHints([Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -255,7 +267,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setFocusedByDefault(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setFocusedByDefault(Z)V
 
     .line 2
     .line 3
@@ -269,7 +282,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setImportantForAutofill(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setImportantForAutofill(I)V
 
     .line 2
     .line 3
@@ -287,7 +301,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setKeyboardNavigationCluster(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setKeyboardNavigationCluster(Z)V
 
     .line 2
     .line 3
@@ -301,7 +316,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setNextClusterForwardId(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setNextClusterForwardId(I)V
 
     .line 2
     .line 3
@@ -319,7 +335,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;->setTooltipText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;
+    ->setTooltipText(Ljava/lang/CharSequence;)V
 
     .line 2
     .line 3

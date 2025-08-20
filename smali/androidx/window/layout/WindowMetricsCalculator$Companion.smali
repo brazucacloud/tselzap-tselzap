@@ -35,20 +35,24 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;-><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->$$INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    ->$$INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion;
 
     .line 7
     .line 8
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion$decorator$1;->INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion$decorator$1;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion$decorator$1;
+    ->INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion$decorator$1;
 
     .line 9
     .line 10
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lp1/l;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    ->decorator:Lp1/l;
 
     .line 11
     .line 12
@@ -59,7 +63,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -73,15 +78,18 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lp1/l;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    ->decorator:Lp1/l;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;->INSTANCE:Landroidx/window/layout/WindowMetricsCalculatorCompat;
+    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;
+    ->INSTANCE:Landroidx/window/layout/WindowMetricsCalculatorCompat;
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -100,7 +108,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->TESTS:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->TESTS:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -112,7 +121,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -121,12 +131,14 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p1}, Landroidx/window/layout/WindowMetricsCalculator$Companion$overrideDecorator$1;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/WindowMetricsCalculator$Companion$overrideDecorator$1;
+    -><init>(Ljava/lang/Object;)V
 
     .line 9
     .line 10
     .line 11
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lp1/l;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    ->decorator:Lp1/l;
 
     .line 12
     .line 13
@@ -137,7 +149,8 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->TESTS:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->TESTS:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -145,11 +158,13 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion$reset$1;->INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion$reset$1;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion$reset$1;
+    ->INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion$reset$1;
 
     .line 2
     .line 3
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lp1/l;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    ->decorator:Lp1/l;
 
     .line 4
     .line 5

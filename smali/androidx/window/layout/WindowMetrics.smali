@@ -12,20 +12,24 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->TESTS:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->TESTS:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     const-string v0, "bounds"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/window/core/Bounds;
 
-    invoke-direct {v0, p1}, Landroidx/window/core/Bounds;-><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v0, p1}, Landroidx/window/core/Bounds;
+    -><init>(Landroid/graphics/Rect;)V
 
-    invoke-direct {p0, v0}, Landroidx/window/layout/WindowMetrics;-><init>(Landroidx/window/core/Bounds;)V
+    invoke-direct {p0, v0}, Landroidx/window/layout/WindowMetrics;
+    -><init>(Landroidx/window/core/Bounds;)V
 return-void
 .end method
 
@@ -34,12 +38,15 @@ return-void
 
     const-string v0, "_bounds"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/window/layout/WindowMetrics;->_bounds:Landroidx/window/core/Bounds;
+    iput-object p1, p0, Landroidx/window/layout/WindowMetrics;
+    ->_bounds:Landroidx/window/core/Bounds;
 
     return-void
 .end method
@@ -64,7 +71,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 8
     .line 9
@@ -76,7 +84,8 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -96,15 +105,18 @@ return-void
 
     .line 21
     .line 22
-    iget-object v0, p0, Landroidx/window/layout/WindowMetrics;->_bounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/WindowMetrics;
+    ->_bounds:Landroidx/window/core/Bounds;
 
     .line 23
     .line 24
-    iget-object p1, p1, Landroidx/window/layout/WindowMetrics;->_bounds:Landroidx/window/core/Bounds;
+    iget-object p1, p1, Landroidx/window/layout/WindowMetrics;
+    ->_bounds:Landroidx/window/core/Bounds;
 
     .line 25
     .line 26
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -125,11 +137,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/WindowMetrics;->_bounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/WindowMetrics;
+    ->_bounds:Landroidx/window/core/Bounds;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->toRect()Landroid/graphics/Rect;
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->toRect()Landroid/graphics/Rect;
 
     .line 4
     .line 5
@@ -143,11 +157,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/WindowMetrics;->_bounds:Landroidx/window/core/Bounds;
+    iget-object v0, p0, Landroidx/window/layout/WindowMetrics;
+    ->_bounds:Landroidx/window/core/Bounds;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/core/Bounds;->hashCode()I
+    invoke-virtual {v0}, Landroidx/window/core/Bounds;
+    ->hashCode()I
 
     .line 4
     .line 5
@@ -169,12 +185,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/window/layout/WindowMetrics;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroidx/window/layout/WindowMetrics;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 9
     .line 10
@@ -182,7 +200,8 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -191,12 +210,14 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 21
     .line 22

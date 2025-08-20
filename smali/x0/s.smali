@@ -12,11 +12,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lx0/s;->a:Lx0/t;
+    iput-object p1, p0, Lx0/s;
+    ->a:Lx0/t;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/view/View$AccessibilityDelegate;-><init>()V
+    invoke-direct {p0}, Landroid/view/View$AccessibilityDelegate;
+    -><init>()V
 
     .line 4
     .line 5
@@ -30,20 +32,24 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-super {p0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Lx0/s;->a:Lx0/t;
+    iget-object p1, p0, Lx0/s;
+    ->a:Lx0/t;
 
     .line 5
     .line 6
-    iget-object p1, p1, Lx0/t;->h:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object p1, p1, Lx0/t;
+    ->h:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;->getEditText()Landroid/widget/EditText;
+    invoke-virtual {p1}, Lcom/google/android/material/textfield/TextInputLayout;
+    ->getEditText()Landroid/widget/EditText;
 
     .line 9
     .line 10
@@ -55,7 +61,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setLabeledBy(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setLabeledBy(Landroid/view/View;)V
 
     .line 15
     .line 16

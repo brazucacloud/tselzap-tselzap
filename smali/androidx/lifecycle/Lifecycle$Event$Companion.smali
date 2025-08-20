@@ -25,7 +25,8 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -33,7 +34,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/Lifecycle$Event$Companion;-><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/Lifecycle$Event$Companion;
+    -><init>()V
     return-void
 .end method
 
@@ -47,16 +49,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 9
     .line 10
@@ -95,15 +100,18 @@
 
     .line 25
     :cond_0
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 28
     :cond_1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 31
     :cond_2
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 .end method
 
 .method public final downTo(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
@@ -114,16 +122,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 9
     .line 10
@@ -162,15 +173,18 @@
 
     .line 25
     :cond_0
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 28
     :cond_1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 31
     :cond_2
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 .end method
 
 .method public final upFrom(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
@@ -181,16 +195,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 9
     .line 10
@@ -229,15 +246,18 @@
 
     .line 25
     :cond_0
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 28
     :cond_1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 31
     :cond_2
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_START:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 .end method
 
 .method public final upTo(Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$Event;
@@ -248,16 +268,19 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event$Companion$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     .line 9
     .line 10
@@ -296,15 +319,18 @@
 
     .line 25
     :cond_0
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 28
     :cond_1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_START:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 
     .line 31
     :cond_2
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
+    ->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 .end method
 
 .end class

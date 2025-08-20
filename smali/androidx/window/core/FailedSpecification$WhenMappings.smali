@@ -22,7 +22,8 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Landroidx/window/core/SpecificationComputer$VerificationMode;->values()[Landroidx/window/core/SpecificationComputer$VerificationMode;
+    invoke-static {}, Landroidx/window/core/SpecificationComputer$VerificationMode;
+    ->values()[Landroidx/window/core/SpecificationComputer$VerificationMode;
 
     move-result-object v0
 
@@ -30,9 +31,11 @@
 
     new-array v0, v0, [I
 
-    sget-object v1, Landroidx/window/core/SpecificationComputer$VerificationMode;->STRICT:Landroidx/window/core/SpecificationComputer$VerificationMode;
+    sget-object v1, Landroidx/window/core/SpecificationComputer$VerificationMode;
+    ->STRICT:Landroidx/window/core/SpecificationComputer$VerificationMode;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -40,9 +43,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/window/core/SpecificationComputer$VerificationMode;->LOG:Landroidx/window/core/SpecificationComputer$VerificationMode;
+    sget-object v1, Landroidx/window/core/SpecificationComputer$VerificationMode;
+    ->LOG:Landroidx/window/core/SpecificationComputer$VerificationMode;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -50,9 +55,11 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Landroidx/window/core/SpecificationComputer$VerificationMode;->QUIET:Landroidx/window/core/SpecificationComputer$VerificationMode;
+    sget-object v1, Landroidx/window/core/SpecificationComputer$VerificationMode;
+    ->QUIET:Landroidx/window/core/SpecificationComputer$VerificationMode;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;
+    ->ordinal()I
 
     move-result v1
 
@@ -60,7 +67,8 @@
 
     aput v2, v0, v1
 
-    sput-object v0, Landroidx/window/core/FailedSpecification$WhenMappings;->$EnumSwitchMapping$0:[I
+    sput-object v0, Landroidx/window/core/FailedSpecification$WhenMappings;
+    ->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

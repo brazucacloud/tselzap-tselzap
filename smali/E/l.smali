@@ -12,7 +12,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, p1}, Ljava/io/FilterInputStream;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 2
     .line 3
@@ -21,7 +22,8 @@
 
     .line 5
     .line 6
-    iput p1, p0, LE/l;->b:I
+    iput p1, p0, LE/l;
+    ->b:I
 
     .line 7
     .line 8
@@ -34,7 +36,8 @@
     .locals 4
 
     .line 1
-    iget v0, p0, LE/l;->b:I
+    iget v0, p0, LE/l;
+    ->b:I
 
     .line 2
     .line 3
@@ -80,7 +83,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, LE/l;->b:I
+    iget v0, p0, LE/l;
+    ->b:I
 
     .line 2
     .line 3
@@ -92,7 +96,8 @@
 
     .line 6
     .line 7
-    invoke-super {p0}, Ljava/io/FilterInputStream;->available()I
+    invoke-super {p0}, Ljava/io/FilterInputStream;
+    ->available()I
 
     .line 8
     .line 9
@@ -103,7 +108,8 @@
 
     .line 12
     :cond_0
-    invoke-super {p0}, Ljava/io/FilterInputStream;->available()I
+    invoke-super {p0}, Ljava/io/FilterInputStream;
+    ->available()I
 
     .line 13
     .line 14
@@ -111,7 +117,8 @@
     move-result v1
 
     .line 16
-    invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
+    invoke-static {v0, v1}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 17
     .line 18
@@ -125,7 +132,8 @@
     .locals 4
 
     .line 1
-    iget v0, p0, LE/l;->b:I
+    iget v0, p0, LE/l;
+    ->b:I
 
     .line 2
     .line 3
@@ -158,7 +166,8 @@
     long-to-int p1, v0
 
     .line 16
-    iput p1, p0, LE/l;->b:I
+    iput p1, p0, LE/l;
+    ->b:I
 
     .line 17
     .line 18
@@ -174,12 +183,14 @@
 
     .line 2
     :try_start_0
-    invoke-super {p0, p1}, Ljava/io/FilterInputStream;->mark(I)V
+    invoke-super {p0, p1}, Ljava/io/FilterInputStream;
+    ->mark(I)V
 
     .line 3
     .line 4
     .line 5
-    iput p1, p0, LE/l;->b:I
+    iput p1, p0, LE/l;
+    ->b:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -225,7 +236,8 @@
     const-wide/16 v0, 0x1
 
     .line 1
-    invoke-virtual {p0, v0, v1}, LE/l;->a(J)J
+    invoke-virtual {p0, v0, v1}, LE/l;
+    ->a(J)J
 
     move-result-wide v2
 
@@ -241,12 +253,14 @@
 
     .line 2
     :cond_0
-    invoke-super {p0}, Ljava/io/FilterInputStream;->read()I
+    invoke-super {p0}, Ljava/io/FilterInputStream;
+    ->read()I
 
     move-result v2
 
     .line 3
-    invoke-virtual {p0, v0, v1}, LE/l;->c(J)V
+    invoke-virtual {p0, v0, v1}, LE/l;
+    ->c(J)V
 
     return v2
 .end method
@@ -257,7 +271,8 @@
     int-to-long v0, p3
 
     .line 4
-    invoke-virtual {p0, v0, v1}, LE/l;->a(J)J
+    invoke-virtual {p0, v0, v1}, LE/l;
+    ->a(J)J
 
     move-result-wide v0
 
@@ -271,14 +286,16 @@
 
     .line 5
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Ljava/io/FilterInputStream;->read([BII)I
+    invoke-super {p0, p1, p2, p3}, Ljava/io/FilterInputStream;
+    ->read([BII)I
 
     move-result p1
 
     int-to-long p2, p1
 
     .line 6
-    invoke-virtual {p0, p2, p3}, LE/l;->c(J)V
+    invoke-virtual {p0, p2, p3}, LE/l;
+    ->c(J)V
 
     return p1
 .end method
@@ -291,7 +308,8 @@
 
     .line 2
     :try_start_0
-    invoke-super {p0}, Ljava/io/FilterInputStream;->reset()V
+    invoke-super {p0}, Ljava/io/FilterInputStream;
+    ->reset()V
 
     .line 3
     .line 4
@@ -300,7 +318,8 @@
 
     .line 6
     .line 7
-    iput v0, p0, LE/l;->b:I
+    iput v0, p0, LE/l;
+    ->b:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -337,7 +356,8 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1, p2}, LE/l;->a(J)J
+    invoke-virtual {p0, p1, p2}, LE/l;
+    ->a(J)J
 
     .line 2
     .line 3
@@ -365,7 +385,8 @@
 
     .line 14
     :cond_0
-    invoke-super {p0, p1, p2}, Ljava/io/FilterInputStream;->skip(J)J
+    invoke-super {p0, p1, p2}, Ljava/io/FilterInputStream;
+    ->skip(J)J
 
     .line 15
     .line 16
@@ -373,7 +394,8 @@
     move-result-wide p1
 
     .line 18
-    invoke-virtual {p0, p1, p2}, LE/l;->c(J)V
+    invoke-virtual {p0, p1, p2}, LE/l;
+    ->c(J)V
 
     .line 19
     .line 20

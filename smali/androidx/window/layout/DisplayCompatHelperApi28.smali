@@ -19,9 +19,11 @@
 
     new-instance v0, Landroidx/window/layout/DisplayCompatHelperApi28;
 
-    invoke-direct {v0}, Landroidx/window/layout/DisplayCompatHelperApi28;-><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/DisplayCompatHelperApi28;
+    -><init>()V
 
-    sput-object v0, Landroidx/window/layout/DisplayCompatHelperApi28;->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi28;
+    sput-object v0, Landroidx/window/layout/DisplayCompatHelperApi28;
+    ->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi28;
 
     return-void
 .end method
@@ -30,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -48,12 +51,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;->x(Landroid/view/DisplayCutout;)I
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;
+    ->x(Landroid/view/DisplayCutout;)I
 
     .line 7
     .line 8
@@ -71,12 +76,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;->B(Landroid/view/DisplayCutout;)I
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;
+    ->B(Landroid/view/DisplayCutout;)I
 
     .line 7
     .line 8
@@ -94,12 +101,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;->a(Landroid/view/DisplayCutout;)I
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;
+    ->a(Landroid/view/DisplayCutout;)I
 
     .line 7
     .line 8
@@ -117,12 +126,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;->D(Landroid/view/DisplayCutout;)I
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;
+    ->D(Landroid/view/DisplayCutout;)I
 
     .line 7
     .line 8

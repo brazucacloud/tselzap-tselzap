@@ -10,7 +10,8 @@
     .line 1
     const/16 v0, 0x1f
 
-    invoke-static {v0}, Landroid/os/ext/SdkExtensions;->getExtensionVersion(I)I
+    invoke-static {v0}, Landroid/os/ext/SdkExtensions;
+    ->getExtensionVersion(I)I
 
     move-result v0
 
@@ -21,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getReason()I
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getReason()I
 
     move-result p0
 
@@ -32,7 +34,8 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getTimestamp()J
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getTimestamp()J
 
     move-result-wide v0
 
@@ -52,7 +55,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/WindowMetrics;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/view/WindowMetrics;
+    ->getBounds()Landroid/graphics/Rect;
 
     move-result-object p0
 
@@ -63,7 +67,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowManager;->getMaximumWindowMetrics()Landroid/view/WindowMetrics;
+    invoke-interface {p0}, Landroid/view/WindowManager;
+    ->getMaximumWindowMetrics()Landroid/view/WindowMetrics;
 
     move-result-object p0
 
@@ -74,7 +79,8 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_PRESS_AND_HOLD:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    ->ACTION_PRESS_AND_HOLD:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -83,7 +89,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getTraceInputStream()Ljava/io/InputStream;
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getTraceInputStream()Ljava/io/InputStream;
 
     move-result-object p0
 
@@ -94,7 +101,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->toString()Ljava/lang/String;
 
     move-result-object p0
 
@@ -105,7 +113,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;->getAttributionTag()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;
+    ->getAttributionTag()Ljava/lang/String;
 
     move-result-object p0
 
@@ -120,7 +129,8 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1, v1}, Landroid/app/ActivityManager;->getHistoricalProcessExitReasons(Ljava/lang/String;II)Ljava/util/List;
+    invoke-virtual {p0, v0, v1, v1}, Landroid/app/ActivityManager;
+    ->getHistoricalProcessExitReasons(Ljava/lang/String;II)Ljava/util/List;
 
     move-result-object p0
 
@@ -131,7 +141,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/Outline;->setPath(Landroid/graphics/Path;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/Outline;
+    ->setPath(Landroid/graphics/Path;)V
 return-void
 .end method
 
@@ -141,7 +152,8 @@ return-void
     .line 1
     const/16 v0, 0x8
 
-    invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;->setSystemBarsAppearance(II)V
+    invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;
+    ->setSystemBarsAppearance(II)V
 return-void
 .end method
 
@@ -149,7 +161,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/os/Environment;->isExternalStorageManager()Z
+    invoke-static {}, Landroid/os/Environment;
+    ->isExternalStorageManager()Z
 
     move-result v0
 
@@ -160,7 +173,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/SparseArray;->contains(I)Z
+    invoke-virtual {p0, p1}, Landroid/util/SparseArray;
+    ->contains(I)Z
 
     move-result p0
 
@@ -173,7 +187,8 @@ return-void
     .line 1
     const v0, 0xf4240
 
-    invoke-static {v0}, Landroid/os/ext/SdkExtensions;->getExtensionVersion(I)I
+    invoke-static {v0}, Landroid/os/ext/SdkExtensions;
+    ->getExtensionVersion(I)I
 
     move-result v0
 
@@ -184,7 +199,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getImportance()I
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getImportance()I
 
     move-result p0
 
@@ -195,7 +211,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getPss()J
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getPss()J
 
     move-result-wide v0
 
@@ -206,7 +223,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0}, Landroid/view/WindowManager;->getCurrentWindowMetrics()Landroid/view/WindowMetrics;
+    invoke-interface {p0}, Landroid/view/WindowManager;
+    ->getCurrentWindowMetrics()Landroid/view/WindowMetrics;
 
     move-result-object p0
 
@@ -217,7 +235,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_IME_ENTER:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    ->ACTION_IME_ENTER:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -226,7 +245,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getProcessName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getProcessName()Ljava/lang/String;
 
     move-result-object p0
 
@@ -239,7 +259,8 @@ return-void
     .line 1
     const/16 v0, 0x1e
 
-    invoke-static {v0}, Landroid/os/ext/SdkExtensions;->getExtensionVersion(I)I
+    invoke-static {v0}, Landroid/os/ext/SdkExtensions;
+    ->getExtensionVersion(I)I
 
     move-result v0
 
@@ -250,7 +271,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getPid()I
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getPid()I
 
     move-result p0
 
@@ -261,7 +283,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;->getRss()J
+    invoke-virtual {p0}, Landroid/app/ApplicationExitInfo;
+    ->getRss()J
 
     move-result-wide v0
 

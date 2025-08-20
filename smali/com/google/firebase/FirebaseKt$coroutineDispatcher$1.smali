@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/firebase/FirebaseKt;->coroutineDispatcher()Lcom/google/firebase/components/Component;
+    value = Lcom/google/firebase/FirebaseKt;
+    ->coroutineDispatcher()Lcom/google/firebase/components/Component;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -44,9 +45,11 @@
 
     new-instance v0, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;
 
-    invoke-direct {v0}, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;-><init>()V
+    invoke-direct {v0}, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;
+    -><init>()V
 
-    sput-object v0, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;->INSTANCE:Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;
+    sput-object v0, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;
+    ->INSTANCE:Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;
 
     return-void
 .end method
@@ -54,7 +57,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -64,7 +68,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;->create(Lcom/google/firebase/components/ComponentContainer;)Lz1/t;
+    invoke-virtual {p0, p1}, Lcom/google/firebase/FirebaseKt$coroutineDispatcher$1;
+    ->create(Lcom/google/firebase/components/ComponentContainer;)Lz1/t;
 
     move-result-object p1
 
@@ -75,7 +80,8 @@
     .locals 0
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p1, 0x0
 

@@ -108,12 +108,14 @@
     :cond_0
     const-string v1, ""
 
-    invoke-static {v0, v1, p1}, Landroidx/core/graphics/drawable/IconCompat;->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {v0, v1, p1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
 
     move-result-object v0
 
     :goto_0
-    invoke-direct {p0, v0, p2, p3}, Landroidx/core/app/NotificationCompat$Action;-><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
+    invoke-direct {p0, v0, p2, p3}, Landroidx/core/app/NotificationCompat$Action;
+    -><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
 return-void
 .end method
 
@@ -175,14 +177,16 @@ return-void
     :cond_0
     const-string v1, ""
 
-    invoke-static {v0, v1, p1}, Landroidx/core/graphics/drawable/IconCompat;->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {v0, v1, p1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
 
     move-result-object v0
 
     goto :goto_0
 
     :goto_1
-    invoke-direct/range {v1 .. v12}, Landroidx/core/app/NotificationCompat$Action;-><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
+    invoke-direct/range {v1 .. v12}, Landroidx/core/app/NotificationCompat$Action;
+    -><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
 return-void
 .end method
 
@@ -204,7 +208,8 @@ return-void
     .line 2
     new-instance v4, Landroid/os/Bundle;
 
-    invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {v4}, Landroid/os/Bundle;
+    -><init>()V
 
     const/4 v10, 0x0
 
@@ -228,7 +233,8 @@ return-void
 
     move-object v3, p3
 
-    invoke-direct/range {v0 .. v11}, Landroidx/core/app/NotificationCompat$Action;-><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
+    invoke-direct/range {v0 .. v11}, Landroidx/core/app/NotificationCompat$Action;
+    -><init>(Landroidx/core/graphics/drawable/IconCompat;Ljava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
 return-void
 .end method
 
@@ -260,20 +266,24 @@ return-void
     .end param
 
     .line 4
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;->mShowsUserInterface:Z
+    iput-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mShowsUserInterface:Z
 
     .line 6
-    iput-object p1, p0, Landroidx/core/app/NotificationCompat$Action;->mIcon:Landroidx/core/graphics/drawable/IconCompat;
+    iput-object p1, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mIcon:Landroidx/core/graphics/drawable/IconCompat;
 
     if-eqz p1, :cond_0
 
     .line 7
-    invoke-virtual {p1}, Landroidx/core/graphics/drawable/IconCompat;->getType()I
+    invoke-virtual {p1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getType()I
 
     move-result v0
 
@@ -282,22 +292,27 @@ return-void
     if-ne v0, v1, :cond_0
 
     .line 8
-    invoke-virtual {p1}, Landroidx/core/graphics/drawable/IconCompat;->getResId()I
+    invoke-virtual {p1}, Landroidx/core/graphics/drawable/IconCompat;
+    ->getResId()I
 
     move-result p1
 
-    iput p1, p0, Landroidx/core/app/NotificationCompat$Action;->icon:I
+    iput p1, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->icon:I
 
     .line 9
     :cond_0
-    invoke-static {p2}, Landroidx/core/app/NotificationCompat$Builder;->limitCharSequenceLength(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-static {p2}, Landroidx/core/app/NotificationCompat$Builder;
+    ->limitCharSequenceLength(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/app/NotificationCompat$Action;->title:Ljava/lang/CharSequence;
+    iput-object p1, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->title:Ljava/lang/CharSequence;
 
     .line 10
-    iput-object p3, p0, Landroidx/core/app/NotificationCompat$Action;->actionIntent:Landroid/app/PendingIntent;
+    iput-object p3, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->actionIntent:Landroid/app/PendingIntent;
 
     if-eqz p4, :cond_1
 
@@ -307,31 +322,40 @@ return-void
     :cond_1
     new-instance p4, Landroid/os/Bundle;
 
-    invoke-direct {p4}, Landroid/os/Bundle;-><init>()V
+    invoke-direct {p4}, Landroid/os/Bundle;
+    -><init>()V
 
     :goto_0
-    iput-object p4, p0, Landroidx/core/app/NotificationCompat$Action;->mExtras:Landroid/os/Bundle;
+    iput-object p4, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mExtras:Landroid/os/Bundle;
 
     .line 12
-    iput-object p5, p0, Landroidx/core/app/NotificationCompat$Action;->mRemoteInputs:[Landroidx/core/app/RemoteInput;
+    iput-object p5, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mRemoteInputs:[Landroidx/core/app/RemoteInput;
 
     .line 13
-    iput-object p6, p0, Landroidx/core/app/NotificationCompat$Action;->mDataOnlyRemoteInputs:[Landroidx/core/app/RemoteInput;
+    iput-object p6, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mDataOnlyRemoteInputs:[Landroidx/core/app/RemoteInput;
 
     .line 14
-    iput-boolean p7, p0, Landroidx/core/app/NotificationCompat$Action;->mAllowGeneratedReplies:Z
+    iput-boolean p7, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mAllowGeneratedReplies:Z
 
     .line 15
-    iput p8, p0, Landroidx/core/app/NotificationCompat$Action;->mSemanticAction:I
+    iput p8, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mSemanticAction:I
 
     .line 16
-    iput-boolean p9, p0, Landroidx/core/app/NotificationCompat$Action;->mShowsUserInterface:Z
+    iput-boolean p9, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mShowsUserInterface:Z
 
     .line 17
-    iput-boolean p10, p0, Landroidx/core/app/NotificationCompat$Action;->mIsContextual:Z
+    iput-boolean p10, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mIsContextual:Z
 
     .line 18
-    iput-boolean p11, p0, Landroidx/core/app/NotificationCompat$Action;->mAuthenticationRequired:Z
+    iput-boolean p11, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mAuthenticationRequired:Z
 return-void
 .end method
 
@@ -343,7 +367,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->actionIntent:Landroid/app/PendingIntent;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->actionIntent:Landroid/app/PendingIntent;
 
     .line 2
     .line 3
@@ -354,7 +379,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;->mAllowGeneratedReplies:Z
+    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mAllowGeneratedReplies:Z
 
     .line 2
     .line 3
@@ -367,7 +393,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->mDataOnlyRemoteInputs:[Landroidx/core/app/RemoteInput;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mDataOnlyRemoteInputs:[Landroidx/core/app/RemoteInput;
 
     .line 2
     .line 3
@@ -380,7 +407,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->mExtras:Landroid/os/Bundle;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mExtras:Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -393,7 +421,8 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/app/NotificationCompat$Action;->icon:I
+    iget v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->icon:I
 
     .line 2
     .line 3
@@ -406,7 +435,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->mIcon:Landroidx/core/graphics/drawable/IconCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mIcon:Landroidx/core/graphics/drawable/IconCompat;
 
     .line 2
     .line 3
@@ -414,7 +444,8 @@ return-void
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/core/app/NotificationCompat$Action;->icon:I
+    iget v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->icon:I
 
     .line 6
     .line 7
@@ -429,7 +460,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-static {v1, v2, v0}, Landroidx/core/graphics/drawable/IconCompat;->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
+    invoke-static {v1, v2, v0}, Landroidx/core/graphics/drawable/IconCompat;
+    ->createWithResource(Landroid/content/res/Resources;Ljava/lang/String;I)Landroidx/core/graphics/drawable/IconCompat;
 
     .line 13
     .line 14
@@ -437,12 +469,14 @@ return-void
     move-result-object v0
 
     .line 16
-    iput-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->mIcon:Landroidx/core/graphics/drawable/IconCompat;
+    iput-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mIcon:Landroidx/core/graphics/drawable/IconCompat;
 
     .line 17
     .line 18
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->mIcon:Landroidx/core/graphics/drawable/IconCompat;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mIcon:Landroidx/core/graphics/drawable/IconCompat;
 
     .line 19
     .line 20
@@ -455,7 +489,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->mRemoteInputs:[Landroidx/core/app/RemoteInput;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mRemoteInputs:[Landroidx/core/app/RemoteInput;
 
     .line 2
     .line 3
@@ -466,7 +501,8 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/app/NotificationCompat$Action;->mSemanticAction:I
+    iget v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mSemanticAction:I
 
     .line 2
     .line 3
@@ -477,7 +513,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;->mShowsUserInterface:Z
+    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mShowsUserInterface:Z
 
     .line 2
     .line 3
@@ -490,7 +527,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;->title:Ljava/lang/CharSequence;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->title:Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -501,7 +539,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;->mAuthenticationRequired:Z
+    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mAuthenticationRequired:Z
 
     .line 2
     .line 3
@@ -512,7 +551,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;->mIsContextual:Z
+    iget-boolean v0, p0, Landroidx/core/app/NotificationCompat$Action;
+    ->mIsContextual:Z
 
     .line 2
     .line 3

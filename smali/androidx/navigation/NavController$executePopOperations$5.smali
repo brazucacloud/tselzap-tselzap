@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavController;->executePopOperations(Ljava/util/List;Landroidx/navigation/NavDestination;ZZ)Z
+    value = Landroidx/navigation/NavController;
+    ->executePopOperations(Ljava/util/List;Landroidx/navigation/NavDestination;ZZ)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,9 +35,11 @@
 
     new-instance v0, Landroidx/navigation/NavController$executePopOperations$5;
 
-    invoke-direct {v0}, Landroidx/navigation/NavController$executePopOperations$5;-><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavController$executePopOperations$5;
+    -><init>()V
 
-    sput-object v0, Landroidx/navigation/NavController$executePopOperations$5;->INSTANCE:Landroidx/navigation/NavController$executePopOperations$5;
+    sput-object v0, Landroidx/navigation/NavController$executePopOperations$5;
+    ->INSTANCE:Landroidx/navigation/NavController$executePopOperations$5;
 
     return-void
 .end method
@@ -46,7 +49,8 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -57,27 +61,32 @@ return-void
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getParent()Landroidx/navigation/NavGraph;
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
+    ->getParent()Landroidx/navigation/NavGraph;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Landroidx/navigation/NavGraph;->getStartDestinationId()I
+    invoke-virtual {v0}, Landroidx/navigation/NavGraph;
+    ->getStartDestinationId()I
 
     move-result v0
 
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getId()I
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
+    ->getId()I
 
     move-result v1
 
     if-ne v0, v1, :cond_0
 
     .line 3
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getParent()Landroidx/navigation/NavGraph;
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
+    ->getParent()Landroidx/navigation/NavGraph;
 
     move-result-object p1
 
@@ -95,7 +104,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/navigation/NavDestination;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$executePopOperations$5;->invoke(Landroidx/navigation/NavDestination;)Landroidx/navigation/NavDestination;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$executePopOperations$5;
+    ->invoke(Landroidx/navigation/NavDestination;)Landroidx/navigation/NavDestination;
 
     move-result-object p1
 

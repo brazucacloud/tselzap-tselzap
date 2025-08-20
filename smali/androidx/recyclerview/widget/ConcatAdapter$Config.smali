@@ -49,16 +49,19 @@
     const/4 v1, 0x1
 
     .line 4
-    sget-object v2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;->NO_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    sget-object v2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    ->NO_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 5
     .line 6
-    invoke-direct {v0, v1, v2}, Landroidx/recyclerview/widget/ConcatAdapter$Config;-><init>(ZLandroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;)V
+    invoke-direct {v0, v1, v2}, Landroidx/recyclerview/widget/ConcatAdapter$Config;
+    -><init>(ZLandroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->DEFAULT:Landroidx/recyclerview/widget/ConcatAdapter$Config;    return-void
+    sput-object v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;
+    ->DEFAULT:Landroidx/recyclerview/widget/ConcatAdapter$Config;    return-void
 .end method
 
 .method public constructor <init>(ZLandroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;)V
@@ -69,16 +72,20 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->isolateViewTypes:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config;
+    ->isolateViewTypes:Z
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->stableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;    return-void
+    iput-object p2, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config;
+    ->stableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;    
+    return-void
 .end method
 
 .end class

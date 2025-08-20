@@ -23,9 +23,11 @@
 
     new-instance v0, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;
 
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;
+    -><init>()V
 
-    sput-object v0, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;->INSTANCE:Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;
+    sput-object v0, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/internal/ViewModelProviders;
 
     return-void
 .end method
@@ -34,7 +36,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -55,7 +58,8 @@
 
     const-string v0, "initializers"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;
@@ -65,7 +69,8 @@
     .line 2
     new-array v1, v1, [Landroidx/lifecycle/viewmodel/ViewModelInitializer;
 
-    invoke-interface {p1, v1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Collection;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -74,13 +79,15 @@
 
     array-length v1, p1
 
-    invoke-static {p1, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p1, v1}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, [Landroidx/lifecycle/viewmodel/ViewModelInitializer;
 
-    invoke-direct {v0, p1}, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;-><init>([Landroidx/lifecycle/viewmodel/ViewModelInitializer;)V
+    invoke-direct {v0, p1}, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;
+    -><init>([Landroidx/lifecycle/viewmodel/ViewModelInitializer;)V
 
     return-object v0
 .end method
@@ -98,20 +105,23 @@
 
     const-string v0, "initializers"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     new-instance v0, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;
 
     array-length v1, p1
 
-    invoke-static {p1, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p1, v1}, Ljava/util/Arrays;
+    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, [Landroidx/lifecycle/viewmodel/ViewModelInitializer;
 
-    invoke-direct {v0, p1}, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;-><init>([Landroidx/lifecycle/viewmodel/ViewModelInitializer;)V
+    invoke-direct {v0, p1}, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;
+    -><init>([Landroidx/lifecycle/viewmodel/ViewModelInitializer;)V
 
     return-object v0
 .end method
@@ -136,7 +146,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -145,7 +156,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -154,7 +166,8 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -177,7 +190,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v3}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->getClazz$lifecycle_viewmodel_release()Lv1/c;
+    invoke-virtual {v3}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
+    ->getClazz$lifecycle_viewmodel_release()Lv1/c;
 
     .line 24
     .line 25
@@ -185,7 +199,8 @@
     move-result-object v4
 
     .line 27
-    invoke-static {v4, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -217,7 +232,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {v3}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->getInitializer$lifecycle_viewmodel_release()Lp1/l;
+    invoke-virtual {v3}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
+    ->getInitializer$lifecycle_viewmodel_release()Lp1/l;
 
     .line 41
     .line 42
@@ -229,7 +245,8 @@
 
     .line 45
     .line 46
-    invoke-interface {p3, p2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p2}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 47
     .line 48
@@ -257,12 +274,14 @@
 
     .line 59
     .line 60
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 61
     .line 62
     .line 63
-    invoke-static {p1}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders_jvmKt;->getCanonicalName(Lv1/c;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders_jvmKt;
+    ->getCanonicalName(Lv1/c;)Ljava/lang/String;
 
     .line 64
     .line 65
@@ -270,12 +289,14 @@
     move-result-object p1
 
     .line 67
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 71
     .line 72
@@ -287,7 +308,8 @@
 
     .line 75
     .line 76
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 77
     .line 78
@@ -295,7 +317,8 @@
     move-result-object p1
 
     .line 80
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -310,7 +333,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -327,7 +351,8 @@
 
     .line 11
     .line 12
-    invoke-interface {p1}, Landroidx/lifecycle/HasDefaultViewModelProviderFactory;->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-interface {p1}, Landroidx/lifecycle/HasDefaultViewModelProviderFactory;
+    ->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     .line 13
     .line 14
@@ -338,7 +363,8 @@
 
     .line 17
     :cond_0
-    sget-object p1, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;    return-object p1
+    sget-object p1, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;    return-object p1
 .end method
 
 .method public final getDefaultFactory$lifecycle_viewmodel_release(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/ViewModelProvider$Factory;
@@ -349,7 +375,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -366,7 +393,8 @@
 
     .line 11
     .line 12
-    invoke-interface {p1}, Landroidx/lifecycle/HasDefaultViewModelProviderFactory;->getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
+    invoke-interface {p1}, Landroidx/lifecycle/HasDefaultViewModelProviderFactory;
+    ->getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
 
     .line 13
     .line 14
@@ -377,7 +405,8 @@
 
     .line 17
     :cond_0
-    sget-object p1, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;->INSTANCE:Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;    return-object p1
+    sget-object p1, Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/internal/DefaultViewModelProviderFactory;    return-object p1
 .end method
 
 .method public final getDefaultKey$lifecycle_viewmodel_release(Lv1/c;)Ljava/lang/String;
@@ -398,12 +427,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders_jvmKt;->getCanonicalName(Lv1/c;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders_jvmKt;
+    ->getCanonicalName(Lv1/c;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -419,7 +450,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -438,7 +470,8 @@
 
     .line 22
     .line 23
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -464,7 +497,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

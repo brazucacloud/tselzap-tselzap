@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -34,7 +35,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -46,7 +48,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/app/DialogCompat$Api28Impl;->requireViewById(Landroid/app/Dialog;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Landroidx/core/app/DialogCompat$Api28Impl;
+    ->requireViewById(Landroid/app/Dialog;I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -62,7 +65,8 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroid/app/Dialog;
+    ->findViewById(I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -86,7 +90,8 @@
 
     .line 24
     .line 25
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27

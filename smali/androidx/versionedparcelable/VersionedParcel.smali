@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -108,20 +109,25 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/versionedparcelable/VersionedParcel;->mReadCache:Landroidx/collection/ArrayMap;
+    iput-object p1, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mReadCache:Landroidx/collection/ArrayMap;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/versionedparcelable/VersionedParcel;->mWriteCache:Landroidx/collection/ArrayMap;
+    iput-object p2, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mWriteCache:Landroidx/collection/ArrayMap;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/versionedparcelable/VersionedParcel;->mParcelizerCache:Landroidx/collection/ArrayMap;    return-void
+    iput-object p3, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mParcelizerCache:Landroidx/collection/ArrayMap;    
+    return-void
 .end method
 
 .method private createException(ILjava/lang/String;)Ljava/lang/Exception;
@@ -146,12 +152,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
@@ -160,17 +168,20 @@
 
     .line 17
     .line 18
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -178,7 +189,8 @@
     move-result-object p1
 
     .line 28
-    invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;)V
     return-object v0
 
     .line 32
@@ -187,7 +199,8 @@
 
     .line 33
     .line 34
-    invoke-direct {p1, p2}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/SecurityException;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 
     .line 38
@@ -196,7 +209,8 @@ return-object p1
 
     .line 39
     .line 40
-    invoke-direct {p1, p2}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroid/os/BadParcelableException;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 
     .line 44
@@ -205,7 +219,8 @@ return-object p1
 
     .line 45
     .line 46
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 
     .line 50
@@ -214,7 +229,8 @@ return-object p1
 
     .line 51
     .line 52
-    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 
     .line 56
@@ -223,7 +239,8 @@ return-object p1
 
     .line 57
     .line 58
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 
     .line 62
@@ -232,7 +249,8 @@ return-object p1
 
     .line 63
     .line 64
-    invoke-direct {p1}, Landroid/os/NetworkOnMainThreadException;-><init>()V
+    invoke-direct {p1}, Landroid/os/NetworkOnMainThreadException;
+    -><init>()V
     return-object p1
 
     .line 68
@@ -241,12 +259,14 @@ return-object p1
 
     .line 69
     .line 70
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 return-object p1
 
     .line 74
     :pswitch_8
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readParcelable()Landroid/os/Parcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readParcelable()Landroid/os/Parcelable;
 
     .line 75
     .line 76
@@ -268,7 +288,8 @@ return-object p1
         :pswitch_3
         :pswitch_2
         :pswitch_1
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 .method private findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;
     .locals 3
@@ -284,11 +305,13 @@ return-object p1
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcel;->mParcelizerCache:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mParcelizerCache:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -296,7 +319,8 @@ return-object p1
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0, v1}, Landroidx/collection/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroidx/collection/ArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -312,7 +336,8 @@ return-object p1
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Ljava/lang/Class;->getPackage()Ljava/lang/Package;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getPackage()Ljava/lang/Package;
 
     .line 16
     .line 17
@@ -320,7 +345,8 @@ return-object p1
     move-result-object v0
 
     .line 19
-    invoke-virtual {v0}, Ljava/lang/Package;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Package;
+    ->getName()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -328,7 +354,8 @@ return-object p1
     move-result-object v0
 
     .line 23
-    invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -340,12 +367,14 @@ return-object p1
 
     .line 28
     .line 29
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -354,12 +383,14 @@ return-object p1
 
     .line 36
     .line 37
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -368,12 +399,14 @@ return-object p1
 
     .line 44
     .line 45
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -384,7 +417,8 @@ return-object p1
     const/4 v1, 0x0
 
     .line 53
-    invoke-virtual {p1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 54
     .line 55
@@ -392,7 +426,8 @@ return-object p1
     move-result-object v2
 
     .line 57
-    invoke-static {v0, v1, v2}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {v0, v1, v2}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 58
     .line 59
@@ -400,11 +435,13 @@ return-object p1
     move-result-object v0
 
     .line 61
-    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;->mParcelizerCache:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mParcelizerCache:Landroidx/collection/ArrayMap;
 
     .line 62
     .line 63
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 64
     .line 65
@@ -412,7 +449,8 @@ return-object p1
     move-result-object p1
 
     .line 67
-    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 68
     .line 69
@@ -428,11 +466,13 @@ return-object p1
     const/4 v0, 0x1
 
     .line 2
-    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;->mReadCache:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mReadCache:Landroidx/collection/ArrayMap;
 
     .line 3
     .line 4
-    invoke-virtual {v1, p1}, Landroidx/collection/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/collection/ArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -448,7 +488,8 @@ return-object p1
 
     .line 11
     .line 12
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;
+    ->currentTimeMillis()J
 
     .line 13
     .line 14
@@ -457,7 +498,8 @@ return-object p1
 
     .line 16
     .line 17
-    invoke-virtual {v1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v1}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 18
     .line 19
@@ -465,7 +507,8 @@ return-object p1
     move-result-object v2
 
     .line 21
-    invoke-static {p1, v0, v2}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p1, v0, v2}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 22
     .line 23
@@ -488,7 +531,8 @@ return-object p1
 
     .line 31
     .line 32
-    invoke-virtual {v2, v3, v0}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v0}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 33
     .line 34
@@ -496,11 +540,14 @@ return-object p1
     move-result-object v0
 
     .line 36
-    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;->mReadCache:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mReadCache:Landroidx/collection/ArrayMap;
 
     .line 37
     .line 38
-    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-object v0
+    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-object v0
 
     .line 42
     :cond_0
@@ -518,7 +565,8 @@ return-object p1
 
     .line 1
     :goto_0
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 2
     .line 3
@@ -530,7 +578,8 @@ return-object p1
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 8
     .line 9
@@ -656,7 +705,8 @@ return-object p1
 
     .line 45
     .line 46
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 47
     .line 48
@@ -664,7 +714,8 @@ return-object p1
     move-result-object p1
 
     .line 50
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -676,7 +727,8 @@ return-object p1
 
     .line 55
     .line 56
-    invoke-virtual {p1, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 57
     .line 58
@@ -684,7 +736,8 @@ return-object p1
     move-result-object p1
 
     .line 60
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -695,11 +748,13 @@ return-object p1
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcel;->mWriteCache:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mWriteCache:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -707,7 +762,8 @@ return-object p1
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0, v1}, Landroidx/collection/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroidx/collection/ArrayMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -723,7 +779,8 @@ return-object p1
 
     .line 14
     .line 15
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 16
     .line 17
@@ -731,7 +788,8 @@ return-object p1
     move-result-object v0
 
     .line 19
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;
+    ->currentTimeMillis()J
 
     .line 20
     .line 21
@@ -765,7 +823,8 @@ return-object p1
 
     .line 34
     .line 35
-    invoke-virtual {v0, v2, v1}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v2, v1}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 36
     .line 37
@@ -773,11 +832,13 @@ return-object p1
     move-result-object v0
 
     .line 39
-    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;->mWriteCache:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Landroidx/versionedparcelable/VersionedParcel;
+    ->mWriteCache:Landroidx/collection/ArrayMap;
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -785,7 +846,8 @@ return-object p1
     move-result-object p1
 
     .line 45
-    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -807,7 +869,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 2
     .line 3
@@ -826,7 +889,8 @@ return-object p1
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 12
     .line 13
@@ -882,7 +946,8 @@ return-object p1
 
     .line 35
     .line 36
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readStrongBinder()Landroid/os/IBinder;
 
     .line 37
     .line 38
@@ -890,7 +955,8 @@ return-object p1
     move-result-object v1
 
     .line 40
-    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 41
     .line 42
@@ -908,7 +974,8 @@ return-object p1
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readString()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -916,7 +983,8 @@ return-object p1
     move-result-object v1
 
     .line 52
-    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 53
     .line 54
@@ -934,7 +1002,8 @@ return-object p1
 
     .line 59
     .line 60
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readSerializable()Ljava/io/Serializable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readSerializable()Ljava/io/Serializable;
 
     .line 61
     .line 62
@@ -942,7 +1011,8 @@ return-object p1
     move-result-object v1
 
     .line 64
-    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 65
     .line 66
@@ -960,7 +1030,8 @@ return-object p1
 
     .line 71
     .line 72
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readParcelable()Landroid/os/Parcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readParcelable()Landroid/os/Parcelable;
 
     .line 73
     .line 74
@@ -968,7 +1039,8 @@ return-object p1
     move-result-object v1
 
     .line 76
-    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 77
     .line 78
@@ -986,7 +1058,8 @@ return-object p1
 
     .line 83
     .line 84
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readVersionedParcelable()Landroidx/versionedparcelable/VersionedParcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readVersionedParcelable()Landroidx/versionedparcelable/VersionedParcelable;
 
     .line 85
     .line 86
@@ -994,7 +1067,8 @@ return-object p1
     move-result-object v1
 
     .line 88
-    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 89
     .line 90
@@ -1015,7 +1089,8 @@ return-object p1
     .locals 0
 
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;->createException(ILjava/lang/String;)Ljava/lang/Exception;
+    invoke-direct {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->createException(ILjava/lang/String;)Ljava/lang/Exception;
 
     move-result-object p1
 
@@ -1026,7 +1101,8 @@ return-object p1
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 2
     .line 3
@@ -1053,36 +1129,43 @@ return-object p1
     const/4 p1, -0x1
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 
     .line 4
     :cond_0
-    invoke-interface {p1}, Ljava/util/Collection;->size()I
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->size()I
 
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     if-lez v0, :cond_1
 
     .line 6
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->getType(Ljava/lang/Object;)I
+    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->getType(Ljava/lang/Object;)I
 
     move-result v0
 
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     packed-switch v0, :pswitch_data_0
 
@@ -1091,177 +1174,207 @@ return-object p1
 
     .line 8
     :pswitch_1
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 9
     check-cast v0, Ljava/lang/Float;
 
-    invoke-virtual {v0}, Ljava/lang/Float;->floatValue()F
+    invoke-virtual {v0}, Ljava/lang/Float;
+    ->floatValue()F
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeFloat(F)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeFloat(F)V
 
     goto :goto_0
 
     .line 10
     :pswitch_2
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 11
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;
+    ->intValue()I
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     goto :goto_1
 
     .line 12
     :pswitch_3
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_2
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 13
     check-cast v0, Landroid/os/IBinder;
 
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeStrongBinder(Landroid/os/IBinder;)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeStrongBinder(Landroid/os/IBinder;)V
 
     goto :goto_2
 
     .line 14
     :pswitch_4
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_3
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 15
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     goto :goto_3
 
     .line 16
     :pswitch_5
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_4
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 17
     check-cast v0, Ljava/io/Serializable;
 
-    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeSerializable(Ljava/io/Serializable;)V
+    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeSerializable(Ljava/io/Serializable;)V
 
     goto :goto_4
 
     .line 18
     :pswitch_6
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_5
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 19
     check-cast v0, Landroid/os/Parcelable;
 
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeParcelable(Landroid/os/Parcelable;)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeParcelable(Landroid/os/Parcelable;)V
 
     goto :goto_5
 
     .line 20
     :pswitch_7
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_6
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 21
     check-cast v0, Landroidx/versionedparcelable/VersionedParcelable;
 
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V
 
     goto :goto_6
 
@@ -1297,10 +1410,12 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeCollection(Ljava/util/Collection;)V
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeCollection(Ljava/util/Collection;)V
 
     return-void
 .end method
@@ -1313,46 +1428,56 @@ return-object p1
     const/4 p1, 0x0
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     .line 6
     new-instance v1, Ljava/io/ByteArrayOutputStream;
 
-    invoke-direct {v1}, Ljava/io/ByteArrayOutputStream;-><init>()V
+    invoke-direct {v1}, Ljava/io/ByteArrayOutputStream;
+    -><init>()V
 
     .line 7
     :try_start_0
     new-instance v2, Ljava/io/ObjectOutputStream;
 
-    invoke-direct {v2, v1}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
+    invoke-direct {v2, v1}, Ljava/io/ObjectOutputStream;
+    -><init>(Ljava/io/OutputStream;)V
 
     .line 8
-    invoke-virtual {v2, p1}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
+    invoke-virtual {v2, p1}, Ljava/io/ObjectOutputStream;
+    ->writeObject(Ljava/lang/Object;)V
 
     .line 9
-    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;->close()V
+    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;
+    ->close()V
 
     .line 10
-    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;
+    ->toByteArray()[B
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeByteArray([B)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeByteArray([B)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1369,12 +1494,14 @@ return-object p1
     const-string v3, ")"
 
     .line 12
-    invoke-static {v2, v0, v3}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v0, v3}, Landroidx/constraintlayout/core/parser/a;
+    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 13
-    invoke-direct {v1, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw v1
 .end method
@@ -1384,7 +1511,8 @@ return-object p1
 
     .line 1
     :try_start_0
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -1392,7 +1520,8 @@ return-object p1
     move-result-object v0
 
     .line 5
-    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -1402,7 +1531,8 @@ return-object p1
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 9
-    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getName()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -1410,7 +1540,9 @@ return-object p1
     move-result-object p1
 
     .line 13
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V    
+    return-void
 
     .line 17
     :catch_0
@@ -1421,7 +1553,8 @@ return-object p1
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 21
     .line 22
@@ -1429,7 +1562,8 @@ return-object p1
     move-result-object p1
 
     .line 24
-    invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;
+    ->getSimpleName()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -1441,7 +1575,8 @@ return-object p1
 
     .line 29
     .line 30
-    invoke-virtual {p1, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v2}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -1449,7 +1584,8 @@ return-object p1
     move-result-object p1
 
     .line 34
-    invoke-direct {v1, p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p1, v0}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 35
     .line 36
@@ -1483,7 +1619,8 @@ return-object p1
     .end annotation
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v0
 
@@ -1497,12 +1634,14 @@ return-object p1
     :cond_0
     new-instance v2, Ljava/util/ArrayList;
 
-    invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {v2, v0}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     if-eqz v0, :cond_7
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v3
 
@@ -1538,11 +1677,13 @@ return-object p1
     if-lez v0, :cond_7
 
     .line 6
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object v1
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, -0x1
 
@@ -1553,11 +1694,13 @@ return-object p1
     if-lez v0, :cond_7
 
     .line 7
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, -0x1
 
@@ -1568,11 +1711,13 @@ return-object p1
     if-lez v0, :cond_7
 
     .line 8
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readSerializable()Ljava/io/Serializable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readSerializable()Ljava/io/Serializable;
 
     move-result-object v1
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, -0x1
 
@@ -1583,11 +1728,13 @@ return-object p1
     if-lez v0, :cond_7
 
     .line 9
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readParcelable()Landroid/os/Parcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readParcelable()Landroid/os/Parcelable;
 
     move-result-object v1
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, -0x1
 
@@ -1598,11 +1745,13 @@ return-object p1
     if-lez v0, :cond_7
 
     .line 10
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readVersionedParcelable()Landroidx/versionedparcelable/VersionedParcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readVersionedParcelable()Landroidx/versionedparcelable/VersionedParcelable;
 
     move-result-object v1
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, -0x1
 
@@ -1611,7 +1760,8 @@ return-object p1
     .line 11
     :cond_7
     :goto_5
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1629,7 +1779,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1639,7 +1790,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->readArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1653,7 +1805,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1663,7 +1816,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readBoolean()Z
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readBoolean()Z
 
     move-result p1
 
@@ -1674,7 +1828,8 @@ return-object p1
     .locals 5
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v0
 
@@ -1696,7 +1851,8 @@ return-object p1
     if-ge v3, v0, :cond_2
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v4
 
@@ -1724,7 +1880,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1734,7 +1891,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readBooleanArray()[Z
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readBooleanArray()[Z
 
     move-result-object p1
 
@@ -1748,7 +1906,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1758,7 +1917,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readBundle()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readBundle()Landroid/os/Bundle;
 
     move-result-object p1
 
@@ -1769,7 +1929,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -1781,7 +1942,8 @@ return-object p1
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 9
     .line 10
@@ -1805,7 +1967,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1815,7 +1978,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readByteArray()[B
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readByteArray()[B
 
     move-result-object p1
 
@@ -1826,7 +1990,8 @@ return-object p1
     .locals 2
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -1838,7 +2003,8 @@ return-object p1
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 9
     .line 10
@@ -1868,7 +2034,8 @@ return-object p1
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 22
     .line 23
@@ -1901,7 +2068,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1911,7 +2079,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readCharSequence()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readCharSequence()Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -1925,7 +2094,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p3
 
@@ -1935,7 +2105,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readDouble()D
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readDouble()D
 
     move-result-wide p1
 
@@ -1946,7 +2117,8 @@ return-object p1
     .locals 5
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v0
 
@@ -1966,7 +2138,8 @@ return-object p1
     if-ge v2, v0, :cond_1
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readDouble()D
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readDouble()D
 
     move-result-wide v3
 
@@ -1984,7 +2157,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -1994,7 +2168,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readDoubleArray()[D
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readDoubleArray()[D
 
     move-result-object p1
 
@@ -2005,7 +2180,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2015,19 +2191,22 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-direct {p0}, Landroidx/versionedparcelable/VersionedParcel;->readExceptionCode()I
+    invoke-direct {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readExceptionCode()I
 
     move-result p2
 
     if-eqz p2, :cond_1
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readString()Ljava/lang/String;
 
     move-result-object p1
 
     .line 4
-    invoke-direct {p0, p2, p1}, Landroidx/versionedparcelable/VersionedParcel;->readException(ILjava/lang/String;)Ljava/lang/Exception;
+    invoke-direct {p0, p2, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readException(ILjava/lang/String;)Ljava/lang/Exception;
 
     move-result-object p1
 
@@ -2046,7 +2225,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2056,7 +2236,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readFloat()F
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readFloat()F
 
     move-result p1
 
@@ -2067,7 +2248,8 @@ return-object p1
     .locals 4
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v0
 
@@ -2087,7 +2269,8 @@ return-object p1
     if-ge v2, v0, :cond_1
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readFloat()F
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readFloat()F
 
     move-result v3
 
@@ -2105,7 +2288,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2115,7 +2299,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readFloatArray()[F
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readFloatArray()[F
 
     move-result-object p1
 
@@ -2137,7 +2322,8 @@ return-object p1
 
     .line 1
     :try_start_0
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->getReadMethod(Ljava/lang/String;)Ljava/lang/reflect/Method;
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->getReadMethod(Ljava/lang/String;)Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
@@ -2162,7 +2348,8 @@ return-object p1
     const/4 p2, 0x0
 
     .line 12
-    invoke-virtual {p1, p2, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2, v0}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -2215,7 +2402,8 @@ return-object p1
 
     .line 30
     .line 31
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 32
     .line 33
@@ -2232,7 +2420,8 @@ return-object p1
 
     .line 38
     .line 39
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 40
     .line 41
@@ -2241,7 +2430,8 @@ return-object p1
 
     .line 43
     :goto_2
-    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 44
     .line 45
@@ -2257,7 +2447,8 @@ return-object p1
 
     .line 50
     .line 51
-    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 52
     .line 53
@@ -2281,7 +2472,8 @@ return-object p1
 
     .line 61
     .line 62
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 63
     .line 64
@@ -2298,7 +2490,8 @@ return-object p1
 
     .line 69
     .line 70
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 71
     .line 72
@@ -2312,7 +2505,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2322,7 +2516,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result p1
 
@@ -2333,7 +2528,8 @@ return-object p1
     .locals 4
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v0
 
@@ -2353,7 +2549,8 @@ return-object p1
     if-ge v2, v0, :cond_1
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v3
 
@@ -2371,7 +2568,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2381,7 +2579,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readIntArray()[I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readIntArray()[I
 
     move-result-object p1
 
@@ -2403,7 +2602,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -2419,12 +2619,14 @@ return-object p1
 
     .line 9
     .line 10
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
 
     .line 14
     .line 15
@@ -2442,7 +2644,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p3
 
@@ -2452,7 +2655,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readLong()J
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readLong()J
 
     move-result-wide p1
 
@@ -2463,7 +2667,8 @@ return-object p1
     .locals 5
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     move-result v0
 
@@ -2483,7 +2688,8 @@ return-object p1
     if-ge v2, v0, :cond_1
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readLong()J
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readLong()J
 
     move-result-wide v3
 
@@ -2501,7 +2707,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2511,7 +2718,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readLongArray()[J
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readLongArray()[J
 
     move-result-object p1
 
@@ -2535,7 +2743,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -2547,7 +2756,8 @@ return-object p1
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 9
     .line 10
@@ -2569,7 +2779,8 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-direct {p2}, Landroidx/collection/ArrayMap;-><init>()V
+    invoke-direct {p2}, Landroidx/collection/ArrayMap;
+    -><init>()V
 
     .line 19
     .line 20
@@ -2586,7 +2797,8 @@ return-object p1
 
     .line 25
     .line 26
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 27
     .line 28
@@ -2595,17 +2807,20 @@ return-object p1
 
     .line 30
     .line 31
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 32
     .line 33
     .line 34
-    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
 
     .line 35
     .line 36
     .line 37
-    invoke-direct {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-direct {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
 
     .line 38
     .line 39
@@ -2618,7 +2833,8 @@ return-object p1
 
     .line 42
     .line 43
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -2626,7 +2842,8 @@ return-object p1
     move-result-object v3
 
     .line 47
-    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -2634,7 +2851,8 @@ return-object p1
     move-result-object v4
 
     .line 51
-    invoke-interface {p2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v3, v4}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -2672,7 +2890,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -2682,7 +2901,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readParcelable()Landroid/os/Parcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readParcelable()Landroid/os/Parcelable;
 
     move-result-object p1
 
@@ -2697,7 +2917,8 @@ return-object p1
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readString()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -2715,7 +2936,8 @@ return-object p1
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readByteArray()[B
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readByteArray()[B
 
     .line 12
     .line 13
@@ -2727,7 +2949,8 @@ return-object p1
 
     .line 16
     .line 17
-    invoke-direct {v3, v2}, Ljava/io/ByteArrayInputStream;-><init>([B)V
+    invoke-direct {v3, v2}, Ljava/io/ByteArrayInputStream;
+    -><init>([B)V
 
     .line 18
     .line 19
@@ -2737,12 +2960,14 @@ return-object p1
 
     .line 21
     .line 22
-    invoke-direct {v2, p0, v3}, Landroidx/versionedparcelable/VersionedParcel$1;-><init>(Landroidx/versionedparcelable/VersionedParcel;Ljava/io/InputStream;)V
+    invoke-direct {v2, p0, v3}, Landroidx/versionedparcelable/VersionedParcel$1;
+    -><init>(Landroidx/versionedparcelable/VersionedParcel;Ljava/io/InputStream;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v2}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/io/ObjectInputStream;
+    ->readObject()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -2779,7 +3004,8 @@ return-object p1
 
     .line 39
     .line 40
-    invoke-static {v4, v1, v0}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v1, v0}, Landroidx/constraintlayout/core/parser/a;
+    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -2787,7 +3013,8 @@ return-object p1
     move-result-object v0
 
     .line 44
-    invoke-direct {v3, v0, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v3, v0, v2}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 45
     .line 46
@@ -2804,7 +3031,8 @@ return-object p1
 
     .line 51
     .line 52
-    invoke-static {v4, v1, v0}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v1, v0}, Landroidx/constraintlayout/core/parser/a;
+    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -2812,7 +3040,8 @@ return-object p1
     move-result-object v0
 
     .line 56
-    invoke-direct {v3, v0, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v3, v0, v2}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 57
     .line 58
@@ -2834,7 +3063,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -2850,12 +3080,14 @@ return-object p1
 
     .line 9
     .line 10
-    invoke-direct {p1}, Landroidx/collection/ArraySet;-><init>()V
+    invoke-direct {p1}, Landroidx/collection/ArraySet;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readCollection(Ljava/util/Collection;)Ljava/util/Collection;
 
     .line 14
     .line 15
@@ -2873,7 +3105,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -2885,7 +3118,8 @@ return-object p1
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readBoolean()Z
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readBoolean()Z
 
     .line 9
     .line 10
@@ -2897,7 +3131,8 @@ return-object p1
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 15
     .line 16
@@ -2905,7 +3140,8 @@ return-object p1
     move-result p1
 
     .line 18
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 19
     .line 20
@@ -2917,7 +3153,8 @@ return-object p1
 
     .line 23
     .line 24
-    invoke-direct {v0, p1, p2}, Landroid/util/Size;-><init>(II)V
+    invoke-direct {v0, p1, p2}, Landroid/util/Size;
+    -><init>(II)V
     return-object v0
 
     .line 28
@@ -2934,7 +3171,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -2946,7 +3184,8 @@ return-object p1
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readBoolean()Z
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readBoolean()Z
 
     .line 9
     .line 10
@@ -2958,7 +3197,8 @@ return-object p1
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readFloat()F
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readFloat()F
 
     .line 15
     .line 16
@@ -2966,7 +3206,8 @@ return-object p1
     move-result p1
 
     .line 18
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readFloat()F
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readFloat()F
 
     .line 19
     .line 20
@@ -2978,7 +3219,8 @@ return-object p1
 
     .line 23
     .line 24
-    invoke-direct {v0, p1, p2}, Landroid/util/SizeF;-><init>(FF)V
+    invoke-direct {v0, p1, p2}, Landroid/util/SizeF;
+    -><init>(FF)V
     return-object v0
 
     .line 28
@@ -2992,7 +3234,8 @@ return-object p1
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     .line 2
     .line 3
@@ -3004,7 +3247,8 @@ return-object p1
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 9
     .line 10
@@ -3026,7 +3270,8 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-direct {p2, p1}, Landroid/util/SparseBooleanArray;-><init>(I)V
+    invoke-direct {p2, p1}, Landroid/util/SparseBooleanArray;
+    -><init>(I)V
 
     .line 19
     .line 20
@@ -3039,7 +3284,8 @@ return-object p1
 
     .line 23
     .line 24
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readInt()I
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readInt()I
 
     .line 25
     .line 26
@@ -3047,7 +3293,8 @@ return-object p1
     move-result v1
 
     .line 28
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readBoolean()Z
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readBoolean()Z
 
     .line 29
     .line 30
@@ -3055,7 +3302,8 @@ return-object p1
     move-result v2
 
     .line 32
-    invoke-virtual {p2, v1, v2}, Landroid/util/SparseBooleanArray;->put(IZ)V
+    invoke-virtual {p2, v1, v2}, Landroid/util/SparseBooleanArray;
+    ->put(IZ)V
 
     .line 33
     .line 34
@@ -3078,7 +3326,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -3088,7 +3337,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readString()Ljava/lang/String;
 
     move-result-object p1
 
@@ -3102,7 +3352,8 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -3112,7 +3363,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object p1
 
@@ -3130,7 +3382,8 @@ return-object p1
     .end annotation
 
     .line 3
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readString()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3142,11 +3395,13 @@ return-object p1
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->createSubParcel()Landroidx/versionedparcelable/VersionedParcel;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->createSubParcel()Landroidx/versionedparcelable/VersionedParcel;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Landroidx/versionedparcelable/VersionedParcel;->readFromParcel(Ljava/lang/String;Landroidx/versionedparcelable/VersionedParcel;)Landroidx/versionedparcelable/VersionedParcelable;
+    invoke-virtual {p0, v0, v1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readFromParcel(Ljava/lang/String;Landroidx/versionedparcelable/VersionedParcel;)Landroidx/versionedparcelable/VersionedParcelable;
 
     move-result-object v0
 
@@ -3164,7 +3419,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->readField(I)Z
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readField(I)Z
 
     move-result p2
 
@@ -3174,7 +3430,8 @@ return-object p1
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->readVersionedParcelable()Landroidx/versionedparcelable/VersionedParcelable;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->readVersionedParcelable()Landroidx/versionedparcelable/VersionedParcelable;
 
     move-result-object p1
 
@@ -3205,7 +3462,8 @@ return-object p1
     const/4 p1, -0x1
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 
@@ -3214,7 +3472,8 @@ return-object p1
     array-length v0, p1
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     if-lez v0, :cond_6
 
@@ -3223,12 +3482,14 @@ return-object p1
     .line 6
     aget-object v2, p1, v1
 
-    invoke-direct {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->getType(Ljava/lang/Object;)I
+    invoke-direct {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->getType(Ljava/lang/Object;)I
 
     move-result v2
 
     .line 7
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     const/4 v3, 0x1
 
@@ -3261,7 +3522,8 @@ return-object p1
 
     check-cast v2, Landroid/os/IBinder;
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeStrongBinder(Landroid/os/IBinder;)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeStrongBinder(Landroid/os/IBinder;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3276,7 +3538,8 @@ return-object p1
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3291,7 +3554,8 @@ return-object p1
 
     check-cast v2, Ljava/io/Serializable;
 
-    invoke-direct {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeSerializable(Ljava/io/Serializable;)V
+    invoke-direct {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeSerializable(Ljava/io/Serializable;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3306,7 +3570,8 @@ return-object p1
 
     check-cast v2, Landroid/os/Parcelable;
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeParcelable(Landroid/os/Parcelable;)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeParcelable(Landroid/os/Parcelable;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3321,7 +3586,8 @@ return-object p1
 
     check-cast v2, Landroidx/versionedparcelable/VersionedParcelable;
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3343,10 +3609,12 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeArray([Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeArray([Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -3358,10 +3626,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeBoolean(Z)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeBoolean(Z)V
 
     return-void
 .end method
@@ -3375,7 +3645,8 @@ return-object p1
     array-length v0, p1
 
     .line 4
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     const/4 v1, 0x0
 
@@ -3385,7 +3656,8 @@ return-object p1
     .line 5
     aget-boolean v2, p1, v1
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3398,7 +3670,8 @@ return-object p1
     const/4 p1, -0x1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 .end method
@@ -3407,10 +3680,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeBooleanArray([Z)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeBooleanArray([Z)V
 
     return-void
 .end method
@@ -3422,10 +3697,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeBundle(Landroid/os/Bundle;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeBundle(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -3434,12 +3711,15 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V    
+    return-void
 .end method
 
 .method public abstract writeByteArray([B)V
@@ -3449,10 +3729,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeByteArray([B)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeByteArray([B)V
 
     return-void
 .end method
@@ -3464,10 +3746,12 @@ return-object p1
     .locals 0
 
     .line 3
-    invoke-virtual {p0, p4}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p4}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 4
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/versionedparcelable/VersionedParcel;->writeByteArray([BII)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeByteArray([BII)V
 
     return-void
 .end method
@@ -3476,7 +3760,8 @@ return-object p1
     .locals 2
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
@@ -3488,7 +3773,8 @@ return-object p1
     array-length p2, p1
 
     .line 7
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 8
     .line 9
@@ -3505,7 +3791,8 @@ return-object p1
 
     .line 14
     .line 15
-    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 16
     .line 17
@@ -3525,7 +3812,9 @@ return-object p1
     const/4 p1, -0x1
 
     .line 23
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V    
+    return-void
 .end method
 
 .method public abstract writeCharSequence(Ljava/lang/CharSequence;)V
@@ -3535,10 +3824,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeCharSequence(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeCharSequence(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -3550,10 +3841,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeDouble(D)V
+    invoke-virtual {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeDouble(D)V
 
     return-void
 .end method
@@ -3567,7 +3860,8 @@ return-object p1
     array-length v0, p1
 
     .line 4
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     const/4 v1, 0x0
 
@@ -3577,7 +3871,8 @@ return-object p1
     .line 5
     aget-wide v2, p1, v1
 
-    invoke-virtual {p0, v2, v3}, Landroidx/versionedparcelable/VersionedParcel;->writeDouble(D)V
+    invoke-virtual {p0, v2, v3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeDouble(D)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3590,7 +3885,8 @@ return-object p1
     const/4 p1, -0x1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 .end method
@@ -3599,10 +3895,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeDoubleArray([D)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeDoubleArray([D)V
 
     return-void
 .end method
@@ -3611,7 +3909,8 @@ return-object p1
     .locals 2
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
@@ -3620,7 +3919,8 @@ return-object p1
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->writeNoException()V
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeNoException()V
     return-void
 
     .line 10
@@ -3637,7 +3937,8 @@ return-object p1
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -3645,7 +3946,8 @@ return-object p1
     move-result-object p2
 
     .line 20
-    invoke-virtual {p2}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {p2}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 21
     .line 22
@@ -3657,7 +3959,8 @@ return-object p1
 
     .line 25
     .line 26
-    invoke-virtual {v1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v1}, Ljava/lang/Class;
+    ->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 27
     .line 28
@@ -3786,7 +4089,8 @@ return-object p1
 
     .line 78
     :goto_0
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 79
     .line 80
@@ -3815,7 +4119,8 @@ return-object p1
 
     .line 91
     .line 92
-    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 93
     .line 94
@@ -3824,7 +4129,8 @@ return-object p1
 
     .line 96
     :cond_a
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;
+    ->getMessage()Ljava/lang/String;
 
     .line 97
     .line 98
@@ -3832,7 +4138,8 @@ return-object p1
     move-result-object v1
 
     .line 100
-    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     .line 101
     .line 102
@@ -3845,7 +4152,9 @@ return-object p1
 
     .line 107
     .line 108
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeParcelable(Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeParcelable(Landroid/os/Parcelable;)V    
+    return-void
 .end method
 
 .method public abstract writeFloat(F)V
@@ -3855,10 +4164,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeFloat(F)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeFloat(F)V
 
     return-void
 .end method
@@ -3872,7 +4183,8 @@ return-object p1
     array-length v0, p1
 
     .line 4
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     const/4 v1, 0x0
 
@@ -3882,7 +4194,8 @@ return-object p1
     .line 5
     aget v2, p1, v1
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeFloat(F)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeFloat(F)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3895,7 +4208,8 @@ return-object p1
     const/4 p1, -0x1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 .end method
@@ -3904,10 +4218,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeFloatArray([F)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeFloatArray([F)V
 
     return-void
 .end method
@@ -3919,10 +4235,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 .end method
@@ -3936,7 +4254,8 @@ return-object p1
     array-length v0, p1
 
     .line 4
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     const/4 v1, 0x0
 
@@ -3946,7 +4265,8 @@ return-object p1
     .line 5
     aget v2, p1, v1
 
-    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -3959,7 +4279,8 @@ return-object p1
     const/4 p1, -0x1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 .end method
@@ -3968,10 +4289,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeIntArray([I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeIntArray([I)V
 
     return-void
 .end method
@@ -3989,7 +4312,9 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeCollection(Ljava/util/Collection;I)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeCollection(Ljava/util/Collection;I)V    
+    return-void
 .end method
 
 .method public abstract writeLong(J)V
@@ -3999,10 +4324,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeLong(J)V
+    invoke-virtual {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeLong(J)V
 
     return-void
 .end method
@@ -4016,7 +4343,8 @@ return-object p1
     array-length v0, p1
 
     .line 4
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     const/4 v1, 0x0
 
@@ -4026,7 +4354,8 @@ return-object p1
     .line 5
     aget-wide v2, p1, v1
 
-    invoke-virtual {p0, v2, v3}, Landroidx/versionedparcelable/VersionedParcel;->writeLong(J)V
+    invoke-virtual {p0, v2, v3}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeLong(J)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -4039,7 +4368,8 @@ return-object p1
     const/4 p1, -0x1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     return-void
 .end method
@@ -4048,10 +4378,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeLongArray([J)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeLongArray([J)V
 
     return-void
 .end method
@@ -4071,7 +4403,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
@@ -4083,11 +4416,14 @@ return-object p1
     const/4 p1, -0x1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V    
+    return-void
 
     .line 11
     :cond_0
-    invoke-interface {p1}, Ljava/util/Map;->size()I
+    invoke-interface {p1}, Ljava/util/Map;
+    ->size()I
 
     .line 12
     .line 13
@@ -4095,7 +4431,8 @@ return-object p1
     move-result p2
 
     .line 15
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 16
     .line 17
@@ -4108,7 +4445,8 @@ return-object p1
 
     .line 22
     .line 23
-    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 24
     .line 25
@@ -4117,12 +4455,14 @@ return-object p1
 
     .line 27
     .line 28
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 29
     .line 30
     .line 31
-    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p1}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 32
     .line 33
@@ -4130,7 +4470,8 @@ return-object p1
     move-result-object p1
 
     .line 35
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 36
     .line 37
@@ -4139,7 +4480,8 @@ return-object p1
 
     .line 39
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 40
     .line 41
@@ -4151,7 +4493,8 @@ return-object p1
 
     .line 44
     .line 45
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -4163,7 +4506,8 @@ return-object p1
 
     .line 50
     .line 51
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -4171,12 +4515,14 @@ return-object p1
     move-result-object v2
 
     .line 55
-    invoke-virtual {p2, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v2}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 56
     .line 57
     .line 58
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -4184,7 +4530,8 @@ return-object p1
     move-result-object v1
 
     .line 62
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 63
     .line 64
@@ -4193,12 +4540,15 @@ return-object p1
 
     .line 66
     :cond_2
-    invoke-direct {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeCollection(Ljava/util/Collection;)V
+    invoke-direct {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeCollection(Ljava/util/Collection;)V
 
     .line 67
     .line 68
     .line 69
-    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeCollection(Ljava/util/Collection;)V    return-void
+    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeCollection(Ljava/util/Collection;)V    
+    return-void
 .end method
 
 .method public writeNoException()V
@@ -4208,7 +4558,9 @@ return-object p1
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V    
+    return-void
 .end method
 
 .method public abstract writeParcelable(Landroid/os/Parcelable;)V
@@ -4218,10 +4570,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeParcelable(Landroid/os/Parcelable;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeParcelable(Landroid/os/Parcelable;)V
 
     return-void
 .end method
@@ -4230,10 +4584,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeSerializable(Ljava/io/Serializable;)V
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeSerializable(Ljava/io/Serializable;)V
 
     return-void
 .end method
@@ -4251,7 +4607,9 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeCollection(Ljava/util/Collection;I)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeCollection(Ljava/util/Collection;I)V    
+    return-void
 .end method
 
 .method public writeSize(Landroid/util/Size;I)V
@@ -4261,7 +4619,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
@@ -4281,7 +4640,8 @@ return-object p1
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeBoolean(Z)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeBoolean(Z)V
 
     .line 10
     .line 11
@@ -4290,7 +4650,8 @@ return-object p1
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/util/Size;->getWidth()I
+    invoke-virtual {p1}, Landroid/util/Size;
+    ->getWidth()I
 
     .line 15
     .line 16
@@ -4298,12 +4659,14 @@ return-object p1
     move-result p2
 
     .line 18
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroid/util/Size;->getHeight()I
+    invoke-virtual {p1}, Landroid/util/Size;
+    ->getHeight()I
 
     .line 22
     .line 23
@@ -4311,7 +4674,8 @@ return-object p1
     move-result p1
 
     .line 25
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 26
     .line 27
@@ -4327,7 +4691,8 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
@@ -4347,7 +4712,8 @@ return-object p1
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeBoolean(Z)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeBoolean(Z)V
 
     .line 10
     .line 11
@@ -4356,7 +4722,8 @@ return-object p1
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/util/SizeF;->getWidth()F
+    invoke-virtual {p1}, Landroid/util/SizeF;
+    ->getWidth()F
 
     .line 15
     .line 16
@@ -4364,12 +4731,14 @@ return-object p1
     move-result p2
 
     .line 18
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeFloat(F)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeFloat(F)V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroid/util/SizeF;->getHeight()F
+    invoke-virtual {p1}, Landroid/util/SizeF;
+    ->getHeight()F
 
     .line 22
     .line 23
@@ -4377,7 +4746,8 @@ return-object p1
     move-result p1
 
     .line 25
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeFloat(F)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeFloat(F)V
 
     .line 26
     .line 27
@@ -4390,7 +4760,8 @@ return-object p1
     .locals 2
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
     .line 3
@@ -4402,11 +4773,14 @@ return-object p1
     const/4 p1, -0x1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V    
+    return-void
 
     .line 11
     :cond_0
-    invoke-virtual {p1}, Landroid/util/SparseBooleanArray;->size()I
+    invoke-virtual {p1}, Landroid/util/SparseBooleanArray;
+    ->size()I
 
     .line 12
     .line 13
@@ -4414,7 +4788,8 @@ return-object p1
     move-result p2
 
     .line 15
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 16
     .line 17
@@ -4427,7 +4802,8 @@ return-object p1
 
     .line 20
     .line 21
-    invoke-virtual {p1, v0}, Landroid/util/SparseBooleanArray;->keyAt(I)I
+    invoke-virtual {p1, v0}, Landroid/util/SparseBooleanArray;
+    ->keyAt(I)I
 
     .line 22
     .line 23
@@ -4435,12 +4811,14 @@ return-object p1
     move-result v1
 
     .line 25
-    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;->writeInt(I)V
+    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeInt(I)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Landroid/util/SparseBooleanArray;->valueAt(I)Z
+    invoke-virtual {p1, v0}, Landroid/util/SparseBooleanArray;
+    ->valueAt(I)Z
 
     .line 29
     .line 30
@@ -4448,7 +4826,8 @@ return-object p1
     move-result v1
 
     .line 32
-    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;->writeBoolean(Z)V
+    invoke-virtual {p0, v1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeBoolean(Z)V
 
     .line 33
     .line 34
@@ -4471,10 +4850,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -4486,10 +4867,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeStrongBinder(Landroid/os/IBinder;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeStrongBinder(Landroid/os/IBinder;)V
 
     return-void
 .end method
@@ -4501,10 +4884,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeStrongInterface(Landroid/os/IInterface;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeStrongInterface(Landroid/os/IInterface;)V
 
     return-void
 .end method
@@ -4523,7 +4908,8 @@ return-object p1
 
     .line 1
     :try_start_0
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -4531,7 +4917,8 @@ return-object p1
     move-result-object v0
 
     .line 5
-    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;->getWriteMethod(Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-direct {p0, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->getWriteMethod(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 6
     .line 7
@@ -4563,7 +4950,8 @@ return-object p1
     const/4 p1, 0x0
 
     .line 19
-    invoke-virtual {v0, p1, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_3
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_2
@@ -4608,7 +4996,8 @@ return-object p1
 
     .line 34
     .line 35
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 36
     .line 37
@@ -4625,7 +5014,8 @@ return-object p1
 
     .line 42
     .line 43
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 44
     .line 45
@@ -4634,7 +5024,8 @@ return-object p1
 
     .line 47
     :goto_2
-    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 48
     .line 49
@@ -4650,7 +5041,8 @@ return-object p1
 
     .line 54
     .line 55
-    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;
+    ->getCause()Ljava/lang/Throwable;
 
     .line 56
     .line 57
@@ -4674,7 +5066,8 @@ return-object p1
 
     .line 65
     .line 66
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 67
     .line 68
@@ -4691,7 +5084,8 @@ return-object p1
 
     .line 73
     .line 74
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
+    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 75
     .line 76
@@ -4706,24 +5100,29 @@ return-object p1
     const/4 p1, 0x0
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeString(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeString(Ljava/lang/String;)V
 
     return-void
 
     .line 4
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeVersionedParcelableCreator(Landroidx/versionedparcelable/VersionedParcelable;)V
+    invoke-direct {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeVersionedParcelableCreator(Landroidx/versionedparcelable/VersionedParcelable;)V
 
     .line 5
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->createSubParcel()Landroidx/versionedparcelable/VersionedParcel;
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->createSubParcel()Landroidx/versionedparcelable/VersionedParcel;
 
     move-result-object v0
 
     .line 6
-    invoke-virtual {p0, p1, v0}, Landroidx/versionedparcelable/VersionedParcel;->writeToParcel(Landroidx/versionedparcelable/VersionedParcelable;Landroidx/versionedparcelable/VersionedParcel;)V
+    invoke-virtual {p0, p1, v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeToParcel(Landroidx/versionedparcelable/VersionedParcelable;Landroidx/versionedparcelable/VersionedParcel;)V
 
     .line 7
-    invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcel;->closeField()V
+    invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcel;
+    ->closeField()V
     return-void
 .end method
 
@@ -4731,10 +5130,12 @@ return-object p1
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->setOutputField(I)V
+    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;
+    ->setOutputField(I)V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V
+    invoke-virtual {p0, p1}, Landroidx/versionedparcelable/VersionedParcel;
+    ->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V
 
     return-void
 .end method

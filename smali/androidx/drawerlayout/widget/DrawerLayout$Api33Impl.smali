@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,7 +41,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;->findOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
+    invoke-virtual {p0}, Landroid/view/ViewGroup;
+    ->findOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
 
     .line 2
     .line 3
@@ -63,7 +65,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -72,7 +75,8 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/appcompat/widget/c;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v0, p0}, Landroidx/appcompat/widget/c;
+    -><init>(Ljava/lang/Runnable;)V
     return-object v0
 .end method
 
@@ -103,7 +107,8 @@
 
     .line 7
     .line 8
-    invoke-interface {p0, v0, p1}, Landroid/window/OnBackInvokedDispatcher;->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p0, v0, p1}, Landroid/window/OnBackInvokedDispatcher;
+    ->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 
@@ -129,7 +134,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-interface {p0, p1}, Landroid/window/OnBackInvokedDispatcher;->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p0, p1}, Landroid/window/OnBackInvokedDispatcher;
+    ->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 

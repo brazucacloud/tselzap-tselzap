@@ -34,12 +34,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzat;->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zza:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -47,16 +49,19 @@
 
     .line 7
     .line 8
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzat;->zzb:Ljava/util/ArrayList;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zzb:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {p1, p2}, Ljava/util/ArrayList;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 14
     .line 15
@@ -100,7 +105,8 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzat;->zza:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zza:Ljava/lang/String;
 
     .line 14
     .line 15
@@ -108,11 +114,13 @@
 
     .line 16
     .line 17
-    iget-object v3, p1, Lcom/google/android/gms/internal/measurement/zzat;->zza:Ljava/lang/String;
+    iget-object v3, p1, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zza:Ljava/lang/String;
 
     .line 18
     .line 19
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -128,7 +136,8 @@
 
     .line 26
     :cond_2
-    iget-object v1, p1, Lcom/google/android/gms/internal/measurement/zzat;->zza:Ljava/lang/String;
+    iget-object v1, p1, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zza:Ljava/lang/String;
 
     .line 27
     .line 28
@@ -141,11 +150,13 @@
 
     .line 31
     :cond_3
-    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzat;->zzb:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zzb:Ljava/util/ArrayList;
 
     .line 32
     .line 33
-    iget-object p1, p1, Lcom/google/android/gms/internal/measurement/zzat;->zzb:Ljava/util/ArrayList;
+    iget-object p1, p1, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zzb:Ljava/util/ArrayList;
 
     .line 34
     .line 35
@@ -153,7 +164,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -179,7 +191,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzat;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zza:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -190,7 +203,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 7
     .line 8
@@ -210,7 +224,8 @@
 
     .line 13
     .line 14
-    iget-object v2, p0, Lcom/google/android/gms/internal/measurement/zzat;->zzb:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zzb:Ljava/util/ArrayList;
 
     .line 15
     .line 16
@@ -218,7 +233,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {v2}, Ljava/util/ArrayList;->hashCode()I
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->hashCode()I
 
     .line 19
     .line 20
@@ -251,7 +267,8 @@
 
     const-string p2, "Statement is not an evaluated entity"
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -260,7 +277,8 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzat;->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zza:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -277,7 +295,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzat;->zzb:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzat;
+    ->zzb:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -302,7 +321,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -336,7 +356,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -370,7 +391,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/ActivityChooserView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    value = Landroidx/appcompat/widget/ActivityChooserView;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +24,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserView$3;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserView$3;
+    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/view/View$AccessibilityDelegate;-><init>()V
+    invoke-direct {p0}, Landroid/view/View$AccessibilityDelegate;
+    -><init>()V
     return-void
 .end method
 
@@ -37,12 +40,14 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View$AccessibilityDelegate;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
+    invoke-super {p0, p1, p2}, Landroid/view/View$AccessibilityDelegate;
+    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 5
     .line 6
@@ -53,7 +58,8 @@
     const/4 p2, 0x1
 
     .line 9
-    invoke-virtual {p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCanOpenPopup(Z)V
+    invoke-virtual {p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    ->setCanOpenPopup(Z)V
 return-void
 .end method
 

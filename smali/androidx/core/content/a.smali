@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getTraversalAfter()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getTraversalAfter()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     move-result-object p0
 
@@ -30,7 +31,8 @@
     .line 1
     const-string v0, "extraLongLived"
 
-    invoke-virtual {p0, v0, p1}, Landroid/os/PersistableBundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/PersistableBundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 return-void
 .end method
 
@@ -38,7 +40,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTraversalAfter(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setTraversalAfter(Landroid/view/View;)V
 
     return-void
 .end method
@@ -47,7 +50,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTraversalAfter(Landroid/view/View;I)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setTraversalAfter(Landroid/view/View;I)V
 
     return-void
 .end method
@@ -58,7 +62,8 @@ return-void
     .line 1
     const-string v0, "extraLongLived"
 
-    invoke-virtual {p0, v0}, Landroid/os/PersistableBundle;->getBoolean(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/os/PersistableBundle;
+    ->getBoolean(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -69,7 +74,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->getTraversalBefore()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->getTraversalBefore()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     move-result-object p0
 
@@ -80,7 +86,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTraversalBefore(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setTraversalBefore(Landroid/view/View;)V
 
     return-void
 .end method
@@ -89,7 +96,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTraversalBefore(Landroid/view/View;I)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityNodeInfo;
+    ->setTraversalBefore(Landroid/view/View;I)V
 
     return-void
 .end method

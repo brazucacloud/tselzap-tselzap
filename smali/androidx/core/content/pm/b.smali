@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->getMaxShortcutCountPerActivity()I
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->getMaxShortcutCountPerActivity()I
 
     move-result p0
 
@@ -46,7 +47,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->getDynamicShortcuts()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->getDynamicShortcuts()Ljava/util/List;
 
     move-result-object p0
 
@@ -57,7 +59,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->removeAllDynamicShortcuts()V
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->removeAllDynamicShortcuts()V
     return-void
 .end method
 
@@ -65,7 +68,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->reportShortcutUsed(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->reportShortcutUsed(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -73,7 +77,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->enableShortcuts(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->enableShortcuts(Ljava/util/List;)V
 return-void
 .end method
 
@@ -81,7 +86,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->removeDynamicShortcuts(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->removeDynamicShortcuts(Ljava/util/List;)V
 return-void
 .end method
 
@@ -89,7 +95,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/content/pm/ShortcutManager;->disableShortcuts(Ljava/util/List;Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1, p2}, Landroid/content/pm/ShortcutManager;
+    ->disableShortcuts(Ljava/util/List;Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -97,7 +104,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroid/view/inputmethod/EditorInfo;->contentMimeTypes:[Ljava/lang/String;
+    iput-object p1, p0, Landroid/view/inputmethod/EditorInfo;
+    ->contentMimeTypes:[Ljava/lang/String;
 
     return-void
 .end method
@@ -106,7 +114,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->hasKeyFieldsOnly()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
+    ->hasKeyFieldsOnly()Z
 
     move-result p0
 
@@ -117,7 +126,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->isRateLimitingActive()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->isRateLimitingActive()Z
 
     move-result p0
 
@@ -128,7 +138,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->updateShortcuts(Ljava/util/List;)Z
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->updateShortcuts(Ljava/util/List;)Z
 
     move-result p0
 
@@ -139,7 +150,8 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroid/view/inputmethod/EditorInfo;->contentMimeTypes:[Ljava/lang/String;
+    iget-object p0, p0, Landroid/view/inputmethod/EditorInfo;
+    ->contentMimeTypes:[Ljava/lang/String;
 
     return-object p0
 .end method
@@ -148,7 +160,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->getIconMaxHeight()I
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->getIconMaxHeight()I
 
     move-result p0
 
@@ -159,7 +172,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->getManifestShortcuts()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->getManifestShortcuts()Ljava/util/List;
 
     move-result-object p0
 
@@ -170,7 +184,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->addDynamicShortcuts(Ljava/util/List;)Z
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->addDynamicShortcuts(Ljava/util/List;)Z
 
     return-void
 .end method
@@ -179,7 +194,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->setDynamicShortcuts(Ljava/util/List;)Z
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->setDynamicShortcuts(Ljava/util/List;)Z
 
     move-result p0
 
@@ -190,7 +206,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->getIconMaxWidth()I
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->getIconMaxWidth()I
 
     move-result p0
 
@@ -201,7 +218,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->getPinnedShortcuts()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;
+    ->getPinnedShortcuts()Ljava/util/List;
 
     move-result-object p0
 
@@ -212,7 +230,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->addDynamicShortcuts(Ljava/util/List;)Z
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;
+    ->addDynamicShortcuts(Ljava/util/List;)Z
 
     move-result p0
 

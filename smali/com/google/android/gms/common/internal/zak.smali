@@ -34,7 +34,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -43,12 +44,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 10
     .line 11
@@ -56,12 +59,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zaa:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaa:Ljava/util/ArrayList;
 
     .line 17
     .line 18
@@ -69,19 +74,22 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 24
     .line 25
     const/4 v0, 0x0
 
     .line 26
-    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 
     .line 27
     .line 28
@@ -89,16 +97,19 @@
 
     .line 29
     .line 30
-    invoke-direct {v1, v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+    invoke-direct {v1, v0}, Ljava/util/concurrent/atomic/AtomicInteger;
+    -><init>(I)V
 
     .line 31
     .line 32
     .line 33
-    iput-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iput-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 34
     .line 35
-    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 36
     .line 37
@@ -106,16 +117,19 @@
 
     .line 38
     .line 39
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 40
     .line 41
     .line 42
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 43
     .line 44
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/zak;->zab:Lcom/google/android/gms/common/internal/zaj;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zab:Lcom/google/android/gms/common/internal/zaj;
 
     .line 45
     .line 46
@@ -123,12 +137,14 @@
 
     .line 47
     .line 48
-    invoke-direct {p2, p1, p0}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
+    invoke-direct {p2, p1, p0}, Lcom/google/android/gms/internal/base/zau;
+    -><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
 
     .line 49
     .line 50
     .line 51
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 52
     .line 53
@@ -141,7 +157,8 @@
     .locals 3
 
     .line 1
-    iget v0, p1, Landroid/os/Message;->what:I
+    iget v0, p1, Landroid/os/Message;
+    ->what:I
 
     .line 2
     .line 3
@@ -152,7 +169,8 @@
 
     .line 5
     .line 6
-    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;
+    ->obj:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -160,7 +178,8 @@
 
     .line 9
     .line 10
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -168,7 +187,8 @@
 
     .line 13
     :try_start_0
-    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 
     .line 14
     .line 15
@@ -176,11 +196,13 @@
 
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zab:Lcom/google/android/gms/common/internal/zaj;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zab:Lcom/google/android/gms/common/internal/zaj;
 
     .line 18
     .line 19
-    invoke-interface {v0}, Lcom/google/android/gms/common/internal/zaj;->isConnected()Z
+    invoke-interface {v0}, Lcom/google/android/gms/common/internal/zaj;
+    ->isConnected()Z
 
     .line 20
     .line 21
@@ -192,11 +214,13 @@
 
     .line 24
     .line 25
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 26
     .line 27
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -211,7 +235,8 @@
     const/4 v0, 0x0
 
     .line 34
-    invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnected(Landroid/os/Bundle;)V
+    invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    ->onConnected(Landroid/os/Bundle;)V
 
     .line 35
     .line 36
@@ -247,7 +272,8 @@
 
     .line 45
     .line 46
-    invoke-static {v0, p1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, LA/d;
+    ->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 47
     .line 48
@@ -259,7 +285,8 @@
 
     .line 51
     .line 52
-    invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Exception;
+    -><init>()V
 
     .line 53
     .line 54
@@ -268,7 +295,8 @@
 
     .line 56
     .line 57
-    invoke-static {v1, p1, v0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, p1, v0}, Landroid/util/Log;
+    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 58
     .line 59
@@ -285,15 +313,18 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->incrementAndGet()I
 
     .line 7
     .line 8
@@ -306,7 +337,8 @@
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 return-void
 .end method
 
@@ -316,7 +348,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -324,24 +357,28 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkHandlerThread(Landroid/os/Handler;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkHandlerThread(Landroid/os/Handler;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 9
     .line 10
     const/4 v1, 0x1
 
     .line 11
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;
+    ->removeMessages(I)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -353,20 +390,24 @@ return-void
 
     .line 18
     .line 19
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 20
     .line 21
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 22
     .line 23
     .line 24
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 25
     .line 26
-    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->get()I
 
     .line 27
     .line 28
@@ -374,7 +415,8 @@ return-void
     move-result v2
 
     .line 30
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 31
     .line 32
@@ -384,7 +426,8 @@ return-void
     .line 34
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 35
     .line 36
@@ -396,7 +439,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -408,7 +452,8 @@ return-void
 
     .line 45
     .line 46
-    iget-boolean v4, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iget-boolean v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 
     .line 47
     .line 48
@@ -416,11 +461,13 @@ return-void
 
     .line 49
     .line 50
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 51
     .line 52
-    invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+    invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->get()I
 
     .line 53
     .line 54
@@ -436,11 +483,13 @@ return-void
 
     .line 59
     :cond_1
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 60
     .line 61
-    invoke-virtual {v4, v3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 62
     .line 63
@@ -452,7 +501,8 @@ return-void
 
     .line 66
     .line 67
-    invoke-interface {v3, p1}, Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;->onConnectionFailed(Lcom/google/android/gms/common/ConnectionResult;)V
+    invoke-interface {v3, p1}, Lcom/google/android/gms/common/api/internal/OnConnectionFailedListener;
+    ->onConnectionFailed(Lcom/google/android/gms/common/ConnectionResult;)V
 
     .line 68
     .line 69
@@ -505,7 +555,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -513,12 +564,14 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkHandlerThread(Landroid/os/Handler;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkHandlerThread(Landroid/os/Handler;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -526,7 +579,8 @@ return-void
 
     .line 11
     :try_start_0
-    iget-boolean v1, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iget-boolean v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 12
     .line 13
@@ -536,29 +590,35 @@ return-void
     xor-int/2addr v1, v2
 
     .line 15
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkState(Z)V
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkState(Z)V
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 19
     .line 20
-    invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
+    invoke-virtual {v1, v2}, Landroid/os/Handler;
+    ->removeMessages(I)V
 
     .line 21
     .line 22
     .line 23
-    iput-boolean v2, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iput-boolean v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 24
     .line 25
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zaa:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaa:Ljava/util/ArrayList;
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 28
     .line 29
@@ -566,7 +626,8 @@ return-void
     move-result v1
 
     .line 31
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkState(Z)V
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkState(Z)V
 
     .line 32
     .line 33
@@ -575,20 +636,24 @@ return-void
 
     .line 35
     .line 36
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 37
     .line 38
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 39
     .line 40
     .line 41
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 42
     .line 43
-    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->get()I
 
     .line 44
     .line 45
@@ -596,7 +661,8 @@ return-void
     move-result v2
 
     .line 47
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 48
     .line 49
@@ -606,7 +672,8 @@ return-void
     .line 51
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 52
     .line 53
@@ -618,7 +685,8 @@ return-void
 
     .line 56
     .line 57
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -630,7 +698,8 @@ return-void
 
     .line 62
     .line 63
-    iget-boolean v4, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iget-boolean v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 
     .line 64
     .line 65
@@ -638,11 +707,13 @@ return-void
 
     .line 66
     .line 67
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zab:Lcom/google/android/gms/common/internal/zaj;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zab:Lcom/google/android/gms/common/internal/zaj;
 
     .line 68
     .line 69
-    invoke-interface {v4}, Lcom/google/android/gms/common/internal/zaj;->isConnected()Z
+    invoke-interface {v4}, Lcom/google/android/gms/common/internal/zaj;
+    ->isConnected()Z
 
     .line 70
     .line 71
@@ -654,11 +725,13 @@ return-void
 
     .line 74
     .line 75
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 76
     .line 77
-    invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+    invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->get()I
 
     .line 78
     .line 79
@@ -674,11 +747,13 @@ return-void
 
     .line 84
     :cond_1
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zaa:Ljava/util/ArrayList;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaa:Ljava/util/ArrayList;
 
     .line 85
     .line 86
-    invoke-virtual {v4, v3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 87
     .line 88
@@ -690,7 +765,8 @@ return-void
 
     .line 91
     .line 92
-    invoke-interface {v3, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnected(Landroid/os/Bundle;)V
+    invoke-interface {v3, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    ->onConnected(Landroid/os/Bundle;)V
 
     .line 93
     .line 94
@@ -707,11 +783,13 @@ return-void
     .line 98
     :cond_2
     :goto_1
-    iget-object p1, p0, Lcom/google/android/gms/common/internal/zak;->zaa:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaa:Ljava/util/ArrayList;
 
     .line 99
     .line 100
-    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->clear()V
 
     .line 101
     .line 102
@@ -719,7 +797,8 @@ return-void
     const/4 p1, 0x0
 
     .line 104
-    iput-boolean p1, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 105
     .line 106
@@ -877,7 +956,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -885,24 +965,28 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkHandlerThread(Landroid/os/Handler;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkHandlerThread(Landroid/os/Handler;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 9
     .line 10
     const/4 v1, 0x1
 
     .line 11
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;
+    ->removeMessages(I)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -910,7 +994,8 @@ return-void
 
     .line 17
     :try_start_0
-    iput-boolean v1, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iput-boolean v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 18
     .line 19
@@ -918,20 +1003,24 @@ return-void
 
     .line 20
     .line 21
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 24
     .line 25
     .line 26
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 27
     .line 28
-    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->get()I
 
     .line 29
     .line 30
@@ -939,7 +1028,8 @@ return-void
     move-result v2
 
     .line 32
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 33
     .line 34
@@ -949,7 +1039,8 @@ return-void
     .line 36
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 37
     .line 38
@@ -961,7 +1052,8 @@ return-void
 
     .line 41
     .line 42
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -973,7 +1065,8 @@ return-void
 
     .line 47
     .line 48
-    iget-boolean v4, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
+    iget-boolean v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zae:Z
 
     .line 49
     .line 50
@@ -981,11 +1074,13 @@ return-void
 
     .line 51
     .line 52
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaf:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 53
     .line 54
-    invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+    invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->get()I
 
     .line 55
     .line 56
@@ -1001,11 +1096,13 @@ return-void
 
     .line 61
     :cond_1
-    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v4, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 62
     .line 63
-    invoke-virtual {v4, v3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 64
     .line 65
@@ -1017,7 +1114,8 @@ return-void
 
     .line 68
     .line 69
-    invoke-interface {v3, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnectionSuspended(I)V
+    invoke-interface {v3, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
+    ->onConnectionSuspended(I)V
 
     .line 70
     .line 71
@@ -1034,11 +1132,13 @@ return-void
     .line 75
     :cond_2
     :goto_1
-    iget-object p1, p0, Lcom/google/android/gms/common/internal/zak;->zaa:Ljava/util/ArrayList;
+    iget-object p1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaa:Ljava/util/ArrayList;
 
     .line 76
     .line 77
-    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {p1}, Ljava/util/ArrayList;
+    ->clear()V
 
     .line 78
     .line 79
@@ -1046,7 +1146,8 @@ return-void
     const/4 p1, 0x0
 
     .line 81
-    iput-boolean p1, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 82
     .line 83
@@ -1229,12 +1330,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1242,11 +1345,13 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 10
     .line 11
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -1262,7 +1367,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1274,12 +1380,14 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -1288,12 +1396,14 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -1301,7 +1411,8 @@ return-void
     move-result-object v0
 
     .line 40
-    invoke-static {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -1317,11 +1428,13 @@ return-void
 
     .line 46
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 47
     .line 48
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -1332,11 +1445,13 @@ return-void
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 52
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zab:Lcom/google/android/gms/common/internal/zaj;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zab:Lcom/google/android/gms/common/internal/zaj;
 
     .line 53
     .line 54
-    invoke-interface {v0}, Lcom/google/android/gms/common/internal/zaj;->isConnected()Z
+    invoke-interface {v0}, Lcom/google/android/gms/common/internal/zaj;
+    ->isConnected()Z
 
     .line 55
     .line 56
@@ -1348,14 +1463,16 @@ return-void
 
     .line 59
     .line 60
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zah:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zah:Landroid/os/Handler;
 
     .line 61
     .line 62
     const/4 v1, 0x1
 
     .line 63
-    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;
+    ->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     .line 64
     .line 65
@@ -1363,7 +1480,8 @@ return-void
     move-result-object p1
 
     .line 67
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
+    invoke-virtual {v0, p1}, Landroid/os/Handler;
+    ->sendMessage(Landroid/os/Message;)Z
 
     .line 68
     .line 69
@@ -1402,12 +1520,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1415,11 +1535,13 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 10
     .line 11
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -1435,7 +1557,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1447,12 +1570,14 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -1461,12 +1586,14 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -1474,7 +1601,8 @@ return-void
     move-result-object p1
 
     .line 40
-    invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -1490,11 +1618,13 @@ return-void
 
     .line 46
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 47
     .line 48
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -1552,12 +1682,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1565,11 +1697,13 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 10
     .line 11
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -1585,7 +1719,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1597,12 +1732,14 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -1611,12 +1748,14 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -1624,7 +1763,8 @@ return-void
     move-result-object p1
 
     .line 40
-    invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -1640,7 +1780,8 @@ return-void
 
     .line 46
     :cond_0
-    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zag:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zag:Z
 
     .line 47
     .line 48
@@ -1648,11 +1789,13 @@ return-void
 
     .line 49
     .line 50
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zaa:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zaa:Ljava/util/ArrayList;
 
     .line 51
     .line 52
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 53
     .line 54
@@ -1707,12 +1850,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1720,11 +1865,13 @@ return-void
 
     .line 9
     :try_start_0
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 10
     .line 11
-    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -1740,7 +1887,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1752,12 +1900,14 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -1766,12 +1916,14 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -1779,7 +1931,8 @@ return-void
     move-result-object p1
 
     .line 40
-    invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, p1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -1849,12 +2002,14 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -1862,11 +2017,13 @@ return-void
 
     .line 7
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zac:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zac:Ljava/util/ArrayList;
 
     .line 8
     .line 9
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -1905,12 +2062,14 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;->zai:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zai:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -1918,11 +2077,13 @@ return-void
 
     .line 7
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;->zad:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zak;
+    ->zad:Ljava/util/ArrayList;
 
     .line 8
     .line 9
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 10
     .line 11

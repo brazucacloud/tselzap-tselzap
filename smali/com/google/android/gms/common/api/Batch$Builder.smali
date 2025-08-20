@@ -29,7 +29,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -38,16 +39,19 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/common/api/Batch$Builder;->zaa:Ljava/util/List;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/Batch$Builder;
+    ->zaa:Ljava/util/List;
 
     .line 10
     .line 11
-    iput-object p1, p0, Lcom/google/android/gms/common/api/Batch$Builder;->zab:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/Batch$Builder;
+    ->zab:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     .line 12
     .line 13
@@ -85,11 +89,13 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/common/api/Batch$Builder;->zaa:Ljava/util/List;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/Batch$Builder;
+    ->zaa:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v1}, Ljava/util/List;->size()I
+    invoke-interface {v1}, Ljava/util/List;
+    ->size()I
 
     .line 6
     .line 7
@@ -97,16 +103,19 @@
     move-result v1
 
     .line 9
-    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/BatchResultToken;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/BatchResultToken;
+    -><init>(I)V
 
     .line 10
     .line 11
     .line 12
-    iget-object v1, p0, Lcom/google/android/gms/common/api/Batch$Builder;->zaa:Ljava/util/List;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/Batch$Builder;
+    ->zaa:Ljava/util/List;
 
     .line 13
     .line 14
-    invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -124,18 +133,21 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/common/api/Batch$Builder;->zaa:Ljava/util/List;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/Batch$Builder;
+    ->zaa:Ljava/util/List;
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/google/android/gms/common/api/Batch$Builder;->zab:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v2, p0, Lcom/google/android/gms/common/api/Batch$Builder;
+    ->zab:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     .line 6
     .line 7
     const/4 v3, 0x0
 
     .line 8
-    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/common/api/Batch;-><init>(Ljava/util/List;Lcom/google/android/gms/common/api/GoogleApiClient;Lcom/google/android/gms/common/api/zac;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/common/api/Batch;
+    -><init>(Ljava/util/List;Lcom/google/android/gms/common/api/GoogleApiClient;Lcom/google/android/gms/common/api/zac;)V
 
     .line 9
     .line 10

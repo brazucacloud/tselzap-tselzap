@@ -21,35 +21,42 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroid/view/View;
+    -><init>(Landroid/content/Context;)V
 
     const/4 p1, -0x1
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     const/4 p1, 0x0
 
     .line 3
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 4
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     const/16 p1, 0x8
 
     .line 6
-    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;
+    ->setVisibility(I)V
 
     const/4 p1, 0x0
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->init(Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -57,33 +64,40 @@ return-void
     .locals 0
 
     .line 8
-    invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroid/view/View;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, -0x1
 
     .line 9
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     const/4 p1, 0x0
 
     .line 10
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 11
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     const/4 p1, 0x1
 
     .line 12
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     const/16 p1, 0x8
 
     .line 13
-    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 14
-    invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->init(Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -91,33 +105,40 @@ return-void
     .locals 0
 
     .line 15
-    invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroid/view/View;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, -0x1
 
     .line 16
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     const/4 p1, 0x0
 
     .line 17
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 18
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     const/4 p1, 0x1
 
     .line 19
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     const/16 p1, 0x8
 
     .line 20
-    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 21
-    invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->init(Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -125,33 +146,40 @@ return-void
     .locals 0
 
     .line 22
-    invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroid/view/View;
+    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, -0x1
 
     .line 23
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     const/4 p1, 0x0
 
     .line 24
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 25
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     const/4 p1, 0x1
 
     .line 26
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     const/16 p1, 0x8
 
     .line 27
-    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 28
-    invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->init(Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -159,7 +187,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p3, p4}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
+    invoke-virtual {p3, p4}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
 
     .line 2
     .line 3
@@ -167,12 +196,14 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->setGuidelineEnd(II)V
+    invoke-virtual {v0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet;
+    ->setGuidelineEnd(II)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p3, p4, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V
+    invoke-virtual {p3, p4, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V
 return-void
 .end method
 
@@ -184,7 +215,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -192,11 +224,13 @@ return-void
     move-result-object v0
 
     .line 7
-    sget-object v1, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_ReactiveGuide:[I
+    sget-object v1, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_ReactiveGuide:[I
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 10
     .line 11
@@ -204,7 +238,8 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->getIndexCount()I
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;
+    ->getIndexCount()I
 
     .line 14
     .line 15
@@ -220,7 +255,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p1, v1}, Landroid/content/res/TypedArray;->getIndex(I)I
+    invoke-virtual {p1, v1}, Landroid/content/res/TypedArray;
+    ->getIndex(I)I
 
     .line 21
     .line 22
@@ -228,7 +264,8 @@ return-void
     move-result v2
 
     .line 24
-    sget v3, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_ReactiveGuide_reactiveGuide_valueId:I
+    sget v3, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_ReactiveGuide_reactiveGuide_valueId:I
 
     .line 25
     .line 26
@@ -236,11 +273,13 @@ return-void
 
     .line 27
     .line 28
-    iget v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iget v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     .line 29
     .line 30
-    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
+    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;
+    ->getResourceId(II)I
 
     .line 31
     .line 32
@@ -248,7 +287,8 @@ return-void
     move-result v2
 
     .line 34
-    iput v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iput v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     .line 35
     .line 36
@@ -256,7 +296,8 @@ return-void
 
     .line 37
     :cond_0
-    sget v3, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange:I
+    sget v3, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange:I
 
     .line 38
     .line 39
@@ -264,11 +305,13 @@ return-void
 
     .line 40
     .line 41
-    iget-boolean v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iget-boolean v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 42
     .line 43
-    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 44
     .line 45
@@ -276,7 +319,8 @@ return-void
     move-result v2
 
     .line 47
-    iput-boolean v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iput-boolean v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 48
     .line 49
@@ -284,7 +328,8 @@ return-void
 
     .line 50
     :cond_1
-    sget v3, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_ReactiveGuide_reactiveGuide_applyToConstraintSet:I
+    sget v3, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_ReactiveGuide_reactiveGuide_applyToConstraintSet:I
 
     .line 51
     .line 52
@@ -292,11 +337,13 @@ return-void
 
     .line 53
     .line 54
-    iget v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iget v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     .line 55
     .line 56
-    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
+    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;
+    ->getResourceId(II)I
 
     .line 57
     .line 58
@@ -304,7 +351,8 @@ return-void
     move-result v2
 
     .line 60
-    iput v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iput v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     .line 61
     .line 62
@@ -312,7 +360,8 @@ return-void
 
     .line 63
     :cond_2
-    sget v3, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_ReactiveGuide_reactiveGuide_applyToAllConstraintSets:I
+    sget v3, Landroidx/constraintlayout/widget/R$styleable;
+    ->ConstraintLayout_ReactiveGuide_reactiveGuide_applyToAllConstraintSets:I
 
     .line 64
     .line 65
@@ -320,11 +369,13 @@ return-void
 
     .line 66
     .line 67
-    iget-boolean v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iget-boolean v3, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     .line 68
     .line 69
-    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+    invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;
+    ->getBoolean(IZ)Z
 
     .line 70
     .line 71
@@ -332,7 +383,8 @@ return-void
     move-result v2
 
     .line 73
-    iput-boolean v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iput-boolean v2, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     .line 74
     .line 75
@@ -346,13 +398,15 @@ return-void
 
     .line 78
     :cond_4
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;
+    ->recycle()V
 
     .line 79
     .line 80
     .line 81
     :cond_5
-    iget p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iget p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     .line 82
     .line 83
@@ -363,7 +417,8 @@ return-void
 
     .line 85
     .line 86
-    invoke-static {}, Landroidx/constraintlayout/widget/ConstraintLayout;->getSharedValues()Landroidx/constraintlayout/widget/SharedValues;
+    invoke-static {}, Landroidx/constraintlayout/widget/ConstraintLayout;
+    ->getSharedValues()Landroidx/constraintlayout/widget/SharedValues;
 
     .line 87
     .line 88
@@ -371,11 +426,13 @@ return-void
     move-result-object p1
 
     .line 90
-    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     .line 91
     .line 92
-    invoke-virtual {p1, v0, p0}, Landroidx/constraintlayout/widget/SharedValues;->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
+    invoke-virtual {p1, v0, p0}, Landroidx/constraintlayout/widget/SharedValues;
+    ->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
 
     .line 93
     .line 94
@@ -405,21 +462,24 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I    return v0
 .end method
 
 .method public getAttributeId()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I    return v0
 .end method
 
 .method public isAnimatingChange()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z    return v0
+    iget-boolean v0, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z    return v0
 .end method
 
 .method public onMeasure(II)V
@@ -429,19 +489,23 @@ return-void
     const/4 p1, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, p1}, Landroid/view/View;->setMeasuredDimension(II)V    return-void
+    invoke-virtual {p0, p1, p1}, Landroid/view/View;
+    ->setMeasuredDimension(II)V    
+    return-void
 .end method
 
 .method public onNewValue(III)V
     .locals 4
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->setGuidelineBegin(I)V
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->setGuidelineBegin(I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;->getId()I
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getId()I
 
     .line 5
     .line 6
@@ -457,7 +521,8 @@ return-void
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 12
     .line 13
@@ -473,7 +538,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 20
     .line 21
@@ -485,7 +551,8 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p3}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getCurrentState()I
+    invoke-virtual {p3}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getCurrentState()I
 
     .line 26
     .line 27
@@ -493,7 +560,8 @@ return-void
     move-result v0
 
     .line 29
-    iget v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I
+    iget v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I
 
     .line 30
     .line 31
@@ -505,7 +573,8 @@ return-void
 
     .line 34
     :cond_1
-    iget-boolean v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iget-boolean v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 
     .line 35
     .line 36
@@ -516,7 +585,8 @@ return-void
 
     .line 38
     .line 39
-    iget-boolean v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iget-boolean v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     .line 40
     .line 41
@@ -524,7 +594,8 @@ return-void
 
     .line 42
     .line 43
-    invoke-virtual {p3}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getConstraintSetIds()[I
+    invoke-virtual {p3}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getConstraintSetIds()[I
 
     .line 44
     .line 45
@@ -548,7 +619,8 @@ return-void
 
     .line 53
     .line 54
-    invoke-direct {p0, p2, p1, p3, v3}, Landroidx/constraintlayout/widget/ReactiveGuide;->changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
+    invoke-direct {p0, p2, p1, p3, v3}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
 
     .line 55
     .line 56
@@ -562,7 +634,8 @@ return-void
 
     .line 60
     :cond_3
-    invoke-virtual {p3, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->cloneConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
+    invoke-virtual {p3, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->cloneConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
 
     .line 61
     .line 62
@@ -570,7 +643,8 @@ return-void
     move-result-object v1
 
     .line 64
-    invoke-virtual {v1, p1, p2}, Landroidx/constraintlayout/widget/ConstraintSet;->setGuidelineEnd(II)V
+    invoke-virtual {v1, p1, p2}, Landroidx/constraintlayout/widget/ConstraintSet;
+    ->setGuidelineEnd(II)V
 
     .line 65
     .line 66
@@ -579,12 +653,14 @@ return-void
 
     .line 68
     .line 69
-    invoke-virtual {p3, v0, v1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V
+    invoke-virtual {p3, v0, v1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V
 return-void
 
     .line 73
     :cond_4
-    iget-boolean v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToAllConstraintSets:Z
+    iget-boolean v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToAllConstraintSets:Z
 
     .line 74
     .line 75
@@ -592,7 +668,8 @@ return-void
 
     .line 76
     .line 77
-    invoke-virtual {p3}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getConstraintSetIds()[I
+    invoke-virtual {p3}, Landroidx/constraintlayout/motion/widget/MotionLayout;
+    ->getConstraintSetIds()[I
 
     .line 78
     .line 79
@@ -612,7 +689,8 @@ return-void
 
     .line 85
     .line 86
-    invoke-direct {p0, p2, p1, p3, v1}, Landroidx/constraintlayout/widget/ReactiveGuide;->changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
+    invoke-direct {p0, p2, p1, p3, v1}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
 
     .line 87
     .line 88
@@ -625,7 +703,8 @@ return-void
 
     .line 92
     :cond_5
-    invoke-direct {p0, p2, p1, p3, v0}, Landroidx/constraintlayout/widget/ReactiveGuide;->changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
+    invoke-direct {p0, p2, p1, p3, v0}, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
 
     .line 93
     .line 94
@@ -639,7 +718,8 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAnimateChange:Z
 return-void
 .end method
 
@@ -647,14 +727,17 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mApplyToConstraintSetId:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mApplyToConstraintSetId:I    
+    return-void
 .end method
 
 .method public setAttributeId(I)V
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/constraintlayout/widget/ConstraintLayout;->getSharedValues()Landroidx/constraintlayout/widget/SharedValues;
+    invoke-static {}, Landroidx/constraintlayout/widget/ConstraintLayout;
+    ->getSharedValues()Landroidx/constraintlayout/widget/SharedValues;
 
     .line 2
     .line 3
@@ -662,7 +745,8 @@ return-void
     move-result-object v0
 
     .line 5
-    iget v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iget v1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     .line 6
     .line 7
@@ -673,13 +757,15 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, p0}, Landroidx/constraintlayout/widget/SharedValues;->removeListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
+    invoke-virtual {v0, v1, p0}, Landroidx/constraintlayout/widget/SharedValues;
+    ->removeListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
 
     .line 11
     .line 12
     .line 13
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAttributeId:I
+    iput p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;
+    ->mAttributeId:I
 
     .line 14
     .line 15
@@ -687,7 +773,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1, p0}, Landroidx/constraintlayout/widget/SharedValues;->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
+    invoke-virtual {v0, p1, p0}, Landroidx/constraintlayout/widget/SharedValues;
+    ->addListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
 
     .line 18
     .line 19
@@ -700,7 +787,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 2
     .line 3
@@ -712,18 +800,22 @@ return-void
 
     .line 6
     .line 7
-    iput p1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->guideBegin:I
+    iput p1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
+    ->guideBegin:I
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    
+    return-void
 .end method
 
 .method public setGuidelineEnd(I)V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 2
     .line 3
@@ -735,18 +827,22 @@ return-void
 
     .line 6
     .line 7
-    iput p1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->guideEnd:I
+    iput p1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
+    ->guideEnd:I
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    
+    return-void
 .end method
 
 .method public setGuidelinePercent(F)V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 2
     .line 3
@@ -758,11 +854,14 @@ return-void
 
     .line 6
     .line 7
-    iput p1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->guidePercent:F
+    iput p1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
+    ->guidePercent:F
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;
+    ->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V    
+    return-void
 .end method
 
 .method public setVisibility(I)V

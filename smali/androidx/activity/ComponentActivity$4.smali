@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity;-><init>()V
+    value = Landroidx/activity/ComponentActivity;
+    -><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ComponentActivity$4;->this$0:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$4;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -48,20 +51,24 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$4;->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$4;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->ensureViewModelStore()V
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;
+    ->ensureViewModelStore()V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$4;->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$4;
+    ->this$0:Landroidx/activity/ComponentActivity;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;
+    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 9
     .line 10
@@ -69,7 +76,8 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;
+    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
     return-void
 .end method
 

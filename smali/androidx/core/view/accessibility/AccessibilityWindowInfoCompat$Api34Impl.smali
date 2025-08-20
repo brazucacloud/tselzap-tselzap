@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getLocales()Landroid/os/LocaleList;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
+    ->getLocales()Landroid/os/LocaleList;
 
     .line 2
     .line 3
@@ -53,7 +55,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getTransitionTimeMillis()J
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
+    ->getTransitionTimeMillis()J
 
     .line 2
     .line 3

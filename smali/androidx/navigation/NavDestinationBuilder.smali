@@ -95,12 +95,14 @@
 
     const-string v0, "navigator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 8
-    invoke-direct {p0, p1, p2, v0}, Landroidx/navigation/NavDestinationBuilder;-><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/navigation/NavDestinationBuilder;
+    -><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
 return-void
 .end method
 
@@ -122,40 +124,51 @@ return-void
 
     const-string v0, "navigator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->navigator:Landroidx/navigation/Navigator;
+    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->navigator:Landroidx/navigation/Navigator;
 
     .line 3
-    iput p2, p0, Landroidx/navigation/NavDestinationBuilder;->id:I
+    iput p2, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->id:I
 
     .line 4
-    iput-object p3, p0, Landroidx/navigation/NavDestinationBuilder;->route:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->route:Ljava/lang/String;
 
     .line 5
     new-instance p1, Ljava/util/LinkedHashMap;
 
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->arguments:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->arguments:Ljava/util/Map;
 
     .line 6
     new-instance p1, Ljava/util/ArrayList;
 
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->deepLinks:Ljava/util/List;
+    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->deepLinks:Ljava/util/List;
 
     .line 7
     new-instance p1, Ljava/util/LinkedHashMap;
 
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->actions:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->actions:Ljava/util/Map;
 
     return-void
 .end method
@@ -174,12 +187,14 @@ return-void
 
     const-string v0, "navigator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, -0x1
 
     .line 9
-    invoke-direct {p0, p1, v0, p2}, Landroidx/navigation/NavDestinationBuilder;-><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
+    invoke-direct {p0, p1, v0, p2}, Landroidx/navigation/NavDestinationBuilder;
+    -><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
 return-void
 .end method
 
@@ -200,20 +215,24 @@ return-void
 
     const-string v0, "navigator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p2, :cond_0
 
     .line 10
-    invoke-static {p2}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p2}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object v0
 
-    invoke-static {v0}, Landroidx/navigation/serialization/RouteSerializerKt;->generateHashCode(LJ1/b;)I
+    invoke-static {v0}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateHashCode(LJ1/b;)I
 
     move-result v0
 
@@ -228,69 +247,82 @@ return-void
     if-eqz p2, :cond_1
 
     .line 11
-    invoke-static {p2}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p2}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object v2
 
     const/4 v3, 0x2
 
-    invoke-static {v2, p3, v1, v3, v1}, Landroidx/navigation/serialization/RouteSerializerKt;->generateRoutePattern$default(LJ1/b;Ljava/util/Map;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2, p3, v1, v3, v1}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateRoutePattern$default(LJ1/b;Ljava/util/Map;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 12
     :cond_1
-    invoke-direct {p0, p1, v0, v1}, Landroidx/navigation/NavDestinationBuilder;-><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1}, Landroidx/navigation/NavDestinationBuilder;
+    -><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
 
     if-eqz p2, :cond_2
 
     .line 13
-    invoke-static {p2}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p2}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object p1
 
-    invoke-static {p1, p3}, Landroidx/navigation/serialization/RouteSerializerKt;->generateNavArguments(LJ1/b;Ljava/util/Map;)Ljava/util/List;
+    invoke-static {p1, p3}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateNavArguments(LJ1/b;Ljava/util/Map;)Ljava/util/List;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
     .line 14
-    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result p2
 
     if-eqz p2, :cond_2
 
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Landroidx/navigation/NamedNavArgument;
 
     .line 15
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->arguments:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->arguments:Ljava/util/Map;
 
-    invoke-virtual {p2}, Landroidx/navigation/NamedNavArgument;->getName()Ljava/lang/String;
+    invoke-virtual {p2}, Landroidx/navigation/NamedNavArgument;
+    ->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p2}, Landroidx/navigation/NamedNavArgument;->getArgument()Landroidx/navigation/NavArgument;
+    invoke-virtual {p2}, Landroidx/navigation/NamedNavArgument;
+    ->getArgument()Landroidx/navigation/NavArgument;
 
     move-result-object p2
 
-    invoke-interface {v0, v1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     .line 16
     :cond_2
-    iput-object p3, p0, Landroidx/navigation/NavDestinationBuilder;->typeMap:Ljava/util/Map;
+    iput-object p3, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->typeMap:Ljava/util/Map;
 
     return-void
 .end method
@@ -312,16 +344,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->actions:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->actions:Ljava/util/Map;
 
     .line 7
     .line 8
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 9
     .line 10
@@ -333,17 +368,20 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {v1}, Landroidx/navigation/NavActionBuilder;-><init>()V
+    invoke-direct {v1}, Landroidx/navigation/NavActionBuilder;
+    -><init>()V
 
     .line 15
     .line 16
     .line 17
-    invoke-interface {p2, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1}, Landroidx/navigation/NavActionBuilder;->build$navigation_common_release()Landroidx/navigation/NavAction;
+    invoke-virtual {v1}, Landroidx/navigation/NavActionBuilder;
+    ->build$navigation_common_release()Landroidx/navigation/NavAction;
 
     .line 21
     .line 22
@@ -351,7 +389,9 @@ return-void
     move-result-object p2
 
     .line 24
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .method public final argument(Ljava/lang/String;Landroidx/navigation/NavArgument;)V
@@ -359,16 +399,20 @@ return-void
 
     const-string v0, "name"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "argument"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->arguments:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->arguments:Ljava/util/Map;
 
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -386,26 +430,33 @@ return-void
 
     const-string v0, "name"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "argumentBuilder"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->arguments:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->arguments:Ljava/util/Map;
 
     new-instance v1, Landroidx/navigation/NavArgumentBuilder;
 
-    invoke-direct {v1}, Landroidx/navigation/NavArgumentBuilder;-><init>()V
+    invoke-direct {v1}, Landroidx/navigation/NavArgumentBuilder;
+    -><init>()V
 
-    invoke-interface {p2, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v1}, Landroidx/navigation/NavArgumentBuilder;->build()Landroidx/navigation/NavArgument;
+    invoke-virtual {v1}, Landroidx/navigation/NavArgumentBuilder;
+    ->build()Landroidx/navigation/NavArgument;
 
     move-result-object p2
 
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -419,7 +470,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavDestinationBuilder;->instantiateDestination()Landroidx/navigation/NavDestination;
+    invoke-virtual {p0}, Landroidx/navigation/NavDestinationBuilder;
+    ->instantiateDestination()Landroidx/navigation/NavDestination;
 
     .line 2
     .line 3
@@ -427,20 +479,24 @@ return-void
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;
+    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->label:Ljava/lang/CharSequence;
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Landroidx/navigation/NavDestination;->setLabel(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroidx/navigation/NavDestination;
+    ->setLabel(Ljava/lang/CharSequence;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;->arguments:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->arguments:Ljava/util/Map;
 
     .line 11
     .line 12
-    invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {v1}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 13
     .line 14
@@ -448,7 +504,8 @@ return-void
     move-result-object v1
 
     .line 16
-    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 17
     .line 18
@@ -457,7 +514,8 @@ return-void
 
     .line 20
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 21
     .line 22
@@ -469,7 +527,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -481,7 +540,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -493,7 +553,8 @@ return-void
 
     .line 37
     .line 38
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -505,7 +566,8 @@ return-void
 
     .line 43
     .line 44
-    invoke-virtual {v0, v3, v2}, Landroidx/navigation/NavDestination;->addArgument(Ljava/lang/String;Landroidx/navigation/NavArgument;)V
+    invoke-virtual {v0, v3, v2}, Landroidx/navigation/NavDestination;
+    ->addArgument(Ljava/lang/String;Landroidx/navigation/NavArgument;)V
 
     .line 45
     .line 46
@@ -514,7 +576,8 @@ return-void
 
     .line 48
     :cond_0
-    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;->deepLinks:Ljava/util/List;
+    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->deepLinks:Ljava/util/List;
 
     .line 49
     .line 50
@@ -522,7 +585,8 @@ return-void
 
     .line 51
     .line 52
-    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 53
     .line 54
@@ -531,7 +595,8 @@ return-void
 
     .line 56
     :goto_1
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 57
     .line 58
@@ -543,7 +608,8 @@ return-void
 
     .line 61
     .line 62
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -555,7 +621,8 @@ return-void
 
     .line 67
     .line 68
-    invoke-virtual {v0, v2}, Landroidx/navigation/NavDestination;->addDeepLink(Landroidx/navigation/NavDeepLink;)V
+    invoke-virtual {v0, v2}, Landroidx/navigation/NavDestination;
+    ->addDeepLink(Landroidx/navigation/NavDeepLink;)V
 
     .line 69
     .line 70
@@ -564,11 +631,13 @@ return-void
 
     .line 72
     :cond_1
-    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;->actions:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->actions:Ljava/util/Map;
 
     .line 73
     .line 74
-    invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {v1}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 75
     .line 76
@@ -576,7 +645,8 @@ return-void
     move-result-object v1
 
     .line 78
-    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 79
     .line 80
@@ -585,7 +655,8 @@ return-void
 
     .line 82
     :goto_2
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 83
     .line 84
@@ -597,7 +668,8 @@ return-void
 
     .line 87
     .line 88
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -609,7 +681,8 @@ return-void
 
     .line 93
     .line 94
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -621,7 +694,8 @@ return-void
 
     .line 99
     .line 100
-    invoke-virtual {v3}, Ljava/lang/Number;->intValue()I
+    invoke-virtual {v3}, Ljava/lang/Number;
+    ->intValue()I
 
     .line 101
     .line 102
@@ -629,7 +703,8 @@ return-void
     move-result v3
 
     .line 104
-    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 105
     .line 106
@@ -641,7 +716,8 @@ return-void
 
     .line 109
     .line 110
-    invoke-virtual {v0, v3, v2}, Landroidx/navigation/NavDestination;->putAction(ILandroidx/navigation/NavAction;)V
+    invoke-virtual {v0, v3, v2}, Landroidx/navigation/NavDestination;
+    ->putAction(ILandroidx/navigation/NavAction;)V
 
     .line 111
     .line 112
@@ -650,7 +726,8 @@ return-void
 
     .line 114
     :cond_2
-    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;->route:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->route:Ljava/lang/String;
 
     .line 115
     .line 116
@@ -658,13 +735,15 @@ return-void
 
     .line 117
     .line 118
-    invoke-virtual {v0, v1}, Landroidx/navigation/NavDestination;->setRoute(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroidx/navigation/NavDestination;
+    ->setRoute(Ljava/lang/String;)V
 
     .line 119
     .line 120
     .line 121
     :cond_3
-    iget v1, p0, Landroidx/navigation/NavDestinationBuilder;->id:I
+    iget v1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->id:I
 
     .line 122
     .line 123
@@ -675,7 +754,8 @@ return-void
 
     .line 125
     .line 126
-    invoke-virtual {v0, v1}, Landroidx/navigation/NavDestination;->setId(I)V
+    invoke-virtual {v0, v1}, Landroidx/navigation/NavDestination;
+    ->setId(I)V
 
     .line 127
     .line 128
@@ -689,12 +769,15 @@ return-void
 
     const-string v0, "navDeepLink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->deepLinks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->deepLinks:Ljava/util/List;
 
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -704,16 +787,20 @@ return-void
 
     const-string v0, "uriPattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->deepLinks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->deepLinks:Ljava/util/List;
 
     new-instance v1, Landroidx/navigation/NavDeepLink;
 
-    invoke-direct {v1, p1}, Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p1}, Landroidx/navigation/NavDeepLink;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -733,14 +820,17 @@ return-void
 
     const-string v0, "basePath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "navDeepLink"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     const/4 p1, 0x0
 
@@ -751,7 +841,8 @@ return-void
     .locals 7
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -769,29 +860,35 @@ return-void
 
     const-string v0, "basePath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "route"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "navDeepLink"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->typeMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->typeMap:Ljava/util/Map;
 
     const-string v1, "Cannot add deeplink from KClass ["
 
     if-eqz v0, :cond_4
 
     .line 5
-    invoke-static {p2}, La/a;->K(Lv1/c;)LJ1/b;
+    invoke-static {p2}, La/a;
+    ->K(Lv1/c;)LJ1/b;
 
     move-result-object v0
 
-    iget-object v2, p0, Landroidx/navigation/NavDestinationBuilder;->typeMap:Ljava/util/Map;
+    iget-object v2, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->typeMap:Ljava/util/Map;
 
     const/4 v3, 0x0
 
@@ -799,7 +896,8 @@ return-void
 
     if-eqz v2, :cond_3
 
-    invoke-static {v0, v2}, Landroidx/navigation/serialization/RouteSerializerKt;->generateNavArguments(LJ1/b;Ljava/util/Map;)Ljava/util/List;
+    invoke-static {v0, v2}, Landroidx/navigation/serialization/RouteSerializerKt;
+    ->generateNavArguments(LJ1/b;Ljava/util/Map;)Ljava/util/List;
 
     move-result-object v0
 
@@ -807,31 +905,37 @@ return-void
     check-cast v0, Ljava/lang/Iterable;
 
     .line 7
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroidx/navigation/NamedNavArgument;
 
     .line 8
-    iget-object v5, p0, Landroidx/navigation/NavDestinationBuilder;->arguments:Ljava/util/Map;
+    iget-object v5, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->arguments:Ljava/util/Map;
 
-    invoke-virtual {v2}, Landroidx/navigation/NamedNavArgument;->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/navigation/NamedNavArgument;
+    ->getName()Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-interface {v5, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v5, v6}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -840,19 +944,23 @@ return-void
     if-eqz v5, :cond_0
 
     .line 9
-    invoke-virtual {v5}, Landroidx/navigation/NavArgument;->getType()Landroidx/navigation/NavType;
+    invoke-virtual {v5}, Landroidx/navigation/NavArgument;
+    ->getType()Landroidx/navigation/NavType;
 
     move-result-object v5
 
-    invoke-virtual {v2}, Landroidx/navigation/NamedNavArgument;->getArgument()Landroidx/navigation/NavArgument;
+    invoke-virtual {v2}, Landroidx/navigation/NamedNavArgument;
+    ->getArgument()Landroidx/navigation/NavArgument;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Landroidx/navigation/NavArgument;->getType()Landroidx/navigation/NavType;
+    invoke-virtual {v6}, Landroidx/navigation/NavArgument;
+    ->getType()Landroidx/navigation/NavType;
 
     move-result-object v6
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v6}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -864,64 +972,78 @@ return-void
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
-    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p2, "]. DeepLink contains unknown argument ["
 
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
-    invoke-virtual {v2}, Landroidx/navigation/NamedNavArgument;->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/navigation/NamedNavArgument;
+    ->getName()Ljava/lang/String;
 
     move-result-object p2
 
     .line 12
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
     const-string p2, "]. Ensure deeplink arguments matches the destination\'s route from KClass"
 
     .line 14
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
     .line 15
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     throw p2
 
     .line 16
     :cond_1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->typeMap:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->typeMap:Ljava/util/Map;
 
     if-eqz v0, :cond_2
 
-    invoke-static {p1, p2, v0, p3}, Landroidx/navigation/NavDeepLinkDslBuilderKt;->navDeepLink(Ljava/lang/String;Lv1/c;Ljava/util/Map;Lp1/l;)Landroidx/navigation/NavDeepLink;
+    invoke-static {p1, p2, v0, p3}, Landroidx/navigation/NavDeepLinkDslBuilderKt;
+    ->navDeepLink(Ljava/lang/String;Lv1/c;Ljava/util/Map;Lp1/l;)Landroidx/navigation/NavDeepLink;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestinationBuilder;->deepLink(Landroidx/navigation/NavDeepLink;)V
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestinationBuilder;
+    ->deepLink(Landroidx/navigation/NavDeepLink;)V
 return-void
 
     :cond_2
-    invoke-static {v4}, Lkotlin/jvm/internal/j;->l(Ljava/lang/String;)V
+    invoke-static {v4}, Lkotlin/jvm/internal/j;
+    ->l(Ljava/lang/String;)V
 
     throw v3
 
     .line 17
     :cond_3
-    invoke-static {v4}, Lkotlin/jvm/internal/j;->l(Ljava/lang/String;)V
+    invoke-static {v4}, Lkotlin/jvm/internal/j;
+    ->l(Ljava/lang/String;)V
 
     throw v3
 
@@ -929,26 +1051,32 @@ return-void
     :cond_4
     new-instance p1, Ljava/lang/StringBuilder;
 
-    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p2, "]. Use the NavDestinationBuilder constructor that takes a KClass with the same arguments."
 
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
     .line 19
     new-instance p2, Ljava/lang/IllegalStateException;
 
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     throw p2
 .end method
@@ -965,22 +1093,28 @@ return-void
 
     const-string v0, "navDeepLink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->deepLinks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->deepLinks:Ljava/util/List;
 
     new-instance v1, Landroidx/navigation/NavDeepLinkDslBuilder;
 
-    invoke-direct {v1}, Landroidx/navigation/NavDeepLinkDslBuilder;-><init>()V
+    invoke-direct {v1}, Landroidx/navigation/NavDeepLinkDslBuilder;
+    -><init>()V
 
-    invoke-interface {p1, v1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v1}, Landroidx/navigation/NavDeepLinkDslBuilder;->build$navigation_common_release()Landroidx/navigation/NavDeepLink;
+    invoke-virtual {v1}, Landroidx/navigation/NavDeepLinkDslBuilder;
+    ->build$navigation_common_release()Landroidx/navigation/NavDeepLink;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -1002,12 +1136,14 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;
+    ->k()V
 
     .line 7
     .line 8
@@ -1021,14 +1157,16 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavDestinationBuilder;->id:I    return v0
+    iget v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->id:I    return v0
 .end method
 
 .method public final getLabel()Ljava/lang/CharSequence;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->label:Ljava/lang/CharSequence;    return-object v0
 .end method
 
 .method public final getNavigator()Landroidx/navigation/Navigator;
@@ -1042,14 +1180,16 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->navigator:Landroidx/navigation/Navigator;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->navigator:Landroidx/navigation/Navigator;    return-object v0
 .end method
 
 .method public final getRoute()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->route:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->route:Ljava/lang/String;    return-object v0
 .end method
 
 .method public instantiateDestination()Landroidx/navigation/NavDestination;
@@ -1061,11 +1201,13 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;->navigator:Landroidx/navigation/Navigator;
+    iget-object v0, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->navigator:Landroidx/navigation/Navigator;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/navigation/Navigator;->createDestination()Landroidx/navigation/NavDestination;
+    invoke-virtual {v0}, Landroidx/navigation/Navigator;
+    ->createDestination()Landroidx/navigation/NavDestination;
 
     .line 4
     .line 5
@@ -1079,7 +1221,9 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;    return-void
+    iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;
+    ->label:Ljava/lang/CharSequence;    
+    return-void
 .end method
 
 .end class

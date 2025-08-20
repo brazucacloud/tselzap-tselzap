@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;
+    -><init>(ILp1/p;Lp1/l;Lp1/r;)V
 
     .line 4
     .line 5
@@ -47,7 +48,8 @@
 
     .line 4
     .line 5
-    sget-object p1, Landroidx/core/util/LruCacheKt$lruCache$1;->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$1;
+    sget-object p1, Landroidx/core/util/LruCacheKt$lruCache$1;
+    ->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$1;
 
     .line 6
     .line 7
@@ -60,7 +62,8 @@
 
     .line 10
     .line 11
-    sget-object p2, Landroidx/core/util/LruCacheKt$lruCache$2;->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$2;
+    sget-object p2, Landroidx/core/util/LruCacheKt$lruCache$2;
+    ->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$2;
 
     .line 12
     .line 13
@@ -73,7 +76,8 @@
 
     .line 16
     .line 17
-    sget-object p3, Landroidx/core/util/LruCacheKt$lruCache$3;->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$3;
+    sget-object p3, Landroidx/core/util/LruCacheKt$lruCache$3;
+    ->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$3;
 
     .line 18
     .line 19
@@ -82,7 +86,8 @@
 
     .line 20
     .line 21
-    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V
+    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;
+    -><init>(ILp1/p;Lp1/l;Lp1/r;)V
 
     .line 22
     .line 23

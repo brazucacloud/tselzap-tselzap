@@ -30,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -39,12 +40,14 @@
 
     .line 5
     .line 6
-    invoke-static {p1, p4}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, p4}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
     .line 9
-    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 10
     .line 11
@@ -60,7 +63,8 @@
 
     .line 16
     .line 17
-    invoke-static {p4, p5}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {p4, p5}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkArgument(ZLjava/lang/Object;)V
 
     .line 18
     .line 19
@@ -73,21 +77,25 @@
 
     .line 23
     .line 24
-    invoke-static {p2, p4}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, p4}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
     .line 27
     :cond_0
-    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;->zaa:Ljava/util/List;
+    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;
+    ->zaa:Ljava/util/List;
 
     .line 28
     .line 29
-    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;->zab:Lcom/google/android/gms/common/moduleinstall/InstallStatusListener;
+    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;
+    ->zab:Lcom/google/android/gms/common/moduleinstall/InstallStatusListener;
 
     .line 30
     .line 31
-    iput-object p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;->zac:Ljava/util/concurrent/Executor;
+    iput-object p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;
+    ->zac:Ljava/util/concurrent/Executor;
 
     .line 32
     .line 33
@@ -104,7 +112,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest$Builder;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest$Builder;
+    -><init>()V
 
     .line 4
     .line 5
@@ -128,7 +137,8 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;->zaa:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;
+    ->zaa:Ljava/util/List;
 
     return-object v0
 .end method
@@ -138,7 +148,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;->zab:Lcom/google/android/gms/common/moduleinstall/InstallStatusListener;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;
+    ->zab:Lcom/google/android/gms/common/moduleinstall/InstallStatusListener;
 
     return-object v0
 .end method
@@ -148,7 +159,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;->zac:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest;
+    ->zac:Ljava/util/concurrent/Executor;
 
     return-object v0
 .end method

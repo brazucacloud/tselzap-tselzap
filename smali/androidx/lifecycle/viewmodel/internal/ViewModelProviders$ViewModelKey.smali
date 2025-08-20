@@ -36,9 +36,11 @@
 
     new-instance v0, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;
 
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;-><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;
+    -><init>()V
 
-    sput-object v0, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;->INSTANCE:Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;
+    sput-object v0, Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;
+    ->INSTANCE:Landroidx/lifecycle/viewmodel/internal/ViewModelProviders$ViewModelKey;
 
     return-void
 .end method
@@ -47,7 +49,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

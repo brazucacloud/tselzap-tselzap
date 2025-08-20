@@ -68,12 +68,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/view/PointerIconCompat;->mPointerIcon:Landroid/view/PointerIcon;
+    iput-object p1, p0, Landroidx/core/view/PointerIconCompat;
+    ->mPointerIcon:Landroid/view/PointerIcon;
 
     .line 5
     .line 6
@@ -90,7 +92,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -106,7 +109,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0, p1, p2}, Landroidx/core/view/PointerIconCompat$Api24Impl;->create(Landroid/graphics/Bitmap;FF)Landroid/view/PointerIcon;
+    invoke-static {p0, p1, p2}, Landroidx/core/view/PointerIconCompat$Api24Impl;
+    ->create(Landroid/graphics/Bitmap;FF)Landroid/view/PointerIcon;
 
     .line 10
     .line 11
@@ -114,7 +118,8 @@
     move-result-object p0
 
     .line 13
-    invoke-direct {v0, p0}, Landroidx/core/view/PointerIconCompat;-><init>(Landroid/view/PointerIcon;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/PointerIconCompat;
+    -><init>(Landroid/view/PointerIcon;)V
 
     .line 14
     .line 15
@@ -130,7 +135,8 @@
     const/4 p1, 0x0
 
     .line 20
-    invoke-direct {p0, p1}, Landroidx/core/view/PointerIconCompat;-><init>(Landroid/view/PointerIcon;)V
+    invoke-direct {p0, p1}, Landroidx/core/view/PointerIconCompat;
+    -><init>(Landroid/view/PointerIcon;)V
 
     .line 21
     .line 22
@@ -148,7 +154,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -164,7 +171,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0, p1}, Landroidx/core/view/PointerIconCompat$Api24Impl;->getSystemIcon(Landroid/content/Context;I)Landroid/view/PointerIcon;
+    invoke-static {p0, p1}, Landroidx/core/view/PointerIconCompat$Api24Impl;
+    ->getSystemIcon(Landroid/content/Context;I)Landroid/view/PointerIcon;
 
     .line 10
     .line 11
@@ -172,7 +180,8 @@
     move-result-object p0
 
     .line 13
-    invoke-direct {v0, p0}, Landroidx/core/view/PointerIconCompat;-><init>(Landroid/view/PointerIcon;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/PointerIconCompat;
+    -><init>(Landroid/view/PointerIcon;)V
 
     .line 14
     .line 15
@@ -188,7 +197,8 @@
     const/4 p1, 0x0
 
     .line 20
-    invoke-direct {p0, p1}, Landroidx/core/view/PointerIconCompat;-><init>(Landroid/view/PointerIcon;)V
+    invoke-direct {p0, p1}, Landroidx/core/view/PointerIconCompat;
+    -><init>(Landroid/view/PointerIcon;)V
 
     .line 21
     .line 22
@@ -206,7 +216,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -222,7 +233,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0, p1}, Landroidx/core/view/PointerIconCompat$Api24Impl;->load(Landroid/content/res/Resources;I)Landroid/view/PointerIcon;
+    invoke-static {p0, p1}, Landroidx/core/view/PointerIconCompat$Api24Impl;
+    ->load(Landroid/content/res/Resources;I)Landroid/view/PointerIcon;
 
     .line 10
     .line 11
@@ -230,7 +242,8 @@
     move-result-object p0
 
     .line 13
-    invoke-direct {v0, p0}, Landroidx/core/view/PointerIconCompat;-><init>(Landroid/view/PointerIcon;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/PointerIconCompat;
+    -><init>(Landroid/view/PointerIcon;)V
 
     .line 14
     .line 15
@@ -246,7 +259,8 @@
     const/4 p1, 0x0
 
     .line 20
-    invoke-direct {p0, p1}, Landroidx/core/view/PointerIconCompat;-><init>(Landroid/view/PointerIcon;)V
+    invoke-direct {p0, p1}, Landroidx/core/view/PointerIconCompat;
+    -><init>(Landroid/view/PointerIcon;)V
 
     .line 21
     .line 22
@@ -263,12 +277,14 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/PointerIconCompat;->mPointerIcon:Landroid/view/PointerIcon;
+    iget-object v0, p0, Landroidx/core/view/PointerIconCompat;
+    ->mPointerIcon:Landroid/view/PointerIcon;
 
     .line 2
     .line 3

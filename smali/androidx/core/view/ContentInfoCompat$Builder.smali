@@ -30,10 +30,12 @@
     .end param
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 6
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1f
 
@@ -42,9 +44,11 @@
     .line 7
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
 
-    invoke-direct {v0, p1, p2}, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;-><init>(Landroid/content/ClipData;I)V
+    invoke-direct {v0, p1, p2}, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    -><init>(Landroid/content/ClipData;I)V
 
-    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     return-void
 
@@ -52,9 +56,11 @@
     :cond_0
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
 
-    invoke-direct {v0, p1, p2}, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;-><init>(Landroid/content/ClipData;I)V
+    invoke-direct {v0, p1, p2}, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    -><init>(Landroid/content/ClipData;I)V
 
-    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     return-void
 .end method
@@ -67,10 +73,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     const/16 v1, 0x1f
 
@@ -79,9 +87,11 @@
     .line 3
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
 
-    invoke-direct {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;-><init>(Landroidx/core/view/ContentInfoCompat;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat31Impl;
+    -><init>(Landroidx/core/view/ContentInfoCompat;)V
 
-    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     return-void
 
@@ -89,9 +99,11 @@
     :cond_0
     new-instance v0, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
 
-    invoke-direct {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;-><init>(Landroidx/core/view/ContentInfoCompat;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompatImpl;
+    -><init>(Landroidx/core/view/ContentInfoCompat;)V
 
-    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iput-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     return-void
 .end method
@@ -104,11 +116,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->build()Landroidx/core/view/ContentInfoCompat;
+    invoke-interface {v0}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    ->build()Landroidx/core/view/ContentInfoCompat;
 
     .line 4
     .line 5
@@ -128,11 +142,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setClip(Landroid/content/ClipData;)V
+    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    ->setClip(Landroid/content/ClipData;)V
 
     .line 4
     .line 5
@@ -150,11 +166,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setExtras(Landroid/os/Bundle;)V
+    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    ->setExtras(Landroid/os/Bundle;)V
 
     .line 4
     .line 5
@@ -168,11 +186,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setFlags(I)V
+    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    ->setFlags(I)V
 
     .line 4
     .line 5
@@ -190,11 +210,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setLinkUri(Landroid/net/Uri;)V
+    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    ->setLinkUri(Landroid/net/Uri;)V
 
     .line 4
     .line 5
@@ -208,11 +230,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    iget-object v0, p0, Landroidx/core/view/ContentInfoCompat$Builder;
+    ->mBuilderCompat:Landroidx/core/view/ContentInfoCompat$BuilderCompat;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;->setSource(I)V
+    invoke-interface {v0, p1}, Landroidx/core/view/ContentInfoCompat$BuilderCompat;
+    ->setSource(I)V
 
     .line 4
     .line 5

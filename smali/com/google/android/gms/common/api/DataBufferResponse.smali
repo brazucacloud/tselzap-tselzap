@@ -34,7 +34,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/Response;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/Response;
+    -><init>()V
     return-void
 .end method
 
@@ -54,7 +55,8 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/Response;-><init>(Lcom/google/android/gms/common/api/Result;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/Response;
+    -><init>(Lcom/google/android/gms/common/api/Result;)V
 return-void
 .end method
 
@@ -64,7 +66,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -76,7 +79,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->close()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->close()V
 
     .line 8
     .line 9
@@ -96,7 +100,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -108,7 +113,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->get(I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -122,7 +128,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -134,7 +141,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->getCount()I
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->getCount()I
 
     .line 8
     .line 9
@@ -150,7 +158,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -162,7 +171,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->getMetadata()Landroid/os/Bundle;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->getMetadata()Landroid/os/Bundle;
 
     .line 8
     .line 9
@@ -176,7 +186,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -188,7 +199,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->isClosed()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->isClosed()Z
 
     .line 8
     .line 9
@@ -212,7 +224,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -224,7 +237,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -238,7 +252,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -250,7 +265,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->release()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->release()V
 
     .line 8
     .line 9
@@ -272,7 +288,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;->getResult()Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Response;
+    ->getResult()Lcom/google/android/gms/common/api/Result;
 
     .line 2
     .line 3
@@ -284,7 +301,8 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;->singleRefIterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/AbstractDataBuffer;
+    ->singleRefIterator()Ljava/util/Iterator;
 
     .line 8
     .line 9

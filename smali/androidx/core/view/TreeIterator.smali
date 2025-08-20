@@ -64,12 +64,14 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/core/view/TreeIterator;->getChildIterator:Lp1/l;
+    iput-object p2, p0, Landroidx/core/view/TreeIterator;
+    ->getChildIterator:Lp1/l;
 
     .line 5
     .line 6
@@ -77,16 +79,19 @@
 
     .line 7
     .line 8
-    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {p2}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    iput-object p2, p0, Landroidx/core/view/TreeIterator;->stack:Ljava/util/List;
+    iput-object p2, p0, Landroidx/core/view/TreeIterator;
+    ->stack:Ljava/util/List;
 
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iput-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -102,11 +107,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/TreeIterator;->getChildIterator:Lp1/l;
+    iget-object v0, p0, Landroidx/core/view/TreeIterator;
+    ->getChildIterator:Lp1/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -122,7 +129,8 @@
 
     .line 10
     .line 11
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 12
     .line 13
@@ -134,20 +142,24 @@
 
     .line 16
     .line 17
-    iget-object v0, p0, Landroidx/core/view/TreeIterator;->stack:Ljava/util/List;
+    iget-object v0, p0, Landroidx/core/view/TreeIterator;
+    ->stack:Ljava/util/List;
 
     .line 18
     .line 19
-    iget-object v1, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iget-object v1, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 20
     .line 21
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iput-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 25
     .line 26
@@ -156,11 +168,13 @@
     .line 27
     :cond_0
     :goto_0
-    iget-object p1, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iget-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 28
     .line 29
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 30
     .line 31
@@ -172,7 +186,8 @@
 
     .line 34
     .line 35
-    iget-object p1, p0, Landroidx/core/view/TreeIterator;->stack:Ljava/util/List;
+    iget-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->stack:Ljava/util/List;
 
     .line 36
     .line 37
@@ -180,7 +195,8 @@
 
     .line 38
     .line 39
-    invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/Collection;
+    ->isEmpty()Z
 
     .line 40
     .line 41
@@ -192,11 +208,13 @@
 
     .line 44
     .line 45
-    iget-object p1, p0, Landroidx/core/view/TreeIterator;->stack:Ljava/util/List;
+    iget-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->stack:Ljava/util/List;
 
     .line 46
     .line 47
-    invoke-static {p1}, Ld1/k;->w0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Ld1/k;
+    ->w0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -208,15 +226,18 @@
 
     .line 52
     .line 53
-    iput-object p1, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iput-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 54
     .line 55
-    iget-object p1, p0, Landroidx/core/view/TreeIterator;->stack:Ljava/util/List;
+    iget-object p1, p0, Landroidx/core/view/TreeIterator;
+    ->stack:Ljava/util/List;
 
     .line 56
     .line 57
-    invoke-static {p1}, Ld1/q;->n0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Ld1/q;
+    ->n0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -234,11 +255,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iget-object v0, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 4
     .line 5
@@ -257,11 +280,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/TreeIterator;->iterator:Ljava/util/Iterator;
+    iget-object v0, p0, Landroidx/core/view/TreeIterator;
+    ->iterator:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -269,7 +294,8 @@
     move-result-object v0
 
     .line 7
-    invoke-direct {p0, v0}, Landroidx/core/view/TreeIterator;->prepareNextIterator(Ljava/lang/Object;)V
+    invoke-direct {p0, v0}, Landroidx/core/view/TreeIterator;
+    ->prepareNextIterator(Ljava/lang/Object;)V
 
     .line 8
     .line 9
@@ -284,7 +310,8 @@
 
     const-string v1, "Operation is not supported for read-only collection"
 
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
+    -><init>(Ljava/lang/String;)V
 
     throw v0
 .end method

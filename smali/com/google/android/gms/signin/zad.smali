@@ -33,12 +33,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/Api$ClientKey;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/Api$ClientKey;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/signin/zad;->zaa:Lcom/google/android/gms/common/api/Api$ClientKey;
+    sput-object v0, Lcom/google/android/gms/signin/zad;
+    ->zaa:Lcom/google/android/gms/common/api/Api$ClientKey;
 
     .line 7
     .line 8
@@ -46,12 +48,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Lcom/google/android/gms/common/api/Api$ClientKey;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/common/api/Api$ClientKey;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Lcom/google/android/gms/signin/zad;->zab:Lcom/google/android/gms/common/api/Api$ClientKey;
+    sput-object v1, Lcom/google/android/gms/signin/zad;
+    ->zab:Lcom/google/android/gms/common/api/Api$ClientKey;
 
     .line 14
     .line 15
@@ -59,12 +63,14 @@
 
     .line 16
     .line 17
-    invoke-direct {v2}, Lcom/google/android/gms/signin/zaa;-><init>()V
+    invoke-direct {v2}, Lcom/google/android/gms/signin/zaa;
+    -><init>()V
 
     .line 18
     .line 19
     .line 20
-    sput-object v2, Lcom/google/android/gms/signin/zad;->zac:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    sput-object v2, Lcom/google/android/gms/signin/zad;
+    ->zac:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     .line 21
     .line 22
@@ -72,12 +78,14 @@
 
     .line 23
     .line 24
-    invoke-direct {v3}, Lcom/google/android/gms/signin/zab;-><init>()V
+    invoke-direct {v3}, Lcom/google/android/gms/signin/zab;
+    -><init>()V
 
     .line 25
     .line 26
     .line 27
-    sput-object v3, Lcom/google/android/gms/signin/zad;->zad:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    sput-object v3, Lcom/google/android/gms/signin/zad;
+    ->zad:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     .line 28
     .line 29
@@ -89,12 +97,14 @@
 
     .line 32
     .line 33
-    invoke-direct {v4, v5}, Lcom/google/android/gms/common/api/Scope;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v5}, Lcom/google/android/gms/common/api/Scope;
+    -><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
     .line 36
-    sput-object v4, Lcom/google/android/gms/signin/zad;->zae:Lcom/google/android/gms/common/api/Scope;
+    sput-object v4, Lcom/google/android/gms/signin/zad;
+    ->zae:Lcom/google/android/gms/common/api/Scope;
 
     .line 37
     .line 38
@@ -106,12 +116,14 @@
 
     .line 41
     .line 42
-    invoke-direct {v4, v5}, Lcom/google/android/gms/common/api/Scope;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v5}, Lcom/google/android/gms/common/api/Scope;
+    -><init>(Ljava/lang/String;)V
 
     .line 43
     .line 44
     .line 45
-    sput-object v4, Lcom/google/android/gms/signin/zad;->zaf:Lcom/google/android/gms/common/api/Scope;
+    sput-object v4, Lcom/google/android/gms/signin/zad;
+    ->zaf:Lcom/google/android/gms/common/api/Scope;
 
     .line 46
     .line 47
@@ -123,12 +135,14 @@
 
     .line 50
     .line 51
-    invoke-direct {v4, v5, v2, v0}, Lcom/google/android/gms/common/api/Api;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
+    invoke-direct {v4, v5, v2, v0}, Lcom/google/android/gms/common/api/Api;
+    -><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
 
     .line 52
     .line 53
     .line 54
-    sput-object v4, Lcom/google/android/gms/signin/zad;->zag:Lcom/google/android/gms/common/api/Api;
+    sput-object v4, Lcom/google/android/gms/signin/zad;
+    ->zag:Lcom/google/android/gms/common/api/Api;
 
     .line 55
     .line 56
@@ -140,12 +154,14 @@
 
     .line 59
     .line 60
-    invoke-direct {v0, v2, v3, v1}, Lcom/google/android/gms/common/api/Api;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
+    invoke-direct {v0, v2, v3, v1}, Lcom/google/android/gms/common/api/Api;
+    -><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
 
     .line 61
     .line 62
     .line 63
-    sput-object v0, Lcom/google/android/gms/signin/zad;->zah:Lcom/google/android/gms/common/api/Api;
+    sput-object v0, Lcom/google/android/gms/signin/zad;
+    ->zah:Lcom/google/android/gms/common/api/Api;
 
     .line 64
     .line 65

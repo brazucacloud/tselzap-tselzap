@@ -15,12 +15,14 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lk/t;->b:Ljava/util/ArrayList;
+    iput-object p1, p0, Lk/t;
+    ->b:Ljava/util/ArrayList;
 
     .line 5
     .line 6
@@ -33,11 +35,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lk/t;->b:Ljava/util/ArrayList;
+    iget-object v0, p0, Lk/t;
+    ->b:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5

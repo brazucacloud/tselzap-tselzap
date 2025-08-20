@@ -37,7 +37,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable;
+    -><init>()V
 
     .line 2
     .line 3
@@ -45,18 +46,21 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Lv/c;->f:Z
+    iput-boolean v0, p0, Lv/c;
+    ->f:Z
 
     .line 6
     .line 7
     const/4 v0, -0x1
 
     .line 8
-    iput v0, p0, Lv/c;->h:I
+    iput v0, p0, Lv/c;
+    ->h:I
 
     .line 9
     .line 10
-    iput-object p1, p0, Lv/c;->b:Lv/b;
+    iput-object p1, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 11
     .line 12
@@ -69,7 +73,8 @@
     .locals 4
 
     .line 1
-    iget-boolean v0, p0, Lv/c;->e:Z
+    iget-boolean v0, p0, Lv/c;
+    ->e:Z
 
     .line 2
     .line 3
@@ -83,28 +88,34 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v2}, LE/h;->a(ZLjava/lang/String;)V
+    invoke-static {v0, v2}, LE/h;
+    ->a(ZLjava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Lv/c;->b:Lv/b;
+    iget-object v0, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 11
     .line 12
-    iget-object v0, v0, Lv/b;->a:Lv/h;
+    iget-object v0, v0, Lv/b;
+    ->a:Lv/h;
 
     .line 13
     .line 14
-    iget-object v2, v0, Lv/h;->a:Lh/d;
+    iget-object v2, v0, Lv/h;
+    ->a:Lh/d;
 
     .line 15
     .line 16
-    iget-object v2, v2, Lh/d;->l:Lh/b;
+    iget-object v2, v2, Lh/d;
+    ->l:Lh/b;
 
     .line 17
     .line 18
-    iget v2, v2, Lh/b;->c:I
+    iget v2, v2, Lh/b;
+    ->c:I
 
     .line 19
     .line 20
@@ -112,7 +123,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->invalidateSelf()V
 
     .line 23
     .line 24
@@ -121,7 +133,8 @@
 
     .line 26
     :cond_0
-    iget-boolean v2, p0, Lv/c;->c:Z
+    iget-boolean v2, p0, Lv/c;
+    ->c:Z
 
     .line 27
     .line 28
@@ -129,11 +142,13 @@
 
     .line 29
     .line 30
-    iput-boolean v1, p0, Lv/c;->c:Z
+    iput-boolean v1, p0, Lv/c;
+    ->c:Z
 
     .line 31
     .line 32
-    iget-boolean v2, v0, Lv/h;->j:Z
+    iget-boolean v2, v0, Lv/h;
+    ->j:Z
 
     .line 33
     .line 34
@@ -141,11 +156,13 @@
 
     .line 35
     .line 36
-    iget-object v2, v0, Lv/h;->c:Ljava/util/ArrayList;
+    iget-object v2, v0, Lv/h;
+    ->c:Ljava/util/ArrayList;
 
     .line 37
     .line 38
-    invoke-virtual {v2, p0}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p0}, Ljava/util/ArrayList;
+    ->contains(Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -157,7 +174,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 45
     .line 46
@@ -165,7 +183,8 @@
     move-result v3
 
     .line 48
-    invoke-virtual {v2, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p0}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -174,7 +193,8 @@
 
     .line 52
     .line 53
-    iget-boolean v2, v0, Lv/h;->f:Z
+    iget-boolean v2, v0, Lv/h;
+    ->f:Z
 
     .line 54
     .line 55
@@ -186,25 +206,29 @@
 
     .line 58
     :cond_1
-    iput-boolean v1, v0, Lv/h;->f:Z
+    iput-boolean v1, v0, Lv/h;
+    ->f:Z
 
     .line 59
     .line 60
     const/4 v1, 0x0
 
     .line 61
-    iput-boolean v1, v0, Lv/h;->j:Z
+    iput-boolean v1, v0, Lv/h;
+    ->j:Z
 
     .line 62
     .line 63
-    invoke-virtual {v0}, Lv/h;->a()V
+    invoke-virtual {v0}, Lv/h;
+    ->a()V
 
     .line 64
     .line 65
     .line 66
     :cond_2
     :goto_0
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->invalidateSelf()V
 
     .line 67
     .line 68
@@ -221,7 +245,8 @@
 
     .line 73
     .line 74
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 75
     .line 76
@@ -238,7 +263,8 @@
 
     .line 81
     .line 82
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/String;)V
 
     .line 83
     .line 84
@@ -254,7 +280,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lv/c;->l:Ljava/util/ArrayList;
+    iget-object v0, p0, Lv/c;
+    ->l:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -262,7 +289,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->clear()V
 
     .line 6
     .line 7
@@ -275,7 +303,8 @@
     .locals 5
 
     .line 1
-    iget-boolean v0, p0, Lv/c;->e:Z
+    iget-boolean v0, p0, Lv/c;
+    ->e:Z
 
     .line 2
     .line 3
@@ -287,7 +316,8 @@
 
     .line 6
     :cond_0
-    iget-boolean v0, p0, Lv/c;->i:Z
+    iget-boolean v0, p0, Lv/c;
+    ->i:Z
 
     .line 7
     .line 8
@@ -295,7 +325,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Lv/c;->getIntrinsicWidth()I
+    invoke-virtual {p0}, Lv/c;
+    ->getIntrinsicWidth()I
 
     .line 11
     .line 12
@@ -303,7 +334,8 @@
     move-result v0
 
     .line 14
-    invoke-virtual {p0}, Lv/c;->getIntrinsicHeight()I
+    invoke-virtual {p0}, Lv/c;
+    ->getIntrinsicHeight()I
 
     .line 15
     .line 16
@@ -311,7 +343,8 @@
     move-result v1
 
     .line 18
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 19
     .line 20
@@ -319,7 +352,8 @@
     move-result-object v2
 
     .line 22
-    iget-object v3, p0, Lv/c;->k:Landroid/graphics/Rect;
+    iget-object v3, p0, Lv/c;
+    ->k:Landroid/graphics/Rect;
 
     .line 23
     .line 24
@@ -331,17 +365,20 @@
 
     .line 27
     .line 28
-    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v3}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 29
     .line 30
     .line 31
-    iput-object v3, p0, Lv/c;->k:Landroid/graphics/Rect;
+    iput-object v3, p0, Lv/c;
+    ->k:Landroid/graphics/Rect;
 
     .line 32
     .line 33
     :cond_1
-    iget-object v3, p0, Lv/c;->k:Landroid/graphics/Rect;
+    iget-object v3, p0, Lv/c;
+    ->k:Landroid/graphics/Rect;
 
     .line 34
     .line 35
@@ -349,7 +386,8 @@
 
     .line 36
     .line 37
-    invoke-static {v4, v0, v1, v2, v3}, Landroid/view/Gravity;->apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;)V
+    invoke-static {v4, v0, v1, v2, v3}, Landroid/view/Gravity;
+    ->apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;)V
 
     .line 38
     .line 39
@@ -357,20 +395,24 @@
     const/4 v0, 0x0
 
     .line 41
-    iput-boolean v0, p0, Lv/c;->i:Z
+    iput-boolean v0, p0, Lv/c;
+    ->i:Z
 
     .line 42
     .line 43
     :cond_2
-    iget-object v0, p0, Lv/c;->b:Lv/b;
+    iget-object v0, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 44
     .line 45
-    iget-object v0, v0, Lv/b;->a:Lv/h;
+    iget-object v0, v0, Lv/b;
+    ->a:Lv/h;
 
     .line 46
     .line 47
-    iget-object v1, v0, Lv/h;->i:Lv/e;
+    iget-object v1, v0, Lv/h;
+    ->i:Lv/e;
 
     .line 48
     .line 49
@@ -378,7 +420,8 @@
 
     .line 50
     .line 51
-    iget-object v0, v1, Lv/e;->h:Landroid/graphics/Bitmap;
+    iget-object v0, v1, Lv/e;
+    ->h:Landroid/graphics/Bitmap;
 
     .line 52
     .line 53
@@ -386,12 +429,14 @@
 
     .line 54
     :cond_3
-    iget-object v0, v0, Lv/h;->l:Landroid/graphics/Bitmap;
+    iget-object v0, v0, Lv/h;
+    ->l:Landroid/graphics/Bitmap;
 
     .line 55
     .line 56
     :goto_0
-    iget-object v1, p0, Lv/c;->k:Landroid/graphics/Rect;
+    iget-object v1, p0, Lv/c;
+    ->k:Landroid/graphics/Rect;
 
     .line 57
     .line 58
@@ -403,21 +448,25 @@
 
     .line 61
     .line 62
-    invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
+    invoke-direct {v1}, Landroid/graphics/Rect;
+    -><init>()V
 
     .line 63
     .line 64
     .line 65
-    iput-object v1, p0, Lv/c;->k:Landroid/graphics/Rect;
+    iput-object v1, p0, Lv/c;
+    ->k:Landroid/graphics/Rect;
 
     .line 66
     .line 67
     :cond_4
-    iget-object v1, p0, Lv/c;->k:Landroid/graphics/Rect;
+    iget-object v1, p0, Lv/c;
+    ->k:Landroid/graphics/Rect;
 
     .line 68
     .line 69
-    iget-object v2, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iget-object v2, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 70
     .line 71
@@ -432,24 +481,28 @@
     const/4 v3, 0x2
 
     .line 76
-    invoke-direct {v2, v3}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v2, v3}, Landroid/graphics/Paint;
+    -><init>(I)V
 
     .line 77
     .line 78
     .line 79
-    iput-object v2, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iput-object v2, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 80
     .line 81
     :cond_5
-    iget-object v2, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iget-object v2, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 82
     .line 83
     const/4 v3, 0x0
 
     .line 84
-    invoke-virtual {p1, v0, v3, v1, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v3, v1, v2}, Landroid/graphics/Canvas;
+    ->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 85
     .line 86
@@ -461,7 +514,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lv/c;->b:Lv/b;
+    iget-object v0, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 2
     .line 3
@@ -472,15 +526,18 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lv/c;->b:Lv/b;
+    iget-object v0, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lv/b;->a:Lv/h;
+    iget-object v0, v0, Lv/b;
+    ->a:Lv/h;
 
     .line 4
     .line 5
-    iget v0, v0, Lv/h;->p:I
+    iget v0, v0, Lv/h;
+    ->p:I
 
     .line 6
     .line 7
@@ -491,15 +548,18 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lv/c;->b:Lv/b;
+    iget-object v0, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lv/b;->a:Lv/h;
+    iget-object v0, v0, Lv/b;
+    ->a:Lv/h;
 
     .line 4
     .line 5
-    iget v0, v0, Lv/h;->o:I
+    iget v0, v0, Lv/h;
+    ->o:I
 
     .line 6
     .line 7
@@ -519,7 +579,8 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lv/c;->c:Z
+    iget-boolean v0, p0, Lv/c;
+    ->c:Z
 
     .line 2
     .line 3
@@ -530,7 +591,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onBoundsChange(Landroid/graphics/Rect;)V
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;
+    ->onBoundsChange(Landroid/graphics/Rect;)V
 
     .line 2
     .line 3
@@ -538,7 +600,8 @@
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Lv/c;->i:Z
+    iput-boolean p1, p0, Lv/c;
+    ->i:Z
 
     .line 6
     .line 7
@@ -557,7 +620,8 @@
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lv/c;->l:Ljava/util/ArrayList;
+    iget-object v0, p0, Lv/c;
+    ->l:Ljava/util/ArrayList;
 
     .line 5
     .line 6
@@ -569,21 +633,25 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object v0, p0, Lv/c;->l:Ljava/util/ArrayList;
+    iput-object v0, p0, Lv/c;
+    ->l:Ljava/util/ArrayList;
 
     .line 14
     .line 15
     :cond_1
-    iget-object v0, p0, Lv/c;->l:Ljava/util/ArrayList;
+    iget-object v0, p0, Lv/c;
+    ->l:Ljava/util/ArrayList;
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->add(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -595,7 +663,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iget-object v0, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 2
     .line 3
@@ -610,21 +679,25 @@
     const/4 v1, 0x2
 
     .line 8
-    invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v0, v1}, Landroid/graphics/Paint;
+    -><init>(I)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iput-object v0, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iget-object v0, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setAlpha(I)V
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;
+    ->setAlpha(I)V
 
     .line 16
     .line 17
@@ -636,7 +709,8 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iget-object v0, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 2
     .line 3
@@ -651,21 +725,25 @@
     const/4 v1, 0x2
 
     .line 8
-    invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v0, v1}, Landroid/graphics/Paint;
+    -><init>(I)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iput-object v0, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Lv/c;->j:Landroid/graphics/Paint;
+    iget-object v0, p0, Lv/c;
+    ->j:Landroid/graphics/Paint;
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;
+    ->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
     .line 16
     .line 17
@@ -677,7 +755,8 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lv/c;->e:Z
+    iget-boolean v0, p0, Lv/c;
+    ->e:Z
 
     .line 2
     .line 3
@@ -689,12 +768,14 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, LE/h;->a(ZLjava/lang/String;)V
+    invoke-static {v0, v1}, LE/h;
+    ->a(ZLjava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iput-boolean p1, p0, Lv/c;->f:Z
+    iput-boolean p1, p0, Lv/c;
+    ->f:Z
 
     .line 11
     .line 12
@@ -705,28 +786,34 @@
     const/4 v0, 0x0
 
     .line 15
-    iput-boolean v0, p0, Lv/c;->c:Z
+    iput-boolean v0, p0, Lv/c;
+    ->c:Z
 
     .line 16
     .line 17
-    iget-object v1, p0, Lv/c;->b:Lv/b;
+    iget-object v1, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 18
     .line 19
-    iget-object v1, v1, Lv/b;->a:Lv/h;
+    iget-object v1, v1, Lv/b;
+    ->a:Lv/h;
 
     .line 20
     .line 21
-    iget-object v2, v1, Lv/h;->c:Ljava/util/ArrayList;
+    iget-object v2, v1, Lv/h;
+    ->c:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-virtual {v2, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p0}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 27
     .line 28
@@ -738,7 +825,8 @@
 
     .line 31
     .line 32
-    iput-boolean v0, v1, Lv/h;->f:Z
+    iput-boolean v0, v1, Lv/h;
+    ->f:Z
 
     .line 33
     .line 34
@@ -746,7 +834,8 @@
 
     .line 35
     :cond_0
-    iget-boolean v0, p0, Lv/c;->d:Z
+    iget-boolean v0, p0, Lv/c;
+    ->d:Z
 
     .line 36
     .line 37
@@ -754,14 +843,16 @@
 
     .line 38
     .line 39
-    invoke-virtual {p0}, Lv/c;->a()V
+    invoke-virtual {p0}, Lv/c;
+    ->a()V
 
     .line 40
     .line 41
     .line 42
     :cond_1
     :goto_0
-    invoke-super {p0, p1, p2}, Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
+    invoke-super {p0, p1, p2}, Landroid/graphics/drawable/Drawable;
+    ->setVisible(ZZ)Z
 
     .line 43
     .line 44
@@ -778,18 +869,21 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Lv/c;->d:Z
+    iput-boolean v0, p0, Lv/c;
+    ->d:Z
 
     .line 3
     .line 4
     const/4 v0, 0x0
 
     .line 5
-    iput v0, p0, Lv/c;->g:I
+    iput v0, p0, Lv/c;
+    ->g:I
 
     .line 6
     .line 7
-    iget-boolean v0, p0, Lv/c;->f:Z
+    iget-boolean v0, p0, Lv/c;
+    ->f:Z
 
     .line 8
     .line 9
@@ -797,7 +891,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Lv/c;->a()V
+    invoke-virtual {p0}, Lv/c;
+    ->a()V
 
     .line 12
     .line 13
@@ -813,32 +908,39 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lv/c;->d:Z
+    iput-boolean v0, p0, Lv/c;
+    ->d:Z
 
     .line 3
     .line 4
-    iput-boolean v0, p0, Lv/c;->c:Z
+    iput-boolean v0, p0, Lv/c;
+    ->c:Z
 
     .line 5
     .line 6
-    iget-object v1, p0, Lv/c;->b:Lv/b;
+    iget-object v1, p0, Lv/c;
+    ->b:Lv/b;
 
     .line 7
     .line 8
-    iget-object v1, v1, Lv/b;->a:Lv/h;
+    iget-object v1, v1, Lv/b;
+    ->a:Lv/h;
 
     .line 9
     .line 10
-    iget-object v2, v1, Lv/h;->c:Ljava/util/ArrayList;
+    iget-object v2, v1, Lv/h;
+    ->c:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v2, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p0}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+    invoke-virtual {v2}, Ljava/util/ArrayList;
+    ->isEmpty()Z
 
     .line 16
     .line 17
@@ -850,7 +952,8 @@
 
     .line 20
     .line 21
-    iput-boolean v0, v1, Lv/h;->f:Z
+    iput-boolean v0, v1, Lv/h;
+    ->f:Z
 
     .line 22
     .line 23
@@ -862,7 +965,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lv/c;->l:Ljava/util/ArrayList;
+    iget-object v0, p0, Lv/c;
+    ->l:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -878,7 +982,8 @@
 
     .line 8
     :cond_0
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z
 
     .line 9
     .line 10

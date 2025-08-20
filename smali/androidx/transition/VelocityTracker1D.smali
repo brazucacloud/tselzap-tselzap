@@ -24,7 +24,8 @@
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
 
     .line 7
     .line 8
-    iput-object v1, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iput-object v1, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 9
     .line 10
@@ -45,14 +47,16 @@
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/transition/VelocityTracker1D;->mDataSamples:[F
+    iput-object v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mDataSamples:[F
 
     .line 13
     .line 14
     const/4 v0, 0x0
 
     .line 15
-    iput v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iput v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 16
     .line 17
@@ -60,7 +64,8 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v2, v3}, Ljava/util/Arrays;->fill([JJ)V
+    invoke-static {v1, v2, v3}, Ljava/util/Arrays;
+    ->fill([JJ)V
 return-void
 .end method
 
@@ -68,7 +73,8 @@ return-void
     .locals 4
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Math;->signum(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->signum(F)F
 
     .line 2
     .line 3
@@ -83,7 +89,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 9
     .line 10
@@ -98,7 +105,8 @@ return-void
     float-to-double v2, p1
 
     .line 15
-    invoke-static {v2, v3}, Ljava/lang/Math;->sqrt(D)D
+    invoke-static {v2, v3}, Ljava/lang/Math;
+    ->sqrt(D)D
 
     .line 16
     .line 17
@@ -121,7 +129,8 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iget v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 2
     .line 3
@@ -133,11 +142,13 @@ return-void
 
     .line 6
     .line 7
-    iput v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iput v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v1, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 10
     .line 11
@@ -145,7 +156,8 @@ return-void
 
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/transition/VelocityTracker1D;->mDataSamples:[F
+    iget-object p1, p0, Landroidx/transition/VelocityTracker1D;
+    ->mDataSamples:[F
 
     .line 14
     .line 15
@@ -156,7 +168,8 @@ return-void
     .locals 15
 
     .line 1
-    iget v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iget v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 2
     .line 3
@@ -171,7 +184,8 @@ return-void
 
     .line 7
     .line 8
-    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 9
     .line 10
@@ -187,7 +201,8 @@ return-void
 
     .line 17
     :cond_0
-    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 18
     .line 19
@@ -202,7 +217,8 @@ return-void
 
     .line 23
     :goto_0
-    iget-object v9, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v9, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 24
     .line 25
@@ -237,7 +253,8 @@ return-void
 
     .line 38
     .line 39
-    invoke-static {v7, v8}, Ljava/lang/Math;->abs(J)J
+    invoke-static {v7, v8}, Ljava/lang/Math;
+    ->abs(J)J
 
     .line 40
     .line 41
@@ -324,7 +341,8 @@ return-void
 
     .line 77
     .line 78
-    iget v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iget v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 79
     .line 80
@@ -345,7 +363,8 @@ return-void
     .line 86
     .line 87
     :goto_2
-    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 88
     .line 89
@@ -371,7 +390,8 @@ return-void
 
     .line 100
     :cond_8
-    iget-object v3, p0, Landroidx/transition/VelocityTracker1D;->mDataSamples:[F
+    iget-object v3, p0, Landroidx/transition/VelocityTracker1D;
+    ->mDataSamples:[F
 
     .line 101
     .line 102
@@ -394,7 +414,8 @@ return-void
 
     .line 111
     :cond_9
-    iget v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iget v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 112
     .line 113
@@ -416,7 +437,8 @@ return-void
     rem-int/2addr v0, v9
 
     .line 121
-    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 122
     .line 123
@@ -424,7 +446,8 @@ return-void
 
     .line 124
     .line 125
-    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;->mDataSamples:[F
+    iget-object v4, p0, Landroidx/transition/VelocityTracker1D;
+    ->mDataSamples:[F
 
     .line 126
     .line 127
@@ -448,7 +471,8 @@ return-void
 
     .line 135
     .line 136
-    iget-object v10, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v10, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 137
     .line 138
@@ -475,7 +499,8 @@ return-void
 
     .line 148
     :cond_a
-    iget-object v5, p0, Landroidx/transition/VelocityTracker1D;->mDataSamples:[F
+    iget-object v5, p0, Landroidx/transition/VelocityTracker1D;
+    ->mDataSamples:[F
 
     .line 149
     .line 150
@@ -483,7 +508,8 @@ return-void
 
     .line 151
     .line 152
-    invoke-direct {p0, v8}, Landroidx/transition/VelocityTracker1D;->kineticEnergyToVelocity(F)F
+    invoke-direct {p0, v8}, Landroidx/transition/VelocityTracker1D;
+    ->kineticEnergyToVelocity(F)F
 
     .line 153
     .line 154
@@ -502,7 +528,8 @@ return-void
 
     .line 160
     .line 161
-    invoke-static {v4}, Ljava/lang/Math;->abs(F)F
+    invoke-static {v4}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 162
     .line 163
@@ -551,7 +578,8 @@ return-void
 
     .line 181
     :cond_c
-    invoke-direct {p0, v8}, Landroidx/transition/VelocityTracker1D;->kineticEnergyToVelocity(F)F
+    invoke-direct {p0, v8}, Landroidx/transition/VelocityTracker1D;
+    ->kineticEnergyToVelocity(F)F
 
     .line 182
     .line 183
@@ -568,11 +596,13 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/transition/VelocityTracker1D;->mIndex:I
+    iput v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mIndex:I
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/transition/VelocityTracker1D;->mTimeSamples:[J
+    iget-object v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mTimeSamples:[J
 
     .line 5
     .line 6
@@ -580,19 +610,22 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, v1, v2}, Ljava/util/Arrays;->fill([JJ)V
+    invoke-static {v0, v1, v2}, Ljava/util/Arrays;
+    ->fill([JJ)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/transition/VelocityTracker1D;->mDataSamples:[F
+    iget-object v0, p0, Landroidx/transition/VelocityTracker1D;
+    ->mDataSamples:[F
 
     .line 12
     .line 13
     const/4 v1, 0x0
 
     .line 14
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;
+    ->fill([FF)V
 return-void
 .end method
 

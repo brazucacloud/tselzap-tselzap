@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/SeekBarPreference$1;->this$0:Landroidx/preference/SeekBarPreference;
+    iput-object p1, p0, Landroidx/preference/SeekBarPreference$1;
+    ->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -44,11 +46,13 @@
 
     .line 2
     .line 3
-    iget-object p3, p0, Landroidx/preference/SeekBarPreference$1;->this$0:Landroidx/preference/SeekBarPreference;
+    iget-object p3, p0, Landroidx/preference/SeekBarPreference$1;
+    ->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 4
     .line 5
-    iget-boolean v0, p3, Landroidx/preference/SeekBarPreference;->mUpdatesContinuously:Z
+    iget-boolean v0, p3, Landroidx/preference/SeekBarPreference;
+    ->mUpdatesContinuously:Z
 
     .line 6
     .line 7
@@ -56,7 +60,8 @@
 
     .line 8
     .line 9
-    iget-boolean v0, p3, Landroidx/preference/SeekBarPreference;->mTrackingTouch:Z
+    iget-boolean v0, p3, Landroidx/preference/SeekBarPreference;
+    ->mTrackingTouch:Z
 
     .line 10
     .line 11
@@ -65,36 +70,44 @@
     .line 12
     .line 13
     :cond_0
-    invoke-virtual {p3, p1}, Landroidx/preference/SeekBarPreference;->syncValueInternal(Landroid/widget/SeekBar;)V    return-void
+    invoke-virtual {p3, p1}, Landroidx/preference/SeekBarPreference;
+    ->syncValueInternal(Landroid/widget/SeekBar;)V    
+    return-void
 
     .line 17
     :cond_1
-    iget-object p1, p0, Landroidx/preference/SeekBarPreference$1;->this$0:Landroidx/preference/SeekBarPreference;
+    iget-object p1, p0, Landroidx/preference/SeekBarPreference$1;
+    ->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 18
     .line 19
-    iget p3, p1, Landroidx/preference/SeekBarPreference;->mMin:I
+    iget p3, p1, Landroidx/preference/SeekBarPreference;
+    ->mMin:I
 
     .line 20
     .line 21
     add-int/2addr p2, p3
 
     .line 22
-    invoke-virtual {p1, p2}, Landroidx/preference/SeekBarPreference;->updateLabelValue(I)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/preference/SeekBarPreference;
+    ->updateLabelValue(I)V    
+    return-void
 .end method
 
 .method public onStartTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/preference/SeekBarPreference$1;->this$0:Landroidx/preference/SeekBarPreference;
+    iget-object p1, p0, Landroidx/preference/SeekBarPreference$1;
+    ->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 2
     .line 3
     const/4 v0, 0x1
 
     .line 4
-    iput-boolean v0, p1, Landroidx/preference/SeekBarPreference;->mTrackingTouch:Z
+    iput-boolean v0, p1, Landroidx/preference/SeekBarPreference;
+    ->mTrackingTouch:Z
 return-void
 .end method
 
@@ -102,18 +115,21 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/SeekBarPreference$1;->this$0:Landroidx/preference/SeekBarPreference;
+    iget-object v0, p0, Landroidx/preference/SeekBarPreference$1;
+    ->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    iput-boolean v1, v0, Landroidx/preference/SeekBarPreference;->mTrackingTouch:Z
+    iput-boolean v1, v0, Landroidx/preference/SeekBarPreference;
+    ->mTrackingTouch:Z
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/widget/ProgressBar;->getProgress()I
+    invoke-virtual {p1}, Landroid/widget/ProgressBar;
+    ->getProgress()I
 
     .line 7
     .line 8
@@ -121,18 +137,21 @@ return-void
     move-result v0
 
     .line 10
-    iget-object v1, p0, Landroidx/preference/SeekBarPreference$1;->this$0:Landroidx/preference/SeekBarPreference;
+    iget-object v1, p0, Landroidx/preference/SeekBarPreference$1;
+    ->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 11
     .line 12
-    iget v2, v1, Landroidx/preference/SeekBarPreference;->mMin:I
+    iget v2, v1, Landroidx/preference/SeekBarPreference;
+    ->mMin:I
 
     .line 13
     .line 14
     add-int/2addr v0, v2
 
     .line 15
-    iget v2, v1, Landroidx/preference/SeekBarPreference;->mSeekBarValue:I
+    iget v2, v1, Landroidx/preference/SeekBarPreference;
+    ->mSeekBarValue:I
 
     .line 16
     .line 17
@@ -140,7 +159,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1}, Landroidx/preference/SeekBarPreference;->syncValueInternal(Landroid/widget/SeekBar;)V
+    invoke-virtual {v1, p1}, Landroidx/preference/SeekBarPreference;
+    ->syncValueInternal(Landroid/widget/SeekBar;)V
 
     .line 20
     .line 21

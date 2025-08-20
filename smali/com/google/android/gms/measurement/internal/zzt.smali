@@ -14,9 +14,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzs;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzt;->zza:Lcom/google/android/gms/measurement/internal/zzs;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzt;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzs;
 
     return-void
 .end method
@@ -26,9 +28,11 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzt;->zza:Lcom/google/android/gms/measurement/internal/zzs;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzt;
+    ->zza:Lcom/google/android/gms/measurement/internal/zzs;
 
-    invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzs;->zza(Lcom/google/android/gms/measurement/internal/zzs;)V
+    invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzs;
+    ->zza(Lcom/google/android/gms/measurement/internal/zzs;)V
 return-void
 .end method
 

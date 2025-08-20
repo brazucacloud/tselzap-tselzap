@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/AsyncRequestQueue;->start()V
+    value = Lcom/android/volley/AsyncRequestQueue;
+    ->start()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/AsyncRequestQueue$2;->this$0:Lcom/android/volley/AsyncRequestQueue;
+    iput-object p1, p0, Lcom/android/volley/AsyncRequestQueue$2;
+    ->this$0:Lcom/android/volley/AsyncRequestQueue;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -44,11 +47,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/AsyncRequestQueue$2;->this$0:Lcom/android/volley/AsyncRequestQueue;
+    iget-object v0, p0, Lcom/android/volley/AsyncRequestQueue$2;
+    ->this$0:Lcom/android/volley/AsyncRequestQueue;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/android/volley/RequestQueue;->getCache()Lcom/android/volley/Cache;
+    invoke-virtual {v0}, Lcom/android/volley/RequestQueue;
+    ->getCache()Lcom/android/volley/Cache;
 
     .line 4
     .line 5
@@ -56,16 +61,19 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0}, Lcom/android/volley/Cache;->initialize()V
+    invoke-interface {v0}, Lcom/android/volley/Cache;
+    ->initialize()V
 
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/android/volley/AsyncRequestQueue$2;->this$0:Lcom/android/volley/AsyncRequestQueue;
+    iget-object v0, p0, Lcom/android/volley/AsyncRequestQueue$2;
+    ->this$0:Lcom/android/volley/AsyncRequestQueue;
 
     .line 11
     .line 12
-    invoke-static {v0}, Lcom/android/volley/AsyncRequestQueue;->access$200(Lcom/android/volley/AsyncRequestQueue;)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v0}, Lcom/android/volley/AsyncRequestQueue;
+    ->access$200(Lcom/android/volley/AsyncRequestQueue;)Ljava/util/concurrent/ExecutorService;
 
     .line 13
     .line 14
@@ -77,12 +85,14 @@
 
     .line 17
     .line 18
-    invoke-direct {v1, p0}, Lcom/android/volley/AsyncRequestQueue$2$1;-><init>(Lcom/android/volley/AsyncRequestQueue$2;)V
+    invoke-direct {v1, p0}, Lcom/android/volley/AsyncRequestQueue$2$1;
+    -><init>(Lcom/android/volley/AsyncRequestQueue$2;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
+    ->execute(Ljava/lang/Runnable;)V
 
     .line 22
     .line 23

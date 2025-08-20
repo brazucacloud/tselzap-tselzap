@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/fragment/FragmentNavigator;->addPendingOps(Ljava/lang/String;ZZ)V
+    value = Landroidx/navigation/fragment/FragmentNavigator;
+    ->addPendingOps(Ljava/lang/String;ZZ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$addPendingOps$1;->$id:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$addPendingOps$1;
+    ->$id:Ljava/lang/String;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -55,18 +58,23 @@ return-void
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$addPendingOps$1;->$id:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$addPendingOps$1;
+    ->$id:Ljava/lang/String;
 
-    iget-object p1, p1, Lc1/f;->b:Ljava/lang/Object;
+    iget-object p1, p1, Lc1/f;
+    ->b:Ljava/lang/Object;
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -79,7 +87,8 @@ return-void
     .line 2
     check-cast p1, Lc1/f;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/fragment/FragmentNavigator$addPendingOps$1;->invoke(Lc1/f;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/navigation/fragment/FragmentNavigator$addPendingOps$1;
+    ->invoke(Lc1/f;)Ljava/lang/Boolean;
 
     move-result-object p1
 

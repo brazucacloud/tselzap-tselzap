@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, LN/r;->b:I
+    iput p2, p0, LN/r;
+    ->b:I
 
-    iput-object p1, p0, LN/r;->c:Ljava/lang/Runnable;
+    iput-object p1, p0, LN/r;
+    ->c:Ljava/lang/Runnable;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,7 +34,8 @@
     .locals 5
 
     .line 1
-    iget v0, p0, LN/r;->b:I
+    iget v0, p0, LN/r;
+    ->b:I
 
     .line 2
     .line 3
@@ -44,16 +48,19 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroid/os/Process;->setThreadPriority(I)V
+    invoke-static {v0}, Landroid/os/Process;
+    ->setThreadPriority(I)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, LN/r;->c:Ljava/lang/Runnable;
+    iget-object v0, p0, LN/r;
+    ->c:Ljava/lang/Runnable;
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v0}, Ljava/lang/Runnable;
+    ->run()V
 
     .line 14
     .line 15
@@ -66,11 +73,13 @@
 
     .line 18
     :try_start_0
-    iget-object v1, p0, LN/r;->c:Ljava/lang/Runnable;
+    iget-object v1, p0, LN/r;
+    ->c:Ljava/lang/Runnable;
 
     .line 19
     .line 20
-    invoke-interface {v1}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v1}, Ljava/lang/Runnable;
+    ->run()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -85,7 +94,8 @@
 
     .line 26
     :try_start_1
-    sget v2, LZ0/b;->f:I
+    sget v2, LZ0/b;
+    ->f:I
 
     .line 27
     .line 28
@@ -93,7 +103,8 @@
 
     .line 29
     .line 30
-    sput v2, LZ0/b;->f:I
+    sput v2, LZ0/b;
+    ->f:I
 
     .line 31
     .line 32
@@ -101,20 +112,24 @@
 
     .line 33
     .line 34
-    sget-object v2, LZ0/b;->e:Ljava/util/concurrent/ExecutorService;
+    sget-object v2, LZ0/b;
+    ->e:Ljava/util/concurrent/ExecutorService;
 
     .line 35
     .line 36
-    invoke-interface {v2}, Ljava/util/concurrent/ExecutorService;->shutdown()V
+    invoke-interface {v2}, Ljava/util/concurrent/ExecutorService;
+    ->shutdown()V
 
     .line 37
     .line 38
     .line 39
-    sput-object v0, LZ0/b;->e:Ljava/util/concurrent/ExecutorService;
+    sput-object v0, LZ0/b;
+    ->e:Ljava/util/concurrent/ExecutorService;
 
     .line 40
     .line 41
-    sput-object v0, LZ0/b;->d:LZ0/b;
+    sput-object v0, LZ0/b;
+    ->d:LZ0/b;
 
     .line 42
     .line 43
@@ -149,11 +164,13 @@
 
     .line 51
     :try_start_2
-    sget-object v2, LZ0/b;->b:Ljava/util/logging/Logger;
+    sget-object v2, LZ0/b;
+    ->b:Ljava/util/logging/Logger;
 
     .line 52
     .line 53
-    sget-object v3, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
+    sget-object v3, Ljava/util/logging/Level;
+    ->SEVERE:Ljava/util/logging/Level;
 
     .line 54
     .line 55
@@ -161,7 +178,8 @@
 
     .line 56
     .line 57
-    invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;
+    ->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 58
     .line 59
@@ -183,7 +201,8 @@
 
     .line 65
     :try_start_3
-    sget v3, LZ0/b;->f:I
+    sget v3, LZ0/b;
+    ->f:I
 
     .line 66
     .line 67
@@ -191,7 +210,8 @@
 
     .line 68
     .line 69
-    sput v3, LZ0/b;->f:I
+    sput v3, LZ0/b;
+    ->f:I
 
     .line 70
     .line 71
@@ -199,20 +219,24 @@
 
     .line 72
     .line 73
-    sget-object v3, LZ0/b;->e:Ljava/util/concurrent/ExecutorService;
+    sget-object v3, LZ0/b;
+    ->e:Ljava/util/concurrent/ExecutorService;
 
     .line 74
     .line 75
-    invoke-interface {v3}, Ljava/util/concurrent/ExecutorService;->shutdown()V
+    invoke-interface {v3}, Ljava/util/concurrent/ExecutorService;
+    ->shutdown()V
 
     .line 76
     .line 77
     .line 78
-    sput-object v0, LZ0/b;->e:Ljava/util/concurrent/ExecutorService;
+    sput-object v0, LZ0/b;
+    ->e:Ljava/util/concurrent/ExecutorService;
 
     .line 79
     .line 80
-    sput-object v0, LZ0/b;->d:LZ0/b;
+    sput-object v0, LZ0/b;
+    ->d:LZ0/b;
 
     .line 81
     .line 82
@@ -248,11 +272,13 @@
     .line 89
     :pswitch_1
     :try_start_5
-    iget-object v0, p0, LN/r;->c:Ljava/lang/Runnable;
+    iget-object v0, p0, LN/r;
+    ->c:Ljava/lang/Runnable;
 
     .line 90
     .line 91
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v0}, Ljava/lang/Runnable;
+    ->run()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_0
 
@@ -274,7 +300,8 @@
 
     .line 99
     .line 100
-    invoke-static {v1, v2, v0}, Lcom/bumptech/glide/b;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v1, v2, v0}, Lcom/bumptech/glide/b;
+    ->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 101
     .line 102

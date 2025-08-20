@@ -25,7 +25,8 @@
     .locals 5
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -42,7 +43,8 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -72,7 +74,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 24
     .line 25
@@ -80,7 +83,8 @@
     move-result-object v0
 
     .line 27
-    sput-object v0, Landroidx/core/text/ICUCompat;->sAddLikelySubtagsMethod:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/core/text/ICUCompat;
+    ->sAddLikelySubtagsMethod:Ljava/lang/reflect/Method;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -97,7 +101,8 @@
 
     .line 32
     .line 33
-    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;
+    -><init>(Ljava/lang/Throwable;)V
 
     .line 34
     .line 35
@@ -113,7 +118,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -134,7 +140,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/util/Locale;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/util/Locale;
+    ->toString()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -143,7 +150,8 @@
 
     .line 7
     :try_start_0
-    sget-object v1, Landroidx/core/text/ICUCompat;->sAddLikelySubtagsMethod:Ljava/lang/reflect/Method;
+    sget-object v1, Landroidx/core/text/ICUCompat;
+    ->sAddLikelySubtagsMethod:Ljava/lang/reflect/Method;
 
     .line 8
     .line 9
@@ -168,7 +176,8 @@
     const/4 v3, 0x0
 
     .line 18
-    invoke-virtual {v1, v3, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3, v2}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -201,7 +210,8 @@
 
     .line 29
     :goto_0
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 30
     .line 31
@@ -210,7 +220,8 @@
 
     .line 33
     :goto_1
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 34
     .line 35
@@ -237,7 +248,8 @@
 
     .line 4
     :try_start_0
-    sget-object v2, Landroidx/core/text/ICUCompat;->sGetScriptMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/text/ICUCompat;
+    ->sGetScriptMethod:Ljava/lang/reflect/Method;
 
     .line 5
     .line 6
@@ -259,7 +271,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v2, v1, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v1, v3}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -292,7 +305,8 @@
 
     .line 25
     :goto_0
-    invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 26
     .line 27
@@ -301,7 +315,8 @@
 
     .line 29
     :goto_1
-    invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p0}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 30
     .line 31
@@ -325,7 +340,8 @@
 
     .line 2
     .line 3
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 4
     .line 5
@@ -337,7 +353,8 @@
 
     .line 8
     .line 9
-    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api24Impl;->forLocale(Ljava/util/Locale;)Landroid/icu/util/ULocale;
+    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api24Impl;
+    ->forLocale(Ljava/util/Locale;)Landroid/icu/util/ULocale;
 
     .line 10
     .line 11
@@ -345,7 +362,8 @@
     move-result-object p0
 
     .line 13
-    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api24Impl;->addLikelySubtags(Ljava/lang/Object;)Landroid/icu/util/ULocale;
+    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api24Impl;
+    ->addLikelySubtags(Ljava/lang/Object;)Landroid/icu/util/ULocale;
 
     .line 14
     .line 15
@@ -353,7 +371,8 @@
     move-result-object p0
 
     .line 17
-    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api24Impl;->getScript(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api24Impl;
+    ->getScript(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -379,14 +398,16 @@
 
     .line 27
     .line 28
-    sget-object v2, Landroidx/core/text/ICUCompat;->sAddLikelySubtagsMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/text/ICUCompat;
+    ->sAddLikelySubtagsMethod:Ljava/lang/reflect/Method;
 
     .line 29
     .line 30
     const/4 v3, 0x0
 
     .line 31
-    invoke-virtual {v2, v3, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v3, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -398,7 +419,8 @@
 
     .line 36
     .line 37
-    invoke-static {v1}, Landroidx/core/text/ICUCompat$Api21Impl;->getScript(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {v1}, Landroidx/core/text/ICUCompat$Api21Impl;
+    ->getScript(Ljava/util/Locale;)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -426,7 +448,8 @@
 
     .line 46
     :goto_0
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 47
     .line 48
@@ -435,13 +458,15 @@
 
     .line 50
     :goto_1
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 51
     .line 52
     .line 53
     :goto_2
-    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api21Impl;->getScript(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/ICUCompat$Api21Impl;
+    ->getScript(Ljava/util/Locale;)Ljava/lang/String;
 
     .line 54
     .line 55

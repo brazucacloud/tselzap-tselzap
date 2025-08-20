@@ -40,7 +40,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -49,17 +50,20 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;->sidecarCompat:Landroidx/window/layout/SidecarCompat;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;
+    ->sidecarCompat:Landroidx/window/layout/SidecarCompat;
 
     .line 15
     .line 16
@@ -67,12 +71,14 @@
 
     .line 17
     .line 18
-    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 19
     .line 20
     .line 21
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;->activityWeakReference:Ljava/lang/ref/WeakReference;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;
+    ->activityWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 22
     .line 23
@@ -89,21 +95,25 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/View;
+    ->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;->activityWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object p1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;
+    ->activityWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;
+    ->get()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -115,11 +125,13 @@
 
     .line 16
     .line 17
-    sget-object v0, Landroidx/window/layout/SidecarCompat;->Companion:Landroidx/window/layout/SidecarCompat$Companion;
+    sget-object v0, Landroidx/window/layout/SidecarCompat;
+    ->Companion:Landroidx/window/layout/SidecarCompat$Companion;
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/SidecarCompat$Companion;
+    ->getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
 
     .line 20
     .line 21
@@ -144,11 +156,13 @@
 
     .line 29
     :cond_1
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;->sidecarCompat:Landroidx/window/layout/SidecarCompat;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$FirstAttachAdapter;
+    ->sidecarCompat:Landroidx/window/layout/SidecarCompat;
 
     .line 30
     .line 31
-    invoke-virtual {v1, v0, p1}, Landroidx/window/layout/SidecarCompat;->register(Landroid/os/IBinder;Landroid/app/Activity;)V
+    invoke-virtual {v1, v0, p1}, Landroidx/window/layout/SidecarCompat;
+    ->register(Landroid/os/IBinder;Landroid/app/Activity;)V
 
     .line 32
     .line 33
@@ -161,7 +175,8 @@
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 

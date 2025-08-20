@@ -5,7 +5,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/transition/FragmentTransitionSupport;->setEpicenter(Ljava/lang/Object;Landroid/graphics/Rect;)V
+    value = Landroidx/transition/FragmentTransitionSupport;
+    ->setEpicenter(Ljava/lang/Object;Landroid/graphics/Rect;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,15 +26,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/FragmentTransitionSupport$5;->this$0:Landroidx/transition/FragmentTransitionSupport;
+    iput-object p1, p0, Landroidx/transition/FragmentTransitionSupport$5;
+    ->this$0:Landroidx/transition/FragmentTransitionSupport;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/transition/FragmentTransitionSupport$5;->val$epicenter:Landroid/graphics/Rect;
+    iput-object p2, p0, Landroidx/transition/FragmentTransitionSupport$5;
+    ->val$epicenter:Landroid/graphics/Rect;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/transition/Transition$EpicenterCallback;-><init>()V
+    invoke-direct {p0}, Landroidx/transition/Transition$EpicenterCallback;
+    -><init>()V
     return-void
 .end method
 
@@ -47,7 +51,8 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$5;->val$epicenter:Landroid/graphics/Rect;
+    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$5;
+    ->val$epicenter:Landroid/graphics/Rect;
 
     .line 2
     .line 3
@@ -55,7 +60,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/graphics/Rect;->isEmpty()Z
+    invoke-virtual {p1}, Landroid/graphics/Rect;
+    ->isEmpty()Z
 
     .line 6
     .line 7
@@ -71,7 +77,8 @@
 
     .line 12
     :cond_0
-    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$5;->val$epicenter:Landroid/graphics/Rect;    return-object p1
+    iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$5;
+    ->val$epicenter:Landroid/graphics/Rect;    return-object p1
 
     .line 15
     :cond_1

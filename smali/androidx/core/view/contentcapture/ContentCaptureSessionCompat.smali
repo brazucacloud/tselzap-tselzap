@@ -41,16 +41,19 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iput-object p2, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 7
     .line 8
@@ -79,7 +82,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;-><init>(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    -><init>(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)V
 
     .line 4
     .line 5
@@ -95,7 +99,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -107,11 +112,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -119,11 +126,13 @@
     move-result-object v0
 
     .line 13
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 14
     .line 15
-    invoke-static {v1}, Landroidx/core/view/ViewCompat;->getAutofillId(Landroid/view/View;)Landroidx/core/view/autofill/AutofillIdCompat;
+    invoke-static {v1}, Landroidx/core/view/ViewCompat;
+    ->getAutofillId(Landroid/view/View;)Landroidx/core/view/autofill/AutofillIdCompat;
 
     .line 16
     .line 17
@@ -131,12 +140,14 @@
     move-result-object v1
 
     .line 19
-    invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v1}, Landroidx/core/view/autofill/AutofillIdCompat;->toAutofillId()Landroid/view/autofill/AutofillId;
+    invoke-virtual {v1}, Landroidx/core/view/autofill/AutofillIdCompat;
+    ->toAutofillId()Landroid/view/autofill/AutofillId;
 
     .line 23
     .line 24
@@ -144,7 +155,8 @@
     move-result-object v1
 
     .line 26
-    invoke-static {v0, v1, p1, p2}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->newAutofillId(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;J)Landroid/view/autofill/AutofillId;
+    invoke-static {v0, v1, p1, p2}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->newAutofillId(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;J)Landroid/view/autofill/AutofillId;
 
     .line 27
     .line 28
@@ -170,7 +182,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -182,11 +195,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -194,7 +209,8 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0, p1, p2, p3}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->newVirtualViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;J)Landroid/view/ViewStructure;
+    invoke-static {v0, p1, p2, p3}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->newVirtualViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;J)Landroid/view/ViewStructure;
 
     .line 14
     .line 15
@@ -202,7 +218,8 @@
     move-result-object p1
 
     .line 17
-    invoke-static {p1}, Landroidx/core/view/ViewStructureCompat;->toViewStructureCompat(Landroid/view/ViewStructure;)Landroidx/core/view/ViewStructureCompat;
+    invoke-static {p1}, Landroidx/core/view/ViewStructureCompat;
+    ->toViewStructureCompat(Landroid/view/ViewStructure;)Landroidx/core/view/ViewStructureCompat;
 
     .line 18
     .line 19
@@ -230,7 +247,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -242,11 +260,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -254,7 +274,8 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0, p1, p2}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewTextChanged(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;Ljava/lang/CharSequence;)V
+    invoke-static {v0, p1, p2}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewTextChanged(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;Ljava/lang/CharSequence;)V
 
     .line 14
     .line 15
@@ -279,7 +300,8 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -291,11 +313,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -303,7 +327,8 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api34Impl;->notifyViewsAppeared(Landroid/view/contentcapture/ContentCaptureSession;Ljava/util/List;)V
+    invoke-static {v0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api34Impl;
+    ->notifyViewsAppeared(Landroid/view/contentcapture/ContentCaptureSession;Ljava/util/List;)V
 
     .line 14
     .line 15
@@ -320,11 +345,13 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 22
     .line 23
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 24
     .line 25
@@ -332,11 +359,13 @@
     move-result-object v0
 
     .line 27
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 28
     .line 29
-    invoke-static {v0, v1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
+    invoke-static {v0, v1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
 
     .line 30
     .line 31
@@ -344,7 +373,8 @@
     move-result-object v0
 
     .line 33
-    invoke-static {v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;
+    ->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
 
     .line 34
     .line 35
@@ -359,16 +389,19 @@
     const/4 v3, 0x1
 
     .line 40
-    invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 
     .line 41
     .line 42
     .line 43
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 44
     .line 45
-    invoke-static {v1}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v1}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 46
     .line 47
@@ -376,7 +409,8 @@
     move-result-object v1
 
     .line 49
-    invoke-static {v1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
+    invoke-static {v1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
 
     .line 50
     .line 51
@@ -385,7 +419,8 @@
 
     .line 53
     :goto_0
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 54
     .line 55
@@ -397,11 +432,13 @@
 
     .line 58
     .line 59
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 60
     .line 61
-    invoke-static {v1}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v1}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 62
     .line 63
@@ -409,7 +446,8 @@
     move-result-object v1
 
     .line 65
-    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -417,7 +455,8 @@
     move-result-object v2
 
     .line 69
-    invoke-static {v2}, Landroidx/core/text/a;->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
+    invoke-static {v2}, Landroidx/core/text/a;
+    ->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
 
     .line 70
     .line 71
@@ -425,7 +464,8 @@
     move-result-object v2
 
     .line 73
-    invoke-static {v1, v2}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
+    invoke-static {v1, v2}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
 
     .line 74
     .line 75
@@ -438,11 +478,13 @@
 
     .line 79
     :cond_1
-    iget-object p1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 80
     .line 81
-    invoke-static {p1}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {p1}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 82
     .line 83
@@ -450,11 +492,13 @@
     move-result-object p1
 
     .line 85
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 86
     .line 87
-    invoke-static {p1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
+    invoke-static {p1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
 
     .line 88
     .line 89
@@ -462,7 +506,8 @@
     move-result-object p1
 
     .line 91
-    invoke-static {p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
+    invoke-static {p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;
+    ->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
 
     .line 92
     .line 93
@@ -474,16 +519,19 @@
 
     .line 96
     .line 97
-    invoke-virtual {v0, v1, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, v3}, Landroid/os/Bundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 
     .line 98
     .line 99
     .line 100
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 101
     .line 102
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 103
     .line 104
@@ -491,7 +539,8 @@
     move-result-object v0
 
     .line 106
-    invoke-static {v0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
+    invoke-static {v0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
 
     .line 107
     .line 108
@@ -508,7 +557,8 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -520,11 +570,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -532,11 +584,13 @@
     move-result-object v0
 
     .line 13
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 14
     .line 15
-    invoke-static {v1}, Landroidx/core/view/ViewCompat;->getAutofillId(Landroid/view/View;)Landroidx/core/view/autofill/AutofillIdCompat;
+    invoke-static {v1}, Landroidx/core/view/ViewCompat;
+    ->getAutofillId(Landroid/view/View;)Landroidx/core/view/autofill/AutofillIdCompat;
 
     .line 16
     .line 17
@@ -544,12 +598,14 @@
     move-result-object v1
 
     .line 19
-    invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v1}, Landroidx/core/view/autofill/AutofillIdCompat;->toAutofillId()Landroid/view/autofill/AutofillId;
+    invoke-virtual {v1}, Landroidx/core/view/autofill/AutofillIdCompat;
+    ->toAutofillId()Landroid/view/autofill/AutofillId;
 
     .line 23
     .line 24
@@ -557,7 +613,8 @@
     move-result-object v1
 
     .line 26
-    invoke-static {v0, v1, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewsDisappeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;[J)V
+    invoke-static {v0, v1, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewsDisappeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;[J)V
 
     .line 27
     .line 28
@@ -574,11 +631,13 @@
 
     .line 33
     .line 34
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 35
     .line 36
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 37
     .line 38
@@ -586,11 +645,13 @@
     move-result-object v0
 
     .line 40
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 41
     .line 42
-    invoke-static {v0, v1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
+    invoke-static {v0, v1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
 
     .line 43
     .line 44
@@ -598,7 +659,8 @@
     move-result-object v0
 
     .line 46
-    invoke-static {v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;
+    ->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
 
     .line 47
     .line 48
@@ -613,16 +675,19 @@
     const/4 v3, 0x1
 
     .line 53
-    invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 
     .line 54
     .line 55
     .line 56
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 57
     .line 58
-    invoke-static {v1}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v1}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 59
     .line 60
@@ -630,16 +695,19 @@
     move-result-object v1
 
     .line 62
-    invoke-static {v1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
+    invoke-static {v1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
 
     .line 63
     .line 64
     .line 65
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 66
     .line 67
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 68
     .line 69
@@ -647,11 +715,13 @@
     move-result-object v0
 
     .line 71
-    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 72
     .line 73
-    invoke-static {v1}, Landroidx/core/view/ViewCompat;->getAutofillId(Landroid/view/View;)Landroidx/core/view/autofill/AutofillIdCompat;
+    invoke-static {v1}, Landroidx/core/view/ViewCompat;
+    ->getAutofillId(Landroid/view/View;)Landroidx/core/view/autofill/AutofillIdCompat;
 
     .line 74
     .line 75
@@ -659,12 +729,14 @@
     move-result-object v1
 
     .line 77
-    invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Ljava/util/Objects;
+    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v1}, Landroidx/core/view/autofill/AutofillIdCompat;->toAutofillId()Landroid/view/autofill/AutofillId;
+    invoke-virtual {v1}, Landroidx/core/view/autofill/AutofillIdCompat;
+    ->toAutofillId()Landroid/view/autofill/AutofillId;
 
     .line 81
     .line 82
@@ -672,16 +744,19 @@
     move-result-object v1
 
     .line 84
-    invoke-static {v0, v1, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewsDisappeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;[J)V
+    invoke-static {v0, v1, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewsDisappeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/autofill/AutofillId;[J)V
 
     .line 85
     .line 86
     .line 87
-    iget-object p1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 88
     .line 89
-    invoke-static {p1}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {p1}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 90
     .line 91
@@ -689,11 +764,13 @@
     move-result-object p1
 
     .line 93
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mView:Landroid/view/View;
 
     .line 94
     .line 95
-    invoke-static {p1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
+    invoke-static {p1, v0}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->newViewStructure(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/View;)Landroid/view/ViewStructure;
 
     .line 96
     .line 97
@@ -701,7 +778,8 @@
     move-result-object p1
 
     .line 99
-    invoke-static {p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
+    invoke-static {p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api23Impl;
+    ->getExtras(Landroid/view/ViewStructure;)Landroid/os/Bundle;
 
     .line 100
     .line 101
@@ -713,16 +791,19 @@
 
     .line 104
     .line 105
-    invoke-virtual {v0, v1, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, v3}, Landroid/os/Bundle;
+    ->putBoolean(Ljava/lang/String;Z)V
 
     .line 106
     .line 107
     .line 108
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 109
     .line 110
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 111
     .line 112
@@ -730,7 +811,8 @@
     move-result-object v0
 
     .line 114
-    invoke-static {v0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
+    invoke-static {v0, p1}, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat$Api29Impl;
+    ->notifyViewAppeared(Landroid/view/contentcapture/ContentCaptureSession;Landroid/view/ViewStructure;)V
 
     .line 115
     .line 116
@@ -749,11 +831,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/contentcapture/ContentCaptureSessionCompat;
+    ->mWrappedObj:Ljava/lang/Object;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/view/o;->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/o;
+    ->l(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 4
     .line 5

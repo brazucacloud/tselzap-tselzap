@@ -11,9 +11,11 @@
 .method public constructor <init>(Landroid/net/Uri;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/images/zad;->zaa:Landroid/net/Uri;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/zad;
+    ->zaa:Landroid/net/Uri;
 
     return-void
 .end method
@@ -56,15 +58,18 @@
 
     .line 12
     .line 13
-    iget-object p1, p1, Lcom/google/android/gms/common/images/zad;->zaa:Landroid/net/Uri;
+    iget-object p1, p1, Lcom/google/android/gms/common/images/zad;
+    ->zaa:Landroid/net/Uri;
 
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/google/android/gms/common/images/zad;->zaa:Landroid/net/Uri;
+    iget-object v0, p0, Lcom/google/android/gms/common/images/zad;
+    ->zaa:Landroid/net/Uri;
 
     .line 16
     .line 17
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Objects;
+    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -78,7 +83,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/images/zad;->zaa:Landroid/net/Uri;
+    iget-object v0, p0, Lcom/google/android/gms/common/images/zad;
+    ->zaa:Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -96,7 +102,8 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Objects;->hashCode([Ljava/lang/Object;)I
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Objects;
+    ->hashCode([Ljava/lang/Object;)I
 
     .line 10
     .line 11

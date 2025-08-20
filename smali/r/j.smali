@@ -16,11 +16,13 @@
 
     .line 2
     .line 3
-    sget-object v1, Li/f;->a:Ljava/nio/charset/Charset;
+    sget-object v1, Li/f;
+    ->a:Ljava/nio/charset/Charset;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {v0, v1}, Ljava/lang/String;
+    ->getBytes(Ljava/nio/charset/Charset;)[B
 
     .line 6
     .line 7
@@ -28,7 +30,8 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Lr/j;->b:[B
+    sput-object v0, Lr/j;
+    ->b:[B
 
     .line 10
     .line 11
@@ -41,11 +44,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lr/j;->b:[B
+    sget-object v0, Lr/j;
+    ->b:[B
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
+    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;
+    ->update([B)V
 
     .line 4
     .line 5
@@ -57,11 +62,13 @@
     .locals 7
 
     .line 1
-    sget-object v0, Lr/z;->a:Landroid/graphics/Paint;
+    sget-object v0, Lr/z;
+    ->a:Landroid/graphics/Paint;
 
     .line 2
     .line 3
-    invoke-static {p3, p4}, Ljava/lang/Math;->min(II)I
+    invoke-static {p3, p4}, Ljava/lang/Math;
+    ->min(II)I
 
     .line 4
     .line 5
@@ -80,7 +87,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 13
     .line 14
@@ -88,7 +96,8 @@
     move-result v2
 
     .line 16
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 17
     .line 18
@@ -110,7 +119,8 @@
 
     .line 25
     .line 26
-    invoke-static {v4, v5}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v4, v5}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 27
     .line 28
@@ -149,12 +159,14 @@
     add-float/2addr v4, p4
 
     .line 43
-    invoke-direct {v0, v3, p4, v2, v4}, Landroid/graphics/RectF;-><init>(FFFF)V
+    invoke-direct {v0, v3, p4, v2, v4}, Landroid/graphics/RectF;
+    -><init>(FFFF)V
 
     .line 44
     .line 45
     .line 46
-    sget p4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget p4, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 47
     .line 48
@@ -166,7 +178,8 @@
 
     .line 51
     .line 52
-    invoke-static {}, Ll/g;->u()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Ll/g;
+    ->u()Landroid/graphics/Bitmap$Config;
 
     .line 53
     .line 54
@@ -174,7 +187,8 @@
     move-result-object v3
 
     .line 56
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 57
     .line 58
@@ -182,7 +196,8 @@
     move-result-object v4
 
     .line 60
-    invoke-virtual {v3, v4}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -194,7 +209,8 @@
 
     .line 65
     .line 66
-    invoke-static {}, Ll/g;->u()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Ll/g;
+    ->u()Landroid/graphics/Bitmap$Config;
 
     .line 67
     .line 68
@@ -206,12 +222,14 @@
 
     .line 71
     :cond_0
-    sget-object v3, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object v3, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 72
     .line 73
     :goto_0
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 74
     .line 75
@@ -219,7 +237,8 @@
     move-result-object v4
 
     .line 77
-    invoke-virtual {v3, v4}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 78
     .line 79
@@ -241,7 +260,8 @@
 
     .line 86
     :cond_1
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 87
     .line 88
@@ -249,7 +269,8 @@
     move-result v4
 
     .line 90
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 91
     .line 92
@@ -257,7 +278,8 @@
     move-result v6
 
     .line 94
-    invoke-interface {p1, v4, v6, v3}, Ll/a;->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p1, v4, v6, v3}, Ll/a;
+    ->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 95
     .line 96
@@ -269,7 +291,8 @@
 
     .line 99
     .line 100
-    invoke-direct {v4, v3}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v4, v3}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 101
     .line 102
@@ -277,7 +300,8 @@
     const/4 v6, 0x0
 
     .line 104
-    invoke-virtual {v4, p2, v6, v6, v5}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
+    invoke-virtual {v4, p2, v6, v6, v5}, Landroid/graphics/Canvas;
+    ->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
     .line 105
     .line 106
@@ -287,7 +311,8 @@
 
     .line 108
     .line 109
-    invoke-static {}, Ll/g;->u()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Ll/g;
+    ->u()Landroid/graphics/Bitmap$Config;
 
     .line 110
     .line 111
@@ -295,7 +320,8 @@
     move-result-object p4
 
     .line 113
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 114
     .line 115
@@ -303,7 +329,8 @@
     move-result-object v2
 
     .line 117
-    invoke-virtual {p4, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p4, v2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 118
     .line 119
@@ -315,7 +342,8 @@
 
     .line 122
     .line 123
-    invoke-static {}, Ll/g;->u()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Ll/g;
+    ->u()Landroid/graphics/Bitmap$Config;
 
     .line 124
     .line 125
@@ -327,12 +355,14 @@
 
     .line 128
     :cond_2
-    sget-object p4, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object p4, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 129
     .line 130
     :goto_2
-    invoke-interface {p1, p3, p3, p4}, Ll/a;->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {p1, p3, p3, p4}, Ll/a;
+    ->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 131
     .line 132
@@ -343,16 +373,19 @@
     const/4 p4, 0x1
 
     .line 135
-    invoke-virtual {p3, p4}, Landroid/graphics/Bitmap;->setHasAlpha(Z)V
+    invoke-virtual {p3, p4}, Landroid/graphics/Bitmap;
+    ->setHasAlpha(Z)V
 
     .line 136
     .line 137
     .line 138
-    sget-object p4, Lr/z;->d:Ljava/util/concurrent/locks/Lock;
+    sget-object p4, Lr/z;
+    ->d:Ljava/util/concurrent/locks/Lock;
 
     .line 139
     .line 140
-    invoke-interface {p4}, Ljava/util/concurrent/locks/Lock;->lock()V
+    invoke-interface {p4}, Ljava/util/concurrent/locks/Lock;
+    ->lock()V
 
     .line 141
     .line 142
@@ -362,42 +395,50 @@
 
     .line 144
     .line 145
-    invoke-direct {v2, p3}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v2, p3}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 146
     .line 147
     .line 148
-    sget-object v4, Lr/z;->b:Landroid/graphics/Paint;
+    sget-object v4, Lr/z;
+    ->b:Landroid/graphics/Paint;
 
     .line 149
     .line 150
-    invoke-virtual {v2, v1, v1, v1, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
+    invoke-virtual {v2, v1, v1, v1, v4}, Landroid/graphics/Canvas;
+    ->drawCircle(FFFLandroid/graphics/Paint;)V
 
     .line 151
     .line 152
     .line 153
-    sget-object v1, Lr/z;->c:Landroid/graphics/Paint;
+    sget-object v1, Lr/z;
+    ->c:Landroid/graphics/Paint;
 
     .line 154
     .line 155
-    invoke-virtual {v2, v3, v5, v0, v1}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {v2, v3, v5, v0, v1}, Landroid/graphics/Canvas;
+    ->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     .line 156
     .line 157
     .line 158
-    invoke-virtual {v2, v5}, Landroid/graphics/Canvas;->setBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v2, v5}, Landroid/graphics/Canvas;
+    ->setBitmap(Landroid/graphics/Bitmap;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 159
     .line 160
     .line 161
-    invoke-interface {p4}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {p4}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 162
     .line 163
     .line 164
-    invoke-virtual {v3, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, p2}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 165
     .line 166
@@ -409,7 +450,8 @@
 
     .line 169
     .line 170
-    invoke-interface {p1, v3}, Ll/a;->i(Landroid/graphics/Bitmap;)V
+    invoke-interface {p1, v3}, Ll/a;
+    ->i(Landroid/graphics/Bitmap;)V
 
     .line 171
     .line 172
@@ -422,7 +464,8 @@
     move-exception p1
 
     .line 175
-    invoke-interface {p4}, Ljava/util/concurrent/locks/Lock;->unlock()V
+    invoke-interface {p4}, Ljava/util/concurrent/locks/Lock;
+    ->unlock()V
 
     .line 176
     .line 177

@@ -12,12 +12,14 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;->get(Landroid/view/View;)Landroidx/lifecycle/LifecycleOwner;
+    invoke-static {p0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;
+    ->get(Landroid/view/View;)Landroidx/lifecycle/LifecycleOwner;
 
     .line 7
     .line 8

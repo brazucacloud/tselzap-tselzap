@@ -32,19 +32,22 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/Protobuf;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -53,12 +56,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaCache:Ljava/util/concurrent/ConcurrentMap;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaCache:Ljava/util/concurrent/ConcurrentMap;
 
     .line 10
     .line 11
@@ -66,19 +71,23 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;-><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFactory:Landroidx/datastore/preferences/protobuf/SchemaFactory;    return-void
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFactory:Landroidx/datastore/preferences/protobuf/SchemaFactory;    
+    return-void
 .end method
 
 .method public static getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->INSTANCE:Landroidx/datastore/preferences/protobuf/Protobuf;    return-object v0
 .end method
 
 
@@ -87,11 +96,13 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaCache:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaCache:Ljava/util/concurrent/ConcurrentMap;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
+    invoke-interface {v0}, Ljava/util/Map;
+    ->values()Ljava/util/Collection;
 
     .line 4
     .line 5
@@ -99,7 +110,8 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -112,7 +124,8 @@
     .line 12
     :cond_0
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -124,7 +137,8 @@
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -148,7 +162,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/MessageSchema;->getSchemaSize()I
+    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/MessageSchema;
+    ->getSchemaSize()I
 
     .line 31
     .line 32
@@ -177,7 +192,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
 
     .line 2
     .line 3
@@ -185,7 +201,8 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Schema;->isInitialized(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Schema;
+    ->isInitialized(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -206,7 +223,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
 
     .line 2
     .line 3
@@ -214,7 +232,8 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Schema;->makeImmutable(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Schema;
+    ->makeImmutable(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -231,11 +250,13 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    ->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     move-result-object v0
 
-    invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Protobuf;->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     return-void
 .end method
 
@@ -253,11 +274,13 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object v0
 
-    invoke-interface {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Schema;->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-interface {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Schema;
+    ->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
 return-void
 .end method
 
@@ -280,7 +303,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -289,16 +313,19 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaCache:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaCache:Ljava/util/concurrent/ConcurrentMap;
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/concurrent/ConcurrentMap;
+    ->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -328,7 +355,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -337,16 +365,19 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaCache:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaCache:Ljava/util/concurrent/ConcurrentMap;
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -374,12 +405,15 @@ return-void
     .line 1
     const-string v0, "messageType"
 
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaCache:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaCache:Ljava/util/concurrent/ConcurrentMap;
 
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -388,14 +422,17 @@ return-void
     if-nez v0, :cond_0
 
     .line 3
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFactory:Landroidx/datastore/preferences/protobuf/SchemaFactory;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFactory:Landroidx/datastore/preferences/protobuf/SchemaFactory;
 
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/SchemaFactory;->createSchema(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/SchemaFactory;
+    ->createSchema(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object v0
 
     .line 4
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/Protobuf;->registerSchema(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/Schema;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->registerSchema(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/Schema;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object p1
 
@@ -420,11 +457,13 @@ return-void
     .end annotation
 
     .line 5
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object p1
 
@@ -444,7 +483,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
+    ->schemaFor(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/Schema;
 
     .line 2
     .line 3
@@ -452,7 +492,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Schema;->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
+    invoke-interface {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Schema;
+    ->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
 return-void
 .end method
 

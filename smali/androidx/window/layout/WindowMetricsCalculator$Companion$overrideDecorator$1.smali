@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/window/layout/WindowMetricsCalculator$Companion;->overrideDecorator(Landroidx/window/layout/WindowMetricsCalculatorDecorator;)V
+    value = Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    ->overrideDecorator(Landroidx/window/layout/WindowMetricsCalculatorDecorator;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -53,7 +54,8 @@
     move-object v2, p1
 
     .line 11
-    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/h;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/h;
+    -><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 12
     .line 13
@@ -68,14 +70,17 @@
 
     const-string v0, "p0"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/b;->receiver:Ljava/lang/Object;
+    iget-object v0, p0, Lkotlin/jvm/internal/b;
+    ->receiver:Ljava/lang/Object;
 
     check-cast v0, Landroidx/window/layout/WindowMetricsCalculatorDecorator;
 
-    invoke-interface {v0, p1}, Landroidx/window/layout/WindowMetricsCalculatorDecorator;->decorate(Landroidx/window/layout/WindowMetricsCalculator;)Landroidx/window/layout/WindowMetricsCalculator;
+    invoke-interface {v0, p1}, Landroidx/window/layout/WindowMetricsCalculatorDecorator;
+    ->decorate(Landroidx/window/layout/WindowMetricsCalculator;)Landroidx/window/layout/WindowMetricsCalculator;
 
     move-result-object p1
 
@@ -88,7 +93,8 @@
     .line 2
     check-cast p1, Landroidx/window/layout/WindowMetricsCalculator;
 
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculator$Companion$overrideDecorator$1;->invoke(Landroidx/window/layout/WindowMetricsCalculator;)Landroidx/window/layout/WindowMetricsCalculator;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculator$Companion$overrideDecorator$1;
+    ->invoke(Landroidx/window/layout/WindowMetricsCalculator;)Landroidx/window/layout/WindowMetricsCalculator;
 
     move-result-object p1
 

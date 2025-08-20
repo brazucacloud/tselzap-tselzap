@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;->newEnumConverter(Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;Landroidx/datastore/preferences/protobuf/Internal$EnumLite;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
+    value = Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
+    ->newEnumConverter(Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;Landroidx/datastore/preferences/protobuf/Internal$EnumLite;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,15 +38,18 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;->val$enumMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;
+    ->val$enumMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;->val$unrecognizedValue:Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;
+    ->val$unrecognizedValue:Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -61,11 +65,13 @@
     .end annotation
 
     .line 2
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Internal$EnumLite;->getNumber()I
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
+    ->getNumber()I
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -78,7 +84,8 @@
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;->doBackward(Landroidx/datastore/preferences/protobuf/Internal$EnumLite;)Ljava/lang/Integer;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;
+    ->doBackward(Landroidx/datastore/preferences/protobuf/Internal$EnumLite;)Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -96,20 +103,24 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;->val$enumMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;
+    ->val$enumMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
 
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;
+    ->intValue()I
 
     move-result p1
 
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;->findValueByNumber(I)Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
+    ->findValueByNumber(I)Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
     .line 3
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;->val$unrecognizedValue:Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;
+    ->val$unrecognizedValue:Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
 
     :cond_0
     return-object p1
@@ -121,7 +132,8 @@
     .line 1
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;->doForward(Ljava/lang/Integer;)Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$1;
+    ->doForward(Ljava/lang/Integer;)Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
 
     move-result-object p1
 

@@ -28,9 +28,11 @@
 
     new-instance v0, Landroidx/fragment/app/FragmentContainerView$Api20Impl;
 
-    invoke-direct {v0}, Landroidx/fragment/app/FragmentContainerView$Api20Impl;-><init>()V
+    invoke-direct {v0}, Landroidx/fragment/app/FragmentContainerView$Api20Impl;
+    -><init>()V
 
-    sput-object v0, Landroidx/fragment/app/FragmentContainerView$Api20Impl;->INSTANCE:Landroidx/fragment/app/FragmentContainerView$Api20Impl;
+    sput-object v0, Landroidx/fragment/app/FragmentContainerView$Api20Impl;
+    ->INSTANCE:Landroidx/fragment/app/FragmentContainerView$Api20Impl;
 
     return-void
 .end method
@@ -39,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -53,7 +56,8 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -62,7 +66,8 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -71,12 +76,14 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p1, p2, p3}, Landroid/view/View$OnApplyWindowInsetsListener;->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+    invoke-interface {p1, p2, p3}, Landroid/view/View$OnApplyWindowInsetsListener;
+    ->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
 
     .line 17
     .line 18
@@ -88,7 +95,8 @@
 
     .line 21
     .line 22
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 

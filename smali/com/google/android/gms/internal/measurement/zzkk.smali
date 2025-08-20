@@ -18,7 +18,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    invoke-static {v0}, Ljava/nio/charset/Charset;
+    ->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     .line 4
     .line 5
@@ -27,7 +28,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    invoke-static {v0}, Ljava/nio/charset/Charset;
+    ->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     .line 9
     .line 10
@@ -35,7 +37,8 @@
     move-result-object v0
 
     .line 12
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzkk;->zza:Ljava/nio/charset/Charset;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzkk;
+    ->zza:Ljava/nio/charset/Charset;
 
     .line 13
     .line 14
@@ -43,7 +46,8 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    invoke-static {v0}, Ljava/nio/charset/Charset;
+    ->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     .line 17
     .line 18
@@ -55,11 +59,13 @@
 
     .line 21
     .line 22
-    sput-object v1, Lcom/google/android/gms/internal/measurement/zzkk;->zzb:[B
+    sput-object v1, Lcom/google/android/gms/internal/measurement/zzkk;
+    ->zzb:[B
 
     .line 23
     .line 24
-    invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
+    invoke-static {v1}, Ljava/nio/ByteBuffer;
+    ->wrap([B)Ljava/nio/ByteBuffer;
 
     .line 25
     .line 26
@@ -67,7 +73,8 @@
     array-length v2, v1
 
     .line 28
-    invoke-static {v1, v0, v2, v0}, Lcom/google/android/gms/internal/measurement/zzjl;->zza([BIIZ)Lcom/google/android/gms/internal/measurement/zzjl;
+    invoke-static {v1, v0, v2, v0}, Lcom/google/android/gms/internal/measurement/zzjl;
+    ->zza([BIIZ)Lcom/google/android/gms/internal/measurement/zzjl;
 
     .line 29
     .line 30
@@ -140,7 +147,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {v0, p0, v1, v0}, Lcom/google/android/gms/internal/measurement/zzkk;->zza(I[BII)I
+    invoke-static {v0, p0, v1, v0}, Lcom/google/android/gms/internal/measurement/zzkk;
+    ->zza(I[BII)I
 
     move-result p0
 
@@ -163,7 +171,8 @@
     .end annotation
 
     .line 6
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     return-object p0
 .end method
@@ -188,7 +197,8 @@
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
-    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;
+    -><init>(Ljava/lang/String;)V
 
     throw p0
 .end method

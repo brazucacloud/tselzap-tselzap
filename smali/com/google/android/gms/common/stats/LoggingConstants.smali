@@ -43,12 +43,14 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Landroid/content/ComponentName;
+    -><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Lcom/google/android/gms/common/stats/LoggingConstants;->zza:Landroid/content/ComponentName;
+    sput-object v0, Lcom/google/android/gms/common/stats/LoggingConstants;
+    ->zza:Landroid/content/ComponentName;
 
     .line 11
     .line 12
@@ -58,7 +60,8 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 

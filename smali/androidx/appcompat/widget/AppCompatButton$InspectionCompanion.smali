@@ -13,7 +13,8 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -52,7 +53,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -60,7 +62,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mPropertiesMapped:Z
+    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mPropertiesMapped:Z
 return-void
 .end method
 
@@ -74,11 +77,13 @@ return-void
     .end param
 
     .line 1
-    sget v0, Landroidx/appcompat/R$attr;->autoSizeMaxTextSize:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->autoSizeMaxTextSize:I
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/activity/f;->y(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->y(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 4
     .line 5
@@ -86,15 +91,18 @@ return-void
     move-result v0
 
     .line 7
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeMaxTextSizeId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeMaxTextSizeId:I
 
     .line 8
     .line 9
-    sget v0, Landroidx/appcompat/R$attr;->autoSizeMinTextSize:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->autoSizeMinTextSize:I
 
     .line 10
     .line 11
-    invoke-static {p1, v0}, Landroidx/activity/f;->z(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->z(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 12
     .line 13
@@ -102,15 +110,18 @@ return-void
     move-result v0
 
     .line 15
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeMinTextSizeId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeMinTextSizeId:I
 
     .line 16
     .line 17
-    sget v0, Landroidx/appcompat/R$attr;->autoSizeStepGranularity:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->autoSizeStepGranularity:I
 
     .line 18
     .line 19
-    invoke-static {p1, v0}, Landroidx/activity/f;->A(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->A(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 20
     .line 21
@@ -118,11 +129,13 @@ return-void
     move-result v0
 
     .line 23
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeStepGranularityId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeStepGranularityId:I
 
     .line 24
     .line 25
-    sget v0, Landroidx/appcompat/R$attr;->autoSizeTextType:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->autoSizeTextType:I
 
     .line 26
     .line 27
@@ -130,12 +143,14 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v1, p0}, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion$1;-><init>(Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;)V
+    invoke-direct {v1, p0}, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion$1;
+    -><init>(Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-static {p1, v0, v1}, Landroidx/activity/f;->d(Landroid/view/inspector/PropertyMapper;ILjava/util/function/IntFunction;)I
+    invoke-static {p1, v0, v1}, Landroidx/activity/f;
+    ->d(Landroid/view/inspector/PropertyMapper;ILjava/util/function/IntFunction;)I
 
     .line 33
     .line 34
@@ -143,15 +158,18 @@ return-void
     move-result v0
 
     .line 36
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeTextTypeId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeTextTypeId:I
 
     .line 37
     .line 38
-    sget v0, Landroidx/appcompat/R$attr;->backgroundTint:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->backgroundTint:I
 
     .line 39
     .line 40
-    invoke-static {p1, v0}, Landroidx/activity/f;->c(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->c(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 41
     .line 42
@@ -159,15 +177,18 @@ return-void
     move-result v0
 
     .line 44
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mBackgroundTintId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mBackgroundTintId:I
 
     .line 45
     .line 46
-    sget v0, Landroidx/appcompat/R$attr;->backgroundTintMode:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->backgroundTintMode:I
 
     .line 47
     .line 48
-    invoke-static {p1, v0}, Landroidx/activity/f;->o(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->o(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 49
     .line 50
@@ -175,15 +196,18 @@ return-void
     move-result v0
 
     .line 52
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mBackgroundTintModeId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mBackgroundTintModeId:I
 
     .line 53
     .line 54
-    sget v0, Landroidx/appcompat/R$attr;->drawableTint:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->drawableTint:I
 
     .line 55
     .line 56
-    invoke-static {p1, v0}, Landroidx/activity/f;->u(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->u(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 57
     .line 58
@@ -191,15 +215,18 @@ return-void
     move-result v0
 
     .line 60
-    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mDrawableTintId:I
+    iput v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mDrawableTintId:I
 
     .line 61
     .line 62
-    sget v0, Landroidx/appcompat/R$attr;->drawableTintMode:I
+    sget v0, Landroidx/appcompat/R$attr;
+    ->drawableTintMode:I
 
     .line 63
     .line 64
-    invoke-static {p1, v0}, Landroidx/activity/f;->x(Landroid/view/inspector/PropertyMapper;I)I
+    invoke-static {p1, v0}, Landroidx/activity/f;
+    ->x(Landroid/view/inspector/PropertyMapper;I)I
 
     .line 65
     .line 66
@@ -207,14 +234,16 @@ return-void
     move-result p1
 
     .line 68
-    iput p1, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mDrawableTintModeId:I
+    iput p1, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mDrawableTintModeId:I
 
     .line 69
     .line 70
     const/4 p1, 0x1
 
     .line 71
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mPropertiesMapped:Z
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mPropertiesMapped:Z
 return-void
 .end method
 
@@ -230,86 +259,112 @@ return-void
     .end param
 
     .line 2
-    iget-boolean v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mPropertiesMapped:Z
+    iget-boolean v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mPropertiesMapped:Z
 
     if-eqz v0, :cond_0
 
     .line 3
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeMaxTextSizeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeMaxTextSizeId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;->getAutoSizeMaxTextSize()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;
+    ->getAutoSizeMaxTextSize()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->j(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->j(Landroid/view/inspector/PropertyReader;II)V
 
     .line 4
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeMinTextSizeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeMinTextSizeId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;->getAutoSizeMinTextSize()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;
+    ->getAutoSizeMinTextSize()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->j(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->j(Landroid/view/inspector/PropertyReader;II)V
 
     .line 5
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeStepGranularityId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeStepGranularityId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;->getAutoSizeStepGranularity()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;
+    ->getAutoSizeStepGranularity()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->j(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->j(Landroid/view/inspector/PropertyReader;II)V
 
     .line 6
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mAutoSizeTextTypeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mAutoSizeTextTypeId:I
 
-    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;->getAutoSizeTextType()I
+    invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatButton;
+    ->getAutoSizeTextType()I
 
     move-result v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->p(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->p(Landroid/view/inspector/PropertyReader;II)V
 
     .line 7
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mBackgroundTintId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mBackgroundTintId:I
 
-    invoke-virtual {p1}, Landroid/view/View;->getBackgroundTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getBackgroundTintList()Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
 
     .line 8
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mBackgroundTintModeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mBackgroundTintModeId:I
 
-    invoke-virtual {p1}, Landroid/view/View;->getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 9
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mDrawableTintId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mDrawableTintId:I
 
-    invoke-static {p1}, La0/c;->c(Landroidx/appcompat/widget/AppCompatButton;)Landroid/content/res/ColorStateList;
+    invoke-static {p1}, La0/c;
+    ->c(Landroidx/appcompat/widget/AppCompatButton;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Landroidx/activity/f;->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
+    invoke-static {p2, v0, v1}, Landroidx/activity/f;
+    ->k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
 
     .line 10
-    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->mDrawableTintModeId:I
+    iget v0, p0, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->mDrawableTintModeId:I
 
-    invoke-static {p1}, La0/c;->l(Landroidx/appcompat/widget/AppCompatButton;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p1}, La0/c;
+    ->l(Landroidx/appcompat/widget/AppCompatButton;)Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p1
 
-    invoke-static {p2, v0, p1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p2, v0, p1}, Landroidx/activity/f;
+    ->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
 return-void
 
     .line 11
     :cond_0
-    invoke-static {}, Landroidx/activity/f;->f()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
+    invoke-static {}, Landroidx/activity/f;
+    ->f()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
     move-result-object p1
 
@@ -330,7 +385,8 @@ return-void
     .line 1
     check-cast p1, Landroidx/appcompat/widget/AppCompatButton;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;->readProperties(Landroidx/appcompat/widget/AppCompatButton;Landroid/view/inspector/PropertyReader;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatButton$InspectionCompanion;
+    ->readProperties(Landroidx/appcompat/widget/AppCompatButton;Landroid/view/inspector/PropertyReader;)V
 return-void
 .end method
 

@@ -171,7 +171,8 @@
     move-result-object v0
 
     .line 19
-    sput-object v0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->SIDES:[Ljava/lang/String;
+    sput-object v0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->SIDES:[Ljava/lang/String;
 
     .line 20
     .line 21
@@ -294,7 +295,8 @@
 
     .line 79
     .line 80
-    sput-object v8, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_SIDES:[[F
+    sput-object v8, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->TOUCH_SIDES:[[F
 
     .line 81
     .line 82
@@ -338,7 +340,8 @@
     move-result-object v6
 
     .line 102
-    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->DIRECTIONS:[Ljava/lang/String;
+    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->DIRECTIONS:[Ljava/lang/String;
 
     .line 103
     .line 104
@@ -358,7 +361,8 @@
     move-result-object v6
 
     .line 112
-    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->MODE:[Ljava/lang/String;
+    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->MODE:[Ljava/lang/String;
 
     .line 113
     .line 114
@@ -402,7 +406,8 @@
     move-result-object v6
 
     .line 134
-    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_UP:[Ljava/lang/String;
+    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->TOUCH_UP:[Ljava/lang/String;
 
     .line 135
     .line 136
@@ -430,7 +435,8 @@
     move-result-object v6
 
     .line 148
-    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->BOUNDARY:[Ljava/lang/String;
+    sput-object v6, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->BOUNDARY:[Ljava/lang/String;
 
     .line 149
     .line 150
@@ -516,7 +522,8 @@
 
     .line 193
     .line 194
-    sput-object v5, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_DIRECTION:[[F    return-void
+    sput-object v5, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->TOUCH_DIRECTION:[[F    return-void
 
     .line 197
     :array_0
@@ -697,7 +704,8 @@
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -705,14 +713,16 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragVertical:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragVertical:Z
 
     .line 6
     .line 7
     const/4 v0, 0x0
 
     .line 8
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragDirection:I
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragDirection:I
 
     .line 9
     .line 10
@@ -720,7 +730,8 @@
 
     .line 11
     .line 12
-    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F
+    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragScale:F
 
     .line 13
     .line 14
@@ -728,11 +739,13 @@
 
     .line 15
     .line 16
-    iput v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragThreshold:F
+    iput v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragThreshold:F
 
     .line 17
     .line 18
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAutoCompleteMode:I
 
     .line 19
     .line 20
@@ -740,7 +753,8 @@
 
     .line 21
     .line 22
-    iput v3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F
+    iput v3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxVelocity:F
 
     .line 23
     .line 24
@@ -749,15 +763,18 @@
     .line 25
     .line 26
     .line 27
-    iput v3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F
+    iput v3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxAcceleration:F
 
     .line 28
     .line 29
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mOnTouchUp:I
 
     .line 30
     .line 31
-    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringMass:F
+    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringMass:F
 
     .line 32
     .line 33
@@ -765,11 +782,13 @@
 
     .line 34
     .line 35
-    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStiffness:F
+    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStiffness:F
 
     .line 36
     .line 37
-    iput v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringDamping:F
+    iput v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringDamping:F
 
     .line 38
     .line 39
@@ -778,18 +797,22 @@
     .line 40
     .line 41
     .line 42
-    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F
+    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStopThreshold:F
 
     .line 43
     .line 44
     const/4 v1, 0x0
 
     .line 45
-    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDestination:F
+    iput v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDestination:F
 
     .line 46
     .line 47
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I    return-void
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringBoundary:I    
+    return-void
 .end method
 
 
@@ -798,11 +821,13 @@
     .locals 9
 
     .line 1
-    iput-wide p3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mStart:J
+    iput-wide p3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mStart:J
 
     .line 2
     .line 3
-    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 4
     .line 5
@@ -810,7 +835,8 @@
     move-result p3
 
     .line 7
-    iget p4, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F
+    iget p4, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxVelocity:F
 
     .line 8
     .line 9
@@ -822,7 +848,8 @@
 
     .line 12
     .line 13
-    invoke-static {p2}, Ljava/lang/Math;->signum(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->signum(F)F
 
     .line 14
     .line 15
@@ -838,7 +865,8 @@
     move v3, p2
 
     .line 20
-    invoke-virtual {p0, p1, v3, p5}, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->getDestinationPosition(FFF)F
+    invoke-virtual {p0, p1, v3, p5}, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->getDestinationPosition(FFF)F
 
     .line 21
     .line 22
@@ -846,7 +874,8 @@
     move-result p2
 
     .line 24
-    iput p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDestination:F
+    iput p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDestination:F
 
     .line 25
     .line 26
@@ -861,11 +890,14 @@
     const/4 p1, 0x0
 
     .line 31
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;    
+    return-void
 
     .line 34
     :cond_1
-    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I
+    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mOnTouchUp:I
 
     .line 35
     .line 36
@@ -876,7 +908,8 @@
 
     .line 38
     .line 39
-    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I
+    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAutoCompleteMode:I
 
     .line 40
     .line 41
@@ -884,7 +917,8 @@
 
     .line 42
     .line 43
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 44
     .line 45
@@ -908,26 +942,31 @@
 
     .line 53
     .line 54
-    invoke-direct {p2}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;-><init>()V
+    invoke-direct {p2}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;
+    -><init>()V
 
     .line 55
     .line 56
     .line 57
-    iput-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iput-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 58
     .line 59
     :goto_0
-    iget p3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDestination:F
+    iget p3, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDestination:F
 
     .line 60
     .line 61
-    invoke-virtual {p2, p1, p3, v3}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->config(FFF)V
+    invoke-virtual {p2, p1, p3, v3}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;
+    ->config(FFF)V
 return-void
 
     .line 65
     :cond_3
-    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I
+    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAutoCompleteMode:I
 
     .line 66
     .line 67
@@ -935,7 +974,8 @@ return-void
 
     .line 68
     .line 69
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 70
     .line 71
@@ -963,12 +1003,14 @@ return-void
 
     .line 80
     .line 81
-    invoke-direct {p2}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;-><init>()V
+    invoke-direct {p2}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
+    -><init>()V
 
     .line 82
     .line 83
     .line 84
-    iput-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iput-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 85
     .line 86
@@ -976,15 +1018,18 @@ return-void
 
     .line 87
     :goto_2
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDestination:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDestination:F
 
     .line 88
     .line 89
-    iget v5, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F
+    iget v5, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxAcceleration:F
 
     .line 90
     .line 91
-    iget v6, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F
+    iget v6, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxVelocity:F
 
     .line 92
     .line 93
@@ -994,7 +1039,8 @@ return-void
     move v4, p5
 
     .line 95
-    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
+    ->config(FFFFFF)V
 return-void
 
     .line 99
@@ -1002,7 +1048,8 @@ return-void
     move v1, p1
 
     .line 100
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 101
     .line 102
@@ -1030,12 +1077,14 @@ return-void
 
     .line 111
     .line 112
-    invoke-direct {p1}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;-><init>()V
+    invoke-direct {p1}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    -><init>()V
 
     .line 113
     .line 114
     .line 115
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 116
     .line 117
@@ -1043,31 +1092,38 @@ return-void
 
     .line 118
     :goto_4
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDestination:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDestination:F
 
     .line 119
     .line 120
-    iget v4, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringMass:F
+    iget v4, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringMass:F
 
     .line 121
     .line 122
-    iget v5, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStiffness:F
+    iget v5, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStiffness:F
 
     .line 123
     .line 124
-    iget v6, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringDamping:F
+    iget v6, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringDamping:F
 
     .line 125
     .line 126
-    iget v7, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F
+    iget v7, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStopThreshold:F
 
     .line 127
     .line 128
-    iget v8, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I
+    iget v8, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringBoundary:I
 
     .line 129
     .line 130
-    invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V
+    invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;
+    ->springConfig(FFFFFFFI)V
 return-void
 .end method
 
@@ -1075,7 +1131,8 @@ return-void
     .locals 5
 
     .line 1
-    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 2
     .line 3
@@ -1095,7 +1152,8 @@ return-void
 
     .line 10
     .line 11
-    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F
+    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxAcceleration:F
 
     .line 12
     .line 13
@@ -1105,7 +1163,8 @@ return-void
     add-float/2addr p3, p1
 
     .line 15
-    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I
+    iget p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mOnTouchUp:I
 
     .line 16
     .line 17
@@ -1183,7 +1242,8 @@ return-void
 
     .line 54
     :pswitch_3
-    invoke-static {v2, p3}, Ljava/lang/Math;->min(FF)F
+    invoke-static {v2, p3}, Ljava/lang/Math;
+    ->min(FF)F
 
     .line 55
     .line 56
@@ -1191,7 +1251,8 @@ return-void
     move-result p1
 
     .line 58
-    invoke-static {v1, p1}, Ljava/lang/Math;->max(FF)F
+    invoke-static {v1, p1}, Ljava/lang/Math;
+    ->max(FF)F
 
     .line 59
     .line 60
@@ -1241,17 +1302,20 @@ return-void
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 .method public getDirection()[F
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_DIRECTION:[[F
+    sget-object v0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->TOUCH_DIRECTION:[[F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragDirection:I
+    iget v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragDirection:I
 
     .line 4
     .line 5
@@ -1262,18 +1326,21 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragScale:F    return v0
 .end method
 
 .method public getSide()[F
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->TOUCH_SIDES:[[F
+    sget-object v0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->TOUCH_SIDES:[[F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorSide:I
+    iget v1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAnchorSide:I
 
     .line 4
     .line 5
@@ -1284,7 +1351,8 @@ return-void
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mStart:J
+    iget-wide v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mStart:J
 
     .line 2
     .line 3
@@ -1303,11 +1371,13 @@ return-void
 
     .line 9
     .line 10
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 11
     .line 12
-    invoke-interface {p2, p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->getInterpolation(F)F
+    invoke-interface {p2, p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->getInterpolation(F)F
 
     .line 13
     .line 14
@@ -1315,11 +1385,13 @@ return-void
     move-result p1
 
     .line 16
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 17
     .line 18
-    invoke-interface {p2}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->isStopped()Z
+    invoke-interface {p2}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->isStopped()Z
 
     .line 19
     .line 20
@@ -1331,7 +1403,8 @@ return-void
 
     .line 23
     .line 24
-    iget p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDestination:F
+    iget p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDestination:F
 
     .line 25
     .line 26
@@ -1343,7 +1416,8 @@ return-void
     .locals 2
 
     .line 1
-    iget p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I
+    iget p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mOnTouchUp:I
 
     .line 2
     .line 3
@@ -1357,7 +1431,8 @@ return-void
 
     .line 8
     :cond_0
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 9
     .line 10
@@ -1365,7 +1440,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-interface {p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->isStopped()Z
+    invoke-interface {p1}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->isStopped()Z
 
     .line 13
     .line 14
@@ -1390,7 +1466,8 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I
+    iget v0, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAutoCompleteMode:I
 
     .line 2
     .line 3
@@ -1398,7 +1475,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 6
     .line 7
@@ -1410,16 +1488,19 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    iget-object v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mEngine:Landroidx/constraintlayout/core/motion/utils/StopEngine;
 
     .line 15
     .line 16
-    invoke-interface {v2}, Landroidx/constraintlayout/core/motion/utils/StopEngine;->getVelocity()F
+    invoke-interface {v2}, Landroidx/constraintlayout/core/motion/utils/StopEngine;
+    ->getVelocity()F
 
     .line 17
     .line 18
@@ -1427,12 +1508,14 @@ return-void
     move-result v2
 
     .line 20
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -1440,12 +1523,14 @@ return-void
     move-result-object v1
 
     .line 27
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 28
     .line 29
     .line 30
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 31
     .line 32
@@ -1457,21 +1542,25 @@ return-void
 
     .line 35
     .line 36
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
     .line 39
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxAcceleration:F
 
     .line 40
     .line 41
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -1479,12 +1568,14 @@ return-void
     move-result-object v1
 
     .line 48
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 49
     .line 50
     .line 51
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 52
     .line 53
@@ -1496,21 +1587,25 @@ return-void
 
     .line 56
     .line 57
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxVelocity:F
 
     .line 61
     .line 62
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 66
     .line 67
@@ -1518,12 +1613,14 @@ return-void
     move-result-object v1
 
     .line 69
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
     return-void
 
     .line 73
     :cond_0
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 74
     .line 75
@@ -1535,21 +1632,25 @@ return-void
 
     .line 78
     .line 79
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 80
     .line 81
     .line 82
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringMass:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringMass:F
 
     .line 83
     .line 84
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 85
     .line 86
     .line 87
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 88
     .line 89
@@ -1557,12 +1658,14 @@ return-void
     move-result-object v1
 
     .line 91
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 92
     .line 93
     .line 94
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 95
     .line 96
@@ -1574,21 +1677,25 @@ return-void
 
     .line 99
     .line 100
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 101
     .line 102
     .line 103
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStiffness:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStiffness:F
 
     .line 104
     .line 105
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 106
     .line 107
     .line 108
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 109
     .line 110
@@ -1596,12 +1703,14 @@ return-void
     move-result-object v1
 
     .line 112
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 113
     .line 114
     .line 115
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 116
     .line 117
@@ -1613,21 +1722,25 @@ return-void
 
     .line 120
     .line 121
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 122
     .line 123
     .line 124
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringDamping:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringDamping:F
 
     .line 125
     .line 126
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 127
     .line 128
     .line 129
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 130
     .line 131
@@ -1635,12 +1748,14 @@ return-void
     move-result-object v1
 
     .line 133
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 134
     .line 135
     .line 136
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 137
     .line 138
@@ -1652,21 +1767,25 @@ return-void
 
     .line 141
     .line 142
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 143
     .line 144
     .line 145
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStopThreshold:F
 
     .line 146
     .line 147
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(F)Ljava/lang/StringBuilder;
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 151
     .line 152
@@ -1674,12 +1793,14 @@ return-void
     move-result-object v1
 
     .line 154
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 155
     .line 156
     .line 157
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 158
     .line 159
@@ -1691,21 +1812,25 @@ return-void
 
     .line 162
     .line 163
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 164
     .line 165
     .line 166
-    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I
+    iget v2, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringBoundary:I
 
     .line 167
     .line 168
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 169
     .line 170
     .line 171
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 172
     .line 173
@@ -1713,7 +1838,8 @@ return-void
     move-result-object v1
 
     .line 175
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
     return-void
 .end method
 
@@ -1721,28 +1847,35 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorId:Ljava/lang/String;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAnchorId:Ljava/lang/String;    
+    return-void
 .end method
 
 .method public setAnchorSide(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAnchorSide:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAnchorSide:I    
+    return-void
 .end method
 
 .method public setAutoCompleteMode(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mAutoCompleteMode:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mAutoCompleteMode:I    
+    return-void
 .end method
 
 .method public setDragDirection(I)V
     .locals 1
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragDirection:I
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragDirection:I
 
     .line 2
     .line 3
@@ -1764,7 +1897,8 @@ return-void
 
     .line 9
     :goto_0
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragVertical:Z
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragVertical:Z
 return-void
 .end method
 
@@ -1772,7 +1906,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1784,14 +1919,17 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragScale:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragScale:F    
+    return-void
 .end method
 
 .method public setDragThreshold(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1803,21 +1941,26 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragThreshold:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mDragThreshold:F    
+    return-void
 .end method
 
 .method public setLimitBoundsTo(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mLimitBoundsTo:Ljava/lang/String;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mLimitBoundsTo:Ljava/lang/String;    
+    return-void
 .end method
 
 .method public setMaxAcceleration(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1829,14 +1972,17 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxAcceleration:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxAcceleration:F    
+    return-void
 .end method
 
 .method public setMaxVelocity(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1848,35 +1994,44 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mMaxVelocity:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mMaxVelocity:F    
+    return-void
 .end method
 
 .method public setOnTouchUp(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mOnTouchUp:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mOnTouchUp:I    
+    return-void
 .end method
 
 .method public setRotationCenterId(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mRotationCenterId:Ljava/lang/String;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mRotationCenterId:Ljava/lang/String;    
+    return-void
 .end method
 
 .method public setSpringBoundary(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringBoundary:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringBoundary:I    
+    return-void
 .end method
 
 .method public setSpringDamping(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1888,14 +2043,17 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringDamping:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringDamping:F    
+    return-void
 .end method
 
 .method public setSpringMass(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1907,14 +2065,17 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringMass:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringMass:F    
+    return-void
 .end method
 
 .method public setSpringStiffness(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1926,14 +2087,17 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStiffness:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStiffness:F    
+    return-void
 .end method
 
 .method public setSpringStopThreshold(F)V
     .locals 1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 2
     .line 3
@@ -1945,7 +2109,9 @@ return-void
 
     .line 8
     :cond_0
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;
+    ->mSpringStopThreshold:F    
+    return-void
 .end method
 
 .end class

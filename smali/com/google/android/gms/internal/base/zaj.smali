@@ -18,7 +18,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;
+    -><init>()V
 
     .line 2
     .line 3
@@ -27,19 +28,23 @@
 
     .line 5
     .line 6
-    iget v0, p1, Lcom/google/android/gms/internal/base/zaj;->zaa:I
+    iget v0, p1, Lcom/google/android/gms/internal/base/zaj;
+    ->zaa:I
 
     .line 7
     .line 8
-    iput v0, p0, Lcom/google/android/gms/internal/base/zaj;->zaa:I
+    iput v0, p0, Lcom/google/android/gms/internal/base/zaj;
+    ->zaa:I
 
     .line 9
     .line 10
-    iget p1, p1, Lcom/google/android/gms/internal/base/zaj;->zab:I
+    iget p1, p1, Lcom/google/android/gms/internal/base/zaj;
+    ->zab:I
 
     .line 11
     .line 12
-    iput p1, p0, Lcom/google/android/gms/internal/base/zaj;->zab:I
+    iput p1, p0, Lcom/google/android/gms/internal/base/zaj;
+    ->zab:I
 
     .line 13
     .line 14
@@ -52,7 +57,8 @@
 .method public final getChangingConfigurations()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/internal/base/zaj;->zaa:I
+    iget v0, p0, Lcom/google/android/gms/internal/base/zaj;
+    ->zaa:I
 
     return v0
 .end method
@@ -65,7 +71,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/base/zak;-><init>(Lcom/google/android/gms/internal/base/zaj;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/base/zak;
+    -><init>(Lcom/google/android/gms/internal/base/zaj;)V
 
     .line 4
     .line 5

@@ -27,12 +27,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;-><init>()V
+    invoke-direct {v0}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
+    ->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
 
     .line 7
     .line 8
@@ -46,7 +48,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicImpl;-><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;)V
+    invoke-direct {p0, v0}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicImpl;
+    -><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;)V
 
     .line 3
     .line 4
@@ -60,7 +63,8 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+    invoke-static {}, Ljava/util/Locale;
+    ->getDefault()Ljava/util/Locale;
 
     .line 2
     .line 3
@@ -68,7 +72,8 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Landroidx/core/text/TextUtilsCompat;->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
+    invoke-static {v0}, Landroidx/core/text/TextUtilsCompat;
+    ->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
 
     .line 6
     .line 7

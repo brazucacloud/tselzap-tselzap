@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavController;->restoreStateInternal(Ljava/lang/String;)Z
+    value = Landroidx/navigation/NavController;
+    ->restoreStateInternal(Ljava/lang/String;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavController$restoreStateInternal$3;->$backStackId:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/NavController$restoreStateInternal$3;
+    ->$backStackId:Ljava/lang/String;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -46,13 +49,16 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavController$restoreStateInternal$3;->$backStackId:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/navigation/NavController$restoreStateInternal$3;
+    ->$backStackId:Ljava/lang/String;
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -65,7 +71,8 @@ return-void
     .line 2
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$restoreStateInternal$3;->invoke(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$restoreStateInternal$3;
+    ->invoke(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object p1
 

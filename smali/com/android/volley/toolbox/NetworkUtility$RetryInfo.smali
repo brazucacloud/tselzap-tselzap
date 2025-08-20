@@ -25,13 +25,16 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 3
-    iput-object p1, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->logPrefix:Ljava/lang/String;
+    iput-object p1, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
+    ->logPrefix:Ljava/lang/String;
 
     .line 4
-    iput-object p2, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->errorToRetry:Lcom/android/volley/VolleyError;
+    iput-object p2, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
+    ->errorToRetry:Lcom/android/volley/VolleyError;
 
     return-void
 .end method
@@ -40,7 +43,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;-><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;)V
+    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
+    -><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;)V
 
     return-void
 .end method
@@ -49,7 +53,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->errorToRetry:Lcom/android/volley/VolleyError;
+    iget-object p0, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
+    ->errorToRetry:Lcom/android/volley/VolleyError;
 
     .line 2
     .line 3
@@ -60,7 +65,8 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->logPrefix:Ljava/lang/String;
+    iget-object p0, p0, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
+    ->logPrefix:Ljava/lang/String;
 
     .line 2
     .line 3

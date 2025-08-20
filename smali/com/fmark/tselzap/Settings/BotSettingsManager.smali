@@ -101,7 +101,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -110,12 +111,14 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;
+    -><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 10
     .line 11
@@ -123,12 +126,14 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->patterns:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->patterns:Ljava/util/List;
 
     .line 17
     .line 18
@@ -136,12 +141,14 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->responses:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->responses:Ljava/util/List;
 
     .line 24
     .line 25
@@ -149,12 +156,14 @@
 
     .line 26
     .line 27
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 28
     .line 29
     .line 30
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->exactMatches:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->exactMatches:Ljava/util/List;
 
     .line 31
     .line 32
@@ -162,12 +171,14 @@
 
     .line 33
     .line 34
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 35
     .line 36
     .line 37
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->containsMatches:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->containsMatches:Ljava/util/List;
 
     .line 38
     .line 39
@@ -175,12 +186,14 @@
 
     .line 40
     .line 41
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;
+    -><init>()V
 
     .line 42
     .line 43
     .line 44
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->defaultFlags:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->defaultFlags:Ljava/util/List;
 
     .line 45
     .line 46
@@ -188,12 +201,14 @@
 
     .line 47
     .line 48
-    invoke-direct {v0, p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;-><init>(Lcom/fmark/tselzap/Settings/BotSettingsManager;)V
+    invoke-direct {v0, p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;
+    -><init>(Lcom/fmark/tselzap/Settings/BotSettingsManager;)V
 
     .line 49
     .line 50
     .line 51
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settingsReceiver:Landroid/content/BroadcastReceiver;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settingsReceiver:Landroid/content/BroadcastReceiver;
 
     .line 52
     .line 53
@@ -204,7 +219,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->handleSettingsChanged(Landroid/content/Intent;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->handleSettingsChanged(Landroid/content/Intent;)V
 return-void
 .end method
 
@@ -212,7 +228,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->respondWithSettings(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->respondWithSettings(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -228,7 +245,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -237,7 +255,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 11
     .line 12
@@ -246,7 +265,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 16
     .line 17
@@ -259,16 +279,19 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 26
     .line 27
-    invoke-virtual {p1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {p1, v0}, Landroid/content/Context;
+    ->sendBroadcast(Landroid/content/Intent;)V
 
     .line 28
     .line 29
@@ -288,7 +311,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -297,7 +321,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 11
     .line 12
@@ -306,7 +331,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 16
     .line 17
@@ -319,16 +345,19 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 26
     .line 27
-    invoke-virtual {p1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {p1, v0}, Landroid/content/Context;
+    ->sendBroadcast(Landroid/content/Intent;)V
 
     .line 28
     .line 29
@@ -348,7 +377,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -357,7 +387,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 11
     .line 12
@@ -366,7 +397,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 16
     .line 17
@@ -379,16 +411,19 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, p1, p2}, Landroid/content/Intent;
+    ->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 26
     .line 27
-    invoke-virtual {p1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {p1, v0}, Landroid/content/Context;
+    ->sendBroadcast(Landroid/content/Intent;)V
 
     .line 28
     .line 29
@@ -408,7 +443,8 @@ return-void
 
     .line 4
     :try_start_0
-    sget-object v1, Lcom/fmark/tselzap/Settings/BotSettingsManager;->instance:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    sget-object v1, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->instance:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 5
     .line 6
@@ -420,12 +456,14 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;-><init>()V
+    invoke-direct {v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Lcom/fmark/tselzap/Settings/BotSettingsManager;->instance:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    sput-object v1, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->instance:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 14
     .line 15
@@ -441,7 +479,8 @@ return-void
     .line 18
     :cond_0
     :goto_0
-    sget-object v1, Lcom/fmark/tselzap/Settings/BotSettingsManager;->instance:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    sget-object v1, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->instance:Lcom/fmark/tselzap/Settings/BotSettingsManager;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -536,7 +575,8 @@ return-void
 
     .line 3
     .line 4
-    invoke-virtual {p1, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -548,7 +588,8 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p1, v2}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v2}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -576,7 +617,8 @@ return-void
     const/4 v4, -0x1
 
     .line 23
-    invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 24
     .line 25
@@ -597,7 +639,8 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v2, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -624,7 +667,8 @@ return-void
 
     .line 43
     .line 44
-    invoke-virtual {v2, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -651,7 +695,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {v2, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v5}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 56
     .line 57
@@ -680,7 +725,8 @@ return-void
 
     .line 67
     :pswitch_0
-    invoke-virtual {p1, v3, v0}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+    invoke-virtual {p1, v3, v0}, Landroid/content/Intent;
+    ->getBooleanExtra(Ljava/lang/String;Z)Z
 
     .line 68
     .line 69
@@ -688,11 +734,13 @@ return-void
     move-result p1
 
     .line 71
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 72
     .line 73
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 74
     .line 75
@@ -700,16 +748,19 @@ return-void
     move-result-object v2
 
     .line 77
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 78
     .line 79
     .line 80
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 81
     .line 82
-    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 83
     .line 84
@@ -718,7 +769,8 @@ return-void
 
     .line 86
     :pswitch_1
-    invoke-virtual {p1, v3, v0}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
+    invoke-virtual {p1, v3, v0}, Landroid/content/Intent;
+    ->getIntExtra(Ljava/lang/String;I)I
 
     .line 87
     .line 88
@@ -726,11 +778,13 @@ return-void
     move-result p1
 
     .line 90
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 91
     .line 92
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 93
     .line 94
@@ -738,16 +792,19 @@ return-void
     move-result-object v2
 
     .line 96
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 97
     .line 98
     .line 99
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 100
     .line 101
-    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->setInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setInt(Ljava/lang/String;I)V
 
     .line 102
     .line 103
@@ -756,7 +813,8 @@ return-void
 
     .line 105
     :pswitch_2
-    invoke-virtual {p1, v3}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v3}, Landroid/content/Intent;
+    ->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     .line 106
     .line 107
@@ -768,20 +826,24 @@ return-void
 
     .line 110
     .line 111
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 112
     .line 113
-    invoke-virtual {v0, v1, p1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 114
     .line 115
     .line 116
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 117
     .line 118
-    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     .line 120
@@ -792,7 +854,8 @@ return-void
 
     .line 122
     .line 123
-    invoke-virtual {p1, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 124
     .line 125
@@ -804,7 +867,8 @@ return-void
 
     .line 128
     .line 129
-    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 130
     .line 131
@@ -943,7 +1007,8 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 2
     .line 3
@@ -951,7 +1016,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -966,13 +1032,15 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 13
     .line 14
     .line 15
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 16
     .line 17
@@ -980,7 +1048,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -992,13 +1061,15 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 26
     .line 27
     .line 28
     :cond_1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 29
     .line 30
@@ -1006,7 +1077,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -1022,7 +1094,8 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -1035,7 +1108,8 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 2
     .line 3
@@ -1043,7 +1117,8 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     .line 6
     .line 7
@@ -1055,15 +1130,18 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 12
     .line 13
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 14
     .line 15
-    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->getBool(Ljava/lang/String;)Z
+    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getBool(Ljava/lang/String;)Z
 
     .line 16
     .line 17
@@ -1071,7 +1149,8 @@ return-void
     move-result v2
 
     .line 19
-    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 20
     .line 21
@@ -1079,13 +1158,15 @@ return-void
     move-result-object v2
 
     .line 23
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
     .line 26
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 27
     .line 28
@@ -1093,7 +1174,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     .line 31
     .line 32
@@ -1105,15 +1187,18 @@ return-void
 
     .line 35
     .line 36
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 37
     .line 38
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 39
     .line 40
-    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->getBool(Ljava/lang/String;)Z
+    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getBool(Ljava/lang/String;)Z
 
     .line 41
     .line 42
@@ -1121,7 +1206,8 @@ return-void
     move-result v2
 
     .line 44
-    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 45
     .line 46
@@ -1129,13 +1215,15 @@ return-void
     move-result-object v2
 
     .line 48
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 49
     .line 50
     .line 51
     :cond_1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 52
     .line 53
@@ -1143,7 +1231,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     .line 56
     .line 57
@@ -1155,15 +1244,18 @@ return-void
 
     .line 60
     .line 61
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 62
     .line 63
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 64
     .line 65
-    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 66
     .line 67
@@ -1171,13 +1263,15 @@ return-void
     move-result-object v2
 
     .line 69
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 70
     .line 71
     .line 72
     :cond_2
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 73
     .line 74
@@ -1185,7 +1279,8 @@ return-void
 
     .line 75
     .line 76
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     .line 77
     .line 78
@@ -1197,15 +1292,18 @@ return-void
 
     .line 81
     .line 82
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 83
     .line 84
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 85
     .line 86
-    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 87
     .line 88
@@ -1213,13 +1311,15 @@ return-void
     move-result-object v2
 
     .line 90
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 91
     .line 92
     .line 93
     :cond_3
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 94
     .line 95
@@ -1227,7 +1327,8 @@ return-void
 
     .line 96
     .line 97
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     .line 98
     .line 99
@@ -1239,18 +1340,21 @@ return-void
 
     .line 102
     .line 103
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 104
     .line 105
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 106
     .line 107
     const/4 v3, 0x0
 
     .line 108
-    invoke-virtual {v2, v1, v3}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v2, v1, v3}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 109
     .line 110
@@ -1258,7 +1362,8 @@ return-void
     move-result v2
 
     .line 112
-    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 113
     .line 114
@@ -1266,12 +1371,14 @@ return-void
     move-result-object v2
 
     .line 116
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 117
     .line 118
     .line 119
-    invoke-virtual {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->loadPatterns()V
+    invoke-virtual {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->loadPatterns()V
 
     .line 120
     .line 121
@@ -1285,7 +1392,8 @@ return-void
 
     .line 125
     .line 126
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 127
     .line 128
@@ -1305,16 +1413,19 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 9
     .line 10
-    invoke-virtual {v1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {v1, v0}, Landroid/content/Context;
+    ->sendBroadcast(Landroid/content/Intent;)V
 
     .line 11
     .line 12
@@ -1326,11 +1437,13 @@ return-void
     .locals 3
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/util/concurrent/ConcurrentHashMap;->entrySet()Ljava/util/Set;
+    invoke-virtual {p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->entrySet()Ljava/util/Set;
 
     .line 4
     .line 5
@@ -1338,7 +1451,8 @@ return-void
     move-result-object p1
 
     .line 7
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -1348,7 +1462,8 @@ return-void
     .line 11
     :cond_0
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 12
     .line 13
@@ -1360,7 +1475,8 @@ return-void
 
     .line 16
     .line 17
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -1372,7 +1488,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1384,7 +1501,8 @@ return-void
 
     .line 28
     .line 29
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -1404,7 +1522,8 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 40
     .line 41
@@ -1412,7 +1531,8 @@ return-void
     move-result v0
 
     .line 43
-    invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->broadcastBoolSetting(Ljava/lang/String;Z)V
+    invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->broadcastBoolSetting(Ljava/lang/String;Z)V
 
     .line 44
     .line 45
@@ -1433,7 +1553,8 @@ return-void
 
     .line 52
     .line 53
-    invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->broadcastStrSetting(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->broadcastStrSetting(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -1454,7 +1575,8 @@ return-void
 
     .line 62
     .line 63
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;
+    ->intValue()I
 
     .line 64
     .line 65
@@ -1462,7 +1584,8 @@ return-void
     move-result v0
 
     .line 67
-    invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->broadcastIntSetting(Ljava/lang/String;I)V
+    invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->broadcastIntSetting(Ljava/lang/String;I)V
 
     .line 68
     .line 69
@@ -1480,7 +1603,8 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 2
     .line 3
@@ -1489,11 +1613,13 @@ return-void
     .line 4
     .line 5
     :try_start_0
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settingsReceiver:Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settingsReceiver:Landroid/content/BroadcastReceiver;
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, v1}, Landroid/content/Context;
+    ->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1515,7 +1641,8 @@ return-void
 
     .line 15
     .line 16
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 17
     .line 18
@@ -1528,9 +1655,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1542,7 +1671,8 @@ return-void
     .line 3
     check-cast v0, Ljava/lang/Boolean;
 
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result p1
 
@@ -1550,31 +1680,38 @@ return-void
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 5
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->getBool(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getBool(Ljava/lang/String;)Z
 
     move-result v0
 
     .line 6
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v2
 
-    invoke-virtual {v1, p1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return v0
 
@@ -1588,9 +1725,11 @@ return-void
     .locals 2
 
     .line 7
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1602,7 +1741,8 @@ return-void
     .line 9
     check-cast v0, Ljava/lang/Boolean;
 
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     move-result p1
 
@@ -1610,31 +1750,38 @@ return-void
 
     .line 10
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 11
-    iget-object p2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
-    invoke-virtual {p2, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->getBool(Ljava/lang/String;)Z
+    invoke-virtual {p2, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getBool(Ljava/lang/String;)Z
 
     move-result p2
 
     .line 12
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v1
 
-    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
     return p2
@@ -1656,11 +1803,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->containsMatches:Ljava/util/List;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->containsMatches:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 6
     .line 7
@@ -1684,11 +1833,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->defaultFlags:Ljava/util/List;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->defaultFlags:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 6
     .line 7
@@ -1712,11 +1863,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->exactMatches:Ljava/util/List;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->exactMatches:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 6
     .line 7
@@ -1728,9 +1881,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1742,7 +1897,8 @@ return-void
     .line 3
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;
+    ->intValue()I
 
     move-result p1
 
@@ -1750,33 +1906,40 @@ return-void
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 5
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
-    invoke-virtual {v0, p1, v1}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v0, p1, v1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
     .line 6
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    invoke-virtual {v1, p1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return v0
 
@@ -1788,9 +1951,11 @@ return-void
     .locals 2
 
     .line 7
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1802,7 +1967,8 @@ return-void
     .line 9
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;
+    ->intValue()I
 
     move-result p1
 
@@ -1810,31 +1976,38 @@ return-void
 
     .line 10
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 11
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
-    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInt(Ljava/lang/String;I)I
 
     move-result p2
 
     .line 12
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
     return p2
@@ -1856,11 +2029,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->patterns:Ljava/util/List;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->patterns:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 6
     .line 7
@@ -1884,11 +2059,13 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->responses:Ljava/util/List;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->responses:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 6
     .line 7
@@ -1900,9 +2077,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1918,27 +2097,33 @@ return-void
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 5
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 6
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v1, p1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object v0
 
@@ -1953,9 +2138,11 @@ return-void
     .locals 2
 
     .line 8
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1971,27 +2158,33 @@ return-void
 
     .line 11
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->keyExists(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->keyExists(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 12
-    iget-object p2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object p2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
-    invoke-virtual {p2, p1}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
     .line 13
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
     return-object p2
@@ -2001,7 +2194,8 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 2
     .line 3
@@ -2013,7 +2207,8 @@ return-void
 
     .line 6
     :cond_0
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 7
     .line 8
@@ -2021,16 +2216,19 @@ return-void
     move-result-object v0
 
     .line 10
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->context:Landroid/content/Context;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->context:Landroid/content/Context;
 
     .line 11
     .line 12
-    invoke-static {p1}, Lcom/fmark/tselzap/Storage/DataStorage;->initialize(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->initialize(Landroid/content/Context;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
+    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 16
     .line 17
@@ -2038,7 +2236,8 @@ return-void
     move-result-object v0
 
     .line 19
-    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iput-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 20
     .line 21
@@ -2046,7 +2245,8 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {v0}, Landroid/content/IntentFilter;-><init>()V
+    invoke-direct {v0}, Landroid/content/IntentFilter;
+    -><init>()V
 
     .line 24
     .line 25
@@ -2055,7 +2255,8 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;
+    ->addAction(Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -2064,34 +2265,40 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;
+    ->addAction(Ljava/lang/String;)V
 
     .line 34
     .line 35
     .line 36
-    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settingsReceiver:Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settingsReceiver:Landroid/content/BroadcastReceiver;
 
     .line 37
     .line 38
     const/4 v2, 0x4
 
     .line 39
-    invoke-static {p1, v1, v0, v2}, Landroidx/core/content/ContextCompat;->registerReceiver(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-static {p1, v1, v0, v2}, Landroidx/core/content/ContextCompat;
+    ->registerReceiver(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     .line 40
     .line 41
     .line 42
-    invoke-direct {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->loadSettingsFromStorage()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->loadSettingsFromStorage()V
 
     .line 43
     .line 44
     .line 45
-    invoke-direct {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->requestSettings()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->requestSettings()V
 
     .line 46
     .line 47
     .line 48
-    invoke-direct {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->initializeDefaults()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->initializeDefaults()V
 
     .line 49
     .line 50
@@ -2104,7 +2311,8 @@ return-void
 
     .line 54
     .line 55
-    invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 56
     .line 57
@@ -2127,7 +2335,8 @@ return-void
     const/4 v1, 0x0
 
     .line 5
-    invoke-virtual {p0, v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getInt(Ljava/lang/String;I)I
+    invoke-virtual {p0, v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->getInt(Ljava/lang/String;I)I
 
     .line 6
     .line 7
@@ -2135,47 +2344,57 @@ return-void
     move-result v0
 
     .line 9
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->patterns:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->patterns:Ljava/util/List;
 
     .line 10
     .line 11
-    invoke-interface {v2}, Ljava/util/List;->clear()V
+    invoke-interface {v2}, Ljava/util/List;
+    ->clear()V
 
     .line 12
     .line 13
     .line 14
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->responses:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->responses:Ljava/util/List;
 
     .line 15
     .line 16
-    invoke-interface {v2}, Ljava/util/List;->clear()V
+    invoke-interface {v2}, Ljava/util/List;
+    ->clear()V
 
     .line 17
     .line 18
     .line 19
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->exactMatches:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->exactMatches:Ljava/util/List;
 
     .line 20
     .line 21
-    invoke-interface {v2}, Ljava/util/List;->clear()V
+    invoke-interface {v2}, Ljava/util/List;
+    ->clear()V
 
     .line 22
     .line 23
     .line 24
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->containsMatches:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->containsMatches:Ljava/util/List;
 
     .line 25
     .line 26
-    invoke-interface {v2}, Ljava/util/List;->clear()V
+    invoke-interface {v2}, Ljava/util/List;
+    ->clear()V
 
     .line 27
     .line 28
     .line 29
-    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->defaultFlags:Ljava/util/List;
+    iget-object v2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->defaultFlags:Ljava/util/List;
 
     .line 30
     .line 31
-    invoke-interface {v2}, Ljava/util/List;->clear()V
+    invoke-interface {v2}, Ljava/util/List;
+    ->clear()V
 
     .line 32
     .line 33
@@ -2188,7 +2407,8 @@ return-void
 
     .line 36
     .line 37
-    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->patterns:Ljava/util/List;
+    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->patterns:Ljava/util/List;
 
     .line 38
     .line 39
@@ -2196,7 +2416,8 @@ return-void
 
     .line 40
     .line 41
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 42
     .line 43
@@ -2205,17 +2426,20 @@ return-void
 
     .line 45
     .line 46
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -2227,7 +2451,8 @@ return-void
 
     .line 57
     .line 58
-    invoke-virtual {p0, v4, v5}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getStr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v4, v5}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->getStr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 59
     .line 60
@@ -2235,12 +2460,14 @@ return-void
     move-result-object v4
 
     .line 62
-    invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, v4}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 63
     .line 64
     .line 65
-    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->responses:Ljava/util/List;
+    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->responses:Ljava/util/List;
 
     .line 66
     .line 67
@@ -2248,7 +2475,8 @@ return-void
 
     .line 68
     .line 69
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 70
     .line 71
@@ -2257,17 +2485,20 @@ return-void
 
     .line 73
     .line 74
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 75
     .line 76
     .line 77
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 81
     .line 82
@@ -2279,7 +2510,8 @@ return-void
 
     .line 85
     .line 86
-    invoke-virtual {p0, v4, v5}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getStr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v4, v5}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->getStr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 87
     .line 88
@@ -2287,12 +2519,14 @@ return-void
     move-result-object v4
 
     .line 90
-    invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, v4}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 91
     .line 92
     .line 93
-    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->exactMatches:Ljava/util/List;
+    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->exactMatches:Ljava/util/List;
 
     .line 94
     .line 95
@@ -2300,7 +2534,8 @@ return-void
 
     .line 96
     .line 97
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 98
     .line 99
@@ -2309,17 +2544,20 @@ return-void
 
     .line 101
     .line 102
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 103
     .line 104
     .line 105
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 106
     .line 107
     .line 108
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 109
     .line 110
@@ -2327,7 +2565,8 @@ return-void
     move-result-object v4
 
     .line 112
-    invoke-virtual {p0, v4, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getBool(Ljava/lang/String;Z)Z
+    invoke-virtual {p0, v4, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->getBool(Ljava/lang/String;Z)Z
 
     .line 113
     .line 114
@@ -2335,7 +2574,8 @@ return-void
     move-result v4
 
     .line 116
-    invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v4}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 117
     .line 118
@@ -2343,12 +2583,14 @@ return-void
     move-result-object v4
 
     .line 120
-    invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, v4}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 121
     .line 122
     .line 123
-    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->containsMatches:Ljava/util/List;
+    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->containsMatches:Ljava/util/List;
 
     .line 124
     .line 125
@@ -2356,7 +2598,8 @@ return-void
 
     .line 126
     .line 127
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 128
     .line 129
@@ -2365,17 +2608,20 @@ return-void
 
     .line 131
     .line 132
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 133
     .line 134
     .line 135
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 136
     .line 137
     .line 138
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 139
     .line 140
@@ -2383,7 +2629,8 @@ return-void
     move-result-object v4
 
     .line 142
-    invoke-virtual {p0, v4, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getBool(Ljava/lang/String;Z)Z
+    invoke-virtual {p0, v4, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->getBool(Ljava/lang/String;Z)Z
 
     .line 143
     .line 144
@@ -2391,7 +2638,8 @@ return-void
     move-result v4
 
     .line 146
-    invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v4}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 147
     .line 148
@@ -2399,12 +2647,14 @@ return-void
     move-result-object v4
 
     .line 150
-    invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, v4}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 151
     .line 152
     .line 153
-    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->defaultFlags:Ljava/util/List;
+    iget-object v3, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->defaultFlags:Ljava/util/List;
 
     .line 154
     .line 155
@@ -2412,7 +2662,8 @@ return-void
 
     .line 156
     .line 157
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 158
     .line 159
@@ -2421,17 +2672,20 @@ return-void
 
     .line 161
     .line 162
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 163
     .line 164
     .line 165
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 166
     .line 167
     .line 168
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 169
     .line 170
@@ -2439,7 +2693,8 @@ return-void
     move-result-object v4
 
     .line 172
-    invoke-virtual {p0, v4, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getBool(Ljava/lang/String;Z)Z
+    invoke-virtual {p0, v4, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->getBool(Ljava/lang/String;Z)Z
 
     .line 173
     .line 174
@@ -2447,7 +2702,8 @@ return-void
     move-result v4
 
     .line 176
-    invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v4}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 177
     .line 178
@@ -2455,7 +2711,8 @@ return-void
     move-result-object v4
 
     .line 180
-    invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, v4}, Ljava/util/List;
+    ->add(Ljava/lang/Object;)Z
 
     .line 181
     .line 182
@@ -2484,7 +2741,8 @@ return-void
 
     .line 192
     .line 193
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 194
     .line 195
@@ -2493,12 +2751,14 @@ return-void
 
     .line 197
     .line 198
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 199
     .line 200
     .line 201
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 202
     .line 203
@@ -2507,12 +2767,14 @@ return-void
 
     .line 205
     .line 206
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 207
     .line 208
     .line 209
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 210
     .line 211
@@ -2520,7 +2782,8 @@ return-void
     move-result-object v0
 
     .line 213
-    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2692,92 +2955,112 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->patterns:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->patterns:Ljava/util/List;
 
     .line 3
     .line 4
-    invoke-interface {v0}, Ljava/util/List;->clear()V
+    invoke-interface {v0}, Ljava/util/List;
+    ->clear()V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->responses:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->responses:Ljava/util/List;
 
     .line 8
     .line 9
-    invoke-interface {v0}, Ljava/util/List;->clear()V
+    invoke-interface {v0}, Ljava/util/List;
+    ->clear()V
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->exactMatches:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->exactMatches:Ljava/util/List;
 
     .line 13
     .line 14
-    invoke-interface {v0}, Ljava/util/List;->clear()V
+    invoke-interface {v0}, Ljava/util/List;
+    ->clear()V
 
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->containsMatches:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->containsMatches:Ljava/util/List;
 
     .line 18
     .line 19
-    invoke-interface {v0}, Ljava/util/List;->clear()V
+    invoke-interface {v0}, Ljava/util/List;
+    ->clear()V
 
     .line 20
     .line 21
     .line 22
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->defaultFlags:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->defaultFlags:Ljava/util/List;
 
     .line 23
     .line 24
-    invoke-interface {v0}, Ljava/util/List;->clear()V
+    invoke-interface {v0}, Ljava/util/List;
+    ->clear()V
 
     .line 25
     .line 26
     .line 27
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->patterns:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->patterns:Ljava/util/List;
 
     .line 28
     .line 29
-    invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 30
     .line 31
     .line 32
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->responses:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->responses:Ljava/util/List;
 
     .line 33
     .line 34
-    invoke-interface {v0, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p2}, Ljava/util/List;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 35
     .line 36
     .line 37
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->exactMatches:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->exactMatches:Ljava/util/List;
 
     .line 38
     .line 39
-    invoke-interface {v0, p3}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p3}, Ljava/util/List;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 40
     .line 41
     .line 42
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->containsMatches:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->containsMatches:Ljava/util/List;
 
     .line 43
     .line 44
-    invoke-interface {v0, p4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p4}, Ljava/util/List;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 45
     .line 46
     .line 47
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->defaultFlags:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->defaultFlags:Ljava/util/List;
 
     .line 48
     .line 49
-    invoke-interface {v0, p5}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p5}, Ljava/util/List;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 50
     .line 51
@@ -2786,7 +3069,8 @@ return-void
 
     .line 53
     .line 54
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 55
     .line 56
@@ -2794,7 +3078,8 @@ return-void
     move-result v1
 
     .line 58
-    invoke-virtual {p0, v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setInt(Ljava/lang/String;I)V
+    invoke-virtual {p0, v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setInt(Ljava/lang/String;I)V
 
     .line 59
     .line 60
@@ -2803,7 +3088,8 @@ return-void
 
     .line 62
     :goto_0
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 63
     .line 64
@@ -2819,7 +3105,8 @@ return-void
 
     .line 69
     .line 70
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 71
     .line 72
@@ -2828,17 +3115,20 @@ return-void
 
     .line 74
     .line 75
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 82
     .line 83
@@ -2846,7 +3136,8 @@ return-void
     move-result-object v1
 
     .line 85
-    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 86
     .line 87
@@ -2858,7 +3149,8 @@ return-void
 
     .line 90
     .line 91
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -2867,7 +3159,8 @@ return-void
 
     .line 95
     .line 96
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 97
     .line 98
@@ -2876,17 +3169,20 @@ return-void
 
     .line 100
     .line 101
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 102
     .line 103
     .line 104
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
     .line 107
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 108
     .line 109
@@ -2894,7 +3190,8 @@ return-void
     move-result-object v1
 
     .line 111
-    invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 112
     .line 113
@@ -2906,7 +3203,8 @@ return-void
 
     .line 116
     .line 117
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -2915,7 +3213,8 @@ return-void
 
     .line 121
     .line 122
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 123
     .line 124
@@ -2924,17 +3223,20 @@ return-void
 
     .line 126
     .line 127
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 128
     .line 129
     .line 130
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 131
     .line 132
     .line 133
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 134
     .line 135
@@ -2942,7 +3244,8 @@ return-void
     move-result-object v1
 
     .line 137
-    invoke-interface {p3, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 138
     .line 139
@@ -2954,7 +3257,8 @@ return-void
 
     .line 142
     .line 143
-    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 144
     .line 145
@@ -2962,7 +3266,8 @@ return-void
     move-result v2
 
     .line 147
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 148
     .line 149
@@ -2971,7 +3276,8 @@ return-void
 
     .line 151
     .line 152
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 153
     .line 154
@@ -2980,17 +3286,20 @@ return-void
 
     .line 156
     .line 157
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 158
     .line 159
     .line 160
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 161
     .line 162
     .line 163
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 164
     .line 165
@@ -2998,7 +3307,8 @@ return-void
     move-result-object v1
 
     .line 167
-    invoke-interface {p4, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p4, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 168
     .line 169
@@ -3010,7 +3320,8 @@ return-void
 
     .line 172
     .line 173
-    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 174
     .line 175
@@ -3018,7 +3329,8 @@ return-void
     move-result v2
 
     .line 177
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 178
     .line 179
@@ -3027,7 +3339,8 @@ return-void
 
     .line 181
     .line 182
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 183
     .line 184
@@ -3036,17 +3349,20 @@ return-void
 
     .line 186
     .line 187
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 188
     .line 189
     .line 190
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 191
     .line 192
     .line 193
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 194
     .line 195
@@ -3054,7 +3370,8 @@ return-void
     move-result-object v1
 
     .line 197
-    invoke-interface {p5, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {p5, v0}, Ljava/util/List;
+    ->get(I)Ljava/lang/Object;
 
     .line 198
     .line 199
@@ -3066,7 +3383,8 @@ return-void
 
     .line 202
     .line 203
-    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 204
     .line 205
@@ -3074,7 +3392,8 @@ return-void
     move-result v2
 
     .line 207
-    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 208
     .line 209
@@ -3103,7 +3422,8 @@ return-void
 
     .line 219
     .line 220
-    invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {p3}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 221
     .line 222
@@ -3112,12 +3432,14 @@ return-void
 
     .line 224
     .line 225
-    invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 226
     .line 227
     .line 228
-    invoke-interface {p1}, Ljava/util/List;->size()I
+    invoke-interface {p1}, Ljava/util/List;
+    ->size()I
 
     .line 229
     .line 230
@@ -3125,7 +3447,8 @@ return-void
     move-result p1
 
     .line 232
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 233
     .line 234
@@ -3134,12 +3457,14 @@ return-void
 
     .line 236
     .line 237
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 238
     .line 239
     .line 240
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 241
     .line 242
@@ -3147,7 +3472,8 @@ return-void
     move-result-object p1
 
     .line 244
-    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;
+    ->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -3431,11 +3757,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 2
     .line 3
-    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;
+    ->valueOf(Z)Ljava/lang/Boolean;
 
     .line 4
     .line 5
@@ -3443,21 +3771,25 @@ return-void
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->setBool(Ljava/lang/String;Z)V
+    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setBool(Ljava/lang/String;Z)V
 
     .line 13
     .line 14
     .line 15
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->broadcastBoolSetting(Ljava/lang/String;Z)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->broadcastBoolSetting(Ljava/lang/String;Z)V
 
     .line 16
     .line 17
@@ -3469,11 +3801,13 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 2
     .line 3
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 4
     .line 5
@@ -3481,21 +3815,25 @@ return-void
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->setInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setInt(Ljava/lang/String;I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->broadcastIntSetting(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->broadcastIntSetting(Ljava/lang/String;I)V
 
     .line 16
     .line 17
@@ -3507,25 +3845,30 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->settings:Ljava/util/concurrent/ConcurrentHashMap;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->settings:Ljava/util/concurrent/ConcurrentHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
+    iget-object v0, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->dataStorage:Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;->setStr(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p2}, Lcom/fmark/tselzap/Storage/DataStorage;
+    ->setStr(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->broadcastStrSetting(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    ->broadcastStrSetting(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13

@@ -8,7 +8,8 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzdh;->zza()Lcom/google/android/gms/internal/measurement/zzdf;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzdh;
+    ->zza()Lcom/google/android/gms/internal/measurement/zzdf;
 
     .line 2
     .line 3

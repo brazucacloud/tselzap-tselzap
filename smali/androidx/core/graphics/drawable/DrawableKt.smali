@@ -31,7 +31,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 9
     .line 10
@@ -47,7 +48,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 17
     .line 18
@@ -55,7 +57,8 @@
     move-result-object v1
 
     .line 20
-    invoke-virtual {v1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {v1}, Landroid/graphics/Bitmap;
+    ->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 21
     .line 22
@@ -68,7 +71,8 @@
     .line 25
     .line 26
     :cond_0
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 27
     .line 28
@@ -76,7 +80,8 @@
     move-result-object p0
 
     .line 30
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getWidth()I
 
     .line 31
     .line 32
@@ -88,7 +93,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 37
     .line 38
@@ -96,7 +102,8 @@
     move-result-object p0
 
     .line 40
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;
+    ->getHeight()I
 
     .line 41
     .line 42
@@ -108,7 +115,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 47
     .line 48
@@ -119,7 +127,8 @@
 
     .line 51
     :cond_1
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 52
     .line 53
@@ -130,7 +139,8 @@
     const/4 p3, 0x1
 
     .line 56
-    invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;
+    ->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     .line 57
     .line 58
@@ -149,7 +159,8 @@
 
     .line 64
     .line 65
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -158,7 +169,8 @@
 
     .line 69
     :cond_3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 70
     .line 71
@@ -166,19 +178,23 @@
     move-result-object v0
 
     .line 73
-    iget v1, v0, Landroid/graphics/Rect;->left:I
+    iget v1, v0, Landroid/graphics/Rect;
+    ->left:I
 
     .line 74
     .line 75
-    iget v2, v0, Landroid/graphics/Rect;->top:I
+    iget v2, v0, Landroid/graphics/Rect;
+    ->top:I
 
     .line 76
     .line 77
-    iget v3, v0, Landroid/graphics/Rect;->right:I
+    iget v3, v0, Landroid/graphics/Rect;
+    ->right:I
 
     .line 78
     .line 79
-    iget v0, v0, Landroid/graphics/Rect;->bottom:I
+    iget v0, v0, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 80
     .line 81
@@ -186,12 +202,14 @@
 
     .line 82
     .line 83
-    sget-object p3, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object p3, Landroid/graphics/Bitmap$Config;
+    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 84
     .line 85
     :cond_4
-    invoke-static {p1, p2, p3}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {p1, p2, p3}, Landroid/graphics/Bitmap;
+    ->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 86
     .line 87
@@ -202,7 +220,8 @@
     const/4 v4, 0x0
 
     .line 90
-    invoke-virtual {p0, v4, v4, p1, p2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p0, v4, v4, p1, p2}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 91
     .line 92
@@ -211,17 +230,20 @@
 
     .line 94
     .line 95
-    invoke-direct {p1, p3}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {p1, p3}, Landroid/graphics/Canvas;
+    -><init>(Landroid/graphics/Bitmap;)V
 
     .line 96
     .line 97
     .line 98
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
+    ->draw(Landroid/graphics/Canvas;)V
 
     .line 99
     .line 100
     .line 101
-    invoke-virtual {p0, v1, v2, v3, v0}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p0, v1, v2, v3, v0}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 102
     .line 103
@@ -241,7 +263,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicWidth()I
 
     .line 6
     .line 7
@@ -258,7 +281,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicHeight()I
 
     .line 14
     .line 15
@@ -279,7 +303,8 @@
 
     .line 22
     :cond_2
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/drawable/DrawableKt;->toBitmap(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/drawable/DrawableKt;
+    ->toBitmap(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 23
     .line 24
@@ -316,7 +341,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;
+    ->getBitmap()Landroid/graphics/Bitmap;
 
     .line 9
     .line 10
@@ -334,7 +360,8 @@
 
     .line 16
     :cond_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/drawable/DrawableKt;->toBitmap(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/drawable/DrawableKt;
+    ->toBitmap(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 17
     .line 18
@@ -356,7 +383,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicWidth()I
 
     .line 6
     .line 7
@@ -373,7 +401,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getIntrinsicHeight()I
 
     .line 14
     .line 15
@@ -394,7 +423,8 @@
 
     .line 22
     :cond_2
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/drawable/DrawableKt;->toBitmapOrNull(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/drawable/DrawableKt;
+    ->toBitmapOrNull(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     .line 23
     .line 24
@@ -424,7 +454,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;
+    ->setBounds(IIII)V
 
     .line 2
     .line 3
@@ -444,7 +475,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 6
     .line 7
@@ -452,7 +484,8 @@
     move-result-object p1
 
     .line 9
-    iget p1, p1, Landroid/graphics/Rect;->left:I
+    iget p1, p1, Landroid/graphics/Rect;
+    ->left:I
 
     .line 10
     .line 11
@@ -465,7 +498,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 16
     .line 17
@@ -473,7 +507,8 @@
     move-result-object p2
 
     .line 19
-    iget p2, p2, Landroid/graphics/Rect;->top:I
+    iget p2, p2, Landroid/graphics/Rect;
+    ->top:I
 
     .line 20
     .line 21
@@ -486,7 +521,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 26
     .line 27
@@ -494,7 +530,8 @@
     move-result-object p3
 
     .line 29
-    iget p3, p3, Landroid/graphics/Rect;->right:I
+    iget p3, p3, Landroid/graphics/Rect;
+    ->right:I
 
     .line 30
     .line 31
@@ -507,7 +544,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 36
     .line 37
@@ -515,12 +553,14 @@
     move-result-object p4
 
     .line 39
-    iget p4, p4, Landroid/graphics/Rect;->bottom:I
+    iget p4, p4, Landroid/graphics/Rect;
+    ->bottom:I
 
     .line 40
     .line 41
     :cond_3
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableKt;->updateBounds(Landroid/graphics/drawable/Drawable;IIII)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableKt;
+    ->updateBounds(Landroid/graphics/drawable/Drawable;IIII)V
 
     .line 42
     .line 43

@@ -20,12 +20,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/fragment/app/FragmentTransition;-><init>()V
+    invoke-direct {v0}, Landroidx/fragment/app/FragmentTransition;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/fragment/app/FragmentTransition;->INSTANCE:Landroidx/fragment/app/FragmentTransition;
+    sput-object v0, Landroidx/fragment/app/FragmentTransition;
+    ->INSTANCE:Landroidx/fragment/app/FragmentTransition;
 
     .line 7
     .line 8
@@ -33,16 +35,19 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Landroidx/fragment/app/FragmentTransitionCompat21;-><init>()V
+    invoke-direct {v1}, Landroidx/fragment/app/FragmentTransitionCompat21;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Landroidx/fragment/app/FragmentTransition;->PLATFORM_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
+    sput-object v1, Landroidx/fragment/app/FragmentTransition;
+    ->PLATFORM_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
 
     .line 14
     .line 15
-    invoke-direct {v0}, Landroidx/fragment/app/FragmentTransition;->resolveSupportImpl()Landroidx/fragment/app/FragmentTransitionImpl;
+    invoke-direct {v0}, Landroidx/fragment/app/FragmentTransition;
+    ->resolveSupportImpl()Landroidx/fragment/app/FragmentTransitionImpl;
 
     .line 16
     .line 17
@@ -50,14 +55,16 @@
     move-result-object v0
 
     .line 19
-    sput-object v0, Landroidx/fragment/app/FragmentTransition;->SUPPORT_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;    return-void
+    sput-object v0, Landroidx/fragment/app/FragmentTransition;
+    ->SUPPORT_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -81,7 +88,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -90,7 +98,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -99,7 +108,8 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -108,7 +118,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getEnterTransitionCallback()Landroidx/core/app/SharedElementCallback;
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;
+    ->getEnterTransitionCallback()Landroidx/core/app/SharedElementCallback;
 
     .line 19
     .line 20
@@ -120,7 +131,8 @@
 
     .line 23
     :cond_0
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getEnterTransitionCallback()Landroidx/core/app/SharedElementCallback;
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;
+    ->getEnterTransitionCallback()Landroidx/core/app/SharedElementCallback;
 
     .line 24
     .line 25
@@ -137,7 +149,8 @@
 
     .line 30
     .line 31
-    invoke-interface {p3}, Ljava/util/Map;->size()I
+    invoke-interface {p3}, Ljava/util/Map;
+    ->size()I
 
     .line 32
     .line 33
@@ -145,12 +158,14 @@
     move-result p2
 
     .line 35
-    invoke-direct {p1, p2}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {p1, p2}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 36
     .line 37
     .line 38
-    invoke-interface {p3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 39
     .line 40
@@ -158,7 +173,8 @@
     move-result-object p2
 
     .line 42
-    invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 43
     .line 44
@@ -167,7 +183,8 @@
 
     .line 46
     :goto_1
-    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 47
     .line 48
@@ -179,7 +196,8 @@
 
     .line 51
     .line 52
-    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 53
     .line 54
@@ -191,7 +209,8 @@
 
     .line 57
     .line 58
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -203,7 +222,8 @@
 
     .line 63
     .line 64
-    invoke-interface {p1, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 65
     .line 66
@@ -216,7 +236,8 @@
 
     .line 69
     .line 70
-    invoke-interface {p3}, Ljava/util/Map;->size()I
+    invoke-interface {p3}, Ljava/util/Map;
+    ->size()I
 
     .line 71
     .line 72
@@ -224,12 +245,14 @@
     move-result v0
 
     .line 74
-    invoke-direct {p2, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {p2, v0}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 75
     .line 76
     .line 77
-    invoke-interface {p3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p3}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 78
     .line 79
@@ -237,7 +260,8 @@
     move-result-object p3
 
     .line 81
-    invoke-interface {p3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p3}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 82
     .line 83
@@ -246,7 +270,8 @@
 
     .line 85
     :goto_2
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 86
     .line 87
@@ -258,7 +283,8 @@
 
     .line 90
     .line 91
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p3}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 92
     .line 93
@@ -270,7 +296,8 @@
 
     .line 96
     .line 97
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -282,7 +309,8 @@
 
     .line 102
     .line 103
-    invoke-interface {p2, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p2, v0}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 104
     .line 105
@@ -298,12 +326,14 @@
 
     .line 109
     .line 110
-    invoke-virtual {p0, p2, p1, p3}, Landroidx/core/app/SharedElementCallback;->onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+    invoke-virtual {p0, p2, p1, p3}, Landroidx/core/app/SharedElementCallback;
+    ->onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 return-void
 
     .line 114
     :cond_3
-    invoke-virtual {p0, p2, p1, p3}, Landroidx/core/app/SharedElementCallback;->onSharedElementEnd(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+    invoke-virtual {p0, p2, p1, p3}, Landroidx/core/app/SharedElementCallback;
+    ->onSharedElementEnd(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
     .line 115
     .line 116
@@ -332,7 +362,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -341,7 +372,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -350,12 +382,14 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;
+    -><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 17
     .line 18
@@ -363,7 +397,8 @@ return-void
     move-result-object p0
 
     .line 20
-    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 21
     .line 22
@@ -373,7 +408,8 @@ return-void
     .line 24
     :cond_0
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 25
     .line 26
@@ -385,7 +421,8 @@ return-void
 
     .line 29
     .line 30
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -397,7 +434,8 @@ return-void
 
     .line 35
     .line 36
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -405,7 +443,8 @@ return-void
     move-result-object v2
 
     .line 40
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 41
     .line 42
@@ -417,7 +456,8 @@ return-void
 
     .line 45
     .line 46
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 47
     .line 48
@@ -425,7 +465,8 @@ return-void
     move-result-object v2
 
     .line 50
-    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;
+    ->getValue()Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -433,7 +474,8 @@ return-void
     move-result-object v1
 
     .line 54
-    invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v2, v1}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 55
     .line 56
@@ -446,7 +488,8 @@ return-void
 
     .line 59
     .line 60
-    invoke-interface {v0}, Ljava/util/Map;->size()I
+    invoke-interface {v0}, Ljava/util/Map;
+    ->size()I
 
     .line 61
     .line 62
@@ -454,12 +497,14 @@ return-void
     move-result p1
 
     .line 64
-    invoke-direct {p0, p1}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-direct {p0, p1}, Ljava/util/ArrayList;
+    -><init>(I)V
 
     .line 65
     .line 66
     .line 67
-    invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/Map;
+    ->entrySet()Ljava/util/Set;
 
     .line 68
     .line 69
@@ -467,7 +512,8 @@ return-void
     move-result-object p1
 
     .line 71
-    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;
+    ->iterator()Ljava/util/Iterator;
 
     .line 72
     .line 73
@@ -476,7 +522,8 @@ return-void
 
     .line 75
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 76
     .line 77
@@ -488,7 +535,8 @@ return-void
 
     .line 80
     .line 81
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -500,7 +548,8 @@ return-void
 
     .line 86
     .line 87
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;
+    ->getKey()Ljava/lang/Object;
 
     .line 88
     .line 89
@@ -512,7 +561,8 @@ return-void
 
     .line 92
     .line 93
-    invoke-interface {p0, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    invoke-interface {p0, v0}, Ljava/util/Collection;
+    ->add(Ljava/lang/Object;)Z
 
     .line 94
     .line 95
@@ -521,7 +571,8 @@ return-void
 
     .line 97
     :cond_2
-    invoke-static {p0}, Ld1/k;->r0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Ld1/k;
+    ->r0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -548,7 +599,8 @@ return-void
 
     .line 5
     .line 6
-    invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v0, v2}, Ljava/lang/Class;
+    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 7
     .line 8
@@ -560,7 +612,8 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;
+    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -600,7 +653,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -609,12 +663,14 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/collection/SimpleArrayMap;->size()I
+    invoke-virtual {p0}, Landroidx/collection/SimpleArrayMap;
+    ->size()I
 
     .line 12
     .line 13
@@ -634,7 +690,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/collection/SimpleArrayMap;
+    ->valueAt(I)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -646,7 +703,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p1, v1}, Landroidx/collection/ArrayMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Landroidx/collection/ArrayMap;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -658,7 +716,8 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p0, v0}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/collection/SimpleArrayMap;
+    ->removeAt(I)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -692,7 +751,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -701,7 +761,8 @@ return-void
 
     .line 7
     .line 8
-    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;
+    ->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -710,7 +771,8 @@ return-void
 
     .line 12
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 13
     .line 14
@@ -722,7 +784,8 @@ return-void
 
     .line 17
     .line 18
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -734,7 +797,8 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v0, p1}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 25
     .line 26
@@ -750,7 +814,8 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/fragment/app/FragmentTransition;->PLATFORM_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
+    sget-object v0, Landroidx/fragment/app/FragmentTransition;
+    ->PLATFORM_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
 
     .line 2
     .line 3
@@ -758,7 +823,8 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/fragment/app/FragmentTransition;->SUPPORT_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
+    sget-object v0, Landroidx/fragment/app/FragmentTransition;
+    ->SUPPORT_IMPL:Landroidx/fragment/app/FragmentTransitionImpl;
 
     .line 6
     .line 7

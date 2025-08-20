@@ -72,7 +72,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/KeyPositionBase;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/KeyPositionBase;
+    -><init>()V
 
     .line 2
     .line 3
@@ -80,22 +81,26 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mTransitionEasing:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mTransitionEasing:Ljava/lang/String;
 
     .line 6
     .line 7
-    sget v0, Landroidx/constraintlayout/motion/widget/Key;->UNSET:I
+    sget v0, Landroidx/constraintlayout/motion/widget/Key;
+    ->UNSET:I
 
     .line 8
     .line 9
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPathMotionArc:I
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPathMotionArc:I
 
     .line 10
     .line 11
     const/4 v0, 0x0
 
     .line 12
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mDrawPath:I
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mDrawPath:I
 
     .line 13
     .line 14
@@ -103,46 +108,57 @@
 
     .line 15
     .line 16
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentWidth:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentWidth:F
 
     .line 17
     .line 18
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentHeight:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentHeight:F
 
     .line 19
     .line 20
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 21
     .line 22
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F
 
     .line 23
     .line 24
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentX:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentX:F
 
     .line 25
     .line 26
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentY:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentY:F
 
     .line 27
     .line 28
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPositionType:I
 
     .line 29
     .line 30
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 31
     .line 32
-    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F
+    iput v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F
 
     .line 33
     .line 34
     const/4 v0, 0x2
 
     .line 35
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/Key;->mType:I    return-void
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/Key;
+    ->mType:I    
+    return-void
 .end method
 
 .method private calcCartesianPosition(FFFF)V
@@ -155,11 +171,13 @@
     sub-float/2addr p4, p2
 
     .line 3
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 4
     .line 5
-    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 6
     .line 7
@@ -181,16 +199,19 @@
 
     .line 14
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 15
     .line 16
     :goto_0
-    iget v2, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentY:F
+    iget v2, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentY:F
 
     .line 17
     .line 18
-    invoke-static {v2}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {v2}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 19
     .line 20
@@ -209,16 +230,19 @@
 
     .line 26
     :cond_1
-    iget v2, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentY:F
+    iget v2, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentY:F
 
     .line 27
     .line 28
     :goto_1
-    iget v3, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F
+    iget v3, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F
 
     .line 29
     .line 30
-    invoke-static {v3}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {v3}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 31
     .line 32
@@ -237,16 +261,19 @@
 
     .line 38
     :cond_2
-    iget v3, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F
+    iget v3, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F
 
     .line 39
     .line 40
     :goto_2
-    iget v4, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentX:F
+    iget v4, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentX:F
 
     .line 41
     .line 42
-    invoke-static {v4}, Ljava/lang/Float;->isNaN(F)Z
+    invoke-static {v4}, Ljava/lang/Float;
+    ->isNaN(F)Z
 
     .line 43
     .line 44
@@ -262,7 +289,8 @@
 
     .line 49
     :cond_3
-    iget v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentX:F
+    iget v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentX:F
 
     .line 50
     .line 51
@@ -287,7 +315,8 @@
     int-to-float p1, p1
 
     .line 59
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 60
     .line 61
@@ -311,7 +340,9 @@
     int-to-float p1, p1
 
     .line 69
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F    
+    return-void
 .end method
 
 .method private calcPathPosition(FFFF)V
@@ -327,7 +358,8 @@
     neg-float v0, p4
 
     .line 4
-    iget v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iget v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 5
     .line 6
@@ -338,7 +370,8 @@
     add-float/2addr v2, p1
 
     .line 9
-    iget p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F
+    iget p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F
 
     .line 10
     .line 11
@@ -349,7 +382,8 @@
     add-float/2addr v0, v2
 
     .line 14
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 15
     .line 16
@@ -367,7 +401,9 @@
     add-float/2addr p3, p4
 
     .line 22
-    iput p3, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F    return-void
+    iput p3, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F    
+    return-void
 .end method
 
 .method private calcScreenPosition(II)V
@@ -377,7 +413,8 @@
     int-to-float p1, p1
 
     .line 2
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 3
     .line 4
@@ -394,7 +431,8 @@
     add-float/2addr p1, v1
 
     .line 9
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 10
     .line 11
@@ -408,7 +446,9 @@
     add-float/2addr p1, v1
 
     .line 15
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F    
+    return-void
 .end method
 
 
@@ -432,7 +472,8 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPositionType:I
 
     .line 2
     .line 3
@@ -450,17 +491,20 @@
 
     .line 8
     .line 9
-    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcCartesianPosition(FFFF)V
+    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->calcCartesianPosition(FFFF)V
 return-void
 
     .line 13
     :cond_0
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcScreenPosition(II)V
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->calcScreenPosition(II)V
 return-void
 
     .line 17
     :cond_1
-    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcPathPosition(FFFF)V
+    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->calcPathPosition(FFFF)V
 return-void
 .end method
 
@@ -470,9 +514,11 @@ return-void
     .line 2
     new-instance v0, Landroidx/constraintlayout/motion/widget/KeyPosition;
 
-    invoke-direct {v0}, Landroidx/constraintlayout/motion/widget/KeyPosition;-><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    -><init>()V
 
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/motion/widget/KeyPosition;->copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
 
     move-result-object v0
 
@@ -483,7 +529,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/KeyPosition;->clone()Landroidx/constraintlayout/motion/widget/Key;
+    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->clone()Landroidx/constraintlayout/motion/widget/Key;
 
     move-result-object v0
 
@@ -494,7 +541,8 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/constraintlayout/motion/widget/Key;->copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
+    invoke-super {p0, p1}, Landroidx/constraintlayout/motion/widget/Key;
+    ->copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
 
     .line 2
     .line 3
@@ -503,35 +551,43 @@ return-void
 
     .line 5
     .line 6
-    iget-object v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mTransitionEasing:Ljava/lang/String;
+    iget-object v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mTransitionEasing:Ljava/lang/String;
 
     .line 7
     .line 8
-    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mTransitionEasing:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mTransitionEasing:Ljava/lang/String;
 
     .line 9
     .line 10
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPathMotionArc:I
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPathMotionArc:I
 
     .line 11
     .line 12
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPathMotionArc:I
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPathMotionArc:I
 
     .line 13
     .line 14
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mDrawPath:I
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mDrawPath:I
 
     .line 15
     .line 16
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mDrawPath:I
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mDrawPath:I
 
     .line 17
     .line 18
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentWidth:F
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentWidth:F
 
     .line 19
     .line 20
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentWidth:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentWidth:F
 
     .line 21
     .line 22
@@ -539,76 +595,93 @@ return-void
 
     .line 23
     .line 24
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentHeight:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentHeight:F
 
     .line 25
     .line 26
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 27
     .line 28
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F
 
     .line 29
     .line 30
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F
 
     .line 31
     .line 32
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F
 
     .line 33
     .line 34
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentX:F
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentX:F
 
     .line 35
     .line 36
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentX:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentX:F
 
     .line 37
     .line 38
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentY:F
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentY:F
 
     .line 39
     .line 40
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mAltPercentY:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mAltPercentY:F
 
     .line 41
     .line 42
-    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iget v0, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 43
     .line 44
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 45
     .line 46
-    iget p1, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F
+    iget p1, p1, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F
 
     .line 47
     .line 48
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F    return-object p0
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F    
+    return-object p0
 .end method
 
 .method public getPositionX()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F    return v0
 .end method
 
 .method public getPositionY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F    return v0
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F    return v0
 .end method
 
 .method public intersects(IILandroid/graphics/RectF;Landroid/graphics/RectF;FF)Z
     .locals 7
 
     .line 1
-    invoke-virtual {p3}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p3}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 2
     .line 3
@@ -616,7 +689,8 @@ return-void
     move-result v3
 
     .line 5
-    invoke-virtual {p3}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p3}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 6
     .line 7
@@ -624,7 +698,8 @@ return-void
     move-result v4
 
     .line 9
-    invoke-virtual {p4}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p4}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 10
     .line 11
@@ -632,7 +707,8 @@ return-void
     move-result v5
 
     .line 13
-    invoke-virtual {p4}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p4}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 14
     .line 15
@@ -649,19 +725,22 @@ return-void
     move v2, p2
 
     .line 20
-    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcPosition(IIFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->calcPosition(IIFFFF)V
 
     .line 21
     .line 22
     .line 23
-    iget p1, v0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionX:F
+    iget p1, v0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionX:F
 
     .line 24
     .line 25
     sub-float/2addr p5, p1
 
     .line 26
-    invoke-static {p5}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p5}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 27
     .line 28
@@ -681,14 +760,16 @@ return-void
 
     .line 35
     .line 36
-    iget p1, v0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mCalculatedPositionY:F
+    iget p1, v0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mCalculatedPositionY:F
 
     .line 37
     .line 38
     sub-float/2addr p6, p1
 
     .line 39
-    invoke-static {p6}, Ljava/lang/Math;->abs(F)F
+    invoke-static {p6}, Ljava/lang/Math;
+    ->abs(F)F
 
     .line 40
     .line 41
@@ -719,11 +800,13 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/widget/R$styleable;->KeyPosition:[I
+    sget-object v0, Landroidx/constraintlayout/widget/R$styleable;
+    ->KeyPosition:[I
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, v0}, Landroid/content/Context;
+    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 4
     .line 5
@@ -731,7 +814,8 @@ return-void
     move-result-object p1
 
     .line 7
-    invoke-static {p0, p1}, Landroidx/constraintlayout/motion/widget/KeyPosition$Loader;->access$000(Landroidx/constraintlayout/motion/widget/KeyPosition;Landroid/content/res/TypedArray;)V
+    invoke-static {p0, p1}, Landroidx/constraintlayout/motion/widget/KeyPosition$Loader;
+    ->access$000(Landroidx/constraintlayout/motion/widget/KeyPosition;Landroid/content/res/TypedArray;)V
 return-void
 .end method
 
@@ -739,7 +823,8 @@ return-void
     .locals 8
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I
+    iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPositionType:I
 
     .line 2
     .line 3
@@ -785,7 +870,8 @@ return-void
     move-object v7, p7
 
     .line 19
-    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionCartAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
+    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->positionCartAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
 return-void
 
     .line 23
@@ -811,12 +897,15 @@ return-void
     move-object v7, p7
 
     .line 30
-    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionAxisAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
+    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->positionAxisAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
 return-void
 
     .line 34
     :cond_1
-    invoke-virtual/range {p0 .. p7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionScreenAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V    return-void
+    invoke-virtual/range {p0 .. p7}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->positionScreenAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V    
+    return-void
 
     .line 38
     :cond_2
@@ -841,7 +930,8 @@ return-void
     move-object v7, p7
 
     .line 45
-    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionPathAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
+    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->positionPathAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
 return-void
 .end method
 
@@ -849,7 +939,8 @@ return-void
     .locals 7
 
     .line 1
-    invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p1}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 2
     .line 3
@@ -857,7 +948,8 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p1}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 6
     .line 7
@@ -865,7 +957,8 @@ return-void
     move-result p1
 
     .line 9
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 10
     .line 11
@@ -873,7 +966,8 @@ return-void
     move-result v1
 
     .line 13
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 14
     .line 15
@@ -945,7 +1039,8 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -1032,7 +1127,8 @@ return-void
     .locals 6
 
     .line 1
-    invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p1}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 2
     .line 3
@@ -1040,7 +1136,8 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p1}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 6
     .line 7
@@ -1048,7 +1145,8 @@ return-void
     move-result p1
 
     .line 9
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 10
     .line 11
@@ -1056,7 +1154,8 @@ return-void
     move-result v1
 
     .line 13
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 14
     .line 15
@@ -1088,7 +1187,8 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v3}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -1175,7 +1275,8 @@ return-void
     .locals 10
 
     .line 1
-    invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p1}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 2
     .line 3
@@ -1183,7 +1284,8 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p1}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 6
     .line 7
@@ -1191,7 +1293,8 @@ return-void
     move-result p1
 
     .line 9
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 10
     .line 11
@@ -1199,7 +1302,8 @@ return-void
     move-result v1
 
     .line 13
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 14
     .line 15
@@ -1219,7 +1323,8 @@ return-void
     float-to-double v4, p2
 
     .line 21
-    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->hypot(DD)D
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;
+    ->hypot(DD)D
 
     .line 22
     .line 23
@@ -1254,7 +1359,8 @@ return-void
 
     .line 37
     .line 38
-    sget-object p1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    sget-object p1, Ljava/lang/System;
+    ->out:Ljava/io/PrintStream;
 
     .line 39
     .line 40
@@ -1262,7 +1368,8 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/io/PrintStream;
+    ->println(Ljava/lang/String;)V
 
     .line 43
     .line 44
@@ -1331,7 +1438,8 @@ return-void
 
     .line 73
     .line 74
-    invoke-virtual {p3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 75
     .line 76
@@ -1379,27 +1487,32 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p2}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p2}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p3}, Landroid/graphics/RectF;->centerX()F
+    invoke-virtual {p3}, Landroid/graphics/RectF;
+    ->centerX()F
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p3}, Landroid/graphics/RectF;->centerY()F
+    invoke-virtual {p3}, Landroid/graphics/RectF;
+    ->centerY()F
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 14
     .line 15
@@ -1411,7 +1524,8 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getWidth()I
 
     .line 20
     .line 21
@@ -1419,7 +1533,8 @@ return-void
     move-result p2
 
     .line 23
-    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;
+    ->getHeight()I
 
     .line 24
     .line 25
@@ -1445,7 +1560,8 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -1532,14 +1648,17 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPositionType:I    
+    return-void
 .end method
 
 .method public setValue(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -1547,7 +1666,8 @@ return-void
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->hashCode()I
 
     .line 6
     .line 7
@@ -1568,7 +1688,8 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -1595,7 +1716,8 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -1622,7 +1744,8 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -1649,7 +1772,8 @@ return-void
 
     .line 47
     .line 48
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -1676,7 +1800,8 @@ return-void
 
     .line 58
     .line 59
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 60
     .line 61
@@ -1703,7 +1828,8 @@ return-void
 
     .line 69
     .line 70
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 71
     .line 72
@@ -1730,7 +1856,8 @@ return-void
 
     .line 80
     .line 81
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 82
     .line 83
@@ -1754,7 +1881,8 @@ return-void
 
     .line 93
     :pswitch_0
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;->toFloat(Ljava/lang/Object;)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;
+    ->toFloat(Ljava/lang/Object;)F
 
     .line 94
     .line 95
@@ -1762,11 +1890,14 @@ return-void
     move-result p1
 
     .line 97
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentY:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentY:F    
+    return-void
 
     .line 100
     :pswitch_1
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;->toFloat(Ljava/lang/Object;)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;
+    ->toFloat(Ljava/lang/Object;)F
 
     .line 101
     .line 102
@@ -1774,11 +1905,14 @@ return-void
     move-result p1
 
     .line 104
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentX:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentX:F    
+    return-void
 
     .line 107
     :pswitch_2
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;->toFloat(Ljava/lang/Object;)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;
+    ->toFloat(Ljava/lang/Object;)F
 
     .line 108
     .line 109
@@ -1786,15 +1920,19 @@ return-void
     move-result p1
 
     .line 111
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentWidth:F
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentWidth:F
 
     .line 112
     .line 113
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentHeight:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentHeight:F    
+    return-void
 
     .line 116
     :pswitch_3
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;->toInt(Ljava/lang/Object;)I
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;
+    ->toInt(Ljava/lang/Object;)I
 
     .line 117
     .line 118
@@ -1802,11 +1940,14 @@ return-void
     move-result p1
 
     .line 120
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mDrawPath:I    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mDrawPath:I    
+    return-void
 
     .line 123
     :pswitch_4
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;->toFloat(Ljava/lang/Object;)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;
+    ->toFloat(Ljava/lang/Object;)F
 
     .line 124
     .line 125
@@ -1814,11 +1955,14 @@ return-void
     move-result p1
 
     .line 127
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentHeight:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentHeight:F    
+    return-void
 
     .line 130
     :pswitch_5
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;->toFloat(Ljava/lang/Object;)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/motion/widget/Key;
+    ->toFloat(Ljava/lang/Object;)F
 
     .line 131
     .line 132
@@ -1826,11 +1970,14 @@ return-void
     move-result p1
 
     .line 134
-    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPercentWidth:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mPercentWidth:F    
+    return-void
 
     .line 137
     :pswitch_6
-    invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 138
     .line 139
@@ -1838,7 +1985,9 @@ return-void
     move-result-object p1
 
     .line 141
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mTransitionEasing:Ljava/lang/String;    return-void
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;
+    ->mTransitionEasing:Ljava/lang/String;    
+    return-void
 
     .line 144
     nop
@@ -1894,6 +2043,7 @@ return-void
         :pswitch_2
         :pswitch_1
         :pswitch_0
-    .end packed-switch.end method
+    .end packed-switch
+.end method
 
 .end class

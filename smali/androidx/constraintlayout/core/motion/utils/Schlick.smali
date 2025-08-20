@@ -20,12 +20,14 @@
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/Easing;-><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/Easing;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing;
+    ->mStr:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -33,7 +35,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(I)I
+    invoke-virtual {p1, v0}, Ljava/lang/String;
+    ->indexOf(I)I
 
     .line 9
     .line 10
@@ -45,7 +48,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, v1, v0}, Ljava/lang/String;->indexOf(II)I
+    invoke-virtual {p1, v1, v0}, Ljava/lang/String;
+    ->indexOf(II)I
 
     .line 15
     .line 16
@@ -57,7 +61,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v0, v2}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -65,7 +70,8 @@
     move-result-object v0
 
     .line 24
-    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/String;
+    ->trim()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -73,7 +79,8 @@
     move-result-object v0
 
     .line 28
-    invoke-static {v0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+    invoke-static {v0}, Ljava/lang/Double;
+    ->parseDouble(Ljava/lang/String;)D
 
     .line 29
     .line 30
@@ -81,7 +88,8 @@
     move-result-wide v3
 
     .line 32
-    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mS:D
+    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mS:D
 
     .line 33
     .line 34
@@ -89,7 +97,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1, v1, v2}, Ljava/lang/String;->indexOf(II)I
+    invoke-virtual {p1, v1, v2}, Ljava/lang/String;
+    ->indexOf(II)I
 
     .line 37
     .line 38
@@ -97,7 +106,8 @@
     move-result v0
 
     .line 40
-    invoke-virtual {p1, v2, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v2, v0}, Ljava/lang/String;
+    ->substring(II)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -105,7 +115,8 @@
     move-result-object p1
 
     .line 44
-    invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/String;
+    ->trim()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -113,7 +124,8 @@
     move-result-object p1
 
     .line 48
-    invoke-static {p1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+    invoke-static {p1}, Ljava/lang/Double;
+    ->parseDouble(Ljava/lang/String;)D
 
     .line 49
     .line 50
@@ -121,14 +133,17 @@
     move-result-wide v0
 
     .line 52
-    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mT:D    return-void
+    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mT:D    
+    return-void
 .end method
 
 .method private dfunc(D)D
     .locals 12
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mT:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mT:D
 
     .line 2
     .line 3
@@ -140,7 +155,8 @@
 
     .line 6
     .line 7
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mS:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mS:D
 
     .line 8
     .line 9
@@ -183,7 +199,8 @@
 
     .line 26
     :cond_0
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mS:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mS:D
 
     .line 27
     .line 28
@@ -253,7 +270,8 @@
     .locals 8
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mT:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mT:D
 
     .line 2
     .line 3
@@ -269,7 +287,8 @@
 
     .line 8
     .line 9
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mS:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mS:D
 
     .line 10
     .line 11
@@ -308,7 +327,8 @@
     sub-double/2addr v2, p1
 
     .line 26
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;->mS:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->mS:D
 
     .line 27
     .line 28
@@ -333,7 +353,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Schlick;->func(D)D
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->func(D)D
 
     .line 2
     .line 3
@@ -347,7 +368,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Schlick;->dfunc(D)D
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Schlick;
+    ->dfunc(D)D
 
     .line 2
     .line 3

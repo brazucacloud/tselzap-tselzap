@@ -10,7 +10,8 @@
     .line 1
     const-string v0, "autoSizeStepGranularity"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -23,7 +24,8 @@
     .line 1
     const-string v0, "buttonTint"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -36,7 +38,8 @@
     .line 1
     const-string v0, "buttonTintMode"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -49,7 +52,8 @@
     .line 1
     const-string v0, "checkMarkTint"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -60,7 +64,8 @@
     .locals 0
 
     .line 1
-    iget p0, p0, Landroid/graphics/Insets;->left:I
+    iget p0, p0, Landroid/graphics/Insets;
+    ->left:I
 
     return p0
 .end method
@@ -73,7 +78,8 @@
 
     const v1, 0x1010126
 
-    invoke-interface {p0, v0, v1}, Landroid/view/inspector/PropertyMapper;->mapBoolean(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, v1}, Landroid/view/inspector/PropertyMapper;
+    ->mapBoolean(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -86,7 +92,8 @@
     .line 1
     const-string v0, "backgroundTint"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -99,7 +106,8 @@
     .line 1
     const-string v0, "autoSizeTextType"
 
-    invoke-interface {p0, v0, p1, p2}, Landroid/view/inspector/PropertyMapper;->mapIntEnum(Ljava/lang/String;ILjava/util/function/IntFunction;)I
+    invoke-interface {p0, v0, p1, p2}, Landroid/view/inspector/PropertyMapper;
+    ->mapIntEnum(Ljava/lang/String;ILjava/util/function/IntFunction;)I
 
     move-result p0
 
@@ -110,7 +118,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic;
+    invoke-virtual {p0}, Landroid/widget/TextView;
+    ->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic;
 
     move-result-object p0
 
@@ -123,7 +132,8 @@
     .line 1
     new-instance v0, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
-    invoke-direct {v0}, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;-><init>()V
+    invoke-direct {v0}, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
+    -><init>()V
     return-object v0
 .end method
 
@@ -133,7 +143,8 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Landroid/view/Window;->setStatusBarContrastEnforced(Z)V
+    invoke-virtual {p0, v0}, Landroid/view/Window;
+    ->setStatusBarContrastEnforced(Z)V
 return-void
 .end method
 
@@ -141,7 +152,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/Window;->setNavigationBarContrastEnforced(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/Window;
+    ->setNavigationBarContrastEnforced(Z)V
 return-void
 .end method
 
@@ -149,7 +161,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readFloat(IF)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readFloat(IF)V
 return-void
 .end method
 
@@ -157,7 +170,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readInt(II)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readInt(II)V
 return-void
 .end method
 
@@ -165,7 +179,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readObject(ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -173,7 +188,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readObject(ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -181,7 +197,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;->isHorizontallyScrollable()Z
+    invoke-virtual {p0}, Landroid/widget/TextView;
+    ->isHorizontallyScrollable()Z
 
     move-result p0
 
@@ -192,7 +209,8 @@ return-void
     .locals 0
 
     .line 1
-    iget p0, p0, Landroid/graphics/Insets;->top:I
+    iget p0, p0, Landroid/graphics/Insets;
+    ->top:I
 
     return p0
 .end method
@@ -203,7 +221,8 @@ return-void
     .line 1
     const-string v0, "backgroundTintMode"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -214,7 +233,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readIntEnum(II)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readIntEnum(II)V
 return-void
 .end method
 
@@ -224,7 +244,8 @@ return-void
     .line 1
     const-string v0, "checkMarkTintMode"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -237,7 +258,8 @@ return-void
     .line 1
     const-string v0, "tint"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -250,7 +272,8 @@ return-void
     .line 1
     const-string v0, "tintMode"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -261,7 +284,8 @@ return-void
     .locals 0
 
     .line 1
-    iget p0, p0, Landroid/graphics/Insets;->right:I
+    iget p0, p0, Landroid/graphics/Insets;
+    ->right:I
 
     return p0
 .end method
@@ -272,7 +296,8 @@ return-void
     .line 1
     const-string v0, "drawableTint"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -283,7 +308,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readGravity(II)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readGravity(II)V
 return-void
 .end method
 
@@ -291,7 +317,8 @@ return-void
     .locals 0
 
     .line 1
-    iget p0, p0, Landroid/graphics/Insets;->bottom:I
+    iget p0, p0, Landroid/graphics/Insets;
+    ->bottom:I
 
     return p0
 .end method
@@ -302,7 +329,8 @@ return-void
     .line 1
     const-string v0, "drawableTintMode"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -315,7 +343,8 @@ return-void
     .line 1
     const-string v0, "autoSizeMaxTextSize"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -328,7 +357,8 @@ return-void
     .line 1
     const-string v0, "autoSizeMinTextSize"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 

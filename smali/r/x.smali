@@ -22,7 +22,8 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, p1}, Ljava/io/FilterInputStream;
+    -><init>(Ljava/io/InputStream;)V
 
     .line 2
     .line 3
@@ -30,11 +31,13 @@
     const/4 p1, -0x1
 
     .line 5
-    iput p1, p0, Lr/x;->e:I
+    iput p1, p0, Lr/x;
+    ->e:I
 
     .line 6
     .line 7
-    iput-object p2, p0, Lr/x;->g:Ll/f;
+    iput-object p2, p0, Lr/x;
+    ->g:Ll/f;
 
     .line 8
     .line 9
@@ -46,7 +49,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p2, p1, v0}, Ll/f;->d(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-virtual {p2, p1, v0}, Ll/f;
+    ->d(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -58,7 +62,8 @@
 
     .line 18
     .line 19
-    iput-object p1, p0, Lr/x;->b:[B
+    iput-object p1, p0, Lr/x;
+    ->b:[B
 
     .line 20
     .line 21
@@ -77,7 +82,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/io/IOException;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -105,7 +111,8 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Lr/x;->e:I
+    iget v0, p0, Lr/x;
+    ->e:I
 
     .line 2
     .line 3
@@ -119,14 +126,16 @@
 
     .line 6
     .line 7
-    iget v3, p0, Lr/x;->f:I
+    iget v3, p0, Lr/x;
+    ->f:I
 
     .line 8
     .line 9
     sub-int/2addr v3, v0
 
     .line 10
-    iget v4, p0, Lr/x;->d:I
+    iget v4, p0, Lr/x;
+    ->d:I
 
     .line 11
     .line 12
@@ -149,7 +158,8 @@
 
     .line 19
     .line 20
-    iget v2, p0, Lr/x;->c:I
+    iget v2, p0, Lr/x;
+    ->c:I
 
     .line 21
     .line 22
@@ -179,7 +189,8 @@
 
     .line 32
     :goto_0
-    iget-object v0, p0, Lr/x;->g:Ll/f;
+    iget-object v0, p0, Lr/x;
+    ->g:Ll/f;
 
     .line 33
     .line 34
@@ -187,7 +198,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0, v2, v4}, Ll/f;->d(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v4}, Ll/f;
+    ->d(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -202,20 +214,24 @@
     array-length v2, p2
 
     .line 43
-    invoke-static {p2, v1, v0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p2, v1, v0, v1, v2}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 44
     .line 45
     .line 46
-    iput-object v0, p0, Lr/x;->b:[B
+    iput-object v0, p0, Lr/x;
+    ->b:[B
 
     .line 47
     .line 48
-    iget-object v2, p0, Lr/x;->g:Ll/f;
+    iget-object v2, p0, Lr/x;
+    ->g:Ll/f;
 
     .line 49
     .line 50
-    invoke-virtual {v2, p2}, Ll/f;->h(Ljava/lang/Object;)V
+    invoke-virtual {v2, p2}, Ll/f;
+    ->h(Ljava/lang/Object;)V
 
     .line 51
     .line 52
@@ -237,33 +253,39 @@
     sub-int/2addr v2, v0
 
     .line 59
-    invoke-static {p2, v0, p2, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p2, v0, p2, v1, v2}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 60
     .line 61
     .line 62
     :cond_3
     :goto_1
-    iget v0, p0, Lr/x;->f:I
+    iget v0, p0, Lr/x;
+    ->f:I
 
     .line 63
     .line 64
-    iget v2, p0, Lr/x;->e:I
+    iget v2, p0, Lr/x;
+    ->e:I
 
     .line 65
     .line 66
     sub-int/2addr v0, v2
 
     .line 67
-    iput v0, p0, Lr/x;->f:I
+    iput v0, p0, Lr/x;
+    ->f:I
 
     .line 68
     .line 69
-    iput v1, p0, Lr/x;->e:I
+    iput v1, p0, Lr/x;
+    ->e:I
 
     .line 70
     .line 71
-    iput v1, p0, Lr/x;->c:I
+    iput v1, p0, Lr/x;
+    ->c:I
 
     .line 72
     .line 73
@@ -273,7 +295,8 @@
     sub-int/2addr v1, v0
 
     .line 75
-    invoke-virtual {p1, p2, v0, v1}, Ljava/io/InputStream;->read([BII)I
+    invoke-virtual {p1, p2, v0, v1}, Ljava/io/InputStream;
+    ->read([BII)I
 
     .line 76
     .line 77
@@ -281,7 +304,8 @@
     move-result p1
 
     .line 79
-    iget p2, p0, Lr/x;->f:I
+    iget p2, p0, Lr/x;
+    ->f:I
 
     .line 80
     .line 81
@@ -297,7 +321,8 @@
 
     .line 85
     :goto_2
-    iput p2, p0, Lr/x;->c:I
+    iput p2, p0, Lr/x;
+    ->c:I
 
     .line 86
     .line 87
@@ -306,7 +331,8 @@
     .line 88
     :cond_5
     :goto_3
-    invoke-virtual {p1, p2}, Ljava/io/InputStream;->read([B)I
+    invoke-virtual {p1, p2}, Ljava/io/InputStream;
+    ->read([B)I
 
     .line 89
     .line 90
@@ -318,15 +344,18 @@
 
     .line 93
     .line 94
-    iput v2, p0, Lr/x;->e:I
+    iput v2, p0, Lr/x;
+    ->e:I
 
     .line 95
     .line 96
-    iput v1, p0, Lr/x;->f:I
+    iput v1, p0, Lr/x;
+    ->f:I
 
     .line 97
     .line 98
-    iput p1, p0, Lr/x;->c:I
+    iput p1, p0, Lr/x;
+    ->c:I
 
     .line 99
     .line 100
@@ -342,11 +371,13 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
+    iget-object v0, p0, Ljava/io/FilterInputStream;
+    ->in:Ljava/io/InputStream;
 
     .line 3
     .line 4
-    iget-object v1, p0, Lr/x;->b:[B
+    iget-object v1, p0, Lr/x;
+    ->b:[B
 
     .line 5
     .line 6
@@ -358,18 +389,21 @@
 
     .line 9
     .line 10
-    iget v1, p0, Lr/x;->c:I
+    iget v1, p0, Lr/x;
+    ->c:I
 
     .line 11
     .line 12
-    iget v2, p0, Lr/x;->f:I
+    iget v2, p0, Lr/x;
+    ->f:I
 
     .line 13
     .line 14
     sub-int/2addr v1, v2
 
     .line 15
-    invoke-virtual {v0}, Ljava/io/InputStream;->available()I
+    invoke-virtual {v0}, Ljava/io/InputStream;
+    ->available()I
 
     .line 16
     .line 17
@@ -396,7 +430,8 @@
     .line 24
     :cond_0
     :try_start_1
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     .line 25
     .line 26
@@ -476,7 +511,8 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
 
     .line 2
     .line 3
@@ -487,29 +523,35 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lr/x;->g:Ll/f;
+    iget-object v0, p0, Lr/x;
+    ->g:Ll/f;
 
     .line 7
     .line 8
-    iget-object v2, p0, Lr/x;->b:[B
+    iget-object v2, p0, Lr/x;
+    ->b:[B
 
     .line 9
     .line 10
-    invoke-virtual {v0, v2}, Ll/f;->h(Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Ll/f;
+    ->h(Ljava/lang/Object;)V
 
     .line 11
     .line 12
     .line 13
-    iput-object v1, p0, Lr/x;->b:[B
+    iput-object v1, p0, Lr/x;
+    ->b:[B
 
     .line 14
     .line 15
     :cond_0
-    iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
+    iget-object v0, p0, Ljava/io/FilterInputStream;
+    ->in:Ljava/io/InputStream;
 
     .line 16
     .line 17
-    iput-object v1, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
+    iput-object v1, p0, Ljava/io/FilterInputStream;
+    ->in:Ljava/io/InputStream;
 
     .line 18
     .line 19
@@ -517,7 +559,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    invoke-virtual {v0}, Ljava/io/InputStream;
+    ->close()V
 
     .line 22
     .line 23
@@ -534,11 +577,13 @@
 
     .line 2
     :try_start_0
-    iget v0, p0, Lr/x;->d:I
+    iget v0, p0, Lr/x;
+    ->d:I
 
     .line 3
     .line 4
-    invoke-static {v0, p1}, Ljava/lang/Math;->max(II)I
+    invoke-static {v0, p1}, Ljava/lang/Math;
+    ->max(II)I
 
     .line 5
     .line 6
@@ -546,15 +591,18 @@
     move-result p1
 
     .line 8
-    iput p1, p0, Lr/x;->d:I
+    iput p1, p0, Lr/x;
+    ->d:I
 
     .line 9
     .line 10
-    iget p1, p0, Lr/x;->f:I
+    iget p1, p0, Lr/x;
+    ->f:I
 
     .line 11
     .line 12
-    iput p1, p0, Lr/x;->e:I
+    iput p1, p0, Lr/x;
+    ->e:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -603,10 +651,12 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
 
     .line 2
-    iget-object v1, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
+    iget-object v1, p0, Ljava/io/FilterInputStream;
+    ->in:Ljava/io/InputStream;
 
     const/4 v2, 0x0
 
@@ -615,15 +665,18 @@
     if-eqz v1, :cond_4
 
     .line 3
-    iget v3, p0, Lr/x;->f:I
+    iget v3, p0, Lr/x;
+    ->f:I
 
-    iget v4, p0, Lr/x;->c:I
+    iget v4, p0, Lr/x;
+    ->c:I
 
     const/4 v5, -0x1
 
     if-lt v3, v4, :cond_0
 
-    invoke-virtual {p0, v1, v0}, Lr/x;->a(Ljava/io/InputStream;[B)I
+    invoke-virtual {p0, v1, v0}, Lr/x;
+    ->a(Ljava/io/InputStream;[B)I
 
     move-result v1
     :try_end_0
@@ -644,12 +697,14 @@
     .line 5
     :cond_0
     :try_start_1
-    iget-object v1, p0, Lr/x;->b:[B
+    iget-object v1, p0, Lr/x;
+    ->b:[B
 
     if-eq v0, v1, :cond_2
 
     .line 6
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
 
     if-eqz v0, :cond_1
 
@@ -657,16 +712,19 @@
 
     .line 7
     :cond_1
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     throw v2
 
     .line 8
     :cond_2
     :goto_0
-    iget v1, p0, Lr/x;->c:I
+    iget v1, p0, Lr/x;
+    ->c:I
 
-    iget v2, p0, Lr/x;->f:I
+    iget v2, p0, Lr/x;
+    ->f:I
 
     sub-int/2addr v1, v2
 
@@ -675,7 +733,8 @@
     add-int/lit8 v1, v2, 0x1
 
     .line 9
-    iput v1, p0, Lr/x;->f:I
+    iput v1, p0, Lr/x;
+    ->f:I
 
     aget-byte v0, v0, v2
     :try_end_1
@@ -696,7 +755,8 @@
     .line 11
     :cond_4
     :try_start_2
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     throw v2
 
@@ -715,7 +775,8 @@
 
     .line 12
     :try_start_0
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -735,14 +796,17 @@
     .line 14
     :cond_0
     :try_start_1
-    iget-object v2, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
+    iget-object v2, p0, Ljava/io/FilterInputStream;
+    ->in:Ljava/io/InputStream;
 
     if-eqz v2, :cond_f
 
     .line 15
-    iget v3, p0, Lr/x;->f:I
+    iget v3, p0, Lr/x;
+    ->f:I
 
-    iget v4, p0, Lr/x;->c:I
+    iget v4, p0, Lr/x;
+    ->c:I
 
     if-ge v3, v4, :cond_4
 
@@ -754,19 +818,23 @@
 
     .line 16
     :cond_1
-    invoke-static {v0, v3, p1, p2, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v3, p1, p2, v4}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 17
-    iget v3, p0, Lr/x;->f:I
+    iget v3, p0, Lr/x;
+    ->f:I
 
     add-int/2addr v3, v4
 
-    iput v3, p0, Lr/x;->f:I
+    iput v3, p0, Lr/x;
+    ->f:I
 
     if-eq v4, p3, :cond_3
 
     .line 18
-    invoke-virtual {v2}, Ljava/io/InputStream;->available()I
+    invoke-virtual {v2}, Ljava/io/InputStream;
+    ->available()I
 
     move-result v3
     :try_end_1
@@ -801,7 +869,8 @@
     .line 20
     :goto_1
     :try_start_2
-    iget v4, p0, Lr/x;->e:I
+    iget v4, p0, Lr/x;
+    ->e:I
 
     const/4 v5, -0x1
 
@@ -812,7 +881,8 @@
     if-lt v3, v4, :cond_6
 
     .line 21
-    invoke-virtual {v2, p1, p2, v3}, Ljava/io/InputStream;->read([BII)I
+    invoke-virtual {v2, p1, p2, v3}, Ljava/io/InputStream;
+    ->read([BII)I
 
     move-result v4
     :try_end_2
@@ -836,7 +906,8 @@
     .line 23
     :cond_6
     :try_start_3
-    invoke-virtual {p0, v2, v0}, Lr/x;->a(Ljava/io/InputStream;[B)I
+    invoke-virtual {p0, v2, v0}, Lr/x;
+    ->a(Ljava/io/InputStream;[B)I
 
     move-result v4
     :try_end_3
@@ -860,12 +931,14 @@
     .line 25
     :cond_8
     :try_start_4
-    iget-object v4, p0, Lr/x;->b:[B
+    iget-object v4, p0, Lr/x;
+    ->b:[B
 
     if-eq v0, v4, :cond_a
 
     .line 26
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
 
     if-eqz v0, :cond_9
 
@@ -873,16 +946,19 @@
 
     .line 27
     :cond_9
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     throw v1
 
     .line 28
     :cond_a
     :goto_4
-    iget v4, p0, Lr/x;->c:I
+    iget v4, p0, Lr/x;
+    ->c:I
 
-    iget v5, p0, Lr/x;->f:I
+    iget v5, p0, Lr/x;
+    ->f:I
 
     sub-int/2addr v4, v5
 
@@ -892,14 +968,17 @@
 
     .line 29
     :cond_b
-    invoke-static {v0, v5, p1, p2, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v5, p1, p2, v4}, Ljava/lang/System;
+    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 30
-    iget v5, p0, Lr/x;->f:I
+    iget v5, p0, Lr/x;
+    ->f:I
 
     add-int/2addr v5, v4
 
-    iput v5, p0, Lr/x;->f:I
+    iput v5, p0, Lr/x;
+    ->f:I
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -916,7 +995,8 @@
     .line 32
     :cond_d
     :try_start_5
-    invoke-virtual {v2}, Ljava/io/InputStream;->available()I
+    invoke-virtual {v2}, Ljava/io/InputStream;
+    ->available()I
 
     move-result v5
     :try_end_5
@@ -939,13 +1019,15 @@
     .line 34
     :cond_f
     :try_start_6
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     throw v1
 
     .line 35
     :cond_10
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     throw v1
 
@@ -966,7 +1048,8 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
 
     .line 3
     .line 4
@@ -974,15 +1057,18 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lr/x;->g:Ll/f;
+    iget-object v0, p0, Lr/x;
+    ->g:Ll/f;
 
     .line 7
     .line 8
-    iget-object v1, p0, Lr/x;->b:[B
+    iget-object v1, p0, Lr/x;
+    ->b:[B
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ll/f;->h(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ll/f;
+    ->h(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -990,7 +1076,8 @@
     const/4 v0, 0x0
 
     .line 14
-    iput-object v0, p0, Lr/x;->b:[B
+    iput-object v0, p0, Lr/x;
+    ->b:[B
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1035,7 +1122,8 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lr/x;->b:[B
+    iget-object v1, p0, Lr/x;
+    ->b:[B
 
     .line 5
     .line 6
@@ -1043,7 +1131,8 @@
 
     .line 7
     .line 8
-    iget v1, p0, Lr/x;->e:I
+    iget v1, p0, Lr/x;
+    ->e:I
 
     .line 9
     .line 10
@@ -1054,7 +1143,8 @@
 
     .line 12
     .line 13
-    iput v1, p0, Lr/x;->f:I
+    iput v1, p0, Lr/x;
+    ->f:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1082,16 +1172,19 @@
 
     .line 22
     .line 23
-    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
     .line 26
-    iget v0, p0, Lr/x;->f:I
+    iget v0, p0, Lr/x;
+    ->f:I
 
     .line 27
     .line 28
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -1100,21 +1193,25 @@
 
     .line 32
     .line 33
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    iget v0, p0, Lr/x;->d:I
+    iget v0, p0, Lr/x;
+    ->d:I
 
     .line 37
     .line 38
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -1122,7 +1219,8 @@
     move-result-object v0
 
     .line 45
-    invoke-direct {v1, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/io/IOException;
+    -><init>(Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -1139,7 +1237,8 @@
 
     .line 52
     .line 53
-    invoke-direct {v0, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/io/IOException;
+    -><init>(Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -1214,7 +1313,8 @@
     .line 12
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lr/x;->b:[B
+    iget-object v0, p0, Lr/x;
+    ->b:[B
 
     .line 13
     .line 14
@@ -1225,7 +1325,8 @@
 
     .line 16
     .line 17
-    iget-object v4, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
+    iget-object v4, p0, Ljava/io/FilterInputStream;
+    ->in:Ljava/io/InputStream;
 
     .line 18
     .line 19
@@ -1233,11 +1334,13 @@
 
     .line 20
     .line 21
-    iget v1, p0, Lr/x;->c:I
+    iget v1, p0, Lr/x;
+    ->c:I
 
     .line 22
     .line 23
-    iget v5, p0, Lr/x;->f:I
+    iget v5, p0, Lr/x;
+    ->f:I
 
     .line 24
     .line 25
@@ -1265,7 +1368,8 @@
     long-to-int v1, v0
 
     .line 35
-    iput v1, p0, Lr/x;->f:I
+    iput v1, p0, Lr/x;
+    ->f:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1294,11 +1398,13 @@
 
     .line 44
     :try_start_1
-    iput v1, p0, Lr/x;->f:I
+    iput v1, p0, Lr/x;
+    ->f:I
 
     .line 45
     .line 46
-    iget v1, p0, Lr/x;->e:I
+    iget v1, p0, Lr/x;
+    ->e:I
 
     .line 47
     .line 48
@@ -1309,7 +1415,8 @@
 
     .line 50
     .line 51
-    iget v1, p0, Lr/x;->d:I
+    iget v1, p0, Lr/x;
+    ->d:I
 
     .line 52
     .line 53
@@ -1324,7 +1431,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0, v4, v0}, Lr/x;->a(Ljava/io/InputStream;[B)I
+    invoke-virtual {p0, v4, v0}, Lr/x;
+    ->a(Ljava/io/InputStream;[B)I
 
     .line 59
     .line 60
@@ -1345,11 +1453,13 @@
     .line 66
     :cond_2
     :try_start_2
-    iget v0, p0, Lr/x;->c:I
+    iget v0, p0, Lr/x;
+    ->c:I
 
     .line 67
     .line 68
-    iget v1, p0, Lr/x;->f:I
+    iget v1, p0, Lr/x;
+    ->f:I
 
     .line 69
     .line 70
@@ -1384,7 +1494,8 @@
     long-to-int v1, v0
 
     .line 83
-    iput v1, p0, Lr/x;->f:I
+    iput v1, p0, Lr/x;
+    ->f:I
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1409,7 +1520,8 @@
 
     .line 91
     :try_start_3
-    iput v0, p0, Lr/x;->f:I
+    iput v0, p0, Lr/x;
+    ->f:I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -1425,7 +1537,8 @@
 
     .line 96
     :try_start_4
-    invoke-virtual {v4, p1, p2}, Ljava/io/InputStream;->skip(J)J
+    invoke-virtual {v4, p1, p2}, Ljava/io/InputStream;
+    ->skip(J)J
 
     .line 97
     .line 98
@@ -1441,7 +1554,8 @@
 
     .line 103
     .line 104
-    iput v5, p0, Lr/x;->e:I
+    iput v5, p0, Lr/x;
+    ->e:I
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -1458,7 +1572,8 @@
     .line 109
     :cond_6
     :try_start_5
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     .line 110
     .line 111
@@ -1467,7 +1582,8 @@
 
     .line 113
     :cond_7
-    invoke-static {}, Lr/x;->c()V
+    invoke-static {}, Lr/x;
+    ->c()V
 
     .line 114
     .line 115

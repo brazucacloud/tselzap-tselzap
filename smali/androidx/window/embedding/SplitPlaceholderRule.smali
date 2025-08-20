@@ -38,24 +38,30 @@
 
     const-string v0, "filters"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "placeholderIntent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/window/embedding/SplitRule;-><init>(IIFI)V
+    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/window/embedding/SplitRule;
+    -><init>(IIFI)V
 
     .line 3
-    iput-object p2, p0, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
+    iput-object p2, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->placeholderIntent:Landroid/content/Intent;
 
     .line 4
-    invoke-static {p1}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p1}, Ld1/k;
+    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/window/embedding/SplitPlaceholderRule;->filters:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->filters:Ljava/util/Set;
 
     return-void
 .end method
@@ -116,7 +122,8 @@
 
     .line 1
     :goto_1
-    invoke-direct/range {p1 .. p7}, Landroidx/window/embedding/SplitPlaceholderRule;-><init>(Ljava/util/Set;Landroid/content/Intent;IIFI)V
+    invoke-direct/range {p1 .. p7}, Landroidx/window/embedding/SplitPlaceholderRule;
+    -><init>(Ljava/util/Set;Landroid/content/Intent;IIFI)V
 return-void
 .end method
 
@@ -152,7 +159,8 @@ return-void
 
     .line 11
     :cond_1
-    invoke-super {p0, p1}, Landroidx/window/embedding/SplitRule;->equals(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Landroidx/window/embedding/SplitRule;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -168,7 +176,8 @@ return-void
 
     .line 18
     :cond_2
-    invoke-super {p0, p1}, Landroidx/window/embedding/SplitRule;->equals(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Landroidx/window/embedding/SplitRule;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -184,7 +193,8 @@ return-void
 
     .line 25
     :cond_3
-    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;->filters:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->filters:Ljava/util/Set;
 
     .line 26
     .line 27
@@ -192,11 +202,13 @@ return-void
 
     .line 28
     .line 29
-    iget-object v3, p1, Landroidx/window/embedding/SplitPlaceholderRule;->filters:Ljava/util/Set;
+    iget-object v3, p1, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->filters:Ljava/util/Set;
 
     .line 30
     .line 31
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -212,15 +224,18 @@ return-void
 
     .line 38
     :cond_4
-    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->placeholderIntent:Landroid/content/Intent;
 
     .line 39
     .line 40
-    iget-object p1, p1, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
+    iget-object p1, p1, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->placeholderIntent:Landroid/content/Intent;
 
     .line 41
     .line 42
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
+    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -251,7 +266,8 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;->filters:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->filters:Ljava/util/Set;
 
     .line 2
     .line 3
@@ -262,7 +278,8 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->placeholderIntent:Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -273,7 +290,8 @@ return-void
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/window/embedding/SplitRule;->hashCode()I
+    invoke-super {p0}, Landroidx/window/embedding/SplitRule;
+    ->hashCode()I
 
     .line 2
     .line 3
@@ -285,11 +303,13 @@ return-void
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;->filters:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->filters:Ljava/util/Set;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 10
     .line 11
@@ -304,11 +324,13 @@ return-void
 
     .line 15
     .line 16
-    iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->placeholderIntent:Landroid/content/Intent;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 19
     .line 20
@@ -329,7 +351,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -338,21 +361,25 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;
+    -><init>()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;->filters:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->filters:Ljava/util/Set;
 
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, v1}, Ljava/util/Set;
+    ->addAll(Ljava/util/Collection;)Z
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;
+    ->add(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -361,7 +388,8 @@ return-void
 
     .line 20
     .line 21
-    invoke-static {v0}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v0}, Ld1/k;
+    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 22
     .line 23
@@ -369,11 +397,13 @@ return-void
     move-result-object v3
 
     .line 25
-    iget-object v4, p0, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
+    iget-object v4, p0, Landroidx/window/embedding/SplitPlaceholderRule;
+    ->placeholderIntent:Landroid/content/Intent;
 
     .line 26
     .line 27
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getMinWidth()I
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
+    ->getMinWidth()I
 
     .line 28
     .line 29
@@ -381,7 +411,8 @@ return-void
     move-result v5
 
     .line 31
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getMinSmallestWidth()I
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
+    ->getMinSmallestWidth()I
 
     .line 32
     .line 33
@@ -389,7 +420,8 @@ return-void
     move-result v6
 
     .line 35
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getSplitRatio()F
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
+    ->getSplitRatio()F
 
     .line 36
     .line 37
@@ -397,7 +429,8 @@ return-void
     move-result v7
 
     .line 39
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getLayoutDirection()I
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
+    ->getLayoutDirection()I
 
     .line 40
     .line 41
@@ -405,7 +438,8 @@ return-void
     move-result v8
 
     .line 43
-    invoke-direct/range {v2 .. v8}, Landroidx/window/embedding/SplitPlaceholderRule;-><init>(Ljava/util/Set;Landroid/content/Intent;IIFI)V
+    invoke-direct/range {v2 .. v8}, Landroidx/window/embedding/SplitPlaceholderRule;
+    -><init>(Ljava/util/Set;Landroid/content/Intent;IIFI)V
 
     .line 44
     .line 45

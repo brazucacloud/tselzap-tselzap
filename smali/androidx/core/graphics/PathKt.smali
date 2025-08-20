@@ -20,16 +20,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
+    invoke-direct {v0}, Landroid/graphics/Path;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sget-object v1, Landroid/graphics/Path$Op;->INTERSECT:Landroid/graphics/Path$Op;
+    sget-object v1, Landroid/graphics/Path$Op;
+    ->INTERSECT:Landroid/graphics/Path$Op;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0, p1, v1}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v0, p0, p1, v1}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 9
     .line 10
@@ -55,7 +58,8 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/PathUtils;->flatten(Landroid/graphics/Path;F)Ljava/util/Collection;
+    invoke-static {p0, p1}, Landroidx/core/graphics/PathUtils;
+    ->flatten(Landroid/graphics/Path;F)Ljava/util/Collection;
 
     .line 2
     .line 3
@@ -87,7 +91,8 @@
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/graphics/PathKt;->flatten(Landroid/graphics/Path;F)Ljava/lang/Iterable;
+    invoke-static {p0, p1}, Landroidx/core/graphics/PathKt;
+    ->flatten(Landroid/graphics/Path;F)Ljava/lang/Iterable;
 
     .line 8
     .line 9
@@ -105,16 +110,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/Path;-><init>(Landroid/graphics/Path;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Path;
+    -><init>(Landroid/graphics/Path;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p0, Landroid/graphics/Path$Op;->DIFFERENCE:Landroid/graphics/Path$Op;
+    sget-object p0, Landroid/graphics/Path$Op;
+    ->DIFFERENCE:Landroid/graphics/Path$Op;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 9
     .line 10
@@ -130,16 +138,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/Path;-><init>(Landroid/graphics/Path;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Path;
+    -><init>(Landroid/graphics/Path;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p0, Landroid/graphics/Path$Op;->UNION:Landroid/graphics/Path$Op;
+    sget-object p0, Landroid/graphics/Path$Op;
+    ->UNION:Landroid/graphics/Path$Op;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 9
     .line 10
@@ -155,16 +166,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/Path;-><init>(Landroid/graphics/Path;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Path;
+    -><init>(Landroid/graphics/Path;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p0, Landroid/graphics/Path$Op;->UNION:Landroid/graphics/Path$Op;
+    sget-object p0, Landroid/graphics/Path$Op;
+    ->UNION:Landroid/graphics/Path$Op;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 9
     .line 10
@@ -180,16 +194,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/Path;-><init>(Landroid/graphics/Path;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Path;
+    -><init>(Landroid/graphics/Path;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p0, Landroid/graphics/Path$Op;->XOR:Landroid/graphics/Path$Op;
+    sget-object p0, Landroid/graphics/Path$Op;
+    ->XOR:Landroid/graphics/Path$Op;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Path;
+    ->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
     .line 9
     .line 10

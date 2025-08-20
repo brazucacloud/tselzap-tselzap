@@ -28,16 +28,19 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
 
     .line 2
-    invoke-direct {v0, v1}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/concurrent/CountDownLatch;
+    -><init>(I)V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     return-void
 .end method
@@ -46,15 +49,18 @@
     .locals 1
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     new-instance p1, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v0, 0x1
 
-    invoke-direct {p1, v0}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
+    invoke-direct {p1, v0}, Ljava/util/concurrent/CountDownLatch;
+    -><init>(I)V
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     return-void
 .end method
@@ -65,11 +71,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;
+    ->countDown()V
 
     .line 4
     .line 5
@@ -85,11 +93,13 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iget-object p1, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;
+    ->countDown()V
 
     .line 4
     .line 5
@@ -106,11 +116,13 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iget-object p1, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;
+    ->countDown()V
 
     .line 4
     .line 5
@@ -122,11 +134,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->await()V
+    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;
+    ->await()V
 
     .line 4
     .line 5
@@ -138,11 +152,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzad;->zza:Ljava/util/concurrent/CountDownLatch;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzad;
+    ->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/CountDownLatch;->await(JLjava/util/concurrent/TimeUnit;)Z
+    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/CountDownLatch;
+    ->await(JLjava/util/concurrent/TimeUnit;)Z
 
     .line 4
     .line 5

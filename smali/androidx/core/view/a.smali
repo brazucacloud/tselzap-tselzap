@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Landroidx/core/view/a;->a:Ljava/util/function/Predicate;
+    iput-object p1, p0, Landroidx/core/view/a;
+    ->a:Ljava/util/function/Predicate;
 
     return-void
 .end method
@@ -28,7 +30,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/util/c;->a(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0, p1}, Landroidx/core/util/c;
+    ->a(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
@@ -39,7 +42,8 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;
+    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
@@ -50,7 +54,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/util/c;->c(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0, p1}, Landroidx/core/util/c;
+    ->c(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
@@ -61,11 +66,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/a;->a:Ljava/util/function/Predicate;
+    iget-object v0, p0, Landroidx/core/view/a;
+    ->a:Ljava/util/function/Predicate;
 
     check-cast p1, Landroid/content/ClipData$Item;
 
-    invoke-interface {v0, p1}, Ljava/util/function/Predicate;->test(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/function/Predicate;
+    ->test(Ljava/lang/Object;)Z
 
     move-result p1
 

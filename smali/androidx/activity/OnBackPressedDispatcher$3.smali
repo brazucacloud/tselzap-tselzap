@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;Landroidx/core/util/Consumer;)V
+    value = Landroidx/activity/OnBackPressedDispatcher;
+    -><init>(Ljava/lang/Runnable;Landroidx/core/util/Consumer;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,11 +33,13 @@
 .method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$3;->this$0:Landroidx/activity/OnBackPressedDispatcher;
+    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$3;
+    ->this$0:Landroidx/activity/OnBackPressedDispatcher;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -46,9 +49,11 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$3;->invoke()V
+    invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$3;
+    ->invoke()V
 
-    sget-object v0, Lc1/v;->a:Lc1/v;
+    sget-object v0, Lc1/v;
+    ->a:Lc1/v;
 
     return-object v0
 .end method
@@ -57,9 +62,11 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$3;->this$0:Landroidx/activity/OnBackPressedDispatcher;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$3;
+    ->this$0:Landroidx/activity/OnBackPressedDispatcher;
 
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;
+    ->onBackPressed()V
     return-void
 .end method
 

@@ -17,11 +17,14 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/base/zas;-><init>(Lcom/google/android/gms/internal/base/zar;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/base/zas;
+    -><init>(Lcom/google/android/gms/internal/base/zar;)V
 
-    sput-object v0, Lcom/google/android/gms/internal/base/zat;->zaa:Lcom/google/android/gms/internal/base/zaq;
+    sput-object v0, Lcom/google/android/gms/internal/base/zat;
+    ->zaa:Lcom/google/android/gms/internal/base/zaq;
 
-    sput-object v0, Lcom/google/android/gms/internal/base/zat;->zab:Lcom/google/android/gms/internal/base/zaq;
+    sput-object v0, Lcom/google/android/gms/internal/base/zat;
+    ->zab:Lcom/google/android/gms/internal/base/zaq;
 
     return-void
 .end method
@@ -29,7 +32,8 @@
 .method public static zaa()Lcom/google/android/gms/internal/base/zaq;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/internal/base/zat;->zab:Lcom/google/android/gms/internal/base/zaq;
+    sget-object v0, Lcom/google/android/gms/internal/base/zat;
+    ->zab:Lcom/google/android/gms/internal/base/zaq;
 
     return-object v0
 .end method

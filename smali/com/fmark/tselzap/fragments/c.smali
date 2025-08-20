@@ -17,11 +17,14 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lcom/fmark/tselzap/fragments/c;->b:I
+    iput p2, p0, Lcom/fmark/tselzap/fragments/c;
+    ->b:I
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/c;->c:Landroidx/appcompat/app/AlertDialog;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/c;
+    ->c:Landroidx/appcompat/app/AlertDialog;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -31,20 +34,25 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/fmark/tselzap/fragments/c;->b:I
+    iget v0, p0, Lcom/fmark/tselzap/fragments/c;
+    ->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/c;->c:Landroidx/appcompat/app/AlertDialog;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/c;
+    ->c:Landroidx/appcompat/app/AlertDialog;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->c(Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;
+    ->c(Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V
 
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/c;->c:Landroidx/appcompat/app/AlertDialog;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/c;
+    ->c:Landroidx/appcompat/app/AlertDialog;
 
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->e(Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;
+    ->e(Landroidx/appcompat/app/AlertDialog;Landroid/view/View;)V
 
     return-void
 

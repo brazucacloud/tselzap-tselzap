@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;->isDigitsOnly(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->isDigitsOnly(Ljava/lang/CharSequence;)Z
 
     .line 2
     .line 3
@@ -22,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;->getTrimmedLength(Ljava/lang/CharSequence;)I
+    invoke-static {p0}, Landroid/text/TextUtils;
+    ->getTrimmedLength(Ljava/lang/CharSequence;)I
 
     .line 2
     .line 3

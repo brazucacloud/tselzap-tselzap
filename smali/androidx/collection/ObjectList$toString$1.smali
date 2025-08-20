@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/collection/ObjectList;->toString()Ljava/lang/String;
+    value = Landroidx/collection/ObjectList;
+    ->toString()Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,11 +47,13 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/collection/ObjectList$toString$1;->this$0:Landroidx/collection/ObjectList;
+    iput-object p1, p0, Landroidx/collection/ObjectList$toString$1;
+    ->this$0:Landroidx/collection/ObjectList;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
+    -><init>(I)V
 return-void
 .end method
 
@@ -66,7 +69,8 @@ return-void
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/collection/ObjectList$toString$1;->this$0:Landroidx/collection/ObjectList;
+    iget-object v0, p0, Landroidx/collection/ObjectList$toString$1;
+    ->this$0:Landroidx/collection/ObjectList;
 
     if-ne p1, v0, :cond_0
 
@@ -77,7 +81,8 @@ return-void
 
     .line 4
     :cond_0
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -88,7 +93,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/ObjectList$toString$1;->invoke(Ljava/lang/Object;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Landroidx/collection/ObjectList$toString$1;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/CharSequence;
 
     move-result-object p1
 

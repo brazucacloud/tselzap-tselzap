@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/recyclerview/widget/DefaultItemAnimator;->runPendingAnimations()V
+    value = Landroidx/recyclerview/widget/DefaultItemAnimator;
+    ->runPendingAnimations()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,15 +34,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->this$0:Landroidx/recyclerview/widget/DefaultItemAnimator;
+    iput-object p1, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->this$0:Landroidx/recyclerview/widget/DefaultItemAnimator;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->val$additions:Ljava/util/ArrayList;
+    iput-object p2, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->val$additions:Ljava/util/ArrayList;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -51,11 +55,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->val$additions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->val$additions:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -64,7 +70,8 @@
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 8
     .line 9
@@ -76,7 +83,8 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -88,11 +96,13 @@
 
     .line 18
     .line 19
-    iget-object v2, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->this$0:Landroidx/recyclerview/widget/DefaultItemAnimator;
+    iget-object v2, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->this$0:Landroidx/recyclerview/widget/DefaultItemAnimator;
 
     .line 20
     .line 21
-    invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->animateAddImpl(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/DefaultItemAnimator;
+    ->animateAddImpl(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
     .line 22
     .line 23
@@ -101,28 +111,35 @@
 
     .line 25
     :cond_0
-    iget-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->val$additions:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->val$additions:Ljava/util/ArrayList;
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->clear()V
 
     .line 28
     .line 29
     .line 30
-    iget-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->this$0:Landroidx/recyclerview/widget/DefaultItemAnimator;
+    iget-object v0, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->this$0:Landroidx/recyclerview/widget/DefaultItemAnimator;
 
     .line 31
     .line 32
-    iget-object v0, v0, Landroidx/recyclerview/widget/DefaultItemAnimator;->mAdditionsList:Ljava/util/ArrayList;
+    iget-object v0, v0, Landroidx/recyclerview/widget/DefaultItemAnimator;
+    ->mAdditionsList:Ljava/util/ArrayList;
 
     .line 33
     .line 34
-    iget-object v1, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;->val$additions:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$3;
+    ->val$additions:Ljava/util/ArrayList;
 
     .line 35
     .line 36
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->remove(Ljava/lang/Object;)Z    
+    return-void
 .end method
 
 .end class

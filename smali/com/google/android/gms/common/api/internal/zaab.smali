@@ -16,11 +16,14 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zaad;Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaab;->zab:Lcom/google/android/gms/common/api/internal/zaad;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaab;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaad;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaab;->zaa:Lcom/google/android/gms/common/api/internal/BasePendingResult;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaab;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BasePendingResult;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -30,11 +33,13 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zaab;->zab:Lcom/google/android/gms/common/api/internal/zaad;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zaab;
+    ->zab:Lcom/google/android/gms/common/api/internal/zaad;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zaad;->zaa(Lcom/google/android/gms/common/api/internal/zaad;)Ljava/util/Map;
+    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zaad;
+    ->zaa(Lcom/google/android/gms/common/api/internal/zaad;)Ljava/util/Map;
 
     .line 4
     .line 5
@@ -42,11 +47,13 @@
     move-result-object p1
 
     .line 7
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaab;->zaa:Lcom/google/android/gms/common/api/internal/BasePendingResult;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaab;
+    ->zaa:Lcom/google/android/gms/common/api/internal/BasePendingResult;
 
     .line 8
     .line 9
-    invoke-interface {p1, v0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/Map;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11

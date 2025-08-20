@@ -23,12 +23,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;-><init>(Lp1/l;Lp1/r;Lp1/r;)V
+    invoke-direct {v0, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
+    -><init>(Lp1/l;Lp1/r;Lp1/r;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;
+    ->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 7
     .line 8
@@ -48,7 +50,8 @@
 
     .line 4
     .line 5
-    sget-object p1, Landroidx/core/widget/TextViewKt$addTextChangedListener$1;->INSTANCE:Landroidx/core/widget/TextViewKt$addTextChangedListener$1;
+    sget-object p1, Landroidx/core/widget/TextViewKt$addTextChangedListener$1;
+    ->INSTANCE:Landroidx/core/widget/TextViewKt$addTextChangedListener$1;
 
     .line 6
     .line 7
@@ -61,7 +64,8 @@
 
     .line 10
     .line 11
-    sget-object p2, Landroidx/core/widget/TextViewKt$addTextChangedListener$2;->INSTANCE:Landroidx/core/widget/TextViewKt$addTextChangedListener$2;
+    sget-object p2, Landroidx/core/widget/TextViewKt$addTextChangedListener$2;
+    ->INSTANCE:Landroidx/core/widget/TextViewKt$addTextChangedListener$2;
 
     .line 12
     .line 13
@@ -74,7 +78,8 @@
 
     .line 16
     .line 17
-    sget-object p3, Landroidx/core/widget/TextViewKt$addTextChangedListener$3;->INSTANCE:Landroidx/core/widget/TextViewKt$addTextChangedListener$3;
+    sget-object p3, Landroidx/core/widget/TextViewKt$addTextChangedListener$3;
+    ->INSTANCE:Landroidx/core/widget/TextViewKt$addTextChangedListener$3;
 
     .line 18
     .line 19
@@ -83,12 +88,14 @@
 
     .line 20
     .line 21
-    invoke-direct {p4, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;-><init>(Lp1/l;Lp1/r;Lp1/r;)V
+    invoke-direct {p4, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
+    -><init>(Lp1/l;Lp1/r;Lp1/r;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0, p4}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p0, p4}, Landroid/widget/TextView;
+    ->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 25
     .line 26
@@ -113,12 +120,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doAfterTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Lp1/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doAfterTextChanged$$inlined$addTextChangedListener$default$1;
+    -><init>(Lp1/l;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;
+    ->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 7
     .line 8
@@ -143,12 +152,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Lp1/r;)V
+    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;
+    -><init>(Lp1/r;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;
+    ->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 7
     .line 8
@@ -173,12 +184,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Lp1/r;)V
+    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;
+    -><init>(Lp1/r;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;
+    ->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 7
     .line 8

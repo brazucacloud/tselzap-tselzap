@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;
+    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -49,7 +50,8 @@ return-void
     .line 2
     check-cast p1, Landroidx/transition/ChangeBounds$ViewBounds;
 
-    invoke-virtual {p0, p1}, Landroidx/transition/ChangeBounds$1;->get(Landroidx/transition/ChangeBounds$ViewBounds;)Landroid/graphics/PointF;
+    invoke-virtual {p0, p1}, Landroidx/transition/ChangeBounds$1;
+    ->get(Landroidx/transition/ChangeBounds$ViewBounds;)Landroid/graphics/PointF;
 
     move-result-object p1
 
@@ -60,7 +62,8 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p1, p2}, Landroidx/transition/ChangeBounds$ViewBounds;->setTopLeft(Landroid/graphics/PointF;)V
+    invoke-virtual {p1, p2}, Landroidx/transition/ChangeBounds$ViewBounds;
+    ->setTopLeft(Landroid/graphics/PointF;)V
 
     return-void
 .end method
@@ -73,7 +76,8 @@ return-void
 
     check-cast p2, Landroid/graphics/PointF;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeBounds$1;->set(Landroidx/transition/ChangeBounds$ViewBounds;Landroid/graphics/PointF;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeBounds$1;
+    ->set(Landroidx/transition/ChangeBounds$ViewBounds;Landroid/graphics/PointF;)V
 
     return-void
 .end method

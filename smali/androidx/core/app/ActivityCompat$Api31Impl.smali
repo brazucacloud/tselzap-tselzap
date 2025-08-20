@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -41,7 +42,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->isLaunchedFromBubble()Z
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->isLaunchedFromBubble()Z
 
     .line 2
     .line 3
@@ -70,7 +72,8 @@
 
     .line 3
     :try_start_0
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getApplication()Landroid/app/Application;
 
     .line 4
     .line 5
@@ -78,7 +81,8 @@
     move-result-object v2
 
     .line 7
-    invoke-virtual {v2}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v2}, Landroid/content/Context;
+    ->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 8
     .line 9
@@ -106,7 +110,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;
+    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 22
     .line 23
@@ -122,7 +127,8 @@
 
     .line 28
     .line 29
-    invoke-virtual {v3, v2, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2, v1}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -134,7 +140,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 36
     .line 37
@@ -149,7 +156,8 @@
 
     .line 40
     :catch_0
-    invoke-virtual {p0, p1}, Landroid/app/Activity;->shouldShowRequestPermissionRationale(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/app/Activity;
+    ->shouldShowRequestPermissionRationale(Ljava/lang/String;)Z
 
     .line 41
     .line 42

@@ -122,7 +122,8 @@
     .locals 3
 
     .line 1
-    sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
+    sget-object v0, Ljava/util/concurrent/TimeUnit;
+    ->DAYS:Ljava/util/concurrent/TimeUnit;
 
     .line 2
     .line 3
@@ -130,7 +131,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;
+    ->toMillis(J)J
 
     .line 6
     .line 7
@@ -138,14 +140,16 @@
     move-result-wide v0
 
     .line 9
-    sput-wide v0, Lcom/google/android/gms/stats/WakeLock;->zzb:J
+    sput-wide v0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzb:J
 
     .line 10
     .line 11
     const/4 v0, 0x0
 
     .line 12
-    sput-object v0, Lcom/google/android/gms/stats/WakeLock;->zzc:Ljava/util/concurrent/ScheduledExecutorService;
+    sput-object v0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzc:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 13
     .line 14
@@ -153,12 +157,14 @@
 
     .line 15
     .line 16
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 17
     .line 18
     .line 19
-    sput-object v0, Lcom/google/android/gms/stats/WakeLock;->zzd:Ljava/lang/Object;
+    sput-object v0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzd:Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -166,12 +172,14 @@
 
     .line 22
     .line 23
-    invoke-direct {v0}, Lcom/google/android/gms/stats/zzb;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/stats/zzb;
+    -><init>()V
 
     .line 24
     .line 25
     .line 26
-    sput-object v0, Lcom/google/android/gms/stats/WakeLock;->zze:Lcom/google/android/gms/stats/zzd;
+    sput-object v0, Lcom/google/android/gms/stats/WakeLock;
+    ->zze:Lcom/google/android/gms/stats/zzd;
 
     .line 27
     .line 28
@@ -192,7 +200,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -200,7 +209,8 @@
     move-result-object v0
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 6
     .line 7
@@ -209,19 +219,22 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v1}, Ljava/lang/Object;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iput-object v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 14
     .line 15
     const/4 v1, 0x0
 
     .line 16
-    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 17
     .line 18
@@ -229,23 +242,27 @@
 
     .line 19
     .line 20
-    invoke-direct {v2}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v2}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzk:Ljava/util/Set;
+    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzk:Ljava/util/Set;
 
     .line 24
     .line 25
     const/4 v2, 0x1
 
     .line 26
-    iput-boolean v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzl:Z
+    iput-boolean v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzl:Z
 
     .line 27
     .line 28
-    invoke-static {}, Lcom/google/android/gms/common/util/DefaultClock;->getInstance()Lcom/google/android/gms/common/util/Clock;
+    invoke-static {}, Lcom/google/android/gms/common/util/DefaultClock;
+    ->getInstance()Lcom/google/android/gms/common/util/Clock;
 
     .line 29
     .line 30
@@ -253,7 +270,8 @@
     move-result-object v3
 
     .line 32
-    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzn:Lcom/google/android/gms/common/util/Clock;
+    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzn:Lcom/google/android/gms/common/util/Clock;
 
     .line 33
     .line 34
@@ -261,12 +279,14 @@
 
     .line 35
     .line 36
-    invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {v3}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 37
     .line 38
     .line 39
-    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 40
     .line 41
@@ -274,12 +294,14 @@
 
     .line 42
     .line 43
-    invoke-direct {v3, v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+    invoke-direct {v3, v1}, Ljava/util/concurrent/atomic/AtomicInteger;
+    -><init>(I)V
 
     .line 44
     .line 45
     .line 46
-    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzt:Ljava/util/concurrent/atomic/AtomicInteger;
+    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzt:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 47
     .line 48
@@ -287,7 +309,8 @@
 
     .line 49
     .line 50
-    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -296,12 +319,14 @@
 
     .line 54
     .line 55
-    invoke-static {p3, v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotEmpty(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p3, v3}, Lcom/google/android/gms/common/internal/Preconditions;
+    ->checkNotEmpty(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 59
     .line 60
@@ -309,18 +334,21 @@
     move-result-object v3
 
     .line 62
-    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzr:Landroid/content/Context;
+    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzr:Landroid/content/Context;
 
     .line 63
     .line 64
-    iput-object p3, p0, Lcom/google/android/gms/stats/WakeLock;->zzq:Ljava/lang/String;
+    iput-object p3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzq:Ljava/lang/String;
 
     .line 65
     .line 66
     const/4 v3, 0x0
 
     .line 67
-    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     .line 68
     .line 69
@@ -328,7 +356,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 72
     .line 73
@@ -336,7 +365,8 @@
     move-result-object v4
 
     .line 75
-    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/String;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 76
     .line 77
@@ -348,7 +378,8 @@
 
     .line 80
     .line 81
-    invoke-static {p3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 82
     .line 83
@@ -360,7 +391,8 @@
 
     .line 86
     .line 87
-    invoke-virtual {v3}, Ljava/lang/String;->length()I
+    invoke-virtual {v3}, Ljava/lang/String;
+    ->length()I
 
     .line 88
     .line 89
@@ -372,7 +404,8 @@
 
     .line 92
     .line 93
-    invoke-virtual {v4, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v3}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 94
     .line 95
@@ -388,13 +421,15 @@
 
     .line 99
     .line 100
-    invoke-direct {v3, v4}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/String;
+    -><init>(Ljava/lang/String;)V
 
     .line 101
     .line 102
     .line 103
     :goto_0
-    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iput-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 104
     .line 105
@@ -402,7 +437,8 @@
 
     .line 106
     :cond_1
-    iput-object p3, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iput-object p3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 107
     .line 108
@@ -411,7 +447,8 @@
 
     .line 109
     .line 110
-    invoke-virtual {p1, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, v3}, Landroid/content/Context;
+    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 111
     .line 112
@@ -427,7 +464,8 @@
 
     .line 117
     .line 118
-    invoke-virtual {v3, p2, p3}, Landroid/os/PowerManager;->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
+    invoke-virtual {v3, p2, p3}, Landroid/os/PowerManager;
+    ->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
 
     .line 119
     .line 120
@@ -435,11 +473,13 @@
     move-result-object p2
 
     .line 122
-    iput-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzg:Landroid/os/PowerManager$WakeLock;
+    iput-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzg:Landroid/os/PowerManager$WakeLock;
 
     .line 123
     .line 124
-    invoke-static {p1}, Lcom/google/android/gms/common/util/WorkSourceUtil;->hasWorkSourcePermission(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/google/android/gms/common/util/WorkSourceUtil;
+    ->hasWorkSourcePermission(Landroid/content/Context;)Z
 
     .line 125
     .line 126
@@ -451,7 +491,8 @@
 
     .line 129
     .line 130
-    invoke-static {v0}, Lcom/google/android/gms/common/util/Strings;->isEmptyOrWhitespace(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/google/android/gms/common/util/Strings;
+    ->isEmptyOrWhitespace(Ljava/lang/String;)Z
 
     .line 131
     .line 132
@@ -463,7 +504,8 @@
 
     .line 135
     .line 136
-    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getPackageName()Ljava/lang/String;
 
     .line 137
     .line 138
@@ -472,7 +514,8 @@
 
     .line 140
     :cond_2
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/util/WorkSourceUtil;->fromPackage(Landroid/content/Context;Ljava/lang/String;)Landroid/os/WorkSource;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/util/WorkSourceUtil;
+    ->fromPackage(Landroid/content/Context;Ljava/lang/String;)Landroid/os/WorkSource;
 
     .line 141
     .line 142
@@ -480,7 +523,8 @@
     move-result-object p1
 
     .line 144
-    iput-object p1, p0, Lcom/google/android/gms/stats/WakeLock;->zzo:Landroid/os/WorkSource;
+    iput-object p1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzo:Landroid/os/WorkSource;
 
     .line 145
     .line 146
@@ -488,13 +532,15 @@
 
     .line 147
     .line 148
-    invoke-static {p2, p1}, Lcom/google/android/gms/stats/WakeLock;->zze(Landroid/os/PowerManager$WakeLock;Landroid/os/WorkSource;)V
+    invoke-static {p2, p1}, Lcom/google/android/gms/stats/WakeLock;
+    ->zze(Landroid/os/PowerManager$WakeLock;Landroid/os/WorkSource;)V
 
     .line 149
     .line 150
     .line 151
     :cond_3
-    sget-object p1, Lcom/google/android/gms/stats/WakeLock;->zzc:Ljava/util/concurrent/ScheduledExecutorService;
+    sget-object p1, Lcom/google/android/gms/stats/WakeLock;
+    ->zzc:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 152
     .line 153
@@ -502,7 +548,8 @@
 
     .line 154
     .line 155
-    sget-object p2, Lcom/google/android/gms/stats/WakeLock;->zzd:Ljava/lang/Object;
+    sget-object p2, Lcom/google/android/gms/stats/WakeLock;
+    ->zzd:Ljava/lang/Object;
 
     .line 156
     .line 157
@@ -510,7 +557,8 @@
 
     .line 158
     :try_start_0
-    sget-object p1, Lcom/google/android/gms/stats/WakeLock;->zzc:Ljava/util/concurrent/ScheduledExecutorService;
+    sget-object p1, Lcom/google/android/gms/stats/WakeLock;
+    ->zzc:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 159
     .line 160
@@ -518,12 +566,14 @@
 
     .line 161
     .line 162
-    invoke-static {}, Lcom/google/android/gms/internal/stats/zzh;->zza()Lcom/google/android/gms/internal/stats/zze;
+    invoke-static {}, Lcom/google/android/gms/internal/stats/zzh;
+    ->zza()Lcom/google/android/gms/internal/stats/zze;
 
     .line 163
     .line 164
     .line 165
-    invoke-static {v2}, Ljava/util/concurrent/Executors;->newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;
+    invoke-static {v2}, Ljava/util/concurrent/Executors;
+    ->newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 166
     .line 167
@@ -531,7 +581,8 @@
     move-result-object p1
 
     .line 169
-    invoke-static {p1}, Ljava/util/concurrent/Executors;->unconfigurableScheduledExecutorService(Ljava/util/concurrent/ScheduledExecutorService;)Ljava/util/concurrent/ScheduledExecutorService;
+    invoke-static {p1}, Ljava/util/concurrent/Executors;
+    ->unconfigurableScheduledExecutorService(Ljava/util/concurrent/ScheduledExecutorService;)Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 170
     .line 171
@@ -539,7 +590,8 @@
     move-result-object p1
 
     .line 173
-    sput-object p1, Lcom/google/android/gms/stats/WakeLock;->zzc:Ljava/util/concurrent/ScheduledExecutorService;
+    sput-object p1, Lcom/google/android/gms/stats/WakeLock;
+    ->zzc:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 174
     .line 175
@@ -572,7 +624,8 @@
     .line 182
     :cond_5
     :goto_4
-    iput-object p1, p0, Lcom/google/android/gms/stats/WakeLock;->zzu:Ljava/util/concurrent/ScheduledExecutorService;
+    iput-object p1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzu:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 183
     .line 184
@@ -592,7 +645,8 @@
 
     .line 190
     .line 191
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(I)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
+    -><init>(I)V
 
     .line 192
     .line 193
@@ -601,12 +655,14 @@
 
     .line 195
     .line 196
-    invoke-virtual {p2, v0, v1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0, v1, p3}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
     .line 197
     .line 198
     .line 199
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 200
     .line 201
@@ -614,7 +670,8 @@
     move-result-object p2
 
     .line 203
-    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/stats/zzi;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/stats/zzi;
+    -><init>(Ljava/lang/String;)V
 
     .line 204
     .line 205
@@ -1327,7 +1384,8 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1335,7 +1393,8 @@
 
     .line 4
     :try_start_0
-    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;->isHeld()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;
+    ->isHeld()Z
 
     .line 5
     .line 6
@@ -1364,11 +1423,13 @@
 
     .line 15
     .line 16
-    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 17
     .line 18
-    invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -1380,7 +1441,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -1388,17 +1450,20 @@
     move-result-object v2
 
     .line 28
-    invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 29
     .line 30
     .line 31
-    invoke-direct {p0}, Lcom/google/android/gms/stats/WakeLock;->zzc()V
+    invoke-direct {p0}, Lcom/google/android/gms/stats/WakeLock;
+    ->zzc()V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;->isHeld()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;
+    ->isHeld()Z
 
     .line 35
     .line 36
@@ -1419,14 +1484,16 @@
     const/4 v1, 0x1
 
     .line 43
-    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 44
     .line 45
     const/4 v1, 0x0
 
     .line 46
-    invoke-direct {p0, v1}, Lcom/google/android/gms/stats/WakeLock;->zzd(I)V
+    invoke-direct {p0, v1}, Lcom/google/android/gms/stats/WakeLock;
+    ->zzd(I)V
 
     .line 47
     .line 48
@@ -1484,7 +1551,8 @@
     .end annotation
 
     .line 1
-    iget-boolean p1, p0, Lcom/google/android/gms/stats/WakeLock;->zzl:Z
+    iget-boolean p1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzl:Z
 
     .line 2
     .line 3
@@ -1495,7 +1563,8 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 7
     .line 8
@@ -1511,11 +1580,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzk:Ljava/util/Set;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzk:Ljava/util/Set;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Set;
+    ->isEmpty()Z
 
     .line 4
     .line 5
@@ -1535,25 +1606,30 @@
 
     .line 11
     .line 12
-    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzk:Ljava/util/Set;
+    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzk:Ljava/util/Set;
 
     .line 13
     .line 14
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;
+    -><init>(Ljava/util/Collection;)V
 
     .line 15
     .line 16
     .line 17
-    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzk:Ljava/util/Set;
+    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzk:Ljava/util/Set;
 
     .line 18
     .line 19
-    invoke-interface {v1}, Ljava/util/Set;->clear()V
+    invoke-interface {v1}, Ljava/util/Set;
+    ->clear()V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;
+    ->size()I
 
     .line 23
     .line 24
@@ -1573,7 +1649,8 @@
     const/4 v1, 0x0
 
     .line 30
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
+    ->get(I)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1644,7 +1721,8 @@
     .locals 5
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iget-object p1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1652,7 +1730,8 @@
 
     .line 4
     :try_start_0
-    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;->isHeld()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;
+    ->isHeld()Z
 
     .line 5
     .line 6
@@ -1678,7 +1757,8 @@
     .line 14
     .line 15
     :cond_0
-    iget-boolean v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzl:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzl:Z
 
     .line 16
     .line 17
@@ -1689,7 +1769,8 @@
 
     .line 19
     .line 20
-    iget v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iget v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 21
     .line 22
@@ -1697,7 +1778,8 @@
 
     .line 23
     .line 24
-    iput v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iput v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 25
     .line 26
@@ -1715,21 +1797,25 @@
 
     .line 31
     :cond_2
-    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 32
     .line 33
     :goto_0
-    invoke-direct {p0}, Lcom/google/android/gms/stats/WakeLock;->zzc()V
+    invoke-direct {p0}, Lcom/google/android/gms/stats/WakeLock;
+    ->zzc()V
 
     .line 34
     .line 35
     .line 36
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 37
     .line 38
-    invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
+    invoke-interface {v0}, Ljava/util/Map;
+    ->values()Ljava/util/Collection;
 
     .line 39
     .line 40
@@ -1737,7 +1823,8 @@
     move-result-object v0
 
     .line 42
-    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;
+    ->iterator()Ljava/util/Iterator;
 
     .line 43
     .line 44
@@ -1746,7 +1833,8 @@
 
     .line 46
     :goto_1
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->hasNext()Z
 
     .line 47
     .line 48
@@ -1758,7 +1846,8 @@
 
     .line 51
     .line 52
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;
+    ->next()Ljava/lang/Object;
 
     .line 53
     .line 54
@@ -1770,7 +1859,8 @@
 
     .line 57
     .line 58
-    iput v1, v2, Lcom/google/android/gms/stats/zzc;->zza:I
+    iput v1, v2, Lcom/google/android/gms/stats/zzc;
+    ->zza:I
 
     .line 59
     .line 60
@@ -1778,16 +1868,19 @@
 
     .line 61
     :cond_3
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 62
     .line 63
-    invoke-interface {v0}, Ljava/util/Map;->clear()V
+    invoke-interface {v0}, Ljava/util/Map;
+    ->clear()V
 
     .line 64
     .line 65
     .line 66
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzi:Ljava/util/concurrent/Future;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzi:Ljava/util/concurrent/Future;
 
     .line 67
     .line 68
@@ -1798,12 +1891,14 @@
 
     .line 70
     .line 71
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Future;->cancel(Z)Z
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Future;
+    ->cancel(Z)Z
 
     .line 72
     .line 73
     .line 74
-    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzi:Ljava/util/concurrent/Future;
+    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzi:Ljava/util/concurrent/Future;
 
     .line 75
     .line 76
@@ -1811,20 +1906,24 @@
 
     .line 77
     .line 78
-    iput-wide v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzj:J
+    iput-wide v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzj:J
 
     .line 79
     .line 80
     :cond_4
-    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzm:I
+    iput v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzm:I
 
     .line 81
     .line 82
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzg:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzg:Landroid/os/PowerManager$WakeLock;
 
     .line 83
     .line 84
-    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;
+    ->isHeld()Z
 
     .line 85
     .line 86
@@ -1839,11 +1938,13 @@
     .line 89
     .line 90
     :try_start_1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzg:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzg:Landroid/os/PowerManager$WakeLock;
 
     .line 91
     .line 92
-    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
+    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;
+    ->release()V
     :try_end_1
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -1852,7 +1953,8 @@
     .line 94
     .line 95
     :try_start_2
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     .line 96
     .line 97
@@ -1860,7 +1962,8 @@
 
     .line 98
     .line 99
-    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1881,7 +1984,8 @@
 
     .line 105
     :try_start_3
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 106
     .line 107
@@ -1893,7 +1997,8 @@
 
     .line 110
     .line 111
-    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 112
     .line 113
@@ -1909,11 +2014,13 @@
 
     .line 118
     .line 119
-    iget-object v3, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iget-object v3, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 120
     .line 121
-    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 122
     .line 123
@@ -1925,7 +2032,8 @@
 
     .line 126
     .line 127
-    invoke-virtual {v3, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 128
     .line 129
@@ -1933,7 +2041,8 @@
     move-result-object v3
 
     .line 131
-    invoke-static {v1, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v3, v0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -1941,7 +2050,8 @@
     .line 133
     .line 134
     :try_start_4
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     .line 135
     .line 136
@@ -1949,7 +2059,8 @@
 
     .line 137
     .line 138
-    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -1967,7 +2078,8 @@
     .line 142
     :goto_2
     :try_start_6
-    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     .line 143
     .line 144
@@ -1975,7 +2087,8 @@
 
     .line 145
     .line 146
-    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iput-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     .line 147
     .line 148
@@ -1988,11 +2101,13 @@
 
     .line 150
     .line 151
-    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 152
     .line 153
-    invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 154
     .line 155
@@ -2004,7 +2119,8 @@
 
     .line 158
     .line 159
-    invoke-virtual {v1, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 160
     .line 161
@@ -2012,7 +2128,8 @@
     move-result-object v1
 
     .line 163
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 164
     .line 165
@@ -2112,7 +2229,8 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0, p1}, Landroid/os/PowerManager$WakeLock;->setWorkSource(Landroid/os/WorkSource;)V
+    invoke-virtual {p0, p1}, Landroid/os/PowerManager$WakeLock;
+    ->setWorkSource(Landroid/os/WorkSource;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
@@ -2131,7 +2249,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -2139,7 +2258,8 @@
     move-result-object p0
 
     .line 12
-    invoke-static {p1, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p0}, Landroid/util/Log;
+    ->wtf(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 13
     .line 14
@@ -2155,16 +2275,19 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzt:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzt:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->incrementAndGet()I
 
     .line 4
     .line 5
     .line 6
-    sget-wide v0, Lcom/google/android/gms/stats/WakeLock;->zzb:J
+    sget-wide v0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzb:J
 
     .line 7
     .line 8
@@ -2175,7 +2298,8 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->min(JJ)J
+    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;
+    ->min(JJ)J
 
     .line 14
     .line 15
@@ -2187,7 +2311,8 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v1, v4, v5}, Ljava/lang/Math;->max(JJ)J
+    invoke-static {v0, v1, v4, v5}, Ljava/lang/Math;
+    ->max(JJ)J
 
     .line 20
     .line 21
@@ -2207,7 +2332,8 @@
 
     .line 28
     .line 29
-    invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->min(JJ)J
+    invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;
+    ->min(JJ)J
 
     .line 30
     .line 31
@@ -2216,7 +2342,8 @@
 
     .line 33
     :cond_0
-    iget-object p1, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iget-object p1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -2224,7 +2351,8 @@
 
     .line 36
     :try_start_0
-    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;->isHeld()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/stats/WakeLock;
+    ->isHeld()Z
 
     .line 37
     .line 38
@@ -2242,7 +2370,8 @@
 
     .line 43
     .line 44
-    invoke-static {v4, v5}, Lcom/google/android/gms/internal/stats/zzb;->zza(ZLcom/google/android/gms/internal/stats/zzc;)Lcom/google/android/gms/internal/stats/zzb;
+    invoke-static {v4, v5}, Lcom/google/android/gms/internal/stats/zzb;
+    ->zza(ZLcom/google/android/gms/internal/stats/zzc;)Lcom/google/android/gms/internal/stats/zzb;
 
     .line 45
     .line 46
@@ -2250,24 +2379,29 @@
     move-result-object p2
 
     .line 48
-    iput-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zza:Lcom/google/android/gms/internal/stats/zzb;
+    iput-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     .line 49
     .line 50
-    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzg:Landroid/os/PowerManager$WakeLock;
+    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzg:Landroid/os/PowerManager$WakeLock;
 
     .line 51
     .line 52
-    invoke-virtual {p2}, Landroid/os/PowerManager$WakeLock;->acquire()V
+    invoke-virtual {p2}, Landroid/os/PowerManager$WakeLock;
+    ->acquire()V
 
     .line 53
     .line 54
     .line 55
-    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzn:Lcom/google/android/gms/common/util/Clock;
+    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzn:Lcom/google/android/gms/common/util/Clock;
 
     .line 56
     .line 57
-    invoke-interface {p2}, Lcom/google/android/gms/common/util/Clock;->elapsedRealtime()J
+    invoke-interface {p2}, Lcom/google/android/gms/common/util/Clock;
+    ->elapsedRealtime()J
 
     .line 58
     .line 59
@@ -2284,7 +2418,8 @@
     .line 63
     :cond_1
     :goto_0
-    iget p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iget p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 64
     .line 65
@@ -2292,11 +2427,13 @@
 
     .line 66
     .line 67
-    iput p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iput p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 68
     .line 69
-    iget p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzm:I
+    iget p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzm:I
 
     .line 70
     .line 71
@@ -2304,20 +2441,24 @@
 
     .line 72
     .line 73
-    iput p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzm:I
+    iput p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzm:I
 
     .line 74
     .line 75
-    invoke-direct {p0, v5}, Lcom/google/android/gms/stats/WakeLock;->zzb(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v5}, Lcom/google/android/gms/stats/WakeLock;
+    ->zzb(Ljava/lang/String;)Ljava/lang/String;
 
     .line 76
     .line 77
     .line 78
-    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 79
     .line 80
-    invoke-interface {p2, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v5}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -2337,22 +2478,26 @@
 
     .line 89
     .line 90
-    invoke-direct {p2, v5}, Lcom/google/android/gms/stats/zzc;-><init>(Lcom/google/android/gms/stats/zzb;)V
+    invoke-direct {p2, v5}, Lcom/google/android/gms/stats/zzc;
+    -><init>(Lcom/google/android/gms/stats/zzb;)V
 
     .line 91
     .line 92
     .line 93
-    iget-object v6, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object v6, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 94
     .line 95
-    invoke-interface {v6, v5, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v6, v5, p2}, Ljava/util/Map;
+    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 96
     .line 97
     .line 98
     :cond_2
-    iget v5, p2, Lcom/google/android/gms/stats/zzc;->zza:I
+    iget v5, p2, Lcom/google/android/gms/stats/zzc;
+    ->zza:I
 
     .line 99
     .line 100
@@ -2360,15 +2505,18 @@
 
     .line 101
     .line 102
-    iput v5, p2, Lcom/google/android/gms/stats/zzc;->zza:I
+    iput v5, p2, Lcom/google/android/gms/stats/zzc;
+    ->zza:I
 
     .line 103
     .line 104
-    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzn:Lcom/google/android/gms/common/util/Clock;
+    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzn:Lcom/google/android/gms/common/util/Clock;
 
     .line 105
     .line 106
-    invoke-interface {p2}, Lcom/google/android/gms/common/util/Clock;->elapsedRealtime()J
+    invoke-interface {p2}, Lcom/google/android/gms/common/util/Clock;
+    ->elapsedRealtime()J
 
     .line 107
     .line 108
@@ -2393,7 +2541,8 @@
     .line 117
     .line 118
     :cond_3
-    iget-wide v5, p0, Lcom/google/android/gms/stats/WakeLock;->zzj:J
+    iget-wide v5, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzj:J
 
     .line 119
     .line 120
@@ -2405,11 +2554,13 @@
 
     .line 123
     .line 124
-    iput-wide v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzj:J
+    iput-wide v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzj:J
 
     .line 125
     .line 126
-    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzi:Ljava/util/concurrent/Future;
+    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzi:Ljava/util/concurrent/Future;
 
     .line 127
     .line 128
@@ -2417,13 +2568,15 @@
 
     .line 129
     .line 130
-    invoke-interface {p2, v4}, Ljava/util/concurrent/Future;->cancel(Z)Z
+    invoke-interface {p2, v4}, Ljava/util/concurrent/Future;
+    ->cancel(Z)Z
 
     .line 131
     .line 132
     .line 133
     :cond_4
-    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzu:Ljava/util/concurrent/ScheduledExecutorService;
+    iget-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzu:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 134
     .line 135
@@ -2431,16 +2584,19 @@
 
     .line 136
     .line 137
-    invoke-direct {v2, p0}, Lcom/google/android/gms/stats/zza;-><init>(Lcom/google/android/gms/stats/WakeLock;)V
+    invoke-direct {v2, p0}, Lcom/google/android/gms/stats/zza;
+    -><init>(Lcom/google/android/gms/stats/WakeLock;)V
 
     .line 138
     .line 139
     .line 140
-    sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v3, Ljava/util/concurrent/TimeUnit;
+    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 141
     .line 142
-    invoke-interface {p2, v2, v0, v1, v3}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    invoke-interface {p2, v2, v0, v1, v3}, Ljava/util/concurrent/ScheduledExecutorService;
+    ->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     .line 143
     .line 144
@@ -2448,7 +2604,8 @@
     move-result-object p2
 
     .line 146
-    iput-object p2, p0, Lcom/google/android/gms/stats/WakeLock;->zzi:Ljava/util/concurrent/Future;
+    iput-object p2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzi:Ljava/util/concurrent/Future;
 
     .line 147
     .line 148
@@ -2565,7 +2722,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -2573,7 +2731,8 @@
 
     .line 4
     :try_start_0
-    iget v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzh:I
+    iget v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzh:I
 
     .line 5
     .line 6
@@ -2622,11 +2781,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzt:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzt:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;
+    ->decrementAndGet()I
 
     .line 4
     .line 5
@@ -2642,11 +2803,13 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 12
     .line 13
-    invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -2658,7 +2821,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -2666,13 +2830,15 @@
     move-result-object v1
 
     .line 23
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 24
     .line 25
     .line 26
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -2683,16 +2849,19 @@
 
     .line 30
     :try_start_0
-    invoke-direct {p0, v1}, Lcom/google/android/gms/stats/WakeLock;->zzb(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v1}, Lcom/google/android/gms/stats/WakeLock;
+    ->zzb(Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32
     .line 33
-    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 34
     .line 35
-    invoke-interface {v2, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v2, v1}, Ljava/util/Map;
+    ->containsKey(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -2704,11 +2873,13 @@
 
     .line 40
     .line 41
-    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 42
     .line 43
-    invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/Map;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -2724,7 +2895,8 @@
 
     .line 50
     .line 51
-    iget v3, v2, Lcom/google/android/gms/stats/zzc;->zza:I
+    iget v3, v2, Lcom/google/android/gms/stats/zzc;
+    ->zza:I
 
     .line 52
     .line 53
@@ -2732,7 +2904,8 @@
 
     .line 54
     .line 55
-    iput v3, v2, Lcom/google/android/gms/stats/zzc;->zza:I
+    iput v3, v2, Lcom/google/android/gms/stats/zzc;
+    ->zza:I
 
     .line 56
     .line 57
@@ -2740,11 +2913,13 @@
 
     .line 58
     .line 59
-    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzs:Ljava/util/Map;
+    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzs:Ljava/util/Map;
 
     .line 60
     .line 61
-    invoke-interface {v2, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/Map;
+    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -2764,11 +2939,13 @@
 
     .line 68
     .line 69
-    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;->zzp:Ljava/lang/String;
+    iget-object v2, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzp:Ljava/lang/String;
 
     .line 70
     .line 71
-    invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -2780,7 +2957,8 @@
 
     .line 76
     .line 77
-    invoke-virtual {v2, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -2788,7 +2966,8 @@
     move-result-object v2
 
     .line 81
-    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroid/util/Log;
+    ->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 82
     .line 83
@@ -2798,7 +2977,8 @@
     const/4 v1, 0x0
 
     .line 85
-    invoke-direct {p0, v1}, Lcom/google/android/gms/stats/WakeLock;->zzd(I)V
+    invoke-direct {p0, v1}, Lcom/google/android/gms/stats/WakeLock;
+    ->zzd(I)V
 
     .line 86
     .line 87
@@ -3073,7 +3253,8 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;->zzf:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzf:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -3081,7 +3262,8 @@
 
     .line 4
     :try_start_0
-    iput-boolean p1, p0, Lcom/google/android/gms/stats/WakeLock;->zzl:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/stats/WakeLock;
+    ->zzl:Z
 
     .line 5
     .line 6

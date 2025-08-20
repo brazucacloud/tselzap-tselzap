@@ -16,7 +16,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/graphics/Color;->alpha(I)I
+    invoke-static {v0}, Landroid/graphics/Color;
+    ->alpha(I)I
 
     .line 4
     .line 5
@@ -24,7 +25,8 @@
     move-result v0
 
     .line 7
-    sput v0, Lq0/b;->a:I
+    sput v0, Lq0/b;
+    ->a:I
 
     .line 8
     .line 9

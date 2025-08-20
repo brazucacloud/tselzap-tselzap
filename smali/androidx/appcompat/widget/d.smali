@@ -10,7 +10,8 @@
     .line 1
     const-string v0, "contentInsetLeft"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -23,7 +24,8 @@
     .line 1
     const-string v0, "contentInsetRight"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -36,7 +38,8 @@
     .line 1
     const-string v0, "contentInsetStart"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -49,7 +52,8 @@
     .line 1
     const-string v0, "contentInsetStartWithNavigation"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -62,7 +66,8 @@
     .line 1
     const-string v0, "titleMarginEnd"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -73,7 +78,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getLocusId()Landroid/content/LocusId;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
+    ->getLocusId()Landroid/content/LocusId;
 
     move-result-object p0
 
@@ -84,7 +90,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/WindowInsets$Builder;->build()Landroid/view/WindowInsets;
+    invoke-virtual {p0}, Landroid/view/WindowInsets$Builder;
+    ->build()Landroid/view/WindowInsets;
 
     move-result-object p0
 
@@ -95,7 +102,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setLocusId(Landroid/content/LocusId;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
+    ->setLocusId(Landroid/content/LocusId;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -104,7 +112,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setLongLived(Z)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
+    ->setLongLived(Z)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -113,7 +122,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setPersons([Landroid/app/Person;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
+    ->setPersons([Landroid/app/Person;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -122,7 +132,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;->setSystemWindowInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;
+    ->setSystemWindowInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -131,7 +142,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readResourceId(II)V
+    invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;
+    ->readResourceId(II)V
 return-void
 .end method
 
@@ -141,7 +153,8 @@ return-void
     .line 1
     const-string v0, "titleMarginStart"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -152,7 +165,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;->setStableInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;
+    ->setStableInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -163,7 +177,8 @@ return-void
     .line 1
     const-string v0, "logo"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -176,7 +191,8 @@ return-void
     .line 1
     const-string v0, "logoDescription"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -189,7 +205,8 @@ return-void
     .line 1
     const-string v0, "collapseContentDescription"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -202,7 +219,8 @@ return-void
     .line 1
     const-string v0, "menu"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -215,7 +233,8 @@ return-void
     .line 1
     const-string v0, "navigationContentDescription"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -228,7 +247,8 @@ return-void
     .line 1
     const-string v0, "navigationIcon"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -241,7 +261,8 @@ return-void
     .line 1
     const-string v0, "popupTheme"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapResourceId(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapResourceId(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -254,7 +275,8 @@ return-void
     .line 1
     const-string v0, "subtitle"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -267,7 +289,8 @@ return-void
     .line 1
     const-string v0, "title"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -280,7 +303,8 @@ return-void
     .line 1
     const-string v0, "titleMarginBottom"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -293,7 +317,8 @@ return-void
     .line 1
     const-string v0, "titleMarginTop"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -304,7 +329,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;->setSystemGestureInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;
+    ->setSystemGestureInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -315,7 +341,8 @@ return-void
     .line 1
     const-string v0, "collapseIcon"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapObject(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapObject(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -326,7 +353,8 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;->setMandatorySystemGestureInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
+    invoke-virtual {p0, p1}, Landroid/view/WindowInsets$Builder;
+    ->setMandatorySystemGestureInsets(Landroid/graphics/Insets;)Landroid/view/WindowInsets$Builder;
 
     return-void
 .end method
@@ -337,7 +365,8 @@ return-void
     .line 1
     const-string v0, "contentInsetEnd"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 
@@ -350,7 +379,8 @@ return-void
     .line 1
     const-string v0, "contentInsetEndWithActions"
 
-    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;->mapInt(Ljava/lang/String;I)I
+    invoke-interface {p0, v0, p1}, Landroid/view/inspector/PropertyMapper;
+    ->mapInt(Ljava/lang/String;I)I
 
     move-result p0
 

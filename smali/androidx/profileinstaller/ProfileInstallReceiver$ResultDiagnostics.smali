@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;->this$0:Landroidx/profileinstaller/ProfileInstallReceiver;
+    iput-object p1, p0, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;
+    ->this$0:Landroidx/profileinstaller/ProfileInstallReceiver;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -48,11 +50,13 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/profileinstaller/ProfileInstaller;->LOG_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    sget-object v0, Landroidx/profileinstaller/ProfileInstaller;
+    ->LOG_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;->onDiagnosticReceived(ILjava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    ->onDiagnosticReceived(ILjava/lang/Object;)V
 
     .line 4
     .line 5
@@ -68,20 +72,24 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/profileinstaller/ProfileInstaller;->LOG_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    sget-object v0, Landroidx/profileinstaller/ProfileInstaller;
+    ->LOG_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;->onResultReceived(ILjava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    ->onResultReceived(ILjava/lang/Object;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p2, p0, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;->this$0:Landroidx/profileinstaller/ProfileInstallReceiver;
+    iget-object p2, p0, Landroidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics;
+    ->this$0:Landroidx/profileinstaller/ProfileInstallReceiver;
 
     .line 7
     .line 8
-    invoke-virtual {p2, p1}, Landroid/content/BroadcastReceiver;->setResultCode(I)V
+    invoke-virtual {p2, p1}, Landroid/content/BroadcastReceiver;
+    ->setResultCode(I)V
 
     .line 9
     .line 10

@@ -83,7 +83,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -107,7 +108,8 @@
     .line 1
     new-instance v0, Landroidx/core/location/GnssStatusWrapper;
 
-    invoke-direct {v0, p0}, Landroidx/core/location/GnssStatusWrapper;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Landroidx/core/location/GnssStatusWrapper;
+    -><init>(Ljava/lang/Object;)V
 return-object v0
 .end method
 
@@ -129,7 +131,8 @@ return-object v0
     .line 2
     new-instance v0, Landroidx/core/location/GpsStatusWrapper;
 
-    invoke-direct {v0, p0}, Landroidx/core/location/GpsStatusWrapper;-><init>(Landroid/location/GpsStatus;)V
+    invoke-direct {v0, p0}, Landroidx/core/location/GpsStatusWrapper;
+    -><init>(Landroid/location/GpsStatus;)V
 return-object v0
 .end method
 

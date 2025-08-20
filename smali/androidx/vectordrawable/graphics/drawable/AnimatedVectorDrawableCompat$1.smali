@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -40,11 +42,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
+    iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;
+    ->invalidateSelf()V
     return-void
 .end method
 
@@ -52,11 +56,13 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
+    iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;->scheduleSelf(Ljava/lang/Runnable;J)V
+    invoke-virtual {p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;
+    ->scheduleSelf(Ljava/lang/Runnable;J)V
 return-void
 .end method
 
@@ -64,11 +70,13 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
+    iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1;
+    ->this$0:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->unscheduleSelf(Ljava/lang/Runnable;)V
+    invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;
+    ->unscheduleSelf(Ljava/lang/Runnable;)V
 return-void
 .end method
 

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/Activity/Sender;->onCreate(Landroid/os/Bundle;)V
+    value = Lcom/fmark/tselzap/Activity/Sender;
+    ->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +27,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$1;->this$0:Lcom/fmark/tselzap/Activity/Sender;
+    iput-object p1, p0, Lcom/fmark/tselzap/Activity/Sender$1;
+    ->this$0:Lcom/fmark/tselzap/Activity/Sender;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
@@ -52,25 +55,30 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;
+    -><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lcom/fmark/tselzap/Activity/Sender$1;->this$0:Lcom/fmark/tselzap/Activity/Sender;
+    iget-object v1, p0, Lcom/fmark/tselzap/Activity/Sender$1;
+    ->this$0:Lcom/fmark/tselzap/Activity/Sender;
 
     .line 9
     .line 10
-    iget v2, v1, Lcom/fmark/tselzap/Activity/Sender;->REQUEST_ACCESSIBILITY_SETTINGS:I
+    iget v2, v1, Lcom/fmark/tselzap/Activity/Sender;
+    ->REQUEST_ACCESSIBILITY_SETTINGS:I
 
     .line 11
     .line 12
-    invoke-virtual {v1, v0, v2}, Landroidx/activity/ComponentActivity;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {v1, v0, v2}, Landroidx/activity/ComponentActivity;
+    ->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDialog;->dismiss()V
+    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDialog;
+    ->dismiss()V
 
     .line 16
     .line 17

@@ -31,12 +31,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/os/ProcessCompat$Api19Impl;->sResolvedLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/os/ProcessCompat$Api19Impl;
+    ->sResolvedLock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -47,7 +49,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -71,7 +74,8 @@
 
     .line 3
     :try_start_0
-    sget-object v2, Landroidx/core/os/ProcessCompat$Api19Impl;->sResolvedLock:Ljava/lang/Object;
+    sget-object v2, Landroidx/core/os/ProcessCompat$Api19Impl;
+    ->sResolvedLock:Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -81,7 +85,8 @@
 
     .line 6
     :try_start_1
-    sget-boolean v3, Landroidx/core/os/ProcessCompat$Api19Impl;->sResolved:Z
+    sget-boolean v3, Landroidx/core/os/ProcessCompat$Api19Impl;
+    ->sResolved:Z
 
     .line 7
     .line 8
@@ -89,7 +94,8 @@
 
     .line 9
     .line 10
-    sput-boolean v1, Landroidx/core/os/ProcessCompat$Api19Impl;->sResolved:Z
+    sput-boolean v1, Landroidx/core/os/ProcessCompat$Api19Impl;
+    ->sResolved:Z
 
     .line 11
     .line 12
@@ -105,7 +111,8 @@
 
     .line 17
     .line 18
-    sget-object v6, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Integer;
+    ->TYPE:Ljava/lang/Class;
 
     .line 19
     .line 20
@@ -113,7 +120,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 23
     .line 24
@@ -121,7 +129,8 @@
     move-result-object v3
 
     .line 26
-    sput-object v3, Landroidx/core/os/ProcessCompat$Api19Impl;->sMethodUserHandleIsAppMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/core/os/ProcessCompat$Api19Impl;
+    ->sMethodUserHandleIsAppMethod:Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -143,7 +152,8 @@
 
     .line 32
     :try_start_2
-    sget-object v2, Landroidx/core/os/ProcessCompat$Api19Impl;->sMethodUserHandleIsAppMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/os/ProcessCompat$Api19Impl;
+    ->sMethodUserHandleIsAppMethod:Ljava/lang/reflect/Method;
 
     .line 33
     .line 34
@@ -151,7 +161,8 @@
 
     .line 35
     .line 36
-    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 37
     .line 38
@@ -170,7 +181,8 @@
     const/4 p0, 0x0
 
     .line 45
-    invoke-virtual {v2, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v3}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -186,7 +198,8 @@
 
     .line 52
     .line 53
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;
+    ->booleanValue()Z
 
     .line 54
     .line 55
@@ -208,7 +221,8 @@
 
     .line 61
     .line 62
-    invoke-direct {p0}, Ljava/lang/NullPointerException;-><init>()V
+    invoke-direct {p0}, Ljava/lang/NullPointerException;
+    -><init>()V
 
     .line 63
     .line 64
@@ -232,7 +246,8 @@
 
     .line 68
     :goto_2
-    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+    invoke-virtual {p0}, Ljava/lang/Throwable;
+    ->printStackTrace()V
 
     .line 69
     .line 70

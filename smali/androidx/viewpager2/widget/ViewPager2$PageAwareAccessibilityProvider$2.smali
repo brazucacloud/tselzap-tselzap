@@ -26,11 +26,13 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$2;->this$1:Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$2;
+    ->this$1:Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -52,11 +54,13 @@
 
     .line 2
     .line 3
-    iget-object p2, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$2;->this$1:Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;
+    iget-object p2, p0, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$2;
+    ->this$1:Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;->getCurrentItem()I
+    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;
+    ->getCurrentItem()I
 
     .line 6
     .line 7
@@ -70,7 +74,9 @@
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {p2, p1}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->setCurrentItemFromAccessibilityCommand(I)V    return v0
+    invoke-virtual {p2, p1}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;
+    ->setCurrentItemFromAccessibilityCommand(I)V    
+    return v0
 .end method
 
 .end class

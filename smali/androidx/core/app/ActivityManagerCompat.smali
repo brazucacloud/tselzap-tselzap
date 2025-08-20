@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -24,7 +25,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/ActivityManager;->isLowRamDevice()Z
+    invoke-virtual {p0}, Landroid/app/ActivityManager;
+    ->isLowRamDevice()Z
 
     .line 2
     .line 3

@@ -8,7 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/LiveDataKt;->observe(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/LifecycleOwner;Lp1/l;)Landroidx/lifecycle/Observer;
+    value = Landroidx/lifecycle/LiveDataKt;
+    ->observe(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/LifecycleOwner;Lp1/l;)Landroidx/lifecycle/Observer;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -49,11 +50,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;->$onChanged:Lp1/l;
+    iput-object p1, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;
+    ->$onChanged:Lp1/l;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -68,11 +71,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;->$onChanged:Lp1/l;
+    iget-object v0, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;
+    ->$onChanged:Lp1/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;    return-void
+    invoke-interface {v0, p1}, Lp1/l;
+    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;    
+    return-void
 .end method
 
 .end class

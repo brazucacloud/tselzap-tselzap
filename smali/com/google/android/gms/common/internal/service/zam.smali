@@ -14,9 +14,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/common/internal/TelemetryData;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/service/zam;->zaa:Lcom/google/android/gms/common/internal/TelemetryData;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/service/zam;
+    ->zaa:Lcom/google/android/gms/common/internal/TelemetryData;
 
     return-void
 .end method
@@ -35,11 +37,13 @@
 
     .line 4
     .line 5
-    sget v0, Lcom/google/android/gms/common/internal/service/zao;->zab:I
+    sget v0, Lcom/google/android/gms/common/internal/service/zao;
+    ->zab:I
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->getService()Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -51,11 +55,13 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/service/zam;->zaa:Lcom/google/android/gms/common/internal/TelemetryData;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/service/zam;
+    ->zaa:Lcom/google/android/gms/common/internal/TelemetryData;
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/internal/service/zai;->zae(Lcom/google/android/gms/common/internal/TelemetryData;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/internal/service/zai;
+    ->zae(Lcom/google/android/gms/common/internal/TelemetryData;)V
 
     .line 16
     .line 17
@@ -63,7 +69,8 @@
     const/4 p1, 0x0
 
     .line 19
-    invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
+    ->setResult(Ljava/lang/Object;)V
 
     .line 20
     .line 21

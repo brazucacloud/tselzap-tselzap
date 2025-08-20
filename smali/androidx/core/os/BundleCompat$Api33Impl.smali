@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -61,7 +62,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
+    ->getParcelable(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -101,7 +103,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->getParcelableArray(Ljava/lang/String;Ljava/lang/Class;)[Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
+    ->getParcelableArray(Ljava/lang/String;Ljava/lang/Class;)[Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -143,7 +146,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
+    ->getParcelableArrayList(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -183,7 +187,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
+    ->getSerializable(Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
 
     .line 2
     .line 3
@@ -225,7 +230,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->getSparseParcelableArray(Ljava/lang/String;Ljava/lang/Class;)Landroid/util/SparseArray;
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
+    ->getSparseParcelableArray(Ljava/lang/String;Ljava/lang/Class;)Landroid/util/SparseArray;
 
     .line 2
     .line 3

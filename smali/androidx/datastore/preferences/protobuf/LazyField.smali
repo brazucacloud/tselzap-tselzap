@@ -21,12 +21,15 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;-><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;
+    -><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyField;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    return-void
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    
+    return-void
 .end method
 
 
@@ -35,7 +38,8 @@
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->containsDefaultInstance()Z
+    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;
+    ->containsDefaultInstance()Z
 
     .line 2
     .line 3
@@ -47,11 +51,13 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->value:Landroidx/datastore/preferences/protobuf/MessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyFieldLite;
+    ->value:Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/LazyField;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 10
     .line 11
@@ -79,7 +85,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 2
     .line 3
@@ -87,7 +94,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Object;
+    ->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -101,11 +109,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->getValue(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;
+    ->getValue(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 4
     .line 5
@@ -119,7 +129,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 2
     .line 3
@@ -127,7 +138,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 6
     .line 7
@@ -141,7 +153,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;
+    ->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     .line 2
     .line 3
@@ -149,7 +162,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;
+    ->toString()Ljava/lang/String;
 
     .line 6
     .line 7

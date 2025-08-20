@@ -45,12 +45,14 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/common/images/ImageManager;->zaa:Ljava/lang/Object;
+    sput-object v0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaa:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -58,12 +60,14 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+    invoke-direct {v0}, Ljava/util/HashSet;
+    -><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Lcom/google/android/gms/common/images/ImageManager;->zab:Ljava/util/HashSet;
+    sput-object v0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zab:Ljava/util/HashSet;
 
     .line 14
     .line 15
@@ -74,12 +78,14 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;
+    ->getApplicationContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -87,7 +93,8 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zad:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zad:Landroid/content/Context;
 
     .line 9
     .line 10
@@ -95,7 +102,8 @@
 
     .line 11
     .line 12
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 13
     .line 14
@@ -103,16 +111,19 @@
     move-result-object p2
 
     .line 16
-    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p1, p2}, Lcom/google/android/gms/internal/base/zau;
+    -><init>(Landroid/os/Looper;)V
 
     .line 17
     .line 18
     .line 19
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zae:Landroid/os/Handler;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zae:Landroid/os/Handler;
 
     .line 20
     .line 21
-    invoke-static {}, Lcom/google/android/gms/internal/base/zat;->zaa()Lcom/google/android/gms/internal/base/zaq;
+    invoke-static {}, Lcom/google/android/gms/internal/base/zat;
+    ->zaa()Lcom/google/android/gms/internal/base/zaq;
 
     .line 22
     .line 23
@@ -126,7 +137,8 @@
     const/4 v0, 0x2
 
     .line 27
-    invoke-interface {p1, p2, v0}, Lcom/google/android/gms/internal/base/zaq;->zab(II)Ljava/util/concurrent/ExecutorService;
+    invoke-interface {p1, p2, v0}, Lcom/google/android/gms/internal/base/zaq;
+    ->zab(II)Ljava/util/concurrent/ExecutorService;
 
     .line 28
     .line 29
@@ -134,7 +146,8 @@
     move-result-object p1
 
     .line 31
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zaf:Ljava/util/concurrent/ExecutorService;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaf:Ljava/util/concurrent/ExecutorService;
 
     .line 32
     .line 33
@@ -142,12 +155,14 @@
 
     .line 34
     .line 35
-    invoke-direct {p1}, Lcom/google/android/gms/internal/base/zam;-><init>()V
+    invoke-direct {p1}, Lcom/google/android/gms/internal/base/zam;
+    -><init>()V
 
     .line 36
     .line 37
     .line 38
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zag:Lcom/google/android/gms/internal/base/zam;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zag:Lcom/google/android/gms/internal/base/zam;
 
     .line 39
     .line 40
@@ -155,12 +170,14 @@
 
     .line 41
     .line 42
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 43
     .line 44
     .line 45
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zah:Ljava/util/Map;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zah:Ljava/util/Map;
 
     .line 46
     .line 47
@@ -168,12 +185,14 @@
 
     .line 48
     .line 49
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 50
     .line 51
     .line 52
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zai:Ljava/util/Map;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zai:Ljava/util/Map;
 
     .line 53
     .line 54
@@ -181,12 +200,14 @@
 
     .line 55
     .line 56
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashMap;
+    -><init>()V
 
     .line 57
     .line 58
     .line 59
-    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;->zaj:Ljava/util/Map;
+    iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj:Ljava/util/Map;
 
     .line 60
     .line 61
@@ -203,7 +224,8 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/images/ImageManager;->zac:Lcom/google/android/gms/common/images/ImageManager;
+    sget-object v0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zac:Lcom/google/android/gms/common/images/ImageManager;
 
     .line 2
     .line 3
@@ -218,17 +240,20 @@
     const/4 v1, 0x0
 
     .line 8
-    invoke-direct {v0, p0, v1}, Lcom/google/android/gms/common/images/ImageManager;-><init>(Landroid/content/Context;Z)V
+    invoke-direct {v0, p0, v1}, Lcom/google/android/gms/common/images/ImageManager;
+    -><init>(Landroid/content/Context;Z)V
 
     .line 9
     .line 10
     .line 11
-    sput-object v0, Lcom/google/android/gms/common/images/ImageManager;->zac:Lcom/google/android/gms/common/images/ImageManager;
+    sput-object v0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zac:Lcom/google/android/gms/common/images/ImageManager;
 
     .line 12
     .line 13
     :cond_0
-    sget-object p0, Lcom/google/android/gms/common/images/ImageManager;->zac:Lcom/google/android/gms/common/images/ImageManager;
+    sget-object p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zac:Lcom/google/android/gms/common/images/ImageManager;
 
     .line 14
     .line 15
@@ -238,7 +263,8 @@
 .method public static bridge synthetic zaa(Lcom/google/android/gms/common/images/ImageManager;)Landroid/content/Context;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zad:Landroid/content/Context;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zad:Landroid/content/Context;
 
     return-object p0
 .end method
@@ -246,7 +272,8 @@
 .method public static bridge synthetic zab(Lcom/google/android/gms/common/images/ImageManager;)Landroid/os/Handler;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zae:Landroid/os/Handler;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zae:Landroid/os/Handler;
 
     return-object p0
 .end method
@@ -254,7 +281,8 @@
 .method public static bridge synthetic zac(Lcom/google/android/gms/common/images/ImageManager;)Lcom/google/android/gms/internal/base/zam;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zag:Lcom/google/android/gms/internal/base/zam;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zag:Lcom/google/android/gms/internal/base/zam;
 
     return-object p0
 .end method
@@ -262,7 +290,8 @@
 .method public static bridge synthetic zad()Ljava/lang/Object;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/common/images/ImageManager;->zaa:Ljava/lang/Object;
+    sget-object v0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaa:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -270,7 +299,8 @@
 .method public static bridge synthetic zae()Ljava/util/HashSet;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/common/images/ImageManager;->zab:Ljava/util/HashSet;
+    sget-object v0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zab:Ljava/util/HashSet;
 
     return-object v0
 .end method
@@ -278,7 +308,8 @@
 .method public static bridge synthetic zaf(Lcom/google/android/gms/common/images/ImageManager;)Ljava/util/Map;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zaj:Ljava/util/Map;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj:Ljava/util/Map;
 
     return-object p0
 .end method
@@ -286,7 +317,8 @@
 .method public static bridge synthetic zag(Lcom/google/android/gms/common/images/ImageManager;)Ljava/util/Map;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zah:Ljava/util/Map;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zah:Ljava/util/Map;
 
     return-object p0
 .end method
@@ -294,7 +326,8 @@
 .method public static bridge synthetic zah(Lcom/google/android/gms/common/images/ImageManager;)Ljava/util/Map;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zai:Ljava/util/Map;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zai:Ljava/util/Map;
 
     return-object p0
 .end method
@@ -302,7 +335,8 @@
 .method public static bridge synthetic zai(Lcom/google/android/gms/common/images/ImageManager;)Ljava/util/concurrent/ExecutorService;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;->zaf:Ljava/util/concurrent/ExecutorService;
+    iget-object p0, p0, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaf:Ljava/util/concurrent/ExecutorService;
 
     return-object p0
 .end method
@@ -319,10 +353,12 @@
     .line 1
     new-instance v0, Lcom/google/android/gms/common/images/zae;
 
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zae;-><init>(Landroid/widget/ImageView;I)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zae;
+    -><init>(Landroid/widget/ImageView;I)V
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj(Lcom/google/android/gms/common/images/zag;)V
 return-void
 .end method
 
@@ -340,10 +376,12 @@ return-void
     .line 3
     new-instance v0, Lcom/google/android/gms/common/images/zae;
 
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zae;-><init>(Landroid/widget/ImageView;Landroid/net/Uri;)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zae;
+    -><init>(Landroid/widget/ImageView;Landroid/net/Uri;)V
 
     .line 4
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj(Lcom/google/android/gms/common/images/zag;)V
 return-void
 .end method
 
@@ -361,12 +399,15 @@ return-void
     .line 5
     new-instance v0, Lcom/google/android/gms/common/images/zae;
 
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zae;-><init>(Landroid/widget/ImageView;Landroid/net/Uri;)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zae;
+    -><init>(Landroid/widget/ImageView;Landroid/net/Uri;)V
 
-    iput p3, v0, Lcom/google/android/gms/common/images/zag;->zab:I
+    iput p3, v0, Lcom/google/android/gms/common/images/zag;
+    ->zab:I
 
     .line 6
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj(Lcom/google/android/gms/common/images/zag;)V
 return-void
 .end method
 
@@ -384,10 +425,12 @@ return-void
     .line 7
     new-instance v0, Lcom/google/android/gms/common/images/zaf;
 
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zaf;-><init>(Lcom/google/android/gms/common/images/ImageManager$OnImageLoadedListener;Landroid/net/Uri;)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zaf;
+    -><init>(Lcom/google/android/gms/common/images/ImageManager$OnImageLoadedListener;Landroid/net/Uri;)V
 
     .line 8
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj(Lcom/google/android/gms/common/images/zag;)V
 return-void
 .end method
 
@@ -405,12 +448,15 @@ return-void
     .line 9
     new-instance v0, Lcom/google/android/gms/common/images/zaf;
 
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zaf;-><init>(Lcom/google/android/gms/common/images/ImageManager$OnImageLoadedListener;Landroid/net/Uri;)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/images/zaf;
+    -><init>(Lcom/google/android/gms/common/images/ImageManager$OnImageLoadedListener;Landroid/net/Uri;)V
 
-    iput p3, v0, Lcom/google/android/gms/common/images/zag;->zab:I
+    iput p3, v0, Lcom/google/android/gms/common/images/zag;
+    ->zab:I
 
     .line 10
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;
+    ->zaj(Lcom/google/android/gms/common/images/zag;)V
 return-void
 .end method
 
@@ -422,7 +468,8 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Asserts;->checkMainThread(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Asserts;
+    ->checkMainThread(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -431,12 +478,14 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/images/zab;-><init>(Lcom/google/android/gms/common/images/ImageManager;Lcom/google/android/gms/common/images/zag;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/images/zab;
+    -><init>(Lcom/google/android/gms/common/images/ImageManager;Lcom/google/android/gms/common/images/zag;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    invoke-interface {v0}, Ljava/lang/Runnable;
+    ->run()V
 
     .line 12
     .line 13

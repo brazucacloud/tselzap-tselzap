@@ -16,7 +16,8 @@
 .field private internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -35,7 +36,8 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -47,12 +49,15 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;
+    -><init>(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    return-void
+    iput-object v0, p0, Landroidx/lifecycle/Lifecycle;
+    ->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    
+    return-void
 .end method
 
 .method private static final _get_currentStateFlow_$lambda$0(LC1/r;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -63,7 +68,8 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -72,7 +78,8 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -81,12 +88,14 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle$Event;->getTargetState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle$Event;
+    ->getTargetState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 17
     .line 18
@@ -98,7 +107,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, p1}, LC1/C;->h(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, LC1/C;
+    ->h(Ljava/lang/Object;)V
     return-void
 .end method
 
@@ -106,7 +116,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/Lifecycle;->_get_currentStateFlow_$lambda$0(LC1/r;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/Lifecycle;
+    ->_get_currentStateFlow_$lambda$0(LC1/r;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 return-void
 .end method
 
@@ -132,7 +143,8 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle;
+    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 2
     .line 3
@@ -140,7 +152,8 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, LC1/y;->a(Ljava/lang/Object;)LC1/C;
+    invoke-static {v0}, LC1/y;
+    ->a(Ljava/lang/Object;)LC1/C;
 
     .line 6
     .line 7
@@ -155,12 +168,14 @@ return-void
     const/4 v2, 0x1
 
     .line 12
-    invoke-direct {v1, v0, v2}, Landroidx/lifecycle/f;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, v0, v2}, Landroidx/lifecycle/f;
+    -><init>(Ljava/lang/Object;I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p0, v1}, Landroidx/lifecycle/Lifecycle;
+    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 16
     .line 17
@@ -169,7 +184,8 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v1, v0}, LC1/t;-><init>(LC1/r;)V
+    invoke-direct {v1, v0}, LC1/t;
+    -><init>(LC1/r;)V
 return-object v1
 .end method
 
@@ -177,7 +193,8 @@ return-object v1
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -191,7 +208,8 @@ return-object v1
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/Lifecycle;
+    ->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    return-object v0
 .end method
 
 .method public abstract removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
@@ -203,7 +221,8 @@ return-object v1
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -221,12 +240,15 @@ return-object v1
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    return-void
+    iput-object p1, p0, Landroidx/lifecycle/Lifecycle;
+    ->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    
+    return-void
 .end method
 
 .end class

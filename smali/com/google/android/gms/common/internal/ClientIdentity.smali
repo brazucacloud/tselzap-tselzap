@@ -67,9 +67,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zaa;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zaa;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zaa;
+    -><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/ClientIdentity;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -93,16 +95,19 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+    -><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->uid:I
+    iput p1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->uid:I
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->packageName:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->packageName:Ljava/lang/String;
 
     .line 7
     .line 8
@@ -149,11 +154,13 @@
 
     .line 12
     .line 13
-    iget v1, p1, Lcom/google/android/gms/common/internal/ClientIdentity;->uid:I
+    iget v1, p1, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->uid:I
 
     .line 14
     .line 15
-    iget v3, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->uid:I
+    iget v3, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->uid:I
 
     .line 16
     .line 17
@@ -161,15 +168,18 @@
 
     .line 18
     .line 19
-    iget-object p1, p1, Lcom/google/android/gms/common/internal/ClientIdentity;->packageName:Ljava/lang/String;
+    iget-object p1, p1, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->packageName:Ljava/lang/String;
 
     .line 20
     .line 21
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->packageName:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->packageName:Ljava/lang/String;
 
     .line 22
     .line 23
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/Objects;
+    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -191,7 +201,8 @@
 .method public final hashCode()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->uid:I
+    iget v0, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->uid:I
 
     return v0
 .end method
@@ -206,16 +217,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;
+    -><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->uid:I
+    iget v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->uid:I
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(I)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
@@ -224,21 +238,25 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->packageName:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->packageName:Ljava/lang/String;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -256,11 +274,13 @@
     .end param
 
     .line 1
-    iget p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->uid:I
+    iget p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->uid:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -271,12 +291,14 @@
     const/4 v1, 0x1
 
     .line 8
-    invoke-static {p1, v1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeInt(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->packageName:Ljava/lang/String;
+    iget-object p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;
+    ->packageName:Ljava/lang/String;
 
     .line 12
     .line 13
@@ -286,12 +308,14 @@
     const/4 v2, 0x2
 
     .line 15
-    invoke-static {p1, v2, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeString(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v2, p2, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->writeString(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
+    ->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 19
     .line 20

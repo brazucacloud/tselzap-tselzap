@@ -15,7 +15,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -36,7 +37,8 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Process;->myPid()I
+    invoke-static {}, Landroid/os/Process;
+    ->myPid()I
 
     .line 2
     .line 3
@@ -47,7 +49,8 @@
     int-to-long v0, v0
 
     .line 6
-    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
+    invoke-static {p0}, Ljava/lang/System;
+    ->identityHashCode(Ljava/lang/Object;)I
 
     .line 7
     .line 8
@@ -68,7 +71,8 @@
     or-long/2addr v0, v2
 
     .line 15
-    invoke-static {v0, v1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Ljava/lang/String;
+    ->valueOf(J)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -79,7 +83,8 @@
     const/4 v0, 0x1
 
     .line 20
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p1}, Landroid/text/TextUtils;
+    ->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 21
     .line 22
@@ -96,7 +101,8 @@
     .line 27
     .line 28
     :cond_0
-    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -104,7 +110,8 @@
     move-result-object p0
 
     .line 32
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;
+    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 33
     .line 34
@@ -112,7 +119,8 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Ljava/lang/String;
+    ->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38

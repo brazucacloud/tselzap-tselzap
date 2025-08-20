@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -37,7 +38,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Color;->getModel()Landroid/graphics/ColorSpace$Model;
+    invoke-virtual {p0}, Landroid/graphics/Color;
+    ->getModel()Landroid/graphics/ColorSpace$Model;
 
     .line 2
     .line 3
@@ -45,7 +47,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p1}, Landroid/graphics/Color;->getModel()Landroid/graphics/ColorSpace$Model;
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getModel()Landroid/graphics/ColorSpace$Model;
 
     .line 6
     .line 7
@@ -53,7 +56,8 @@
     move-result-object v1
 
     .line 9
-    invoke-static {v0, v1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Ljava/util/Objects;
+    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -65,7 +69,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Landroid/graphics/Color;->getColorSpace()Landroid/graphics/ColorSpace;
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getColorSpace()Landroid/graphics/ColorSpace;
 
     .line 16
     .line 17
@@ -73,7 +78,8 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {p0}, Landroid/graphics/Color;->getColorSpace()Landroid/graphics/ColorSpace;
+    invoke-virtual {p0}, Landroid/graphics/Color;
+    ->getColorSpace()Landroid/graphics/ColorSpace;
 
     .line 20
     .line 21
@@ -81,7 +87,8 @@
     move-result-object v1
 
     .line 23
-    invoke-static {v0, v1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Ljava/util/Objects;
+    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -97,7 +104,8 @@
 
     .line 30
     :cond_0
-    invoke-virtual {p1}, Landroid/graphics/Color;->getColorSpace()Landroid/graphics/ColorSpace;
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getColorSpace()Landroid/graphics/ColorSpace;
 
     .line 31
     .line 32
@@ -105,7 +113,8 @@
     move-result-object v0
 
     .line 34
-    invoke-virtual {p0, v0}, Landroid/graphics/Color;->convert(Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
+    invoke-virtual {p0, v0}, Landroid/graphics/Color;
+    ->convert(Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     .line 35
     .line 36
@@ -114,7 +123,8 @@
 
     .line 38
     :goto_0
-    invoke-virtual {p0}, Landroid/graphics/Color;->getComponents()[F
+    invoke-virtual {p0}, Landroid/graphics/Color;
+    ->getComponents()[F
 
     .line 39
     .line 40
@@ -122,7 +132,8 @@
     move-result-object v0
 
     .line 42
-    invoke-virtual {p1}, Landroid/graphics/Color;->getComponents()[F
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getComponents()[F
 
     .line 43
     .line 44
@@ -130,7 +141,8 @@
     move-result-object v1
 
     .line 46
-    invoke-virtual {p0}, Landroid/graphics/Color;->alpha()F
+    invoke-virtual {p0}, Landroid/graphics/Color;
+    ->alpha()F
 
     .line 47
     .line 48
@@ -138,7 +150,8 @@
     move-result p0
 
     .line 50
-    invoke-virtual {p1}, Landroid/graphics/Color;->alpha()F
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->alpha()F
 
     .line 51
     .line 52
@@ -157,7 +170,8 @@
 
     .line 58
     .line 59
-    invoke-virtual {p1}, Landroid/graphics/Color;->getComponentCount()I
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getComponentCount()I
 
     .line 60
     .line 61
@@ -234,7 +248,8 @@
 
     .line 93
     :cond_2
-    invoke-virtual {p1}, Landroid/graphics/Color;->getColorSpace()Landroid/graphics/ColorSpace;
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getColorSpace()Landroid/graphics/ColorSpace;
 
     .line 94
     .line 95
@@ -242,7 +257,8 @@
     move-result-object p0
 
     .line 97
-    invoke-static {v1, p0}, Landroid/graphics/Color;->valueOf([FLandroid/graphics/ColorSpace;)Landroid/graphics/Color;
+    invoke-static {v1, p0}, Landroid/graphics/Color;
+    ->valueOf([FLandroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     .line 98
     .line 99
@@ -265,12 +281,14 @@
 
     .line 107
     .line 108
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
+    -><init>(Ljava/lang/String;)V
 
     .line 109
     .line 110
     .line 111
-    invoke-virtual {p0}, Landroid/graphics/Color;->getModel()Landroid/graphics/ColorSpace$Model;
+    invoke-virtual {p0}, Landroid/graphics/Color;
+    ->getModel()Landroid/graphics/ColorSpace$Model;
 
     .line 112
     .line 113
@@ -278,7 +296,8 @@
     move-result-object p0
 
     .line 115
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 116
     .line 117
@@ -287,12 +306,14 @@
 
     .line 119
     .line 120
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 121
     .line 122
     .line 123
-    invoke-virtual {p1}, Landroid/graphics/Color;->getModel()Landroid/graphics/ColorSpace$Model;
+    invoke-virtual {p1}, Landroid/graphics/Color;
+    ->getModel()Landroid/graphics/ColorSpace$Model;
 
     .line 124
     .line 125
@@ -300,7 +321,8 @@
     move-result-object p0
 
     .line 127
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 128
     .line 129
@@ -309,12 +331,14 @@
 
     .line 131
     .line 132
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
+    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 133
     .line 134
     .line 135
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;
+    ->toString()Ljava/lang/String;
 
     .line 136
     .line 137
@@ -322,7 +346,8 @@
     move-result-object p0
 
     .line 139
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
+    -><init>(Ljava/lang/String;)V
 
     .line 140
     .line 141

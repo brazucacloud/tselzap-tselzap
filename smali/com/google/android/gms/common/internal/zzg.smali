@@ -18,11 +18,13 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/internal/zza;-><init>(Lcom/google/android/gms/common/internal/BaseGmsClient;ILandroid/os/Bundle;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/internal/zza;
+    -><init>(Lcom/google/android/gms/common/internal/BaseGmsClient;ILandroid/os/Bundle;)V
 
     .line 4
     .line 5
@@ -36,11 +38,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->enableLocalFallback()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->enableLocalFallback()Z
 
     .line 4
     .line 5
@@ -52,11 +56,13 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 10
     .line 11
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->zzo(Lcom/google/android/gms/common/internal/BaseGmsClient;)Z
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->zzo(Lcom/google/android/gms/common/internal/BaseGmsClient;)Z
 
     .line 12
     .line 13
@@ -68,7 +74,8 @@
 
     .line 16
     .line 17
-    iget-object p1, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iget-object p1, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 18
     .line 19
@@ -76,7 +83,8 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->zzk(Lcom/google/android/gms/common/internal/BaseGmsClient;I)V
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->zzk(Lcom/google/android/gms/common/internal/BaseGmsClient;I)V
 
     .line 22
     .line 23
@@ -85,24 +93,29 @@
 
     .line 25
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 26
     .line 27
-    iget-object v0, v0, Lcom/google/android/gms/common/internal/BaseGmsClient;->zzc:Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;
+    iget-object v0, v0, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->zzc:Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;
 
     .line 28
     .line 29
-    invoke-interface {v0, p1}, Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;->onReportServiceBinding(Lcom/google/android/gms/common/ConnectionResult;)V
+    invoke-interface {v0, p1}, Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;
+    ->onReportServiceBinding(Lcom/google/android/gms/common/ConnectionResult;)V
 
     .line 30
     .line 31
     .line 32
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 33
     .line 34
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;->onConnectionFailed(Lcom/google/android/gms/common/ConnectionResult;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->onConnectionFailed(Lcom/google/android/gms/common/ConnectionResult;)V
 
     .line 35
     .line 36
@@ -114,19 +127,23 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zzg;
+    ->zze:Lcom/google/android/gms/common/internal/BaseGmsClient;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/gms/common/internal/BaseGmsClient;->zzc:Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;
+    iget-object v0, v0, Lcom/google/android/gms/common/internal/BaseGmsClient;
+    ->zzc:Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;
 
     .line 4
     .line 5
-    sget-object v1, Lcom/google/android/gms/common/ConnectionResult;->RESULT_SUCCESS:Lcom/google/android/gms/common/ConnectionResult;
+    sget-object v1, Lcom/google/android/gms/common/ConnectionResult;
+    ->RESULT_SUCCESS:Lcom/google/android/gms/common/ConnectionResult;
 
     .line 6
     .line 7
-    invoke-interface {v0, v1}, Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;->onReportServiceBinding(Lcom/google/android/gms/common/ConnectionResult;)V
+    invoke-interface {v0, v1}, Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;
+    ->onReportServiceBinding(Lcom/google/android/gms/common/ConnectionResult;)V
 
     .line 8
     .line 9

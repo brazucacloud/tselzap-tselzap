@@ -19,13 +19,17 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, LT/h;->b:LT/m;
+    iput-object p1, p0, LT/h;
+    ->b:LT/m;
 
-    iput-object p2, p0, LT/h;->c:LN/k;
+    iput-object p2, p0, LT/h;
+    ->c:LN/k;
 
-    iput p3, p0, LT/h;->d:I
+    iput p3, p0, LT/h;
+    ->d:I
 
     return-void
 .end method
@@ -36,7 +40,8 @@
     .locals 4
 
     .line 1
-    iget v0, p0, LT/h;->d:I
+    iget v0, p0, LT/h;
+    ->d:I
 
     .line 2
     .line 3
@@ -44,22 +49,26 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, LT/h;->b:LT/m;
+    iget-object v1, p0, LT/h;
+    ->b:LT/m;
 
     .line 6
     .line 7
-    iget-object v1, v1, LT/m;->d:LT/d;
+    iget-object v1, v1, LT/m;
+    ->d:LT/d;
 
     .line 8
     .line 9
-    iget-object v2, p0, LT/h;->c:LN/k;
+    iget-object v2, p0, LT/h;
+    ->c:LN/k;
 
     .line 10
     .line 11
     const/4 v3, 0x0
 
     .line 12
-    invoke-virtual {v1, v2, v0, v3}, LT/d;->a(LN/t;IZ)V
+    invoke-virtual {v1, v2, v0, v3}, LT/d;
+    ->a(LN/t;IZ)V
 
     .line 13
     .line 14

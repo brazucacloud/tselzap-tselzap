@@ -15,9 +15,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lk/F;->a:I
+    iput p1, p0, Lk/F;
+    ->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -36,7 +38,8 @@
     const/4 v2, 0x0
 
     .line 4
-    iget v3, p0, Lk/F;->a:I
+    iget v3, p0, Lk/F;
+    ->a:I
 
     .line 5
     .line 6
@@ -45,7 +48,8 @@
     .line 7
     .line 8
     .line 9
-    iget v3, p1, Landroid/os/Message;->what:I
+    iget v3, p1, Landroid/os/Message;
+    ->what:I
 
     .line 10
     .line 11
@@ -65,7 +69,8 @@
     .line 17
     .line 18
     :cond_0
-    iget-object v3, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
+    iget-object v3, p1, Landroid/os/Message;
+    ->obj:Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -73,11 +78,13 @@
 
     .line 21
     .line 22
-    iget p1, p1, Landroid/os/Message;->arg1:I
+    iget p1, p1, Landroid/os/Message;
+    ->arg1:I
 
     .line 23
     .line 24
-    iget-object v4, v3, Lw0/i;->s:Landroid/view/accessibility/AccessibilityManager;
+    iget-object v4, v3, Lw0/i;
+    ->s:Landroid/view/accessibility/AccessibilityManager;
 
     .line 25
     .line 26
@@ -89,7 +96,8 @@
 
     .line 29
     :cond_1
-    invoke-virtual {v4, v1}, Landroid/view/accessibility/AccessibilityManager;->getEnabledAccessibilityServiceList(I)Ljava/util/List;
+    invoke-virtual {v4, v1}, Landroid/view/accessibility/AccessibilityManager;
+    ->getEnabledAccessibilityServiceList(I)Ljava/util/List;
 
     .line 30
     .line 31
@@ -101,7 +109,8 @@
 
     .line 34
     .line 35
-    invoke-interface {v4}, Ljava/util/List;->isEmpty()Z
+    invoke-interface {v4}, Ljava/util/List;
+    ->isEmpty()Z
 
     .line 36
     .line 37
@@ -114,11 +123,13 @@
     .line 40
     .line 41
     :goto_0
-    iget-object v4, v3, Lw0/i;->i:Lw0/h;
+    iget-object v4, v3, Lw0/i;
+    ->i:Lw0/h;
 
     .line 42
     .line 43
-    invoke-virtual {v4}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getVisibility()I
 
     .line 44
     .line 45
@@ -130,7 +141,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {v4}, Lw0/h;->getAnimationMode()I
+    invoke-virtual {v4}, Lw0/h;
+    ->getAnimationMode()I
 
     .line 50
     .line 51
@@ -151,7 +163,8 @@
     .line 58
     .line 59
     .line 60
-    invoke-static {v0}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
+    invoke-static {v0}, Landroid/animation/ValueAnimator;
+    ->ofFloat([F)Landroid/animation/ValueAnimator;
 
     .line 61
     .line 62
@@ -159,11 +172,13 @@
     move-result-object v0
 
     .line 64
-    iget-object v4, v3, Lw0/i;->d:Landroid/animation/TimeInterpolator;
+    iget-object v4, v3, Lw0/i;
+    ->d:Landroid/animation/TimeInterpolator;
 
     .line 65
     .line 66
-    invoke-virtual {v0, v4}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v0, v4}, Landroid/animation/ValueAnimator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 67
     .line 68
@@ -172,24 +187,28 @@
 
     .line 70
     .line 71
-    invoke-direct {v4, v3, v2}, Lw0/b;-><init>(Lw0/i;I)V
+    invoke-direct {v4, v3, v2}, Lw0/b;
+    -><init>(Lw0/i;I)V
 
     .line 72
     .line 73
     .line 74
-    invoke-virtual {v0, v4}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    invoke-virtual {v0, v4}, Landroid/animation/ValueAnimator;
+    ->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 75
     .line 76
     .line 77
-    iget v4, v3, Lw0/i;->b:I
+    iget v4, v3, Lw0/i;
+    ->b:I
 
     .line 78
     .line 79
     int-to-long v4, v4
 
     .line 80
-    invoke-virtual {v0, v4, v5}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
+    invoke-virtual {v0, v4, v5}, Landroid/animation/ValueAnimator;
+    ->setDuration(J)Landroid/animation/ValueAnimator;
 
     .line 81
     .line 82
@@ -198,17 +217,20 @@
 
     .line 84
     .line 85
-    invoke-direct {v4, v3, p1, v2}, Lw0/a;-><init>(Lw0/i;II)V
+    invoke-direct {v4, v3, p1, v2}, Lw0/a;
+    -><init>(Lw0/i;II)V
 
     .line 86
     .line 87
     .line 88
-    invoke-virtual {v0, v4}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {v0, v4}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 89
     .line 90
     .line 91
-    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;
+    ->start()V
 
     .line 92
     .line 93
@@ -222,12 +244,14 @@
 
     .line 97
     .line 98
-    invoke-direct {v5}, Landroid/animation/ValueAnimator;-><init>()V
+    invoke-direct {v5}, Landroid/animation/ValueAnimator;
+    -><init>()V
 
     .line 99
     .line 100
     .line 101
-    invoke-virtual {v4}, Landroid/view/View;->getHeight()I
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getHeight()I
 
     .line 102
     .line 103
@@ -235,7 +259,8 @@
     move-result v6
 
     .line 105
-    invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v4}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 106
     .line 107
@@ -255,7 +280,8 @@
 
     .line 114
     .line 115
-    iget v4, v4, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    iget v4, v4, Landroid/view/ViewGroup$MarginLayoutParams;
+    ->bottomMargin:I
 
     .line 116
     .line 117
@@ -271,28 +297,33 @@
     move-result-object v2
 
     .line 122
-    invoke-virtual {v5, v2}, Landroid/animation/ValueAnimator;->setIntValues([I)V
+    invoke-virtual {v5, v2}, Landroid/animation/ValueAnimator;
+    ->setIntValues([I)V
 
     .line 123
     .line 124
     .line 125
-    iget-object v2, v3, Lw0/i;->e:Landroid/animation/TimeInterpolator;
+    iget-object v2, v3, Lw0/i;
+    ->e:Landroid/animation/TimeInterpolator;
 
     .line 126
     .line 127
-    invoke-virtual {v5, v2}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {v5, v2}, Landroid/animation/ValueAnimator;
+    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 128
     .line 129
     .line 130
-    iget v2, v3, Lw0/i;->c:I
+    iget v2, v3, Lw0/i;
+    ->c:I
 
     .line 131
     .line 132
     int-to-long v6, v2
 
     .line 133
-    invoke-virtual {v5, v6, v7}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
+    invoke-virtual {v5, v6, v7}, Landroid/animation/ValueAnimator;
+    ->setDuration(J)Landroid/animation/ValueAnimator;
 
     .line 134
     .line 135
@@ -301,12 +332,14 @@
 
     .line 137
     .line 138
-    invoke-direct {v2, v3, p1, v0}, Lw0/a;-><init>(Lw0/i;II)V
+    invoke-direct {v2, v3, p1, v0}, Lw0/a;
+    -><init>(Lw0/i;II)V
 
     .line 139
     .line 140
     .line 141
-    invoke-virtual {v5, v2}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {v5, v2}, Landroid/animation/Animator;
+    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 142
     .line 143
@@ -318,17 +351,20 @@
     const/4 v0, 0x3
 
     .line 147
-    invoke-direct {p1, v3, v0}, Lw0/b;-><init>(Lw0/i;I)V
+    invoke-direct {p1, v3, v0}, Lw0/b;
+    -><init>(Lw0/i;I)V
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v5, p1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    invoke-virtual {v5, p1}, Landroid/animation/ValueAnimator;
+    ->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 151
     .line 152
     .line 153
-    invoke-virtual {v5}, Landroid/animation/ValueAnimator;->start()V
+    invoke-virtual {v5}, Landroid/animation/ValueAnimator;
+    ->start()V
 
     .line 154
     .line 155
@@ -337,7 +373,8 @@
 
     .line 157
     :cond_4
-    invoke-virtual {v3}, Lw0/i;->b()V
+    invoke-virtual {v3}, Lw0/i;
+    ->b()V
 
     .line 158
     .line 159
@@ -346,7 +383,8 @@
 
     .line 161
     :cond_5
-    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;
+    ->obj:Ljava/lang/Object;
 
     .line 162
     .line 163
@@ -354,11 +392,13 @@
 
     .line 164
     .line 165
-    iget-object v0, p1, Lw0/i;->i:Lw0/h;
+    iget-object v0, p1, Lw0/i;
+    ->i:Lw0/h;
 
     .line 166
     .line 167
-    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getParent()Landroid/view/ViewParent;
 
     .line 168
     .line 169
@@ -370,7 +410,8 @@
 
     .line 172
     .line 173
-    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;
+    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 174
     .line 175
@@ -394,25 +435,30 @@
 
     .line 184
     .line 185
-    invoke-direct {v4}, Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;-><init>()V
+    invoke-direct {v4}, Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;
+    -><init>()V
 
     .line 186
     .line 187
     .line 188
-    iget-object v5, v4, Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;->k:Lw0/f;
+    iget-object v5, v4, Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;
+    ->k:Lw0/f;
 
     .line 189
     .line 190
-    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v5}, Ljava/lang/Object;
+    ->getClass()Ljava/lang/Class;
 
     .line 191
     .line 192
     .line 193
-    iget-object v6, p1, Lw0/i;->t:Lw0/d;
+    iget-object v6, p1, Lw0/i;
+    ->t:Lw0/d;
 
     .line 194
     .line 195
-    iput-object v6, v5, Lw0/f;->a:Lw0/d;
+    iput-object v6, v5, Lw0/f;
+    ->a:Lw0/d;
 
     .line 196
     .line 197
@@ -420,16 +466,19 @@
 
     .line 198
     .line 199
-    invoke-direct {v5, p1}, Lw0/e;-><init>(Lw0/i;)V
+    invoke-direct {v5, p1}, Lw0/e;
+    -><init>(Lw0/i;)V
 
     .line 200
     .line 201
     .line 202
-    iput-object v5, v4, Lcom/google/android/material/behavior/SwipeDismissBehavior;->c:Lw0/e;
+    iput-object v5, v4, Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    ->c:Lw0/e;
 
     .line 203
     .line 204
-    invoke-virtual {v3, v4}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->setBehavior(Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;)V
+    invoke-virtual {v3, v4}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
+    ->setBehavior(Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;)V
 
     .line 205
     .line 206
@@ -438,29 +487,35 @@
 
     .line 208
     .line 209
-    iput v4, v3, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->insetEdge:I
+    iput v4, v3, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
+    ->insetEdge:I
 
     .line 210
     .line 211
     :cond_6
-    iput-boolean v1, v0, Lw0/h;->l:Z
+    iput-boolean v1, v0, Lw0/h;
+    ->l:Z
 
     .line 212
     .line 213
-    iget-object v3, p1, Lw0/i;->g:Landroid/view/ViewGroup;
+    iget-object v3, p1, Lw0/i;
+    ->g:Landroid/view/ViewGroup;
 
     .line 214
     .line 215
-    invoke-virtual {v3, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual {v3, v0}, Landroid/view/ViewGroup;
+    ->addView(Landroid/view/View;)V
 
     .line 216
     .line 217
     .line 218
-    iput-boolean v2, v0, Lw0/h;->l:Z
+    iput-boolean v2, v0, Lw0/h;
+    ->l:Z
 
     .line 219
     .line 220
-    invoke-virtual {p1}, Lw0/i;->e()V
+    invoke-virtual {p1}, Lw0/i;
+    ->e()V
 
     .line 221
     .line 222
@@ -468,13 +523,15 @@
     const/4 v2, 0x4
 
     .line 224
-    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;
+    ->setVisibility(I)V
 
     .line 225
     .line 226
     .line 227
     :cond_7
-    invoke-virtual {v0}, Landroid/view/View;->isLaidOut()Z
+    invoke-virtual {v0}, Landroid/view/View;
+    ->isLaidOut()Z
 
     .line 228
     .line 229
@@ -486,7 +543,8 @@
 
     .line 232
     .line 233
-    invoke-virtual {p1}, Lw0/i;->d()V
+    invoke-virtual {p1}, Lw0/i;
+    ->d()V
 
     .line 234
     .line 235
@@ -495,7 +553,8 @@
 
     .line 237
     :cond_8
-    iput-boolean v1, p1, Lw0/i;->r:Z
+    iput-boolean v1, p1, Lw0/i;
+    ->r:Z
 
     .line 238
     .line 239
@@ -504,7 +563,8 @@
 
     .line 240
     :pswitch_0
-    iget v0, p1, Landroid/os/Message;->what:I
+    iget v0, p1, Landroid/os/Message;
+    ->what:I
 
     .line 241
     .line 242
@@ -512,7 +572,8 @@
 
     .line 243
     .line 244
-    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;
+    ->obj:Ljava/lang/Object;
 
     .line 245
     .line 246
@@ -520,7 +581,8 @@
 
     .line 247
     .line 248
-    invoke-interface {p1}, Lk/C;->recycle()V
+    invoke-interface {p1}, Lk/C;
+    ->recycle()V
 
     .line 249
     .line 250

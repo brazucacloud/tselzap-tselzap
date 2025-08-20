@@ -27,13 +27,17 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaci;->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zaa:Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaci;->zab:Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zab:Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;
 
-    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zaci;->zac:Ljava/lang/Runnable;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zaci;
+    ->zac:Ljava/lang/Runnable;
 
     return-void
 .end method

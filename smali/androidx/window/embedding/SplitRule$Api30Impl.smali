@@ -28,9 +28,11 @@
 
     new-instance v0, Landroidx/window/embedding/SplitRule$Api30Impl;
 
-    invoke-direct {v0}, Landroidx/window/embedding/SplitRule$Api30Impl;-><init>()V
+    invoke-direct {v0}, Landroidx/window/embedding/SplitRule$Api30Impl;
+    -><init>()V
 
-    sput-object v0, Landroidx/window/embedding/SplitRule$Api30Impl;->INSTANCE:Landroidx/window/embedding/SplitRule$Api30Impl;
+    sput-object v0, Landroidx/window/embedding/SplitRule$Api30Impl;
+    ->INSTANCE:Landroidx/window/embedding/SplitRule$Api30Impl;
 
     return-void
 .end method
@@ -39,7 +41,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -59,12 +62,14 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/WindowMetrics;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p1}, Landroid/view/WindowMetrics;
+    ->getBounds()Landroid/graphics/Rect;
 
     .line 7
     .line 8
@@ -76,7 +81,8 @@
 
     .line 11
     .line 12
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
+    ->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14

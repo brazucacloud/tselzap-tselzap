@@ -51,12 +51,14 @@
     const/4 v2, 0x0
 
     .line 5
-    invoke-direct {v0, v1, v2}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;-><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;
+    -><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
 
     .line 6
     .line 7
     .line 8
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 9
     .line 10
@@ -67,12 +69,14 @@
     const/4 v3, 0x1
 
     .line 13
-    invoke-direct {v0, v1, v3}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;-><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
+    invoke-direct {v0, v1, v3}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;
+    -><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
 
     .line 14
     .line 15
     .line 16
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->RTL:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->RTL:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 17
     .line 18
@@ -80,16 +84,19 @@
 
     .line 19
     .line 20
-    sget-object v1, Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
+    sget-object v1, Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
+    ->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$FirstStrong;
 
     .line 21
     .line 22
-    invoke-direct {v0, v1, v2}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;-><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;
+    -><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
 
     .line 23
     .line 24
     .line 25
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->FIRSTSTRONG_LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->FIRSTSTRONG_LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 26
     .line 27
@@ -97,12 +104,14 @@
 
     .line 28
     .line 29
-    invoke-direct {v0, v1, v3}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;-><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
+    invoke-direct {v0, v1, v3}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;
+    -><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
 
     .line 30
     .line 31
     .line 32
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->FIRSTSTRONG_RTL:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->FIRSTSTRONG_RTL:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 33
     .line 34
@@ -110,24 +119,29 @@
 
     .line 35
     .line 36
-    sget-object v1, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;->INSTANCE_RTL:Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    sget-object v1, Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
+    ->INSTANCE_RTL:Landroidx/core/text/TextDirectionHeuristicsCompat$AnyStrong;
 
     .line 37
     .line 38
-    invoke-direct {v0, v1, v2}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;-><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal;
+    -><init>(Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm;Z)V
 
     .line 39
     .line 40
     .line 41
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->ANYRTL_LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->ANYRTL_LTR:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 42
     .line 43
-    sget-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
+    sget-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
+    ->INSTANCE:Landroidx/core/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale;
 
     .line 44
     .line 45
-    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;->LOCALE:Landroidx/core/text/TextDirectionHeuristicCompat;
+    sput-object v0, Landroidx/core/text/TextDirectionHeuristicsCompat;
+    ->LOCALE:Landroidx/core/text/TextDirectionHeuristicCompat;
 
     .line 46
     .line 47
@@ -138,7 +152,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3

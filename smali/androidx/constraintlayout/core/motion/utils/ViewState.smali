@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
     return-void
 .end method
 
@@ -30,7 +31,8 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;->getLeft()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->getLeft()I
 
     .line 2
     .line 3
@@ -38,11 +40,13 @@
     move-result v0
 
     .line 5
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->left:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->left:I
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;->getTop()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->getTop()I
 
     .line 8
     .line 9
@@ -50,11 +54,13 @@
     move-result v0
 
     .line 11
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->top:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->top:I
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;->getRight()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->getRight()I
 
     .line 14
     .line 15
@@ -62,11 +68,13 @@
     move-result v0
 
     .line 17
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->right:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->right:I
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;->getBottom()I
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->getBottom()I
 
     .line 20
     .line 21
@@ -74,11 +82,13 @@
     move-result v0
 
     .line 23
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->bottom:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->bottom:I
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;->getRotationZ()F
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/motion/MotionWidget;
+    ->getRotationZ()F
 
     .line 26
     .line 27
@@ -92,18 +102,22 @@
     int-to-float p1, p1
 
     .line 31
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->rotation:F    return-void
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->rotation:F    
+    return-void
 .end method
 
 .method public height()I
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->bottom:I
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->bottom:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->top:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->top:I
 
     .line 4
     .line 5
@@ -116,11 +130,13 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->right:I
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->right:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;->left:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/ViewState;
+    ->left:I
 
     .line 4
     .line 5

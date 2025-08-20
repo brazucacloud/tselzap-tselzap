@@ -6,7 +6,8 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;
+    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -51,7 +52,8 @@
 
     .line 2
     .line 3
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;
+    ->getMainLooper()Landroid/os/Looper;
 
     .line 4
     .line 5
@@ -59,16 +61,19 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;
+    -><init>(Landroid/os/Looper;)V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Landroidx/core/app/ActivityRecreator;->mainHandler:Landroid/os/Handler;
+    sput-object v0, Landroidx/core/app/ActivityRecreator;
+    ->mainHandler:Landroid/os/Handler;
 
     .line 11
     .line 12
-    invoke-static {}, Landroidx/core/app/ActivityRecreator;->getActivityThreadClass()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/app/ActivityRecreator;
+    ->getActivityThreadClass()Ljava/lang/Class;
 
     .line 13
     .line 14
@@ -76,11 +81,13 @@
     move-result-object v0
 
     .line 16
-    sput-object v0, Landroidx/core/app/ActivityRecreator;->activityThreadClass:Ljava/lang/Class;
+    sput-object v0, Landroidx/core/app/ActivityRecreator;
+    ->activityThreadClass:Ljava/lang/Class;
 
     .line 17
     .line 18
-    invoke-static {}, Landroidx/core/app/ActivityRecreator;->getMainThreadField()Ljava/lang/reflect/Field;
+    invoke-static {}, Landroidx/core/app/ActivityRecreator;
+    ->getMainThreadField()Ljava/lang/reflect/Field;
 
     .line 19
     .line 20
@@ -88,11 +95,13 @@
     move-result-object v1
 
     .line 22
-    sput-object v1, Landroidx/core/app/ActivityRecreator;->mainThreadField:Ljava/lang/reflect/Field;
+    sput-object v1, Landroidx/core/app/ActivityRecreator;
+    ->mainThreadField:Ljava/lang/reflect/Field;
 
     .line 23
     .line 24
-    invoke-static {}, Landroidx/core/app/ActivityRecreator;->getTokenField()Ljava/lang/reflect/Field;
+    invoke-static {}, Landroidx/core/app/ActivityRecreator;
+    ->getTokenField()Ljava/lang/reflect/Field;
 
     .line 25
     .line 26
@@ -100,11 +109,13 @@
     move-result-object v1
 
     .line 28
-    sput-object v1, Landroidx/core/app/ActivityRecreator;->tokenField:Ljava/lang/reflect/Field;
+    sput-object v1, Landroidx/core/app/ActivityRecreator;
+    ->tokenField:Ljava/lang/reflect/Field;
 
     .line 29
     .line 30
-    invoke-static {v0}, Landroidx/core/app/ActivityRecreator;->getPerformStopActivity3Params(Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v0}, Landroidx/core/app/ActivityRecreator;
+    ->getPerformStopActivity3Params(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 31
     .line 32
@@ -112,11 +123,13 @@
     move-result-object v1
 
     .line 34
-    sput-object v1, Landroidx/core/app/ActivityRecreator;->performStopActivity3ParamsMethod:Ljava/lang/reflect/Method;
+    sput-object v1, Landroidx/core/app/ActivityRecreator;
+    ->performStopActivity3ParamsMethod:Ljava/lang/reflect/Method;
 
     .line 35
     .line 36
-    invoke-static {v0}, Landroidx/core/app/ActivityRecreator;->getPerformStopActivity2Params(Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v0}, Landroidx/core/app/ActivityRecreator;
+    ->getPerformStopActivity2Params(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 37
     .line 38
@@ -124,11 +137,13 @@
     move-result-object v1
 
     .line 40
-    sput-object v1, Landroidx/core/app/ActivityRecreator;->performStopActivity2ParamsMethod:Ljava/lang/reflect/Method;
+    sput-object v1, Landroidx/core/app/ActivityRecreator;
+    ->performStopActivity2ParamsMethod:Ljava/lang/reflect/Method;
 
     .line 41
     .line 42
-    invoke-static {v0}, Landroidx/core/app/ActivityRecreator;->getRequestRelaunchActivityMethod(Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-static {v0}, Landroidx/core/app/ActivityRecreator;
+    ->getRequestRelaunchActivityMethod(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 43
     .line 44
@@ -136,7 +151,8 @@
     move-result-object v0
 
     .line 46
-    sput-object v0, Landroidx/core/app/ActivityRecreator;->requestRelaunchActivityMethod:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/core/app/ActivityRecreator;
+    ->requestRelaunchActivityMethod:Ljava/lang/reflect/Method;
 
     .line 47
     .line 48
@@ -147,7 +163,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -171,7 +188,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;
+    ->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -202,7 +220,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 6
     .line 7
@@ -213,7 +232,8 @@
     const/4 v1, 0x1
 
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -278,7 +298,8 @@
 
     .line 15
     .line 16
-    sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -286,7 +307,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v2, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {p0, v2, v3}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 21
     .line 22
@@ -294,7 +316,8 @@
     move-result-object p0
 
     .line 24
-    invoke-virtual {p0, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {p0, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -357,7 +380,8 @@
 
     .line 15
     .line 16
-    sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -376,7 +400,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0, v2, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {p0, v2, v3}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 26
     .line 27
@@ -384,7 +409,8 @@
     move-result-object p0
 
     .line 29
-    invoke-virtual {p0, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {p0, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -413,7 +439,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {}, Landroidx/core/app/ActivityRecreator;->needsRelaunchCall()Z
+    invoke-static {}, Landroidx/core/app/ActivityRecreator;
+    ->needsRelaunchCall()Z
 
     .line 3
     .line 4
@@ -475,7 +502,8 @@
 
     .line 29
     .line 30
-    sget-object v4, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Integer;
+    ->TYPE:Ljava/lang/Class;
 
     .line 31
     .line 32
@@ -486,7 +514,8 @@
 
     .line 34
     .line 35
-    sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Boolean;
+    ->TYPE:Ljava/lang/Class;
 
     .line 36
     .line 37
@@ -530,7 +559,8 @@
 
     .line 54
     .line 55
-    invoke-virtual {p0, v1, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {p0, v1, v3}, Ljava/lang/Class;
+    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 56
     .line 57
@@ -538,7 +568,8 @@
     move-result-object p0
 
     .line 59
-    invoke-virtual {p0, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {p0, v0}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -567,7 +598,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;
+    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 6
     .line 7
@@ -578,7 +610,8 @@
     const/4 v1, 0x1
 
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
+    ->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -598,7 +631,8 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 2
     .line 3
@@ -642,11 +676,13 @@
 
     .line 2
     :try_start_0
-    sget-object v1, Landroidx/core/app/ActivityRecreator;->tokenField:Ljava/lang/reflect/Field;
+    sget-object v1, Landroidx/core/app/ActivityRecreator;
+    ->tokenField:Ljava/lang/reflect/Field;
 
     .line 3
     .line 4
-    invoke-virtual {v1, p2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p2}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -658,7 +694,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p2}, Ljava/lang/Object;->hashCode()I
+    invoke-virtual {p2}, Ljava/lang/Object;
+    ->hashCode()I
 
     .line 11
     .line 12
@@ -674,11 +711,13 @@
 
     .line 17
     :cond_0
-    sget-object p0, Landroidx/core/app/ActivityRecreator;->mainThreadField:Ljava/lang/reflect/Field;
+    sget-object p0, Landroidx/core/app/ActivityRecreator;
+    ->mainThreadField:Ljava/lang/reflect/Field;
 
     .line 18
     .line 19
-    invoke-virtual {p0, p2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p2}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -686,7 +725,8 @@
     move-result-object p0
 
     .line 23
-    sget-object p1, Landroidx/core/app/ActivityRecreator;->mainHandler:Landroid/os/Handler;
+    sget-object p1, Landroidx/core/app/ActivityRecreator;
+    ->mainHandler:Landroid/os/Handler;
 
     .line 24
     .line 25
@@ -694,12 +734,14 @@
 
     .line 26
     .line 27
-    invoke-direct {p2, p0, v1}, Landroidx/core/app/ActivityRecreator$3;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p2, p0, v1}, Landroidx/core/app/ActivityRecreator$3;
+    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p1, p2}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, p2}, Landroid/os/Handler;
+    ->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -732,7 +774,8 @@
 
     .line 41
     .line 42
-    invoke-static {p1, p2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, p2, p0}, Landroid/util/Log;
+    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 43
     .line 44
@@ -754,7 +797,8 @@
     const/4 v1, 0x0
 
     .line 3
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;
+    ->SDK_INT:I
 
     .line 4
     .line 5
@@ -769,7 +813,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/app/Activity;->recreate()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->recreate()V
 
     .line 11
     .line 12
@@ -778,7 +823,8 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Landroidx/core/app/ActivityRecreator;->needsRelaunchCall()Z
+    invoke-static {}, Landroidx/core/app/ActivityRecreator;
+    ->needsRelaunchCall()Z
 
     .line 15
     .line 16
@@ -790,7 +836,8 @@
 
     .line 19
     .line 20
-    sget-object v2, Landroidx/core/app/ActivityRecreator;->requestRelaunchActivityMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/app/ActivityRecreator;
+    ->requestRelaunchActivityMethod:Ljava/lang/reflect/Method;
 
     .line 21
     .line 22
@@ -802,7 +849,8 @@
 
     .line 25
     :cond_1
-    sget-object v2, Landroidx/core/app/ActivityRecreator;->performStopActivity2ParamsMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/app/ActivityRecreator;
+    ->performStopActivity2ParamsMethod:Ljava/lang/reflect/Method;
 
     .line 26
     .line 27
@@ -810,7 +858,8 @@
 
     .line 28
     .line 29
-    sget-object v2, Landroidx/core/app/ActivityRecreator;->performStopActivity3ParamsMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/app/ActivityRecreator;
+    ->performStopActivity3ParamsMethod:Ljava/lang/reflect/Method;
 
     .line 30
     .line 31
@@ -823,11 +872,13 @@
     .line 34
     :cond_2
     :try_start_0
-    sget-object v2, Landroidx/core/app/ActivityRecreator;->tokenField:Ljava/lang/reflect/Field;
+    sget-object v2, Landroidx/core/app/ActivityRecreator;
+    ->tokenField:Ljava/lang/reflect/Field;
 
     .line 35
     .line 36
-    invoke-virtual {v2, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -843,11 +894,13 @@
 
     .line 43
     :cond_3
-    sget-object v3, Landroidx/core/app/ActivityRecreator;->mainThreadField:Ljava/lang/reflect/Field;
+    sget-object v3, Landroidx/core/app/ActivityRecreator;
+    ->mainThreadField:Ljava/lang/reflect/Field;
 
     .line 44
     .line 45
-    invoke-virtual {v3, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0}, Ljava/lang/reflect/Field;
+    ->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -863,7 +916,8 @@
 
     .line 52
     :cond_4
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->getApplication()Landroid/app/Application;
 
     .line 53
     .line 54
@@ -875,17 +929,20 @@
 
     .line 57
     .line 58
-    invoke-direct {v6, p0}, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v6, p0}, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
+    -><init>(Landroid/app/Activity;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v5, v6}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    invoke-virtual {v5, v6}, Landroid/app/Application;
+    ->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
     .line 62
     .line 63
     .line 64
-    sget-object v7, Landroidx/core/app/ActivityRecreator;->mainHandler:Landroid/os/Handler;
+    sget-object v7, Landroidx/core/app/ActivityRecreator;
+    ->mainHandler:Landroid/os/Handler;
 
     .line 65
     .line 66
@@ -893,12 +950,14 @@
 
     .line 67
     .line 68
-    invoke-direct {v8, v6, v2}, Landroidx/core/app/ActivityRecreator$1;-><init>(Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;Ljava/lang/Object;)V
+    invoke-direct {v8, v6, v2}, Landroidx/core/app/ActivityRecreator$1;
+    -><init>(Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;Ljava/lang/Object;)V
 
     .line 69
     .line 70
     .line 71
-    invoke-virtual {v7, v8}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v7, v8}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -906,7 +965,8 @@
     .line 73
     .line 74
     :try_start_1
-    invoke-static {}, Landroidx/core/app/ActivityRecreator;->needsRelaunchCall()Z
+    invoke-static {}, Landroidx/core/app/ActivityRecreator;
+    ->needsRelaunchCall()Z
 
     .line 75
     .line 76
@@ -918,11 +978,13 @@
 
     .line 79
     .line 80
-    sget-object p0, Landroidx/core/app/ActivityRecreator;->requestRelaunchActivityMethod:Ljava/lang/reflect/Method;
+    sget-object p0, Landroidx/core/app/ActivityRecreator;
+    ->requestRelaunchActivityMethod:Ljava/lang/reflect/Method;
 
     .line 81
     .line 82
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;
+    ->valueOf(I)Ljava/lang/Integer;
 
     .line 83
     .line 84
@@ -960,7 +1022,8 @@
 
     .line 99
     .line 100
-    sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    sget-object v2, Ljava/lang/Boolean;
+    ->FALSE:Ljava/lang/Boolean;
 
     .line 101
     .line 102
@@ -1000,7 +1063,8 @@
 
     .line 117
     .line 118
-    invoke-virtual {p0, v3, v9}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v3, v9}, Ljava/lang/reflect/Method;
+    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 119
     .line 120
@@ -1016,7 +1080,8 @@
 
     .line 124
     :cond_5
-    invoke-virtual {p0}, Landroid/app/Activity;->recreate()V
+    invoke-virtual {p0}, Landroid/app/Activity;
+    ->recreate()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1029,12 +1094,14 @@
 
     .line 128
     .line 129
-    invoke-direct {p0, v5, v6}, Landroidx/core/app/ActivityRecreator$2;-><init>(Landroid/app/Application;Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;)V
+    invoke-direct {p0, v5, v6}, Landroidx/core/app/ActivityRecreator$2;
+    -><init>(Landroid/app/Application;Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;)V
 
     .line 130
     .line 131
     .line 132
-    invoke-virtual {v7, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v7, p0}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 133
     .line 134
@@ -1043,7 +1110,8 @@
 
     .line 136
     :goto_1
-    sget-object v1, Landroidx/core/app/ActivityRecreator;->mainHandler:Landroid/os/Handler;
+    sget-object v1, Landroidx/core/app/ActivityRecreator;
+    ->mainHandler:Landroid/os/Handler;
 
     .line 137
     .line 138
@@ -1051,12 +1119,14 @@
 
     .line 139
     .line 140
-    invoke-direct {v2, v5, v6}, Landroidx/core/app/ActivityRecreator$2;-><init>(Landroid/app/Application;Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;)V
+    invoke-direct {v2, v5, v6}, Landroidx/core/app/ActivityRecreator$2;
+    -><init>(Landroid/app/Application;Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;)V
 
     .line 141
     .line 142
     .line 143
-    invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Landroid/os/Handler;
+    ->post(Ljava/lang/Runnable;)Z
 
     .line 144
     .line 145

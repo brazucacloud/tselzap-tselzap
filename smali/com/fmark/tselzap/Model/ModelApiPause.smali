@@ -14,7 +14,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;
+    -><init>()V
 
     .line 2
     .line 3
@@ -28,7 +29,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Model/ModelApiPause;->HourEnd:Ljava/lang/String;
+    iget-object v0, p0, Lcom/fmark/tselzap/Model/ModelApiPause;
+    ->HourEnd:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -39,7 +41,8 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Model/ModelApiPause;->HourInitial:Ljava/lang/String;
+    iget-object v0, p0, Lcom/fmark/tselzap/Model/ModelApiPause;
+    ->HourInitial:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -50,7 +53,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Model/ModelApiPause;->HourEnd:Ljava/lang/String;
+    iput-object p1, p0, Lcom/fmark/tselzap/Model/ModelApiPause;
+    ->HourEnd:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -61,7 +65,8 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Model/ModelApiPause;->HourInitial:Ljava/lang/String;
+    iput-object p1, p0, Lcom/fmark/tselzap/Model/ModelApiPause;
+    ->HourInitial:Ljava/lang/String;
 
     .line 2
     .line 3
